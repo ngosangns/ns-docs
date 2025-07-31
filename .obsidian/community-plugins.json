@@ -2,6 +2,7 @@
   "number-headings-obsidian",
   "obsidian-excalidraw-plugin",
   "oz-clear-unused-images",
-  "share-to-notionnext",
-  "github-sync"
+  "obsidian-git",
+  "obsidian-version-history-diff",
+  "terminal"
 ]
