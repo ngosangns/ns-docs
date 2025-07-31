@@ -37,24 +37,10 @@
             "id": "a33e62b84f848df7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99-General/Microservices.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Microservices"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -170,13 +156,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-General/Microservices.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microservices"
+              "title": "Outline"
             }
           },
           {
@@ -205,11 +190,16 @@
       "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "share-to-notionnext:Share to NotionNext": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "a33e62b84f848df7",
   "lastOpenFiles": [
+    "99-General/ngosangns - home.md",
+    "99-General/Microservices.md",
     "99-General/Game.md",
     "99-General/README.md",
     "04-AI-Machine-Learning/Machine-Learning/Machine learning - Deep Learning - AI - ML - DL.md",
@@ -226,9 +216,7 @@
     "nobsidion-master/service/notion.ts",
     "nobsidion-master/service/index.ts",
     "nobsidion-master/README.md",
-    "99-General/Microservices.md",
     "04-AI-Machine-Learning/AI support for coding - MCP - Agent.md",
-    "99-General/ngosangns - home.md",
     "04-AI-Machine-Learning/AI support for coding.md",
     "99-General/MCP - Model Context Protocol.md",
     "02-Frontend-Development/React/React - Next.md",
