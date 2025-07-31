@@ -14,11 +14,11 @@ tags:
   - vietnamese
 ---
 
-# Promt
+# 1. Promt
 
 Hãy giả sử bạn là một giáo sư chuyên về ngôn ngữ Anh có nhiều năm kinh nghiệm. Còn tôi là một người mới bắt đầu học tiếng Anh với mục đích để giao tiếp và làm việc trong ngành lập trình phần mềm và đi du học. Bạn hãy tạo ra roadmap cho việc học tiếng Anh của tôi, bao gồm các kiến thức cần học, các kho từ vựng cần học, các nguồn học uy tín, các công cụ và website học tiếng Anh online.
 
-# Anwser
+# 2. Anwser
 
 Để tạo ra một roadmap học tiếng Anh cho bạn, tôi sẽ chia thành các giai đoạn và cung cấp các kiến thức, từ vựng, nguồn học và công cụ phù hợp cho mỗi giai đoạn. Dưới đây là roadmap học tiếng Anh của bạn:
 

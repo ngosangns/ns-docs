@@ -9,7 +9,7 @@ tags:
   - vietop
 ---
 
-## Staging
+## 0.1. Staging
 - Database:
 ```
 host: database-stg.chye7txtohbf.ap-southeast-1.rds.amazonaws.com:3306
