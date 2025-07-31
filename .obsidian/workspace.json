@@ -199,14 +199,15 @@
       "obsidian-livesync:P2P Replicator": false,
       "obsidian-livesync:Show Customization sync": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "b3f69aadb7dfed88",
+  "active": "3bfa14a4ec0ba0fb",
   "lastOpenFiles": [
+    "99-General/ngosangns - home.md",
     "10-Personal-Development/README.md",
     "10-Personal-Development/Life.md",
-    "99-General/ngosangns - home.md",
     "99-General/Microservices.md",
     "99-General/Game.md",
     "99-General/README.md",
