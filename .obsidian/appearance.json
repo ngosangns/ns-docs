@@ -1,0 +1,9 @@
+{
+  "accentColor": "#5cf566",
+  "interfaceFontFamily": "American Typewriter",
+  "nativeMenus": true,
+  "cssTheme": "Things",
+  "enabledCssSnippets": [
+    "index"
+  ]
+}

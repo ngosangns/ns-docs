@@ -1,0 +1,12 @@
+---
+relates:
+  - "[[Work]]"
+---
+- SOLID
+- Reactive programming
+- Concurrency programming
+- Front-end:
+	- Drag & drop
+	- Web worker
+	- Selection API
+	- Storage API
