@@ -1,5 +1,5 @@
 {
-  "remoteURL": "https://github.com/ngosangns/ngosangns-obsidian",
+  "remoteURL": "git@github.com:ngosangns/ngosangns-obsidian.git",
   "gitLocation": "",
   "syncinterval": 0,
   "isSyncOnLoad": false,
