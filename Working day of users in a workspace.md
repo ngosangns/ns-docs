@@ -9,7 +9,7 @@ tags:
   - workspace
 ---
 
-# Một số khái niệm
+# 1. Một số khái niệm
 
 - **Working day** (of a user in month): Số ngày làm việc của user đó trong tháng.
     - Ví dụ 1 tháng có 4 tuần và mỗi tuần đều đi làm từ thứ 2 → thứ 6 thì working day = 5 * 4 = 20 (ngày)

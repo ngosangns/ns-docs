@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99-General/ngosangns - home.md",
+                "file": "ngosangns - home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "ngosangns - home"
             }
+          },
+          {
+            "id": "2af0f766e7532ef3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VPN - Proxy - Firewall.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "VPN - Proxy - Firewall"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:README",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,12 +101,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 355.5
   },
   "right": {
     "id": "dcfe546b23c80c5b",
@@ -97,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "99-General/ngosangns - home.md",
+                "file": "VPN - Proxy - Firewall.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ngosangns - home"
+              "title": "Backlinks for VPN - Proxy - Firewall"
             }
           },
           {
@@ -145,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99-General/ngosangns - home.md",
+                "file": "VPN - Proxy - Firewall.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ngosangns - home"
+              "title": "Outline of VPN - Proxy - Firewall"
             }
           },
           {
@@ -196,35 +220,45 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3bfa14a4ec0ba0fb",
+  "active": "b3f69aadb7dfed88",
   "lastOpenFiles": [
-    "99-General/ngosangns - home.md",
-    "10-Personal-Development/README.md",
-    "10-Personal-Development/Life.md",
-    "99-General/Microservices.md",
-    "99-General/Game.md",
-    "99-General/README.md",
-    "04-AI-Machine-Learning/Machine-Learning/Machine learning - Deep Learning - AI - ML - DL.md",
-    "04-AI-Machine-Learning/LLM-ChatGPT/AI - Large Language Models (LLM).md",
-    "Excalidraw/Drawing 2025-07-31 17.18.51.excalidraw.md",
+    "Vietop.md",
+    "Algorithm/Bài toán liệt kê.md",
+    "Lifestyle-Fashion/Chỗ mua đồ.md",
+    "English/Công cụ học tiếng Anh.md",
+    "Cross-platform.md",
+    "Du lịch Huế.md",
+    "Work/Troodonlabs.md",
+    "Tự vệ.md",
+    "vocab.md",
+    "VPS - Hosting.md",
+    "VPN - Proxy - Firewall.md",
+    "Lifestyle-Fashion/Các loại vải phù hợp cho mùa hè.md",
+    "ngosangns - home.md",
+    "Blockchain/Blockchain.md",
+    "English/IELTS/Kho tài liệu sau 3 năm học IELTS của t - phần 1.md",
+    "Backend/Backend - Back-end.md",
+    "Programming-Languages/README.md",
+    "Travel/README.md",
+    "Personal-Development/README.md",
+    "Cloud-DevOps/README.md",
+    "Interview/README.md",
+    "Frontend/README.md",
+    "English/README.md",
+    "Business/README.md",
+    "Algorithm/README.md",
+    "Algorithm/Drawing 2025-08-01 00.04.57.excalidraw.md",
+    "Work",
+    "Work/Viclass",
+    "Algorithm",
+    "Network",
+    "Blockchain",
+    "Untitled.canvas",
+    "Programming-Languages/Kotlin",
     "Excalidraw",
     "nobsidion-master/__mocks__/service/notion.ts",
     "nobsidion-master/__mocks__/obsidian.ts",
     "nobsidion-master/tests/index.spec.ts",
-    "nobsidion-master/static/message.ts",
-    "nobsidion-master/static/icon.ts",
-    "nobsidion-master/service/utils.ts",
-    "nobsidion-master/service/types.ts",
-    "nobsidion-master/service/notion.ts",
-    "nobsidion-master/service/index.ts",
-    "nobsidion-master/README.md",
-    "04-AI-Machine-Learning/AI support for coding - MCP - Agent.md",
-    "04-AI-Machine-Learning/AI support for coding.md",
-    "99-General/MCP - Model Context Protocol.md",
-    "02-Frontend-Development/React/React - Next.md",
-    "09-Business-Management/Freelance 1 - Dropshipping.md",
-    "09-Business-Management/Freelance 2 - Justbijay.md",
-    "09-Business-Management/Business.md",
     "attachments/telegram-cloud-photo-size-5-6311899726957623527-y.jpg",
     "attachments/bddf3546-c720-4313-9046-36d8c4a97019.png",
     "attachments/a03077b24546810e9aabd32f2afe2608_MD5.webp",
@@ -235,16 +269,6 @@
     "attachments/Untitled 7.png",
     "attachments/Untitled 7 1.png",
     "attachments/Untitled 6 1.png",
-    "ngosangns - home.md",
-    "07-Interview-Preparation/README.md",
-    "11-Lifestyle-Fashion/README.md",
-    "08-English-Learning/README.md",
-    "12-Travel/README.md",
-    "01-Programming-Languages/README.md",
-    "09-Business-Management/README.md",
-    "03-Backend-Development/README.md",
-    "06-Algorithms-Data-Structures/README.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "Untitled 1.canvas"
   ]
 }
