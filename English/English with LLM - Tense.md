@@ -2,6 +2,12 @@
 relates:
   - "[[English]]"
   - "[[English with LLM]]"
+tags:
+  - english
+  - present-simple
+  - present-continuous
+  - present-perfect
+  - past-simple
 ---
 # 1. Present Simple (Hiện tại đơn)
 

@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[Du lịch]]"
+tags:
+  - du-lịch
+  - resources
+  - visa
+  - trung-quốc
+  - alipay
 ---
 # 1. Resources
 
@@ -133,3 +139,73 @@ Sau khi từ Lệ Giang trở về, lại trú ở KS Điện lực chờ hôm s
 Chỉ được quá cảnh ở sân bay Lhasa...  
 Mất thêm gần 30 phút với CACK tại Lhasa vì hình chụp trong passport nó quá khác so với mặt thật... CACK hỏi đi hỏi lại, mình đưa cả CMND ra để họ so sánh căn cứ theo số CMND ghi trong hộ chiếu... Cuối cùng cũng được cho đi.  
 Qua tới Nepal thì lấy visa tại sân bay luôn nên ở chơi cả tuần cho nó sướng.... trước khi lên đường đi Varanashi.
+
+---
+
+**[REVIEW QUÁ TRÌNH XIN VISA DU LỊCH TỰ TÚC L30 TẠI TP.HCM]**
+
+Xin chào mọi người, vì em tự xin và đã nhận được visa nên em xin tóm tắt chi tiết quá trình xin visa của mình vì em nghĩ sẽ có người cần đến ạ. Dưới đây hoàn toàn là quá trình xin ứng với trải nghiệm và hồ sơ của em, ngoài ra em sẽ không biết tư vấn thế nào đâu ạ![🥹](https://static.xx.fbcdn.net/images/emoji.php/v9/t12/2/16/1f979.png)
+
+Em là sinh viên 21 tuổi, hộ khẩu TP.HCM, đã từng đi Trung Quốc 2 lần trước đó theo diện visa X1 vào 9/2023 và visa L30 vào 3/2025. Lần này em dự tính đi rất nhiều nơi nên những thông tin em khai ở bên dưới chỉ phục vụ làm visa, không dùng để nhập cảnh.
+
+**Bước 1: Chuẩn bị hồ sơ**
+
+- Em có mở sổ tiết kiệm online của MB trên 50tr và xin giấy xác nhận, vừa ra khỏi ngân hàng là em nhấn tất toán luôn![😂](https://static.xx.fbcdn.net/images/emoji.php/v9/t6f/2/16/1f602.png)Sau đó chụp hình scan lại (em để hình bên dưới)
+- Chụp hình các trang thông tin hộ chiếu: trang thông tin, các visa cũ.
+- Chụp sổ hộ khẩu gồm trang chủ hộ, mối quan hệ với chủ hộ.
+- Lịch trình, em khai gian thôi nhưng phải chi tiết ạ (em để hình bên dưới)
+- File pdf booking khách sạn (em đặt bừa trên Trip những khách sạn gần khu vực viết trong lịch trình, mọi người nhớ tìm khách sạn nào hủy miễn phí nhé, em vừa được xuất file pdf về mail là em hủy liền)
+- Ảnh chụp màn hình vé máy bay, em book trên traveloka không thanh toán (hình chụp bên dưới)
+- File hình thẻ chụp 6 tháng gần nhất.
+
+**Bước 2: Điền tờ khai online**
+
+Em điền tất cả bằng tiếng Anh, em khai chi tiết và minh bạch khớp với lý lịch và lịch trình cá nhân. Em apply trên hệ thống vào tối ngày 16/7 và nhận mail phản hồi chỉnh sửa vào chiều ngày 18/7, em gửi lại trong ngày hôm đó. Sau đó, ngày 23/7 nhận mail xác nhận được duyệt.
+
+**Bước 3: Nộp trực tiếp tại trung tâm thị thực**
+
+Em đi nộp lúc 10a.m ngày 24/7. Gửi xe tại trường Đại học KHXH&NV, phí gửi xe 4.000đ trả sau. Sau đó đi bộ đến tòa nhà trung tâm thị thực bấm thang máy tầng 16. Xuất trình các bạn giấy tờ sau:
+
+- Hộ chiếu bản gốc
+- Căn cước công dân bản gốc
+- Sổ hộ khẩu bản gốc
+- Tờ khai trang 1 và 7, in 1 mặt (tới đó họ sẽ hướng dẫn ký tên)
+- Giấy xác nhận tiền gửi tiết kiệm
+- Phiếu Visa Application Certificate (được đính kèm trong mail)
+- 1 ảnh 4x6
+
+Sau khi đối chiếu, họ trả lại sổ hộ khẩu, căn cước, giấy xác nhận tiền gửi. Đóng phí 725.000đ tại quầy và lấy phiếu hẹn.
+
+**Bước 4: Chờ và nhận kết quả**
+
+Phiếu hẹn ghi ngày 4/8, em đến nhận lúc 11a.m và đóng phí 45 USD, em đưa 2 tờ 20 đô và 1 tờ 5 đô, tiền mới, seri 2013 trở lên.
+
+Em chỉ cảm thấy phiền nhất là điền tờ khai online thôi ạ, vì nó quá nhiều thông tin, nên chúng ta ai muốn tự làm để tiết kiệm chi phí thì xác định là sẽ mất công mất sức mất thời gian nhé hehe.
+
+[Trung Quốc - Hướng Dẫn Và Chia Sẻ Kinh Nghiệm Du Lịch Tất Tần Tật | **[REVIEW QUÁ TRÌNH XIN VISA DU LỊCH TỰ TÚC L30 TẠI TP.HCM]** | Facebook](https://www.facebook.com/groups/reviewtrungquocc/posts/1312335087568776/)
+
+---
+
+Tây Tứ Xuyên 5 ngày 4 đêm, tổng thiệt hại 19 củ khoai!
+
+Mình bay từ Thành Đô, tự khám phá Thành Đô 2 ngày rồi mới quất landtour Tây Tứ Xuyên 5 ngày 4 đêm (thấy hơi chát so với mặt bằng chung nhưng đáng đồng tiền bát gạo).
+
+Ngày 1: Thành Đô - 318 - Hồ Hồng Hải (30 tệ) - Yuzixi (30 tệ) - Gediram (free) - Xinduqiao (ngủ đêm)
+
+Ngày 2: Xinduqiao - Jiagenba (camping ăn trưa 99 tệ/người) - núi Gongga (vé 30 tệ) - Xinduqiao (ngủ đêm)
+
+Ngày 3: Xinduqiao - Tagong (thích chụp ảnh thì thuê đồ nha, mình thuê 398 tệ cả chụp, makeup và trang phục) - Đền Muya - Tiểu Seda - Tiểu Tân Cương/ Balangshengdu Yuniao (free, nhưng mình thuê ngựa hết 50 tệ) - Yala (30 tệ) - Xinduqiao (ngủ đêm, đốt lửa trại)
+
+Ngày 4: Xinduqiao - Công viên Moshi (free) - làng Gunong (10 hay 30 tệ gì đó quên rồi) - Siguniang (ngủ đêm)
+
+Ngày 5: Siguniang - Siguniang Shuangqiaogou (vé học sinh 110 tệ) - Thành Đô
+
+Xe mình đi có đúng 3 mống, tính cả bác tài nên rộng rãi thoải mái. Tưởng mùa hè mưa bão, sạt lở, mây mù không đẹp, ai dè trộm vía đi 5 ngày chỉ có 2 ngày cuối thời tiết không ổn áp thôi.
+
+Mình hên không bị say độ cao, chỉ hơi nhức đầu xíu. Mọi người đi nhớ chuẩn bị sức khỏe nha, dễ bị sốc độ cao lắm á. Ngày đầu đi từ Thành Đô lên thẳng Hồ Hồng Hải 4200m luôn. Mấy chỗ như đài quan sát Yala, Gongga cũng 4700m, ngủ Xinduqiao 3800m. Có mấy đoạn đèo xe mình cũng bị sốc độ cao luôn á, bò chậm rì rì.
+
+Quần áo thì kể cả đi mùa hè cũng nên mang áo khoác gió nha, mưa lạnh lắm, mấy chỗ cao gió thổi muốn bay người.
+
+Ăn uống mình thấy giá ổn áp không đắt, mỗi ngày chắc tốn tầm 100-200k tiền ăn. Ngon hay không thì mình không dám bàn vì mình dễ ăn dễ uống, hợp khẩu vị là ok, đi chơi mệt mà chả thấy đói, có hôm tối chả buồn ăn gì.
+
+Cảnh thì khỏi bàn rồi, xem ảnh là biết liền à. Chắc chắn sẽ quay lại Tây Tứ Xuyên vào mùa thu!

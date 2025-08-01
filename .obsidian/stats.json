@@ -1,0 +1,151 @@
+{
+  "history": {
+    "2025-08-02": {
+      "words": 4,
+      "characters": 55,
+      "sentences": 0,
+      "pages": 0.10000000000000009,
+      "files": 216,
+      "footnotes": 0,
+      "citations": 0,
+      "totalWords": 175083,
+      "totalCharacters": 1073244,
+      "totalSentences": 8126,
+      "totalFootnotes": 0,
+      "totalCitations": 0,
+      "totalPages": 583.2999999999996
+    }
+  },
+  "modifiedFiles": {
+    "Technology/Programming-Languages/PHP/PHP.md": {
+      "words": {
+        "initial": 3044,
+        "current": 3035
+      },
+      "characters": {
+        "initial": 19520,
+        "current": 19459
+      },
+      "sentences": {
+        "initial": 212,
+        "current": 211
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 10.1,
+        "current": 10.1
+      }
+    },
+    "Technology/System-Design/Clean Code notes.md": {
+      "words": {
+        "initial": 579,
+        "current": 578
+      },
+      "characters": {
+        "initial": 3732,
+        "current": 3727
+      },
+      "sentences": {
+        "initial": 153,
+        "current": 152
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 1.9,
+        "current": 1.9
+      }
+    },
+    "Education-Learning/Interview-Preparation/Phỏng vấn JV-IT.md": {
+      "words": {
+        "initial": 522,
+        "current": 526
+      },
+      "characters": {
+        "initial": 2399,
+        "current": 2454
+      },
+      "sentences": {
+        "initial": 44,
+        "current": 44
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 1.7,
+        "current": 1.8
+      }
+    },
+    "Lifestyle/Personal-Development/Nướng thịt ở nhà bác Cửu.md": {
+      "words": {
+        "initial": 95,
+        "current": 95
+      },
+      "characters": {
+        "initial": 409,
+        "current": 409
+      },
+      "sentences": {
+        "initial": 5,
+        "current": 5
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 0.3,
+        "current": 0.3
+      }
+    },
+    "Work-Business/Vietop.md": {
+      "words": {
+        "initial": 63,
+        "current": 63
+      },
+      "characters": {
+        "initial": 465,
+        "current": 465
+      },
+      "sentences": {
+        "initial": 2,
+        "current": 2
+      },
+      "footnotes": {
+        "initial": 0,
+        "current": 0
+      },
+      "citations": {
+        "initial": 0,
+        "current": 0
+      },
+      "pages": {
+        "initial": 0.2,
+        "current": 0.2
+      }
+    }
+  }
+}

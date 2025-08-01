@@ -2,6 +2,12 @@
 relates:
   - "[[Du lịch Huế]]"
   - "[[Phượt]]"
+tags:
+  - du-lịch-huế
+  - phượt
+  - vũng-tàu
+  - hải-sản
+  - quán-ăn
 ---
 Hướng đi: Qua Cần Giờ -> Phà Vũng Tàu  
   

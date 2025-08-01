@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[Du lịch]]"
+tags:
+  - du-lịch
+  - hạ-long
+  - hà-nội
+  - lịch-trình
+  - ẩm-thực
 ---
 # 1. 📌 Tóm Tắt Chuyến Đi
 

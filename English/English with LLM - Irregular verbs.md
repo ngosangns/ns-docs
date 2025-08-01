@@ -2,6 +2,12 @@
 relates:
   - "[[English]]"
   - "[[English with LLM]]"
+tags:
+  - english
+  - verbs
+  - irregular-verbs
+  - language-learning
+  - grammar
 ---
 arise - arose - arisen - nảy sinh, xuất hiện
 Ví dụ: New problems arose during the project.

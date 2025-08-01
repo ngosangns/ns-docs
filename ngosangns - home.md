@@ -11,38 +11,19 @@ tags:
   - vietnamese
   - vocab
 ---
-
-- Nên giữ kỉ luật tốt.
-- Làm đúng yêu cầu của khách hàng.
-- Đừng quên nỗi đau / nỗi hận của chính mình.
-- Không sợ chai mặt.
-
-# 1. Inceptionlabs
-
-- Tìm hiểu edx-platform: https://github.com/openedx/edx-platform
-
-# 2. Quick notes
-
-- Luyện tập debate.
-- Viết tool quét source và parse AST + comment của class sang react diagram có khả năng expand và group theo module, export ra json file và hiển thị bằng ERD Editor - VS Code extensiosns hoặc https://tsdiagram.com. Tham khảo: https://github.com/demike/TsUML2
-
-## 2.1. NS Order
-
-- Làm dự án kết nối provider với customer thông qua đơn hàng, đơn hàng có thể là bất cứ thứ gì, làm flexible nhưng cũng có thể có một số định nghĩa đơn hàng như kiểu enum để áp dụng.
-
-## 2.2. Vocab
+# 1. Vocab
 
 - PhoTranscriptor - Ứng dụng transcribe ngôn ngữ tiếng Việt dành cho nhà nghiên cứu: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl
+- Text 2 speech: [KittenML/KittenTTS: State-of-the-art TTS model under 25MB 😻](https://github.com/KittenML/KittenTTS)
 
-## 2.3. nhamayquangphu
+# 2. NS Store
 
 - Làm trang quảng cáo
 - Làm trang tạo mẫu áo dựa vào AI và có thể upload hình để tạo mẫu áo
 - Ý tưởng mới: Sản phẩm quét hình ảnh đồ vật và con người để dung ra vật thể 3D, từ đó phát công cụ thử đồ online
 - Hậu cần có thể sử dụng https://burgerprints.com
-- https://docs.medusajs.com
 
-## 2.4. NS Money
+# 3. NS Money
 
 - Làm widget app.
 - React native.
@@ -50,26 +31,18 @@ tags:
 - thêm tính năng đặt mục tiêu cho money.
 - Tạo thêm bot telegram.
 
-## 2.5. Web đa năng
+# 4. IoT
 
-- Tạo trang web chứa kiến thức muốn lưu trữ lâu dài và sẽ hiển thị ra theo thời gian đường cong trí nhớ. Khi đã tiếp thu xong sẽ nhấn nút check và kiến thức đó sẽ hiển thị trong lần đường cong tri nhớ tiếp theo
-- Tạo trang web để thảo luận nơi mà một bài văn dài có thể tách ra thành các luận điểm nhỏ hơn, mỗi luận điểm là một sub thread. Các sub thread được liên kết với nhau theo dạng graph.
-	- Hiển thị tree trên góc màn hình.
-	- Có thể tạo thread để bàn luận.
-	- Tạo subthread một cách trực quan.
-	- Support ẩn danh.
-
-## 2.6. IoT
-
-### 2.6.1. Camera
+## 4.1. Camera
 
 - https://hshop.vn/kit-rf-thu-phat-wifi-ble-esp32-cam
 - Làm camera phát hiện di chuyển và stream video
 - https://www.youtube.com/watch?v=HK57H3mzQ_c
 - Setup mô phỏng ESP32 và setup VSCode cho IoT
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
+- [How I monitor and control all my powered devices (Zigbee + HA)](https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha)
 
-### 2.6.2. Kính
+## 4.2. Kính
 
 - https://www.facebook.com/reel/1664889724380657
 - https://www.facebook.com/reel/533452956179734
@@ -77,9 +50,9 @@ tags:
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
 - Nghiên cứu về pin: https://cafef.vn/dot-pha-vo-song-trung-quoc-tim-ra-cong-nghe-phuc-hoi-pin-lithium-ion-da-bi-chai-khong-can-thao-roi-van-dua-duoc-pin-ve-trang-thai-nhu-moi-xuat-xuong-co-the-dat-tuoi-tho-60000-chu-ky-sac-xa-trong-164-nam-188250216112303946.chn
 
-### 2.6.3. Drone
+## 4.3. Drone
 
-## 2.7. Sóng âm
+# 5. Sóng âm
 
 - https://www.facebook.com/reel/560138376963731
 - LeviPrint

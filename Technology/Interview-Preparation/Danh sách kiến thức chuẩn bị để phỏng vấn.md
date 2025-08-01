@@ -1,0 +1,22 @@
+---
+relates:
+  - "[[Work]]"
+tags:
+  - work
+  - solid
+  - reactive-programming
+  - concurrency-programming
+  - front-end
+  - drag-and-drop
+  - web-worker
+  - selection-api
+  - storage-api
+---
+- SOLID
+- Reactive programming
+- Concurrency programming
+- Front-end:
+	- Drag & drop
+	- Web worker
+	- Selection API
+	- Storage API

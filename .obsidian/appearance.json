@@ -1,9 +1,12 @@
 {
   "accentColor": "#5cf566",
-  "interfaceFontFamily": "American Typewriter",
+  "interfaceFontFamily": "",
   "nativeMenus": true,
-  "cssTheme": "Things",
-  "enabledCssSnippets": [
-    "index"
-  ]
+  "cssTheme": "",
+  "enabledCssSnippets": [],
+  "showViewHeader": true,
+  "translucency": true,
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "theme": "obsidian"
 }

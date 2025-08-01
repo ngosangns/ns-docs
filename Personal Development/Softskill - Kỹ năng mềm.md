@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[Interview - Phỏng vấn]]"
+tags:
+  - resources
+  - interview-phong-van
+  - hieu-ung-benjamin-franklin
+  - mo-quan-he-tot-dep
+  - developer
 ---
 # 1. Resources
 

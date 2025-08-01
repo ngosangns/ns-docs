@@ -1,0 +1,19 @@
+{
+  "serviceType": "cloud",
+  "localEndpoint": "http://localhost:11434/v1/chat/completions",
+  "localModel": "mistral",
+  "cloudEndpoint": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+  "cloudApiKey": "AIzaSyC8N99WmvCv6vHoE9OttBMZb2W5yM1zFe0",
+  "cloudModel": "gemini-2.5-flash",
+  "cloudServiceType": "gemini",
+  "taggingMode": "generate",
+  "excludedFolders": [],
+  "language": "default",
+  "predefinedTagsPath": "",
+  "tagSourceType": "vault",
+  "tagDir": "",
+  "tagRangeMatchMax": 5,
+  "tagRangeGenerateMax": 5,
+  "tagRangePredefinedMax": 5,
+  "replaceTags": true
+}

@@ -2,5 +2,6 @@
   "spellcheck": false,
   "livePreview": true,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments"
 }
