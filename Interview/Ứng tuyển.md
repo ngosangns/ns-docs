@@ -1,26 +1,26 @@
-# Resources
+# 1. Resources
 - [[Kinh nghiệm deal lương]]
 
 ---
 
 - LaraJobs: The Official Laravel Job Board - LaraJobs - https://larajobs.com
 
-## Đã phỏng vấn
+## 1.1. Đã phỏng vấn
 
-## Failed
+## 1.2. Failed
 
 - Full Remote/Hybrid - PHP Dev (Laravel, JavaScript) - CÔNG TY TNHH JV-IT TECHS - ITViec
 - GEARVN hiring Back End Developer in Ho Chi Minh City, Vietnam | LinkedIn: https://www.linkedin.com/jobs/view/3641522374
 - [HCM] Lập trình viên Backend (hệ thống Authentication, Authorization): https://tuyendung.vnpay.vn/tuyen-dung/[hcm]-lap-trinh-vien-backend-lam-viec-tren-he-thong-authentication-authorization.html
 
-## Đã từ chối offer
+## 1.3. Đã từ chối offer
 - Skale
 
 ---
 
-# Cổng tuyển dụng
+# 2. Cổng tuyển dụng
 
-## Các công ty outsource
+## 2.1. Các công ty outsource
 
 - CMC: Cơ hội nghề nghiệp | Tuyển dụng CMC Corporation - https://tuyendung.cmc.com.vn/tin-tuyen-dung?lang=vi&search=&page=1&category=84,85,91,93,98&location=
 - NashTech: Jobs | NashTech Careers (nashtechglobal.com) - https://careers.nashtechglobal.com/job/?ntk=&ntc%5B%5D=all&ntl%5B%5D=178
@@ -31,7 +31,7 @@
 - Tex-Experts: https://careers.tek-experts.com
 - TMA: https://www.tma.vn/Viec-lam/Da-co-kinh-nghiem
 
-## Các công ty product
+## 2.2. Các công ty product
 
 - VNG: VNG Careers - https://career.vng.com.vn/tim-kiem-viec-lam?location_city=503&job_group=463%7C385&page=1
 - Momo: Jobs Opening - MOMO - https://momo.careers/jobs-opening/?keyword=&group_skill=Engineering&job_type=Fulltime&location=ho-chi-minh
@@ -45,9 +45,9 @@
 
 ---
 
-# Lưu ý
+# 3. Lưu ý
 
-## Không nên apply
+## 3.1. Không nên apply
 
 - Hasaki: Công ty lương thấp, làm cả thứ 7
 - Không nên apply Điểm Nhấn Group: Công ty sử dụng đồng phục, bắt đọc lời tuyên thệ mỗi thứ 2
@@ -55,7 +55,7 @@
 
 ---
 
-# Nên apply
+# 4. Nên apply
 
 - Zalora Group: Thấy review tốt, nhưng yêu cầu tiếng Anh
 

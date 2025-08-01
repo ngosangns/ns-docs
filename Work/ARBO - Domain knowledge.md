@@ -13,5 +13,5 @@ tags:
 
 # 1. ARBO
 
-- [[Working day of users in a workspace]]
+- [[ARBO - Working day of users in a workspace]]
 - [[Target of users in a workspace]]

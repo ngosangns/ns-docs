@@ -7,7 +7,7 @@ tags:
   - vietnamese
 ---
 
-# Định lý CAP
+# 1. Định lý CAP
 
 Định lý CAP là một khái niệm quan trọng trong hệ thống phân tán. Nó đề cập đến ba yếu tố chính của một hệ thống phân tán:
 
@@ -17,7 +17,7 @@ tags:
 
 Định lý CAP khẳng định rằng trong một hệ thống phân tán, chỉ có thể đáp ứng được hai trong số ba yếu tố này đồng thời. Vì vậy, khi thiết kế một hệ thống phân tán, chúng ta cần phải xác định rõ mục tiêu của hệ thống và quyết định những yếu tố nào là quan trọng nhất để đáp ứng nhu cầu của người dùng. Ví dụ, nếu một hệ thống cần đảm bảo tính nhất quán cao và khả năng chịu đựng mạng tốt, thì nó có thể phải hy sinh khả năng chịu đựng để đạt được tính nhất quán.
 
-# Kiểm tra hiệu suất
+# 2. Kiểm tra hiệu suất
 
 Để kiểm tra hiệu suất của một ứng dụng, ta có thể thực hiện các bước sau đây:
 

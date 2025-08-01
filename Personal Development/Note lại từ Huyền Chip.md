@@ -14,7 +14,7 @@ tags:
   - vietnamese
 ---
 
-# Underpromise, overdeliver
+# 1. Underpromise, overdeliver
 
 Tìm hiểu thêm, mình biết rằng nhiều công ty áp dụng chính sách “underpromise, overdeliver” — hứa ít đi nhưng hoàn thành nhiều hơn. Cách nhanh nhất để mất khách là khiến họ thất vọng, và cách nhanh nhất để khiến họ thất vọng là hứa hẹn họ những điều bạn không thực hiện được.
 
@@ -22,7 +22,7 @@ Từ các công ty đó nhìn lại cuộc sống, mình nhận ra rằng rất 
 
 Năm 1979, nhà kinh tế học Daniel Kahneman (Nobel kinh tế năm 2002 và là tác giả cuốn Thinking, Fast and Slow) cùng với đồng nghiệp Amos Tversky giới thiệu planning fallacy (lỗi nguỵ biện khi lập kế hoạch). Con người có xu hướng đánh giá thấp thời gian cần thiết để làm một việc gì đó, ngay cả khi họ biết rằng trong quá khứ những việc tương tự sẽ cần nhiều thời gian hơn.
 
-# Proactive thinking
+# 2. Proactive thinking
 
 Thầy mình có một ngôi nhà rất đẹp nhìn ra biển. Nhưng bàn làm việc của thầy lại đặt ở trong một góc phòng, không cửa sổ. Thầy cận, nhưng khi ra ngoài đường, trừ lúc lái xe, thầy không đeo kính.
 
@@ -38,19 +38,19 @@ Suy nghĩ bị động cho phép tất cả những thú xung quanh làm chủ b
 
 Khi lựa chọn tảng lờ những thứ xung quanh đó, chúng ta có thể giải phóng bộ não để lựa chọn suy nghĩ của bản thân. Và đó là bước đầu tiên để có thêm sự tự chủ trong cuộc sống.
 
-# Tại sao phụ nữ yêu đàn ông không tử tế
+# 3. Tại sao phụ nữ yêu đàn ông không tử tế
 
 Thứ nhất, mình không mong đợi đàn ông hoàn hảo. Mình chỉ mong đợi đàn ông đối xử với mình theo cách mình muốn được đối xử.
 
-# Kỹ năng quản lý tài chính
+# 4. Kỹ năng quản lý tài chính
 
 Hôm đấy mình có hỏi anh chàng về việc anh ứng dụng những gì mình học vào trong cuộc sống như thế nào, anh trả lời là nó giúp anh chuẩn bị một nền tảng tài chính vững chắc cho tương lai. Anh nói, tiền đầu tư của anh mang về cho anh lợi nhuận 7.3% mỗi năm và mỗi tháng tiết kiệm 60% khoản thu nhập. Nếu không có gì thay đổi, anh có thể về hưu trong vòng 7 năm tới.
 
-# Không nên "Một điều nhịn, chín điều lành"
+# 5. Không nên "Một điều nhịn, chín điều lành"
 
 Mặc dù có nhiều người Việt thành công ở nước ngoài, tôi gặp không ít người Việt mắc kẹt ở vị trí nhân viên nhiều năm ròng rã vì không có “leadership qualities”: không đủ tự tin trình bày ý kiến của mình và thuyết phục người khác làm theo. Một anh làm khá cao trong một doanh nghiệp tài chính ở New York chia sẻ rằng trong bài phỏng vấn, anh có bài kiểm tra cửa sổ: mở cửa sổ cho gió lạnh lùa vào phòng phỏng vấn và xem ứng cử viên có đủ tự tin để đứng lên đóng cửa hay không. Phần đông người Việt, tôi nghĩ, sẽ không qua được bài kiểm tra này.
 
-# 10 điều mình ước mình biết thời đi học
+# 6. điều mình ước mình biết thời đi học
 
 Tình bạn dựa vào sự hào nhoáng bề ngoài không bao giờ bền vững. Tình bạn bền vững thực sự có nền tảng từ những đam mê chung và sự tôn trọng lẫn nhau. Đừng phí thời gian cố gắng gây ấn ượng với hot girl hay hot boy. Dành thời gian bắt chuyện với những người nhút nhát, ít nói nhất trong lớp.
 

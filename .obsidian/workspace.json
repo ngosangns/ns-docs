@@ -12,53 +12,14 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ngosangns - home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "ngosangns - home"
-            }
-          },
-          {
-            "id": "2af0f766e7532ef3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VPN - Proxy - Firewall.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "VPN - Proxy - Firewall"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:README",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 300
   },
   "right": {
     "id": "dcfe546b23c80c5b",
@@ -121,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VPN - Proxy - Firewall.md",
+                "file": "99-General/ngosangns - home.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +92,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VPN - Proxy - Firewall"
+              "title": "Backlinks for ngosangns - home"
             }
           },
           {
@@ -169,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VPN - Proxy - Firewall.md",
+                "file": "99-General/ngosangns - home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VPN - Proxy - Firewall"
+              "title": "Outline of ngosangns - home"
             }
           },
           {
@@ -220,45 +181,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b3f69aadb7dfed88",
+  "active": "3bfa14a4ec0ba0fb",
   "lastOpenFiles": [
-    "Vietop.md",
-    "Algorithm/Bài toán liệt kê.md",
-    "Lifestyle-Fashion/Chỗ mua đồ.md",
-    "English/Công cụ học tiếng Anh.md",
-    "Cross-platform.md",
-    "Du lịch Huế.md",
-    "Work/Troodonlabs.md",
-    "Tự vệ.md",
-    "vocab.md",
-    "VPS - Hosting.md",
-    "VPN - Proxy - Firewall.md",
-    "Lifestyle-Fashion/Các loại vải phù hợp cho mùa hè.md",
-    "ngosangns - home.md",
-    "Blockchain/Blockchain.md",
-    "English/IELTS/Kho tài liệu sau 3 năm học IELTS của t - phần 1.md",
-    "Backend/Backend - Back-end.md",
-    "Programming-Languages/README.md",
-    "Travel/README.md",
-    "Personal-Development/README.md",
-    "Cloud-DevOps/README.md",
-    "Interview/README.md",
-    "Frontend/README.md",
-    "English/README.md",
-    "Business/README.md",
-    "Algorithm/README.md",
-    "Algorithm/Drawing 2025-08-01 00.04.57.excalidraw.md",
-    "Work",
+    "Programming Languages/PHP/Laravel - Eloquent.md",
+    "Software Development/Usecases/Target of users in a workspace.md",
+    "Software Development/Usecases/Thanh toán chuyển khoản ngân hàng.md",
+    "Tools.md",
+    "Cloud-DevOps/Severless.md",
+    "Research websites.md",
+    "Programming Languages/Javascript-Typescript",
+    "Programming Languages/Javascript-Typescript/Luận bàn về async.md",
+    "Programming Languages/PHP/Laravel.md",
+    "Kho chung IT.md",
+    "ElasticSearch.md",
+    "Compiler.md",
+    "Work/ARBO - Working day of users in a workspace.md",
+    "Software Development/Business/Product management.md",
+    "Software Development/Business/Management.md",
+    "Software Development/Business/Business.md",
+    "Work/ARBO - Domain knowledge.md",
+    "Work/ARBO.md",
+    "Work/Freelance.md",
+    "Software Development/SAP - Systems, Applications, and Products.md",
+    "Programming Languages/Golang/OS Scheduler.md",
+    "Drawing 2025-07-29 11.46.50.excalidraw.md",
+    "Security/Security.md",
+    "Security",
+    "Software Development/Optimization.md",
+    "Software Development/Usecases",
+    "Software Development",
+    "Software Development/Cân Bằng Giữa P&L và Chất Lượng Dự Án.md",
+    "Software Development/Các bước xây dựng ứng dụng.md",
+    "Design",
+    "Design/Bảng màu gradient đẹp.md",
+    "Testing",
     "Work/Viclass",
-    "Algorithm",
-    "Network",
-    "Blockchain",
-    "Untitled.canvas",
-    "Programming-Languages/Kotlin",
-    "Excalidraw",
-    "nobsidion-master/__mocks__/service/notion.ts",
-    "nobsidion-master/__mocks__/obsidian.ts",
-    "nobsidion-master/tests/index.spec.ts",
+    "Work",
+    "Travel",
+    "Programming Languages/Rust",
     "attachments/telegram-cloud-photo-size-5-6311899726957623527-y.jpg",
     "attachments/bddf3546-c720-4313-9046-36d8c4a97019.png",
     "attachments/a03077b24546810e9aabd32f2afe2608_MD5.webp",
@@ -269,6 +229,7 @@
     "attachments/Untitled 7.png",
     "attachments/Untitled 7 1.png",
     "attachments/Untitled 6 1.png",
-    "Untitled 1.canvas"
+    "Untitled 1.canvas",
+    "Untitled.canvas"
   ]
 }

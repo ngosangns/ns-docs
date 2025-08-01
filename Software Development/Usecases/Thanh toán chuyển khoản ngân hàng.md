@@ -12,13 +12,13 @@ tags:
   - vietnamese
 ---
 
-# Thanh toán chuyển khoản ngân hàng
+# 1. Thanh toán chuyển khoản ngân hàng
 
 Xin chào các cao thủ
 
 Hổm có sếp nào hỏi về vụ đặt đồ ăn, chuyển khoản thành công thì đơn hàng tự đổi trạng thái.Trong group thì cao thủ rất nhiều, em thì cũng gà gà thôi, nhưng bữa có va nhau với tụi code này rồi. Nên xin mạn phép chia sẻ 1 cách rõ ràng nhất, hi vọng giúp được các bác nào chưa biết
 
-## **VỀ CƠ CHẾ HOẠT ĐỘNG**
+## 1.1. **VỀ CƠ CHẾ HOẠT ĐỘNG**
 
 **1.** **Đầu tiên: Bác quy định cú pháp chuyển tiền cho khách**.Ví dụ quán ăn bác tên là: Laratech, thì cú pháp nên là: LARATECH179 (179 là mã đơn) lúc đặt hàng xong bác show lên cho người dùng thấy cú pháp, hoặc bác lên VietQR gọi link tạo mã QR thanh toán với cú pháp mình chọn, có cả số tiền, rất khoẻ.
 
@@ -34,7 +34,7 @@ Phải phân tích tiền tố là LARATECH vì giao dịch nhận tiền đâu 
 - Có mã đơn, có số tiền, thời gian các kiểu, thì bác update DB, lưu transactions các kiểu rứa là xong.
 - Và tất nhiên phải có 1 field lưu mã tham chiếu của ngân hàng trả về để còn so sánh xem cái nào tồn tại rồi
 
-## **VỀ CÁI VỤ BANK**
+## 1.2. **VỀ CÁI VỤ BANK**
 
 Như bác tứn nói, có nhiều cách lắm
 

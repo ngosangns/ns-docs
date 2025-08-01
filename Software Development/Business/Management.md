@@ -8,8 +8,7 @@ tags:
   - resource
   - vietnamese
 ---
-
-# Resource
+# 1. Resource
 
 - https://ngochieu.com/bai-hoc-lanh-dao-joe-biden
   - Sự chân thành
