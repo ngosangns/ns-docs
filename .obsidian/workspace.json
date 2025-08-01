@@ -18,8 +18,33 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "cf5c536b723912c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Workspace.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Workspace"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,13 +206,26 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f75e099d7066d2bd",
+  "active": "cf5c536b723912c6",
   "lastOpenFiles": [
-    "Software Development/Development documentations.md",
-    "Diagrams - Vẽ sơ đồ.md",
-    "Error handler.md",
-    "Fastpass.md",
+    "AI/LM Studio.md",
+    "Kafka.md",
+    "GraphQL.md",
+    "Git - Github.md",
+    "Game.md",
     "Fullstack - Full-stack.md",
+    "Work/Fastpass.md",
+    "ElasticSearch.md",
+    "Diagrams - Vẽ sơ đồ.md",
+    "Data Analyze.md",
+    "Cross-platform.md",
+    "Concurrency - Parallel - Asynchronus - Multi-threading.md",
+    "Compiler.md",
+    "Computer Science - Khoa học máy tính.md",
+    "Airblade.md",
+    "Airblade - AB - Air blade.md",
+    "Software Development/Development documentations.md",
+    "Error handler.md",
     "Programming Languages/Dart",
     "Những thứ đã học ở Grab tech talk.md",
     "Programming Languages/Golang/Layered Design in Go - iRi.md",
@@ -197,20 +235,7 @@
     "Cloud-DevOps/Linux.md",
     "Linter.md",
     "Algorithm/Mục lục thuật toán.md",
-    "Programming Languages/PHP/Laravel - Eloquent.md",
-    "Software Development/Usecases/Target of users in a workspace.md",
-    "Software Development/Usecases/Thanh toán chuyển khoản ngân hàng.md",
-    "Tools.md",
-    "Cloud-DevOps/Severless.md",
-    "Research websites.md",
     "Programming Languages/Javascript-Typescript",
-    "Programming Languages/Javascript-Typescript/Luận bàn về async.md",
-    "Programming Languages/PHP/Laravel.md",
-    "Kho chung IT.md",
-    "ElasticSearch.md",
-    "Compiler.md",
-    "Work/ARBO - Working day of users in a workspace.md",
-    "Software Development/Business/Product management.md",
     "Security",
     "Software Development/Usecases",
     "Software Development",
