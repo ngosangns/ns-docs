@@ -14,7 +14,6 @@ tags:
   - upgrade
   - vietnamese
 ---
-
 # Lựa chọn công nghệ
 
 - Nginx detail metric chỉ nằm trong bản enterprise thôi nên hạn chế dùng khi cần truy xuất lượng metric chi tiết.
