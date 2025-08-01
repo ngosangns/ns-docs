@@ -6,6 +6,11 @@ tags:
   - shit
   - some
   - vietnamese
+  - thoi-quen-tot
+  - nghich-ly
+  - cuoc-song
+  - tu-tin
+  - thay-doi-ban-than
 ---
 
 ## 40 THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH

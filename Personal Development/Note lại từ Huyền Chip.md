@@ -12,6 +12,10 @@ tags:
   - tu
   - underpromise
   - vietnamese
+  - underpromise-overdeliver
+  - proactive-thinking
+  - leadership-qualities
+  - financial-management
 ---
 
 # 1. Underpromise, overdeliver

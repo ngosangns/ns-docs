@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[English]]"
+tags:
+  - ngữ-pháp
+  - từ-vựng
+  - tiếng-anh
+  - học-tiếng-anh
+  - giáo-viên
 ---
 # 1. Ngữ pháp
 

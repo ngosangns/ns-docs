@@ -5,6 +5,8 @@ tags:
   - lich
   - quick-reference
   - vietnamese
+  - dia-diem
+  - do-an
 ---
 
 # 1. Địa điểm

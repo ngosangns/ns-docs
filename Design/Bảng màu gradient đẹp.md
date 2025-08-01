@@ -1,6 +1,8 @@
 ---
 relates:
   - "[[Design]]"
+tags:
+  - design
 ---
 ![[Pasted image 20240627101207.png]]
 

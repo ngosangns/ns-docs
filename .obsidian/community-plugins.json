@@ -1,8 +1,8 @@
 [
   "number-headings-obsidian",
   "obsidian-excalidraw-plugin",
-  "oz-clear-unused-images",
   "obsidian-git",
-  "obsidian-version-history-diff",
-  "terminal"
+  "obsidian-latex-suite",
+  "obsidian-plantuml",
+  "infio-copilot"
 ]

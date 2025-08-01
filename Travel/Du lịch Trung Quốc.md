@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[Du lịch]]"
+tags:
+  - du-lịch
+  - resources
+  - visa
+  - trung-quốc
+  - alipay
 ---
 # 1. Resources
 

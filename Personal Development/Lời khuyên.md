@@ -6,6 +6,7 @@ tags:
   - loi
   - quick-reference
   - vietnamese
+  - khuyen-loi
 ---
 
 - Nên đi từ các món đồ classic trước rồi mới đến trendy.

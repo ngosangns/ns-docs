@@ -10,6 +10,7 @@ tags:
   - nhan
   - quick-reference
   - vietnamese
+  - cau-nhan-manh
 ---
 
 **1. Khái niệm:**

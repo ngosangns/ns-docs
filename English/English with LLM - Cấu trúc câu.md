@@ -2,6 +2,12 @@
 relates:
   - "[[English]]"
   - "[[English with LLM]]"
+tags:
+  - english
+  - english-with-llm
+  - cau-don
+  - menh-de-quan-he
+  - menh-de-trang-ngu
 ---
 # 1. Câu đơn
 

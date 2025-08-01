@@ -1,5 +1,11 @@
 ---
-relates:
+relates: 
+tags:
+  - relates
+  - overthinking
+  - mental-health
+  - mindfulness
+  - self-care
 ---
 Suy nghĩ là nền tảng của sự tồn tại và phát triển của con người. Từ câu nói nổi tiếng của một triết gia, nhà khoa học người Pháp René Descartes "Tôi suy nghĩ, nên tôi tồn tại", chúng ta có thể thấy rằng suy nghĩ là một đặc trưng riêng biệt của con người, phân biệt chúng ta với các loài vật khác. Qua các quá trình như ghi nhớ, lý luận và tưởng tượng, suy nghĩ đã tạo ra những đột phá vĩ đại, giúp chúng ta xây dựng nên một thế giới văn minh như ngày nay. Tuy nhiên, bên cạnh những suy nghĩ tích cực và hữu ích, "overthinking" - suy nghĩ quá nhiều - lại là một vấn đề đáng quan tâm, có thể gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống.
 

@@ -1,6 +1,12 @@
 ---
 relates:
   - "[[English with LLM]]"
+tags:
+  - english-with-llm
+  - inversion-sentence
+  - subjunctive-sentence
+  - passive-voice
+  - grammar-rules
 ---
 # 1. Câu Đảo Ngữ (Inversion Sentence)
 
