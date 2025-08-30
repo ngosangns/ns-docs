@@ -22,6 +22,7 @@ tags:
 - https://voz.vn/t/kubernetes-k8s-noi-hoc-tap-va-trao-doi-kinh-nghiem.871591
 - https://devopsvn.tech
 - [[Kubernetes - K8S]]
+- [Phỏng vấn DevOps Architect tại Atlassian: "Khoai" đến mức nào?](https://devops.vn/posts/phong-van-devops-architect-tai-atlassian-khoai-den-muc-nao/)
 
 ![[Untitled 4.png]]
 

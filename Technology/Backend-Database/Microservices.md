@@ -7,7 +7,6 @@ relates:
   - "[[6 Chiến lược Prompt Hiệu quả của OpenAI]]"
   - "[[Severless]]"
 tags:
-  - "dịch từ: [https://github.com/tolgee/tolgee](https://github.com/tolgee/tolgee)"
 ---
 # 1. KHÁI NIỆM & KIẾN TRÚC CỐT LÕI
 
@@ -338,6 +337,8 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
 * Dữ liệu cá nhân:
   * dawarich: Giải pháp self-hosted thay thế Google Location History. [https://github.com/Freika/dawarich](https://github.com/Freika/dawarich)
 * Self-hosted media converter: [C4illin/ConvertX: 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️](https://github.com/C4illin/ConvertX)
+* Deep research the codebase:
+	* [AsyncFuncAI/deepwiki-open: Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme](https://github.com/AsyncFuncAI/deepwiki-open)
 
 # 7. BỔ SUNG & ĐÀO SÂU
 
