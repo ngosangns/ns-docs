@@ -88,6 +88,8 @@ tags:
     - [https://designer.microsoft.com](https://designer.microsoft.com/) #text2image
     - [https://www.shakker.ai](https://www.shakker.ai/) #text2image
     - [https://gamma.app](https://gamma.app/)
+- Chỉnh sửa ảnh:
+	- [Nano Banana - AI Image Editor | Edit Photos with Text](https://nanobanana.ai/)
 - Vẽ design: [https://www.visily.ai](https://www.visily.ai/) #design
 - Thay đồ cho model: [https://huggingface.co/spaces/yisol/IDM-VTON](https://huggingface.co/spaces/yisol/IDM-VTON) #clothing
 - IC-Light (Relighting with Foreground Condition) - Thay đổi ánh sáng vật thể dựa vào background: [https://huggingface.co/spaces/lllyasviel/IC-Light](https://huggingface.co/spaces/lllyasviel/IC-Light) #relighting

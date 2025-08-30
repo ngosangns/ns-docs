@@ -113,6 +113,7 @@ Message Broker & Message Queue:
   * Flipt: Giải pháp self-hosted, không gửi dữ liệu ra bên ngoài. Hỗ trợ trunk-based development, canary release, kill switch. Tích hợp Prometheus/OpenTelemetry.
   * Link: [https://github.com/flipt-io/flipt](https://github.com/flipt-io/flipt)
   * Flagsmith: Quản lý feature flag. [https://github.com/Flagsmith/flagsmith](https://github.com/Flagsmith/flagsmith)
+  * [flipt-io/flipt: Enterprise-ready, Git native feature management solution](https://github.com/flipt-io/flipt)
 
 ## 2.7. Observability (Logs, Metrics, Tracing)
 
@@ -208,6 +209,9 @@ Message Broker & Message Queue:
   * Devcontainers (VS Code): Dùng Docker container làm môi trường phát triển.
   * Daytona: Trình quản lý môi trường phát triển mã nguồn mở.
   * Lapdev: Giải pháp self-hosted cho môi trường phát triển.
+* Platform - Ảo hóa:
+	* [Proxmox VE](https://pve.proxmox.com/wiki/Main_Page)
+		* Monitoring for Proxmox VE: [rcourtman/Pulse: A responsive monitoring application for Proxmox VE that displays real-time metrics across multiple nodes](https://github.com/rcourtman/Pulse)
 
 # 3. FRAMEWORKS & LIBRARIES
 
@@ -298,13 +302,14 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
 ## 6.4. Bảo mật & Hạ tầng (Security & Infrastructure)
 
 * Firewall:
-  * BunkerWeb: Firewall ứng dụng web (WAF) mã nguồn mở. [https://github.com/bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
+	* BunkerWeb: Firewall ứng dụng web (WAF) mã nguồn mở. [https://github.com/bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
 * Quản lý Bí mật (Secret Management):
-  * Teller: Công cụ quản lý secrets cho lập trình viên. [https://github.com/tellerops/teller](https://github.com/tellerops/teller)
+	* Teller: Công cụ quản lý secrets cho lập trình viên. [https://github.com/tellerops/teller](https://github.com/tellerops/teller)
 * Control Panel:
-  * 1Panel: Control panel cho server Linux hiện đại, mã nguồn mở. [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
-  * CloudPanel: Control panel miễn phí. [https://www.cloudpanel.io](https://www.cloudpanel.io)
-  * Coolify: Giải pháp self-hosted thay thế Heroku/Netlify/Vercel. [https://github.com/coollabsio/coolify](https://github.com/coollabsio/coolify)
+	* 1Panel: Control panel cho server Linux hiện đại, mã nguồn mở. [https://github.com/1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
+	* CloudPanel: Control panel miễn phí. [https://www.cloudpanel.io](https://www.cloudpanel.io)
+	* Coolify: Giải pháp self-hosted thay thế Heroku/Netlify/Vercel. [https://github.com/coollabsio/coolify](https://github.com/coollabsio/coolify)
+	- [taubyte/tau: Open source distributed Platform as a Service (PaaS). A self-hosted Vercel / Netlify / Cloudflare alternative.](https://github.com/taubyte/tau)
 
 ## 6.5. Tự động hóa & Thu thập dữ liệu (Automation & Crawling)
 
@@ -312,6 +317,7 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
   * automatisch: Công cụ tự động hóa tác vụ mã nguồn mở, tương tự Zapier. [https://github.com/automatisch/automatisch](https://github.com/automatisch/automatisch)
 * Thu thập dữ liệu web (Crawling):
   * Firecrawl: API để crawl và chuyển đổi bất kỳ website nào thành dữ liệu có cấu trúc (Markdown/JSON). [https://github.com/mendableai/firecrawl](https://github.com/mendableai/firecrawl)
+  * [apify/crawlee: Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.](https://github.com/apify/crawlee)
 
 ## 6.6. Công cụ cho Lập trình viên (Developer Tools)
 
@@ -339,6 +345,7 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
 * Self-hosted media converter: [C4illin/ConvertX: 💾 Self-hosted online file converter. Supports 1000+ formats ⚙️](https://github.com/C4illin/ConvertX)
 * Deep research the codebase:
 	* [AsyncFuncAI/deepwiki-open: Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme](https://github.com/AsyncFuncAI/deepwiki-open)
+* Create rich visualizations with UI: [microsoft/data-formulator: 🪄 Create rich visualizations with AI](https://github.com/microsoft/data-formulator)
 
 # 7. BỔ SUNG & ĐÀO SÂU
 
@@ -346,6 +353,7 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
 
 * Authentication:
   * Logto: Giải pháp IAM mã nguồn mở, tập trung vào trải nghiệm người dùng và nhà phát triển. [https://github.com/logto-io/logto](https://github.com/logto-io/logto)
+  * [teamhanko/hanko: Modern Authentication—On Your Terms. Open source alternative to Auth0, Cognito, Clerk, Descope, Stytch.](https://github.com/teamhanko/hanko)
 * Email & Newsletters:
   * Listmonk: Trình quản lý bản tin (newsletter) và email marketing self-hosted. [https://github.com/knadh/listmonk](https://github.com/knadh/listmonk)
 * Nền tảng No-code/Low-code (Thương mại):
@@ -395,6 +403,7 @@ Phần này tập trung vào các công cụ và nền tảng giúp bạn triể
 * Harness: Nền tảng dành cho lập trình viên từ đầu đến cuối, bao gồm SCM, CI/CD, và môi trường được host. [https://github.com/harness/harness](https://github.com/harness/harness)
 * Sidekick: Giúp triển khai từ bare metal (máy chủ vật lý) đến production sẵn sàng chỉ trong vài phút. [https://github.com/mightymoud/sidekick](https://github.com/mightymoud/sidekick)
 * Coolify: Một giải pháp self-hosted thay thế Heroku/Netlify/Vercel rất phổ biến. [https://github.com/coollabsio/coolify](https://github.com/coollabsio/coolify)
+* [ubicloud/ubicloud: Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.](https://github.com/ubicloud/ubicloud)
 
 ## 9.2. Quản lý Cấu hình & Điều phối Server (Server Orchestration & Configuration)
 
@@ -423,6 +432,9 @@ Giao diện đồ họa để quản lý các tác vụ trên server một cách
   * Tracing (Distributed Tracing): Jaeger, Zipkin, Tempo.
 * Thông báo Sự cố (Incident Notification):
   * Versus Incident: Công cụ thông báo khi server gặp sự cố. [https://github.com/VersusControl/versus-incident](https://github.com/VersusControl/versus-incident)
+* Phân tích hành vi người dùng:
+	* [PostHog/posthog: 🦔 PostHog provides open-source web & product analytics, session recording, feature flagging and A/B testing that you can self-host. Get started - free.](https://github.com/PostHog/posthog)
+	* [plausible/analytics: Simple, open source, lightweight and privacy-friendly web analytics alternative to Google Analytics.](https://github.com/plausible/analytics)
 
 ## 10.2. Bổ sung cho No-code / Low-code
 

@@ -288,6 +288,11 @@ Khi nào dùng QLoRA?
 - LoRA là lựa chọn lý tưởng khi bạn cần tinh chỉnh nhanh, tiết kiệm tài nguyên, nhưng không muốn làm giảm chất lượng mô hình.
 - QLoRA là sự lựa chọn đỉnh cao cho các mô hình rất lớn nhưng bạn muốn giảm thiểu tài nguyên và bộ nhớ mà vẫn duy trì hiệu suất.
 
+### 3.3.5. Fine-tune tools
+
+- [h2oai/h2o-llmstudio: H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/](https://github.com/h2oai/h2o-llmstudio)
+- [unslothai/unsloth: Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, Qwen3, Llama 4, DeepSeek-R1, Gemma 3, TTS 2x faster with 70% less VRAM.](https://github.com/unslothai/unsloth)
+
 # 4. Indexing
 
 ## 4.1. Tools
