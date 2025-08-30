@@ -94,15 +94,19 @@ tags:
 - llmware: Framework kết nối tri thức doanh nghiệp với LLM. [https://github.com/llmware-ai/llmware](https://github.com/llmware-ai/llmware)
 * Composio: Cung cấp hơn 100 integration cho AI agents. [https://github.com/ComposioHQ/composio](https://github.com/ComposioHQ/composio)
 
-## 2.1. Caching
+## 2.1. Data extractor
+
+- [google/langextract: A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.](https://github.com/google/langextract)
+
+## 2.2. Caching
 
 - [LMCache/LMCache: Supercharge Your LLM with the Fastest KV Cache Layer](https://github.com/LMCache/LMCache)
 
-## 2.2. Make It Heavy
+## 2.3. Make It Heavy
 
 [https://github.com/Doriandarko/make-it-heavy](https://github.com/Doriandarko/make-it-heavy)
 
-### 2.2.1. Chức năng nổi bật
+### 2.3.1. Chức năng nổi bật
 
 - **Mô phỏng Grok Heavy**: Hệ thống multi-agent tái hiện chế độ phân tích sâu, đa chiều như Grok heavy.
 - **Song song nhiều agent**: Triển khai đồng thời 4 (hoặc hơn) agent chuyên biệt để đảm bảo độ bao phủ thông tin và quan điểm.
@@ -112,7 +116,7 @@ tags:
 - **Tổng hợp thông minh**: Tích hợp kết quả từ nhiều góc nhìn của các agent thành một câu trả lời thống nhất, sâu sắc.
 - **Chế độ đơn agent**: Có thể chạy ở chế độ một agent duy nhất (cho bài toán đơn giản hơn).
 
-### 2.2.2. Thành phần chính
+### 2.3.2. Thành phần chính
 
 |Thành phần|Chức năng|
 |---|---|
@@ -121,7 +125,7 @@ tags:
 |tools/|Hệ thống phát hiện, gắn, sử dụng tool động, interface thống nhất|
 |config.yaml|Tùy chỉnh API, model, max agent, timeout, prompt sinh câu hỏi/tổng hợp|
 
-### 2.2.3. Tool tích hợp sẵn
+### 2.3.3. Tool tích hợp sẵn
 
 |Tool|Nhiệm vụ|Tham số chính|
 |---|---|---|
@@ -131,22 +135,22 @@ tags:
 |write_file|Ghi/ghi đè file|path, content|
 |mark_task_complete|Đánh dấu hoàn thành tác vụ|task_summary, completion_message|
 
-### 2.2.4. Tích hợp AI Model
+### 2.3.4. Tích hợp AI Model
 
 - Hỗ trợ chọn model OpenRouter (Claude, GPT-4.1, Gemini, Llama v.v.)
 - Tùy chỉnh số lượng agent song song (cấu hình orchestrator)
 - Có thể thêm tool nhanh chỉ qua thêm file Python kế thừa `BaseTool`
 
-### 2.2.5. Cài đặt & Sử dụng cơ bản
+### 2.3.5. Cài đặt & Sử dụng cơ bản
 
 - Yêu cầu Python 3.8+, package manager `uv`, API key OpenRouter
 - Khởi chạy chế độ 1 agent: `uv run main.py`
 - Khởi chạy Grok heavy (multi-agent): `uv run make_it_heavy.py`
 - Tùy chỉnh bot, tool, config trong `config.yaml`
 
-### 2.2.6. Ưu và nhược điểm
+### 2.3.6. Ưu và nhược điểm
 
-#### 2.2.6.1. Ưu điểm
+#### 2.3.6.1. Ưu điểm
 
 - **Phân tích đa chiều, chuyên sâu**: Mỗi agent tiếp cận một góc độ → tổng hợp sâu, giảm thiếu sót thông tin.
 - **Tự động hóa workflow**: Không tốn công sinh câu hỏi, điều phối, chỉ việc nhập truy vấn.
@@ -154,27 +158,27 @@ tags:
 - **Dễ cấu hình**: Tùy chỉnh thông qua file YAML, hỗ trợ nhiều model khác nhau linh hoạt về hiệu năng, giá thành.
 - **Có chế độ đơn giản và nâng cao**: Phù hợp nhiều bài toán, usecase khác nhau.
 
-#### 2.2.6.2. Nhược điểm
+#### 2.3.6.2. Nhược điểm
 
 - **Phụ thuộc OpenRouter API và quota**: Mỗi agent ngốn request riêng, giới hạn bởi gói dịch vụ.
 - **Overhead cho task đơn giản**: Quá trình orchestrator/agent có thể dư thừa nếu bài toán ngắn/gọn.
 - **Yêu cầu cấu hình ban đầu (API key, Python env)**, newbie sẽ phải setup nhiều bước.
 - **Các tool mặc định chỉ ở mức cơ bản**, nếu muốn cao cấp cần tự phát triển thêm.
 
-#### 2.2.6.3. Các ứng dụng tiềm năng (Usecases)
+#### 2.3.6.3. Các ứng dụng tiềm năng (Usecases)
 
 - **Nghiên cứu tổng hợp**: Yêu cầu phân tích chuyên sâu từ nhiều khía cạnh (ex: ảnh hưởng AI đến lập trình, xu hướng công nghệ...).
 - **Tư vấn/chẩn đoán kỹ thuật**: Nhận diện, so sánh, xác thực nhiều phương án/phản biện (tư vấn code, so sánh framework, xác thực dữ liệu...).
 - **Kịch bản sáng tạo/phân tích rủi ro**: Lập kế hoạch startup, đánh giá thị trường, phân tích tài chính, risk assessment.
 - **Tổng hợp tài liệu lớn**: Chia nhỏ nhiệm vụ theo hướng chuyên môn hóa (giống teamwork), thay thế brainstorming nhóm nhỏ.
 
-## 2.3. CrewAI
+## 2.4. CrewAI
 
 https://github.com/crewAIInc/crewAI
 
 **CrewAI** là một framework Python nhẹ, tốc độ cao, dùng để điều phối hệ thống đa agent dựa trên mô hình ngôn ngữ lớn (LLM Multi-Agent Orchestration Framework)[2](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent).
 
-### 2.3.1. Chức năng chính của CrewAI
+### 2.4.1. Chức năng chính của CrewAI
 
 - CrewAI tổ chức các **agent** (đại diện cho các vai trò như Researcher, Writer, Critic...) hoạt động phối hợp như một “đội nhóm” (crew) để xử lý các tác vụ (tasks) cụ thể.
 - Mỗi agent có vai trò rõ ràng, bối cảnh, mục tiêu, và có thể sử dụng các tool mặc định hoặc riêng phục vụ cho từng task.
@@ -183,7 +187,7 @@ https://github.com/crewAIInc/crewAI
 - Cho phép gán tool riêng cho từng agent, hỗ trợ các mô hình LLM như OpenAI GPT, Claude, Mistral, Cohere, và dễ dàng cấu hình qua langchain.llms.
 - Cung cấp API đơn giản, dễ hiểu, hỗ trợ tốt cho các workflow AI thực tế dạng Nghiên cứu → Viết → Phản biện → Tổng hợp → Xuất bản[2](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent).
 
-### 2.3.2. Ưu điểm
+### 2.4.2. Ưu điểm
 
 - **Phong cách tư duy giống teamwork thực tế**: dễ hình dung, dễ mở rộng các vai trò mới trong hệ thống.
 - **Phù hợp workflow AI thực tế đa tác vụ** với các giai đoạn rõ ràng.
@@ -191,13 +195,13 @@ https://github.com/crewAIInc/crewAI
 - **Giao diện lập trình rõ ràng và đơn giản**, dễ tiếp cận với người mới.
 - Cho phép gán công cụ riêng cho từng agent, tăng tính linh hoạt khi làm việc chuyên sâu[2](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent).
 
-### 2.3.3. Nhược điểm
+### 2.4.3. Nhược điểm
 
 - **Không hỗ trợ hội thoại trực tiếp giữa các agent** (agents không giao tiếp tương tác song phương như trong một số framework khác như AutoGen).
 - **Tasks tuyến tính, không có vòng lặp phản hồi tự động hay multi-round interaction**, tức là các tác vụ chỉ chạy theo một chiều không lặp lại hoặc tự điều chỉnh trong quá trình chạy.
 - **Chưa tích hợp bộ nhớ dài hạn hoặc đa vòng trò chuyện mặc định** (long-term memory)[2](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent).
 
-### 2.3.4. Usecases phù hợp
+### 2.4.4. Usecases phù hợp
 
 - Các workflow AI đa tác vụ, cần phân chia rõ ràng vai trò như nghiên cứu, viết, phản biện, tổng hợp và xuất bản nội dung.
 - Hệ thống tự động hóa phức hợp, có nhiều bước xử lý liên tiếp hoặc song song, ví dụ:
