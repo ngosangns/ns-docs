@@ -690,3 +690,37 @@ Tham khảo liên quan: [[Machine learning - Deep Learning - AI - ML - DL]]
 * 8 điểm so sánh giữa MySQL và PostgreSQL để chọn lựa cái nào phù hợp hơn
 * Open Source Database - Ranking
 * Learning Database with Tran Quoc Huy: https://www.youtube.com/@tranquochuywecommit
+
+# 10. Redis
+
+Tổng hợp các kỹ thuật hay khi scale Redis ![👌](https://static.xx.fbcdn.net/images/emoji.php/v9/t1a/2/16/1f44c.png)
+
+1. Phân mảnh bộ nhớ (Memory Fragmentation): Giảm tới 40% bộ nhớ sử dụng
+
+Một instance Redis 32GB có thể down dù chỉ chứa 20GB dữ liệu. Nguyên nhân là mem_fragmentation_ratio lên quá cao (>2), gây lãng phí bộ nhớ nghiêm trọng.
+
+=> Bạn nên bật tính năng activedefrag của Redis để hệ thống tự động chống phân mảnh trong lúc chạy (defrag sẽ tiêu tốn thêm CPU)
+
+2. Connection Pooling là bắt buộc, không phải Optional
+
+Việc tạo/huỷ kết nối mới cho mỗi request có thể chiếm tới 60% CPU của Redis vào giờ cao điểm (connection churn).
+
+=> Vì thế việc tái sử dụng kết nối sẽ giúp giảm latency p95 từ 200ms xuống chỉ còn 5ms và tăng throughput từ 15K lên 85K ops/giây.
+
+3. Pipelining
+
+Thực thi 1000 lệnh tuần tự tốn 2.3 giây vì mỗi lệnh phải chịu độ trễ của một vòng round-trip mạng.
+
+=> Bạn nên sử dụng Pipeline để gom 1000 lệnh này và gửi đi trong một request duy nhất. Tổng thời gian thực thi có thể giảm xuống chỉ còn 45 ms — cải thiện hiệu năng hơn 50 lần.
+
+4. Xử lý Atomic Operations trong Cluster với Hash Tags
+
+Trong Redis Cluster, các lệnh trên nhiều key (multi-key operations) sẽ thất bại nếu các key được hash vào các slot khác nhau.
+
+=> Sử dụng hash tags, đặt tên key theo cấu trúc prefix:{tag}:id. Redis sẽ chỉ hash phần {tag} để quyết định slot, đảm bảo các key cùng tag sẽ nằm trên cùng một node. Điều này cho phép thực thi các lệnh multi-key một cách atomic.
+
+5. Luôn luôn thiết lập Giám sát Real-Time và Cảnh báo
+
+Các vấn đề hiệu năng như cache hit rate thấp hoặc memory leak thường diễn ra từ từ và chỉ được phát hiện khi người dùng đã bị ảnh hưởng.
+
+=> Xây dựng dashboard giám sát các chỉ số quan trọng và đặt cảnh báo tự động cho các ngưỡng như memory_usage > 85%, hit_rate < 95%.
