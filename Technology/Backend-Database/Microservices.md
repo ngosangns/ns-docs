@@ -285,6 +285,7 @@ Phần này sẽ phân loại chi tiết các công cụ nằm trong mục "Othe
 
 * Nền tảng Chat:
   * Rocket.Chat: Giải pháp chat mã nguồn mở, thay thế Slack. [https://github.com/RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
+  * [mattermost/mattermost: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..](https://github.com/mattermost/mattermost)
 * Hỗ trợ đa kênh:
   * Chatwoot: Hỗ trợ live-chat, email, tạo thành một hệ thống omni-channel. [https://github.com/chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
 * Video Call (WebRTC):
@@ -430,6 +431,7 @@ Giao diện đồ họa để quản lý các tác vụ trên server một cách
   * Logs: ELK Stack (Elasticsearch, Logstash, Kibana), EFK Stack (Elasticsearch, Fluentd, Kibana), Promtail + Loki.
   * Metrics: Prometheus, Victoria Metrics.
   * Tracing (Distributed Tracing): Jaeger, Zipkin, Tempo.
+* [bluewave-labs/Checkmate: Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)](https://github.com/bluewave-labs/checkmate)
 * Thông báo Sự cố (Incident Notification):
   * Versus Incident: Công cụ thông báo khi server gặp sự cố. [https://github.com/VersusControl/versus-incident](https://github.com/VersusControl/versus-incident)
 * Phân tích hành vi người dùng:

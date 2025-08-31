@@ -16,7 +16,6 @@ tags:
   - structures
   - vietnamese
 ---
-
 # 1. Resources
 
 ![[344761700_691730916042250_2784087986434747459_n.jpg]]
@@ -45,6 +44,7 @@ tags:
 - Bài giải các challenges bằng Go: https://github.com/aQuaYi/LeetCode-in-Go
 - Giới thiệu về loạt thuật toán mật mã học: https://viblo.asia/s/cryptography-p0-gioi-thieu-ve-loat-bai-viet-ve-mat-ma-hoc-obA46emMVKv
 - Modular math in Cryptography: https://viblo.asia/p/modular-math-in-cryptography-module-trong-mat-ma-hoc-BQyJKaEwVMe
+- [Định Lý Thặng Dư Trung Hoa - Viblo](https://viblo.asia/p/dinh-ly-thang-du-trung-hoa-chinese-remainder-theorem-AoJe8wjA41j)
 
 ## 1.1. Sort
 
