@@ -15,6 +15,7 @@ tags:
 - https://www.google.com/travel/flights
 - https://trip.com
 - https://www.ctrip.com
+- [Đi du lịch Trung Quốc cần chuẩn bị những gì](https://www.youtube.com/shorts/vFgGzpmlvWE)
 
 biết tiếng 2 đứa tự túc cho đúng ý, chill2 giống local cho đc cái cảm nhận, đi tour khác gì tên lửa xem hoa.  
 VD 5 ngày đi đầy chỗ:  
