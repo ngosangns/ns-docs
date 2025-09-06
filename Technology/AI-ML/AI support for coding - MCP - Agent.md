@@ -79,6 +79,8 @@ Tóm lại, **Agent File (.af)** là giải pháp tiêu chuẩn mở, giúp chu�
 
 - https://www.gocodeo.com
 - [Roo Code – Your AI-Powered Dev Team in VS Code](https://roocode.com/)
+- [TabbyML/tabby: Self-hosted AI coding assistant](https://github.com/TabbyML/tabby)
+- [continuedev/continue: ⏩ Ship faster with Continuous AI. Build and run custom agents across your IDE, terminal, and CI](https://github.com/continuedev/continue)
 
 # 5. IDE
 
@@ -86,6 +88,15 @@ Tóm lại, **Agent File (.af)** là giải pháp tiêu chuẩn mở, giúp chu�
 - Cursor
 - Winsurf
 - Zed Editor
+
+# 6. Local agent
+
+- [All-Hands-AI/OpenHands: 🙌 OpenHands: Code Less, Make More](https://github.com/All-Hands-AI/OpenHands)
+
+# 7. Các công cụ khác
+
+- ClonewebX - Clone giao diện web nâng cao
+- Tạo sandbox để run agent: [daytonaio/daytona: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code](https://github.com/daytonaio/daytona)
 
 # 6. Các công cụ khác
 

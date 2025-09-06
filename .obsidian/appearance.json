@@ -1,12 +1,12 @@
 {
   "accentColor": "#5cf566",
-  "interfaceFontFamily": "Andale Mono",
+  "interfaceFontFamily": "",
   "nativeMenus": true,
   "cssTheme": "",
   "enabledCssSnippets": [],
   "showViewHeader": true,
   "translucency": true,
-  "textFontFamily": "Andale Mono",
-  "monospaceFontFamily": "Andale Mono",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
   "theme": "obsidian"
 }

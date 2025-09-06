@@ -235,12 +235,16 @@ Tóm lại, CrewAI là framework điều phối đa agent tập trung vào workf
     * Quill: Công cụ viết nội dung tự động, Quill sử dụng AI để tạo ra nội dung tự động dựa trên dữ liệu có sẵn. #SEO #content
     * Acrolinx: Công cụ kiểm tra và tối ưu nội dung, Acrolinx sử dụng AI để đảm bảo sự nhất quán và chất lượng của nội dung trên nhiều nền tảng và kênh truyền thông. #SEO #content
 
-## 3.1. API
+## 3.1. Self-hosted
+
+- [assafelovic/gpt-researcher: LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.](https://github.com/assafelovic/gpt-researcher) [[Microservices]]
+
+## 3.2. API
 
 * [https://together.ai](https://together.ai) #API
 * Ollama - Hỗ trợ cài đặt các LLM model và cung cấp API tương tác #API
 
-## 3.2. GUI
+## 3.3. GUI
 
 * NextChat: [https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) #GUI
 * [https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) #GUI
@@ -248,10 +252,10 @@ Tóm lại, CrewAI là framework điều phối đa agent tập trung vào workf
 * GUI cho việc download và chạy các model LLM: [https://lmstudio.ai](https://lmstudio.ai) #GUI
 * Tạo giao diện chat cho các AI models: [https://github.com/huggingface/chat-ui](https://github.com/huggingface/chat-ui) #GUI
 
-## 3.3. Kỹ thuật fine-tune LLM models
+## 3.4. Kỹ thuật fine-tune LLM models
 
 Trong thế giới Large Language Models (LLMs), việc tinh chỉnh mô hình (fine-tuning) là một bước cực kỳ quan trọng để giúp mô hình hiểu và giải quyết các tác vụ cụ thể của chúng ta. Nhưng… liệu Fine-tuning truyền thống có phải là cách tối ưu nhất? Hôm nay, mình sẽ so sánh ba kỹ thuật tinh chỉnh phổ biến: Fine-tuning, LoRA và QLoRA – và giúp bạn hiểu khi nào nên dùng cách nào! 🚀
-### 3.3.1. Fine-tuning – Tinh chỉnh mô hình toàn bộ
+### 3.4.1. Fine-tuning – Tinh chỉnh mô hình toàn bộ
 
 Fine-tuning là cách truyền thống nhất, nơi bạn tinh chỉnh toàn bộ trọng số của mô hình đã được huấn luyện trước (pre-trained model) để tối ưu cho tác vụ của mình.
 Ưu điểm:
@@ -261,7 +265,7 @@ Nhược điểm:
 - Tốn tài nguyên: Việc tinh chỉnh toàn bộ mô hình đòi hỏi nhiều GPU và thời gian.
 - Không tiết kiệm bộ nhớ: Mô hình fine-tuned có thể rất nặng.
 
-### 3.3.2. LoRA (Low-Rank Adaptation) – Tinh chỉnh nhanh mà vẫn hiệu quả
+### 3.4.2. LoRA (Low-Rank Adaptation) – Tinh chỉnh nhanh mà vẫn hiệu quả
 
 LoRA là một kỹ thuật mới, cho phép bạn chỉ tinh chỉnh một phần nhỏ của mô hình, cụ thể là các trọng số của lớp Attention. Mô hình này tăng tốc quá trình huấn luyện mà không làm thay đổi nhiều cấu trúc ban đầu của mô hình.
 Ưu điểm:
@@ -272,7 +276,7 @@ Khi nào dùng LoRA?
 - Khi bạn muốn tiết kiệm tài nguyên và thời gian nhưng vẫn cần tinh chỉnh mô hình cho các tác vụ khá phức tạp.
 - Khi làm việc với các mô hình cực kỳ lớn mà không đủ sức mạnh tính toán để fine-tune toàn bộ.
 
-### 3.3.3. QLoRA (Quantized LoRA) – Đỉnh cao của tiết kiệm tài nguyên
+### 3.4.3. QLoRA (Quantized LoRA) – Đỉnh cao của tiết kiệm tài nguyên
 
 QLoRA là sự kết hợp giữa LoRA và quantization – giúp bạn giảm kích thước mô hình mà không làm mất đi quá nhiều chất lượng. Kỹ thuật này giúp mô hình quá trình tinh chỉnh hiệu quả hơn và tiết kiệm bộ nhớ.
 Ưu điểm:
@@ -282,7 +286,7 @@ Nhược điểm: Đôi khi có thể mất một chút chất lượng nếu kh
 Khi nào dùng QLoRA?
 - Khi bạn cần tinh chỉnh mô hình cực kỳ lớn nhưng tài nguyên tính toán bị hạn chế hoặc khi bạn cần triển khai mô hình nhanh chóng trên môi trường có bộ nhớ nhỏ nhưng vẫn muốn giữ được độ chính xác cao.
 
-### 3.3.4. Kết luận: Dùng cái nào khi nào?
+### 3.4.4. Kết luận: Dùng cái nào khi nào?
 
 - Fine-tuning là lựa chọn tốt nhất khi bạn cần tối ưu mô hình cho một tác vụ rất cụ thể và không có giới hạn tài nguyên.
 - LoRA là lựa chọn lý tưởng khi bạn cần tinh chỉnh nhanh, tiết kiệm tài nguyên, nhưng không muốn làm giảm chất lượng mô hình.

@@ -10,7 +10,6 @@ tags:
   - tutorial
   - vietnamese
 ---
-
 # 1. Resources
 
 - Tự động thực hiện các hành động trên website: https://www.automa.site
@@ -440,3 +439,4 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
     - Cho phép “vẽ” lại cấu trúc hiện tại và so sánh với “mục tiêu” ban đầu.
 - Dependency Analysis Tools
     - Doxygen, Graphviz, v.v. (kết hợp với các scripts hoặc plugins) để minh hoạ các mối quan hệ và phục vụ cho việc review bằng mắt.
+- [openreplay/openreplay: Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product.](https://github.com/openreplay/openreplay)
