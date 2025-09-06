@@ -11,19 +11,50 @@ tags:
   - vietnamese
   - vocab
 ---
-# 1. Vocab
+# 1. Làm lều
+
+- Sức chứa: 3-4 người.
+- Trọng lượng: 3kg.
+- Loại vải: Dyneema Composite (Cuben Fiber), Polyester phủ silicone, Oxford polyester.
+
+## 1.1. May đáy
+
+- Kích thước đáy sau khi may: 2x2m.
+- Chuẩn bị vải chống nước có kích thước 2.5x2.5m.
+- Gấp vải thành hình hồ bơi sao cho mặt đáy có kích thước 2x2m.
+- Kẹp miếng cố định khung lều vào mặt ngoài của đoạn mép vải đã gấp.
+- May đoạn mép vải đã gấp để cố định.
+
+## 1.2. Khung
+
+- Chiều cao lều: 1.2m.
+- Khung lều: Hợp kim nhôm, 2 thanh, mỗi thanh 4.11m (nửa chu vi của hình ellipse có bán kính nhỏ bằng sqrt(2) và bán kính lớn là 1.2).
+- Móc khung vào các miếng cố định của đáy, đan chéo nhau, cố định bằng dây thừng.
+
+## 1.3. Màn chống côn trùng
+
+- Dùng miếng kẹp để treo màn vào khung và đáy.
+
+## 1.4. May áo chống mưa cho lều
+
+- Chuẩn bị vải chống nước có kích thước 3x3m (do độ dài đường chéo phải dài bằng độ dài khung => độ dài cạnh = 2.9 => cộng thêm 0.1 thành 3 dể trừ hao).
+- Phủ áo chống mưa ngoài lều.
+- Cố định áo chống mưa vào 4 góc của lều.
+- Phần thừa có thể để nguyên hoặc dùng kẹp kẹp lại (áp dụng cho cả cửa).
+
+# 2. Vocab
 
 - PhoTranscriptor - Ứng dụng transcribe ngôn ngữ tiếng Việt dành cho nhà nghiên cứu: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl
 - Text 2 speech: [KittenML/KittenTTS: State-of-the-art TTS model under 25MB 😻](https://github.com/KittenML/KittenTTS)
 
-# 2. NS Store
+# 3. NS Store
 
 - Làm trang quảng cáo
 - Làm trang tạo mẫu áo dựa vào AI và có thể upload hình để tạo mẫu áo
 - Ý tưởng mới: Sản phẩm quét hình ảnh đồ vật và con người để dung ra vật thể 3D, từ đó phát công cụ thử đồ online
 - Hậu cần có thể sử dụng https://burgerprints.com
 
-# 3. NS Money
+# 4. NS Money
 
 - Làm widget app.
 - React native.
@@ -31,9 +62,9 @@ tags:
 - thêm tính năng đặt mục tiêu cho money.
 - Tạo thêm bot telegram.
 
-# 4. IoT
+# 5. IoT
 
-## 4.1. Camera
+## 5.1. Camera
 
 - https://hshop.vn/kit-rf-thu-phat-wifi-ble-esp32-cam
 - Làm camera phát hiện di chuyển và stream video
@@ -42,7 +73,7 @@ tags:
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
 - [How I monitor and control all my powered devices (Zigbee + HA)](https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha)
 
-## 4.2. Kính
+## 5.2. Kính
 
 - https://www.facebook.com/reel/1664889724380657
 - https://www.facebook.com/reel/533452956179734
@@ -50,9 +81,9 @@ tags:
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
 - Nghiên cứu về pin: https://cafef.vn/dot-pha-vo-song-trung-quoc-tim-ra-cong-nghe-phuc-hoi-pin-lithium-ion-da-bi-chai-khong-can-thao-roi-van-dua-duoc-pin-ve-trang-thai-nhu-moi-xuat-xuong-co-the-dat-tuoi-tho-60000-chu-ky-sac-xa-trong-164-nam-188250216112303946.chn
 
-## 4.3. Drone
+## 5.3. Drone
 
-# 5. Sóng âm
+# 6. Sóng âm
 
 - https://www.facebook.com/reel/560138376963731
 - LeviPrint
