@@ -38,3 +38,5 @@ tags:
 # 4. Tools
 
 - [c0dejump/HExHTTP: Header Exploitation HTTP](https://github.com/c0dejump/HExHTTP) - Tạo ra các biến thể của HTTP request để kiểm tra backend
+- [lirantal/npq: safely install npm packages by auditing them pre-install stage](https://github.com/lirantal/npq)
+- [HarborGuard/HarborGuard: Modern container security scanning platform with multi-tool integration.](https://github.com/HarborGuard/HarborGuard)

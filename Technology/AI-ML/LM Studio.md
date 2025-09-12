@@ -1,6 +1,6 @@
 ---
 relates:
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
   - "[[Javascript - Typescript]]"
   - "[[Python]]"
 tags:

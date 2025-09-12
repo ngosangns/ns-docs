@@ -8,7 +8,7 @@ relates:
   - "[[Backend - Back-end]]"
   - "[[SaaS]]"
   - "[[Solutions & System Designs & Design Patterns]]"
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
   - "[[Database]]"
   - "[[Blockchain]]"
 tags:

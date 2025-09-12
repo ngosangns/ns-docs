@@ -1,6 +1,6 @@
 ---
 relates:
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
 tags:
   - machine-learning
   - deep-learning

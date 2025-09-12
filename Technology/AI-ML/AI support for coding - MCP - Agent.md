@@ -1,6 +1,6 @@
 ---
 relates:
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
   - "[[Kho chung IT]]"
   - "[[Microservices]]"
 tags:
@@ -17,6 +17,8 @@ tags:
   - devin-ai
 ---
 # 1. Resources
+
+- [AI Tools Registry | A registry distributing AI Tools and components using shadcn.](https://ai-tools-registry.vercel.app/)
 
 # 2. Tools
 
@@ -98,11 +100,11 @@ Tóm lại, **Agent File (.af)** là giải pháp tiêu chuẩn mở, giúp chu�
 - ClonewebX - Clone giao diện web nâng cao
 - Tạo sandbox để run agent: [daytonaio/daytona: Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code](https://github.com/daytonaio/daytona)
 
-# 6. Các công cụ khác
+# 8. Các công cụ khác
 
 - ClonewebX - Clone giao diện web nâng cao
 
-# 7. Devin AI
+# 9. Devin AI
 
 **Devin** được mệnh danh là **"kỹ sư phần mềm AI đầu tiên trên thế giới"**, được phát triển bởi công ty khởi nghiệp **Cognition AI** của Mỹ. Sản phẩm này được giới thiệu lần đầu vào **ngày 12 tháng 3 năm 2024** bởi Scott Wu, CEO của Cognition AI.
 

@@ -24,7 +24,7 @@ tags:
 ### 1.1.2. Tài liệu
 
 - [[AI - Large Language Models (LLM)]]
-
+- [The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
 - [https://github.com/aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide) #generativeAI
 - [https://github.com/GokuMohandas/Made-With-ML](https://github.com/GokuMohandas/Made-With-ML): Learn how to design, develop, deploy and iterate on production-grade ML applications. #ML #development #deployment
 - [book_ML_color](https://super.myninja.ai/agents/b70180c0-e099-4561-9da4-3f3e0f5d6710): Machine learning cơ bản. #ML #basic

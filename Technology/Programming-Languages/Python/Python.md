@@ -1,7 +1,7 @@
 ---
 relates:
   - "[[Backend - Back-end]]"
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
 tags:
   - backend
   - machine-learning

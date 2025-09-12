@@ -683,7 +683,7 @@ Website: https://sqlc.dev
 
 Một công cụ thử nghiệm cho phép quét schema của cơ sở dữ liệu và sau đó người dùng có thể đặt câu hỏi bằng ngôn ngữ tự nhiên, công cụ sẽ sử dụng Mô hình Ngôn ngữ Lớn (LLM) để tạo ra câu lệnh SQL tương ứng.
 GitHub: https://github.com/phanxuanquang/AskDB
-Tham khảo liên quan: [[Machine learning - Deep Learning - AI - ML - DL]]
+Tham khảo liên quan: [[AI - ML]]
 
 # 9. Tài liệu tham khảo và Nguồn học liệu chung
 

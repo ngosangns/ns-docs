@@ -24,6 +24,7 @@ tags:
 - Tổng hợp API đa mục đích: https://github.com/public-apis/public-apis
 - [[Những thứ đã học ở Grab tech talk]]
 - [[Concurrency - Parallel - Asynchronus - Multi-threading]]
+- [Bài test benchmark giữa các Message Queue: Kafka vs RabbitMQ vs Redis Streams](https://devops.vn/posts/bai-test-benchmark-giua-cac-message-queue-kafka-vs-rabbitmq-vs-redis-streams-ket-qua-khien-toi-phai-bat-ngo)
 
 ## 1.1. Thông lượng
 

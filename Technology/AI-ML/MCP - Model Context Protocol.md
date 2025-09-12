@@ -2,7 +2,7 @@
 relates:
   - "[[AI support for coding - MCP - Agent]]"
   - "[[AI - Large Language Models (LLM)]]"
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
 tags:
   - ai-support-for-coding
   - large-language-models

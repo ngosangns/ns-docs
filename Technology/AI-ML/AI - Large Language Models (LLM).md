@@ -1,6 +1,6 @@
 ---
 relates:
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
   - "[[LLM promt engineering]]"
 tags:
   - machine-learning

@@ -2,7 +2,7 @@
 relates:
   - "[[Backend - Back-end]]"
   - "[[SaaS]]"
-  - "[[Machine learning - Deep Learning - AI - ML - DL]]"
+  - "[[AI - ML]]"
   - "[[DevOps]]"
   - "[[6 Chiến lược Prompt Hiệu quả của OpenAI]]"
   - "[[Severless]]"
