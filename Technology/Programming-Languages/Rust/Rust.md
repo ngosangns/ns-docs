@@ -19,6 +19,7 @@ tags:
 - Tokio - Một runtime bất đồng bộ cho ngôn ngữ lập trình Rust, là nền tảng cho hầu hết các ứng dụng mạng và I/O bất đồng bộ: https://github.com/tokio-rs/tokio #Async #Concurrency #Networking #Rust
 - axum - Một framework web công thái học và module hóa được xây dựng trên Tokio và Tower, tập trung vào sự đơn giản và an toàn kiểu: https://github.com/tokio-rs/axum #WebFramework #Async #Rust
 - reqwest - Một HTTP client tiện lợi và mạnh mẽ cho Rust, hỗ trợ cả hoạt động đồng bộ và bất đồng bộ: https://github.com/seanmonstar/reqwest #HTTPClient #Networking #Rust
+- [rustmailer/rustmailer: A self-hosted IMAP/SMTP middleware designed for developers](https://github.com/rustmailer/rustmailer)
 
 ### 1.1.2. Dữ liệu và Serialization
 

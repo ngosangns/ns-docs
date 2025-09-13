@@ -42,6 +42,10 @@ tags:
     * Áp dụng "Chuỗi Truy vấn" để chia nhỏ nhiệm vụ thành các bước riêng biệt. #promptEngineering #OpenAI
 * [Models.dev — An open-source database of AI models](https://models.dev/) - Thông số chi tiết của các mô hình LLM phổ biến
 
+## 1.1. Thuật toán
+
+- [Giải thích toán học, ưu điểm/nhược điểm cho từng kỹ thuật : Mixture of Experts, Grouped Query Attention, Flash Attention](https://viblo.asia/p/giai-thich-toan-hoc-uu-diemnhuoc-diem-cho-tung-ky-thuat-mixture-of-experts-grouped-query-attention-flash-attention-ZoJjeNME4Y7)
+
 # 2. Libraries / Frameworks
 
 * OpenCopilot: [https://github.com/openchatai/OpenCopilot](https://github.com/openchatai/OpenCopilot) #OpenCopilot
@@ -93,6 +97,8 @@ tags:
 	- #LangGraph #LLM #framework
 - llmware: Framework kết nối tri thức doanh nghiệp với LLM. [https://github.com/llmware-ai/llmware](https://github.com/llmware-ai/llmware)
 * Composio: Cung cấp hơn 100 integration cho AI agents. [https://github.com/ComposioHQ/composio](https://github.com/ComposioHQ/composio)
+* [openai/gym: A toolkit for developing and comparing reinforcement learning algorithms.](https://github.com/openai/gym)
+* Prompt & flow optimizing: [SylphAI-Inc/AdalFlow: AdalFlow: The library to build & auto-optimize LLM applications.](https://github.com/SylphAI-Inc/AdalFlow)
 
 ## 2.1. Data extractor
 
@@ -101,6 +107,7 @@ tags:
 ## 2.2. Caching
 
 - [LMCache/LMCache: Supercharge Your LLM with the Fastest KV Cache Layer](https://github.com/LMCache/LMCache)
+- [GibsonAI/memori: Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems](https://github.com/GibsonAI/memori)
 
 ## 2.3. Make It Heavy
 
@@ -292,7 +299,7 @@ Khi nào dùng QLoRA?
 - LoRA là lựa chọn lý tưởng khi bạn cần tinh chỉnh nhanh, tiết kiệm tài nguyên, nhưng không muốn làm giảm chất lượng mô hình.
 - QLoRA là sự lựa chọn đỉnh cao cho các mô hình rất lớn nhưng bạn muốn giảm thiểu tài nguyên và bộ nhớ mà vẫn duy trì hiệu suất.
 
-### 3.3.5. Fine-tune tools
+### 3.4.5. Fine-tune tools
 
 - [h2oai/h2o-llmstudio: H2O LLM Studio - a framework and no-code GUI for fine-tuning LLMs. Documentation: https://docs.h2o.ai/h2o-llmstudio/](https://github.com/h2oai/h2o-llmstudio)
 - [unslothai/unsloth: Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, Qwen3, Llama 4, DeepSeek-R1, Gemma 3, TTS 2x faster with 70% less VRAM.](https://github.com/unslothai/unsloth)

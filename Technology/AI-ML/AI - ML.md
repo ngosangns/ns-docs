@@ -23,6 +23,7 @@ aliases:
 - [DataCamp – Khóa học AI cho mọi trình độ](https://www.datacamp.com/learn/popular/ai): Cung cấp các khóa học tương tác về AI, bao gồm: học máy, AI tổng hợp, ChatGPT, và đạo đức AI. Phù hợp cho người mới bắt đầu và có lộ trình học rõ ràng. #course
 - [Microsoft – AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners): Khóa học gồm 10 bài học về cách xây dựng AI Agents. Bao gồm các chủ đề như: thiết kế agent, sử dụng công cụ, RAG, và triển khai sản phẩm. #course
 - MLOps Marathon 2023 - YouTube: [https://www.youtube.com/playlist?list=PLvmLXlo5OR87Gifw5IT-YWllj67YHhaEw](https://www.youtube.com/playlist?list=PLvmLXlo5OR87Gifw5IT-YWllj67YHhaEw) #course #MLOps
+- [This repository contains a curated collection of 300+ case studies from over 80 companies, detailing practical applications and insights into machine learning (ML) system design. The contents are organized to help you easily find relevant case studies based on industry or specific ML use cases](https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies)
 
 ### 1.1.2. Tài liệu
 
@@ -91,8 +92,6 @@ aliases:
     - [https://designer.microsoft.com](https://designer.microsoft.com/) #text2image
     - [https://www.shakker.ai](https://www.shakker.ai/) #text2image
     - [https://gamma.app](https://gamma.app/)
-- Chỉnh sửa ảnh:
-	- [Nano Banana - AI Image Editor | Edit Photos with Text](https://nanobanana.ai/)
 - Vẽ design: [https://www.visily.ai](https://www.visily.ai/) #design
 - Thay đồ cho model: [https://huggingface.co/spaces/yisol/IDM-VTON](https://huggingface.co/spaces/yisol/IDM-VTON) #clothing
 - IC-Light (Relighting with Foreground Condition) - Thay đổi ánh sáng vật thể dựa vào background: [https://huggingface.co/spaces/lllyasviel/IC-Light](https://huggingface.co/spaces/lllyasviel/IC-Light) #relighting
@@ -103,6 +102,8 @@ aliases:
     - [https://github.com/VectorSpaceLab/OmniGen2](https://github.com/VectorSpaceLab/OmniGen2)
     - Seedream v4
     - NanoBanana
+    - [Kling AI: Next-Generation AI Creative Studio](https://klingai.com/global/)
+    - [Jaaz - AI Design Agent](https://jaaz.app/)
 
 #### 1.4.2.3. Model
 

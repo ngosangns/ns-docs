@@ -59,6 +59,10 @@ Các hệ thống component UI phổ biến và đáng chú ý:
 
 - [Avijit07x/animateicons: A sleek React library for animated SVG icons that move with purpose. Transform static designs into engaging user experiences with smooth, performant animations.](https://github.com/Avijit07x/animateicons)
 
+## 5.2. Components
+
+- [xyflow/xyflow: React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.](https://github.com/xyflow/xyflow)
+
 # 6. SSR - Server-side Rendering
 
 - Fastify Vite React: Bản phát hành tích hợp Fastify, Vite và React cho SSR. https://github.com/fastify/fastify-vite/releases/tag/react-v1.0.0

@@ -2,6 +2,7 @@
 relates:
   - "[[Backend - Back-end]]"
   - "[[Database]]"
+  - "[[ProxySQL Connection Multiplexing]]"
 tags:
   - postgres
   - database

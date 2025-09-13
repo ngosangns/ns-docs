@@ -26,7 +26,15 @@ tags:
 - [[Concurrency - Parallel - Asynchronus - Multi-threading]]
 - [Bài test benchmark giữa các Message Queue: Kafka vs RabbitMQ vs Redis Streams](https://devops.vn/posts/bai-test-benchmark-giua-cac-message-queue-kafka-vs-rabbitmq-vs-redis-streams-ket-qua-khien-toi-phai-bat-ngo)
 
-## 1.1. Thông lượng
+## 1.1. Khoảng tin cậy Wilson
+
+Khoảng tin cậy Wilson là một loại khoảng tin cậy trong thống kê, dùng để ước lượng tỷ lệ thành công (ví dụ tỷ lệ sản phẩm được đánh giá tốt, tỷ lệ thành công trong A/B testing) với mức độ tin cậy cao. Nó tính biên dưới của tỷ lệ thành công, giúp đưa ra một ước lượng "thấp nhất đáng tin cậy" cho tỷ lệ đó, đặc biệt hiệu quả với mẫu nhỏ và không bị nhiễu do kích thước mẫu. Khoảng tin cậy Wilson thường dùng trong các bài toán xếp hạng, đánh giá sản phẩm, tỷ lệ bán hàng...
+
+Về mặt toán học, khoảng tin cậy Wilson dùng giá trị Z tương ứng với mức độ tin cậy (thường 95% tương ứng z = 1.96), số lần thành công ss, tổng thử nghiệm nn, và tỷ lệ thành công quan sát p=snp=ns. Công thức tính gồm các phần điều chỉnh trung tâm và biên sai số để xác định biên dưới và biên trên, nhưng thường chỉ tính biên dưới để có ước lượng thấp nhất an toàn về tỷ lệ thành công.
+
+Ngoài ra, khoảng tin cậy nói chung (Confidence Interval) là phạm vi giá trị ước tính cho tham số tổng thể dựa trên mẫu, thể hiện sự không chắc chắn trong ước lượng với mức độ tin cậy nhất định như 95% hoặc 99%. Mức độ tin cậy 95% có nghĩa là nếu lấy nhiều mẫu lặp lại thì khoảng tin cậy thu được từ mỗi mẫu sẽ chứa tham số thật của tổng thể khoảng 95% các trường hợp.
+
+## 1.2. Thông lượng
 
 **Latency:** Độ trễ - thời gian xử lý 1 request của BE.
 **Throughput:** Thông lượng - lượng request mà BE xử lý được trong 1 khoảng thời gian.

@@ -26,6 +26,7 @@ Node.js supports a variety of frameworks that simplify the development of web ap
 - **FeathersJS**: A framework for real-time applications and REST APIs with a flexible plugin architecture.
 - **Hapi.js**: A rich framework for building applications and services in Node.js.
 
+[honojs/hono: Web framework built on Web Standards](https://github.com/honojs/hono)
 ## 1.2. ORMs (OBJECT RELATIONAL MAPPER)
 
 * Provides a way to work interact with data from within your code without writing raw SQL queries
