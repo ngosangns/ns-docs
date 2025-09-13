@@ -19,11 +19,15 @@ tags:
 - MySQL Thực Thi Lệnh SELECT Như Thế Nào?: https://viblo.asia/p/mysql-thuc-thi-lenh-select-nhu-the-nao-AZoJjreyJY7
 - Nghiên cứu về kiến trúc và cách tối ưu MySQL: https://viblo.asia/p/nghien-cuu-ve-kien-truc-va-cach-toi-uu-mysql-EbNVQww0JvR
 
-# 2. Extensions (services)
+# 2. Tools
+
+- [percona/percona-toolkit: Percona Toolkit: a collection of advanced open source command-line tools.](https://github.com/percona/percona-toolkit)
+
+# 3. Extensions (services)
 
 - ProxySQL - Tăng tốc độ truy vấn dữ liệu SQL với replication
 
-# 3. Storage engine
+# 4. Storage engine
 
 Trong MySQL, các storage engine cung cấp các cơ chế khác nhau để lưu trữ, quản lý và truy xuất dữ liệu. Dưới đây là so sánh của một số engine phổ biến:
 

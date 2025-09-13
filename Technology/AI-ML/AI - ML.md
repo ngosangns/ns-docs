@@ -10,6 +10,9 @@ tags:
   - ai-support-for-coding
   - mcp
   - agent
+aliases:
+  - Machine Learning
+  - Deep Learning
 ---
 # 1. Machine Learning, Deep Learning & AI
 
@@ -98,6 +101,8 @@ tags:
     - [https://www.google.com/shopping/tryon?gl=us&hl=en&utm_source=aim_email&utm_content=sl3&udm=28](https://www.google.com/shopping/tryon?gl=us&hl=en&utm_source=aim_email&utm_content=sl3&udm=28)
 - Chỉnh sửa hình:
     - [https://github.com/VectorSpaceLab/OmniGen2](https://github.com/VectorSpaceLab/OmniGen2)
+    - Seedream v4
+    - NanoBanana
 
 #### 1.4.2.3. Model
 

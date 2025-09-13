@@ -38,6 +38,7 @@ tags:
 6. Blog và Hướng dẫn Thực Hành
 	- Learn Building Modern Go applications - Three Dots Labs blog: https://threedots.tech (Blog về xây dựng ứng dụng Go hiện đại)
 	- Practical Go: Real world advice for writing maintainable Go programs: https://dave.cheney.net/practical-go/presentations/qcon-china.html (Lời khuyên thực tế để viết chương trình Go dễ bảo trì)
+	- [Building a High-Performance Concurrent Live Leaderboard in Go - DEV Community](https://dev.to/gkoos/building-a-high-performance-concurrent-live-leaderboard-in-go-3i6d)
 7. Style Guide và Best Practices
 	- Go Style: https://google.github.io/styleguide/go (Hướng dẫn về phong cách viết mã Go từ Google)
 	- Project layout: https://github.com/golang-standards/project-layout (Cấu trúc thư mục dự án Go tiêu chuẩn)
@@ -237,6 +238,8 @@ tags:
 ## 3.9. Desktop UI
 
 - go-gl/glfw: https://github.com/go-gl/glfw (Binding Go cho GLFW)
+- [fyne-io/fyne: Cross platform GUI toolkit in Go inspired by Material Design](https://github.com/fyne-io/fyne)
+
 ## 3.10. WebRTC
 
 - Pion WebRTC: https://github.com/pion/webrtc (Triển khai WebRTC thuần Go)
@@ -296,7 +299,7 @@ tags:
 
 - awesome-go: https://github.com/avelino/awesome-go (Danh sách framework, thư viện, phần mềm Go)
 
-# 4. Thực Hành và Phỏng V
+# 4. Thực Hành và Phỏng Vấn
 
 ## 4.1. Dự án thực hành
 
