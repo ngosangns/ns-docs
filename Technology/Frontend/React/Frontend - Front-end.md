@@ -42,6 +42,8 @@ tags:
 		- **`StorageManager.getDirectory()`**: Được sử dụng để lấy tham chiếu đến một đối tượng FileSystemDirectoryHandle cho phép truy cập vào một thư mục và nội dung của nó, được lưu trữ trong origin private file system. Trả về một Promise giải quyết với một đối tượng FileSystemDirectoryHandle.
 		- **`StorageManager.persist()`**: Trả về một Promise giải quyết thành true nếu user agent có thể duy trì bộ nhớ của trang web của bạn.
 		- **`StorageManager.persisted()`**: Trả về một Promise giải quyết thành true nếu quyền persistence đã được cấp cho bộ nhớ của trang web của bạn.
+- Prompt API cho extension: https://developer.chrome.com/docs/extensions/ai/prompt-api?hl=vi
+- Translator API: https://developer.mozilla.org/en-US/docs/Web/API/Translator
 
 ### 1.1.1. WebGPU
 
@@ -347,36 +349,22 @@ export class StorageManager {
 
 ## 5.1. Hệ thống Thiết kế (Design Systems)
 
-- Bulma: Framework CSS hiện đại dựa trên Flexbox.
-	- https://bulma.io
-- Shoelace: Bộ sưu tập Web Components chuyên nghiệp.
-	- https://shoelace.style
-- UIkit: Framework nhẹ và module cho phát triển web nhanh.
-	- https://getuikit.com
-- Fluent Design System (Microsoft)
-	- https://www.microsoft.com/design/fluent
-- Material Design (Google)
-	- https://material.io
-- Primer Design System (GitHub)
-	- https://primer.style
-- Atlassian Design System
-	- https://atlassian.design
-- Oku UI: Bộ components mã nguồn mở.
-	- https://oku-ui.com
-- Zag: UI components không phụ thuộc framework, dựa trên state machines.
-	- https://github.com/chakra-ui/zag
-- DynaUI
-	- https://www.dynaui.design
-- Magic UI
-	- https://magicui.design
-- Visual Studio Code Elements: Components giao diện giống VS Code.
-	- https://github.com/vscode-elements/elements
-- Pico.css: CSS framework tối giản cho HTML semantic.
-	- https://github.com/picocss/pico
-- Tachyons: CSS toolkit cho thiết kế nhanh.
-	- https://tachyons.io
-- LayUI: Classic modular front-end UI framework.
-	- https://github.com/layui/layui
+- Bulma: Framework CSS hiện đại dựa trên Flexbox: https://bulma.io
+- Shoelace: Bộ sưu tập Web Components chuyên nghiệp: https://shoelace.style
+- UIkit: Framework nhẹ và module cho phát triển web nhanh: https://getuikit.com
+- Fluent Design System (Microsoft): https://www.microsoft.com/design/fluent
+- Material Design (Google): https://material.io
+- Primer Design System (GitHub): https://primer.style
+- Atlassian Design System: https://atlassian.design
+- Oku UI: Bộ components mã nguồn mở: https://oku-ui.com
+- Zag: UI components không phụ thuộc framework, dựa trên state machines: https://github.com/chakra-ui/zag
+- DynaUI: https://www.dynaui.design
+- Magic UI: https://magicui.design
+- Visual Studio Code Elements: Components giao diện giống VS Code: https://github.com/vscode-elements/elements
+- Pico.css: CSS framework tối giản cho HTML semantic: https://github.com/picocss/pico
+- Tachyons: CSS toolkit cho thiết kế nhanh: https://tachyons.io
+- LayUI: Classic modular front-end UI framework: https://github.com/layui/layui
+- [material-components/material-web: Material Design Web Components](https://github.com/material-components/material-web)
 
 ## 5.2. Frameworks CSS
 
