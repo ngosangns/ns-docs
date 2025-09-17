@@ -164,6 +164,19 @@ aliases:
 - ComfyUI - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface: [https://github.com/comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI) #ComfyUI
     - Xoay ảnh 3D từ ảnh tĩnh: [https://www.facebook.com/watch/?ref=saved&v=1241934220105948](https://www.facebook.com/watch/?ref=saved&v=1241934220105948)
 
+### 1.5.3. Memory management libraries / services
+
+- Vertex AI Agent Engine Memory Bank
+- [campfirein/cipher: Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Windsurf, Claude Code, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/](https://github.com/campfirein/cipher)
+- Supermemory.ai: Supermemory.ai là nền tảng Memory API, xây dựng lớp ghi nhớ thông minh và bền vững, giúp AI hoặc cá nhân tổ chức và khai thác dữ liệu hiệu quả. Nó thường được ví như “bộ não số” thứ hai.
+	- Semantic & AI Search: Tìm kiếm theo ý nghĩa, gắn kết ngữ cảnh thay vì chỉ so khớp từ khóa.  
+	- Content Handling đa dạng: Hỗ trợ văn bản, URL, PDF, hình ảnh, video; gắn metadata cho tìm kiếm.  
+	- AI Model Enhancer: Kết nối với OpenAI, Claude, Mistral... giúp AI trả lời chính xác hơn, giảm “hallucination”.  
+	- Tích hợp đa nền tảng: Đồng bộ với Notion, Google Drive, CRM, mạng xã hội, Zapier, Chrome extension...  
+	- Tổ chức & phân loại thông tin: Lọc, chia sẻ, quản lý metadata; phù hợp cả nhóm và doanh nghiệp.  
+	- Giao diện canvas & Writing Assistant: Trực quan, hỗ trợ Markdown, gợi ý viết dựa trên knowledge base.  
+	- Bảo mật & kiểm soát: Hỗ trợ cloud, on-premises, on-device; tùy biến quyền kiểm soát dữ liệu.
+
 ## 1.6. Nhận dạng (Recognition)
 
 - [AWS Serverless] - Sử dụng Golang và Amazon Rekognition để xây dựng API tìm kiếm khuôn mặt bằng hình ảnh: [https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekognition-de-xay-dung-api-tim-kiem-khuon-mat-bang-hinh-anh-yZjJY96XJOE](https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekognition-de-xay-dung-api-tim-kiem-khuon-mat-bang-hinh-anh-yZjJY96XJOE) #AWS #Rekognition #faceRecognition
