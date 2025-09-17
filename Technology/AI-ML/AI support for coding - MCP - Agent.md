@@ -29,33 +29,22 @@ tags:
     - [https://library.relume.io](https://library.relume.io/) #webUI
     - [https://same.new](https://same.new/)
     - Tool tương tự figma: [https://github.com/onlook-dev/onlook](https://github.com/onlook-dev/onlook)
-
-## 2.1. Agent File
-
-Agent File (.af) là định dạng mở để tuần tự hóa trạng thái của AI agent có bộ nhớ và hành vi liên tục. Nó gói gọn các thành phần của agent (lệnh hệ thống, bộ nhớ, cấu hình công cụ, cài đặt mô hình ngôn ngữ) trong một file duy nhất.
-
-### 2.1.1. Chức năng chính
-
-- Tuần tự hóa trạng thái: Lưu toàn bộ cấu hình, bộ nhớ, lịch sử, công cụ.
-- Chia sẻ và chuyển đổi: Dùng giữa các môi trường, framework.
-- Checkpoint & version control: Theo dõi và lưu nhiều phiên bản.
-- Import/Export linh hoạt: Hỗ trợ SDK (Python, Node.js) và API REST.
-- Agent mẫu sẵn có: Ví dụ MemGPT, agent nghiên cứu, hỗ trợ khách hàng.
-
-### 2.1.2. Ưu điểm
-
-- Có roadmap mở rộng (multi-agent, lưu trữ passages, schema mới).
-
-### 2.1.3. Nhược điểm
-
-- Phụ thuộc framework hỗ trợ (hiện chủ yếu Letta).
-- Secrets bị xoá khi export, cần xử lý riêng khi triển khai.
-
-### 2.1.4. Trường hợp sử dụng
-
-- Agent phức tạp cần lưu/khôi phục liên tục (như MemGPT).
-- Chia sẻ agent với cộng đồng AI.
-- Checkpoint & version control trong phát triển.
+- Agent File: Agent File (.af) là định dạng mở để tuần tự hóa trạng thái của AI agent có bộ nhớ và hành vi liên tục. Nó gói gọn các thành phần của agent (lệnh hệ thống, bộ nhớ, cấu hình công cụ, cài đặt mô hình ngôn ngữ) trong một file duy nhất.
+	- Chức năng chính:
+		- Tuần tự hóa trạng thái: Lưu toàn bộ cấu hình, bộ nhớ, lịch sử, công cụ.
+		- Chia sẻ và chuyển đổi: Dùng giữa các môi trường, framework.
+		- Checkpoint & version control: Theo dõi và lưu nhiều phiên bản.
+		- Import/Export linh hoạt: Hỗ trợ SDK (Python, Node.js) và API REST.
+		- Agent mẫu sẵn có: Ví dụ MemGPT, agent nghiên cứu, hỗ trợ khách hàng.
+	- Ưu điểm:
+		- Có roadmap mở rộng (multi-agent, lưu trữ passages, schema mới).
+	- Nhược điểm:
+		- Phụ thuộc framework hỗ trợ (hiện chủ yếu Letta).
+		- Secrets bị xoá khi export, cần xử lý riêng khi triển khai.
+	- Trường hợp sử dụng:
+		- Agent phức tạp cần lưu/khôi phục liên tục (như MemGPT).
+		- Chia sẻ agent với cộng đồng AI.
+		- Checkpoint & version control trong phát triển.
 
 # 3. CLI
 
