@@ -187,7 +187,7 @@ Message Broker & Message Queue:
 * Định nghĩa: Công cụ cho phép tạo ứng dụng với ít hoặc không cần code, dùng giao diện kéo-thả.
 * Công cụ Self-hosted / Mã nguồn mở:
   * Appsmith, Budibase, ToolJet: Xây dựng công cụ nội bộ (admin panels, dashboards).
-  * NocoDB, Baserow: Biến CSDL thành giao diện bảng tính thông minh (giống Airtable).
+  * NocoDB, Baserow: Biến CSDL thành giao diện bảng tính thông minh (giống Airtable, Teatable).
   * Directus: Data Platform & Headless CMS, tạo API tức thì từ CSDL.
   * n8n: Tự động hóa quy trình (workflow automation).
   * PocketBase: Backend all-in-one trong 1 file duy nhất (Go), gồm CSDL, auth, storage.
