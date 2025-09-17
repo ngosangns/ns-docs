@@ -23,14 +23,32 @@ tags:
 # 2. Tools
 
 - SQL query generator with database schema context: https://github.com/sqlchat/sqlchat
+- [eli64s/readme-ai: README file generator, powered by AI.](https://github.com/eli64s/readme-ai)
+- [https://github.com/microsoft/NLWeb](https://github.com/microsoft/NLWeb)
+- Tạo giao diện cho website:
+    - [https://library.relume.io](https://library.relume.io/) #webUI
+    - [https://same.new](https://same.new/)
+    - Tool tương tự figma: [https://github.com/onlook-dev/onlook](https://github.com/onlook-dev/onlook)
 
-## 2.1. Agent File
+## 2.1. Memory layer
+
+- [campfirein/cipher: Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Windsurf, Claude Code, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/](https://github.com/campfirein/cipher)
+- Supermemory.ai: Supermemory.ai là nền tảng Memory API, xây dựng lớp ghi nhớ thông minh và bền vững, giúp AI hoặc cá nhân tổ chức và khai thác dữ liệu hiệu quả. Nó thường được ví như “bộ não số” thứ hai.
+	- Semantic & AI Search: Tìm kiếm theo ý nghĩa, gắn kết ngữ cảnh thay vì chỉ so khớp từ khóa.  
+	- Content Handling đa dạng: Hỗ trợ văn bản, URL, PDF, hình ảnh, video; gắn metadata cho tìm kiếm.  
+	- AI Model Enhancer: Kết nối với OpenAI, Claude, Mistral... giúp AI trả lời chính xác hơn, giảm “hallucination”.  
+	- Tích hợp đa nền tảng: Đồng bộ với Notion, Google Drive, CRM, mạng xã hội, Zapier, Chrome extension...  
+	- Tổ chức & phân loại thông tin: Lọc, chia sẻ, quản lý metadata; phù hợp cả nhóm và doanh nghiệp.  
+	- Giao diện canvas & Writing Assistant: Trực quan, hỗ trợ Markdown, gợi ý viết dựa trên knowledge base.  
+	- Bảo mật & kiểm soát: Hỗ trợ cloud, on-premises, on-device; tùy biến quyền kiểm soát dữ liệu.  
+
+## 2.2. Agent File
 
 https://github.com/letta-ai/agent-file
 
 Agent File (.af) là **định dạng file mở để tuần tự hóa trạng thái của các AI agent có bộ nhớ và hành vi liên tục**. Được thiết kế ban đầu cho framework Letta, Agent File giúp **gói tất cả các thành phần của một AI agent trạng thái bao gồm lệnh hệ thống, bộ nhớ chỉnh sửa được (thông tin cá nhân, người dùng), cấu hình công cụ (mã nguồn và sơ đồ JSON), cùng với cài đặt mô hình ngôn ngữ LLM** vào một file duy nhất[3].
 
-### 2.1.1. Chức năng chính của Agent File (.af)
+### 2.2.1. Chức năng chính của Agent File (.af)
 
 - **Tuần tự hóa trạng thái agent**: Bao gồm toàn bộ các trạng thái để tái tạo chính xác agent ban đầu (cấu hình mô hình, lịch sử hội thoại, lệnh hệ thống, bộ nhớ, công cụ).
 - **Chuyển đổi và chia sẻ agent giữa các môi trường và framework tương thích**.
@@ -38,7 +56,7 @@ Agent File (.af) là **định dạng file mở để tuần tự hóa trạng t
 - **Hỗ trợ import/export agent dễ dàng với SDK (Python, Node.js) hoặc API REST**.
 - **Hỗ trợ nhiều loại agent mẫu để tải xuống và sử dụng ngay**, ví dụ MemGPT với quản lý bộ nhớ vô hạn, agent nghiên cứu sâu, hỗ trợ khách hàng, và workflow không giữ trạng thái[1].
 
-### 2.1.2. Ưu điểm
+### 2.2.2. Ưu điểm
 
 - **Tính di động cao**: Cho phép di chuyển AI agent có trạng thái qua lại giữa các nền tảng hoặc môi trường thử nghiệm khác nhau.
 - **Tiện lợi khi phát triển và cộng tác**: Dễ dàng chia sẻ agent với người khác, cũng như đóng góp vào cộng đồng.
@@ -46,13 +64,13 @@ Agent File (.af) là **định dạng file mở để tuần tự hóa trạng t
 - **Hỗ trợ đa dạng công cụ và tùy chỉnh agent**.
 - **Có roadmap phát triển để mở rộng tính năng (hỗ trợ multi-agent, bộ nhớ lưu trữ dạng passages, nguồn dữ liệu, chuyển đổi schema giữa các phiên bản)**.
 
-### 2.1.3. Nhược điểm
+### 2.2.3. Nhược điểm
 
 - **Phụ thuộc vào framework hỗ trợ**: Hiện chủ yếu tích hợp sâu với Letta, các framework khác cần tự chuyển đổi trạng thái và có thể không hỗ trợ hoàn toàn một số tính năng như context window blocks.
 - **Chưa hỗ trợ đầy đủ một số tính năng nâng cao như Passages của Archival Memory theo roadmap**.
 - **Khi export agent chứa secrets, các giá trị bí mật sẽ bị xoá để bảo mật (đặt bằng null), nên cần xử lý riêng khi deploy ngoài môi trường phát triển**.
 
-### 2.1.4. Usecases (Trường hợp sử dụng)
+### 2.2.4. Usecases (Trường hợp sử dụng)
 
 - **Phát triển agent có trạng thái phức tạp cần lưu trữ và khôi phục liên tục** (ví dụ như MemGPT với bộ nhớ dài hạn).
 - **Chia sẻ agent giữa các nhà phát triển và cộng đồng AI** mà không lo mất các thành phần cấu hình hoặc bộ nhớ tùy chỉnh.
@@ -73,6 +91,7 @@ Tóm lại, **Agent File (.af)** là giải pháp tiêu chuẩn mở, giúp chu�
 
 - Gemini CLI: https://github.com/google-gemini/gemini-cli
 - Claude Code
+	- https://z.ai
 - Rovo Dev
 - [QwenLM/qwen-code: qwen-code is a coding agent that lives in digital world.](https://github.com/QwenLM/qwen-code)
 - [charmbracelet/crush: The glamourous AI coding agent for your favourite terminal 💘](https://github.com/charmbracelet/crush)
