@@ -42,19 +42,25 @@ tags:
 - Cố định áo chống mưa vào 4 góc của lều.
 - Phần thừa có thể để nguyên hoặc dùng kẹp kẹp lại (áp dụng cho cả cửa).
 
-# 2. Vocab
+# 2. Code tool giao dịch
+
+## 2.1. Lý thuyết
+
+- https://www.facebook.com/permalink.php?story_fbid=pfbid02W4ebZqJeLktqGA6e1iyq6c6tmoQEnViFe1NgFVgzytXYyNMLtYy5bAWxbdbNTSCzl&id=100074305494707
+
+# 3. Vocab
 
 - PhoTranscriptor - Ứng dụng transcribe ngôn ngữ tiếng Việt dành cho nhà nghiên cứu: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl
 - Text 2 speech: [KittenML/KittenTTS: State-of-the-art TTS model under 25MB 😻](https://github.com/KittenML/KittenTTS)
 
-# 3. NS Store
+# 4. NS Store
 
 - Làm trang quảng cáo
 - Làm trang tạo mẫu áo dựa vào AI và có thể upload hình để tạo mẫu áo
 - Ý tưởng mới: Sản phẩm quét hình ảnh đồ vật và con người để dung ra vật thể 3D, từ đó phát công cụ thử đồ online
 - Hậu cần có thể sử dụng https://burgerprints.com
 
-# 4. NS Money
+# 5. NS Money
 
 - Làm widget app.
 - React native.
@@ -62,9 +68,9 @@ tags:
 - thêm tính năng đặt mục tiêu cho money.
 - Tạo thêm bot telegram.
 
-# 5. IoT
+# 6. IoT
 
-## 5.1. Camera
+## 6.1. Camera
 
 - https://hshop.vn/kit-rf-thu-phat-wifi-ble-esp32-cam
 - Làm camera phát hiện di chuyển và stream video
@@ -73,7 +79,7 @@ tags:
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
 - [How I monitor and control all my powered devices (Zigbee + HA)](https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha)
 
-## 5.2. Kính
+## 6.2. Kính
 
 - https://www.facebook.com/reel/1664889724380657
 - https://www.facebook.com/reel/533452956179734
@@ -81,9 +87,9 @@ tags:
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
 - Nghiên cứu về pin: https://cafef.vn/dot-pha-vo-song-trung-quoc-tim-ra-cong-nghe-phuc-hoi-pin-lithium-ion-da-bi-chai-khong-can-thao-roi-van-dua-duoc-pin-ve-trang-thai-nhu-moi-xuat-xuong-co-the-dat-tuoi-tho-60000-chu-ky-sac-xa-trong-164-nam-188250216112303946.chn
 
-## 5.3. Drone
+## 6.3. Drone
 
-# 6. Sóng âm
+# 7. Sóng âm
 
 - https://www.facebook.com/reel/560138376963731
 - LeviPrint
