@@ -441,6 +441,7 @@ export class StorageManager {
 - Omi: Framework Web Components thế hệ mới: https://github.com/Tencent/omi
 - Vant: Bộ UI components cho mobile: https://github.com/youzan/vant
 - Shadcn cho any stack: https://github.com/hunvreus/basecoat
+- Liquid Glass: https://aethercss.lovable.app/
 
 ## 5.8. Components Chuyên biệt
 
