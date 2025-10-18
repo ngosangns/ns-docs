@@ -190,6 +190,8 @@ Message Broker & Message Queue:
   * NocoDB, Baserow: Biến CSDL thành giao diện bảng tính thông minh (giống Airtable, Teatable).
   * Directus: Data Platform & Headless CMS, tạo API tức thì từ CSDL.
   * n8n: Tự động hóa quy trình (workflow automation).
+	  * Alternatives:
+		  * https://github.com/simstudioai/sim
   * PocketBase: Backend all-in-one trong 1 file duy nhất (Go), gồm CSDL, auth, storage.
   * Supabase: Giải pháp thay thế Firebase mã nguồn mở.
 

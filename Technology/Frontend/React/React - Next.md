@@ -118,6 +118,8 @@ Danh sách các thư viện hữu ích trong hệ sinh thái React/Next.js:
 	- Push Notification
 	- Chat (Slack, Discord, Microsoft Teams, v.v.)
 	- Thay vì tích hợp riêng lẻ với từng nhà cung cấp dịch vụ thông báo (như SendGrid, Twilio, Firebase, v.v.), Novu cho phép bạn kết nối tất cả thông qua một API duy nhất, giúp đơn giản hóa quá trình phát triển và bảo trì hệ thống thông báo.
+- Xử lý đồ họa:
+	- A React renderer for Three.js: https://github.com/pmndrs/react-three-fiber
 
 # 10. Compilers
 
