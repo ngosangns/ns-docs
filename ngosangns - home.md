@@ -42,10 +42,11 @@ tags:
 - Cố định áo chống mưa vào 4 góc của lều.
 - Phần thừa có thể để nguyên hoặc dùng kẹp kẹp lại (áp dụng cho cả cửa).
 
-# 2. Code tool giao dịch
+# 2. Code tool giao dịch, quản lý tài chính
 
-## 2.1. Lý thuyết
+## 2.1. Tài liệu tham khảo
 
+- https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-finance
 - https://www.facebook.com/permalink.php?story_fbid=pfbid02W4ebZqJeLktqGA6e1iyq6c6tmoQEnViFe1NgFVgzytXYyNMLtYy5bAWxbdbNTSCzl&id=100074305494707
 
 # 3. Vocab
