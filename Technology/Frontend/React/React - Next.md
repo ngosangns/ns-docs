@@ -44,6 +44,7 @@ Các hệ thống component UI phổ biến và đáng chú ý:
 
 - shadcn/ui: https://github.com/shadcn/ui
 	- shadcnregistry: https://shadcnregistry.com
+	- https://github.com/sadmann7/diceui
 - Semi Design (DouyinFE): https://github.com/DouyinFE/semi-design
 - Arco Design: https://github.com/arco-design/arco-design
 - Tamagui: https://github.com/tamagui/tamagui
