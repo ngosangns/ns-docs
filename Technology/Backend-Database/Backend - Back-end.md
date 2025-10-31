@@ -131,8 +131,6 @@ Có nhiều lợi ích khi sử dụng Redis Sentinel, bao gồm:
 - **Dễ sử dụng:** Sentinel dễ dàng cài đặt và cấu hình.
 - **Miễn phí:** Sentinel là phần mềm mã nguồn mở và miễn phí.
 
----
-
 # 5. Một số lỗi thường gặp
 
 ## 5.1. Data race và Race condition
@@ -168,3 +166,11 @@ Deadlock là tình trạng mà hai hoặc nhiều tiến trình đang chờ đ�
 
 - Vector Search and RAG Tutorial – Using LLMs with Your Data: https://www.freecodecamp.org/news/vector-search-and-rag-tutorial-using-llms-with-your-data
 - Search Engine và Vector Database: https://viblo.asia/s/search-engine-va-vector-database-GyZJZwllLjm
+
+# 10. API
+
+## 10.1. Searching APIs
+
+- https://exa.ai/
+- https://brightdata.com/
+- https://serper.dev/

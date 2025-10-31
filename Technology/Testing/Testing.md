@@ -14,6 +14,7 @@ tags:
 
 - Tự động thực hiện các hành động trên website: https://www.automa.site
 - All things about unit test with Jest: https://viblo.asia/s/all-things-about-unit-test-with-jest-38X4E30XLN2
+
 # 2. Các định nghĩa
 
 - Acceptance Test được thực hiện để đảm bảo rằng phần mềm đã được phát triển đáp ứng các yêu cầu của khách hàng và có thể được chấp nhận sử dụng. AT thường được thực hiện bởi khách hàng hoặc người sử dụng cuối cùng.
@@ -440,3 +441,7 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
 - Dependency Analysis Tools
     - Doxygen, Graphviz, v.v. (kết hợp với các scripts hoặc plugins) để minh hoạ các mối quan hệ và phục vụ cho việc review bằng mắt.
 - [openreplay/openreplay: Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product.](https://github.com/openreplay/openreplay)
+
+## 5.1. Headless browser
+
+- https://github.com/lightpanda-io/browser
