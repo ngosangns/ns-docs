@@ -550,3 +550,385 @@ Phần này tập trung vào các framework và thư viện cụ thể được 
   * whodb: Công cụ quản lý cơ sở dữ liệu. [https://github.com/clidey/whodb](https://github.com/clidey/whodb)
 * Translator:
   * Tolgee Platform: Nền tảng dịch thuật mã nguồn mở, cho phép dịch trực tiếp trong ngữ cảnh ứng dụng web.
+
+---
+
+## 12.3. I. KHÁI NIỆM & KIẾN TRÚC CỐT LÕI
+
+### 12.3.1. Mô Hình Kiến Trúc
+
+- Các mô hình kiến trúc quan trọng bao gồm **Microservices** và **Kiến trúc hướng dịch vụ (SOA)**.
+- Châm ngôn phát triển service được đề cập là **12-Factor App**.
+- Tài liệu tham khảo cho SOA được cung cấp bởi AWS.
+
+### 12.3.2. Xử Lý Dữ Liệu
+
+- Có hai phương pháp xử lý dữ liệu chính là **Batch Processing** và **Stream Processing**.
+
+### 12.3.3. Framework Xử Lý Dữ Liệu Lớn (Apache Spark Context)
+
+- **Apache Spark** được định nghĩa là một framework tính toán cluster mã nguồn mở, giúp xử lý dữ liệu lớn nhanh chóng.
+- Chức năng của Spark bao gồm xử lý **batch và real-time**, hỗ trợ nhiều ngôn ngữ (Scala, Java, Python, R), và tích hợp với nhiều nguồn dữ liệu (HDFS, S3).
+- Các thư viện cốt lõi của Spark là **Spark SQL, Spark Streaming, MLlib, và GraphX**.
+- Ưu điểm của Spark là **tốc độ cao** (do xử lý in-memory), **dễ sử dụng**, và **khả năng mở rộng tốt**.
+
+## 12.4. II. THẢO LUẬN & SO SÁNH KIẾN TRÚC CHUYÊN SÂU
+
+### 12.4.1. So Sánh Giao Tiếp (Message Queue vs. RPC/REST)
+
+Sự khác biệt cốt lõi giữa hai mô hình giao tiếp:
+
+|Mô hình|Đặc điểm|Luồng Xử lý|
+|:--|:--|:--|
+|**Message Queue**|**Gửi và Quên** (Giống như gửi thư, không chờ phản hồi ngay lập tức).|**Bất đồng bộ**. Không thể dùng để nhận kết quả trả về trực tiếp.|
+|**REST/RPC**|**Gửi và Chờ** (Giống như gọi điện, mong đợi phản hồi thành công hoặc lỗi).|**Đồng bộ**.|
+
+### 12.4.2. So Sánh Chi Tiết Message Broker (RabbitMQ vs. Kafka)
+
+Đây là bản tóm tắt các điểm khác biệt cốt lõi:
+
+|Tính năng|RabbitMQ|Kafka|
+|:--|:--|:--|
+|**Mô hình tương tác**|**Push** (Broker chủ động đẩy message đến consumer).|**Pull** (Consumer chủ động kéo message từ topic).|
+|**Lợi thế/Rủi ro (Tương tác)**|**Rủi ro tràn bộ nhớ** của consumer hoặc queue nếu consumer xử lý không kịp.|**Consumer tự quyết định tốc độ xử lý**.|
+|**Mục đích sử dụng**|Phù hợp cho **background jobs, long-running tasks**.|Rất mạnh cho **streaming và hệ thống lớn** với thông lượng cao.|
+|**Đảm bảo thứ tự**|Không mạnh trong việc đảm bảo thứ tự message.|Đảm bảo thứ tự message **trong cùng một `partition`**.|
+|**Lưu trữ (Persistence)**|Message sẽ **bị xóa** khỏi queue sau khi consumer xử lý xong và gửi tín hiệu xác nhận (ACK).|Message được **lưu trữ bền bỉ** trên đĩa dưới dạng log và chỉ bị xóa sau khoảng thời gian `retention` (mặc định là 7 ngày).|
+|**Khả năng đọc lại**|Rất hạn chế (chỉ có thể requeue khi lỗi).|Consumer có thể **đọc lại bất kỳ message nào** trong thời gian `retention` bằng cách thay đổi `offset`.|
+|**Khả năng mở rộng**|**Scale theo chiều dọc (Vertical)**.|**Scale theo chiều ngang (Horizontal)**.|
+
+### 12.4.3. So Sánh Service Discovery (Consul vs. Eureka)
+
+Bảng so sánh chi tiết giữa hai giải pháp Service Discovery:
+
+|Tính năng|Consul (HashiCorp)|Eureka (Netflix)|
+|:--|:--|:--|
+|**Mô hình nhất quán**|**CP** (Consistency > Availability), dùng Raft.|**AP** (Availability > Consistency), peer-to-peer replication.|
+|**Health Check**|Rất linh hoạt (Script, HTTP, TCP, gRPC...).|Chủ yếu dựa vào **heartbeat** từ client.|
+|**Kho Key/Value**|**Có**, tích hợp sẵn, rất mạnh.|**Không có**.|
+|**Multi-Datacenter**|Hỗ trợ rất tốt, là tính năng cốt lõi.|Cần cấu hình phức tạp.|
+|**Giao thức**|HTTP API, DNS Interface.|Chỉ có **HTTP API (REST)**.|
+|**Kiến trúc**|Phức tạp hơn, yêu cầu agent trên các node.|Đơn giản hơn, client tự đăng ký.|
+|**Ngôn ngữ**|Go.|Java.|
+
+### 12.4.4. So Sánh Container Orchestration (Docker Swarm vs. Nomad vs. Kubernetes)
+
+So sánh dựa trên các tiêu chí quan trọng:
+
+|Tính năng|Docker Swarm|HashiCorp Nomad|Kubernetes (K8s)|
+|:--|:--|:--|:--|
+|**Độ phức tạp**|Thấp.|Trung bình.|Cao.|
+|**Tính linh hoạt**|Thấp (chỉ container).|Cao (container, binaries, Java...).|Cao.|
+|**Cộng đồng**|Nhỏ.|Nhỏ.|Lớn.|
+|**Use Case**|Ứng dụng nhỏ, dev/test.|Nhiều loại workload, hiệu suất cao.|Ứng dụng lớn, phức tạp, production.|
+
+## 12.5. III. GIẢI THÍCH CHI TIẾT VỀ FRAMEWORK VÀ KIẾN TRÚC
+
+### 12.5.1. Dapr (Distributed Application Runtime)
+
+- **Mô hình hoạt động:** Dapr cung cấp các **building blocks** dưới dạng **sidecar**. Ứng dụng giao tiếp với Dapr sidecar qua HTTP/gRPC.
+- **Lợi ích:** Dapr giúp **trừu tượng hóa hạ tầng**.
+- Các **Building Blocks** chính bao gồm Service-to-Service Invocation, State Management, Publish & Subscribe (Pub/Sub), Bindings & Triggers, Actors, và Secrets Management.
+
+### 12.5.2. LMAX Disruptor
+
+- **Mục đích:** Thư viện Java để xây dựng hệ thống xử lý sự kiện đồng thời với **thông lượng cực cao và độ trễ cực thấp** (high throughput, low-latency).
+- **Kiến trúc cốt lõi:** Dựa trên mẫu kiến trúc **Ring Buffer** (bộ đệm vòng), được tối ưu hóa để tránh các vấn đề về tranh chấp tài nguyên (lock contention) trong môi trường đa luồng.
+- **Đặc điểm nổi bật:** Thiết kế để hoạt động hài hòa với kiến trúc phần cứng hiện đại (**Mechanical Sympathy**) và **tránh sử dụng khóa (lock-free)** ở những đường dẫn quan trọng.
+
+### 12.5.3. Rest.li
+
+- **Mục tiêu:** Framework REST+JSON của LinkedIn, nhằm giải quyết các vấn đề về sự phát triển không kiểm soát của các API REST trong một tổ chức lớn.
+- **Tính năng chính:** Hỗ trợ **Type-safe APIs** (định nghĩa API chặt chẽ), **Dynamic Discovery** (định tuyến động), và **Asynchronous APIs**.
+
+### 12.5.4. Service Mesh
+
+- **Istio** là một Service Mesh mã nguồn mở, có nhược điểm là **phức tạp** và **có thể tăng độ trễ**.
+
+### 12.5.5. Nền tảng No-code / Low-code
+
+- **Định nghĩa:** Công cụ cho phép tạo ứng dụng với ít hoặc không cần code, dùng giao diện kéo-thả.
+
+### 12.5.6. Các Trụ Cột của Observability
+
+Các thành phần chính cần có để quan sát hệ thống (không bao gồm tên công cụ cụ thể đã bị loại bỏ):
+
+- **Logs:** (EFK Stack, Promtail + Loki).
+- **Metrics:** (Prometheus, Victoria Metrics).
+- **Tracing (Distributed Tracing):** (Jaeger, Zipkin, Tempo).
+
+### 12.5.7. Quản lý Cấu hình (Ansible Context)
+
+- **Ansible** là một công cụ Infrastructure as Code (IaC) mạnh mẽ, **không cần agent**.
+- Chức năng: Tự động hóa việc cung cấp phần mềm, quản lý cấu hình và triển khai ứng dụng.
+- Cơ chế hoạt động: Kết nối đến các server qua **SSH** và thực thi các **"playbook"** được viết bằng YAML.
+- Use case: Cài đặt đồng loạt phần mềm, đảm bảo cấu hình nhất quán, thực hiện rolling updates.
+
+## 12.6. IV. KIẾN TRÚC THAM KHẢO & CASE STUDY
+
+### 12.6.1. Netflix OSS Stack (Vai trò Chi tiết)
+
+Đây là mô tả vai trò kiến trúc của từng thành phần trong ngăn xếp tham khảo của Netflix:
+
+|Chức năng|Công cụ Netflix / Spring|Mô tả vai trò|
+|:--|:--|:--|
+|**Khám phá Dịch vụ**|Netflix Eureka|Service Discovery Server: Nơi các microservice đăng ký và được tìm kiếm địa chỉ.|
+|**Định tuyến & Cân bằng tải**|Netflix Ribbon|Client-side Load Balancer: Thư viện phía client, sử dụng thông tin từ Eureka để định tuyến và cân bằng tải giữa các instance.|
+|**Ngắt mạch (Chống lỗi dây chuyền)**|Netflix Hystrix|Circuit Breaker: Ngăn chặn các lỗi dây chuyền bằng cách cô lập các service đang gặp sự cố.|
+|**Giám sát Circuit Breaker**|Hystrix Dashboard & Turbine|Monitoring: Theo dõi trạng thái của các Hystrix circuit breaker.|
+|**Cổng API (Gateway)**|Netflix Zuul|Edge Server / Gatekeeper: Điểm vào duy nhất, chịu trách nhiệm định tuyến, xác thực, và bảo vệ hệ thống.|
+|**Cấu hình Tập trung**|Spring Cloud Config Server|Central Configuration Server: Cung cấp một nơi tập trung để quản lý cấu hình cho tất cả các microservice.|
+|**Bảo mật API (OAuth 2.0)**|Spring Cloud + Spring Security OAuth2|Bảo vệ các API bằng giao thức OAuth2.|
+|**Phân tích Log Tập trung**|ELK Stack|Centralised log analyses: Thu thập, lưu trữ và phân tích log từ tất cả các service tại một nơi.|
+
+### 12.6.2. Case Study Khác
+
+- Case study về **Xây dựng nền tảng Zalopay merchant trên K8s** được tham khảo qua một liên kết video trên Youtube.
+
+## 12.7. V. TÀI NGUYÊN & THAM KHẢO
+
+### 12.7.1. Sách Chuyên môn
+
+- **Building Event-Driven Microservices** (Tác giả: Adam Bellemare): Tìm hiểu sâu về các mẫu kiến trúc hướng sự kiện và khái niệm Enterprise Service Bus (ESB).
+- **Kafka: The Definitive Guide** (Confluent): Tài liệu quan trọng về Kafka.
+
+### 12.7.2. Kho GitHub Tổng hợp
+
+- **awesome-scalability:** Tổng hợp các tài liệu về khả năng mở rộng hệ thống.
+- **system-design-primer:** Cẩm nang toàn diện về thiết kế hệ thống.
+- **Microservices_Project_List:** Danh sách các dự án mẫu về Microservices.
+
+### 12.7.3. Kênh Video & Liên kết
+
+- Kênh **IT Experts Club Hanoi** cung cấp các buổi chia sẻ kỹ thuật.
+- Các tài liệu tham khảo nội bộ khác được gắn thẻ: `[[SaaS]]`, `[[Top 10 câu hỏi phỏng vấn System Design và Microservices]]`, `[[Solutions & System Designs & Design Patterns]]`, và `[[Java Microservices]]`.
+
+---
+
+# 13. DANH MỤC TỔNG HỢP CÔNG CỤ & THÀNH PHẦN HỆ THỐNG PHÂN TÁN
+
+Danh sách này bao gồm các công cụ cốt lõi cho kiến trúc phân tán (Mục I), các framework cấp cao (Mục II), và các công cụ chuyên dụng, tiện ích khác (Mục III).
+
+## 13.1. I. CÁC THÀNH PHẦN & CÔNG CỤ CỐT LÕI TRONG HỆ THỐNG PHÂN TÁN
+
+Đây là các thành phần kiến trúc không thể thiếu khi xây dựng Microservices.
+
+### 13.1.1. API Gateway & Reverse Proxy
+
+Các công cụ quản lý điểm vào của hệ thống, cân bằng tải, và định tuyến.
+
+- **Envoy:** Proxy hiệu năng cao cho cloud-native, cung cấp số liệu chi tiết và các tính năng nâng cao như traffic shadowing, fault injection.
+- **HAProxy:** Giải pháp cân bằng tải TCP/HTTP ổn định và hiệu suất cao.
+- **Kong:** API Gateway dựa trên kiến trúc plugin, dễ mở rộng, quản lý và bảo mật API.
+- **Traefik:** Cài đặt đơn giản, tích hợp sẵn Let's Encrypt, tự động khám phá và cấu hình từ Docker/Kubernetes.
+- **Pingora:** Proxy phát triển bởi Cloudflare, tập trung vào hiệu suất và hiệu quả ở quy mô lớn.
+- **godoxy:** Reverse proxy và cân bằng tải đơn giản, viết bằng Go.
+
+### 13.1.2. Giao Tiếp Giữa Các Service (Service Communication)
+
+#### 13.1.2.1. Giao thức & Frameworks
+
+- **HTTP RESTful:** Kiến trúc phổ biến nhất, sử dụng các phương thức HTTP trên tài nguyên.
+- **RPC (Remote Procedure Call):** Phương thức gọi hàm từ xa.
+    - **Apache Thrift:** Framework RPC đa ngôn ngữ, tự động sinh code client/server.
+    - **Twirp:** Framework RPC đơn giản của Twitch, dùng Protobuf, sinh code Go/JS.
+    - **Apache Dubbo:** Framework RPC hiệu năng cao, mã nguồn mở.
+    - **Encore:** Framework đơn giản hóa việc xây dựng microservices và hệ thống event-driven.
+
+#### 13.1.2.2. Message Broker & Message Queue
+
+- **Kafka:** Mô hình Pull, lưu trữ log (persistance), mạnh cho streaming và hệ thống lớn.
+- **RabbitMQ:** Mô hình Push, linh hoạt với nhiều loại routing, phù hợp cho background jobs, long-running tasks.
+- **Apache Pulsar:** Nền tảng messaging và streaming, hợp nhất cả queuing và pub-sub.
+- **Nats:** Hệ thống messaging hiệu năng cao, đơn giản.
+- **Redis:** Kho dữ liệu trong bộ nhớ, có thể dùng làm message broker (Pub/Sub).
+- **Apache ActiveMQ:** Công cụ Message Broker.
+- **JMS:** (Java Message Service).
+- **Chronicle:** Công cụ Message Broker.
+
+### 13.1.3. Service Discovery & Registry
+
+- **Consul (HashiCorp):** Mô hình CP (Consistency > Availability), dùng Raft, hỗ trợ Health Check linh hoạt, tích hợp kho Key/Value, và hỗ trợ Multi-Datacenter tốt.
+- **Eureka (Netflix):** Mô hình AP (Availability > Consistency), dựa vào heartbeat, kiến trúc đơn giản.
+
+### 13.1.4. Service Mesh
+
+- **Istio:** Service Mesh mã nguồn mở, quản lý giao tiếp giữa các microservice. Kiến trúc gồm Data Plane (Envoy proxy) và Control Plane (Istiod).
+
+### 13.1.5. Container & Orchestration
+
+Các công cụ điều phối và quản lý container:
+
+- **Docker Swarm**.
+- **HashiCorp Nomad**.
+- **Kubernetes (K8s):** Phổ biến cho ứng dụng lớn, phức tạp.
+
+### 13.1.6. CI/CD & Feature Flags
+
+- **CI/CD:** ArgoCD, Jenkins, Spinnaker.
+- **Feature Flags / Continuous Configuration:**
+    - **Flipt:** Giải pháp self-hosted, hỗ trợ trunk-based development, canary release, kill switch.
+    - **Flagsmith:** Quản lý feature flag.
+
+### 13.1.7. Observability (Logs, Metrics, Tracing)
+
+Đây là các trụ cột của Khả năng Quan sát hệ thống.
+
+- **Nền tảng All-in-One:**
+    - **Signoz:** Thay thế mã nguồn mở cho Datadog/New Relic, cung cấp logs, metrics, traces trong một giao diện.
+- **Logs:**
+    - **Stack:** FluentBit, Elasticsearch (EFK), Promtail, Loki.
+    - **Log Analyzer:** goaccess (phân tích log web thời gian thực trên terminal).
+- **Metrics:** Prometheus, Victoria Metrics.
+- **Tracing:** Jaeger, Zipkin, Tempo.
+    - **Openreplay:** Tập trung vào front-end tracing.
+- **Monitoring & Troubleshooting:**
+    - **Coroot:** Tự động phát hiện vấn đề trong hệ thống microservices.
+    - **beszel:** Hub giám sát server gọn nhẹ.
+    - **Checkmate:** Công cụ self-hosted theo dõi phần cứng server, uptime, và sự cố.
+- **Phân tích Mã nguồn & Hành vi Người dùng:**
+    - **Sonarqube:** Phân tích và sửa lỗi mã nguồn.
+    - **logrocket:** Công cụ theo dõi hành vi người dùng.
+    - **PostHog:** Phân tích web & sản phẩm, ghi lại phiên, feature flagging và A/B testing.
+    - **Plausible Analytics:** Giải pháp phân tích website mã nguồn mở, nhẹ và tập trung vào quyền riêng tư.
+
+### 13.1.8. Caching
+
+- **Memcached:** Caching đơn giản, key-value.
+- **Redis:** Hỗ trợ nhiều cấu trúc dữ liệu, persistence, replication.
+- **Dragonfly:** Tương thích Redis API, hiệu suất cao hơn Redis.
+- **Database Caching:** ReadySet.
+
+### 13.1.9. Data & Storage
+
+#### 13.1.9.1. Search Engines
+
+- **ElasticSearch:** Mạnh mẽ, phổ biến.
+- **Typesense:** Nhanh, dễ sử dụng, độ trễ thấp.
+- **Opensearch:** Fork mã nguồn mở của Elasticsearch.
+- **Lucene:** Thư viện tìm kiếm nền tảng.
+- **Orama:** Thư viện tìm kiếm full-text nhẹ, có thể nhúng.
+- **Trieve:** Nền tảng API cho search, RAG, analytics.
+- **Datamuse API:** API hữu ích cho việc tìm kiếm từ đồng nghĩa, trái nghĩa, hỗ trợ các ứng dụng ngôn ngữ.
+
+#### 13.1.9.2. Object Storage (Self-hosted)
+
+- **Minio:** Hiệu năng cao, tương thích S3 API.
+- **Cloudreve:** Dịch vụ cloud drive cá nhân/công cộng.
+
+#### 13.1.9.3. Scalable Databases
+
+- **Apache Cassandra:** NoSQL database có khả năng mở rộng cao.
+- **Vitess:** Giải pháp scale MySQL trên Kubernetes.
+
+#### 13.1.9.4. Data Integration & Transformation
+
+- **Zookeeper:** Có thể dùng cho Change Data Capture (CDC), quản lý và đồng bộ hóa dữ liệu.
+- **Airbyte:** Nền tảng tích hợp dữ liệu (ELT) mã nguồn mở.
+- **Multiwoven:** Nền tảng tích hợp dữ liệu mã nguồn mở.
+- **Hasura:** Tự động tạo GraphQL API từ database có sẵn.
+
+### 13.1.10. Authentication & Authorization (Xác thực & Phân quyền)
+
+- **Keycloak:** Giải pháp IAM mã nguồn mở, đầy đủ tính năng (SSO, User Federation, OIDC/OAuth2/SAML).
+- **Ory:** Bộ công cụ cloud-native, API-first (Kratos, Hydra, Keto, Oathkeeper).
+- **Dex:** Identity Broker, kết nối nhiều nguồn xác thực vào một điểm OIDC.
+- **Supertokens:** Tập trung vào trải nghiệm dev và quản lý session an toàn.
+- **Hanko:** Tập trung vào WebAuthn và Passkeys.
+- **Logto:** Giải pháp IAM mã nguồn mở, tập trung vào trải nghiệm người dùng và nhà phát triển.
+- **Better-auth:** Giải pháp đơn giản, bảo mật, linh hoạt.
+- **Supabase-auth:** Tích hợp trong hệ sinh thái Supabase, dùng GoTrue.
+- **IDaaS (Thương mại):** Auth0 (Okta), Clerk.
+
+### 13.1.11. Nền tảng No-code / Low-code
+
+- **Self-hosted / Mã nguồn mở:**
+    - **Appsmith, Budibase, ToolJet:** Xây dựng công cụ nội bộ (admin panels, dashboards).
+    - **NocoDB, Baserow:** Biến CSDL thành giao diện bảng tính thông minh.
+    - **Directus:** Data Platform & Headless CMS.
+    - **n8n:** Tự động hóa quy trình (workflow automation).
+    - **PocketBase:** Backend all-in-one trong 1 file duy nhất (Go).
+    - **Supabase:** Giải pháp thay thế Firebase mã nguồn mở.
+- **Công cụ chuyên biệt của Builder.io:**
+    - **Mitosis:** Viết component một lần, biên dịch ra nhiều framework.
+    - **Builder:** Visual CMS dạng kéo-thả.
+    - **Figma-to-Code:** Công cụ chuyển đổi thiết kế Figma sang code.
+- **Thương mại (Front-end/Back-end/Full-stack):** XANO, Tyk.io, Lark Anycross, Weweb, Bubble.io, FlutterFlow, Draftbit.
+
+## 13.2. II. FRAMEWORK & LIBRARIES HỖ TRỢ MICROSERVICES
+
+Các thư viện và runtime chuyên biệt giải quyết các thách thức phân tán.
+
+- **Dapr (Distributed Application Runtime):** Cung cấp các building blocks (state management, pub/sub, secret management...) cho microservices dưới dạng sidecar.
+- **LMAX Disruptor:** Thư viện Java để xây dựng hệ thống xử lý sự kiện với hiệu suất cao và độ trễ cực thấp, dựa trên kiến trúc Ring Buffer.
+- **Rest.li:** Framework REST+JSON của LinkedIn để xây dựng kiến trúc service có khả năng mở rộng, hỗ trợ Type-safe APIs và Asynchronous APIs.
+
+## 13.3. III. HỆ SINH THÁI TRIỂN KHAI, VẬN HÀNH & TIỆN ÍCH CHUYÊN DỤNG
+
+### 13.3.1. Môi trường Runtime & PaaS Tự Host (Self-hosted PaaS)
+
+Các giải pháp thay thế cho Vercel/Heroku/Netlify.
+
+- **Dokploy, Harness, Sidekick, Coolify, Ubicloud**.
+- **taubyte/tau:** Platform as a Service phân tán, mã nguồn mở.
+
+### 13.3.2. Quản lý Cấu hình & Điều phối Server
+
+- **Ansible:** Công cụ Infrastructure as Code (IaC) mạnh mẽ, không cần agent.
+- **Proxmox VE:** Nền tảng Ảo hóa.
+    - **Pulse:** Ứng dụng giám sát cho Proxmox VE.
+- **Bảng Điều Khiển Server:** 1Panel, CloudPanel.
+
+### 13.3.3. Công Cụ Hỗ trợ Quản lý & Giao tiếp
+
+#### 13.3.3.1. Quản lý Dự án & Thông báo
+
+- **Quản lý Dự án:** Plane, Kaneo (bảng Kanban).
+- **Thông báo & Email:**
+    - **Novu:** Nền tảng hạ tầng thông báo mã nguồn mở (Email, SMS, Push, In-app).
+    - **Plunk:** Nền tảng Email Marketing self-hosted.
+    - **Listmonk:** Trình quản lý bản tin (newsletter) và email marketing self-hosted.
+    - **Versus Incident:** Công cụ thông báo khi server gặp sự cố.
+
+#### 13.3.3.2. CMS & Quản lý Nội dung
+
+- **Headless CMS:** Strapi, Yao.
+- **Quản lý Tri thức (Wiki/Blog):** BookStack, Canvas, DocMost.
+
+#### 13.3.3.3. Giao tiếp Nội bộ & Hỗ trợ Khách hàng
+
+- **Nền tảng Chat:** Rocket.Chat, Mattermost.
+- **Hỗ trợ đa kênh:** Chatwoot.
+- **Video Call (WebRTC):** Jitsi, LiveKit.
+- **Real-time Socket Server:** Soketi.
+
+### 13.3.4. Công Cụ cho Lập trình viên & Tiện ích Khác
+
+- **Môi trường Phát triển:** Devcontainers (VS Code), Daytona, Lapdev.
+- **Tunneling:** pgrok (self-hosted thay thế ngrok).
+- **Email Testing:** MailDev.
+- **Deployment:** PHPloy (deploy qua FTP/SFTP).
+- **Webhooks:** Hook0 (Webhook-as-a-service mã nguồn mở).
+- **Converter & Xử lý Media:**
+    - **Gotenberg:** Dịch vụ chuyển đổi nhiều định dạng sang PDF.
+    - **Imageproxy:** Dịch vụ proxy mã nguồn mở để tối ưu hóa hình ảnh.
+    - **Data Wizard:** Chuyển đổi tài liệu sang JSON.
+    - **ConvertX:** Self-hosted online file converter.
+- **Tự động hóa & Crawling:**
+    - **automatisch:** Công cụ tự động hóa tác vụ (tương tự Zapier).
+    - **Firecrawl, Crawlee, Scrapling:** Thu thập dữ liệu web (Crawling).
+- **Bảo mật & Bí mật:** BunkerWeb (WAF), Teller (Secret Management).
+- **Quản lý CSDL (Công cụ):** whodb.
+- **Ecommerce:** Digitalhippo.
+- **Dịch thuật:** Tolgee Platform.
+- **Tiện ích Khác:** URL Shortener (dub, kutt, Polr, YOURLS), Formbricks (Form/Survey), Ghostfolio (Quản lý tài chính), dawarich (Dữ liệu cá nhân).
+
+### 13.3.5. Netflix OSS Stack (Hệ thống Tham khảo)
+
+Các công cụ tiêu chuẩn trong kiến trúc microservices của Netflix:
+
+- **Service Discovery:** Netflix Eureka.
+- **Routing & Load Balancing:** Netflix Ribbon.
+- **Circuit Breaker:** Netflix Hystrix.
+- **API Gateway (Edge Server):** Netflix Zuul.
+- **Phân tích Log Tập trung:** ELK Stack (Elasticsearch, Logstash, Kibana).

@@ -44,6 +44,7 @@ tags:
 		- **`StorageManager.persisted()`**: Trả về một Promise giải quyết thành true nếu quyền persistence đã được cấp cho bộ nhớ của trang web của bạn.
 - Prompt API cho extension: https://developer.chrome.com/docs/extensions/ai/prompt-api?hl=vi
 - Translator API: https://developer.mozilla.org/en-US/docs/Web/API/Translator
+- HTML Selects Are Actually Styleable Now: https://salehmubashar.com/blog/html-selects-are-actually-styleable-now
 
 ### 1.1.1. WebGPU
 
