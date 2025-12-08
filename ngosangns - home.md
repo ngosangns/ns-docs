@@ -52,7 +52,7 @@ tags:
 # 3. Vocab
 
 - PhoTranscriptor - Ứng dụng transcribe ngôn ngữ tiếng Việt dành cho nhà nghiên cứu: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl
-- Text 2 speech: [KittenML/KittenTTS: State-of-the-art TTS model under 25MB 😻](https://github.com/KittenML/KittenTTS)
+- Text 2 speech: https://github.com/KittenML/KittenTTS
 
 # 4. NS Store
 
@@ -78,7 +78,7 @@ tags:
 - https://www.youtube.com/watch?v=HK57H3mzQ_c
 - Setup mô phỏng ESP32 và setup VSCode cho IoT
 	- https://www.facebook.com/watch/?ref=saved&v=1372564440378160
-- [How I monitor and control all my powered devices (Zigbee + HA)](https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha)
+- https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha
 
 ## 6.2. Kính
 

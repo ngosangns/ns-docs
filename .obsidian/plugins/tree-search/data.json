@@ -1,6 +1,0 @@
-{
-  "searchSeparator": ".",
-  "parentRelation": "parent",
-  "archiveTag": "archive",
-  "socketPath": "/tmp/raycast-{vaultname}.sock"
-}

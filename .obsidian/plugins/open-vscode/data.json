@@ -1,9 +1,0 @@
-{
-  "ribbonIcon": true,
-  "ribbonCommandUsesCode": true,
-  "showFileContextMenuItem": true,
-  "executeTemplate": "/usr/local/bin/code \"{{vaultpath}}\" \"{{vaultpath}}/{{filepath}}\"",
-  "urlProtocol": "vscode",
-  "openFile": true,
-  "workspacePath": "{{vaultpath}}"
-}
