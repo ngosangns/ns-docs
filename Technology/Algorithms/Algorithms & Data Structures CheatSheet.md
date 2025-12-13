@@ -6,26 +6,27 @@ tags:
   - arraybuffer-ringbuffer
   - searching
 ---
+
 # 1. Arrays
 
 In javascript you’d think this `[]` is an array. Well you’re wrong, it’s actually an Array List.
+
 - An Array is just a contiguous memory space (contiguous = non breaking)
 - It’s just a chunk of memory that is understood as an array
 
 Here is how you could build an array in node:
 
 ```ts
-const a = new ArrayBuffer(6)
+const a = new ArrayBuffer(6);
 // ArrayBuffer { [Uint8Contents]: <00 00 00 00 00 00>, byteLength: 6 }
-const a8 = new Uint8Array(a) // numbers between 0 and 255. Creates a view into the array buffer, does not create anything new
-a8[0] = 45
-a8[2] = 45
+const a8 = new Uint8Array(a); // numbers between 0 and 255. Creates a view into the array buffer, does not create anything new
+a8[0] = 45;
+a8[2] = 45;
 // ArrayBuffer { [Uint8Contents]: <2d 00 2d 00 00 00>, byteLength: 6 }
-const a16 = new Uint16Array(a) // numbers between 0 and 255. Creates a view into the array buffer,
-a16[2] = 0x4545
+const a16 = new Uint16Array(a); // numbers between 0 and 255. Creates a view into the array buffer,
+a16[2] = 0x4545;
 // ArrayBuffer { [Uint8Contents]: <2d 00 2d 00 45 45>, byteLength: 6 }
 // because I look at it in 16bit unity, I can only walk in 16 units at a time, this is why the 45 45 was placed in the last bits
-
 ```
 
 ## 1.1. Arrays vs linked lists
@@ -36,6 +37,7 @@ a16[2] = 0x4545
 - Memory has to be allocated in advance for arrays. Linked lists have better memory usage but more computational
 - In a list you have to always traverse the list (linear search)
 - Linked Lists are usually the better choice for queues, Array Lists for stacks, or Array Buffer for both
+
 ## 1.2. Array lists
 
 Array access with the ability to grow:
@@ -79,15 +81,16 @@ Searching a list linearly in JavaScript:
 
 ```ts
 export default function linear_search(
-    haystack: number[],
-    needle: number,
+  haystack: number[],
+  needle: number
 ): boolean {
-    for (let i = 0, il = haystack.length; i < il; i++)
-        if (haystack[i] === needle) return true;
+  for (let i = 0, il = haystack.length; i < il; i++)
+    if (haystack[i] === needle) return true;
 
-    return false;
+  return false;
 }
 ```
+
 - Time Complexity is `O(N)`
 
 ## 2.2. Binary Search
@@ -96,16 +99,15 @@ As a recursive method
 
 ```ts
 export default function bs_list(haystack: number[], needle: number): boolean {
-  const midpoint = Math.floor(haystack.length / 2)
-  const value = haystack[midpoint]
-  if (value === needle) return true
-  if (haystack.length === 1) return false
-  if (value < needle) return bs_list(haystack.slice(midpoint), needle)
-  if (value > needle) return bs_list(haystack.slice(0, midpoint), needle)
+  const midpoint = Math.floor(haystack.length / 2);
+  const value = haystack[midpoint];
+  if (value === needle) return true;
+  if (haystack.length === 1) return false;
+  if (value < needle) return bs_list(haystack.slice(midpoint), needle);
+  if (value > needle) return bs_list(haystack.slice(0, midpoint), needle);
 
-  return false
+  return false;
 }
-
 ```
 
 with a loop
@@ -113,17 +115,17 @@ with a loop
 ```ts
 export default function bs_list(haystack: number[], needle: number): boolean {
   let low = 0;
-  let high = haystack.length
+  let high = haystack.length;
 
   do {
-    const midpoint = Math.floor(low + (high - low) / 2)
-    const value = haystack[midpoint]
-    if (value === needle) return true
-    else if (value > needle) high = midpoint
-    else low = midpoint + 1
-  } while (low < high)
+    const midpoint = Math.floor(low + (high - low) / 2);
+    const value = haystack[midpoint];
+    if (value === needle) return true;
+    else if (value > needle) high = midpoint;
+    else low = midpoint + 1;
+  } while (low < high);
 
-  return false
+  return false;
 }
 ```
 
@@ -139,18 +141,15 @@ Given 2 crystal balls that will break when dropped from high enough. Determine t
 
 ```ts
 export default function two_crystal_balls(breaks: boolean[]): number {
+  const jumps = Math.sqrt(breaks.length);
+  let ball1 = 0;
 
-  const jumps = Math.sqrt(breaks.length)
-  let ball1 = 0
-
-  for (; ball1 < breaks.length; ball1 += jumps)
-    if(breaks[ball1]) break
+  for (; ball1 < breaks.length; ball1 += jumps) if (breaks[ball1]) break;
 
   for (let ball2 = ball1 - jumps; ball2 < ball1; ball2++)
-    if(breaks[ball2]) return ball2
+    if (breaks[ball2]) return ball2;
 
-  return -1
-
+  return -1;
 }
 ```
 
@@ -169,9 +168,9 @@ export default function bubble_sort(arr: number[]): void {
   for (let searched = 1; searched < arr.length; searched++)
     for (let i = 0, il = arr.length - searched; i < il; i++)
       if (arr[i] > arr[i + 1]) {
-        const temp = arr[i]
-        arr[i] = arr[i + 1]
-        arr[i + 1] = temp
+        const temp = arr[i];
+        arr[i] = arr[i + 1];
+        arr[i + 1] = temp;
       }
 }
 ```
@@ -200,17 +199,17 @@ Simple implementation (runtime O(n) - O(n^2)):
 
 ```ts
 export default function quick_sort(arr: number[]): number[] {
-  if (arr.length <= 1) return arr
+  if (arr.length <= 1) return arr;
 
-  const pivot = arr[arr.length - 1]
-  const leftArr: number[] = []
-  const rightArr: number[] = []
+  const pivot = arr[arr.length - 1];
+  const leftArr: number[] = [];
+  const rightArr: number[] = [];
   for (let i = 0; i < arr.length - 1; i++) {
-    if (arr[i] < pivot) leftArr.push(arr[i])
-    else rightArr.push(arr[i])
+    if (arr[i] < pivot) leftArr.push(arr[i]);
+    else rightArr.push(arr[i]);
   }
 
-  return [...quick_sort(leftArr), pivot, ...quick_sort(rightArr)]
+  return [...quick_sort(leftArr), pivot, ...quick_sort(rightArr)];
 }
 ```
 
@@ -218,37 +217,37 @@ In-Place replacement implementation (runtime O(logN) - O(n^2)):
 
 ```ts
 function qs(arr: number[], lo: number, hi: number): void {
-  if (lo >= hi) return
+  if (lo >= hi) return;
 
-  const pivotIndex = partition(arr, lo, hi) // does the weak sort, put it in the spot, returns index
-  qs(arr, lo, pivotIndex - 1)
-  qs(arr, pivotIndex + 1, hi)
+  const pivotIndex = partition(arr, lo, hi); // does the weak sort, put it in the spot, returns index
+  qs(arr, lo, pivotIndex - 1);
+  qs(arr, pivotIndex + 1, hi);
 }
 
 function partition(arr: number[], lo: number, hi: number): number {
-  const pivot = arr[hi]
-  let index = lo - 1
+  const pivot = arr[hi];
+  let index = lo - 1;
 
-  console.log(pivot)
+  console.log(pivot);
   for (let i = lo; i < hi; i++) {
     if (arr[i] <= pivot) {
-      index++
-      const tmp = arr[i]
-      console.log(tmp)
-      arr[i] = arr[index]
-      arr[index] = tmp
+      index++;
+      const tmp = arr[i];
+      console.log(tmp);
+      arr[i] = arr[index];
+      arr[index] = tmp;
     }
   }
 
-  ++index
-  arr[hi] = arr[index]
-  arr[index] = pivot
+  ++index;
+  arr[hi] = arr[index];
+  arr[index] = pivot;
 
-  return index
+  return index;
 }
 
 export default function quick_sort(arr: number[]): void {
-  qs(arr, 0, arr.length - 1)
+  qs(arr, 0, arr.length - 1);
 }
 ```
 
@@ -296,52 +295,52 @@ head            tail
 
 ```ts
 type Node<T> = {
-    value: T
-    next?: Node<T>
-}
+  value: T;
+  next?: Node<T>;
+};
 
 export default class Queue<T> {
-    public length: number
-    private head?: Node<T>
-    private tail?: Node<T>
+  public length: number;
+  private head?: Node<T>;
+  private tail?: Node<T>;
 
-    constructor() {
-        this.head = this.tail = undefined
-        this.length = 0
+  constructor() {
+    this.head = this.tail = undefined;
+    this.length = 0;
+  }
+
+  // add node to the queue: point the current tail to the new node, set the tail to the new node
+  enqueue(item: T): void {
+    const node = { next: undefined, value: item };
+    this.length++;
+    if (!this.tail) {
+      this.tail = this.head = node;
+      return;
     }
+    this.tail.next = node;
+    this.tail = node;
+  }
 
-    // add node to the queue: point the current tail to the new node, set the tail to the new node
-    enqueue(item: T): void {
-        const node = { next: undefined, value: item }
-        this.length++
-        if (!this.tail) {
-            this.tail = this.head = node
-            return
-        }
-        this.tail.next = node
-        this.tail = node
-    }
+  // remove node from the queue: set the current head to the next node, remove the previous heads connection
+  dequeue(): T | undefined {
+    if (!this.head) return undefined;
+    this.length--;
 
-    // remove node from the queue: set the current head to the next node, remove the previous heads connection
-    dequeue(): T | undefined {
-        if (!this.head) return undefined
-        this.length--
+    const head = this.head;
+    this.head = this.head.next;
 
-        const head = this.head
-        this.head = this.head.next
+    // free
+    head.next = undefined;
 
-        // free
-        head.next = undefined
+    if (this.length === 0) this.tail = undefined;
 
-        if(this.length === 0) this.tail = undefined
+    return head.value;
+  }
 
-        return head.value
-    }
-
-    // get the heads value
-    peek(): T | undefined {
-        return this.head?.value
-    }
+  // get the heads value
+  peek(): T | undefined {
+    return this.head?.value;
+  }
 }
 ```
 
@@ -360,45 +359,45 @@ v
 
 ```ts
 type Node<T> = {
-    value: T
-    next?: Node<T>
-}
+  value: T;
+  next?: Node<T>;
+};
 
 export default class Stack<T> {
-    public length: number;
-    private head?: Node<T>
+  public length: number;
+  private head?: Node<T>;
 
-    constructor() {
-        this.head = undefined
-        this.length = 0
-        return
-    }
+  constructor() {
+    this.head = undefined;
+    this.length = 0;
+    return;
+  }
 
-    // Add to the stack: point new node to next head, set head to new node
-    push(item: T): void {
-        const node = { value: item, next: undefined } as Node<T>
-        this.length++
-        if (!this.head) {
-            this.head = node
-            return
-        }
-        node.next = this.head
-        this.head = node
+  // Add to the stack: point new node to next head, set head to new node
+  push(item: T): void {
+    const node = { value: item, next: undefined } as Node<T>;
+    this.length++;
+    if (!this.head) {
+      this.head = node;
+      return;
     }
+    node.next = this.head;
+    this.head = node;
+  }
 
-    // Remove from stack: set head to next node, remove pointer of prev node
-    pop(): T | undefined {
-        if (!this.head) return undefined
-        this.length--
-        const prevHead = this.head
-        this.head = prevHead.next
-        prevHead.next = undefined
-        return prevHead.value
-    }
+  // Remove from stack: set head to next node, remove pointer of prev node
+  pop(): T | undefined {
+    if (!this.head) return undefined;
+    this.length--;
+    const prevHead = this.head;
+    this.head = prevHead.next;
+    prevHead.next = undefined;
+    return prevHead.value;
+  }
 
-    peek(): T | undefined {
-        return this.head?.value
-    }
+  peek(): T | undefined {
+    return this.head?.value;
+  }
 }
 ```
 
@@ -406,108 +405,107 @@ export default class Stack<T> {
 
 ```ts
 type Node<T> = {
-  value: T
-  prev?: Node<T>
-  next?: Node<T>
-}
+  value: T;
+  prev?: Node<T>;
+  next?: Node<T>;
+};
 
 export default class DoublyLinkedList<T> {
-  public length: number
-  private head?: Node<T>
-  private tail?: Node<T>
+  public length: number;
+  private head?: Node<T>;
+  private tail?: Node<T>;
 
   constructor() {
-    this.length = 0
-    this.head = this.tail = undefined
+    this.length = 0;
+    this.head = this.tail = undefined;
   }
 
   prepend(item: T): void {
-    const node = { value: item } as Node<T>
-    ++this.length
+    const node = { value: item } as Node<T>;
+    ++this.length;
     if (!this.head) {
-      this.head = this.tail = node
-      return
+      this.head = this.tail = node;
+      return;
     }
 
-    node.next = this.head
-    this.head.prev = node
-    this.head = node
+    node.next = this.head;
+    this.head.prev = node;
+    this.head = node;
   }
 
   insertAt(item: T, idx: number): void {
-    if (idx > this.length) throw new Error("Oops")
-    if (idx === this.length) this.append(item)
-    if (idx === 0) this.prepend(item)
+    if (idx > this.length) throw new Error("Oops");
+    if (idx === this.length) this.append(item);
+    if (idx === 0) this.prepend(item);
     else {
-      const curr = this.getAt(idx)
-      const node = { value: item } as Node<T>
-      node.next = curr
-      node.prev = curr?.prev
-      if (node.prev) node.prev.next = node
-      if (curr) curr.prev = node
+      const curr = this.getAt(idx);
+      const node = { value: item } as Node<T>;
+      node.next = curr;
+      node.prev = curr?.prev;
+      if (node.prev) node.prev.next = node;
+      if (curr) curr.prev = node;
 
-      ++this.length
+      ++this.length;
     }
   }
 
   append(item: T): void {
-    ++this.length
-    const node = { value: item } as Node<T>
+    ++this.length;
+    const node = { value: item } as Node<T>;
     if (!this.tail) {
-      this.head = this.tail = node
-      return
+      this.head = this.tail = node;
+      return;
     }
 
-    node.prev = this.tail
-    this.tail.next = node
-    this.tail = node
+    node.prev = this.tail;
+    this.tail.next = node;
+    this.tail = node;
   }
 
   remove(item: T): T | undefined {
-    let curr = this.head
+    let curr = this.head;
     for (
       let index = 0;
       curr && curr.value !== item && index < this.length;
       index++
     )
-      curr = curr.next
-    return this.removeNode(curr)
+      curr = curr.next;
+    return this.removeNode(curr);
   }
 
   get(idx: number): T | undefined {
-    return this.getAt(idx)?.value
+    return this.getAt(idx)?.value;
   }
 
   getAt(idx: number): Node<T> | undefined {
-    let current = this.head
-    for (let i = 0; i < idx && current; i++) current = current.next
-    return current
+    let current = this.head;
+    for (let i = 0; i < idx && current; i++) current = current.next;
+    return current;
   }
 
   removeAt(idx: number): T | undefined {
-    const curr = this.getAt(idx)
-    return this.removeNode(curr)
+    const curr = this.getAt(idx);
+    return this.removeNode(curr);
   }
 
   removeNode(node?: Node<T>): T | undefined {
-    if (!node) return
+    if (!node) return;
 
-    --this.length
+    --this.length;
     if (this.length === 0) {
-      const out = this.head?.value
-      this.head = this.tail = undefined
-      return out
+      const out = this.head?.value;
+      this.head = this.tail = undefined;
+      return out;
     }
-    if (node.prev) node.prev.next = node.next
-    if (node.next) node.next.prev = node.prev
-    if (node === this.head) this.head = node.next
-    if (node === this.tail) this.tail = node.prev
-    node.prev = node.next = undefined
+    if (node.prev) node.prev.next = node.next;
+    if (node.next) node.next.prev = node.prev;
+    if (node === this.head) this.head = node.next;
+    if (node === this.tail) this.tail = node.prev;
+    node.prev = node.next = undefined;
 
-    return node.value
+    return node.value;
   }
 }
-
 ```
 
 # 5. Recursion
@@ -516,8 +514,8 @@ Basic example:
 
 ```ts
 function foo(n: number): number {
-  if(n === 1) return 1
-  return n + foo(n - 1)
+  if (n === 1) return 1;
+  return n + foo(n - 1);
 }
 
 /**
@@ -528,7 +526,6 @@ function foo(n: number): number {
  *
  * foo(3) => Outcome is 3+3=6
  */
-
 ```
 
 A Recursion can always be broken down in 3 steps:
@@ -543,12 +540,7 @@ A Recursion can always be broken down in 3 steps:
 ## 5.2. Maze solver
 
 ```ts
-[
-  "#####E#",
-  "#     #",
-  "#S#####"
-]
-
+["#####E#", "#     #", "#S#####"];
 ```
 
 Base cases
@@ -560,69 +552,68 @@ Base cases
 
 ```ts
 const directions = [
-    [-1, 0],
-    [1, 0],
-    [0, -1],
-    [0, 1],
+  [-1, 0],
+  [1, 0],
+  [0, -1],
+  [0, 1],
 ];
 
 // Base Case
 const walk = (
-    maze: string[],
-    seen: boolean[][],
-    path: Point[],
-    wall: string,
-    end: Point,
-    curr: Point,
+  maze: string[],
+  seen: boolean[][],
+  path: Point[],
+  wall: string,
+  end: Point,
+  curr: Point
 ): boolean => {
-    // Off the map
-    if (
-        curr.x < 0 ||
-        curr.x >= maze[0].length ||
-        curr.y < 0 ||
-        curr.y >= maze.length
-    )
-        return false;
-    // On a wall
-    if (maze[curr.y][curr.x] === wall) return false;
-    // Already Seen
-    if (seen[curr.y][curr.x]) return false;
-    // The end
-    if (curr.x === end.x && curr.y === end.y) {
-        path.push(curr);
-        return true;
-    }
-
-    // Pre
-    seen[curr.y][curr.x] = true;
-    path.push(curr);
-    // Curr
-    for (let index = 0; index < directions.length; index++) {
-        const [x, y] = directions[index];
-        if (walk(maze, seen, path, wall, end, { x: curr.x + x, y: curr.y + y }))
-            return true;
-    }
-    // Post
-    path.pop();
-
+  // Off the map
+  if (
+    curr.x < 0 ||
+    curr.x >= maze[0].length ||
+    curr.y < 0 ||
+    curr.y >= maze.length
+  )
     return false;
+  // On a wall
+  if (maze[curr.y][curr.x] === wall) return false;
+  // Already Seen
+  if (seen[curr.y][curr.x]) return false;
+  // The end
+  if (curr.x === end.x && curr.y === end.y) {
+    path.push(curr);
+    return true;
+  }
+
+  // Pre
+  seen[curr.y][curr.x] = true;
+  path.push(curr);
+  // Curr
+  for (let index = 0; index < directions.length; index++) {
+    const [x, y] = directions[index];
+    if (walk(maze, seen, path, wall, end, { x: curr.x + x, y: curr.y + y }))
+      return true;
+  }
+  // Post
+  path.pop();
+
+  return false;
 };
 
 export default function solve(
-    maze: string[],
-    wall: string,
-    start: Point,
-    end: Point,
+  maze: string[],
+  wall: string,
+  start: Point,
+  end: Point
 ): Point[] {
-    const seen: boolean[][] = [];
-    const path: Point[] = [];
-    for (let index = 0; index < maze.length; index++)
-        seen.push(new Array(maze[index].length).fill(false));
+  const seen: boolean[][] = [];
+  const path: Point[] = [];
+  for (let index = 0; index < maze.length; index++)
+    seen.push(new Array(maze[index].length).fill(false));
 
-    walk(maze, seen, path, wall, end, start);
-    return path;
+  walk(maze, seen, path, wall, end, start);
+  return path;
 }
-
 ```
 
 ## 5.3. Green houses
@@ -665,47 +656,45 @@ const traverse = (
   index: number,
   isX: boolean
 ) => {
-  if (!A[index]) return cost
+  if (!A[index]) return cost;
 
   if (isX) {
-    total -= A[index]
-    cost += X
+    total -= A[index];
+    cost += X;
   } else {
-    total -= A[index] * 2
-    cost += Y
+    total -= A[index] * 2;
+    cost += Y;
   }
 
-  if (total <= 0) return cost
+  if (total <= 0) return cost;
 
-  index++
-  const totalLeft = traverse(total, cost, A, X, Y, index, true) // left (X)
-  const totalRight = traverse(total, cost, A, X, Y, index, false) // right (Y)
+  index++;
+  const totalLeft = traverse(total, cost, A, X, Y, index, true); // left (X)
+  const totalRight = traverse(total, cost, A, X, Y, index, false); // right (Y)
 
-  return Math.min(totalLeft, totalRight)
-}
+  return Math.min(totalLeft, totalRight);
+};
 
 function solution(A: number[], X: number, Y: number): number {
-
   // - Sort houses by biggest consumption as it makes most sense to get rid of those first
-  A.sort((a, b) => b - a)
+  A.sort((a, b) => b - a);
 
   // - Calculate total consumption
-  const totalConsumption = A.reduce((prev, curr) => prev + curr)
+  const totalConsumption = A.reduce((prev, curr) => prev + curr);
 
   // - Traverse all possibilities
-  const costsX = traverse(totalConsumption, 0, A, X, Y, 0, true)
-  const costsY = traverse(totalConsumption, 0, A, X, Y, 0, false)
+  const costsX = traverse(totalConsumption, 0, A, X, Y, 0, true);
+  const costsY = traverse(totalConsumption, 0, A, X, Y, 0, false);
 
   // - Return the cheapest
-  return Math.min(costsX, costsY)
+  return Math.min(costsX, costsY);
 }
 
-console.log(solution([4, 2, 7], 4, 100)) // 12
-console.log(solution([5, 3, 8, 3, 2], 2, 5)) // 7
-console.log(solution([4, 2, 7], 4, 100)) // 12
-console.log(solution([2, 2, 1, 2, 2], 2, 3)) // 8
-console.log(solution([4, 1, 5, 3], 5, 2)) // 4
-
+console.log(solution([4, 2, 7], 4, 100)); // 12
+console.log(solution([5, 3, 8, 3, 2], 2, 5)); // 7
+console.log(solution([4, 2, 7], 4, 100)); // 12
+console.log(solution([2, 2, 1, 2, 2], 2, 3)); // 8
+console.log(solution([4, 1, 5, 3], 5, 2)); // 4
 ```
 
 ## 5.4. Count the Islands
@@ -731,42 +720,42 @@ const directions = [
   [1, 0], // bottom
   [0, -1], // left
   [0, 1], // right
-]
+];
 
 const walk = (map: number[][], y: number, x: number) => {
   // seen? => false
   // is not a 1 => false
-  if (!map[y] || !map[y][x] || map[y][x] === 0) return
+  if (!map[y] || !map[y][x] || map[y][x] === 0) return;
   // is a 1 => mark as seen
-  map[y][x] = 0
+  map[y][x] = 0;
   // left, right, top, down, as long as there is a 1 connected => recurse
   for (let index = 0; index < directions.length; index++)
-    walk(map, y - directions[index][0], x - directions[index][1])
-}
+    walk(map, y - directions[index][0], x - directions[index][1]);
+};
 
 const question = (map: number[][]) => {
-  let islands = 0
+  let islands = 0;
 
   for (let y = 0; y < map.length; y++) {
     for (let x = 0; x < map[y].length; x++) {
-      if (map[y][x] !== 1) continue
-      walk(map, y, x)
-      ++islands
+      if (map[y][x] !== 1) continue;
+      walk(map, y, x);
+      ++islands;
     }
   }
 
-  return islands
-}
+  return islands;
+};
 
-console.log( // 3
+console.log(
+  // 3
   question([
     [0, 1, 0, 0, 1],
     [0, 0, 0, 1, 1],
     [0, 0, 0, 0, 1],
     [1, 1, 1, 1, 0],
-  ]),
-)
-
+  ])
+);
 ```
 
 # 6. Trees
@@ -847,20 +836,22 @@ No more left, no more right => [] => (5,4,23,18,21,3,7)
 ```
 
 ```ts
-const traversal = (node: BinaryNode<number> | null, visited: number[]): number[] => {
+const traversal = (
+  node: BinaryNode<number> | null,
+  visited: number[]
+): number[] => {
   // base-case
-  if (!node) return visited
+  if (!node) return visited;
   // pre
-  visited.push(node.value)
+  visited.push(node.value);
   // recurse
-  traversal(node.left, visited)
-  traversal(node.right, visited)
+  traversal(node.left, visited);
+  traversal(node.right, visited);
   // post
-  return visited
-}
+  return visited;
+};
 
-export default (head: BinaryNode<number>): number[] => traversal(head, [])
-
+export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
 ## 6.4. In Order
@@ -874,20 +865,22 @@ export default (head: BinaryNode<number>): number[] => traversal(head, [])
 ```
 
 ```ts
-const traversal = (node: BinaryNode<number> | null, visited: number[]): number[] => {
+const traversal = (
+  node: BinaryNode<number> | null,
+  visited: number[]
+): number[] => {
   // base-case
-  if (!node) return visited
+  if (!node) return visited;
   // pre
   // recurse
-  traversal(node.left, visited)
-  visited.push(node.value)
-  traversal(node.right, visited)
+  traversal(node.left, visited);
+  visited.push(node.value);
+  traversal(node.right, visited);
   // post
-  return visited
-}
+  return visited;
+};
 
-export default (head: BinaryNode<number>): number[] => traversal(head, [])
-
+export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
 ## 6.5. Post Order
@@ -901,20 +894,22 @@ export default (head: BinaryNode<number>): number[] => traversal(head, [])
 ```
 
 ```ts
-const traversal = (node: BinaryNode<number> | null, visited: number[]): number[] => {
+const traversal = (
+  node: BinaryNode<number> | null,
+  visited: number[]
+): number[] => {
   // base-case
-  if (!node) return visited
+  if (!node) return visited;
   // pre
   // recurse
-  traversal(node.left, visited)
-  traversal(node.right, visited)
+  traversal(node.left, visited);
+  traversal(node.right, visited);
   // post
-  visited.push(node.value)
-  return visited
-}
+  visited.push(node.value);
+  return visited;
+};
 
-export default (head: BinaryNode<number>): number[] => traversal(head, [])
-
+export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
 ## 6.6. Compare Trees
@@ -924,49 +919,48 @@ export default (head: BinaryNode<number>): number[] => traversal(head, [])
 ```ts
 const traversal = (
   a: BinaryNode<number> | null | undefined,
-  b: BinaryNode<number> | null | undefined,
+  b: BinaryNode<number> | null | undefined
 ): boolean => {
   // base-case
-  if (a?.value !== b?.value) return false
-  if (!a?.left && !b?.left) return true
+  if (a?.value !== b?.value) return false;
+  if (!a?.left && !b?.left) return true;
   // recurse
-  return traversal(a?.left, b?.left) && traversal(a?.right, b?.right)
-}
+  return traversal(a?.left, b?.left) && traversal(a?.right, b?.right);
+};
 
 export default (
   a: BinaryNode<number> | null,
-  b: BinaryNode<number> | null,
-): boolean => traversal(a, b)
-
+  b: BinaryNode<number> | null
+): boolean => traversal(a, b);
 ```
 
 ## 6.7. Lowest Common Ancestor
 
 ```ts
 const common = (head: BinaryNode<number>, x: number, y: number): number => {
-  let lca: BinaryNode<number> = head
+  let lca: BinaryNode<number> = head;
 
   const walk = (
     node: BinaryNode<number> | null,
     x: number,
-    y: number,
+    y: number
   ): boolean => {
     // base-case
-    const val = node?.value
-    if (!val) return false
+    const val = node?.value;
+    if (!val) return false;
     // recurse
-    const hasLeft = walk(node.left, x, y)
-    const hasRight = walk(node.right, x, y)
-    const current = val === x || val === y
+    const hasLeft = walk(node.left, x, y);
+    const hasRight = walk(node.right, x, y);
+    const current = val === x || val === y;
     // post
-    if (val === x && val === y) lca = node
-    if (Number(hasLeft) + Number(hasRight) + Number(current) >= 2) lca = node
-    return hasLeft || hasRight || current
-  }
+    if (val === x && val === y) lca = node;
+    if (Number(hasLeft) + Number(hasRight) + Number(current) >= 2) lca = node;
+    return hasLeft || hasRight || current;
+  };
 
-  walk(head, x, y)
-  return lca.value
-}
+  walk(head, x, y);
+  return lca.value;
+};
 
 /**
  *          20
@@ -974,8 +968,7 @@ const common = (head: BinaryNode<number>, x: number, y: number): number => {
  *   5    15     30    100
  *     7        29  45
  */
-console.log(common(tree, 7, 15)) // 10
-
+console.log(common(tree, 7, 15)); // 10
 ```
 
 ## 6.8. Binary Search Tree
@@ -985,20 +978,19 @@ console.log(common(tree, 7, 15)) // 10
 ```ts
 const traversal = (
   node: BinaryNode<number> | null,
-  needle: number,
+  needle: number
 ): boolean => {
   // base-case
-  if (!node) return false
-  if (node.value === needle) return true
+  if (!node) return false;
+  if (node.value === needle) return true;
   // recurse
-  if (needle < node.value) return traversal(node.left, needle)
-  else return traversal(node.right, needle)
-}
+  if (needle < node.value) return traversal(node.left, needle);
+  else return traversal(node.right, needle);
+};
 
 export default function dfs(head: BinaryNode<number>, needle: number): boolean {
-  return traversal(head, needle)
+  return traversal(head, needle);
 }
-
 ```
 
 ## 6.9. Breath first search
@@ -1034,39 +1026,40 @@ Visit & Dequeue => => (7,23,8,5,4,21,15)
 
 ```ts
 const loop = (head: BinaryNode<number>): number[] => {
-  const queue = [head]
-  const path = []
+  const queue = [head];
+  const path = [];
   while (queue.length) {
-    const curr = queue.shift()
-    if (!curr?.value) continue
-    path.push(curr.value)
-    if (curr?.left) queue.push(curr.left)
-    if (curr?.right) queue.push(curr.right)
+    const curr = queue.shift();
+    if (!curr?.value) continue;
+    path.push(curr.value);
+    if (curr?.left) queue.push(curr.left);
+    if (curr?.right) queue.push(curr.right);
   }
-  return path
-}
+  return path;
+};
 
-export default (head: BinaryNode<number>): number[] => loop(head)
-
+export default (head: BinaryNode<number>): number[] => loop(head);
 ```
 
 ## 6.11. BFS Recursive
 
 ```ts
-const recursive = (queue: BinaryNode<number>[], path: number[] = []): number[] => {
-  const curr: BinaryNode<number> | undefined = queue.shift()
+const recursive = (
+  queue: BinaryNode<number>[],
+  path: number[] = []
+): number[] => {
+  const curr: BinaryNode<number> | undefined = queue.shift();
   // base-case
-  if (!curr?.value) return path
+  if (!curr?.value) return path;
   // pre
-  path.push(curr.value)
+  path.push(curr.value);
   // recursion
-  if (curr?.left) queue.push(curr.left)
-  if (curr?.right) queue.push(curr.right)
-  return recursive(queue, path)
-}
+  if (curr?.left) queue.push(curr.left);
+  if (curr?.right) queue.push(curr.right);
+  return recursive(queue, path);
+};
 
-export default (head: BinaryNode<number>): number[] => recursive([head])
-
+export default (head: BinaryNode<number>): number[] => recursive([head]);
 ```
 
 ## 6.12. BFS Level by Level
@@ -1079,23 +1072,22 @@ export default (head: BinaryNode<number>): number[] => recursive([head])
  * => [[20],[10,50],[5,15,30,100]]
  */
 const loopN = (head: BinaryNode<number>): number[][] => {
-  const queue = [head]
-  const levels: { [k:string]: number[] } = {}
-  let level = 0
+  const queue = [head];
+  const levels: { [k: string]: number[] } = {};
+  let level = 0;
   while (queue.length) {
-    let store = []
+    let store = [];
     for (let i = 0, il = queue.length; i < il; i++) {
-      const curr = queue.shift()
-      if (curr?.left) queue.push(curr.left)
-      if (curr?.right) queue.push(curr.right)
-      if (curr?.value) store.push(curr.value)
+      const curr = queue.shift();
+      if (curr?.left) queue.push(curr.left);
+      if (curr?.right) queue.push(curr.right);
+      if (curr?.value) store.push(curr.value);
     }
-    levels[level] = store
-    level++
+    levels[level] = store;
+    level++;
   }
-  return Object.values(levels)
-}
-
+  return Object.values(levels);
+};
 ```
 
 # 7. Heap / Priority Queue
@@ -1137,82 +1129,81 @@ const loopN = (head: BinaryNode<number>): number[][] => {
 
 ```ts
 export default class MinHeap {
-  public length: number
-  private data: number[]
+  public length: number;
+  private data: number[];
 
   constructor() {
-    this.data = []
-    this.length = 0
+    this.data = [];
+    this.length = 0;
   }
 
   insert(value: number): void {
-    this.data[this.length] = value
-    this.heapifyUp(this.length)
-    this.length++
+    this.data[this.length] = value;
+    this.heapifyUp(this.length);
+    this.length++;
   }
   // also some times called `poll` or `pop`
   delete(): number {
-    if (this.length === 0) return -1
-    const out = this.data[0]
-    this.length--
+    if (this.length === 0) return -1;
+    const out = this.data[0];
+    this.length--;
 
     if (this.length === 0) {
-      this.data = []
-      return out
+      this.data = [];
+      return out;
     }
-    this.data[0] = this.data[this.length]
-    this.heapifyDown(0)
-    return out
+    this.data[0] = this.data[this.length];
+    this.heapifyDown(0);
+    return out;
   }
 
   private heapifyDown(idx: number): void {
-    if (idx >= this.length) return
-    const leftChild = this.leftChild(idx)
-    const rightChild = this.rightChild(idx)
-    if (leftChild >= this.length || rightChild >= this.length) return
+    if (idx >= this.length) return;
+    const leftChild = this.leftChild(idx);
+    const rightChild = this.rightChild(idx);
+    if (leftChild >= this.length || rightChild >= this.length) return;
 
-    const lV = this.data[leftChild]
-    const rV = this.data[rightChild]
-    const value = this.data[idx]
+    const lV = this.data[leftChild];
+    const rV = this.data[rightChild];
+    const value = this.data[idx];
 
     if (rV > lV && value > lV) {
-      this.swap(idx, leftChild)
-      this.heapifyDown(leftChild)
+      this.swap(idx, leftChild);
+      this.heapifyDown(leftChild);
     } else if (lV > rV && value > rV) {
-      this.swap(idx, rightChild)
-      this.heapifyDown(rightChild)
+      this.swap(idx, rightChild);
+      this.heapifyDown(rightChild);
     }
   }
 
   private heapifyUp(idx: number): void {
-    if (idx === 0) return
-    const parent = this.parent(idx)
-    const parentValue = this.data[parent]
-    const value = this.data[idx]
+    if (idx === 0) return;
+    const parent = this.parent(idx);
+    const parentValue = this.data[parent];
+    const value = this.data[idx];
 
     if (parentValue > value) {
-      this.swap(idx, parent)
-      this.heapifyUp(parent)
+      this.swap(idx, parent);
+      this.heapifyUp(parent);
     }
   }
 
   private swap(a: number, b: number) {
-    const tmp = this.data[a]
-    this.data[a] = this.data[b]
-    this.data[b] = tmp
+    const tmp = this.data[a];
+    this.data[a] = this.data[b];
+    this.data[b] = tmp;
   }
 
   private parent(idx: number): number {
-    return Math.floor((idx - 1) / 2)
+    return Math.floor((idx - 1) / 2);
   }
   private leftChild(idx: number): number {
-    return 2 * idx + 1
+    return 2 * idx + 1;
   }
   private rightChild(idx: number): number {
-    return 2 * idx + 2
+    return 2 * idx + 2;
   }
 }
-
 ```
 
 - Runtime O(logN) (add/delete)
@@ -1234,7 +1225,7 @@ export default class MinHeap {
 - A connected graph is where each node can reach each other node
 - Nodes are called Point or `Vertex`
 - Big O is commonly stated in terms of V: vertices and E: edges
-- i.e. O(V*E) = on every vertex we check every edge
+- i.e. O(V\*E) = on every vertex we check every edge
 - Breath First Search and Depth First Searches can be used, one just needs to store the already seen nodes
 
 ## 9.1. Adjacency List
@@ -1317,41 +1308,40 @@ export const matrix2: WeightedAdjacencyMatrix = [
 export default function bfs(
   graph: WeightedAdjacencyMatrix,
   source: number,
-  needle: number,
+  needle: number
 ): number[] | null {
-  const queue: number[] = [source]
-  const seen: boolean[] = Array(graph.length).fill(false)
-  const prev: number[] = Array(graph.length).fill(-1)
-  seen[source] = true
+  const queue: number[] = [source];
+  const seen: boolean[] = Array(graph.length).fill(false);
+  const prev: number[] = Array(graph.length).fill(-1);
+  seen[source] = true;
 
   while (queue.length) {
-    const curr = queue.shift() as number
-    if (!curr && curr !== 0) continue
-    if (curr === needle) break
+    const curr = queue.shift() as number;
+    if (!curr && curr !== 0) continue;
+    if (curr === needle) break;
 
-    const adjs = graph[curr]
+    const adjs = graph[curr];
     for (let index = 0; index < adjs.length; index++) {
-      const element = adjs[index]
-      if (element === 0 || seen[index]) continue
-      seen[index] = true
-      prev[index] = curr
-      queue.push(index)
+      const element = adjs[index];
+      if (element === 0 || seen[index]) continue;
+      seen[index] = true;
+      prev[index] = curr;
+      queue.push(index);
     }
   }
 
-  if (prev[needle] === -1) return null
+  if (prev[needle] === -1) return null;
 
-  let curr = needle
-  const out: number[] = []
+  let curr = needle;
+  const out: number[] = [];
   while (prev[curr] !== -1) {
-    out.push(curr)
-    curr = prev[curr]
+    out.push(curr);
+    curr = prev[curr];
   }
 
-  out.push(source)
-  return out.reverse()
+  out.push(source);
+  return out.reverse();
 }
-
 ```
 
 ## 9.5. Depth First Search List
@@ -1375,103 +1365,101 @@ export const list2: WeightedAdjacencyList = [[
 ]
  */
 
-console.log(dfs(list2, 0, 6)) // 0, 1, 4, 5, 6
+console.log(dfs(list2, 0, 6)); // 0, 1, 4, 5, 6
 
 function recursion(
   graph: WeightedAdjacencyList,
   curr: number,
   needle: number,
   seen: boolean[],
-  path: number[],
+  path: number[]
 ): boolean {
-  if (seen[curr] || (!curr && curr !== 0)) return false
-  seen[curr] = true
+  if (seen[curr] || (!curr && curr !== 0)) return false;
+  seen[curr] = true;
 
-  path.push(curr)
-  if (curr === needle) return true
+  path.push(curr);
+  if (curr === needle) return true;
 
   for (let index = 0; index < graph[curr].length; index++) {
-    const element = graph[curr][index]
-    if (recursion(graph, element.to, needle, seen, path)) return true
+    const element = graph[curr][index];
+    if (recursion(graph, element.to, needle, seen, path)) return true;
   }
 
-  path.pop()
+  path.pop();
 
-  return false
+  return false;
 }
 
 export default function dfs(
   graph: WeightedAdjacencyList,
   source: number,
-  needle: number,
+  needle: number
 ): number[] | null {
-  if (needle === source) return null
-  const path: number[] = []
-  const seen = new Array(graph.length).fill(false)
-  if (recursion(graph, source, needle, seen, path)) return path
-  return null
+  if (needle === source) return null;
+  const path: number[] = [];
+  const seen = new Array(graph.length).fill(false);
+  if (recursion(graph, source, needle, seen, path)) return path;
+  return null;
 }
-
 ```
 
 ## 9.6. Dijkstra Shortest Path in Graph
 
 ```ts
 const hasUnvisited = (seen: boolean[], dists: number[]): boolean =>
-  seen.some((bool, index) => !bool && dists[index] < Infinity)
+  seen.some((bool, index) => !bool && dists[index] < Infinity);
 
 const getLowestUnvisited = (seen: boolean[], dists: number[]): number => {
-  let idx = -1
-  let lowestDistance = Infinity
+  let idx = -1;
+  let lowestDistance = Infinity;
 
   for (let index = 0; index < seen.length; index++) {
-    if (seen[index]) continue
+    if (seen[index]) continue;
     if (lowestDistance > dists[index]) {
-      lowestDistance = dists[index]
-      idx = index
+      lowestDistance = dists[index];
+      idx = index;
     }
   }
-  return idx
-}
+  return idx;
+};
 
 export default function dijkstra_list(
   source: number,
   sink: number,
-  arr: WeightedAdjacencyList,
+  arr: WeightedAdjacencyList
 ): number[] {
-  const seen = new Array(arr.length).fill(false)
-  const prev = new Array(arr.length).fill(-1)
-  const dists = new Array(arr.length).fill(Infinity)
-  dists[source] = 0
+  const seen = new Array(arr.length).fill(false);
+  const prev = new Array(arr.length).fill(-1);
+  const dists = new Array(arr.length).fill(Infinity);
+  dists[source] = 0;
 
   // could be replaced by min-heap
   while (hasUnvisited(seen, dists)) {
-    const curr = getLowestUnvisited(seen, dists)
-    seen[curr] = true
+    const curr = getLowestUnvisited(seen, dists);
+    seen[curr] = true;
 
-    const adjs = arr[curr]
+    const adjs = arr[curr];
     for (let index = 0; index < adjs.length; index++) {
-      const edge = adjs[index]
-      if (seen[edge.to]) continue
-      const dist = dists[curr] + edge.weight
+      const edge = adjs[index];
+      if (seen[edge.to]) continue;
+      const dist = dists[curr] + edge.weight;
       if (dist < dists[edge.to]) {
-        dists[edge.to] = dist
-        prev[edge.to] = curr
+        dists[edge.to] = dist;
+        prev[edge.to] = curr;
       }
     }
   }
 
-  const out: number[] = []
-  let curr = sink
+  const out: number[] = [];
+  let curr = sink;
   while (prev[curr] !== -1) {
-    out.push(curr)
-    curr = prev[curr]
+    out.push(curr);
+    curr = prev[curr];
   }
 
-  out.push(source)
-  return out.reverse()
+  out.push(source);
+  return out.reverse();
 }
-
 ```
 
 # 10. Maps
@@ -1498,86 +1486,86 @@ export default function dijkstra_list(
 
 ```ts
 type Node<T> = {
-  value: T
-  next?: Node<T>
-  prev?: Node<T>
-}
+  value: T;
+  next?: Node<T>;
+  prev?: Node<T>;
+};
 
 function createNode<V>(value: V): Node<V> {
-  return { value } as Node<V>
+  return { value } as Node<V>;
 }
 
 export default class LRU<K, V> {
-  private length: number
-  private head?: Node<V>
-  private tail?: Node<V>
+  private length: number;
+  private head?: Node<V>;
+  private tail?: Node<V>;
 
-  private lookup: Map<K, Node<V>>
-  private reverseLookup: Map<Node<V>, K>
+  private lookup: Map<K, Node<V>>;
+  private reverseLookup: Map<Node<V>, K>;
 
   constructor(public capacity: number = 10) {
-    this.length = 0
-    this.head = this.tail = undefined
-    this.lookup = new Map<K, Node<V>>()
-    this.reverseLookup = new Map<Node<V>, K>()
+    this.length = 0;
+    this.head = this.tail = undefined;
+    this.lookup = new Map<K, Node<V>>();
+    this.reverseLookup = new Map<Node<V>, K>();
   }
 
   update(key: K, value: V): void {
-    let node = this.lookup.get(key)
+    let node = this.lookup.get(key);
     if (!node) {
-      node = createNode(value)
-      this.length++
-      this.prepend(node)
-      this.trimCache()
+      node = createNode(value);
+      this.length++;
+      this.prepend(node);
+      this.trimCache();
 
-      this.lookup.set(key, node)
-      this.reverseLookup.set(node, key)
+      this.lookup.set(key, node);
+      this.reverseLookup.set(node, key);
     } else {
-      this.detach(node)
-      this.prepend(node)
-      node.value = value
+      this.detach(node);
+      this.prepend(node);
+      node.value = value;
     }
   }
 
   get(key: K): V | undefined {
-    const node = this.lookup.get(key)
-    if (!node) return
+    const node = this.lookup.get(key);
+    if (!node) return;
 
-    this.detach(node)
-    this.prepend(node)
+    this.detach(node);
+    this.prepend(node);
 
-    return node.value
+    return node.value;
   }
 
   private detach(node: Node<V>) {
-    if (node.prev) node.prev.next = node.next
-    if (node.next) node.next.prev = node.prev
+    if (node.prev) node.prev.next = node.next;
+    if (node.next) node.next.prev = node.prev;
 
-    if (this.head === node) this.head = this.head.next
-    if (this.tail === node) this.tail = this.tail.prev
+    if (this.head === node) this.head = this.head.next;
+    if (this.tail === node) this.tail = this.tail.prev;
 
-    node.next = undefined
-    node.prev = undefined
+    node.next = undefined;
+    node.prev = undefined;
   }
 
   private prepend(node: Node<V>): Node<V> {
-    if (!this.head) return (this.head = this.tail = node)
+    if (!this.head) return (this.head = this.tail = node);
 
-    node.next = this.head
-    this.head.prev = node
+    node.next = this.head;
+    this.head.prev = node;
 
-    return (this.head = node)
+    return (this.head = node);
   }
 
   private trimCache() {
-    if (this.length <= this.capacity) return
+    if (this.length <= this.capacity) return;
 
-    const tail = this.tail as Node<V>
-    this.detach(this.tail as Node<V>)
-    const key = this.reverseLookup.get(tail) as K
-    this.lookup.delete(key)
-    this.reverseLookup.delete(tail)
-    this.length--
+    const tail = this.tail as Node<V>;
+    this.detach(this.tail as Node<V>);
+    const key = this.reverseLookup.get(tail) as K;
+    this.lookup.delete(key);
+    this.reverseLookup.delete(tail);
+    this.length--;
   }
 }
 ```

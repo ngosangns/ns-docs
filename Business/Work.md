@@ -12,6 +12,7 @@ tags:
   - freelance
   - vietop
 ---
+
 # Resources
 
 - Dropbox Engineering Career Framework: https://dropbox.github.io/dbx-career-framework

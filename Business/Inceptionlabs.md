@@ -8,6 +8,7 @@ tags:
   - frontend-development
   - employee-benefits
 ---
+
 # 1. Full Stack Developer
 
 ## 1.1. Mô tả công việc
@@ -24,12 +25,12 @@ tags:
 
 - A degree in Computer Science, Software Engineering, Information Technology or related fields and possess strong fundamentals in algorithms and data structures
 - At least 2 years of experience
-- Experience of working in both backend and frontend development  
-	- Backend:
-		- Any of the following Java / Kotlin / Go / Node
-	- Frontend:
-		- Any of the following Node / Webpack / Angular / Typescript
-		- Basic understanding of HTML5 and its related APIs (e.g. storage API, web worker, webrtc, drag drop, selection, etc…)
+- Experience of working in both backend and frontend development
+  - Backend:
+    - Any of the following Java / Kotlin / Go / Node
+  - Frontend:
+    - Any of the following Node / Webpack / Angular / Typescript
+    - Basic understanding of HTML5 and its related APIs (e.g. storage API, web worker, webrtc, drag drop, selection, etc…)
 - Solid knowledge in foundational topics such as Concurrent programming, Dependency Injection, Networking, Non-blocking programming
 - Hand on experience on working with distributed and scalable system
 - Knowledge in microservice and database management

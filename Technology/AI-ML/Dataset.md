@@ -2,6 +2,7 @@
 relates:
   - "[[AI - ML]]"
 ---
+
 # 1. Media
 
 ## 1.1. Video

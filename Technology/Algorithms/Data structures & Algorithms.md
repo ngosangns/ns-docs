@@ -16,6 +16,7 @@ tags:
   - structures
   - vietnamese
 ---
+
 # 1. Resources
 
 ![[344761700_691730916042250_2784087986434747459_n.jpg]]
@@ -31,16 +32,16 @@ tags:
 - Thuật toán Dijkstra - Tìm đường đi ngắn nhất: https://chidokun.github.io/2021/09/dijkstra-algorithm
 - LeetCode: Dễ dàng nhận biết 5 dạng bài Dynamic Programming: https://viblo.asia/p/leetcode-de-dang-nhan-biet-5-dang-bai-dynamic-programming-x7Z4Dn90LnX
 - Algorithms & Data Structures Full Crash Course - https://www.youtube.com/watch?v=jQqQpPMYPXs
-    - Binary Search Tree: https://www.youtube.com/watch?v=mQMpamkUgW8
-    - Graph:
-        - Tính chất: https://www.youtube.com/watch?v=sY3kvaA9Xok
-        - Phân loại: https://www.youtube.com/watch?v=L1tj-q1eQxM
-        - Thể hiện trong lập trình: https://www.youtube.com/watch?v=vrD0n8hJGXQ
-        - Các bài toán hay gặp: https://www.youtube.com/watch?v=NLl6YF0wzvk
-        - Depth First Search: https://www.youtube.com/watch?v=wyt7HxulLS4
-        - Breadth First Search - Áp dụng trong bài toán tìm đường: https://www.youtube.com/watch?v=JvZVRYwjRng
+  - Binary Search Tree: https://www.youtube.com/watch?v=mQMpamkUgW8
+  - Graph:
+    - Tính chất: https://www.youtube.com/watch?v=sY3kvaA9Xok
+    - Phân loại: https://www.youtube.com/watch?v=L1tj-q1eQxM
+    - Thể hiện trong lập trình: https://www.youtube.com/watch?v=vrD0n8hJGXQ
+    - Các bài toán hay gặp: https://www.youtube.com/watch?v=NLl6YF0wzvk
+    - Depth First Search: https://www.youtube.com/watch?v=wyt7HxulLS4
+    - Breadth First Search - Áp dụng trong bài toán tìm đường: https://www.youtube.com/watch?v=JvZVRYwjRng
 - Playlist thực hành giải các bài thuật toán by TopCoder: https://www.youtube.com/playlist?list=PLWYOT8C61ll3k_tgJetHkHGtePJ3zn098
-    - Các trang học thuật toán: https://www.youtube.com/watch?v=jH9w5NKWlzA
+  - Các trang học thuật toán: https://www.youtube.com/watch?v=jH9w5NKWlzA
 - Bài giải các challenges bằng Go: https://github.com/aQuaYi/LeetCode-in-Go
 - Giới thiệu về loạt thuật toán mật mã học: https://viblo.asia/s/cryptography-p0-gioi-thieu-ve-loat-bai-viet-ve-mat-ma-hoc-obA46emMVKv
 - Modular math in Cryptography: https://viblo.asia/p/modular-math-in-cryptography-module-trong-mat-ma-hoc-BQyJKaEwVMe
@@ -79,14 +80,14 @@ Bảng ví dụ chứa số phép toán cần thực hiện của mỗi thuật 
 
 # 5. Giải thuật đệ quy
 
-- Hàm *f* là một hàm đệ quy khi mà nó trả về kết quả đầu ra là kết quả của một hàm *f* với input khác với những input trước đó. Ví dụ:
+- Hàm _f_ là một hàm đệ quy khi mà nó trả về kết quả đầu ra là kết quả của một hàm _f_ với input khác với những input trước đó. Ví dụ:
 
-    ```go
-    func recursive(a int) {
-    	// TODO: implement break conditions
-    	return recursive(a + 1)
-    }
-    ```
+  ```go
+  func recursive(a int) {
+  	// TODO: implement break conditions
+  	return recursive(a + 1)
+  }
+  ```
 
 - Mỗi lần hàm đệ quy sử dụng chính nó phải sử dụng input khác với những input trước đó nếu không thì hàm đệ quy sẽ không bao giờ dừng lại
 
@@ -104,21 +105,23 @@ Bảng ví dụ chứa số phép toán cần thực hiện của mỗi thuật 
 
 # 7. Bao lồi
 
-_**Bao lồi**_ là một vấn đề rất thường xuyên xuất hiện trong các bài tập hình học tính toán của lập trình thi đấu.
+***Bao lồi*** là một vấn đề rất thường xuyên xuất hiện trong các bài tập hình học tính toán của lập trình thi đấu.
 
-Xét một tập điểm trên mặt phẳng tọa độ Oxy, bao lồi của tập điểm là _**tập lồi nhỏ nhất**_ (theo diện tích, thể tích,...) mà chứa tất cả các điểm đó. Nói cách khác, bao lồi của một tập điểm là đa giác nhỏ nhất chứa tất cả các điểm đó.
+Xét một tập điểm trên mặt phẳng tọa độ Oxy, bao lồi của tập điểm là ***tập lồi nhỏ nhất*** (theo diện tích, thể tích,...) mà chứa tất cả các điểm đó. Nói cách khác, bao lồi của một tập điểm là đa giác nhỏ nhất chứa tất cả các điểm đó.
 
 Một cách trực quan, nếu coi mỗi điểm như một chiếc đinh đóng trên tấm gỗ, bao lồi của tập điểm đó sẽ có viền ngoài là một sợi dây sau khi bị kéo căng vào những chiếc đinh ở các phía.
 
 ![[Pasted image 20240419132648.png]]
 
 Các thuật toán tìm Bao lồi thông dụng:
+
 - Graham
 - Motonone Chain
 
 # 8. Bloom filter
 
 Bloom filter là một cấu trúc dữ liệu xác suất, giúp kiểm tra xem một phần tử có thuộc một tập hợp hay không. Nó đặc biệt hữu ích trong các ứng dụng cần kiểm tra nhanh chóng và sử dụng ít bộ nhớ. Bloom filter có một số đặc điểm chính sau:
+
 1. **Không có lỗi âm**: Nếu Bloom filter cho biết một phần tử không thuộc tập hợp, thì chắc chắn phần tử đó không có trong tập hợp.
 2. **Có thể có lỗi dương**: Nếu Bloom filter cho biết một phần tử thuộc tập hợp, thì có khả năng là nó không thực sự có trong tập hợp. Tỷ lệ lỗi dương này phụ thuộc vào số lượng hàm băm và kích thước của mảng bit trong Bloom filter.
 3. **Sử dụng nhiều hàm băm**: Bloom filter sử dụng nhiều hàm băm khác nhau để ánh xạ một phần tử vào nhiều vị trí trong mảng bit.
@@ -127,27 +130,28 @@ Bloom filter là một cấu trúc dữ liệu xác suất, giúp kiểm tra xem
 Bloom filter có nhiều ứng dụng thực tế trong các hệ thống và phần mềm khác nhau, đặc biệt là trong các tình huống cần kiểm tra thành viên của một tập hợp lớn một cách nhanh chóng và hiệu quả về mặt bộ nhớ. Dưới đây là một số ứng dụng phổ biến của Bloom filter:
 
 1. **Bộ nhớ đệm (Caching)**
-	- **Giảm tải cơ sở dữ liệu**: Bloom filter có thể được sử dụng để kiểm tra xem một khóa (key) có tồn tại trong bộ nhớ đệm hay không trước khi truy vấn cơ sở dữ liệu. Nếu Bloom filter cho biết khóa không tồn tại, hệ thống có thể bỏ qua việc truy vấn cơ sở dữ liệu, giảm tải và cải thiện hiệu suất.
-	- **Bộ nhớ đệm web (Web Cache)**: Bloom filter giúp nhanh chóng xác định xem một URL đã được lưu trong bộ nhớ đệm hay chưa.
+   - **Giảm tải cơ sở dữ liệu**: Bloom filter có thể được sử dụng để kiểm tra xem một khóa (key) có tồn tại trong bộ nhớ đệm hay không trước khi truy vấn cơ sở dữ liệu. Nếu Bloom filter cho biết khóa không tồn tại, hệ thống có thể bỏ qua việc truy vấn cơ sở dữ liệu, giảm tải và cải thiện hiệu suất.
+   - **Bộ nhớ đệm web (Web Cache)**: Bloom filter giúp nhanh chóng xác định xem một URL đã được lưu trong bộ nhớ đệm hay chưa.
 2. **Hệ thống phát hiện thư rác (Spam Detection)**
-	- Bloom filter có thể được sử dụng trong các hệ thống phát hiện thư rác để kiểm tra nhanh chóng xem một địa chỉ email hay một phần nội dung có xuất hiện trong danh sách đen (blacklist) hay không.
+   - Bloom filter có thể được sử dụng trong các hệ thống phát hiện thư rác để kiểm tra nhanh chóng xem một địa chỉ email hay một phần nội dung có xuất hiện trong danh sách đen (blacklist) hay không.
 3. **Hệ thống tìm kiếm và cơ sở dữ liệu phân tán**
-	- **Hadoop và Bigtable**: Bloom filter được sử dụng để tối ưu hóa các hệ thống phân tán như Hadoop HBase và Google Bigtable. Trong các hệ thống này, Bloom filter giúp giảm số lượng đọc đĩa bằng cách kiểm tra trước xem một phần tử có khả năng nằm trong một khối dữ liệu cụ thể hay không.
-	- **Cơ sở dữ liệu NoSQL**: Nhiều cơ sở dữ liệu NoSQL, như Cassandra, sử dụng Bloom filter để tránh việc truy vấn các tệp dữ liệu không liên quan, cải thiện tốc độ truy vấn.
+   - **Hadoop và Bigtable**: Bloom filter được sử dụng để tối ưu hóa các hệ thống phân tán như Hadoop HBase và Google Bigtable. Trong các hệ thống này, Bloom filter giúp giảm số lượng đọc đĩa bằng cách kiểm tra trước xem một phần tử có khả năng nằm trong một khối dữ liệu cụ thể hay không.
+   - **Cơ sở dữ liệu NoSQL**: Nhiều cơ sở dữ liệu NoSQL, như Cassandra, sử dụng Bloom filter để tránh việc truy vấn các tệp dữ liệu không liên quan, cải thiện tốc độ truy vấn.
 4. **Định tuyến gói tin trong mạng (Packet Routing)**
-	- Bloom filter có thể được sử dụng trong các giao thức định tuyến để kiểm tra nhanh xem một gói tin đã được truyền qua một nút mạng cụ thể hay chưa, giúp tránh việc truyền lại các gói tin không cần thiết.
+   - Bloom filter có thể được sử dụng trong các giao thức định tuyến để kiểm tra nhanh xem một gói tin đã được truyền qua một nút mạng cụ thể hay chưa, giúp tránh việc truyền lại các gói tin không cần thiết.
 5. **Lọc yêu cầu DNS (DNS Query Filtering)**
-	- Các máy chủ DNS có thể sử dụng Bloom filter để kiểm tra xem một tên miền đã được truy vấn trước đó hay chưa, giúp cải thiện hiệu suất và giảm thời gian phản hồi.
+
+   - Các máy chủ DNS có thể sử dụng Bloom filter để kiểm tra xem một tên miền đã được truy vấn trước đó hay chưa, giúp cải thiện hiệu suất và giảm thời gian phản hồi.
 
 6. **Phát hiện và loại bỏ dữ liệu trùng lặp (Duplicate Detection)**
-	- Bloom filter được sử dụng trong các hệ thống xử lý dữ liệu lớn để nhanh chóng phát hiện các mục dữ liệu trùng lặp mà không cần lưu trữ toàn bộ dữ liệu.
+   - Bloom filter được sử dụng trong các hệ thống xử lý dữ liệu lớn để nhanh chóng phát hiện các mục dữ liệu trùng lặp mà không cần lưu trữ toàn bộ dữ liệu.
 7. **Hệ thống đề xuất và tìm kiếm gần đúng (Approximate Membership Query)**
-	- Bloom filter được sử dụng trong các hệ thống đề xuất (recommendation systems) và tìm kiếm gần đúng (approximate search) để lọc sơ bộ các kết quả, sau đó áp dụng các thuật toán chính xác hơn.
+   - Bloom filter được sử dụng trong các hệ thống đề xuất (recommendation systems) và tìm kiếm gần đúng (approximate search) để lọc sơ bộ các kết quả, sau đó áp dụng các thuật toán chính xác hơn.
 8. **Lọc nội dung trong các hệ thống chống lạm dụng (Content Filtering)**
-	- Các nền tảng trực tuyến có thể sử dụng Bloom filter để kiểm tra xem một từ khóa hoặc cụm từ đã bị cấm có xuất hiện trong nội dung người dùng gửi lên không, giúp nhanh chóng lọc ra nội dung vi phạm.
+   - Các nền tảng trực tuyến có thể sử dụng Bloom filter để kiểm tra xem một từ khóa hoặc cụm từ đã bị cấm có xuất hiện trong nội dung người dùng gửi lên không, giúp nhanh chóng lọc ra nội dung vi phạm.
 9. **Ứng dụng trong mật mã học (Cryptography)**
-	- Bloom filter được sử dụng trong một số giao thức mật mã để kiểm tra thành viên trong tập hợp một cách hiệu quả và bảo mật.
+   - Bloom filter được sử dụng trong một số giao thức mật mã để kiểm tra thành viên trong tập hợp một cách hiệu quả và bảo mật.
 10. **Kiểm tra mật khẩu vi phạm (Password Breach Detection)**
-	- Bloom filter có thể được sử dụng để kiểm tra nhanh chóng xem một mật khẩu người dùng nhập vào có nằm trong danh sách mật khẩu bị rò rỉ trước đó không, giúp tăng cường bảo mật hệ thống.
+    - Bloom filter có thể được sử dụng để kiểm tra nhanh chóng xem một mật khẩu người dùng nhập vào có nằm trong danh sách mật khẩu bị rò rỉ trước đó không, giúp tăng cường bảo mật hệ thống.
 
 Bloom filter là một công cụ mạnh mẽ trong việc xử lý các tập hợp dữ liệu lớn, đặc biệt là khi cần tối ưu hóa hiệu suất và tiết kiệm bộ nhớ. Tuy nhiên, do có khả năng xảy ra lỗi dương (false positive), nên cần cẩn thận khi sử dụng nó trong các ứng dụng yêu cầu độ chính xác tuyệt đối.

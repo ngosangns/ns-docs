@@ -1,5 +1,5 @@
 ---
-relates: 
+relates:
 tags:
   - ai-research-booster
   - ai-content-factory
@@ -7,6 +7,7 @@ tags:
   - viral-content
   - artificial-intelligence
 ---
+
 Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?
 
 Tại sao video nào cũng có thể viral, trong khi tôi mãi lẹt đẹt vài trăm view?

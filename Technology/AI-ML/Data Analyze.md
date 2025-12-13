@@ -6,6 +6,7 @@ tags:
   - data-lakes
   - locker-studio
 ---
+
 # 1. Resources
 
 # 2. Tools

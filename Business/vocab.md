@@ -1,14 +1,14 @@
 ---
-
 excalidraw-plugin: parsed
 tags: [excalidraw]
-
 ---
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
 # Excalidraw Data
+
 ## Text Elements
+
 Nghe ^zLxEFiO3
 
 Nói ^OlHbsNyY
@@ -93,7 +93,9 @@ Nói từ đồng/trái/cùng nghĩa ^JN0ZygGk
 Phát âm IPA ^FwIEpz4U
 
 %%
+
 ## Drawing
+
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQA2bQB2GjoghH0EDihmbgBtcDBQMBKIEm4IIwAZTABRADFCAHkAZlSSyFhECqgsKHbSzG5nFoBWAEZtUf5SmGGecYAGZIAO
 
@@ -435,4 +437,5 @@ gdQAsgLUgIi8VXOlGANgAGAH6QMAAgB1QHixuMHh7V0Yun+09/LVLOWk4gEgCoDH6CL6Jem9Aany50xe
 
 2AY8zYAHIBMgAhBwAHemSQghCaAA+nVmb4DEMwgCMAZHHQgEemAsMIDBAehniEC1AJ4MqAp0p5BrjLaIXiHyD0MxhlD030KTyZeDsIBozhAYPAsQM8BAAA==
 ```
+
 %%

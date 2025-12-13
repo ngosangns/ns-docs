@@ -9,6 +9,7 @@ tags:
   - dl
   - prompt-cơ-bản
 ---
+
 # 1. Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)
 
 Những kỹ thuật này tập trung vào việc xây dựng prompt để đưa ra các yêu cầu hoặc hướng dẫn cho LLM:
