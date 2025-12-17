@@ -7,13 +7,11 @@ created: 2025-12-17
 ## Giới thiệu
 
 - Vault ghi chú được tổ chức theo PARA: `Inbox`, `Projects`, `Areas`, `Resources`, `Archives`, `Admin`.
-- Trung tâm điều hướng: [[Admin/MOC/Home]] gồm Projects đang active, Areas chính, Research/Meetings mới, và các quick actions.
 - Chất lượng & kiểm soát: [[Admin/MOC/Quality-Control]] theo dõi tags, cấu trúc, naming.
 
 ## Yêu cầu
 
 - Cài `Visual Studio Code` và extension `Foam`.
-- Khuyến nghị cài thêm `Markdown All in One` để hỗ trợ wikilinks và Markdown.
 - Foam hoạt động trực tiếp trên các tệp Markdown; không cần plugin Dataview.
 
 ## Mở workspace
@@ -66,16 +64,8 @@ url:
   - `media/*`: img, pdf, excalidraw, canvas
 - Khuyến nghị: mỗi note có 5–8 tags; bắt buộc phải có 1 `area/` hoặc `project/`, 1 `type/`, 1 `lang/`.
 
-## Quy trình review
-
-- Theo [[Admin/Workflows/Review]]:
-  - Daily (5–10 phút): xử lý [[Inbox]], cập nhật status, bổ sung tags cơ bản.
-  - Weekly (30–45 phút): dọn Inbox, chuẩn hóa tags (`kebab-case`), cập nhật tiến độ projects.
-- Monthly (1–2 giờ): archive, chuẩn hóa tên files, dọn `Attachments/`, cập nhật MOCs.
-
 ## MOC & điều hướng
 
-- Trang chủ: [[Admin/MOC/Home]]
 - Tags & hướng dẫn: [[Admin/MOC/Tags]] [[Admin/Guides/Tags]]
 - Review: [[Admin/MOC/Review]]
 - Quality Control: [[Admin/MOC/Quality-Control]]
@@ -104,7 +94,6 @@ url:
 
 ## Quick start
 
-- Mở [[Admin/MOC/Home]] để xem tổng quan.
 - Tạo ghi chú mới trong `Inbox` với frontmatter chuẩn và di chuyển khi phân loại.
 - Duyệt [[Inbox]] và chuyển sang thư mục phù hợp, thêm frontmatter + tags.
 - Với tài liệu kỹ thuật, đặt `area/technology` + `domain/*` + `topic/*`.
