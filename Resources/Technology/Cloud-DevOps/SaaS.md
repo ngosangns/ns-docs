@@ -13,7 +13,7 @@ tags:
 
 - Programming language for cloud: https://github.com/winglang/wing
 
-![[Fzo-pUoaEAApb8M.jpg]]
+![[d1e2f3a4-b5c6-4789-9a0b-c1d2e3f4a5b6.jpg]]
 
 
 - Firebase:

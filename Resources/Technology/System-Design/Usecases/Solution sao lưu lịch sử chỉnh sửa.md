@@ -53,7 +53,7 @@ tags:
 
 Em chủ yếu vào đây để học hỏi mọi người thui, không có kiến thức gì nhiều về System Desgin. Nhưng em có biết một chút về thuật toán, khi e học về Persistent Segment Tree - một kiểu segment tree, mà khi t có một số thay đổi ở node, t sẽ không copy y xì những thằng ở node cũ sang node mới, thay vào đó chỉ cần tạo ra node mới đối với những thằng khác nhau, còn những thằng giống nhau thì vẫn trỏ về node cũ. Đấy là một chút thông tin tý tẹo. Mong rằng đọc qua cái idea này anh chị có thể có ý tưởng gì đó ạ.
 
-![[Pasted image 20240706134702.png]]
+![[9e0f1a2b-3c4d-5e6f-7081-92a3b4c5d6e7.png]]
 
 Thường text editor thì nó dùng Rope data structure, tất nhiên là thực tế thì nó sẽ tuỳ biến để hỗ trợ nhiều tính năng như change detect, diff,...
 

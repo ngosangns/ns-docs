@@ -23,15 +23,15 @@ tags:
 - An introduction to RFC 7807 | Representing Problem Details in HTTP APIs (axway.com): https://blog.axway.com/learning-center/apis/api-design/introduction-to-rfc-7807
 - Mít Đặc và Biết Tuốt nói về tốc độ mạng và sự tiến hóa của HTTP từ HTTP1, HTTP2, HTTP3: https://viblo.asia/p/mit-dac-va-biet-tuot-noi-ve-toc-do-mang-va-su-tien-hoa-cua-http-tu-http1-http2-http3-5pPLk9Gn4RZ
 
-![[340771529_617175149885300_3812928478176216761_n.jpg]]
+![[f0e1d2c3-b4a5-6789-9a0b-c1d2e3f4a5b6.jpg]]
 
-![[095fcc4d-9e86-44a4-9592-eb1285145a64_800x564.jpg]]
+![[5b5b9f9f-3f6e-4d8f-9b8c-0f2d2f3a7c61.jpg]]
 
 ---
 
 # **CÁC METHOD HTTP PHỔ BIẾN**
 
-**Đi qua khái niệm một chút nha:
+\*\*Đi qua khái niệm một chút nha:
 
 - Idempotent: các method được coi là idempotent khi nó có thể thực hiên n + 1 lần mà vẫn trả lại 1 kết quả như ban đầu.
 
@@ -58,7 +58,7 @@ tags:
 **5. PATCH (Cập nhật một phần):**
 
 - **Chức năng:** Cập nhật một phần nội dung của một tài nguyên trên máy chủ.
-- **Đặc điểm (Non-idempotent):** Việc thực hiện nhiều yêu cầu PATCH giống nhau có thể dẫn đến việc cập nhật tài nguyên nhiều lần. **Ví dụ:**** Cập nhật địa chỉ email, thay đổi mật khẩu, cập nhật trạng thái đơn hàng.
+- **Đặc điểm (Non-idempotent):** Việc thực hiện nhiều yêu cầu PATCH giống nhau có thể dẫn đến việc cập nhật tài nguyên nhiều lần. **Ví dụ:\*\*** Cập nhật địa chỉ email, thay đổi mật khẩu, cập nhật trạng thái đơn hàng.
 
 **6. HEAD (Lấy tiêu đề):**
 
@@ -68,20 +68,20 @@ tags:
 **7. CONNECT (Kết nối):**
 
 - **Chức năng:** Thiết lập một đường hầm TCP được mã hóa giữa máy khách và máy chủ.
-- **Đặc điểm:
-	- **Được sử dụng cho các giao thức không hỗ trợ HTTPS:** Ví dụ như SSH, FTP.  
-	- **Cung cấp bảo mật cho việc truyền dữ liệu nhạy cảm:**** Giúp bảo vệ dữ liệu khỏi bị đánh cắp hoặc thay đổi trong quá trình truyền tải.
+- \*\*Đặc điểm:
+  - **Được sử dụng cho các giao thức không hỗ trợ HTTPS:** Ví dụ như SSH, FTP.
+  - **Cung cấp bảo mật cho việc truyền dữ liệu nhạy cảm:\*\*** Giúp bảo vệ dữ liệu khỏi bị đánh cắp hoặc thay đổi trong quá trình truyền tải.
 
 **8. OPTIONS (Lấy tùy chọn):**
 
 - **Chức năng:** Lấy thông tin về các phương thức HTTP được hỗ trợ bởi một tài nguyên trên máy chủ.
-- **Đặc điểm:
-	- **Giúp xác định các hành động có thể thực hiện trên tài nguyên:**** Ví dụ như GET, POST, PUT, DELETE, v.v.
-	- **Có ích cho các ứng dụng muốn tương tác với các API web:**** Giúp ứng dụng biết cách tương tác với API một cách chính xác.
+- \*\*Đặc điểm:
+  - **Giúp xác định các hành động có thể thực hiện trên tài nguyên:\*\*** Ví dụ như GET, POST, PUT, DELETE, v.v.
+  - **Có ích cho các ứng dụng muốn tương tác với các API web:\*\*** Giúp ứng dụng biết cách tương tác với API một cách chính xác.
 
 **9. TRACE (Theo dõi):**
 
 - **Chức năng:** Theo dõi hành trình của một yêu cầu HTTP từ máy khách đến máy chủ và ngược lại.
-- **Đặc điểm:
-	- **Giúp gỡ lỗi các vấn đề về kết nối mạng và máy chủ:**** Bằng cách theo dõi từng bước của yêu cầu, có thể xác định được điểm gặp sự cố.
-	- **Ít được sử dụng trong thực tế:** Do tính phức tạp và ít ứng dụng thực tế
+- \*\*Đặc điểm:
+  - **Giúp gỡ lỗi các vấn đề về kết nối mạng và máy chủ:\*\*** Bằng cách theo dõi từng bước của yêu cầu, có thể xác định được điểm gặp sự cố.
+  - **Ít được sử dụng trong thực tế:** Do tính phức tạp và ít ứng dụng thực tế

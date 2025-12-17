@@ -219,8 +219,8 @@ aliases:
 ### 1.10.1. Prompt
 
 - Hướng dẫn viết promts:
-  - [[ba3a5f41c1fb23e613f01b2c559113d1_MD5.pdf]]
-  - [[f3ea3cd9399592466c19314ad4642e77_MD5.pdf]]
+  - [[7c6a7b8c-9d0e-1f23-a4b5-c6d7e8f9012a.pdf]]
+  - [[1d0a1b2c-3e4f-5a67-b8c9-d0e1f2a3456b.pdf]]
 
 # 2. Frameworks
 

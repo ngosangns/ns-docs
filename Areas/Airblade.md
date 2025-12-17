@@ -26,22 +26,22 @@ tags:
 
 # 4. Khác
 
-![[Pasted image 20240502172424.png]]
+![[1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b.png]]
 
-![[Pasted image 20240502173135.png]]
+![[2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c.png]]
 
-![[Pasted image 20240502175000.png]]
+![[3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d.png]]
 
-![[Pasted image 20240502175940.png]]
+![[4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e.png]]
 
-![[Pasted image 20240502180730.png]]
+![[5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png]]
 
-![[Pasted image 20240502193802.png]]
+![[6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a.png]]
 
-![[Pasted image 20240502195106.png]]
+![[7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b.png]]
 
-![[Pasted image 20240502195226.png]]
+![[8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c.png]]
 
-![[Pasted image 20240502203227.png]]
+![[9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d.png]]
 
-![[Pasted image 20240505160601.png]]
+![[0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e.png]]

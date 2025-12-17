@@ -19,7 +19,7 @@ tags:
 
 # 1. Resources
 
-![[344761700_691730916042250_2784087986434747459_n.jpg]]
+![[0a1b2c3d-4e5f-6789-9a0b-c1d2e3f4a5b6.jpg]]
 
 - Bảng thưa (Sparse Table): https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
 - [[Tổng hợp các nguồn ôn luyện thuật toán & Coding interview]]
@@ -76,7 +76,7 @@ $$
 
 Bảng ví dụ chứa số phép toán cần thực hiện của mỗi thuật toán so sánh với $Θ(n)$:
 
-![[Untitled 1.png]]
+![[6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d.png]]
 
 # 5. Giải thuật đệ quy
 
@@ -101,7 +101,7 @@ Bảng ví dụ chứa số phép toán cần thực hiện của mỗi thuật 
 | Quick Sort     |                                    | Không ổn định             | nlogn → n^2     |
 | RadixSort      | Sắp xếp số nguyên                  | Không thể sắp xếp số thực | nlog(max value) |
 
-![[Algorithm.png]]
+![[f6e7d8c9-a0b1-2c3d-4e5f-6a7b8c9d0e1f.png]]
 
 # 7. Bao lồi
 
@@ -111,7 +111,7 @@ Xét một tập điểm trên mặt phẳng tọa độ Oxy, bao lồi của 
 
 Một cách trực quan, nếu coi mỗi điểm như một chiếc đinh đóng trên tấm gỗ, bao lồi của tập điểm đó sẽ có viền ngoài là một sợi dây sau khi bị kéo căng vào những chiếc đinh ở các phía.
 
-![[Pasted image 20240419132648.png]]
+![[8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e.png]]
 
 Các thuật toán tìm Bao lồi thông dụng:
 

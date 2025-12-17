@@ -28,7 +28,7 @@ tags:
 - [[Kubernetes - K8S]]
 - [Phỏng vấn DevOps Architect tại Atlassian: "Khoai" đến mức nào?](https://devops.vn/posts/phong-van-devops-architect-tai-atlassian-khoai-den-muc-nao/)
 
-![[Untitled 4.png]]
+![[4c3d4e5f-6a7b-8c9d-0e1f-2a3b4c5d6e7f.png]]
 
 # 1. Github Actions
 

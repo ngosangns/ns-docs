@@ -247,7 +247,7 @@ Các cách tiếp cận khác ngoài mô hình request-response truyền thống
 * Sử dụng event loop và coroutine/promises để xử lý các tác vụ I/O (network, file system) mà không block tiến trình chính.
 * Thư viện/Framework: [[#3.1. Frameworks|Swoole, RevoltPHP, AmpHP]].
 * Lợi ích: Xử lý được nhiều kết nối đồng thời hơn trên cùng tài nguyên phần cứng, phù hợp cho WebSocket, long-polling, microservices.
-* [[Concurrency with PHP and Laravel.pdf]] (Tài liệu tham khảo)
+* [[a0b1c2d3-e4f5-6789-9a0b-c1d2e3f4a5b6.pdf]] (Tài liệu tham khảo)
 
 ## 6.3. Compiled Extensions (Phalcon/Zephir)
 
@@ -364,7 +364,7 @@ Các liên kết hữu ích khác.
 
 * Build Your Own Service Container: [Ryan Chandler](https://ryangjchandler.co.uk/posts/build-your-own-container-in-php)
 * JWT Guide: [akrabat.com](https://akrabat.com/a-quick-guide-to-jwts-in-php)
-* Concurrency PDF: [[Concurrency with PHP and Laravel.pdf]]
+* Concurrency PDF: [[a0b1c2d3-e4f5-6789-9a0b-c1d2e3f4a5b6.pdf]]
 
 ## 8.4. Các giải pháp dựng sẵn (CMS/CRM/POS...)
 

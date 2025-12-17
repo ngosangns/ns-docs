@@ -24,7 +24,7 @@ tags:
 
 Thông thường sẽ có ít nhất 3 Layers testing, 1 là Unit Test, 2 UI test, 3 là Integration Test.
 
-![[Untitled 12.png]]
+![[7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d.png]]
 
 - Kịch bản test Behavior-Driven Development (BDD): Kịch bản BDD dựa trên cú pháp gồm 3 từ khóa chính đó là Given - when - then, từ đó chúng ta có thể tạo unit test dựa trên BDD ⇒ code dựa vào unit test. Ví dụ:
 

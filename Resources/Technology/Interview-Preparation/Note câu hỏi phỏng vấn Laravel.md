@@ -13,7 +13,7 @@ tags:
   - vietnamese
 ---
 
-![[Screenshot 2023-05-27 144607 1.png]]
+![[c5d6e7f8-091a-2b3c-4d5e-6f708192a3b4.png]]
 
 - Trong trang web ecommerce nếu một sản phẩm còn 1 cái mà 2 ông checkout cùng lúc thì sao?
 - Nếu sử dụng AWS S3 để load 1000 ảnh thì có cách nào để tối ưu hơn không?

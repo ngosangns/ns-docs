@@ -422,7 +422,7 @@ Bác nào có ý định đi đợt này thì lên FB ấy, lựa điểm đến
 
 Thế thì có thể là ngủ đêm Quản Bạ -> Lô Lô Chải -> Đồng Văn -> Mèo Vạc đủ 4 đêm
 
-![[image-2.png]]
+![[4d3a4b5c-6e7f-8a90-b1c2-d3e4f5a6789b.png]]
 
 Chỗ ăn trên đường thì mình đã ăn trưa ở thị trấn Tam Sơn, mình ăn quán Lan Anh nằm trên đoạn 4C chạy qua trung tâm thị trấn. Quán này bình dân, bán đĩa, giá rẻ, k quá ngon nhưng có món đầu cá xào dưa uống bia rất ổn.  
 Thị trấn Yên Minh mình dừng ăn ở nhà hàng Hóa Cường, nếu k nhầm, quán nhiều khách phượt, trên đường Trần Hưng Đạo (QL4C chạy qua thị trấn). Ăn gì thì gọi họ sẽ nấu, khá ngon, mình ăn rau luộc và gà rang.  
@@ -582,7 +582,7 @@ DT176 đoạn từ Mậu Duệ qua Du Già vẫn đang làm đường, nhiều c
 Xanh Lá: Mèo Vạc > Mậu Duệ > Yên Minh đường đẹp đi ok. Đường này dành cho người không muốn đi lại quốc lộ 4C, cung này ít người đi hơn bên QL4C.  
 Cam: Đường xấu, vài chỗ như ảnh trên của thím Kurt.
 
-![[image-1.png]]
+![[3d2a3b4c-5e6f-7a89-b0c1-d2e3f4a5678b.png]]
 
 Từ Lũng Hồ vòng ngược lại đi DT181 hay còn gọi Đường Thượng (đi qua xã Đường Thượng) > Thái An > Thuận Hòa đi ok nhé có mấy đoạn xấu chút thôi, cẩn thận ko lạc đường.  
 Miễn sao đừng có từ Lũng Hồ > Du Già > QL34.

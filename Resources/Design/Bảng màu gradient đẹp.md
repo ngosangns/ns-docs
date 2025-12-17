@@ -8,11 +8,11 @@ tags:
   - design
 ---
 
-![[Pasted image 20240627101207.png]]
-![[Pasted image 20240627101213.png]]
-![[Pasted image 20240627101218.png]]
-![[Pasted image 20240627101222.png]]
-![[Pasted image 20240627101228.png]]
-![[Pasted image 20240627101232.png]]
-![[Pasted image 20240627101236.png]]
-![[Pasted image 20240627101240.png]]
+![[1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f.png]]
+![[2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f70.png]]
+![[3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7081.png]]
+![[4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f708192.png]]
+![[5a6b7c8d-9e0f-1a2b-3c4d-5e6f708192a3.png]]
+![[6b7c8d9e-0f1a-2b3c-4d5e-6f708192a3b4.png]]
+![[7c8d9e0f-1a2b-3c4d-5e6f-708192a3b4c5.png]]
+![[8d9e0f1a-2b3c-4d5e-6f70-8192a3b4c5d6.png]]

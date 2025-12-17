@@ -49,7 +49,7 @@ Gợi ý:
 
 
 
-![[a03077b24546810e9aabd32f2afe2608_MD5.webp]] _Vẹt xám châu Phi được cho rằng là loài chim thông minh nhất thế giới. Chúng có những khả năng đặc biệt như bước chước giọng người, giải toán và có khả năng nhận thức. Đây là Alex (1976 - 2007) được biết đến là chú vẹt xám châu Phi nổi tiếng nhất trong lịch sử. Alex sở hữu hơn 100 âm thanh của các đồ vật và hành động khác nhau như tiếng gà gáy, tiếng lợn kêu, âm thanh của phi thuyền, tiếng thở dài, … Ngoài ra, Alex có thể sắp xếp đồ vật, có thể đếm đến 6, …_
+![[4c3b4a5d-6e7f-8091-a2b3-c4d5e6f70819.webp]] _Vẹt xám châu Phi được cho rằng là loài chim thông minh nhất thế giới. Chúng có những khả năng đặc biệt như bước chước giọng người, giải toán và có khả năng nhận thức. Đây là Alex (1976 - 2007) được biết đến là chú vẹt xám châu Phi nổi tiếng nhất trong lịch sử. Alex sở hữu hơn 100 âm thanh của các đồ vật và hành động khác nhau như tiếng gà gáy, tiếng lợn kêu, âm thanh của phi thuyền, tiếng thở dài, … Ngoài ra, Alex có thể sắp xếp đồ vật, có thể đếm đến 6, …_
 
 ## 0.2. Microservice:
 

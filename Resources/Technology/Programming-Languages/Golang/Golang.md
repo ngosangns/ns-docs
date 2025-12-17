@@ -24,8 +24,8 @@ tags:
 3. Roadmap
 	- Golang Developer Roadmap: https://github.com/Alikhll/golang-developer-roadmap (Lộ trình chi tiết để trở thành một nhà phát triển Go)
 4. Sách (Books)
-	- Go in Action: [[go-in-action.pdf]] (Sách đi sâu vào các khía cạnh thực tế của Go)
-	- 100 Go Mistakes and How to Avoid Them: [[Teiva_Harsanyi_100_Go_Mistakes_and_How_to_Avoid_Them_Manning_Publications.pdf]] (Tổng hợp các lỗi thường gặp và cách phòng tránh)
+	- Go in Action: [[2d1a2b3c-4e5f-6a78-b9c0-d1e2f3a4567b.pdf]] (Sách đi sâu vào các khía cạnh thực tế của Go)
+	- 100 Go Mistakes and How to Avoid Them: [[e7f8091a-2b3c-4d5e-6f70-8192a3b4c5d6.pdf]] (Tổng hợp các lỗi thường gặp và cách phòng tránh)
 	- Build Web Application with Golang (Deployment Chapter): https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/12.3.html (Hướng dẫn xây dựng ứng dụng web với Go, tập trung vào triển khai)
 5. Bài viết (Articles)
 	- Go Internals: https://github.com/teh-cmc/go-internals (Tìm hiểu sâu về cách Go hoạt động bên trong)
@@ -88,7 +88,7 @@ tags:
 		- Lời khuyên: Chỉ sử dụng khi cần thiết.
 5. Cấu trúc dự án cơ bản
 	- Tham khảo: https://github.com/golang-standards/project-layout (Cấu trúc thư mục tiêu chuẩn cho dự án Go)
-	- Hình ảnh minh họa: ![[Basic Golang Project.jpg]]
+	- Hình ảnh minh họa: ![[c5d6e7f8-a9b0-1c2d-3e4f-5a6b7c8d9e0f.jpg]]
 		- `/cmd`: Main applications.
 		- `/internal`: Code private của ứng dụng.
 		- `/pkg`: Public library code.

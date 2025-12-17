@@ -406,22 +406,22 @@ $user->created_at->diffForHumans([
 
 Facade Number cho phép bạn format linh hoạt số theo nhiều phương thức khác nhau. Bên cạnh format số, facade này còn hỗ trợ những việc như quy đổi các giá trị, format text, làm tròn %, ... rất tiện lợi. Bạn có thể tham khảo doc tại: [https://laravel.com/docs/11.x/helpers#numbers](https://laravel.com/docs/11.x/helpers?fbclid=IwZXh0bgNhZW0CMTAAAR0llXR6-np1e3aF-TH37FQbzak8MjqXtdZhxho8cMPmt5RSFjYtfXQ-pnI_aem_QcStZyeKOGQ1S2ukEqyoDA#numbers)
 
-![[Pasted image 20241008054441.png]]
+![[5e6f7081-92a3-b4c5-d6e7-f8091a2b3c4d.png]]
 
 Bạn muốn benchmark nhanh chóng đoạn code của mình chạy tốn bao nhiêu thời gian, thì facade benchmark chính là dành cho bạn: [https://laravel.com/docs/11.x/helpers#benchmarking](https://laravel.com/docs/11.x/helpers?fbclid=IwZXh0bgNhZW0CMTAAAR14c8VsapQyTaCvxuOV4FnsRyP-WtuS5UJgvWghHNE3sh82JUlCLWTfA8w_aem_Sor-AdHjeJ8JblZE3JUtpQ#benchmarking)
 
-![[Pasted image 20241008054447.png]]
+![[6f708192-a3b4-c5d6-e7f8-091a2b3c4d5e.png]]
 
 `once()` là một helper thú vị khi bạn muốn một hàm chỉ chạy duy nhất một lần và cache lại kết quả: [https://laravel.com/docs/11.x/helpers#method-once](https://laravel.com/docs/11.x/helpers)
 
-![[Pasted image 20241008054452.png]]
+![[708192a3-b4c5-d6e7-f809-1a2b3c4d5e6f.png]]
 
 `report` cho phép bạn đẩy exception bất kỳ về Exception Handler. Điều này tiện ở chỗ bạn sẽ có nơi tập trung để xử lý exception như bắn lên sentry, bắn log, bắn telegram, slack, hoặc bỏ qua exception nào đó không muốn xử lý.
 
-![[Pasted image 20241008054458.png]]
+![[8192a3b4-c5d6-e7f8-091a-2b3c4d5e6f70.png]]
 
 `rescue` chạy một phương thức, catch toàn bộ exception và cho phép bạn linh hoạt xử lý trong trường hợp có lỗi xảy ra. Exception được chuyển về exceptionHandler như report nên bạn cũng không lo bị mất mát dữ liệu.  
   
 rescue sẽ khá tiện lợi khi bạn mong muốn đoạn code được thực thi mà không bị dừng khi có exception xảy ra và bớt đi những đoạn try-catch.
 
-![[Pasted image 20241008054704.png]]
+![[92a3b4c5-d6e7-f809-1a2b-3c4d5e6f7081.png]]

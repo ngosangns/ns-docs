@@ -17,7 +17,7 @@ tags:
 - **Asynchronous**: dễ hiểu nhất là 1 tác vụ non-blocking: ví dụ khi đọc báo trình duyệt của bạn đang tải quảng cáo (tải ngầm) nhưng bạn vẫn cuộn chuột bình thường, khi tải xong nó mới popup cái ads banner cho bạn.
 - **Multithreading**: Như mấy ông nói ở trên, khái niệm này cần nói rõ thêm là OS threading hay language/framework threading. Ví dụ như Python ko support multithread, nó tự quản lý đóng/mở thread tuỳ theo cách bạn gọi system library. Con máy ảo Erlang (BEAM) thì lại khác, bạn tạo 1 (green/virtual) thread trên BEAM thì nó phải qua bước preemptive scheduling rồi mới xuống tới OS thread, nên điểm lợi là bạn có code tạo ra cả triệu thread cũng ko làm tạch server, trong khi vài chục nghìn OS thread là đủ tạch.
 
-![[Pasted image 20240120111541.png]]
+![[7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d.png]]
 
 Mọi process đều có ít nhất 1 thread và nếu có nhiều hơn 1 thread thì ta gọi process đó đang chạy multithread  
   

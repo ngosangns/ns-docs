@@ -202,9 +202,9 @@ tags:
 
 # 8. Cheatsheets
 
-- [[a7978e66607de2a0a15ae189170905cc_MD5.pdf]]
-- [[a2126912e6a3660def96854a2556a69b_MD5.pdf]]
-- [[2cc516a21766643487dbcaefff662671_MD5.pdf]]
-- [[94cec6868efda6719d7bb7967acc612e_MD5.pdf]]
-- [[0a2ec5d4b31fa6b91e31bd3e79d687d8_MD5.pdf]]
-- [[127588ffa1fa07890f59e6c573f561c2_MD5.pdf]]
+- [[6c5a6b7c-8d9e-0f12-a3b4-c5d6e7f8091a.pdf]]
+- [[5c4a5b6c-7d8e-9f01-a2b3-c4d5e6f70819.pdf]]
+- [[d3c4b5a6-e7f8-49a0-9b1c-2d3e4f5a6b7c.pdf]]
+- [[b3c4d5e6-f7a8-49b0-9c1d-2e3f4a5b6c7d.pdf]]
+- [[b0e3f8c5-0f3a-4d88-9d9e-93b7c7c2f0a1.pdf]]
+- [[1f2e3d4c-5b6a-4789-8c0d-e1f2a3b4c5d6.pdf]]

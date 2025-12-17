@@ -15,9 +15,9 @@ Prompt Template: You are conducting an interview for a [Role/Job Title] role. I 
 
 ## 2.1. Control the camera
 
-![[Untitled 9.png]]
+![[2c1f2a3b-4c5d-6e7f-8091-a2b3c4d5e6f7.png]]
 
-![[Untitled 1 4.png]]
+![[1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png]]
 
 ## 2.2. Thần chú tà ác
 

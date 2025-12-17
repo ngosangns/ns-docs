@@ -26,4 +26,4 @@ tags:
 
 - https://prep.vn/ielts?level=1&target=6.6
 
-![[33f0d4c396b753ed8bac6ee96e7a621f_MD5.png]]
+![[e7f8d9c0-a1b2-3c4d-5e6f-7a8b9c0d1e2f.png]]

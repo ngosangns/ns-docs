@@ -57,7 +57,7 @@ tags:
 	- UpdateItem— edits an existing item’s attributes or adds a new item to the table if it does not already exist
 	- Put vs Update: There is no difference when an item does not exist. Both methods create a new item. When an existing item found, Put replaces it with the new one, Update alters the item’s attributes
 
-![[Untitled.png]]
+![[3c2a3b4c-5d6e-7f80-91a2-b3c4d5e6f708.png]]
 
 # 4. EventBridge
 

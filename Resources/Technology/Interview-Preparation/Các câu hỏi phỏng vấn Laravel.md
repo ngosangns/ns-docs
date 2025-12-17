@@ -62,7 +62,7 @@ tags:
 
     Laravel Auth là quá trình xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu. Laravel quản lý nó với sự trợ giúp của các sessions, Các sessions lấy tham số đầu vào như tên người dùng và mật khẩu, để nhận dạng người dùng. Nếu các cài đặt khớp nhau thì người dùng được cho là đã được xác thực. Auth là chức năng được xây dựng do Laravel cung cấp; chúng ta phải sử dụng lệnh php artisan make: authAuth được sử dụng để xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu.
 
-![[Untitled 7.png]]
+![[9c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f.png]]
 
 **Validation trong laravel và cách sử dụng ?**
 
@@ -136,8 +136,8 @@ Tùy vào câu truy vấn mà ta có thể lựa chọn cách dùng eloquent hay
 
 Nhưng câu truy vấn thì vẫn sự dụng hàm của eloquent và query builder, với những câu truy vấn phức tạp cần chèn sql thuần thì cần sài hàm DB::raw()
 
-![[Untitled 1 2.png]]
+![[091a2b3c-4d5e-6f70-8192-a3b4c5d6e7f8.png]]
 
-![[Untitled 2 1.png]]
+![[2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e.png]]
 
-![[Untitled 3 1.png]]
+![[8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e.png]]
