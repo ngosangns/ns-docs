@@ -8,6 +8,9 @@ tags:
   - present-continuous
   - present-perfect
   - past-simple
+  - area/english
+  - type/howto
+  - lang/vi
 ---
 # 1. Present Simple (Hiện tại đơn)
 

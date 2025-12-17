@@ -8,6 +8,11 @@ tags:
   - backend
   - java-concurrency
   - libraries
+  - area/technology
+  - domain/programming-languages
+  - topic/java
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

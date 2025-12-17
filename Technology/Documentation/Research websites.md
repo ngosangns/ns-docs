@@ -1,6 +1,12 @@
 ---
 relates: []
 tags:
+  - area/technology
+  - domain/tools
+  - topic/research
+  - topic/search
+  - type/resource
+  - lang/vi
   - google
   - search-engines
   - academic-resources

@@ -9,6 +9,11 @@ tags:
   - google-cloud-platform-gcp
   - lambda
   - dynamodb
+  - area/technology
+  - domain/devops
+  - topic/aws
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

@@ -1,5 +1,12 @@
 ---
 tags:
+  - area/technology
+  - domain/devops
+  - topic/network
+  - topic/load-balancer
+  - topic/proxy
+  - type/resource
+  - lang/vi
   - balancer
   - concise
   - debugger

@@ -3,6 +3,14 @@ relates:
   - "[[Network]]"
   - "[[Kho chung IT]]"
 tags:
+  - area/technology
+  - domain/devops
+  - topic/aws
+  - topic/network
+  - topic/vpc
+  - topic/cloud
+  - type/resource
+  - lang/vi
   - network
   - kho-chung-it
   - vpc-region

@@ -8,6 +8,11 @@ tags:
   - tools
   - framework
   - creative-coding
+  - area/technology
+  - domain/programming-languages
+  - topic/rust
+  - type/resource
+  - lang/vi
 ---
 # 1. Ghi chú về Rust
 

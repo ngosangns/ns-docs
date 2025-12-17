@@ -8,6 +8,11 @@ tags:
   - resources
   - nginx-proxy-manager
   - performance-optimization
+  - area/technology
+  - domain/devops
+  - topic/nginx
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

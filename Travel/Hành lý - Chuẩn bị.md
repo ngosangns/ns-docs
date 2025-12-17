@@ -2,6 +2,13 @@
 relates:
   - "[[Du lịch]]"
   - "[[Phượt]]"
+tags:
+  - area/travel
+  - type/guide
+  - lang/vi
+  - trekking
+  - preparation
+  - equipment
 ---
 # 1. Resources
 

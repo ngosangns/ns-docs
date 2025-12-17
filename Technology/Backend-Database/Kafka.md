@@ -9,6 +9,11 @@ tags:
   - backend-back-end
   - kafka-fundamental
   - kafka-design-patterns
+  - area/technology
+  - domain/backend
+  - topic/kafka
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

@@ -2,6 +2,9 @@
 relates:
   - "[[Airblade]]"
 tags:
+  - area/travel
+  - type/guide
+  - lang/vi
   - airblade
   - thue-xe-so-di-phuot
   - winner

@@ -10,6 +10,10 @@ tags:
   - security
   - vietnamese
   - secret-manager
+  - area/technology
+  - domain/security
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

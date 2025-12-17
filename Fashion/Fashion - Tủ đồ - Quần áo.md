@@ -1,14 +1,11 @@
 ---
 tags:
-  - concise
-  - fashion
+  - area/fashion
+  - type/resource
+  - lang/vi
   - lifestyle
-  - lifestyle--fashion
-  - o
   - personal
-  - quan
   - quick-reference
-  - vietnamese
 ---
 
 - [[Thống kê tủ đồ hiện tại]]

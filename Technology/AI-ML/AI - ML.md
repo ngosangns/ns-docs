@@ -10,6 +10,10 @@ tags:
   - ai-support-for-coding
   - mcp
   - agent
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 aliases:
   - Machine Learning
   - Deep Learning

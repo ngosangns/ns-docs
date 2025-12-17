@@ -8,6 +8,11 @@ tags:
   - deep-learning
   - ai
   - libraries
+  - area/technology
+  - domain/programming-languages
+  - topic/python
+  - type/resource
+  - lang/vi
 ---
 # 1. Dataset
 

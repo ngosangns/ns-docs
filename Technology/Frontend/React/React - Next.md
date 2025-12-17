@@ -14,6 +14,12 @@ tags:
   - tutorial
   - vietnamese
   - web-development
+  - area/technology
+  - domain/frontend
+  - topic/react
+  - topic/nextjs
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

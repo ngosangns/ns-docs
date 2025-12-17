@@ -2,6 +2,11 @@
 relates:
   - "[[Interview - Phỏng vấn]]"
 tags:
+  - area/personal-dev
+  - topic/soft-skills
+  - topic/interview
+  - type/resource
+  - lang/vi
   - resources
   - interview-phong-van
   - hieu-ung-benjamin-franklin

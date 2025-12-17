@@ -7,6 +7,9 @@ tags:
   - tiếng-anh
   - học-tiếng-anh
   - giáo-viên
+  - area/english
+  - type/howto
+  - lang/vi
 ---
 # 1. Ngữ pháp
 

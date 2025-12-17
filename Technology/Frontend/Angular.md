@@ -14,6 +14,11 @@ tags:
   - state
   - tools
   - web-development
+  - area/technology
+  - domain/frontend
+  - topic/angular
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

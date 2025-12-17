@@ -7,6 +7,9 @@ tags:
   - editor
   - lưu-ý
   - ccs
+  - project/viclass
+  - type/project
+  - lang/vi
 ---
 # 1. Resources
 

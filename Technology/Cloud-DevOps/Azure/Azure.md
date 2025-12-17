@@ -4,10 +4,14 @@ relates:
   - "[[Backend - Back-end]]"
   - "[[SaaS]]"
 tags:
-  - database
-  - backend-back-end
-  - saas
-  - azure-functions
+  - area/technology
+  - domain/devops
+  - topic/azure
+  - topic/database
+  - topic/backend
+  - topic/serverless
+  - type/resource
+  - lang/vi
   - go
 ---
 

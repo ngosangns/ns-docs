@@ -1,19 +1,13 @@
 ---
 tags:
-  - cac
-  - cau
-  - concise
-  - frontend
-  - frontend-development
-  - hoi
-  - javascript
-  - phong
-  - quick-reference
-  - van
-  - vietnamese
-  - vue
+  - area/technology
+  - domain/frontend
+  - topic/vue
+  - topic/interview
+  - topic/javascript
+  - type/resource
+  - lang/vi
   - vuejs
-  - web-development
   - keep-alive
 ---
 

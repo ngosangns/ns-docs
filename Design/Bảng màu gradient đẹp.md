@@ -2,6 +2,9 @@
 relates:
   - "[[Design]]"
 tags:
+  - area/design
+  - type/resource
+  - lang/vi
   - design
 ---
 

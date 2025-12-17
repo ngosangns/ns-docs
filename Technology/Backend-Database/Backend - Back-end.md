@@ -13,6 +13,10 @@ tags:
   - node-js
   - golang
   - python
+  - area/technology
+  - domain/backend
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

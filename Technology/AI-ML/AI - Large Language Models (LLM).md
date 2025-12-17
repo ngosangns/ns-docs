@@ -3,11 +3,13 @@ relates:
   - "[[AI - ML]]"
   - "[[LLM promt engineering]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai
-  - ml
-  - dl
+  - area/technology
+  - domain/ai-ml
+  - topic/llm
+  - topic/machine-learning
+  - topic/deep-learning
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Tài nguyên học tập

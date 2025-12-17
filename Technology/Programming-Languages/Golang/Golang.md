@@ -8,6 +8,11 @@ tags:
   - layered-design-in-go
   - web-frameworks
   - concurrency
+  - area/technology
+  - domain/programming-languages
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 # 1. Tổng Quan và Kiến Thức Cơ Bản
 ## 1.1. Tài liệu học tập và Roadmap

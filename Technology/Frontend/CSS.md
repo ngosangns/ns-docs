@@ -7,6 +7,11 @@ tags:
   - front-end
   - libraries
   - animations
+  - area/technology
+  - domain/frontend
+  - topic/css
+  - type/resource
+  - lang/vi
 ---
 # 1. CSS
 

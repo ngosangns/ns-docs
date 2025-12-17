@@ -3,11 +3,17 @@ relates:
   - "[[Linux]]"
   - "[[Backend - Back-end]]"
 tags:
+  - area/technology
+  - domain/devops
+  - topic/vps
+  - topic/hosting
+  - topic/docker
+  - topic/security
+  - topic/linux
+  - type/resource
+  - lang/vi
   - ufw
-  - docker
   - firewall
-  - security
-  - linux
 ---
 # 1. Quản lý Firewall với UFW và Docker
 

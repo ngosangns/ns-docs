@@ -11,6 +11,12 @@ tags:
   - vietnamese
   - vue
   - web-development
+  - area/technology
+  - domain/frontend
+  - topic/vue
+  - topic/nuxt
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Mẹo Vue - Nuxt

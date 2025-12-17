@@ -5,6 +5,11 @@ tags:
   - sapi
   - thread-safety
   - spl
+  - area/technology
+  - domain/programming-languages
+  - topic/php
+  - type/resource
+  - lang/vi
 ---
 # 1. Cốt lõi & Thực thi
 

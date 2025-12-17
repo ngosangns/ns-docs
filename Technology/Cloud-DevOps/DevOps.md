@@ -12,6 +12,10 @@ tags:
   - saas
   - backend-back-end
   - aws
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 - Devops Training materials - Minh Monmen: https://github.com/minhpq331/devops-training
 - CI, CD và ... DevOps ??? (viblo.asia): https://viblo.asia/p/ci-cd-va-devops-07LKXYXDZV4

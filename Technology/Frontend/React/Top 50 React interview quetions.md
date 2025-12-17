@@ -1,12 +1,14 @@
 ---
 tags:
-  - english
+  - area/technology
+  - domain/frontend
+  - topic/react
+  - topic/interview
+  - topic/javascript
+  - type/resource
+  - lang/en
   - frontend
-  - frontend-development
   - interview
-  - quetions
-  - react
-  - web-development
   - questions
 ---
 

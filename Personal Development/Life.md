@@ -3,6 +3,9 @@ relates:
   - "[[ngosangns - home]]"
   - "[[Trải nghiệm]]"
 tags:
+  - area/personal-dev
+  - type/resource
+  - lang/vi
   - ngosangns-home
   - trai-nghiem
   - resources

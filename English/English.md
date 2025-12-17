@@ -7,6 +7,9 @@ tags:
   - cong-cu-hoc-tieng-anh
   - kho-tai-lieu-sau-3-nam-hoc-ielts-cua-t-phan-1
   - roadmap-hoc-tieng-anh-tu-chatgpt4
+  - area/english
+  - type/resource
+  - lang/vi
 ---
 # 1. Resources
 

@@ -6,6 +6,11 @@ tags:
   - quick-reference
   - resources
   - vietnamese
+  - area/technology
+  - domain/devops
+  - topic/linux
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

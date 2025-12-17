@@ -4,16 +4,16 @@ relates:
   - "[[Javascript - Typescript]]"
   - "[[Python]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai
-  - ml
-  - dl
-  - javascript
-  - typescript
-  - python
-  - resources
-  - sdk
+  - area/technology
+  - domain/ai-ml
+  - topic/lm-studio
+  - topic/javascript
+  - topic/typescript
+  - topic/python
+  - topic/machine-learning
+  - topic/deep-learning
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources
