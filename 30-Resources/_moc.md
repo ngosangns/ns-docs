@@ -14,44 +14,16 @@ Tổ chức kiến thức và tài nguyên tham khảo theo domain
 - [[Technology/Tools-Utilities/Tools]] - `domain/tools`
 
 ## Technology Resources
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology"
-SORT updated desc
-LIMIT 30
-```
+- Mở thư mục `Technology/` và sắp xếp theo `modified` để xem các tài nguyên mới
 
 ## Design Resources
-```dataview
-TABLE file.link, tags, updated
-FROM "Design"
-SORT updated desc
-LIMIT 20
-```
+- Mở thư mục `Design/` và sắp xếp theo `modified`
 
 ## Notes theo Domain
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology"
-WHERE contains(tags, "domain/")
-SORT updated desc
-LIMIT 100
-```
+- Dùng `Search` để lọc `domain/*` trong frontmatter
 
 ## Research mới nhất
-```dataview
-TABLE file.link, tags, created
-FROM ""
-WHERE contains(tags, "type/research") AND (contains(file.path, "Technology") OR contains(file.path, "Design"))
-SORT created desc
-LIMIT 15
-```
+- Tìm `type/research` trong `Technology/` và `Design/`, ưu tiên cập nhật nguồn `source`/`url`
 
 ## How-to guides
-```dataview
-TABLE file.link, tags, updated
-FROM ""
-WHERE contains(tags, "type/howto") AND (contains(file.path, "Technology") OR contains(file.path, "Design"))
-SORT updated desc
-LIMIT 15
-```
+- Tìm `type/howto` và bổ sung bước-by-bước, thời gian thực hiện

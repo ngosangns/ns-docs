@@ -134,28 +134,13 @@ find . -name "*.md" -exec sed -i 's/\"Excalidraw\"/\"media\/excalidraw\"/g' {} \
 ## Validation Queries
 
 ### Kiểm tra migration hoàn tất
-```dataview
-TABLE file.link, tags
-FROM "Business"
-WHERE !contains(tags, "project/")
-LIMIT 20
-```
+- Kiểm tra `Business/*` đã có `project/*` bằng VS Code `Search`
 
 ### Kiểm tra technology tags
-```dataview
-TABLE file.link, tags
-FROM "Technology"
-WHERE !contains(tags, "area/technology")
-LIMIT 20
-```
+- Kiểm tra `Technology/*` đã có `area/technology` bằng VS Code `Search`
 
 ### Kiểm tra media tags
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE contains(tags, "excalidraw") AND !contains(tags, "media/excalidraw")
-LIMIT 20
-```
+- Tìm `excalidraw` chưa chuyển sang `media/excalidraw` và cập nhật
 
 ## Lưu ý Quan Trọng
 
@@ -168,7 +153,7 @@ LIMIT 20
 ## Post-Migration Tasks
 
 - [ ] Kiểm tra tất cả MOCs hoạt động đúng
-- [ ] Verify Dataview queries
+- [ ] Verify liên kết và tags bằng VS Code `Search`
 - [ ] Test templates mới
 - [ ] Update workflow documentation
 - [ ] Training nếu có người dùng khác

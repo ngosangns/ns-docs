@@ -16,16 +16,9 @@ Quy trình định kỳ để duy trì chất lượng workspace và đảm bả
 - [ ] Cập nhật trạng thái projects đang làm
 - [ ] Bổ sung tags cơ bản cho notes mới (type, lang, area/project)
 
-### Queries hỗ trợ
-
-```data
-
-```
-view
-LIST file.link
-FROM "00-Inbox"
-WHERE created >= date(today)
-```
+### Tìm nhanh
+- Sắp xếp `00-Inbox/` theo `modified` để xem notes trong ngày
+- Dùng `Search` lọc theo `created: YYYY-MM-DD` trong frontmatter
 
 ## 📅 Weekly Review (30-45 phút)
 
@@ -38,38 +31,15 @@ WHERE created >= date(today)
 - [ ] **Project Status**: Cập nhật tiến độ projects
 - [ ] **Area Review**: Kiểm tra notes trong các areas
 
-### Queries hỗ trợ
+### Tìm nhanh
 #### Notes cần review tags
-```dataview
-LIST file.link
-FROM ""
-WHERE 
-  length(tags) < 4 OR
-  (!contains(tags, "area/") AND !contains(tags, "project/")) OR
-  !contains(tags, "type/") OR
-  !contains(tags, "lang/")
-LIMIT 20
-```
+- Dùng `Search` để tìm ghi chú thiếu `area/|project/`, `type/`, `lang/`
 
 #### Tags không chuẩn (cần kiểm tra)
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "excalidraw") OR 
-      contains(tags, "Excalidraw") OR
-      contains(tags, " ") OR
-      contains(tags, "_")
-GROUP BY tags
-SORT count desc
-```
+- Tìm và chuẩn hóa: `excalidraw` → `media/excalidraw`, loại bỏ khoảng trắng/`_`
 
 #### Projects cần cập nhật
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND #status/in-progress
-WHERE updated <= date(today) - dur(7 days)
-SORT updated asc
-```
+- Lọc `type/project` + `status/in-progress` và kiểm tra `updated` > 7 ngày
 
 ## 📊 Monthly Review (1-2 giờ)
 
@@ -80,31 +50,15 @@ SORT updated asc
 - [ ] **MOC Updates**: Cập nhật các MOC files
 - [ ] **Template Review**: Kiểm tra templates còn phù hợp
 
-### Queries hỗ trợ
+### Tìm nhanh
 #### Projects hoàn thành
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND #status/done
-WHERE updated >= date(today) - dur(30 days)
-SORT updated desc
-```
+- Tìm `type/project` + `status/done` và sắp xếp theo `updated`
 
 #### Files chưa đúng chuẩn naming
-```dataview
-LIST file.link
-FROM ""
-WHERE !regexmatch("^[a-z0-9-]+\.md$", file.name)
-LIMIT 20
-```
+- Kiểm tra bằng regex `^[a-z0-9-]+\.md$` trong VS Code `Search`
 
 #### Notes cũ cần review
-```dataview
-TABLE file.link, tags, updated
-FROM ""
-WHERE updated <= date(today) - dur(90 days)
-SORT updated asc
-LIMIT 20
-```
+- Lọc theo `updated` trong frontmatter và sắp xếp tăng dần
 
 ## 🎯 Quality Control Metrics
 

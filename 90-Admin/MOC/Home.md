@@ -11,13 +11,8 @@ updated: 2025-12-17
 - [[90-Admin/MOC/Tags]] [[90-Admin/Guides/Tags]] [[90-Admin/Workflows/Review]] [[90-Admin/MOC/Templates]]
 
 ## 🚀 Projects đang active
-
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND -#status/done
-SORT updated desc
-LIMIT 10
-```
+- Xem [[10-Projects/_moc]] để theo dõi tiến độ và trạng thái
+- Dùng VS Code tìm `type/project` trong frontmatter để rà soát nhanh
 
 ## 📚 Areas chính
 
@@ -28,70 +23,33 @@ LIMIT 10
 - [[30-Resources/Technology/_moc]] - `area/technology`
 
 ## ⏰ Cần review tuần này
-
-```dataview
-TABLE file.name, tags, updated
-FROM ""
-WHERE contains(tags, "status/in-progress")
-SORT updated desc
-LIMIT 15
-```
+- Mở VS Code và dùng `Search` để tìm các note có `status/in-progress`
+- Cập nhật tiến độ và dọn [[00-Inbox]]
 
 ## 📝 Notes mới nhất
-
-```dataview
-TABLE file.link, tags, created
-FROM ""
-SORT created desc
-LIMIT 15
-```
+- Trong VS Code, sắp xếp thư mục theo `modified` để xem các notes gần đây
+- Gắn thêm `topic/*` và `domain/*` cho notes kỹ thuật mới
 
 ## 📅 Meetings sắp tới
-
-```dataview
-TABLE file.link, date, tags
-FROM #type/meeting
-WHERE date >= date(today)
-SORT date asc
-LIMIT 10
-```
+- Tìm các ghi chú `type/meeting` và cập nhật `date` trong frontmatter
+- Theo dõi hành động mở bằng [[90-Admin/Templates/Meeting]]
 
 ## 🔬 Research mới nhất
-
-```dataview
-TABLE file.link, created, tags
-FROM #type/research
-SORT created desc
-LIMIT 15
-```
+- Xem các ghi chú `type/research` trong `30-Resources/*`
+- Chuẩn hóa `source` và `url` trong frontmatter
 
 ## 📊 Thống kê nhanh
 
 ### Theo type
-- **Daily**: `LIST FROM #type/daily AND created >= date(today) - dur(7 days)`
-- **Research**: `LIST FROM #type/research AND created >= date(today) - dur(30 days)`
-- **How-to**: `LIST FROM #type/howto AND updated >= date(today) - dur(30 days)`
+- Dùng `Search` để tìm `type/daily`, `type/research`, `type/howto`
+- Lọc theo `created`/`updated` trong frontmatter khi cần
 
 ### Theo domain
-```dataview
-TABLE length(rows) as count
-FROM "Technology"
-WHERE contains(tags, "domain/")
-GROUP BY split(tags, "/")[1] as domain
-SORT count desc
-```
+- Rà soát `area/technology` và nhóm theo `domain/*`
+- Cập nhật thiếu `domain/*` tại các notes kỹ thuật
 
 ### Tags thiếu chuẩn
-```dataview
-LIST file.link
-FROM ""
-WHERE 
-  length(tags) < 4 OR
-  (!contains(tags, "area/") AND !contains(tags, "project/")) OR
-  !contains(tags, "type/") OR
-  !contains(tags, "lang/")
-LIMIT 20
-```
+- Mở [[90-Admin/MOC/Quality-Control]] để xem checklist và cách tìm bằng VS Code
 
 ## 🎯 Quick Actions
 - [ ] Review [[00-Inbox]] mới

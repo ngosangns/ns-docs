@@ -9,31 +9,13 @@ created: 2025-12-17
 Lưu trữ notes không còn active nhưng có giá trị tham khảo
 
 ## Notes đã archive
-
-```dataview
-TABLE file.link, tags, updated
-FROM "40-Archives"
-SORT updated desc
-LIMIT 30
-```
+- Mở thư mục `40-Archives/` và sắp xếp theo `modified`
 
 ## Theo năm
-
-```dataview
-TABLE file.link, tags, created
-FROM "40-Archives"
-WHERE created >= date({{date:YYYY}}-01-01) - dur(1 year)
-SORT created desc
-```
+- Lọc theo `created: YYYY-MM-DD` trong frontmatter để xem theo năm
 
 ## Projects đã hoàn thành
-
-```dataview
-TABLE file.link, tags, updated
-FROM ""
-WHERE contains(tags, "status/done") AND contains(file.path, "40-Archives")
-SORT updated desc
-```
+- Tìm `status/done` trong `40-Archives/` bằng VS Code `Search`
 
 ## Hướng dẫn archive
 

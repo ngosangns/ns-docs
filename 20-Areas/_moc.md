@@ -13,42 +13,16 @@ Quản lý các lĩnh vực phát triển dài hạn
 - [[Personal Development/Life]] - `area/personal-dev`
 
 ## Ghi chú theo Area
-```dataview
-TABLE file.link, tags, updated
-FROM ""
-WHERE contains(tags, "area/english") OR contains(tags, "area/fashion") OR contains(tags, "area/travel") OR contains(tags, "area/personal-dev")
-SORT updated desc
-LIMIT 50
-```
+- Dùng `Search` và filter theo `tags: ["area/*"]` trong frontmatter
 
 ## English notes
-```dataview
-TABLE file.link, tags, updated
-FROM "English"
-SORT updated desc
-LIMIT 20
-```
+- Mở thư mục `English/` và sắp xếp theo `modified`
 
 ## Fashion notes
-```dataview
-TABLE file.link, tags, updated
-FROM "Fashion"
-SORT updated desc
-LIMIT 20
-```
+- Mở thư mục `Fashion/` và sắp xếp theo `modified`
 
 ## Travel notes
-```dataview
-TABLE file.link, tags, updated
-FROM "Travel"
-SORT updated desc
-LIMIT 20
-```
+- Mở thư mục `Travel/` và sắp xếp theo `modified`
 
 ## Personal Development notes
-```dataview
-TABLE file.link, tags, updated
-FROM "Personal Development"
-SORT updated desc
-LIMIT 20
-```
+- Mở thư mục `Personal Development/` và sắp xếp theo `modified`

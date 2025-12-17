@@ -7,21 +7,10 @@ created: 2025-12-17
 Tập trung ghi chú chưa xử lý để review và phân loại
 
 ## Notes mới nhất trong Inbox
-```dataview
-TABLE file.link, tags, created
-FROM "00-Inbox"
-SORT created desc
-LIMIT 20
-```
+- Trong VS Code, mở thư mục `00-Inbox` và sắp xếp theo `modified` để xem notes mới
 
 ## Cần review (chưa có tags đầy đủ)
-```dataview
-TABLE file.link, tags, created
-FROM "00-Inbox"
-WHERE length(tags) < 4
-SORT created desc
-LIMIT 15
-```
+- Dùng `Search` để lọc các ghi chú trong `00-Inbox` có ít hơn số tags khuyến nghị
 
 ## Quy trình xử lý Inbox
 1. **Daily**: Review notes mới, bổ sung tags cơ bản

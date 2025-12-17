@@ -4,66 +4,28 @@ tags: ["type/moc", "lang/vi"]
 created: 2025-12-17
 ---
 ## area/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("area/", join(tags, ","))
-```
+- Dùng `Search` để tìm các ghi chú có `area/*`
 
 ## project/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("project/", join(tags, ","))
-```
+- Dùng `Search` để tìm `project/*`
 
 ## domain/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("domain/", join(tags, ","))
-```
+- Dùng `Search` để tìm `domain/*`
 
 ## topic/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("topic/", join(tags, ","))
-```
+- Dùng `Search` để tìm `topic/*`
 
 ## type/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("type/", join(tags, ","))
-```
+- Dùng `Search` để tìm `type/*`
 
 ## status/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("status/", join(tags, ","))
-```
+- Dùng `Search` để tìm `status/*`
 
 ## media/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("media/", join(tags, ","))
-```
+- Dùng `Search` để tìm `media/*`
 
 ## lang/*
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE regexmatch("lang/", join(tags, ","))
-```
+- Dùng `Search` để tìm `lang/*`
 
 ## Thiếu chuẩn tags
-```dataview
-TABLE file.link, tags
-FROM ""
-WHERE !regexmatch("lang/", join(tags, ",")) OR (!regexmatch("area/", join(tags, ",")) AND !regexmatch("project/", join(tags, ","))) OR !regexmatch("type/", join(tags, ","))
-SORT file.name asc
-LIMIT 200
-```
+- Rà soát tags bắt buộc (`lang/*`, `area/*|project/*`, `type/*`) và bổ sung nếu thiếu

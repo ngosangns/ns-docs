@@ -16,59 +16,20 @@ Tổ chức kiến thức công nghệ theo domain và topic
 - **CS**: [[Technology/Computer-Science/Computer Science - Khoa học máy tính]] - `domain/cs`
 
 ## Theo domain
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology"
-WHERE contains(tags, "domain/backend")
-SORT updated desc
-LIMIT 15
-```
+- Dùng `Search` để lọc `domain/backend` trong `Technology/`
 
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology"
-WHERE contains(tags, "domain/frontend")
-SORT updated desc
-LIMIT 15
-```
+- Dùng `Search` để lọc `domain/frontend`
 
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology"
-WHERE contains(tags, "domain/ai-ml")
-SORT updated desc
-LIMIT 15
-```
+- Dùng `Search` để lọc `domain/ai-ml`
 
 ## Research gần đây
-```dataview
-TABLE file.link, tags, created
-FROM "Technology"
-WHERE contains(tags, "type/research")
-SORT created desc
-LIMIT 20
-```
+- Tìm `type/research` và cập nhật `source`/`url`
 
 ## Notes mới nhất
-```dataview
-TABLE file.link, tags, created
-FROM "Technology"
-SORT created desc
-LIMIT 20
-```
+- Sắp xếp theo `modified` trong `Technology/`
 
 ## Excalidraw theo chủ đề
-```dataview
-TABLE file.link, tags
-FROM "Technology"
-WHERE contains(tags, "media/excalidraw")
-SORT file.name asc
-```
+- Tìm `media/excalidraw` để xem sơ đồ theo chủ đề và chuẩn hóa tags
 
 ## Theo programming language
-```dataview
-TABLE file.link, tags, updated
-FROM "Technology/Programming-Languages"
-SORT updated desc
-LIMIT 20
-```
+- Mở `Technology/Programming-Languages` và sắp xếp theo `modified`

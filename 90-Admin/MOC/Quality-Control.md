@@ -12,136 +12,54 @@ Theo dõi chất lượng tags, cấu trúc và nhật ký thay đổi của wor
 
 ### Notes thiếu tags bắt buộc
 
-```dataview
-TABLE file.link, tags, created
-FROM ""
-WHERE
-  (!contains(tags, "area/") AND !contains(tags, "project/")) OR
-  !contains(tags, "type/") OR
-  !contains(tags, "lang/")
-SORT created desc
-LIMIT 20
-```
+- Dùng VS Code `Search` để tìm các ghi chú thiếu tags bắt buộc:
+- Lọc theo frontmatter `tags:` và kiểm tra có đủ `area/|project/`, `type/`, `lang/`
 
 ### Tags không đúng chuẩn
 
-```dataview
-TABLE length(rows) as count, rows.file.link as files
-FROM ""
-WHERE contains(tags, "excalidraw") OR
-      contains(tags, "Excalidraw") OR
-      contains(tags, " ") OR
-      contains(tags, "_") OR
-      contains(tags, "js ") OR
-      contains(tags, "AI ")
-GROUP BY tags
-S
-```
-ORT count desc
-LIMIT 15
-```
+- Tìm và chuẩn hóa các tags không đúng chuẩn bằng `Search`:
+- Thay `excalidraw`/`Excalidraw` → `media/excalidraw`
+- Loại bỏ khoảng trắng/`_` trong tags
+- Thay `js` → `topic/javascript`, `AI` → `topic/ai-ml`
 
 ### Files chưa đúng naming convention
-```dataview
-LIST file.link
-FROM ""
-WHERE !regexmatch("^[a-z0-9-]+\.md$", file.name)
-LIMIT 20
-```
+- Kiểm tra đặt tên tệp: dùng biểu thức chính quy `^[a-z0-9-]+\.md$` trong VS Code `Search`
 
 ## 📊 Thống Kê Tags
 
 ### Phân bố theo type
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "type/")
-GROUP BY split(tags, "type/")[1] as type
-SORT count desc
-```
+- Thống kê theo `type/*`: dùng `Search` để đếm nhanh các xuất hiện của `type/`
 
 ### Phân bố theo area
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "area/")
-GROUP BY split(tags, "area/")[1] as area
-SORT count desc
-```
+- Thống kê theo `area/*`: rà soát và cân đối phân bố nội dung theo khu vực
 
 ### Phân bố theo domain
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "domain/")
-GROUP BY split(tags, "domain/")[1] as domain
-SORT count desc
-```
+- Thống kê theo `domain/*`: bổ sung domain cho ghi chú kỹ thuật còn thiếu
 
 ### Phân bố theo status
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "status/")
-GROUP BY split(tags, "status/")[1] as status
-SORT count desc
-```
+- Thống kê theo `status/*`: rà soát `idea`, `in-progress`, `done`, `archive`
 
 ## 🔍 Quality Metrics
 
 ### Tags per note distribution
-```dataview
-TABLE length(tags) as tag_count, length(rows) as note_count
-FROM ""
-GROUP BY length(tags)
-SORT tag_count asc
-```
+- Phân bố số lượng tags mỗi note: dùng VS Code `Search` và lọc theo mẫu `tags: [ ... ]`
 
 ### Notes theo ngôn ngữ
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "lang/")
-GROUP BY split(tags, "lang/")[1] as language
-SORT count desc
-```
+- Notes theo ngôn ngữ: bảo đảm tất cả ghi chú có `lang/vi` hoặc `lang/en`
 
 ### Notes chưa có updated date
-```dataview
-LIST file.link
-FROM ""
-WHERE updated = created
-LIMIT 20
-```
+- Notes chưa có ngày cập nhật: kiểm tra `created` và `updated` trong frontmatter, cập nhật khi chỉnh sửa
 
 ## 📈 Growth Tracking
 
 ### Notes created this month
-```dataview
-TABLE file.link, created, tags
-FROM ""
-WHERE created >= date({{date:YYYY-MM}}-01)
-SORT created desc
-```
+- Notes tạo trong tháng: lọc theo `created: YYYY-MM-DD` bằng VS Code `Search`
 
 ### Most active topics
-```dataview
-TABLE length(rows) as count
-FROM ""
-WHERE contains(tags, "topic/")
-GROUP BY split(tags, "topic/")[1] as topic
-SORT count desc
-LIMIT 15
-```
+- Chủ đề hoạt động mạnh: rà soát `topic/*` và hợp nhất chủ đề trùng lặp
 
 ### Recently updated notes
-```dataview
-TABLE file.link, updated, tags
-FROM ""
-WHERE updated >= date(today) - dur(7 days)
-SORT updated desc
-LIMIT 20
-```
+- Notes cập nhật gần đây: dùng sắp xếp `modified` trong VS Code `Explorer`
 
 ## 🎯 Common Fixes Needed
 

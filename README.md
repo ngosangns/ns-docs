@@ -1,5 +1,5 @@
 ---
-title: Hướng dẫn sử dụng vault Obsidian
+title: Hướng dẫn sử dụng với Foam
 tags: ["type/guide", "lang/vi"]
 created: 2025-12-17
 ---
@@ -10,13 +10,13 @@ created: 2025-12-17
 - Chất lượng & kiểm soát: [[90-Admin/MOC/Quality-Control]] theo dõi tags, cấu trúc, naming.
 
 ## Yêu cầu
-- Cài `Obsidian` và mở thư mục vault này.
-- Bật `Core → Templates` và `Settings → Files & links → Update links on file rename`.
-- Khuyến nghị cài plugin `Dataview` để dùng các bảng/queries trong MOC và Guides.
+- Cài `Visual Studio Code` và extension `Foam`.
+- Khuyến nghị cài thêm `Markdown All in One` để hỗ trợ wikilinks và Markdown.
+- Foam hoạt động trực tiếp trên các tệp Markdown; không cần plugin Dataview.
 
-## Mở vault
-- Clone hoặc copy thư mục vào máy rồi mở bằng Obsidian: `File → Open folder as vault`.
-- Nếu dùng git: `git clone <repo-url>` vào thư mục làm việc rồi mở bằng Obsidian.
+## Mở workspace
+- Clone hoặc copy thư mục vào máy và mở bằng VS Code: `File → Open Folder...`.
+- Nếu dùng git: `git clone <repo-url>` vào thư mục làm việc rồi mở bằng VS Code.
 
 ## Tạo ghi chú mới
 - Sử dụng templates tại `[[90-Admin/MOC/Templates]]` (thư mục `90-Admin/Templates/`).
@@ -27,7 +27,7 @@ created: 2025-12-17
   - `meeting.md`: biên bản họp với attendees & actions.
   - `research.md`: ghi chú nghiên cứu với nguồn & URL.
   - `How-to.md`: hướng dẫn với độ khó & thời gian.
-- Cách dùng: mở note mới → `Cmd/Ctrl+P` → `Template: Insert template` → chọn template tương ứng.
+- Cách dùng: tạo tệp mới và copy nội dung từ template tương ứng hoặc nhân bản file template ngay trong VS Code.
 
 ## Quy tắc đặt tên & frontmatter
 - Tên file: `kebab-case` không dấu, ví dụ: `react-core-web-vitals.md`.
@@ -86,7 +86,7 @@ url:
 - Dọn định kỳ theo checklist trong [[90-Admin/Workflows/Review]].
 
 ## Kiểm soát chất lượng
-- Mở [[90-Admin/MOC/Quality-Control]] để:
+- Mở [[90-Admin/MOC/Quality-Control]] để xem các mục kiểm tra và hướng dẫn thao tác bằng VS Code.
   - Tìm notes thiếu tags bắt buộc.
   - Phát hiện tags sai chuẩn (`excalidraw` → `media/excalidraw`, `js` → `topic/javascript`).
   - Kiểm tra naming `kebab-case`.
@@ -96,4 +96,3 @@ url:
 - Tạo `Daily note` từ template và ghi nhanh các việc.
 - Duyệt [[00-Inbox]] và chuyển sang thư mục phù hợp, thêm frontmatter + tags.
 - Với tài liệu kỹ thuật, đặt `area/technology` + `domain/*` + `topic/*`.
-

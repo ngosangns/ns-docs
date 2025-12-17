@@ -13,38 +13,16 @@ Quản lý các dự án theo tiến độ và trạng thái
 - [[Business/Vietop]] - `project/vietop`
 
 ## Projects đang active
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND -#status/done
-SORT updated desc
-```
+- Dùng `Search` để lọc `type/project` trừ `status/done`
 
 ## Projects ý tưởng (backlog)
-```dataview
-TABLE file.link, tags, created
-FROM #type/project AND #status/idea
-SORT created desc
-```
+- Lọc `type/project` + `status/idea` để xem backlog
 
 ## Projects in-progress
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND #status/in-progress
-SORT updated desc
-```
+- Lọc `type/project` + `status/in-progress` và cập nhật tiến độ
 
 ## Projects hoàn thành gần đây
-```dataview
-TABLE file.link, tags, updated
-FROM #type/project AND #status/done
-SORT updated desc
-LIMIT 10
-```
+- Lọc `type/project` + `status/done` và sắp xếp theo `updated`
 
 ## Theo dõi tiến độ
-```dataview
-TABLE file.link, tags, updated
-FROM "10-Projects"
-WHERE contains(tags, "project/")
-SORT updated desc
-```
+- Mở thư mục `10-Projects/` và sắp xếp theo `modified`

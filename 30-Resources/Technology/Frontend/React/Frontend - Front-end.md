@@ -312,7 +312,7 @@ export class StorageManager {
 	- https://nextra.site
 - Astro
 	- https://github.com/withastro/astro
-- Quartz: Tương tự Obsidian.
+- Quartz: Trình tạo site tĩnh cho digital garden, tương tự cách tổ chức ghi chú với Foam.
 	- https://github.com/jackyzha0/quartz
 
 # 4. Tối ưu Hiệu năng và Trải nghiệm Người dùng
