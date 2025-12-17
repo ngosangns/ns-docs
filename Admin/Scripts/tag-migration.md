@@ -154,6 +154,5 @@ find . -name "*.md" -exec sed -i 's/\"Excalidraw\"/\"media\/excalidraw\"/g' {} \
 
 - [ ] Kiểm tra tất cả MOCs hoạt động đúng
 - [ ] Verify liên kết và tags bằng VS Code `Search`
-- [ ] Test templates mới
 - [ ] Update workflow documentation
 - [ ] Training nếu có người dùng khác
