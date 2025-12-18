@@ -10,6 +10,7 @@ tags:
   - async
   - event-loop
 ---
+
 ## Async trong Javascript
 
 Trong Javascript, khi call-stack hiện tại nếu trả về hoặc đợi một async task thì cả call-stack đó sẽ được xem là async call-stack (ví dụ khi sử dụng `await` trong function thì function đó phải kèm theo từ khoá `async`). Khi đó call-stack hiện tại sẽ được chuyển sang callback queue.
