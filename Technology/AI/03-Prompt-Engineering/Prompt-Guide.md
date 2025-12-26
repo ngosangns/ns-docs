@@ -8,6 +8,9 @@ tags:
   - ml
   - dl
   - prompt-cơ-bản
+aliases:
+  - LLM promt engineering
+  - LLM prompt engineering
 ---
 
 # 1. Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)

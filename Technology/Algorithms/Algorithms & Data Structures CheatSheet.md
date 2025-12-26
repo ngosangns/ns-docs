@@ -7,7 +7,23 @@ tags:
   - searching
 ---
 
-# 1. Arrays
+# Algorithms & Data Structures CheatSheet
+
+## Mục lục
+
+- [Arrays](#arrays)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Linked Lists](#linked-lists)
+- [Recursion](#recursion)
+- [Trees](#trees)
+- [Heap / Priority Queue](#heap--priority-queue)
+- [Trie / Prefix Tree / Digital Tree](#trie--prefix-tree--digital-tree)
+- [Graphs](#graphs)
+- [Maps](#maps)
+- [Least Recently Used (LRU) Cache](#least-recently-used-lru-cache)
+
+## Arrays
 
 In javascript you’d think this `[]` is an array. Well you’re wrong, it’s actually an Array List.
 
@@ -29,7 +45,7 @@ a16[2] = 0x4545;
 // because I look at it in 16bit unity, I can only walk in 16 units at a time, this is why the 45 45 was placed in the last bits
 ```
 
-## 1.1. Arrays vs linked lists
+### Arrays vs linked lists
 
 - I’s simple
 - You can’t add a value because there is only override so you’ll have to shift over your values to write something in between
@@ -38,7 +54,7 @@ a16[2] = 0x4545;
 - In a list you have to always traverse the list (linear search)
 - Linked Lists are usually the better choice for queues, Array Lists for stacks, or Array Buffer for both
 
-## 1.2. Array lists
+### Array lists
 
 Array access with the ability to grow:
 
@@ -57,7 +73,7 @@ dequeue: move over all values one to the left
 - Really bad for enqueue and dequeue O(n)
 - Getting something is great just add/remove on the beginning is not so great (but it is in a linked list)
 
-## 1.3. ArrayBuffer / RingBuffer
+### ArrayBuffer / RingBuffer
 
 - Head & Tail are not in the beginning nor end of the array, the items are just within the head and the tail
 
@@ -73,9 +89,9 @@ Pop: -1 to the tail
 - If you max out the head or the tail you can, i.e. move the tail over to the front before the head, as long as there is space. Which is why it’s called "RingBuffer" (this.tail % length gives you then the position of the tail). I.e. if array length is 10 and you move the tail to position 12, you’ll find it at 12 % 10 = 2 (remaining)
 - If the tail is at the head you need to resize: create a new buffer with more capacity and write the old to the new one
 
-# 2. Searching
+## Searching
 
-## 2.1. Linear Search
+### Linear Search
 
 Searching a list linearly in JavaScript:
 
@@ -93,7 +109,7 @@ export default function linear_search(
 
 - Time Complexity is `O(N)`
 
-## 2.2. Binary Search
+### Binary Search
 
 As a recursive method
 
@@ -131,7 +147,7 @@ export default function bs_list(haystack: number[], needle: number): boolean {
 
 - Time Complexity is `log(N)`
 
-## 2.3. Crystal Balls Exercise
+### Crystal Balls Exercise
 
 Given 2 crystal balls that will break when dropped from high enough. Determine the exact spot where they will break in the best way.
 
@@ -155,9 +171,9 @@ export default function two_crystal_balls(breaks: boolean[]): number {
 
 - Time Complexity is `O(√N)`
 
-# 3. Sorting
+## Sorting
 
-## 3.1. Bubble sort
+### Bubble sort
 
 - It just goes to the next element in the list and asks "hey are you smaller than me?" if yes, switch positions.
 - A singular iteration will always put the largest item at the last spot. So next bubble sort does not need to include the last position of the biggest element.
@@ -175,12 +191,12 @@ export default function bubble_sort(arr: number[]): void {
 }
 ```
 
-## 3.2. Divide and Conquer
+### Divide and Conquer
 
 - Split the input into sub-sets, go over the sub-sets to solve it faster.
 - An array of 1 element is always sorted
 
-## 3.3. Quick Sort
+### Quick Sort
 
 ```
            [0, 31]
@@ -251,7 +267,7 @@ export default function quick_sort(arr: number[]): void {
 }
 ```
 
-## 3.4. Merge Sort
+### Merge Sort
 
 ```ts
 const sortArrays = (a: number[], b: number[]): number[] => {
@@ -276,12 +292,12 @@ export default function mergeSort(arr: number[]): number[] {
 
 - Complexity O(n^log(n))
 
-# 4. Linked Lists
+## Linked Lists
 
 - Good for insertions / removals in the first or last node
 - Tricky to traverse
 
-## 4.1. Queue
+### Queue
 
 - Queueing strategies: https://encore.dev/blog/queueing
 
@@ -344,7 +360,7 @@ export default class Queue<T> {
 }
 ```
 
-## 4.2. Stack
+### Stack
 
 Last in, First out (LiFo)
 
@@ -401,7 +417,7 @@ export default class Stack<T> {
 }
 ```
 
-## 4.3. Double Linked Lists
+### Double Linked Lists
 
 ```ts
 type Node<T> = {
@@ -508,7 +524,7 @@ export default class DoublyLinkedList<T> {
 }
 ```
 
-# 5. Recursion
+## Recursion
 
 Basic example:
 
@@ -535,9 +551,9 @@ A Recursion can always be broken down in 3 steps:
 - Post (doing something else after recursion)
 - Complexity O(N)
 
-## 5.1. Examples
+### Examples
 
-## 5.2. Maze solver
+### Maze solver
 
 ```ts
 ["#####E#", "#     #", "#S#####"];
@@ -616,7 +632,7 @@ export default function solve(
 }
 ```
 
-## 5.3. Green houses
+### Green houses
 
 - The task is to get a district energy positive by installing solar panels.
 - You can add either buy a solar panel X that turns the energy of one house to 0
@@ -697,7 +713,7 @@ console.log(solution([2, 2, 1, 2, 2], 2, 3)); // 8
 console.log(solution([4, 1, 5, 3], 5, 2)); // 4
 ```
 
-## 5.4. Count the Islands
+### Count the Islands
 
 ```ts
 /**
@@ -758,7 +774,7 @@ console.log(
 );
 ```
 
-# 6. Trees
+## Trees
 
 - For example the DOM
 - `Root` is the top most node
@@ -767,7 +783,7 @@ console.log(
 - Binary Tree is a tree that only has two nodes (left/right)
 - Balanced Tree when the children have all the same height
 
-## 6.1. Tree Traversal
+### Tree Traversal
 
 - Visit Node
 - Recurse
@@ -775,7 +791,7 @@ console.log(
 - In-Order: Root in the middle
 - Post-Order: Root in the end
 
-## 6.2. Depth first search
+### Depth first search
 
 - Like a `stack`
 - Complexity O(N)
@@ -825,7 +841,7 @@ No more left, no more right => [] => (5,4,23,18,21,3,7)
 
 ```
 
-## 6.3. Pre Order
+### Pre Order
 
 ```
       7
@@ -854,7 +870,7 @@ const traversal = (
 export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
-## 6.4. In Order
+### In Order
 
 ```
       7
@@ -883,7 +899,7 @@ const traversal = (
 export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
-## 6.5. Post Order
+### Post Order
 
 ```
       7
@@ -912,7 +928,7 @@ const traversal = (
 export default (head: BinaryNode<number>): number[] => traversal(head, []);
 ```
 
-## 6.6. Compare Trees
+### Compare Trees
 
 - Compare whether two trees are equal in values and shape
 
@@ -934,7 +950,7 @@ export default (
 ): boolean => traversal(a, b);
 ```
 
-## 6.7. Lowest Common Ancestor
+### Lowest Common Ancestor
 
 ```ts
 const common = (head: BinaryNode<number>, x: number, y: number): number => {
@@ -971,7 +987,7 @@ const common = (head: BinaryNode<number>, x: number, y: number): number => {
 console.log(common(tree, 7, 15)); // 10
 ```
 
-## 6.8. Binary Search Tree
+### Binary Search Tree
 
 - Given a binary tree whose left children are always smaller or equal to the parent and the right children always greater:
 
@@ -993,7 +1009,7 @@ export default function dfs(head: BinaryNode<number>, needle: number): boolean {
 }
 ```
 
-## 6.9. Breath first search
+### Breadth first search
 
 - Like a `queue`
 - Complexity theoretically O(N) but with JavaScript Arrays `[]` it’s O(N^2) because of shift/unshift
@@ -1022,7 +1038,7 @@ Visit & Dequeue => => (7,23,8,5,4,21,15)
 
 ```
 
-## 6.10. BFS Loop
+### BFS Loop
 
 ```ts
 const loop = (head: BinaryNode<number>): number[] => {
@@ -1041,7 +1057,7 @@ const loop = (head: BinaryNode<number>): number[] => {
 export default (head: BinaryNode<number>): number[] => loop(head);
 ```
 
-## 6.11. BFS Recursive
+### BFS Recursive
 
 ```ts
 const recursive = (
@@ -1062,7 +1078,7 @@ const recursive = (
 export default (head: BinaryNode<number>): number[] => recursive([head]);
 ```
 
-## 6.12. BFS Level by Level
+### BFS Level by Level
 
 ```ts
 /**
@@ -1090,7 +1106,7 @@ const loopN = (head: BinaryNode<number>): number[][] => {
 };
 ```
 
-# 7. Heap / Priority Queue
+## Heap / Priority Queue
 
 - It is a binary tree where every child and grand child is smaller (MaxHeap) or larger (MinHeap) than the current node.
 - Whenever a node is added, we must adjust the tree
@@ -1208,7 +1224,7 @@ export default class MinHeap {
 
 - Runtime O(logN) (add/delete)
 
-# 8. Trie / Prefix Tree / Digital Tree
+## Trie / Prefix Tree / Digital Tree
 
 - Autocomplete - Bài toán kinh điển trong các hệ thống tìm kiếm: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thong-tim-kiem-gwd43jOjVX9
 - Autocomplete problems
@@ -1219,16 +1235,16 @@ export default class MinHeap {
 
 ```
 
-# 9. Graphs
+## Graphs
 
 - Anything with 3 nodes is a graph (it needs a cycle)
 - A connected graph is where each node can reach each other node
 - Nodes are called Point or `Vertex`
 - Big O is commonly stated in terms of V: vertices and E: edges
 - i.e. O(V\*E) = on every vertex we check every edge
-- Breath First Search and Depth First Searches can be used, one just needs to store the already seen nodes
+- Breadth First Search and Depth First Searches can be used, one just needs to store the already seen nodes
 
-## 9.1. Adjacency List
+### Adjacency List
 
 A way to represent a graph is to write an `Adjacency List`:
 
@@ -1252,7 +1268,7 @@ Can be represented as a list of edges (Adjacency List (what am I adjacent to? > 
 
 ```
 
-## 9.2. Adjacency Matrix
+### Adjacency Matrix
 
 ```
 0 - > 1
@@ -1277,7 +1293,7 @@ Can be represented in an `Adjacency Matrix` (memory intensive O(V^2), not used i
 
 The numbers in the matrix represent `0` for no connection or the weight if there is a connection.
 
-## 9.3. Searching the Graph
+### Searching the Graph
 
 - DFS and BFS both work, one just needs a seen array (and to share a path also a previous array starting at -1)
 - Seen: [f,…]
@@ -1285,7 +1301,7 @@ The numbers in the matrix represent `0` for no connection or the weight if there
 - Queue: [0,…]
 - The Complexity is `O(V+E)` (vertices + edges) since worst case each of them they will be checked once
 
-## 9.4. Breath First Search Matrix
+### Breadth First Search Matrix
 
 ```ts
 /**
@@ -1344,7 +1360,7 @@ export default function bfs(
 }
 ```
 
-## 9.5. Depth First Search List
+### Depth First Search List
 
 ```ts
 /**
@@ -1403,7 +1419,7 @@ export default function dfs(
 }
 ```
 
-## 9.6. Dijkstra Shortest Path in Graph
+### Dijkstra Shortest Path in Graph
 
 ```ts
 const hasUnvisited = (seen: boolean[], dists: number[]): boolean =>
@@ -1462,14 +1478,14 @@ export default function dijkstra_list(
 }
 ```
 
-# 10. Maps
+## Maps
 
 - Load factor: amount of data points vs storage (data.length / storage.capacity) (7/10 => load factor .7)
 - Key: value used to lookup data
 - Value: value associated with the key
 - Collision: when 2 keys map to the same cell
 
-# 11. Least Recently Used (LRU) Cache
+## Least Recently Used (LRU) Cache
 
 - Combination of the linked list and a map
 - Complexity of O(1) because the doubly linked list elements are mapped

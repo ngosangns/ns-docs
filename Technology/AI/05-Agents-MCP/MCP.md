@@ -9,6 +9,8 @@ tags:
   - machine-learning
   - deep-learning
   - mcp-registry
+aliases:
+  - MCP - Model Context Protocol
 ---
 
 # 1. Resources

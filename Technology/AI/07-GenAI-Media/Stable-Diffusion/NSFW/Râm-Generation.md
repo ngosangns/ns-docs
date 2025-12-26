@@ -7,6 +7,8 @@ tags:
   - quick-reference
   - ram
   - vietnamese
+aliases:
+  - Râm Generation
 ---
 
 # Râm Generation

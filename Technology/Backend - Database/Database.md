@@ -655,16 +655,16 @@ Convex Backend đặc biệt phù hợp cho:
 Tóm lại, Convex Backend là một giải pháp backend toàn diện và mạnh mẽ, đặc biệt tối ưu cho việc phát triển các ứng dụng web hiện đại với yêu cầu cập nhật dữ liệu real-time.
 
 References:  
-[1]: [https://github.com/get-convex/convex-backend](https://github.com/get-convex/convex-backend)  
-[2]: [https://m.facebook.com/groups/609601226107659/posts/ch%C3%A0o-mn-e-c%C3%B3-l%C3%A0m-1-website-%C4%91ang-m%E1%BA%AFc-ch%E1%BB%97-x%C3%A1c-th%E1%BB%B1cem-c%C3%B3-rest-api-%C4%91%E1%BB%83-x%C3%A1c-th%E1%BB%B1c-l%C3%A0-lo/1375874689480305/](https://m.facebook.com/groups/609601226107659/posts/ch%C3%A0o-mn-e-c%C3%B3-l%C3%A0m-1-website-%C4%91ang-m%E1%BA%AFc-ch%E1%BB%97-x%C3%A1c-th%E1%BB%B1cem-c%C3%B3-rest-api-%C4%91%E1%BB%83-x%C3%A1c-th%E1%BB%B1c-l%C3%A0-lo/1375874689480305/)  
-[3]: [https://www.scribd.com/document/811504571/giao-trinh-mang-noron-hoc-sau-va-ung-dung-ebook60-2498](https://www.scribd.com/document/811504571/giao-trinh-mang-noron-hoc-sau-va-ung-dung-ebook60-2498)  
-[4]: [https://github.com/get-convex](https://github.com/get-convex)  
-[5]: [https://dost.hochiminhcity.gov.vn/documents/1888/cntt.pdf](https://dost.hochiminhcity.gov.vn/documents/1888/cntt.pdf)  
-[6]: [https://www.tiktok.com/@geckotech0101/video/7383276078858521864](https://www.tiktok.com/@geckotech0101/video/7383276078858521864)  
-[7]: [https://docs.convex.dev/tutorial/](https://docs.convex.dev/tutorial/)  
-[8]: [https://github.com/orgs/get-convex/packages/container/package/convex-backend](https://github.com/orgs/get-convex/packages/container/package/convex-backend)  
-[9]: [https://github.com/get-convex/convex-backend/blob/main/README.md](https://github.com/get-convex/convex-backend/blob/main/README.md)  
-[10]: [https://en.wikipedia.org/wiki/Convex_optimization](https://en.wikipedia.org/wiki/Convex_optimization)
+[1]: https://github.com/get-convex/convex-backend  
+[2]: https://m.facebook.com/groups/609601226107659/posts/ch%C3%A0o-mn-e-c%C3%B3-l%C3%A0m-1-website-%C4%91ang-m%E1%BA%AFc-ch%E1%BB%97-x%C3%A1c-th%E1%BB%B1cem-c%C3%B3-rest-api-%C4%91%E1%BB%83-x%C3%A1c-th%E1%BB%B1c-l%C3%A0-lo/1375874689480305/  
+[3]: https://www.scribd.com/document/811504571/giao-trinh-mang-noron-hoc-sau-va-ung-dung-ebook60-2498  
+[4]: https://github.com/get-convex  
+[5]: https://dost.hochiminhcity.gov.vn/documents/1888/cntt.pdf  
+[6]: https://www.tiktok.com/@geckotech0101/video/7383276078858521864  
+[7]: https://docs.convex.dev/tutorial/  
+[8]: https://github.com/orgs/get-convex/packages/container/package/convex-backend  
+[9]: https://github.com/get-convex/convex-backend/blob/main/README.md  
+[10]: https://en.wikipedia.org/wiki/Convex_optimization
 
 # 8. Công cụ hỗ trợ
 

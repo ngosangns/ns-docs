@@ -8,6 +8,8 @@ tags:
   - ml
   - dl
   - evals
+aliases:
+  - 6 Chiến lược Prompt Hiệu quả của OpenAI
 ---
 # 1. Viết hướng dẫn một cách rõ ràng
 

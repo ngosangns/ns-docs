@@ -16,7 +16,16 @@ tags:
   - toi-uu
 ---
 
-# 1. Tìm cấu trúc dữ liệu để biểu diễn bài toán
+# Cấu trúc dữ liệu & giải thuật
+
+## Mục lục
+
+- [Chọn cấu trúc dữ liệu](#chọn-cấu-trúc-dữ-liệu-để-biểu-diễn-bài-toán)
+- [Chọn thuật toán](#chọn-thuật-toán)
+- [Kiểm lỗi chương trình](#kiểm-lỗi-chương-trình)
+- [Tối ưu chương trình](#tối-ưu-chương-trình)
+
+## Chọn cấu trúc dữ liệu để biểu diễn bài toán
 
 Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
 
@@ -25,9 +34,9 @@ Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
 - Cấu trúc dữ liệu phải cài đặt được trên máy tính với ngôn ngữ lập trình đang sử dụng
   Đối với một số bài toán, trước khi tổ chức dữ liệu ta phải viết một đoạn chương trình nhỏ để khảo sát xem dữ liệu cần lưu trữ lớn tới mức độ nào
 
-# 2. Tìm thuật toán
+## Chọn thuật toán
 
-## 2.1. Các đặc trưng của thuật toán
+### Các đặc trưng của thuật toán
 
 - **Tính đơn nghĩa**:
   - Người ta phân loại thuật toán ra làm hai loại:
@@ -42,7 +51,7 @@ Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
   - **Thuật toán phải chuyển được thành chương trình**: Ví dụ một thuật toán yêu cầu phải biểu diễn được số vô tỉ với độ chính xác tuyệt đối là không hiện thực với các hệ thống máy tính hiện nay
   - **Thuật toán phải được máy tính thực hiện trong thời gian cho phép**, điều này khác với lời giải toán (Chỉ cần chứng minh là kết thúc sau hữu hạn bước). Ví dụ như xếp thời khoá biểu cho một học kỳ thì không thể cho máy tính chạy tới học kỳ sau mới ra được
 
-## 2.2. Kiểm lỗi chương trình chứa thuật toán
+## Kiểm lỗi chương trình
 
 - Có ba loại lỗi:
   - **Lỗi cú pháp**: Lỗi này hay gặp nhất nhưng lại dễ sửa nhất, chỉ cần nắm vững ngôn ngữ lập trình là đủ. Một người được coi là không biết lập trình nếu không biết sửa lỗi cú pháp
@@ -56,7 +65,7 @@ Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
   - Nên có một vài bộ test lớn để kiểm tra tính chịu đựng của chương trình
   - Lưu ý rằng chương trình chạy qua được hết các test không có nghĩa là chương trình đó đã đúng. Bởi có thể ta chưa xây dựng được bộ test làm cho chương trình chạy sai
 
-## 2.3. Tối ưu chương trình
+## Tối ưu chương trình
 
 - Một chương trình đã chạy đúng không có nghĩa là việc lập trình đã xong, ta phải sửa đổi lại một vài chi tiết để chương trình có thể chạy nhanh hơn, hiệu quả hơn. Thông thường, trước khi kiểm thử thì ta nên đặt mục tiêu viết chương trình sao cho đơn giản, miễn sao chạy ra kết quả đúng là được, sau đó khi tối ưu chương trình, ta xem lại những chỗ nào viết chưa tốt thì tối ưu lại mã lệnh để chương trình ngắn hơn, chạy nhanh hơn. Không nên viết tới đâu tối ưu mã đến đó, bởi chương trình có mã lệnh tối ưu thường phức tạp và khó kiểm soát
 - Việc tối ưu chương trình nên dựa trên các tiêu chuẩn sau:

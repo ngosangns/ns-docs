@@ -10,7 +10,15 @@ tags:
   - vietnamese
 ---
 
-# 1. **Chỉnh hợp, tổ hợp**
+# Bài toán liệt kê
+
+## Mục lục
+
+- [Chỉnh hợp, tổ hợp, hoán vị](#chỉnh-hợp-tổ-hợp-hoán-vị)
+- [Phương pháp sinh](#phương-pháp-sinh)
+- [Thuật toán quay lui](#thuật-toán-quay-lui)
+
+## Chỉnh hợp, tổ hợp, hoán vị
 
 - **Số chỉnh hợp lặp chập _k_ của set gồm _n_ phần tử: $n^k$**
   - Ví dụ 1 chỉnh hợp lặp chập _k_: $112(k=3)$
@@ -29,7 +37,7 @@ tags:
 
 ---
 
-# 2. Phương pháp sinh
+## Phương pháp sinh
 
 - Thuật toán sinh:
   ```
@@ -70,7 +78,7 @@ tags:
 
 ---
 
-# 3. Thuật toán quay lui
+## Thuật toán quay lui
 
 - Thuật toán quay lui dùng để giải bài toán liệt kê các cấu hình
 - Mỗi cấu hình được xây dựng bằng cách xây dựng từng phần tử, mỗi phần tử được chọn bằng cách thử tất cả các khả năng

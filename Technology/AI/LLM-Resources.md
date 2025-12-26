@@ -10,6 +10,8 @@ tags:
   - topic/deep-learning
   - type/resource
   - lang/vi
+aliases:
+  - AI - Large Language Models (LLM)
 ---
 
 # 1. Tài nguyên học tập
@@ -17,18 +19,18 @@ tags:
 - [[LLM promt engineering]]
 - Cách feed knowledge / memory cho LLM: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 
-* Series 18 bài học LLM cho beginner của Microsoft: [https://github.com/microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) #course #LLM
-* Langchain #1 - Điểm qua các chức năng sừng sỏ nhất của Langchain - một framework cực bá đạo khi làm việc với LLM: [https://viblo.asia/p/langchain-1-diem-qua-cac-chuc-nang-sung-so-nhat-cua-langchain-mot-framework-cuc-ba-dao-khi-lam-viec-voi-llm-BQyJKmrqVMe](https://viblo.asia/p/langchain-1-diem-qua-cac-chuc-nang-sung-so-nhat-cua-langchain-mot-framework-cuc-ba-dao-khi-lam-viec-voi-llm-BQyJKmrqVMe) #Langchain
-* <a href="obsidian://open?file=C%C3%A1ch%20%C4%91%E1%BA%B7t%20c%C3%A2u%20h%E1%BB%8Fi%20cho%20ChatGPT.md">Cách đặt câu hỏi cho ChatGPT</a>
-* Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế!: [https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA](https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA) #RAG
-* Paper Explain - Mixtral of Experts: Lắm thầy thì model khỏe: [https://viblo.asia/p/paper-explain-mixtral-of-experts-lam-thay-thi-model-khoe-EvbLbQ8oJnk](https://viblo.asia/p/paper-explain-mixtral-of-experts-lam-thay-thi-model-khoe-EvbLbQ8oJnk) #Mixtral
-* Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế! (Phần 1): [https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA](https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA) #RAG
-* Quy trình xây dựng hệ thống RAG tích hợp Function Calling: [https://viblo.asia/p/quy-trinh-xay-dung-he-thong-rag-tich-hop-function-calling-with-source-code-vlZL98GZJQK](https://viblo.asia/p/quy-trinh-xay-dung-he-thong-rag-tich-hop-function-calling-with-source-code-vlZL98GZJQK) #RAG #functionCalling
-* Scrapegraph-ai #1: Sử dụng sức mạnh của LLMs để giải quyết bài toán thu thập và xử lý dữ liệu cho các hệ thống AI: [https://viblo.asia/p/scrapegraph-ai-1-su-dung-suc-manh-cua-llms-de-giai-quyet-bai-toan-thu-thap-va-xu-ly-du-lieu-cho-cac-he-thong-ai-EvbLbavPJnk](https://viblo.asia/p/scrapegraph-ai-1-su-dung-suc-manh-cua-llms-de-giai-quyet-bai-toan-thu-thap-va-xu-ly-du-lieu-cho-cac-he-thong-ai-EvbLbavPJnk) #scrapegraph
-* Các kỹ thuật tạo và sử dụng các prompt (lời nhắc) trong LLM models: [https://trigaten.github.io/Prompt_Survey_Site](https://trigaten.github.io/Prompt_Survey_Site) #promptEngineering
-* Bạn đã biết gì về prompt engineering?: [https://viblo.asia/s/ban-da-biet-gi-ve-prompt-engineering-EbNVQNO24vR](https://viblo.asia/s/ban-da-biet-gi-ve-prompt-engineering-EbNVQNO24vR) #promptEngineering
+* Series 18 bài học LLM cho beginner của Microsoft: https://github.com/microsoft/generative-ai-for-beginners #course #LLM
+* Langchain #1 - Điểm qua các chức năng sừng sỏ nhất của Langchain - một framework cực bá đạo khi làm việc với LLM: https://viblo.asia/p/langchain-1-diem-qua-cac-chuc-nang-sung-so-nhat-cua-langchain-mot-framework-cuc-ba-dao-khi-lam-viec-voi-llm-BQyJKmrqVMe #Langchain
+* [[Cách đặt câu hỏi cho ChatGPT]]
+* Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế!: https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA #RAG
+* Paper Explain - Mixtral of Experts: Lắm thầy thì model khỏe: https://viblo.asia/p/paper-explain-mixtral-of-experts-lam-thay-thi-model-khoe-EvbLbQ8oJnk #Mixtral
+* Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế! (Phần 1): https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA #RAG
+* Quy trình xây dựng hệ thống RAG tích hợp Function Calling: https://viblo.asia/p/quy-trinh-xay-dung-he-thong-rag-tich-hop-function-calling-with-source-code-vlZL98GZJQK #RAG #functionCalling
+* Scrapegraph-ai #1: Sử dụng sức mạnh của LLMs để giải quyết bài toán thu thập và xử lý dữ liệu cho các hệ thống AI: https://viblo.asia/p/scrapegraph-ai-1-su-dung-suc-manh-cua-llms-de-giai-quyet-bai-toan-thu-thap-va-xu-ly-du-lieu-cho-cac-he-thong-ai-EvbLbavPJnk #scrapegraph
+* Các kỹ thuật tạo và sử dụng các prompt (lời nhắc) trong LLM models: https://trigaten.github.io/Prompt_Survey_Site #promptEngineering
+* Bạn đã biết gì về prompt engineering?: https://viblo.asia/s/ban-da-biet-gi-ve-prompt-engineering-EbNVQNO24vR #promptEngineering
 * Bài 2 - Prompt Engineering, RAG và Finetuning
-* Dùng operator với Deepseek API + WebUI: [https://www.facebook.com/Passer.maker/videos/601578342493962/?idorvanity=3262256010653927](https://www.facebook.com/Passer.maker/videos/601578342493962/?idorvanity=3262256010653927) #Deepseek #API
+* Dùng operator với Deepseek API + WebUI: https://www.facebook.com/Passer.maker/videos/601578342493962/?idorvanity=3262256010653927 #Deepseek #API
 * [Hướng dẫn Finetune Mô hình LLM với Unsloth](https://viblo.asia/p/huong-dan-finetune-mo-hinh-llm-don-gian-va-mien-phi-voi-unsloth-0gdJzRvAJz5)
   - Hướng dẫn chi tiết cách tinh chỉnh mô hình LLM để tạo chatbot sinh workflow n8n.
   - Sử dụng thư viện Unsloth và Google Colab để finetune miễn phí.
@@ -52,10 +54,10 @@ tags:
 
 # 2. Libraries / Frameworks
 
-- OpenCopilot: [https://github.com/openchatai/OpenCopilot](https://github.com/openchatai/OpenCopilot) #OpenCopilot
-- [https://aistudio.google.com](https://aistudio.google.com) #GoogleAI
-- CoreNet: A library for training deep neural networks: [https://github.com/apple/corenet](https://github.com/apple/corenet) #CoreNet
-- Triton language - a language and compiler for writing highly efficient custom Deep-Learning primitives: [https://github.com/triton-lang/triton](https://github.com/triton-lang/triton) #Triton
+- OpenCopilot: https://github.com/openchatai/OpenCopilot #OpenCopilot
+- https://aistudio.google.com #GoogleAI
+- CoreNet: A library for training deep neural networks: https://github.com/apple/corenet #CoreNet
+- Triton language - a language and compiler for writing highly efficient custom Deep-Learning primitives: https://github.com/triton-lang/triton #Triton
 - [MLX Server – API tương thích OpenAI](https://github.com/cubist38/mlx-server-OAI-compat)
   - Máy chủ API hiệu suất cao cho mô hình MLX, tương thích với OpenAI.
   - Phát triển bằng Python và FastAPI, hỗ trợ chạy mô hình ngôn ngữ và thị giác trên MacOS M-series. #MLX #API #OpenAI
@@ -100,9 +102,9 @@ tags:
   - Tài liệu:
     - https://viblo.asia/s/hanh-trinh-kham-pha-langgraph-muon-hero-ban-phai-bat-dau-tu-zero-vlZL9lMdJQK
   - #LangGraph #LLM #framework
-* llmware: Framework kết nối tri thức doanh nghiệp với LLM. [https://github.com/llmware-ai/llmware](https://github.com/llmware-ai/llmware)
+* llmware: Framework kết nối tri thức doanh nghiệp với LLM. https://github.com/llmware-ai/llmware
 
-- Composio: Cung cấp hơn 100 integration cho AI agents. [https://github.com/ComposioHQ/composio](https://github.com/ComposioHQ/composio)
+- Composio: Cung cấp hơn 100 integration cho AI agents. https://github.com/ComposioHQ/composio
 - [openai/gym: A toolkit for developing and comparing reinforcement learning algorithms.](https://github.com/openai/gym)
 - Prompt & flow optimizing: [SylphAI-Inc/AdalFlow: AdalFlow: The library to build & auto-optimize LLM applications.](https://github.com/SylphAI-Inc/AdalFlow)
 
@@ -117,7 +119,7 @@ tags:
 
 ## 2.3. Make It Heavy
 
-[https://github.com/Doriandarko/make-it-heavy](https://github.com/Doriandarko/make-it-heavy)
+https://github.com/Doriandarko/make-it-heavy
 
 ### 2.3.1. Chức năng nổi bật
 
@@ -225,25 +227,25 @@ https://github.com/crewAIInc/crewAI
 CrewAI có thể dùng làm framework độc lập, không phụ thuộc vào LangChain hoặc các framework agent khác, đem lại sự linh hoạt và nhanh chóng trong việc xây dựng multi-agent orchestration dựa trên LLM.
 Tóm lại, CrewAI là framework điều phối đa agent tập trung vào workflow teamwork thực tế, dễ mở rộng, hỗ trợ đa mô hình LLM nhưng hạn chế ở tính tương tác đa chiều giữa agent và chưa có vòng lặp nhiệm vụ tự động[2](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent).
 
-1. [https://github.com/crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
-2. [https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent](https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent)
+1. https://github.com/crewAIInc/crewAI
+2. https://www.scribd.com/document/868728195/Tim-hi%E1%BB%83u-Multi-Agent-LLM-Multi-Agent
 
 # 3. LLM Products & Models
 
-- [https://llama.meta.com](https://llama.meta.com) #LLaMA
-- [https://huggingface.co/vilm](https://huggingface.co/vilm) #VILM
-- [https://github.com/mistralai/mistral-src](https://github.com/mistralai/mistral-src) #Mistral
-- [https://huggingface.co/bkai-foundation-models/vietnamese-llama2-7b-120GB](https://huggingface.co/bkai-foundation-models/vietnamese-llama2-7b-120GB) #Vietnamese #LLaMA2
-- PrivateGPT - Đọc và trả lời dữ liệu từ document với sức mạnh của GPT: [https://github.com/imartinez/privateGPT](https://github.com/imartinez/privateGPT) #PrivateGPT
-- [https://github.com/nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) #GPT4All
-- [https://github.com/langgenius/dify](https://github.com/langgenius/dify) #Dify
-- [https://ollama.com/seallms/seallm-7b-v2](https://ollama.com/seallms/seallm-7b-v2) #SeaLLM
-- [https://huggingface.co/Viet-Mistral](https://huggingface.co/Viet-Mistral) #VietMistral
-- FinGPT - LLM models cho domain tài chính: [https://github.com/AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) #FinGPT #finance
-- [https://github.com/duydvu/gpt-j-6B-vietnamese-news-api](https://github.com/duydvu/gpt-j-6B-vietnamese-news-api) #GPT-J #Vietnamese
+- https://llama.meta.com #LLaMA
+- https://huggingface.co/vilm #VILM
+- https://github.com/mistralai/mistral-src #Mistral
+- https://huggingface.co/bkai-foundation-models/vietnamese-llama2-7b-120GB #Vietnamese #LLaMA2
+- PrivateGPT - Đọc và trả lời dữ liệu từ document với sức mạnh của GPT: https://github.com/imartinez/privateGPT #PrivateGPT
+- https://github.com/nomic-ai/gpt4all #GPT4All
+- https://github.com/langgenius/dify #Dify
+- https://ollama.com/seallms/seallm-7b-v2 #SeaLLM
+- https://huggingface.co/Viet-Mistral #VietMistral
+- FinGPT - LLM models cho domain tài chính: https://github.com/AI4Finance-Foundation/FinGPT #FinGPT #finance
+- https://github.com/duydvu/gpt-j-6B-vietnamese-news-api #GPT-J #Vietnamese
 - SEO/Content:
-  - WordAI - Công cụ viết nội dung tự động, WordAI sử dụng công nghệ Spinning AI để tạo ra nội dung có độ chính xác cao từ các nguồn dữ liệu có sẵn: [https://wordai.com](https://wordai.com) #SEO #content
-  - BuzzSumo - Công cụ nghiên cứu nội dung, BuzzSumo sử dụng AI để tìm kiếm và phân tích các nội dung phổ biến trên mạng xã hội và Internet: [https://buzzsumo.com](https://buzzsumo.com) #SEO #content
+  - WordAI - Công cụ viết nội dung tự động, WordAI sử dụng công nghệ Spinning AI để tạo ra nội dung có độ chính xác cao từ các nguồn dữ liệu có sẵn: https://wordai.com #SEO #content
+  - BuzzSumo - Công cụ nghiên cứu nội dung, BuzzSumo sử dụng AI để tìm kiếm và phân tích các nội dung phổ biến trên mạng xã hội và Internet: https://buzzsumo.com #SEO #content
   - ContentBot: Công cụ tạo nội dung tự động, ContentBot sử dụng AI để tạo ra nội dung theo yêu cầu từ nguồn dữ liệu có sẵn. #SEO #content
   - Quill: Công cụ viết nội dung tự động, Quill sử dụng AI để tạo ra nội dung tự động dựa trên dữ liệu có sẵn. #SEO #content
   - Acrolinx: Công cụ kiểm tra và tối ưu nội dung, Acrolinx sử dụng AI để đảm bảo sự nhất quán và chất lượng của nội dung trên nhiều nền tảng và kênh truyền thông. #SEO #content
@@ -254,16 +256,16 @@ Tóm lại, CrewAI là framework điều phối đa agent tập trung vào workf
 
 ## 3.2. API
 
-- [https://together.ai](https://together.ai) #API
+- https://together.ai #API
 - Ollama - Hỗ trợ cài đặt các LLM model và cung cấp API tương tác #API
 
 ## 3.3. GUI
 
-- NextChat: [https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) #GUI
-- [https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) #GUI
-- [https://jan.ai](https://jan.ai) #GUI
-- GUI cho việc download và chạy các model LLM: [https://lmstudio.ai](https://lmstudio.ai) #GUI
-- Tạo giao diện chat cho các AI models: [https://github.com/huggingface/chat-ui](https://github.com/huggingface/chat-ui) #GUI
+- NextChat: https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web #GUI
+- https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web #GUI
+- https://jan.ai #GUI
+- GUI cho việc download và chạy các model LLM: https://lmstudio.ai #GUI
+- Tạo giao diện chat cho các AI models: https://github.com/huggingface/chat-ui #GUI
 
 ## 3.4. Kỹ thuật fine-tune LLM models
 

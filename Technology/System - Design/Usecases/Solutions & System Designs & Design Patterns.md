@@ -656,8 +656,8 @@ Mình từng gặp tình huống thực tế: service A gọi đến service B. 
 
 ## 5.1. Distributed transaction
 
-- So sánh các mẫu Distributed Transaction trong microservices (grokking.org): [http://newsletter.grokking.org/issues/191-so-sanh-cac-m-u-distributed-transaction-trong-microservices-783202](http://newsletter.grokking.org/issues/191-so-sanh-cac-m-u-distributed-transaction-trong-microservices-783202)
-- Distributed transaction - Two-phase commit (Viblo): [https://viblo.asia/p/distributed-transaction-two-phase-commit-naQZRBemZvx](https://viblo.asia/p/distributed-transaction-two-phase-commit-naQZRBemZvx)
+- So sánh các mẫu Distributed Transaction trong microservices (grokking.org): http://newsletter.grokking.org/issues/191-so-sanh-cac-m-u-distributed-transaction-trong-microservices-783202
+- Distributed transaction - Two-phase commit (Viblo): https://viblo.asia/p/distributed-transaction-two-phase-commit-naQZRBemZvx
 - Blocking Retry, Two-Phase Commit (2PC) and Three-Phase Commit (3PC).
 - Sử dụng Queues để xử lý Asynchronously trong Background, TCC. Compensation Matters.
 - Local Message Table (Asynchronously Ensured)/Outbox Pattern, MQ Transaction.
@@ -671,8 +671,8 @@ Mình từng gặp tình huống thực tế: service A gọi đến service B. 
     - **Choreography - Event based**.
     - **Orchestration - Command based**.
 - Parallel pipeline.
-- Distributed locks with Redis: [https://redis.io/docs/manual/patterns/distributed-locks](https://redis.io/docs/manual/patterns/distributed-locks)
-- Vấn đề 2 đơn hàng đến cùng lúc (liên quan đến Kafka và database): [https://www.facebook.com/groups/645391349250568/posts/1897008380755519](https://www.facebook.com/groups/645391349250568/posts/1897008380755519)
+- Distributed locks with Redis: https://redis.io/docs/manual/patterns/distributed-locks
+- Vấn đề 2 đơn hàng đến cùng lúc (liên quan đến Kafka và database): https://www.facebook.com/groups/645391349250568/posts/1897008380755519
 
 ## 5.2. Outbox pattern
 

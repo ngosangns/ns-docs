@@ -5,6 +5,8 @@ tags:
   - diffusion
   - image-description
   - stable-diffusion
+aliases:
+  - Prompt
 ---
 
 # 1. Interview
@@ -19,25 +21,9 @@ Prompt Template: You are conducting an interview for a [Role/Job Title] role. I 
 
 ![[1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png]]
 
-## 2.2. Thần chú tà ác
+## 2.2. NSFW
 
-a girl, wavy hair, white skin, asian, pink boobs, bangs hair, big eyes, high nose, double eyelids, show boobs, pink breasts, full body, brown hair, 16 age, pink pussy, hairy pussy, blue eyes, small nipples, smile, oval face, bow tie on hair, flowers on hair, nude, in the dark room, put your hands behind your back, small areola, light smile
-
----
-
-a nude asian girl, wide shot, full body, damsel, white skin, pink,
-round face, blue big eyes, double eyelids, high nose, light smile, wavy hair, flowers on hair, brown hair,
-pink breasts, small areola, hairy pussy,
-small nipples, medium breasts,
-morning garden background with sunlight
-
----
-
-(masterpiece:1.2), (best quality:1.2), (extremely detailed:1.2), (extremely detailed face), (photorealistic:1.2), (ultra detailed), detailed eyes, (crowd:1.4), (smile:1), shiny skin, (blonde:0.4), wet, spread legs
-
-(worst quality, bad quality, poor quality:2), ((panty)), bad-picture-chill-75v, badhandv4, bad_prompt_version2, ng_deepnegative_v1_75t, EasyNegative, watermark
-
----
+[[Râm-Generation]]
 
 ## 2.3. Outside
 

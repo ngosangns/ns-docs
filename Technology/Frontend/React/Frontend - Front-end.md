@@ -70,16 +70,16 @@ WebGPU hiện đã có sẵn trong Chrome[3] và được Google thông báo s�
 WebGPU hỗ trợ nhiều ngôn ngữ lập trình bao gồm JavaScript, Rust, C++, và C, đồng thời sử dụng các công nghệ nền tảng như Vulkan, Metal, hoặc Direct3D 12 để xử lý đồ họa, game, cũng như các ứng dụng AI và machine learning[10].
 
 References:  
-[1]: [https://developer.chrome.com/docs/web-platform/webgpu/overview?hl=vi](https://developer.chrome.com/docs/web-platform/webgpu/overview?hl=vi)  
-[2]: [https://codelabs.developers.google.com/your-first-webgpu-app?hl=vi](https://codelabs.developers.google.com/your-first-webgpu-app?hl=vi)  
-[3]: [https://hoanghamobile.com/tin-tuc/google-chrome-cung-cap-tinh-nang-moi-webgpu-giup-ho-tro-cac-web-gaming-va-do-hoa/?srsltid=AfmBOoou7aHlHzLENBJ9ll62RQI55GHXW2EqWL59jjcRq9538hE8oRzR](https://hoanghamobile.com/tin-tuc/google-chrome-cung-cap-tinh-nang-moi-webgpu-giup-ho-tro-cac-web-gaming-va-do-hoa/?srsltid=AfmBOoou7aHlHzLENBJ9ll62RQI55GHXW2EqWL59jjcRq9538hE8oRzR)  
-[4]: [https://developer.chrome.com/blog/supercharge-web-ai-testing?hl=vi](https://developer.chrome.com/blog/supercharge-web-ai-testing?hl=vi)  
-[5]: [https://quantrimang.com/lang-cong-nghe/webgpu-chrome-197125](https://quantrimang.com/lang-cong-nghe/webgpu-chrome-197125)  
-[6]: [https://detect.expert/vi/blog/webgpu-technology-in-antifraud-systems-and-methods/](https://detect.expert/vi/blog/webgpu-technology-in-antifraud-systems-and-methods/)  
-[7]: [https://laodong.vn/cong-nghe/google-mang-webgpu-vao-trinh-duyet-de-ho-tro-game-thu-1177424.ldo](https://laodong.vn/cong-nghe/google-mang-webgpu-vao-trinh-duyet-de-ho-tro-game-thu-1177424.ldo)  
-[8]: [https://vnreview.vn/threads/google-chinh-thuc-phat-hanh-webgpu-ky-nguyen-cua-cac-trinh-duyet-lon-dang-den.18150/](https://vnreview.vn/threads/google-chinh-thuc-phat-hanh-webgpu-ky-nguyen-cua-cac-trinh-duyet-lon-dang-den.18150/)  
-[9]: [https://laptopaz.vn/google-chrome-ra-mat-cong-nghe-moi-dem-lai-su-dot-pha-cho-do-hoa-web.html](https://laptopaz.vn/google-chrome-ra-mat-cong-nghe-moi-dem-lai-su-dot-pha-cho-do-hoa-web.html)  
-[10]: [https://en.wikipedia.org/wiki/WebGPU](https://en.wikipedia.org/wiki/WebGPU)
+[1]: https://developer.chrome.com/docs/web-platform/webgpu/overview?hl=vi  
+[2]: https://codelabs.developers.google.com/your-first-webgpu-app?hl=vi  
+[3]: https://hoanghamobile.com/tin-tuc/google-chrome-cung-cap-tinh-nang-moi-webgpu-giup-ho-tro-cac-web-gaming-va-do-hoa/?srsltid=AfmBOoou7aHlHzLENBJ9ll62RQI55GHXW2EqWL59jjcRq9538hE8oRzR  
+[4]: https://developer.chrome.com/blog/supercharge-web-ai-testing?hl=vi  
+[5]: https://quantrimang.com/lang-cong-nghe/webgpu-chrome-197125  
+[6]: https://detect.expert/vi/blog/webgpu-technology-in-antifraud-systems-and-methods/  
+[7]: https://laodong.vn/cong-nghe/google-mang-webgpu-vao-trinh-duyet-de-ho-tro-game-thu-1177424.ldo  
+[8]: https://vnreview.vn/threads/google-chinh-thuc-phat-hanh-webgpu-ky-nguyen-cua-cac-trinh-duyet-lon-dang-den.18150/  
+[9]: https://laptopaz.vn/google-chrome-ra-mat-cong-nghe-moi-dem-lai-su-dot-pha-cho-do-hoa-web.html  
+[10]: https://en.wikipedia.org/wiki/WebGPU
 
 ## 1.2. Các thành phần tiềm năng
 

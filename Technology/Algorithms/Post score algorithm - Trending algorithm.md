@@ -8,80 +8,92 @@ tags:
   - engagement-score
   - admin-boost
 ---
-# 1. Resources
+
+# Post score algorithm - Trending algorithm
+
+## Mục lục
+
+- [Resources](#resources)
+- [Công thức tổng quát](#công-thức-tổng-quát)
+- [Diễn giải biến số](#diễn-giải-biến-số)
+- [Ví dụ tính toán](#ví-dụ-tính-toán)
+
+## Resources
 
 - https://viblo.asia/p/xay-dung-tinh-nang-trending-bai-viet-m2vJPD2KJeK
 
-## 1.1. Final Score (FS) Formula
+## Công thức tổng quát
 
-FS=(w5∗CS+w6∗PS+ES+(AB∗w7)+RP)∗(UP+FP)FS = (w_5 * CS + w_6 * PS + ES + (AB * w_7) + RP) * (UP + FP)
+$$
+FS=(w_5 \cdot CS+w_6 \cdot PS+ES+(AB \cdot w_7)+RP)\cdot(UP+FP)
+$$
 
-### 1.1.1. Where
+$$
+ES=w_1 \cdot UV+w_2 \cdot DV+w_3 \cdot TC+w_4 \cdot TV
+$$
 
-- **FS** = Final Score of a post.
-- **w_5** and **w_6** = weights for Category Score and Poster Score, respectively.
-- **CS** = Category Score of the post.
-- **PS** = Poster Score of the post (used for boosting posts from specific content creators).
-- **ES** = Engagement Score, calculated as:
+$$
+RP=w_{11}\cdot\left(\frac{1}{1+e^{-k \cdot (AVTP-x_0)}}-0.5\right)
+$$
 
-ES=w1∗UV+w2∗DV+w3∗TC+w4∗TVES = w_1 * UV + w_2 * DV + w_3 * TC + w_4 * TV
+## Diễn giải biến số
 
-- **w_1, w_2, w_3, w_4** = weights for:
-    - **UV** = Up Votes
-    - **DV** = Down Votes
-    - **TC** = Total Comments
-    - **TV** = Total Views
-- **AB** = Admin Boost (binary: `1` if boosted, `0` if not).
-- **w_7** = weight for the admin boost.
-- **UP** = User Preference for the post's category.
-- **FP** = Follower Preference (binary: `1` if the user follows the poster, `0` if not).
-- **RP** = Reward and Penalty score, calculated as:
+- FS: Final Score của bài viết
+- w_5, w_6: trọng số cho Category Score và Poster Score
+- CS: Category Score của bài viết
+- PS: Poster Score (boost bài từ tác giả cụ thể)
+- ES: Engagement Score
+- w_1..w_4: trọng số cho UV/DV/TC/TV
+- UV: Up Votes
+- DV: Down Votes
+- TC: Total Comments
+- TV: Total Views
+- AB: Admin Boost (1 nếu boost, 0 nếu không)
+- w_7: trọng số cho admin boost
+- UP: User Preference theo category
+- FP: Follower Preference (1 nếu user follow poster, 0 nếu không)
+- RP: Reward/Penalty score (ví dụ cho video)
+- w\_{11}: trọng số cho RP
+- k: độ dốc (steepness)
+- AVTP: Average View Time Percentage (video)
+- x_0: ngưỡng AVTP
 
-RP=w11∗(11+e−k∗(AVTP−x0)−0.5)RP = w_{11} * \left( \frac{1}{1 + e^{-k * (AVTP - x_0)}} - 0.5 \right)
+## Ví dụ tính toán
 
-- **w_{11}** = weight for RP value.
-- **k** = steepness parameter.
-- **AVTP** = Average View Time Percentage (video posts only).
-- **x_0** = threshold value for AVTP.
+### Giả định
 
-## 1.2. Example with Hypothetical Weights and Values
+- $w_1 = 2$, $w_2 = 1$, $w_3 = 0.5$, $w_4 = 0.1$
+- $w_5 = 1$, $w_6 = 0.8$, $w_7 = 20$, $w_{11} = 10$
+- $k = 10$
+- $x_0 = 0.3$
 
-### 1.2.1. Assumptions
+### Input
 
-- `w_1 = 2`, `w_2 = 1`, `w_3 = 0.5`, `w_4 = 0.1`
-- `w_5 = 1`, `w_6 = 0.8`, `w_7 = 20`, `w_{11} = 10`
-- `k = 10` (steepness)
-- `x_0 = 0.3` (AVTP threshold)
+- $CS = 0.7$
+- $PS = 0.6$
+- $UV = 50$
+- $DV = 20$
+- $TC = 10$
+- $TV = 500$
+- $AB = 1$
+- $UP = 0.7$
+- $FP = 1$
+- $AVTP = 0.8$
 
-### 1.2.2. Input Values
+### Tính ES
 
-- `CS = 0.7`
-- `PS = 0.6`
-- `UV = 50`
-- `DV = 20`
-- `TC = 10`
-- `TV = 500`
-- `AB = 1`
-- `UP = 0.7`
-- `FP = 1`
-- `AVTP = 0.8` (80%)
+$$
+ES=2 \cdot 50+1 \cdot 20+0.5 \cdot 10+0.1 \cdot 500=175
+$$
 
-### 1.2.3. Step-by-Step Calculation
+### Tính RP
 
-#### 1.2.3.1. **Calculate Engagement Score (ES)**
+$$
+RP=10\cdot\left(\frac{1}{1+e^{-10 \cdot (0.8-0.3)}}-0.5\right)\approx 4.5
+$$
 
-ES=w1∗UV+w2∗DV+w3∗TC+w4∗TVES=2∗50+1∗20+0.5∗10+0.1∗500ES=100+20+5+50=175ES = w_1 * UV + w_2 * DV + w_3 * TC + w_4 * TV ES = 2 * 50 + 1 * 20 + 0.5 * 10 + 0.1 * 500 ES = 100 + 20 + 5 + 50 = 175
+### Tính FS
 
-#### 1.2.3.2. **Calculate RP (Reward and Penalty)**
-
-RP=w11∗(11+e−k(AVTP−x0)−0.5)RP=10∗(11+e−10(0.8−0.3)−0.5)RP≈10∗(0.95−0.5)=4.5RP = w_{11} * \left( \frac{1}{1 + e^{-k(AVTP - x_0)}} - 0.5 \right) RP = 10 * \left( \frac{1}{1 + e^{-10(0.8 - 0.3)}} - 0.5 \right) RP ≈ 10 * (0.95 - 0.5) = 4.5
-
-#### 1.2.3.3. **Substitute into FS formula**
-
-FS=(w5∗CS+w6∗PS+ES+AB∗w7+RP)∗(UP+FP)FS=(1∗0.7+0.8∗0.6+175+1∗20+4.5)∗(0.7+1)FS=(0.7+0.48+175+20+4.5)∗1.7FS=202.68∗1.7≈343.47FS = (w_5 * CS + w_6 * PS + ES + AB * w_7 + RP) * (UP + FP) FS = (1 * 0.7 + 0.8 * 0.6 + 175 + 1 * 20 + 4.5) * (0.7 + 1) FS = (0.7 + 0.48 + 175 + 20 + 4.5) * 1.7 FS = 202.68 * 1.7 ≈ 343.47
-
-### 1.2.4. Final Result
-
-FS≈343.47FS ≈ 343.47
-
-> Higher FS values indicate a greater chance the post will be shown to users on the platform.
+$$
+FS=(1\cdot 0.7+0.8\cdot 0.6+175+1\cdot 20+4.5)\cdot(0.7+1)\approx 343.47
+$$

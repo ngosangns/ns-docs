@@ -25,7 +25,7 @@ tags:
 
 - https://github.com/dvershinin/gixy: NGINX configuration static analyzer
 
-### 1.1.1. nginx-love: [https://github.com/TinyActive/nginx-love](https://github.com/TinyActive/nginx-love)
+### 1.1.1. nginx-love: https://github.com/TinyActive/nginx-love
 
 - **Mục đích:**  
    Phần mềm quản lý Nginx nâng cao tích hợp ModSecurity WAF, quản lý domain, SSL, giám sát theo thời gian thực. Thiết kế đơn giản, thân thiện, phù hợp cá nhân và doanh nghiệp để cấu hình load balancer, bảo mật web dễ dàng.

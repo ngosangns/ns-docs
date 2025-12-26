@@ -51,7 +51,7 @@ Chỗ đi chơi
   
 Cắm trái  
   
-[https://voz.vn/t/chia-se-kinh-nghiem-di-camping-cam-trai-cho-nguoi-moi.175142/](https://voz.vn/t/chia-se-kinh-nghiem-di-camping-cam-trai-cho-nguoi-moi.175142/)  
+https://voz.vn/t/chia-se-kinh-nghiem-di-camping-cam-trai-cho-nguoi-moi.175142/  
 —  
 Caffe: Nhà của Gạo, photo bike coffee, gọi gió  
 Bệnh viện 2 Lâm Đồng  

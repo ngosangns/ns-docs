@@ -15,6 +15,8 @@ tags:
   - cli
   - vs-code-extensions
   - devin-ai
+aliases:
+  - AI support for coding - MCP - Agent
 ---
 
 # 1. Resources
@@ -25,11 +27,11 @@ tags:
 
 - SQL query generator with database schema context: https://github.com/sqlchat/sqlchat
 - [eli64s/readme-ai: README file generator, powered by AI.](https://github.com/eli64s/readme-ai)
-- [https://github.com/microsoft/NLWeb](https://github.com/microsoft/NLWeb)
+- https://github.com/microsoft/NLWeb
 - Tạo giao diện cho website:
   - [https://library.relume.io](https://library.relume.io/) #webUI
   - [https://same.new](https://same.new/)
-  - Tool tương tự figma: [https://github.com/onlook-dev/onlook](https://github.com/onlook-dev/onlook)
+  - Tool tương tự figma: https://github.com/onlook-dev/onlook
 - Agent File: Agent File (.af) là định dạng mở để tuần tự hóa trạng thái của AI agent có bộ nhớ và hành vi liên tục. Nó gói gọn các thành phần của agent (lệnh hệ thống, bộ nhớ, cấu hình công cụ, cài đặt mô hình ngôn ngữ) trong một file duy nhất.
   - Chức năng chính:
     - Tuần tự hóa trạng thái: Lưu toàn bộ cấu hình, bộ nhớ, lịch sử, công cụ.
