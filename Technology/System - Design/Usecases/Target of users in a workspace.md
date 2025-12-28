@@ -9,6 +9,7 @@ tags:
   - vietnamese
   - workspace
 ---
+
 # Một số khái niệm
 
 ## **Orther**
@@ -45,19 +46,19 @@ tags:
 - **Expected Achievement:** Số điểm thực sự mà một user sẽ kiếm được nếu hoàn thành tất cả các task đã đăng ký trong một period (hiện tại là tháng). Điểm này dựa vào **Expected Output** và **Net working days all-inclusive** của một user. Điểm này tùy thuộc vào từng user
 - **Planned Output**
 
-| Group | Name | Code | Formula |
-| --- | --- | --- | --- |
-| Orther | Total working days in month | workingday |  |
-| Orther | Net working days all-inclusive | net_workingday |  |
-| Target | Goal | goal |  |
-| Scene | Total Points | target_point |  |
-| Target & Scene | Contribution Ratio | contribution_ratio |  |
-| Target & Scene period (month) | Unlocked Points | collected_point |  |
-| Target period (month) | Total Output | total_collected_point |  |
-| Target period (month) | Expected Output | total_pending_point |  |
-| Target period (month) | Levels unlocked | unlocked_level |  |
-| Target period (month) | Levels expected to unlock | expected_level |  |
-| Target period (month) | All-inclusive Goal | adjusted_goal | goal / workingday * net_workingday |
-| Target period (month) | Achievement | achievement | total_collected_point / adjusted_goal |
-| Target period (month) | Expected Achievement | expected_achievement | (total_collected_point + total_pending_point) / adjusted_goal |
-| Target period (month) | Planned Output | planned_output | adjusted_goal * net_workingday / net_workingday |
+| Group                         | Name                           | Code                  | Formula                                                       |
+| ----------------------------- | ------------------------------ | --------------------- | ------------------------------------------------------------- |
+| Orther                        | Total working days in month    | workingday            |                                                               |
+| Orther                        | Net working days all-inclusive | net_workingday        |                                                               |
+| Target                        | Goal                           | goal                  |                                                               |
+| Scene                         | Total Points                   | target_point          |                                                               |
+| Target & Scene                | Contribution Ratio             | contribution_ratio    |                                                               |
+| Target & Scene period (month) | Unlocked Points                | collected_point       |                                                               |
+| Target period (month)         | Total Output                   | total_collected_point |                                                               |
+| Target period (month)         | Expected Output                | total_pending_point   |                                                               |
+| Target period (month)         | Levels unlocked                | unlocked_level        |                                                               |
+| Target period (month)         | Levels expected to unlock      | expected_level        |                                                               |
+| Target period (month)         | All-inclusive Goal             | adjusted_goal         | goal / workingday \* net_workingday                           |
+| Target period (month)         | Achievement                    | achievement           | total_collected_point / adjusted_goal                         |
+| Target period (month)         | Expected Achievement           | expected_achievement  | (total_collected_point + total_pending_point) / adjusted_goal |
+| Target period (month)         | Planned Output                 | planned_output        | adjusted_goal \* net_workingday / net_workingday              |

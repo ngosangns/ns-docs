@@ -1,5 +1,5 @@
 ---
-relates: 
+relates:
 tags:
   - vitamin-c
   - bha
@@ -7,6 +7,7 @@ tags:
   - salicylic-acid
   - skincare
 ---
+
 # 1. ngosangns' routine (bệnh viện da liễu)
 
 Sáng:
@@ -41,7 +42,7 @@ Tắm:
 | [Nivea] Makeup clear micellar water |                                                               |                      |
 | Senka all clear water               |                                                               |                      |
 | Hanajirushi                         |                                                               |                      |
-| Bioderma hồng / LRP                |                                                               |                      |
+| Bioderma hồng / LRP                 |                                                               |                      |
 | Hanajirushi                         | Giá tốt                                                       | Chỉ dùng cho da khỏe |
 | Perfect Diary                       | Giá tốt                                                       | Chỉ dùng cho da khỏe |
 | Garnier Micellar Cleansing Water    | Dịu nhẹ, không chứa cồn, phù hợp với cả da nhạy cảm           |                      |
@@ -69,60 +70,60 @@ Tắm:
 
 # 7. Serum
 
-| Tên                                    | Điểm tốt                                                                                               | Điểm hại |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------- |
-| Innisfree green tea seed serum         |                                                                                                        |          |
-| [iS Clinical] Active serum             |                                                                                                        |          |
-| [Only Minerals] Extra serum            |                                                                                                        |          |
-| Kiehl dark sport                       |                                                                                                        |          |
+| Tên                                    | Điểm tốt                                                                                  | Điểm hại |
+| -------------------------------------- | ----------------------------------------------------------------------------------------- | -------- |
+| Innisfree green tea seed serum         |                                                                                           |          |
+| [iS Clinical] Active serum             |                                                                                           |          |
+| [Only Minerals] Extra serum            |                                                                                           |          |
+| Kiehl dark sport                       |                                                                                           |          |
 | Shark Sauce                            | (chứa Nia + B5, cấp ẩm, đều màu da, hỗ trợ trị mụn) / Loveisderma (B5 cấp ẩm phục hồi da) |          |
-| Oz Natural Vitamin C                   |                                                                                                        |          |
-| The Ordinary Niacinamide 10% + Zinc 1% |                                                                                                        |          |
-| SkinCeuticals Blemish + Age Defense    |                                                                                                        |          |
+| Oz Natural Vitamin C                   |                                                                                           |          |
+| The Ordinary Niacinamide 10% + Zinc 1% |                                                                                           |          |
+| SkinCeuticals Blemish + Age Defense    |                                                                                           |          |
 
 ## 7.1. Retinol (này là vitamin A)
 
-* Trị mụn.  
-* Chống lão hoá.  
-* Hồi phục các tổn hại do nắng.  
-* Giảm mất collagen.  
-* Giảm nhăn.  
-=> món này chỉ dùng buổi tối vì bản thân nó làm mòn da, khiến da yếu => chỉ nên dùng khi ở nhà, tối là tiện nhất vì sáng dùng vitamin C rồi, mà retinol với vitamin C đánh nhau. Nổi tiếng nhất mà tốt thì có NeoStrata Retinol.
+- Trị mụn.
+- Chống lão hoá.
+- Hồi phục các tổn hại do nắng.
+- Giảm mất collagen.
+- Giảm nhăn.  
+  => món này chỉ dùng buổi tối vì bản thân nó làm mòn da, khiến da yếu => chỉ nên dùng khi ở nhà, tối là tiện nhất vì sáng dùng vitamin C rồi, mà retinol với vitamin C đánh nhau. Nổi tiếng nhất mà tốt thì có NeoStrata Retinol.
 
 ## 7.2. Vitamin C
 
-* Chống lão hoá bằng cách cung cấp electron cho gốc tự do.  
-* Giảm đốm da.  
-* Làm sáng da bằng cách làm tan các tế bào melanin tạo màu da.  
-* Kích thích cơ thể sản xuất collagen.  
-* Làm săn da do collagen.  
-* Bảo vệ khỏi tia cực tím UVA, UVB.  
-* Chống nhăn.  
-* Tẩy tế bào chết nhẹ.  
-* Giữ da không bị bào mỏng.  
-=> nên dùng vào buổi sáng, sau đó mới apply kem chống nắng lên. Vitamin C xịn thì rất đắt, xịn nhất là SkinCeuticals C E Ferulic, rẻ hơn mà chất serum nhẹ nhàng dễ thấm để layer thì có bọn Maelove Glow Maker, dupe của con trên (so với timeless vitamin C thì con Maelove thích cực, đã được dùng ké !)
+- Chống lão hoá bằng cách cung cấp electron cho gốc tự do.
+- Giảm đốm da.
+- Làm sáng da bằng cách làm tan các tế bào melanin tạo màu da.
+- Kích thích cơ thể sản xuất collagen.
+- Làm săn da do collagen.
+- Bảo vệ khỏi tia cực tím UVA, UVB.
+- Chống nhăn.
+- Tẩy tế bào chết nhẹ.
+- Giữ da không bị bào mỏng.  
+  => nên dùng vào buổi sáng, sau đó mới apply kem chống nắng lên. Vitamin C xịn thì rất đắt, xịn nhất là SkinCeuticals C E Ferulic, rẻ hơn mà chất serum nhẹ nhàng dễ thấm để layer thì có bọn Maelove Glow Maker, dupe của con trên (so với timeless vitamin C thì con Maelove thích cực, đã được dùng ké !)
 
 ## 7.3. Niacinamide và Niacin (thường được biết đến là Vitamin B3)
 
-* Giữ nước => dưỡng ẩm.
-* Làm trắng da.
-* Giảm da không đều màu.  
-* Kích thích cơ thể sản xuất collagen.
-* Hệ quả của collagen là giảm nếp nhăn.
-* Trị mụn nhẹ.
-* Giảm đỏ da.
-* Trị nám.
-* Giảm nguy cơ ung thư da do nắng.
-=> cái này thì khá phổ biến, nhiều hãng làm đc. Rẻ thì có bọn ordinary dùng đc nhưng chất serum nhớt và mùi dược phẩm.
+- Giữ nước => dưỡng ẩm.
+- Làm trắng da.
+- Giảm da không đều màu.
+- Kích thích cơ thể sản xuất collagen.
+- Hệ quả của collagen là giảm nếp nhăn.
+- Trị mụn nhẹ.
+- Giảm đỏ da.
+- Trị nám.
+- Giảm nguy cơ ung thư da do nắng.
+  => cái này thì khá phổ biến, nhiều hãng làm đc. Rẻ thì có bọn ordinary dùng đc nhưng chất serum nhớt và mùi dược phẩm.
 
 ## 7.4. Copper peptide
 
-* Kích thích cơ thể tổng hợp collagen mạnh hơn Retin-A và Vitamin C.
-* Giúp tổng hợp elastin và hyaluronic acid. Elastin làm da đàn hồi. Hyaluronic acid làm da ẩm.
-* Tạo enzyme superoxide dismutase, lysyl oxidase. Những món này kích thích collagen.
-* Làm lành vết thương.
-* Kích mọc tóc.
-=> cái này ở mình thì ít thấy, cái phổ biến nhất em thấy là con Buffet + Copper Peptides 1% (lọ màu cánh gián) của ordinary.
+- Kích thích cơ thể tổng hợp collagen mạnh hơn Retin-A và Vitamin C.
+- Giúp tổng hợp elastin và hyaluronic acid. Elastin làm da đàn hồi. Hyaluronic acid làm da ẩm.
+- Tạo enzyme superoxide dismutase, lysyl oxidase. Những món này kích thích collagen.
+- Làm lành vết thương.
+- Kích mọc tóc.
+  => cái này ở mình thì ít thấy, cái phổ biến nhất em thấy là con Buffet + Copper Peptides 1% (lọ màu cánh gián) của ordinary.
 
 ## 7.5. Peptide và amino acids
 
@@ -131,18 +132,18 @@ Giống Copper peptides, nhưng bản thân nó là thành phần cấu thành c
 
 # 8. Kem chống nắng
 
-| Tên                                                  | Điểm tốt                                                      | Điểm hại        |
-| ---------------------------------------------------- | ------------------------------------------------------------- | --------------- |
-| Clarin                                               |                                                               |                 |
-| La roche posay                                       |                                                               |                 |
-| [Anessa] dạng milk                                   |                                                               |                 |
-| Make P:rem                                           | kiềm dầu tốt                                               | khó tẩy trang |
-| thefaceshop                                          |                                                               |                 |
-| nivea                                                |                                                               |                 |
-| Vichy                                                |                                                               |                 |
-| La Roche-Posay Anthelios Dry Touch Gel-Cream SPF 50+ | Kiểm soát dầu tốt, không gây bết dính, không để lại vệt trắng |                 |
-| Eucerin Sun Oil Control SPF 50+                      | Kiềm dầu, không gây mụn, có khả năng chống oxy hóa            |                 |
-| Annessa                                              |                                                               |                 |
+| Tên                                                  | Điểm tốt                                                      | Điểm hại      |
+| ---------------------------------------------------- | ------------------------------------------------------------- | ------------- |
+| Clarin                                               |                                                               |               |
+| La roche posay                                       |                                                               |               |
+| [Anessa] dạng milk                                   |                                                               |               |
+| Make P:rem                                           | kiềm dầu tốt                                                  | khó tẩy trang |
+| thefaceshop                                          |                                                               |               |
+| nivea                                                |                                                               |               |
+| Vichy                                                |                                                               |               |
+| La Roche-Posay Anthelios Dry Touch Gel-Cream SPF 50+ | Kiểm soát dầu tốt, không gây bết dính, không để lại vệt trắng |               |
+| Eucerin Sun Oil Control SPF 50+                      | Kiềm dầu, không gây mụn, có khả năng chống oxy hóa            |               |
+| Annessa                                              |                                                               |               |
 
 # 9. Dầu gội - Dầu xả
 
@@ -159,7 +160,7 @@ Giống Copper peptides, nhưng bản thân nó là thành phần cấu thành c
 | red peel (hóa học)                                       |          |          |
 | Yves (vật lý)                                            |          |          |
 | Paula's Choice BHA Liquid 2% (hóa học)                   |          |          |
-| acid mandelic của Dr Wu / For Beloved One (hóa học)     |          |          |
+| acid mandelic của Dr Wu / For Beloved One (hóa học)      |          |          |
 | St. Ives Blemish Control Apricot Scrub (vật lý)          |          |          |
 | Neutrogena Deep Clean Gentle Scrub                       |          |          |
 | The Ordinary AHA 30% + BHA 2% Peeling Solution (hóa học) |          |          |
@@ -171,7 +172,7 @@ Giống Copper peptides, nhưng bản thân nó là thành phần cấu thành c
 | ------------------------------------------------ | ------------- | -------- |
 | [Laneige] water bank hydro cream ex              |               |          |
 | Belif Aqua Bomb                                  |               |          |
-| thạch đặc trị của Sheaghana                  |               |          |
+| thạch đặc trị của Sheaghana                      |               |          |
 | Clinique Dramatically Different Moisturizing Gel |               |          |
 | Isntree Green Tea Fresh Emulsion                 | Giảm dầu nhờn |          |
 
@@ -229,55 +230,49 @@ Chào bạn, da dầu rất cần được chăm sóc kỹ lưỡng �
 **1. Tẩy trang:**
 
 - **Dầu tẩy trang (Cleansing Oil):** Dầu tẩy trang giúp loại bỏ lớp makeup và bụi bẩn hiệu quả mà không làm khô da.
-    
-    - **Gợi ý:** Dầu tẩy trang Hada Labo Gokujyun, DHC Deep Cleansing Oil, Shu Uemura Cleansing Oil.
-        
+  - **Gợi ý:** Dầu tẩy trang Hada Labo Gokujyun, DHC Deep Cleansing Oil, Shu Uemura Cleansing Oil.
 - **Nước tẩy trang (Micellar Water):** Nước tẩy trang dịu nhẹ, phù hợp với lớp makeup nhẹ nhàng hàng ngày.
-    
-    - **Gợi ý:** Bioderma Sebium H2O, La Roche-Posay Effaclar Micellar Water.
-        
+  - **Gợi ý:** Bioderma Sebium H2O, La Roche-Posay Effaclar Micellar Water.
 
 **2. Máy rửa mặt:**
 
 - **Máy rửa mặt Foreo Luna mini 3:** Vừa làm sạch sâu, loại bỏ dầu thừa hiệu quả vừa massage giúp da săn chắc hơn.
-    
 - **Máy rửa mặt Halio Facial Cleansing & Massaging Device:** Giá thành bình dân hơn nhưng vẫn đảm bảo hiệu quả làm sạch tốt.
-    
 
 **3. Sữa rửa mặt:**
 
 - **Sữa rửa mặt tạo bọt (Foaming Cleanser):** Làm sạch sâu lỗ chân lông, loại bỏ dầu thừa hiệu quả.
-    - **Gợi ý:** Cerave Foaming Facial Cleanser, Cetaphil Dermacontrol Oil Removing Foam Wash.
+  - **Gợi ý:** Cerave Foaming Facial Cleanser, Cetaphil Dermacontrol Oil Removing Foam Wash.
 - **Sữa rửa mặt dạng gel (Gel Cleanser):** Dịu nhẹ, làm sạch da mà không gây khô căng.
-    - **Gợi ý:** La Roche-Posay Effaclar Purifying Foaming Gel Cleanser, Paula’s Choice Skin Balancing Cleanser.
+  - **Gợi ý:** La Roche-Posay Effaclar Purifying Foaming Gel Cleanser, Paula’s Choice Skin Balancing Cleanser.
 
 **4. Tẩy tế bào chết:**
 
 - **Tẩy tế bào chết vật lý (Physical Exfoliator):** Sử dụng các hạt scrub để loại bỏ tế bào chết. Nên chọn loại hạt scrub nhỏ, mịn để tránh gây tổn thương da.
-    - **Gợi ý:** St.Ives Apricot Scrub, The Body Shop Tea Tree Squeaky-Clean Scrub.
+  - **Gợi ý:** St.Ives Apricot Scrub, The Body Shop Tea Tree Squeaky-Clean Scrub.
 - **Tẩy tế bào chết hóa học (Chemical Exfoliator):** Sử dụng các thành phần acid (AHA/BHA) để loại bỏ tế bào chết, làm thông thoáng lỗ chân lông.
-    - **Gợi ý:** Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant, The Ordinary AHA 30% + BHA 2% Peeling Solution (chỉ nên sử dụng 1-2 lần/tuần).
+  - **Gợi ý:** Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant, The Ordinary AHA 30% + BHA 2% Peeling Solution (chỉ nên sử dụng 1-2 lần/tuần).
 
 **5. Toner:**
 
 - **Toner chứa BHA (Salicylic Acid):** Giúp kiểm soát dầu thừa, ngăn ngừa mụn hiệu quả.
-    - **Gợi ý:** Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant (có thể dùng như toner sau bước rửa mặt), Some By Mi AHA-BHA-PHA 30 Days Miracle Toner.
+  - **Gợi ý:** Paula’s Choice Skin Perfecting 2% BHA Liquid Exfoliant (có thể dùng như toner sau bước rửa mặt), Some By Mi AHA-BHA-PHA 30 Days Miracle Toner.
 - **Toner dưỡng ẩm (Hydrating Toner):** Cung cấp độ ẩm cho da sau bước làm sạch.
-    - **Gợi ý:** Klairs Supple Preparation Facial Toner, Thayers Alcohol-Free Rose Petal Witch Hazel Toner.
+  - **Gợi ý:** Klairs Supple Preparation Facial Toner, Thayers Alcohol-Free Rose Petal Witch Hazel Toner.
 
 **6. Serum:**
 
 - **Serum Niacinamide:** Kiểm soát dầu thừa, se khít lỗ chân lông, giảm thâm mụn.
-    - **Gợi ý:** The Ordinary Niacinamide 10% + Zinc 1%, SkinCeuticals Discoloration Defense Serum.
+  - **Gợi ý:** The Ordinary Niacinamide 10% + Zinc 1%, SkinCeuticals Discoloration Defense Serum.
 - **Serum Vitamin C:** Chống oxy hóa, làm sáng da, mờ thâm.
-    - **Gợi ý:** Mad Hippie Vitamin C Serum, Timeless Vitamin C + E Ferulic Acid Serum.
+  - **Gợi ý:** Mad Hippie Vitamin C Serum, Timeless Vitamin C + E Ferulic Acid Serum.
 
 **7. Kem chống nắng:**
 
 - **Kem chống nắng hóa học (Chemical Sunscreen):** Thẩm thấu nhanh, không gây bí da.
-    - **Gợi ý:** Anessa Perfect UV Sunscreen Skincare Milk, La Roche-Posay Anthelios Clear Skin Dry Touch Sunscreen SPF 60.
+  - **Gợi ý:** Anessa Perfect UV Sunscreen Skincare Milk, La Roche-Posay Anthelios Clear Skin Dry Touch Sunscreen SPF 60.
 - **Kem chống nắng vật lý (Mineral Sunscreen):** An toàn, lành tính, phù hợp với da nhạy cảm.
-    - **Gợi ý:** EltaMD UV Physical Broad-Spectrum SPF 41 Tinted Facial Sunscreen.
+  - **Gợi ý:** EltaMD UV Physical Broad-Spectrum SPF 41 Tinted Facial Sunscreen.
 
 **Lưu ý:**
 
@@ -298,7 +293,7 @@ Chúc bạn tìm được bộ sản phẩm phù hợp và có làn 
 
 Chào bạn, mình xin gợi ý một số loại kem chống nắng dạng lỏng nhẹ, chứa các oxide kim loại và có khả năng chống nắng tốt, phù hợp với làn da dễ bị bí tắc lỗ chân lông:
 
-1. **EltaMD UV Physical Broad-Spectrum SPF 41:
+1. \*\*EltaMD UV Physical Broad-Spectrum SPF 41:
 
 - Chứa 9% kẽm oxide và 7% titanium dioxide, giúp bảo vệ da khỏi cả tia UVA và UVB.
 - Kết cấu nhẹ, thấm nhanh, không gây nhờn rít hay bí tắc lỗ chân lông.
@@ -370,21 +365,18 @@ Chúc bạn tìm được sản phẩm phù hợp và có một làn da khỏe m
 - **Bioderma Sensibio H2O:** Nhẹ nhàng, phù hợp với cả da nhạy cảm.
 - **La Roche-Posay Effaclar Micellar Water Ultra:** Kiểm soát dầu thừa, dành riêng cho da dầu mụn.
 - **Garnier Micellar Cleansing Water:** Giá cả phải chăng, nhiều dòng cho bạn lựa chọn.
-    
 
 **2. Sữa rửa mặt:**
 
 - **Cerave Foaming Facial Cleanser:** Làm sạch dịu nhẹ, không gây khô da.
 - **Cetaphil Gentle Skin Cleanser:** Phù hợp với da nhạy cảm, không chứa xà phòng.
 - **La Roche-Posay Effaclar Purifying Foaming Gel Cleanser:** Kiểm soát dầu, làm sạch sâu lỗ chân lông.
-    
 
 **3. Toner không cồn:**
 
 - **Thayers Alcohol-Free Witch Hazel Toner:** Làm dịu da, se khít lỗ chân lông.
 - **Klairs Supple Preparation Facial Toner:** Cấp ẩm, cân bằng độ pH cho da.
 - **Paula's Choice Skin Balancing Pore-Reducing Toner:** Kiểm soát dầu, thu nhỏ lỗ chân lông.
-    
 
 **4. Dưỡng ẩm dạng lỏng hoặc gel:**
 
@@ -428,7 +420,6 @@ Bạn có thể tham khảo thêm ý kiến của chuyên gia da li�
 
 # 24. Gợi ý của ChatGPT
 
-
 Để lựa chọn sản phẩm chăm sóc da có hiệu quả tốt cho da dầu, bạn cần cân nhắc những yếu tố như không gây tắc nghẽn lỗ chân lông (non-comedogenic), kiềm dầu, và có khả năng kiểm soát bã nhờn. Dưới đây là gợi ý về combo kem chống nắng, serum, nước tẩy trang, toner, máy rửa mặt, tẩy tế bào chết bằng vật lý và hóa học phù hợp:
 
 1. Kem chống nắng:
@@ -466,24 +457,28 @@ Hy vọng những gợi ý này sẽ giúp bạn xây dựng một quy trình ch
 Để xây dựng một quy trình chăm sóc da với các sản phẩm làm sạch và dưỡng có chứa các acid nhẹ như BHA, AHA, PHA, đồng thời giữ độ ẩm cho da, bạn có thể tham khảo combo sản phẩm sau:
 
 1. **Nước tẩy trang**:
-    
-    - **Bioderma Sensibio H2O Micellar Water**: Làm sạch nhẹ nhàng, phù hợp cho da nhạy cảm, không gây khô da.
+
+   - **Bioderma Sensibio H2O Micellar Water**: Làm sạch nhẹ nhàng, phù hợp cho da nhạy cảm, không gây khô da.
+
 2. **Sữa rửa mặt**:
-    
-    - **COSRX Low pH Good Morning Gel Cleanser**: Chứa BHA (Betaine Salicylate), giúp làm sạch da hiệu quả mà không làm mất đi độ ẩm tự nhiên của da.
-    - **CeraVe Hydrating Cleanser**: Không chứa acid nhưng rất tốt cho việc giữ ẩm sau khi rửa mặt, phù hợp cho da khô và nhạy cảm.
+
+   - **COSRX Low pH Good Morning Gel Cleanser**: Chứa BHA (Betaine Salicylate), giúp làm sạch da hiệu quả mà không làm mất đi độ ẩm tự nhiên của da.
+   - **CeraVe Hydrating Cleanser**: Không chứa acid nhưng rất tốt cho việc giữ ẩm sau khi rửa mặt, phù hợp cho da khô và nhạy cảm.
+
 3. **Toner**:
-    
-    - **Some By Mi AHA-BHA-PHA 30 Days Miracle Toner**: Kết hợp cả AHA, BHA, và PHA, giúp tẩy tế bào chết nhẹ nhàng và cân bằng độ ẩm cho da.
-    - **Klairs Supple Preparation Unscented Toner**: Giúp dưỡng ẩm sâu, làm dịu da và chuẩn bị da cho các bước dưỡng tiếp theo.
+
+   - **Some By Mi AHA-BHA-PHA 30 Days Miracle Toner**: Kết hợp cả AHA, BHA, và PHA, giúp tẩy tế bào chết nhẹ nhàng và cân bằng độ ẩm cho da.
+   - **Klairs Supple Preparation Unscented Toner**: Giúp dưỡng ẩm sâu, làm dịu da và chuẩn bị da cho các bước dưỡng tiếp theo.
+
 4. **Tẩy tế bào chết**:
-    
-    - **COSRX AHA 7 Whitehead Power Liquid**: Chứa 7% Glycolic Acid (AHA), giúp tẩy tế bào chết nhẹ nhàng, làm sáng da.
-    - **Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant**: Chứa 2% Salicylic Acid (BHA), giúp làm sạch sâu lỗ chân lông và giảm mụn.
+
+   - **COSRX AHA 7 Whitehead Power Liquid**: Chứa 7% Glycolic Acid (AHA), giúp tẩy tế bào chết nhẹ nhàng, làm sáng da.
+   - **Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant**: Chứa 2% Salicylic Acid (BHA), giúp làm sạch sâu lỗ chân lông và giảm mụn.
+
 5. **Dưỡng ẩm gốc nước**:
-    
-    - **Neutrogena Hydro Boost Water Gel**: Dưỡng ẩm sâu, thẩm thấu nhanh, không gây bết dính, phù hợp cho mọi loại da.
-    - **Laneige Water Bank Hydro Gel**: Dưỡng ẩm nhẹ nhàng, cung cấp độ ẩm dài lâu cho da.
+
+   - **Neutrogena Hydro Boost Water Gel**: Dưỡng ẩm sâu, thẩm thấu nhanh, không gây bết dính, phù hợp cho mọi loại da.
+   - **Laneige Water Bank Hydro Gel**: Dưỡng ẩm nhẹ nhàng, cung cấp độ ẩm dài lâu cho da.
 
 Khi sử dụng các sản phẩm chứa acid, nhớ thử nghiệm trên một vùng nhỏ của da trước khi áp dụng toàn mặt để đảm bảo không bị kích ứng. Ngoài ra, luôn sử dụng kem chống nắng vào ban ngày để bảo vệ da khỏi tác hại của tia UV, vì các acid như AHA và BHA có thể làm da nhạy cảm hơn với ánh nắng mặt trời.
 

@@ -19,31 +19,29 @@ tags:
 
 - **Hình thức:** to + động từ nguyên thể (ví dụ: to eat, to sleep, to go).
 - **Chức năng:**
-    - Làm chủ ngữ trong câu: To learn English is important. (Học tiếng Anh là quan trọng.)
-    - Làm tân ngữ của động từ: I want to travel the world. (Tôi muốn đi du lịch vòng quanh thế giới.)
-    - Làm bổ ngữ cho danh từ: His dream is to become a doctor. (Ước mơ của anh ấy là trở thành bác sĩ.)
-    - Làm bổ ngữ cho tính từ: It is difficult to understand him. (Thật khó hiểu anh ta.)
-    - Làm trạng từ chỉ mục đích: She went to the store to buy some milk. (Cô ấy đến cửa hàng để mua sữa.)
+  - Làm chủ ngữ trong câu: To learn English is important. (Học tiếng Anh là quan trọng.)
+  - Làm tân ngữ của động từ: I want to travel the world. (Tôi muốn đi du lịch vòng quanh thế giới.)
+  - Làm bổ ngữ cho danh từ: His dream is to become a doctor. (Ước mơ của anh ấy là trở thành bác sĩ.)
+  - Làm bổ ngữ cho tính từ: It is difficult to understand him. (Thật khó hiểu anh ta.)
+  - Làm trạng từ chỉ mục đích: She went to the store to buy some milk. (Cô ấy đến cửa hàng để mua sữa.)
 
 **2. Danh động từ (Gerund):**
 
 - **Hình thức:** động từ thêm -ing (ví dụ: eating, sleeping, going).
 - **Chức năng:**
-    - Làm chủ ngữ trong câu: Swimming is good exercise. (Bơi lội là một bài tập tốt.)
-    - Làm tân ngữ của động từ: I enjoy reading books. (Tôi thích đọc sách.)
-    - Làm tân ngữ của giới từ: He is good at playing the piano. (Anh ấy giỏi chơi piano.)
+  - Làm chủ ngữ trong câu: Swimming is good exercise. (Bơi lội là một bài tập tốt.)
+  - Làm tân ngữ của động từ: I enjoy reading books. (Tôi thích đọc sách.)
+  - Làm tân ngữ của giới từ: He is good at playing the piano. (Anh ấy giỏi chơi piano.)
 
 **3. Phân biệt động từ nguyên mẫu và danh động từ:**
 
 - **Sau một số động từ nhất định:**
-    
-    - Một số động từ chỉ có thể đi kèm với động từ nguyên mẫu (ví dụ: want, decide, hope, agree, refuse, promise, plan, learn, expect, afford,...).
-    - Một số động từ chỉ có thể đi kèm với danh động từ (ví dụ: enjoy, mind, finish, avoid, consider, suggest, deny, admit, miss, risk,...).
-    - Một số động từ có thể đi kèm với cả động từ nguyên mẫu và danh động từ, nhưng nghĩa của câu sẽ thay đổi (ví dụ: remember, forget, regret, stop, try,...).
+  - Một số động từ chỉ có thể đi kèm với động từ nguyên mẫu (ví dụ: want, decide, hope, agree, refuse, promise, plan, learn, expect, afford,...).
+  - Một số động từ chỉ có thể đi kèm với danh động từ (ví dụ: enjoy, mind, finish, avoid, consider, suggest, deny, admit, miss, risk,...).
+  - Một số động từ có thể đi kèm với cả động từ nguyên mẫu và danh động từ, nhưng nghĩa của câu sẽ thay đổi (ví dụ: remember, forget, regret, stop, try,...).
 - **Sau một số cụm từ nhất định:**
-    
-    - Một số cụm từ chỉ có thể đi kèm với động từ nguyên mẫu (ví dụ: be able to, be about to, be going to, in order to, so as to,...).
-    - Một số cụm từ chỉ có thể đi kèm với danh động từ (ví dụ: be used to, be accustomed to, be good at, be bad at, be interested in, look forward to,...).
+  - Một số cụm từ chỉ có thể đi kèm với động từ nguyên mẫu (ví dụ: be able to, be about to, be going to, in order to, so as to,...).
+  - Một số cụm từ chỉ có thể đi kèm với danh động từ (ví dụ: be used to, be accustomed to, be good at, be bad at, be interested in, look forward to,...).
 
 **4. Một số lưu ý khác:**
 

@@ -10,23 +10,23 @@ tags:
 ---
 
 - Tổng hợp:
-    - https://dailydictation.com
+  - https://dailydictation.com
 - Nghe nói:
-    - Elsa Speak: https://elsaspeak.com/en
-    - VOA: https://www.youtube.com/user/VOALearningEnglish (nghe và viết lại câu)
-    - TED: https://www.ted.com/ (nên nghe 1 lần không phụ đề và nghe lại 1 lần nữa có phụ đề)
+  - Elsa Speak: https://elsaspeak.com/en
+  - VOA: https://www.youtube.com/user/VOALearningEnglish (nghe và viết lại câu)
+  - TED: https://www.ted.com/ (nên nghe 1 lần không phụ đề và nghe lại 1 lần nữa có phụ đề)
 - Giao tiếp:
-    - https://www.cambly.com
+  - https://www.cambly.com
 - Ngữ pháp:
-    - Grammarly: https://app.grammarly.com
-    - https://www.englishgrammar.org
-    - https://www.englishgrammar101.com
-    - https://www.ego4u.com/en/cram-up/grammarr
+  - Grammarly: https://app.grammarly.com
+  - https://www.englishgrammar.org
+  - https://www.englishgrammar101.com
+  - https://www.ego4u.com/en/cram-up/grammarr
 - Từ vựng:
-    - Memrise: https://www.memrise.com
-    - https://www.toeicmoingay.com/tu-vung
+  - Memrise: https://www.memrise.com
+  - https://www.toeicmoingay.com/tu-vung
 - Hỗ trợ:
-    - ChatGPT: https://chat.openai.com/chat
+  - ChatGPT: https://chat.openai.com/chat
 
 Luyện thi:
 

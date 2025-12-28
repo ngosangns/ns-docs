@@ -80,4 +80,4 @@ tags:
 18. Càng nghĩ rằng mình đúng thì càng không biết gì. Có một mối tương quan trực tiếp giữa việc thoải mái đón nhận những luồng ý tưởng khác biệt và mức độ hiểu biết. Bertrand Russell đã nói: “Thế giới này gặp vấn đề là vì mấy thằng ngu thì cứ chắc chắn, còn những người thông minh lại hay nghi ngờ.”
 19. Thứ duy nhất chắc chắn là không điều gì là chắc chắn. Tôi nhận ra điều này năm 17 tuổi, và khi đó suýt nữa thì tôi điên luôn.
 20. Thứ duy nhất không thay đổi là sự thay đổi. Đây là một câu nói có vẻ như quá rõ ràng, nhưng thực sự lại không có nghĩa gì rõ ràng cả. Nhưng… nó đúng!
-Nguồn: Ecoblader
+    Nguồn: Ecoblader

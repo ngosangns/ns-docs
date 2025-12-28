@@ -14,9 +14,11 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 # 1. Ghi chú về Rust
 
 ## 1.1. Thư viện (Libraries)
+
 ### 1.1.1. Mạng và Web
 
 - teloxide - Một framework thanh lịch để xây dựng bot Telegram bằng Rust: https://github.com/teloxide/teloxide #Telegram #Bot #Rust
@@ -62,6 +64,7 @@ Nannou là một framework mã nguồn mở dành cho lập trình sáng tạo (
 Nannou được lấy cảm hứng từ các framework nổi tiếng như Processing, OpenFrameworks và Cinder, nhưng được thiết kế dành riêng cho Rust, nhằm tận dụng các ưu điểm của Rust trong việc phát triển ứng dụng sáng tạo.
 
 Các tính năng chính của Nannou bao gồm:
+
 - Hỗ trợ phát triển ứng dụng đồ họa, sketching, giao diện người dùng, âm thanh, shader, và nhiều hơn nữa.
 - Bao gồm nhiều thư viện con như nannou_audio (xử lý âm thanh), nannou_egui (giao diện người dùng), nannou_isf (shader), nannou_laser (thiết bị LASER), nannou_mesh (xử lý lưới đồ họa), nannou_osc (giao tiếp OSC), và nannou_wgpu (hỗ trợ GPU).
 - Cung cấp các ví dụ phong phú giúp người dùng nhanh chóng làm quen và phát triển dự án.

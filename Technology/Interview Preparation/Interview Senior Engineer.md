@@ -7,6 +7,7 @@ tags:
   - senior
   - vietnamese
 ---
+
 Trải nghiệm phỏng vấn Senior Software Developer
 
 Hi mọi người,
@@ -98,9 +99,9 @@ Câu hỏi hay bị hỏi nhất: mày còn câu hỏi gì để hỏi bọn tao
 - Phương thức thăng tiến
 - Cơ hội onsite nước ngoài...
 
-8.1. Cám ơn và kết thúc
+  8.1. Cám ơn và kết thúc
 
-8.2. Gửi mail cám ơn công ty đã bỏ thời gian phỏng vấn chúng ta. Hi vọng hợp tác tương lai nếu có.
+  8.2. Gửi mail cám ơn công ty đã bỏ thời gian phỏng vấn chúng ta. Hi vọng hợp tác tương lai nếu có.
 
 =======
 

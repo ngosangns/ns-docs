@@ -17,12 +17,13 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 - Devops Training materials - Minh Monmen: https://github.com/minhpq331/devops-training
 - CI, CD và ... DevOps ??? (viblo.asia): https://viblo.asia/p/ci-cd-va-devops-07LKXYXDZV4
 - Ansible - Cài đặt các package cho server một cách tự động qua SSH: (Phần 1) Tìm hiểu về Ansible. (viblo.asia) - https://viblo.asia/p/phan-1-tim-hieu-ve-ansible-4dbZNxv85YM
 - Terraform - Infrastructure as Code - Tạo và setup server một cách tự động: Terraform Series - Viblo - https://viblo.asia/s/terraform-series-3m5WB8JvlO7
 - GraalVM: https://www.graalvm.org/ - máy ảo cho phép chạy nhiều ngôn ngữ khác nhau, ngoài ra còn hỗ trợ build java app thành mã máy (native code)
-    - GraalVM — Make Java Great Again. Sau 8 năm phát triển tích cực cuối cùng… | by Nam Vu | Medium: https://batnamv.medium.ninja/c%C3%A1ch-m%E1%BA%A1ng-h%C3%B3a-java-v%E1%BB%9Bi-graalvm-d7fe1cfa3c25
+  - GraalVM — Make Java Great Again. Sau 8 năm phát triển tích cực cuối cùng… | by Nam Vu | Medium: https://batnamv.medium.ninja/c%C3%A1ch-m%E1%BA%A1ng-h%C3%B3a-java-v%E1%BB%9Bi-graalvm-d7fe1cfa3c25
 - https://voz.vn/t/kubernetes-k8s-noi-hoc-tap-va-trao-doi-kinh-nghiem.871591
 - https://devopsvn.tech
 - [[Kubernetes - K8S]]
@@ -60,9 +61,9 @@ Chi phí phụ thuộc vào ba yếu tố chính:
 1. **Memory allocated** – càng cao, chi phí càng lớn nhưng giúp giảm thời gian thực thi.
 2. **Request count** – càng nhiều invoke thì càng tốn tiền.
 3. **Duration (execution time)** – thời gian chạy càng dài thì chi phí càng cao.
-	- Sử dụng dòng CPU ARM (Graviton) thay vì x86 để giảm giá.
-	- Dùng công cụ **AWS Lambda Power Tuning** để tìm điểm tối ưu giữa memory và execution time.
-	- Thiết lập **reserved concurrency** để giới hạn số instance và **provisioned concurrency** để giữ warm function, tránh cold starts khi có nhiều request.
+   - Sử dụng dòng CPU ARM (Graviton) thay vì x86 để giảm giá.
+   - Dùng công cụ **AWS Lambda Power Tuning** để tìm điểm tối ưu giữa memory và execution time.
+   - Thiết lập **reserved concurrency** để giới hạn số instance và **provisioned concurrency** để giữ warm function, tránh cold starts khi có nhiều request.
 
 ### 4.1.3. Bài học rút ra
 
@@ -93,14 +94,14 @@ https://github.com/beam-cloud/beta9
 
 ### 5.1.2. Ưu điểm nổi bật
 
-| Ưu điểm                           | Mô tả                                                                                 |
-|----------------------------------|--------------------------------------------------------------------------------------|
-| **Tốc độ khởi tạo container nhanh** | Container khởi chạy dưới 1 giây, phù hợp cho các workload AI cần phản hồi nhanh       |
-| **Quy mô lớn, song song cao**       | Dễ dàng phân tán workloads đến hàng trăm container để tăng throughput                  |
-| **Serverless & Scale-to-zero**      | Tự động tăng giảm tài nguyên, tiết kiệm chi phí khi không có workload                 |
-| **Hỗ trợ GPU đa dạng**               | Dùng GPU cao cấp trên cloud hoặc GPU của người dùng                                  |
-| **Developer Experience tốt**        | Hot-reloading, webhook, scheduled jobs giúp dev thao tác nhanh, hiệu quả              |
-| **Mã nguồn mở, linh hoạt**           | Có thể tự host miễn phí hoặc dùng dịch vụ cloud quản lý của Beam                       |
+| Ưu điểm                             | Mô tả                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------- |
+| **Tốc độ khởi tạo container nhanh** | Container khởi chạy dưới 1 giây, phù hợp cho các workload AI cần phản hồi nhanh |
+| **Quy mô lớn, song song cao**       | Dễ dàng phân tán workloads đến hàng trăm container để tăng throughput           |
+| **Serverless & Scale-to-zero**      | Tự động tăng giảm tài nguyên, tiết kiệm chi phí khi không có workload           |
+| **Hỗ trợ GPU đa dạng**              | Dùng GPU cao cấp trên cloud hoặc GPU của người dùng                             |
+| **Developer Experience tốt**        | Hot-reloading, webhook, scheduled jobs giúp dev thao tác nhanh, hiệu quả        |
+| **Mã nguồn mở, linh hoạt**          | Có thể tự host miễn phí hoặc dùng dịch vụ cloud quản lý của Beam                |
 
 ### 5.1.3. Use cases
 

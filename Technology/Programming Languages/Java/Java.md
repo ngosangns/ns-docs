@@ -14,6 +14,7 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 # 1. Resources
 
 - Học Spring Boot bắt đầu từ đâu?: https://viblo.asia/p/hoc-spring-boot-bat-dau-tu-dau-6J3ZgN7WKmB
@@ -38,38 +39,45 @@ tags:
 ## 1.2. Concurrency and Multithreading in Java
 
 - **Non-Blocking / Async**
+
   - CompletableFuture
   - Flow API (Java 9+)
   - Reactive (External)
 
 - **Parallelism**
+
   - Fork/Join Framework
   - Parallel Streams
   - Batch Execution
 
 - **Visibility**
+
   - volatile
   - Java Memory Model
   - Atomic Classes
   - Concepts
 
 - **Immutability**
+
   - final fields
   - Immutable Objects
   - Design Patterns
   - Collections
 
 - **Atomicity**
+
   - CAS Mechanism
   - java.util.concurrent.atomic
   - Advanced
 
 - **Mutual Exclusion**
+
   - synchronized
   - java.util.concurrent.locks
   - Concepts
 
 - **Coordination**
+
   - Object class
   - java.util.concurrent tools
   - Blocking Queues
@@ -87,7 +95,7 @@ tags:
 - Netty - asynchronous event-driven network: https://netty.io
 - Jhipster - Component generator framework: https://github.com/jhipster/generator-jhipster
 - Dagger - Dependency Injector: https://github.com/google/dagger
-	- [[Dagger & Koin]]
+  - [[Dagger & Koin]]
 
 # 3. JDKs
 
@@ -116,6 +124,7 @@ tags:
 # 5. Notes
 
 Một số thuật ngữ:
+
 - Middleware → FilterChain.
 
 # 6. Frameworks / Libraries
@@ -128,8 +137,8 @@ Một số thuật ngữ:
 
 - vertx postgresql driver: https://vertx.io/docs/vertx-pg-client/java
 - R2DBC:
-    - https://r2dbc.io
-    - Spring: https://spring.io/projects/spring-data-r2dbc
+  - https://r2dbc.io
+  - Spring: https://spring.io/projects/spring-data-r2dbc
 
 # 8. Java Concurrency
 

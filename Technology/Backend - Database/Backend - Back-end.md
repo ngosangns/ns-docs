@@ -18,6 +18,7 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 # 1. Resources
 
 - A friendly language for building type-safe, scalable systems!: https://github.com/gleam-lang/gleam
@@ -45,10 +46,12 @@ Ngoài ra, khoảng tin cậy nói chung (Confidence Interval) là phạm vi gi�
 Throughput = IO Average size x IOPS
 
 Tìm hiểu thêm:
+
 - Storage performance
 - IOPS throughput latency
 
 Example:
+
 - Nhận 1M requests per second
 - Avg size per request: 1kB
 - Thoughput = 1kB x 1M = 1GB/s
@@ -75,7 +78,7 @@ Example:
 - TypeORM - ORM for Javascript/Typescript framework: https://typeorm.io
 - [[Fresher Back-end Interview]]
 - LMAX Disruptor: https://github.com/LMAX-Exchange/disruptor là bộ thư viện giúp cho việc phát triển các ứng dụng với độ tải lớn (high-performance) cho phép xử lý đồng thời (concurrency) một số lượng rất lớn message mà không cần Lock (lock-free).
-    - Disruptor trong Golang: https://pkg.go.dev/github.com/smartystreets/go-disruptor
+  - Disruptor trong Golang: https://pkg.go.dev/github.com/smartystreets/go-disruptor
 - i18n: https://github.com/i18next/i18next
 
 ## 3.1. Caching - Cache
@@ -122,9 +125,9 @@ Redis Sentinel là một công cụ quản lý và giám sát cho các Redis ser
 - **Giám sát:** Sentinel theo dõi trạng thái của các Redis master và slave server trong cụm.
 - **Cảnh báo:** Khi Sentinel phát hiện ra sự cố với một Redis server, nó sẽ cảnh báo cho người quản trị viên hệ thống.
 - **Quản lý:** Sentinel có thể tự động thực hiện các hành động quản lý khác nhau, chẳng hạn như:
-    - **Quản lý failover:** Khi một Redis master server bị lỗi, Sentinel sẽ tự động chọn một slave server phù hợp để trở thành master mới.
-    - **Quản lý replication:** Sentinel có thể tự động thêm và xóa slave server khỏi cụm.
-    - **Quản lý cấu hình:** Sentinel có thể tự động cập nhật cấu hình của Redis server.
+  - **Quản lý failover:** Khi một Redis master server bị lỗi, Sentinel sẽ tự động chọn một slave server phù hợp để trở thành master mới.
+  - **Quản lý replication:** Sentinel có thể tự động thêm và xóa slave server khỏi cụm.
+  - **Quản lý cấu hình:** Sentinel có thể tự động cập nhật cấu hình của Redis server.
 
 # 4. Lợi ích của việc sử dụng Redis Sentinel
 

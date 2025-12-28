@@ -3,6 +3,7 @@ relates:
   - "[[Database]]"
   - "[[Postgresql]]"
 ---
+
 # 1. Áp dụng Connection Multiplexing trong ProxySQL để tối ưu kết nối Database
 
 **Nguồn:** [roninhub.com](https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing-trong-proxysql-de-toi-uu-ket-noi-database)

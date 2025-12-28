@@ -21,17 +21,17 @@ tags:
 **2. Các loại câu nhấn mạnh:**
 
 - **Nhấn mạnh chủ ngữ (Subject Cleft):**
-    - Cấu trúc: It + be + chủ ngữ (được nhấn mạnh) + who/that + phần còn lại của câu.
-    - Ví dụ: It was John who broke the window. (Chính John đã làm vỡ cửa sổ.)
+  - Cấu trúc: It + be + chủ ngữ (được nhấn mạnh) + who/that + phần còn lại của câu.
+  - Ví dụ: It was John who broke the window. (Chính John đã làm vỡ cửa sổ.)
 - **Nhấn mạnh tân ngữ (Object Cleft):**
-    - Cấu trúc: It + be + tân ngữ (được nhấn mạnh) + that/who/whom + phần còn lại của câu.
-    - Ví dụ: It was the book that I bought yesterday. (Chính cuốn sách đó mà tôi đã mua hôm qua.)
+  - Cấu trúc: It + be + tân ngữ (được nhấn mạnh) + that/who/whom + phần còn lại của câu.
+  - Ví dụ: It was the book that I bought yesterday. (Chính cuốn sách đó mà tôi đã mua hôm qua.)
 - **Nhấn mạnh trạng từ (Adverbial Cleft):**
-    - Cấu trúc: It + be + trạng từ (được nhấn mạnh) + that/when/where + phần còn lại của câu.
-    - Ví dụ: It was yesterday that I met her. (Chính hôm qua tôi đã gặp cô ấy.)
+  - Cấu trúc: It + be + trạng từ (được nhấn mạnh) + that/when/where + phần còn lại của câu.
+  - Ví dụ: It was yesterday that I met her. (Chính hôm qua tôi đã gặp cô ấy.)
 - **Nhấn mạnh mệnh đề trạng ngữ (Clause Cleft):**
-    - Cấu trúc: It + be + mệnh đề trạng ngữ (được nhấn mạnh) + that + phần còn lại của câu.
-    - Ví dụ: It was because he was sick that he didn't go to school. (Chính vì anh ấy bị ốm nên anh ấy đã không đi học.)
+  - Cấu trúc: It + be + mệnh đề trạng ngữ (được nhấn mạnh) + that + phần còn lại của câu.
+  - Ví dụ: It was because he was sick that he didn't go to school. (Chính vì anh ấy bị ốm nên anh ấy đã không đi học.)
 
 **3. Lưu ý:**
 

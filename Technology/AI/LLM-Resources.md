@@ -107,6 +107,11 @@ aliases:
 - Composio: Cung cấp hơn 100 integration cho AI agents. https://github.com/ComposioHQ/composio
 - [openai/gym: A toolkit for developing and comparing reinforcement learning algorithms.](https://github.com/openai/gym)
 - Prompt & flow optimizing: [SylphAI-Inc/AdalFlow: AdalFlow: The library to build & auto-optimize LLM applications.](https://github.com/SylphAI-Inc/AdalFlow)
+- [Auto-Claude: Autonomous multi-session AI coding framework](https://github.com/AndyMik90/Auto-Claude)
+  - Framework tự động hóa việc lập trình với AI, cho phép các agent tự động lập kế hoạch, xây dựng và xác thực phần mềm.
+  - Hỗ trợ thực thi song song với nhiều agent, làm việc trong isolated workspaces (git worktrees), và có hệ thống QA tự động.
+  - Cung cấp desktop app cho Windows, macOS, và Linux. #AutoClaude #agent #coding
+- [valtec-tts: Text-to-Speech tool](https://github.com/tronghieuit/valtec-tts) #TTS #text2speech
 
 ## 2.1. Data extractor
 

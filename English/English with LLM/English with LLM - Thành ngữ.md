@@ -16,29 +16,29 @@ tags:
 **2. Các loại thành ngữ:**
 
 - **Thành ngữ về động vật:**
-    - Ví dụ:
-        - It's raining cats and dogs. (Trời mưa như trút nước.)
-        - Kill two birds with one stone. (Một mũi tên trúng hai đích.)
+  - Ví dụ:
+    - It's raining cats and dogs. (Trời mưa như trút nước.)
+    - Kill two birds with one stone. (Một mũi tên trúng hai đích.)
 - **Thành ngữ về cơ thể:**
-    - Ví dụ:
-        - Keep an eye on something. (Để mắt đến cái gì đó.)
-        - Break a leg! (Chúc may mắn!)
+  - Ví dụ:
+    - Keep an eye on something. (Để mắt đến cái gì đó.)
+    - Break a leg! (Chúc may mắn!)
 - **Thành ngữ về màu sắc:**
-    - Ví dụ:
-        - Once in a blue moon. (Hiếm khi.)
-        - Black and white. (Rõ ràng, minh bạch.)
+  - Ví dụ:
+    - Once in a blue moon. (Hiếm khi.)
+    - Black and white. (Rõ ràng, minh bạch.)
 - **Thành ngữ về thức ăn:**
-    - Ví dụ:
-        - A piece of cake. (Dễ như ăn bánh.)
-        - Cry over spilt milk. (Tiếc nuối chuyện đã qua.)
+  - Ví dụ:
+    - A piece of cake. (Dễ như ăn bánh.)
+    - Cry over spilt milk. (Tiếc nuối chuyện đã qua.)
 - **Thành ngữ về thời tiết:**
-    - Ví dụ:
-        - Save for a rainy day. (Tiết kiệm cho những lúc khó khăn.)
-        - Every cloud has a silver lining. (Trong cái rủi có cái may.)
+  - Ví dụ:
+    - Save for a rainy day. (Tiết kiệm cho những lúc khó khăn.)
+    - Every cloud has a silver lining. (Trong cái rủi có cái may.)
 - **Thành ngữ về các khái niệm trừu tượng:**
-    - Ví dụ:
-        - A drop in the ocean. (Như muối bỏ biển.)
-        - The tip of the iceberg. (Chỉ là phần nổi của tảng băng chìm.)
+  - Ví dụ:
+    - A drop in the ocean. (Như muối bỏ biển.)
+    - The tip of the iceberg. (Chỉ là phần nổi của tảng băng chìm.)
 
 **3. Cách học thành ngữ:**
 
@@ -210,4 +210,4 @@ tags:
 97. **Pull yourself together:** Bình tĩnh lại
 98. **Rome wasn't built in a day:** Việc lớn lâu xong
 99. **Spill the beans:** Tiết lộ bí mật
-100. **The early bird catches the worm:** Trâu chậm uống nước đục
+100.  **The early bird catches the worm:** Trâu chậm uống nước đục

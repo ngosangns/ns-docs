@@ -33,7 +33,7 @@ So, if you want to improve as a frontend developer, master **HTML**, **CSS**, 
 
 Frontend development has become more complex in the past few years.
 
-Numerous tools are used (_bundlers_, _transpilers_, etc.)
+Numerous tools are used (_bundlers_, *transpilers*, etc.)
 
 If you don't understand how the web works (i.e., the "only" languages supported are **HTML** (for structure), **CSS** (for styling), and **JavaScript** (for interactivity)), you'll struggle to understand why there's a need for so many tools to run your code online.
 
@@ -47,9 +47,9 @@ Data Structures & Algorithms often get a bad rap due to coding interviews 🤦�
 
 Below is a non-exhaustive list of Data Structures/Algorithms to know :
 
-**Data Structures:** _Stack_, _Queue_, _Hashmap_, _Set_, _Graph_, etc.
+**Data Structures:** *Stack*, *Queue*, *Hashmap*, *Set*, *Graph*, etc.
 
-**Algorithms:** _Dynamic programming_, _Greedy algorithm_, _Recursion_, etc.
+**Algorithms:** *Dynamic programming*, *Greedy algorithm*, *Recursion*, etc.
 
 ---
 
@@ -234,9 +234,7 @@ So, prioritize writing effective code that serves a purpose 🥅.
 Probably one of the most common mistakes for new devs (especially if you come from a culture valuing modesty).
 
 1. You've done something remarkable.
-    
 2. No one knows about it.
-    
 
 👉 That work won't matter.
 

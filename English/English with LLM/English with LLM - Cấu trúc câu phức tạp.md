@@ -18,9 +18,9 @@ tags:
 - **Khái niệm:** Câu ghép là câu được tạo thành từ hai hoặc nhiều mệnh đề độc lập (independent clause) được nối với nhau bằng liên từ kết hợp (coordinating conjunction) hoặc dấu chấm phẩy (;).
 - **Liên từ kết hợp:** for, and, nor, but, or, yet, so (FANBOYS).
 - **Ví dụ:**
-    - I like coffee, but she prefers tea. (Tôi thích cà phê, nhưng cô ấy thích trà hơn.)
-    - He studied hard, so he passed the exam. (Anh ấy học chăm chỉ, nên đã đậu kỳ thi.)
-    - She is tired; she wants to go home. (Cô ấy mệt mỏi; cô ấy muốn về nhà.)
+  - I like coffee, but she prefers tea. (Tôi thích cà phê, nhưng cô ấy thích trà hơn.)
+  - He studied hard, so he passed the exam. (Anh ấy học chăm chỉ, nên đã đậu kỳ thi.)
+  - She is tired; she wants to go home. (Cô ấy mệt mỏi; cô ấy muốn về nhà.)
 
 **2. Câu phức (Complex Sentence):**
 
@@ -28,9 +28,9 @@ tags:
 - **Liên từ phụ thuộc:** because, although, though, if, unless, when, while, since, before, after,...
 - **Đại từ quan hệ:** who, whom, which, that, whose.
 - **Ví dụ:**
-    - I will go to the beach if it is sunny. (Tôi sẽ đi biển nếu trời nắng.)
-    - The man who is wearing a blue shirt is my brother. (Người đàn ông đang mặc áo sơ mi xanh là anh trai tôi.)
-    - Although it was raining, we went for a walk. (Mặc dù trời mưa, chúng tôi vẫn đi dạo.)
+  - I will go to the beach if it is sunny. (Tôi sẽ đi biển nếu trời nắng.)
+  - The man who is wearing a blue shirt is my brother. (Người đàn ông đang mặc áo sơ mi xanh là anh trai tôi.)
+  - Although it was raining, we went for a walk. (Mặc dù trời mưa, chúng tôi vẫn đi dạo.)
 
 **3. Sự khác biệt giữa câu ghép và câu phức:**
 

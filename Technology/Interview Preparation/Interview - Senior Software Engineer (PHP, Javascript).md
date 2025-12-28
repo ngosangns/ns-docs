@@ -9,6 +9,7 @@ tags:
   - php
   - javascript
 ---
+
 # 1. Phương Nguyễn - Laravel Việt Nam
 
 Chia sẻ cho mọi người một số câu hỏi mình được hỏi cho vị trí **Senior Software Engineer (PHP, Javascript)** gần đây. Vị trí này được tuyển vào để làm việc với Laravel 8+.

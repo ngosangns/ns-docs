@@ -20,20 +20,20 @@ tags:
 **2. Các dạng câu gián tiếp:**
 
 - **Câu trần thuật (Statements):**
-    - Cấu trúc: S + said/told + (that) + S + V (lùi thì)
-    - Ví dụ: He said (that) he was hungry. (Anh ấy nói rằng anh ấy đói.)
+  - Cấu trúc: S + said/told + (that) + S + V (lùi thì)
+  - Ví dụ: He said (that) he was hungry. (Anh ấy nói rằng anh ấy đói.)
 - **Câu hỏi Yes/No (Yes/No Questions):**
-    - Cấu trúc: S + asked/wanted to know/wondered + if/whether + S + V (lùi thì)
-    - Ví dụ: She asked if I was going to the party. (Cô ấy hỏi tôi có đi dự tiệc không.)
+  - Cấu trúc: S + asked/wanted to know/wondered + if/whether + S + V (lùi thì)
+  - Ví dụ: She asked if I was going to the party. (Cô ấy hỏi tôi có đi dự tiệc không.)
 - **Câu hỏi WH- (WH- Questions):**
-    - Cấu trúc: S + asked/wanted to know/wondered + WH-word + S + V (lùi thì)
-    - Ví dụ: He asked what time the movie started. (Anh ấy hỏi mấy giờ phim bắt đầu.)
+  - Cấu trúc: S + asked/wanted to know/wondered + WH-word + S + V (lùi thì)
+  - Ví dụ: He asked what time the movie started. (Anh ấy hỏi mấy giờ phim bắt đầu.)
 - **Câu mệnh lệnh (Commands):**
-    - Cấu trúc: S + told/asked/ordered/warned + O + (not) to V
-    - Ví dụ: The teacher told us to be quiet. (Giáo viên bảo chúng tôi im lặng.)
+  - Cấu trúc: S + told/asked/ordered/warned + O + (not) to V
+  - Ví dụ: The teacher told us to be quiet. (Giáo viên bảo chúng tôi im lặng.)
 - **Câu cảm thán (Exclamations):**
-    - Cấu trúc: S + exclaimed/remarked/said + (that) + S + V (lùi thì) hoặc S + exclaimed with + noun
-    - Ví dụ: She exclaimed that the food was delicious. (Cô ấy thốt lên rằng thức ăn rất ngon.)
+  - Cấu trúc: S + exclaimed/remarked/said + (that) + S + V (lùi thì) hoặc S + exclaimed with + noun
+  - Ví dụ: She exclaimed that the food was delicious. (Cô ấy thốt lên rằng thức ăn rất ngon.)
 
 **3. Quy tắc lùi thì (Backshift of Tenses):**
 

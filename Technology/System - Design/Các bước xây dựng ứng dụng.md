@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 relates:
   - "[[Solutions & System Designs & Design Patterns]]"
 tags:
@@ -9,6 +9,7 @@ tags:
   - nghiệp-vụ
   - yêu-cầu-cần-thiết
 ---
+
 # 1. Resources
 
 ## 1.1. Non-Functional Requirements (NFR)

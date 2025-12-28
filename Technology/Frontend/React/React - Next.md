@@ -49,8 +49,8 @@ tags:
 Các hệ thống component UI phổ biến và đáng chú ý:
 
 - shadcn/ui: https://github.com/shadcn/ui
-	- shadcnregistry: https://shadcnregistry.com
-	- https://github.com/sadmann7/diceui
+  - shadcnregistry: https://shadcnregistry.com
+  - https://github.com/sadmann7/diceui
 - Semi Design (DouyinFE): https://github.com/DouyinFE/semi-design
 - Arco Design: https://github.com/arco-design/arco-design
 - Tamagui: https://github.com/tamagui/tamagui
@@ -86,52 +86,52 @@ Các hệ thống component UI phổ biến và đáng chú ý:
 
 Danh sách các thư viện hữu ích trong hệ sinh thái React/Next.js:
 
-* React In Vue - Vue in React (veaury): Cho phép nhúng component React vào Vue và ngược lại. Hữu ích cho việc chuyển đổi dự án hoặc tái sử dụng component. Xem thêm [[Vue - Nuxt]].
-* Build CRUD app (refine): Framework React giúp xây dựng nhanh các ứng dụng CRUD, dashboard, admin panel với các hook, component và tích hợp backend sẵn có.
-* Toolkit for Nextjs (Blitz.js): Framework fullstack dựa trên Next.js, cung cấp trải nghiệm "Zero-API", đơn giản hóa việc xây dựng ứng dụng web hoàn chỉnh.
-* Runtime CSS-in-JS (kuma-ui): Thư viện CSS-in-JS "zero-runtime", xử lý CSS tại thời điểm build, cho phép viết CSS trực tiếp trong component mà không ảnh hưởng hiệu năng runtime.
-* React-scan: Công cụ phân tích hiệu năng, giúp phát hiện component render chậm, render không cần thiết và các vấn đề khác.
-* Animation:
-	* https://github.com/greensock/GSAP
-	* https://github.com/DavidHDev/react-bits
-* i18n (react-i18next): Framework quốc tế hóa phổ biến cho React, dựa trên i18next, giúp quản lý bản dịch và định dạng.
-* State management:
-    * Recoil: Thư viện quản lý state từ Meta, tiếp cận linh hoạt, gần gũi với React hooks (atoms, selectors).
-    * React Signify: (Cần tìm hiểu thêm) - Một thư viện quản lý state khác cho React.
-* Chart:
-    * Victory: Bộ component React để xây dựng biểu đồ tương tác, tùy chỉnh.
-    * Tremor: Bộ component UI React để xây dựng dashboard nhanh chóng, bao gồm các loại biểu đồ.
-    * Recharts: Thư viện biểu đồ composable cho React, xây dựng trên D3.js, linh hoạt.
-* Rich text editor:
-    * Hackernoon rich text editor: Trình soạn thảo rich text mã nguồn mở, tập trung vào Markdown, giao diện sạch.
-    * Plate: Framework xây dựng trình soạn thảo rich text mạnh mẽ, linh hoạt, mở rộng cao trong React (dựa trên Slate.js).
-* Lint and optimize React component:
-    * Million.dev: Công cụ tối ưu hiệu năng component React bằng cách tạo Virtual DOM nhẹ và nhanh hơn.
-* Component systems: (Các bộ sưu tập component UI dựng sẵn)
-    * originui: Bộ component UI cho React.
-    * magicui: Bộ sưu tập component React/Next.js với hiệu ứng đẹp mắt (thường dùng Tailwind CSS).
-    * cuicui: Bộ component UI cho React.
-    * mantine: Bộ component và hook UI đầy đủ tính năng, tùy chỉnh cao.
-    * dotUI: Bộ component UI cho React.
-    * tailus-ui: Bộ sưu tập component UI xây dựng trên Tailwind CSS.
-    * react-bits: Tập hợp các component, hook và pattern hữu ích.
-    * heroui: Bộ component UI miễn phí xây dựng bằng Tailwind CSS.
-    * starwind-ui: Bộ component UI cho React, xây dựng trên Tailwind CSS.
-    * https://github.com/animate-ui/animate-ui
-- Novu là một nền tảng mã nguồn mở giúp các nhà phát triển dễ dàng triển khai và quản lý hệ thống thông báo đa kênh cho ứng dụng web và di động ([GitHub](https://github.com/novuhq/novu")). Novu cung cấp một API thống nhất cho phép gửi thông báo qua nhiều kênh khác nhau như:
-	- In-App (trong ứng dụng)
-	- Email
-	- SMS
-	- Push Notification
-	- Chat (Slack, Discord, Microsoft Teams, v.v.)
-	- Thay vì tích hợp riêng lẻ với từng nhà cung cấp dịch vụ thông báo (như SendGrid, Twilio, Firebase, v.v.), Novu cho phép bạn kết nối tất cả thông qua một API duy nhất, giúp đơn giản hóa quá trình phát triển và bảo trì hệ thống thông báo.
-- Xử lý đồ họa:
-	- A React renderer for Three.js: https://github.com/pmndrs/react-three-fiber
+- React In Vue - Vue in React (veaury): Cho phép nhúng component React vào Vue và ngược lại. Hữu ích cho việc chuyển đổi dự án hoặc tái sử dụng component. Xem thêm [[Vue - Nuxt]].
+- Build CRUD app (refine): Framework React giúp xây dựng nhanh các ứng dụng CRUD, dashboard, admin panel với các hook, component và tích hợp backend sẵn có.
+- Toolkit for Nextjs (Blitz.js): Framework fullstack dựa trên Next.js, cung cấp trải nghiệm "Zero-API", đơn giản hóa việc xây dựng ứng dụng web hoàn chỉnh.
+- Runtime CSS-in-JS (kuma-ui): Thư viện CSS-in-JS "zero-runtime", xử lý CSS tại thời điểm build, cho phép viết CSS trực tiếp trong component mà không ảnh hưởng hiệu năng runtime.
+- React-scan: Công cụ phân tích hiệu năng, giúp phát hiện component render chậm, render không cần thiết và các vấn đề khác.
+- Animation:
+  - https://github.com/greensock/GSAP
+  - https://github.com/DavidHDev/react-bits
+- i18n (react-i18next): Framework quốc tế hóa phổ biến cho React, dựa trên i18next, giúp quản lý bản dịch và định dạng.
+- State management:
+  - Recoil: Thư viện quản lý state từ Meta, tiếp cận linh hoạt, gần gũi với React hooks (atoms, selectors).
+  - React Signify: (Cần tìm hiểu thêm) - Một thư viện quản lý state khác cho React.
+- Chart:
+  - Victory: Bộ component React để xây dựng biểu đồ tương tác, tùy chỉnh.
+  - Tremor: Bộ component UI React để xây dựng dashboard nhanh chóng, bao gồm các loại biểu đồ.
+  - Recharts: Thư viện biểu đồ composable cho React, xây dựng trên D3.js, linh hoạt.
+- Rich text editor:
+  - Hackernoon rich text editor: Trình soạn thảo rich text mã nguồn mở, tập trung vào Markdown, giao diện sạch.
+  - Plate: Framework xây dựng trình soạn thảo rich text mạnh mẽ, linh hoạt, mở rộng cao trong React (dựa trên Slate.js).
+- Lint and optimize React component:
+  - Million.dev: Công cụ tối ưu hiệu năng component React bằng cách tạo Virtual DOM nhẹ và nhanh hơn.
+- Component systems: (Các bộ sưu tập component UI dựng sẵn)
+  - originui: Bộ component UI cho React.
+  - magicui: Bộ sưu tập component React/Next.js với hiệu ứng đẹp mắt (thường dùng Tailwind CSS).
+  - cuicui: Bộ component UI cho React.
+  - mantine: Bộ component và hook UI đầy đủ tính năng, tùy chỉnh cao.
+  - dotUI: Bộ component UI cho React.
+  - tailus-ui: Bộ sưu tập component UI xây dựng trên Tailwind CSS.
+  - react-bits: Tập hợp các component, hook và pattern hữu ích.
+  - heroui: Bộ component UI miễn phí xây dựng bằng Tailwind CSS.
+  - starwind-ui: Bộ component UI cho React, xây dựng trên Tailwind CSS.
+  - https://github.com/animate-ui/animate-ui
+
+* Novu là một nền tảng mã nguồn mở giúp các nhà phát triển dễ dàng triển khai và quản lý hệ thống thông báo đa kênh cho ứng dụng web và di động ([GitHub](https://github.com/novuhq/novu")). Novu cung cấp một API thống nhất cho phép gửi thông báo qua nhiều kênh khác nhau như:
+  - In-App (trong ứng dụng)
+  - Email
+  - SMS
+  - Push Notification
+  - Chat (Slack, Discord, Microsoft Teams, v.v.)
+  - Thay vì tích hợp riêng lẻ với từng nhà cung cấp dịch vụ thông báo (như SendGrid, Twilio, Firebase, v.v.), Novu cho phép bạn kết nối tất cả thông qua một API duy nhất, giúp đơn giản hóa quá trình phát triển và bảo trì hệ thống thông báo.
+* Xử lý đồ họa:
+  - A React renderer for Three.js: https://github.com/pmndrs/react-three-fiber
 
 # 10. Compilers
 
 - Million.js: Trình biên dịch tối ưu hóa cực nhanh và nhẹ, giúp component React nhanh hơn tới 70%. https://github.com/aidenybai/million
-
 
 # 11. 🛣️ React Developer Roadmap
 
@@ -149,8 +149,8 @@ Danh sách các thư viện hữu ích trong hệ sinh thái React/Next.js:
 - HTML Graphics
 - HTML Multimedia
 - HTML APIs
-    - Web Storage API
-    - Geolocation API
+  - Web Storage API
+  - Geolocation API
 
 ## 11.2. 🔴 JavaScript
 
@@ -223,16 +223,16 @@ Danh sách các thư viện hữu ích trong hệ sinh thái React/Next.js:
 
 - 🔴 Component State
 - 🔴 Async Actions
-    - 🟡 Redux Saga
-    - 🟡 Redux Thunk
-    - 🔵 Redux Better Promise
-    - 🔵 Redux Observable
+  - 🟡 Redux Saga
+  - 🟡 Redux Thunk
+  - 🔵 Redux Better Promise
+  - 🔵 Redux Observable
 - 🔵 Helpers
-    - 🔵 Rematch
-    - 🔵 Reselect
+  - 🔵 Rematch
+  - 🔵 Reselect
 - 🔵 Data Persistence
-    - 🔵 Redux Persist
-    - 🔵 Redux Phoenix
+  - 🔵 Redux Persist
+  - 🔵 Redux Phoenix
 
 ### 11.5.2. 🟡 MobX
 

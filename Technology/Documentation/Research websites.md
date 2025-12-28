@@ -13,6 +13,7 @@ tags:
   - scientific-research
   - information-retrieval
 ---
+
 Google mạnh đến nỗi nó "giấu" các hệ thống tìm kiếm khác khỏi chúng ta. Chúng ta chỉ không biết sự tồn tại của hầu hết họ.
 
 Trong khi đó, vẫn còn rất nhiều nhà tìm kiếm xuất sắc trên thế giới chuyên về sách, khoa học, thông tin thông minh khác.

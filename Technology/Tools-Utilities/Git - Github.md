@@ -9,6 +9,7 @@ tags:
   - git-hooks
   - git-filter-repo
 ---
+
 # 1. Workflows
 
 Trong Git, hai mô hình phổ biến để quản lý workflow dự án là **Trunk-based development (Trunk Flow)** và **Forking Workflow (Forking Flow)**. Dưới đây là phần **giới thiệu chi tiết và so sánh** hai mô hình này:
@@ -30,7 +31,6 @@ Trunk Flow là một mô hình phát triển nơi tất cả developer làm vi�
 - Dễ tích hợp CI/CD liên tục.
 - Thúc đẩy code review thường xuyên, nhanh gọn.
 - Phù hợp với team nhỏ đến trung bình.
-    
 
 ### 1.1.3. Nhược điểm
 
@@ -62,22 +62,22 @@ Mỗi developer làm việc trên **một bản sao (fork)** riêng của repo c
 
 ## 1.3. So sánh Trunk Flow vs Forking Flow
 
-|Tiêu chí|**Trunk Flow**|**Forking Flow**|
-|---|---|---|
-|Mục tiêu chính|Tốc độ phát triển, CI/CD nhanh|Bảo mật, kiểm soát cộng đồng|
-|Dùng cho|Dự án nội bộ, team nhỏ đến vừa|Dự án open-source, cộng tác viên bên ngoài|
-|Cách phát triển|Branch ngắn, merge nhanh|Làm việc trên fork, gửi PR về repo gốc|
-|Độ phức tạp|Đơn giản|Phức tạp hơn, cần sync fork|
-|Cấu trúc branch|Ít branch, thường là `main` + `feature`|Mỗi người dùng một fork riêng|
-|Rủi ro với repo chính|Cao hơn (vì push vào trực tiếp)|Thấp (vì chỉ maintainer được merge)|
-|Dễ CI/CD|✅ Rất dễ tích hợp|❌ Cần thêm thiết lập|
+| Tiêu chí              | **Trunk Flow**                          | **Forking Flow**                           |
+| --------------------- | --------------------------------------- | ------------------------------------------ |
+| Mục tiêu chính        | Tốc độ phát triển, CI/CD nhanh          | Bảo mật, kiểm soát cộng đồng               |
+| Dùng cho              | Dự án nội bộ, team nhỏ đến vừa          | Dự án open-source, cộng tác viên bên ngoài |
+| Cách phát triển       | Branch ngắn, merge nhanh                | Làm việc trên fork, gửi PR về repo gốc     |
+| Độ phức tạp           | Đơn giản                                | Phức tạp hơn, cần sync fork                |
+| Cấu trúc branch       | Ít branch, thường là `main` + `feature` | Mỗi người dùng một fork riêng              |
+| Rủi ro với repo chính | Cao hơn (vì push vào trực tiếp)         | Thấp (vì chỉ maintainer được merge)        |
+| Dễ CI/CD              | ✅ Rất dễ tích hợp                      | ❌ Cần thêm thiết lập                      |
 
 ## 1.4. Kết luận
 
-|Bạn nên dùng|Nếu...|
-|---|---|
-|**Trunk Flow**|Bạn làm trong một team nội bộ, muốn triển khai CI/CD nhanh, lịch sử Git rõ ràng.|
-|**Forking Flow**|Bạn phát triển dự án open-source, cộng tác với người lạ, cần kiểm soát quyền truy cập.|
+| Bạn nên dùng     | Nếu...                                                                                 |
+| ---------------- | -------------------------------------------------------------------------------------- |
+| **Trunk Flow**   | Bạn làm trong một team nội bộ, muốn triển khai CI/CD nhanh, lịch sử Git rõ ràng.       |
+| **Forking Flow** | Bạn phát triển dự án open-source, cộng tác với người lạ, cần kiểm soát quyền truy cập. |
 
 # 2. Tools
 
@@ -113,11 +113,11 @@ Mỗi developer làm việc trên **một bản sao (fork)** riêng của repo c
 
 ### 6.1.2. **Vì sao nên dùng `git filter-repo` thay vì `git filter-branch` hay BFG?**
 
-|Công cụ|Hiệu suất|Dễ dùng|Tính năng linh hoạt|
-|---|---|---|---|
-|`git filter-branch`|Chậm|Khó|Cao|
-|BFG Repo-Cleaner|Nhanh|Dễ|Hạn chế|
-|**`git filter-repo`**|**Rất nhanh**|**Dễ**|**Rất linh hoạt**|
+| Công cụ               | Hiệu suất     | Dễ dùng | Tính năng linh hoạt |
+| --------------------- | ------------- | ------- | ------------------- |
+| `git filter-branch`   | Chậm          | Khó     | Cao                 |
+| BFG Repo-Cleaner      | Nhanh         | Dễ      | Hạn chế             |
+| **`git filter-repo`** | **Rất nhanh** | **Dễ**  | **Rất linh hoạt**   |
 
 ### 6.1.3. 📦 **Cài đặt `git filter-repo`**
 

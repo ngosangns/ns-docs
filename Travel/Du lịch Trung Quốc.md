@@ -8,6 +8,7 @@ tags:
   - trung-quốc
   - alipay
 ---
+
 # 1. Resources
 
 - https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-di-san-con-%C4%91uong-to-lua-%C4%90on-hoang-tay-an-va-bac-kinh.996056/
@@ -18,18 +19,18 @@ tags:
 - [Đi du lịch Trung Quốc cần chuẩn bị những gì](https://www.youtube.com/shorts/vFgGzpmlvWE)
 
 biết tiếng 2 đứa tự túc cho đúng ý, chill2 giống local cho đc cái cảm nhận, đi tour khác gì tên lửa xem hoa.  
-VD 5 ngày đi đầy chỗ:  
-- Vân Nam: Đại lý - Lệ giang thế thôi (miễn đi Shangrila chả có vẹo gì)  
-- Thượng hải, tô châu  
+VD 5 ngày đi đầy chỗ:
+
+- Vân Nam: Đại lý - Lệ giang thế thôi (miễn đi Shangrila chả có vẹo gì)
+- Thượng hải, tô châu
 - bắc kinh  
-	- Học viện mỹ thuật Hà Bắc (khác gì trường của harry portẻr đâu)
-	- Cửu trại câu
-+) cài Alipay vào  
-+) dẫn đường Amap  
-+) ăn uống wechat  
-+) vé tàu 12306.cn có apps đấy,  
-+) google dịch.  
-tại sao t vote tự túc, vì tự túc mới biết con bồ của bạn tính cách thế nào, khả năng tổng quát ra sao,
+   - Học viện mỹ thuật Hà Bắc (khác gì trường của harry portẻr đâu) - Cửu trại câu
+  +) cài Alipay vào  
+  +) dẫn đường Amap  
+  +) ăn uống wechat  
+  +) vé tàu 12306.cn có apps đấy,  
+  +) google dịch.  
+  tại sao t vote tự túc, vì tự túc mới biết con bồ của bạn tính cách thế nào, khả năng tổng quát ra sao,
 
 ---
 
@@ -63,7 +64,7 @@ Làm visa (qua cò cho nhanh, hết hơn 100$, visa du lịch single entry, khô
 
 Ở thì cứ booking với agoda, chọn ks/homestay có tiếng anh, có western wc là được (nếu sợ ngồi xổm ![:D](https://data.voz.vn/styles/next/xenforo/smilies/popo/biggrin.png?v=01 "Big grin    :D") ). Book ks xong nhớ in cái địa chỉ ks bằng tiếng Trung ra, đừng in địa chỉ ks ghi bằng pinyin hoặc tiếng anh, vì cái địa chỉ đấy taxi sợ ko biết. Ví dụ địa chỉ thế này có vẻ chi tiết, nhưng gần như vô dụng:  
 No.1 Chunxiu Road, Chaoyang, 100027 Beijing, China  
-Nhưng thế này (dù mình chả hiểu là gì) thì ok:  
+Nhưng thế này (dù mình chả hiểu là gì) thì ok:
 
 北京东直门智选假日酒店
 
@@ -75,14 +76,15 @@ Thanh toán: Dân tàu hay dùng wechat để quẹt trả tiền, nhưng ngư�
 
 Cho thím xem mấy cái ảnh làm động lực này. Mình mới đi Côn Minh (mấy lần, cả du lịch, cả công tác), Đại Lý, Lệ Giang (vẫn muốn đi lại), Thành Đô, Quảng Châu. Mục tiêu năm nay muốn đi Bắc Kinh, nhưng vợ mới xem xong phim gì của Lưu Diệc Phi lại muốn quay lại Đại Lý.
 
-Chi phí thì vô cùng lắm, nhưng có mấy khoản chiếm tỷ trọng lớn cần lưu ý:  
-1. Chi phí đi lại: gồm vé máy bay, vé tàu cao tốc là 2 khoản lớn, nếu định tuyến được chỗ ở và lịch trình đi chơi tốt, gần các ga tàu thì tiền taxi không nhiều, tiền tàu điện ngầm thì coi như tiền lẻ ăn kem chả tính. Bus cũng rẻ, nhưng không biết tiếng thì không nên đi vì chả biết đằng nào mà xuống.  
-2. Chi phí ăn uống: mình cứ xem quán to, đặc sản thì ăn không tiếc tiền nên cũng khá tốn, nhưng nếu không ăn nhà hàng thì cũng rẻ, như mình đi trước dịch, ăn sáng trung bình chỉ tầm 10-20tệ bát bún hoặc bánh bao + nước là khá ổn.  
-3. Chi phí ở: ở cũng là 1 khoản vô cùng, giá biến đổi theo số lượng sao của khách sạn và mùa. Mình thì hay ở dorm cho rẻ, lại dễ gặp nhiều bạn nước ngoài, ham vui vì xác định khách sạn chỉ để ngủ. Đợt ở Lệ Giang mình có nói chuyện với chủ 1 khách sạn nhỏ nhỏ địa phương thì ông ý bảo mùa cao điểm giá có thể x10 đợt mình đi (**x10** chứ không phải chặt chém kiểu x2 x3 như ở Việt Nam nhé).  
-4. Tiền vé vào cửa danh thắng: tùy địa điểm, nhưng cũng là 1 khoản.  
-  
-Chi phí phụ thuộc vào số người đi nữa, chẳng hạn mình thấy đi 3-4 người là tiết kiệm nhất, ăn uống cũng thoải mái, đủ 1 mâm nhỏ, đi lại cũng vừa phải, ngồi đủ 1 taxi. Thế nên đưa ra 1 con số cụ thể là rất khó với từng nhu cầu, từng thời điểm. Như mình đi mấy lần đều vào mùa thấp điểm, chịu khó mix cả đường hàng không và tàu nên giá chưa lần nào quá 10tr/ người, mặc dù mỗi lần đều đi cỡ 1 tuần và ăn uống rất thoải mái.  
-  
+Chi phí thì vô cùng lắm, nhưng có mấy khoản chiếm tỷ trọng lớn cần lưu ý:
+
+1. Chi phí đi lại: gồm vé máy bay, vé tàu cao tốc là 2 khoản lớn, nếu định tuyến được chỗ ở và lịch trình đi chơi tốt, gần các ga tàu thì tiền taxi không nhiều, tiền tàu điện ngầm thì coi như tiền lẻ ăn kem chả tính. Bus cũng rẻ, nhưng không biết tiếng thì không nên đi vì chả biết đằng nào mà xuống.
+2. Chi phí ăn uống: mình cứ xem quán to, đặc sản thì ăn không tiếc tiền nên cũng khá tốn, nhưng nếu không ăn nhà hàng thì cũng rẻ, như mình đi trước dịch, ăn sáng trung bình chỉ tầm 10-20tệ bát bún hoặc bánh bao + nước là khá ổn.
+3. Chi phí ở: ở cũng là 1 khoản vô cùng, giá biến đổi theo số lượng sao của khách sạn và mùa. Mình thì hay ở dorm cho rẻ, lại dễ gặp nhiều bạn nước ngoài, ham vui vì xác định khách sạn chỉ để ngủ. Đợt ở Lệ Giang mình có nói chuyện với chủ 1 khách sạn nhỏ nhỏ địa phương thì ông ý bảo mùa cao điểm giá có thể x10 đợt mình đi (**x10** chứ không phải chặt chém kiểu x2 x3 như ở Việt Nam nhé).
+4. Tiền vé vào cửa danh thắng: tùy địa điểm, nhưng cũng là 1 khoản.
+
+Chi phí phụ thuộc vào số người đi nữa, chẳng hạn mình thấy đi 3-4 người là tiết kiệm nhất, ăn uống cũng thoải mái, đủ 1 mâm nhỏ, đi lại cũng vừa phải, ngồi đủ 1 taxi. Thế nên đưa ra 1 con số cụ thể là rất khó với từng nhu cầu, từng thời điểm. Như mình đi mấy lần đều vào mùa thấp điểm, chịu khó mix cả đường hàng không và tàu nên giá chưa lần nào quá 10tr/ người, mặc dù mỗi lần đều đi cỡ 1 tuần và ăn uống rất thoải mái.
+
 Cuối năm nay nếu có điều kiện mình cũng định đi Giang Tô, thăm thú Tô Châu. Đang tự học tiếng trung để sang đấy biết đường gọi món mà học khó quá, mấy năm rồi vẫn chỉ biết mỗi số đếm.
 
 ---
@@ -105,7 +107,7 @@ alipay coi như như zalopay hay momo thôi ko cần ad thẻ gì đâu, cài xo
 
 - Phần ctrip xe khách ae nào ngại quá thì lên trip đặt cũng oke mà trip bị cái xe ko nhiều chuyến như ctrip nên giá cũng ko kiếm đc xe giá rẻ. Có cái đặt vé tham quan thì m.n phải xài trip xong đặt vé chứ ctrip thì nó đòi cccd tàu mình ko được. Xài trip chỉnh tiền tệ qua cny xong nó sẽ có cho thanh toán bằng alipay, ae thanh toán xong thì tới ngày giờ cứ vác passport tới cổng là phi vô thôi khỏi vé viếc gì cả.
 - vé tàu thì mấy app trên đặt đc hết mà mình vẫn thích chính chủ nên lên 12306 đăng ký cái account xong kyc các kiểu lên tick xanh là mua vé rồi đúng giờ ra cổng có nv đứng nó bấm passport là đi thôi chả cần làm gì nữa hết
-- Cuối cùng là app Dianping, cái này là app review quán ăn, đăng ký sđt VN đc nha nhưng mà đừng đăng kí vào nó chặn kết quả tè le, khỏi cần đăng ký gì cả, cứ gõ tên món ăn vào rồi lọc theo *, rồi vị trí xong triển thôi nó có cả giá trung bình 1 người là bao nhiêu cũng tương đối chuẩn. Không log in thì ko xem được chi tiết review nhưng cũng đủ coi *, số lượt review, hình ảnh quán, món ăn. Mình thấy * cứ trên 4. là ăn ổn áp rồi.
+- Cuối cùng là app Dianping, cái này là app review quán ăn, đăng ký sđt VN đc nha nhưng mà đừng đăng kí vào nó chặn kết quả tè le, khỏi cần đăng ký gì cả, cứ gõ tên món ăn vào rồi lọc theo _, rồi vị trí xong triển thôi nó có cả giá trung bình 1 người là bao nhiêu cũng tương đối chuẩn. Không log in thì ko xem được chi tiết review nhưng cũng đủ coi _, số lượt review, hình ảnh quán, món ăn. Mình thấy \* cứ trên 4. là ăn ổn áp rồi.
 
 Thế giờ giả sử mình muốn đi Côn Minh nhưng đặt chuyến khác transit ở Côn Minh cho rẻ, rồi lúc đến Côn Minh mình bỏ không đi chuyến sau thì có được không nhỉ?
 => Bỏ chuyến bình thường, tụi mẽo nó làm suốt, tụi nó gọi là Skiplagging. Có luôn 1 trang web để khai thác lỗ hổng này mà. Giờ không biết có cấm chưa.  

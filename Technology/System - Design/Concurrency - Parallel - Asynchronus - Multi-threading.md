@@ -9,6 +9,7 @@ tags:
   - parallelism
   - multithreading
 ---
+
 # 1. Resources
 
 - Lập trình song song: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5
@@ -19,24 +20,24 @@ tags:
 
 ![[7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d.png]]
 
-Mọi process đều có ít nhất 1 thread và nếu có nhiều hơn 1 thread thì ta gọi process đó đang chạy multithread  
-  
+Mọi process đều có ít nhất 1 thread và nếu có nhiều hơn 1 thread thì ta gọi process đó đang chạy multithread
+
 Synchronize, Asynchronize, Parallelism thực chất là tính chất khác nhau của multithread theo góc nhìn phần mềm. Parallelism là tính chất cho phép một process chạy nhiều công việc cùng lúc thông qua nhiều thread. Asyncronous là việc các thread chạy loạn xạ, không theo thứ tự nào cả. Việc các thread chạy loạn xạ thế này có thể sẽ gây ra lỗi race condition, do đó cần có các cơ chế synchronize bắt buộc các thread phải chạy theo thứ tự nào đấy hoặc một quy tắc chung nào đấy để dễ quản lý. Tuy nhiên, rõ ràng không phải lúc nào synchronize cũng tốt vì nó cản trở hiệu năng, cần phải xem trường hợp nào cần sync và async
 
 ---
 
 # 2. Handle switch-context manually
 
-Vì chi phí context-switch của thread là rất lớn (so với một vòng lặp đơn giản). Với multithread thì sau khi yêu cầu thực hiện thao tác I/O thì có những việc sau cần phải thực hiện:  
+Vì chi phí context-switch của thread là rất lớn (so với một vòng lặp đơn giản). Với multithread thì sau khi yêu cầu thực hiện thao tác I/O thì có những việc sau cần phải thực hiện:
 
 - Backup hết **tất cả** các thanh ghi vào RAM, VD x86 thì bao gồm 16 thanh ghi integer, 16 thanh ghi SIMD, các thanh ghi floating point, các thanh ghi hệ thống mà user không tác động được,
 - Flush CPU cache (cache level nào thì tùy vào OS và kiến trúc),
 - Chuyển trạng thái của thread sang WAITING
 - OS scheduler kiếm một thread ready khác để thực thi (nếu có).
-  
-Đến khi I/O thực hiện xong, tức là device (VD disk, NIC) đã interrupt cho OS thì OS đổi thread đó sang trạng thái READY, nhưng điều đó không có nghĩa là nó sẽ được tiếp tục run mà còn phải chờ thread khác nữa. Khi có slot thì làm ngược lại những điều trên.  
-  
-So với việc async bằng event-loop trên 1 thread thì:  
+
+Đến khi I/O thực hiện xong, tức là device (VD disk, NIC) đã interrupt cho OS thì OS đổi thread đó sang trạng thái READY, nhưng điều đó không có nghĩa là nó sẽ được tiếp tục run mà còn phải chờ thread khác nữa. Khi có slot thì làm ngược lại những điều trên.
+
+So với việc async bằng event-loop trên 1 thread thì:
 
 - Chỉ phải backup những thanh ghi mà coroutine đang dùng,
 - Không cần flush cache,

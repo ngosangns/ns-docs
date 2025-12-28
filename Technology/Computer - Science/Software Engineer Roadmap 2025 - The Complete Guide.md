@@ -26,7 +26,7 @@ We’ll cover everything from AI tools, cloud services, system design, performan
 
 At the end, [**grab a free copy of this roadmap**](https://devmastery.pro/swe-roadmap) to track your progress.
 
-**_Prerequisite:_** _This roadmap assumes you already have fundamental frontend and backend development skills. If not, check out my_ [_Frontend_](https://levelup.gitconnected.com/frontend-developer-roadmap-2025-the-complete-guide-b209a9c3a22b) _&_ [_Backend_](https://levelup.gitconnected.com/backend-developer-roadmap-2025-the-complete-guide-ae9d12c38c05) _Developer Guides before diving in._
+**_Prerequisite:_** *This roadmap assumes you already have fundamental frontend and backend development skills. If not, check out my* [_Frontend_](https://levelup.gitconnected.com/frontend-developer-roadmap-2025-the-complete-guide-b209a9c3a22b) *&* [_Backend_](https://levelup.gitconnected.com/backend-developer-roadmap-2025-the-complete-guide-ae9d12c38c05) *Developer Guides before diving in.*
 
 ---
 

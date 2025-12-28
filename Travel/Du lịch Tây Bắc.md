@@ -6,6 +6,7 @@ tags:
   - Cảnh-đẹp-Tây-Bắc
   - Văn-hóa-Tây-Bắc
 ---
+
 - [khoe - Hà Giang đi mãi không chán | VOZ](https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/)
 - [khoe - Sơn La: Mai Châu, Tà Xùa, .... | VOZ](https://voz.vn/t/son-la-mai-chau-ta-xua.876158/)
 - [khoe - Cao Bằng | VOZ](https://voz.vn/t/cao-bang.832044/)
@@ -61,12 +62,12 @@ Du lịch Tây Bắc vào dịp Tết là một trải nghiệm độc đáo, k�
 
 ### 0.2.6. Bảng so sánh các mùa du lịch Tây Bắc
 
-|Mùa|Thời gian|Cảnh quan & Trải nghiệm đặc trưng|Ưu điểm|Nhược điểm|Phù hợp với|
-|---|---|---|---|---|---|
-|**Mùa Xuân**|Tháng 1 - 4|Hoa đào, hoa mận, hoa ban nở rộ. Cây cối đâm chồi nảy lộc.|Thời tiết ấm áp dần. Nhiều lễ hội văn hóa đặc sắc.5|Có mưa xuân lất phất. Đông đúc và giá cao nếu đi vào dịp Tết.23|Người yêu văn hóa, gia đình, người thích chụp ảnh hoa.|
-|**Mùa Hè**|Tháng 5 - 8|Mùa nước đổ ở Mù Cang Chải. Cây cối xanh tươi. Thác nước hùng vĩ.|Khí hậu mát mẻ, lý tưởng để trốn nóng. Ít đông đúc hơn.4|Mưa nhiều, đường trơn trượt, nguy cơ sạt lở, khó di chuyển.5|Người tìm kiếm sự yên tĩnh, phượt thủ mạo hiểm, người muốn ngắm mùa nước đổ.|
-|**Mùa Thu**|Tháng 9 - 10|Mùa lúa chín vàng rực rỡ ở Mù Cang Chải, Hoàng Su Phì.|Thời tiết đẹp, khô ráo, thuận lợi di chuyển. Cảnh quan ngoạn mục nhất.7|Rất đông khách du lịch. Giá dịch vụ cao, cần đặt trước.9|Nhiếp ảnh gia, người yêu thiên nhiên, du khách đi lần đầu.|
-|**Mùa Đông**|Tháng 11 - 1|Săn mây ở Tà Xùa, Y Tý. Hoa cải, hoa tam giác mạch. Cơ hội ngắm tuyết ở Sapa.|Trải nghiệm độc đáo, không gian lãng mạn, tĩnh lặng. Ít đông đúc hơn mùa thu.7|Rất lạnh, có thể có sương muối, băng giá. Sương mù dày đặc, tầm nhìn hạn chế.2|Người thích săn mây, cặp đôi, người muốn trải nghiệm tuyết.|
+| Mùa          | Thời gian    | Cảnh quan & Trải nghiệm đặc trưng                                             | Ưu điểm                                                                        | Nhược điểm                                                                     | Phù hợp với                                                                  |
+| ------------ | ------------ | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| **Mùa Xuân** | Tháng 1 - 4  | Hoa đào, hoa mận, hoa ban nở rộ. Cây cối đâm chồi nảy lộc.                    | Thời tiết ấm áp dần. Nhiều lễ hội văn hóa đặc sắc.5                            | Có mưa xuân lất phất. Đông đúc và giá cao nếu đi vào dịp Tết.23                | Người yêu văn hóa, gia đình, người thích chụp ảnh hoa.                       |
+| **Mùa Hè**   | Tháng 5 - 8  | Mùa nước đổ ở Mù Cang Chải. Cây cối xanh tươi. Thác nước hùng vĩ.             | Khí hậu mát mẻ, lý tưởng để trốn nóng. Ít đông đúc hơn.4                       | Mưa nhiều, đường trơn trượt, nguy cơ sạt lở, khó di chuyển.5                   | Người tìm kiếm sự yên tĩnh, phượt thủ mạo hiểm, người muốn ngắm mùa nước đổ. |
+| **Mùa Thu**  | Tháng 9 - 10 | Mùa lúa chín vàng rực rỡ ở Mù Cang Chải, Hoàng Su Phì.                        | Thời tiết đẹp, khô ráo, thuận lợi di chuyển. Cảnh quan ngoạn mục nhất.7        | Rất đông khách du lịch. Giá dịch vụ cao, cần đặt trước.9                       | Nhiếp ảnh gia, người yêu thiên nhiên, du khách đi lần đầu.                   |
+| **Mùa Đông** | Tháng 11 - 1 | Săn mây ở Tà Xùa, Y Tý. Hoa cải, hoa tam giác mạch. Cơ hội ngắm tuyết ở Sapa. | Trải nghiệm độc đáo, không gian lãng mạn, tĩnh lặng. Ít đông đúc hơn mùa thu.7 | Rất lạnh, có thể có sương muối, băng giá. Sương mù dày đặc, tầm nhìn hạn chế.2 | Người thích săn mây, cặp đôi, người muốn trải nghiệm tuyết.                  |
 
 ## 0.3. Phần III: Bản Đồ Khám Phá: Những Điểm Đến Trọng Yếu
 
@@ -102,9 +103,7 @@ Thời gian lý tưởng nhất để săn được những biển mây hùng v�
 #### 0.3.1.5. Lưu trú và Lịch trình
 
 - **Lưu trú:** Các lựa chọn ở Tà Xùa chủ yếu là homestay do người dân tự cải tạo (tiện nghi có thể hạn chế) và một vài nhà nghỉ.18 Trải nghiệm được khuyến khích nhất là cắm trại qua đêm tại các địa điểm như Sống Lưng Khủng Long để có thể đón trọn khoảnh khắc bình minh trên biển mây.19
-    
 - **Lịch trình gợi ý (2 ngày 1 đêm):** Ngày 1: Xuất phát từ Hà Nội, đến Tà Xùa vào buổi chiều, nhận phòng/dựng trại, khám phá các điểm gần trung tâm. Ngày 2: Dậy thật sớm (khoảng 5h sáng) để di chuyển đến Sống Lưng Khủng Long săn mây, sau đó tham quan Cây cô đơn, Mỏm đá đầu rùa và trở về Hà Nội vào buổi chiều.17
-    
 
 ### 0.3.2. Mù Cang Chải (Yên Bái): Tuyệt Tác Ruộng Bậc Thang
 
@@ -197,36 +196,22 @@ Xe máy là phương tiện được cộng đồng phượt thủ ưa chuộng 
 Tây Bắc có vô số cung đường với các cấp độ khó khác nhau, phù hợp cho cả người mới bắt đầu và những tay lái dày dạn kinh nghiệm.
 
 - **Cấp độ Dễ (Cho người mới bắt đầu):** Cung đường **Sơn La – Mai Châu – Hòa Bình** là một lựa chọn lý tưởng. Với chiều dài khoảng 250km, cung đường này chủ yếu là đường nhựa bằng phẳng, ít đèo dốc quanh co, giúp người mới làm quen với việc đi phượt đường dài.37
-    
 - **Cấp độ Trung bình (Kinh điển):** Đây là những cung đường làm nên tên tuổi của phượt Tây Bắc, với cảnh quan đẹp và độ khó vừa phải.
-    
-    - **Hà Nội – Mộc Châu – Bắc Yên – Tà Xùa:** Kết hợp giữa cao nguyên Mộc Châu hiền hòa và "thiên đường mây" Tà Xùa hiểm trở.37
-        
-    - **Nghĩa Lộ – đèo Khau Phạ – Mù Cang Chải:** Cung đường vàng mùa lúa chín, chinh phục một trong "Tứ đại đỉnh đèo".2
-        
-    - **Lào Cai – đèo Ô Quy Hồ – Lai Châu:** Chinh phục "vua đèo Tây Bắc" với những khúc cua tử thần và cảnh quan hùng vĩ của dãy Hoàng Liên Sơn.37
-        
-    - **Điện Biên – đèo Pha Đin – Sơn La:** Một cung đường mang đậm dấu ấn lịch sử và vẻ đẹp mây trời.37
-        
+  - **Hà Nội – Mộc Châu – Bắc Yên – Tà Xùa:** Kết hợp giữa cao nguyên Mộc Châu hiền hòa và "thiên đường mây" Tà Xùa hiểm trở.37
+  - **Nghĩa Lộ – đèo Khau Phạ – Mù Cang Chải:** Cung đường vàng mùa lúa chín, chinh phục một trong "Tứ đại đỉnh đèo".2
+  - **Lào Cai – đèo Ô Quy Hồ – Lai Châu:** Chinh phục "vua đèo Tây Bắc" với những khúc cua tử thần và cảnh quan hùng vĩ của dãy Hoàng Liên Sơn.37
+  - **Điện Biên – đèo Pha Đin – Sơn La:** Một cung đường mang đậm dấu ấn lịch sử và vẻ đẹp mây trời.37
 - **Cấp độ Khó (Thử thách, chỉ dành cho tay lái cứng):** Những cung đường này cực kỳ hiểm trở, đường sá xấu, thường xuyên có sạt lở, sương mù và đòi hỏi kỹ năng lái xe, tinh thần thép.
-    
-    - **Pa Tần – Mường Tè (Lai Châu):** Từng là nỗi ám ảnh kinh hoàng của giới phượt thủ với đường đi khủng khiếp. Dù đã được nâng cấp, cung đường này vẫn rất nguy hiểm với "đặc sản" là sạt lở và sương mù dày đặc.2
-        
-    - **Pắc Ma – Mường Tè – A Pa Chải:** Cung đường chinh phục cực Tây Tổ quốc, nổi tiếng với những đoạn đường đầy đá dăm, đá tảng và bùn lầy.2
-        
-    - **Nam Kang Ho Tao:** Được mô tả là một trong những "hiểm địa bậc nhất" Tây Bắc, với những vách đá trơn trượt, không có gờ bám, cực kỳ nguy hiểm cho hoạt động trekking và di chuyển.41
-        
+  - **Pa Tần – Mường Tè (Lai Châu):** Từng là nỗi ám ảnh kinh hoàng của giới phượt thủ với đường đi khủng khiếp. Dù đã được nâng cấp, cung đường này vẫn rất nguy hiểm với "đặc sản" là sạt lở và sương mù dày đặc.2
+  - **Pắc Ma – Mường Tè – A Pa Chải:** Cung đường chinh phục cực Tây Tổ quốc, nổi tiếng với những đoạn đường đầy đá dăm, đá tảng và bùn lầy.2
+  - **Nam Kang Ho Tao:** Được mô tả là một trong những "hiểm địa bậc nhất" Tây Bắc, với những vách đá trơn trượt, không có gờ bám, cực kỳ nguy hiểm cho hoạt động trekking và di chuyển.41
 
 #### 0.4.1.4. An toàn là trên hết
 
 - **Kỹ năng lái xe:** Luôn làm chủ tốc độ, không chạy quá 60 km/h khi leo đèo và nên giữ ở mức 40-50 km/h để vừa an toàn vừa ngắm cảnh.38 Tuyệt đối không đi đêm ở những cung đường lạ và hiểm trở. Kỹ năng đổ đèo bằng số thấp (phanh động cơ) và vào cua an toàn là tối quan trọng.3
-    
 - **Trang bị bảo hộ:** Mũ bảo hiểm che cả cằm (full-face) chất lượng cao là vật dụng bắt buộc. Ngoài ra, găng tay, áo giáp, giáp bảo vệ đầu gối và khuỷu tay sẽ giảm thiểu chấn thương nếu không may xảy ra va chạm.40
-    
 - **Định vị:** Không nên phụ thuộc hoàn toàn vào Google Maps. Hãy chuẩn bị thêm bản đồ giấy và lưu bản đồ offline trên điện thoại, vì nhiều khu vực sóng rất yếu hoặc không có.3
-    
 - **Sức khỏe:** Tuyệt đối không lái xe khi cảm thấy mệt mỏi hay buồn ngủ. Nên dừng nghỉ ngơi sau mỗi 150-200km di chuyển.38
-    
 
 ### 0.4.2. Du Lịch Một Mình: Tự Do và An Toàn
 
@@ -235,35 +220,23 @@ Du lịch một mình tại Tây Bắc là một hành trình khám phá bản t
 #### 0.4.2.1. Hành trang cần chuẩn bị
 
 - **Giấy tờ và tiền mặt:** Mang đầy đủ giấy tờ tùy thân như CMND/CCCD, bằng lái xe. Nên chuẩn bị đủ tiền mặt và chia nhỏ cất ở nhiều nơi, vì các điểm ATM rất hiếm và việc thanh toán bằng thẻ gần như không phổ biến ở các vùng sâu vùng xa.10
-    
 - **Trang phục:** Thời tiết Tây Bắc thay đổi rất nhanh, một ngày có thể có đủ 4 mùa. Hãy chuẩn bị quần áo theo lớp để dễ dàng điều chỉnh. Luôn mang theo áo khoác ấm, áo mưa. Giày thể thao hoặc giày trekking có độ bám tốt là lựa chọn bắt buộc cho việc di chuyển trên địa hình đồi núi.10
-    
 - **Y tế:** Tự chuẩn bị một túi y tế cá nhân với các loại thuốc cơ bản như thuốc cảm, đau bụng, tiêu hóa, thuốc chống côn trùng, băng gạc, thuốc sát trùng và bất kỳ loại thuốc đặc trị nào bạn đang sử dụng.10
-    
 - **Balo:** Chọn một chiếc balo có dung tích vừa phải, chất lượng tốt, có đệm lưng và trợ lực để giảm gánh nặng cho vai và lưng trong suốt hành trình dài.10
-    
 
 #### 0.4.2.2. Lưu ý an toàn đặc biệt cho người đi một mình
 
 - **Lên kế hoạch chi tiết:** Hãy nghiên cứu kỹ lưỡng về cung đường, điểm đến, nơi ăn chốn ở. Quan trọng nhất là chia sẻ lịch trình chi tiết của bạn cho gia đình hoặc một người bạn tin cậy để họ có thể theo dõi và hỗ trợ khi cần.
-    
 - **An toàn giao thông:** Nếu tự lái xe, đây là rủi ro lớn nhất. Hãy luôn giữ sự tỉnh táo, không cố đi khi trời tối hoặc thời tiết xấu. Luôn làm chủ tay lái và tốc độ của mình.10
-    
 - **Lựa chọn nơi ở:** Ưu tiên chọn những homestay, nhà nghỉ có đánh giá tốt về an ninh trên các nền tảng đặt phòng. Hãy đọc kỹ nhận xét của những người đã ở trước đó.
-    
 - **Giao tiếp và ứng xử:** Người dân Tây Bắc phần lớn rất thân thiện và hiếu khách. Tuy nhiên, hãy luôn giữ thái độ cởi mở nhưng cảnh giác. Tránh đi vào những khu vực quá hẻo lánh, vắng vẻ một mình vào ban đêm.
-    
 - **Thiết bị hỗ trợ:** Luôn mang theo sạc dự phòng đã sạc đầy, đèn pin (đặc biệt quan trọng ở những nơi có thể mất điện), và một chiếc còi báo động để sử dụng trong trường hợp khẩn cấp.40
-    
 - **Lựa chọn tour ghép:** Nếu bạn cảm thấy không đủ tự tin để đi một mình, đặc biệt là nữ giới, việc tham gia các tour ghép là một giải pháp tuyệt vời. Bạn vừa có sự an toàn của việc đi theo đoàn, vừa có cơ hội làm quen với những người bạn mới mà vẫn giữ được tinh thần khám phá.10
-    
 
 #### 0.4.2.3. Gợi ý lịch trình
 
 - **Chuyến đi ngắn ngày (2 ngày 1 đêm):** Nên tập trung vào một điểm đến cụ thể để có trải nghiệm sâu sắc, ví dụ như săn mây Tà Xùa, khám phá cao nguyên Mộc Châu, hoặc nghỉ dưỡng ở Y Tý.29
-    
 - **Chuyến đi dài ngày (10 ngày từ Sài Gòn):** Đây là một hành trình lớn, đòi hỏi kế hoạch hậu cần phức tạp hơn, bao gồm cả việc vận chuyển xe máy bằng tàu hỏa và di chuyển bằng máy bay. Một lịch trình tham khảo có thể là: Sài Gòn -> Hà Nội (máy bay) -> Mai Châu -> Mộc Châu -> Tà Xùa -> Sơn La -> Mù Cang Chải -> Ninh Bình -> Hà Nội (gửi xe về) -> Sài Gòn (máy bay).43
-    
 
 ## 0.5. Phần V: Hậu Cần Cho Chuyến Đi Hoàn Hảo
 
@@ -279,13 +252,13 @@ Sapa là điểm đến phổ biến nhất, do đó hệ thống giao thông đ
 
 ### 0.5.2. Bảng so sánh các phương tiện di chuyển từ Hà Nội đến Sapa
 
-|Phương tiện|Chi phí ước tính (VNĐ/người/lượt)|Thời gian di chuyển|Ưu điểm|Nhược điểm|Phù hợp với|
-|---|---|---|---|---|---|
-|**Xe máy**|~150.000 (tiền xăng)|12 - 14 giờ|Linh hoạt tối đa, chi phí thấp, trải nghiệm chân thực, cảm giác chinh phục.|Rủi ro cao, yêu cầu sức khỏe và kinh nghiệm, mệt mỏi, mất nhiều thời gian.|Phượt thủ chuyên nghiệp, người yêu mạo hiểm, nhóm bạn trẻ.|
-|**Xe khách giường nằm**|230.000 - 400.000|7 - 8 giờ|Phổ biến, chi phí hợp lý, tiết kiệm thời gian so với tàu hỏa, nhiều chuyến.|Dễ say xe do đường đèo, không gian chung, có thể dừng bắt khách dọc đường.|Nhóm bạn, du khách tự túc muốn tiết kiệm chi phí.|
-|**Tàu hỏa**|150.000 - 560.000|8 - 9 giờ|An toàn cao, trải nghiệm hoài cổ, phù hợp đi đêm để tiết kiệm thời gian ban ngày.|Phải di chuyển thêm chặng từ ga Lào Cai lên Sapa (37km), phức tạp nếu nhiều hành lý.|Gia đình có trẻ nhỏ, người say xe, nhóm lớn muốn có không gian riêng (khoang riêng).|
-|**Xe Limousine**|350.000 - 450.000|5 - 6 giờ|Nhanh, tiện nghi, thoải mái, đưa đón tận nơi, không gian sang trọng.|Chi phí cao hơn xe khách thông thường, số lượng ghế ít cần đặt sớm.|Cặp đôi, gia đình nhỏ, khách công vụ, người ưu tiên sự thoải mái.|
-|**Thuê xe riêng (ô tô)**|Chi phí cao (từ 4.000.000/2 ngày)|5 - 6 giờ|Hoàn toàn chủ động lịch trình, riêng tư, thoải mái, an toàn.|Chi phí cao nhất, đặc biệt nếu đi ít người.|Gia đình lớn, nhóm bạn muốn có không gian riêng, công ty tổ chức tour.|
+| Phương tiện              | Chi phí ước tính (VNĐ/người/lượt) | Thời gian di chuyển | Ưu điểm                                                                           | Nhược điểm                                                                           | Phù hợp với                                                                          |
+| ------------------------ | --------------------------------- | ------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| **Xe máy**               | ~150.000 (tiền xăng)              | 12 - 14 giờ         | Linh hoạt tối đa, chi phí thấp, trải nghiệm chân thực, cảm giác chinh phục.       | Rủi ro cao, yêu cầu sức khỏe và kinh nghiệm, mệt mỏi, mất nhiều thời gian.           | Phượt thủ chuyên nghiệp, người yêu mạo hiểm, nhóm bạn trẻ.                           |
+| **Xe khách giường nằm**  | 230.000 - 400.000                 | 7 - 8 giờ           | Phổ biến, chi phí hợp lý, tiết kiệm thời gian so với tàu hỏa, nhiều chuyến.       | Dễ say xe do đường đèo, không gian chung, có thể dừng bắt khách dọc đường.           | Nhóm bạn, du khách tự túc muốn tiết kiệm chi phí.                                    |
+| **Tàu hỏa**              | 150.000 - 560.000                 | 8 - 9 giờ           | An toàn cao, trải nghiệm hoài cổ, phù hợp đi đêm để tiết kiệm thời gian ban ngày. | Phải di chuyển thêm chặng từ ga Lào Cai lên Sapa (37km), phức tạp nếu nhiều hành lý. | Gia đình có trẻ nhỏ, người say xe, nhóm lớn muốn có không gian riêng (khoang riêng). |
+| **Xe Limousine**         | 350.000 - 450.000                 | 5 - 6 giờ           | Nhanh, tiện nghi, thoải mái, đưa đón tận nơi, không gian sang trọng.              | Chi phí cao hơn xe khách thông thường, số lượng ghế ít cần đặt sớm.                  | Cặp đôi, gia đình nhỏ, khách công vụ, người ưu tiên sự thoải mái.                    |
+| **Thuê xe riêng (ô tô)** | Chi phí cao (từ 4.000.000/2 ngày) | 5 - 6 giờ           | Hoàn toàn chủ động lịch trình, riêng tư, thoải mái, an toàn.                      | Chi phí cao nhất, đặc biệt nếu đi ít người.                                          | Gia đình lớn, nhóm bạn muốn có không gian riêng, công ty tổ chức tour.               |
 
 Nguồn dữ liệu: 32
 
@@ -311,19 +284,18 @@ Hệ thống lưu trú ở Tây Bắc ngày càng phát triển, đáp ứng đ�
 Dự trù chi phí là một bước quan trọng để đảm bảo chuyến đi không bị gián đoạn. Ngân sách sẽ phụ thuộc rất nhiều vào hình thức du lịch, thời gian và mức độ chi tiêu cá nhân.
 
 - **Phân tích chi phí:** Một chuyến đi sẽ bao gồm các hạng mục chính:
-    
-    1. **Chi phí di chuyển:** Vé máy bay (nếu từ miền Nam), vé tàu/xe, tiền xăng, phí thuê xe.
-    2. **Chi phí lưu trú:** Tùy thuộc vào loại hình (homestay, khách sạn, resort).
-    3. **Chi phí ăn uống:** Các bữa ăn chính và ăn vặt.
-    4. **Vé tham quan:** Phí vào cửa các địa điểm du lịch.
-    5. **Chi phí khác:** Mua sắm, quà lưu niệm, các chi phí phát sinh.
+  1. **Chi phí di chuyển:** Vé máy bay (nếu từ miền Nam), vé tàu/xe, tiền xăng, phí thuê xe.
+  2. **Chi phí lưu trú:** Tùy thuộc vào loại hình (homestay, khách sạn, resort).
+  3. **Chi phí ăn uống:** Các bữa ăn chính và ăn vặt.
+  4. **Vé tham quan:** Phí vào cửa các địa điểm du lịch.
+  5. **Chi phí khác:** Mua sắm, quà lưu niệm, các chi phí phát sinh.
 - **Chi phí tham khảo:**
-    - **Chuyến đi ngắn ngày (3 ngày 2 đêm):** Một chuyến đi tự túc từ Hà Nội có thể dao động từ 3.000.000 VNĐ/người (nếu đi xe máy/xe khách và ở homestay) đến khoảng 4.600.000 VNĐ/người (nếu đi Limousine và ở khách sạn tầm trung).35
-    - **Chuyến đi dài ngày:** Chi phí sẽ tăng lên đáng kể. Một tour ghép 5 ngày 4 đêm có giá khoảng 5.650.000 VNĐ/người (chưa bao gồm vé máy bay).34 Một chuyến đi tự túc 10 ngày từ Sài Gòn, chỉ riêng chi phí di chuyển cơ bản (máy bay, taxi, gửi xe máy) đã có thể lên tới hơn 7.600.000 VNĐ cho 2 người.43
+  - **Chuyến đi ngắn ngày (3 ngày 2 đêm):** Một chuyến đi tự túc từ Hà Nội có thể dao động từ 3.000.000 VNĐ/người (nếu đi xe máy/xe khách và ở homestay) đến khoảng 4.600.000 VNĐ/người (nếu đi Limousine và ở khách sạn tầm trung).35
+  - **Chuyến đi dài ngày:** Chi phí sẽ tăng lên đáng kể. Một tour ghép 5 ngày 4 đêm có giá khoảng 5.650.000 VNĐ/người (chưa bao gồm vé máy bay).34 Một chuyến đi tự túc 10 ngày từ Sài Gòn, chỉ riêng chi phí di chuyển cơ bản (máy bay, taxi, gửi xe máy) đã có thể lên tới hơn 7.600.000 VNĐ cho 2 người.43
 - **Giá vé tham quan một số điểm (tham khảo):**
-    - **Sapa:** Núi Hàm Rồng (70.000 VNĐ), Thác Bạc (20.000 VNĐ), Bản Cát Cát (70.000 VNĐ), Cáp treo Fansipan (khoảng 850.000 VNĐ).33
-    - **Mù Cang Chải:** Đồi Móng Ngựa (20.000 VNĐ), phí vào ruộng lúa (10.000 VNĐ).14
-    - **Mộc Châu:** Thác Dải Yếm (50.000 VNĐ), Happy Land (thay đổi theo mùa).29
+  - **Sapa:** Núi Hàm Rồng (70.000 VNĐ), Thác Bạc (20.000 VNĐ), Bản Cát Cát (70.000 VNĐ), Cáp treo Fansipan (khoảng 850.000 VNĐ).33
+  - **Mù Cang Chải:** Đồi Móng Ngựa (20.000 VNĐ), phí vào ruộng lúa (10.000 VNĐ).14
+  - **Mộc Châu:** Thác Dải Yếm (50.000 VNĐ), Happy Land (thay đổi theo mùa).29
 
 Việc lập một bảng dự trù chi phí chi tiết dựa trên lịch trình cá nhân là cách tốt nhất để quản lý ngân sách hiệu quả cho chuyến đi Tây Bắc.
 
@@ -336,46 +308,28 @@ Hành trình khám phá Tây Bắc sẽ không thể trọn vẹn nếu thiếu 
 Mỗi tỉnh của vùng Tây Bắc lại có những món ăn đặc trưng, gắn liền với văn hóa của các dân tộc sinh sống tại đó.
 
 - **Lào Cai:** Nổi tiếng nhất phải kể đến **thắng cố ngựa Bắc Hà**, một món ăn truyền thống của người H'Mông với hương vị độc đáo từ thịt và nội tạng ngựa ninh nhừ cùng các loại gia vị núi rừng.1
-    
-    **Thịt trâu gác bếp** cũng là một đặc sản trứ danh, với vị ngọt của thịt quyện với mùi khói bếp và vị cay nồng của hạt mắc khén.1 Ngoài ra, Sapa còn hấp dẫn du khách với
-    
-    **cá hồi, cá tầm** được nuôi trong làn nước lạnh, thịt săn chắc, thơm ngon 51, và
-    
-    **rượu táo mèo** cay nồng, ấm áp.1
-    
+  **Thịt trâu gác bếp** cũng là một đặc sản trứ danh, với vị ngọt của thịt quyện với mùi khói bếp và vị cay nồng của hạt mắc khén.1 Ngoài ra, Sapa còn hấp dẫn du khách với
+  **cá hồi, cá tầm** được nuôi trong làn nước lạnh, thịt săn chắc, thơm ngon 51, và
+  **rượu táo mèo** cay nồng, ấm áp.1
 - **Sơn La:** Đặc sản nổi bật nhất là **bê chao Mộc Châu**, làm từ thịt bê non mềm ngọt, chao qua dầu nóng, ăn kèm nước chấm đặc biệt.1 Một món ăn khác đầy thử thách nhưng cũng là tinh hoa ẩm thực của người Thái là
-    
-    **nậm pịa**, một loại canh sền sệt được chế biến từ nội tạng và chất dịch trong ruột non của động vật ăn cỏ, có vị đắng nhưng hậu vị ngọt và được cho là rất tốt cho tiêu hóa.1
-    
+  **nậm pịa**, một loại canh sền sệt được chế biến từ nội tạng và chất dịch trong ruột non của động vật ăn cỏ, có vị đắng nhưng hậu vị ngọt và được cho là rất tốt cho tiêu hóa.1
 - **Điện Biên:** Nơi đây có món **sâu chít** béo ngậy, một loại đặc sản quý hiếm thường được dùng để ngâm rượu hoặc chế biến các món ăn bổ dưỡng.1
-    
-    **Bánh dày của người Mông** dẻo thơm, và món ăn dân dã **bắp cải cuốn nhót xanh** chấm cùng "chẳm chéo" mang đến một tổ hợp hương vị chua, cay, mặn, ngọt độc đáo.1
-    
+  **Bánh dày của người Mông** dẻo thơm, và món ăn dân dã **bắp cải cuốn nhót xanh** chấm cùng "chẳm chéo" mang đến một tổ hợp hương vị chua, cay, mặn, ngọt độc đáo.1
 - **Lai Châu:** Nổi tiếng với món **Pa pỉnh tộp**, tức cá suối gập nướng. Cá được tẩm ướp kỹ lưỡng với mắc khén, gừng, sả rồi kẹp tre nướng trên than hồng, tỏa hương thơm lừng.1
-    
-    **Lợn cắp nách**, giống lợn bản nhỏ được nuôi thả rông, thịt chắc, ít mỡ, cũng là một món ngon không thể bỏ qua.1
-    
+  **Lợn cắp nách**, giống lợn bản nhỏ được nuôi thả rông, thịt chắc, ít mỡ, cũng là một món ngon không thể bỏ qua.1
 - **Yên Bái:** Vùng đất này tự hào có **cốm Tú Lệ**, một trong những loại cốm ngon nhất Việt Nam, được làm từ giống lúa nếp tan trồng trên thung lũng Tú Lệ.1 Ngoài ra còn có
-    
-    **nhộng ong rừng** xào măng chua, **bánh chưng đen Mường Lò** với màu sắc và hương vị đặc trưng từ than cây núc nác và gạo nếp nương.1
-    
+  **nhộng ong rừng** xào măng chua, **bánh chưng đen Mường Lò** với màu sắc và hương vị đặc trưng từ than cây núc nác và gạo nếp nương.1
 - **Hòa Bình:** Gắn liền với sông Đà, đặc sản nơi đây là **cá nướng sông Đà**, thịt ngọt và chắc. **Xôi nếp nương Mai Châu** ngũ sắc và **rượu cần** là những trải nghiệm ẩm thực văn hóa không thể thiếu khi đến với thung lũng của người Thái.1
-    
 
 ### 0.6.2. Chuyên Đề Thắng Cố: Thử Thách và Tinh Hoa
 
 Trong bức tranh ẩm thực đa dạng của Tây Bắc, thắng cố là món ăn gây tò mò và cũng gây tranh cãi nhiều nhất. Đây không chỉ là một món ăn, mà là một biểu tượng văn hóa, một thử thách lòng can đảm của du khách.
 
 - **Nguồn gốc và ý nghĩa:** Thắng cố là món ăn truyền thống của người H'Mông, được cho là có nguồn gốc từ Vân Nam (Trung Quốc) và đã tồn tại ở Việt Nam gần 200 năm.53 Tên gọi "thắng cố" được biến âm từ "thoảng cố" trong tiếng Mông, có nghĩa là "nồi nước" hay "canh thịt".54 Ban đầu, món ăn này chỉ được nấu từ thịt và toàn bộ nội tạng của một con ngựa, thể hiện sự tận dụng tối đa nguồn thực phẩm và tinh thần cộng đồng, khi cả làng cùng quây quần bên chảo thắng cố lớn trong các phiên chợ hay ngày lễ hội.53
-    
 - **Nguyên liệu và hương vị:** Theo truyền thống, một nồi thắng cố đúng điệu phải có đủ tim, gan, lòng, phèo, phổi, tiết và thịt ngựa.56 Ngày nay, đã có thêm các biến tấu từ thịt trâu, bò để phù hợp hơn với khẩu vị của nhiều người.54 Điều làm nên hương vị độc đáo và gây "ám ảnh" của thắng cố chính là sự kết hợp của gần 12 loại gia vị đặc trưng của núi rừng như thảo quả, hoa hồi, quế chi, hạt dổi, và đặc biệt là lá thắng cố.55 Chính những gia vị này, chứ không phải do việc chế biến không sạch sẽ, đã tạo ra mùi nồng và vị đắng đặc trưng của món ăn.54 Với người chưa quen, đây có thể là một rào cản, nhưng khi đã vượt qua được, họ sẽ cảm nhận được vị ngọt của thịt, vị béo của mỡ và sự ấm nóng lan tỏa từ các loại thảo mộc.
-    
 - **Địa chỉ ăn thắng cố ngon:**
-    
-    - **Hà Giang:** Được xem là nơi có món thắng cố chuẩn vị truyền thống nhất, đặc biệt là tại các phiên chợ như chợ Đồng Văn.55 Một số quán nổi tiếng ở Đồng Văn bao gồm Quán thắng cố Mộc Miên, Nhà hàng Âu Việt, Quán Tiến Nhị.55
-        
-    - **Sapa:** Thắng cố ở Sapa thường được điều chỉnh hương vị để dễ ăn hơn với du khách. Các nhà hàng nổi tiếng bao gồm A Quỳnh, A Phủ, Hải Lâm, A Nguyên, nơi món ăn được phục vụ dưới dạng lẩu, ăn kèm với các loại rau tươi của Sapa.57
-        
+  - **Hà Giang:** Được xem là nơi có món thắng cố chuẩn vị truyền thống nhất, đặc biệt là tại các phiên chợ như chợ Đồng Văn.55 Một số quán nổi tiếng ở Đồng Văn bao gồm Quán thắng cố Mộc Miên, Nhà hàng Âu Việt, Quán Tiến Nhị.55
+  - **Sapa:** Thắng cố ở Sapa thường được điều chỉnh hương vị để dễ ăn hơn với du khách. Các nhà hàng nổi tiếng bao gồm A Quỳnh, A Phủ, Hải Lâm, A Nguyên, nơi món ăn được phục vụ dưới dạng lẩu, ăn kèm với các loại rau tươi của Sapa.57
 
 ### 0.6.3. Mua Gì Làm Quà? Đặc Sản Mang Về
 
@@ -383,16 +337,16 @@ Mang một chút hương vị Tây Bắc về làm quà là cách tuyệt vời 
 
 ### 0.6.4. Bảng đặc sản Tây Bắc mua làm quà
 
-|Tên đặc sản|Mô tả & Đặc điểm|Giá tham khảo (VNĐ)|Địa chỉ/Khu vực mua gợi ý|
-|---|---|---|---|
-|**Thịt trâu/lợn gác bếp**|Thịt được tẩm ướp mắc khén, ớt rừng rồi hun bằng khói bếp củi. Thịt khô, thơm mùi khói, vị ngọt đậm, cay nồng. 1|700.000 - 900.000 / kg|Các cửa hàng đặc sản uy tín ở Sapa, Điện Biên, hoặc các cơ sở sản xuất tại các tỉnh. 60|
-|**Lạp xưởng hun khói**|Làm từ thịt lợn vai tẩm ướp gia vị, nhồi vào lòng non rồi hun trên gác bếp. Có mùi thơm của khói và gia vị đặc trưng. 60|450.000 / kg|Các cửa hàng, khu chợ tại Điện Biên, Sapa. 60|
-|**Gia vị (Mắc khén, Hạt dổi)**|"Linh hồn" của ẩm thực Tây Bắc. Mắc khén thơm nồng, cay tê. Hạt dổi thơm hắc. Dùng để ướp hoặc làm đồ chấm. 60|350.000 / kg (Mắc khén)|Các chợ phiên, cửa hàng đặc sản ở khắp các tỉnh Tây Bắc. 60|
-|**Trà Shan Tuyết Tà Xùa**|Làm từ búp của những cây chè cổ thụ hàng trăm năm tuổi. Nước trà vàng óng, vị chát dịu, hậu vị ngọt sâu và hương thơm tinh khiết. 60|1.100.000 / kg|Các cửa hàng tại xã Tà Xùa, huyện Bắc Yên, Sơn La. 60|
-|**Măng khô**|Măng được lấy từ rừng, phơi khô tự nhiên, giữ được vị ngọt và hương thơm. Có nhiều loại như măng lưỡi lợn, măng búp. 60|250.000 / kg|Các chợ phiên, đặc biệt ở Điện Biên, Yên Bái. 60|
-|**Rượu Táo Mèo**|Ngâm từ quả táo mèo (sơn tra) hoang dã. Rượu có màu nâu sóng sánh, vị chua chát, ngọt hậu, thơm nồng. 1|~100.000 / lít|Sapa (Lào Cai), Yên Bái, các cửa hàng đặc sản.|
-|**Mật ong bạc hà**|Đặc sản của vùng cao nguyên đá Hà Giang. Mật có màu vàng chanh ánh xanh, vị ngọt thanh mát và hương thơm đặc trưng của hoa bạc hà. 62|~400.000 - 500.000 / lít|Hà Giang (Mèo Vạc, Đồng Văn), các cửa hàng uy tín.|
-|**Đồ thổ cẩm**|Váy, áo, khăn, túi... được dệt và thêu tay tỉ mỉ với những hoa văn độc đáo, màu sắc rực rỡ, thể hiện văn hóa của người Mông, Dao, Thái... 61|Tùy sản phẩm|Các làng nghề (Tả Phìn - Sapa), chợ phiên Bắc Hà, Đồng Văn.|
+| Tên đặc sản                    | Mô tả & Đặc điểm                                                                                                                             | Giá tham khảo (VNĐ)      | Địa chỉ/Khu vực mua gợi ý                                                               |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------------------------------------- |
+| **Thịt trâu/lợn gác bếp**      | Thịt được tẩm ướp mắc khén, ớt rừng rồi hun bằng khói bếp củi. Thịt khô, thơm mùi khói, vị ngọt đậm, cay nồng. 1                             | 700.000 - 900.000 / kg   | Các cửa hàng đặc sản uy tín ở Sapa, Điện Biên, hoặc các cơ sở sản xuất tại các tỉnh. 60 |
+| **Lạp xưởng hun khói**         | Làm từ thịt lợn vai tẩm ướp gia vị, nhồi vào lòng non rồi hun trên gác bếp. Có mùi thơm của khói và gia vị đặc trưng. 60                     | 450.000 / kg             | Các cửa hàng, khu chợ tại Điện Biên, Sapa. 60                                           |
+| **Gia vị (Mắc khén, Hạt dổi)** | "Linh hồn" của ẩm thực Tây Bắc. Mắc khén thơm nồng, cay tê. Hạt dổi thơm hắc. Dùng để ướp hoặc làm đồ chấm. 60                               | 350.000 / kg (Mắc khén)  | Các chợ phiên, cửa hàng đặc sản ở khắp các tỉnh Tây Bắc. 60                             |
+| **Trà Shan Tuyết Tà Xùa**      | Làm từ búp của những cây chè cổ thụ hàng trăm năm tuổi. Nước trà vàng óng, vị chát dịu, hậu vị ngọt sâu và hương thơm tinh khiết. 60         | 1.100.000 / kg           | Các cửa hàng tại xã Tà Xùa, huyện Bắc Yên, Sơn La. 60                                   |
+| **Măng khô**                   | Măng được lấy từ rừng, phơi khô tự nhiên, giữ được vị ngọt và hương thơm. Có nhiều loại như măng lưỡi lợn, măng búp. 60                      | 250.000 / kg             | Các chợ phiên, đặc biệt ở Điện Biên, Yên Bái. 60                                        |
+| **Rượu Táo Mèo**               | Ngâm từ quả táo mèo (sơn tra) hoang dã. Rượu có màu nâu sóng sánh, vị chua chát, ngọt hậu, thơm nồng. 1                                      | ~100.000 / lít           | Sapa (Lào Cai), Yên Bái, các cửa hàng đặc sản.                                          |
+| **Mật ong bạc hà**             | Đặc sản của vùng cao nguyên đá Hà Giang. Mật có màu vàng chanh ánh xanh, vị ngọt thanh mát và hương thơm đặc trưng của hoa bạc hà. 62        | ~400.000 - 500.000 / lít | Hà Giang (Mèo Vạc, Đồng Văn), các cửa hàng uy tín.                                      |
+| **Đồ thổ cẩm**                 | Váy, áo, khăn, túi... được dệt và thêu tay tỉ mỉ với những hoa văn độc đáo, màu sắc rực rỡ, thể hiện văn hóa của người Mông, Dao, Thái... 61 | Tùy sản phẩm             | Các làng nghề (Tả Phìn - Sapa), chợ phiên Bắc Hà, Đồng Văn.                             |
 
 ## 0.7. Phần VII: Lời Kết - Hành Trình Không Chỉ Là Đích Đến
 
@@ -402,12 +356,13 @@ Tuy nhiên, vẻ đẹp hoang sơ và quý giá đó cũng rất mong manh. Sự
 
 Tây Bắc là một vùng đất mà mỗi lần trở lại đều mang đến những khám phá mới, những cảm xúc mới. Có thể lần này bạn chinh phục Ô Quy Hồ, nhưng lần sau Pha Đin lại vẫy gọi. Có thể lần này bạn say đắm mùa lúa chín, nhưng lần sau bạn lại hẹn với mùa hoa ban. Hành trình không bao giờ kết thúc. Và sau cùng, giá trị lớn nhất của một chuyến đi Tây Bắc không chỉ nằm ở những bức ảnh check-in lộng lẫy, mà ở sự thay đổi trong nhận thức, ở lòng trân trọng sâu sắc hơn đối với thiên nhiên, con người, và ở những câu chuyện mà bạn sẽ mang theo suốt cuộc đời. Đó mới thực sự là đích đến của mọi hành trình.
 
-Mình dự định đi 4n3đ thì lịch trình như vầy ổn ko các b:  
-1. HG - Yên Minh (Quản Bạ, Làng Nậm Đăm, Hmong Resort (check in) (nghỉ đêm Yên Minh)  
-2. Yên Minh - Đồng Văn: Dốc Thẩm Mã, Phó Bảng, Nhà Pao, bãi đá mặt trăng Dinh Mèo, làng Lô Lô (nghỉ đêm Lô Lô Chải)  
-3. Đồng Văn - Mèo Vạc: sáng đi Lũng Cú, làng cổ thiên hương, đèo Mã Pí Lèng, sông Nho Quế (nghỉ đêm làng Pả Vi)  
+Mình dự định đi 4n3đ thì lịch trình như vầy ổn ko các b:
+
+1. HG - Yên Minh (Quản Bạ, Làng Nậm Đăm, Hmong Resort (check in) (nghỉ đêm Yên Minh)
+2. Yên Minh - Đồng Văn: Dốc Thẩm Mã, Phó Bảng, Nhà Pao, bãi đá mặt trăng Dinh Mèo, làng Lô Lô (nghỉ đêm Lô Lô Chải)
+3. Đồng Văn - Mèo Vạc: sáng đi Lũng Cú, làng cổ thiên hương, đèo Mã Pí Lèng, sông Nho Quế (nghỉ đêm làng Pả Vi)
 4. Mèo Vạc - HG (đi đường Bảo Lâm Cao Bằng)  
-Không đi Du Già do nghe nói đường rất xấu ạ
+   Không đi Du Già do nghe nói đường rất xấu ạ
 
 chả chạy tẹt, mình 10-11h tối lên xe từ HN 4h sáng tới nơi vào homestay ngủ đến 6h dậy thuê xe máy bắt đầu chạy ngày đầu tiên gần hết các điểm cổng trời Quản Bạ - ăn phở Tráng Kìm - rừng thông - các vườn hoa tam giác mạch - dốc Thẩm Mã - Nhà Vương - Nhà Pao - Cột cờ lũng Cú tầm 200km khoẻ re, 5 rưỡi chiều vòng lại Đồng Văn tối đi chơi phố cổ tí (vì cũng chả có gì nhiều) rồi về ngủ sớm lấy sức hôm sau quất tiếp Nho Quế Hmong Pả Vi rồi ăn trưa xong chiều đi cung Bảo Lâm - Cao Bằng về lại tp (đoạn này dừng giữa đường nhiều vì khá nhiều cảnh hay ho không tên không phải điểm lớn, rảnh rỗi còn xuống các cung đường ruộng chơi thăm thú) 200km nữa. Ăn tối tắm rửa rồi chờ chút là 8h tối lên xe đón quay lại HN.  
 Mình ko phải phượt thủ nhưng quen chạy xe máy nên ko thấy mệt, mà bị cái ngồi xe nhiều quá về rồi vẫn đau đít mất 3 4 hôm sau hơi ớn.
@@ -489,8 +444,7 @@ Nói chung nếu đi xe máy mà nhất là 1 mình thì nên xác định là n
 Với cái nữa là nếu chạy cố lên Mèo Vạc trong 1 ngày thì sẽ khá mệt. Mà đoạn từ Hà Giang lên Mèo Vạc thì đường dốc liên tục, cảnh cũng khá đẹp. Nên để hôm sau đi thì thong thả và có thời gian ngắm cảnh nhiều hơn. Chứ nếu chạy dồn trong 1 ngày thì lúc ấy chỉ muốn tới nơi nghỉ ngơi thôi chứ không có tâm trí đâu mà ngắm nghía nữa, nó phí ra. Quan trọng là ở chỗ đấy.  
 Nhìn chung đi Hà Giang mà 3n2đ thì phần lớn thời gian là chạy như chó trên đường, chả ngắm nghía được con mẹ gì nhiều.
 
-nếu khôgn có gì thay đổi thì giữa tháng 2 tới mình sẽ đi Hà Giang ngắm hoa đào, giữa tháng 3 đi Putaleng và Xì Thầu Chải. Mấy đứa bạn chúng nó đi xong còn máu hơn mình, đòi 3 tháng đi 1 lần, mùa hè k leo thì đi Háng Đề với Na Hang. Thế nên giờ đang phải lên kế hoạch đi cho cả năm sau.
----
+## nếu khôgn có gì thay đổi thì giữa tháng 2 tới mình sẽ đi Hà Giang ngắm hoa đào, giữa tháng 3 đi Putaleng và Xì Thầu Chải. Mấy đứa bạn chúng nó đi xong còn máu hơn mình, đòi 3 tháng đi 1 lần, mùa hè k leo thì đi Háng Đề với Na Hang. Thế nên giờ đang phải lên kế hoạch đi cho cả năm sau.
 
 bạn đi từ đâu mới được. Nếu ở HN mà chưa quen đi đường đèo núi nhiều thì đi thử Trạm Tấu Yên Bái trước. Rồi Tà Xùa, Y tí, Tà Chì Nhù, Hà giang... Cứng tay rồi thì làm 1 tour Tây Bắc: Hà Nội-Mộc Châu-Điện Biên-Mù Cang Chải-Yên Bái-Hà Nội cho nó vui thú đường dài, đâu đó cần khoảng 3 ngày với hơn 1000km thôi.
 
@@ -520,7 +474,8 @@ Thực ra xe phải khoẻ cỡ xe côn 150cc trở lên, tay lái cũng vững 
 
 mới đi lai châu, lào cai thôi nhưng phải nói thật du lịch khỏi đi mấy tỉnh kia cũng biết out trình, fen nào lên lc thì có thể làm thêm cái hộ chiếu sang cửa khẩu trung quốc chơi sương sương.
 
-Tứ đại đỉnh đèo Tây Bắc:  
+Tứ đại đỉnh đèo Tây Bắc:
+
 - Đèo Mã Pì Lèng, Hà Giang: một bên vực sâu, một bên núi , hùng vĩ, rất đẹp, rất dễ đi
 - Đèo Khau Phạ, Yên Bái: dài khoảng 30km, trước khi lên đèo đi qua Tú Lệ, băng qua các bản làng, ruộng bậc thang, tầm này mùa vàng đi rất đẹp
 - Đèo Ô Quy Hồ, Lào Cai-Lai Châu, dài khoảng 50km, đổ đèo từ đất Lào Cai đi phê lòi, cảnh hùng vĩ, đòi hỏi cứng tay lái một tí
@@ -532,7 +487,7 @@ Mèo Vạc -> Cao Bằng -> Bắc Kan-> Thái Nguyên -> Hà Nội là vừa xin
 
 Yên Bái, bây giờ là ăn đứt Đà Lạt rồi đó!
 
-Đi xe máy thì lạnh vãi ra ý. 
+Đi xe máy thì lạnh vãi ra ý.
 Tết dương lịch này tôi cũng chạy cung Tây Bắc. Đi xe tự lái. Dự định :  
 -Ngày 1 : Hà Nội - Thanh Sơn - Thu Cúc - Nghĩa Lộ - Tú Lệ  
 -Ngày 2 : Mù Căng Chải - Than Uyên  
@@ -545,6 +500,7 @@ Mù Căng Chải nên đi. Đây là 1 trong rất ít nơi của Tây Bắc ch�
 
 Cập nhật tình hình lúa chín của các tỉnh Tây Bắc cho mọi người tham khảo.
 Mình may mắn có cơ hội lên vùng cao ngắm lúa mấy năm nay, riêng cá nhân thấy 2 vùng đẹp nhất, là Mù Cang Chải (Yên Bái cũ); và Hoàng Su Phì (Hà Giang cũ); đợt này thấy mọi người nhắn tin hỏi nhiều nên đi đâu, có những người muốn ngắm lúa đẹp nhất, có những người bảo chỉ cần đổi chỗ ngủ tiện xem lúa chín và ăn cơm bản, lại có người cần những nơi có dịch vụ, đường xá thuận tiện thì nay em hiền đi lạc xin phép tổng hợp lại cho mọi người có sự lựa chọn ưng ý nhất, cả nhà lưu lại tham khảo nha:
+
 - Nậm Cang (20/7 - 30/7): lúa đã chín hết; cung đường đi xe máy không quá khó khăn, đi càng sâu các hẻm vực ngắm lúa càng đẹp.
 - Hoàng Su Phì (15/9 - 5/10): nếu để nói cả cung đường nơi nào cũng có ruộng bậc thang đẹp thì phải kể đến Hoàng Su Phì. Anh em nên đi từ Bắc Hà - Suôi Thầu - bản Phùng - Mâm xôi Nậm Khoà kết hợp săn mây Chiêu Lầu Thi. Cung này ai đam mê offroad rất đáng để đi đó ạ. Tuy nhiên thì cần chuẩn bị thể lực vì đường đi sẽ hơi xấu một chút.
 - Mù Cang Chải (5/9 - 20/9): đẹp nhất Việt Nam đất nước con người ta ơi =))))) không tự dưng Tây sang Việt Nam đến ngắm Mù Cang Chải rất nhiều. Đường xá bây giờ thuận tiện hơn ngày xưa, các điểm tham quan không cách quá xa nhau, vé vào các điểm cũng chỉ từ 10-20k
@@ -552,7 +508,7 @@ Mình may mắn có cơ hội lên vùng cao ngắm lúa mấy năm nay, riêng 
 - Y Tý (25/8 - 15/9): Mấy năm nay Y Tý mới nổi lên với giới trẻ qua "cung đường chữ S" huyền thoại, ở Y Tý rất thoáng, mỗi tội đường từ Sapa (nếu bạn đi từ Sapa) lên Y Tý vẫn rất gồ ghề, với các bạn mới lần đầu lên Tây Bắc thì cần có lái cứng dẫn đường.
 - Tà Xùa (25/8 - 10/9): lên Tà Xùa vừa được săn mây, vừa ngắm ruộng bậc thang cao chót vót, đi sâu vào trong những bản như Xím Vàng, không khó bắt gặp những ruộng bậc thang có hình mâm xôi đẹp như HSP hay MCC.
 - Trùng Khánh (25/8 - 10/9): Một trong những điểm mình list thêm là Trùng Khánh ở Cao Bằng, mình chưa có cơ hội ngắm lúa vàng ở đây nhưng có dịp nhìn thung lũng Phong Nậm - Ngọc Côn thời lúa còn xanh. Những bức ảnh để đời của các nhiếp ảnh gia gạo gội cứ từ đây mà ra. Nếu Lạng Sơn có Bắc Sơn, Yên Bái có Mù Cang Chải thì Cao Bằng phải kể đến Trùng Khánh, cứ theo chân các nhiếp ảnh gia là biết ngay chỗ nào xịn, chỗ nào đẹp ^^
-Thời gian dự kiến ngắm lúa cũng chỉ mang tính chất tương đối nhưng với kinh nghiệm của mình thì khá là sát. Mọi người có thể tham khảo nha. Ngoài ra thì mình có mở những Tour đi ngắm lúa nếu mọi người thấy phù hợp thì có thể liên hệ mình nha,
+  Thời gian dự kiến ngắm lúa cũng chỉ mang tính chất tương đối nhưng với kinh nghiệm của mình thì khá là sát. Mọi người có thể tham khảo nha. Ngoài ra thì mình có mở những Tour đi ngắm lúa nếu mọi người thấy phù hợp thì có thể liên hệ mình nha,
 - Tả Van (23,24/8): còn slots
 - Hoàng Su Phì: tháng 9 (còn slots)
 - Mù Cang Chải: 30,31/8 - 1/9: còn 1 slot, các cuối tuần của tháng 9 còn nhiều slots
@@ -587,18 +543,19 @@ Cam: Đường xấu, vài chỗ như ảnh trên của thím Kurt.
 Từ Lũng Hồ vòng ngược lại đi DT181 hay còn gọi Đường Thượng (đi qua xã Đường Thượng) > Thái An > Thuận Hòa đi ok nhé có mấy đoạn xấu chút thôi, cẩn thận ko lạc đường.  
 Miễn sao đừng có từ Lũng Hồ > Du Già > QL34.
 
-Đồng văn  
+Đồng văn
+
 - Phố Cáo
 - Phó bảng
 - Sủng Là
 - Lao Xa
-Lũng Cú  
+  Lũng Cú
 - Lô Lô chải và Cẳng tằng
 - Thèn pả
-Quản bạ  
+  Quản bạ
 - Cao mã pờ
 - Đường Thượng, Yên Minh
-Đủ đẹp rùi, b nên vào Sảo Há nữa thấy trong đó đẹp, m ko kịp vào.
+  Đủ đẹp rùi, b nên vào Sảo Há nữa thấy trong đó đẹp, m ko kịp vào.
 
 ae cho hỏi đi đến Mèo vạc là coi như bắt đầu quay về, thấy mn toàn quay về đường cũ nhưng thế thì hơi nhàm  
 có thể đi đằng cua chữ M - mậu duệ - đồn Pháp - Thái an - Cầu cán tỉ ra quản bạ về thành phố đc k nhỉ. ( đường 176- đường 181) Bỏ qua Du già  

@@ -9,6 +9,7 @@ tags:
   - menh-de-quan-he
   - menh-de-trang-ngu
 ---
+
 # 1. Câu đơn
 
 Câu đơn (Simple Sentence) là câu có **một mệnh đề độc lập**, bao gồm **chủ ngữ (S) và động từ (V)**, có thể có thêm các thành phần như **tân ngữ (O), bổ ngữ (C), trạng ngữ (A)**.
@@ -75,16 +76,16 @@ Noun + Relative Pronoun + Verb (+Object)
 ## 2.2. Ví dụ:
 
 - _The man **who lives next door** is a doctor._  
-    → "who lives next door" bổ sung thông tin cho _the man_.  
-    → (Người đàn ông **sống bên cạnh** là bác sĩ.)
+   → "who lives next door" bổ sung thông tin cho _the man_.  
+   → (Người đàn ông **sống bên cạnh** là bác sĩ.)
 
 - _The book **which I bought yesterday** is very interesting._  
-    → "which I bought yesterday" bổ sung thông tin cho _the book_.  
-    → (Cuốn sách **mà tôi mua hôm qua** rất thú vị.)
+   → "which I bought yesterday" bổ sung thông tin cho _the book_.  
+   → (Cuốn sách **mà tôi mua hôm qua** rất thú vị.)
 
 - _She is the girl **whose brother won the race**._  
-    → "whose brother won the race" chỉ sở hữu.  
-    → (Cô ấy là cô gái **có anh trai thắng cuộc đua**.)
+   → "whose brother won the race" chỉ sở hữu.  
+   → (Cô ấy là cô gái **có anh trai thắng cuộc đua**.)
 
 # 3. Mệnh đề trạng ngữ (Adverbial Clause)
 
@@ -107,16 +108,14 @@ Mệnh đề này thường bắt đầu bằng **liên từ phụ thuộc (Subo
 ## 3.2. **Ví dụ:**
 
 - _I will go out **if it stops raining**._  
-    → "if it stops raining" là mệnh đề trạng ngữ chỉ điều kiện.  
-    → (Tôi sẽ ra ngoài **nếu trời ngừng mưa**.)
-    
+   → "if it stops raining" là mệnh đề trạng ngữ chỉ điều kiện.  
+   → (Tôi sẽ ra ngoài **nếu trời ngừng mưa**.)
 - _I left the party **because I was tired**._  
-    → "because I was tired" là mệnh đề trạng ngữ chỉ lý do.  
-    → (Tôi rời bữa tiệc **vì tôi mệt**.)
-    
+   → "because I was tired" là mệnh đề trạng ngữ chỉ lý do.  
+   → (Tôi rời bữa tiệc **vì tôi mệt**.)
 - _She started cooking **when he arrived**._  
-    → "when he arrived" là mệnh đề trạng ngữ chỉ thời gian.  
-    → (Cô ấy bắt đầu nấu ăn **khi anh ấy đến**.)
+   → "when he arrived" là mệnh đề trạng ngữ chỉ thời gian.  
+   → (Cô ấy bắt đầu nấu ăn **khi anh ấy đến**.)
 
 # 4. Câu điều kiện (Conditional Sentence)
 
@@ -127,7 +126,7 @@ Câu điều kiện diễn tả **điều kiện và kết quả của nó**. N�
 
 ## 4.1. **Công thức chung:**
 
-If + Subject + Verb (Condition), Subject + Verb 
+If + Subject + Verb (Condition), Subject + Verb
 
 ## 4.2. Ba loại câu điều kiện chính:
 
@@ -137,10 +136,10 @@ Dùng để nói về tình huống có thể xảy ra trong hiện tại hoặc
 
 - **Công thức:** If + S + V (present simple), S + will/can + V (bare infinitive)
 - **Ví dụ:**
-    - _If you study hard, you will pass the exam._  
-        (Nếu bạn học chăm chỉ, bạn sẽ đậu kỳ thi.)
-    - _If it rains, we will stay at home._  
-        (Nếu trời mưa, chúng tôi sẽ ở nhà.)
+  - _If you study hard, you will pass the exam._  
+     (Nếu bạn học chăm chỉ, bạn sẽ đậu kỳ thi.)
+  - _If it rains, we will stay at home._  
+     (Nếu trời mưa, chúng tôi sẽ ở nhà.)
 
 ### 4.2.2. Câu điều kiện loại 2 (Unreal Condition - Không có thật ở hiện tại)
 
@@ -148,10 +147,10 @@ Dùng để nói về điều kiện **không có thật hoặc khó xảy ra** 
 
 - **Công thức:** If + S + V (past simple), S + would/could + V (bare infinitive)
 - **Ví dụ:**
-    - _If I were you, I would accept the job._  
-        (Nếu tôi là bạn, tôi sẽ nhận công việc đó.)
-    - _If she had more money, she could travel the world._  
-        (Nếu cô ấy có nhiều tiền hơn, cô ấy có thể đi du lịch khắp thế giới.)
+  - _If I were you, I would accept the job._  
+     (Nếu tôi là bạn, tôi sẽ nhận công việc đó.)
+  - _If she had more money, she could travel the world._  
+     (Nếu cô ấy có nhiều tiền hơn, cô ấy có thể đi du lịch khắp thế giới.)
 
 ### 4.2.3. Câu điều kiện loại 3 (Impossible Condition - Không có thật trong quá khứ)
 
@@ -159,7 +158,7 @@ Dùng để nói về điều kiện **đã không xảy ra trong quá khứ** v
 
 - **Công thức:** If + S + had + V3, S + would/could + have + V3
 - **Ví dụ:**
-    - _If you had studied harder, you would have passed the exam._  
-        (Nếu bạn học chăm hơn, bạn đã đậu kỳ thi rồi.)
-    - _If she had woken up earlier, she wouldn’t have missed the train._  
-        (Nếu cô ấy dậy sớm hơn, cô ấy đã không lỡ chuyến tàu.)
+  - _If you had studied harder, you would have passed the exam._  
+     (Nếu bạn học chăm hơn, bạn đã đậu kỳ thi rồi.)
+  - _If she had woken up earlier, she wouldn’t have missed the train._  
+     (Nếu cô ấy dậy sớm hơn, cô ấy đã không lỡ chuyến tàu.)

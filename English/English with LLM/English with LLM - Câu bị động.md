@@ -19,10 +19,10 @@ tags:
 **2. Công thức chung:**
 
 - **S + be + V3/ed + (by O)**
-    - S: Chủ ngữ (là đối tượng chịu tác động của hành động).
-    - Be: Động từ "to be" chia theo thì và chủ ngữ.
-    - V3/ed: Động từ ở dạng quá khứ phân từ (past participle).
-    - By O: Cụm giới từ chỉ người thực hiện hành động (có thể có hoặc không).
+  - S: Chủ ngữ (là đối tượng chịu tác động của hành động).
+  - Be: Động từ "to be" chia theo thì và chủ ngữ.
+  - V3/ed: Động từ ở dạng quá khứ phân từ (past participle).
+  - By O: Cụm giới từ chỉ người thực hiện hành động (có thể có hoặc không).
 
 **3. Cách chuyển từ câu chủ động sang câu bị động:**
 
@@ -50,8 +50,8 @@ tags:
 **5. Các trường hợp đặc biệt:**
 
 - **Câu bị động với hai tân ngữ:** Có thể có hai cách chuyển:
-    - Tân ngữ chỉ người làm chủ ngữ: S (người) + be + V3/ed + O (vật) + (by O).
-    - Tân ngữ chỉ vật làm chủ ngữ: S (vật) + be + V3/ed + to/for + O (người) + (by O).
+  - Tân ngữ chỉ người làm chủ ngữ: S (người) + be + V3/ed + O (vật) + (by O).
+  - Tân ngữ chỉ vật làm chủ ngữ: S (vật) + be + V3/ed + to/for + O (người) + (by O).
 - **Câu bị động với động từ khuyết thiếu:** S + modal verb + be + V3/ed + (by O)
 - **Câu bị động với động từ chỉ giác quan (see, hear, feel,...):** S + be + V3/ed + to V (nguyên thể)
 - **Câu bị động với "get" thay cho "be":** S + get + V3/ed + (by O) (thường dùng trong văn nói)

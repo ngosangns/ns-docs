@@ -8,6 +8,7 @@ tags:
   - resource
   - vietnamese
 ---
+
 # 1. Resource
 
 - https://ngochieu.com/bai-hoc-lanh-dao-joe-biden

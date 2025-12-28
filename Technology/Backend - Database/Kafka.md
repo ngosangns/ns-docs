@@ -15,6 +15,7 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 # 1. Resources
 
 - Kafka Fundamental: https://viblo.asia/s/kafka-fundamental-aNj4vplxL6r

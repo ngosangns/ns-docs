@@ -22,24 +22,22 @@ tags:
 **2. Các loại câu điều kiện hỗn hợp:**
 
 - **Loại 2 và 3:**
-    
-    - Diễn tả một tình huống giả định trong quá khứ có ảnh hưởng đến hiện tại.
-    - Công thức:
-        - If + S + had + V3/ed (quá khứ hoàn thành), S + would/could/might + V (nguyên thể)
-    - Ví dụ: If I had studied harder, I would have a better job now. (Nếu tôi đã học chăm chỉ hơn, bây giờ tôi đã có một công việc tốt hơn.)
+  - Diễn tả một tình huống giả định trong quá khứ có ảnh hưởng đến hiện tại.
+  - Công thức:
+    - If + S + had + V3/ed (quá khứ hoàn thành), S + would/could/might + V (nguyên thể)
+  - Ví dụ: If I had studied harder, I would have a better job now. (Nếu tôi đã học chăm chỉ hơn, bây giờ tôi đã có một công việc tốt hơn.)
 - **Loại 3 và 2:**
-    
-    - Diễn tả một tình huống giả định ở hiện tại có nguyên nhân từ quá khứ.
-    - Công thức:
-        - If + S + V2/ed (quá khứ đơn), S + would/could/might + have + V3/ed (quá khứ hoàn thành)
-    - Ví dụ: If I were rich, I would have bought that car yesterday. (Nếu tôi giàu có, tôi đã mua chiếc xe đó ngày hôm qua.)
+  - Diễn tả một tình huống giả định ở hiện tại có nguyên nhân từ quá khứ.
+  - Công thức:
+    - If + S + V2/ed (quá khứ đơn), S + would/could/might + have + V3/ed (quá khứ hoàn thành)
+  - Ví dụ: If I were rich, I would have bought that car yesterday. (Nếu tôi giàu có, tôi đã mua chiếc xe đó ngày hôm qua.)
 
 **3. Đảo ngữ của câu điều kiện hỗn hợp:**
 
 - Đây là cấu trúc đảo ngữ kết hợp giữa đảo ngữ câu điều kiện loại 2 và câu điều kiện loại 3.
 - Ví dụ:
-    - **Gốc:** If he had taken better care of himself, he wouldn't be sick now.
-    - **Đảo ngữ:** Had he taken better care of himself, he wouldn't be sick now. (Nếu anh ấy đã chăm sóc bản thân cẩn thận hơn, anh ấy không bị ốm như bây giờ.)
+  - **Gốc:** If he had taken better care of himself, he wouldn't be sick now.
+  - **Đảo ngữ:** Had he taken better care of himself, he wouldn't be sick now. (Nếu anh ấy đã chăm sóc bản thân cẩn thận hơn, anh ấy không bị ốm như bây giờ.)
 
 **4. Lưu ý:**
 

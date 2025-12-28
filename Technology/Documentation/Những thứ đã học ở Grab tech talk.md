@@ -14,6 +14,7 @@ tags:
   - upgrade
   - vietnamese
 ---
+
 # Lựa chọn công nghệ
 
 - Nginx detail metric chỉ nằm trong bản enterprise thôi nên hạn chế dùng khi cần truy xuất lượng metric chi tiết.
@@ -32,8 +33,8 @@ tags:
 # Performance
 
 - Khi share dữ liệu giữa các service, ta có thể share địa chỉ bộ nhớ thay vì copy bộ nhớ để giảm dung lượng. Nhược điểm là phải take care vấn đề lọt bộ nhớ. **Tìm hiểu thêm về việc truy xuất các trường như thế nào? Tố chức interface như thế nào?**
-	- Trường hợp sync call: Không cần quan tâm garbage collector vì khi đó hàm chứa biến sẽ đợi giao tiếp xong mới remove.
-	- Trường hợp async: Quên rồi. **Tìm hiểu cái này.**
+  - Trường hợp sync call: Không cần quan tâm garbage collector vì khi đó hàm chứa biến sẽ đợi giao tiếp xong mới remove.
+  - Trường hợp async: Quên rồi. **Tìm hiểu cái này.**
 
 # Maintain
 

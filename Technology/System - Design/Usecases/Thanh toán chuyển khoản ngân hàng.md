@@ -65,6 +65,6 @@ Và đặc biệt, cần sử dụng tốt refreshToken chứ cứ login liên t
 
 - Dùng các API ko public của ngân hàng, như API trên di động của họ, API SMS của họ Rất nhiều ngân hàng có, có cả Momo kìa
 
-⇒ An toàn, ko tốn tiền, ko delay, nhưng ko ai dám chỉ miếng cơm mà share lung tung dev bank họ đổi url là ăn *ứt cả thôn ngay3 cách này e đều làm cả rồi, bác cần tên của bên thứ 3, cần code, hoặc cần url API thì nhắn e share. E ko muốn nhắc tên các bên thứ 3 trên này ạ.
+⇒ An toàn, ko tốn tiền, ko delay, nhưng ko ai dám chỉ miếng cơm mà share lung tung dev bank họ đổi url là ăn \*ứt cả thôn ngay3 cách này e đều làm cả rồi, bác cần tên của bên thứ 3, cần code, hoặc cần url API thì nhắn e share. E ko muốn nhắc tên các bên thứ 3 trên này ạ.
 
 Còn riêng cách thứ 3 thì e xin lỗi e ko share được ạ. Hồi xưa e cũng vật vã lắm, nên hi vọng giúp được mấy bác phần nào. Và e hi vọng mấy anh Dev bank trong này bình tĩnh đừng nóng tính ạ

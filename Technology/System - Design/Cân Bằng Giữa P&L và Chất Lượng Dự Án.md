@@ -26,7 +26,7 @@ tags:
 ## 1.2. Mục tiêu nội bộ
 
 - **Gross Margin (GM)** lý tưởng: 45%  
-    → Nếu doanh thu dự án là `$100,000`, chi phí tối đa là `$55,000`.
+   → Nếu doanh thu dự án là `$100,000`, chi phí tối đa là `$55,000`.
 
 > Khi scope thay đổi, khách hàng kỳ vọng cao, nhưng nguồn lực bị cắt – PM/DM phải đứng ra làm người cân đối.
 
@@ -76,23 +76,23 @@ tags:
 ✅ Đúng đắn:
 
 - **Chất lượng**:
-    - `Defect count`
-    - `Unit Test coverage`
-    - `Cycle time`
-    - `Defect leakage`
+  - `Defect count`
+  - `Unit Test coverage`
+  - `Cycle time`
+  - `Defect leakage`
 - **Chi phí**:
-    - BA, QA, PM, DevOps
-    - Gián tiếp: máy chủ, license, overhead...
+  - BA, QA, PM, DevOps
+  - Gián tiếp: máy chủ, license, overhead...
 
 > Khi có dữ liệu, bạn mới **ra quyết định đúng**: cắt/giữ/trade-off.
 
 ## 2.2. Suy nghĩ theo **vòng đời dự án**, không chỉ sprint
 
-|Giai đoạn|Vai trò chủ lực|
-|---|---|
-|Inception|Senior xác lập kỹ thuật, quy trình|
-|Execution|Pre-senior + junior "cày task", kiểm soát chặt|
-|Stabilization|Làm sạch, tối ưu, kiểm thử, bàn giao|
+| Giai đoạn     | Vai trò chủ lực                                |
+| ------------- | ---------------------------------------------- |
+| Inception     | Senior xác lập kỹ thuật, quy trình             |
+| Execution     | Pre-senior + junior "cày task", kiểm soát chặt |
+| Stabilization | Làm sạch, tối ưu, kiểm thử, bàn giao           |
 
 ## 2.3. Giao tiếp minh bạch – **chìa khóa giữ khách hàng & team**
 
@@ -101,25 +101,26 @@ tags:
 
 ## 2.4. Khó khăn điển hình & Cách xử lý
 
-|Thách thức|Hệ quả|Gợi ý xử lý|
-|---|---|---|
-|Giữ GM ở mức 45%|Ép timeline, burnout|Theo dõi GM theo sprint/module|
-|Khách thay đổi scope|Trượt deadline, OT|Framework Change Request, % scope creep|
-|Thiếu dữ liệu chi phí thực tế|Khó dự báo rủi ro ngân sách|Log effort + timesheet theo vai trò/task|
-|Team nhiều junior/non trẻ|Tăng defect, mất thời gian fix|Gắn KPI + checklist + effort coaching|
-|Không có chỉ số đo chất lượng|Chất lượng cảm tính|Dùng UT coverage, defect leakage, review checklist|
+| Thách thức                    | Hệ quả                         | Gợi ý xử lý                                        |
+| ----------------------------- | ------------------------------ | -------------------------------------------------- |
+| Giữ GM ở mức 45%              | Ép timeline, burnout           | Theo dõi GM theo sprint/module                     |
+| Khách thay đổi scope          | Trượt deadline, OT             | Framework Change Request, % scope creep            |
+| Thiếu dữ liệu chi phí thực tế | Khó dự báo rủi ro ngân sách    | Log effort + timesheet theo vai trò/task           |
+| Team nhiều junior/non trẻ     | Tăng defect, mất thời gian fix | Gắn KPI + checklist + effort coaching              |
+| Không có chỉ số đo chất lượng | Chất lượng cảm tính            | Dùng UT coverage, defect leakage, review checklist |
 
 # 3. Cơ Cấu Nguồn Lực Tối Ưu
 
-|Giai đoạn|Senior|Pre-Senior|Junior|
-|---|---|---|---|
-|Inception|40%|40%|20%|
-|Execution|20%|40%|40%|
-|Stabilization|30%|50%|20%|
+| Giai đoạn     | Senior | Pre-Senior | Junior |
+| ------------- | ------ | ---------- | ------ |
+| Inception     | 40%    | 40%        | 20%    |
+| Execution     | 20%    | 40%        | 40%    |
+| Stabilization | 30%    | 50%        | 20%    |
 
 > Tỷ lệ này **không cứng nhắc** nhưng được chứng minh hiệu quả trong hàng trăm dự án.
 
 # 4. Nếu Không Đạt Cơ Cấu Lý Tưởng – Làm Sao Giữ Chất Lượng?
+
 ### 4.1.1. Khi Thiếu Senior:
 
 - Peer-review cho mọi pull request

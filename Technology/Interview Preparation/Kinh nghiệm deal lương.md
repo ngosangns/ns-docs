@@ -26,21 +26,13 @@ Mình đi phỏng vấn chưa bao giờ mình nghĩ là đi “phỏng vấn xin
 Đối với mình, lương nó là 1 tổ hợp những giá trị công ty đem lại cho mình, trong đó bao gồm (nhưng không phải tất cả):
 
 - Số tiền mình nhận về hàng tháng
-    
 - Cơ hội học hỏi, phát triển chuyên môn từ những người giỏi hơn
-    
 - Những cơ hội để phát triển năng lực như: đi onsite, làm với đồng nghiệp quốc tế, tham dự các workshop độc quyền, nhận được hỗ trợ kỹ thuật từ các công ty hàng đầu như Amazon, Google, Microsoft…nhiều lắm
-    
 - Lộ trình thăng tiến nghề nghiệp
-    
 - Tìm được thầy giỏi, bạn tốt
-    
 - Văn hoá công ty
-    
 - Cơ hội đi đường dài với nhau, hoặc đạt được mục tiêu ngắn, dài hạn…(đồng nghiệp của vợ mình được cty cho mượn 500tr để mua oto đi là 1 ví dụ)
-    
 - … nhiều lắm ae ngồi nghĩ 1 hồi sẽ ra đầy
-    
 
 **2. Lương là vấn đề cuối cùng mà mình sẽ thảo luận**
 
@@ -80,22 +72,16 @@ Có ae thắc mắc là em mới ra trường, kinh nghiệm chưa nhiều thì 
 
 **6. Phỏng vấn**
 
-Phỏng vấn tìm người là 1 quá trình mệt mỏi, càng tuyển người level cao thì càng mệt, nên nếu ae match vị trí đó, cty thèm ae lắm. 
+Phỏng vấn tìm người là 1 quá trình mệt mỏi, càng tuyển người level cao thì càng mệt, nên nếu ae match vị trí đó, cty thèm ae lắm.
 
 Phỏng vấn là 1 chủ đề khác nhưng nó có liên quan mật thiết đến việc setup vị thế deal lương nên mình sẽ liệt kê ra vài điểm sơ sơ mà có thể ae sẽ bỏ qua:
 
 - CV không nên có 1 lỗi chính tả nào
-    
 - CV cần show ra được ít nhất 3 điều: mình đã làm những gì, học hỏi được gì từ đó và có gặp khó khăn gì trong những việc đã làm (kèm giải quyết nó như nào)
-    
 - Nhớ chuẩn bị danh sách câu hỏi để hỏi cty về những vấn đề mình cần làm rõ: về chuyên môn, về chính sách, về văn hoá, về con người, về định hướng phát triển của cty…
-    
 - Giờ giấc tác phong nề nếp rất quan trọng
-    
 - Biết gì thì nói nấy, đừng chém, câu nào không biết thì cứ thẳng thắn nói là “em không biết, có thể làm theo hướng này, nhưng em không chắc chắn”
-    
 - Đại loại để có vị thế tốt nhất khi vào deal thì nên có 1 cuộc phỏng vấn thành công tốt đẹp nhất có thể
-    
 
 **7. Điều cốt lõi**
 

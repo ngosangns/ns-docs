@@ -12,11 +12,12 @@ tags:
   - selection-api
   - storage-api
 ---
+
 - SOLID
 - Reactive programming
 - Concurrency programming
 - Front-end:
-	- Drag & drop
-	- Web worker
-	- Selection API
-	- Storage API
+  - Drag & drop
+  - Web worker
+  - Selection API
+  - Storage API

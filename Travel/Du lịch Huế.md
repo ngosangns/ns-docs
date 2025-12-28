@@ -49,19 +49,19 @@ tags:
 # 2. Đồ ăn
 
 - Cà phê:
-	- Thái Y Viện
-	- Đi Gác Trịnh uống cafe
-	- Cafe Sông Xanh
-	- cafe chỗ tòa khâm
-	- Tân - 86 Đinh Tiên Hoàng
-	- Trốn - 05 Kiệt 21 Lê Quý Đôn (Cafe trứng muối, cafe hạnh nhân, kombucha)
-	- de.chiu café - nhà E - P107, Chung cư, 29A Lê Hồng Phong, Đống Đa, Phú Nhuận (Cóc ép xí muội)
-	- Giao - 118 Chi Lăng (Cà phê kem muối)
-	- Chi lăng ơi - 110 Chi Lăng
-	- Lò bánh @banhnuocnha
-		- Lò Bắc: 29 Nguyễn Trãi
-		- Lò Nam: 118 Phan Chu Trinh
-	- T-roaster Sư Vạn Hạnh
+  - Thái Y Viện
+  - Đi Gác Trịnh uống cafe
+  - Cafe Sông Xanh
+  - cafe chỗ tòa khâm
+  - Tân - 86 Đinh Tiên Hoàng
+  - Trốn - 05 Kiệt 21 Lê Quý Đôn (Cafe trứng muối, cafe hạnh nhân, kombucha)
+  - de.chiu café - nhà E - P107, Chung cư, 29A Lê Hồng Phong, Đống Đa, Phú Nhuận (Cóc ép xí muội)
+  - Giao - 118 Chi Lăng (Cà phê kem muối)
+  - Chi lăng ơi - 110 Chi Lăng
+  - Lò bánh @banhnuocnha
+    - Lò Bắc: 29 Nguyễn Trãi
+    - Lò Nam: 118 Phan Chu Trinh
+  - T-roaster Sư Vạn Hạnh
 - Bánh xèo
 - Bánh khoái
 - Nem lụi
@@ -93,8 +93,8 @@ tags:
 - Nhà Hàng Chay Tịnh Quán · 2 Trần Cao Vân, Vĩnh Ninh
 - Ăn set ăn kiểu quý tộc Huế ở Ý Thảo Garden (tầm 500k/2 người và nhớ đặt trước). Địa chỉ: 3 Thạch Hãn, Huế (bờ Bắc)
 - Bún bò:
-	- Bờ bắc có quán Bún Bò Mụ Rơi (Bui Tre Vàng) (40 Nguyễn Chí Diểu, Phú Hậu), Bún bò Mệ Kéo (20 Bạch Đằng, Phú Cát - quán ni nên tới sớm, tầm 8h sáng là chỉ còn bò thôi, chả với giò gì hết sạch) và Bún Bò Chú Vọng (14 Nguyễn Du, Phú Cát ) những quán đó ngon giá hợp lý,
-	- Bún bò Huế bà Gái (11A Hà Nội, Vĩnh Ninh) thì cũng bình thường.
-	- Bún bò bà Cẩm thì chả cua ngon nhưng giá kiểu chặt chém, nói ko phải giọng Huế là bị gấp đôi giá khi mua thêm chả cua ngay.
-	- Bún bò O chi - 99 Xuân 68 (bán sau 7h chiều)
-	- Bún bò Bà Tuyết - 47 Nguyễn Công Trứ
+  - Bờ bắc có quán Bún Bò Mụ Rơi (Bui Tre Vàng) (40 Nguyễn Chí Diểu, Phú Hậu), Bún bò Mệ Kéo (20 Bạch Đằng, Phú Cát - quán ni nên tới sớm, tầm 8h sáng là chỉ còn bò thôi, chả với giò gì hết sạch) và Bún Bò Chú Vọng (14 Nguyễn Du, Phú Cát ) những quán đó ngon giá hợp lý,
+  - Bún bò Huế bà Gái (11A Hà Nội, Vĩnh Ninh) thì cũng bình thường.
+  - Bún bò bà Cẩm thì chả cua ngon nhưng giá kiểu chặt chém, nói ko phải giọng Huế là bị gấp đôi giá khi mua thêm chả cua ngay.
+  - Bún bò O chi - 99 Xuân 68 (bán sau 7h chiều)
+  - Bún bò Bà Tuyết - 47 Nguyễn Công Trứ

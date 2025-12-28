@@ -15,6 +15,7 @@ tags:
   - ufw
   - firewall
 ---
+
 # 1. Quản lý Firewall với UFW và Docker
 
 Tags: #ufw #docker #firewall #security #linux #ufw-docker
@@ -40,6 +41,7 @@ Docker có cơ chế quản lý mạng riêng. Khi bạn expose một port của
 ### 1.2.2. Xung đột với UFW
 
 Các quy tắc `iptables` do Docker tạo ra thường được chèn vào trước các quy tắc của UFW hoặc có độ ưu tiên cao hơn. Điều này dẫn đến việc:
+
 - UFW không thể kiểm soát các port được Docker expose.
 - Ngay cả khi bạn dùng `ufw deny <port>` hoặc `ufw default deny incoming`, các port do Docker mở vẫn có thể truy cập từ bên ngoài.
 - Đây là một rủi ro bảo mật tiềm ẩn, vì các dịch vụ không mong muốn có thể bị lộ ra ngoài.
@@ -49,12 +51,14 @@ Các quy tắc `iptables` do Docker tạo ra thường được chèn vào trư�
 ### 1.3.1. Giới thiệu
 
 `ufw-docker` là một công cụ (thường là một script) được thiết kế để giải quyết vấn đề tương thích giữa UFW và Docker. Nó giúp UFW "nhận biết" và quản lý đúng cách các port được expose bởi Docker container.
+
 - Repository phổ biến: `https://github.com/chaifeng/ufw-docker`
 
 ### 1.3.2. Cách hoạt động (khái quát)
 
 `ufw-docker` thường can thiệp vào cách Docker tương tác với `iptables`. Nó điều chỉnh các quy tắc `iptables` để đảm bảo rằng lưu lượng truy cập đến các port của Docker phải đi qua các quy tắc của UFW trước.
 Cụ thể, nó có thể:
+
 - Sửa đổi chain `DOCKER-USER` trong `iptables` để UFW có thể áp dụng chính sách.
 - Đảm bảo rằng các quy tắc mặc định của UFW (ví dụ: `deny incoming`) được áp dụng cho cả các port của Docker, trừ khi được cho phép rõ ràng trong UFW.
 
@@ -67,6 +71,7 @@ Cụ thể, nó có thể:
     ```
 2.  Cấu hình UFW để quản lý Docker (sau khi cài đặt `ufw-docker`):
     Chỉnh sửa file `/etc/ufw/after.rules` và thêm vào cuối file, trước dòng `COMMIT` cuối cùng:
+
     ```
     # BEGIN UFW AND DOCKER
     *filter
@@ -83,6 +88,7 @@ Cụ thể, nó có thể:
     COMMIT
     # END UFW AND DOCKER
     ```
+
     Lưu ý: Các dải IP `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16` là các dải IP private phổ biến, có thể cần điều chỉnh tùy theo cấu hình mạng của bạn. Dòng UDP cho DNS là để cho phép container phân giải tên miền.
 
 3.  Khởi động lại UFW và Docker:
@@ -99,6 +105,7 @@ Cụ thể, nó có thể:
 ### 1.3.4. Sử dụng
 
 Sau khi cài đặt và cấu hình `ufw-docker`:
+
 - Để expose một port của Docker container ra ngoài, bạn cần cho phép port đó trong UFW:
   ```bash
   sudo ufw allow <port_number>
@@ -119,29 +126,28 @@ Sau khi cài đặt và cấu hình `ufw-docker`:
 ## 2.1. Nixopus (Nền tảng Quản lý VPS)
 
 - **Tổng quan & Mục đích Cốt lõi:**
-    - Nền tảng được thiết kế để đơn giản hóa việc quản lý Máy chủ Riêng ảo (VPS)
-    - Mục tiêu: Hợp lý hóa quy trình làm việc cho kỹ sư DevOps, quản trị viên hệ thống, nhà phát triển
+  - Nền tảng được thiết kế để đơn giản hóa việc quản lý Máy chủ Riêng ảo (VPS)
+  - Mục tiêu: Hợp lý hóa quy trình làm việc cho kỹ sư DevOps, quản trị viên hệ thống, nhà phát triển
 - **Các Chức năng & Tính năng Chính:**
-    - Triển khai Ứng dụng Một cú nhấp chuột
-    - Thiết bị đầu cuối Dựa trên Web Tích hợp
-    - Trình quản lý Tệp Trực quan
-    - Giám sát Thời gian thực: CPU, RAM, sử dụng vùng chứa
-    - Quản lý TLS Tích hợp
-    - Tích hợp GitHub cho CI/CD
-    - Quản lý Proxy qua Caddy
-    - Tích hợp Thông báo: Slack, Discord, Email
-    - Các công cụ triển khai toàn diện
-    - Giao diện thân thiện với người dùng
-    - Tùy chọn cài đặt có thể tùy chỉnh
-    - Triển khai Tự lưu trữ
+  - Triển khai Ứng dụng Một cú nhấp chuột
+  - Thiết bị đầu cuối Dựa trên Web Tích hợp
+  - Trình quản lý Tệp Trực quan
+  - Giám sát Thời gian thực: CPU, RAM, sử dụng vùng chứa
+  - Quản lý TLS Tích hợp
+  - Tích hợp GitHub cho CI/CD
+  - Quản lý Proxy qua Caddy
+  - Tích hợp Thông báo: Slack, Discord, Email
+  - Các công cụ triển khai toàn diện
+  - Giao diện thân thiện với người dùng
+  - Tùy chọn cài đặt có thể tùy chỉnh
+  - Triển khai Tự lưu trữ
 - **Các Trường hợp Sử dụng Chính:**
-    - Quản lý VPS Đơn giản hóa: Cho chuyên gia DevOps, quản trị viên hệ thống, nhà phát triển
-    - Triển khai Ứng dụng Nhanh chóng: Triển khai ứng dụng lên máy chủ ảo nhanh chóng
-    - Giám sát & Bảo trì Máy chủ: Khả năng giám sát và công cụ bảo trì
-    - Tự động hóa CI/CD: Tích hợp với GitHub
+  - Quản lý VPS Đơn giản hóa: Cho chuyên gia DevOps, quản trị viên hệ thống, nhà phát triển
+  - Triển khai Ứng dụng Nhanh chóng: Triển khai ứng dụng lên máy chủ ảo nhanh chóng
+  - Giám sát & Bảo trì Máy chủ: Khả năng giám sát và công cụ bảo trì
+  - Tự động hóa CI/CD: Tích hợp với GitHub
 - **Ưu điểm & Điểm mạnh:**
-    - Đơn giản hóa Quy trình làm việc: Công cụ tích hợp (triển khai một cú nhấp chuột, trình quản lý tệp, thiết bị đầu cuối dựa trên web)
-    - Tăng cường Hiệu quả: Giám sát thời gian thực, tích hợp CI/CD
-    - Kiểm soát Tập trung: Giao diện tập trung để quản lý nhiều khía cạnh của VPS
-    - Hỗ trợ DevOps: Tích hợp GitHub, quản lý proxy
-
+  - Đơn giản hóa Quy trình làm việc: Công cụ tích hợp (triển khai một cú nhấp chuột, trình quản lý tệp, thiết bị đầu cuối dựa trên web)
+  - Tăng cường Hiệu quả: Giám sát thời gian thực, tích hợp CI/CD
+  - Kiểm soát Tập trung: Giao diện tập trung để quản lý nhiều khía cạnh của VPS
+  - Hỗ trợ DevOps: Tích hợp GitHub, quản lý proxy

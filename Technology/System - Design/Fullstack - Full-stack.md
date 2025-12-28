@@ -11,6 +11,7 @@ tags:
   - schema-org
   - framework
 ---
+
 # 1. Resources
 
 - Schema.org - Bộ quy tắc chung cho schema: https://schema.org

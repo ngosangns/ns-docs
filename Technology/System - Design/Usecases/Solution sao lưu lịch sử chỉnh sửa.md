@@ -27,9 +27,9 @@ tags:
 
 - trong database, có 2 bảng thông tin ,
 
-+ 1 là thông tin cơ bản của document (id(PK), version hiện tại (FK), chủ đề , owner, time này nọ)
+* 1 là thông tin cơ bản của document (id(PK), version hiện tại (FK), chủ đề , owner, time này nọ)
 
-+ 2 là bảng thông tin về version sẽ gồm
+* 2 là bảng thông tin về version sẽ gồm
 
 ++ version id (PK)
 
@@ -45,7 +45,7 @@ tags:
 
 ++ thông tin khác : thời gian sửa , ai sửa ....
 
-- >Để reconstruct được 1 version ko phải là bản fullsave thì dựa trên id bản fullsave gần nhất và các id version trước( lí do 1 version có lưu id version trước )
+- > Để reconstruct được 1 version ko phải là bản fullsave thì dựa trên id bản fullsave gần nhất và các id version trước( lí do 1 version có lưu id version trước )
 
 -> về cache strategy thì sẽ lưu bản fullsave gần nhất và các bản change, cho đến khi 1 bản fullsave khác được tạo ra
 

@@ -7,11 +7,12 @@ tags:
   - report
   - rescue
 ---
+
 # 1 Resources
 
 - FrankenPHP and Laravel Octane with Docker:
-	- https://chriswhite.is/coding/frankenphp-and-laravel-octane-with-docker
-	- https://github.com/jaygaha/laravel-11-frankenphp-docker
+  - https://chriswhite.is/coding/frankenphp-and-laravel-octane-with-docker
+  - https://github.com/jaygaha/laravel-11-frankenphp-docker
 - Code Laravel làm sao cho chuẩn? - Chung Nguyễn Blog (chungnguyen.xyz)
 - Giảm phụ thuộc ở layer Service của Laravel bằng cách sử dụng CommandBus: Laravel Việt Nam | Hi anh em, lại là mình đây :D | Facebook
 - Cải thiện performance for eloquent: https://eloquent-course.reinink.ca
@@ -41,11 +42,11 @@ tags:
 - https://github.com/laravel-frontend-presets
 - Show country flags: https://github.com/MohmmedAshraf/blade-flags
 - Single file of Livewire: Volt | Laravel Livewire
-- Print markdown: https://github.com/thephpleague/commonmark 
+- Print markdown: https://github.com/thephpleague/commonmark
 - Table:
-    - https://github.com/Power-Components/livewire-powergrid
-    - https://github.com/rappasoft/laravel-livewire-tables
-    - https://github.com/yajra/laravel-datatables
+  - https://github.com/Power-Components/livewire-powergrid
+  - https://github.com/rappasoft/laravel-livewire-tables
+  - https://github.com/yajra/laravel-datatables
 - Form: https://github.com/rawilk/laravel-form-components
 - Hotwire: https://github.com/hotwired-laravel/turbo-laravel
 - Use React or Vue with Livewire: https://github.com/ijpatricio/mingle
@@ -53,13 +54,13 @@ tags:
 ## 3.1 Blade & Livewire
 
 - Components:
-    - https://github.com/robsontenorio/mary
-    - https://github.com/mkocansey/bladewind
-    - https://laravelcollective.com
-    - https://github.com/cagilo/cagilo
-    - https://github.com/kompo/kompo
-    - https://github.com/wireui/wireui
-    - https://github.com/tallstackui/tallstackui
+  - https://github.com/robsontenorio/mary
+  - https://github.com/mkocansey/bladewind
+  - https://laravelcollective.com
+  - https://github.com/cagilo/cagilo
+  - https://github.com/kompo/kompo
+  - https://github.com/wireui/wireui
+  - https://github.com/tallstackui/tallstackui
 - Livewire toast: https://github.com/masmerise/livewire-toaster
 - Flash / Notification: https://github.com/mckenziearts/laravel-notify
 - Dropzone: https://github.com/dasundev/livewire-dropzone
@@ -71,7 +72,7 @@ tags:
 # 4 Các bước triển khai dự án Laravel
 
 - Cài Laravel Breeze tạo auth cơ bản
-    - https://bootcamp.laravel.com/inertia/creating-chirps
+  - https://bootcamp.laravel.com/inertia/creating-chirps
 - Cài Material Icons
 - Cài Laravel Authentication, Middleware
 - Cài đa ngôn ngữ
@@ -103,9 +104,9 @@ tags:
 
 - https://spatie.be
 - Filament: Admin dashboard preset
-	- Starter: https://github.com/Log1x/filament-starter
-	- Tricks: https://v2.filamentphp.com/tricks
-	- Themes: [Filament Themes: Style your Filament applications](https://filamentthemes.com/)
+  - Starter: https://github.com/Log1x/filament-starter
+  - Tricks: https://v2.filamentphp.com/tricks
+  - Themes: [Filament Themes: Style your Filament applications](https://filamentthemes.com/)
 - Laravel shopping cart: https://github.com/darryldecode/laravelshoppingcart
 - Laravel page speed: https://github.com/renatomarinho/laravel-page-speed
 - Tablar: Admin preset
@@ -129,8 +130,8 @@ tags:
 - Page based router: Laravel Folio - Laravel 10.x - The PHP Framework For Web Artisans
 - Socket: https://github.com/laravel/echo
 - Async and Parallel:
-    - https://github.com/vuongxuongminh/laravel-async
-    - https://github.com/spatie/async
+  - https://github.com/vuongxuongminh/laravel-async
+  - https://github.com/spatie/async
 - Tinker - Chạy lệnh PHP trong terminal/command line: https://github.com/laravel/tinker
 - Share state from PHP to JS: https://github.com/rmunate/PHP2JS
 - Elasticsearch driver for Laravel Scout: https://github.com/Jeroen-G/Explorer
@@ -140,20 +141,20 @@ tags:
 - Phone number validate: https://github.com/Propaganistas/Laravel-Phone
 - Query fitler for restful API: https://github.com/nvmcommunity/alchemist-restful-api
 - Backup: https://github.com/spatie/laravel-backup
-	- UI - Panel: https://github.com/pavel-mironchik/laravel-backup-panel
+  - UI - Panel: https://github.com/pavel-mironchik/laravel-backup-panel
 - Upgrade tools:
-	- https://laravelshift.com/shifts
+  - https://laravelshift.com/shifts
 - An AI bot made for the command line that can read and understand any codebase from your Laravel app: https://github.com/joshembling/laragenie
 - ID
-	- Snowflake ID: https://github.com/qh-8/laravel-snowflake
-	- [vinkla/laravel-hashids: A Hashids bridge for Laravel](https://github.com/vinkla/laravel-hashids)
+  - Snowflake ID: https://github.com/qh-8/laravel-snowflake
+  - [vinkla/laravel-hashids: A Hashids bridge for Laravel](https://github.com/vinkla/laravel-hashids)
 - Build blog: https://github.com/themsaid/wink
 - Generate ERD diagrams: https://github.com/recca0120/laravel-erd
 - Adjust context infomation: Use `Context` facade
 - Run PHP code concurrently: https://github.com/spatie/fork
 - converge - Advanced documentation management framework for Laravel artisans: https://github.com/convergephp/converge
 - Excel/CSV
-	- [openspout/openspout: Read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way](https://github.com/openspout/openspout)
+  - [openspout/openspout: Read and write spreadsheet files (CSV, XLSX and ODS), in a fast and scalable way](https://github.com/openspout/openspout)
 - Laravel MCP: [laravel/boost: Laravel-focused MCP server for augmenting your AI powered local development experience.](https://github.com/laravel/boost)
 
 ## 7.1 Architecture
@@ -210,8 +211,8 @@ tags:
 - Make model markable: https://github.com/maize-tech/laravel-markable
 - Count visited: https://github.com/coderflexx/laravisit
 - Prunable - Dọn dẹp bản ghi không cần thiết trong cơ sở dữ liệu:
-    - https://medium.com/@antoine.lame/laravel-prunable-trait-periodically-remove-obsolete-models-b0662019ced2
-    - https://www.youtube.com/watch?v=EhV8en0HIow
+  - https://medium.com/@antoine.lame/laravel-prunable-trait-periodically-remove-obsolete-models-b0662019ced2
+  - https://www.youtube.com/watch?v=EhV8en0HIow
 - Provides convenient methods for making token code, sending and verifying: https://github.com/mohammad-fouladgar/laravel-mobile-verification
 - Tenants for Laravel: https://github.com/archtechx/tenancy
 - Sinh Typescript models cho frontend: [laravel/wayfinder](https://github.com/laravel/wayfinder)
@@ -277,10 +278,10 @@ If you want a simple authentication, go with Fortify If you want a simple authen
 - Lumen: Framework dựa trên Laravel, dùng cho microservices
 - SPA cho Laravel: https://inertiajs.com
 - Searching feature
-    - Index trong MySQL
-    - Full Text Search sử dụng MATCH, AGAINST
-    - Một số search engine mạnh mẽ
-    - Laravel Scout
+  - Index trong MySQL
+  - Full Text Search sử dụng MATCH, AGAINST
+  - Một số search engine mạnh mẽ
+  - Laravel Scout
 
 # 9 Note
 
@@ -307,29 +308,29 @@ $request->enum('status', Status::class);
 
 - Một số cách sử dụng CommandBus: https://www.facebook.com/groups/167363136987053/?multi_permalinks=2207976906258989
 - Guard:
-    - Khi sử dụng Auth mà không khai báo guard name:
-        - Trường hợp có 1 guard đang logged thì Auth sẽ nhận guard đó.
-        - Trường hợp 2 guard đang logged thì Auth sẽ nhận default guard
-        - Trường hợp không có Auth nào đang logged thì Auth sẽ nhận cả 2 guard, tức là `Auth::check()` sẽ true nếu 1 trong 2 guard logged.
-        - Khi xây dựng Multi Authenticate, để chắc chắn nhất thì luôn phải khai báo guard muốn sử dụng `(Auth::guard($name)->user())`, tránh sử dụng `Auth::user()` nếu không hiểu rõ 3 trường hợp bên trên.
+  - Khi sử dụng Auth mà không khai báo guard name:
+    - Trường hợp có 1 guard đang logged thì Auth sẽ nhận guard đó.
+    - Trường hợp 2 guard đang logged thì Auth sẽ nhận default guard
+    - Trường hợp không có Auth nào đang logged thì Auth sẽ nhận cả 2 guard, tức là `Auth::check()` sẽ true nếu 1 trong 2 guard logged.
+    - Khi xây dựng Multi Authenticate, để chắc chắn nhất thì luôn phải khai báo guard muốn sử dụng `(Auth::guard($name)->user())`, tránh sử dụng `Auth::user()` nếu không hiểu rõ 3 trường hợp bên trên.
 
 # 10 CMS
 
 - Forum: https://github.com/devaslanphp/forumium
 - Admin panel
-    - MoonShine: https://github.com/moonshine-software/moonshine
-    - Premium admin panel: https://nova.laravel.com
-    - https://voyager.devdojo.com
-    - https://orchid.software
-    - https://github.com/thedevdojo/wave
-    - Backpack: https://github.com/laravel-backpack/crud
-        - Devtool for Backpack (hỗ trợ define module bằng web UI): DevTools :: Backpack for Laravel
-    - Winter CMS (github.com)
-    - https://github.com/open-admin-org/open-admin
-    - Botble: Botble - Laravel CMS, CRUD generator, Modular & Theme system, Role permissions, Multilingual blog by botble (codecanyon.net)
-    - Twill: https://github.com/area17/twill
+  - MoonShine: https://github.com/moonshine-software/moonshine
+  - Premium admin panel: https://nova.laravel.com
+  - https://voyager.devdojo.com
+  - https://orchid.software
+  - https://github.com/thedevdojo/wave
+  - Backpack: https://github.com/laravel-backpack/crud
+    - Devtool for Backpack (hỗ trợ define module bằng web UI): DevTools :: Backpack for Laravel
+  - Winter CMS (github.com)
+  - https://github.com/open-admin-org/open-admin
+  - Botble: Botble - Laravel CMS, CRUD generator, Modular & Theme system, Role permissions, Multilingual blog by botble (codecanyon.net)
+  - Twill: https://github.com/area17/twill
 - Movie
-    - OPhim CMS 2022
+  - OPhim CMS 2022
 - Project management: https://github.com/lavalite/cms
 - Track expenses, payments & create professional invoices & estimates: https://github.com/crater-invoice/crater
 
@@ -342,10 +343,13 @@ $request->enum('status', Status::class);
 - Cache properties to avoid repeated queries: https://twitter.com/LaraconAU/status/1730806496978510259
 - Josh Hanley - Building a maintainable Livewire application - Laracon AU 2023: https://www.youtube.com/watch?v=esD6o8HYV5Q
 - Bendmark query:
+
 ```php
 [$count, $duration] = Benchmark::value(fn () => User::count())
 ```
+
 - Datetime format:
+
 ```php
 $user->created_at->diffForHumans();
 
@@ -387,7 +391,7 @@ $user->created_at->diffForHumans([
 | Pivot table                      | Singular model names in alphabetical order | post_user                            | user_post                                     |
 | Table column                     | Snake case without model name              | author_name                          | AuthorName                                    |
 | Model property                   | Snake case                                 | created_at                           | ScommentCreatedAt                             |
-| Foreign key                      | Singular model name with _id suffix        | post_id                              | Postid, id_post                               |
+| Foreign key                      | Singular model name with \_id suffix       | post_id                              | Postid, id_post                               |
 | Primary key                      |                                            |                                      | custom_id                                     |
 | Migration                        |                                            | 20211231120006_create_comments_table |                                               |
 | Method                           | camelCase                                  | getComments                          | get comments                                  |
@@ -420,8 +424,8 @@ Bạn muốn benchmark nhanh chóng đoạn code của mình chạy tốn bao nh
 
 ![[8192a3b4-c5d6-e7f8-091a-2b3c4d5e6f70.png]]
 
-`rescue` chạy một phương thức, catch toàn bộ exception và cho phép bạn linh hoạt xử lý trong trường hợp có lỗi xảy ra. Exception được chuyển về exceptionHandler như report nên bạn cũng không lo bị mất mát dữ liệu.  
-  
+`rescue` chạy một phương thức, catch toàn bộ exception và cho phép bạn linh hoạt xử lý trong trường hợp có lỗi xảy ra. Exception được chuyển về exceptionHandler như report nên bạn cũng không lo bị mất mát dữ liệu.
+
 rescue sẽ khá tiện lợi khi bạn mong muốn đoạn code được thực thi mà không bị dừng khi có exception xảy ra và bớt đi những đoạn try-catch.
 
 ![[92a3b4c5-d6e7-f809-1a2b-3c4d5e6f7081.png]]

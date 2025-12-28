@@ -15,7 +15,7 @@ Lần này mình phỏng vấn với tệp câu hỏi cũ nhưng buộc ứng vi
 
 **Một công ty product kì lân hơn 1 tháng trướcPhỏng vấn tiếng việt full với anh techlead backend và HR manager ( 1h40p đồng hồ )**
 
-*Fresher Backend Developer - Vietnamese Interview*
+_Fresher Backend Developer - Vietnamese Interview_
 
 - trình bày tính đa hình -> interface
 - trình bày tham trị & tham chiếu trong java (java ko có tham chiếu), cho ví dụ vs cái này thì sẽ in ra bao nhiu
@@ -35,8 +35,8 @@ Phần project
 - hỏi tí xíu về nextjs(cơ chế serverside gì đó cái này ko biết trả lời nên qua câu khác)
 - hỏi về servlet vs hỏi gì nữa mà cái sau ko biết trả lời nên qua câu khác
 - Hỏi 1 mớ về firebase, khúc này là combat căng mấy cái cơ chế vs google provider vs firebase realtime database + firebase SDK ( đại loại là cách vận hành vs config cần cái gì vs tại sao lại đc như vậy, hỏi mấy cái liên quan sâu hơn nữa )
-    - Firebase realtime database: dựa trên CTDL cây json mỗi node là 1 reference, mỗi reference chứa 1 cặp key-value. giao tiếp dựa vào firebase sdk hoặc thư viện. kết nối và gởi lấy thông qua websocket hoặc http long polling
-    - Firebase Google Provider: gửi request đến bên cung cấp gói ID của ứng dụng, phạm vi quyền truy cập, tham số.., sau đó tạo mã xác thực token dựa trên tài khoản đã chọn và gọi các API liên quan với bên nhà cung cấp
+  - Firebase realtime database: dựa trên CTDL cây json mỗi node là 1 reference, mỗi reference chứa 1 cặp key-value. giao tiếp dựa vào firebase sdk hoặc thư viện. kết nối và gởi lấy thông qua websocket hoặc http long polling
+  - Firebase Google Provider: gửi request đến bên cung cấp gói ID của ứng dụng, phạm vi quyền truy cập, tham số.., sau đó tạo mã xác thực token dựa trên tài khoản đã chọn và gọi các API liên quan với bên nhà cung cấp
 - Hỏi cơ chế redux vs so sánh vs localstorage ( câu này trả lời đúng 1 nửa là nó lưu cả store vs cả application context luôn)
 - Hỏi về websocket vận hành như nào sau đó so sánh với http
 - hỏi react native các device nhận dữ liệu truyền đi như nào bằng cách gì

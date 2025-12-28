@@ -12,13 +12,14 @@ tags:
   - rust
   - frontend
 ---
+
 # 1. Frameworks
 
 - Expo - An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web: https://github.com/expo/expo
 
 ## 1.1. Lynx
 
-Lynx is an open-source *family* of technologies empowering developers to create truly native user interfaces for mobile and web from a single codebase. It focuses on performance, scalability, and developer velocity, powering large-scale apps like TikTok.
+Lynx is an open-source _family_ of technologies empowering developers to create truly native user interfaces for mobile and web from a single codebase. It focuses on performance, scalability, and developer velocity, powering large-scale apps like TikTok.
 
 ### 1.1.1. Core Philosophy and Features
 

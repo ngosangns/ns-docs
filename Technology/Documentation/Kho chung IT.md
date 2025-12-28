@@ -18,6 +18,7 @@ tags:
   - work
   - frontend-back-end
 ---
+
 # 1. Resources
 
 - Sách về ngôn ngữ lập trình: https://github.com/EbookFoundation/free-programming-books

@@ -8,6 +8,7 @@ tags:
   - layout-shift
   - core-web-vitals
 ---
+
 Nguồn: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals-aNj4vkD8J6r
 
 # 1. Vì sao bạn cần hiểu Reflow, Repaint và Layout Shift?
@@ -134,7 +135,7 @@ requestAnimationFrame(() => {
 Hoặc dùng CSS:
 
 ```css
-img { 
+img {
   aspect-ratio: 2 / 1;
 }
 ```
@@ -144,7 +145,13 @@ img {
 ## 7.2. Tránh font nhảy – preload font sớm
 
 ```html
-<link rel="preload" href="/fonts/custom.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+<link
+  rel="preload"
+  href="/fonts/custom.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin="anonymous"
+/>
 ```
 
 Hoặc dùng `font-display: swap` để tránh chặn render quá lâu.

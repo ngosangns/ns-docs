@@ -9,6 +9,7 @@ tags:
   - requirements
   - avoiding-circular-dependencies
 ---
+
 Thiết Kế Phân Lớp (Layered Design) trong Go
 
 - Cách tác giả thiết kế chương trình Go, dựa trên các nguyên tắc và hạn chế của ngôn ngữ.
@@ -62,41 +63,41 @@ Tránh Các Phụ Thuộc Vòng (Avoiding Circular Dependencies)
 - Vòng lặp thường gây ra bởi một phần nhỏ hơn nhiều so với toàn bộ package.
 - Thực hiện các kỹ thuật tái cấu trúc (refactorings) dưới đây thường giúp tăng sự rõ ràng về khái niệm và có thiết kế mạnh mẽ hơn. Nó cũng thường làm giảm kích thước interface công khai (exported public interface) của package.
 - Các giải pháp được liệt kê theo thứ tự ưu tiên:
-    1. Di chuyển chức năng (Move The Functionality):
-        - Đây là giải pháp quan trọng nhất khi có thể áp dụng, dù không phải phổ biến nhất.
-        - Sau khi phân tích, có thể thấy phần gây ra vòng lặp đơn giản là đang ở sai vị trí. Nó có thể thuộc về cùng vị trí với mã mới gây vòng lặp.
-        - Việc này có thể liên quan đến chia nhỏ một khối chức năng (conglomeration of functionality) hiện có.
-        - Không chỉ di chuyển toàn bộ kiểu dữ liệu (types), mà có thể là cắt nhỏ các đoạn mã, một trường (field) ở đây, một trường ở kia. Thậm chí có thể cần tách đôi một trường tưởng chừng là nguyên tử (atomic), dù hiếm. Cần phân tích rất granular (chi tiết).
-        - Đây là giải pháp tốt nhất không chỉ vì nó phá vỡ vòng lặp mà còn vì nó mang lại kết quả mạnh mẽ nhất cho sự rõ ràng khái niệm của package. Di chuyển hoàn toàn khái niệm không thuộc về "breakable link" đến đúng vị trí của nó là một thắng lợi lớn về lâu dài.
-    2. Tạo một package thứ ba cho phần dùng chung (Create A Third Package For The Shared Bit):
-        - Nếu một package cần thứ gì đó nằm trong package khác gây ra phụ thuộc vòng, hãy cân nhắc di chuyển thứ đó vào một package thứ ba mới mà cả hai package ban đầu đều có thể import.
-        - Ví dụ phổ biến: Một kiểu dữ liệu đơn giản như `Username` ban đầu được đặt vào package cần nó. Khi chương trình phát triển, package khác cũng cần tham chiếu đến `Username` gây ra vòng lặp. `Username` (thường là chuỗi đã được xác thực) gần như chắc chắn có thể được chuyển vào package riêng.
-        - Sự lưỡng lự khi làm điều này thường là do cảm giác việc có cả một package cho một kiểu dữ liệu duy nhất là thiết kế tồi.
-        - Tuy nhiên, tác giả khuyên bạn nên làm điều đó. Theo kinh nghiệm, phần lớn thời gian, package mới này sẽ không chỉ có một kiểu dữ liệu duy nhất mãi mãi và sẽ nhanh chóng phát triển thêm. Hãy nghĩ về package không chỉ là ảnh chụp nhanh tại một thời điểm mà theo sự tiến hóa của chúng. Thường thì, package mới này là ví dụ đầu tiên của một khái niệm mới, phi tầm thường mà package đó sẽ sớm thể hiện một cách phức tạp và đầy đủ hơn.
-    3. Một package thứ ba mới kết hợp các package bị vòng lặp (A New Third Package That Composes The Circular Packages):
-        - Tương tự như trường hợp trước, nhưng theo hướng ngược lại.
-        - Nếu hai package phụ thuộc vòng lẫn nhau cho một mục đích nào đó, có thể trích xuất (extract) sự phụ thuộc đó và biến nó thành một cái gì đó sử dụng hai package đó để hoàn thành tác vụ yêu cầu vòng lặp.
-        - Cách này ít được sử dụng hơn khi đã quen thiết kế kiến trúc gốc trong Go. Các kiến trúc dựa trên kế thừa OO thường dễ dẫn đến sự phụ thuộc sâu vào vòng lặp.
-        - Ví dụ ORM: Có `Category` và `BlogPost` trong các package khác nhau, có quan hệ nhiều-nhiều. Thao tác `.Save()` cho mỗi loại kết thúc bằng việc phụ thuộc vào loại kia, tạo vòng lặp.
-        - Giải pháp: Làm cho `Category` và `BlogPost` "ngu hơn". Tách bỏ ý tưởng rằng chúng biết cách "tự lưu" (save themselves). Tạo `Category` và `BlogPost` chỉ là cấu trúc dữ liệu. Một package cao hơn sẽ kết nối chúng qua quan hệ nhiều-nhiều. Một package cao hơn nữa sẽ "biết" cách tải chúng từ DB và lưu các thay đổi.
-        - (Điều này không hoạt động tốt với ORM, đây là một trong nhiều lý do tác giả tránh ORM. ORM làm mỗi đối tượng phải "biết" về DB, gây ra vấn đề "bạn muốn một quả chuối nhưng lại nhận được một con gorilla cầm quả chuối và toàn bộ khu rừng" - the want-banana-get-jungle problem. Thiết kế phân lớp trong Go khó chịu với cách tiếp cận này vì càng có nhiều "khu rừng", càng dễ xảy ra phụ thuộc vòng. Go gần như buộc bạn phải có `Banana` và `Gorilla` có thể tồn tại độc lập, và thể hiện các mối quan hệ trong các package cấp cao hơn. Dù không hoàn toàn ép buộc, việc chống lại điều này sẽ gặp khó khăn.)
-    4. Sử dụng Interface để phá vỡ sự phụ thuộc (Interface To Break The Dependency):
-        - Nếu vòng lặp do tham chiếu đến kiểu cụ thể (concrete type) mà mã gây vòng lặp sẽ gọi phương thức (methods) trên đó, có thể phá vỡ vòng lặp bằng cách cho một bên tham chiếu vòng nhận một interface thay vì kiểu cụ thể.
-        - Ví dụ: Thay vì hàm nhận `users.DBList` (là kiểu cụ thể), hãy định nghĩa một interface `UserList` với phương thức `Exists` và cho hàm nhận `UserList`.
-        - Đây không phải luôn là giải pháp đầy đủ. Nếu interface cần các giá trị từ package gây vòng lặp làm đối số (arguments) hoặc trả về chúng làm tham số (parameters), điều này có thể vẫn để lại tham chiếu vòng. Tuy nhiên, ngay cả trong những trường hợp này, interface vẫn có thể là một phần của giải pháp.
-        - Có thể cần tạo một phương thức mới mà interface có thể triển khai. Ví dụ: Nếu tham chiếu vòng cố gắng truy cập một trường được xuất (exported field) của một struct khác, có thể làm trường đó không xuất (unexport) và bọc nó sau một phương thức, chỉ để có thể sử dụng interface phá vỡ chuỗi tham chiếu vòng.
-        - Giải pháp này ở vị trí thấp hơn trong danh sách vì nó vẫn tạo ra một mối quan hệ giữa hai package, dù ít chặt chẽ hơn. Việc này có thể gợi ý sự trộn lẫn không phù hợp về khái niệm (ví dụ: "user" và "admin" trong ví dụ). Việc chia nhỏ package thành các phần rõ ràng, không trộn lẫn khái niệm vẫn mang lại kết quả vượt trội hơn.
-        - Đôi khi giải pháp interface là cần thiết khi dự án đã trưởng thành và cần kết nối những thứ tưởng chừng đã tách biệt.
-    5. Sao chép sự phụ thuộc (Copy The Dependency):
-        - Áp dụng câu châm ngôn Go: "Một chút sao chép tốt hơn một chút phụ thuộc" (A little copying is better than a little dependency). Thường được dùng khi không muốn import thư viện lớn chỉ để dùng vài dòng code.
-        - Cũng có thể áp dụng cho codebase của chính bạn. Nếu bạn import toàn bộ package riêng biệt chỉ để dùng một đoạn code rất nhỏ, và đoạn code đó thực sự thuộc về package đó, có lẽ chỉ cần sao chép các dòng code đó vào package đang bị vòng lặp.
-        - Giải pháp này cũng ở vị trí thấp hơn. Lạm dụng nó sẽ dẫn đến vấn đề "Đừng lặp lại chính mình" (Don't Repeat Yourself - DRY).
-        - Tuy nhiên, theo kinh nghiệm, khoảng một nửa số lần buộc phải dùng giải pháp này, mã code sao chép cuối cùng cũng khác biệt đáng kể (và đúng đắn), cho thấy chúng không thực sự là cùng một thứ ngay từ đầu.
-    6. Có lẽ chúng không nên là hai package riêng biệt (Maybe They Shouldn’t Be Two Separate Packages):
-        - Cuối cùng, nếu không giải pháp nào ở trên khả thi (dù đã nỗ lực), có thể do vòng lặp quá lớn, câu trả lời là mã đang cho thấy đây thực ra chỉ nên là một package.
-        - Tác giả thích chia nhỏ mọi thứ thành nhiều package, nhưng đôi khi lại quá "nhiệt tình" và cố gắng tách ra những thứ lẽ ra không nên.
-        - Nếu điều này xảy ra thường xuyên, có thể bạn cần luyện tập thêm. Nhưng nó nên xảy ra ít nhất đôi khi, nếu không, có thể bạn chưa đủ cố gắng chia nhỏ mọi thứ.
-        - Package kết hợp càng lớn, càng nên cố gắng tìm giải pháp khác để phá vỡ phụ thuộc vòng. Tuy nhiên, cuối cùng vẫn là quyết định cân nhắc chi phí/lợi ích (cost/benefits decision).
+  1. Di chuyển chức năng (Move The Functionality):
+     - Đây là giải pháp quan trọng nhất khi có thể áp dụng, dù không phải phổ biến nhất.
+     - Sau khi phân tích, có thể thấy phần gây ra vòng lặp đơn giản là đang ở sai vị trí. Nó có thể thuộc về cùng vị trí với mã mới gây vòng lặp.
+     - Việc này có thể liên quan đến chia nhỏ một khối chức năng (conglomeration of functionality) hiện có.
+     - Không chỉ di chuyển toàn bộ kiểu dữ liệu (types), mà có thể là cắt nhỏ các đoạn mã, một trường (field) ở đây, một trường ở kia. Thậm chí có thể cần tách đôi một trường tưởng chừng là nguyên tử (atomic), dù hiếm. Cần phân tích rất granular (chi tiết).
+     - Đây là giải pháp tốt nhất không chỉ vì nó phá vỡ vòng lặp mà còn vì nó mang lại kết quả mạnh mẽ nhất cho sự rõ ràng khái niệm của package. Di chuyển hoàn toàn khái niệm không thuộc về "breakable link" đến đúng vị trí của nó là một thắng lợi lớn về lâu dài.
+  2. Tạo một package thứ ba cho phần dùng chung (Create A Third Package For The Shared Bit):
+     - Nếu một package cần thứ gì đó nằm trong package khác gây ra phụ thuộc vòng, hãy cân nhắc di chuyển thứ đó vào một package thứ ba mới mà cả hai package ban đầu đều có thể import.
+     - Ví dụ phổ biến: Một kiểu dữ liệu đơn giản như `Username` ban đầu được đặt vào package cần nó. Khi chương trình phát triển, package khác cũng cần tham chiếu đến `Username` gây ra vòng lặp. `Username` (thường là chuỗi đã được xác thực) gần như chắc chắn có thể được chuyển vào package riêng.
+     - Sự lưỡng lự khi làm điều này thường là do cảm giác việc có cả một package cho một kiểu dữ liệu duy nhất là thiết kế tồi.
+     - Tuy nhiên, tác giả khuyên bạn nên làm điều đó. Theo kinh nghiệm, phần lớn thời gian, package mới này sẽ không chỉ có một kiểu dữ liệu duy nhất mãi mãi và sẽ nhanh chóng phát triển thêm. Hãy nghĩ về package không chỉ là ảnh chụp nhanh tại một thời điểm mà theo sự tiến hóa của chúng. Thường thì, package mới này là ví dụ đầu tiên của một khái niệm mới, phi tầm thường mà package đó sẽ sớm thể hiện một cách phức tạp và đầy đủ hơn.
+  3. Một package thứ ba mới kết hợp các package bị vòng lặp (A New Third Package That Composes The Circular Packages):
+     - Tương tự như trường hợp trước, nhưng theo hướng ngược lại.
+     - Nếu hai package phụ thuộc vòng lẫn nhau cho một mục đích nào đó, có thể trích xuất (extract) sự phụ thuộc đó và biến nó thành một cái gì đó sử dụng hai package đó để hoàn thành tác vụ yêu cầu vòng lặp.
+     - Cách này ít được sử dụng hơn khi đã quen thiết kế kiến trúc gốc trong Go. Các kiến trúc dựa trên kế thừa OO thường dễ dẫn đến sự phụ thuộc sâu vào vòng lặp.
+     - Ví dụ ORM: Có `Category` và `BlogPost` trong các package khác nhau, có quan hệ nhiều-nhiều. Thao tác `.Save()` cho mỗi loại kết thúc bằng việc phụ thuộc vào loại kia, tạo vòng lặp.
+     - Giải pháp: Làm cho `Category` và `BlogPost` "ngu hơn". Tách bỏ ý tưởng rằng chúng biết cách "tự lưu" (save themselves). Tạo `Category` và `BlogPost` chỉ là cấu trúc dữ liệu. Một package cao hơn sẽ kết nối chúng qua quan hệ nhiều-nhiều. Một package cao hơn nữa sẽ "biết" cách tải chúng từ DB và lưu các thay đổi.
+     - (Điều này không hoạt động tốt với ORM, đây là một trong nhiều lý do tác giả tránh ORM. ORM làm mỗi đối tượng phải "biết" về DB, gây ra vấn đề "bạn muốn một quả chuối nhưng lại nhận được một con gorilla cầm quả chuối và toàn bộ khu rừng" - the want-banana-get-jungle problem. Thiết kế phân lớp trong Go khó chịu với cách tiếp cận này vì càng có nhiều "khu rừng", càng dễ xảy ra phụ thuộc vòng. Go gần như buộc bạn phải có `Banana` và `Gorilla` có thể tồn tại độc lập, và thể hiện các mối quan hệ trong các package cấp cao hơn. Dù không hoàn toàn ép buộc, việc chống lại điều này sẽ gặp khó khăn.)
+  4. Sử dụng Interface để phá vỡ sự phụ thuộc (Interface To Break The Dependency):
+     - Nếu vòng lặp do tham chiếu đến kiểu cụ thể (concrete type) mà mã gây vòng lặp sẽ gọi phương thức (methods) trên đó, có thể phá vỡ vòng lặp bằng cách cho một bên tham chiếu vòng nhận một interface thay vì kiểu cụ thể.
+     - Ví dụ: Thay vì hàm nhận `users.DBList` (là kiểu cụ thể), hãy định nghĩa một interface `UserList` với phương thức `Exists` và cho hàm nhận `UserList`.
+     - Đây không phải luôn là giải pháp đầy đủ. Nếu interface cần các giá trị từ package gây vòng lặp làm đối số (arguments) hoặc trả về chúng làm tham số (parameters), điều này có thể vẫn để lại tham chiếu vòng. Tuy nhiên, ngay cả trong những trường hợp này, interface vẫn có thể là một phần của giải pháp.
+     - Có thể cần tạo một phương thức mới mà interface có thể triển khai. Ví dụ: Nếu tham chiếu vòng cố gắng truy cập một trường được xuất (exported field) của một struct khác, có thể làm trường đó không xuất (unexport) và bọc nó sau một phương thức, chỉ để có thể sử dụng interface phá vỡ chuỗi tham chiếu vòng.
+     - Giải pháp này ở vị trí thấp hơn trong danh sách vì nó vẫn tạo ra một mối quan hệ giữa hai package, dù ít chặt chẽ hơn. Việc này có thể gợi ý sự trộn lẫn không phù hợp về khái niệm (ví dụ: "user" và "admin" trong ví dụ). Việc chia nhỏ package thành các phần rõ ràng, không trộn lẫn khái niệm vẫn mang lại kết quả vượt trội hơn.
+     - Đôi khi giải pháp interface là cần thiết khi dự án đã trưởng thành và cần kết nối những thứ tưởng chừng đã tách biệt.
+  5. Sao chép sự phụ thuộc (Copy The Dependency):
+     - Áp dụng câu châm ngôn Go: "Một chút sao chép tốt hơn một chút phụ thuộc" (A little copying is better than a little dependency). Thường được dùng khi không muốn import thư viện lớn chỉ để dùng vài dòng code.
+     - Cũng có thể áp dụng cho codebase của chính bạn. Nếu bạn import toàn bộ package riêng biệt chỉ để dùng một đoạn code rất nhỏ, và đoạn code đó thực sự thuộc về package đó, có lẽ chỉ cần sao chép các dòng code đó vào package đang bị vòng lặp.
+     - Giải pháp này cũng ở vị trí thấp hơn. Lạm dụng nó sẽ dẫn đến vấn đề "Đừng lặp lại chính mình" (Don't Repeat Yourself - DRY).
+     - Tuy nhiên, theo kinh nghiệm, khoảng một nửa số lần buộc phải dùng giải pháp này, mã code sao chép cuối cùng cũng khác biệt đáng kể (và đúng đắn), cho thấy chúng không thực sự là cùng một thứ ngay từ đầu.
+  6. Có lẽ chúng không nên là hai package riêng biệt (Maybe They Shouldn’t Be Two Separate Packages):
+     - Cuối cùng, nếu không giải pháp nào ở trên khả thi (dù đã nỗ lực), có thể do vòng lặp quá lớn, câu trả lời là mã đang cho thấy đây thực ra chỉ nên là một package.
+     - Tác giả thích chia nhỏ mọi thứ thành nhiều package, nhưng đôi khi lại quá "nhiệt tình" và cố gắng tách ra những thứ lẽ ra không nên.
+     - Nếu điều này xảy ra thường xuyên, có thể bạn cần luyện tập thêm. Nhưng nó nên xảy ra ít nhất đôi khi, nếu không, có thể bạn chưa đủ cố gắng chia nhỏ mọi thứ.
+     - Package kết hợp càng lớn, càng nên cố gắng tìm giải pháp khác để phá vỡ phụ thuộc vòng. Tuy nhiên, cuối cùng vẫn là quyết định cân nhắc chi phí/lợi ích (cost/benefits decision).
 
 Sự Khác Biệt Với Các Phương Pháp Khác
 

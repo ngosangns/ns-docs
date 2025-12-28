@@ -8,6 +8,7 @@ tags:
   - popularity
   - technology
 ---
+
 # 1. Resources
 
 - Mức độ phổ biến của các low-code platform:

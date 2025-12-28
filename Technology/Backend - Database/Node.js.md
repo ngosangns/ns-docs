@@ -9,6 +9,7 @@ tags:
   - libraries
   - runtime
 ---
+
 # 1. Node.js Overview
 
 Node.js is a powerful JavaScript runtime built on Chrome's V8 JavaScript engine. It is widely used for building scalable network applications due to its event-driven, non-blocking I/O model.
@@ -27,25 +28,26 @@ Node.js supports a variety of frameworks that simplify the development of web ap
 - **Hapi.js**: A rich framework for building applications and services in Node.js.
 
 [honojs/hono: Web framework built on Web Standards](https://github.com/honojs/hono)
+
 ## 1.2. ORMs (OBJECT RELATIONAL MAPPER)
 
-* Provides a way to work interact with data from within your code without writing raw SQL queries
-* Simplifies database interaction, increases productivity and readability
-* Allows the application to be independent of the database
+- Provides a way to work interact with data from within your code without writing raw SQL queries
+- Simplifies database interaction, increases productivity and readability
+- Allows the application to be independent of the database
 
-| **PRISMA** | * Type-safe database client |
-|----------------|---------------------------|
-|                | * Supports many databases      |
-|                | * Easy relation API         |
-| **MONGOOSE** | * ORM/ODM for MongoDB & Node.js |
-|                | * Create models & schemas     |
-|                | * Middleware support        |
-| **SEQUELIZE** | * ORM for Node.js & MySQL    |
-|                | * Supports all SQL-based databases |
-|                | * Migrations, model associations, hooks |
-| **SQLAlchemy** | * ORM for Python              |
-|                | * Supports MySQL, Postgres, SQLite & Oracle |
-|                | * Rich API for complex queries |
+| **PRISMA**     | \* Type-safe database client                 |
+| -------------- | -------------------------------------------- |
+|                | \* Supports many databases                   |
+|                | \* Easy relation API                         |
+| **MONGOOSE**   | \* ORM/ODM for MongoDB & Node.js             |
+|                | \* Create models & schemas                   |
+|                | \* Middleware support                        |
+| **SEQUELIZE**  | \* ORM for Node.js & MySQL                   |
+|                | \* Supports all SQL-based databases          |
+|                | \* Migrations, model associations, hooks     |
+| **SQLAlchemy** | \* ORM for Python                            |
+|                | \* Supports MySQL, Postgres, SQLite & Oracle |
+|                | \* Rich API for complex queries              |
 
 ### 1.2.1. Additional Frameworks
 

@@ -8,6 +8,7 @@ tags:
   - erp
   - software
 ---
+
 SAP là viết tắt của **“Systems, Applications, and Products in Data Processing”** — là một **phần mềm ERP (Enterprise Resource Planning)** phổ biến nhất thế giới, được phát triển bởi công ty SAP SE (Đức).
 
 # 1. **🔍 SAP là gì?**
@@ -24,12 +25,12 @@ SAP đóng vai trò là **xương sống kỹ thuật số của doanh nghiệp*
 
 # 2. **⚙️ Các dòng sản phẩm chính của SAP:**
 
-|**Tên sản phẩm**|**Mô tả ngắn**|
-|---|---|
-|**SAP ECC**|Hệ thống ERP truyền thống, nhiều doanh nghiệp lớn vẫn đang dùng|
-|**SAP S/4HANA**|Phiên bản ERP thế hệ mới, chạy trên nền tảng cơ sở dữ liệu in-memory HANA, nhanh hơn và thông minh hơn|
-|**SAP Business One**|Dành cho doanh nghiệp vừa và nhỏ|
-|**SAP Ariba, SuccessFactors, Concur**|Các giải pháp chuyên biệt (mua sắm, nhân sự, quản lý chi phí…)|
+| **Tên sản phẩm**                      | **Mô tả ngắn**                                                                                         |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **SAP ECC**                           | Hệ thống ERP truyền thống, nhiều doanh nghiệp lớn vẫn đang dùng                                        |
+| **SAP S/4HANA**                       | Phiên bản ERP thế hệ mới, chạy trên nền tảng cơ sở dữ liệu in-memory HANA, nhanh hơn và thông minh hơn |
+| **SAP Business One**                  | Dành cho doanh nghiệp vừa và nhỏ                                                                       |
+| **SAP Ariba, SuccessFactors, Concur** | Các giải pháp chuyên biệt (mua sắm, nhân sự, quản lý chi phí…)                                         |
 
 # 3. **🎯 SAP giúp doanh nghiệp thế nào?**
 

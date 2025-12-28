@@ -22,45 +22,45 @@ tags:
 ---
 
 1. Làm thế nào chúng ta có thể tắt bảo vệ CRSF cho một Route cụ thể?
-    Chúng ta có thể thêm URL cụ thể hoặc Route trong biến $except trong file `app\Http\Middleware\VerifyCsrfToken.php`
+   Chúng ta có thể thêm URL cụ thể hoặc Route trong biến $except trong file `app\Http\Middleware\VerifyCsrfToken.php`
 
-    ```php
-    class VerifyCsrfToken extends BaseVerifier { protected $except = < "Pass here your URL", >; }
-    ```
+   ```php
+   class VerifyCsrfToken extends BaseVerifier { protected $except = < "Pass here your URL", >; }
+   ```
 
 2. Facade trong laravel là gì? Làm sao để sử dụng nó?
 
-    Facade là 1 kiểu class, class này cung cấp 1 static interface cho services. Facade giúp truy cập 1 service trực tiếp từ container. Nó được định nghĩa trong `Illuminate\Support\Facades`, nhờ đó chúng ta có thể dễ dàng sử dụng.
+   Facade là 1 kiểu class, class này cung cấp 1 static interface cho services. Facade giúp truy cập 1 service trực tiếp từ container. Nó được định nghĩa trong `Illuminate\Support\Facades`, nhờ đó chúng ta có thể dễ dàng sử dụng.
 
-    ```php
-    use Illuminate\Support\Facades\Cache;
+   ```php
+   use Illuminate\Support\Facades\Cache;
 
-    Route::get("/cache", function () {
-    		return Cache::get("PutkeyNameHere");
-    });
-    ```
+   Route::get("/cache", function () {
+   		return Cache::get("PutkeyNameHere");
+   });
+   ```
 
 3. Làm thế nào để tạo 1 helper trong Laravel?
 
-    - Tạo một `app/helpers.php` trong thư mục ứng dụng
-    - Sau đó thêm `"files": <"app/helpers.php">` trong biến autoload của file `composer.json`.
-    - Sau đó update composer bằng `composer dump-autoload` và `composer update`.
+   - Tạo một `app/helpers.php` trong thư mục ứng dụng
+   - Sau đó thêm `"files": <"app/helpers.php">` trong biến autoload của file `composer.json`.
+   - Sau đó update composer bằng `composer dump-autoload` và `composer update`.
 
-1. Một Artisan là gì?
+4. Một Artisan là gì?
 
-    Artisan là một kiểu command line interface sử dụng trong Laravel. Nó cung cấp rất nhiều lệnh hữu ích cho bạn trong khi phát triển ứng dụng của bạn. Một số lệnh artisan phổ biến
+   Artisan là một kiểu command line interface sử dụng trong Laravel. Nó cung cấp rất nhiều lệnh hữu ích cho bạn trong khi phát triển ứng dụng của bạn. Một số lệnh artisan phổ biến
 
 5. Service container là gì?
 
-    Service Container là một công cụ mạnh mẽ được sử dụng để quản lý các class dependencies và thực hiện dependency injection. Nó còn được gọi là container IoC.
+   Service Container là một công cụ mạnh mẽ được sử dụng để quản lý các class dependencies và thực hiện dependency injection. Nó còn được gọi là container IoC.
 
 6. Làm thế nào chúng ta có thể cấu hình một Mail trong Laravel?
 
-    Laravel cung cấp API rõ ràng và đơn giản trên thư viện phổ biến SwiftMailer với các drivers cho SMTP, Mailgun, SparkPost, Amazon SES và gửi email. Laravel đang cho phép gửi Mail quickly thông qua các dịch vụ local hoặc trên nền tảng đám mây.
+   Laravel cung cấp API rõ ràng và đơn giản trên thư viện phổ biến SwiftMailer với các drivers cho SMTP, Mailgun, SparkPost, Amazon SES và gửi email. Laravel đang cho phép gửi Mail quickly thông qua các dịch vụ local hoặc trên nền tảng đám mây.
 
 7. Auth là gì? Làm sao để sử dụng chúng?
 
-    Laravel Auth là quá trình xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu. Laravel quản lý nó với sự trợ giúp của các sessions, Các sessions lấy tham số đầu vào như tên người dùng và mật khẩu, để nhận dạng người dùng. Nếu các cài đặt khớp nhau thì người dùng được cho là đã được xác thực. Auth là chức năng được xây dựng do Laravel cung cấp; chúng ta phải sử dụng lệnh php artisan make: authAuth được sử dụng để xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu.
+   Laravel Auth là quá trình xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu. Laravel quản lý nó với sự trợ giúp của các sessions, Các sessions lấy tham số đầu vào như tên người dùng và mật khẩu, để nhận dạng người dùng. Nếu các cài đặt khớp nhau thì người dùng được cho là đã được xác thực. Auth là chức năng được xây dựng do Laravel cung cấp; chúng ta phải sử dụng lệnh php artisan make: authAuth được sử dụng để xác định thông tin đăng nhập của người dùng với cơ sở dữ liệu.
 
 ![[9c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f.png]]
 

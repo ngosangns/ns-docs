@@ -9,6 +9,7 @@ tags:
   - language-learning
   - grammar
 ---
+
 arise - arose - arisen - nảy sinh, xuất hiện
 Ví dụ: New problems arose during the project.
 
@@ -856,6 +857,7 @@ unmake - unmade - unmade - tháo gỡ, hủy bỏ, làm cho tan vỡ
 Ví dụ: No one can unmake the damage caused by those decisions.
 
 unspin - unspun - unspun - tháo sợi, gỡ sợi (gần như không gặp trong thực tế)
+
 - (Thường chỉ thấy trong từ điển mở rộng, ví dụ hiếm: “The machine unspun the twisted threads.”)
 
 unstring - unstrung - unstrung - tháo dây, gỡ dây (nhạc cụ, cung tên…)

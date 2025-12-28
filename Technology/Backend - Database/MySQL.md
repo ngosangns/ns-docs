@@ -9,6 +9,7 @@ tags:
   - tools
   - storage-engine
 ---
+
 # 1. Resources
 
 - https://viblo.asia/p/su-dung-index-trong-database-nhu-the-nao-cho-hieu-qua-4P856q69lY3
@@ -74,7 +75,7 @@ Trong MySQL, các storage engine cung cấp các cơ chế khác nhau để lưu
 • **Khóa**: Không hỗ trợ khóa ghi (write locking), chỉ có thể ghi vào bảng (INSERT), không hỗ trợ UPDATE hoặc DELETE.
 • **Chỉ mục**: Không hỗ trợ chỉ mục.
 • **Tính năng nổi bật**: Dữ liệu được nén lại khi lưu trữ, tiết kiệm không gian.
-• **Ưu điểm**: Thích hợp cho việc lưu trữ dữ liệu lớn mà ít thay đổi, chẳng hạn như lưu trữ log.
+• **Ưu điểm\*\*: Thích hợp cho việc lưu trữ dữ liệu lớn mà ít thay đổi, chẳng hạn như lưu trữ log.
 
 **6. BLACKHOLE**
 

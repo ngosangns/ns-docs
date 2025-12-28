@@ -8,6 +8,7 @@ tags:
   - async
   - inline
 ---
+
 # 1. Cách browser thực thi JavaScript: Hiểu rõ `defer`, `async`, và `inline`
 
 Khi bạn nhúng JavaScript vào HTML, việc browser **thực thi script ở đâu và khi nào** sẽ ảnh hưởng trực tiếp đến **hiệu suất tải trang**, **trải nghiệm người dùng**, và **thứ tự thực thi code**.
@@ -97,22 +98,22 @@ Tức là:
 
 # 5. So sánh `inline`, `defer`, `async`
 
-|Thuộc tính|Tải song song|Chặn HTML parser|Thực thi sau HTML parser|Giữ thứ tự|
-|---|---|---|---|---|
-|Inline|❌|✅|❌|✅|
-|`<script defer>`|✅|❌|✅|✅|
-|`<script async>`|✅|❌ (tạm)|❌|❌|
+| Thuộc tính       | Tải song song | Chặn HTML parser | Thực thi sau HTML parser | Giữ thứ tự |
+| ---------------- | ------------- | ---------------- | ------------------------ | ---------- |
+| Inline           | ❌            | ✅               | ❌                       | ✅         |
+| `<script defer>` | ✅            | ❌               | ✅                       | ✅         |
+| `<script async>` | ✅            | ❌ (tạm)         | ❌                       | ❌         |
 
 ---
 
 # 6. Khi nào dùng cái nào?
 
-|Tình huống|Cách dùng đề xuất|
-|---|---|
-|Script phụ thuộc vào DOM (manipulate DOM)|`defer`|
-|Script tracking, analytics, ads độc lập|`async`|
-|Biến cấu hình nhỏ cần sớm|`inline`|
-|Thư viện JS lớn như React, Vue|`defer`|
+| Tình huống                                | Cách dùng đề xuất |
+| ----------------------------------------- | ----------------- |
+| Script phụ thuộc vào DOM (manipulate DOM) | `defer`           |
+| Script tracking, analytics, ads độc lập   | `async`           |
+| Biến cấu hình nhỏ cần sớm                 | `inline`          |
+| Thư viện JS lớn như React, Vue            | `defer`           |
 
 ---
 

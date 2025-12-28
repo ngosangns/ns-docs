@@ -1,5 +1,5 @@
 ---
-relates: 
+relates:
 tags:
   - relates
   - overthinking
@@ -7,6 +7,7 @@ tags:
   - mindfulness
   - self-care
 ---
+
 Suy nghĩ là nền tảng của sự tồn tại và phát triển của con người. Từ câu nói nổi tiếng của một triết gia, nhà khoa học người Pháp René Descartes "Tôi suy nghĩ, nên tôi tồn tại", chúng ta có thể thấy rằng suy nghĩ là một đặc trưng riêng biệt của con người, phân biệt chúng ta với các loài vật khác. Qua các quá trình như ghi nhớ, lý luận và tưởng tượng, suy nghĩ đã tạo ra những đột phá vĩ đại, giúp chúng ta xây dựng nên một thế giới văn minh như ngày nay. Tuy nhiên, bên cạnh những suy nghĩ tích cực và hữu ích, "overthinking" - suy nghĩ quá nhiều - lại là một vấn đề đáng quan tâm, có thể gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống.
 
 Bạn có bao giờ nằm trên giường vào ban đêm, đếm những con cừu trong tưởng tượng, nhưng thay vào đó lại đắm chìm vào những suy nghĩ miên man về quá khứ và lo lắng về tương lai? Những đêm trằn trọc, những lo lắng vô hình dường như bủa vây lấy tâm trí, khiến chúng ta mệt mỏi và kiệt sức. Nếu câu trả lời là có, thì bạn không đơn độc. Trong thời đại thông tin tràn lan và áp lực cuộc sống ngày càng tăng, việc "overthinking" dường như đã trở thành một căn bệnh phổ biến, đặc biệt là ở giới trẻ. Cảm giác như những đám mây đen bao phủ tâm trí, che lấp đi những điều tốt đẹp xung quanh. Vậy làm thế nào để thoát khỏi vòng xoáy này và tìm lại sự bình yên trong tâm hồn?

@@ -10,52 +10,52 @@ NGÀY 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú
 • Trưa: Dừng ăn trưa tại thị trấn Yên Minh.
 
 • Chiều:
-	• Vượt Dốc Thẩm Mã, check-in với cảnh núi non kỳ vĩ.
-	• Khám phá Phố Cáo với những ngôi nhà trình tường của người H’Mông.
-	• Tham quan Nhà Pao - điểm đến nổi tiếng qua các bộ phim.
-	• Thăm làng nghề bạc thủ công Lao Xa.
-	• Tìm hiểu lịch sử tại Dinh thự Vua Mèo (Nhà Vương).
+• Vượt Dốc Thẩm Mã, check-in với cảnh núi non kỳ vĩ.
+• Khám phá Phố Cáo với những ngôi nhà trình tường của người H’Mông.
+• Tham quan Nhà Pao - điểm đến nổi tiếng qua các bộ phim.
+• Thăm làng nghề bạc thủ công Lao Xa.
+• Tìm hiểu lịch sử tại Dinh thự Vua Mèo (Nhà Vương).
 • Tối: Check-in homestay tại Lô Lô Chải, tận hưởng không gian văn hóa độc đáo.
 
 NGÀY 2: Lũng Cú - Đồng Văn - Mã Pí Lèng - Sông Nho Quế - Pả Vi
 
 • Sáng:
-	• Tham quan bản làng Lô Lô Chải, tìm hiểu đời sống người Lô Lô.
-	• Chinh phục Cột cờ Lũng Cú - điểm cực Bắc thiêng liêng của Việt Nam.
-	• Dạo chơi tại thị trấn Đồng Văn, thưởng thức đặc sản (bánh tam giác mạch, phở chua).
+• Tham quan bản làng Lô Lô Chải, tìm hiểu đời sống người Lô Lô.
+• Chinh phục Cột cờ Lũng Cú - điểm cực Bắc thiêng liêng của Việt Nam.
+• Dạo chơi tại thị trấn Đồng Văn, thưởng thức đặc sản (bánh tam giác mạch, phở chua).
 • Chiều:
-	• Vượt Đèo Mã Pí Lèng, một trong “tứ đại đỉnh đèo” với cảnh sắc hùng vĩ.
-	• Xuống bến thuyền, chèo kayak hoặc đi thuyền trên sông Nho Quế, khám phá hẻm vực Tu Sản.
+• Vượt Đèo Mã Pí Lèng, một trong “tứ đại đỉnh đèo” với cảnh sắc hùng vĩ.
+• Xuống bến thuyền, chèo kayak hoặc đi thuyền trên sông Nho Quế, khám phá hẻm vực Tu Sản.
 • Trưa:
-	• Ăn trưa tại quán camping anh Quân, nơi có view đẹp hướng vào hẻm Tu Sản hùng vĩ.
-	• Check-in tại Pả Vi, ngôi làng H’Mông xinh đẹp.
+• Ăn trưa tại quán camping anh Quân, nơi có view đẹp hướng vào hẻm Tu Sản hùng vĩ.
+• Check-in tại Pả Vi, ngôi làng H’Mông xinh đẹp.
 • Tối:
-	• Nghỉ ngơi tại homestay ở Pả Vi, tận hưởng không gian yên bình.
+• Nghỉ ngơi tại homestay ở Pả Vi, tận hưởng không gian yên bình.
 
 NGÀY 3: Hà Giang - Dốc 14 tầng - Lê Nin
 
 • Sáng:
-	• Khởi hành từ Pả Vi, dừng chân tại Dốc 14 tầng, cung đường đèo uốn lượn ngoạn mục.
-	• Di chuyển đến Cao Bằng, ghé thăm Khu di tích Pác Bó và suối Lê Nin, nơi Bác Hồ từng sống và làm việc.
+• Khởi hành từ Pả Vi, dừng chân tại Dốc 14 tầng, cung đường đèo uốn lượn ngoạn mục.
+• Di chuyển đến Cao Bằng, ghé thăm Khu di tích Pác Bó và suối Lê Nin, nơi Bác Hồ từng sống và làm việc.
 • Tối:
-	• Nghỉ đêm tại homestay gần Pác Bó.
+• Nghỉ đêm tại homestay gần Pác Bó.
 
 NGÀY 4: Lê Nin - Núi Mắt Thần - Thác Bản Giốc
 
 • Sáng:
-	• Check-in tại Núi Mắt Thần và hồ nước tự nhiên thơ mộng.
-	• Khám phá vẻ đẹp hùng vĩ của Thác Bản Giốc, ngọn thác lớn nhất vùng biên giới Việt - Trung.
+• Check-in tại Núi Mắt Thần và hồ nước tự nhiên thơ mộng.
+• Khám phá vẻ đẹp hùng vĩ của Thác Bản Giốc, ngọn thác lớn nhất vùng biên giới Việt - Trung.
 • Chiều - Tối:
-	• Dạo chơi quanh khu vực biên giới, thưởng thức đặc sản Cao Bằng (vịt quay 7 vị, bánh áp chao).
-	• Nghỉ đêm gần Thác Bản Giốc.
+• Dạo chơi quanh khu vực biên giới, thưởng thức đặc sản Cao Bằng (vịt quay 7 vị, bánh áp chao).
+• Nghỉ đêm gần Thác Bản Giốc.
 
 NGÀY 5: Đồi Cỏ Cháy - TP Cao Bằng - Hà Nội
 
 • Sáng:
-	• Check-in tại Đồi cỏ cháy, nơi có không gian thiên nhiên hoang sơ và thơ mộng.
-	• Ghé TP Cao Bằng, mua quà đặc sản như hạt dẻ Trùng Khánh, bánh khảo.
+• Check-in tại Đồi cỏ cháy, nơi có không gian thiên nhiên hoang sơ và thơ mộng.
+• Ghé TP Cao Bằng, mua quà đặc sản như hạt dẻ Trùng Khánh, bánh khảo.
 • Trưa:
-	• Bắt xe về Hà Nội, kết thúc hành trình đáng nhớ.
+• Bắt xe về Hà Nội, kết thúc hành trình đáng nhớ.
 
 Lưu ý:
 

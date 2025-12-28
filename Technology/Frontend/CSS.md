@@ -13,6 +13,7 @@ tags:
   - type/resource
   - lang/vi
 ---
+
 # 1. CSS
 
 ## 1.1. Tài nguyên
@@ -55,6 +56,7 @@ tags:
 Định vị neo CSS cho phép các phần tử được định vị tương đối so với một phần tử neo.
 
 - **Thuộc tính chính**:
+
   - `anchor-name`: Xác định phần tử neo.
   - `anchor-position`: Định vị các phần tử tương đối so với neo.
   - `@position-fallback`: Cung cấp các chiến lược dự phòng.
@@ -77,6 +79,7 @@ tags:
 Hoạt ảnh điều khiển bằng cuộn cho phép các hoạt ảnh được điều khiển bởi vị trí cuộn.
 
 - **Thành phần chính**:
+
   - `animation-timeline`: Xác định dòng thời gian hoạt ảnh.
   - `scroll()`: Tạo hoạt ảnh dựa trên cuộn.
   - `view()`: Tạo hoạt ảnh dựa trên tiến trình xem.

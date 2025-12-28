@@ -1,6 +1,6 @@
 ---
 relates:
-  - '[[Note câu hỏi phỏng vấn Laravel]]'
+  - "[[Note câu hỏi phỏng vấn Laravel]]"
 tags:
   - interview-questions
   - Laravel
@@ -8,6 +8,7 @@ tags:
   - Japanese-company
   - HR-questions
 ---
+
 # 1. Giới thiệu bản thân
 
 - Họ và tên
@@ -61,4 +62,3 @@ tags:
 - Người Nhật họ thích những người tuân thủ quy định và quy trình.
 - Các công ty Nhật có xu hướng tìm người có tố chất (thường là ít kinh nghiệm hoặc sinh viên mới ra trường nhưng phải có đủ tố chất để đào tạo chứ kp tuyển bừa bãi) đào tạo làm nhân viên. Cây mềm thì dễ uốn, nhân viên được đào tạo sẽ thấm nhuần định hướng phát triển và văn hoá làm việc của công ty, tạo một khối đoàn kết cùng phát triển thay vì mạnh thằng nào thằng ấy làm.
 - kinh nghiệm PV cty nhật là thằng nào có nguyện vọng học hỏi thêm chuyên ngành khi vào cty là thằng đó tạch.
-

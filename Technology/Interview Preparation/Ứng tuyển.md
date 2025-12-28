@@ -6,7 +6,9 @@ tags:
   - cổng-tuyển-dụng
   - nên-apply
 ---
+
 # 1. Resources
+
 - [[Kinh nghiệm deal lương]]
 
 ---
@@ -22,6 +24,7 @@ tags:
 - [HCM] Lập trình viên Backend (hệ thống Authentication, Authorization): https://tuyendung.vnpay.vn/tuyen-dung/[hcm]-lap-trinh-vien-backend-lam-viec-tren-he-thong-authentication-authorization.html
 
 ## 1.3. Đã từ chối offer
+
 - Skale
 
 ---

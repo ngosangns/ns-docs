@@ -7,6 +7,7 @@ tags:
   - quick-reference
   - vietnamese
 ---
+
 Tùy vào file bạn định nén là gì.
 Chứ media như phim, ảnh, game các thứ nó không nén được bao nhiêu đâu.
 Text thì mới dễ nén và nén được nhiều.
@@ -16,7 +17,7 @@ Nếu xác định được rồi thì mình khuyên như sau:
 
 - Chỉ dùng RAR khi bạn có nhu cầu đến cái recovery record. Cái này giúp bạn khi tải lỗi, nó sẽ có error correction khắc phục phần nào. Nén thua lzma, đôi khi thua cả zstd mà giải nén lâu hơn. Nén tốt hơn zip nhưng tính compatibility không cao.
 - Muốn nén chặt nhất có thể thì dùng thuật toán LZMA2, đuôi 7z. Hoặc đóng gói hết file vào tar (7-zip cũng có tính năng này), rồi nén file tar đó method LZMA2 đuôi xz.
-Tuy nhiên, cái này nén khá tốn bộ nhớ và thời gian.
+  Tuy nhiên, cái này nén khá tốn bộ nhớ và thời gian.
 - Muốn tương thích nhiều thiết bị nhất thì dùng zip.
 - Nén text thì khuyên dùng đuôi gz hoặc br, method là gzip hoặc brotli. Nén 1 file thì có thể chọn gzip đuôi gz luôn, còn nhiều file thì đóng nó vào tar, rồi đem tar nén gz hoặc br.
 - Thời gian nén vừa, mức nén ổn, giải nén nhanh thì khuyên dùng method zstd, đuôi 7z, hoặc là đóng gói tar, rồi nén zstd, đuôi zst.
@@ -24,9 +25,9 @@ Tuy nhiên, cái này nén khá tốn bộ nhớ và thời gian.
 - Word size thì thông thường cứ max mà triển.
 - Dict size thì cái này phải tự benchmark theo từng kiểu data nén, vì hiệu suất của cái này nó như đồ thị quả chuông, tăng dần đến 1 điểm xong bị thoải đi. Cơ mà mình khuyên là dù mốc đỉnh đồ thị có là bao nhiêu, thì ko nên set quá 128MB, hại máy giải nén, mà máy nén cũng phung phí tài nguyên để nén vô ích.
 - Cái solid thì cân nhắc theo nhu cầu giải nén.
-Nếu bạn muốn giải nén là bung cả cục, không thiếu gì thì chọn solid. Còn nếu bạn muốn có trường hợp đôi khi chỉ giải nén vài file nhất định, thì chỉnh dung lượng tùy nhu cầu (cái này mình cũng ko biết recommend size thế nào).
-Đại khái thì khi solid, bạn sẽ đóng tảng thành 1 cục và nén, nó sẽ có hiệu quả nén tốt hơn, khi muốn lấy file phải bung cả cục. Kiểu có chuỗi file 1, 2, 3, 4, ... mà muốn lấy file 3 thì vẫn phải đi qua 1, 2.
-Chỉnh kích thước thì nó sẽ tách ra thành các khối có kích thước đó rồi nén, khi chạy tới file sẽ tiện hơn. No solid là rạch ròi từng file, nén từng cái 1 rồi đóng gói. Cái no solid này zip dùng, có hiệu quả read random access cao, nhưng compression thấp.
+  Nếu bạn muốn giải nén là bung cả cục, không thiếu gì thì chọn solid. Còn nếu bạn muốn có trường hợp đôi khi chỉ giải nén vài file nhất định, thì chỉnh dung lượng tùy nhu cầu (cái này mình cũng ko biết recommend size thế nào).
+  Đại khái thì khi solid, bạn sẽ đóng tảng thành 1 cục và nén, nó sẽ có hiệu quả nén tốt hơn, khi muốn lấy file phải bung cả cục. Kiểu có chuỗi file 1, 2, 3, 4, ... mà muốn lấy file 3 thì vẫn phải đi qua 1, 2.
+  Chỉnh kích thước thì nó sẽ tách ra thành các khối có kích thước đó rồi nén, khi chạy tới file sẽ tiện hơn. No solid là rạch ròi từng file, nén từng cái 1 rồi đóng gói. Cái no solid này zip dùng, có hiệu quả read random access cao, nhưng compression thấp.
 
 ---
 

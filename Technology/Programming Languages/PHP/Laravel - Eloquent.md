@@ -8,6 +8,7 @@ tags:
   - withdefault
   - performance-optimization
 ---
+
 # 1. LoadMissing
 
 **loadMissing()** là một phương thức trong Laravel Eloquent được sử dụng để eager load realtion chỉ khi relation đó chưa được load. Điều này đặc biệt hữu ích khi bạn đang làm việc với một model hoặc một tập hợp các model, và không chắc liệu các relation đã được eager load hay chưa. Nó sẽ giúp bạn tránh thực hiện gọi load() lên nhiều lần, gây lãng phí các truy vấn. Trong nhiều trường hợp, khi các mối quan hệ đã được eager load trước đó, sử dụng load() có thể dẫn đến các truy vấn không cần thiết. loadMissing() chỉ thực hiện truy vấn để load các relation chưa được truy vấn trước đó, giúp tối ưu hóa performance.
