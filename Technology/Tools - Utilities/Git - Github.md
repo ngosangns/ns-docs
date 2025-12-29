@@ -97,9 +97,13 @@ Mỗi developer làm việc trên **một bản sao (fork)** riêng của repo c
 
 - dolt: https://github.com/dolthub/dolt
 
-# 6. Commands
+# 6. GitHub Actions
 
-## 6.1. Git filter-repo
+- [github-local-actions](https://github.com/SanjulaGanepola/github-local-actions): Tool to run GitHub Actions workflows locally for testing and debugging. #GitHubActions #CI/CD
+
+# 7. Commands
+
+## 7.1. Git filter-repo
 
 `git filter-repo` là một công cụ mạnh mẽ được dùng để **thay thế `git filter-branch` và BFG Repo-Cleaner**, giúp **thao tác, chỉnh sửa lịch sử của Git repository một cách an toàn và hiệu quả hơn**.
 

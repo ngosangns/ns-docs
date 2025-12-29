@@ -62,3 +62,8 @@ tags:
   - WAF: Nginx + ModSecurity 3.x + OWASP CRS
 - **Tài liệu bổ trợ:**  
    API docs, OpenAPI spec, database schema, script cài đặt, hướng dẫn dev.
+
+## 1.2. Traefik
+
+- [traefik-tunnel-expose](https://github.com/zenkiet/traefik-tunnel-expose): Tool to expose local services through Traefik using tunnels. #Traefik #tunnel
+- [trafexia](https://github.com/danieldev23/trafexia): Traefik management and automation tool. #Traefik #automation

@@ -10,25 +10,34 @@ tags:
   - vietnamese
 ---
 
-- Tại sao em lại apply vào công ty này?
-  - Em xem trên website thấy ở công ty làm nhiều công nghệ và dự án nên em muốn học hỏi và thử sức.
-  - Em thấy môi trường của công ty có nhiều bạn trẻ năng động và vui vẻ.
-  - …
-- Kiến thức em học được đến mức nào?
-  - Em đã học và sử dụng được các thẻ HTML, HTML5 và các thuộc tính cơ bản trong CSS, CSS3, Javascript em có thể sử dụng http request để call API, sử dụng async - await, life cycle của một framework như React,…
-  - _Nên nói những gì mình biết cụ thể, mấy cái trên có thể tìm hiểu và thực hành để hiểu hơn vì nó rất cần thiết_
-  - …
-- Những project em đã từng làm em hỗ trợ phần nào, cụ thể những phần em làm như thế nào?
-  - Em đã từng cùng nhóm làm project X tại trường, em hỗ trợ phần Y, phần em làm thì bao gồm việc…
-- Em có định hướng gì cho tương lai? Mục tiêu của em như thế nào?
-  - Em có định hướng đào sâu về các công nghệ web và mong muốn thăng tiến trong công việc lập trình web,…
-- Em có sẵn sàng làm những công nghệ mới không?
-  - _Thể hiện cho công ty thấy mình có khả năng tìm tòi học hỏi_
-- Em có câu hỏi gì cho công ty?
-  - Mức lương thực tập
-  - Có được làm giấy xác nhận thực tập hay không?
-  - Review lương
-  - Thưởng tết
-  - …
-- Em còn đi học hay không?
-  - Em đang học kỳ cuối cùng của năm 5
+# Câu hỏi phỏng vấn
+
+## Câu hỏi thường gặp
+
+### Tại sao apply vào công ty này?
+- Xem website thấy nhiều công nghệ và dự án, muốn học hỏi
+- Môi trường có nhiều bạn trẻ năng động và vui vẻ
+
+### Kiến thức học được đến mức nào?
+- HTML, HTML5, CSS, CSS3
+- JavaScript: HTTP request, call API, async-await
+- Framework: Life cycle (React)
+- **Lưu ý**: Nên nói cụ thể, tìm hiểu và thực hành thêm
+
+### Những project đã làm, hỗ trợ phần nào?
+- Ví dụ: Project X tại trường, hỗ trợ phần Y, bao gồm việc...
+
+### Định hướng tương lai? Mục tiêu?
+- Đào sâu về công nghệ web, thăng tiến trong lập trình web
+
+### Sẵn sàng làm công nghệ mới?
+- Thể hiện khả năng tìm tòi học hỏi
+
+### Câu hỏi cho công ty?
+- Mức lương thực tập
+- Có được làm giấy xác nhận thực tập không?
+- Review lương
+- Thưởng tết
+
+### Còn đi học không?
+- Đang học kỳ cuối cùng của năm 5

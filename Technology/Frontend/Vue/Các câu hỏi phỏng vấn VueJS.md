@@ -11,10 +11,12 @@ tags:
   - keep-alive
 ---
 
-1. `KeepAlive` tag là gì?
+# Các câu hỏi phỏng vấn VueJS
 
-   `<KeepAlive>` is a built-in component that allows us to conditionally cache component instances when dynamically switching between multiple components (`KeepAlive` tag sử dụng để giữ trạng thái hiện có của component và tránh việc render lại component quá nhiều lần. Các đối tượng được đóng ở trong `KeepAlive` tag sẽ được giữ instances).
-
-   `KeepAlive` component đặc biệt hữu ích ở các component stepper. Một khi đã lưu các thông tin ở step này, back lại sẽ có ngay, không phải render.
-
-   Ngoài việc không phải render lại (về perfomance), sử dụng `KeepAlive` tag còn tránh việc sử dụng store vô tội vạ để lưu trữ khi back đi back lại.
+## KeepAlive Component
+- **Định nghĩa**: Built-in component cho phép cache component instances khi chuyển đổi giữa nhiều components
+- **Mục đích**: Giữ trạng thái component, tránh render lại nhiều lần
+- **Use case**: Đặc biệt hữu ích ở component stepper - lưu thông tin step, back lại không phải render
+- **Lợi ích**: 
+  - Không phải render lại (performance)
+  - Tránh sử dụng store vô tội vạ để lưu trữ khi back đi back lại

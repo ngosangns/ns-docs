@@ -13,10 +13,19 @@ tags:
   - vietnamese
 ---
 
-![[c5d6e7f8-091a-2b3c-4d5e-6f708192a3b4.png]]
+# Note câu hỏi phỏng vấn Laravel
 
-- Trong trang web ecommerce nếu một sản phẩm còn 1 cái mà 2 ông checkout cùng lúc thì sao?
-- Nếu sử dụng AWS S3 để load 1000 ảnh thì có cách nào để tối ưu hơn không?
-- Cần lưu ý những gì khi dựng Repository?
-- Nên làm gì nếu trong Repository cần gộp nhiều bảng?
-- Làm tính năng dark mode cho trang web, có một khách hàng bật 2 tab của trang web, làm sao để khi bật dark mode của tab bên này thì tab kia cũng phải thay đổi theo?
+## Câu hỏi
+
+### Ecommerce
+- **Race condition**: Sản phẩm còn 1 cái, 2 người checkout cùng lúc thì sao?
+
+### AWS S3
+- **Tối ưu**: Load 1000 ảnh từ AWS S3 có cách nào tối ưu hơn không?
+
+### Repository Pattern
+- **Lưu ý khi dựng Repository**: Những gì cần lưu ý?
+- **Gộp nhiều bảng**: Nên làm gì nếu trong Repository cần gộp nhiều bảng?
+
+### Dark Mode
+- **Đồng bộ giữa tabs**: Khách hàng bật 2 tab, làm sao khi bật dark mode tab này thì tab kia cũng thay đổi?

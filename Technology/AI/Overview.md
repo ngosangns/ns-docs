@@ -169,6 +169,7 @@ aliases:
 
 - ComfyUI - The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface: https://github.com/comfyanonymous/ComfyUI #ComfyUI
   - Xoay ảnh 3D từ ảnh tĩnh: https://www.facebook.com/watch/?ref=saved&v=1241934220105948
+- [dembrandt](https://github.com/dembrandt/dembrandt): AI-powered image generation and manipulation tool. #imageGeneration #AI
 
 ### 1.5.3. Memory management libraries / services
 

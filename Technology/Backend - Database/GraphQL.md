@@ -10,14 +10,16 @@ tags:
   - hasura
 ---
 
-# 1. Resources
+# GraphQL
 
-- Tools and services list: https://landscape.graphql.org
+## Resources
 
-# 2. Tools
+- [Tools and services list](https://landscape.graphql.org)
 
-- altar - Graphql client: https://github.com/altair-graphql/altair
+## Tools
 
-# 3. Frameworks
+- **Altair**: GraphQL client - [GitHub](https://github.com/altair-graphql/altair)
 
-- Hasura
+## Frameworks
+
+- **Hasura**: Tự động tạo GraphQL API từ database

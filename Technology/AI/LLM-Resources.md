@@ -112,6 +112,11 @@ aliases:
   - Hỗ trợ thực thi song song với nhiều agent, làm việc trong isolated workspaces (git worktrees), và có hệ thống QA tự động.
   - Cung cấp desktop app cho Windows, macOS, và Linux. #AutoClaude #agent #coding
 - [valtec-tts: Text-to-Speech tool](https://github.com/tronghieuit/valtec-tts) #TTS #text2speech
+- [LTEngine: Local AI Machine Translation](https://github.com/LibreTranslate/LTEngine)
+  - API dịch máy cục bộ mã nguồn mở, được viết bằng Rust, hoàn toàn tự lưu trữ và tương thích với LibreTranslate.
+  - Khả năng dịch được cung cấp bởi các mô hình ngôn ngữ lớn (LLMs) chạy cục bộ thông qua llama.cpp. #translation #LLM #local
+- [MiroThinker](https://github.com/MiroMindAI/MiroThinker): AI thinking and reasoning framework. #AI #reasoning
+- [valuecell](https://github.com/ValueCell-ai/valuecell): AI-powered value and data processing tool. #AI #dataProcessing
 
 ## 2.1. Data extractor
 

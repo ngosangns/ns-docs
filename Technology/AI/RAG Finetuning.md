@@ -57,4 +57,8 @@ Như vậy, RAG liên quan tới tính đúng sai (facts), còn Finetunine lại
 
 Tóm lại, AI Agents dùng Prompt Engineer, hoặc RAG hoặc Finetune, hoặc có thể cả RAG lẫn Finetune (RAFT). Tuy nhiên, ở thời điểm hiện tại thì RAG phổ biến nhất.
 
-Cuốn “AI Engineer” của Huyền Chip viết về chủ đề này hay và mang tính hệ thống cao cho anh em đang tìm hiểu xây dựng AI Agents.
+Cuốn "AI Engineer" của Huyền Chip viết về chủ đề này hay và mang tính hệ thống cao cho anh em đang tìm hiểu xây dựng AI Agents.
+
+# 4. Tools
+
+- [code-graph-rag](https://github.com/vitali87/code-graph-rag): RAG system that uses code graphs to improve retrieval and generation for code-related queries. #RAG #codeGraph

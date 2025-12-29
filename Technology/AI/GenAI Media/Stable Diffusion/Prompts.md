@@ -34,3 +34,7 @@ Prompt Template: You are conducting an interview for a [Role/Job Title] role. I 
 ## 2.4. Negative for best hand
 
 ng_deepnegative_v1_75t,(worst quality, low quality:2), monochrome, zombie,overexposure, watermark,text,bad anatomy,bad hand,extra hands,extra fingers,too many fingers,fused fingers,bad arm,distorted arm,extra arms,fused arms,extra legs,missing leg,disembodied leg,extra nipples, detached arm, liquid hand,inverted hand,disembodied limb, oversized head, extra body, extra navel, easynegative, duplicate, ugly, huge eyes, text, logo, worst face, (bad and mutated hands:1.3), (blurry:2.0), horror, geometry, bad_prompt, (bad hands), (missing fingers), multiple limbs, bad anatomy, (interlocked fingers:1.2), Ugly Fingers, (extra digit and hands and fingers and legs and arms:1.4), ((2girl)), (deformed fingers:1.2), (long fingers:1.2),(bad-artist-anime), bad-artist, bad hand, extra legs ,(ng_deepnegative_v1_75t), squint eyes, jeans, sitting,
+
+# 3. Tools
+
+- [VNCCS - Visual Novel Character Creation Suite](https://github.com/AHEKOT/ComfyUI_VNCCS): Comprehensive tool for creating character sprites for visual novels using ComfyUI. Allows creating unique characters with consistent appearance across all images. #ComfyUI #VNCCS #characterGeneration

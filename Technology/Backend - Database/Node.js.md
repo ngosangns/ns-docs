@@ -10,74 +10,45 @@ tags:
   - runtime
 ---
 
-# 1. Node.js Overview
+# Node.js
 
-Node.js is a powerful JavaScript runtime built on Chrome's V8 JavaScript engine. It is widely used for building scalable network applications due to its event-driven, non-blocking I/O model.
+## Frameworks
 
-## 1.1. Frameworks
+- **Express**: Minimal, flexible web framework
+- **Koa**: Smaller, more expressive, robust foundation (by Express team)
+- **Meteor**: Open-source platform for web/mobile/desktop
+- **Fastify**: High performance, low overhead, powerful plugin architecture
+- **Socket.io**: Real-time, bidirectional, event-based communication
+- **AdonisJS**: Full-featured framework inspired by Laravel
+- **FeathersJS**: Framework for real-time apps and REST APIs
+- **Hapi.js**: Rich framework for building applications and services
+- **Intent**: Laravel-like framework for Node.js - [GitHub](https://github.com/intentjs/intent)
 
-Node.js supports a variety of frameworks that simplify the development of web applications. Here are some popular ones:
+## ORMs (Object Relational Mapper)
 
-- **Express**: A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-- **Koa**: Developed by the team behind Express, Koa aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
-- **Meteor**: An open-source platform for web, mobile, and desktop used to build top-quality web apps in a fraction of the time.
-- **Fastify**: A web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.
-- **Socket.io**: Enables real-time, bidirectional, and event-based communication between the browser and the server.
-- **AdonisJS**: A fully-featured web framework inspired by Laravel, providing a rich set of tools and libraries.
-- **FeathersJS**: A framework for real-time applications and REST APIs with a flexible plugin architecture.
-- **Hapi.js**: A rich framework for building applications and services in Node.js.
+- Provides database interaction without raw SQL
+- Simplifies database operations, increases productivity
+- Makes application database-independent
 
-[honojs/hono: Web framework built on Web Standards](https://github.com/honojs/hono)
+### Popular ORMs
 
-## 1.2. ORMs (OBJECT RELATIONAL MAPPER)
+- **Prisma**: Type-safe database client, supports many databases, easy relation API
+- **Mongoose**: ORM/ODM for MongoDB & Node.js, create models & schemas, middleware support
+- **Sequelize**: ORM for Node.js & MySQL, supports all SQL-based databases, migrations, associations, hooks
+- **SQLAlchemy**: ORM for Python, supports MySQL/Postgres/SQLite/Oracle, rich API
 
-- Provides a way to work interact with data from within your code without writing raw SQL queries
-- Simplifies database interaction, increases productivity and readability
-- Allows the application to be independent of the database
+## Libraries
 
-| **PRISMA**     | \* Type-safe database client                 |
-| -------------- | -------------------------------------------- |
-|                | \* Supports many databases                   |
-|                | \* Easy relation API                         |
-| **MONGOOSE**   | \* ORM/ODM for MongoDB & Node.js             |
-|                | \* Create models & schemas                   |
-|                | \* Middleware support                        |
-| **SEQUELIZE**  | \* ORM for Node.js & MySQL                   |
-|                | \* Supports all SQL-based databases          |
-|                | \* Migrations, model associations, hooks     |
-| **SQLAlchemy** | \* ORM for Python                            |
-|                | \* Supports MySQL, Postgres, SQLite & Oracle |
-|                | \* Rich API for complex queries              |
+- **ioredis**: High-performance Redis client - [GitHub](https://github.com/redis/ioredis)
+- **dotenvx**: Manage environment variables - [GitHub](https://github.com/dotenvx/dotenvx)
+- **Telegraf**: Powerful Telegram bot library - [GitHub](https://github.com/telegraf/telegraf)
+- **Knex**: SQL query builder, flexible and portable - [GitHub](https://github.com/knex/knex)
+- **Prisma**: Next-generation ORM - [GitHub](https://github.com/prisma/prisma)
 
-### 1.2.1. Additional Frameworks
+## Runtime
 
-- **Intent**: A Laravel-like framework for Node.js, designed to provide a similar development experience: [Intent GitHub](https://github.com/intentjs/intent)
+- **LLRT (Low Latency Runtime)**: Experimental, lightweight JavaScript runtime for fast serverless applications - [GitHub](https://github.com/awslabs/llrt)
 
-## 1.3. Libraries
+## Tools
 
-- **Redis Client**: A high-performance Redis client for Node.js: [ioredis GitHub](https://github.com/redis/ioredis)
-- **Environment Variables**: Manage environment variables with ease: [dotenvx GitHub](https://github.com/dotenvx/dotenvx)
-- **Telegraf**: A powerful library for building Telegram bots: [Telegraf GitHub](https://github.com/telegraf/telegraf)
-
-### 1.3.1. Validators
-
-- https://github.com/colinhacks/zod
-- https://github.com/hapijs/joi
-- https://github.com/fabian-hiller/valibot
-- https://github.com/samchon/typia
-- https://github.com/validatorjs/validator.js
-
-### 1.3.2. Database and ORM
-
-- **Knex**: A SQL query builder for Node.js, designed to be flexible and portable: [Knex GitHub](https://github.com/knex/knex)
-- **Prisma**: A next-generation ORM that makes working with databases easy: [Prisma GitHub](https://github.com/prisma/prisma)
-
-## 1.4. Runtime
-
-Node.js can be extended with different runtimes to optimize performance for specific use cases:
-
-- **LLRT (Low Latency Runtime)**: An experimental, lightweight JavaScript runtime designed to address the growing demand for fast and efficient serverless applications: [LLRT GitHub](https://github.com/awslabs/llrt)
-
-## 1.5. Tools
-
-- **Request Body Validator**: A tool for validating request bodies in Node.js applications: [Vine GitHub](https://github.com/vinejs/vine)
+- **Vine**: Request body validator - [GitHub](https://github.com/vinejs/vine)

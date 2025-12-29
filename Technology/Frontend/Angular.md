@@ -21,30 +21,32 @@ tags:
   - lang/vi
 ---
 
-# 1. Resources
+# Angular
 
-- Tìm hiểu về Change detection trong Angular: https://viblo.asia/p/tim-hieu-ve-change-detection-trong-angular-djeZ18EjKWz
-- Understand Angular detection: https://danielwiehl.github.io/edu-angular-change-detection
-- Dynamic Module: https://viblo.asia/p/dynamic-module-3-khai-niem-can-nho-trong-nestjs-register-forroot-forfeature-PAoJen21L1j
+## Resources
 
-# 2. Libraries
+- Change detection trong Angular
+- Understand Angular detection
+- Dynamic Module (NestJS concepts)
 
-- rx-angular - Reactive Extensions for Angular: https://github.com/rx-angular/rx-angular
-- Web APIs for Angular: https://taiga-family.github.io/ng-web-apis/home
-- i18n: https://github.com/Romanchuk/angular-i18next
-- Awesome Angular: [PatrickJS/awesome-angular: :page_facing_up: A curated list of awesome Angular resources](https://github.com/PatrickJS/awesome-angular)
+## Libraries
 
-# 3. State management
+- **rx-angular**: Reactive Extensions for Angular
+- **Web APIs for Angular**: ng-web-apis
+- **i18n**: angular-i18next
+- **Awesome Angular**: Curated list of Angular resources
 
-- Signals
-- RxJS
-- ngrx - Redux style: https://github.com/ngrx/platform
-- rx-angular: https://github.com/rx-angular/rx-angular
+## State Management
 
-# 4. Tools
+- **Signals**
+- **RxJS**
+- **ngrx**: Redux style
+- **rx-angular**
 
-- Hot Module Replacement (HMR): `npm install @angularclass/hmr - save-dev`
+## Tools
 
-# 5. Design components
+- **HMR**: Hot Module Replacement (`@angularclass/hmr`)
 
-- https://github.com/SAP/fundamental-ngx
+## Design Components
+
+- **fundamental-ngx**: SAP design components
