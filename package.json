@@ -4,7 +4,23 @@
   "description": "Obsidian notes workspace",
   "scripts": {
     "format:md": "node format-md.js",
-    "format:md:check": "node format-md.js --check"
+    "format:md:check": "node format-md.js --check",
+    "links:check": "node scripts/check-links.js",
+    "links:broken": "node scripts/check-links.js --broken",
+    "tags:stats": "node scripts/tags-stats.js",
+    "tags:list": "node scripts/tags-stats.js --list",
+    "frontmatter:validate": "node scripts/validate-frontmatter.js",
+    "frontmatter:missing": "node scripts/validate-frontmatter.js --missing",
+    "index:generate": "node scripts/generate-index.js",
+    "notes:orphaned": "node scripts/find-orphaned.js",
+    "attachments:unused": "node scripts/find-unused-attachments.js",
+    "attachments:clean": "node scripts/find-unused-attachments.js --clean",
+    "stats": "node scripts/stats.js",
+    "duplicates:find": "node scripts/find-duplicates.js",
+    "images:check": "node scripts/check-images.js",
+    "images:broken": "node scripts/check-images.js --broken",
+    "export": "node scripts/export.js",
+    "backup": "node scripts/backup.js"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
