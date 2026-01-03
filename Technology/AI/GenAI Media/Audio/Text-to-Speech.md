@@ -1,0 +1,44 @@
+---
+tags:
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
+---
+
+# Text-to-Speech
+
+- Chuyển văn bản thành giọng nói:
+  - [https://vmixvoice.net](https://vmixvoice.net/) #text2speech
+  - [https://bevoice.net](https://bevoice.net/) #text2speech
+  - [https://elevenlabs.io](https://elevenlabs.io/) #text2speech
+  - https://github.com/resemble-ai/chatterbox
+  - MegaTTS3 - Mô hình Text-to-Speech tiên tiến do ByteDance phát triển, tạo ra giọng nói tự nhiên và biểu cảm - https://github.com/bytedance/MegaTTS3 #text2speech #TTS #ByteDance
+  - **StyleTTS2-lite-vi**: Mô hình Text-to-Speech cho tiếng Việt, được phát triển dựa trên StyleTTS2
+    - Tinh chỉnh từ trọng số của StyleTTS2 LibriTTS, mở rộng bộ ký hiệu lên 189 ký tự để tương thích hoàn toàn với IPA tiếng Việt
+    - Dữ liệu huấn luyện: FonosVietnam và VoizFM, được trích xuất từ tập dữ liệu viVoice
+    - Huấn luyện trong 120.000 bước
+    - Kiến trúc bao gồm: Decoder, Predictor, Style Encoder và Text Encoder
+    - Nguồn: https://huggingface.co/dangtr0408/StyleTTS2-lite-vi #text2speech #TTS #Vietnamese
+  - **Viterbox**: Mô hình TTS tiếng Việt fine-tune từ Chatterbox Multilingual (23 ngôn ngữ) trên 3000 giờ audio tiếng Việt
+    - Base model: Chatterbox Multilingual (Resemble AI), kiến trúc LLama 0.5B
+    - Dataset: ViVoice, PhoAudiobook, Dolly Voice
+    - Tính năng: Zero-shot voice cloning (3-10s), phát âm tự nhiên với đầy đủ dấu thanh, tự động chuẩn hoá văn bản, chất lượng 24kHz
+    - Demo: https://huggingface.co/spaces/nguyenhuy/viterbox-tts
+    - GitHub: https://github.com/iamdinhthuan/viterbox-tts
+    - HuggingFace: https://huggingface.co/dolly-vn/viterbox
+    - Chi tiết: [[Viterbox]] #text2speech #TTS #Vietnamese
+  - **ebook2audiobook**: Công cụ chuyển đổi sách điện tử thành sách nói với voice cloning và hỗ trợ 1158+ ngôn ngữ
+    - Hỗ trợ nhiều định dạng sách: .epub, .pdf, .mobi, .txt, .html, .rtf, .chm, .lit, .pdb, .fb2, .odt, .cbr, .cbz, .prc, .lrf, .pml, .snb, .cbc, .rb, .tcr
+    - Định dạng đầu ra: .m4b, .m4a, .mp4, .webm, .mov, .mp3, .flac, .wav, .ogg, .aac
+    - Tính năng voice cloning với XTTSv2
+    - Hỗ trợ tự động phát hiện chapter từ .epub và .mobi
+    - Có giao diện Gradio/GUI và chế độ headless
+    - Hỗ trợ Docker với nhiều backend: CPU, CUDA, ROCm, XPU, Jetson
+    - Nguồn: https://github.com/DrewThomasson/ebook2audiobook #text2speech #audiobook #voice-cloning #TTS #ebook
+  - **GPT-SoVITS**: Dự án kết hợp GPT và SoVITS để tạo ra các mô hình chuyển đổi giọng nói dựa trên AI. Hỗ trợ tổng hợp giọng nói (text-to-speech) và chuyển đổi giọng nói (voice conversion) - [GitHub](https://github.com/RVC-Boss/GPT-SoVITS) #TTS #voice #synthesis #GPT #SoVITS
+- Chuyển chữ thành nhạc:
+  - https://github.com/facebookresearch/audiocraft #text2music
+  - https://github.com/GrandaddyShmax/audiocraft_plus #text2music
+  - [https://suno.com](https://suno.com/) #text2music
+
