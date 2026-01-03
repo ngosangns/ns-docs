@@ -238,6 +238,37 @@ tags:
 - Recursive query: https://github.com/staudenmeir/laravel-adjacency-list
 - Tăng tốc paginate với SQL deferred: https://github.com/hammerstonedev/fast-paginate
 
+### Database Locking và Concurrency
+
+- **Khái niệm**: Database locking là cơ chế đảm bảo tính toàn vẹn dữ liệu khi nhiều giao dịch xảy ra đồng thời, ngăn chặn race conditions
+- **`lockForUpdate()` trong Laravel**:
+  - Tạo khóa cấp hàng (row-level lock) trong database
+  - Các giao dịch khác phải chờ để truy cập các hàng bị khóa cho đến khi giao dịch hiện tại hoàn thành
+  - Chỉ hoạt động hiệu quả trong transaction
+  - Tự động giải phóng khi transaction commit hoặc rollback
+- **Lưu ý quan trọng**:
+  - Luôn sử dụng `lockForUpdate()` bên trong transaction, nếu không lock sẽ không có tác dụng
+  - Tránh giữ transaction quá lâu, đặc biệt không thực hiện HTTP calls hoặc các tác vụ dài trong transaction
+  - Giữ transaction nhỏ và tập trung vào mục đích cụ thể
+- **Xử lý Deadlock**:
+  - Deadlock xảy ra khi nhiều transaction chờ đợi lẫn nhau để giải phóng lock
+  - Implement retry logic với exponential backoff khi gặp deadlock
+  - Luôn khóa các record theo thứ tự nhất quán (ví dụ: theo ID tăng dần) để tránh deadlock
+  - Sử dụng timeout phù hợp cho database connections
+- **Best Practices**:
+  - Chia nhỏ transaction thành nhiều transaction nhỏ thay vì một transaction lớn
+  - Lock records theo thứ tự nhất quán (ví dụ: sort by ID trước khi lock)
+  - Monitor lock wait times để phát hiện vấn đề hiệu suất
+  - Sử dụng indexes đúng cách, luôn lock qua các cột đã được index
+  - Implement deadlock-aware transaction manager với retry logic và logging
+- **Performance Considerations**:
+  - Lock chỉ những record thực sự cần thiết
+  - Tránh lock quá nhiều records cùng lúc
+  - Sử dụng indexes để tăng tốc độ truy vấn khi lock
+  - Thiết lập timeout phù hợp cho database connections
+
+> https://dev.to/bhaidar/understanding-database-locking-and-concurrency-in-laravel-a-deep-dive-2k4m
+
 ## 7.14 Generate mocks
 
 - https://github.com/sebastianbergmann/phpunit
@@ -316,6 +347,7 @@ $request->enum('status', Status::class);
 # 10 CMS
 
 - Forum: https://github.com/devaslanphp/forumium
+- **Krayin**: Hệ thống quản lý quan hệ khách hàng (CRM) mã nguồn mở, được xây dựng trên Laravel, hỗ trợ quản lý khách hàng, giao dịch và các hoạt động liên quan - [GitHub](https://github.com/krayin/laravel-crm) #CRM #Laravel
 - Admin panel
   - MoonShine: https://github.com/moonshine-software/moonshine
   - Premium admin panel: https://nova.laravel.com

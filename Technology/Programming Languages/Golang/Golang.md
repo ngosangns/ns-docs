@@ -52,6 +52,15 @@ tags:
      - I/O bất đồng bộ (Asynchronous I/O): Khi goroutine thực hiện thao tác I/O bloat, nó sẽ không làm bloat OS thread. Goroutine đó sẽ được đưa vào trạng thái chờ, và OS thread có thể chạy goroutine khác.
    - Coroutines for Go (Nghiên cứu của Russ Cox): https://research.swtch.com/coro (Bài viết nghiên cứu về khả năng triển khai coroutines trong Go)
 2. Concurrency (Lập trình đồng thời)
+   - **Giới thiệu**: Concurrency cho phép thực hiện nhiều tác vụ đồng thời, cải thiện hiệu suất chương trình
+   - **CPU và OS Thread**: CPU thực thi các lệnh thông qua OS thread, đơn vị nhỏ nhất được hệ điều hành quản lý
+   - **Concurrency vs. Parallelism**:
+     - Concurrency: Thực hiện nhiều tác vụ đồng thời trên cùng một tài nguyên (một core CPU)
+     - Parallelism: Thực hiện nhiều tác vụ song song trên nhiều tài nguyên (nhiều core CPU)
+   - **OS Thread và Scheduling**: Hệ điều hành quản lý nhiều thread thông qua bộ lập lịch (scheduler), quyết định thread nào được chạy và phân bổ thời gian cho từng thread
+   - **Goroutine và Scheduler của Golang**: Golang sử dụng goroutine, là các luồng nhẹ do runtime quản lý, giúp tạo và quản lý concurrency hiệu quả
+   - **Channel trong Golang**: Kênh (channel) là phương tiện giao tiếp giữa các goroutine, cho phép truyền dữ liệu an toàn và đồng bộ
+   - **Mutex và WaitGroup**: Mutex được sử dụng để tránh điều kiện race khi nhiều goroutine truy cập cùng một tài nguyên. WaitGroup giúp đồng bộ hóa các goroutine, chờ tất cả hoàn thành trước khi tiếp tục
    - Xử lý Race Condition:
      - Thiết kế để tránh chia sẻ dữ liệu: Ưu tiên thiết kế để mỗi goroutine làm việc với dữ liệu riêng. Chia sẻ bằng cách giao tiếp (qua channels) thay vì chia sẻ bộ nhớ.
      - Sử dụng `sync.Mutex` hoặc `sync.RWMutex`:
@@ -75,6 +84,87 @@ tags:
      - Pacing algorithm: Tự động điều chỉnh tần suất chạy.
    - Cách sử dụng `SetMemoryLimit`: https://www.sobyte.net/post/2022-06/how-to-use-set-memorylimit (Giải thích về `GOMEMLIMIT` và `debug.SetMemoryLimit` để giới hạn bộ nhớ, tránh lỗi out-of-memory)
    - Phong vấn Golang: Garbage Collection là gì?: https://viblo.asia/p/phong-van-golang-garbage-collection-la-gi-2oKLnmWyJQO (Giải thích cơ chế GC, các giai đoạn mark-setup, marking, mark-termination, sweeping, write barrier)
+
+### Chi tiết về Go Garbage Collector
+
+#### Tổng quan
+
+- Go tự động quản lý bộ nhớ cho các giá trị Go, lập trình viên không cần quan tâm đến việc cấp phát và giải phóng bộ nhớ thủ công
+- GC là hệ thống tự động thu hồi bộ nhớ bằng cách xác định các phần bộ nhớ không còn được sử dụng
+- GC trong Go là một implementation cụ thể của standard toolchain (gc compiler), không được đảm bảo bởi Go specification
+
+#### Nơi lưu trữ giá trị Go
+
+- **Stack allocation**: Các giá trị không có con trỏ trong biến local thường được cấp phát trên stack, không cần GC quản lý. Hiệu quả hơn vì compiler có thể xác định trước thời điểm giải phóng
+- **Heap allocation (Escape to heap)**: Các giá trị có thời gian sống không thể xác định bởi compiler sẽ "escape" lên heap. GC quản lý các giá trị này
+- Escape analysis: Quyết định giá trị nào escape dựa trên ngữ cảnh sử dụng và thuật toán escape analysis của compiler
+
+#### Tracing Garbage Collection
+
+- **Object**: Một đoạn bộ nhớ được cấp phát động chứa một hoặc nhiều giá trị Go
+- **Pointer**: Địa chỉ bộ nhớ tham chiếu đến giá trị trong object. Bao gồm con trỏ `*T`, và các phần của built-in types như strings, slices, channels, maps, interface values
+- **Object graph**: Đồ thị được tạo bởi objects và pointers giữa chúng
+- **Roots**: Các con trỏ xác định objects chắc chắn đang được sử dụng (ví dụ: local variables, global variables)
+- **Scanning**: Quá trình duyệt object graph từ roots để xác định memory đang được sử dụng
+- **Reachable**: Object có thể được phát hiện bởi quá trình scanning
+- **Mark-sweep technique**:
+  - Mark phase: Đánh dấu các giá trị gặp phải là live
+  - Sweep phase: Sau khi tracing hoàn tất, GC duyệt toàn bộ heap và giải phóng memory không được đánh dấu
+- **Non-moving GC**: Go không di chuyển objects trong quá trình GC, khác với moving GC
+
+#### GC Cycle
+
+- GC hoạt động theo chu kỳ với 3 pha: **sweeping**, **off**, và **marking**
+- **Mark phase**:
+  - Xác định tất cả memory đang được sử dụng
+  - Phải hoàn tất trước khi có thể giải phóng memory
+- **Sweep phase**:
+  - Giải phóng memory không còn được sử dụng
+  - Tách biệt hoàn toàn với mark phase
+- **Off phase**: GC không hoạt động khi không có công việc liên quan
+
+#### GOGC và Pacing
+
+- **GOGC**: Environment variable điều khiển overhead của GC (mặc định 100)
+- **Heap target**: Mục tiêu tổng kích thước heap
+  - Công thức: `Target heap = Live heap + (Live heap + GC roots) × GOGC / 100`
+  - New heap memory = `(Live heap + GC roots) × GOGC / 100`
+- **Trade-off**:
+  - Tăng GOGC: Tăng memory overhead, giảm GC CPU cost
+  - Giảm GOGC: Giảm memory overhead, tăng GC CPU cost
+- **Pacing algorithm**: Tự động điều chỉnh tần suất GC dựa trên allocation rate và heap target
+
+#### Tối ưu hóa GC
+
+- **Giảm heap allocations**:
+  - Sử dụng stack allocation khi có thể
+  - Tái sử dụng memory với sync.Pool
+  - Tránh escape không cần thiết
+- **Cấu trúc dữ liệu tối ưu**:
+  - Loại bỏ pointers không cần thiết: Pointer-free values được tách biệt, giảm cache pressure
+  - Nhóm pointer fields ở đầu struct: GC dừng scanning tại con trỏ cuối cùng trong value
+  - Sử dụng indices thay vì pointers khi có thể
+- **Giảm allocation rate**: Giảm tốc độ cấp phát bộ nhớ sẽ giảm tần suất GC
+
+#### Linux Transparent Huge Pages (THP)
+
+- **Transparent Huge Pages**: Tính năng Linux thay thế các pages nhỏ bằng huge pages lớn hơn để cải thiện hiệu suất
+- **Lợi ích**:
+  - Ứng dụng với heap lớn (≥1 GiB): Cải thiện throughput lên đến 10%, overhead memory 1-2%
+  - Ứng dụng với heap nhỏ: Có thể tăng memory usage lên đến 50% mà không có lợi ích đáng kể
+- **Cấu hình khuyến nghị**:
+  - `/sys/kernel/mm/transparent_hugepage/defrag`: Đặt `defer` hoặc `defer+madvise` để tránh stalls
+  - `/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none`: Đặt `0` để tránh kernel undo công việc của Go runtime
+  - Go 1.21+ không còn mutate huge page state, cần cấu hình thủ công
+  - Có thể disable tại process level với `PR_SET_THP_DISABLE` hoặc `GODEBUG=disablethp=1` (Go 1.21.6+)
+
+#### Công cụ phân tích
+
+- **runtime/metrics**: Package cung cấp metrics về GC performance
+- **runtime/trace**: Package để trace và phân tích GC behavior
+- **go tool pprof**: Profiling tool để phân tích memory usage và GC costs
+- **Compiler escape analysis**: Sử dụng `go build -gcflags=-m` để xem escape analysis
+
 4. Pointers (Con trỏ)
    - Pointer là gì và ưu nhược điểm của nó: https://viblo.asia/p/phong-van-golang-pointer-la-gi-va-uu-nhuoc-diem-cua-no-yZjJY3qMVOE
      - Lưu trữ địa chỉ bộ nhớ của biến khác.
@@ -174,6 +264,37 @@ tags:
      - Three Dots Labs blog: https://threedots.tech
    - Uber Go Style Guide: https://github.com/uber-go/guide (Hướng dẫn phong cách từ Uber)
    - Foody Common: https://github.com/dhyaniarun1993/foody-common (Thư viện chung cho microservices)
+   - Enterprise Go Architecture: https://ldej.nl/post/enterprise-go-architecture/ (Kiến trúc enterprise với nhiều microservices)
+     - **Cấu trúc thư mục:**
+       - Root: `<bounded-context>`, `build-scripts`, `config`, `database` (migrations), `docs` (swagger), `infrastructure` (docker), `main.go`, `Makefile`
+       - Bounded Context (DDD): `clients`, `constants`, `controller`, `db`, `error`, `mocks`, `models` (request/response), `repository`, `router`, `service`, `utils`
+     - **Layered Architecture:**
+       - Router: Tạo DB instance, gin router với middlewares (logging, cors, tracing, csrf, caching, oauth), inject dependencies, register routes
+       - Controller: HTTP endpoints, translate JSON ↔ request/response objects, gọi service
+       - Service: Business logic, kiểm tra constraints, có thể có nhiều dependencies (mail service, microservice khác), interface và implementation cùng file
+       - Repository: Interface + implementation, lưu/đọc models từ DB, chỉ domain models vào/ra
+     - **Configuration:**
+       - Sử dụng `github.com/spf13/viper`
+       - `app_config.json`: URLs, timeouts, feature toggles, environment configs
+       - `.envrc`: Usernames, passwords, keys
+       - `schema.json`: JSON schema validation cho config
+     - **Testing & Mocking:**
+       - Mocks: `github.com/golang/mock` cho service/repository
+       - SQL mocking: `github.com/DATA-DOG/go-sqlmock`
+       - BDD: `github.com/onsi/ginkgo`
+     - **Database Migrations:**
+       - Liquibase: Tạo và apply migrations, track migrations đã apply
+     - **Web Framework:**
+       - `github.com/gin-gonic/gin`: Router, JSON binding, path/query params
+       - Lưu ý: `*gin.Context` được truyền qua các layer, có thể dẫn đến tight coupling
+     - **Libraries:**
+       - Kafka: `github.com/Shopify/sarama`
+       - Logging: `github.com/sirupsen/logrus`
+       - Tracing: `go.opencensus.io/trace`
+     - **Swagger:**
+       - `github.com/swaggo/swag`: Document endpoints với annotations
+     - **External Services:**
+       - ESB (Enterprise Service Bus): Edge node cho external communication, services chỉ giao tiếp trong hệ thống
 2. Giao tiếp (Communication)
    - gRPC: https://grpc.io (Framework RPC hiệu năng cao)
      - gRPC-Gateway: https://github.com/grpc-ecosystem/grpc-gateway (Reverse-proxy RESTful JSON sang gRPC)
@@ -202,6 +323,35 @@ tags:
   - https://github.com/sensorario/go-design-patterns
 - Concurrency:
   - https://github.com/lotusirous/go-concurrency-patterns
+- 23 Classic Design Patterns với Golang (200Lab):
+  - Nguồn: https://200lab.io/blog/series-23-classic-design-pattern
+  - Design Pattern là giải pháp tái sử dụng cho các vấn đề thường gặp trong thiết kế phần mềm
+  - Mặc dù được thiết kế cho ngôn ngữ hướng đối tượng, có thể áp dụng cho hầu hết các ngôn ngữ lập trình
+  - Danh sách 23 Classic Design Patterns:
+    1. **Strategy Pattern**: Cho phép chọn thuật toán tại runtime
+    2. **Factory Method Pattern**: Tạo đối tượng mà không chỉ định class cụ thể
+    3. **Abstract Factory Pattern**: Tạo các họ đối tượng liên quan
+    4. **Flyweight Pattern**: Tối ưu bộ nhớ bằng cách chia sẻ dữ liệu chung
+    5. **Composite Pattern**: Tổ chức đối tượng thành cấu trúc cây
+    6. **Decorator Pattern**: Thêm hành vi động cho đối tượng
+    7. **Chain of Responsibility Pattern**: Xử lý request qua chuỗi handlers
+    8. **Singleton Pattern**: Đảm bảo chỉ có một instance duy nhất
+    9. **Facade Pattern**: Cung cấp interface đơn giản cho hệ thống phức tạp
+    10. **Prototype Pattern**: Tạo đối tượng mới bằng cách clone
+    11. **Builder Pattern**: Xây dựng đối tượng phức tạp từng bước
+    12. **Iterator Pattern**: Duyệt qua collection mà không expose cấu trúc
+    13. **Option Function Pattern**: Cấu hình đối tượng với các options (idiomatic Go)
+    14. **Bridge Pattern**: Tách abstraction khỏi implementation
+    15. **Adapter Pattern**: Cho phép interface không tương thích hoạt động cùng nhau
+    16. **Memento Pattern**: Lưu và khôi phục trạng thái đối tượng
+    17. **Command Pattern**: Đóng gói request như một đối tượng
+    18. **State Pattern**: Thay đổi hành vi khi trạng thái thay đổi
+    19. **Observer Pattern**: Thông báo thay đổi cho nhiều observers
+    20. **Proxy Pattern**: Cung cấp placeholder hoặc đại diện cho đối tượng
+    21. **Template Method Pattern**: Định nghĩa skeleton của thuật toán
+    22. **Visitor Pattern**: Thêm operations mới mà không thay đổi classes
+    23. **Interpreter Pattern**: Định nghĩa ngữ pháp và interpreter
+    24. **Mediator Pattern**: Giảm coupling giữa các components
 
 ## 2.6. Authentication và Authorization (Xác thực và Ủy quyền)
 
@@ -281,6 +431,7 @@ tags:
 ## 3.15. Crawling
 
 - Colly: https://github.com/gocolly/colly (Framework scraping và crawling)
+- **Goose**: Thư viện Go để trích xuất nội dung từ các trang web, thường được sử dụng trong việc thu thập dữ liệu web - [GitHub](https://github.com/block/goose) #crawling #scraping
 
 ## 3.16. Kiểm tra lỗ hổng
 
@@ -341,3 +492,83 @@ tags:
 
 - Bộ câu hỏi phỏng vấn Golang: https://viblo.asia/p/100-cau-hoi-phong-van-back-end-golang-database-microservice-EvbLbw5bVnk (100 câu hỏi Backend Golang, Database, Microservice)
 - Golang: Only things I know for the interview: https://medium.com/@ShivamSouravJha/golang-only-things-i-know-for-the-interview-4322d29d67a3 (Tóm tắt kiến thức Go cho phỏng vấn)
+
+# 5. High Performance Go Workshop
+
+**High Performance Go Workshop** (https://dave.cheney.net/high-performance-go-workshop/sydney-2019.html) - Workshop của Dave Cheney về tối ưu hiệu suất Go.
+
+- **Mục tiêu:** Cung cấp các công cụ cần thiết để chẩn đoán và sửa các vấn đề hiệu suất trong ứng dụng Go
+
+- **Nội dung chính:**
+  - **1. The past, present, and future of Microprocessor performance**
+    - Mechanical Sympathy: Hiểu cách hardware hoạt động
+    - Six orders of magnitude: Hiểu về các cấp độ hiệu suất
+    - Clock speeds, Heat, Dennard scaling
+    - Amdahl's law, Dynamic Optimisations
+    - Modern CPUs optimized for bulk operations
+    - Memory latency vs capacity, Cache importance
+    - "The free lunch is over": Không còn tự động tăng tốc từ hardware
+
+  - **2. Benchmarking**
+    - Benchmarking ground rules
+    - Sử dụng testing package cho benchmarking
+    - So sánh benchmarks với benchstat
+    - Tránh benchmarking start up costs
+    - Benchmarking allocations
+    - Cẩn thận với compiler optimisations
+    - Benchmark mistakes
+    - Profiling benchmarks
+
+  - **3. Performance measurement and profiling**
+    - pprof: Công cụ profiling chính
+    - Types of profiles
+    - Collecting và analyzing profiles
+
+  - **4. Compiler optimisations**
+    - History of Go compiler
+    - Escape analysis: Quyết định giá trị nào escape lên heap
+    - Inlining: Tối ưu bằng cách inline functions
+    - Dead code elimination
+    - Prove pass: Chứng minh các điều kiện để tối ưu
+    - Compiler intrinsics
+    - Bounds check elimination
+
+  - **5. Execution Tracer**
+    - Execution tracer vs Profiling
+    - Generating profiles với runtime/pprof
+    - Using more than one CPU
+    - Batching up work
+    - Using workers
+    - Using buffered channels
+    - Mandelbrot microservice example
+
+  - **6. Memory and Garbage Collector**
+    - Garbage collector world view
+    - GC design
+    - Minimise allocations
+    - Using sync.Pool để tái sử dụng memory
+
+  - **7. Tips and tricks**
+    - Goroutines: Best practices
+    - Efficient network polling
+    - Watch out for IO multipliers
+    - Use streaming IO interfaces
+    - Timeouts, timeouts, timeouts
+    - Defer cost analysis
+    - Make the fast path inlinable
+    - Avoid Finalisers
+    - Minimise cgo
+    - Always use the latest released version of Go
+
+- **Prerequisites:**
+  - Go 1.13+ (workshop repository: https://github.com/davecheney/high-performance-go-workshop)
+  - Graphviz (cho pprof visualization)
+  - Google Chrome (cho execution tracer)
+  - Code của bạn để profile và optimize
+
+- **Key takeaways:**
+  - Hiểu cách hardware và Go runtime hoạt động
+  - Biết cách đo lường và profile code
+  - Tối ưu compiler optimisations
+  - Quản lý memory và GC hiệu quả
+  - Best practices cho concurrency và performance

@@ -356,6 +356,7 @@ Các mẫu thiết kế là các giải pháp đã được kiểm chứng cho c
 - Nghệ thuật xử lý background job: Chia sẻ kinh nghiệm và các kỹ thuật trong việc thiết kế và xử lý các tác vụ nền (background jobs) một cách hiệu quả, đảm bảo độ tin cậy và khả năng mở rộng. Bao gồm việc lựa chọn message queue, xử lý lỗi, retry mechanism.
   - Nguồn: https://viblo.asia/s/nghe-thuat-xu-ly-background-job-0gdJzvqnJz5 (Link này được dùng cho nhiều mục, giả định là bài tổng quan)
   - Nguồn khác (có thể liên quan đến View/Email): https://viblo.asia/p/nghe-thuat-xu-ly-background-job-07LKXjqJlV4
+- [[Usecase - Task Scheduler System Design]]: Tóm tắt bài viết về thiết kế hệ thống Task Scheduler từ một buổi phỏng vấn với Meta Staff Engineer, bao gồm thảo luận yêu cầu, khả năng mở rộng, khả năng chịu lỗi, và các best practices. Nguồn: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
 
 ### 3.3.2. Xử lý Log (Logging)
 
@@ -649,6 +650,22 @@ Mình từng gặp tình huống thực tế: service A gọi đến service B. 
 - SAGA: Distributed transaction - SAGA pattern - Transaction isolation (viblo.asia) - https://viblo.asia/p/distributed-transaction-saga-pattern-transaction-isolation-gGJ590MalX2
 - Top 10 Microservices Design Patterns and Principles - Examples (javarevisited.blogspot.com): https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html#axzz7pw6wS3gQ
 
+## 5.0. Circuit Breaker Pattern
+
+- **Tổng quan**: Mẫu thiết kế giúp hệ thống phân tán tăng cường khả năng chịu lỗi và phục hồi nhanh chóng khi gặp sự cố, bằng cách ngăn chặn các yêu cầu đến dịch vụ bị lỗi và cho phép thử lại sau một khoảng thời gian nhất định
+- **Cơ chế hoạt động**:
+  - **Trạng thái Closed**: Hệ thống hoạt động bình thường, các yêu cầu được chuyển tiếp đến dịch vụ
+  - **Trạng thái Open**: Khi số lượng lỗi vượt ngưỡng cho phép, Circuit Breaker chuyển sang trạng thái "Open", chặn các yêu cầu tiếp theo đến dịch vụ để tránh làm tăng thêm áp lực và cho phép dịch vụ có thời gian phục hồi
+  - **Trạng thái Half-Open**: Sau một khoảng thời gian nhất định, Circuit Breaker chuyển sang trạng thái "Half-Open" để kiểm tra xem dịch vụ đã phục hồi chưa bằng cách cho phép một số yêu cầu thử nghiệm đi qua
+  - **Chuyển đổi trạng thái**: Nếu dịch vụ hoạt động bình thường trong trạng thái Half-Open, Circuit Breaker chuyển về trạng thái "Closed". Nếu vẫn còn lỗi, quay lại trạng thái "Open"
+- **Lợi ích**:
+  - Ngăn chặn lỗi lan rộng trong hệ thống bằng cách cách ly dịch vụ bị lỗi
+  - Cải thiện khả năng phục hồi và độ tin cậy của hệ thống
+  - Giảm tải cho dịch vụ đang gặp sự cố, cho phép nó có thời gian phục hồi
+  - Tránh tình trạng "thundering herd" khi nhiều yêu cầu cùng lúc cố gắng truy cập dịch vụ đang gặp sự cố
+- **Ứng dụng trong Java**: Sử dụng thư viện như Resilience4j để triển khai Circuit Breaker, giúp quản lý và giám sát trạng thái của các dịch vụ, cải thiện độ tin cậy của hệ thống
+- Nguồn: https://viblo.asia/p/cung-tim-hieu-ve-circuitbreaker-trong-java-zXRJ8PKMJGq
+
 ## 5.1. Distributed transaction
 
 - So sánh các mẫu Distributed Transaction trong microservices (grokking.org): http://newsletter.grokking.org/issues/191-so-sanh-cac-m-u-distributed-transaction-trong-microservices-783202
@@ -685,6 +702,8 @@ Trong các hệ thống phân tán (hay distributed system dưới dạng micros
 - **Mở rộng dễ dàng**: **Outbox Pattern** giúp dễ dàng mở rộng hệ thống với các microservices khác mà không làm gián đoạn hệ thống cốt lõi. Mình chỉ cần sửa một chút tiến trình quét bảng outbox để nó bắn thêm sang service khác khi cần tích hợp thêm service mới, sẽ đơn giản hơn và hạn chế tác động vào source code cũ.
 
 _Author: Huy Nguyen_
+
+- Xem thêm chi tiết: [[Usecase - Outbox Pattern]]
 
 # 6. Mã Nguồn Tham Khảo
 

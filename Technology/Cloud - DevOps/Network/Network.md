@@ -11,6 +11,7 @@ tags:
 - TĂNG CƯỜNG BẢO VỆ CHO HỆ THỐNG MẠNG NỘI BỘ SỬ DỤNG DMZ: https://viblo.asia/p/tang-cuong-bao-ve-cho-he-thong-mang-noi-bo-su-dung-dmz-EoDGQOElkbV
 - DevOps training: Cẩm nang debug networking: https://viblo.asia/p/devops-training-cam-nang-debug-networking-y3RL1QovLao
 - [anderspitman/awesome-tunneling: List of ngrok/Cloudflare Tunnel alternatives and other tunneling software and services. Focus on self-hosting.](https://github.com/anderspitman/awesome-tunneling)
+- **SSH3**: SSH nhanh hơn và phong phú hơn sử dụng HTTP/3. Sử dụng QUIC + TLS 1.3 cho thiết lập kênh bảo mật và HTTP Authorization cho xác thực người dùng. Tính năng: thiết lập phiên nhanh hơn (3 round-trip thay vì 5-7), hỗ trợ OAuth 2.0/OpenID Connect, ẩn server khỏi port scanning, UDP port forwarding, connection migration. Hỗ trợ các tính năng OpenSSH phổ biến như authorized_keys, known_hosts, ssh-agent, port forwarding, proxy jump. Vẫn đang ở giai đoạn thử nghiệm - [GitHub](https://github.com/francoismichel/ssh3) #SSH #HTTP3 #QUIC #security
 
 # 2. Load balancer / Reverse proxy
 

@@ -7,7 +7,11 @@ tags:
   - lang/vi
 ---
 
-# 1. Dataset
+## Resources
+
+- Pandas cheatsheet: https://app.xmind.com/share/ugVH30g4
+
+## Dataset
 
 - Bộ chuẩn hóa địa chỉ Việt Nam: https://github.com/vantrong291/vn_address_standardizer
 

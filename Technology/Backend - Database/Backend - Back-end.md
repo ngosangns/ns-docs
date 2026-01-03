@@ -47,6 +47,10 @@ tags:
   - [Golang version](https://pkg.go.dev/github.com/smartystreets/go-disruptor)
 - **Hotwire**: Build front-end from back-end - [Website](https://hotwired.dev)
 - **i18n**: [GitHub](https://github.com/i18next/i18next)
+- **Encore**: Framework mã nguồn mở cho phép phát triển các ứng dụng backend một cách nhanh chóng và hiệu quả. Cung cấp các công cụ để xây dựng, triển khai và quản lý các dịch vụ backend, giúp giảm bớt sự phức tạp trong quá trình phát triển với sự hỗ trợ tích hợp cho các dịch vụ đám mây và triển khai liên tục - [GitHub](https://github.com/encoredev/encore) #backend #framework
+- **Hypervel**: Framework PHP theo phong cách Laravel với hỗ trợ coroutine gốc, mang lại hiệu suất cực cao cho các ứng dụng I/O-intensive - [GitHub](https://github.com/hypervel/hypervel) #php #framework #coroutine
+- **Motia**: Framework backend đa ngôn ngữ, thống nhất API, công việc nền, hàng đợi, quy trình làm việc, luồng và các tác nhân AI với một lõi duy nhất, tích hợp khả năng quan sát và quản lý trạng thái - [GitHub](https://github.com/motiadev/motia) #backend #framework #multi-language
+- **PocketBase**: Backend mã nguồn mở viết bằng Go, tất cả trong một file. Bao gồm embedded database (SQLite) với realtime subscriptions, built-in files và users management, admin dashboard UI, và REST-ish API. Có thể dùng như standalone app hoặc Go framework/toolkit - [GitHub](https://github.com/pocketbase/pocketbase) #backend #database #go #realtime
 
 ## Caching
 
@@ -76,6 +80,27 @@ tags:
 - **LRU**: Least Recently Used
 - **LFU**: Least Frequently Used
 - **Random selection**: Lựa chọn ngẫu nhiên
+
+#### LFU Cache O(1) Implementation
+
+- **Vấn đề truyền thống:**
+  - LFU cache thường dùng min-heap → O(log n) time complexity
+  - Nhiều developer chọn LRU (O(1)) thay vì LFU dù LFU phù hợp hơn
+  - Min-heap cần rebalancing mỗi khi access/delete/insert → O(log n)
+
+- **Giải pháp O(1) (Ketan Shah, Anirban Mitra, Dhruv Matani, 2010/2021):**
+  - Dùng Hash Table + Doubly Linked Lists
+  - Mỗi kệ (Doubly Linked List) chứa items có cùng frequency
+  - Kệ 1: items được access 1 lần, kệ 2: 2 lần, ...
+  - Hash table map key → vị trí item trong kệ
+  - Access: di chuyển item sang kệ frequency cao hơn → O(1)
+  - Eviction: lấy item đầu tiên ở kệ frequency thấp nhất → O(1)
+
+- **Trade-offs:**
+  - Tốn nhiều RAM hơn (hash table + multiple linked lists)
+  - Khó implement và maintain hơn so với min-heap
+
+- **Paper:** [An O(1) algorithm for implementing the LFU cache eviction scheme](https://arxiv.org/pdf/2110.11602)
 
 ### Redis
 
@@ -129,6 +154,7 @@ tags:
 
 - [Vector Search and RAG Tutorial](https://www.freecodecamp.org/news/vector-search-and-rag-tutorial-using-llms-with-your-data)
 - [Search Engine và Vector Database](https://viblo.asia/s/search-engine-va-vector-database-GyZJZwllLjm)
+- **Typesense**: Công cụ tìm kiếm mã nguồn mở, nhanh chóng và dễ sử dụng, thay thế cho Algolia và ElasticSearch. Hỗ trợ typo-tolerance, faceting, filtering, sorting - [GitHub](https://github.com/typesense/typesense) #search-engine #open-source
 
 ## API
 
@@ -137,3 +163,15 @@ tags:
 - [exa.ai](https://exa.ai/)
 - [brightdata.com](https://brightdata.com/)
 - [serper.dev](https://serper.dev/)
+
+## Payment Processing
+
+- **Hyperswitch**: Giải pháp thanh toán mã nguồn mở, cho phép tích hợp nhiều cổng thanh toán khác nhau thông qua một API duy nhất - [GitHub](https://github.com/juspay/hyperswitch) #payment #gateway
+
+## No-code Platforms
+
+- **NocoBase**: Nền tảng mã nguồn mở cho phép xây dựng ứng dụng quản lý dữ liệu mà không cần viết mã, hỗ trợ tạo CRUD và quản lý quan hệ dữ liệu - [GitHub](https://github.com/nocobase/nocobase) #nocode #platform
+
+## API Gateway
+
+- **KGateway**: API Gateway và AI Gateway theo kiến trúc đám mây, cung cấp giải pháp quản lý và định tuyến API hiệu quả - [GitHub](https://github.com/kgateway-dev/kgateway) #api-gateway #ai-gateway #cloud

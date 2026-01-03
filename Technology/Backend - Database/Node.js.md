@@ -41,6 +41,7 @@ tags:
 - **Telegraf**: Powerful Telegram bot library - [GitHub](https://github.com/telegraf/telegraf)
 - **Knex**: SQL query builder, flexible and portable - [GitHub](https://github.com/knex/knex)
 - **Prisma**: Next-generation ORM - [GitHub](https://github.com/prisma/prisma)
+- **jsdom**: A JavaScript implementation of various web standards, for use with Node.js. Implements WHATWG DOM and HTML standards - [GitHub](https://github.com/jsdom/jsdom)
 
 ## Runtime
 

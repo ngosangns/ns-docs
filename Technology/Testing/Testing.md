@@ -414,6 +414,12 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
 
 - Browserstack - Test website / app trên nhiều thiết bị
 - https://github.com/appium/appium
+- **Keploy**: Agent hỗ trợ kiểm thử API, tích hợp và end-to-end (E2E) cho nhà phát triển
+  - Tự động tạo test cases từ API calls thực tế
+  - Tạo mocks/stubs cho APIs
+  - Hỗ trợ integration testing và E2E testing
+  - Giảm thời gian viết test thủ công
+  - [GitHub](https://github.com/keploy/keploy) #API-testing #integration-testing #E2E #mocks
 - ArchUnit (Java)
   - Cho phép viết các test case bằng Java để kiểm tra kiến trúc. VD: "Kiểm tra package `com.myapp.controller` không gọi trực tiếp `com.myapp.repository`."
   - Dễ tích hợp với JUnit/TestNG.
@@ -430,3 +436,27 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
 ## 5.1. Headless browser
 
 - https://github.com/lightpanda-io/browser
+
+## 5.2. Performance Testing Tools
+
+### K6
+
+> https://techmaster.vn/posts/38352/k6-performance-testing-nhap-mon
+
+- Công cụ mã nguồn mở để kiểm thử hiệu năng của API, microservices và website
+- Được viết bằng Go, nhưng cho phép viết kịch bản kiểm thử bằng JavaScript
+- Hỗ trợ các giao thức: HTTP/1.1, HTTP/2, gRPC và WebSocket
+- Hỗ trợ các mở rộng cho MQTT, AMQP, Kafka, MLLP và Redis
+- Các loại kiểm thử được hỗ trợ:
+  - Load testing: Kiểm thử tải để xác định ngưỡng tải tối đa của hệ thống
+  - Stress testing: Kiểm thử căng thẳng để kiểm tra fault tolerant, overload, resilient
+  - Spike testing: Kiểm thử spike để xem hệ thống phản ứng với tải đột ngột
+  - Soak testing: Kiểm thử ngâm để kiểm tra hiệu suất trong thời gian dài
+- Lợi ích:
+  - Dễ dàng viết script bằng JavaScript
+  - Hiệu năng cao, có thể mô phỏng hàng nghìn người dùng ảo với mức sử dụng tài nguyên thấp
+  - Tích hợp dễ dàng vào quy trình CI/CD
+  - Cung cấp các chỉ số hiệu năng theo thời gian thực (tỷ lệ lỗi, throughput, thời gian phản hồi)
+  - Tích hợp với các công cụ giám sát như Prometheus và Grafana
+- Có thể cài đặt trên nhiều nền tảng
+- Phù hợp cho các nhóm phát triển phần mềm muốn đảm bảo hiệu năng và độ tin cậy của ứng dụng

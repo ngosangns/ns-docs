@@ -33,6 +33,11 @@ tags:
 - **lightningcss**: Xây dựng và tối ưu CSS nhanh
 - **postcss**: Chuyển đổi CSS bằng plugin JavaScript
 
+## CSS-in-JS (Zero Runtime)
+
+- **vanilla-extract**: Viết CSS trong TypeScript với type-safety, tạo CSS tĩnh trong quá trình build (zero runtime) - https://github.com/vanilla-extract-css/vanilla-extract
+- **pigment-css**: CSS-in-JS không có runtime từ MUI, trích xuất styles vào file CSS riêng biệt trong quá trình build - https://github.com/mui/pigment-css
+
 ## Themes
 
 - **98.css**: Hệ thống thiết kế giao diện kiểu cũ

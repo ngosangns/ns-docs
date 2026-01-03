@@ -76,6 +76,7 @@ Các bộ khung và thư viện giúp xây dựng ứng dụng nhanh chóng và 
   - Symfony: Mạnh mẽ, linh hoạt, tập trung vào các component tái sử dụng. Nền tảng của nhiều framework khác (bao gồm cả Laravel).
   - Spiral Framework: Hiện đại, tập trung vào RoadRunner, DI Container mạnh mẽ, Data Mapper ORM (Cycle). [spiral.dev](https://spiral.dev)
   - CakePHP: Lâu đời, tuân thủ quy ước (convention over configuration).
+  - **Doppar**: Framework PHP thế hệ tiếp theo, được thiết kế cho tốc độ, sự đơn giản và khả năng mở rộng. Kết hợp cú pháp elegant với hiệu năng cao, phù hợp cho các hệ thống đòi hỏi khả năng mở rộng và xử lý đồng thời cao. [doppar.com](https://doppar.com) - [GitHub](https://github.com/doppar) #framework #php
 - Microframeworks:
   - Slim: Nhẹ nhàng, tập trung vào routing và middleware, tốt cho API. [slimframework.com](https://www.slimframework.com/)
   - Lumen: Microframework từ Laravel (hiện ít được ưu tiên phát triển).

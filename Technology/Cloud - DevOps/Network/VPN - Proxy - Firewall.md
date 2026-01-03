@@ -14,6 +14,7 @@ tags:
   - OpenVPN
 - pfsense - Firewall / Proxy / DHCP / VPN / DNS: https://github.com/pfsense/pfsense
 - SafeLine - self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.: https://github.com/chaitin/SafeLine
+- **headscale** - Open source, self-hosted implementation of the Tailscale control server. Cho phép thiết lập mạng riêng ảo (VPN) dựa trên WireGuard mà không cần phụ thuộc vào dịch vụ đám mây của Tailscale: https://github.com/juanfont/headscale
 
 # 2. SaaS
 

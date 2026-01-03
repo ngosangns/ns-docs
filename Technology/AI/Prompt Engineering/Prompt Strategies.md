@@ -160,3 +160,36 @@ tags:
   - Lợi ích: Tự động hóa các khía cạnh đánh giá cần con người, cung cấp phép đo có cấu trúc, nhất quán, khách quan. Đánh giá các sắc thái tinh tế như bao phủ, trùng lặp, mâu thuẫn logic.
   - Trường hợp sử dụng: Hệ thống Hỏi-Đáp, kiểm tra chính xác/đầy đủ bản tóm tắt AI, so sánh chất lượng đầu ra giữa các phiên bản model/prompt.
   - Cân nhắc quan trọng: Hiệu quả phụ thuộc vào năng lực của chính LLM làm "người đánh giá" và chất lượng prompt đánh giá. Đánh giá bởi con người vẫn rất quan trọng với tác vụ phức tạp hoặc chủ quan cao.
+
+# Self-Prompting
+
+## Khái niệm
+
+- **Self-Prompting**: Phương pháp cho phép mô hình tự động viết, đánh giá và tối ưu hóa prompt của chính nó
+- Giải quyết vấn đề phụ thuộc vào prompt engineering thủ công, đòi hỏi nhiều thử nghiệm và thiếu tính nhất quán
+- Giảm sự phụ thuộc vào con người trong việc thiết kế prompt
+
+## Chain-of-Thought Prompting (CoT)
+
+- Cho phép mô hình giải quyết các nhiệm vụ phức tạp bằng cách phân rã vấn đề thành các bước trung gian
+- Giúp mô hình tiếp cận vấn đề một cách hệ thống và hiệu quả hơn
+- Cung cấp cái nhìn trực quan về quá trình suy luận của mô hình, giúp phát hiện và sửa lỗi nếu có
+
+## Framework Self-Prompting
+
+### Giai đoạn Preparation (Chuẩn bị)
+
+- Mô hình tạo ra các bộ câu hỏi và câu trả lời giả lập
+- Bao gồm các đoạn văn bản nền tảng và giải thích hoàn toàn từ đầu
+- Sử dụng các ví dụ này để học trong ngữ cảnh
+
+### Giai đoạn Inference (Suy luận)
+
+- Mô hình sử dụng kiến thức đã học từ giai đoạn Preparation để trả lời các câu hỏi thực tế
+- Tự động đánh giá và tối ưu hóa prompt để cải thiện hiệu suất
+
+## Ứng dụng
+
+- Đặc biệt hiệu quả trong các tác vụ **Zero-Shot Open-Domain QA** (Câu hỏi-Đáp mở không có ví dụ)
+- Cải thiện độ chính xác của mô hình trong các tác vụ phức tạp mà không cần dữ liệu huấn luyện cụ thể
+- Giảm thiểu nhu cầu về dữ liệu được gán nhãn và công sức thiết kế prompt thủ công

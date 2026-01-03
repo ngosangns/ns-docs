@@ -192,6 +192,53 @@ heavy()
 
 Nguồn tham khảo: https://medium.com/globant/javascript-optimization-techniques-20d8d167dadd
 
+#### Node.js Performance: V8 Memory Management & GC Tuning
+
+##### V8 Engine trong Node.js
+
+- **V8 Engine**: Engine JavaScript của Google, thực thi mã JavaScript nhanh chóng bằng cách biên dịch trực tiếp thành mã máy
+- Cung cấp tính năng **Garbage Collection (GC)** để quản lý bộ nhớ tự động
+- GC giúp thu hồi bộ nhớ không còn sử dụng, nhưng nếu không được tối ưu có thể gây ra tắc nghẽn hiệu suất
+
+##### Quản lý bộ nhớ và GC trong V8
+
+- Hiểu cách V8 quản lý bộ nhớ và GC là cần thiết để tối ưu hóa hiệu suất ứng dụng Node.js
+- GC không được tối ưu có thể gây ra:
+  - Tắc nghẽn hiệu suất (performance bottlenecks)
+  - Độ trễ cao trong ứng dụng
+  - Sử dụng bộ nhớ không hiệu quả
+
+##### Phương pháp tối ưu hóa
+
+- **Sử dụng công cụ phân tích hiệu suất**:
+  - `v8-profiler-next`: Tạo ảnh chụp nhanh heap để phân tích bộ nhớ
+  - `cpupro`: Phân tích CPU và xác định tắc nghẽn hiệu suất
+  - Giúp xác định rò rỉ bộ nhớ và các vấn đề về hiệu suất
+
+- **Tối ưu hóa mã nguồn**:
+  - Sử dụng các chức năng tích hợp của V8 một cách hiệu quả
+  - Tránh lưu trữ quá nhiều dữ liệu trong phiên (session)
+  - Sử dụng mô-đun cụm (cluster module) để xử lý song song
+  - Tối ưu hóa việc sử dụng Buffer khi làm việc với dữ liệu nhị phân
+
+- **Cập nhật phiên bản Node.js**:
+  - Sử dụng phiên bản mới nhất và ổn định của Node.js
+  - Tận dụng các cải tiến về hiệu suất và bảo mật
+  - Mỗi phiên bản mới thường có cải thiện về GC và quản lý bộ nhớ
+
+- **Tối ưu hóa quản lý bộ nhớ**:
+  - Giảm thiểu rò rỉ bộ nhớ bằng cách quản lý lifecycle của objects
+  - Sử dụng Buffer một cách hợp lý khi làm việc với dữ liệu nhị phân
+  - Tránh giữ reference không cần thiết đến objects lớn
+
+##### Kết luận
+
+- Tối ưu hóa hiệu suất Node.js đòi hỏi hiểu biết sâu về V8 Engine, quản lý bộ nhớ và GC
+- Áp dụng các phương pháp tối ưu hóa phù hợp để đảm bảo ứng dụng hoạt động hiệu quả và ổn định
+- Sử dụng các công cụ profiling để xác định và giải quyết các vấn đề về hiệu suất
+
+Nguồn tham khảo: https://blog.platformatic.dev/optimizing-nodejs-performance-v8-memory-management-and-gc-tuning
+
 ---
 
 ### 1.5 Patterns & code quality
@@ -433,6 +480,22 @@ Tip:
   - https://dev.to/vcpablo/vuejs-building-a-monorepo-using-lerna-1h1c
   - https://github.com/vcpablo/vuejs-lerna-monorepo
 
+#### Nx
+
+- **Tổng quan**: Công cụ tối ưu hóa quy trình xây dựng và mở rộng CI, giúp giảm thời gian hoàn thành PR
+- **Tính năng chính**:
+  - Tối ưu hóa builds và task scheduling
+  - Remote caching để tăng tốc CI/CD
+  - Task distribution trên nhiều máy
+  - Tự động phát hiện test flakiness
+  - Hỗ trợ monorepo với dependency graph thông minh
+- **Sử dụng**:
+  - Tạo workspace mới: `npx create-nx-workspace`
+  - Thêm vào workspace hiện có: `npx nx init`
+  - Kết nối với Nx Cloud: `npx nx connect`
+- **GitHub**: https://github.com/nrwl/nx
+- **Website**: https://nx.dev
+
 Gợi ý thêm (tuỳ nhu cầu):
 
 - pnpm workspaces/yarn workspaces (quản lý deps)
@@ -464,6 +527,10 @@ Gợi ý thêm (tuỳ nhu cầu):
 - Typia: https://github.com/samchon/typia
 - Superstruct: https://github.com/ianstormtaylor/superstruct
 - Zod: https://github.com/colinhacks/zod
+
+### Error Handling
+
+- neverthrow: TypeScript library for type-safe error handling using Result type instead of throwing exceptions - https://github.com/supermacro/neverthrow
 
 ### Logging
 

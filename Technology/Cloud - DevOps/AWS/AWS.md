@@ -59,6 +59,80 @@ tags:
 
 - Automate cluster infrastructure with EKS Auto Mode: https://docs.aws.amazon.com/eks/latest/userguide/automode.html
 
+## 5.1. EKS Hybrid Nodes
+
+**Nguồn**: https://aws.amazon.com/vi/blogs/containers/a-deep-dive-into-amazon-eks-hybrid-nodes/
+
+### 5.1.1. Tổng quan
+
+- Tính năng mới của Amazon EKS được ra mắt tại re:Invent 2024, hiện đã GA
+- Cho phép sử dụng hạ tầng on-premises và edge hiện có như nodes trong Amazon EKS clusters
+- Tạo trải nghiệm quản lý Kubernetes thống nhất trên cloud, on-premises và edge
+- Use cases: modernization, machine learning (ML), media streaming, manufacturing workloads
+- Giải quyết vấn đề: thay vì phải tự quản lý Kubernetes on-premises (phức tạp, tốn công vận hành), có thể kết nối on-premises/edge capacity như nodes vào managed EKS control plane trên cloud
+
+### 5.1.2. Kiến trúc và yêu cầu
+
+- **Kết nối mạng**: Cần connectivity giữa on-premises network và Amazon VPC của EKS cluster
+  - Có thể dùng: AWS Direct Connect, AWS Site-to-Site VPN, hoặc VPN solution riêng
+- **Infrastructure**: "Bring your own infrastructure" approach
+  - Chịu trách nhiệm provisioning và quản lý infrastructure, OS cho hybrid nodes
+  - Có thể dùng bare metal servers hoặc virtualized infrastructure
+  - OS hỗ trợ: Amazon Linux 2023, Ubuntu, Red Hat Enterprise Linux (RHEL)
+- **Cài đặt**: Sử dụng EKS Hybrid Nodes CLI (`nodeadm`) trên mỗi on-premises host
+  - Có thể tích hợp vào golden OS images để tự động bootstrap
+- **Xác thực**: Sử dụng temporary IAM credentials từ:
+  - AWS Systems Manager hybrid activations (khuyến nghị)
+  - IAM Roles Anywhere
+
+### 5.1.3. Networking
+
+- **Node và Pod networks**: Phải sử dụng IPv4 RFC-1918 CIDRs
+  - `RemoteNodeNetwork`: Cần thiết cho EKS control plane ↔ kubelet communication (logs, exec, port-forward)
+  - `RemotePodNetwork`: Cần thiết cho EKS control plane ↔ webhook communication (khuyến nghị cấu hình)
+- **VPC routing**: Routing table phải có routes cho RemoteNodeNetwork và RemotePodNetwork đến gateway (Transit Gateway hoặc VGW)
+- **Security groups**: Phải có inbound/outbound rules cho RemoteNodeNetwork và RemotePodNetwork
+- **On-premises**:
+  - Firewall: Cho phép inbound từ EKS control plane, outbound cho RemoteNodeNetwork và RemotePodNetwork
+  - Router: Phải route được traffic đến RemoteNodeNetwork và RemotePodNetwork
+  - CNI: Overlay network CIDR phải giống RemotePodNetwork (hoặc node CIDR = RemoteNodeNetwork nếu dùng host networking)
+
+### 5.1.4. Tính năng hỗ trợ
+
+- **Add-ons và features**:
+  - CoreDNS
+  - kube-proxy
+  - Amazon Managed Service for Prometheus agent-less scrapers
+  - AWS Distro for Open Telemetry
+  - CloudWatch Observability Agent
+  - IAM Roles for Service Accounts (IRSA)
+  - EKS Pod Identities
+- **Pod networking CNI**: Cilium và Calico được hỗ trợ
+- **Ingress và load balancing**: Hầu hết các Kubernetes options đều có thể sử dụng
+
+### 5.1.5. Prerequisites
+
+- Hybrid network connectivity giữa on-premises và AWS
+- Infrastructure (physical hoặc virtual machines)
+- OS tương thích với hybrid nodes
+- AWS CLI version 2.22.8+ hoặc 1.36.13+
+- eksctl CLI
+- IAM permissions: `iam:CreatePolicy`, `iam:CreateRole`, `iam:AttachRolePolicy`, `ssm:CreateActivation`, `eks:CreateCluster`
+
+### 5.1.6. Lợi ích
+
+- Giảm complexity và operational overhead so với self-managed Kubernetes on-premises
+- Trải nghiệm vận hành nhất quán với EKS clusters trên cloud
+- Sử dụng cùng features, integrations, tools như EKS trên cloud
+- Phù hợp cho các use case cần low latency, data dependency, data sovereignty, regulatory compliance
+
+### 5.1.7. Partners
+
+- **ISVs**: AccuKnox, Aqua, CIQ, Dynatrace, HashiCorp, Kong, Kubecost, NetApp, New Relic, Nirmata, PerfectScale, Pulumi, Solo.io, Spectro Cloud, Sysdig, Tetrate
+- **IHVs**: AMD, Continent 8 Technologies, Dell Technologies
+- **OSVs**: CIQ (Ctrl IQ)
+- Nhiều ISVs đã validate solutions qua Conformitron framework
+
 # 6. Tools
 
 - AWS IAM Policy Visualizer: https://bourabdelhadi.github.io/awsviz
@@ -86,6 +160,14 @@ tags:
   - Amazon Translate
 - Amazon Personalize
 - Amazon SageMaker
+  - Nền tảng tích hợp cho dữ liệu, phân tích và AI, cung cấp trải nghiệm phát triển thống nhất
+  - Cho phép xây dựng, huấn luyện và triển khai các mô hình học máy (ML) và mô hình nền tảng (FMs) trên hạ tầng hiệu suất cao và chi phí hiệu quả
+  - Cung cấp các công cụ chuyên dụng cho toàn bộ vòng đời AI: IDE hiệu suất cao, đào tạo phân tán, suy luận, AI ops, quản trị và quan sát
+  - Hỗ trợ xây dựng ứng dụng AI tổng quát tùy chỉnh với dữ liệu riêng của doanh nghiệp
+  - Tích hợp với Amazon Q Developer để tăng tốc phát triển AI, giúp khám phá dữ liệu, xây dựng và đào tạo mô hình ML, tạo truy vấn SQL và chạy pipeline dữ liệu thông qua ngôn ngữ tự nhiên
+  - SageMaker Unified Studio: Môi trường phát triển tích hợp cho tất cả dữ liệu và công cụ cho phân tích và AI
+  - Hỗ trợ kiến trúc lakehouse, thống nhất truy cập dữ liệu trên các hồ dữ liệu Amazon S3, kho dữ liệu Amazon Redshift và các nguồn dữ liệu bên thứ ba hoặc liên kết
+  - Đảm bảo bảo mật doanh nghiệp với quản trị tích hợp trong suốt vòng đời dữ liệu và AI
 - Amazon Kinesis Data Streams:
   - Thu thập và xử lý **luồng dữ liệu theo thời gian thực** (real-time).
   - Dữ liệu từ các nguồn như PC, mobile, game servers sẽ được gửi vào Kinesis.
@@ -147,8 +229,263 @@ tags:
   - Cho phép phân quyền truy cập linh hoạt dựa trên vai trò (RBAC).
 - CloudTrail: Track user activity and API usage on AWS and in hybrid and multicloud environments.
 
-# 8. Practices
+# 8. API Gateway
+
+## 8.1. Routing Rules (Quy tắc định tuyến động)
+
+- **Tính năng**: Quy tắc định tuyến động cho tên miền tùy chỉnh
+- **Cách hoạt động**:
+  - Định tuyến dựa trên giá trị của tiêu đề HTTP
+  - Định tuyến dựa trên đường dẫn cơ sở (base path)
+  - Kết hợp cả tiêu đề HTTP và đường dẫn
+- **Use cases**:
+  - Phiên bản hóa API (API versioning)
+  - Triển khai dần dần (gradual deployment)
+  - Kiến trúc dựa trên cell (cell-based architecture)
+  - Thử nghiệm A/B (A/B testing)
+  - Lựa chọn backend động (dynamic backend selection)
+- **Lợi ích**:
+  - Loại bỏ nhu cầu tạo hoặc thay đổi đường dẫn URL
+  - Chuyển đổi giữa các phiên bản API mượt mà hơn
+  - Tích hợp liền mạch với các khả năng hiện có của API Gateway
+  - Hỗ trợ cả REST API công khai và riêng tư
+- **Nguồn**: https://aws.amazon.com/vi/blogs/compute/dynamically-routing-requests-with-amazon-api-gateway-routing-rules
+
+# 9. Practices
 
 - Zendesk cắt giảm 80% chi phí lưu trữ nhờ chuyển đổi cơ sở dữ liệu:
   - Vietnamese: https://sydexa.com/blog/zendesk-cat-giam-80percent-chi-phi-luu-tru-nho-chuyen-djoi-co-so-du-lieu-66d48d15f0d5216d0c6b2da0
   - English: https://zendesk.engineering/moving-from-dynamodb-to-tiered-storage-with-mysql-s3-cb3dc9bf813a
+
+# 10. Terraform
+
+## 10.1. Terraform AWS Cloud Control Provider cho AWS Batch
+
+- **Nguồn**: https://awsstudygroup.com/2025/06/17/su-dung-terraform-aws-cloud-control-provider-de-quan-ly-tai-nguyen-aws-batch-2/
+- **Hai loại Terraform provider cho AWS**:
+  - **Terraform AWS Provider (nguyên bản)**:
+    - Dự án mã nguồn mở với pull request từ cộng đồng
+    - Code thủ công để gọi trực tiếp qua AWS SDK
+    - Review và tích hợp pull request mất nhiều thời gian
+  - **Terraform AWS Cloud Control (AWSCC) Provider**:
+    - Ra mắt chính thức giữa năm 2024 bởi HashiCorp
+    - Hoạt động với AWS Cloud Control API - tập hợp API chung để quản lý vòng đời dịch vụ AWS
+    - Được tự động tạo ra dựa trên Cloud Control API do AWS phát hành
+    - Tính năng và dịch vụ mới nhất từ AWS được hỗ trợ ngay lập tức
+- **AWS Batch job definitions**:
+  - Trước đây chưa được AWS Cloud Control API hỗ trợ như managed resource
+  - Hiện tại đã được hỗ trợ trong Cloud Control API
+  - Có thể sử dụng AWSCC provider để quản lý tất cả Batch resources
+  - Có thể sử dụng cả hai provider trong cùng một stack
+- **So sánh AWS Provider vs AWSCC Provider cho Batch compute environment**:
+  - **AWS Provider**:
+    - Sử dụng `compute_environment_name_prefix` thay vì `compute_environment_name`
+    - Prefix cho phép xử lý blue/green deployment: tạo CE mới, chuyển job queue association, xóa CE cũ
+    - Sử dụng `instance_type` (số ít) - khác với Batch API
+  - **AWSCC Provider**:
+    - Sử dụng `compute_environment_name` (không có prefix)
+    - Tuân theo Batch API chính xác
+    - Sử dụng `instance_types` (số nhiều) - phản ánh đúng API
+    - Có thêm argument `replace_compute_environment` (mặc định false)
+      - Nếu false: CE sử dụng service-linked role có thể cập nhật nhiều attributes hơn mà không cần thay thế CE (infrastructure update)
+      - Nếu true: bị giới hạn ở tập nhỏ hơn các attributes có thể cập nhật
+    - Nếu cần thay thế CE: phải tự quản lý thứ tự thao tác (tạo CE mới, liên kết job queue, vô hiệu hóa và xóa CE cũ)
+- **Ưu điểm của AWSCC Provider**:
+  - Tính năng mới được hỗ trợ ngay lập tức (ví dụ: configurable namespaces, persistent volume claims, container mount sub-path support, pod annotations cho Batch trên EKS)
+  - Không cần chờ pull request từ cộng đồng và review từ maintainer
+- **Nhược điểm của AWSCC Provider**:
+  - Tài liệu về resources khá ít, chỉ có thông tin về kiểu của resource arguments
+  - Cần tham khảo tài liệu AWS Cloud Control resource type để biết arguments đại diện cho gì
+  - Tạo ra một chút developer friction khi sử dụng
+- **Khuyến nghị**:
+  - Thận trọng khi refactoring các Terraform-managed resources hiện có
+  - Đối với resources mới hoặc resources có cập nhật thường xuyên (như AWS Batch job definitions): nên sử dụng AWSCC provider
+  - Có thể sử dụng cả hai provider song song trong cùng một stack
+
+# 11. EC2 Cost Optimization - Automatic Shutdown
+
+**Nguồn**: https://aws.amazon.com/vi/blogs/publicsector/reduce-it-costs-by-implementing-automatic-shutdown-for-amazon-ec2-instances/
+
+## 11.1. Tổng quan
+
+- Giảm chi phí IT bằng cách tự động shutdown EC2 instances khi không sử dụng
+- Đặc biệt hữu ích cho các trường đại học/cao đẳng khi instances chạy ngoài giờ hoặc không hoạt động
+- Có 2 phương pháp chính:
+  - **Method 1**: Sử dụng CloudWatch alarms để shutdown dựa trên mức độ hoạt động
+  - **Method 2**: Sử dụng Lambda + EventBridge cho scheduled và batch processing
+
+## 11.2. Method 1: CloudWatch Alarms cho Dynamic Instance Shutdown
+
+- **Mục đích**: Tự động quản lý instances dựa trên mức độ hoạt động
+- **Cách hoạt động**:
+  - Tạo CloudWatch alarm trên EC2 console
+  - Cấu hình alarm khi CPU utilization <= 3% trong 1 giờ (chỉ báo không hoạt động)
+  - Kích hoạt action "Stop" khi alarm trigger
+- **Cấu hình alarm**:
+  - Group samples by: Average
+  - Type of data to sample: CPU Utilization
+  - Alarm when: <=
+  - Percent: 3
+  - Consecutive period: 1
+  - Period: 1 Hour
+- **Lưu ý**:
+  - Có thể vô tình stop instances đang chạy background tasks với CPU thấp
+  - Nên xem xét thêm metrics khác như network activity hoặc custom application metrics
+  - Review workload patterns trước khi implement
+
+## 11.3. Method 2: Lambda + EventBridge cho Scheduled và Batch Processing
+
+- **Mục đích**: Quản lý nhiều instances với scheduled shutdown và batch processing
+- **Kiến trúc**:
+  - EventBridge schedule trigger Lambda function
+  - Lambda function tìm và stop các instances có tag phù hợp
+- **Các bước triển khai**:
+  1. **Tạo Lambda function**:
+     - Runtime: Python 3.13
+     - Code tìm instances có tag `AutoStop = True`
+     - Stop các instances đang running
+  2. **Cấu hình IAM permissions**:
+     - `ec2:StopInstances`
+     - `ec2:DescribeInstances`
+  3. **Tạo EventBridge schedule**:
+     - Recurring schedule với cron expression (ví dụ: `0 17 * * ? *` để trigger lúc 17:00 mỗi ngày)
+     - Target: Lambda function đã tạo
+  4. **Tag EC2 instances**:
+     - Thêm tag `AutoStop = True` cho các instances cần tự động shutdown
+- **Ưu điểm**:
+  - Quản lý nhiều instances cùng lúc
+  - Linh hoạt với scheduled shutdown
+  - Có thể batch processing dựa trên tags
+
+## 11.4. Kết quả thực tế
+
+- Giảm hơn 30% chi phí EC2 trong tháng đầu tiên
+- Cải thiện resource allocation
+- Tăng cường sustainability practices bằng cách giảm compute usage không cần thiết
+
+## 11.5. Best Practices
+
+- **Regular review**: Định kỳ review automatic shutdown settings để đảm bảo phù hợp với usage patterns
+- **Communication**: Đảm bảo tất cả team members biết về automatic shutdown policies
+- **Exceptions handling**: Implement process để tạm thời exclude instances khỏi automatic shutdown trong critical periods
+- **Monitoring and logging**: Cấu hình logging đầy đủ để track shutdown events
+- **Cost analysis**: Phân tích cost savings thường xuyên để demonstrate ROI
+
+## 11.6. Cleanup
+
+Khi không cần nữa, xóa các resources:
+
+- CloudWatch alarms
+- EC2 instances dùng cho testing
+- Lambda function
+- EventBridge schedule
+- IAM roles/policies tạo riêng cho tutorial này
+
+## 11.7. Tài liệu tham khảo
+
+- AWS Well-Architected Framework - Cost Optimization pillar
+- Cost Optimization with AWS
+- Amazon EC2 Cost and Capacity Optimization
+- Instance Scheduler on AWS (advanced solution)
+- Amazon CloudWatch alarms user guide
+- AWS Lambda Developer Guide
+- Amazon EventBridge User Guide
+
+# 12. Serverless Custom Retry Mechanism cho Stateless Queue Consumers
+
+**Nguồn**: https://aws.amazon.com/vi/blogs/architecture/create-a-serverless-custom-retry-mechanism-for-stateless-queue-consumers/
+
+## 12.1. Tổng quan
+
+- Giải pháp retry mechanism tùy chỉnh cho serverless queue processors (như AWS Lambda) khi xử lý messages từ SQS
+- Xử lý các trường hợp downstream services bị lỗi tạm thời hoặc throttling
+- Sử dụng kết hợp: **Lambda**, **Amazon SQS**, **Amazon EventBridge Scheduler**
+- Phù hợp cho các workflow không quản lý state bởi service bổ sung
+
+## 12.2. Kiến trúc và cách hoạt động
+
+- **Core concept**: Khi Lambda function gặp lỗi khi xử lý message, nó tạo EventBridge schedule để đưa message trở lại SQS queue tại thời điểm tương lai
+- **Flow**:
+  1. Lambda function consume message từ SQS
+  2. Nếu có lỗi khi xử lý → raise exception
+  3. Catch block bắt exception và gọi EventBridge Scheduler API
+  4. Tạo schedule với destination SQS queue và timestamp retry
+  5. Message được đưa trở lại queue tại thời điểm đã định
+- **Retry timing control**:
+  - Hỗ trợ exponential backoff
+  - Hỗ trợ linear retry intervals
+  - Có thể điều chỉnh delay dựa trên: error type, số lần retry trước đó, custom backoff schemes
+- **Idempotency và tracking**:
+  - Sử dụng SQS message attributes để track retries
+  - Mỗi lần retry, thêm timestamp mới vào array trong message body
+  - Kiểm tra số lần retry để quyết định có tiếp tục retry hay gửi vào DLQ
+
+## 12.3. Dead Letter Queue (DLQ)
+
+- Tích hợp DLQ để tránh retry vô hạn
+- Lambda function gửi message vào DLQ khi:
+  - Vượt quá maximum retry limit
+  - Gặp error scenarios cần dừng sớm
+- DLQ lưu trữ các messages failed để review, reprocess hoặc correct thủ công
+
+## 12.4. Considerations và Best Practices
+
+- **Partial failures**:
+  - Xử lý trường hợp chỉ một phần steps hoàn thành
+  - Có thể sử dụng compensating action hoặc rollback để maintain data consistency
+- **Retry limits**:
+  - Cân bằng giữa resource usage và resilience
+  - Quá nhiều retries → tăng chi phí và slowdown
+  - Set retry limits phù hợp dựa trên: failure rates, SLAs, business consequences
+- **Timing precision**:
+  - EventBridge Scheduler có granularity 1 phút
+  - Có thêm latency giữa queue và function
+  - Mechanism không hoàn toàn precise → cần điều chỉnh cho time-sensitive applications
+- **Scaling**:
+  - Monitor và adjust: Lambda concurrency, queue retention period
+  - Đảm bảo optimal performance và cost với variable message volumes
+- **Security**:
+  - Nếu downstream service trong VPC → Lambda cũng phải trong VPC
+  - Access EventBridge Scheduler qua AWS PrivateLink từ VPC
+  - IAM roles với least privilege:
+    - Lambda function role: permission tạo EventBridge schedule, `iam:PassRole` cho scheduler
+    - Scheduler role: permission đặt message vào source queue
+    - Lambda function: permission đặt message vào DLQ, receive messages từ source queue
+
+## 12.5. Monitoring và Troubleshooting
+
+- **Key metrics cần monitor**:
+  - Số lần invocations của Lambda functions
+  - Error rates
+  - Runtimes
+  - DLQ usage
+- **CloudWatch**:
+  - Setup alarms khi metrics vượt thresholds
+  - Proactive detection và resolution
+- **Logging**:
+  - Log message attributes, retry attempts, error details
+  - Examine logs cho error patterns, retry patterns, downstream service issues
+
+## 12.6. Future Enhancements
+
+- **Dynamic retry intervals**:
+  - Điều chỉnh retry intervals dựa trên downstream service health hoặc error types
+  - Real-time health monitoring
+  - Trade-off: thêm complexity có thể gây failure của retry process
+- **External configuration**:
+  - Tích hợp với DynamoDB hoặc Parameter Store (AWS Systems Manager)
+  - Centralized và dynamic retry configurations
+  - Modify retry strategies mà không cần redeploy Lambda code
+- **Advanced error analysis**:
+  - Comprehensive reporting
+  - Error pattern analysis
+  - Correlate failures với downstream service health
+  - Insights cho root cause analysis và proactive remediation
+
+## 12.7. Lợi ích
+
+- Fine-grained control over retry intervals
+- Hỗ trợ exponential backoff và các retry strategies khác
+- Tích hợp seamless với DLQ và EventBridge Scheduler
+- Có thể reuse cho stateless queue consumers khác, không chỉ Lambda
+- Enable robust, fault-tolerant serverless systems

@@ -34,6 +34,10 @@ tags:
 - anyhow - Thư viện để xử lý lỗi ứng dụng một cách linh hoạt, cung cấp một kiểu lỗi `anyhow::Error` dễ sử dụng để bao bọc các lỗi khác nhau: https://github.com/dtolnay/anyhow #ErrorHandling #Rust
 - thiserror - Thư viện giúp tạo các kiểu lỗi tùy chỉnh một cách dễ dàng bằng cách sử dụng `derive macro`, hữu ích cho việc định nghĩa lỗi cụ thể trong thư viện: https://github.com/dtolnay/thiserror #ErrorHandling #Rust
 
+### 1.1.5. Workflow & Data Processing
+
+- arkflow - Công cụ quản lý workflow và xử lý dữ liệu theo luồng (stream processing) được viết bằng Rust - https://github.com/arkflow-rs/arkflow #Workflow #StreamProcessing #Rust
+
 ## 1.2. Công cụ (Tools)
 
 ### 1.2.1. Quản lý dự án và Build

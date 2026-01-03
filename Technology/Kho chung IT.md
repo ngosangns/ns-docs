@@ -37,7 +37,7 @@ tags:
 # 4. Orthers
 
 - https://github.com/Cyan4973/xxHash
-- [[Nén file]]
+- [[Usecase - Nén file]]
 - [[SEO Content]]
 - [[Windows Tips]]
 - [[Linux]]

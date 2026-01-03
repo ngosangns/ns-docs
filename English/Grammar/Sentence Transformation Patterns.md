@@ -8,8 +8,6 @@ tags:
 
 # Các mô hình biến đổi câu
 
-_User prompt: đọc toàn bộ nội dung và note vào file note mới và mention nó trong parent note về tiếng Anh_
-
 ## MODEL 1: Because / Since / As ↔ Because of / As a result of / Due to
 
 **Cấu trúc:**

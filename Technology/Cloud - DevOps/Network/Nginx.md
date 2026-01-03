@@ -58,3 +58,7 @@ tags:
 
 - [traefik-tunnel-expose](https://github.com/zenkiet/traefik-tunnel-expose): Tool to expose local services through Traefik using tunnels. #Traefik #tunnel
 - [trafexia](https://github.com/danieldev23/trafexia): Traefik management and automation tool. #Traefik #automation
+
+## 1.3. Nginx JavaScript (njs)
+
+- **njs** - Tập hợp con của ngôn ngữ JavaScript được thiết kế để sử dụng trong Nginx, cho phép mở rộng và tùy chỉnh máy chủ Nginx thông qua các tập lệnh JavaScript: https://github.com/nginx/njs
