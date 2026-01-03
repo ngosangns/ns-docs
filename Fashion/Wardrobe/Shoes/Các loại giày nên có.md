@@ -25,3 +25,11 @@ Hơi ngớ ngẩn một chút nhưng tôi luôn gọi Chelsea boots là đôi lo
 ![[4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e.png]]
 
 # Sneakers thiết kế tối giản
+
+Đôi giày thể thao không thể thiếu cho các hoạt động hàng ngày, đi chơi, đi làm (nếu môi trường cho phép casual). Nên chọn các thiết kế tối giản, màu sắc trung tính để dễ phối đồ.
+
+- Độ formal: Thấp
+- Độ linh hoạt phối đồ: Rất cao, phối được với hầu hết các loại quần
+- Chất liệu: Thường là da tổng hợp, canvas, hoặc mesh
+- Màu sắc: Trắng, đen, xám, beige là các màu dễ phối nhất
+- Số lượng: 1-2 đôi

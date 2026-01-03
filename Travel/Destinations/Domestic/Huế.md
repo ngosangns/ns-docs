@@ -6,7 +6,13 @@ tags:
   - lang/vi
 ---
 
-# 1. Địa điểm
+# Huế
+
+## Tổng quan
+
+Huế là cố đô của Việt Nam, nổi tiếng với các di tích lịch sử, văn hóa và ẩm thực đặc sắc. Thành phố này mang đậm dấu ấn của triều đại nhà Nguyễn với các lăng tẩm, đền đài và cung điện cổ kính.
+
+## Địa điểm tham quan
 
 - Đồi Thiên An
 - Hòn Vượn - chùa Huyền Không
@@ -43,7 +49,7 @@ tags:
 - làng thủy biều
 - làng hoa Thanh Tiên
 
-# 2. Đồ ăn
+## Ẩm thực
 
 - Cà phê:
   - Thái Y Viện

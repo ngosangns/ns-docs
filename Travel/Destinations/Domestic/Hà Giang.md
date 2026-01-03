@@ -6,7 +6,15 @@ tags:
   - lang/vi
 ---
 
-Gợi ý lịch trình : 5 ngày 4 đêm Hà Giang - Cao Bằng
+# Hà Giang
+
+## Tổng quan
+
+Hà Giang là tỉnh cực Bắc của Việt Nam, nổi tiếng với cảnh quan núi non hùng vĩ, các cung đường đèo hiểm trở và văn hóa đa dạng của các dân tộc thiểu số. Đây là điểm đến lý tưởng cho những người yêu thích phượt và khám phá thiên nhiên.
+
+## Lịch trình gợi ý
+
+### Lịch trình 5 ngày 4 đêm: Hà Giang - Cao Bằng
 
 NGÀY 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú
 
