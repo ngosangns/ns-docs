@@ -54,7 +54,7 @@ tags:
 
 ## Caching
 
-Xem chi tiết tại: [[Techniques & Architecture/Caching|Caching]]
+Xem chi tiết tại: [[Caching]]
 
 ## Lỗi thường gặp
 

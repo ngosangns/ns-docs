@@ -12,7 +12,7 @@ tags:
 
 **Internet of Things (IoT)** là mạng lưới các thiết bị vật lý được kết nối internet, có khả năng thu thập và trao đổi dữ liệu. Các thiết bị này có thể là sensors, actuators, hoặc các thiết bị thông minh khác được nhúng với phần mềm, sensors và kết nối mạng.
 
-Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Home.md|Smart Home]].
+Xem thêm ví dụ thực tế về triển khai IoT trong [[Smart-Home]].
 
 ## Kiến trúc IoT
 
@@ -53,7 +53,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - **Bluetooth/BLE**: Tiết kiệm pin, phù hợp cho wearables và devices di động
 - **Zigbee**: Mesh network, tiết kiệm pin, phù hợp cho smart home, nhưng có thể phức tạp với proprietary protocols
 - **Z-Wave**: Tương tự Zigbee, nhưng có license fee
-- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [[Technology/Smart Home.md|Smart Home]])
+- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [[Smart-Home]])
 
 #### Long-range
 
@@ -76,7 +76,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - WiFi và Bluetooth tích hợp
 - Rẻ, dễ phát triển
 - Phù hợp cho smart home và DIY projects
-- Có thể dùng ESPHome để tạo custom firmware (xem [[Technology/Smart Home.md|Smart Home]])
+- Có thể dùng ESPHome để tạo custom firmware (xem [[Smart-Home]])
 
 #### Arduino
 
@@ -88,7 +88,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 
 - Full Linux OS
 - Phù hợp cho gateway, edge computing, và home automation hubs
-- Có thể chạy Home Assistant (xem [[Technology/Smart Home.md|Smart Home]])
+- Có thể chạy Home Assistant (xem [[Smart-Home]])
 
 #### STM32
 
@@ -110,7 +110,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - Platform tự host cho smart home
 - Hỗ trợ nhiều integrations
 - Có thể mở rộng với custom add-ons
-- Xem chi tiết triển khai trong [[Technology/Smart Home.md|Smart Home]]
+- Xem chi tiết triển khai trong [[Smart-Home]]
 
 #### ESPHome
 
@@ -176,7 +176,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - **Authentication**: Strong passwords, certificates, OAuth
 - **Regular updates**: Keep firmware và software up-to-date
 - **Network segmentation**: Tách IoT devices vào separate network
-- **Local-first**: Ưu tiên local processing thay vì cloud khi có thể (xem [[Technology/Smart Home.md|Smart Home]])
+- **Local-first**: Ưu tiên local processing thay vì cloud khi có thể (xem [[Smart-Home]])
 
 ## Messaging Protocols
 
@@ -201,7 +201,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - Phổ biến, dễ implement
 - Phù hợp cho devices có đủ resources
 - Có thể dùng REST APIs hoặc webhooks
-- Ví dụ: ESP32 gửi HTTP POST/GET trong [[Technology/Smart Home.md|Smart Home]]
+- Ví dụ: ESP32 gửi HTTP POST/GET trong [[Smart-Home]]
 
 ### AMQP (Advanced Message Queuing Protocol)
 
@@ -216,7 +216,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - Home automation và control
 - Energy management
 - Security và monitoring
-- Xem chi tiết triển khai trong [[Technology/Smart Home.md|Smart Home]]
+- Xem chi tiết triển khai trong [[Smart-Home]]
 
 ### Industrial IoT (IIoT)
 
@@ -271,7 +271,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 
 ### Use Cases cho Edge
 
-- Real-time control (như button presses trong [[Technology/Smart Home.md|Smart Home]])
+- Real-time control (như button presses trong [[Smart-Home]])
 - Local automation rules
 - Data filtering và aggregation trước khi gửi cloud
 - Offline operation
@@ -282,7 +282,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 
 - Human-readable, dễ parse
 - Phù hợp cho HTTP APIs
-- Ví dụ: ESP32 gửi JSON payload trong [[Technology/Smart Home.md|Smart Home]]
+- Ví dụ: ESP32 gửi JSON payload trong [[Smart-Home]]
 
 ### MessagePack
 
@@ -337,7 +337,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - **PlatformIO**: Cross-platform IDE cho embedded development
 - **Arduino IDE**: Đơn giản cho beginners
 - **ESP-IDF**: Official framework cho ESP32
-- **ESPHome**: YAML-based config cho ESP8266/ESP32 (xem [[Technology/Smart Home.md|Smart Home]])
+- **ESPHome**: YAML-based config cho ESP8266/ESP32 (xem [[Smart-Home]])
 
 ### Testing
 
@@ -366,7 +366,7 @@ Xem thêm ví dụ thực tế về triển khai IoT trong [[Technology/Smart Ho
 - **Power management**: Sleep modes, wake-on-event
 - **Data compression**: Giảm bandwidth usage
 - **Caching**: Cache data tại edge để giảm cloud calls
-- **Debouncing**: Xử lý duplicate events (như trong [[Technology/Smart Home.md|Smart Home]])
+- **Debouncing**: Xử lý duplicate events (như trong [[Smart-Home]])
 
 ### Monitoring và Debugging
 

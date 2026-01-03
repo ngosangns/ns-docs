@@ -9,7 +9,7 @@ tags:
 
 # Database
 
-File tổng quan về database. Xem [[README|README.md]] để có cấu trúc đầy đủ của folder này.
+File tổng quan về database. Xem [[README]] để có cấu trúc đầy đủ của folder này.
 
 ## Phân loại Database
 
@@ -33,13 +33,13 @@ File tổng quan về database. Xem [[README|README.md]] để có cấu trúc �
 
 Nội dung đã được tổ chức lại theo các chủ đề:
 
-- **Core Concepts**: [[Core Concepts/ACID|ACID]], [[Core Concepts/Indexing|Indexing]], [[Core Concepts/Locking|Locking]], [[Core Concepts/Transactions|Transactions]], [[Core Concepts/Storage Engines|Storage Engines]], [[Core Concepts/SQL Optimization|SQL Optimization]]
-- **Database Types**: [[Database Types/SQL Databases|SQL Databases]], [[Database Types/NoSQL Databases|NoSQL Databases]], [[Database Types/NewSQL|NewSQL]], [[Database Types/Vector Databases|Vector Databases]], [[Database Types/Graph Databases|Graph Databases]]
+- **Core Concepts**: [[ACID]], [[Indexing]], [[Locking]], [[Transactions]], [[Storage Engines]], [[SQL Optimization]]
+- **Database Types**: [[SQL Databases]], [[NoSQL Databases]], [[NewSQL]], [[Vector Databases]], [[Graph Databases]]
 - **Specific Databases**: [[PostgreSQL]], [[MySQL]], [[MongoDB]], [[Redis]]
-- **Techniques & Architecture**: [[Techniques & Architecture/Sharding & Partitioning|Sharding & Partitioning]], [[Techniques & Architecture/Replication|Replication]], [[Techniques & Architecture/Caching|Caching]], [[Techniques & Architecture/Full-Text Search|Full-Text Search]], [[Techniques & Architecture/Hierarchical Data|Hierarchical Data]]
-- **Tools & Utilities**: [[Tools & Utilities/Database Tools|Database Tools]]
-- **Microservices**: [[Microservices/Database in Microservices|Database in Microservices]]
-- **Related Technologies**: [[Related Technologies/GraphQL|GraphQL]], [[Related Technologies/ElasticSearch|ElasticSearch]], [[Related Technologies/Apache Pinot|Apache Pinot]]
+- **Techniques & Architecture**: [[Sharding & Partitioning]], [[Replication]], [[Caching]], [[Full-Text Search]], [[Hierarchical Data]]
+- **Tools & Utilities**: [[Database Tools]]
+- **Microservices**: [[Database in Microservices]]
+- **Related Technologies**: [[GraphQL]], [[ElasticSearch]], [[Apache Pinot]]
 
 ## Tài liệu tham khảo
 

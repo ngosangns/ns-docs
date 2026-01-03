@@ -51,4 +51,4 @@ Tài liệu tổng hợp về thuật toán và cấu trúc dữ liệu.
 
 ## Lưu ý
 
-- File RSA.md đã được di chuyển sang [[../Security/RSA|Security folder]] vì thuộc về mật mã học.
+- File RSA.md đã được di chuyển sang [[../Security/RSA]] vì thuộc về mật mã học.

@@ -13,8 +13,8 @@ PostgreSQL là hệ quản trị cơ sở dữ liệu quan hệ đối tượng 
 
 ## Đặc điểm nổi bật
 
-- **ACID**: Đảm bảo tính toàn vẹn dữ liệu - Xem [[Core Concepts/ACID|ACID]]
-- **MVCC**: Multi-Version Concurrency Control, cho phép nhiều người dùng truy cập đồng thời - Xem [[Core Concepts/Transactions|Transactions]]
+- **ACID**: Đảm bảo tính toàn vẹn dữ liệu - Xem [[ACID]]
+- **MVCC**: Multi-Version Concurrency Control, cho phép nhiều người dùng truy cập đồng thời - Xem [[Transactions]]
 - **Khả năng mở rộng**: Hỗ trợ JSON, XML, mảng, hstore, full-text search, kiểu dữ liệu tùy chỉnh
 - **Tính năng nâng cao**: Replication (streaming, logical), partitioning, indexing đa dạng (B-tree, Hash, GiST, SP-GiST, GIN, BRIN), stored procedures, triggers, FDW
 - **Cộng đồng lớn mạnh**: Phát triển và hỗ trợ bởi cộng đồng toàn cầu
@@ -55,7 +55,7 @@ PostgreSQL là hệ quản trị cơ sở dữ liệu quan hệ đối tượng 
 
 ## Indexing
 
-Xem thêm: [[Core Concepts/Indexing|Indexing]]
+Xem thêm: [[Indexing]]
 
 ### BRIN Index (Block Range Index)
 
@@ -120,7 +120,7 @@ Xem thêm: [[Core Concepts/Indexing|Indexing]]
 
 ## High Availability
 
-Xem thêm: [[Techniques & Architecture/Replication|Replication]]
+Xem thêm: [[Replication]]
 
 ### Patroni
 

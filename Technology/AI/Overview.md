@@ -24,25 +24,25 @@ Các khái niệm cốt lõi về AI, Machine Learning và Deep Learning:
 - [[Core Concepts/Vision Transformers]] - Vision Transformers
 - [[Core Concepts/KNN - K-Nearest Neighbors]] - KNN algorithm
 
-### LLM & Generative AI
+### LLM-Generative-AI
 
 Tài nguyên về Large Language Models và Generative AI:
 
-- [[LLM & Generative AI/LLM Overview]] - Tổng quan về LLM
-- [[LLM & Generative AI/Prompt Engineering/Prompt Guide]] - Prompt Engineering
-- [[LLM & Generative AI/RAG/RAG Overview]] - Retrieval-Augmented Generation
-- [[LLM & Generative AI/Fine-tuning/Fine-tuning Techniques]] - Fine-tuning techniques
-- [[LLM & Generative AI/Models/LLM Models]] - LLM models, Diffusion models
-- [[LLM & Generative AI/Resources/LLM Learning Resources]] - Tài nguyên học tập LLM
+- [[LLM-Generative-AI/LLM Overview]] - Tổng quan về LLM
+- [[LLM-Generative-AI/Prompt Engineering/Prompt Guide]] - Prompt Engineering
+- [[LLM-Generative-AI/RAG/RAG Overview]] - Retrieval-Augmented Generation
+- [[LLM-Generative-AI/Fine-tuning/Fine-tuning Techniques]] - Fine-tuning techniques
+- [[LLM-Generative-AI/Models/LLM Models]] - LLM models, Diffusion models
+- [[LLM-Generative-AI/Resources/LLM Learning Resources]] - Tài nguyên học tập LLM
 
-### AI Agents & MCP
+### AI-Agents-MCP
 
 AI Agents và Model Context Protocol:
 
-- [[AI Agents & MCP/Agents Overview]] - Tổng quan về AI Agents
-- [[AI Agents & MCP/MCP/MCP]] - Model Context Protocol
-- [[AI Agents & MCP/Multi-Agent Systems]] - Multi-agent systems
-- [[AI Agents & MCP/Agent Frameworks]] - Agent frameworks
+- [[AI-Agents-MCP/Agents Overview]] - Tổng quan về AI Agents
+- [[AI-Agents-MCP/MCP/MCP]] - Model Context Protocol
+- [[AI-Agents-MCP/Multi-Agent Systems]] - Multi-agent systems
+- [[AI-Agents-MCP/Agent Frameworks]] - Agent frameworks
 
 ### GenAI Media
 
