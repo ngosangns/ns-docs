@@ -1,13 +1,5 @@
 ---
-relates:
-  - "[[Layered Design in Go - iRi]]"
-  - "[[Backend - Back-end]]"
 tags:
-  - golang
-  - backend
-  - layered-design-in-go
-  - web-frameworks
-  - concurrency
   - area/technology
   - domain/programming-languages
   - topic/golang
@@ -102,14 +94,17 @@ tags:
 ## 1.3. Mẹo và Thủ Thuật
 
 1. Cài đặt `protoc` và `protoc-gen-go`:
+
    ```
    go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
    sudo apt install protobuf-compiler
    go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
    ```
+
    - `protobuf-compiler`: Trình biên dịch Protocol Buffers.
    - `protoc-gen-go`: Plugin sinh mã Go từ `.proto`.
    - `protoc-gen-go-grpc`: Plugin sinh mã gRPC client/server stub.
+
 2. Xử lý optional và required fields với GORM:
    - Field optional: Dùng con trỏ (`*string`, `*int`). Giá trị `nil` nếu không cung cấp.
    - Field required: Không dùng con trỏ. GORM dùng zero value nếu không cung cấp.

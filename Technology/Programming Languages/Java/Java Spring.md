@@ -1,14 +1,10 @@
 ---
-relates:
-  - "[[Java]]"
-  - "[[Fresher Java Interview]]"
-  - "[[Backend - Back-end]]"
 tags:
-  - java
-  - fresher-java-interview
-  - backend-back-end
-  - resources
-  - auth
+  - area/technology
+  - domain/programming-languages
+  - topic/java
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

@@ -1,18 +1,16 @@
 ---
-relates:
-  - "[[Fresher Java Interview]]"
-  - "[[Fresher Back-end Interview]]"
 tags:
-  - fresher-java-interview
-  - fresher-back-end-interview
-  - software-engineer-interview
-  - interview-preparation
-  - coding-interview
+  - area/technology
+  - domain/interview
+  - topic/interview
+  - type/resource
+  - lang/vi
 ---
 
 # Interview - Phỏng vấn
 
 ## Resources
+
 - Trải nghiệm phỏng vấn Software Engineer tại TikTok Singapore
   - Roadmap ôn tập: Canva design
 - **Viblo Interview**: interview.viblo.asia
@@ -34,10 +32,14 @@ tags:
 - **My Google interview journey**: Medium article
 
 ## Sharing
+
 - [[Interview Senior Engineer]]
+- [[Oracle Interview - Gandhinagar]]
 
 ## Khóa học
+
 - educative.io: Grokking Coding Interview Patterns JavaScript
 
 ## Test
+
 - turing.com/interview-questions: Laravel, Golang

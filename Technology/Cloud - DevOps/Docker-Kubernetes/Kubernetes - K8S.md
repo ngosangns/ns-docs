@@ -1,14 +1,9 @@
 ---
-relates:
-  - "[[DevOps]]"
-  - "[[Backend - Back-end]]"
-  - "[[Kho chung IT]]"
 tags:
-  - devops
-  - backend-back-end
-  - kho-chung-it
-  - resources
-  - tools
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

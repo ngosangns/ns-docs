@@ -1,21 +1,10 @@
 ---
-relates:
-  - "[[AI - ML]]"
-  - "[[Javascript - Typescript]]"
-  - "[[Python]]"
 tags:
   - area/technology
   - domain/ai-ml
   - topic/lm-studio
-  - topic/javascript
-  - topic/typescript
-  - topic/python
-  - topic/machine-learning
-  - topic/deep-learning
   - type/resource
   - lang/vi
-aliases:
-  - LM Studio
 ---
 
 # Tổng quan

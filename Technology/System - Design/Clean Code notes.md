@@ -1,25 +1,8 @@
 ---
 tags:
-  - clean
-  - code
-  - design
-  - english
-  - functions
-  - general
-  - names
-  - notes
-  - quick-reference
-  - rules
-  - tips
-  - understandability
-  - clean-code
-  - design-rules
-  - understandability-tips
-  - names-rules
-  - functions-rules
   - area/technology
   - domain/system-design
-  - type/resource
+  - type/note
   - lang/vi
 ---
 

@@ -1,13 +1,10 @@
 ---
-relates:
-  - "[[Postgresql]]"
-  - "[[Database]]"
 tags:
-  - postgresql
-  - database
-  - resources
-  - tools
-  - storage-engine
+  - area/technology
+  - domain/backend
+  - topic/database
+  - type/resource
+  - lang/vi
 ---
 
 # MySQL

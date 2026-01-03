@@ -1,22 +1,9 @@
 ---
 tags:
-  - clipboard
-  - dark
-  - general
-  - keys
-  - login
-  - menu
-  - mode
-  - nhanh
-  - options
-  - quick-reference
-  - sign
-  - start
-  - sticky
-  - tips
-  - vietnamese
-  - windows
-  - dark-mode
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 Windows có đầy đủ các cài đặt mà có thể chúng ta chưa biết đến, các tính năng ẩn kinh ngạc giúp bạn thực hiện các việc cơ bản như login vào PC hay chọn emoji để gửi cho bạn bè. Mặc dù một số cài đặt có thể không cần thiết cho các tác vụ hằng ngày, nhưng có thể một trong số chúng sẽ làm cho Windows trở nên thân thiện hơn sau một vài phút thực hiện.

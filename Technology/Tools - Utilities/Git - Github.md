@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Frontend - Front-end]]"
 tags:
-  - workflows
-  - trunk-flow
-  - forking-flow
-  - git-hooks
-  - git-filter-repo
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Workflows

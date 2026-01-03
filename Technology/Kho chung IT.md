@@ -1,22 +1,9 @@
 ---
-relates:
-  - "[[Data structures & Algorithms]]"
-  - "[[DevOps]]"
-  - "[[Git - Github]]"
-  - "[[Work]]"
-  - "[[Frontend - Front-end]]"
-  - "[[Backend - Back-end]]"
-  - "[[SaaS]]"
-  - "[[Solutions & System Designs & Design Patterns]]"
-  - "[[AI - ML]]"
-  - "[[Database]]"
-  - "[[Blockchain]]"
 tags:
-  - data-structures-algorithms
-  - devops
-  - git-github
-  - work
-  - frontend-back-end
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

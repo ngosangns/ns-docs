@@ -1,11 +1,9 @@
 ---
 tags:
-  - concise
-  - content
-  - general
-  - quick-reference
-  - resources
-  - vietnamese
+  - area/technology
+  - domain/documentation
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

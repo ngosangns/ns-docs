@@ -1,13 +1,10 @@
 ---
-relates:
-  - "[[Golang]]"
-  - "[[Solutions & System Designs & Design Patterns]]"
 tags:
-  - golang
-  - solutions-system-designs-design-patterns
-  - layered-design
-  - requirements
-  - avoiding-circular-dependencies
+  - area/technology
+  - domain/programming-languages
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 Thiết Kế Phân Lớp (Layered Design) trong Go

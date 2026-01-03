@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
 tags:
-  - frontend-front-end
-  - reflow
-  - repaint
-  - layout-shift
-  - core-web-vitals
+  - area/technology
+  - domain/frontend
+  - topic/performance
+  - type/resource
+  - lang/vi
 ---
 
 # Reflow, Repaint, Layout Shift

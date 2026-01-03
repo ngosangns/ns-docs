@@ -1,17 +1,5 @@
 ---
-relates:
-  - "[[IaaS]]"
-  - "[[SaaS]]"
-  - "[[Backend - Back-end]]"
-  - "[[AWS]]"
-  - "[[Azure]]"
-  - "[[Google Cloud Platform - GCP]]"
 tags:
-  - devops
-  - iaas
-  - saas
-  - backend-back-end
-  - aws
   - area/technology
   - domain/devops
   - type/resource

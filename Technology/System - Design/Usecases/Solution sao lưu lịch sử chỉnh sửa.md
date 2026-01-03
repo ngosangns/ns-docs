@@ -1,16 +1,9 @@
 ---
 tags:
-  - chinh
-  - concise
-  - general
-  - lich
-  - luu
-  - quick-reference
-  - solution
-  - su
-  - sua
-  - vietnamese
-  - database-design
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 :)) với restrict về qui mô và reloading time thì em ko dám đề cập, vì các project em làm ko strictly vs lớn như vậy, nhưng em cũng xin được góp 1 tí ak

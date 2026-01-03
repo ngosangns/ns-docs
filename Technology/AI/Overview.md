@@ -1,23 +1,10 @@
 ---
-relates:
-  - "[[AI support for coding - MCP - Agent]]"
-  - "[[6 Chiến lược Prompt Hiệu quả của OpenAI]]"
-  - "[[AI - Large Language Models (LLM)]]"
-  - "[[MCP - Model Context Protocol]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai-support-for-coding
-  - mcp
-  - agent
   - area/technology
   - domain/ai-ml
+  - topic/llm
   - type/resource
   - lang/vi
-aliases:
-  - Machine Learning
-  - Deep Learning
-  - AI - ML
 ---
 
 # 1. Machine Learning, Deep Learning & AI

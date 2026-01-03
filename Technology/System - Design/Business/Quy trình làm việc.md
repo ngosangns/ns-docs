@@ -1,14 +1,9 @@
 ---
 tags:
-  - agile
-  - concise
-  - general
-  - lam
-  - quick-reference
-  - scrum
-  - trinh
-  - viec
-  - vietnamese
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # Agile/Scrum

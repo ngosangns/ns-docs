@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Microservices]]"
 tags:
-  - microservices
-  - serverless
-  - fullstack-station
-  - viblo
-  - aws-lambda-runtime-interface-emulator
-  - serverless-land
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 
 - Serverless:

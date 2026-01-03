@@ -1,16 +1,9 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
-  - "[[Backend - Back-end]]"
-  - "[[Microservices]]"
-  - "[[SaaS]]"
-  - "[[Rust]]"
 tags:
-  - frameworks
-  - expo
-  - lynx
-  - rust
-  - frontend
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Frameworks

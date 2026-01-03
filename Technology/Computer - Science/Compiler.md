@@ -1,14 +1,9 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Microservices]]"
-  - "[[PHP]]"
 tags:
-  - backend
-  - back-end
-  - microservices
-  - php
-  - llvm-project
+  - area/technology
+  - domain/computer-science
+  - type/resource
+  - lang/vi
 ---
 
 - https://github.com/llvm/llvm-project

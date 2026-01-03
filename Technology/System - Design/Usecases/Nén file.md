@@ -1,11 +1,9 @@
 ---
 tags:
-  - concise
-  - file
-  - general
-  - nen
-  - quick-reference
-  - vietnamese
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 Tùy vào file bạn định nén là gì.

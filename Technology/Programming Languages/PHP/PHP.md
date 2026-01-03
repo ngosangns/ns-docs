@@ -1,10 +1,5 @@
 ---
 tags:
-  - php
-  - web-server
-  - sapi
-  - thread-safety
-  - spl
   - area/technology
   - domain/programming-languages
   - topic/php

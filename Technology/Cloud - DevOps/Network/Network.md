@@ -2,27 +2,8 @@
 tags:
   - area/technology
   - domain/devops
-  - topic/network
-  - topic/load-balancer
-  - topic/proxy
   - type/resource
   - lang/vi
-  - balancer
-  - concise
-  - debugger
-  - envoy
-  - general
-  - haproxy
-  - http
-  - load
-  - network
-  - proxy
-  - proxypin
-  - quick-reference
-  - reverse
-  - tutorial
-  - load-balancer
-  - reverse-proxy
 ---
 
 # 1. Resources

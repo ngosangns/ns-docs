@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Laravel]]"
 tags:
-  - laravel
-  - resources
-  - tools
-  - altar
-  - frameworks
-  - hasura
+  - area/technology
+  - domain/backend
+  - type/resource
+  - lang/vi
 ---
 
 # GraphQL

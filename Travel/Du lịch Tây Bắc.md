@@ -1,10 +1,9 @@
 ---
 tags:
-  - Du-lịch-Tây-Bắc
-  - Cung-đường-huyền-thoại
-  - Phượt-Tây-Bắc
-  - Cảnh-đẹp-Tây-Bắc
-  - Văn-hóa-Tây-Bắc
+  - area/travel
+  - domain/travel-guide
+  - type/resource
+  - lang/vi
 ---
 
 - [khoe - Hà Giang đi mãi không chán | VOZ](https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/)

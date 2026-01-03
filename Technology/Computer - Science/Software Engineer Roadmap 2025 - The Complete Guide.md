@@ -1,23 +1,9 @@
 ---
 tags:
-  - 2025
-  - ai-ml
-  - algorithms
-  - complete
-  - data
-  - engineer
-  - english
-  - general
-  - guide
-  - patterns
-  - roadmap
-  - services
-  - software
-  - structures
-  - testing
-  - tools
-  - "2025"
-  - software-engineer
+  - area/technology
+  - domain/computer-science
+  - type/guide
+  - lang/vi
 ---
 
 If you’re looking to become a software engineer, this guide is for you. With so many technologies out there, it’s easy to feel overwhelmed. This roadmap **cuts through the noise**, helping you focus on the **most essential skills** to stand out in the industry.
@@ -26,7 +12,7 @@ We’ll cover everything from AI tools, cloud services, system design, performan
 
 At the end, [**grab a free copy of this roadmap**](https://devmastery.pro/swe-roadmap) to track your progress.
 
-**_Prerequisite:_** *This roadmap assumes you already have fundamental frontend and backend development skills. If not, check out my* [_Frontend_](https://levelup.gitconnected.com/frontend-developer-roadmap-2025-the-complete-guide-b209a9c3a22b) *&* [_Backend_](https://levelup.gitconnected.com/backend-developer-roadmap-2025-the-complete-guide-ae9d12c38c05) *Developer Guides before diving in.*
+***Prerequisite:*** *This roadmap assumes you already have fundamental frontend and backend development skills. If not, check out my* [_Frontend_](https://levelup.gitconnected.com/frontend-developer-roadmap-2025-the-complete-guide-b209a9c3a22b) *&* [_Backend_](https://levelup.gitconnected.com/backend-developer-roadmap-2025-the-complete-guide-ae9d12c38c05) *Developer Guides before diving in.*
 
 ---
 

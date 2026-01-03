@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Microservices]]"
-  - "[[Backend - Back-end]]"
 tags:
-  - microservices
-  - backend-back-end
-  - programming-language-for-cloud
-  - firebase-cloud-messaging
-  - automation-tasks
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

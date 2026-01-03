@@ -1,14 +1,9 @@
 ---
 tags:
-  - ai-ml
-  - concise
-  - general
-  - generation
-  - quick-reference
-  - ram
-  - vietnamese
-aliases:
-  - Râm Generation
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 # Râm Generation

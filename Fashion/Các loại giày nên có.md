@@ -1,19 +1,9 @@
 ---
 tags:
-  - boots
-  - cac
-  - chelsea
-  - concise
-  - derby
-  - general
-  - giay
-  - loai
-  - nen
-  - oxford
-  - quick-reference
-  - sneakers
-  - vietnamese
-  - chelsea-boots
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 # Giày Oxford đen

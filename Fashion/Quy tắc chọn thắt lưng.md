@@ -1,13 +1,9 @@
 ---
 tags:
-  - chon
-  - concise
-  - general
-  - lung
-  - quick-reference
-  - tac
-  - that
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/guide
+  - lang/vi
 ---
 
 - Quy tắc 1: Không bao giờ mang 1 chiếc thắt lưng có màu khác so với giày.

@@ -1,18 +1,9 @@
 ---
 tags:
-  - concise
-  - crow
-  - database
-  - diagram
-  - diagrams
-  - english
-  - foot
-  - general
-  - notation
-  - o
-  - quick-reference
-  - tools
-  - diagram-tools
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Crow's foot notation

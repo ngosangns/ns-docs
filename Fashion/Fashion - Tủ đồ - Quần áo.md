@@ -1,11 +1,9 @@
 ---
 tags:
   - area/fashion
+  - domain/clothing
   - type/resource
   - lang/vi
-  - lifestyle
-  - personal
-  - quick-reference
 ---
 
 - [[Thống kê tủ đồ hiện tại]]

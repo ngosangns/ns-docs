@@ -1,15 +1,9 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
-  - "[[Backend - Back-end]]"
-  - "[[Solutions & System Designs & Design Patterns]]"
-aliases: []
 tags:
-  - frontend
-  - backend
-  - solutions-system-designs-design-patterns
-  - schema-org
-  - framework
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

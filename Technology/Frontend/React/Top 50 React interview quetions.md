@@ -3,13 +3,8 @@ tags:
   - area/technology
   - domain/frontend
   - topic/react
-  - topic/interview
-  - topic/javascript
   - type/resource
-  - lang/en
-  - frontend
-  - interview
-  - questions
+  - lang/vi
 ---
 
 # Top 50 React Interview Questions

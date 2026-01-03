@@ -1,17 +1,16 @@
 ---
-relates:
-  - "[[Note câu hỏi phỏng vấn Laravel]]"
 tags:
-  - interview-questions
-  - Laravel
-  - digital-nomad
-  - Japanese-company
-  - HR-questions
+  - area/technology
+  - domain/interview
+  - topic/interview
+  - type/resource
+  - lang/vi
 ---
 
 # Phỏng vấn JV-IT
 
 ## Giới thiệu bản thân
+
 - Họ và tên
 - Số năm kinh nghiệm
 - Sở thích công nghệ
@@ -20,11 +19,13 @@ tags:
 ## Câu hỏi nên hỏi công ty
 
 ### Hỏi trước HR
+
 - Phỏng vấn với ai?
 - Có mấy bước phỏng vấn?
 - Người phỏng vấn gồm những ai?
 
 ### Hỏi HR
+
 - Có phải vốn 100% của Nhật không?
 - Công ty có tester không?
 - Đóng bảo hiểm trên full lương hay lương cơ bản vùng?
@@ -39,6 +40,7 @@ tags:
 - Có cam kết ràng buộc gì khi làm hợp đồng không?
 
 ### Hỏi leader
+
 - Dự án có microservice, cache, tối ưu query, design system không?
 - Tech stack chính của công ty là gì? Có dựa vào khách hàng không?
 - Scope trong dự án là làm gì? Có bao gồm DevOps hay tester không?
@@ -52,6 +54,7 @@ tags:
 - Các buổi workshop thường nói về cái gì?
 
 ## Ghi chú
+
 - Người phỏng vấn cười nhiều ⇒ xịt
 - Nhật coi trọng người gắn bó với công ty
 - Người Nhật thích những người tuân thủ quy định và quy trình

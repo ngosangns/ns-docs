@@ -1,18 +1,9 @@
 ---
 tags:
-  - cac
-  - chinos
-  - concise
-  - general
-  - jeans
-  - kaki
-  - loai
-  - nen
-  - o
-  - quan
-  - quick-reference
-  - slim
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 # Quần jeans dáng slim-fit

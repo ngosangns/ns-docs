@@ -1,16 +1,9 @@
 ---
-relates:
-  - "[[Phượt]]"
-  - "[[Đi du lịch Hồ Chí Minh - Cần Giờ - Vũng Tàu]]"
 tags:
   - area/travel
+  - domain/travel-plan
   - type/plan
   - lang/vi
-  - phuot
-  - di-du-lich-ho-chi-minh-can-gio-vung-tau
-  - ke-hoach-du-lich-han-quoc
-  - ke-hoach-ha-noi
-  - mon-an
 ---
 
 # 1. Kế hoạch du lịch Hàn Quốc

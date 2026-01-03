@@ -1,13 +1,10 @@
 ---
 tags:
-  - ai--machine-learning
-  - ai-ml
-  - artificial-intelligence
-  - blockchain
-  - concise
-  - quick-reference
-  - vietnamese
-  - ai-machine-learning
+  - area/technology
+  - domain/backend
+  - topic/blockchain
+  - type/resource
+  - lang/vi
 ---
 
 # Blockchain

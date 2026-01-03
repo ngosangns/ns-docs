@@ -1,13 +1,10 @@
 ---
 tags:
-  - ai-ml
-  - coding
-  - fresher
-  - interview
-  - java
-  - programming
-  - programming-languages
-  - vietnamese
+  - area/technology
+  - domain/programming-languages
+  - topic/java
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Fresher Java Interview

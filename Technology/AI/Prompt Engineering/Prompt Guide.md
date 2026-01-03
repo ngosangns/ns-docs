@@ -1,16 +1,9 @@
 ---
-relates:
-  - "[[AI - ML]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai
-  - ml
-  - dl
-  - prompt-cơ-bản
-aliases:
-  - LLM promt engineering
-  - LLM prompt engineering
+  - area/technology
+  - domain/ai-ml
+  - type/guide
+  - lang/vi
 ---
 
 # 1. Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)

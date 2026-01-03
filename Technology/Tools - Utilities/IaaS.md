@@ -1,11 +1,9 @@
 ---
 tags:
-  - concise
-  - english
-  - general
-  - iaas
-  - quick-reference
-  - resources
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # Resources

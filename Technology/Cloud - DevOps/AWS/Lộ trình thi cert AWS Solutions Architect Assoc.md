@@ -1,19 +1,9 @@
 ---
 tags:
-  - architect
-  - assoc
-  - aws
-  - cert
-  - cloud
-  - cloud--devops
-  - concise
-  - devops
-  - infrastructure
-  - lo
-  - quick-reference
-  - solutions
-  - trinh
-  - vietnamese
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 
 Chào tất cả mọi người,

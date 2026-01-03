@@ -1,16 +1,7 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[DevOps]]"
 tags:
-  - backend
-  - devops
-  - resources
-  - nginx-proxy-manager
-  - performance-optimization
   - area/technology
   - domain/devops
-  - topic/nginx
   - type/resource
   - lang/vi
 ---

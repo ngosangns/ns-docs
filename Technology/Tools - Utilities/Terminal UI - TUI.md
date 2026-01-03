@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[Kho chung IT]]"
 tags:
-  - resources
-  - kho-chung-it
-  - awesome-tui
-  - cointop
-  - irc-client
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

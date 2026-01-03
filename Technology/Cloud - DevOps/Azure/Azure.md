@@ -1,18 +1,10 @@
 ---
-relates:
-  - "[[Database]]"
-  - "[[Backend - Back-end]]"
-  - "[[SaaS]]"
 tags:
   - area/technology
   - domain/devops
   - topic/azure
-  - topic/database
-  - topic/backend
-  - topic/serverless
   - type/resource
   - lang/vi
-  - go
 ---
 
 # Resources

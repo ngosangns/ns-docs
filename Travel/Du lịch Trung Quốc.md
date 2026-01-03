@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[Du lịch]]"
 tags:
-  - du-lịch
-  - resources
-  - visa
-  - trung-quốc
-  - alipay
+  - area/travel
+  - domain/travel-guide
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources
@@ -23,14 +20,14 @@ VD 5 ngày đi đầy chỗ:
 
 - Vân Nam: Đại lý - Lệ giang thế thôi (miễn đi Shangrila chả có vẹo gì)
 - Thượng hải, tô châu
-- bắc kinh  
-   - Học viện mỹ thuật Hà Bắc (khác gì trường của harry portẻr đâu) - Cửu trại câu
-  +) cài Alipay vào  
-  +) dẫn đường Amap  
-  +) ăn uống wechat  
-  +) vé tàu 12306.cn có apps đấy,  
-  +) google dịch.  
-  tại sao t vote tự túc, vì tự túc mới biết con bồ của bạn tính cách thế nào, khả năng tổng quát ra sao,
+- bắc kinh
+  - Học viện mỹ thuật Hà Bắc (khác gì trường của harry portẻr đâu) - Cửu trại câu
+    +) cài Alipay vào  
+    +) dẫn đường Amap  
+    +) ăn uống wechat  
+    +) vé tàu 12306.cn có apps đấy,  
+    +) google dịch.  
+    tại sao t vote tự túc, vì tự túc mới biết con bồ của bạn tính cách thế nào, khả năng tổng quát ra sao,
 
 ---
 

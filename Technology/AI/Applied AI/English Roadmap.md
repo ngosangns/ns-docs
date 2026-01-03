@@ -1,18 +1,9 @@
 ---
 tags:
-  - ai--machine-learning
-  - ai-ml
-  - anwser
-  - artificial-intelligence
-  - chatgpt
-  - chatgpt4
-  - hoc
-  - promt
-  - roadmap
-  - tieng
-  - tu
-  - vietnamese
-  - tu-vietnamese
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Promt

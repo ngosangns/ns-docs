@@ -1,14 +1,9 @@
 ---
 tags:
-  - bac
-  - concise
-  - cuu
-  - general
-  - nha
-  - nuong
-  - quick-reference
-  - thit
-  - vietnamese
+  - area/personal-dev
+  - domain/life-skills
+  - type/resource
+  - lang/vi
 ---
 
 - Đi mua than, mua 1 bịch 10k nhưng nếu muốn nướng lâu phải mua 2 bịch mới đủ.

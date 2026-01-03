@@ -1,7 +1,9 @@
 ---
-relates:
-  - "[[Database]]"
-  - "[[Postgresql]]"
+tags:
+  - area/technology
+  - domain/backend
+  - type/resource
+  - lang/vi
 ---
 
 # ProxySQL Connection Multiplexing

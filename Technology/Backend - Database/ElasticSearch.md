@@ -1,10 +1,10 @@
 ---
 tags:
-  - concise
-  - elasticsearch
-  - general
-  - quick-reference
-  - vietnamese
+  - area/technology
+  - domain/backend
+  - topic/elasticsearch
+  - type/resource
+  - lang/vi
 ---
 
 # ElasticSearch

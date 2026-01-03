@@ -1,12 +1,9 @@
 ---
 tags:
-  - general
-  - hue
-  - lich
-  - quick-reference
-  - vietnamese
-  - dia-diem
-  - do-an
+  - area/travel
+  - domain/travel-guide
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Địa điểm

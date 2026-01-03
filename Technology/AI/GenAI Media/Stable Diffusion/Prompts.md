@@ -1,12 +1,10 @@
 ---
 tags:
-  - interview
-  - role-play
-  - diffusion
-  - image-description
-  - stable-diffusion
-aliases:
-  - Prompt
+  - area/technology
+  - domain/ai-ml
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Interview

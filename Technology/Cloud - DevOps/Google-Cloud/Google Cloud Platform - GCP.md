@@ -1,17 +1,10 @@
 ---
 tags:
-  - cloud
-  - cloud--devops
-  - concise
-  - devops
-  - english
-  - gcp
-  - golang
-  - google
-  - infrastructure
-  - platform
-  - quick-reference
-  - resources
+  - area/technology
+  - domain/devops
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 # Resources

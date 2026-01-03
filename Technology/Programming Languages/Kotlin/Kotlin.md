@@ -1,25 +1,10 @@
 ---
 tags:
-  - android
-  - cheat
-  - coding
-  - coroutines
-  - engineer
-  - frameworks
-  - golang
-  - kotlin
-  - libraries
-  - programming
-  - programming-languages
-  - quick-reference
-  - resources
-  - runcatching
-  - sheet
-  - trick
-  - vietnamese
-  - kotlin-coroutines
-  - android-engineer
-  - run-catching
+  - area/technology
+  - domain/programming-languages
+  - topic/kotlin
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

@@ -1,13 +1,9 @@
 ---
 tags:
-  - general
-  - orther
-  - quick-reference
-  - scene
-  - target
-  - users
-  - vietnamese
-  - workspace
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # Một số khái niệm

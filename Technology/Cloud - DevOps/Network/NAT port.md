@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Kho chung IT]]"
-  - "[[Network]]"
 tags:
-  - kho-chung-it
-  - network
-  - dynamic-ip
-  - nat-port
-  - router-yen-mang
+  - area/technology
+  - domain/devops
+  - type/resource
+  - lang/vi
 ---
 
 Mỗi hộ gia đình khi đăng ký gói mạng sẽ có quyền sử dụng một public dynamic IP (tự động reset sau khi reset module).

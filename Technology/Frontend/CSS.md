@@ -1,15 +1,7 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
 tags:
-  - css
-  - frontend
-  - front-end
-  - libraries
-  - animations
   - area/technology
   - domain/frontend
-  - topic/css
   - type/resource
   - lang/vi
 ---

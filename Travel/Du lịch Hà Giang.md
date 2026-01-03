@@ -1,3 +1,11 @@
+---
+tags:
+  - area/travel
+  - domain/travel-guide
+  - type/resource
+  - lang/vi
+---
+
 Gợi ý lịch trình : 5 ngày 4 đêm Hà Giang - Cao Bằng
 
 NGÀY 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú
@@ -11,7 +19,7 @@ NGÀY 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú
 
 • Chiều:
 • Vượt Dốc Thẩm Mã, check-in với cảnh núi non kỳ vĩ.
-• Khám phá Phố Cáo với những ngôi nhà trình tường của người H’Mông.
+• Khám phá Phố Cáo với những ngôi nhà trình tường của người H'Mông.
 • Tham quan Nhà Pao - điểm đến nổi tiếng qua các bộ phim.
 • Thăm làng nghề bạc thủ công Lao Xa.
 • Tìm hiểu lịch sử tại Dinh thự Vua Mèo (Nhà Vương).
@@ -24,11 +32,11 @@ NGÀY 2: Lũng Cú - Đồng Văn - Mã Pí Lèng - Sông Nho Quế - Pả Vi
 • Chinh phục Cột cờ Lũng Cú - điểm cực Bắc thiêng liêng của Việt Nam.
 • Dạo chơi tại thị trấn Đồng Văn, thưởng thức đặc sản (bánh tam giác mạch, phở chua).
 • Chiều:
-• Vượt Đèo Mã Pí Lèng, một trong “tứ đại đỉnh đèo” với cảnh sắc hùng vĩ.
+• Vượt Đèo Mã Pí Lèng, một trong "tứ đại đỉnh đèo" với cảnh sắc hùng vĩ.
 • Xuống bến thuyền, chèo kayak hoặc đi thuyền trên sông Nho Quế, khám phá hẻm vực Tu Sản.
 • Trưa:
 • Ăn trưa tại quán camping anh Quân, nơi có view đẹp hướng vào hẻm Tu Sản hùng vĩ.
-• Check-in tại Pả Vi, ngôi làng H’Mông xinh đẹp.
+• Check-in tại Pả Vi, ngôi làng H'Mông xinh đẹp.
 • Tối:
 • Nghỉ ngơi tại homestay ở Pả Vi, tận hưởng không gian yên bình.
 

@@ -1,11 +1,10 @@
 ---
 tags:
-  - concise
-  - english
-  - general
-  - quick-reference
-  - resources
-  - scheduler
+  - area/technology
+  - domain/programming-languages
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 # Resources

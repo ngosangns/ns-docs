@@ -1,7 +1,10 @@
 ---
-relates:
-  - "[[MySQL]]"
-  - "[[Postgresql]]"
+tags:
+  - area/technology
+  - domain/backend
+  - topic/database
+  - type/resource
+  - lang/vi
 ---
 
 # Database

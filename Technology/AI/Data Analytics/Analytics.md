@@ -1,16 +1,9 @@
 ---
 tags:
-  - apache-iceberg
-  - table-format
-  - big-data-analytics
-  - data-lakes
-  - looker-studio
   - area/technology
   - domain/ai-ml
   - type/resource
   - lang/vi
-aliases:
-  - Data Analyze
 ---
 
 # Tổng quan

@@ -1,15 +1,9 @@
 ---
 tags:
-  - cac
-  - concise
-  - general
-  - hop
-  - loai
-  - mua
-  - phu
-  - quick-reference
-  - vai
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 - Vải cotton: Tốt, mềm mại, thoáng khi, thấm hút mồ hôi tốt mà còn có giá thành thấp.

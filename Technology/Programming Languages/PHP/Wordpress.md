@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[PHP]]"
 tags:
-  - element-builder
-  - wordpress-theme
-  - avada
-  - astra
-  - generatepress
+  - area/technology
+  - domain/programming-languages
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Element builder

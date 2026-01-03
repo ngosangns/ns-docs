@@ -1,11 +1,9 @@
 ---
 tags:
-  - concise
-  - dagger
-  - general
-  - koin
-  - quick-reference
-  - vietnamese
+  - area/technology
+  - domain/programming-languages
+  - type/resource
+  - lang/vi
 ---
 
 Dagger:

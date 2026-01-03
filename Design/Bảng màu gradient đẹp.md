@@ -1,6 +1,4 @@
 ---
-relates:
-  - "[[Design]]"
 tags:
   - area/design
   - type/resource

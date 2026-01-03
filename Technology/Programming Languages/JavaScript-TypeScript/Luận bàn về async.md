@@ -1,14 +1,9 @@
 ---
-relates:
-  - "[[PHP]]"
-  - "[[Javascript - Typescript]]"
-  - "[[OS Scheduler]]"
 tags:
-  - php
-  - javascript-typescript
-  - os-scheduler
-  - async
-  - event-loop
+  - area/technology
+  - domain/programming-languages
+  - type/resource
+  - lang/vi
 ---
 
 ## Async trong Javascript

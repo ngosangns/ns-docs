@@ -1,14 +1,9 @@
 ---
-relates:
-  - "[[Kho chung IT]]"
-  - "[[Backend - Back-end]]"
-  - "[[Fullstack - Full-stack]]"
 tags:
-  - kho-chung-it
-  - backend-back-end
-  - fullstack-full-stack
-  - c4-model
-  - arc42
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resouces

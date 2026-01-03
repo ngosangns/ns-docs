@@ -1,0 +1,12 @@
+{
+  "name": "ngosangns-obsidian",
+  "version": "1.0.0",
+  "description": "Obsidian notes workspace",
+  "scripts": {
+    "format:md": "node format-md.js",
+    "format:md:check": "node format-md.js --check"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

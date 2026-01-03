@@ -1,14 +1,9 @@
 ---
 tags:
-  - concise
-  - general
-  - hien
-  - o
-  - quick-reference
-  - tai
-  - thong
-  - vietnamese
-  - hien-o
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 # Cần mua thêm

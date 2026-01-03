@@ -1,12 +1,9 @@
 ---
 tags:
-  - business
-  - business-management
-  - concise
-  - management
-  - quick-reference
-  - resource
-  - vietnamese
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resource

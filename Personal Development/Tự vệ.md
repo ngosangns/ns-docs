@@ -1,12 +1,9 @@
 ---
 tags:
-  - concise
-  - english
-  - general
-  - quick-reference
-  - resource
-  - tu
-  - ve
+  - area/personal-dev
+  - domain/life-skills
+  - type/resource
+  - lang/vi
 ---
 
 # Resource

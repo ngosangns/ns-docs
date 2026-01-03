@@ -1,15 +1,8 @@
 ---
 tags:
-  - general
-  - golang
-  - home
-  - inceptionlabs
-  - money
-  - ngosangns
-  - nhamayquangphu
-  - personal
-  - vietnamese
-  - vocab
+  - area/general
+  - type/note
+  - lang/vi
 ---
 
 # 1. Làm lều
@@ -90,6 +83,9 @@ tags:
 - Nghiên cứu về pin: https://cafef.vn/dot-pha-vo-song-trung-quoc-tim-ra-cong-nghe-phuc-hoi-pin-lithium-ion-da-bi-chai-khong-can-thao-roi-van-dua-duoc-pin-ve-trang-thai-nhu-moi-xuat-xuong-co-the-dat-tuoi-tho-60000-chu-ky-sac-xa-trong-164-nam-188250216112303946.chn
 
 ## 6.3. Drone
+
+- https://www.facebook.com/reel/1144052800510992
+- https://www.facebook.com/reel/655674513905186
 
 # 7. Sóng âm
 

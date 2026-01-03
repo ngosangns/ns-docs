@@ -1,14 +1,9 @@
 ---
 tags:
-  - cac
-  - concise
-  - general
-  - loai
-  - o
-  - phuc
-  - quick-reference
-  - trang
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 - Đồ mặc ở nhà

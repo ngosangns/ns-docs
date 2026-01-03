@@ -1,11 +1,10 @@
 ---
 tags:
-  - concise
-  - flutter
-  - general
-  - quick-reference
-  - resources
-  - vietnamese
+  - area/technology
+  - domain/programming-languages
+  - topic/flutter
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

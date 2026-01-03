@@ -1,13 +1,10 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
 tags:
-  - javascript
-  - typescript
-  - frontend
-  - event-loop
-  - optimization-techniques
-updated: 2025-12-26
+  - area/technology
+  - domain/programming-languages
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # JavaScript / TypeScript
@@ -82,13 +79,13 @@ Ghi chú tổng hợp theo kiểu “hub”: vừa dùng để ôn nền tảng,
 
 ```js
 function makeCounter() {
-  let n = 0;
-  return () => ++n;
+  let n = 0
+  return () => ++n
 }
 
-const inc = makeCounter();
-inc(); // 1
-inc(); // 2
+const inc = makeCounter()
+inc() // 1
+inc() // 2
 ```
 
 #### `this` (nhớ theo call-site)
@@ -97,13 +94,13 @@ inc(); // 2
 const obj = {
   x: 1,
   getX() {
-    return this.x;
-  },
-};
+    return this.x
+  }
+}
 
-const f = obj.getX;
-f(); // undefined (strict mode)
-obj.getX(); // 1
+const f = obj.getX
+f() // undefined (strict mode)
+obj.getX() // 1
 ```
 
 Rules nhanh:
@@ -127,13 +124,13 @@ Rules nhanh:
 - Quy tắc: sau mỗi macrotask, engine “drain” hết microtask.
 
 ```js
-console.log(1);
+console.log(1)
 
-setTimeout(() => console.log(2), 0);
+setTimeout(() => console.log(2), 0)
 
-Promise.resolve().then(() => console.log(3));
+Promise.resolve().then(() => console.log(3))
 
-console.log(4);
+console.log(4)
 // 1 4 3 2
 ```
 
@@ -161,8 +158,8 @@ Prefer `AbortController` (fetch + các API hỗ trợ abort). Timeout thường 
 
 ```js
 // code splitting
-const { heavy } = await import("./heavy.js");
-heavy();
+const { heavy } = await import("./heavy.js")
+heavy()
 ```
 
 #### Side effects
@@ -221,7 +218,7 @@ Ví dụ:
  * @param {number} b
  */
 function add(a, b) {
-  return a + b;
+  return a + b
 }
 ```
 
@@ -256,7 +253,7 @@ Nguồn:
 
 ```ts
 function assertNever(x: never): never {
-  throw new Error(`Unexpected: ${x}`);
+  throw new Error(`Unexpected: ${x}`)
 }
 ```
 
@@ -276,11 +273,11 @@ function assertNever(x: never): never {
 - Discriminated unions.
 
 ```ts
-type Result = { ok: true; data: string } | { ok: false; error: string };
+type Result = { ok: true; data: string } | { ok: false; error: string }
 
 function handle(r: Result) {
-  if (!r.ok) return r.error;
-  return r.data;
+  if (!r.ok) return r.error
+  return r.data
 }
 ```
 
@@ -288,7 +285,7 @@ function handle(r: Result) {
 
 ```ts
 function isString(x: unknown): x is string {
-  return typeof x === "string";
+  return typeof x === "string"
 }
 ```
 
@@ -296,7 +293,7 @@ function isString(x: unknown): x is string {
 
 ```ts
 function assertNonNull<T>(x: T): asserts x is NonNullable<T> {
-  if (x == null) throw new Error("Expected non-null");
+  if (x == null) throw new Error("Expected non-null")
 }
 ```
 
@@ -325,21 +322,21 @@ Giữ literal types nhưng vẫn kiểm tra shape.
 ```ts
 const routes = {
   home: "/",
-  user: "/users/:id",
-} satisfies Record<string, string>;
+  user: "/users/:id"
+} satisfies Record<string, string>
 ```
 
 #### Conditional types + `infer`
 
 ```ts
-type UnwrapPromise<T> = T extends Promise<infer U> ? U : T;
-type A = UnwrapPromise<Promise<number>>; // number
+type UnwrapPromise<T> = T extends Promise<infer U> ? U : T
+type A = UnwrapPromise<Promise<number>> // number
 ```
 
 #### Template literal types
 
 ```ts
-type EventName = `user:${"created" | "deleted"}`;
+type EventName = `user:${"created" | "deleted"}`
 ```
 
 Tham khảo nâng cao:

@@ -1,19 +1,5 @@
 ---
 tags:
-  - angular
-  - components
-  - concise
-  - design
-  - english
-  - frontend
-  - frontend-development
-  - libraries
-  - management
-  - quick-reference
-  - resources
-  - state
-  - tools
-  - web-development
   - area/technology
   - domain/frontend
   - topic/angular

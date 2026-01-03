@@ -1,18 +1,7 @@
 ---
 tags:
-  - general
-  - http
-  - https
-  - method
-  - quick-reference
-  - resources
-  - vietnamese
   - area/technology
   - domain/devops
-  - topic/http
-  - topic/https
-  - topic/tls
-  - topic/ssl
   - type/resource
   - lang/vi
 ---

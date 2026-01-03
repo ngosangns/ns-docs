@@ -1,21 +1,9 @@
 ---
 tags:
-  - chip
-  - general
-  - huyen
-  - lai
-  - note
-  - notes
-  - overdeliver
-  - proactive
-  - thinking
-  - tu
-  - underpromise
-  - vietnamese
-  - underpromise-overdeliver
-  - proactive-thinking
-  - leadership-qualities
-  - financial-management
+  - area/personal-dev
+  - domain/soft-skills
+  - type/note
+  - lang/vi
 ---
 
 # 1. Underpromise, overdeliver

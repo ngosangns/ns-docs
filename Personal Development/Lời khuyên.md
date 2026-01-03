@@ -1,12 +1,9 @@
 ---
 tags:
-  - concise
-  - general
-  - khuyen
-  - loi
-  - quick-reference
-  - vietnamese
-  - khuyen-loi
+  - area/personal-dev
+  - domain/life-skills
+  - type/resource
+  - lang/vi
 ---
 
 - Nên đi từ các món đồ classic trước rồi mới đến trendy.

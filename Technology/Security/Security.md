@@ -1,15 +1,5 @@
 ---
 tags:
-  - concise
-  - general
-  - manager
-  - oswap
-  - quick-reference
-  - resources
-  - secret
-  - security
-  - vietnamese
-  - secret-manager
   - area/technology
   - domain/security
   - type/resource

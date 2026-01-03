@@ -1,18 +1,5 @@
 ---
-relates:
-  - "[[PHP]]"
-  - "[[Java]]"
-  - "[[Node.js]]"
-  - "[[Golang]]"
-  - "[[Python]]"
-  - "[[SaaS]]"
-  - "[[GraphQL]]"
 tags:
-  - php
-  - java
-  - node-js
-  - golang
-  - python
   - area/technology
   - domain/backend
   - type/resource

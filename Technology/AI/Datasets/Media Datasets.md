@@ -1,14 +1,10 @@
 ---
-relates:
-  - "[[AI - ML]]"
 tags:
   - area/technology
   - domain/ai-ml
-  - topic/dataset
+  - topic/javascript
   - type/resource
   - lang/vi
-aliases:
-  - Dataset
 ---
 
 # Tổng quan

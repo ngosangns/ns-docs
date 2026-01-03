@@ -1,12 +1,9 @@
 ---
 tags:
-  - concise
-  - duc
-  - english
-  - general
-  - quick-reference
-  - tap
-  - the
+  - area/personal-dev
+  - domain/fitness
+  - type/resource
+  - lang/vi
 ---
 
 ![[c9f3e5a8-7b9d-4f21-9f88-1a2b3c4d5e6f.jpg]]

@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
 tags:
-  - backend
-  - back-end
-  - resources
-  - microservices
-  - nestjs
+  - area/technology
+  - domain/programming-languages
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

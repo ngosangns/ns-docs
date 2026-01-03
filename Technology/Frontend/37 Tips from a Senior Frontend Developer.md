@@ -1,10 +1,9 @@
 ---
-relates:
-  - "[[Work]]"
-  - "[[Kho chung IT]]"
 tags:
-  - work
-  - kho-chung-it
+  - area/technology
+  - domain/frontend
+  - type/resource
+  - lang/vi
 ---
 
 # 37 Tips from a Senior Frontend Developer

@@ -1,13 +1,9 @@
 ---
-aliases:
-relates:
-  - "[[Solutions & System Designs & Design Patterns]]"
 tags:
-  - resources
-  - non-functional-requirements
-  - capability
-  - nghiệp-vụ
-  - yêu-cầu-cần-thiết
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

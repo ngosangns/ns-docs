@@ -1,13 +1,10 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Kho chung IT]]"
 tags:
-  - node-js
-  - frameworks
-  - orms
-  - libraries
-  - runtime
+  - area/technology
+  - domain/backend
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # Node.js

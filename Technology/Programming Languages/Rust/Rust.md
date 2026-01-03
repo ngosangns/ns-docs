@@ -1,13 +1,5 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Golang]]"
 tags:
-  - rust
-  - libraries
-  - tools
-  - framework
-  - creative-coding
   - area/technology
   - domain/programming-languages
   - topic/rust

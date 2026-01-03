@@ -1,14 +1,9 @@
 ---
-relates:
-  - "[[Kho chung IT]]"
-  - "[[Backend - Back-end]]"
-  - "[[Microservices]]"
 tags:
-  - resources
-  - libraries
-  - kho-chung-it
-  - backend-back-end
-  - microservices
+  - area/technology
+  - domain/programming-languages
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

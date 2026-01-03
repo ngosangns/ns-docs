@@ -1,18 +1,9 @@
 ---
 tags:
-  - concise
-  - general
-  - grab
-  - hoc
-  - maintain
-  - nhung
-  - performance
-  - quick-reference
-  - talk
-  - tech
-  - thu
-  - upgrade
-  - vietnamese
+  - area/technology
+  - domain/documentation
+  - type/resource
+  - lang/vi
 ---
 
 # Lựa chọn công nghệ

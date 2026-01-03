@@ -1,14 +1,10 @@
 ---
-relates:
-  - "[[LM Studio]]"
 tags:
   - area/technology
   - domain/ai-ml
   - topic/ollama
   - type/resource
   - lang/vi
-aliases:
-  - Ollama
 ---
 
 # Tổng quan

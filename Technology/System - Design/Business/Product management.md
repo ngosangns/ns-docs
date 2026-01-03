@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[Work]]"
 tags:
-  - work
-  - product-manager
-  - customer-experience
-  - advisor
-  - nsw-government
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # Resources

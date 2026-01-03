@@ -1,5 +1,9 @@
 ---
-relates:
+tags:
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Antidetect browsers

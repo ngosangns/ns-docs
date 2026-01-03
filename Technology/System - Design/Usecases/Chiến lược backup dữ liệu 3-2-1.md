@@ -1,14 +1,9 @@
 ---
 tags:
-  - back
-  - backup
-  - chien
-  - concise
-  - du
-  - general
-  - lieu
-  - luoc
-  - vietnamese
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 - **3 bản sao của dữ liệu**: Ba bản sao này bao gồm dữ liệu gốc hoặc dữ liệu sản xuất của bạn cùng với hai bản sao khác. Việc tạo ra các bản sao lưu thường xuyên và có kế hoạch là rất quan trọng. Bạn cần xác định tần suất sao lưu dựa trên mức độ thay đổi dữ liệu và yêu cầu khôi phục. Ví dụ, nếu dữ liệu của bạn thay đổi liên tục, bạn có thể cần sao lưu hàng ngày hoặc thậm chí hàng giờ. Ngược lại, nếu dữ liệu ít thay đổi, sao lưu hàng tuần có thể là đủ.

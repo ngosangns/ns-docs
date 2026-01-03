@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[SaaS]]"
-  - "[[AI - ML]]"
-  - "[[DevOps]]"
-  - "[[6 Chiến lược Prompt Hiệu quả của OpenAI]]"
-  - "[[Severless]]"
 tags:
+  - area/technology
+  - domain/backend
+  - topic/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # Microservices

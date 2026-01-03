@@ -1,12 +1,9 @@
 ---
-relates:
-  - "[[Microservices]]"
 tags:
-  - microservices
-  - resources
-  - low-code-platform
-  - popularity
-  - technology
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

@@ -1,16 +1,9 @@
 ---
 tags:
-  - general
-  - need
-  - quen
-  - shit
-  - some
-  - vietnamese
-  - thoi-quen-tot
-  - nghich-ly
-  - cuoc-song
-  - tu-tin
-  - thay-doi-ban-than
+  - area/personal-dev
+  - domain/life-skills
+  - type/resource
+  - lang/vi
 ---
 
 ## 40 THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH

@@ -1,8 +1,10 @@
 ---
-relates:
-  - "[[Solution sao lưu lịch sử chỉnh sửa]]"
-  - "[[Microservices]]"
-  - "[[AI support for coding - MCP - Agent]]"
+tags:
+  - area/technology
+  - domain/system-design
+  - topic/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Tổng quan về Thiết kế Hệ thống
@@ -21,37 +23,30 @@ Nguồn: https://viblo.asia/p/danh-doi-giua-tinh-nhat-quan-va-tinh-san-sang-trad
 Dưới đây là 8 vấn đề phổ biến trong thiết kế hệ thống và các giải pháp thường được áp dụng:
 
 1. Caching – Tăng tốc độ đọc
-
    - Vấn đề: Lượng truy vấn đọc lớn gây quá tải cơ sở dữ liệu (DB).
    - Giải pháp: Sử dụng các hệ thống caching như Redis hoặc Memcached để lưu trữ dữ liệu từ các truy vấn phổ biến, giảm tải cho DB và tăng tốc độ phản hồi.
 
 2. Async Write & LSM-Tree DB – Xử lý ghi hiệu quả
-
    - Vấn đề: Lượng ghi dữ liệu cao làm nghẽn DB, ảnh hưởng đến hiệu năng.
    - Giải pháp: Áp dụng cơ chế ghi bất đồng bộ (asynchronous write) thông qua hàng đợi tin nhắn (message queue) như Kafka, RabbitMQ. Sử dụng các loại DB được tối ưu cho việc ghi dữ liệu như Cassandra, RocksDB (sử dụng cấu trúc Log-Structured Merge-Tree - LSM-Tree).
 
 3. Redundancy & Failover – Tăng tính sẵn sàng
-
    - Vấn đề: Hệ thống có một điểm lỗi duy nhất (Single Point of Failure - SPOF) khi chỉ có một máy chủ hoặc một thành phần quan trọng.
    - Giải pháp: Triển khai cơ chế nhân bản dữ liệu (replication) và chuyển đổi dự phòng tự động (automatic failover) giữa máy chủ chính (master) và các máy chủ bản sao (replica) để đảm bảo hệ thống vẫn hoạt động khi có sự cố.
 
 4. Load Balancer – Phân phối tải
-
    - Vấn đề: Máy chủ bị quá tải khi lưu lượng truy cập (traffic) tăng cao.
    - Giải pháp: Sử dụng Bộ cân bằng tải (Load Balancer) như Nginx, AWS Application Load Balancer (ALB) để phân phối đều các yêu cầu của người dùng đến nhiều máy chủ, tránh tình trạng quá tải cho bất kỳ máy chủ đơn lẻ nào.
 
 5. CDN (Content Delivery Network) – Giảm độ trễ
-
    - Vấn đề: Người dùng ở vị trí địa lý xa máy chủ chính gặp phải độ trễ cao khi truy cập nội dung.
    - Giải pháp: Sử dụng Mạng phân phối nội dung (CDN) như Cloudflare, AWS CloudFront để lưu trữ bản sao của các tệp tĩnh (hình ảnh, video, CSS, JavaScript) tại các máy chủ biên gần người dùng, giúp giảm độ trễ và tăng tốc độ tải trang.
 
 6. Block/Object Storage – Quản lý file lớn
-
    - Vấn đề: Lưu trữ các tệp tin lớn trực tiếp trong DB làm tăng kích thước DB, làm chậm truy vấn và gây khó khăn cho việc quản lý.
    - Giải pháp: Sử dụng các dịch vụ lưu trữ khối (Block Storage) như Amazon EBS hoặc lưu trữ đối tượng (Object Storage) như Amazon S3 cho các tệp tin lớn. Metadata của các tệp này (ví dụ: đường dẫn, tên tệp, kích thước) có thể được lưu trong DB.
 
 7. Centralized Logging – Quản lý log hiệu quả
-
    - Vấn đề: Khó khăn trong việc tìm kiếm và phân tích log lỗi khi hệ thống bao gồm nhiều máy chủ.
    - Giải pháp: Sử dụng một hệ thống quản lý log tập trung như ELK stack (Elasticsearch, Logstash, Kibana) hoặc EFK stack (Elasticsearch, Fluentd, Kibana) để thu thập, lưu trữ, tìm kiếm và phân tích log từ tất cả các thành phần của hệ thống tại một nơi.
 

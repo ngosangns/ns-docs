@@ -1,19 +1,10 @@
 ---
-relates:
-  - "[[Microservices]]"
 tags:
   - area/technology
   - domain/devops
   - topic/network
-  - topic/security
-  - topic/vpn
   - type/resource
   - lang/vi
-  - microservices
-  - services
-  - xray-core
-  - wireguard
-  - saas
 ---
 
 # 1. Services

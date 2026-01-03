@@ -1,15 +1,9 @@
 ---
-relates:
-  - "[[AI - ML]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai
-  - ml
-  - dl
-  - evals
-aliases:
-  - 6 Chiến lược Prompt Hiệu quả của OpenAI
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Viết hướng dẫn một cách rõ ràng
@@ -82,9 +76,8 @@ aliases:
   1. Tự giải bài toán.
   2. So sánh lời giải của mô hình với lời giải được cung cấp (ví dụ: của học sinh).
   3. Đánh giá tính đúng sai của lời giải được cung cấp.
+     - Nhấn mạnh việc mô hình không được đưa ra kết luận cuối cùng cho đến khi hoàn thành các bước suy luận nội bộ.
 
-
-      - Nhấn mạnh việc mô hình không được đưa ra kết luận cuối cùng cho đến khi hoàn thành các bước suy luận nội bộ.
 - Lợi ích:
   - Tăng độ chính xác: Giảm lỗi suy luận, đặc biệt với các tác vụ tính toán, logic, đánh giá phức tạp.
   - Giảm thiên vị: Tránh bị ảnh hưởng tiêu cực bởi thông tin không chính xác trong ngữ cảnh prompt.

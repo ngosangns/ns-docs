@@ -1,16 +1,9 @@
 ---
-relates:
-  - "[[AI support for coding - MCP - Agent]]"
-  - "[[AI - Large Language Models (LLM)]]"
-  - "[[AI - ML]]"
 tags:
-  - ai-support-for-coding
-  - large-language-models
-  - machine-learning
-  - deep-learning
-  - mcp-registry
-aliases:
-  - MCP - Model Context Protocol
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

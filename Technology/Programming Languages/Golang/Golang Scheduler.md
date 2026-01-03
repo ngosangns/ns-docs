@@ -1,13 +1,10 @@
 ---
-relates:
-  - "[[OS Scheduler]]"
-  - "[[Golang]]"
 tags:
-  - os-scheduler
-  - golang
-  - resources
-  - global-run-queue
-  - local-run-queue
+  - area/technology
+  - domain/programming-languages
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

@@ -1,30 +1,10 @@
 ---
-aliases:
-  - FE
-relates:
-  - "[[Javascript - Typescript]]"
-  - "[[Vue - Nuxt]]"
-  - "[[React - Next]]"
-  - "[[SolidJS]]"
-  - "[[Angular]]"
-  - "[[Flutter]]"
-  - "[[Reflow, Repaint, Layout Shift là gì? Tối ưu để tránh CLS cao trong Core Web Vitals]]"
 tags:
   - area/technology
   - domain/frontend
   - topic/javascript
-  - topic/typescript
-  - topic/vue
-  - topic/nuxt
-  - topic/react
-  - topic/nextjs
-  - topic/solidjs
-  - topic/angular
-  - topic/flutter
-  - topic/web-performance
   - type/resource
   - lang/vi
-  - reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals
 ---
 
 # Frontend - Front-end

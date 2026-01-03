@@ -1,11 +1,9 @@
 ---
-relates:
 tags:
-  - vitamin-c
-  - bha
-  - niacinamide
-  - salicylic-acid
-  - skincare
+  - area/fashion
+  - domain/skincare
+  - type/resource
+  - lang/vi
 ---
 
 # 1. ngosangns' routine (bệnh viện da liễu)
@@ -457,26 +455,21 @@ Hy vọng những gợi ý này sẽ giúp bạn xây dựng một quy trình ch
 Để xây dựng một quy trình chăm sóc da với các sản phẩm làm sạch và dưỡng có chứa các acid nhẹ như BHA, AHA, PHA, đồng thời giữ độ ẩm cho da, bạn có thể tham khảo combo sản phẩm sau:
 
 1. **Nước tẩy trang**:
-
    - **Bioderma Sensibio H2O Micellar Water**: Làm sạch nhẹ nhàng, phù hợp cho da nhạy cảm, không gây khô da.
 
 2. **Sữa rửa mặt**:
-
    - **COSRX Low pH Good Morning Gel Cleanser**: Chứa BHA (Betaine Salicylate), giúp làm sạch da hiệu quả mà không làm mất đi độ ẩm tự nhiên của da.
    - **CeraVe Hydrating Cleanser**: Không chứa acid nhưng rất tốt cho việc giữ ẩm sau khi rửa mặt, phù hợp cho da khô và nhạy cảm.
 
 3. **Toner**:
-
    - **Some By Mi AHA-BHA-PHA 30 Days Miracle Toner**: Kết hợp cả AHA, BHA, và PHA, giúp tẩy tế bào chết nhẹ nhàng và cân bằng độ ẩm cho da.
    - **Klairs Supple Preparation Unscented Toner**: Giúp dưỡng ẩm sâu, làm dịu da và chuẩn bị da cho các bước dưỡng tiếp theo.
 
 4. **Tẩy tế bào chết**:
-
    - **COSRX AHA 7 Whitehead Power Liquid**: Chứa 7% Glycolic Acid (AHA), giúp tẩy tế bào chết nhẹ nhàng, làm sáng da.
    - **Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant**: Chứa 2% Salicylic Acid (BHA), giúp làm sạch sâu lỗ chân lông và giảm mụn.
 
 5. **Dưỡng ẩm gốc nước**:
-
    - **Neutrogena Hydro Boost Water Gel**: Dưỡng ẩm sâu, thẩm thấu nhanh, không gây bết dính, phù hợp cho mọi loại da.
    - **Laneige Water Bank Hydro Gel**: Dưỡng ẩm nhẹ nhàng, cung cấp độ ẩm dài lâu cho da.
 

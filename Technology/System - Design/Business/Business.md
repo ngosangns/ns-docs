@@ -1,13 +1,9 @@
 ---
 tags:
-  - business
-  - business-management
-  - concise
-  - management
-  - quick-reference
-  - vietnamese
-  - arbo-domain-knowledge
-  - quy-trinh-lam-viec
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 - [[ARBO - Domain knowledge]]

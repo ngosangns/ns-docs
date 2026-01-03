@@ -1,14 +1,5 @@
 ---
-relates:
-  - "[[Microservices]]"
-  - "[[Solutions & System Designs & Design Patterns]]"
-  - "[[Backend - Back-end]]"
 tags:
-  - microservices
-  - solutions-system-designs-design-patterns
-  - backend-back-end
-  - kafka-fundamental
-  - kafka-design-patterns
   - area/technology
   - domain/backend
   - topic/kafka

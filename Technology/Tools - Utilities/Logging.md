@@ -1,15 +1,9 @@
 ---
-relates:
-  - "[[SaaS]]"
-  - "[[Microservices]]"
-  - "[[Backend - Back-end]]"
-number headings: auto, first-level 1, max 6, 1.1.
 tags:
-  - saas
-  - microservices
-  - backend-back-end
-  - fluent-bit
-  - logstash
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

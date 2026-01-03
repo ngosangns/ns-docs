@@ -1,11 +1,9 @@
 ---
-relates:
 tags:
-  - ai-research-booster
-  - ai-content-factory
-  - tiktok-strategy
-  - viral-content
-  - artificial-intelligence
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?

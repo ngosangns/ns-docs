@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Java]]"
 tags:
-  - java
-  - microprofile
-  - thư-viện
-  - api
-  - microservices
+  - area/technology
+  - domain/programming-languages
+  - topic/java
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

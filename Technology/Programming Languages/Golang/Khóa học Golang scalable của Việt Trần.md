@@ -1,19 +1,10 @@
 ---
 tags:
-  - coding
-  - cua
-  - database
-  - feature
-  - golang
-  - hoc
-  - khoa
-  - programming
-  - programming-languages
-  - quick-reference
-  - scalable
-  - tran
-  - viet
-  - vietnamese
+  - area/technology
+  - domain/programming-languages
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 # Khóa học Golang scalable của Việt Trần

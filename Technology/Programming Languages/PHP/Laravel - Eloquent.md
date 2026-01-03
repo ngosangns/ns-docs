@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Laravel]]"
 tags:
-  - laravel
-  - loadmissing
-  - push
-  - withdefault
-  - performance-optimization
+  - area/technology
+  - domain/programming-languages
+  - topic/php
+  - type/resource
+  - lang/vi
 ---
 
 # 1. LoadMissing
@@ -19,7 +17,7 @@ Thi thoảng bạn sẽ muốn lưu Model và cả Relation đi cùng với nó.
 
 # 3. WithDefault
 
-Trong Laravel Eloquent, phương thức **withDefault()** được sử dụng để gán một giá trị mặc định cho các mối quan hệ belongsTo, hasOne, hasOneThourh hoặc morphOne khi relation đó không tồn tại trong cơ sở dữ liệu. Thay vì trả về null khi relation không được tìm thấy, bạn có thể sử dụng withDefault() để trả về một đối tượng mặc định cho relation này.
+Trong Laravel Eloquent, phương thức **withDefault()** được sử dụng để gán một giá trị mặc định cho các mối quan hệ belongsTo, hasOne, hasOneThourh hoặc morphOne khi relation đó không tồn tại trong cơ sở dữ liệu. Thay vì trả về null khi relation không được tìm thấy, bạn có thể sử dụng withDefault() để trả về một đối tượng mặc định cho relation này.
 
 withDefault() sẽ hữu dụng khi:
 

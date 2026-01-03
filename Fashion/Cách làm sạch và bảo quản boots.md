@@ -1,17 +1,9 @@
 ---
 tags:
-  - bao
-  - boots
-  - cach
-  - concise
-  - general
-  - golang
-  - lam
-  - quan
-  - quick-reference
-  - sach
-  - sinh
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/guide
+  - lang/vi
 ---
 
 # Cách vệ sinh và làm sạch đôi boots của bạn

@@ -1,19 +1,9 @@
 ---
 tags:
-  - based
-  - bng
-  - case
-  - cht
-  - general
-  - gia
-  - lng
-  - notes
-  - project
-  - study
-  - vietnamese
-  - case-study
-  - project-based
-  - p-l-quality
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Bối Cảnh Thực Tế & Mục Tiêu

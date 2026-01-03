@@ -1,15 +1,9 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Frontend - Front-end]]"
-  - "[[Microservices]]"
-  - "[[Kho chung IT]]"
 tags:
-  - eslint
-  - oxc
-  - rust
-  - javascript
-  - typescript
+  - area/technology
+  - domain/tools
+  - type/resource
+  - lang/vi
 ---
 
 # 1. ESLint

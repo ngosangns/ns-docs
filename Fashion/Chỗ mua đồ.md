@@ -1,11 +1,9 @@
 ---
 tags:
-  - cho
-  - concise
-  - general
-  - o
-  - quick-reference
-  - vietnamese
+  - area/fashion
+  - domain/clothing
+  - type/resource
+  - lang/vi
 ---
 
 # Đồ si

@@ -1,21 +1,9 @@
 ---
 tags:
-  - ai--machine-learning
-  - ai-ml
-  - artificial-intelligence
-  - bang
-  - cac
-  - camera
-  - concise
-  - quick-reference
-  - social
-  - tao
-  - theo
-  - tool
-  - trang
-  - video
-  - vietnamese
-  - ai-machine-learning
+  - area/technology
+  - domain/ai-ml
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Tạo video bằng các tool AI

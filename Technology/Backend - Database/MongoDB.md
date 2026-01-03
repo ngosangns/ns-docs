@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Database]]"
 tags:
-  - database
-  - resources
-  - mongodb
-  - sharding
-  - configuration
+  - area/technology
+  - domain/backend
+  - topic/golang
+  - type/resource
+  - lang/vi
 ---
 
 # MongoDB

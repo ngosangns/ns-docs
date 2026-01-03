@@ -1,14 +1,10 @@
 ---
 tags:
-  - bai
-  - concise
-  - engineering
-  - finetuning
-  - general
-  - prompt
-  - prompt-engineering
-  - tutorial
-  - vietnamese
+  - area/technology
+  - domain/ai-ml
+  - topic/llm
+  - type/resource
+  - lang/vi
 ---
 
 Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề. Bạn hãy tưởng tượng một cái cây đại thụ to lớn.

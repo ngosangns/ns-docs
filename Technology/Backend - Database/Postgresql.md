@@ -1,14 +1,10 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Database]]"
-  - "[[ProxySQL Connection Multiplexing]]"
 tags:
-  - postgres
-  - database
-  - backend
-  - back-end
-  - performance-tuning
+  - area/technology
+  - domain/backend
+  - topic/database
+  - type/resource
+  - lang/vi
 ---
 
 # PostgreSQL

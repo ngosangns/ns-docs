@@ -1,14 +1,5 @@
 ---
-relates:
-  - "[[SaaS]]"
-  - "[[Azure]]"
-  - "[[Google Cloud Platform - GCP]]"
 tags:
-  - saas
-  - azure
-  - google-cloud-platform-gcp
-  - lambda
-  - dynamodb
   - area/technology
   - domain/devops
   - topic/aws

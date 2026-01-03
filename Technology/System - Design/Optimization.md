@@ -1,10 +1,9 @@
 ---
 tags:
-  - concise
-  - general
-  - optimization
-  - quick-reference
-  - vietnamese
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Định lý CAP

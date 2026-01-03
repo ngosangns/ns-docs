@@ -1,22 +1,9 @@
 ---
 tags:
-  - computer
-  - concise
-  - general
-  - hoc
-  - khoa
-  - may
-  - quick-reference
-  - scheduling
-  - science
-  - sclicing
-  - time
-  - tinh
-  - vietnamese
-  - os
-  - time-slicing
-  - cpu
-  - algorithms
+  - area/technology
+  - domain/computer-science
+  - type/resource
+  - lang/vi
 ---
 
 # 1. OS và các cơ chế time sclicing và scheduling

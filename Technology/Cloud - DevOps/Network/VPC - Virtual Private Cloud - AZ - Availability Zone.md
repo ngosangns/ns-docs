@@ -1,21 +1,10 @@
 ---
-relates:
-  - "[[Network]]"
-  - "[[Kho chung IT]]"
 tags:
   - area/technology
   - domain/devops
   - topic/aws
-  - topic/network
-  - topic/vpc
-  - topic/cloud
   - type/resource
   - lang/vi
-  - network
-  - kho-chung-it
-  - vpc-region
-  - aws
-  - subnet
 ---
 
 Trong thiết kế mạng trên AWS, **Vùng VPC (VPC Region)** là phạm vi địa lý nơi bạn triển khai và quản lý mạng ảo (**Virtual Private Cloud - VPC**) của mình. Mỗi VPC được tạo ra trong một Region (ví dụ như Singapore, Tokyo, hay Sydney), và chỉ tồn tại trong duy nhất một Region đó. Một Region bao gồm nhiều Availability Zone (AZ - vùng khả dụng) độc lập về vật lý.

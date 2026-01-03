@@ -1,17 +1,9 @@
 ---
 tags:
-  - bank
-  - chuyen
-  - general
-  - hang
-  - khoan
-  - ngan
-  - quick-reference
-  - thanh
-  - toan
-  - vietnamese
-  - thanh-toan
-  - ngan-hang
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Thanh toán chuyển khoản ngân hàng

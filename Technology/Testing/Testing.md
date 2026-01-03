@@ -1,14 +1,9 @@
 ---
 tags:
-  - detailed
-  - functional
-  - general
-  - resources
-  - sharing
-  - test
-  - testing
-  - tutorial
-  - vietnamese
+  - area/technology
+  - domain/testing
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources
@@ -218,7 +213,6 @@ Dưới đây là một quy trình tham khảo (có thể điều chỉnh tùy t
    - Trong các dự án Agile, kiến trúc có thể liên tục tiến hoá.
    - Cần cập nhật tài liệu kiến trúc và luật kiểm thử kịp thời để không cản trở quá trình phát triển.
 4. **Khó khăn trong việc tùy biến công cụ**
-
    - Mỗi dự án có thể có những “lối mòn” riêng cần kiểm tra.
    - Cần lựa chọn công cụ hỗ trợ viết rule tùy chỉnh (vd: ArchUnit có thể viết bằng Java, rất linh hoạt).
 
@@ -303,22 +297,18 @@ Thông thường, các công cụ mutation testing có danh sách các “loại
 ### 4.5.4. Công cụ phổ biến
 
 1. **PIT (PITest) - Java**
-
    - Thường được sử dụng rộng rãi trong cộng đồng Java. Tích hợp với Maven, Gradle.
    - Tạo báo cáo mutation score, chỉ rõ mutant nào bị kill hoặc sống sót.
 
 2. **MutPy - Python**
-
    - Công cụ mutation testing cho Python.
    - Hỗ trợ nhiều kiểu đột biến, dễ tích hợp vào pipeline CI.
 
 3. **Stryker - JavaScript/TypeScript**
-
    - Hỗ trợ mutation testing cho JavaScript/TypeScript (và một số ngôn ngữ khác).
    - Tích hợp được với các framework test như Jest, Mocha, Jasmine, …
 
 4. **MutationSharp (oO) - .NET/C#** (hoặc **Stryker.NET**)
-
    - Đột biến cho mã C#.
    - Tích hợp với các công cụ .NET test (xUnit, NUnit, MSTest).
 
@@ -340,15 +330,12 @@ Thông thường, các công cụ mutation testing có danh sách các “loại
 #### 4.5.6.1. Lợi ích
 
 1. **Cải thiện chất lượng test**
-
    - Phát hiện những lỗ hổng trong kịch bản test, buộc đội ngũ viết test phải chi tiết và logic hơn.
 
 2. **Tăng sự tự tin vào test suite**
-
    - Khi test suite “kill” đa số mutant, bạn có thể tin tưởng rằng mã nguồn ít khả năng ẩn chứa các lỗi tương tự.
 
 3. **Giảm rủi ro khi refactor**
-
    - Một test suite mạnh (theo tiêu chuẩn mutation testing) thường đảm bảo code thay đổi ít gây lỗi hoặc dễ phát hiện lỗi nếu có.
 
 #### 4.5.6.2. Hạn chế
@@ -428,14 +415,14 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
 - Browserstack - Test website / app trên nhiều thiết bị
 - https://github.com/appium/appium
 - ArchUnit (Java)
-  - Cho phép viết các test case bằng Java để kiểm tra kiến trúc. VD: “Kiểm tra package `com.myapp.controller` không gọi trực tiếp `com.myapp.repository`.”
+  - Cho phép viết các test case bằng Java để kiểm tra kiến trúc. VD: "Kiểm tra package `com.myapp.controller` không gọi trực tiếp `com.myapp.repository`."
   - Dễ tích hợp với JUnit/TestNG.
 - SonarQube
   - Công cụ phân tích tĩnh mã nguồn, cung cấp báo cáo về độ phức tạp, duplications và có thể xác định một số vấn đề về cấu trúc và phụ thuộc.
   - Có plugin để thiết lập các rule conformance liên quan đến kiến trúc.
 - Structure101, Lattix
   - Các công cụ chuyên về phân tích và hiển thị kiến trúc, phụ thuộc giữa các gói (packages), lớp (classes).
-  - Cho phép “vẽ” lại cấu trúc hiện tại và so sánh với “mục tiêu” ban đầu.
+  - Cho phép "vẽ" lại cấu trúc hiện tại và so sánh với "mục tiêu" ban đầu.
 - Dependency Analysis Tools
   - Doxygen, Graphviz, v.v. (kết hợp với các scripts hoặc plugins) để minh hoạ các mối quan hệ và phục vụ cho việc review bằng mắt.
 - [openreplay/openreplay: Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product.](https://github.com/openreplay/openreplay)

@@ -1,22 +1,10 @@
 ---
-relates:
-  - "[[AI - ML]]"
-  - "[[Kho chung IT]]"
-  - "[[Microservices]]"
 tags:
-  - machine-learning
-  - deep-learning
-  - ai
-  - ml
-  - kho-chung-it
-  - microservices
-  - resources
-  - tools
-  - cli
-  - vs-code-extensions
-  - devin-ai
-aliases:
-  - AI support for coding - MCP - Agent
+  - area/technology
+  - domain/ai-ml
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources

@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Business]]"
 tags:
-  - business
-  - sap
-  - enterprise-resource-planning
-  - erp
-  - software
+  - area/technology
+  - domain/system-design
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 SAP là viết tắt của **“Systems, Applications, and Products in Data Processing”** — là một **phần mềm ERP (Enterprise Resource Planning)** phổ biến nhất thế giới, được phát triển bởi công ty SAP SE (Đức).

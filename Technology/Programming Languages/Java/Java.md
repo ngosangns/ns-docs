@@ -1,13 +1,5 @@
 ---
-relates:
-  - "[[Fresher Back-end Interview]]"
-  - "[[Backend - Back-end]]"
 tags:
-  - java
-  - spring-boot
-  - backend
-  - java-concurrency
-  - libraries
   - area/technology
   - domain/programming-languages
   - topic/java
@@ -39,45 +31,38 @@ tags:
 ## 1.2. Concurrency and Multithreading in Java
 
 - **Non-Blocking / Async**
-
   - CompletableFuture
   - Flow API (Java 9+)
   - Reactive (External)
 
 - **Parallelism**
-
   - Fork/Join Framework
   - Parallel Streams
   - Batch Execution
 
 - **Visibility**
-
   - volatile
   - Java Memory Model
   - Atomic Classes
   - Concepts
 
 - **Immutability**
-
   - final fields
   - Immutable Objects
   - Design Patterns
   - Collections
 
 - **Atomicity**
-
   - CAS Mechanism
   - java.util.concurrent.atomic
   - Advanced
 
 - **Mutual Exclusion**
-
   - synchronized
   - java.util.concurrent.locks
   - Concepts
 
 - **Coordination**
-
   - Object class
   - java.util.concurrent tools
   - Blocking Queues

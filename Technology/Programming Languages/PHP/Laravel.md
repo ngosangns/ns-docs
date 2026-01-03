@@ -1,11 +1,10 @@
 ---
-number headings: auto, first-level 1, max 6, 1.1
 tags:
-  - numbers
-  - benchmarking
-  - method-once
-  - report
-  - rescue
+  - area/technology
+  - domain/programming-languages
+  - topic/php
+  - type/resource
+  - lang/vi
 ---
 
 # 1 Resources

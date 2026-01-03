@@ -1,12 +1,10 @@
 ---
-relates:
-  - "[[Frontend - Front-end]]"
 tags:
-  - frontend
-  - front-end
-  - defer
-  - async
-  - inline
+  - area/technology
+  - domain/programming-languages
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Cách browser thực thi JavaScript: Hiểu rõ `defer`, `async`, và `inline`
@@ -31,7 +29,7 @@ Ví dụ:
 
 ```html
 <script>
-  console.log("Hello from inline script");
+  console.log("Hello from inline script")
 </script>
 ```
 

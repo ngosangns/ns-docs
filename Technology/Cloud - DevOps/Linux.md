@@ -1,14 +1,7 @@
 ---
 tags:
-  - concise
-  - general
-  - linux
-  - quick-reference
-  - resources
-  - vietnamese
   - area/technology
   - domain/devops
-  - topic/linux
   - type/resource
   - lang/vi
 ---

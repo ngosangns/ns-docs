@@ -1,13 +1,10 @@
 ---
 tags:
-  - concise
-  - general
-  - javascript
-  - quick-reference
-  - solidjs
-  - vietnamese
-  - series-solidjs
-  - control-flow
+  - area/technology
+  - domain/frontend
+  - topic/javascript
+  - type/resource
+  - lang/vi
 ---
 
 # SolidJS

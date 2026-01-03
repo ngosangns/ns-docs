@@ -1,13 +1,9 @@
 ---
-relates:
-  - "[[Backend - Back-end]]"
-  - "[[Solutions & System Designs & Design Patterns]]"
 tags:
-  - backend
-  - solutions-system-designs-design-patterns
-  - concurrency
-  - parallelism
-  - multithreading
+  - area/technology
+  - domain/system-design
+  - type/resource
+  - lang/vi
 ---
 
 # 1. Resources
