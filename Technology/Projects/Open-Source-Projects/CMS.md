@@ -27,3 +27,14 @@ tags:
 - **License**: MIT
 - **Website**: https://payloadcms.com
 
+## Headless CMS
+
+- **Strapi**: Headless CMS mã nguồn mở
+- **Yao**: Headless CMS
+
+## Wiki/Blog
+
+- **BookStack**: Wiki/documentation platform
+- **Canvas**: Documentation platform
+- **DocMost**: Documentation platform
+
