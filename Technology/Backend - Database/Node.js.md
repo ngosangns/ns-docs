@@ -9,6 +9,8 @@ tags:
 
 # Node.js
 
+> **Lưu ý**: File này chứa nội dung về Node.js framework, không liên quan trực tiếp đến database.
+
 ## Frameworks
 
 - **Express**: Minimal, flexible web framework

@@ -149,3 +149,11 @@ Khi không thể lấy được khóa phân tán, có ba cách xử lý:
 - **Production readiness**: Đánh giá kỹ trước khi triển khai trong production
 
 **Nguồn**: [50 Days of S.D - How does Dragonfly outperform Redis? - Quang Hoang](https://quanghoang.substack.com/p/50-days-of-sd-dragonfly)
+
+## Redis - Kỹ thuật scale
+
+1. **Memory Fragmentation**: Bật activedefrag để giảm tới 40% bộ nhớ
+2. **Connection Pooling**: Bắt buộc, giảm latency p95 từ 200ms xuống 5ms, tăng throughput từ 15K lên 85K ops/giây
+3. **Pipelining**: Gom nhiều lệnh trong một request, giảm thời gian từ 2.3s xuống 45ms (cải thiện hơn 50 lần)
+4. **Hash Tags**: Xử lý atomic operations trong Cluster, đặt key theo prefix:{tag}:id
+5. **Monitoring**: Dashboard giám sát memory_usage > 85%, hit_rate < 95%

@@ -11,6 +11,7 @@ tags:
 
 ## Resources
 
+- Xem chi tiết về Indexing: [[Core Concepts/Indexing|Indexing]]
 - [Sử dụng index trong database](https://viblo.asia/p/su-dung-index-trong-database-nhu-the-nao-cho-hieu-qua-4P856q69lY3)
 - [Deadlock trong SQL transaction](https://viblo.asia/p/deadlock-trong-sql-transaction-ung-dung-trong-laravel-WAyK89emZxX)
 - [Window functions trong MySQL](https://viblo.asia/p/window-functions-trong-mysql-nang-cao-va-cuc-ki-huu-dung-phan-i-Do754AgXKM6)
@@ -27,6 +28,8 @@ tags:
 - **ProxySQL**: Tăng tốc độ truy vấn dữ liệu SQL với replication
 
 ## Storage Engine
+
+Xem chi tiết: [[Core Concepts/Storage Engines|Storage Engines]]
 
 ### InnoDB
 
