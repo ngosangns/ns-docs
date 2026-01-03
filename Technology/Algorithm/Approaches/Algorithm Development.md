@@ -6,23 +6,13 @@ tags:
   - lang/vi
 ---
 
-# Cấu trúc dữ liệu & giải thuật
+# Algorithm Development
 
 ## Mục lục
 
-- [Chọn cấu trúc dữ liệu](#chọn-cấu-trúc-dữ-liệu-để-biểu-diễn-bài-toán)
 - [Chọn thuật toán](#chọn-thuật-toán)
 - [Kiểm lỗi chương trình](#kiểm-lỗi-chương-trình)
 - [Tối ưu chương trình](#tối-ưu-chương-trình)
-
-## Chọn cấu trúc dữ liệu để biểu diễn bài toán
-
-Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
-
-- Cấu trúc dữ liệu trước hết phải biểu diễn được đầy đủ các thông tin nhập và xuất của bài toán
-- Cấu trúc dữ liệu phải phù hợp với các thao tác của thuật toán mà ta lựa chọn để giải quyết bài toán
-- Cấu trúc dữ liệu phải cài đặt được trên máy tính với ngôn ngữ lập trình đang sử dụng
-  Đối với một số bài toán, trước khi tổ chức dữ liệu ta phải viết một đoạn chương trình nhỏ để khảo sát xem dữ liệu cần lưu trữ lớn tới mức độ nào
 
 ## Chọn thuật toán
 
@@ -63,3 +53,4 @@ Các tiêu chuẩn khi lựa chọn cấu trúc dữ liệu:
   - **Tính uyển chuyển**: Chương trình phải dễ sửa đổi. Bởi ít có chương trình nào viết ra đã hoàn hảo ngay được mà vẫn cần phải sửa đổi lại. Chương trình viết dễ sửa đổi sẽ làm giảm bớt công sức của lập trình viên khi phát triển chương trình
   - **Tính trong sáng**: Chương trình viết ra phải dễ đọc dễ hiểu, để sau một thời gian dài quay lại có thể dễ dàng đọc hiểu từ đó dễ dàng tìm được lỗi sai (nếu có) và cải tiến chúng. Tính trong sáng của chương trình phụ thuộc rất nhiều vào công cụ lập trình và phong cách lập trình
   - **Tính hữu hiệu**: Chương trình phải chạy nhanh và ít tốn bộ nhớ, tức là tiết kiệm được cả về không gian và thời gian. Để có một chương trình hữu hiệu, cần phải có giải thuật tốt và những tiểu xảo khi lập trình. Tuy nhiên, việc áp dụng quá nhiều tiểu xảo có thể khiến chương trình trở nên rối rắm, khó hiểu khi sửa đổi. Tiêu chuẩn hữu hiệu nên dừng lại ở mức chấp nhận được, không quan trọng bằng ba tiêu chuẩn trên. Bởi phần cứng phát triển rất nhanh, yêu cầu hữu hiệu không cần phải đặt ra quá nặng
+

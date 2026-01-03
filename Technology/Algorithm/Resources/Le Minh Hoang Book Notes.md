@@ -7,7 +7,7 @@ tags:
   - lang/vi
 ---
 
-# Note ebook Thuật toán của thầy Lê Minh Hoàng
+# Le Minh Hoang Book Notes
 
 ## Mục lục
 
@@ -20,5 +20,6 @@ tags:
 
 ## Các note đã tách
 
-- [[Bài toán liệt kê]]
-- [[Cấu trúc dữ liệu & giải thuật]]
+- [[Enumeration Problems]]
+- [[Data Structures/Overview]]
+- [[Algorithm Development]]
