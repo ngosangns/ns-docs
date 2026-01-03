@@ -86,7 +86,7 @@ tags:
 ## 2.4. Cloudflare
 
 - **DockFlare**: Automate Cloudflare Tunnels với Docker Labels - [GitHub](https://github.com/ChrispyBacon-dev/DockFlare)
-- **Cloudflare Snippet**: Tính năng giống mini version của Cloudflare Worker, dùng để xử lý các tác vụ đơn giản như thêm CORS headers. Yêu cầu domain phải đăng ký gói Pro (20$/tháng), không tốn thêm chi phí như Worker, có thể giảm đáng kể data transfer từ origin server bằng cách xử lý ở edge. Xem case study: [[Usecase - Case Study - Quick Win Optimization]]
+- **Cloudflare Snippet**: Tính năng giống mini version của Cloudflare Worker, dùng để xử lý các tác vụ đơn giản như thêm CORS headers. Yêu cầu domain phải đăng ký gói Pro (20$/tháng), không tốn thêm chi phí như Worker, có thể giảm đáng kể data transfer từ origin server bằng cách xử lý ở edge. Xem case study: [[Case Study - Quick Win Optimization]]
 
 ### 2.2.1. Node.js CI/CD Pipeline trên Amazon EKS
 

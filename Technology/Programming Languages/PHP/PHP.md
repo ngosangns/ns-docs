@@ -30,7 +30,7 @@ SAPI là lớp giao tiếp giữa PHP và các ứng dụng máy chủ khác (nh
 
 - [[Nginx]]: Hiệu năng cao, xử lý tốt nhiều kết nối đồng thời, thường kết hợp với PHP-FPM.
 - Apache HTTP Server: Lâu đời, nhiều module, linh hoạt. Có thể dùng `mod_php` hoặc FastCGI (với `mod_proxy_fcgi` và PHP-FPM).
-- Caddy: Hiện đại, tự động HTTPS, cấu hình đơn giản. Có thể dùng FastCGI hoặc [[FrankenPHP]].
+- Caddy: Hiện đại, tự động HTTPS, cấu hình đơn giản. Có thể dùng FastCGI hoặc.
 - Litespeed Web Server: Tương thích Apache, hiệu năng cao, có LSAPI (thay thế PHP-FPM) và Litespeed Cache.
 
 ## 1.3. Thread Safety (TS) vs Non-Thread Safe (NTS)

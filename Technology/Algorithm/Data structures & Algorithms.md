@@ -29,7 +29,6 @@ tags:
 - [[Tổng hợp các nguồn ôn luyện thuật toán & Coding interview]]
 - [[Note ebook Thuật toán của thầy Lê Minh Hoàng]]
 - [[Cách giải các bài thuật toán]]
-- [[Mục lục thuật toán]]
 - Thuật toán Dijkstra - Tìm đường đi ngắn nhất: https://chidokun.github.io/2021/09/dijkstra-algorithm
 - LeetCode: Dễ dàng nhận biết 5 dạng bài Dynamic Programming: https://viblo.asia/p/leetcode-de-dang-nhan-biet-5-dang-bai-dynamic-programming-x7Z4Dn90LnX
 - Algorithms & Data Structures Full Crash Course - https://www.youtube.com/watch?v=jQqQpPMYPXs

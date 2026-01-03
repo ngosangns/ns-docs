@@ -356,7 +356,7 @@ Các mẫu thiết kế là các giải pháp đã được kiểm chứng cho c
 - Nghệ thuật xử lý background job: Chia sẻ kinh nghiệm và các kỹ thuật trong việc thiết kế và xử lý các tác vụ nền (background jobs) một cách hiệu quả, đảm bảo độ tin cậy và khả năng mở rộng. Bao gồm việc lựa chọn message queue, xử lý lỗi, retry mechanism.
   - Nguồn: https://viblo.asia/s/nghe-thuat-xu-ly-background-job-0gdJzvqnJz5 (Link này được dùng cho nhiều mục, giả định là bài tổng quan)
   - Nguồn khác (có thể liên quan đến View/Email): https://viblo.asia/p/nghe-thuat-xu-ly-background-job-07LKXjqJlV4
-- [[Usecase - Task Scheduler System Design]]: Tóm tắt bài viết về thiết kế hệ thống Task Scheduler từ một buổi phỏng vấn với Meta Staff Engineer, bao gồm thảo luận yêu cầu, khả năng mở rộng, khả năng chịu lỗi, và các best practices. Nguồn: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
+- [[Task Scheduler System Design]]: Tóm tắt bài viết về thiết kế hệ thống Task Scheduler từ một buổi phỏng vấn với Meta Staff Engineer, bao gồm thảo luận yêu cầu, khả năng mở rộng, khả năng chịu lỗi, và các best practices. Nguồn: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
 
 ### 3.3.2. Xử lý Log (Logging)
 
@@ -437,7 +437,6 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
   - Nguồn: https://viblo.asia/p/thiet-ke-he-thong-ban-ve-ticketing-system-design-GyZJZnjZJjm
 - [[Thanh toán chuyển khoản ngân hàng]]
 - VietQR-Portal: Cổng thông tin chính thức về VietQR, một chuẩn QR Code chung cho thanh toán tại Việt Nam. - Nguồn: https://vietqr.net
-  ![[bddf3546-c720-4313-9046-36d8c4a97019.png]]
 
 ### 3.5.2. Mạng Xã hội (Social Networks)
 
@@ -703,7 +702,7 @@ Trong các hệ thống phân tán (hay distributed system dưới dạng micros
 
 _Author: Huy Nguyen_
 
-- Xem thêm chi tiết: [[Usecase - Outbox Pattern]]
+- Xem thêm chi tiết: [[Outbox Pattern]]
 
 # 6. Mã Nguồn Tham Khảo
 
@@ -718,13 +717,9 @@ _Author: Huy Nguyen_
 - [[e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf]] (Tài liệu tổng hợp từ ByteByteGo)
 - [[d6e7f809-1a2b-3c4d-5e6f-708192a3b4c5.pdf]] (Tài liệu về thiết kế và kiến trúc hệ thống)
 - [[b4c5d6e7-f809-1a2b-3c4d-5e6f708192a3.pdf]] (Bảng tóm tắt về thiết kế sản phẩm)
-- [[DDD-Quickly-Vietnamese.pdf]] (Tài liệu DDD tiếng Việt)
 - [[9c8a9b0c-1d2e-3f45-a6b7-c8d9e0f1234a.pdf]] (Sách tóm lược về DDD)
 - [[0d9a0b1c-2e3f-4a56-b7c8-d9e0f1a2345b.pdf]] (Hướng dẫn về phong cách thiết kế đối tượng)
 - [[e2f3a4b5-c6d7-49e0-9f1a-2b3c4d5e6f70.pdf]] (Tài liệu về logging trên Kubernetes cho PHP)
-- [[Thanh toán chuyển khoản ngân hàng]] (Ghi chú về hệ thống thanh toán)
-- [[Solution sao lưu lịch sử chỉnh sửa]] (Ghi chú về giải pháp sao lưu lịch sử)
-- [[Chiến lược backup dữ liệu 3-2-1]] (Ghi chú về chiến lược backup)
 
 ## 7.2. Hình ảnh Minh họa
 

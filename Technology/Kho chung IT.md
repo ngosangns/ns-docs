@@ -10,7 +10,6 @@ tags:
 
 - Sách về ngôn ngữ lập trình: https://github.com/EbookFoundation/free-programming-books
 - Bách khoa sách cho IT: https://github.com/sindresorhus/awesome
-- [[No-code - nocode - low-code - lowcode]]
 - [[HTTP - HTTPS - TLS - SSL]]
 - A complete computer science study plan to become a software engineer: https://voz.vn/t/a-complete-computer-science-study-plan-to-become-a-software-engineer.44164
 - [[Diagrams - Vẽ sơ đồ]]
@@ -37,7 +36,7 @@ tags:
 # 4. Orthers
 
 - https://github.com/Cyan4973/xxHash
-- [[Usecase - Nén file]]
+- [[Nén file]]
 - [[SEO Content]]
 - [[Windows Tips]]
 - [[Linux]]

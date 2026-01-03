@@ -9,7 +9,6 @@ tags:
 
 # 1. Tài nguyên học tập
 
-- [[LLM promt engineering]]
 - Cách feed knowledge / memory cho LLM: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 
 * Series 18 bài học LLM cho beginner của Microsoft: https://github.com/microsoft/generative-ai-for-beginners #course #LLM
@@ -216,7 +215,7 @@ https://github.com/crewAIInc/crewAI
 - **Suna (Kortix)**: Framework xây dựng, quản lý và huấn luyện các AI Agents - https://github.com/kortix-ai/suna #AI #agents #framework
 - **VoltAgent**: AI Agent framework - https://github.com/VoltAgent/voltagent #AI #agents
 - **OpenAI Agents Python**: Framework nhẹ và mạnh mẽ để xây dựng các quy trình làm việc đa tác nhân trong Python - [GitHub](https://github.com/openai/openai-agents-python) #AI #agents #openai
-- **Google ADK**: Bộ công cụ phát triển mã nguồn mở (Python, TypeScript, Go, Java) để xây dựng, đánh giá và triển khai các tác nhân AI phức tạp với sự linh hoạt và kiểm soát - [[Google ADK]] - [GitHub Python](https://github.com/google/adk-python) - [Documentation](https://google.github.io/adk-docs/) #AI #agents #google
+- **Google ADK**: Bộ công cụ phát triển mã nguồn mở (Python, TypeScript, Go, Java) để xây dựng, đánh giá và triển khai các tác nhân AI phức tạp với sự linh hoạt và kiểm soát - [GitHub Python](https://github.com/google/adk-python) - [Documentation](https://google.github.io/adk-docs/) #AI #agents #google
 - **OWL (Optimized Workforce Learning)**: Hệ thống hỗ trợ đa tác nhân cho việc tự động hóa các nhiệm vụ thực tế trong thế giới thực - [GitHub](https://github.com/camel-ai/owl) #AI #agents #multi-agent
 - **PraisonAI**: Framework mã nguồn mở để phát triển các ứng dụng AI agents, hỗ trợ xây dựng chatbot và các công cụ tương tác dựa trên LLM - [GitHub](https://github.com/MervinPraison/PraisonAI) #AI #agents #framework
 

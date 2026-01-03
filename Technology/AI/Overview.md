@@ -22,7 +22,6 @@ tags:
 ### 1.1.2. Tài liệu
 
 - https://llmresourceshub.vercel.app
-- [[AI - Large Language Models (LLM)]]
 - [[RAG Tutorial - Neo4j GraphRAG]]: Hướng dẫn xây dựng hệ thống RAG trên knowledge graph sử dụng Neo4j, kết hợp semantic vector search với structured graph reasoning #RAG #GraphRAG #tutorial
 - [The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
 - https://github.com/aishwaryanr/awesome-generative-ai-guide #generativeAI
@@ -424,7 +423,7 @@ tags:
 ## 2.1. Multi-agent Systems
 
 - **TinyTroupe**: Thư viện Python thử nghiệm của Microsoft, sử dụng các mô hình ngôn ngữ lớn (LLMs) như GPT-4 để mô phỏng hành vi con người trong các môi trường ảo. TinyTroupe cho phép tạo ra các "TinyPerson" với tính cách, sở thích và mục tiêu riêng biệt, giúp nghiên cứu và thử nghiệm trong các lĩnh vực như quảng cáo, kiểm thử phần mềm và phát triển sản phẩm - [GitHub](https://github.com/microsoft/TinyTroupe) #multi-agent #LLM #simulation
-- **Google ADK**: Bộ công cụ phát triển để xây dựng multi-agent systems, streaming agents, và các AI agents phức tạp - [[Google ADK]] #multi-agent #agents #google
+- **Google ADK**: Bộ công cụ phát triển để xây dựng multi-agent systems, streaming agents, và các AI agents phức tạp #multi-agent #agents #google
 - **Dify**: Nền tảng sẵn sàng cho sản xuất để phát triển các quy trình làm việc dựa trên agent và ứng dụng AI
   - Hỗ trợ xây dựng và triển khai các ứng dụng AI phức tạp với khả năng mở rộng cao
   - Cung cấp các công cụ và API để phát triển nhanh chóng

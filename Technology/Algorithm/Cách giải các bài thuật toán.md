@@ -22,7 +22,3 @@ tags:
 ## TODO
 
 - Viết thêm 1 bảng các dấu hiệu để áp dụng 1 thuật toán vào bài toán
-
-## Liên kết liên quan
-
-- [[Mục lục thuật toán]]

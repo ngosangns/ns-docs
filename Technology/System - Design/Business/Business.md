@@ -6,7 +6,6 @@ tags:
   - lang/vi
 ---
 
-- [[ARBO - Domain knowledge]]
 - [[Quy trình làm việc]]
 
 ## Enterprise Software

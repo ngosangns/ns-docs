@@ -48,7 +48,7 @@ Các bước kiểm tra này giúp đánh giá hiệu suất của hệ thống 
 
 # 4. Case Studies - Quick Win Optimization
 
-Xem thêm: [[Usecase - Case Study - Quick Win Optimization]]
+Xem thêm: [[Case Study - Quick Win Optimization]]
 
 Các case studies về những thay đổi nhỏ nhưng mang lại hiệu quả lớn:
 
@@ -57,7 +57,7 @@ Các case studies về những thay đổi nhỏ nhưng mang lại hiệu quả 
 
 # 5. Hedged Request - Giảm Long-tail Latency
 
-Xem thêm: [[Usecase - Hedged Request]]
+Xem thêm: [[Hedged Request]]
 
 - **Kỹ thuật:** Gửi cùng 1 request tới nhiều replica server, sử dụng kết quả từ replica phản hồi sớm nhất
 - **Kết quả thực tế:** p99.9 latency giảm từ 1800ms xuống 74ms, chỉ tăng load 2%

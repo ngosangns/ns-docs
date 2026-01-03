@@ -77,7 +77,7 @@ tags:
 ### Data Consistency Patterns
 
 - **Outbox Pattern**: Giải quyết vấn đề dual writes giữa database và message broker, đảm bảo tính nhất quán dữ liệu trong microservices
-  - Xem chi tiết: [[Usecase - Outbox Pattern]]
+  - Xem chi tiết: [[Outbox Pattern]]
 
 ## Service Discovery & Registry
 

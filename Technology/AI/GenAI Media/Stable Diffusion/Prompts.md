@@ -19,10 +19,6 @@ Prompt Template: You are conducting an interview for a [Role/Job Title] role. I 
 
 ![[1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png]]
 
-## 2.2. NSFW
-
-[[Râm-Generation]]
-
 ## 2.3. Outside
 
 (masterpiece, top quality, best quality, official art, beautiful and aesthetic:1.3), (1girl:1.4), full body pose, 8k, extremely detailed, detailed background, Korean top model, standing, highest detailed, nsfw, depth of field, close up, lora:ClothingAdjuster3:0.9, (loli:1.5), denim short, nipples

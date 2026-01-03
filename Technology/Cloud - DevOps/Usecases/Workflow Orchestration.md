@@ -24,4 +24,3 @@ tags:
     - Security: Single sign-on (OpenID Connect/SAML 2), role-based access control, TLS/SFTP encryption
   - **Yêu cầu:** Java 21, Python 3.10+ (tùy chọn)
   - **Use cases:** Data pipeline automation, ETL workflows, real-time data processing, data distribution
-
