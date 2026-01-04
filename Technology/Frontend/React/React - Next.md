@@ -65,6 +65,10 @@ tags:
 - Hai lỗi re-rendering phổ biến
 - Công cụ khởi tạo dự án full-stack React: refine.new
 
+## Docker & Deployment
+
+- **Dockerfile Optimization Techniques**: Phân tích chi tiết 5 kỹ thuật tối ưu Dockerfile cho React SPA (BusyBox httpd, Distroless Nginx, Scratch Nginx, Go FastHTTP, Alpine Nginx) - [[./Dockerfile Optimization Techniques]]
+
 ## Design Systems
 
 - **shadcn/ui**: Components tái sử dụng, Radix UI + Tailwind CSS
@@ -136,6 +140,7 @@ tags:
   - **Hooks**: `usePdfHighlighterContext()`, `useHighlightContainerContext()`
 - **Lint and optimize**: Million.dev
 - **Grid Layout**: **react-grid-layout** - Thư viện tạo bố cục lưới có thể kéo và thay đổi kích thước, hỗ trợ responsive breakpoints cho React - [GitHub](https://github.com/react-grid-layout/react-grid-layout) #grid #layout #drag-drop
+- **Maps**: **mapcn** (AnmolSaini16/mapcn) - Thư viện component bản đồ đẹp, zero config, một lệnh setup. Xây dựng trên MapLibre GL, styled với Tailwind, tương thích với shadcn/ui. Tính năng: theme-aware (light/dark mode), markers & popups, routes, controls (zoom, compass, locate, fullscreen) - [GitHub](https://github.com/AnmolSaini16/mapcn) #maps #maplibre #shadcn
 - **Component systems**: originui, magicui, cuicui, mantine, dotUI, tailus-ui, react-bits, heroui, starwind-ui, animate-ui
 - **Novu**: Nền tảng thông báo đa kênh (In-App, Email, SMS, Push, Chat)
 - **Xử lý đồ họa**: react-three-fiber (Three.js renderer)

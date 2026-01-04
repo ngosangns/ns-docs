@@ -25,8 +25,9 @@ tags:
 
 ## 1.1. Java deployment
 
-- Deploy java với container thì dùng fat jar hoặc runnable java 1 endpoint bundle với web server như tomcat hoặc netty, còn khi dính J2EE thì mới sử dụng application servers như wildfly hoặc websphere thì khi đó deploy server bình thường ko đóng container
+- Deploy java với container thì dùng fat jar hoặc runnable java 1 endpoint bundle với web server như tomcat hoặc netty, còn khi dính J2EE thì mới sử dụng application servers như wildfly hoặc websphere thì khi đó deploy server bình thường ko đóng container
 - Keylcloak, Kafka vẫn dùng java runtime bình thường, nên chọn phiên bản jdk open source như zulu hoặc termurin, nếu deploy bằng container thì dùng image có sẵn
+- [[Dockerfile Optimization Techniques]] - Phân tích chi tiết các kỹ thuật tối ưu Dockerfile cho Java/Spring Boot applications
 
 ## 1.2. Concurrency and Multithreading in Java
 

@@ -23,3 +23,7 @@ tags:
 ## Libraries
 
 - A model-driven approach to building AI agents in just a few lines of code: https://github.com/strands-agents/sdk-python
+
+## Dockerfile Optimization
+
+- [[Dockerfile Optimization Techniques]] - Phân tích chi tiết các kỹ thuật tối ưu Dockerfile cho Python, bao gồm UV + Distroless, Ultra Optimized Alpine, Wheel-based installation, và UV + Alpine với Tini
