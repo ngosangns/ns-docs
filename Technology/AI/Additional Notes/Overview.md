@@ -52,6 +52,7 @@ Generative AI cho Media (Image, Video, Audio, 3D):
 - [[GenAI Media/Video Generation/Video Generation Tools]] - Video generation tools
 - [[GenAI Media/Audio/Text-to-Speech]] - Text-to-Speech và Speech-to-Text
 - [[GenAI Media/3D & Models/3D Generation]] - 3D generation
+- [[GenAI Media/3D & Models/Motion & Animation Generation]] - Motion & Animation generation
 
 ### Computer Vision
 
