@@ -13,7 +13,7 @@ Trong thiết kế mạng trên AWS, **Vùng VPC (VPC Region)** là phạm vi đ
 
 ## 1.1. Chi tiết về Vùng VPC trong thiết kế mạng AWS
 
-1. **VPC (Virtual Private Cloud)**  
+1. **VPC (Virtual Private Cloud)**
    Là một mạng ảo riêng tư mà bạn tự định nghĩa và kiểm soát hoàn toàn trong AWS. Bạn có thể tùy chỉnh các thành phần như:
    - Địa chỉ IP nội bộ (CIDR Block)
    - Subnets (mạng con)

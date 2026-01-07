@@ -414,7 +414,7 @@ Dù chi phí vận hành có thể cao, nhất là với các dự án lớn, **
 
 ### Công cụ & Frameworks
 Xem chi tiết các công cụ hỗ trợ kiểm thử tại:
-- [[Testing Tools|Testing Tools & Utilities]]
+- [[Packages/Testing Tools|Testing Tools & Utilities]]
 - [[Testing & Automation|AI Testing & Automation]]
 
 ### Usecases & Ví dụ thực tế

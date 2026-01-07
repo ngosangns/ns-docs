@@ -32,4 +32,3 @@ Chi phí phụ thuộc vào ba yếu tố chính:
 - Tinh chỉnh memory và architecture (ARM/x86) để cân bằng cost & performance.
 - Giới hạn concurrency để kiểm soát scale-up sudden spike.
 - Thiết lập profiling và warm-up (provisioned concurrency) để tối ưu hiệu suất.
-

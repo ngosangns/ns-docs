@@ -1,4 +1,3 @@
-```/Users/ngosangns/Github/ngosangns-obsidian/Technology/Frontend/Lý thuyết/CSS.md
 ---
 tags:
   - area/technology
@@ -22,24 +21,29 @@ CSS là ngôn ngữ dùng để tìm và định dạng các thành phần của
 ## Tính năng CSS nâng cao
 
 ### CSS Anchor Positioning
+
 Định vị phần tử tương đối so với một phần tử "neo" khác mà không cần phụ thuộc vào quan hệ cha-con trong DOM.
+
 - **Thuộc tính quan trọng**: `anchor-name`, `position-anchor`, `anchor()`.
 - **Ví dụ**: `anchor-name: --my-anchor; position: absolute; top: anchor(--my-anchor bottom);`
 
 ### CSS Scroll-Driven Animations
+
 Cho phép tạo ra các hiệu ứng hoạt ảnh dựa trên vị trí cuộn trang của người dùng thay vì dựa trên thời gian thực.
+
 - **Thành phần**: `animation-timeline`, `scroll()`, `view()`.
 - **Ứng dụng**: Thanh tiến trình cuộn trang, hiệu ứng xuất hiện khi phần tử vào khung nhìn.
 
 ### Hàm light-dark()
+
 Hàm CSS hiện đại giúp dễ dàng chỉ định giá trị màu sắc khác nhau cho chế độ sáng (light) và tối (dark) mà không cần viết lại toàn bộ `@media (prefers-color-scheme: dark)`.
+
 - **Cú pháp**: `color: light-dark(black, white);`
 
 ## Tài liệu liên quan
 
 ### Công cụ & Thư viện
-Xem danh sách các framework, thư viện animation và linter tại:
-- [[CSS|CSS Tools & Libraries]]
 
-### Additional Notes
-- [[Frontend-Overview#Performance|Tối ưu hóa CSS cho hiệu năng]]
+Xem danh sách các framework, thư viện animation và linter tại:
+
+- [[CSS Tools|CSS Tools & Libraries]]
