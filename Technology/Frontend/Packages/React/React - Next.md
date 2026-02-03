@@ -72,6 +72,8 @@ tags:
 ## Design Systems
 
 - **shadcn/ui**: Components tái sử dụng, Radix UI + Tailwind CSS
+- **RetroUI**: Thư viện component React phong cách NeoBrutalism, xây dựng trên shadcn/ui + Tailwind CSS. Copy-paste ready, hỗ trợ TypeScript. Cài đặt qua `npx shadcn add @retroui/<component>`. Có bản Pro với 100+ premium blocks và templates - https://www.retroui.dev/
+- **Neobrutalism Components**: Bộ component UI phong cách neobrutalism, dựa trên shadcn/ui + Tailwind CSS. Tuân thủ WAI-ARIA, open source (MIT). Components: buttons, badges, alerts, forms, cards, carousels, OTP input, breadcrumbs, resizable panels - https://www.neobrutalism.dev/
 - **Semi Design**, **Arco Design**, **Tamagui**, **Aceternity UI**, **Magic UI**, **Tremor**, **Mantine**, **9ui**, **seraui**, **Nurui**, **ReUI**, **Blocks**, **basecoat**
 - **Icons**: animateicons
 - **Components**: xyflow (React Flow)
