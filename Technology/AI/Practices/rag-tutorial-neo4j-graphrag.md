@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: rag
 type: tutorial
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # RAG Tutorial - Neo4j GraphRAG
 
 > **Nguồn**: [RAG Tutorial: How to Build a RAG System on a Knowledge Graph](https://neo4j.com/blog/developer/rag-tutorial/)

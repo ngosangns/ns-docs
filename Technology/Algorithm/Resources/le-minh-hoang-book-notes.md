@@ -3,11 +3,7 @@ area: technology
 domain: algorithms
 topic: algorithms
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Le Minh Hoang Book Notes
 
 ## Mục lục

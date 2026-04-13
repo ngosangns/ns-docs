@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # LLM Overview
 
 Large Language Models (LLMs) là các mô hình ngôn ngữ lớn được huấn luyện trên lượng dữ liệu khổng lồ để hiểu và tạo ra văn bản giống con người.

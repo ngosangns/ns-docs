@@ -3,11 +3,7 @@ area: projects
 domain: fintech
 type: note
 status: idea
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Code tool giao dịch, quản lý tài chính
 
 ## Tài liệu tham khảo

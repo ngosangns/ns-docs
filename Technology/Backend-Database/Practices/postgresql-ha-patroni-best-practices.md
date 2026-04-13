@@ -2,11 +2,7 @@
 area: technology
 domain: backend
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # PostgreSQL HA với Patroni - Tổng hợp Best Practices
 
 > - Link: https://devops.vn/posts/ivory-bien-viec-quan-tri-postgresql-ha-patroni-tro-nen-nhan-hon

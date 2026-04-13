@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Câu đơn
 
 Câu đơn (Simple Sentence) là câu có **một mệnh đề độc lập**, bao gồm **chủ ngữ (S) và động từ (V)**, có thể có thêm các thành phần như **tân ngữ (O), bổ ngữ (C), trạng ngữ (A)**.

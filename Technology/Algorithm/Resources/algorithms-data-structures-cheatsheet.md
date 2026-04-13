@@ -3,11 +3,7 @@ area: technology
 domain: algorithms
 topic: golang
 type: cheatsheet
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Algorithms & data-structures CheatSheet
 
 ## Mục lục

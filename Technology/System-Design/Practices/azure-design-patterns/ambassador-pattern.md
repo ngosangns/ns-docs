@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Ambassador (Đại sứ)
 
 Mẫu thiết kế Ambassador tạo ra các dịch vụ trợ giúp để gửi các yêu cầu mạng thay mặt cho một dịch vụ hoặc ứng dụng khách (consumer service/application). Có thể coi dịch vụ Ambassador như một proxy ngoài tiến trình (out-of-process proxy) nằm cùng vị trí với máy khách.

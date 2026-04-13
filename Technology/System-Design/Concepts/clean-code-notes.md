@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
 
 ---

@@ -3,11 +3,7 @@ area: technology
 domain: career
 topic: interview
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Câu hỏi phỏng vấn
 
 ## Câu hỏi thường gặp

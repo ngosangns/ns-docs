@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Cache-Aside (Nạp bộ nhớ đệm theo yêu cầu)
 
 Mẫu này nạp dữ liệu vào bộ nhớ đệm theo yêu cầu từ một kho dữ liệu. Sử dụng mẫu này để cải thiện hiệu suất và duy trì tính nhất quán giữa dữ liệu trong cache và dữ liệu trong kho dữ liệu bên dưới.

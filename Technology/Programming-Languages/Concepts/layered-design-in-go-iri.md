@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: golang
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Thiết Kế Phân Lớp (Layered Design) trong Go
 
 - Cách tác giả thiết kế chương trình Go, dựa trên các nguyên tắc và hạn chế của ngôn ngữ.

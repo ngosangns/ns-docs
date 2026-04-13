@@ -3,11 +3,7 @@ area: technology
 domain: algorithms
 topic: data-structures
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Persistent Segment Tree
 
 > https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1j4lkvAVwl

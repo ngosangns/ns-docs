@@ -3,11 +3,7 @@ area: technology
 domain: career
 topic: interview
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Tổng hợp các nguồn ôn luyện thuật toán & Coding interview
 
 **Cập nhật 23/5/2022**

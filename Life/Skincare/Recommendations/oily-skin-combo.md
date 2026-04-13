@@ -2,11 +2,7 @@
 area: life
 domain: skincare
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Combo dành cho da dầu, hỗn hợp thiên dầu
 
 ## Combo 1

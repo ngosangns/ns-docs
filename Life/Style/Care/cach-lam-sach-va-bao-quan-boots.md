@@ -2,11 +2,7 @@
 area: life
 domain: clothing
 type: guide
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Cách vệ sinh và làm sạch đôi boots của bạn
 
 Mặc dù boots nam luôn được đánh giá là một trong những loại giày bền nhất, nhưng chúng lại rất

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Choreography (Vũ đạo/Điều phối phân tán)
 
 Mẫu thiết kế Choreography giúp phi tập trung hóa logic quy trình công việc (workflow) và phân chia trách nhiệm cho các thành phần khác nhau trong hệ thống, thay vì phụ thuộc vào một bộ điều phối trung tâm.

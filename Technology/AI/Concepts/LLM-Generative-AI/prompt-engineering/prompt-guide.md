@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: guide
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)
 
 Những kỹ thuật này tập trung vào việc xây dựng prompt để đưa ra các yêu cầu hoặc hướng dẫn cho LLM:

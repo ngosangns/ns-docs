@@ -3,11 +3,7 @@ area: technology
 domain: backend
 topic: database
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Apache Pinot
 
 Cơ sở dữ liệu phân tán mã nguồn mở, được tạo ra tại LinkedIn vào giữa năm 2010, open-source vào năm 2015, tặng cho Apache Foundation vào năm 2019.

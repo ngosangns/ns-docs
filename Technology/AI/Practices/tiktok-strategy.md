@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?
 
 Tại sao video nào cũng có thể viral, trong khi tôi mãi lẹt đẹt vài trăm view?

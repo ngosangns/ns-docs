@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Retry with Backoff (Thử lại với khoảng chờ)
 
 Pattern này giúp cải thiện độ ổn định của ứng dụng bằng cách tự động thử lại các thao tác bị thất bại do lỗi tạm thời (transient errors), kết hợp với việc tăng dần thời gian chờ giữa các lần thử.

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Compute Resource Consolidation (Hợp nhất tài nguyên tính toán)
 
 Mẫu thiết kế này giúp hợp nhất nhiều tác vụ hoặc hoạt động vào một đơn vị tính toán duy nhất. Điều này giúp tăng mức độ sử dụng tài nguyên, giảm chi phí và giảm bớt gánh nặng quản lý cho các ứng dụng chạy trên đám mây.

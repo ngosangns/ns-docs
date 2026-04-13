@@ -3,11 +3,7 @@ area: technology
 domain: career
 topic: interview
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Oracle Interview - Gandhinagar
 
 **Địa điểm**: Gandhinagar, Gujarat, Ấn Độ  

@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Câu ghép (Compound Sentence):**
 
 - **Khái niệm:** Câu ghép là câu được tạo thành từ hai hoặc nhiều mệnh đề độc lập (independent clause) được nối với nhau bằng liên từ kết hợp (coordinating conjunction) hoặc dấu chấm phẩy (;).

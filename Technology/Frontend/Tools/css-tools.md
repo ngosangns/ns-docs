@@ -2,11 +2,7 @@
 area: technology
 domain: frontend
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```/Users/ngosangns/Github/ngosangns-obsidian/technology/frontend/Công cụ/CSS.md
 ---
 tags:

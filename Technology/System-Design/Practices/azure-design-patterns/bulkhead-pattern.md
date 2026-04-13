@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Bulkhead (Vách ngăn)
 
 Mẫu thiết kế Bulkhead là một loại thiết kế ứng dụng có khả năng chịu lỗi. Trong kiến trúc vách ngăn (còn được gọi là kiến trúc dựa trên ô - cell-based architecture), các thành phần của ứng dụng được cô lập vào các nhóm (pool) để nếu một nhóm thất bại, các nhóm khác vẫn tiếp tục hoạt động. Tên gọi này bắt nguồn từ các vách ngăn trong thân tàu thủy: nếu thân tàu bị thủng, chỉ phần bị hư hỏng mới bị ngập nước, giúp tàu không bị chìm hoàn toàn.

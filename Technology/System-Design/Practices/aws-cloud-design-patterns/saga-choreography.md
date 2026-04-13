@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Saga Choreography (Saga Vũ đạo)
 
 Saga Choreography là một cách để duy trì tính toàn vẹn dữ liệu trong các giao dịch phân tán trải dài trên nhiều dịch vụ bằng cách sử dụng các đăng ký sự kiện (event subscriptions). Thay vì có một bộ điều khiển trung tâm, mỗi dịch vụ trong giao dịch sẽ thực hiện phần việc của mình và xuất bản các sự kiện để kích hoạt các bước tiếp theo trong các dịch vụ khác.

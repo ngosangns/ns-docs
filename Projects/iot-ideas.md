@@ -3,11 +3,7 @@ area: projects
 domain: iot
 type: note
 status: idea
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # IoT Ideas
 
 ## Camera

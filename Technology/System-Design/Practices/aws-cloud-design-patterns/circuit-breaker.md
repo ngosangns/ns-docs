@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Circuit Breaker (Ngắt mạch)
 
 Pattern này ngăn chặn một dịch vụ gọi (caller) thử lại việc gọi đến một dịch vụ khác (callee) khi dịch vụ đó đang gặp sự cố lặp đi lặp lại hoặc phản hồi chậm. Nó cũng giúp phát hiện khi nào dịch vụ callee hoạt động trở lại.

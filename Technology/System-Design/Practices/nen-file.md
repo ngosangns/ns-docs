@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Tùy vào file bạn định nén là gì.
 Chứ media như phim, ảnh, game các thứ nó không nén được bao nhiêu đâu.
 Text thì mới dễ nén và nén được nhiều.

@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: java
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Resources
 
 - https://viblo.asia/s/nhat-ky-spring-boot-Je5EjWx0KnL

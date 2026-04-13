@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Interview - Senior Software Engineer (PHP, Javascript)
 
 **Vị trí**: Senior Software Engineer (PHP, Javascript) - Laravel 8+

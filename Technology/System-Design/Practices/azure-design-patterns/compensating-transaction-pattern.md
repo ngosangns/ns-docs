@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Compensating Transaction (Giao dịch bù)
 
 Mẫu thiết kế Compensating Transaction được sử dụng để hoàn tác (undo) công việc đã được thực hiện bởi một chuỗi các bước trong một hoạt động nhất quán cuối cùng (eventually consistent operation). Nếu một hoặc nhiều bước trong quy trình thất bại, mẫu này giúp đưa hệ thống về trạng thái ổn định thay vì sử dụng cơ chế rollback truyền thống (ACID).

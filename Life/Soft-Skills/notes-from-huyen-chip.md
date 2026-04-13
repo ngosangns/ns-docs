@@ -2,11 +2,7 @@
 area: life
 domain: soft-skills
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Underpromise, overdeliver
 
 Tìm hiểu thêm, mình biết rằng nhiều công ty áp dụng chính sách “underpromise, overdeliver” — hứa ít đi nhưng hoàn thành nhiều hơn. Cách nhanh nhất để mất khách là khiến họ thất vọng, và cách nhanh nhất để khiến họ thất vọng là hứa hẹn họ những điều bạn không thực hiện được.

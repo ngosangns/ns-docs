@@ -2,11 +2,7 @@
 area: travel
 domain: travel-guide
 type: guide
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Hành lý - Chuẩn bị
 
 ## Tổng quan

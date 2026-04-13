@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Động từ nguyên mẫu (Infinitive):**
 
 - **Hình thức:** to + động từ nguyên thể (ví dụ: to eat, to sleep, to go).

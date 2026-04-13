@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Transactional Outbox (Hàng chờ giao dịch)
 
 Pattern Transactional Outbox giải quyết vấn đề "dual write" (ghi kép) trong các hệ thống phân tán—tình trạng một thao tác đơn lẻ bao gồm cả việc ghi vào cơ sở dữ liệu và gửi thông báo/sự kiện nhưng không đảm bảo được tính nguyên tử (atomicity).

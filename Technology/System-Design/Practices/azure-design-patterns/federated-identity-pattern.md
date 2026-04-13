@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Federated Identity (Danh tính liên kết)
 
 Mẫu thiết kế Federated Identity thực hiện việc ủy quyền xác thực cho một nhà cung cấp danh tính bên ngoài (Identity Provider - IdP). Điều này giúp đơn giản hóa quá trình phát triển, giảm bớt gánh nặng quản trị người dùng và cải thiện trải nghiệm người dùng của ứng dụng.

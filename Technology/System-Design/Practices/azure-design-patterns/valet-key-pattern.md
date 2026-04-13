@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
 # Valet Key Pattern (Mô hình Chìa khóa đỗ xe)
 

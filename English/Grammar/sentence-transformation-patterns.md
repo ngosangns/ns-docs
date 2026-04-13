@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Các mô hình biến đổi câu
 
 ## MODEL 1: Because / Since / As ↔ Because of / As a result of / Due to

@@ -3,11 +3,7 @@ area: life
 domain: life-skills
 topic: motorcycle
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Bảo dưỡng xe Air Blade
 
 ## Nhớt

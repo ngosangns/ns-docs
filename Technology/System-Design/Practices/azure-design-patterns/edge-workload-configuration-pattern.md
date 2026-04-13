@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Edge Workload Configuration (Cấu hình khối lượng công việc tại biên)
 
 Mẫu thiết kế này giải quyết thách thức trong việc quản lý và phân phối cấu hình cho các ứng dụng chạy tại biên (Edge), nơi có sự đa dạng lớn về thiết bị, giao thức và yêu cầu vận hành liên tục ngay cả khi mất kết nối đám mây.

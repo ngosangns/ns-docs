@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Khái niệm:**
 
 - Mệnh đề trạng ngữ là một mệnh đề phụ có chức năng như một trạng từ, bổ nghĩa cho động từ, tính từ, trạng từ khác hoặc cả câu.

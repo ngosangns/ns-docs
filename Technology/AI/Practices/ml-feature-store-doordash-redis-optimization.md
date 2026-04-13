@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: mlops
 type: case-study
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # ML Feature Store - DoorDash Redis Optimization
 
 > **Nguồn**: [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/) - DoorDash Engineering Blog (November 19, 2020)

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Một số khái niệm
 
 ## **Orther**

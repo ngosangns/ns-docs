@@ -2,11 +2,7 @@
 area: technology
 domain: documentation
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Lựa chọn công nghệ
 
 - Nginx detail metric chỉ nằm trong bản enterprise thôi nên hạn chế dùng khi cần truy xuất lượng metric chi tiết.

@@ -3,11 +3,7 @@ area: projects
 domain: ecommerce
 type: note
 status: idea
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # NS Store
 
 - Làm trang quảng cáo

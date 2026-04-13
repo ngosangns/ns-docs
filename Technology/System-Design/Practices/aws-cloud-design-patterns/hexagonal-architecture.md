@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Hexagonal Architecture (Kiến trúc Lục giác)
 
 Kiến trúc Lục giác, còn được gọi là pattern **Ports and Adapters** (Cổng và Bộ chuyển đổi), được thiết kế để tạo ra các kiến trúc có tính liên kết lỏng lẻo (loosely coupled). Nó cho phép các thành phần ứng dụng được kiểm thử độc lập mà không phụ thuộc vào kho lưu trữ dữ liệu hoặc giao diện người dùng (UI).

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Distributed Systems - Các vấn đề
 
 > https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLNKvdV32

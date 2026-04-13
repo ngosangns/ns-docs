@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Vietnamese Language Datasets
 
 Tóm tắt từ bài viết về hợp tác giữa Viettel và NVIDIA trong việc xây dựng mô hình ngôn ngữ lớn tiếng Việt.

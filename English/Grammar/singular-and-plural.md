@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Danh từ số ít và danh từ số nhiều:**
 
 - **Danh từ số ít (Singular Noun):** Chỉ một người, một vật, một địa điểm hoặc một khái niệm.

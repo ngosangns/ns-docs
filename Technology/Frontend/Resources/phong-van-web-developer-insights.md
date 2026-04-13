@@ -3,11 +3,7 @@ area: technology
 domain: frontend
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Phỏng vấn Web Developer - Insights
 
 > **Nguồn**: Phỏng vấn David Walsh với Web Developer tại Pornhub (10/2019)  

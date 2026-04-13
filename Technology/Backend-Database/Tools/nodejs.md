@@ -3,11 +3,7 @@ area: technology
 domain: backend
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Node.js
 
 > **Lưu ý**: File này chứa nội dung về Node.js framework, không liên quan trực tiếp đến database.

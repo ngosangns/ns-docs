@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế CQRS (Command Query Responsibility Segregation)
 
 CQRS (Phân tách trách nhiệm Lệnh và Truy vấn) là một mẫu thiết kế giúp tách biệt các thao tác đọc (read) và ghi (write) dữ liệu vào các mô hình dữ liệu riêng biệt. Cách tiếp cận này cho phép mỗi mô hình được tối ưu hóa độc lập, từ đó cải thiện hiệu suất, khả năng mở rộng và bảo mật của ứng dụng.

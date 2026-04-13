@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Khái niệm:**
 
 - Câu nhấn mạnh (còn gọi là câu chẻ) là một cấu trúc câu đặc biệt được sử dụng để nhấn mạnh một thành phần cụ thể trong câu, chẳng hạn như chủ ngữ, tân ngữ, trạng từ hoặc mệnh đề trạng ngữ.

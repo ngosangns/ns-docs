@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: transformer
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Attention is All You Need - Transformer Architecture
 
 > Tóm tắt từ: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/

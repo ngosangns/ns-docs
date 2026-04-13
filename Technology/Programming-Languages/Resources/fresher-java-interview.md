@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: java
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Fresher Java Interview
 
 **Chia sẻ quá trình phỏng vấn ở vị trí Fresher Java Backend Developer ở một công ty Fintech nọ: ( nửa tháng trước )**

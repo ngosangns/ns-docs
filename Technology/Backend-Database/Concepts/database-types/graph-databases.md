@@ -3,11 +3,7 @@ area: technology
 domain: backend
 topic: database
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Graph Databases
 
 Cơ sở dữ liệu đồ thị, lưu trữ dữ liệu dưới dạng nodes và edges.

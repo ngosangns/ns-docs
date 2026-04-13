@@ -3,11 +3,7 @@ area: technology
 domain: algorithms
 topic: golang
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Bloom Filter
 
 ## Tổng quan

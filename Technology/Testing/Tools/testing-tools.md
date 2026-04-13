@@ -3,11 +3,7 @@ area: technology
 domain: testing
 topic: tools
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Testing tools-utilities
 
 ## 1. API & Integration Testing

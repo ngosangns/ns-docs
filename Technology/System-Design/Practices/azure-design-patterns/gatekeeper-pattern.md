@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Gatekeeper (Người gác cổng)
 
 Mẫu thiết kế Gatekeeper bảo vệ các ứng dụng và dịch vụ bằng cách sử dụng một thực thể host chuyên dụng (broker) để làm trung gian cho các yêu cầu giữa máy khách (client) và ứng dụng/dịch vụ. Broker sẽ kiểm tra tính hợp lệ và làm sạch (sanitize) các yêu cầu, cung cấp thêm một lớp bảo mật và hạn chế bề mặt tấn công của hệ thống.

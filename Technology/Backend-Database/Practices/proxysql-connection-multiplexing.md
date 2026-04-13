@@ -2,11 +2,7 @@
 area: technology
 domain: backend
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # ProxySQL Connection Multiplexing
 
 **Nguồn:** [roninhub.com](https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing-trong-proxysql-de-toi-uu-ket-noi-database)

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Gateway Aggregation (Gộp cổng)
 
 Mẫu thiết kế Gateway Aggregation sử dụng một cổng (gateway) để gộp nhiều yêu cầu riêng lẻ từ máy khách thành một yêu cầu duy nhất. Mẫu này đặc biệt hữu ích khi một ứng dụng khách phải thực hiện nhiều cuộc gọi đến các hệ thống backend khác nhau để hoàn thành một thao tác duy nhất.

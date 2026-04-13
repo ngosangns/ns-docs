@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: cost-optimization
 type: usecase
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # DevOps đốt tiền infra – Tập 2
 
 ## 1. Câu chuyện "bốc hơi" chi phí Lambda

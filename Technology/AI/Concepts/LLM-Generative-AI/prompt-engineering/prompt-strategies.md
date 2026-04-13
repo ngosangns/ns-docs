@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Viết hướng dẫn một cách rõ ràng
 
 - Chứa các thông tin chi tiết vào trong query để câu trả lời liên quan hơn.

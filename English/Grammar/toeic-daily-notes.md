@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # TOEIC Daily Notes
 
 ## Cấu trúc cụm danh từ

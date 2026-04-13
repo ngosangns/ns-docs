@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # SENATOR - Knowledge Gap Detection và Vá Lỗ Hổng Kiến Thức
 
 ## Vấn đề

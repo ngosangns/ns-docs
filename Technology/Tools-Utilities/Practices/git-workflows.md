@@ -3,11 +3,7 @@ area: technology
 domain: tools
 topic: git
 type: usecase
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Git Workflows
 
 Trong Git, hai mô hình phổ biến để quản lý workflow dự án là **Trunk-based development (Trunk Flow)** và **Forking Workflow (Forking Flow)**. Dưới đây là phần **giới thiệu chi tiết và so sánh** hai mô hình này:

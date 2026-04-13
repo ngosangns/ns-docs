@@ -3,11 +3,7 @@ area: technology
 domain: frontend
 topic: performance
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Reflow, Repaint, Layout Shift
 
 Nguồn: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals-aNj4vkD8J6r

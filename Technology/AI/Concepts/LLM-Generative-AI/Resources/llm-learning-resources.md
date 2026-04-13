@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Tài nguyên học tập LLM
 
 - Cách feed knowledge / memory cho LLM: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl

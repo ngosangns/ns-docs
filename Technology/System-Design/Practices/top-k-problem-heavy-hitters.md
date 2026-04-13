@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Top K Problem - Heavy Hitters
 
 ## 1. Bài toán

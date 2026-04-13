@@ -2,11 +2,7 @@
 area: life
 domain: life-skills
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ## 40 THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH
 
 1. Uống nhiều nước lọc.

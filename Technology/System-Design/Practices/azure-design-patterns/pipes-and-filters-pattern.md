@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Pipes and Filters Pattern.md#L1-45
 # Pipes and Filters Pattern (Mô hình Đường ống và Bộ lọc)
 

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Claim-Check (Phiếu nhận hành lý)
 
 Mẫu thiết kế Claim-Check cho phép các hệ thống truyền tải các gói dữ liệu lớn mà không làm quá tải hệ thống tin nhắn (messaging system). Thay vì gửi toàn bộ nội dung trong tin nhắn, nội dung đó được lưu trữ trong một kho dữ liệu bên ngoài và chỉ gửi một "phiếu nhận" (claim check) - là một token hoặc khóa duy nhất - qua hệ thống tin nhắn.

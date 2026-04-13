@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Triển khai Network Secure Ingress (Lối vào mạng bảo mật)
 
 Mẫu triển khai này kết hợp nhiều mẫu thiết kế như định tuyến toàn cầu (global routing), giảm tải (offloading), và giám sát điểm cuối sức khỏe (health endpoint monitoring) để cung cấp lối vào an toàn cho các ứng dụng HTTP/HTTPS.

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Event Sourcing (Nguồn sự kiện)
 
 Thay vì chỉ lưu trữ trạng thái hiện tại của dữ liệu trong cơ sở dữ liệu quan hệ, mẫu Event Sourcing lưu trữ toàn bộ chuỗi các hành động (sự kiện) đã thực hiện trên một đối tượng trong một kho lưu trữ chỉ-thêm (append-only). Kho lưu trữ này đóng vai trò là nguồn dữ liệu tin cậy nhất (system of record) và có thể được dùng để tái tạo trạng thái của các đối tượng tên miền.

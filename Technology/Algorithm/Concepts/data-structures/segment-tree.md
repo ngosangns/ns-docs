@@ -2,11 +2,7 @@
 area: technology
 domain: algorithms
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Cây phân đoạn (Segment Tree)
 
 ## Tổng quan

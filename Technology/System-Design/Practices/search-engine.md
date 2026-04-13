@@ -3,11 +3,7 @@ area: technology
 domain: system-design
 topic: search-engine
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Tổng quan về Hệ thống Tìm kiếm (Search Engine)
 
 ## Giới thiệu

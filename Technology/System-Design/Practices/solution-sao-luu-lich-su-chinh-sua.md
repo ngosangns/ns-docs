@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 :)) với restrict về qui mô và reloading time thì em ko dám đề cập, vì các project em làm ko strictly vs lớn như vậy, nhưng em cũng xin được góp 1 tí ak
 
 - ý tưởng xử lí :

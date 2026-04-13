@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: reverse-proxy
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Reverse Proxy
 
 ## 1. Tổng quan

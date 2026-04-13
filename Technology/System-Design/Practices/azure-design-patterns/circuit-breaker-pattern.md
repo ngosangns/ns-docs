@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Circuit Breaker (Ngắt mạch)
 
 Mẫu thiết kế Circuit Breaker giúp xử lý các lỗi có thể mất một khoảng thời gian không xác định để khắc phục khi kết nối với các dịch vụ hoặc tài nguyên từ xa. Nó ngăn chặn ứng dụng thực hiện các nỗ lực vô ích, giúp hệ thống có thời gian hồi phục và tránh hiện tượng sụp đổ dây chuyền (cascading failure).

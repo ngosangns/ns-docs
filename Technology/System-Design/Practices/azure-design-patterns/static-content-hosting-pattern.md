@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Static Content Hosting Pattern.md#L1-35
 # Static Content Hosting Pattern (Mô hình Lưu trữ Nội dung Tĩnh)
 

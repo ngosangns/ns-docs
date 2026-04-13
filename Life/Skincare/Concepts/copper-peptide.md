@@ -2,11 +2,7 @@
 area: life
 domain: skincare
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Copper peptide
 
 - Kích thích cơ thể tổng hợp collagen mạnh hơn Retin-A và Vitamin C.

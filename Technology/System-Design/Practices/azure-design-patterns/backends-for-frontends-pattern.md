@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Backends for Frontends (BFF)
 
 Mẫu thiết kế Backends for Frontends (BFF) mô tả cách tách rời các dịch vụ backend khỏi các triển khai frontend để tùy chỉnh trải nghiệm cho các giao diện khách hàng (client interfaces) khác nhau. Mẫu này hữu ích khi bạn muốn tránh việc tùy biến một backend dùng chung cho quá nhiều loại giao diện.

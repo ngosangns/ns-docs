@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: cicd
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # CI/CD Tools
 
 ## 1. Github Actions

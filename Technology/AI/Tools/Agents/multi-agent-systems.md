@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Multi-agent Systems
 
 - [What is Agno? - Agno](https://docs.agno.com/introduction) - Agno is a python framework for building multi-agent systems with shared memory, knowledge and reasoning.

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Deployment Stamps (Tem triển khai)
 
 Mẫu thiết kế Deployment Stamps (còn gọi là Scale Unit, Service Unit hoặc Cell) liên quan đến việc cung cấp, quản lý và giám sát một nhóm tài nguyên không đồng nhất để lưu trữ và vận hành nhiều khối lượng công việc hoặc khách hàng (tenants).

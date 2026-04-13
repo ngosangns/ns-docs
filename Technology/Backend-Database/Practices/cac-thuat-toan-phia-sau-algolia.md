@@ -3,11 +3,7 @@ area: technology
 domain: backend
 topic: golang
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Các Thuật Toán Phía Sau Algolia
 
 > https://viblo.asia/p/cac-thuat-toan-phia-sau-algolia-y3RL1w9P4ao

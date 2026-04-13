@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # JavaScript / TypeScript
 
 Ghi chú tổng hợp theo kiểu “hub”: vừa dùng để ôn nền tảng, vừa dùng làm checklist khi build dự án.

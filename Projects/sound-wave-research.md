@@ -4,11 +4,7 @@ domain: iot
 topic: sound-wave
 type: note
 status: idea
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Sóng âm
 
 - https://www.facebook.com/reel/560138376963731

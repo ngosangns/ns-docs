@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: machine-learning
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # JAX
 
 ## Tổng quan

@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: tts
 type: tool
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Speech Recognition & TTS Tools
 
 ## Vietnamese Language Tools

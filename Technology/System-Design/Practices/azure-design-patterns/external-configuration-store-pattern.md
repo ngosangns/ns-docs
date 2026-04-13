@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế External Configuration Store (Kho cấu hình bên ngoài)
 
 Mẫu thiết kế này di chuyển thông tin cấu hình ra khỏi gói triển khai ứng dụng (deployment package) đến một vị trí tập trung. Điều này giúp quản lý, kiểm soát dữ liệu cấu hình dễ dàng hơn và có thể chia sẻ cấu hình giữa nhiều ứng dụng hoặc phiên bản ứng dụng khác nhau.

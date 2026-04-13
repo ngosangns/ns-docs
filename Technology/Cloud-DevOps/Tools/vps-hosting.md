@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: vps
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Quản lý Firewall với UFW và Docker
 
 Tags: #ufw #docker #firewall #security #linux #ufw-docker

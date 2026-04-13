@@ -3,11 +3,7 @@ area: technology
 domain: career
 topic: interview
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Top 10 câu hỏi phỏng vấn System Design và Microservices
 
 **Lưu ý**: Câu hỏi và gợi ý chỉ mang tính tham khảo, nên tự xây dựng câu trả lời hoàn chỉnh

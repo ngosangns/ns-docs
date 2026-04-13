@@ -3,11 +3,7 @@ area: technology
 domain: system-design
 topic: task-scheduler
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Task Scheduler System Design
 
 > **Nguồn:** https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e

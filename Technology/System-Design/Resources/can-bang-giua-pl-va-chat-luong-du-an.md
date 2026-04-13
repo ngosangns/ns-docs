@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Bối Cảnh Thực Tế & Mục Tiêu
 
 ## 1.1. Hai loại dự án phổ biến

@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Khái niệm:**
 
 - Câu điều kiện hỗn hợp là dạng câu điều kiện đặc biệt, kết hợp giữa hai loại câu điều kiện khác nhau trong cùng một câu.

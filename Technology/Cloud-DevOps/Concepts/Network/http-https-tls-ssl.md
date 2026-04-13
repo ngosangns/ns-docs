@@ -2,11 +2,7 @@
 area: technology
 domain: devops
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Resources
 
 - https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO

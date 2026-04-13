@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Promt
 
 Hãy giả sử bạn là một giáo sư chuyên về ngôn ngữ Anh có nhiều năm kinh nghiệm. Còn tôi là một người mới bắt đầu học tiếng Anh với mục đích để giao tiếp và làm việc trong ngành lập trình phần mềm và đi du học. Bạn hãy tạo ra roadmap cho việc học tiếng Anh của tôi, bao gồm các kiến thức cần học, các kho từ vựng cần học, các nguồn học uy tín, các công cụ và website học tiếng Anh online.

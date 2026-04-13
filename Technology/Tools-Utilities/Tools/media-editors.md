@@ -2,11 +2,7 @@
 area: technology
 domain: tools
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Sound Effects
 
 - [MyInstants](https://www.myinstants.com/en/index/us/) - Thư viện sound effects và audio clips

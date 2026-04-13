@@ -2,11 +2,7 @@
 area: life
 domain: clothing
 type: guide
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Các loại quần nên có trong tủ đồ
 
 ## 1. Quần jeans dáng slim-fit

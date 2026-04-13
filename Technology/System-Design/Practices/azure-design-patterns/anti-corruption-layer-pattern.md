@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Anti-corruption Layer (Lớp chống tham nhũng/Lớp ngăn chặn sự sai lệch)
 
 Mẫu thiết kế Anti-corruption Layer (ACL) triển khai một lớp façade hoặc adapter giữa các hệ thống con khác nhau không chia sẻ cùng một ngữ nghĩa (semantics). Lớp này dịch các yêu cầu mà một hệ thống con gửi đến hệ thống con khác, đảm bảo thiết kế của ứng dụng mới không bị giới hạn bởi các phụ thuộc vào hệ thống bên ngoài hoặc hệ thống cũ.

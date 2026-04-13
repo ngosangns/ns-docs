@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Kỹ thuật fine-tune LLM models
 
 Trong thế giới Large Language Models (LLMs), việc tinh chỉnh mô hình (fine-tuning) là một bước cực kỳ quan trọng để giúp mô hình hiểu và giải quyết các tác vụ cụ thể của chúng ta. Nhưng… liệu Fine-tuning truyền thống có phải là cách tối ưu nhất? Hôm nay, mình sẽ so sánh ba kỹ thuật tinh chỉnh phổ biến: Fine-tuning, LoRA và QLoRA – và giúp bạn hiểu khi nào nên dùng cách nào! 🚀

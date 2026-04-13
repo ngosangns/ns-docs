@@ -2,11 +2,7 @@
 area: life
 domain: style
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ![[1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f.png]]
 
 ![[2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f70.png]]

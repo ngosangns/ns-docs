@@ -3,11 +3,7 @@ area: technology
 domain: backend
 topic: laravel
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Các câu hỏi phỏng vấn Laravel
 
 ## Resources

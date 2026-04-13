@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: network
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Services
 
 - Xray-core - Thiết lập và sử dụng các giao thức proxy: https://github.com/XTLS/Xray-core

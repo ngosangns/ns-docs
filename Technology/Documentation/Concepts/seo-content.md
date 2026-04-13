@@ -2,11 +2,7 @@
 area: technology
 domain: documentation
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Resources
 
 - Audio: https://www.myinstants.com/en/index/vn

@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Cách browser thực thi JavaScript: Hiểu rõ `defer`, `async`, và `inline`
 
 Khi bạn nhúng JavaScript vào HTML, việc browser **thực thi script ở đâu và khi nào** sẽ ảnh hưởng trực tiếp đến **hiệu suất tải trang**, **trải nghiệm người dùng**, và **thứ tự thực thi code**.

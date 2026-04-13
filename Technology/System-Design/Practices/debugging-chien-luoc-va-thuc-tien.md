@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Debugging - Chiến lược, Công cụ và Thực tiễn Tốt nhất
 
 > https://viblo.asia/p/debugging-trong-lap-trinh-chien-luoc-cong-cu-va-thuc-tien-tot-nhat-2oKLn1dXJQO

@@ -2,11 +2,7 @@
 area: technology
 domain: ai-ml
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Face Recognition
 
 - [AWS Serverless] - Sử dụng Golang và Amazon Rekognition để xây dựng API tìm kiếm khuôn mặt bằng hình ảnh: https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekognition-de-xay-dung-api-tim-kiem-khuon-mat-bang-hinh-anh-yZjJY96XJOE #AWS #Rekognition #faceRecognition

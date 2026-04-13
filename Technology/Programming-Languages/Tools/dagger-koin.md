@@ -2,11 +2,7 @@
 area: technology
 domain: programming-languages
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Dagger:
 
 - Component có thể dùng với application context để quản lý vòng đời của chính nó.

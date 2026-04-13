@@ -2,11 +2,7 @@
 area: technology
 domain: backend
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 
 > Link: https://www.facebook.com/groups/1660399621116913/?multi_permalinks=2188055328351337&hoisted_section_header_type=recently_seen

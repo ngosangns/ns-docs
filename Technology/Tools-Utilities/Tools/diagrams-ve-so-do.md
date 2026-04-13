@@ -2,11 +2,7 @@
 area: technology
 domain: tools
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Crow's foot notation
 
 ![[6c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f.png]]

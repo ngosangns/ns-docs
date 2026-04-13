@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Queue-based Load Leveling Pattern.md#L1-45
 # Queue-Based Load Leveling Pattern (Mô hình San phẳng Tải dựa trên Hàng đợi)
 

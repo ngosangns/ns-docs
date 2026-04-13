@@ -2,11 +2,7 @@
 area: life
 domain: skincare
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Gợi ý sản phẩm
 
 ## Gợi ý của Gemini

@@ -3,11 +3,7 @@ area: technology
 domain: devops
 topic: tools
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # DevOps Tools
 
 ## 1. Infrastructure as Code

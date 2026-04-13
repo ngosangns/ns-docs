@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Khái niệm:**
 
 - Mệnh đề quan hệ (Relative Clause) là một mệnh đề phụ được dùng để bổ nghĩa cho một danh từ đứng trước nó, được gọi là tiền ngữ (antecedent).

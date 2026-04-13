@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Event Sourcing (Nguồn sự kiện)
 
 Thay vì chỉ lưu trữ trạng thái hiện tại của dữ liệu, Event Sourcing lưu trữ tất cả các sự kiện (events) dẫn đến thay đổi trạng thái đó trong một kho lưu trữ dữ liệu (event store) bất biến. Trạng thái hiện tại có thể được tái thiết lập bằng cách "phát lại" (replay) các sự kiện này theo trình tự thời gian.

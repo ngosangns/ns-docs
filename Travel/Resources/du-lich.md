@@ -2,11 +2,7 @@
 area: travel
 domain: travel-plan
 type: plan
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Kế hoạch du lịch Hàn Quốc
 
 Đi ban ngày:

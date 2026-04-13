@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 **1. Khái niệm:**
 
 - Câu bị động (Passive Voice) là câu mà chủ ngữ không thực hiện hành động mà là đối tượng chịu tác động của hành động.

@@ -2,11 +2,7 @@
 area: technology
 domain: backend-database
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Case Study: OceanBase & Alibaba Single Day 11.11
 
 ## 1. Tổng quan sự kiện (Performance Metrics)

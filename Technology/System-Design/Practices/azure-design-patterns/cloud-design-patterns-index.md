@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Các Mẫu Thiết Kế Đám Mây (Cloud Design Patterns)
 
 Các kiến trúc sư thiết kế khối lượng công việc bằng cách tích hợp các dịch vụ nền tảng, chức năng và mã nguồn để đáp ứng cả yêu cầu chức năng và phi chức năng. Các mẫu thiết kế đám mây cung cấp giải pháp cho nhiều thách thức phổ biến trong hệ thống phân tán.

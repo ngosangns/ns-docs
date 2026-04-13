@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 arise - arose - arisen - nảy sinh, xuất hiện
 Ví dụ: New problems arose during the project.
 

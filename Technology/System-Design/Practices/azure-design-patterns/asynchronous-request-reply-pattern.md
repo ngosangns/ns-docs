@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Asynchronous Request-Reply (Yêu cầu-Phản hồi bất đồng bộ)
 
 Mẫu thiết kế này tách rời việc xử lý backend khỏi host frontend. Nó được sử dụng khi backend cần xử lý các tác vụ tốn thời gian (bất đồng bộ), nhưng frontend vẫn cần một phản hồi rõ ràng và kịp thời về tình trạng của yêu cầu.

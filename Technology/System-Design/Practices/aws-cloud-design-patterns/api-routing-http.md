@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: HTTP Header Routing (Định tuyến theo HTTP Header)
 
 Định tuyến dựa trên header cho phép nhắm mục tiêu chính xác dịch vụ cho mỗi yêu cầu bằng cách chỉ định một HTTP header trong request. Ví dụ: gửi header `x-service-a-action: get-thing` sẽ cho phép bạn thực hiện hành động `get thing` từ `Service A`.

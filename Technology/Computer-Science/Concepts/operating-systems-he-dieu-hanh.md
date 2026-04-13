@@ -2,11 +2,7 @@
 area: technology
 domain: computer-science
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # OS và các cơ chế time slicing và scheduling
 
 - Cơ chế time slicing là một phương pháp trong lập lịch mà mỗi tiến trình hoặc luồng được cấp một khoảng thời gian nhất định để chạy, sau đó, điều khiển chuyển sang tiến trình hoặc luồng khác. Mục tiêu của time slicing là đảm bảo công bằng và hiệu quả trong việc chia sẻ tài nguyên CPU giữa các tiến trình và luồng mà không làm cho một tiến trình chiếm dụng tài nguyên quá mức.

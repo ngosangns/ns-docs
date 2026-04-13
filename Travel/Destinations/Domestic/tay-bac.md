@@ -2,11 +2,7 @@
 area: travel
 domain: travel-guide
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 - [khoe - Hà Giang đi mãi không chán | VOZ](https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/)
 - [khoe - Sơn La: Mai Châu, Tà Xùa, .... | VOZ](https://voz.vn/t/son-la-mai-chau-ta-xua.876158/)
 - [khoe - Cao Bằng | VOZ](https://voz.vn/t/cao-bang.832044/)

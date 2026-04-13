@@ -3,11 +3,7 @@ area: technology
 domain: algorithm
 topic: data-structures
 type: resource
-lang: vi
-created: "2026-04-13"
-modified: "2026-04-13"
 ---
-
 # Data Structures Overview
 
 ## Tổng quan

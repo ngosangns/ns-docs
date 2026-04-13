@@ -2,11 +2,7 @@
 area: technology
 domain: programming-languages
 type: note
-lang: vi
-created: "2026-04-13"
-modified: "2026-04-13"
 ---
-
 # Dockerfile Optimization Techniques cho Java/Spring Boot Applications
 
 ## Tổng quan

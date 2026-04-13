@@ -2,11 +2,7 @@
 area: technology
 domain: backend
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Tối ưu hệ thống 1M+ CCU: Tổng hợp và Best Practices
 
 ## Tóm tắt bài toán

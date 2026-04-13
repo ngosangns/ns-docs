@@ -3,11 +3,7 @@ area: technology
 domain: system-design
 topic: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Tổng quan về Thiết kế Hệ thống
 
 ## 1.1. Các Nguyên tắc Cơ bản

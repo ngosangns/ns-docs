@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề. Bạn hãy tưởng tượng một cái cây đại thụ to lớn.
 
 - Rễ cây chính là các LLM (Large language model) như GPT, Gemini (Google), Claude, Llama (Meta) hay DeepSeek, nơi thật sự có công tác Machine Learning thu thập, huấn luyện dữ liệu. Gọi là nổi bật thì chỉ khoảng 10 LLM lớn.

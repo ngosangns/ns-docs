@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Materialized View Pattern.md#L1-45
 # Materialized View Pattern (Mô hình View Kết xuất sẵn)
 

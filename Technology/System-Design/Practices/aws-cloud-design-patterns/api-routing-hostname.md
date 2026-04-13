@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Hostname Routing (Định tuyến theo Hostname)
 
 Định tuyến theo hostname là cơ chế cô lập các dịch vụ API bằng cách cấp cho mỗi API một hostname riêng biệt. Ví dụ: `service-a.api.example.com` hoặc `service-a.example.com`.

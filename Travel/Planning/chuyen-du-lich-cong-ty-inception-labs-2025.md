@@ -2,11 +2,7 @@
 area: travel
 domain: travel-plan
 type: plan
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. 📌 Tóm Tắt Chuyến Đi
 
 ## 1.1. 📅 Ngày 9/7

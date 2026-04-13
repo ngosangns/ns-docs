@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Resources
 
 - Lập trình song song: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5

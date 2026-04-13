@@ -3,11 +3,7 @@ area: technology
 domain: programming-languages
 topic: golang
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Khóa học Golang scalable của Việt Trần
 
 # NGÔN NGỮ GOLANG - KEY FEATURE

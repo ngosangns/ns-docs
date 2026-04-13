@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Priority Queue Pattern.md#L1-55
 # Priority Queue Pattern (Mô hình Hàng đợi Ưu tiên)
 

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Competing Consumers (Người tiêu dùng cạnh tranh)
 
 Mẫu thiết kế Competing Consumers cho phép nhiều người tiêu dùng (consumers) đồng thời xử lý các tin nhắn nhận được trên cùng một kênh truyền thông (messaging channel). Điều này giúp hệ thống tối ưu hóa thông lượng (throughput), cải thiện khả năng mở rộng (scalability) và tính sẵn sàng (availability), đồng thời cân bằng khối lượng công việc.

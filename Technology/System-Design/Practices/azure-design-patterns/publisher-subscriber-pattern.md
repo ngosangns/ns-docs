@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Publisher-Subscriber Pattern.md#L1-55
 # Publisher-Subscriber Pattern (Mô hình Xuất bản - Đăng ký)
 

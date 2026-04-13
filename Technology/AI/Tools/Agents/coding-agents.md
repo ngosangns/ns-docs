@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: javascript
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Resources
 
 - [AI Tools Registry | A registry distributing AI Tools and components using shadcn.](https://ai-tools-registry.vercel.app/)

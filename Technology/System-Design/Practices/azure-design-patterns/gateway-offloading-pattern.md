@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Gateway Offloading (Đẩy tải sang cổng)
 
 Mẫu thiết kế Gateway Offloading giúp đẩy các chức năng dịch vụ chung hoặc chuyên biệt sang một proxy cổng (gateway proxy). Điều này giúp đơn giản hóa việc phát triển ứng dụng bằng cách di chuyển các chức năng dùng chung—như quản lý chứng chỉ SSL, xác thực—từ các phần khác của ứng dụng vào gateway.

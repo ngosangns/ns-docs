@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Sharding Pattern.md#L1-43
 # Sharding Pattern (Mô hình Phân mảnh dữ liệu)
 

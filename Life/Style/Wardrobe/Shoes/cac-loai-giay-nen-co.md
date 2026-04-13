@@ -2,11 +2,7 @@
 area: life
 domain: clothing
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Giày Oxford đen
 
 Đôi giày không thể thiếu khi bạn được yêu cầu ăn mặc trang trọng, lịch sự.

@@ -3,11 +3,7 @@ area: technology
 domain: backend-database
 topic: postgresql
 type: resource
-lang: vi
-created: "2026-04-13"
-modified: "2026-04-13"
 ---
-
 # PostgreSQL
 
 ## Tổng quan

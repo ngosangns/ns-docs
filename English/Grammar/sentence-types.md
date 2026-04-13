@@ -2,11 +2,7 @@
 area: english
 domain: grammar
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Câu Đảo Ngữ (Inversion Sentence)
 
 Câu đảo ngữ là câu trong đó **trợ động từ hoặc động từ chính được đảo lên trước chủ ngữ** để **nhấn mạnh hoặc tạo sắc thái trang trọng**.

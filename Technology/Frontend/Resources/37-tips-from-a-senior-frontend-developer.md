@@ -2,11 +2,7 @@
 area: technology
 domain: frontend
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 37 Tips from a Senior Frontend Developer
 
 Source: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b

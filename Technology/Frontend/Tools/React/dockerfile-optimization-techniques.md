@@ -3,11 +3,7 @@ area: technology
 domain: frontend
 topic: docker
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Dockerfile Optimization Techniques cho React Applications
 
 ## Tổng quan

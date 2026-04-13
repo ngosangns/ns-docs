@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Mẫu thiết kế Gateway Routing (Định tuyến tại cổng)
 
 Mẫu thiết kế Gateway Routing sử dụng một điểm cuối (endpoint) duy nhất để định tuyến các yêu cầu đến nhiều dịch vụ hoặc nhiều phiên bản của cùng một dịch vụ. Mẫu này giúp máy khách không cần biết về cấu trúc phức tạp của các dịch vụ backend.

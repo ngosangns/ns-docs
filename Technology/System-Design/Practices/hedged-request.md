@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Hedged Request
 
 > Nguồn: [50 Days of System Design - Hedged Request](https://quanghoang.substack.com/p/50-days-of-sd-hedged-request) - Quang Hoang (Mar 15, 2025)

@@ -3,11 +3,7 @@ area: technology
 domain: frontend
 topic: react
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # React - Next.js
 
 ## Resources

@@ -2,11 +2,7 @@
 area: technology
 domain: computer-science
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Độ trễ trong bộ xử lý trung tâm và ổ cứng - Tối ưu hóa hiệu suất hệ thống
 
 - **Độ trễ trong hệ thống**:

@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 ```ngosangns-obsidian/technology/system-design/azure-design-patterns/Scheduler Agent Supervisor Pattern.md#L1-35
 # Scheduler Agent Supervisor Pattern (Mô hình Điều phối - Tác nhân - Giám sát)
 

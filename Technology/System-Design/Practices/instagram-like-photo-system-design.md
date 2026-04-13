@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Thiết kế hệ thống ảnh như Instagram
 
 > Tóm tắt từ bài viết: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-GAWVpZd5J05

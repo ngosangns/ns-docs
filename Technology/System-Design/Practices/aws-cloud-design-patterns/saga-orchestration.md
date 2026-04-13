@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Saga Orchestration (Saga Chỉ huy)
 
 Saga Orchestration sử dụng một bộ điều phối trung tâm (**Orchestrator**) để quản lý và điều phối các giao dịch phân tán trải dài trên nhiều dịch vụ. Bộ điều phối này chịu trách nhiệm gọi các dịch vụ thành viên theo đúng thứ tự và kích hoạt các giao dịch bù đắp nếu có bất kỳ bước nào thất bại.

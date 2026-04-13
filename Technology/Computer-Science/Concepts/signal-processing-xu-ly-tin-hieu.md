@@ -2,11 +2,7 @@
 area: technology
 domain: computer-science
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Signal Processing - Xử lý tín hiệu
 
 ## Fourier Transform (Biến Đổi Fourier)

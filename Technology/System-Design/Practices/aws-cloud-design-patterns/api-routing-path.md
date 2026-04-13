@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Path Routing (Định tuyến theo đường dẫn)
 
 Định tuyến theo đường dẫn là cơ chế nhóm nhiều hoặc tất cả các API dưới cùng một hostname và sử dụng URI của yêu cầu để phân tách các dịch vụ. Ví dụ: `api.example.com/service-a` hoặc `api.example.com/service-b`.

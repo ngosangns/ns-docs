@@ -2,11 +2,7 @@
 area: technology
 domain: tools
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # 1. Resources
 
 - Awesome TUI: https://github.com/rothgar/awesome-tuis

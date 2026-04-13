@@ -2,11 +2,7 @@
 area: technology
 domain: system-design
 type: note
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Pattern: Strangler Fig (Cây bóp nghẹt)
 
 Pattern Strangler Fig giúp chuyển đổi một ứng dụng Monolithic (nguyên khối) sang kiến trúc Microservices một cách dần dần, giúp giảm thiểu rủi ro và gián đoạn kinh doanh so với việc thay thế toàn bộ hệ thống cùng một lúc (Big Bang migration).

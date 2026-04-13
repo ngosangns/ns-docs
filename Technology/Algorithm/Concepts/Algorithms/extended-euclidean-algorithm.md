@@ -2,11 +2,7 @@
 area: technology
 domain: algorithms
 type: resource
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
 
 > Tài liệu này được tạo từ bài viết trên Viblo:

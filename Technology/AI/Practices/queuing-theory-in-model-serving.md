@@ -3,11 +3,7 @@ area: technology
 domain: ai-ml
 topic: mlops
 type: case-study
-lang: vi
-created: '2026-04-13'
-modified: '2026-04-13'
 ---
-
 # Queuing Theory trong Model Serving - Debug Latency
 
 ## Tóm tắt vấn đề
