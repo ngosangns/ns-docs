@@ -1,0 +1,19 @@
+---
+area: technology
+domain: ai-ml
+topic: javascript
+type: resource
+lang: vi
+created: '2026-04-13'
+modified: '2026-04-13'
+---
+
+# Tổng quan
+
+Tổng hợp các bộ dữ liệu media phục vụ huấn luyện và đánh giá mô hình AI cho video, âm thanh, hình ảnh. Tập trung vào các nguồn uy tín, sẵn sàng dùng cho nghiên cứu và xây dựng pipeline thực tế.
+
+# 1. Media
+
+## 1.1. Video
+
+- [facebook/seamless-interaction · Datasets at Hugging Face](https://huggingface.co/datasets/facebook/seamless-interaction)
