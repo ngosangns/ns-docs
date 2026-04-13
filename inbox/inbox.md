@@ -6,6 +6,7 @@
 - https://github.com/getzep/zep — End-to-end context engineering platform; assembles relationship-aware agent context via Graph RAG with <200ms latency.
 - https://github.com/eclaire-labs/eclaire — Self-hosted, privacy-first AI assistant that organizes notes, docs, photos, bookmarks, and tasks locally.
 - https://github.com/lyogavin/airllm — Memory-optimized LLM inference library; runs 70B+ models on 4–8GB GPUs without quantization.
+- https://github.com/knowns-dev/knowns — The memory layer for AI-native development; gives AI persistent understanding of software projects via tasks, docs, code intelligence, and Claude Code skills.
 
 ## Web & Desktop Frameworks
 
