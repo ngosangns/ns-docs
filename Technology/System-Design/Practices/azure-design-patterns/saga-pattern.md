@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Saga Pattern.md#L1-37
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Saga Pattern.md#L1-37
 # Saga Distributed Transactions Pattern (Mô hình Giao dịch Phân tán Saga)
 
 ## Tóm tắt

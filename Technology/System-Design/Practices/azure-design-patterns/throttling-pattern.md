@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Throttling Pattern.md#L1-35
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Throttling Pattern.md#L1-35
 # Throttling Pattern (Mô hình Điều tiết)
 
 ## Tóm tắt

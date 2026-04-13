@@ -13,7 +13,7 @@ modified: '2026-04-13'
 
 - Human-readable, dễ parse
 - Phù hợp cho HTTP APIs
-- Ví dụ: ESP32 gửi JSON payload trong [[Technology/IoT/Concepts/smart-home]]
+- Ví dụ: ESP32 gửi JSON payload trong [[technology/iot/concepts/smart-home]]
 
 ## MessagePack
 

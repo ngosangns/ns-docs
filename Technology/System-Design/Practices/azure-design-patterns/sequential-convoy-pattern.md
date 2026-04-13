@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Sequential Convoy Pattern.md#L1-28
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Sequential Convoy Pattern.md#L1-28
 # Sequential Convoy Pattern (Mô hình Đoàn tàu Tuần tự)
 
 ## Tóm tắt

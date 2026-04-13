@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Index Table Pattern.md#L1-53
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Index Table Pattern.md#L1-53
 # Index Table Pattern (Mô hình Bảng Chỉ mục)
 
 Tạo các chỉ mục trên các trường dữ liệu thường xuyên được truy vấn trong các kho lưu trữ dữ liệu. Mô hình này giúp cải thiện hiệu suất truy vấn bằng cách cho phép ứng dụng tìm kiếm dữ liệu cần truy xuất một cách nhanh chóng hơn.

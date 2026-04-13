@@ -45,7 +45,7 @@ modified: '2026-04-13'
 
 ### Frontend
 
-- Sự khác nhau jQuery và React/Vue/Angular?
+- Sự khác nhau jQuery và React/vue/Angular?
   - **Kỳ vọng**: jQuery tương tác DOM trực tiếp, các framework tương tác với virtual DOM
 
 ### Design Patterns

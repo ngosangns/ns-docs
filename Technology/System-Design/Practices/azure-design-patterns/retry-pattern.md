@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Retry Pattern.md#L1-34
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Retry Pattern.md#L1-34
 # Retry Pattern (Mô hình Thử lại)
 
 ## Tóm tắt

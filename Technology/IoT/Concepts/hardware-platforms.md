@@ -16,7 +16,7 @@ modified: '2026-04-13'
 - WiFi và Bluetooth tích hợp
 - Rẻ, dễ phát triển
 - Phù hợp cho smart home và DIY projects
-- Có thể dùng ESPHome để tạo custom firmware (xem [[Technology/IoT/Concepts/smart-home]])
+- Có thể dùng ESPHome để tạo custom firmware (xem [[technology/iot/concepts/smart-home]])
 
 ### Arduino
 
@@ -28,7 +28,7 @@ modified: '2026-04-13'
 
 - Full Linux OS
 - Phù hợp cho gateway, edge computing, và home automation hubs
-- Có thể chạy Home Assistant (xem [[Technology/IoT/Concepts/smart-home]])
+- Có thể chạy Home Assistant (xem [[technology/iot/concepts/smart-home]])
 
 ### STM32
 

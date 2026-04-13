@@ -33,7 +33,7 @@ modified: '2026-04-13'
 
 ## World Models khác
 
-- [[Technology/AI/Practices/code-world-model]]: World model tự giám sát được train trên video, cho phép zero-shot robot control và visual understanding
+- [[technology/ai/practices/code-world-model]]: World model tự giám sát được train trên video, cho phép zero-shot robot control và visual understanding
 
 ## Tài nguyên
 

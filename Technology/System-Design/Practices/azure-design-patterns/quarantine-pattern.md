@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Quarantine Pattern.md#L1-50
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Quarantine Pattern.md#L1-50
 # Quarantine Pattern (Mô hình Cách ly)
 
 Sử dụng các quy trình xác thực để kiểm tra các thành phần phần mềm của bên thứ ba (third-party artifacts) trong chuỗi cung ứng trước khi cho phép sử dụng chúng trong hệ thống. Mô hình này hoạt động như một "sidecar" vận hành cho quá trình phát triển, giúp ngăn chặn các lỗ hổng bảo mật tiềm ẩn từ các nguồn bên ngoài.

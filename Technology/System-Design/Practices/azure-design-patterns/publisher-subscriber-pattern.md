@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Publisher-Subscriber Pattern.md#L1-55
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Publisher-Subscriber Pattern.md#L1-55
 # Publisher-Subscriber Pattern (Mô hình Xuất bản - Đăng ký)
 
 Cho phép một ứng dụng thông báo các sự kiện đến nhiều người tiêu dùng (consumers) quan tâm một cách bất đồng bộ, mà không cần gắn kết chặt chẽ người gửi với người nhận.

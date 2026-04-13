@@ -151,5 +151,5 @@ Dữ liệu không được tổ chức theo trình tự.
 
 - [[segment-tree]]
 - [[bloom-filter]]
-- [[Technology/Algorithm/Concepts/big-o-notation]]
-- [[Technology/Algorithm/Concepts/Approaches/problem-solving-approaches]]
+- [[technology/algorithm/concepts/big-o-notation]]
+- [[technology/algorithm/concepts/approaches/problem-solving-approaches]]

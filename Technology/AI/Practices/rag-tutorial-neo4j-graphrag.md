@@ -53,7 +53,7 @@ modified: '2026-04-13'
 
 - Chuyển đổi text thành vector
 - Lựa chọn: OpenAI, Cohere, BGE, hoặc fine-tuned models
-- Xem thêm: [[Technology/AI/Concepts/RAG/rag-overview]]
+- Xem thêm: [[technology/ai/concepts/rag/rag-overview]]
 
 ### 4. Vector Database
 

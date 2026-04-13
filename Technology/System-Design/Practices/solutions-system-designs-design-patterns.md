@@ -382,7 +382,7 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
 
 ### 3.3.5. Đồng bộ hóa Dữ liệu (Data Syncing)
 
-- Loro - Syncing / conflict free / automatic merging: Loro là một thư viện CRDT (Conflict-free Replicated Data Type) hiệu suất cao cho việc đồng bộ hóa trạng thái cục bộ và hợp nhất tự động mà không có xung đột. Hỗ trợ cả backend (xem [[Technology/Backend-Database/Resources/backend-overview]]) và frontend (xem [[Technology/Frontend/Resources/frontend-overview]]).
+- Loro - Syncing / conflict free / automatic merging: Loro là một thư viện CRDT (Conflict-free Replicated Data Type) hiệu suất cao cho việc đồng bộ hóa trạng thái cục bộ và hợp nhất tự động mà không có xung đột. Hỗ trợ cả backend (xem [[technology/backend-database/resources/backend-overview]]) và frontend (xem [[technology/frontend/resources/frontend-overview]]).
   - Nguồn: https://github.com/loro-dev/loro
 
 ### 3.3.6. Metadata

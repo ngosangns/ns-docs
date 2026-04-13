@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
 # Strangler Fig Pattern (Mô hình Cây bóp nghẹt)
 
 ## Tóm tắt

@@ -22,5 +22,5 @@ modified: '2026-04-13'
 ## Các note đã tách
 
 - [[enumeration-problems]]
-- [[Technology/Algorithm/Concepts/data-structures/overview]]
+- [[technology/algorithm/concepts/data-structures/overview]]
 - [[algorithm-development]]

@@ -19,6 +19,6 @@ Large Language Models (LLMs) là các mô hình ngôn ngữ lớn được huấ
 - **Fine-tuning**: Tinh chỉnh mô hình cho các tác vụ cụ thể
 
 Xem chi tiết tại:
-- [[Technology/AI/Concepts/LLM-Generative-AI/prompt-engineering/prompt-guide]]
-- [[Technology/AI/Concepts/LLM-Generative-AI/RAG/rag-overview]]
-- [[Technology/AI/Concepts/LLM-Generative-AI/Fine-tuning/fine-tuning-techniques]]
+- [[technology/ai/concepts/llm-generative-ai/prompt-engineering/prompt-guide]]
+- [[technology/ai/concepts/llm-generative-ai/rag/rag-overview]]
+- [[technology/ai/concepts/llm-generative-ai/fine-tuning/fine-tuning-techniques]]

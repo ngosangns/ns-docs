@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Pipes and Filters Pattern.md#L1-45
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Pipes and Filters Pattern.md#L1-45
 # Pipes and Filters Pattern (Mô hình Đường ống và Bộ lọc)
 
 Chia nhỏ một tác vụ thực hiện xử lý phức tạp thành một chuỗi các thành phần riêng biệt (bộ lọc) có thể tái sử dụng. Mô hình này cho phép các yếu tố xử lý được triển khai và mở rộng độc lập, cải thiện hiệu suất, khả năng mở rộng và tính mô-đun.

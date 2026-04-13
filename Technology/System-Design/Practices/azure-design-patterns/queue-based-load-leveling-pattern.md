@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Queue-based Load Leveling Pattern.md#L1-45
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Queue-based Load Leveling Pattern.md#L1-45
 # Queue-Based Load Leveling Pattern (Mô hình San phẳng Tải dựa trên Hàng đợi)
 
 Sử dụng một hàng đợi đóng vai trò như một bộ đệm (buffer) giữa một tác vụ và một dịch vụ mà nó gọi đến, nhằm làm mượt các đợt tải nặng không liên tục. Điều này giúp giảm thiểu tác động của các đỉnh yêu cầu (peak load) đối với tính sẵn sàng và khả năng phản hồi của cả hệ thống.

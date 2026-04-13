@@ -17,7 +17,7 @@ modified: '2026-04-13'
 - **Bluetooth/BLE**: Tiết kiệm pin, phù hợp cho wearables và devices di động
 - **Zigbee**: Mesh network, tiết kiệm pin, phù hợp cho smart home, nhưng có thể phức tạp với proprietary protocols
 - **Z-Wave**: Tương tự Zigbee, nhưng có license fee
-- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [[Technology/IoT/Concepts/smart-home]])
+- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [[technology/iot/concepts/smart-home]])
 
 ### Long-range
 

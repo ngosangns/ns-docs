@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Scheduler Agent Supervisor Pattern.md#L1-35
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Scheduler Agent Supervisor Pattern.md#L1-35
 # Scheduler Agent Supervisor Pattern (Mô hình Điều phối - Tác nhân - Giám sát)
 
 ## Tóm tắt

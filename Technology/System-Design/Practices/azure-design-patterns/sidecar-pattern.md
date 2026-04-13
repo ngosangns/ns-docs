@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Sidecar Pattern.md#L1-36
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Sidecar Pattern.md#L1-36
 # Sidecar Pattern (Mô hình Mô tô có thùng)
 
 ## Tóm tắt

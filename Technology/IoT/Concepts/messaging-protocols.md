@@ -30,7 +30,7 @@ modified: '2026-04-13'
 - Phổ biến, dễ implement
 - Phù hợp cho devices có đủ resources
 - Có thể dùng REST APIs hoặc webhooks
-- Ví dụ: ESP32 gửi HTTP POST/GET trong [[Technology/IoT/Concepts/smart-home]]
+- Ví dụ: ESP32 gửi HTTP POST/GET trong [[technology/iot/concepts/smart-home]]
 
 ## AMQP (Advanced Message Queuing Protocol)
 

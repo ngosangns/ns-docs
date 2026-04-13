@@ -25,7 +25,7 @@ modified: '2026-04-13'
 
 ## Use Cases cho Edge
 
-- Real-time control (như button presses trong [[Technology/IoT/Concepts/smart-home]])
+- Real-time control (như button presses trong [[technology/iot/concepts/smart-home]])
 - Local automation rules
 - Data filtering và aggregation trước khi gửi cloud
 - Offline operation

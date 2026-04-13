@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Health Endpoint Monitoring Pattern.md#L1-53
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Health Endpoint Monitoring Pattern.md#L1-53
 # Health Endpoint Monitoring Pattern (Mô hình Giám sát Điểm cuối Sức khỏe)
 
 Mô hình này sử dụng các kiểm tra chức năng bên trong ứng dụng, cho phép các công cụ bên ngoài truy cập thông qua các điểm cuối (endpoints) để xác minh ứng dụng và dịch vụ đang hoạt động bình thường.

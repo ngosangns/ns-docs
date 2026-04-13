@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Static Content Hosting Pattern.md#L1-35
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Static Content Hosting Pattern.md#L1-35
 # Static Content Hosting Pattern (Mô hình Lưu trữ Nội dung Tĩnh)
 
 ## Tóm tắt

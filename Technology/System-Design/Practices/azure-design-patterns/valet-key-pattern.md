@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Valet Key Pattern.md#L1-43
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
 # Valet Key Pattern (Mô hình Chìa khóa đỗ xe)
 
 ## Tóm tắt

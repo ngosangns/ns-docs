@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Geode Pattern.md#L1-51
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Geode Pattern.md#L1-51
 # Geode Pattern (Mô hình Geode)
 
 **Geode (Geographical Nodes)** là mô hình triển khai một tập hợp các dịch vụ backend vào các nút địa lý (nodes), trong đó mỗi nút có thể phục vụ bất kỳ yêu cầu nào từ bất kỳ khách hàng nào ở bất kỳ khu vực nào.

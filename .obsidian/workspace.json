@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3642d1a24fc2c1a1",
+        "id": "1e4845eab5f9fddb",
         "type": "tabs",
         "children": [
           {
-            "id": "cafae6f45d8a65cb",
+            "id": "a776eb46b0a59d5c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technology/Career/Practices/phong-van-jv-it.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "phong-van-jv-it"
+              "title": "New tab"
             }
           }
         ]
@@ -154,23 +150,24 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 400.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -180,8 +177,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "cafae6f45d8a65cb",
+  "active": "0931d0d02789116f",
   "lastOpenFiles": [
+    "update_folder_refs.py",
+    "rename_folders.py",
+    "Technology/Career/Practices/phong-van-jv-it.md",
+    "Untitled.base",
     "Technology/Algorithm/Concepts/data-structures/overview.md",
     "Technology/IoT/Concepts/smart-home.md",
     "Technology/Frontend/Concepts/webrtc.md",
@@ -209,14 +210,10 @@
     "scripts/check_broken_links.py",
     "Technology/System-Design/Practices/aws-cloud-design-patterns/transactional-outbox.md",
     "Technology/System-Design/Practices/aws-cloud-design-patterns/strangler-fig.md",
-    "Technology/System-Design/Practices/aws-cloud-design-patterns/saga-orchestration.md",
-    "Technology/System-Design/Practices/aws-cloud-design-patterns/saga-choreography.md",
     "Technology/System-Design/Practices/aws-cloud-design-patterns",
     "Technology/System-Design/Practices/azure-design-patterns",
     "Technology/AI/Concepts/computer-vision/Recognition",
     "Technology/AI/Concepts/computer-vision",
-    "Technology/AI/Concepts/core-concepts",
-    "Technology/Algorithm/Concepts/data-structures",
-    "Technology/Backend-Database/Concepts/database-types"
+    "Technology/AI/Concepts/core-concepts"
   ]
 }

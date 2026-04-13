@@ -7,7 +7,7 @@ created: '2026-04-13'
 modified: '2026-04-13'
 ---
 
-```ngosangns-obsidian/Technology/System-Design/azure-design-patterns/Leader Election Pattern.md#L1-55
+```ngosangns-obsidian/technology/system-design/azure-design-patterns/Leader Election Pattern.md#L1-55
 # Leader Election Pattern (Mô hình Bầu chọn Lãnh đạo)
 
 Điều phối hành động của một tập hợp các thực thể (instances) cộng tác trong một ứng dụng phân tán bằng cách bầu ra một thực thể làm "lãnh đạo" (leader). Thực thể này sẽ chịu trách nhiệm quản lý các thực thể khác, giúp tránh xung đột, tranh chấp tài nguyên chung hoặc vô tình can thiệp vào công việc của nhau.

@@ -22,7 +22,7 @@ modified: '2026-04-13'
 - **Power management**: Sleep modes, wake-on-event
 - **Data compression**: Giảm bandwidth usage
 - **Caching**: Cache data tại edge để giảm cloud calls
-- **Debouncing**: Xử lý duplicate events (như trong [[Technology/IoT/Concepts/smart-home]])
+- **Debouncing**: Xử lý duplicate events (như trong [[technology/iot/concepts/smart-home]])
 
 ## Monitoring và Debugging
 
