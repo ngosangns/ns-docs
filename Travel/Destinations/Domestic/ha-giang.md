@@ -78,7 +78,7 @@ Lưu ý:
 
 ---
 
-![🛵](https://static.xx.fbcdn.net/images/emoji.php/v9/t7c/2/16/1f6f5.png) Lịch trình 4N3D: Phượt Hà Giang bằng xe máy
+Lịch trình 4N3D: Phượt Hà Giang bằng xe máy
 
 Ngày 1: Hà Giang – Quản Bạ – Yên Minh
 
