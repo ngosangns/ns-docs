@@ -113,3 +113,64 @@
 ## IoT & Edge AI
 
 - https://github.com/ruvnet/RuView — WiFi sensing platform using ESP32 CSI signals for real-time human pose estimation, vital signs, and presence detection without cameras.
+
+## Claude Code Kits
+
+- https://github.com/affaan-m/everything-claude-code — Curated collection of Claude Code commands, workflows, and automation patterns.
+- https://github.com/arpitnath/claude-capsule-kit — Reusable starter kit for packaging Claude Code context, prompts, and project workflows.
+- https://github.com/arpitnath/blink-query — Companion query utility for searching and retrieving structured project context.
+- https://github.com/carlrannaberg/claudekit — Toolkit for organizing Claude Code commands, prompts, and reusable project scaffolding.
+- https://github.com/eyaltoledano/claude-task-master — Task planning and execution framework tailored for Claude Code workflows.
+- https://github.com/mrgoonie/claudekit-cli — CLI for managing and applying Claude Code kits from the terminal.
+- https://github.com/mrgoonie/claudekit-skills — Skills pack for extending Claude Code with reusable specialist behaviors.
+- https://github.com/Yeachan-Heo/oh-my-claudecode — Opinionated enhancement pack for Claude Code developer experience and productivity.
+
+## Manga Translation & OCR
+
+- https://github.com/zyddnys/manga-image-translator — Popular end-to-end manga image translation pipeline with OCR, cleaning, and typesetting.
+- https://github.com/ogkalu2/comic-translate — Comic and manga translation workflow focused on OCR, inpainting, and translated overlays.
+- https://github.com/VoileLabs/cotrans — Manga/comic translation project with OCR, inpainting, and multilingual text replacement.
+- https://github.com/mayocream/koharu — Manga translation desktop workflow with OCR and translation support.
+- https://github.com/mannu691/TachiyomiAT — Tachiyomi-based Android manga reader with built-in translation features.
+- https://github.com/DCY1117/MangaQuick — Streamlit manga translation web app using inpainting, OCR, and cloud/local translators.
+- https://github.com/meangrinch/MangaTranslator — Gradio-based manga translator with segmentation, inpainting, and broad language support.
+- https://github.com/thomaswantstobeaskeleton/BallonsTranslator-Pro — Balloon/text translation fork with extensive OCR, fonts, and manga tooling.
+- https://github.com/ttop32/JMTrans — PyQt manga translator with segmentation, OCR, and Korean-focused translation features.
+- https://github.com/cameronkinsella/manga-translator — Go desktop manga translator using Google Cloud Vision and DeepL.
+- https://github.com/AntonRls/Manga-Translator — C# WPF desktop app for manually selecting text regions and translating them.
+- https://github.com/thradnea/onyx-manga-translator — Local manga translation pipeline with YOLOv8, Manga-OCR, and translation memory.
+- https://github.com/pedguedes090/Manga-Translator — Flask web app combining OCR, translation models, and context-aware memory.
+- https://github.com/Mabzak-Knight/NyanTranslate — Flask-based comic translator using OCR and automated text replacement.
+- https://github.com/Snowad14/Manga-Website-Trans — Flask web translator for manga pages with DeepL-based translation flow.
+- https://github.com/wiryaimd/manga-translator — Android manga translation app using on-device OCR and translation.
+- https://github.com/mikezzb/Komic — MangaDex Android reader with offline ML Kit translation support.
+- https://github.com/kawayiYokami/MangaReader — Local manga manager and reader with LLM-assisted translation.
+- https://github.com/datalab-to/chandra — High-performance OCR/layout extraction model for documents, images, and multilingual content.
+- https://github.com/TareHimself/manga-translator — Python manga translation pipeline using detection, inpainting, and LLM translation.
+- https://github.com/dalelyunas/manga-translator — Classic OpenCV/Tesseract manga translation script.
+- https://github.com/georgescutelnicu/Manga-Translator — Python CLI and Flask manga translator supporting multiple OCR and translation backends.
+- https://github.com/Detopall/manga-translator — FastAPI manga translator with YOLOv8, manga-ocr, and multilingual translation.
+- https://github.com/P4ST4S/AutoScanlate-AI — Microservice-based scanlation stack using local OCR and translation models.
+- https://github.com/ImDarkShadow/comic-translator — Node.js comic translator for CJK source text into English.
+- https://github.com/Whalefishin/Manga_Translator — Notebook-based research workflow for segmentation, OCR, and translation.
+- https://github.com/oomol-flows/manga-translator — No-code manga translation workflow built around manga-image-translator.
+- https://github.com/manga-translator-project/manga-translator — PaddleOCR + Gemini-based manga translation project.
+- https://github.com/xulihang/ImageTrans-docs — Documentation repository for the commercial ImageTrans image translation tool.
+- https://github.com/leyouaitools/aimangatranslator — Feedback/issues repository for a commercial manga translation service.
+
+## Memory & Code Intelligence
+
+- https://github.com/thedotmack/claude-mem — Persistent memory layer for Claude Code sessions and developer workflows.
+- https://github.com/tirth8205/code-review-graph — Graph-based code review assistant for exploring changes and review context.
+- https://github.com/abhigyanpatwari/GitNexus — Repository knowledge graph and code relationship explorer for developer workflows.
+- https://github.com/safishamsi/graphify — Knowledge graph generation toolkit for documents, code, and structured context.
+- https://github.com/mem0ai/mem0 — Open-source memory layer for AI agents and applications.
+- https://github.com/MemPalace/mempalace — Long-term memory system for agents with retrieval and benchmark support.
+- https://github.com/NevaMind-AI/memU — Agent memory framework focused on durable user/project context.
+- https://github.com/nhadaututtheky/neural-memory — Neural memory experimentation project for AI assistants.
+- https://github.com/Hawksight-AI/semantica — Semantic memory and retrieval project for AI-powered knowledge workflows.
+- https://github.com/HoangTheQuyen/think-better — Thinking and reasoning augmentation toolkit for assistant workflows.
+- https://github.com/infiniflow/ragflow — Open-source RAG platform for knowledge ingestion, retrieval, and agent applications.
+- https://github.com/obra/superpowers — Personal knowledge augmentation and productivity tooling.
+- https://github.com/trustgraph-ai/trustgraph — Trust-aware knowledge graph and retrieval infrastructure for AI systems.
+- https://github.com/alibaba/zvec — Vector and embedding infrastructure project from Alibaba.
