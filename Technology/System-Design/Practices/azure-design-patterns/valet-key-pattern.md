@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
 # Valet Key Pattern (Mô hình Chìa khóa đỗ xe)
 
 ## Tóm tắt

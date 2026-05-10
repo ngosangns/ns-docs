@@ -1,13 +1,12 @@
 node_modules/
+.dev.vars
+.wrangler/
 
 # macOS
 .DS_Store
-
-# Obsidian
-.obsidian/
 
 # Generated outputs
 graphify-out/
 backups/
 export/
-
+web/dist/

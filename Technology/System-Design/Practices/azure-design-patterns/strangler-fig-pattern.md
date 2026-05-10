@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
 # Strangler Fig Pattern (Mô hình Cây bóp nghẹt)
 
 ## Tóm tắt

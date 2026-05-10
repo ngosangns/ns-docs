@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Sequential Convoy Pattern.md#L1-28
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Sequential Convoy Pattern.md#L1-28
 # Sequential Convoy Pattern (Mô hình Đoàn tàu Tuần tự)
 
 ## Tóm tắt

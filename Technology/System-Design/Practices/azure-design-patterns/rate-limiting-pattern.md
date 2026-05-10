@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Rate Limiting Pattern.md#L1-43
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Rate Limiting Pattern.md#L1-43
 # Rate Limiting Pattern (Mô hình Giới hạn Tốc độ)
 
 ## Tóm tắt

@@ -1,0 +1,22 @@
+version: "3"
+
+tasks:
+  web:build:
+    desc: Build the static knowledge base preview web
+    cmds:
+      - npm run web:build
+
+  web:serve:
+    desc: Build and serve the preview web locally
+    cmds:
+      - npm run web:serve
+
+  web:watch:
+    desc: Watch notes and preview assets, then serve locally
+    cmds:
+      - npm run web:watch
+
+  web:deploy:
+    desc: Build and deploy the preview web to Cloudflare Pages
+    cmds:
+      - npm run web:deploy

@@ -1,7 +1,7 @@
 {
-  "name": "ngosangns-obsidian",
+  "name": "ngosangns-knowledge-base",
   "version": "1.0.0",
-  "description": "Obsidian notes workspace",
+  "description": "Personal knowledge base workspace",
   "scripts": {
     "format:md": "node format-md.js",
     "format:md:check": "node format-md.js --check",
@@ -19,10 +19,22 @@
     "duplicates:find": "node scripts/find-duplicates.js",
     "images:check": "node scripts/check-images.js",
     "images:broken": "node scripts/check-images.js --broken",
+    "web:data": "node scripts/build-preview-data.js",
+    "web:build": "node scripts/build-preview-web.js",
+    "web:serve": "npm run web:build && vite --host 127.0.0.1 web/dist",
+    "web:watch": "node scripts/watch-preview-web.js",
+    "web:deploy": "npm run web:build && wrangler pages deploy web/dist --project-name ngosangns-knowledge-base",
     "export": "node scripts/export.js",
     "backup": "node scripts/backup.js"
   },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "vite": "^8.0.11",
+    "wrangler": "^4.90.0"
+  },
+  "dependencies": {
+    "graphology": "^0.26.0",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "sigma": "^3.0.3"
   }
 }

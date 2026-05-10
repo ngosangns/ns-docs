@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Priority Queue Pattern.md#L1-55
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Priority Queue Pattern.md#L1-55
 # Priority Queue Pattern (Mô hình Hàng đợi Ưu tiên)
 
 Mô hình này cho phép hệ thống xử lý các tác vụ có độ ưu tiên cao nhanh hơn các tác vụ có độ ưu tiên thấp. Điều này cực kỳ hữu ích trong các ứng dụng cần đảm bảo cam kết về mức độ dịch vụ (SLA) khác nhau cho từng đối tượng khách hàng hoặc loại công việc.

@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Retry Pattern.md#L1-34
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Retry Pattern.md#L1-34
 # Retry Pattern (Mô hình Thử lại)
 
 ## Tóm tắt

@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Throttling Pattern.md#L1-35
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Throttling Pattern.md#L1-35
 # Throttling Pattern (Mô hình Điều tiết)
 
 ## Tóm tắt

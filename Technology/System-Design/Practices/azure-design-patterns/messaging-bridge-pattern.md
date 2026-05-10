@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Messaging Bridge Pattern.md#L1-45
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Messaging Bridge Pattern.md#L1-45
 # Messaging Bridge Pattern (Mô hình Cầu nối Thông điệp)
 
 Mô hình này được sử dụng để tích hợp các hệ thống rời rạc được xây dựng trên các cơ sở hạ tầng nhắn tin (messaging infrastructure) khác nhau.

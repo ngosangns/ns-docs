@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Materialized View Pattern.md#L1-45
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Materialized View Pattern.md#L1-45
 # Materialized View Pattern (Mô hình View Kết xuất sẵn)
 
 Tạo ra các view dữ liệu được tính toán hoặc định dạng sẵn từ một hoặc nhiều kho lưu trữ dữ liệu khi dữ liệu gốc không ở định dạng lý tưởng cho các hoạt động truy vấn cụ thể. Mô hình này giúp hỗ trợ truy vấn hiệu quả, trích xuất dữ liệu nhanh chóng và cải thiện hiệu suất ứng dụng.

@@ -3,7 +3,7 @@ area: technology
 domain: frontend
 type: note
 ---
-```/Users/ngosangns/Github/ngosangns-obsidian/technology/frontend/Công cụ/CSS.md
+```/Users/ngosangns/Github/ngosangns-knowledge-base/technology/frontend/Công cụ/CSS.md
 ---
 tags:
   - area/technology

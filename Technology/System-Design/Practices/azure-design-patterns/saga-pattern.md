@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Saga Pattern.md#L1-37
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Saga Pattern.md#L1-37
 # Saga Distributed Transactions Pattern (Mô hình Giao dịch Phân tán Saga)
 
 ## Tóm tắt

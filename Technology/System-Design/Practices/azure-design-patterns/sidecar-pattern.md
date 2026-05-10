@@ -3,7 +3,7 @@ area: technology
 domain: system-design
 type: note
 ---
-```ngosangns-obsidian/technology/system-design/azure-design-patterns/Sidecar Pattern.md#L1-36
+```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Sidecar Pattern.md#L1-36
 # Sidecar Pattern (Mô hình Mô tô có thùng)
 
 ## Tóm tắt

@@ -1,12 +1,12 @@
-# Obsidian Vault Broken Links Checker
+# Markdown Workspace Broken Links Checker
 
-A Python script to check for broken internal links in an Obsidian vault.
+A Python script to check for broken internal wiki-style links in a Markdown workspace.
 
 ## Features
 
-- ✅ Scans all markdown files for wiki-style links `[[...]]`
+- ✅ Scans all markdown files for wiki-style links such as `double-bracket links`
 - ✅ Ignores non-markdown files (images, PDFs, etc.)
-- ✅ Supports path-based links (e.g., `[[folder/subfolder/file]]`)
+- ✅ Supports path-based links
 - ✅ Suggests similar files for broken links
 - ✅ Multiple output formats: text, JSON, markdown
 - ✅ Optional auto-fix mode
@@ -23,10 +23,10 @@ No external dependencies required. Uses only Python standard library.
 python scripts/check_broken_links.py
 ```
 
-### Check specific vault path
+### Check specific workspace path
 
 ```bash
-python scripts/check_broken_links.py --vault-path /path/to/your/vault
+python scripts/check_broken_links.py --root-path /path/to/your/workspace
 ```
 
 ### Generate markdown report
@@ -49,13 +49,13 @@ python scripts/check_broken_links.py --output json
 
 ## Command Line Options
 
-| Option              | Description                               | Default           |
-| ------------------- | ----------------------------------------- | ----------------- |
-| `--vault-path PATH` | Path to Obsidian vault                    | Current directory |
-| `--fix`             | Attempt to fix broken links automatically | False             |
-| `--output FORMAT`   | Output format: text, json, markdown       | text              |
-| `--verbose`         | Show detailed information                 | False             |
-| `--help`            | Show help message                         | -                 |
+| Option             | Description                               | Default           |
+| ------------------ | ----------------------------------------- | ----------------- |
+| `--root-path PATH` | Path to Markdown workspace                | Current directory |
+| `--fix`            | Attempt to fix broken links automatically | False             |
+| `--output FORMAT`  | Output format: text, json, markdown       | text              |
+| `--verbose`        | Show detailed information                 | False             |
+| `--help`           | Show help message                         | -                 |
 
 ## Exit Codes
 
@@ -70,8 +70,8 @@ python scripts/check_broken_links.py --output json
    - Full relative path (lowercase)
    - Full relative path slug
 
-2. **Parse Links**: Extracts wiki links `[[...]]` from each file, ignoring:
-   - Heading anchors (e.g., `[[file#heading]]` → `[[file]]`)
+2. **Parse Links**: Extracts double-bracket wiki links from each file, ignoring:
+   - Heading anchors
    - Non-markdown files (images, PDFs, etc.)
 
 3. **Check Existence**: For each link, checks if the file exists by:
@@ -92,8 +92,8 @@ python scripts/check_broken_links.py --output json
 🚨 Found 3 broken links:
 
 📄 folder/note.md
-   Line 10: [[broken-link]]
-   💡 Suggestion: [[folder/broken-link.md]]
+   Line 10: double-bracket broken-link
+   Suggestion: folder/broken-link.md
 ```
 
 ### Markdown Report
@@ -113,8 +113,8 @@ python scripts/check_broken_links.py --output json
 
 ### folder/note.md
 
-- Line 10: `[[broken-link]]`
-  - 💡 Suggestion: `[[folder/broken-link.md]]`
+- Line 10: `double-bracket broken-link`
+  - Suggestion: `folder/broken-link.md`
 ```
 
 ### JSON Output
@@ -122,7 +122,7 @@ python scripts/check_broken_links.py --output json
 ```json
 {
   "scan_date": "2026-04-13T12:00:00",
-  "vault_path": "/path/to/vault",
+  "root_path": "/path/to/workspace",
   "summary": {
     "files_checked": 302,
     "total_links": 78,

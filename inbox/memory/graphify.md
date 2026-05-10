@@ -278,7 +278,7 @@ graphify-out/
 ├── graph.json          # 5MB for medium repo
 ├── graph.html          # Interactive visualization
 ├── GRAPH_REPORT.md     # AI-generated insights
-├── obsidian/           # Obsidian vault
+├── knowledge-base/           # Markdown workspace
 ├── wiki/               # Markdown wiki
 └── cache/              # SHA256 cache
 ```
@@ -370,7 +370,7 @@ graphify hook install  # Post-commit git hook
 
 `graphify-out/` directory chứa:
 - **graph.html** – Interactive graph với clickable nodes, search, community filtering
-- **obsidian/** – Open as Obsidian vault
+- **knowledge-base/** – Open as Markdown workspace
 - **wiki/** – Wikipedia-style articles for agent navigation
 - **GRAPH_REPORT.md** – God nodes, surprising connections, suggested questions
 - **graph.json** – Persistent graph for querying weeks later

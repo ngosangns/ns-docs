@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Obsidian Vault Broken Links Checker
-Checks for broken internal links in an Obsidian vault
+Markdown Workspace Broken Links Checker
+Checks for broken internal links in a Markdown workspace
 
 Usage:
-    python check_broken_links.py [--vault-path PATH] [--fix] [--output FORMAT]
+    python check_broken_links.py [--root-path PATH] [--fix] [--output FORMAT]
 
 Options:
-    --vault-path PATH   Path to Obsidian vault (default: current directory)
+    --root-path PATH    Path to Markdown workspace (default: current directory)
     --fix               Attempt to fix broken links automatically
     --output FORMAT     Output format: text, json, markdown (default: text)
     --verbose           Show detailed information
@@ -23,9 +23,9 @@ from collections import defaultdict
 from typing import Dict, List, Tuple, Set
 from datetime import datetime
 
-class ObsidianLinkChecker:
-    def __init__(self, vault_path: str):
-        self.vault_path = Path(vault_path).resolve()
+class MarkdownLinkChecker:
+    def __init__(self, root_path: str):
+        self.root_path = Path(root_path).resolve()
         self.broken_links: List[Dict] = []
         self.files_checked = 0
         self.total_links = 0
@@ -51,11 +51,11 @@ class ObsidianLinkChecker:
         return text.strip('-')
     
     def build_file_index(self):
-        """Build index of all markdown files in vault"""
-        print(f"🔍 Scanning vault: {self.vault_path}")
+        """Build index of all markdown files in the workspace"""
+        print(f"🔍 Scanning workspace: {self.root_path}")
         
         md_files = []
-        for file_path in self.vault_path.rglob("*.md"):
+        for file_path in self.root_path.rglob("*.md"):
             # Skip hidden directories and common non-content dirs
             if any(part.startswith('.') or part in ['venv', 'node_modules'] 
                    for part in file_path.parts):
@@ -63,7 +63,7 @@ class ObsidianLinkChecker:
             md_files.append(file_path)
         
         for file_path in md_files:
-            rel_path = file_path.relative_to(self.vault_path)
+            rel_path = file_path.relative_to(self.root_path)
             rel_path_str = str(rel_path)
             filename = file_path.stem
             slug = self.slugify(filename)
@@ -162,7 +162,7 @@ class ObsidianLinkChecker:
             source_dir = source_file.parent
             linked_path = source_dir / link_text.replace('./', '')
             if linked_path.exists():
-                return True, linked_path.relative_to(self.vault_path)
+                return True, linked_path.relative_to(self.root_path)
         
         # Check in indexes
         for check in checks:
@@ -195,7 +195,7 @@ class ObsidianLinkChecker:
             return
         
         links = self.parse_wiki_links(content)
-        rel_path = file_path.relative_to(self.vault_path)
+        rel_path = file_path.relative_to(self.root_path)
         
         for link_text, line_num in links:
             self.total_links += 1
@@ -211,11 +211,11 @@ class ObsidianLinkChecker:
                     'type': 'wiki'
                 })
     
-    def scan_vault(self):
-        """Scan entire vault for broken links"""
+    def scan_workspace(self):
+        """Scan entire workspace for broken links"""
         print("🔎 Checking for broken links...\n")
         
-        md_files = list(self.vault_path.rglob("*.md"))
+        md_files = list(self.root_path.rglob("*.md"))
         
         for file_path in md_files:
             # Skip hidden directories
@@ -256,7 +256,7 @@ class ObsidianLinkChecker:
         """Print JSON format report"""
         report = {
             'scan_date': datetime.now().isoformat(),
-            'vault_path': str(self.vault_path),
+            'root_path': str(self.root_path),
             'summary': {
                 'files_checked': self.files_checked,
                 'total_links': self.total_links,
@@ -306,7 +306,7 @@ class ObsidianLinkChecker:
             if not broken['suggestion']:
                 continue
             
-            file_path = self.vault_path / broken['file']
+            file_path = self.root_path / broken['file']
             try:
                 content = file_path.read_text(encoding='utf-8')
                 original_content = content
@@ -327,21 +327,21 @@ class ObsidianLinkChecker:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Check for broken links in Obsidian vault',
+        description='Check for broken links in a Markdown workspace',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   python check_broken_links.py
-  python check_broken_links.py --vault-path ~/MyVault
+  python check_broken_links.py --root-path ~/Notes
   python check_broken_links.py --output markdown > report.md
   python check_broken_links.py --fix
         """
     )
     
     parser.add_argument(
-        '--vault-path',
+        '--root-path',
         default='.',
-        help='Path to Obsidian vault (default: current directory)'
+        help='Path to Markdown workspace (default: current directory)'
     )
     
     parser.add_argument(
@@ -366,13 +366,13 @@ Examples:
     args = parser.parse_args()
     
     # Initialize checker
-    checker = ObsidianLinkChecker(args.vault_path)
+    checker = MarkdownLinkChecker(args.root_path)
     
     # Build file index
     checker.build_file_index()
     
-    # Scan vault
-    checker.scan_vault()
+    # Scan workspace
+    checker.scan_workspace()
     
     # Print report
     if args.output == 'json':
