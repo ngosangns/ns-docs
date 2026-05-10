@@ -145,7 +145,7 @@ Dữ liệu không được tổ chức theo trình tự.
 
 ## Resources
 
-- [[segment-tree]]
-- [[bloom-filter]]
-- [[technology/algorithm/concepts/big-o-notation]]
-- [[technology/algorithm/concepts/approaches/problem-solving-approaches]]
+- [[Segment Tree]]
+- [[Bloom Filter]]
+- [[Technology/Algorithm/Concepts/Big O Notation]]
+- [[Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches]]

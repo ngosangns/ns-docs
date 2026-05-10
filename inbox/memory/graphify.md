@@ -423,8 +423,6 @@ Generates Wikipedia-style markdown articles per community and god node
 
 ## Architecture
 
-Xem [ARCHITECTURE.md](./ARCHITECTURE.md) cho module responsibilities và how to add a language.
-
 ## Ưu điểm
 
 | Ưu điểm | Mô tả |
@@ -457,5 +455,4 @@ Xem [ARCHITECTURE.md](./ARCHITECTURE.md) cho module responsibilities và how to 
 
 **Tài liệu tham khảo**: 
 - [safishamsi/graphify](https://github.com/safishamsi/graphify)
-- [Architecture](./ARCHITECTURE.md)
 - [Examples](./worked)

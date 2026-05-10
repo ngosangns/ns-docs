@@ -194,4 +194,3 @@ Start new session và ask something triggers a skill:
 
 **Tài liệu tham khảo**: 
 - [obra/superpowers](https://github.com/obra/superpowers)
-- [Writing Skills Guide](./skills/writing-skills/SKILL.md)

@@ -1,0 +1,20 @@
+---
+area: technology
+domain: programming-languages
+type: note
+---
+
+# Dockerfile Optimization Techniques cho Java/Spring Boot Applications
+
+## Tổng quan
+
+Phân tích chi tiết 4 kỹ thuật tối ưu Dockerfile cho Java/Spring Boot applications, từ đơn giản đến cực kỳ tối ưu về kích thước, bảo mật và hiệu năng.
+
+## Mục lục
+
+| #   | Kỹ thuật                                                                                     | Mô tả                                        | Kích thước |
+| --- | -------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------- |
+| 1   | [[Java Dockerfile Distroless Jlink|Distroless với Custom JRE (jlink) và jdeps]]             | Custom JRE + auto dependency analysis        | ~150MB     |
+| 2   | [[Java Dockerfile Auto Dependency|Auto-dependency Update với Java Healthcheck]]             | Auto update dependencies + Java healthcheck  | ~200MB     |
+| 3   | [[Java Dockerfile Alpine JVM|Alpine với JVM Optimization]]                                  | Alpine + JVM tuning + graceful shutdown      | ~180MB     |
+| 4   | [[Java Dockerfile Ultra Optimized|Ultra-optimized: Custom JRE + Spring Boot Layers + tini]] | Custom JRE + layers + tini + full compliance | ~80MB      |
