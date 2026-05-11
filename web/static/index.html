@@ -130,6 +130,16 @@
                 <i data-lucide="moon" class="h-4 w-4"></i>
               </button>
             </div>
+            <button
+              id="randomNoteButton"
+              class="btn btn-primary btn-sm"
+              type="button"
+              aria-label="Open random SM2 note"
+              title="Open random SM2 note"
+            >
+              <i data-lucide="shuffle" class="h-4 w-4"></i>
+              <span>Random</span>
+            </button>
           </div>
         </header>
 
@@ -269,18 +279,6 @@
         </section>
 
         <section id="specTab" class="panel active p-5">
-          <div class="mx-auto mb-3 flex max-w-5xl justify-end">
-            <button
-              id="rawMarkdownToggle"
-              class="btn btn-ghost btn-sm"
-              type="button"
-              aria-label="View raw Markdown"
-              title="View raw Markdown"
-              hidden
-            >
-              <i data-lucide="file-code" class="h-4 w-4"></i>
-            </button>
-          </div>
           <article
             id="specContent"
             class="markdown card border-base-300 bg-base-100 mx-auto max-w-5xl border p-6"

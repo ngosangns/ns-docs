@@ -17,6 +17,8 @@ export function renderNetworkGraph(options) {
     addEdges(graph, options.graph.links, options.edgeColor);
     applyReadableLayout(graph);
     let selectedId = options.selectedId && graph.hasNode(options.selectedId) ? options.selectedId : "";
+    let cameraRatio = 1;
+    let labelBand = "";
     const renderer = new Sigma(graph, options.container, {
         allowInvalidContainer: true,
         autoCenter: true,
@@ -43,11 +45,17 @@ export function renderNetworkGraph(options) {
             const selected = Boolean(selectedId);
             const related = selected && (node === selectedId || graph.areNeighbors(node, selectedId));
             const dimmed = selected && !related;
+            const showLabel = shouldShowLabel(data, {
+                graphOrder: graph.order,
+                cameraRatio,
+                selected,
+                related,
+            });
             return {
                 ...data,
                 color: dimmed ? colorWithOpacity(data.color, 0.18) : data.color,
-                forceLabel: true,
-                label: data.label,
+                forceLabel: showLabel,
+                label: showLabel ? data.label : "",
                 labelColor: dimmed ? colorWithOpacity(data.labelColor, 0.22) : data.labelColor,
                 type: "circle",
                 zIndex: node === selectedId ? 4 : related ? 3 : 1,
@@ -63,6 +71,17 @@ export function renderNetworkGraph(options) {
                 hidden: false,
             };
         },
+    });
+    const camera = renderer.getCamera();
+    cameraRatio = camera.getState().ratio;
+    labelBand = labelVisibilityBand(cameraRatio);
+    camera.on("updated", () => {
+        cameraRatio = camera.getState().ratio;
+        const nextBand = labelVisibilityBand(cameraRatio);
+        if (nextBand !== labelBand) {
+            labelBand = nextBand;
+            renderer.refresh();
+        }
     });
     const disposeWheelGuard = installModifierWheelZoomGuard(options.container);
     renderer.on("clickNode", ({ node }) => {
@@ -96,6 +115,28 @@ export function renderNetworkGraph(options) {
             renderer.refresh();
         },
     };
+}
+function shouldShowLabel(node, context) {
+    if (context.selected)
+        return context.related;
+    if (context.graphOrder <= 30)
+        return true;
+    if (context.cameraRatio <= 0.28)
+        return true;
+    if (context.cameraRatio <= 0.48)
+        return node.size >= 8;
+    if (context.graphOrder <= 80 && context.cameraRatio <= 0.75)
+        return node.size >= 8;
+    return false;
+}
+function labelVisibilityBand(ratio) {
+    if (ratio <= 0.28)
+        return "dense";
+    if (ratio <= 0.48)
+        return "medium";
+    if (ratio <= 0.75)
+        return "sparse";
+    return "hidden";
 }
 function installModifierWheelZoomGuard(container) {
     const options = { capture: true };

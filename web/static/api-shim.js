@@ -34,7 +34,7 @@
     return query
       .toLowerCase()
       .split(/[,\s]+/)
-      .map(part => part.trim())
+      .map(part => part.trim().replace(/^#/, ""))
       .filter(part => part.length > 1)
   }
 
@@ -143,10 +143,11 @@
             id: `docs-graph:${node.id}`,
             title: node.label || node.id,
             path: node.path || node.id,
-            specId: node.specId || node.id,
+            specId: node.type === "tag" ? "" : node.specId || node.id,
             nodeId: node.id,
-            kind: "doc-graph",
+            kind: node.type === "tag" ? "tag-graph" : "doc-graph",
             source: "docs-graph",
+            tags: node.tags || (node.tag ? [node.tag] : []),
             score: Math.max(0.1, (anchor.score || 1) - current.depth * 0.1),
             relation: current.depth === 0 ? "anchor" : "neighbor",
             anchor: current.depth === 0,
@@ -247,7 +248,7 @@
       data.documents || [],
       includeTokens,
       excludeTokens,
-      ["title", "path", "description", "raw"],
+      ["title", "path", "description", "tags", "raw"],
       limit,
       (doc, score, matchedBy) => ({
         id: `doc:${doc.id}`,
@@ -259,6 +260,7 @@
         line: lineFor(doc.raw, includeTokens),
         score,
         matchedBy,
+        tags: doc.tags || [],
         description: doc.description,
         excerpt: excerptFor(doc.raw, includeTokens)
       })

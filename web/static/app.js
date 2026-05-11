@@ -29,7 +29,6 @@ const state = {
     previewShowRaw: false,
     previewTitle: "",
     diagramSerial: 0,
-    showRawMarkdown: false,
     selectionCopyTarget: null,
 };
 const els = {
@@ -63,10 +62,11 @@ const els = {
     previewDialogBody: document.querySelector("#previewDialogBody"),
     previewRawToggle: document.querySelector("#previewRawToggle"),
     themeToggle: document.querySelector("#themeToggle"),
-    rawMarkdownToggle: document.querySelector("#rawMarkdownToggle"),
+    randomNoteButton: document.querySelector("#randomNoteButton"),
     selectionContextMenu: document.querySelector("#selectionContextMenu"),
     selectionCopyButton: document.querySelector("#selectionCopyButton"),
 };
+const SM2_STORAGE_KEY = "spec-preview-sm2";
 const markdownRenderer = window.markdownit({
     html: false,
     linkify: true,
@@ -80,7 +80,23 @@ const markdownRenderer = window.markdownit({
     },
 });
 markdownRenderer.enable("table");
+const defaultMarkdownLinkOpen =
+    markdownRenderer.renderer.rules.link_open ||
+    ((tokens, idx, options, _env, self) =>
+        self.renderToken(tokens, idx, options));
+markdownRenderer.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    const href = token.attrGet("href") || "";
+    if (isExternalHref(href)) {
+        token.attrSet("target", "_blank");
+        token.attrSet("rel", "noopener noreferrer");
+    }
+    return defaultMarkdownLinkOpen(tokens, idx, options, env, self);
+};
 applyTheme(state.theme, { persist: false, rerender: false });
+const markdownSanitizeConfig = {
+    ADD_ATTR: ["target", "rel"],
+};
 const diagramSanitizeConfig = {
     USE_PROFILES: { html: true, svg: true, svgFilters: true },
     ADD_TAGS: ["foreignObject", "marker", "defs", "text", "tspan", "div", "span", "p", "br"],
@@ -353,6 +369,7 @@ function renderSearchPanel(name, results, emptyText, loading) {
     list.querySelectorAll("[data-preview-file]").forEach((button) => {
         button.addEventListener("click", () => openFilePreview(button.dataset.previewFile, Number(button.dataset.previewLine || 0), { updateURL: true }));
     });
+    attachTagSearchHandlers(list);
 }
 function renderSearchGraphPanel(name, results, list) {
     const graph = searchResultsToGraph(results, name);
@@ -381,7 +398,7 @@ function searchResultsToGraph(results, panelName) {
     };
     results.forEach((result, index) => {
         const resultID = result.nodeId || result.id || `${panelName}:${index}`;
-        const resultType = panelName === "codeGraph" ? "code" : "doc";
+        const resultType = result.kind === "tag-graph" ? "tag" : panelName === "codeGraph" ? "code" : "doc";
         const fileName = result.path ? result.path.split("/").pop() : "";
         ensureNode({
             id: resultID,
@@ -392,6 +409,7 @@ function searchResultsToGraph(results, panelName) {
             previewLine: result.line || 0,
             line: result.line || 0,
             specId: result.specId || "",
+            tags: result.tags || [],
             community: result.community || "",
             score: result.score || 0,
             result,
@@ -489,6 +507,7 @@ function renderSearchGraphDetails(name, graph, details) {
         <div class="text-xs uppercase tracking-wide text-base-content/50">${escapeHTML(node.type || "node")}</div>
         <h3 class="mt-1 text-sm font-semibold">${escapeHTML(node.label || node.id)}</h3>
         <p class="break-words text-xs text-base-content/60">${escapeHTML(node.path || node.id)}</p>
+        ${renderTagBadges(node.tags || (node.type === "tag" && node.result?.tags ? node.result.tags : []), 8, "badge-xs")}
       </div>
       <div class="flex flex-wrap gap-2">
         ${node.specId ? `<button class="btn btn-primary btn-xs" type="button" data-preview-spec="${escapeHTML(node.specId)}"><i data-lucide="file-text" class="h-3.5 w-3.5"></i>Preview doc</button>` : ""}
@@ -515,6 +534,7 @@ function renderSearchGraphDetails(name, graph, details) {
             selectSearchGraphNode(name, graph, details, button.dataset.selectSearchNode);
         });
     });
+    attachTagSearchHandlers(details);
     refreshIcons();
 }
 function codeGraphNodeLabel(result, fileName) {
@@ -554,6 +574,8 @@ function searchNodeColor(node) {
         case "doc":
         case "doc-file":
             return "#0f766e";
+        case "tag":
+            return "#c026d3";
         case "flow":
             return "#9333ea";
         default:
@@ -619,6 +641,7 @@ function renderSearchResult(result, panelName) {
     const excerpt = description ? `<p class="search-excerpt">${escapeHTML(description)}</p>` : "";
     const tags = [
         result.kind,
+        ...(result.tags || []).map((tag) => `#${tag}`),
         ...(result.matchedBy || []),
         result.community ? `community ${result.community}` : "",
         result.relation,
@@ -639,7 +662,7 @@ function renderSearchResult(result, panelName) {
       ${tags.length
         ? `<div class="search-tags">${tags
             .slice(0, 5)
-            .map((tag) => `<span class="badge badge-ghost badge-xs">${escapeHTML(tag)}</span>`)
+            .map((tag) => tag.startsWith("#") ? renderTagBadge(tag.slice(1), "badge-xs") : `<span class="badge badge-ghost badge-xs">${escapeHTML(tag)}</span>`)
             .join("")}</div>`
         : ""}
       ${neighbors}
@@ -685,9 +708,9 @@ function renderSearchError(error) {
     els.searchSummary.innerHTML = `<div class="alert alert-error py-2 text-sm">${escapeHTML(error.message || String(error))}</div>`;
 }
 function renderSpecList() {
-    const query = els.search.value.toLowerCase().trim();
+    const query = normalizeTagQuery(els.search.value.toLowerCase().trim());
     const specs = state.specs.filter((spec) => {
-        const haystack = `${spec.title} ${spec.path} ${spec.status} ${spec.compliance}`.toLowerCase();
+        const haystack = `${spec.title} ${spec.path} ${spec.status} ${spec.compliance} ${(spec.tags || []).join(" ")}`.toLowerCase();
         return !query || haystack.includes(query);
     });
     const tree = buildSpecTree(specs);
@@ -744,7 +767,10 @@ function renderTreeNodes(children, parent, depth) {
 function renderFolderNode(node, parent, depth) {
     const expanded = state.expandedPaths.has(node.path);
     const button = document.createElement("button");
-    button.className = "tree-row btn btn-ghost btn-sm min-h-8 w-full justify-start gap-1 px-2 text-left font-medium";
+    button.className = [
+        "tree-row btn btn-ghost btn-sm min-h-8 w-full justify-start gap-1 px-2 text-left font-medium",
+        isInboxPath(node.path) ? "tree-row-inbox" : "",
+    ].join(" ");
     button.style.paddingLeft = `${8 + depth * 16}px`;
     button.innerHTML = `
     <i data-lucide="chevron-right" class="tree-chevron h-4 w-4 shrink-0 transition-transform ${expanded ? "rotate-90" : ""}"></i>
@@ -768,6 +794,7 @@ function renderFileNode(spec, parent, depth) {
     button.className = [
         "tree-row btn btn-ghost btn-sm grid h-auto min-h-8 w-full grid-cols-[auto_minmax(0,1fr)_auto] justify-start gap-2 px-2 text-left font-normal",
         spec.id === routeSpecId ? "btn-active" : "",
+        isInboxPath(spec.path) ? "tree-row-inbox-file" : "",
     ].join(" ");
     button.style.paddingLeft = `${24 + depth * 16}px`;
     button.innerHTML = `
@@ -777,6 +804,9 @@ function renderFileNode(spec, parent, depth) {
   `;
     button.addEventListener("click", () => selectSpec(spec.id, true));
     parent.append(button);
+}
+function isInboxPath(path) {
+    return path === "inbox" || String(path || "").startsWith("inbox/");
 }
 function displaySpecName(spec) {
     const base = spec.path.split("/").pop() || spec.title;
@@ -824,13 +854,124 @@ async function selectSpec(id, showSpecTab, options = {}) {
         updateRouteURL("spec");
     }
 }
+async function openRandomSM2Note() {
+    const target = pickSM2RandomSpec(state.specs);
+    if (!target)
+        return;
+    reviewSM2Note(target.id, 4);
+    await selectSpec(target.id, true);
+}
+function pickSM2RandomSpec(specs) {
+    const candidates = (specs || []).filter((spec) => spec?.id && spec?.language === "markdown");
+    if (!candidates.length)
+        return null;
+    const records = readSM2Records();
+    const now = Date.now();
+    const due = candidates.filter((spec) => !records[spec.id]?.dueAt || records[spec.id].dueAt <= now);
+    const pool = due.length ? due : candidates;
+    return weightedRandom(pool, (spec) => sm2RandomWeight(records[spec.id], now, due.length > 0));
+}
+function weightedRandom(items, weightFor) {
+    const weights = items.map((item) => Math.max(0.1, weightFor(item)));
+    const total = weights.reduce((sum, weight) => sum + weight, 0);
+    let cursor = Math.random() * total;
+    for (let index = 0; index < items.length; index += 1) {
+        cursor -= weights[index];
+        if (cursor <= 0)
+            return items[index];
+    }
+    return items[items.length - 1];
+}
+function sm2RandomWeight(record, now, hasDuePool) {
+    if (!record)
+        return hasDuePool ? 8 : 4;
+    const overdueDays = Math.max(0, (now - Number(record.dueAt || 0)) / 86400000);
+    const easePenalty = Math.max(0, 2.5 - Number(record.easeFactor || 2.5));
+    return hasDuePool ? 1 + overdueDays + easePenalty * 2 : 1 / Math.max(1, Number(record.interval || 1));
+}
+function reviewSM2Note(id, grade) {
+    if (!id)
+        return;
+    const records = readSM2Records();
+    records[id] = nextSM2Record(records[id], Number(grade));
+    writeSM2Records(records);
+}
+function nextSM2Record(record, grade) {
+    const previous = record || {};
+    const quality = Math.max(0, Math.min(5, Number(grade || 0)));
+    const easeFactor = Math.max(
+        1.3,
+        Number(previous.easeFactor || 2.5) +
+            (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
+    );
+    const repetitions = quality < 3 ? 0 : Number(previous.repetitions || 0) + 1;
+    const interval = sm2Interval(previous, quality, repetitions, easeFactor);
+    const now = Date.now();
+    return {
+        repetitions,
+        interval,
+        easeFactor,
+        lastReviewedAt: now,
+        dueAt: now + interval * 86400000,
+    };
+}
+function sm2Interval(previous, quality, repetitions, easeFactor) {
+    if (quality < 3)
+        return 10 / 1440;
+    if (quality === 3)
+        return Math.max(1, Math.round(Number(previous.interval || 1) * 1.2));
+    if (repetitions <= 1)
+        return 1;
+    if (repetitions === 2)
+        return quality === 5 ? 7 : 6;
+    return Math.max(1, Math.round(Number(previous.interval || 1) * easeFactor));
+}
+function readSM2Records() {
+    try {
+        const value = JSON.parse(localStorage.getItem(SM2_STORAGE_KEY) || "{}");
+        return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    }
+    catch {
+        return {};
+    }
+}
+function writeSM2Records(records) {
+    localStorage.setItem(SM2_STORAGE_KEY, JSON.stringify(records));
+}
 async function renderCurrentSpecContent() {
     if (!state.currentSpec)
         return;
-    updateRawMarkdownToggle(state.currentSpec);
-    await renderSpecDocumentContent(els.specContent, state.currentSpec, "markdown card border-base-300 bg-base-100 mx-auto max-w-5xl border p-6", {
-        rawMarkdown: state.showRawMarkdown,
+    await renderSpecDocumentContent(els.specContent, state.currentSpec, "markdown card border-base-300 bg-base-100 mx-auto max-w-5xl border p-6");
+}
+function renderTagBadge(tag, sizeClass = "badge-sm") {
+    return `<button class="badge badge-accent ${sizeClass} tag-badge" type="button" data-tag="${escapeHTML(tag)}">#${escapeHTML(tag)}</button>`;
+}
+function renderTagBadges(tags, limit = 12, sizeClass = "badge-sm") {
+    const values = (tags || []).filter(Boolean).slice(0, limit);
+    if (!values.length)
+        return "";
+    return `<div class="tag-badges">${values.map((tag) => renderTagBadge(tag, sizeClass)).join("")}</div>`;
+}
+function attachTagSearchHandlers(root) {
+    root.querySelectorAll("[data-tag]").forEach((button) => {
+        button.addEventListener("click", (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            openTagSearch(button.dataset.tag || "");
+        });
     });
+}
+function openTagSearch(tag) {
+    const clean = normalizeTagQuery(tag);
+    if (!clean || !els.globalSearch)
+        return;
+    els.globalSearch.value = `#${clean}`;
+    state.searchData = null;
+    switchTab("search", { updateURL: true });
+    scheduleSearch();
+}
+function normalizeTagQuery(value) {
+    return String(value || "").trim().replace(/^#/, "");
 }
 async function openSpecPreview(id, options = {}) {
     if (!id)
@@ -864,24 +1005,15 @@ async function openSpecPreview(id, options = {}) {
         renderPreviewError(error);
     }
 }
-async function renderSpecDocumentContent(root, spec, baseClass = "markdown", options = {}) {
+async function renderSpecDocumentContent(root, spec, baseClass = "markdown") {
     const language = spec.language || languageFromPath(spec.path || "");
     root.dataset.sourcePath = spec.path || spec.id || "";
     if (language === "markdown") {
-        if (options.rawMarkdown) {
-            root.className = baseClass
-                .replace(/\bmarkdown\b/g, "")
-                .replace(/\s+/g, " ")
-                .trim();
-            root.innerHTML = renderCodePreview(spec.raw || "", "markdown");
-            highlightRenderedCode(root);
-            decorateCodePreviewLines(root);
-            return;
-        }
         root.className = baseClass.includes("markdown") ? baseClass : `${baseClass} markdown`;
         root.innerHTML = renderMarkdown(spec.raw || "");
         decorateMarkdownSourceLines(root, spec.raw || "");
         decorateInternalDocNavigation(root, spec);
+        renderDocumentTagBadges(root, spec.tags || []);
         await renderMermaidBlocks(root);
         highlightRenderedCode(root);
         return;
@@ -893,6 +1025,13 @@ async function renderSpecDocumentContent(root, spec, baseClass = "markdown", opt
     root.innerHTML = renderCodePreview(spec.raw || "", language);
     highlightRenderedCode(root);
     decorateCodePreviewLines(root);
+}
+function renderDocumentTagBadges(root, tags) {
+    const html = renderTagBadges(tags, 18);
+    if (!html)
+        return;
+    root.insertAdjacentHTML("afterbegin", html);
+    attachTagSearchHandlers(root);
 }
 async function openFilePreview(path, line, options = {}) {
     if (!path)
@@ -1062,21 +1201,6 @@ function markdownSourceRanges(raw) {
     }
     return ranges;
 }
-function updateRawMarkdownToggle(spec = state.currentSpec) {
-    if (!els.rawMarkdownToggle)
-        return;
-    const language = spec ? spec.language || languageFromPath(spec.path || "") : "";
-    const available = language === "markdown";
-    els.rawMarkdownToggle.hidden = !available;
-    els.rawMarkdownToggle.classList.toggle("btn-active", available && state.showRawMarkdown);
-    els.rawMarkdownToggle.setAttribute("aria-pressed", available && state.showRawMarkdown ? "true" : "false");
-    els.rawMarkdownToggle.setAttribute("aria-label", state.showRawMarkdown ? "View rendered Markdown" : "View raw Markdown");
-    els.rawMarkdownToggle.setAttribute("title", state.showRawMarkdown ? "View rendered Markdown" : "View raw Markdown");
-    els.rawMarkdownToggle.innerHTML = state.showRawMarkdown
-        ? '<i data-lucide="file-text" class="h-4 w-4"></i>'
-        : '<i data-lucide="file-code" class="h-4 w-4"></i>';
-    refreshIcons();
-}
 function updatePreviewRawToggle() {
     if (!els.previewRawToggle)
         return;
@@ -1094,7 +1218,10 @@ function updatePreviewRawToggle() {
 function renderMarkdown(raw) {
     if (raw) {
         const metadata = renderableMarkdownMetadata(raw);
-        return DOMPurify.sanitize(`${metadata.html}${markdownRenderer.render(metadata.body)}`);
+        return DOMPurify.sanitize(
+            `${metadata.html}${markdownRenderer.render(metadata.body)}`,
+            markdownSanitizeConfig
+        );
     }
     return "<p>No content.</p>";
 }
@@ -2032,12 +2159,8 @@ els.codeGraphReload?.addEventListener("click", () => {
 els.themeToggle.addEventListener("click", () => {
     applyTheme(state.theme === "dark" ? "light" : "dark", { persist: true, rerender: true });
 });
-els.rawMarkdownToggle?.addEventListener("click", () => {
-    if (!state.currentSpec)
-        return;
-    state.showRawMarkdown = !state.showRawMarkdown;
-    destroyDiagramsIn(els.specContent);
-    renderCurrentSpecContent().catch(() => { });
+els.randomNoteButton?.addEventListener("click", () => {
+    openRandomSM2Note().catch((error) => renderPreviewError(error));
 });
 els.previewRawToggle?.addEventListener("click", () => {
     if (!state.previewSource)

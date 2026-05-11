@@ -56,6 +56,43 @@ figure,
   display: block;
 }
 
+.tree-row-inbox,
+.tree-row-inbox-file {
+  border-color: hsl(var(--wa) / 0.25);
+  background: hsl(var(--wa) / 0.12);
+  color: hsl(var(--wac));
+}
+
+.tree-row-inbox:hover,
+.tree-row-inbox-file:hover {
+  background: hsl(var(--wa) / 0.2);
+}
+
+.tree-row-inbox.btn-active,
+.tree-row-inbox-file.btn-active {
+  background: hsl(var(--wa) / 0.28);
+  color: hsl(var(--wac));
+}
+
+.tree-row-inbox [data-lucide],
+.tree-row-inbox-file [data-lucide] {
+  color: hsl(var(--wa));
+}
+
+.tag-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-bottom: 1rem;
+}
+
+.tag-badge {
+  height: auto;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .diagram-surface {
   position: relative;
   overflow: hidden;

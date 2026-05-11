@@ -10,7 +10,7 @@ export function createDocsGraph({ state, els, escapeHTML, refreshIcons, openSpec
         if (!els.graphCanvas || !state.graph)
             return;
         stop();
-        const query = (els.graphSearch?.value || "").trim().toLowerCase();
+        const query = (els.graphSearch?.value || "").trim().toLowerCase().replace(/^#/, "");
         const graph = normalizedGraphData(state.graph, query);
         renderedGraph = graph;
         els.graphStats.textContent = `${graph.nodes.length} nodes, ${graph.links.length} edges`;
@@ -35,7 +35,7 @@ export function createDocsGraph({ state, els, escapeHTML, refreshIcons, openSpec
             label: node.label || node.id,
         }));
         for (const node of allNodes) {
-            const haystack = `${node.id} ${node.label} ${node.path || ""} ${node.category || ""} ${node.status || ""}`.toLowerCase();
+            const haystack = `${node.id} ${node.label} ${node.path || ""} ${node.category || ""} ${node.status || ""} ${(node.tags || []).join(" ")} ${node.tag || ""}`.toLowerCase();
             if (!query || haystack.includes(query))
                 visible.add(node.id);
         }
@@ -68,6 +68,7 @@ export function createDocsGraph({ state, els, escapeHTML, refreshIcons, openSpec
           <div class="text-xs uppercase tracking-wide text-base-content/50">${escapeHTML(node.type || "node")}</div>
           <h3 class="mt-1 text-lg font-semibold">${escapeHTML(node.label || node.id)}</h3>
           <p class="break-words text-sm text-base-content/60">${escapeHTML(node.path || node.id)}</p>
+          ${renderTagList(node.tags || (node.tag ? [node.tag] : []), escapeHTML)}
         </div>
         ${node.specId ? `<button class="btn btn-primary btn-sm" type="button" data-preview-spec="${escapeHTML(node.specId)}"><i data-lucide="file-text" class="h-4 w-4"></i>Preview doc</button>` : ""}
         ${!node.specId && node.path ? `<button class="btn btn-outline btn-sm" type="button" data-preview-file="${escapeHTML(node.path)}"><i data-lucide="file-code" class="h-4 w-4"></i>Preview file</button>` : ""}
@@ -145,9 +146,17 @@ export function createDocsGraph({ state, els, escapeHTML, refreshIcons, openSpec
         }
     }
 }
+function renderTagList(tags, escapeHTML) {
+    const values = (tags || []).filter(Boolean).slice(0, 12);
+    if (!values.length)
+        return "";
+    return `<div class="mt-2 flex flex-wrap gap-1.5">${values.map((tag) => `<span class="badge badge-accent badge-sm">#${escapeHTML(tag)}</span>`).join("")}</div>`;
+}
 function nodeColor(node) {
     if (node.type === "external")
         return "#94a3b8";
+    if (node.type === "tag")
+        return "#c026d3";
     switch (node.category) {
         case "modules":
             return "#2563eb";
@@ -180,6 +189,8 @@ function edgeColor(type) {
             return "#22c55e";
         case "consumes":
             return "#eab308";
+        case "tagged":
+            return "#c026d3";
         default:
             return "#64748b";
     }
@@ -198,6 +209,8 @@ function darkEdgeColor(type) {
             return "#166534";
         case "consumes":
             return "#854d0e";
+        case "tagged":
+            return "#86198f";
         default:
             return "#334155";
     }
