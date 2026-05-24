@@ -767,10 +767,7 @@ function renderTreeNodes(children, parent, depth) {
 function renderFolderNode(node, parent, depth) {
     const expanded = state.expandedPaths.has(node.path);
     const button = document.createElement("button");
-    button.className = [
-        "tree-row btn btn-ghost btn-sm min-h-8 w-full justify-start gap-1 px-2 text-left font-medium",
-        isInboxPath(node.path) ? "tree-row-inbox" : "",
-    ].join(" ");
+    button.className = "tree-row btn btn-ghost btn-sm min-h-8 w-full justify-start gap-1 px-2 text-left font-medium";
     button.style.paddingLeft = `${8 + depth * 16}px`;
     button.innerHTML = `
     <i data-lucide="chevron-right" class="tree-chevron h-4 w-4 shrink-0 transition-transform ${expanded ? "rotate-90" : ""}"></i>
@@ -794,7 +791,6 @@ function renderFileNode(spec, parent, depth) {
     button.className = [
         "tree-row btn btn-ghost btn-sm grid h-auto min-h-8 w-full grid-cols-[auto_minmax(0,1fr)_auto] justify-start gap-2 px-2 text-left font-normal",
         spec.id === routeSpecId ? "btn-active" : "",
-        isInboxPath(spec.path) ? "tree-row-inbox-file" : "",
     ].join(" ");
     button.style.paddingLeft = `${24 + depth * 16}px`;
     button.innerHTML = `
@@ -804,9 +800,6 @@ function renderFileNode(spec, parent, depth) {
   `;
     button.addEventListener("click", () => selectSpec(spec.id, true));
     parent.append(button);
-}
-function isInboxPath(path) {
-    return path === "inbox" || String(path || "").startsWith("inbox/");
 }
 function displaySpecName(spec) {
     const base = spec.path.split("/").pop() || spec.title;
