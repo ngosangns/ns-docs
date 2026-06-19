@@ -82,6 +82,20 @@ node scripts/okf-conformance.js [rootDir] [--json] [--strict]
 - `--json` prints the full `ConformanceReport`.
 - Exit code is non-zero when any `error` exists; `--strict` also fails on warnings.
 - Rules: `type-required` (error), `frontmatter-parse` (error), `recommended-field-missing` (warning), `timestamp-format` (warning), `tags-format` (warning), `index-no-frontmatter` (error), `index-root-frontmatter` (error).
+- `resource` is treated as **optional** (OKF allows omitting it for abstract concepts), so a missing `resource` does not produce a warning.
+
+### `okf-enrich.js` — fill recommended metadata from content
+
+Complements `okf-migrate`: derives genuine values so the bundle has no recommended-field warnings.
+
+```bash
+node scripts/okf-enrich.js [rootDir] [--dry-run] [--apply]
+```
+
+- `description` — first meaningful body line (skips frontmatter, code fences, images, generic headings like "Resources"); falls back to the title.
+- `tags` — derived from legacy `area`/`domain`/`topic`/`status`/`category` frontmatter plus the top-level directory; never fabricated beyond what the note declares.
+- `resource` — the first `http(s)` URL in the body, when present (left absent otherwise).
+- Attachment `![[file]]` / `[[file]]` references are rewritten to bundle-relative markdown (`![](/Attachments/…)` for images, `[name](/Attachments/…)` otherwise).
 
 ### `okf-index.js` — generate `index.md` navigation
 

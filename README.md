@@ -32,6 +32,10 @@ node scripts/okf-conformance.js --json     # npm run conformance:check
 node scripts/okf-migrate.js --dry-run --report-broken
 node scripts/okf-migrate.js --apply --backup
 
+# Enrich recommended metadata (description/tags/resource) + attachment links
+node scripts/okf-enrich.js --dry-run
+node scripts/okf-enrich.js --apply
+
 # Generate per-directory index.md files (preview, then write)
 node scripts/okf-index.js --dry-run
 node scripts/okf-index.js --apply          # npm run index:generate -- --apply

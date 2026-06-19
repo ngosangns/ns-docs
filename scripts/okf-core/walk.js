@@ -262,22 +262,34 @@ function walkBundleTolerant(rootDir) {
   return { root, concepts, reservedFiles }
 }
 
-// loadBundle(rootDir) -> { concepts, index, degraded }
+// loadBundle(rootDir) -> { concepts, index, attachments, degraded }
 //
 // Convenience loader shared by the read-only tooling (stats, tag stats,
 // orphan detection, link checking, preview build). It tries the strict
 // `walkBundle` first and, if a file has unparseable YAML (which makes
 // walkBundle throw), falls back to the tolerant walk and returns only the
-// parseable Concepts plus a freshly built index. `degraded` is true when the
-// fallback was used.
+// parseable Concepts plus a freshly built index. `attachments` lists the
+// bundle-relative paths of non-markdown files (empty in degraded mode, which
+// the tolerant walk does not enumerate). `degraded` is true when the fallback
+// was used.
 function loadBundle(rootDir) {
   try {
     const bundle = walkBundle(rootDir)
-    return { concepts: bundle.concepts, index: bundle.index, degraded: false }
+    return {
+      concepts: bundle.concepts,
+      index: bundle.index,
+      attachments: bundle.attachments,
+      degraded: false
+    }
   } catch (err) {
     const { concepts } = walkBundleTolerant(rootDir)
     const parseable = concepts.filter((concept) => !concept.parseError)
-    return { concepts: parseable, index: buildIndex(parseable), degraded: true }
+    return {
+      concepts: parseable,
+      index: buildIndex(parseable),
+      attachments: [],
+      degraded: true
+    }
   }
 }
 

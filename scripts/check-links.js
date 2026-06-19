@@ -27,13 +27,31 @@ const {
 const WORKSPACE_ROOT = path.join(__dirname, "..")
 const BROKEN_ONLY = process.argv.includes("--broken")
 
+// stripCodeFences(body) -> string
+// Blanks out fenced code blocks (``` / ~~~) so bracket sequences inside code
+// samples (e.g. a regex `[[^\\d]]`) are not mistaken for links.
+function stripCodeFences(body) {
+  const lines = String(body).split(/\r?\n/)
+  let inFence = false
+  const out = []
+  for (const line of lines) {
+    if (/^\s*(```|~~~)/.test(line)) {
+      inFence = !inFence
+      out.push("")
+      continue
+    }
+    out.push(inFence ? "" : line)
+  }
+  return out.join("\n")
+}
+
 // collectLinks(body) -> string[]
 // Extracts every internal link to resolve from a Concept body: all wikilinks
 // (alias/anchor stripping is handled by resolveTarget) and every internal
-// markdown link target. External links, images/embeds and pure anchors are
-// excluded.
+// markdown link target. Fenced code blocks are ignored. External links,
+// images/embeds and pure anchors are excluded.
 function collectLinks(body) {
-  const source = typeof body === "string" ? body : ""
+  const source = stripCodeFences(typeof body === "string" ? body : "")
   const links = []
 
   const wikiRe = wikilinkRegex()
@@ -59,11 +77,20 @@ function collectLinks(body) {
 function checkLinks() {
   console.log("🔍 Checking links via okf-core...\n")
 
-  const { concepts, index, degraded } = loadBundle(WORKSPACE_ROOT)
+  const { concepts, index, attachments, degraded } = loadBundle(WORKSPACE_ROOT)
   if (degraded) {
     console.warn(
       "⚠️  A file has unparseable frontmatter; checking the parseable files only.\n"
     )
+  }
+  // Attachment paths are valid internal link targets too (resolveTarget only
+  // resolves Concepts), so a bundle-relative link to a real attachment file is
+  // not broken.
+  const attachmentSet = new Set((attachments || []).map((a) => a.toLowerCase()))
+  const isAttachmentLink = (target) => {
+    const clean = String(target).split("#")[0].split("|")[0].trim()
+    if (!clean.startsWith("/")) return false
+    return attachmentSet.has(clean.replace(/^\/+/, "").toLowerCase())
   }
   const brokenLinks = []
   let totalLinks = 0
@@ -73,7 +100,7 @@ function checkLinks() {
     const links = collectLinks(concept.body)
     for (const target of links) {
       totalLinks++
-      const resolved = resolveTarget(target, concept.id, index)
+      const resolved = resolveTarget(target, concept.id, index) || isAttachmentLink(target)
       if (resolved) {
         validLinks++
       } else {
