@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Circuit Breaker
+description: 'Pattern: Circuit Breaker (Ngắt mạch)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Circuit Breaker (Ngắt mạch)
 

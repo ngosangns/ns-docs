@@ -3,6 +3,13 @@ area: technology
 domain: frontend
 topic: vue
 type: resource
+title: Vue Nuxt
+description: Vue - Nuxt
+timestamp: '2026-06-19T13:43:26.138Z'
+tags:
+  - technology
+  - frontend
+  - vue
 ---
 # Vue - Nuxt
 
@@ -116,7 +123,7 @@ type: resource
 
 ## Interview
 
-- [[Cac Cau Hoi Phong Van Vuejs]]
+- [Cac Cau Hoi Phong Van Vuejs](/Technology/Frontend/Tools/Vue/Cac Cau Hoi Phong Van Vuejs)
 
 ## Template
 

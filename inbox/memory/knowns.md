@@ -1,3 +1,12 @@
+---
+type: Note
+title: Knowns
+description: Knowns - The Memory Layer for AI-Native Development
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+resource: https://github.com/knowns-dev/knowns
+---
 # Knowns - The Memory Layer for AI-Native Development
 
 ## Định nghĩa

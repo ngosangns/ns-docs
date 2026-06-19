@@ -2,6 +2,13 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Trung Quoc
+description: https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-di-san-con-%C4%91uong-to-lua-%C4%90on-hoang-tay-an-va-bac-kinh.996056/
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-guide
+resource: https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-di-san-con-%C4%91uong-to-lua-%C4%90on-hoang-tay-an-va-bac-kinh.996056/
 ---
 # 1. Resources
 

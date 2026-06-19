@@ -3,6 +3,13 @@ area: technology
 domain: career
 topic: interview
 type: resource
+title: Interview Senior Engineer
+description: Interview Senior Engineer
+timestamp: '2026-06-19T13:43:26.147Z'
+tags:
+  - technology
+  - career
+  - interview
 ---
 # Interview Senior Engineer
 

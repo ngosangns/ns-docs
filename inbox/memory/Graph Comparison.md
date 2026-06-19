@@ -1,3 +1,11 @@
+---
+type: Note
+title: Graph Comparison
+description: So sánh Graph + Semantic Repositories
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+---
 # So sánh Graph + Semantic Repositories
 
 ## Tổng quan

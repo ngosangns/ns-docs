@@ -2,11 +2,18 @@
 area: technology
 domain: programming-languages
 type: note
+title: Java Dockerfile Ultra Optimized
+description: 'Ultra-optimized: Custom JRE + Spring Boot Layers + tini'
+timestamp: '2026-06-19T13:43:26.129Z'
+tags:
+  - technology
+  - programming-languages
+resource: https://github.com/hmcts/spring-boot-template
 ---
 
 # 4. Ultra-optimized: Custom JRE + Spring Boot Layers + tini
 
-> **Xem thêm:** [[Java Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho Java]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho Java](/Technology/Programming-Languages/Practices/Java Dockerfile Optimization Techniques)
 
 ### Kỹ thuật
 

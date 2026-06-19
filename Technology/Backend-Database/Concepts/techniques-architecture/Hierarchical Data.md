@@ -3,6 +3,13 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Hierarchical Data
+description: Hierarchical Data
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+  - database
 ---
 # Hierarchical Data
 

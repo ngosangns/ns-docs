@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Network Secure Ingress Implementation
+description: Triển khai Network Secure Ingress (Lối vào mạng bảo mật)
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/pattern-implementations/network-secure-ingress
 ---
 # Triển khai Network Secure Ingress (Lối vào mạng bảo mật)
 

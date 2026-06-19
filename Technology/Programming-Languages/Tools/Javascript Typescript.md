@@ -3,6 +3,14 @@ area: technology
 domain: programming-languages
 topic: javascript
 type: resource
+title: Javascript Typescript
+description: JavaScript / TypeScript
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - programming-languages
+  - javascript
+resource: https://medium.com/globant/javascript-optimization-techniques-20d8d167dadd
 ---
 # JavaScript / TypeScript
 

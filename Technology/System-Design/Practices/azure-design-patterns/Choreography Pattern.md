@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Choreography Pattern
+description: Mẫu thiết kế Choreography (Vũ đạo/Điều phối phân tán)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/choreography
 ---
 # Mẫu thiết kế Choreography (Vũ đạo/Điều phối phân tán)
 

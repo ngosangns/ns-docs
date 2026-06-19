@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: 3D Models
+description: 3D & Models
+timestamp: '2026-06-19T13:43:26.162Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://avaturn.me
 ---
 # 3D & Models
 

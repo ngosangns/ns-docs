@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Scaling Organizations
+description: Scaling Organizations
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - system-design
+resource: https://quanghoang.substack.com/p/on-scaling-organisations
 ---
 # Scaling Organizations
 

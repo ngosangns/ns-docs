@@ -2,6 +2,12 @@
 area: english
 domain: grammar
 type: note
+title: TOEIC Daily Notes
+description: TOEIC Daily Notes
+timestamp: '2026-06-19T13:43:26.172Z'
+tags:
+  - english
+  - grammar
 ---
 # TOEIC Daily Notes
 

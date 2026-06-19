@@ -1,3 +1,12 @@
+---
+type: Note
+title: Oh My Claudecode
+description: Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - inbox
+resource: https://github.com/Yeachan-Heo/oh-my-claudecode
+---
 # Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
 
 ## Định nghĩa

@@ -2,6 +2,13 @@
 area: technology
 domain: devops
 type: resource
+title: HTTP HTTPS TLS SSL
+description: https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+resource: https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO
 ---
 # Resources
 
@@ -9,9 +16,9 @@ type: resource
 - An introduction to RFC 7807 | Representing Problem Details in HTTP APIs (axway.com): https://blog.axway.com/learning-center/apis/api-design/introduction-to-rfc-7807
 - Mít Đặc và Biết Tuốt nói về tốc độ mạng và sự tiến hóa của HTTP từ HTTP1, HTTP2, HTTP3: https://viblo.asia/p/mit-dac-va-biet-tuot-noi-ve-toc-do-mang-va-su-tien-hoa-cua-http-tu-http1-http2-http3-5pPLk9Gn4RZ
 
-![[f0e1d2c3-b4a5-6789-9a0b-c1d2e3f4a5b6.jpg]]
+![](/Attachments/f0e1d2c3-b4a5-6789-9a0b-c1d2e3f4a5b6.jpg)
 
-![[5b5b9f9f-3f6e-4d8f-9b8c-0f2d2f3a7c61.jpg]]
+![](/Attachments/5b5b9f9f-3f6e-4d8f-9b8c-0f2d2f3a7c61.jpg)
 
 ---
 

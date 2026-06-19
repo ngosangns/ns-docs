@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Diem Den
+description: 'Phần III: Bản Đồ Khám Phá: Những Điểm Đến Trọng Yếu'
+timestamp: '2026-06-19T13:43:26.091Z'
+tags:
+  - travel
+  - travel-guide
 ---
 
 ## 0.3. Phần III: Bản Đồ Khám Phá: Những Điểm Đến Trọng Yếu
@@ -108,4 +114,4 @@ Ngoài ba điểm đến chính trên, Tây Bắc còn nhiều vùng đất tư�
 - **Điện Biên:** Vùng đất ghi dấu lịch sử hào hùng với cụm di tích chiến trường Điện Biên Phủ (đồi A1, hầm chỉ huy của tướng De Castries), hồ Pá Khoang và đèo Pha Đin hùng vĩ.3
 - **Mai Châu (Hòa Bình):** Một thung lũng yên bình với những nếp nhà sàn đặc trưng của người Thái, không khí trong lành, rất thích hợp cho những chuyến đi nghỉ dưỡng ngắn ngày.10
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

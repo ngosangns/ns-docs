@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claude Capsule Kit
+description: Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/arpitnath/claude-capsule-kit
+---
 # Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
 
 ## Định nghĩa

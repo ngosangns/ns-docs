@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Thoi Diem
+description: 'Phần II: Lịch Vạn Niên Cho Người Lữ Hành: Chọn Thời Điểm Vàng Cho Chuyến Đi Tây Bắc'
+timestamp: '2026-06-19T13:43:26.095Z'
+tags:
+  - travel
+  - travel-guide
 ---
 
 ## 0.2. Phần II: Lịch Vạn Niên Cho Người Lữ Hành: Chọn Thời Điểm Vàng Cho Chuyến Đi Tây Bắc
@@ -49,4 +55,4 @@ Du lịch Tây Bắc vào dịp Tết là một trải nghiệm độc đáo, k�
 | **Mùa Thu**  | Tháng 9 - 10 | Mùa lúa chín vàng rực rỡ ở Mù Cang Chải, Hoàng Su Phì.                        | Thời tiết đẹp, khô ráo, thuận lợi di chuyển. Cảnh quan ngoạn mục nhất.7        | Rất đông khách du lịch. Giá dịch vụ cao, cần đặt trước.9                       | Nhiếp ảnh gia, người yêu thiên nhiên, du khách đi lần đầu.                   |
 | **Mùa Đông** | Tháng 11 - 1 | Săn mây ở Tà Xùa, Y Tý. Hoa cải, hoa tam giác mạch. Cơ hội ngắm tuyết ở Sapa. | Trải nghiệm độc đáo, không gian lãng mạn, tĩnh lặng. Ít đông đúc hơn mùa thu.7 | Rất lạnh, có thể có sương muối, băng giá. Sương mù dày đặc, tầm nhìn hạn chế.2 | Người thích săn mây, cặp đôi, người muốn trải nghiệm tuyết.                  |
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

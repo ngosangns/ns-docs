@@ -2,6 +2,12 @@
 area: technology
 domain: programming-languages
 type: resource
+title: Luan Ban Ve Async
+description: Async trong Javascript
+timestamp: '2026-06-19T13:43:26.133Z'
+tags:
+  - technology
+  - programming-languages
 ---
 ## Async trong Javascript
 

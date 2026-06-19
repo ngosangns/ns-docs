@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: API Routing Hostname
+description: 'Pattern: Hostname Routing (Định tuyến theo Hostname)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Hostname Routing (Định tuyến theo Hostname)
 

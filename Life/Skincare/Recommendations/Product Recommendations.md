@@ -2,6 +2,12 @@
 area: life
 domain: skincare
 type: resource
+title: Product Recommendations
+description: Gợi ý sản phẩm
+timestamp: '2026-06-19T13:43:26.170Z'
+tags:
+  - life
+  - skincare
 ---
 # Gợi ý sản phẩm
 

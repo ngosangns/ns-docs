@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: SQL Databases
+description: SQL Databases
+timestamp: '2026-06-19T13:43:26.153Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://github.com/ClickHouse/ClickHouse
 ---
 # SQL Databases
 
@@ -11,12 +19,12 @@ Cơ sở dữ liệu quan hệ sử dụng SQL.
 ## PostgreSQL
 
 - ORDBMS mã nguồn mở, ACID, JSON, full-text search
-- Xem chi tiết: [[Postgresql]]
+- Xem chi tiết: [Postgresql](/Technology/Backend-Database/Tools/Postgresql)
 
 ## MySQL
 
 - Hệ quản trị cơ sở dữ liệu quan hệ phổ biến
-- Xem chi tiết: [[Mysql]]
+- Xem chi tiết: [Mysql](/Technology/Backend-Database/Tools/Mysql)
 
 ## TiDB
 

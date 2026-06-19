@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Quarantine Pattern
+description: Quarantine Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/quarantine
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Quarantine Pattern.md#L1-50
 # Quarantine Pattern (Mô hình Cách ly)

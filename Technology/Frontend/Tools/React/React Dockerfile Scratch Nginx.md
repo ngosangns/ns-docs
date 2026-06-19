@@ -3,11 +3,18 @@ area: technology
 domain: frontend
 topic: dockerfile-optimization
 type: resource
+title: React Dockerfile Scratch Nginx
+description: Scratch với Custom Nginx + Shared Libraries
+timestamp: '2026-06-19T13:43:26.142Z'
+tags:
+  - technology
+  - frontend
+  - dockerfile-optimization
 ---
 
 # 3. Scratch với Custom Nginx + Shared Libraries
 
-> **Xem thêm:** [[Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho React]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho React](/Technology/Frontend/Tools/React/Dockerfile Optimization Techniques)
 
 ## Kỹ thuật
 

@@ -3,6 +3,13 @@ area: technology
 domain: algorithms
 topic: golang
 type: cheatsheet
+title: Algo Trees
+description: Trees
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - algorithms
+  - golang
 ---
 
 ## Trees

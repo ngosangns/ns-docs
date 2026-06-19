@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: HA Giang
+description: Hà Giang
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-guide
 ---
 # Hà Giang
 

@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: LLM Learning Resources
+description: Tài nguyên học tập LLM
+timestamp: '2026-06-19T13:43:26.168Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
+resource: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 ---
 # Tài nguyên học tập LLM
 
@@ -11,7 +19,7 @@ type: resource
 - Series 18 bài học LLM cho beginner của Microsoft: https://github.com/microsoft/generative-ai-for-beginners #course #LLM
 - Langchain #1 - Điểm qua các chức năng sừng sỏ nhất của Langchain - một framework cực bá đạo khi làm việc với LLM: https://viblo.asia/p/langchain-1-diem-qua-cac-chuc-nang-sung-so-nhat-cua-langchain-mot-framework-cuc-ba-dao-khi-lam-viec-voi-llm-BQyJKmrqVMe #Langchain
 - **LangChain**: Framework mã nguồn mở để phát triển các ứng dụng dựa trên mô hình ngôn ngữ lớn (LLM), cho phép xây dựng các ứng dụng AI phức tạp bằng cách kết hợp các mô-đun khác nhau - [GitHub](https://github.com/langchain-ai/langchain) #Langchain #LLM #framework
-- [[Cach Dat Cau Hoi Cho Chatgpt]]
+- [Cach Dat Cau Hoi Cho Chatgpt](/Technology/AI/Concepts/LLM-Generative-AI/prompt-engineering/Cach Dat Cau Hoi Cho Chatgpt)
 - Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế!: https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA #RAG
 - Paper Explain - Mixtral of Experts: Lắm thầy thì model khỏe: https://viblo.asia/p/paper-explain-mixtral-of-experts-lam-thay-thi-model-khoe-EvbLbQ8oJnk #Mixtral
 - Retrieval-Augmented Generation: Phương pháp không thể thiếu khi triển khai các dự án LLM trong thực tế! (Phần 1): https://viblo.asia/p/retrieval-augmented-generation-phuong-phap-khong-the-thieu-khi-trien-khai-cac-du-an-llm-trong-thuc-te-phan-1-Ny0VG7yzVPA #RAG

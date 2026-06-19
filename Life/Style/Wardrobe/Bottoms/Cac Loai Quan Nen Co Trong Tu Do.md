@@ -2,12 +2,18 @@
 area: life
 domain: clothing
 type: guide
+title: Cac Loai Quan Nen Co Trong Tu Do
+description: Các loại quần nên có trong tủ đồ
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - life
+  - clothing
 ---
 # Các loại quần nên có trong tủ đồ
 
 ## 1. Quần jeans dáng slim-fit
 
-![[0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d.png]]
+![](/Attachments/0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d.png)
 
 ### Tổng quan
 
@@ -32,7 +38,7 @@ Cả 4 mùa, mùa đông có thể mặc với quần lót dài hoặc layer bê
 
 ## 2. Quần chinos (kaki)
 
-![[4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d.png]]
+![](/Attachments/4a5b6c7d-8e9f-0a1b-2c3d-4e5f6a7b8c9d.png)
 
 ### Tổng quan
 
@@ -55,7 +61,7 @@ Cả 4 mùa, đặc biệt tốt cho mùa xuân, hè, thu
 
 ## 3. Quần tây
 
-![[5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e.png]]
+![](/Attachments/5b6c7d8e-9f0a-1b2c-3d4e-5f6a7b8c9d0e.png)
 
 ### Tổng quan
 

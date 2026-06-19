@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Database In Microservices
+description: Database trong Microservices
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://github.com/sysown/proxysql
 ---
 # Database trong Microservices
 

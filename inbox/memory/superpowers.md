@@ -1,3 +1,12 @@
+---
+type: Note
+title: Superpowers
+description: Superpowers - Agentic Skills Framework & Software Development Methodology
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.codex/INSTALL.md
+---
 # Superpowers - Agentic Skills Framework & Software Development Methodology
 
 ## Định nghĩa

@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: javascript
 type: resource
+title: Vietnamese Language Datasets
+description: Vietnamese Language Datasets
+timestamp: '2026-06-19T13:43:26.164Z'
+tags:
+  - technology
+  - ai-ml
+  - javascript
+resource: https://www.facebook.com/groups/machinelearningcoban/posts/2067772090346854/
 ---
 # Vietnamese Language Datasets
 

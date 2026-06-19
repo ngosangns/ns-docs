@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: guide
+title: Cach Dung Leu Bat
+description: Cách dựng lều + bạt
+timestamp: '2026-06-19T13:43:26.100Z'
+tags:
+  - travel
+  - travel-guide
 ---
 # Cách dựng lều + bạt
 

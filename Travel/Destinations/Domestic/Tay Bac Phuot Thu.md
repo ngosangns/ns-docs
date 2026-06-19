@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Phuot Thu
+description: 'Phần IV: Cẩm Nang Dành Cho Phượt Thủ và Người Độc Hành'
+timestamp: '2026-06-19T13:43:26.094Z'
+tags:
+  - travel
+  - travel-guide
 ---
 
 ## 0.4. Phần IV: Cẩm Nang Dành Cho Phượt Thủ và Người Độc Hành
@@ -69,4 +75,4 @@ Du lịch một mình tại Tây Bắc là một hành trình khám phá bản t
 - **Chuyến đi ngắn ngày (2 ngày 1 đêm):** Nên tập trung vào một điểm đến cụ thể để có trải nghiệm sâu sắc, ví dụ như săn mây Tà Xùa, khám phá cao nguyên Mộc Châu, hoặc nghỉ dưỡng ở Y Tý.29
 - **Chuyến đi dài ngày (10 ngày từ Sài Gòn):** Đây là một hành trình lớn, đòi hỏi kế hoạch hậu cần phức tạp hơn, bao gồm cả việc vận chuyển xe máy bằng tàu hỏa và di chuyển bằng máy bay. Một lịch trình tham khảo có thể là: Sài Gòn -> Hà Nội (máy bay) -> Mai Châu -> Mộc Châu -> Tà Xùa -> Sơn La -> Mù Cang Chải -> Ninh Bình -> Hà Nội (gửi xe về) -> Sài Gòn (máy bay).43
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

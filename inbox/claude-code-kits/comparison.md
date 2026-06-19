@@ -1,3 +1,12 @@
+---
+type: Note
+title: Comparison
+description: So sánh 7 Claude Code Toolkits & Enhancement Systems
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - inbox
+resource: https://github.com/affaan-m/everything-claude-code
+---
 # So sánh 7 Claude Code Toolkits & Enhancement Systems
 
 ## Tổng quan Category

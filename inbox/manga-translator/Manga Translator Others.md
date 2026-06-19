@@ -1,3 +1,12 @@
+---
+type: Note
+title: Manga Translator Others
+description: Manga Translator - Các project khác
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/zyddnys/manga-image-translator
+---
 # Manga Translator - Các project khác
 
 ## Các project có chi tiết riêng

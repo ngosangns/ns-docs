@@ -3,6 +3,13 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: Senator Knowledge Gap Detection
+description: SENATOR - Knowledge Gap Detection và Vá Lỗ Hổng Kiến Thức
+timestamp: '2026-06-19T13:43:26.166Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
 ---
 # SENATOR - Knowledge Gap Detection và Vá Lỗ Hổng Kiến Thức
 

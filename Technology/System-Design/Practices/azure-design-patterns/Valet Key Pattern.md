@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Valet Key Pattern
+description: Valet Key Pattern
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
 # Valet Key Pattern (Mô hình Chìa khóa đỗ xe)

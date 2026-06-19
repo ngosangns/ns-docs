@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Saga Orchestration
+description: 'Pattern: Saga Orchestration (Saga Chỉ huy)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Saga Orchestration (Saga Chỉ huy)
 

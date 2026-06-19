@@ -3,6 +3,13 @@ area: technology
 domain: ai-ml
 topic: machine-learning
 type: resource
+title: Knn K Nearest Neighbors
+description: KNN - K-Nearest Neighbors
+timestamp: '2026-06-19T13:43:26.166Z'
+tags:
+  - technology
+  - ai-ml
+  - machine-learning
 ---
 # KNN - K-Nearest Neighbors
 

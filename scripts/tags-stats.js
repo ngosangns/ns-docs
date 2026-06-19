@@ -1,62 +1,46 @@
 #!/usr/bin/env node
 
-const fs = require("fs")
-const path = require("path")
+// Tag statistics, sourced from the okf-core bundle model (Requirement 11.8).
+// Tags are read from the parsed frontmatter (`concept.data.tags`) via okf-core
+// rather than ad-hoc regex parsing.
+//
+// Robustness: reads the bundle through okf-core's `loadBundle`, which falls
+// back to a per-file-tolerant walk when a file has unparseable YAML.
 
-const WORKSPACE_ROOT = __dirname + "/.."
-const IGNORE_DIRS = ["Attachments", "node_modules", ".git"]
+const path = require("path")
+const { loadBundle } = require("./okf-core")
+
+const WORKSPACE_ROOT = path.join(__dirname, "..")
 const LIST_ONLY = process.argv.includes("--list")
 
-function getAllMarkdownFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir)
-
-  files.forEach(file => {
-    const filePath = path.join(dir, file)
-    const stat = fs.statSync(filePath)
-
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.includes(file)) {
-        getAllMarkdownFiles(filePath, fileList)
-      }
-    } else if (file.endsWith(".md")) {
-      fileList.push(filePath)
-    }
-  })
-
-  return fileList
-}
-
-function extractTags(content) {
-  const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/)
-  if (!frontmatterMatch) return []
-
-  const frontmatter = frontmatterMatch[1]
-  const tagRegex = /tags:\s*\n((?:\s*-\s*[^\n]+\n?)+)/
-  const tagMatch = frontmatter.match(tagRegex)
-  if (!tagMatch) return []
-
-  const tags = []
-  const tagLines = tagMatch[1].match(/-\s*([^\n]+)/g) || []
-  tagLines.forEach(line => {
-    const tag = line.replace(/^-\s*/, "").trim()
-    tags.push(tag)
-  })
-  return tags
+// normalizeTags(value) -> string[]
+// Reads tags from the parsed frontmatter. Accepts a YAML list (array) or a
+// single scalar; anything else yields no tags.
+function normalizeTags(value) {
+  if (Array.isArray(value)) {
+    return value
+      .filter(tag => tag !== null && tag !== undefined)
+      .map(tag => String(tag).trim())
+      .filter(tag => tag.length > 0)
+  }
+  if (typeof value === "string" && value.trim().length > 0) {
+    return [value.trim()]
+  }
+  return []
 }
 
 function calculateTagStats() {
   console.log("🏷️  Analyzing tags...\n")
 
-  const mdFiles = getAllMarkdownFiles(WORKSPACE_ROOT)
+  const concepts = loadBundle(WORKSPACE_ROOT).concepts
   const tagCount = new Map()
   const tagFiles = new Map()
   let filesWithTags = 0
   let filesWithoutTags = 0
 
-  mdFiles.forEach(file => {
-    const content = fs.readFileSync(file, "utf8")
-    const relativePath = path.relative(WORKSPACE_ROOT, file)
-    const tags = extractTags(content)
+  concepts.forEach(concept => {
+    const relativePath = concept.relPath
+    const tags = normalizeTags(concept.data.tags)
 
     if (tags.length > 0) {
       filesWithTags++
@@ -127,4 +111,3 @@ function calculateTagStats() {
 }
 
 calculateTagStats()
-

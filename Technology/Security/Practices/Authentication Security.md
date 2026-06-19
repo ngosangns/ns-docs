@@ -2,6 +2,13 @@
 area: technology
 domain: security
 type: resource
+title: Authentication Security
+description: Authentication Security
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - security
+resource: https://example.com/reset-password?token=...`
 ---
 # Authentication Security
 

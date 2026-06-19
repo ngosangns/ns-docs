@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: javascript
 type: resource
+title: Coding Agents
+description: AI Tools Registry | A registry distributing AI Tools and components using shadcn.
+timestamp: '2026-06-19T13:43:26.163Z'
+tags:
+  - technology
+  - ai-ml
+  - javascript
+resource: https://ai-tools-registry.vercel.app/
 ---
 # 1. Resources
 

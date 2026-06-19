@@ -3,6 +3,14 @@ area: technology
 domain: devops
 topic: reverse-proxy
 type: resource
+title: Reverse Proxy
+description: Reverse Proxy
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - reverse-proxy
+resource: https://viblo.asia/p/reverse-proxy-tu-thang-chuyen-phat-thanh-ong-quan-gia-PAoJeOArV1j
 ---
 # Reverse Proxy
 

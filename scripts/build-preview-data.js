@@ -3,6 +3,14 @@
 const fs = require("fs")
 const path = require("path")
 
+// The markdown DOC model + doc-to-doc graph edges are read through okf-core so
+// every tool shares one parse/link-resolution model (Requirements 11.1-11.5).
+// `loadBundle` builds the Concept model + a lookup index and transparently
+// falls back to a per-file-tolerant walk when a file has unparseable YAML, so
+// one bad file never crashes the preview build; `resolveTarget` resolves both
+// historical wikilinks and Bundle_Relative_Links against the index.
+const { loadBundle, resolveTarget, buildIndex } = require("./okf-core")
+
 const ROOT = path.resolve(__dirname, "..")
 const OUT_DIR = path.join(ROOT, "web", "dist", "data")
 const MAX_TEXT_BYTES = 256 * 1024
@@ -79,16 +87,22 @@ function titleFromMarkdown(raw, fallback) {
   return match ? match[1].trim() : fallback.replace(/\.md$/i, "")
 }
 
-function parseFrontmatter(raw) {
-  const text = frontmatterText(raw)
-  if (!text) return {}
-  const meta = {}
-  for (const line of text.split(/\r?\n/)) {
-    const field = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/)
-    if (field)
-      meta[field[1].toLowerCase()] = field[2].trim().replace(/^["']|["']$/g, "")
+// metaField(data, name) -> string
+// Case-insensitive lookup over an okf-core Concept's parsed frontmatter
+// (`concept.data`). okf-core preserves the original key case (and may parse
+// values into non-strings via YAML), so we match keys case-insensitively and
+// coerce scalar values to a string; objects/arrays/nullish become "".
+function metaField(data, name) {
+  if (!data || typeof data !== "object") return ""
+  const lower = name.toLowerCase()
+  for (const key of Object.keys(data)) {
+    if (key.toLowerCase() === lower) {
+      const value = data[key]
+      if (value == null || typeof value === "object") return ""
+      return String(value)
+    }
   }
-  return meta
+  return ""
 }
 
 function extractTags(raw) {
@@ -167,77 +181,86 @@ function normalizeTag(tag) {
     .replace(/^["']|["']$/g, "")
 }
 
-function makeDocId(rel) {
-  return toSlash(rel)
-}
-
 function categoryFor(rel) {
   const parts = rel.split("/")
   return parts.length > 1 ? parts[0] : "Root"
 }
 
-function slugify(text) {
-  return text
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/\.md$/i, "")
-    .replace(/[^a-z0-9/ -]+/g, "")
+// isIgnoredConceptPath(relPosix) -> boolean
+// okf-core's walkBundle only skips [.git, node_modules, .wrangler, web/dist],
+// but this script historically ignores more (.cache, backups, export,
+// graphify-out and any dotted directory). After walking we drop concepts whose
+// bundle-relative path falls under the script's IGNORE_DIRS so the preview
+// never pulls in unwanted markdown (e.g. `.kiro/`, `backups/`).
+function isIgnoredConceptPath(relPosix) {
+  const parts = relPosix.split("/")
+  // Any directory segment that is a dotted dir (".kiro", ".cache", ...).
+  for (let i = 0; i < parts.length - 1; i += 1) {
+    if (parts[i].startsWith(".") && parts[i] !== ".") return true
+  }
+  for (const ignored of IGNORE_DIRS) {
+    if (relPosix === ignored || relPosix.startsWith(ignored + "/")) return true
+  }
+  return false
+}
+
+// loadConcepts() -> Concept[]
+// Reads the whole bundle markdown model through okf-core (Requirement 11.1):
+// reserved files (index.md/log.md) are already excluded by the walk, so the
+// returned concepts map 1:1 to non-reserved Concept nodes (Requirement 11.2).
+// okf-core's loadBundle handles the strict-then-tolerant fallback internally,
+// so a file with unparseable YAML never crashes the build. We then drop
+// concepts under the script's broader IGNORE_DIRS.
+function loadConcepts() {
+  return loadBundle(ROOT).concepts.filter(
+    concept => !isIgnoredConceptPath(concept.relPath)
+  )
+}
+
+// buildBundleIndex(concepts) -> Map
+// Rebuilds an okf-core lookup index from the FILTERED concepts (so
+// resolveTarget can only resolve to nodes that actually exist in the graph).
+// Thin wrapper over okf-core.buildIndex; kept as a named export for the unit
+// tests that import it from this module.
+function buildBundleIndex(concepts) {
+  return buildIndex(concepts)
+}
+
+// looksInternal(rawTarget) -> boolean
+// True for link targets that are meant to point at a Concept inside the bundle
+// (so an unresolved one is worth recording). External links (http(s)/mailto)
+// and anchor-only/empty targets are not Concept links.
+function looksInternal(rawTarget) {
+  const target = String(rawTarget || "")
+    .split("|")[0]
+    .split("#")[0]
     .trim()
-    .replace(/\s+/g, "-")
+  if (!target) return false
+  return !/^(https?:\/\/|mailto:)/i.test(target)
 }
 
-function buildDocIndex(docs) {
-  const index = new Map()
-  for (const doc of docs) {
-    const noExt = doc.path.replace(/\.md$/i, "")
-    const keys = [
-      doc.path,
-      noExt,
-      path.basename(noExt),
-      doc.title,
-      slugify(doc.path),
-      slugify(noExt),
-      slugify(path.basename(noExt)),
-      slugify(doc.title)
-    ]
-    for (const key of keys) {
-      const normalized = String(key || "").toLowerCase()
-      if (normalized && !index.has(normalized)) index.set(normalized, doc)
-    }
-  }
-  return index
-}
-
-function resolveDocTarget(rawTarget, sourceDoc, index) {
-  if (!rawTarget) return null
-  const clean = rawTarget.split("#")[0].split("|")[0].trim().replace(/\\/g, "/")
-  if (!clean || /^https?:\/\//i.test(clean)) return null
-  const candidates = [clean, clean.replace(/\.md$/i, ""), slugify(clean)]
-  if (clean.startsWith("./") || clean.startsWith("../")) {
-    const sourceDir = path.posix.dirname(sourceDoc.path)
-    const joined = path.posix.normalize(path.posix.join(sourceDir, clean))
-    candidates.push(joined, joined.replace(/\.md$/i, ""), slugify(joined))
-  }
-  for (const candidate of candidates) {
-    const doc = index.get(candidate.toLowerCase())
-    if (doc) return doc
-  }
-  return null
-}
-
-function extractLinks(doc, index) {
+// extractLinks(doc, index, unresolved) -> { to, raw, label }[]
+// Resolves every link in `doc.raw` to a Concept through okf-core.resolveTarget,
+// which handles BOTH historical `[[wikilink]]` forms AND Bundle_Relative_Links
+// (Requirement 11.4). A link that does not resolve to an existing Concept is
+// skipped (no edge created) and recorded in `unresolved` without halting graph
+// building (Requirement 11.5).
+function extractLinks(doc, index, unresolved) {
   const links = []
   const seen = new Set()
   const add = (target, label) => {
-    const targetDoc = resolveDocTarget(target, doc, index)
-    if (!targetDoc || targetDoc.id === doc.id || seen.has(targetDoc.id)) return
-    seen.add(targetDoc.id)
-    links.push({ to: targetDoc.id, raw: target, label })
+    if (!looksInternal(target)) return
+    const targetConcept = resolveTarget(target, doc.id, index)
+    if (!targetConcept) {
+      unresolved.push({ from: doc.id, raw: target, label })
+      return
+    }
+    if (targetConcept.id === doc.id || seen.has(targetConcept.id)) return
+    seen.add(targetConcept.id)
+    links.push({ to: targetConcept.id, raw: target, label })
   }
 
-  for (const match of doc.raw.matchAll(/\[\[([^\]]+)\]\]/g))
-    add(match[1], "wiki")
+  for (const match of doc.raw.matchAll(/\[\[([^\]]+)\]\]/g)) add(match[1], "wiki")
   for (const match of doc.raw.matchAll(/\[[^\]]+\]\(([^)]+)\)/g))
     add(decodeURI(match[1]), "link")
   for (const match of doc.raw.matchAll(/@(doc|spec)\/([^\s)]+)/g))
@@ -245,29 +268,33 @@ function extractLinks(doc, index) {
   return links
 }
 
-function collectDocs() {
+// buildDocs(concepts) -> doc[]
+// Builds the preview DOC model from okf-core Concepts. The node id is the
+// Concept_Id (no `.md`, Requirement 11.3); `path` keeps the bundle-relative
+// path WITH `.md` for consumers that rely on it. Frontmatter fields come from
+// the okf-core parse (`concept.data`); tag extraction still reads raw content.
+function buildDocs(concepts) {
   const docs = []
-  walk(ROOT, abs => {
-    if (path.extname(abs).toLowerCase() !== ".md") return
-    const rel = toSlash(path.relative(ROOT, abs))
-    const raw = readTextFile(abs)
-    if (raw == null) return
-    const meta = parseFrontmatter(raw)
-    const tags = extractTags(raw)
+  for (const concept of concepts) {
+    const raw = readTextFile(concept.absPath)
+    const safeRaw = raw == null ? "" : raw
+    const data = concept.data
     docs.push({
-      id: makeDocId(rel),
-      title: meta.title || titleFromMarkdown(raw, path.basename(rel)),
-      path: rel,
+      id: concept.id,
+      title:
+        metaField(data, "title") ||
+        titleFromMarkdown(safeRaw, path.basename(concept.relPath)),
+      path: concept.relPath,
       language: "markdown",
-      category: categoryFor(rel),
-      status: meta.status || "",
-      compliance: meta.compliance || "",
-      priority: meta.priority || "",
-      description: meta.description || "",
-      tags,
-      raw
+      category: categoryFor(concept.relPath),
+      status: metaField(data, "status"),
+      compliance: metaField(data, "compliance"),
+      priority: metaField(data, "priority"),
+      description: metaField(data, "description"),
+      tags: extractTags(safeRaw),
+      raw: safeRaw
     })
-  })
+  }
   docs.sort((a, b) => a.path.localeCompare(b.path))
   return docs
 }
@@ -293,8 +320,8 @@ function collectCodeDocs() {
   return codeDocs
 }
 
-function buildGraph(docs) {
-  const index = buildDocIndex(docs)
+function buildGraph(docs, index) {
+  const unresolvedLinks = []
   const nodes = docs.map(doc => ({
     id: doc.id,
     label: doc.title,
@@ -334,7 +361,7 @@ function buildGraph(docs) {
         section: "tagged"
       })
     }
-    for (const link of extractLinks(doc, index)) {
+    for (const link of extractLinks(doc, index, unresolvedLinks)) {
       edges.push({
         from: doc.id,
         to: link.to,
@@ -352,7 +379,14 @@ function buildGraph(docs) {
     }
   }
   nodes.push(...tagNodes.values())
-  return { nodes, edges, relationships, constraints: [], dependencyDiagram: "" }
+  return {
+    nodes,
+    edges,
+    relationships,
+    constraints: [],
+    dependencyDiagram: "",
+    unresolvedLinks
+  }
 }
 
 function loadGraphify() {
@@ -444,9 +478,11 @@ function buildSummary(docs) {
 }
 
 function main() {
-  const docs = collectDocs()
+  const concepts = loadConcepts()
+  const docs = buildDocs(concepts)
+  const index = buildBundleIndex(concepts)
   const codeDocs = collectCodeDocs()
-  const graph = buildGraph(docs)
+  const graph = buildGraph(docs, index)
   const graphify = loadGraphify()
   const files = {}
   for (const doc of docs)
@@ -481,9 +517,28 @@ function main() {
       2
     )
   )
+  const docNodeCount = graph.nodes.filter(node => node.type === "doc").length
   console.log(
     `Built preview data: ${docs.length} docs, ${codeDocs.length} code files, ${graph.edges.length} doc edges`
   )
+  console.log(
+    `Doc nodes: ${docNodeCount} (= non-reserved concepts: ${concepts.length}), unresolved links skipped: ${graph.unresolvedLinks.length}`
+  )
 }
 
-main()
+// Run the build only when executed directly (`node scripts/build-preview-data.js`).
+// When the module is `require`d (e.g. from unit tests) we expose the pure
+// helpers below instead of running `main()`, so tests can feed synthetic data.
+if (require.main === module) {
+  main()
+}
+
+module.exports = {
+  loadConcepts,
+  buildBundleIndex,
+  buildDocs,
+  buildGraph,
+  extractLinks,
+  buildSummary,
+  main
+}

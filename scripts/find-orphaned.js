@@ -1,35 +1,24 @@
 #!/usr/bin/env node
 
-const fs = require("fs")
+// Orphaned-note detection, sourced from the okf-core bundle model
+// (Requirement 11.8). Instead of self-parsing files, this script reads the
+// bundle through okf-core's walkBundle and inspects each Concept's `body`
+// for wikilinks.
+//
+// Robustness: reads the bundle through okf-core's `loadBundle`, which tries the
+// strict walk first and transparently falls back to a per-file-tolerant walk
+// when a file has unparseable YAML, so one bad file never crashes the tool.
+
 const path = require("path")
+const { loadBundle } = require("./okf-core")
 
-const WORKSPACE_ROOT = __dirname + "/.."
-const IGNORE_DIRS = ["Attachments", "node_modules", ".git", "export", "backups", "scripts"]
+const WORKSPACE_ROOT = path.join(__dirname, "..")
 
-function getAllMarkdownFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir)
-
-  files.forEach(file => {
-    const filePath = path.join(dir, file)
-    const stat = fs.statSync(filePath)
-
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.includes(file)) {
-        getAllMarkdownFiles(filePath, fileList)
-      }
-    } else if (file.endsWith(".md")) {
-      fileList.push(filePath)
-    }
-  })
-
-  return fileList
-}
-
-function extractLinks(content) {
+function extractLinks(body) {
   const linkRegex = /\[\[([^\]#]+)(?:#([^\]]+))?\]\]/g
   const links = []
   let match
-  while ((match = linkRegex.exec(content)) !== null) {
+  while ((match = linkRegex.exec(body)) !== null) {
     links.push(match[1].trim())
   }
   return links
@@ -38,20 +27,18 @@ function extractLinks(content) {
 function findOrphaned() {
   console.log("🔍 Finding orphaned notes...\n")
 
-  const mdFiles = getAllMarkdownFiles(WORKSPACE_ROOT)
+  const { concepts } = loadBundle(WORKSPACE_ROOT)
   const referencedFiles = new Set()
   const allFileNames = new Set()
 
-  mdFiles.forEach(file => {
-    const relativePath = path.relative(WORKSPACE_ROOT, file)
-    const fileName = path.basename(file, ".md")
+  concepts.forEach(concept => {
+    const fileName = path.basename(concept.relPath, ".md")
     allFileNames.add(fileName.toLowerCase())
-    allFileNames.add(relativePath.replace(/\.md$/, "").toLowerCase())
+    allFileNames.add(concept.relPath.replace(/\.md$/i, "").toLowerCase())
   })
 
-  mdFiles.forEach(file => {
-    const content = fs.readFileSync(file, "utf8")
-    const links = extractLinks(content)
+  concepts.forEach(concept => {
+    const links = extractLinks(concept.body)
 
     links.forEach(link => {
       const linkName = link.toLowerCase()
@@ -66,10 +53,10 @@ function findOrphaned() {
 
   const orphanedFiles = []
 
-  mdFiles.forEach(file => {
-    const relativePath = path.relative(WORKSPACE_ROOT, file)
-    const fileName = path.basename(file, ".md").toLowerCase()
-    const fullPath = relativePath.replace(/\.md$/, "").toLowerCase()
+  concepts.forEach(concept => {
+    const relativePath = concept.relPath
+    const fileName = path.basename(relativePath, ".md").toLowerCase()
+    const fullPath = relativePath.replace(/\.md$/i, "").toLowerCase()
 
     if (
       !referencedFiles.has(fileName) &&
@@ -85,7 +72,7 @@ function findOrphaned() {
   console.log("📋 ORPHANED NOTES")
   console.log("=".repeat(60))
   console.log(`\n📊 Summary:`)
-  console.log(`   Total files: ${mdFiles.length}`)
+  console.log(`   Total concepts: ${concepts.length}`)
   console.log(`   Orphaned files: ${orphanedFiles.length}`)
 
   if (orphanedFiles.length > 0) {
@@ -101,4 +88,3 @@ function findOrphaned() {
 }
 
 findOrphaned()
-

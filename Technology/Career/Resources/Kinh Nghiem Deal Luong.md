@@ -2,6 +2,12 @@
 area: technology
 domain: career
 type: resource
+title: Kinh Nghiem Deal Luong
+description: Kinh nghiệm deal lương
+timestamp: '2026-06-19T13:43:26.146Z'
+tags:
+  - technology
+  - career
 ---
 # Kinh nghiệm deal lương
 

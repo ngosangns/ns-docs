@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Am Thuc
+description: 'Phần VI: Hồn Cốt Tây Bắc: Ẩm Thực và Quà Tặng Từ Núi Rừng'
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-guide
 ---
 
 ## 0.6. Phần VI: Hồn Cốt Tây Bắc: Ẩm Thực và Quà Tặng Từ Núi Rừng
@@ -53,4 +59,4 @@ Mang một chút hương vị Tây Bắc về làm quà là cách tuyệt vời 
 | **Mật ong bạc hà**             | Đặc sản của vùng cao nguyên đá Hà Giang. Mật có màu vàng chanh ánh xanh, vị ngọt thanh mát và hương thơm đặc trưng của hoa bạc hà. 62        | ~400.000 - 500.000 / lít | Hà Giang (Mèo Vạc, Đồng Văn), các cửa hàng uy tín.                                      |
 | **Đồ thổ cẩm**                 | Váy, áo, khăn, túi... được dệt và thêu tay tỉ mỉ với những hoa văn độc đáo, màu sắc rực rỡ, thể hiện văn hóa của người Mông, Dao, Thái... 61 | Tùy sản phẩm             | Các làng nghề (Tả Phìn - Sapa), chợ phiên Bắc Hà, Đồng Văn.                             |
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

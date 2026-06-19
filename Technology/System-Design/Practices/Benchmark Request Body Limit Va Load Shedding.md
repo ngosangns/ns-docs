@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Benchmark Request Body Limit Va Load Shedding
+description: Benchmark Request Body Limit và Load Shedding
+timestamp: '2026-06-19T13:43:26.102Z'
+tags:
+  - technology
+  - system-design
+resource: https://devops.vn/posts/benchmark-gioi-han-request-body-pha-p99-he-thong
 ---
 # Benchmark Request Body Limit và Load Shedding
 

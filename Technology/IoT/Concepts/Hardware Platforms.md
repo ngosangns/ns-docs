@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Hardware Platforms
+description: Hardware Platforms
+timestamp: '2026-06-19T13:43:26.136Z'
+tags:
+  - technology
+  - iot
 ---
 # Hardware Platforms
 
@@ -12,7 +18,7 @@ type: resource
 - WiFi và Bluetooth tích hợp
 - Rẻ, dễ phát triển
 - Phù hợp cho smart home và DIY projects
-- Có thể dùng ESPHome để tạo custom firmware (xem [[Technology/IoT/Concepts/Smart Home]])
+- Có thể dùng ESPHome để tạo custom firmware (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ### Arduino
 
@@ -24,7 +30,7 @@ type: resource
 
 - Full Linux OS
 - Phù hợp cho gateway, edge computing, và home automation hubs
-- Có thể chạy Home Assistant (xem [[Technology/IoT/Concepts/Smart Home]])
+- Có thể chạy Home Assistant (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ### STM32
 

@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Clean Code Notes
+description: Code is clean if it can be understood easily – by everyone on the team.
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
 

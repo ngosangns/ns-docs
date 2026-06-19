@@ -3,6 +3,14 @@ area: technology
 domain: frontend
 topic: javascript
 type: resource
+title: Frontend Overview
+description: Frontend - Front-end
+timestamp: '2026-06-19T13:43:26.143Z'
+tags:
+  - technology
+  - frontend
+  - javascript
+resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 ---
 # Frontend - Front-end
 
@@ -17,7 +25,7 @@ type: resource
 - **WebRTC**: Công nghệ mã nguồn mở cho phép truyền thông real-time (audio, video, data) giữa các trình duyệt qua P2P
   - **Thành phần chính**: Signaling Server, STUN/TURN Server, RTCPeerConnection, MediaStream, RTCDataChannel
   - **Use cases**: Video call, voice call, screen sharing, file sharing, real-time gaming
-  - Xem chi tiết: [[Webrtc]] #webrtc #real-time #p2p #video-call
+  - Xem chi tiết: [Webrtc](/Technology/Frontend/Concepts/Webrtc) #webrtc #real-time #p2p #video-call
 - **APIs khác**: Prompt API, Translator API, HTML Selects styleable
 
 ### Storage

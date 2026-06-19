@@ -1,3 +1,12 @@
+---
+type: Note
+title: Comic Translate
+description: Comic-Translate - Desktop App Dịch Comics Đa Ngôn Ngữ
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/ogkalu2/comic-translate
+---
 # Comic-Translate - Desktop App Dịch Comics Đa Ngôn Ngữ
 
 ## Định nghĩa

@@ -3,6 +3,13 @@ area: technology
 domain: system-design
 topic: system-design
 type: resource
+title: Giai Phap Ky Thuat Chi Tiet
+description: Giải pháp Kỹ thuật Chi tiết
+timestamp: '2026-06-19T13:43:26.102Z'
+tags:
+  - technology
+  - system-design
+resource: https://viblo.asia/p/jwt-huy-hang-loat-token-da-bao-gio-ban-nghi-den-EvbLbxGv4nk?fbclid=IwAR0-7dicLCxg0aSjZqgnHoPvk__tl0zP5gr3EPSxE0uX5yu9VdqsRfg6St0
 ---
 
 # 3. Giải pháp Kỹ thuật Chi tiết
@@ -40,13 +47,13 @@ type: resource
 - Nghệ thuật xử lý background job: Chia sẻ kinh nghiệm và các kỹ thuật trong việc thiết kế và xử lý các tác vụ nền (background jobs) một cách hiệu quả, đảm bảo độ tin cậy và khả năng mở rộng. Bao gồm việc lựa chọn message queue, xử lý lỗi, retry mechanism.
   - Nguồn: https://viblo.asia/s/nghe-thuat-xu-ly-background-job-0gdJzvqnJz5 (Link này được dùng cho nhiều mục, giả định là bài tổng quan)
   - Nguồn khác (có thể liên quan đến View/Email): https://viblo.asia/p/nghe-thuat-xu-ly-background-job-07LKXjqJlV4
-- [[Task Scheduler System Design]]: Tóm tắt bài viết về thiết kế hệ thống Task Scheduler từ một buổi phỏng vấn với Meta Staff Engineer, bao gồm thảo luận yêu cầu, khả năng mở rộng, khả năng chịu lỗi, và các best practices. Nguồn: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
+- [Task Scheduler System Design](/Technology/System-Design/Practices/Task Scheduler System Design): Tóm tắt bài viết về thiết kế hệ thống Task Scheduler từ một buổi phỏng vấn với Meta Staff Engineer, bao gồm thảo luận yêu cầu, khả năng mở rộng, khả năng chịu lỗi, và các best practices. Nguồn: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
 
 ### 3.3.2. Xử lý Log (Logging)
 
 - Dùng Discord làm logger: Hướng dẫn một cách sáng tạo về việc sử dụng Discord (thông qua webhook) như một công cụ để ghi log (logger) cho ứng dụng, tiện lợi cho việc theo dõi nhanh các sự kiện quan trọng hoặc lỗi.
   - Nguồn: https://www.youtube.com/watch?v=c6-ZDgz7SCo
-- - [[e2f3a4b5-c6d7-49e0-9f1a-2b3c4d5e6f70.pdf]]
+- - [e2f3a4b5-c6d7-49e0-9f1a-2b3c4d5e6f70.pdf](/Attachments/e2f3a4b5-c6d7-49e0-9f1a-2b3c4d5e6f70.pdf)
 
 ### 3.3.3. Nén Dữ liệu (Data Compression - zip, gzip)
 
@@ -56,7 +63,7 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
 
 - Áp dụng thuật toán nén streaming zstandard thay cho zlib. Streaming zstandard vượt trội hơn về tốc độ, sử dụng bộ nhớ và tỷ lệ nén.
 - Thay đổi logic cập nhật dữ liệu từ server về client (passive session) giúp giảm thiểu những dữ liệu dư thừa.
-  ![[4d5e6f70-8192-a3b4-c5d6-e7f8091a2b3c.png]]
+  ![](/Attachments/4d5e6f70-8192-a3b4-c5d6-e7f8091a2b3c.png)
 
 ### 3.3.4. Upload File Lớn (Large File Upload)
 
@@ -65,7 +72,7 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
 
 ### 3.3.5. Đồng bộ hóa Dữ liệu (Data Syncing)
 
-- Loro - Syncing / conflict free / automatic merging: Loro là một thư viện CRDT (Conflict-free Replicated Data Type) hiệu suất cao cho việc đồng bộ hóa trạng thái cục bộ và hợp nhất tự động mà không có xung đột. Hỗ trợ cả backend (xem [[Technology/Backend-Database/Resources/Backend Overview]]) và frontend (xem [[Technology/Frontend/Resources/Frontend Overview]]).
+- Loro - Syncing / conflict free / automatic merging: Loro là một thư viện CRDT (Conflict-free Replicated Data Type) hiệu suất cao cho việc đồng bộ hóa trạng thái cục bộ và hợp nhất tự động mà không có xung đột. Hỗ trợ cả backend (xem [Backend Overview](/Technology/Backend-Database/Resources/Backend Overview)) và frontend (xem [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview)).
   - Nguồn: https://github.com/loro-dev/loro
 
 ### 3.3.6. Metadata
@@ -75,7 +82,7 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
 
 ### 3.3.7. Sao lưu Dữ liệu (Data Backup)
 
-- [[Chien Luoc Backup Du Lieu 3 2 1]]
+- [Chien Luoc Backup Du Lieu 3 2 1](/Technology/System-Design/Practices/Chien Luoc Backup Du Lieu 3 2 1)
 
 ## 3.4. Giao tiếp và Thông báo (Communication and Notification)
 
@@ -119,7 +126,7 @@ Discord đã giảm 40% lưu lượng websocket bằng cách:
   - Nguồn: https://viblo.asia/p/thiet-ke-he-thong-airbnb-x7Z4DYX2JnX?fbclid=IwAR1a_7ab055VuHj2UJ2-CX77aj-5W3G1avwf6PG3Dau3b2Aq6XZGnSrBB8w
 - Thiết Kế Hệ Thống Bán Vé (Ticketing System Design): Hướng dẫn các bước và yếu tố cần xem xét khi thiết kế một hệ thống bán vé trực tuyến, từ quản lý sự kiện, loại vé, số lượng, đặt vé, xử lý thanh toán đến chống gian lận.
   - Nguồn: https://viblo.asia/p/thiet-ke-he-thong-ban-ve-ticketing-system-design-GyZJZnjZJjm
-- [[Thanh Toan Chuyen Khoan Ngan Hang]]
+- [Thanh Toan Chuyen Khoan Ngan Hang](/Technology/System-Design/Practices/Thanh Toan Chuyen Khoan Ngan Hang)
 - VietQR-Portal: Cổng thông tin chính thức về VietQR, một chuẩn QR Code chung cho thanh toán tại Việt Nam. - Nguồn: https://vietqr.net
 
 ### 3.5.2. Mạng Xã hội (Social Networks)
@@ -170,8 +177,8 @@ Thiết kế hệ thống rút gọn URL như TinyURL.
   - Tính sẵn sàng (Availability): Replication DB, nhiều instance application service.
   - Độ trễ (Latency): Caching, chọn DB phù hợp.
 - Nguồn: https://www.threads.net/@viettranx89/post/C_ZdnH-B9DI
-  ![[1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png]]
-  ![[2b3c4d5e-6f70-8192-a3b4-c5d6e7f8091a.png]]
+  ![](/Attachments/1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png)
+  ![](/Attachments/2b3c4d5e-6f70-8192-a3b4-c5d6e7f8091a.png)
 - Protip từ nguồn: Nên tiếp cận vấn đề theo hướng MVP trước, giải quyết core design rồi hãy mở rộng. Làm rõ các ràng buộc về actors (lock, race condition, chosen protocol) trước khi tính đến scalability.
 
 ### 3.5.7. Bộ đếm Phân tán (Distributed Counter)
@@ -195,7 +202,7 @@ Bài blog từ Twitter (X) Engineering chia sẻ về các nỗ lực và giải
 
 #### 3.5.8.2. Thảo luận về giải pháp Autocomplete
 
-![[0f1a2b3c-4d5e-6f70-8192-a3b4c5d6e7f8.png]]
+![](/Attachments/0f1a2b3c-4d5e-6f70-8192-a3b4c5d6e7f8.png)
 
 - Một số ý tưởng:
   - Dùng Spark Graph, HDFS, Cloud Hadoop để implement Trie.
@@ -219,14 +226,14 @@ Prefixy là một dịch vụ tìm kiếm tiền tố (prefix search) có khả 
 ### 3.5.9. Hệ thống Sinh ID (ID Generation)
 
 - Xây dựng hệ thống sinh ID của GHTK - 100 triệu ID / giây: Video từ Giao Hàng Tiết Kiệm (GHTK) chia sẻ về cách họ xây dựng hệ thống sinh ID có khả năng tạo ra 100 triệu ID mỗi giây. Các yếu tố quan trọng bao gồm tính duy nhất, thứ tự (tùy chọn), khả năng mở rộng và hiệu năng cao. - Nguồn: https://www.youtube.com/watch?v=bSyFHY3a3_s
-  ![[3c4d5e6f-7081-92a3-b4c5-d6e7f8091a2b.png]]
+  ![](/Attachments/3c4d5e6f-7081-92a3-b4c5-d6e7f8091a2b.png)
 
 ## 3.6. Vận hành và Giám sát (Operations and Monitoring)
 
 ### 3.6.1. Giám sát Hệ thống (System Monitoring)
 
 - 1 ngày làm analytic: Đo lường CCU theo thời gian thực: Chia sẻ kinh nghiệm thực tế về việc đo lường số lượng người dùng đồng thời (CCU - Concurrent Users) theo thời gian thực, một yếu tố quan trọng trong phân tích và giám sát hệ thống. - Nguồn: https://viblo.asia/p/1-ngay-lam-analytic-do-luong-ccu-theo-thoi-gian-thuc-4P856L0BZY3
-  ![[a3b4c5d6-e7f8-49a0-9b1c-2d3e4f5a6b7c.jpg]]
+  ![](/Attachments/a3b4c5d6-e7f8-49a0-9b1c-2d3e4f5a6b7c.jpg)
 
 ### 3.6.2. Rate Limiting
 
@@ -303,11 +310,11 @@ Một khách hàng lớn ở UK và Ireland vận hành hệ thống legacy trê
 
 ## 3.11. Xử lý Văn bản & Trình soạn thảo (Text & Editor)
 
-- [[Solution Sao Luu Lich Su Chinh Sua]]
+- [Solution Sao Luu Lich Su Chinh Sua](/Technology/System-Design/Practices/Solution Sao Luu Lich Su Chinh Sua)
 
 ## 3.12. Mở rộng Hệ thống khi Lưu lượng Tăng đột biến (Scaling for Traffic Spikes)
 
 - Chiến lược scale-out hiệu quả khi lượng truy cập gia tăng đột biến cho hệ thống Viblo: Chia sẻ chiến lược scale-out (mở rộng theo chiều ngang) hiệu quả cho hệ thống khi đối mặt với tình trạng lượng truy cập tăng đột biến, dựa trên kinh nghiệm của Viblo.
   - Nguồn: https://viblo.asia/p/chien-luoc-scale-out-hieu-qua-khi-luong-truy-cap-gia-tang-dot-bien-cho-he-thong-viblo-zOQJw5xNVMP
 
-> **Xem thêm:** [[Solutions System Designs Design Patterns|Tổng hợp System Design & Design Patterns]]
+> **Xem thêm:** [Tổng hợp System Design & Design Patterns](/Technology/System-Design/Practices/Solutions System Designs Design Patterns)

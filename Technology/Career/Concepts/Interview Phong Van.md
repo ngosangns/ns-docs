@@ -3,6 +3,13 @@ area: technology
 domain: career
 topic: interview
 type: resource
+title: Interview Phong Van
+description: Interview - Phỏng vấn
+timestamp: '2026-06-19T13:43:26.147Z'
+tags:
+  - technology
+  - career
+  - interview
 ---
 # Interview - Phỏng vấn
 
@@ -30,8 +37,8 @@ type: resource
 
 ## Sharing
 
-- [[Interview Senior Engineer]]
-- [[Oracle Interview Gandhinagar]]
+- [Interview Senior Engineer](/Technology/Career/Practices/Interview Senior Engineer)
+- [Oracle Interview Gandhinagar](/Technology/Career/Practices/Oracle Interview Gandhinagar)
 
 ## Khóa học
 

@@ -3,6 +3,14 @@ area: technology
 domain: algorithms
 topic: golang
 type: cheatsheet
+title: Algo Linked Lists
+description: Linked Lists
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - algorithms
+  - golang
+resource: https://encore.dev/blog/queueing
 ---
 
 ## Linked Lists

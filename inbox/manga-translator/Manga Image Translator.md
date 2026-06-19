@@ -1,3 +1,12 @@
+---
+type: Note
+title: Manga Image Translator
+description: Manga-Image-Translator - Flagship Open Source Manga Translation Pipeline
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/zyddnys/manga-image-translator
+---
 # Manga-Image-Translator - Flagship Open Source Manga Translation Pipeline
 
 ## Định nghĩa

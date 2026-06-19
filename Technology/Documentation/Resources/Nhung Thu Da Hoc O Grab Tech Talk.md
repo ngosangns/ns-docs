@@ -2,6 +2,12 @@
 area: technology
 domain: documentation
 type: resource
+title: Nhung Thu Da Hoc O Grab Tech Talk
+description: Lựa chọn công nghệ
+timestamp: '2026-06-19T13:43:26.144Z'
+tags:
+  - technology
+  - documentation
 ---
 # Lựa chọn công nghệ
 

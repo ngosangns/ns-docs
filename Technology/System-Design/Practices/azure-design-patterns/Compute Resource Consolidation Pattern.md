@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Compute Resource Consolidation Pattern
+description: Mẫu thiết kế Compute Resource Consolidation (Hợp nhất tài nguyên tính toán)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/compute-resource-consolidation
 ---
 # Mẫu thiết kế Compute Resource Consolidation (Hợp nhất tài nguyên tính toán)
 

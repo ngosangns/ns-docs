@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Development Tools
+description: Development Tools
+timestamp: '2026-06-19T13:43:26.133Z'
+tags:
+  - technology
+  - iot
 ---
 # Development Tools
 
@@ -10,4 +16,4 @@ type: resource
 - **PlatformIO**: Cross-platform IDE cho embedded development
 - **Arduino IDE**: Đơn giản cho beginners
 - **ESP-IDF**: Official framework cho ESP32
-- **ESPHome**: YAML-based config cho ESP8266/ESP32 (xem [[Technology/IoT/Concepts/Smart Home]])
+- **ESPHome**: YAML-based config cho ESP8266/ESP32 (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))

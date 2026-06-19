@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Top K Problem Heavy Hitters
+description: Top K Problem - Heavy Hitters
+timestamp: '2026-06-19T13:43:26.115Z'
+tags:
+  - technology
+  - system-design
+resource: https://serhatgiydiren.com/system-design-interview-top-k-problem-heavy-hitters
 ---
 # Top K Problem - Heavy Hitters
 

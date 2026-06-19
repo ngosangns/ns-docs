@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Edge Workload Configuration Pattern
+description: Mẫu thiết kế Edge Workload Configuration (Cấu hình khối lượng công việc tại biên)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/edge-workload-configuration
 ---
 # Mẫu thiết kế Edge Workload Configuration (Cấu hình khối lượng công việc tại biên)
 

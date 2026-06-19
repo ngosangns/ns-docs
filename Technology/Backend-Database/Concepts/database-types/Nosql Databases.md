@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Nosql Databases
+description: NoSQL Databases
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://github.com/transybao1393/DiskDB
 ---
 # NoSQL Databases
 
@@ -18,7 +26,7 @@ Cơ sở dữ liệu phi quan hệ.
 ## Key-value store
 
 - **Redis**: In-memory data structure store
-  - Xem chi tiết: [[Redis]]
+  - Xem chi tiết: [Redis](/Technology/Backend-Database/Tools/Redis)
 - **LevelDB**: Key-value store của Google
 - **RocksDB**: Key-value store hiệu suất cao, fork của LevelDB
 - **DiskDB**: Cơ sở dữ liệu key-value hiệu suất cao dựa trên đĩa, được xây dựng bằng Rust và sử dụng RocksDB làm công cụ lưu trữ. Được thiết kế như một giải pháp thay thế cho Redis nhưng tối ưu hóa cho lưu trữ bền vững, cho phép thực hiện các thao tác đọc và ghi hiệu quả trực tiếp trên đĩa. Hỗ trợ Redis-compatible protocol, hiệu năng cao cho single operations và mixed workloads - [GitHub](https://github.com/transybao1393/DiskDB)
@@ -33,7 +41,7 @@ Cơ sở dữ liệu phi quan hệ.
 ## Document databases
 
 - **MongoDB**: Document database phổ biến
-  - Xem chi tiết: [[Mongodb]]
+  - Xem chi tiết: [Mongodb](/Technology/Backend-Database/Tools/Mongodb)
 - **CouchDB**: Document database với replication tích hợp
 
 ## Other NoSQL databases

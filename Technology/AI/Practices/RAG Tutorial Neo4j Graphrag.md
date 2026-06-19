@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: rag
 type: tutorial
+title: RAG Tutorial Neo4j Graphrag
+description: RAG Tutorial - Neo4j GraphRAG
+timestamp: '2026-06-19T13:43:26.165Z'
+tags:
+  - technology
+  - ai-ml
+  - rag
+resource: https://neo4j.com/blog/developer/rag-tutorial/
 ---
 # RAG Tutorial - Neo4j GraphRAG
 
@@ -49,7 +57,7 @@ type: tutorial
 
 - Chuyển đổi text thành vector
 - Lựa chọn: OpenAI, Cohere, BGE, hoặc fine-tuned models
-- Xem thêm: [[Technology/AI/Concepts/RAG/RAG Overview]]
+- Xem thêm: [RAG Overview](/Technology/AI/Concepts/RAG/RAG Overview)
 
 ### 4. Vector Database
 

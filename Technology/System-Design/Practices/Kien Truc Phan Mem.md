@@ -3,6 +3,13 @@ area: technology
 domain: system-design
 topic: system-design
 type: resource
+title: Kien Truc Phan Mem
+description: Kiến trúc Phần mềm
+timestamp: '2026-06-19T13:43:26.107Z'
+tags:
+  - technology
+  - system-design
+resource: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 ---
 
 # 2. Kiến trúc Phần mềm
@@ -53,12 +60,12 @@ Kiến trúc Microservices cấu trúc một ứng dụng thành một tập h�
 ##### 2.1.3.1.1. Anti-corruption Layer pattern
 
 Là một mẫu thiết kế được sử dụng để tách biệt và cô lập các thành phần của hệ thống hiện tại khỏi các hệ thống hoặc dịch vụ bên ngoài (thường là hệ thống legacy hoặc của bên thứ ba) mà có thể không tin cậy, không ổn định hoặc có mô hình dữ liệu khác biệt. Lớp này đóng vai trò như một bộ chuyển đổi, đảm bảo rằng mô hình miền (domain model) của hệ thống hiện tại không bị "ô nhiễm" bởi các hệ thống bên ngoài.
-![[9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f.png]]
+![](/Attachments/9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f.png)
 
 ##### 2.1.3.1.2. Compensating Transaction pattern
 
 Là một mẫu thiết kế để quản lý và khôi phục trạng thái của hệ thống sau khi một giao dịch phân tán (distributed transaction) hoặc một chuỗi các thao tác gặp lỗi. Khi một thao tác trong chuỗi thất bại, các "compensating transactions" được thực thi để hoàn tác các thao tác đã thành công trước đó, nhằm đảm bảo tính nhất quán dữ liệu (eventual consistency) hoặc đưa hệ thống về trạng thái an toàn.
-![[0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a.png]]
+![](/Attachments/0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a.png)
 
 ##### 2.1.3.1.3. Sidecar Pattern
 
@@ -97,8 +104,8 @@ Domain-Driven Design (DDD) là một phương pháp tiếp cận phát triển p
   - Thư viện Go DDD: https://github.com/chrisngyn/go-ddd-library
   - Ví dụ Golang Advance DDD: https://github.com/Nghiait123456/GolangAdvance/tree/master/DomainDrivenDesign
   - Tản mạn về DDD trong Microservices, CQRS và Event Sourcing: https://batnamv.medium.ninja/t%E1%BA%A3n-m%E1%BA%A1n-v%E1%BB%81-ddd-trong-microservices-cqrs-v%C3%A0-event-sourcing-8741e87cc424
-- - [[b0c1d2e3-f4a5-6789-9a0b-c1d2e3f4a5b6.pdf]]
-- - [[9c8a9b0c-1d2e-3f45-a6b7-c8d9e0f1234a.pdf]]
+- - [b0c1d2e3-f4a5-6789-9a0b-c1d2e3f4a5b6.pdf](/Attachments/b0c1d2e3-f4a5-6789-9a0b-c1d2e3f4a5b6.pdf)
+- - [9c8a9b0c-1d2e-3f45-a6b7-c8d9e0f1234a.pdf](/Attachments/9c8a9b0c-1d2e-3f45-a6b7-c8d9e0f1234a.pdf)
 
 ### 2.1.6. Command Query Responsibility Segregation (CQRS)
 
@@ -217,9 +224,9 @@ Viết mã sạch là nền tảng cho một kiến trúc tốt.
 
 - Tham khảo:
   - Tóm tắt cuốn Clean Code của Uncle Bob - Viblo: https://viblo.asia/p/tom-tat-cuon-clean-code-cua-uncle-bob-6J3Zg07MlmB
-  - [[Clean Code Notes]]
+  - [Clean Code Notes](/Technology/System-Design/Concepts/Clean Code Notes)
   - Clean Code in Typescript: https://github.com/labs42io/clean-code-typescript
-- - [[0d9a0b1c-2e3f-4a56-b7c8-d9e0f1a2345b.pdf]]
+- - [0d9a0b1c-2e3f-4a56-b7c8-d9e0f1a2345b.pdf](/Attachments/0d9a0b1c-2e3f-4a56-b7c8-d9e0f1a2345b.pdf)
 
 ### 2.4.2. Design Patterns
 
@@ -243,11 +250,11 @@ Các mẫu thiết kế là các giải pháp đã được kiểm chứng cho c
 
 ## 2.5. Ví dụ về Tech Stacks
 
-![[6d5a6b7c-8e9f-0a12-b3c4-d5e6f7a8901b.jpg]]
+![](/Attachments/6d5a6b7c-8e9f-0a12-b3c4-d5e6f7a8901b.jpg)
 
 ## 2.6. Mẹo
 
 - Tách utils ra submodule: Sử dụng Git Submodule để quản lý các thư viện dùng chung, module tiện ích dưới dạng các dự án riêng biệt, giúp tái sử dụng code và quản lý phiên bản dễ dàng hơn.
   - Tham khảo: https://topdev.vn/blog/git-submodules-va-ung-dung-trong-viec-chia-se-tai-nguyen-dung-chung/#:~:text=Git%20Submodule%20l%C3%A0%20m%E1%BB%99t%20t%C3%ADnh,kho%20l%C6%B0u%20tr%E1%BB%AF%20Git%20kh%C3%A1c.
 
-> **Xem thêm:** [[Solutions System Designs Design Patterns|Tổng hợp System Design & Design Patterns]]
+> **Xem thêm:** [Tổng hợp System Design & Design Patterns](/Technology/System-Design/Practices/Solutions System Designs Design Patterns)

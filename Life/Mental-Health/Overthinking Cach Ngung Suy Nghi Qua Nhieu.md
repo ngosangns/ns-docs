@@ -2,6 +2,12 @@
 area: life
 domain: life-skills
 type: resource
+title: Overthinking Cach Ngung Suy Nghi Qua Nhieu
+description: Suy nghĩ là nền tảng của sự tồn tại và phát triển của con người.
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - life
+  - life-skills
 ---
 Suy nghĩ là nền tảng của sự tồn tại và phát triển của con người. Từ câu nói nổi tiếng của một triết gia, nhà khoa học người Pháp René Descartes "Tôi suy nghĩ, nên tôi tồn tại", chúng ta có thể thấy rằng suy nghĩ là một đặc trưng riêng biệt của con người, phân biệt chúng ta với các loài vật khác. Qua các quá trình như ghi nhớ, lý luận và tưởng tượng, suy nghĩ đã tạo ra những đột phá vĩ đại, giúp chúng ta xây dựng nên một thế giới văn minh như ngày nay. Tuy nhiên, bên cạnh những suy nghĩ tích cực và hữu ích, "overthinking" - suy nghĩ quá nhiều - lại là một vấn đề đáng quan tâm, có thể gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống.
 

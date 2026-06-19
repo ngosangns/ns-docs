@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Federated Identity Pattern
+description: Mẫu thiết kế Federated Identity (Danh tính liên kết)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/federated-identity
 ---
 # Mẫu thiết kế Federated Identity (Danh tính liên kết)
 

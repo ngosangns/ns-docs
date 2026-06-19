@@ -1,3 +1,11 @@
+---
+type: Note
+title: Source Code Indexing Comparison
+description: Đánh giá khả năng Index & Search Source Code
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+---
 # Đánh giá khả năng Index & Search Source Code
 
 ## Kết luận quan trọng

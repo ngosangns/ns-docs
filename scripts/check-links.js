@@ -1,131 +1,95 @@
 #!/usr/bin/env node
 
-const fs = require("fs")
+// check-links: report internal links that do not resolve to a Concept.
+//
+// See .kiro/specs/okf-redesign/requirements.md Requirements 11.6 and 11.7.
+// The script resolves links THROUGH okf-core (no bespoke parsing), supporting
+// both historical wikilinks `[[target]]` and Bundle_Relative_Link / relative
+// `.md` markdown links `[label](target)` via `resolveTarget`. A link that does
+// not resolve to exactly one Concept is reported as a `warning`; the process
+// always exits 0 — broken links never fail the check (Requirement 11.7).
+//
+// Robustness: reads the bundle through okf-core's `loadBundle`, which tries the
+// strict walk first and transparently falls back to a per-file-tolerant walk
+// when a file has unparseable YAML, so one bad file never crashes the check.
+// The link regexes and `isInternalMarkdownTarget` classifier are shared with
+// okf-migrate via okf-core/links.
+
 const path = require("path")
 
-const WORKSPACE_ROOT = __dirname + "/.."
-const IGNORE_DIRS = ["Attachments", "node_modules", ".git"]
+const { loadBundle, resolveTarget } = require("./okf-core")
+const {
+  isInternalMarkdownTarget,
+  wikilinkRegex,
+  markdownLinkRegex
+} = require("./okf-core/links")
+
+const WORKSPACE_ROOT = path.join(__dirname, "..")
 const BROKEN_ONLY = process.argv.includes("--broken")
 
-function getAllMarkdownFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir)
+// collectLinks(body) -> string[]
+// Extracts every internal link to resolve from a Concept body: all wikilinks
+// (alias/anchor stripping is handled by resolveTarget) and every internal
+// markdown link target. External links, images/embeds and pure anchors are
+// excluded.
+function collectLinks(body) {
+  const source = typeof body === "string" ? body : ""
+  const links = []
 
-  files.forEach(file => {
-    const filePath = path.join(dir, file)
-    const stat = fs.statSync(filePath)
-
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.includes(file)) {
-        getAllMarkdownFiles(filePath, fileList)
-      }
-    } else if (file.endsWith(".md")) {
-      fileList.push(filePath)
+  const wikiRe = wikilinkRegex()
+  let match
+  while ((match = wikiRe.exec(source)) !== null) {
+    const inner = match[1].trim()
+    if (inner !== "") {
+      links.push(inner)
     }
-  })
+  }
 
-  return fileList
-}
-
-function getAllFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir)
-
-  files.forEach(file => {
-    const filePath = path.join(dir, file)
-    const stat = fs.statSync(filePath)
-
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.includes(file)) {
-        getAllFiles(filePath, fileList)
-      } else if (file === "Attachments") {
-        getAllFiles(filePath, fileList)
-      }
-    } else {
-      fileList.push(filePath)
+  const mdRe = markdownLinkRegex()
+  while ((match = mdRe.exec(source)) !== null) {
+    const target = match[2]
+    if (isInternalMarkdownTarget(target)) {
+      links.push(target.trim())
     }
-  })
-
-  return fileList
-}
-
-function getAllFileNames() {
-  const allFiles = getAllFiles(WORKSPACE_ROOT)
-  const fileNames = new Set()
-
-  allFiles.forEach(file => {
-    const fileName = path.basename(file)
-    const fileNameWithoutExt = path.basename(file, path.extname(file))
-    fileNames.add(fileName.toLowerCase())
-    fileNames.add(fileNameWithoutExt.toLowerCase())
-  })
-
-  return fileNames
-}
-
-function findNoteFile(linkName) {
-  const fileNames = getAllFileNames()
-  const linkNameLower = linkName.toLowerCase()
-  
-  if (fileNames.has(linkNameLower)) {
-    return true
   }
 
-  const linkNameWithoutPath = path.basename(linkName).toLowerCase()
-  if (fileNames.has(linkNameWithoutPath)) {
-    return true
-  }
-
-  const linkNameWithoutExt = path.basename(linkName, path.extname(linkName)).toLowerCase()
-  if (fileNames.has(linkNameWithoutExt)) {
-    return true
-  }
-
-  return false
+  return links
 }
 
 function checkLinks() {
-  console.log("🔍 Checking links in workspace...\n")
+  console.log("🔍 Checking links via okf-core...\n")
 
-  const mdFiles = getAllMarkdownFiles(WORKSPACE_ROOT)
+  const { concepts, index, degraded } = loadBundle(WORKSPACE_ROOT)
+  if (degraded) {
+    console.warn(
+      "⚠️  A file has unparseable frontmatter; checking the parseable files only.\n"
+    )
+  }
   const brokenLinks = []
   let totalLinks = 0
   let validLinks = 0
 
-  mdFiles.forEach(file => {
-    const content = fs.readFileSync(file, "utf8")
-    const relativePath = path.relative(WORKSPACE_ROOT, file)
-    const linkRegex = /\[\[([^\]#]+)(?:#([^\]]+))?\]\]/g
-    let match
-
-    while ((match = linkRegex.exec(content)) !== null) {
+  for (const concept of concepts) {
+    const links = collectLinks(concept.body)
+    for (const target of links) {
       totalLinks++
-      const linkName = match[1].trim()
-      const anchor = match[2]
-
-      if (linkName === "") continue
-
-      const fileExists = findNoteFile(linkName)
-
-      if (!fileExists) {
-        brokenLinks.push({
-          file: relativePath,
-          link: linkName,
-          anchor: anchor || null
-        })
-      } else {
+      const resolved = resolveTarget(target, concept.id, index)
+      if (resolved) {
         validLinks++
+      } else {
+        brokenLinks.push({ file: concept.relPath, link: target })
       }
     }
-  })
+  }
 
   if (BROKEN_ONLY) {
     if (brokenLinks.length === 0) {
       console.log("✅ No broken links found!")
     } else {
-      console.log(`❌ Found ${brokenLinks.length} broken links:\n`)
-      brokenLinks.forEach(({ file, link, anchor }) => {
-        const anchorStr = anchor ? `#${anchor}` : ""
+      console.log(`⚠️  Found ${brokenLinks.length} broken links (warnings):\n`)
+      brokenLinks.forEach(({ file, link }) => {
         console.log(`   ${file}`)
-        console.log(`   → [[${link}${anchorStr}]]`)
+        console.log(`   → ${link}`)
         console.log("")
       })
     }
@@ -134,22 +98,25 @@ function checkLinks() {
     console.log("🔗 LINK CHECK RESULTS")
     console.log("=".repeat(60))
     console.log(`\n📊 Summary:`)
+    console.log(`   Concepts scanned: ${concepts.length}`)
     console.log(`   Total links: ${totalLinks}`)
     console.log(`   Valid links: ${validLinks}`)
     console.log(`   Broken links: ${brokenLinks.length}`)
 
     if (brokenLinks.length > 0) {
-      console.log(`\n❌ Broken links:`)
-      brokenLinks.forEach(({ file, link, anchor }) => {
-        const anchorStr = anchor ? `#${anchor}` : ""
-        console.log(`   ${file} → [[${link}${anchorStr}]]`)
+      console.log(`\n⚠️  Broken links (warnings):`)
+      brokenLinks.forEach(({ file, link }) => {
+        console.log(`   WARNING ${file} → ${link}`)
       })
     } else {
       console.log(`\n✅ All links are valid!`)
     }
     console.log("\n" + "=".repeat(60))
   }
+
+  // Requirement 11.7: broken links are warnings, never failures. Exit 0 even
+  // when broken links exist.
+  process.exit(0)
 }
 
 checkLinks()
-

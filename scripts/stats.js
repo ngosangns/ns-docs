@@ -1,61 +1,44 @@
 #!/usr/bin/env node
 
+// Workspace statistics, sourced from the okf-core bundle model
+// (Requirement 11.8). Counts/links/tags are derived from okf-core Concepts
+// (`concept.data` and `concept.body`) rather than ad-hoc frontmatter regexes.
+// Note: reserved files (index.md/log.md) are not Concepts in the OKF model, so
+// stats reflect Concepts only.
+//
+// Robustness: reads the bundle through okf-core's `loadBundle`, which falls
+// back to a per-file-tolerant walk when a file has unparseable YAML.
+
 const fs = require("fs")
 const path = require("path")
+const { loadBundle } = require("./okf-core")
 
-const WORKSPACE_ROOT = __dirname + "/.."
-const IGNORE_DIRS = ["Attachments", "node_modules", ".git"]
+const WORKSPACE_ROOT = path.join(__dirname, "..")
 
-function getAllMarkdownFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir)
-
-  files.forEach(file => {
-    const filePath = path.join(dir, file)
-    const stat = fs.statSync(filePath)
-
-    if (stat.isDirectory()) {
-      if (!IGNORE_DIRS.includes(file)) {
-        getAllMarkdownFiles(filePath, fileList)
-      }
-    } else if (file.endsWith(".md")) {
-      fileList.push(filePath)
-    }
-  })
-
-  return fileList
-}
-
-function extractLinks(content) {
+function extractLinks(body) {
   const linkRegex = /\[\[([^\]]+)\]\]/g
   const links = []
   let match
-  while ((match = linkRegex.exec(content)) !== null) {
+  while ((match = linkRegex.exec(body)) !== null) {
     links.push(match[1])
   }
   return links
 }
 
-function extractTags(content) {
-  const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/)
-  if (!frontmatterMatch) return []
-
-  const frontmatter = frontmatterMatch[1]
-  const tagRegex = /tags:\s*\n((?:\s*-\s*[^\n]+\n?)+)/
-  const tagMatch = frontmatter.match(tagRegex)
-  if (!tagMatch) return []
-
-  const tags = []
-  const tagLines = tagMatch[1].match(/-\s*([^\n]+)/g) || []
-  tagLines.forEach(line => {
-    const tag = line.replace(/^-\s*/, "").trim()
-    tags.push(tag)
-  })
-  return tags
-}
-
-function getFileSize(filePath) {
-  const stats = fs.statSync(filePath)
-  return stats.size
+// normalizeTags(value) -> string[]
+// Reads tags from the parsed frontmatter (`concept.data.tags`). Accepts a YAML
+// list (array) or a single scalar; anything else yields no tags.
+function normalizeTags(value) {
+  if (Array.isArray(value)) {
+    return value
+      .filter(tag => tag !== null && tag !== undefined)
+      .map(tag => String(tag).trim())
+      .filter(tag => tag.length > 0)
+  }
+  if (typeof value === "string" && value.trim().length > 0) {
+    return [value.trim()]
+  }
+  return []
 }
 
 function formatBytes(bytes) {
@@ -69,7 +52,7 @@ function formatBytes(bytes) {
 function calculateStats() {
   console.log("📊 Calculating workspace statistics...\n")
 
-  const mdFiles = getAllMarkdownFiles(WORKSPACE_ROOT)
+  const concepts = loadBundle(WORKSPACE_ROOT).concepts
   let totalLinks = 0
   let totalTags = 0
   let totalSize = 0
@@ -79,28 +62,28 @@ function calculateStats() {
   const allLinks = new Set()
   const dirStats = {}
 
-  mdFiles.forEach(file => {
-    const content = fs.readFileSync(file, "utf8")
-    const relativePath = path.relative(WORKSPACE_ROOT, file)
+  concepts.forEach(concept => {
+    const relativePath = concept.relPath
     const dir = path.dirname(relativePath)
+    const size = fs.statSync(concept.absPath).size
 
     if (!dirStats[dir]) {
       dirStats[dir] = { files: 0, size: 0 }
     }
     dirStats[dir].files++
-    dirStats[dir].size += getFileSize(file)
+    dirStats[dir].size += size
 
-    totalSize += getFileSize(file)
+    totalSize += size
 
-    const links = extractLinks(content)
+    const links = extractLinks(concept.body)
     totalLinks += links.length
     links.forEach(link => allLinks.add(link))
 
-    const tags = extractTags(content)
+    const tags = normalizeTags(concept.data.tags)
     totalTags += tags.length
     tags.forEach(tag => allTags.add(tag))
 
-    if (content.match(/^---\n[\s\S]*?---/)) {
+    if (concept.hadFrontmatter) {
       filesWithFrontmatter++
     } else {
       filesWithoutFrontmatter++
@@ -111,7 +94,7 @@ function calculateStats() {
   console.log("📈 WORKSPACE STATISTICS")
   console.log("=".repeat(60))
   console.log(`\n📄 Files:`)
-  console.log(`   Total markdown files: ${mdFiles.length}`)
+  console.log(`   Total concepts: ${concepts.length}`)
   console.log(`   Files with frontmatter: ${filesWithFrontmatter}`)
   console.log(`   Files without frontmatter: ${filesWithoutFrontmatter}`)
   console.log(`\n🔗 Links:`)
@@ -135,4 +118,3 @@ function calculateStats() {
 }
 
 calculateStats()
-

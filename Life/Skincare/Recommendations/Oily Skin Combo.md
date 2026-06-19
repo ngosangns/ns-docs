@@ -2,6 +2,12 @@
 area: life
 domain: skincare
 type: resource
+title: Oily Skin Combo
+description: Combo dành cho da dầu, hỗn hợp thiên dầu
+timestamp: '2026-06-19T13:43:26.170Z'
+tags:
+  - life
+  - skincare
 ---
 # Combo dành cho da dầu, hỗn hợp thiên dầu
 

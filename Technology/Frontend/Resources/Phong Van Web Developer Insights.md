@@ -3,6 +3,14 @@ area: technology
 domain: frontend
 topic: javascript
 type: resource
+title: Phong Van Web Developer Insights
+description: Phỏng vấn Web Developer - Insights
+timestamp: '2026-06-19T13:43:26.144Z'
+tags:
+  - technology
+  - frontend
+  - javascript
+resource: https://davidwalsh.name/pornhub-interview
 ---
 # Phỏng vấn Web Developer - Insights
 

@@ -3,6 +3,14 @@ area: technology
 domain: frontend
 topic: react
 type: resource
+title: React Next
+description: React - Next.js
+timestamp: '2026-06-19T13:43:26.142Z'
+tags:
+  - technology
+  - frontend
+  - react
+resource: https://www.retroui.dev/
 ---
 # React - Next.js
 
@@ -64,7 +72,7 @@ type: resource
 
 ## Docker & Deployment
 
-- **Dockerfile Optimization Techniques**: Phân tích chi tiết 5 kỹ thuật tối ưu Dockerfile cho React SPA (BusyBox httpd, Distroless Nginx, Scratch Nginx, Go FastHTTP, Alpine Nginx) - [[./Dockerfile Optimization Techniques]]
+- **Dockerfile Optimization Techniques**: Phân tích chi tiết 5 kỹ thuật tối ưu Dockerfile cho React SPA (BusyBox httpd, Distroless Nginx, Scratch Nginx, Go FastHTTP, Alpine Nginx) - [Dockerfile Optimization Techniques](/Technology/Frontend/Tools/React/Dockerfile Optimization Techniques)
 
 ## Design Systems
 

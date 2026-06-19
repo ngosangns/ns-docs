@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Event Sourcing Pattern
+description: Mẫu thiết kế Event Sourcing (Nguồn sự kiện)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
 ---
 # Mẫu thiết kế Event Sourcing (Nguồn sự kiện)
 

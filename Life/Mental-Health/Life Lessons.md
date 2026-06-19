@@ -2,6 +2,12 @@
 area: life
 domain: life-skills
 type: resource
+title: Life Lessons
+description: THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - life
+  - life-skills
 ---
 ## 40 THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH
 

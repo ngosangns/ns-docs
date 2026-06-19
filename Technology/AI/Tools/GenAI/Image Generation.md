@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Image Generation
+description: Image Generation
+timestamp: '2026-06-19T13:43:26.162Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://stockimg.ai
 ---
 # Image Generation
 
@@ -81,8 +88,8 @@ You are conducting an interview for a [Role/Job Title] role. I want you to ask m
 
 ### 2. Stable Diffusion Visuals
 #### 2.1. Control the camera
-![[2c1f2a3b-4c5d-6e7f-8091-a2b3c4d5e6f7.png]]
-![[1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png]]
+![](/Attachments/2c1f2a3b-4c5d-6e7f-8091-a2b3c4d5e6f7.png)
+![](/Attachments/1a2b3c4d-5e6f-7081-92a3-b4c5d6e7f809.png)
 
 #### 2.2. Prompt Example
 (masterpiece, top quality, best quality, official art, beautiful and aesthetic:1.3), (1girl:1.4), full body pose, 8k, extremely detailed, detailed background, Korean top model, standing, highest detailed, nsfw, depth of field, close up, lora:ClothingAdjuster3:0.9, (loli:1.5), denim short, nipples

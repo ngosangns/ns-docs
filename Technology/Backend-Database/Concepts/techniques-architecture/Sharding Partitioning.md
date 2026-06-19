@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Sharding Partitioning
+description: Sharding và Partitioning
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://viblo.asia/p/database-sharding-la-gi-Az45boQVKxY
 ---
 # Sharding và Partitioning
 

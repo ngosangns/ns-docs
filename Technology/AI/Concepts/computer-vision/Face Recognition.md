@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Face Recognition
+description: Face Recognition
+timestamp: '2026-06-19T13:43:26.167Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekognition-de-xay-dung-api-tim-kiem-khuon-mat-bang-hinh-anh-yZjJY96XJOE
 ---
 # Face Recognition
 

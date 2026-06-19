@@ -1,160 +1,159 @@
-# Markdown Workspace Broken Links Checker
+# Knowledge Base Tooling (`scripts/`)
 
-A Python script to check for broken internal wiki-style links in a Markdown workspace.
+Node.js tooling that treats this vault as an **Open Knowledge Format (OKF) v0.1 Knowledge Bundle**. Every non-reserved markdown file is a **Concept** (frontmatter + body, `type` required); `index.md` files provide per-directory navigation; `log.md` records change history; and internal cross-links are normalized to bundle-relative form (`/Concept_Id`).
 
-## Features
+All tools share a single core library, **`okf-core/`**, so parsing, traversal, link resolution and indexing behave identically everywhere.
 
-- ✅ Scans all markdown files for wiki-style links such as `double-bracket links`
-- ✅ Ignores non-markdown files (images, PDFs, etc.)
-- ✅ Supports path-based links
-- ✅ Suggests similar files for broken links
-- ✅ Multiple output formats: text, JSON, markdown
-- ✅ Optional auto-fix mode
+## Requirements
 
-## Installation
+- Node.js (uses the built-in `node:test` runner)
+- Dependencies: `js-yaml` (frontmatter), `fast-check` (property-based tests, dev)
 
-No external dependencies required. Uses only Python standard library.
+Install with `npm install`.
 
-## Usage
+## Concepts and terminology
 
-### Basic check
+- **Concept** — a non-reserved `.md` file: `{ id, absPath, relPath, data, body, hadFrontmatter }`.
+- **Concept_Id** — bundle-relative path, `/` separators, no `.md`, no leading `/` (e.g. `English/Grammar/Passive Voice`).
+- **Reserved_File** — `index.md` or `log.md` (not a Concept).
+- **Bundle_Relative_Link** — internal link beginning with `/`, referencing a Concept by id.
+- **Diagnostic** — `{ file, level: "error" | "warning", rule, message }`.
 
-```bash
-python scripts/check_broken_links.py
-```
+---
 
-### Check specific workspace path
+## `okf-core/` — shared core library
 
-```bash
-python scripts/check_broken_links.py --root-path /path/to/your/workspace
-```
+`require("./okf-core")` exposes the full public surface:
 
-### Generate markdown report
+| Export | Purpose |
+| --- | --- |
+| `walkBundle(root)` | Strict walk → `{ root, concepts, indexFiles, logFiles, attachments, index }`. Throws on unparseable YAML. |
+| `walkBundleTolerant(root)` | Per-file-tolerant walk → `{ root, concepts, reservedFiles }`; bad files flagged `parseError: true`. |
+| `loadBundle(root)` | Convenience: strict walk, falling back to tolerant → `{ concepts, index, degraded }`. |
+| `parseConcept(absPath, root)` | Read + parse a single Concept. |
+| `parseFrontmatter(raw)` | `{ data, body, hadFrontmatter }`; throws on invalid YAML; preserves unknown keys. |
+| `serializeConcept(concept)` | Inverse of parse; round-trips frontmatter + body. |
+| `conceptIdOf(absPath, root)` | Derive a Concept_Id (pure, idempotent). |
+| `isReservedFile(relPath)` | True for `index.md` / `log.md` (case-insensitive). |
+| `conceptKeys` / `addToIndex` / `buildIndex` | Multi-key Concept lookup index used for link resolution. |
+| `normalizeLink(raw, sourceId, index)` | Normalize a link to a Bundle_Relative_Link, or `null`. |
+| `resolveTarget(raw, sourceId, index)` | Resolve a link to a Concept, or `null`. |
+| `toPosix` / `relPathOf` / `isIgnoredPath` / `isMarkdown` | Path helpers. |
 
-```bash
-python scripts/check_broken_links.py --output markdown > broken_links_report.md
-```
+Internal modules: `constants.js` (`RESERVED_FILES`, `OKF_KEYS`, `IGNORED_PATHS`, `TYPE_RULES`), `paths.js`, `id.js`, `frontmatter.js`, `walk.js`, `links.js`.
 
-### Auto-fix broken links
+Traversal excludes `IGNORED_PATHS`: `.git`, `node_modules`, `.wrangler`, `web/dist`.
 
-```bash
-python scripts/check_broken_links.py --fix
-```
-
-### JSON output (for CI/CD)
-
-```bash
-python scripts/check_broken_links.py --output json
-```
-
-## Command Line Options
-
-| Option             | Description                               | Default           |
-| ------------------ | ----------------------------------------- | ----------------- |
-| `--root-path PATH` | Path to Markdown workspace                | Current directory |
-| `--fix`            | Attempt to fix broken links automatically | False             |
-| `--output FORMAT`  | Output format: text, json, markdown       | text              |
-| `--verbose`        | Show detailed information                 | False             |
-| `--help`           | Show help message                         | -                 |
-
-## Exit Codes
-
-- `0`: No broken links found
-- `1`: Broken links found (useful for CI/CD pipelines)
-
-## How It Works
-
-1. **Build Index**: Scans all `.md` files and builds an index by:
-   - Filename (lowercase)
-   - Slugified filename (kebab-case)
-   - Full relative path (lowercase)
-   - Full relative path slug
-
-2. **Parse Links**: Extracts double-bracket wiki links from each file, ignoring:
-   - Heading anchors
-   - Non-markdown files (images, PDFs, etc.)
-
-3. **Check Existence**: For each link, checks if the file exists by:
-   - Exact filename match
-   - Case-insensitive match
-   - Slugified match
-   - Full path match
-
-4. **Suggest Fixes**: For broken links, suggests similar files based on:
-   - String similarity (60% threshold)
-   - Slug comparison
-
-## Output Examples
-
-### Text Output
-
-```
-🚨 Found 3 broken links:
-
-📄 folder/note.md
-   Line 10: double-bracket broken-link
-   Suggestion: folder/broken-link.md
-```
-
-### Markdown Report
-
-```markdown
-# Broken Links Report
-
-**Scan Date:** 2026-04-13 12:00:00
-
-## Summary
-
-- Files checked: 302
-- Total links: 78
-- Broken links: 3
-
-## Broken Links
-
-### folder/note.md
-
-- Line 10: `double-bracket broken-link`
-  - Suggestion: `folder/broken-link.md`
-```
-
-### JSON Output
-
-```json
-{
-  "scan_date": "2026-04-13T12:00:00",
-  "root_path": "/path/to/workspace",
-  "summary": {
-    "files_checked": 302,
-    "total_links": 78,
-    "broken_links": 3
-  },
-  "broken_links": [
-    {
-      "file": "folder/note.md",
-      "line": 10,
-      "link": "broken-link",
-      "suggestion": "folder/broken-link.md",
-      "type": "wiki"
-    }
-  ]
+```js
+const okf = require("./scripts/okf-core")
+const { concepts } = okf.loadBundle(process.cwd())
+for (const c of concepts) {
+  if (!c.data.type) console.log("Missing type:", c.relPath)
 }
 ```
 
-## Integration with Git Hooks
+---
 
-You can add this to your pre-commit hook to prevent commits with broken links:
+## OKF CLI tools
+
+### `okf-migrate.js` — migrate the vault to OKF
+
+Non-destructive and idempotent. Infers missing `type`, fills recommended fields, and rewrites cross-links to bundle-relative form.
 
 ```bash
-#!/bin/bash
-# .git/hooks/pre-commit
-
-python scripts/check_broken_links.py --output json
-if [ $? -ne 0 ]; then
-    echo "❌ Broken links found! Please fix them before committing."
-    exit 1
-fi
+node scripts/okf-migrate.js [rootDir] [--dry-run] [--apply] \
+  [--only=frontmatter|links] [--backup] [--report-broken]
 ```
 
-## License
+- `--dry-run` (default) previews without writing; `--apply` writes changes.
+- `--backup` (apply only) snapshots before writing; aborts if the backup fails.
+- `--only=frontmatter|links` restricts the change type.
+- `--report-broken` lists unresolved links (`sourceId → target`).
+- Broken links are tolerated (warnings), never failures. Runs a conformance check on completion.
 
-MIT License - Feel free to use and modify as needed.
+### `okf-conformance.js` — verify OKF v0.1 conformance
+
+```bash
+node scripts/okf-conformance.js [rootDir] [--json] [--strict]
+# npm: conformance:check, conformance:strict
+```
+
+- Emits Diagnostics. `conformant` is true iff there are no `error`-level diagnostics.
+- `--json` prints the full `ConformanceReport`.
+- Exit code is non-zero when any `error` exists; `--strict` also fails on warnings.
+- Rules: `type-required` (error), `frontmatter-parse` (error), `recommended-field-missing` (warning), `timestamp-format` (warning), `tags-format` (warning), `index-no-frontmatter` (error), `index-root-frontmatter` (error).
+
+### `okf-index.js` — generate `index.md` navigation
+
+```bash
+node scripts/okf-index.js [rootDir] [--dry-run] [--apply]
+```
+
+- Root `index.md` carries only `okf_version: "0.1"`; non-root index files have no frontmatter.
+- Bullets: `* [Title](relative-url) - description` (description omitted when empty).
+- Never overwrites an `index.md` that is hand-authored as a Concept (warns instead).
+
+### `okf-log.js` — maintain `log.md` (newest-first)
+
+```bash
+node scripts/okf-log.js add --kind=Update|Creation|Deprecation --message="..." [logPath]
+```
+
+- Entries live under `## YYYY-MM-DD` UTC headings, newest first.
+- Invalid `--kind` is rejected and the log is left unchanged; writes are atomic with rollback on failure.
+
+---
+
+## Maintenance scripts
+
+All read through `okf-core`, so they share one parse/link model.
+
+| Script | npm alias | Purpose |
+| --- | --- | --- |
+| `check-links.js` | `links:check`, `links:broken` | Report unresolved internal links as warnings. Always exits 0. `--broken` lists only broken links. |
+| `validate-frontmatter.js` | `frontmatter:validate`, `frontmatter:missing` | Delegates to conformance. Missing `type` → error; missing `tags` → warning. `--missing` lists files missing required frontmatter. |
+| `generate-index.js` | `index:generate` | Delegates to `okf-index` (dry-run by default; `--apply` to write). |
+| `find-orphaned.js` | `notes:orphaned` | List Concepts not linked from anywhere. |
+| `stats.js` | `stats` | Counts: concepts, frontmatter, links, tags, size by directory. |
+| `tags-stats.js` | `tags:stats`, `tags:list` | Tag frequency and breakdown from frontmatter `tags`. |
+| `find-duplicates.js` | `duplicates:find` | Detect duplicate content. |
+| `find-unused-attachments.js` | `attachments:unused`, `attachments:clean` | Find (and optionally remove) unreferenced attachments. |
+| `check-images.js` | `images:check`, `images:broken` | Validate image references. |
+| `backup.js` | `backup` | Snapshot the workspace (used by `okf-migrate --backup`). |
+| `export.js` | `export` | Export the vault. |
+
+## Web preview
+
+| Script | npm alias | Purpose |
+| --- | --- | --- |
+| `build-preview-data.js` | `web:data` | Build `web/dist/data/preview.json`. Doc nodes come 1:1 from non-reserved Concepts (Concept_Id as node id); links resolve via `okf-core`; unresolved links are skipped, not fatal. |
+| `build-preview-web.js` | `web:build` | Build the preview web app. |
+| — | `web:serve`, `web:watch`, `web:deploy` | Serve / watch / deploy the preview. |
+
+## Testing
+
+```bash
+npm test    # node --test scripts/__tests__/**/*.test.js
+```
+
+The suite covers unit tests, integration tests (migrate → conformance, preview node count), and one property-based test (`fast-check`, ≥100 iterations) per Correctness Property:
+
+1. Type guaranteed after migrate
+2. Unknown keys preserved
+3. Frontmatter round-trip
+4. Migrate idempotency
+5. Internal links become bundle-relative
+6. Broken links tolerated
+7. Reserved files carry no frontmatter (except root `okf_version`)
+8. Log headings stay newest-first
+9. Conformance implies non-empty `type`
+
+## CI integration
+
+Use conformance as a gate:
+
+```bash
+node scripts/okf-conformance.js --json   # non-zero exit on any error
+```
+
+`check-links` reports broken links as warnings and always exits 0, so it never blocks CI on its own.

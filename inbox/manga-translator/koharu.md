@@ -1,3 +1,12 @@
+---
+type: Note
+title: Koharu
+description: Koharu - ML-Powered Manga Translator viết bằng Rust
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/mayocream/koharu
+---
 # Koharu - ML-Powered Manga Translator viết bằng Rust
 
 ## Định nghĩa

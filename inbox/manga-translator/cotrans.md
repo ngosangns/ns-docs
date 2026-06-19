@@ -1,3 +1,12 @@
+---
+type: Note
+title: Cotrans
+description: Cotrans - Collaborative Online Manga Translation Platform
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/VoileLabs/cotrans
+---
 # Cotrans - Collaborative Online Manga Translation Platform
 
 ## Định nghĩa

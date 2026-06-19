@@ -3,6 +3,13 @@ area: projects
 domain: life-skills
 type: note
 status: idea
+title: Tent Making
+description: Làm lều
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - projects
+  - life-skills
+  - idea
 ---
 # Làm lều
 

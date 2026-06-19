@@ -2,6 +2,13 @@
 area: technology
 domain: algorithms
 type: resource
+title: Segment Tree
+description: Cây phân đoạn (Segment Tree)
+timestamp: '2026-06-19T13:43:26.161Z'
+tags:
+  - technology
+  - algorithms
+resource: https://vnoi.info/wiki/algo/data-structures/segment-tree-basic.md
 ---
 # Cây phân đoạn (Segment Tree)
 

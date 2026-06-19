@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: resource
+title: Can Bang Giua PL Va Chat Luong Du An
+description: Bối Cảnh Thực Tế & Mục Tiêu
+timestamp: '2026-06-19T13:43:26.102Z'
+tags:
+  - technology
+  - system-design
 ---
 # 1. Bối Cảnh Thực Tế & Mục Tiêu
 

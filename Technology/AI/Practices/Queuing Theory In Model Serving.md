@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: mlops
 type: case-study
+title: Queuing Theory In Model Serving
+description: Queuing Theory trong Model Serving - Debug Latency
+timestamp: '2026-06-19T13:43:26.165Z'
+tags:
+  - technology
+  - ai-ml
+  - mlops
+resource: https://en.wikipedia.org/wiki/Queueing_theory
 ---
 # Queuing Theory trong Model Serving - Debug Latency
 

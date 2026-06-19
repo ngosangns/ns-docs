@@ -2,11 +2,17 @@
 area: technology
 domain: backend
 type: resource
+title: Distributed Cache Tong Quan Va Kien Truc
+description: 'Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices'
+timestamp: '2026-06-19T13:43:26.150Z'
+tags:
+  - technology
+  - backend
 ---
 
 # Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 
-> **Xem thêm:** [[Distributed In Memory Cache Best Practices|Distributed In-Memory Cache Best Practices]]
+> **Xem thêm:** [Distributed In-Memory Cache Best Practices](/Technology/Backend-Database/Practices/Distributed In Memory Cache Best Practices)
 
 ## 1. Tổng quan bài toán
 

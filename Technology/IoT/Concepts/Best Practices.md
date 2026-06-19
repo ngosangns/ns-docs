@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Best Practices
+description: Best Practices cho IoT Development
+timestamp: '2026-06-19T13:43:26.133Z'
+tags:
+  - technology
+  - iot
 ---
 # Best Practices cho IoT Development
 
@@ -18,7 +24,7 @@ type: resource
 - **Power management**: Sleep modes, wake-on-event
 - **Data compression**: Giảm bandwidth usage
 - **Caching**: Cache data tại edge để giảm cloud calls
-- **Debouncing**: Xử lý duplicate events (như trong [[Technology/IoT/Concepts/Smart Home]])
+- **Debouncing**: Xử lý duplicate events (như trong [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ## Monitoring và Debugging
 

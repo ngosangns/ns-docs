@@ -3,6 +3,13 @@ area: technology
 domain: career
 topic: interview
 type: resource
+title: Fresher Back End Interview
+description: Fresher Back-end Interview
+timestamp: '2026-06-19T13:43:26.147Z'
+tags:
+  - technology
+  - career
+  - interview
 ---
 # Fresher Back-end Interview
 

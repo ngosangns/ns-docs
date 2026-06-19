@@ -3,6 +3,13 @@ area: technology
 domain: system-design
 topic: search-engine
 type: resource
+title: Search Engine
+description: Tổng quan về Hệ thống Tìm kiếm (Search Engine)
+timestamp: '2026-06-19T13:43:26.109Z'
+tags:
+  - technology
+  - system-design
+  - search-engine
 ---
 # Tổng quan về Hệ thống Tìm kiếm (Search Engine)
 

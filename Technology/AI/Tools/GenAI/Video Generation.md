@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Video Generation
+description: Video Generation
+timestamp: '2026-06-19T13:43:26.162Z'
+tags:
+  - technology
+  - ai-ml
+resource: http://runwayml.com/
 ---
 # Video Generation
 
@@ -58,4 +65,4 @@ type: resource
 
 ### Tài nguyên
 - **Website**: [https://ai.meta.com/vjepa/](https://ai.meta.com/vjepa/)
-- **World Models khác**: [[Code World Model]]
+- **World Models khác**: [Code World Model](/Technology/AI/Practices/Code World Model)

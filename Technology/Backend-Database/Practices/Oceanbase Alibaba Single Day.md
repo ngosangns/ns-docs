@@ -2,6 +2,12 @@
 area: technology
 domain: backend-database
 type: note
+title: Oceanbase Alibaba Single Day
+description: 'Case Study: OceanBase & Alibaba Single Day 11.11'
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend-database
 ---
 # Case Study: OceanBase & Alibaba Single Day 11.11
 

@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Gateway Routing Pattern
+description: Mẫu thiết kế Gateway Routing (Định tuyến tại cổng)
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-routing
 ---
 # Mẫu thiết kế Gateway Routing (Định tuyến tại cổng)
 

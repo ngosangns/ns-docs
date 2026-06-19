@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: CQRS Pattern
+description: Mẫu thiết kế CQRS (Command Query Responsibility Segregation)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs
 ---
 # Mẫu thiết kế CQRS (Command Query Responsibility Segregation)
 

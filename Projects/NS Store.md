@@ -3,6 +3,14 @@ area: projects
 domain: ecommerce
 type: note
 status: idea
+title: NS Store
+description: NS Store
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - projects
+  - ecommerce
+  - idea
+resource: https://burgerprints.com
 ---
 # NS Store
 

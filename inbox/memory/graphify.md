@@ -1,3 +1,12 @@
+---
+type: Note
+title: Graphify
+description: Graphify - AI Coding Assistant Skill for Codebase Understanding
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+resource: https://claude.ai/code
+---
 # Graphify - AI Coding Assistant Skill for Codebase Understanding
 
 ## Định nghĩa

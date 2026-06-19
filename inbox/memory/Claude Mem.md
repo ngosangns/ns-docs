@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claude Mem
+description: Claude-Mem - Persistent Memory Compression for Claude Code
+timestamp: '2026-06-19T13:43:26.087Z'
+tags:
+  - inbox
+resource: http://localhost:37777
+---
 # Claude-Mem - Persistent Memory Compression for Claude Code
 
 ## Định nghĩa

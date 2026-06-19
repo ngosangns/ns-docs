@@ -3,6 +3,13 @@ area: technology
 domain: algorithms
 topic: golang
 type: resource
+title: Computational Geometry
+description: Computational Geometry (Hình học tính toán)
+timestamp: '2026-06-19T13:43:26.159Z'
+tags:
+  - technology
+  - algorithms
+  - golang
 ---
 # Computational Geometry (Hình học tính toán)
 
@@ -14,7 +21,7 @@ Xét một tập điểm trên mặt phẳng tọa độ Oxy, bao lồi của t�
 
 Một cách trực quan, nếu coi mỗi điểm như một chiếc đinh đóng trên tấm gỗ, bao lồi của tập điểm đó sẽ có viền ngoài là một sợi dây sau khi bị kéo căng vào những chiếc đinh ở các phía.
 
-![[8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e.png]]
+![](/Attachments/8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e.png)
 
 ## Các thuật toán tìm bao lồi thông dụng
 

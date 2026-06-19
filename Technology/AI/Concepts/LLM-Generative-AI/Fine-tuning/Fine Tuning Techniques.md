@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: Fine Tuning Techniques
+description: Kỹ thuật fine-tune LLM models
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
+resource: https://docs.h2o.ai/h2o-llmstudio/
 ---
 # Kỹ thuật fine-tune LLM models
 

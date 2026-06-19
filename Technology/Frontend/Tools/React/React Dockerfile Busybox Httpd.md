@@ -3,11 +3,18 @@ area: technology
 domain: frontend
 topic: dockerfile-optimization
 type: resource
+title: React Dockerfile Busybox Httpd
+description: BusyBox httpd với lipanski/docker-static-website
+timestamp: '2026-06-19T13:43:26.140Z'
+tags:
+  - technology
+  - frontend
+  - dockerfile-optimization
 ---
 
 # 1. BusyBox httpd với lipanski/docker-static-website
 
-> **Xem thêm:** [[Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho React]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho React](/Technology/Frontend/Tools/React/Dockerfile Optimization Techniques)
 
 ## Kỹ thuật
 

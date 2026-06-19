@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Agent Frameworks
+description: Agent Frameworks
+timestamp: '2026-06-19T13:43:26.162Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://github.com/exo-explore/exo
 ---
 # Agent Frameworks
 
@@ -67,7 +74,7 @@ type: resource
 ## computer-vision
 
 - **Deep-Live-Cam**: Ứng dụng camera trực tiếp sử dụng công nghệ học sâu để cải thiện chất lượng hình ảnh và cung cấp các tính năng nâng cao - [GitHub](https://github.com/hacksider/Deep-Live-Cam) #computerVision #deepLearning #liveCamera
-- [[Pose Estimation]]: Bài toán ước lượng tư thế trong computer-vision, nhận diện vị trí các khớp và bộ phận cơ thể. Hai giải pháp phổ biến: YOLO-Pose (Ultralytics) và MediaPipe Pose (Google) #poseEstimation #computerVision
+- [Pose Estimation](/Technology/AI/Practices/Pose Estimation): Bài toán ước lượng tư thế trong computer-vision, nhận diện vị trí các khớp và bộ phận cơ thể. Hai giải pháp phổ biến: YOLO-Pose (Ultralytics) và MediaPipe Pose (Google) #poseEstimation #computerVision
 
 ## Machine Learning Libraries
 

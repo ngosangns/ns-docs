@@ -3,6 +3,13 @@ area: technology
 domain: ai-ml
 topic: computer-vision
 type: resource
+title: Pose Estimation
+description: Pose Estimation
+timestamp: '2026-06-19T13:43:26.165Z'
+tags:
+  - technology
+  - ai-ml
+  - computer-vision
 ---
 # Pose Estimation
 

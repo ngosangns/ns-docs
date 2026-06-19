@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Deployment Stamps Pattern
+description: Mẫu thiết kế Deployment Stamps (Tem triển khai)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/deployment-stamp
 ---
 # Mẫu thiết kế Deployment Stamps (Tem triển khai)
 

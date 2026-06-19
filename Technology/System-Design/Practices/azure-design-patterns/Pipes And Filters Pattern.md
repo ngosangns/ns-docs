@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Pipes And Filters Pattern
+description: Pipes And Filters Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-and-filters
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Pipes and Filters Pattern.md#L1-45
 # Pipes and Filters Pattern (Mô hình Đường ống và Bộ lọc)

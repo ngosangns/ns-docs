@@ -1,3 +1,11 @@
+---
+type: Note
+title: Comparison
+description: So sánh 15 Công cụ AI Memory & Knowledge Graph
+timestamp: '2026-06-19T13:43:26.087Z'
+tags:
+  - inbox
+---
 # So sánh 15 Công cụ AI Memory & Knowledge Graph
 
 ## Tổng quan Category

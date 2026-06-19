@@ -3,6 +3,14 @@ area: technology
 domain: devops
 topic: cicd
 type: resource
+title: CI CD Tools
+description: CI/CD Tools
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - cicd
+resource: https://viblo.asia/p/reusable-workflows-tai-su-dung-workflows-trong-github-actions-zOQJwowbJMP
 ---
 # CI/CD Tools
 

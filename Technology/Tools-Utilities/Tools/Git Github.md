@@ -2,10 +2,17 @@
 area: technology
 domain: tools
 type: resource
+title: Git Github
+description: 'Git Workflows: Các mô hình workflow trong Git (Trunk Flow, Forking Flow)'
+timestamp: '2026-06-19T13:43:26.101Z'
+tags:
+  - technology
+  - tools
+resource: https://github.com/jj-vcs/jj
 ---
 # 1. Resources
 
-- [[Git Workflows]]: Các mô hình workflow trong Git (Trunk Flow, Forking Flow)
+- [Git Workflows](/Technology/Tools-Utilities/Practices/Git Workflows): Các mô hình workflow trong Git (Trunk Flow, Forking Flow)
 
 # 2. Tools
 

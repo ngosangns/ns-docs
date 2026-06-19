@@ -2,6 +2,13 @@
 area: technology
 domain: computer-science
 type: resource
+title: Signal Processing Xu Ly Tin Hieu
+description: Signal Processing - Xử lý tín hiệu
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - computer-science
+resource: https://viblo.asia/p/fourier-transform-la-gi-ve-tranh-voi-discrete-fourier-transform-kNLr3deOVgA
 ---
 # Signal Processing - Xử lý tín hiệu
 

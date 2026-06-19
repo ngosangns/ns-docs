@@ -2,6 +2,13 @@
 area: technology
 domain: devops
 type: resource
+title: Kubernetes K8s
+description: 'Top Kubernetes Tools for 2024: https://medium.com/spacelift/26-top-kubernetes-tools-for-2024-6809b2f0d5d4'
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+resource: https://medium.com/spacelift/26-top-kubernetes-tools-for-2024-6809b2f0d5d4
 ---
 # 1. Resources
 

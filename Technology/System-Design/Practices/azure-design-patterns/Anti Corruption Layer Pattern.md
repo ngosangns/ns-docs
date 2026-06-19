@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Anti Corruption Layer Pattern
+description: Mẫu thiết kế Anti-corruption Layer (Lớp chống tham nhũng/Lớp ngăn chặn sự sai lệch)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-corruption-layer
 ---
 # Mẫu thiết kế Anti-corruption Layer (Lớp chống tham nhũng/Lớp ngăn chặn sự sai lệch)
 

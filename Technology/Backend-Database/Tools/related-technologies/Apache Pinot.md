@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Apache Pinot
+description: Apache Pinot
+timestamp: '2026-06-19T13:43:26.148Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://viblo.asia/p/job-counting-bai-toan-hoc-bua-ma-uber-giai-quyet-trong-tich-tac-018J2KDRLYK
 ---
 # Apache Pinot
 

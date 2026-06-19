@@ -1,3 +1,12 @@
+---
+type: Note
+title: Memu
+description: MemU - Memory Framework for 24/7 Proactive AI Agents
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+resource: https://openrouter.ai
+---
 # MemU - Memory Framework for 24/7 Proactive AI Agents
 
 ## Định nghĩa

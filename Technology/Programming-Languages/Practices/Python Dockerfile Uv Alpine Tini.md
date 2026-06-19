@@ -2,9 +2,16 @@
 area: technology
 domain: programming-languages
 type: note
+title: Python Dockerfile Uv Alpine Tini
+description: 'Xem thêm: Dockerfile Optimization Techniques cho Python'
+timestamp: '2026-06-19T13:43:26.131Z'
+tags:
+  - technology
+  - programming-languages
+resource: https://github.com/khiemdoan/
 ---
 
-> **Xem thêm:** [[Python Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho Python]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho Python](/Technology/Programming-Languages/Practices/Python Dockerfile Optimization Techniques)
 
 ## Dockerfile 4: UV + Alpine với Tini
 

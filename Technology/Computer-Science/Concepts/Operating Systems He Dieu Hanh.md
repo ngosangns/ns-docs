@@ -2,6 +2,12 @@
 area: technology
 domain: computer-science
 type: resource
+title: Operating Systems He Dieu Hanh
+description: OS và các cơ chế time slicing và scheduling
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - computer-science
 ---
 # OS và các cơ chế time slicing và scheduling
 

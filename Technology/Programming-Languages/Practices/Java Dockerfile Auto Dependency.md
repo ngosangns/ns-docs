@@ -2,11 +2,18 @@
 area: technology
 domain: programming-languages
 type: note
+title: Java Dockerfile Auto Dependency
+description: Auto-dependency Update với Java Healthcheck
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - programming-languages
+resource: http://localhost:8080/health
 ---
 
 # 2. Auto-dependency Update với Java Healthcheck
 
-> **Xem thêm:** [[Java Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho Java]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho Java](/Technology/Programming-Languages/Practices/Java Dockerfile Optimization Techniques)
 
 ### Kỹ thuật
 

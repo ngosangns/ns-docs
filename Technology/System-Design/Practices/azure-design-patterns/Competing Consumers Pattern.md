@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Competing Consumers Pattern
+description: Mẫu thiết kế Competing Consumers (Người tiêu dùng cạnh tranh)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/competing-consumers
 ---
 # Mẫu thiết kế Competing Consumers (Người tiêu dùng cạnh tranh)
 

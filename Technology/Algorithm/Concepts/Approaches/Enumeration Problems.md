@@ -2,6 +2,12 @@
 area: technology
 domain: algorithms
 type: resource
+title: Enumeration Problems
+description: Bài toán liệt kê
+timestamp: '2026-06-19T13:43:26.161Z'
+tags:
+  - technology
+  - algorithms
 ---
 # Bài toán liệt kê
 

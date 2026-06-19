@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Backends For Frontends Pattern
+description: Mẫu thiết kế Backends for Frontends (BFF)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends
 ---
 # Mẫu thiết kế Backends for Frontends (BFF)
 

@@ -3,6 +3,13 @@ area: technology
 domain: devops
 topic: cost-optimization
 type: usecase
+title: Cost Optimization
+description: DevOps đốt tiền infra – Tập 2
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - cost-optimization
 ---
 # DevOps đốt tiền infra – Tập 2
 

@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Hedged Request
+description: Hedged Request
+timestamp: '2026-06-19T13:43:26.107Z'
+tags:
+  - technology
+  - system-design
+resource: https://quanghoang.substack.com/p/50-days-of-sd-hedged-request
 ---
 # Hedged Request
 

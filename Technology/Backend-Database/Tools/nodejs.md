@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: javascript
 type: resource
+title: Nodejs
+description: Node.js
+timestamp: '2026-06-19T13:43:26.148Z'
+tags:
+  - technology
+  - backend
+  - javascript
+resource: https://github.com/intentjs/intent
 ---
 # Node.js
 

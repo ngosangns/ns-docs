@@ -2,10 +2,16 @@
 area: life
 domain: clothing
 type: guide
+title: Cac Loai Ao Nen Co Trong Tu Do
+description: Áo thun trơn cổ tròn
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - life
+  - clothing
 ---
 # 1. Áo thun trơn cổ tròn
 
-![[8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d.png]]
+![](/Attachments/8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d.png)
 
 Áo thun trơn cổ tròn (T-shirt): Mặc đi chơi, đi học, hoạt động thể thao nhẹ…
 
@@ -24,7 +30,7 @@ Phần ống tay áo thun thường được thiết kế suông rộng hoặc h
 
 # 2. Áo OCBD (Oxford Button Down Cloth)
 
-![[2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819.png]]
+![](/Attachments/2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819.png)
 
 Mặc đi làm là hợp lí.
 
@@ -46,7 +52,7 @@ Mặc đi làm là hợp lí.
 
 # 3. Áo Polo
 
-![[3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e.png]]
+![](/Attachments/3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e.png)
 
 - Độ formal (trang trọng): Trung bình
 - Độ linh hoạt phối đồ: Cao, phối với quần jeans hay quần chinos, quần âu, quần short đều đẹp.
@@ -60,7 +66,7 @@ Mặc đi làm là hợp lí.
 
 # 4. Áo Dress shirt
 
-![[9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e.png]]
+![](/Attachments/9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e.png)
 
 Chiếc áo kinh điển màu trắng mặc trong các cuộc họp cùng với suit, mặc trong đám cưới, mặc tại lễ tốt nghiệp… nói chung là các dịp cần trang trọng nhất (không tính sự kiện Black tie hay White tie vì hai cái này ở Việt Nam rất hiếm hoặc không tồn tại).
 
@@ -75,7 +81,7 @@ Chiếc áo kinh điển màu trắng mặc trong các cuộc họp cùng với 
 
 # 5. Áo henley
 
-![[2c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f.png]]
+![](/Attachments/2c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f.png)
 
 Là loại áo thay thế cho áo polo với thiết kế đơn giản hơn. Áo henley có phần tối giản hơn cả về thiết kế lẫn màu sắc. Loại áo này có phần ôm sát cơ thể và so với polo, henley cũng có phần trẻ trung hơn.
 
@@ -83,17 +89,17 @@ Phối: Phối Henley cùng áo Flannel/denim.
 
 # 6. Áo Flannel
 
-![[5c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f.png]]
+![](/Attachments/5c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f.png)
 
 # 7. Áo khoác blazer
 
-![[7c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png]]
+![](/Attachments/7c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png)
 
 Một dịp không cần trang phục quá trịnh trọng nhưng cũng không được xuề xoà? Hãy khoác bên ngoài một chiếc blazer không độn vai nhẹ nhàng. Đây là món đồ giúp bạn cân bằng giữa vẻ lịch sự và thoải mái.
 
 # 8. Bộ suit màu xanh navy
 
-![[8c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f.png]]
+![](/Attachments/8c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f.png)
 
 Nhất định phải có để đi dự sự kiện
 
@@ -105,8 +111,8 @@ Vai áo denim jacket theo tiêu chuẩn vừa vặn sẽ sát và khớp với v
 
 Về độ dài, cổ tay áo kết thúc ở khu vực xung quanh xương cổ tay là ok. Thật ra không có vị trí chính xác đâu nhưng cứ lấy cổ tay làm mốc đi, tay áo mà dài hơn hoặc ngắn hơn vị trí này quá nhiều sẽ phá vỡ tỉ lệ của denim jacket đấy.
 
-![[0c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5.png]]
+![](/Attachments/0c9d0e1f-2a3b-4c5d-6e7f-8091a2b3c4d5.png)
 
 Denim jacket là một item workwear nguyên bản, được thiết kế dành riêng cho những chàng cao bồi và thợ mỏ. Vì thế, dáng áo luôn là dạng crop ngắn, giúp chủ nhân cử động dễ dàng trên lưng ngựa hay ngồi nghỉ ngơi tại chỗ sau những giờ làm việc nặng nhọc.
 
-![[1c0e1f2a-3b4c-5d6e-7f80-91a2b3c4d5e6.png]]
+![](/Attachments/1c0e1f2a-3b4c-5d6e-7f80-91a2b3c4d5e6.png)

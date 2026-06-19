@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Strangler Fig
+description: 'Pattern: Strangler Fig (Cây bóp nghẹt)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Strangler Fig (Cây bóp nghẹt)
 

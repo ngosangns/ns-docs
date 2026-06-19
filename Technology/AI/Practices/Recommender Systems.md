@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Recommender Systems
+description: Recommender Systems - TikTok-like và AWS Personalize với GenAI
+timestamp: '2026-06-19T13:43:26.166Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a
 ---
 # Recommender Systems - TikTok-like và AWS Personalize với GenAI
 

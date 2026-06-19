@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Saga Choreography
+description: 'Pattern: Saga Choreography (Saga Vũ đạo)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Saga Choreography (Saga Vũ đạo)
 

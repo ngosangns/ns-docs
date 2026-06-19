@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Cache Aside Pattern
+description: Mẫu thiết kế Cache-Aside (Nạp bộ nhớ đệm theo yêu cầu)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside
 ---
 # Mẫu thiết kế Cache-Aside (Nạp bộ nhớ đệm theo yêu cầu)
 

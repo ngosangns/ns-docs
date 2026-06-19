@@ -2,6 +2,12 @@
 area: life
 domain: soft-skills
 type: note
+title: Notes From Huyen Chip
+description: Underpromise, overdeliver
+timestamp: '2026-06-19T13:43:26.170Z'
+tags:
+  - life
+  - soft-skills
 ---
 # 1. Underpromise, overdeliver
 

@@ -1,3 +1,12 @@
+---
+type: Note
+title: Semantica
+description: Semantica - Framework for Context Graphs & Decision Intelligence
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/Hawksight-AI/semantica
+---
 # Semantica - Framework for Context Graphs & Decision Intelligence
 
 ## Định nghĩa

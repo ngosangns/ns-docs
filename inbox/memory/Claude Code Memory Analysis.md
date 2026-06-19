@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claude Code Memory Analysis
+description: Đánh giá Memory System của Claude Code và Claude-Mem
+timestamp: '2026-06-19T13:43:26.086Z'
+tags:
+  - inbox
+resource: https://code.claude.com/docs/en/memory
+---
 # Đánh giá Memory System của Claude Code và Claude-Mem
 
 ## Tổng quan

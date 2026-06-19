@@ -1,3 +1,12 @@
+---
+type: Note
+title: Zvec
+description: ZVec - In-Process Vector Database
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/alibaba/zvec
+---
 # ZVec - In-Process Vector Database
 
 ## Định nghĩa

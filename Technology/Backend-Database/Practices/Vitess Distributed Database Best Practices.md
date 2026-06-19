@@ -2,6 +2,12 @@
 area: technology
 domain: backend
 type: resource
+title: Vitess Distributed Database Best Practices
+description: Vitess - Distributed Database Best Practices
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
 ---
 # Vitess - Distributed Database Best Practices
 

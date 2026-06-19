@@ -2,6 +2,13 @@
 area: technology
 domain: documentation
 type: resource
+title: Developer Resources
+description: Developer Resources
+timestamp: '2026-06-19T13:43:26.144Z'
+tags:
+  - technology
+  - documentation
+resource: https://httpie.io/app
 ---
 # Developer Resources
 

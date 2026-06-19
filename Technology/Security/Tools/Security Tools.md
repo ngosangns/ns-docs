@@ -3,6 +3,14 @@ area: technology
 domain: security
 topic: tools
 type: resource
+title: Security Tools
+description: Security tools-utilities
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - security
+  - tools
+resource: https://www.hashicorp.com/en/products/vault
 ---
 # Security tools-utilities
 

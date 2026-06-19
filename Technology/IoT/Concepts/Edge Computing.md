@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Edge Computing
+description: Edge Computing
+timestamp: '2026-06-19T13:43:26.135Z'
+tags:
+  - technology
+  - iot
 ---
 # Edge Computing
 
@@ -21,7 +27,7 @@ type: resource
 
 ## Use Cases cho Edge
 
-- Real-time control (như button presses trong [[Technology/IoT/Concepts/Smart Home]])
+- Real-time control (như button presses trong [Smart Home](/Technology/IoT/Concepts/Smart Home))
 - Local automation rules
 - Data filtering và aggregation trước khi gửi cloud
 - Offline operation

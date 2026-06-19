@@ -2,11 +2,18 @@
 area: technology
 domain: backend
 type: resource
+title: Distributed Cache Ky Thuat Toi Uu
+description: 'Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices'
+timestamp: '2026-06-19T13:43:26.149Z'
+tags:
+  - technology
+  - backend
+resource: https://github.com/huykn/distributed-cache/tree/develop/examples/stale-data-prevention
 ---
 
 # Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 
-> **Xem thêm:** [[Distributed In Memory Cache Best Practices|Distributed In-Memory Cache Best Practices]]
+> **Xem thêm:** [Distributed In-Memory Cache Best Practices](/Technology/Backend-Database/Practices/Distributed In Memory Cache Best Practices)
 
 ## 3. Các kỹ thuật tối ưu
 

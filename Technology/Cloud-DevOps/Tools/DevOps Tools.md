@@ -3,6 +3,14 @@ area: technology
 domain: devops
 topic: tools
 type: resource
+title: DevOps Tools
+description: DevOps Tools
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - tools
+resource: https://github.com/fluxcd/flux2
 ---
 # DevOps Tools
 
@@ -67,4 +75,4 @@ type: resource
 ## 6. Cloudflare Tools
 
 - **DockFlare**: Automate Cloudflare Tunnels với Docker Labels - [GitHub](https://github.com/ChrispyBacon-dev/DockFlare)
-- **Cloudflare Snippet**: Tính năng giống mini version của Cloudflare Worker, dùng để xử lý các tác vụ đơn giản như thêm CORS headers. Yêu cầu domain phải đăng ký gói Pro (20$/tháng), không tốn thêm chi phí như Worker, có thể giảm đáng kể data transfer từ origin server bằng cách xử lý ở edge. Xem case study: [[Case Study Quick Win Optimization]]
+- **Cloudflare Snippet**: Tính năng giống mini version của Cloudflare Worker, dùng để xử lý các tác vụ đơn giản như thêm CORS headers. Yêu cầu domain phải đăng ký gói Pro (20$/tháng), không tốn thêm chi phí như Worker, có thể giảm đáng kể data transfer từ origin server bằng cách xử lý ở edge. Xem case study: [Case Study Quick Win Optimization](/Technology/System-Design/Practices/Case Study Quick Win Optimization)

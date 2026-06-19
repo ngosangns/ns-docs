@@ -3,6 +3,13 @@ area: technology
 domain: devops
 topic: aws
 type: resource
+title: VPC Virtual Private Cloud AZ Availability Zone
+description: Trong thiết kế mạng trên AWS, Vùng VPC (VPC Region) là phạm vi địa lý nơi bạn triển khai và quản lý mạng ảo (Virtual Private Cloud - VPC) của mình.
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - aws
 ---
 Trong thiết kế mạng trên AWS, **Vùng VPC (VPC Region)** là phạm vi địa lý nơi bạn triển khai và quản lý mạng ảo (**Virtual Private Cloud - VPC**) của mình. Mỗi VPC được tạo ra trong một Region (ví dụ như Singapore, Tokyo, hay Sydney), và chỉ tồn tại trong duy nhất một Region đó. Một Region bao gồm nhiều Availability Zone (AZ - vùng khả dụng) độc lập về vật lý.
 

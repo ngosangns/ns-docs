@@ -3,6 +3,13 @@ area: technology
 domain: career
 topic: interview
 type: resource
+title: Amazon Sde Interview
+description: Amazon SDE Interview
+timestamp: '2026-06-19T13:43:26.147Z'
+tags:
+  - technology
+  - career
+  - interview
 ---
 # Amazon SDE Interview
 

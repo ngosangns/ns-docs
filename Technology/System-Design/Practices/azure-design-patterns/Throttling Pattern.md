@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Throttling Pattern
+description: Throttling Pattern
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Throttling Pattern.md#L1-35
 # Throttling Pattern (Mô hình Điều tiết)

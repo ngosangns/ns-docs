@@ -2,6 +2,12 @@
 area: life
 domain: skincare
 type: resource
+title: Cleansing Products
+description: Sản phẩm làm sạch
+timestamp: '2026-06-19T13:43:26.170Z'
+tags:
+  - life
+  - skincare
 ---
 # Sản phẩm làm sạch
 

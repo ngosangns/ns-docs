@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Chien Luoc Backup Du Lieu 3 2 1
+description: '3 bản sao của dữ liệu: Ba bản sao này bao gồm dữ liệu gốc hoặc dữ liệu sản xuất của bạn cùng với hai bản sao khác.'
+timestamp: '2026-06-19T13:43:26.102Z'
+tags:
+  - technology
+  - system-design
+resource: https://images.viblo.asia/9671f00f-042a-4f9d-8ebd-bce02603202c.png
 ---
 - **3 bản sao của dữ liệu**: Ba bản sao này bao gồm dữ liệu gốc hoặc dữ liệu sản xuất của bạn cùng với hai bản sao khác. Việc tạo ra các bản sao lưu thường xuyên và có kế hoạch là rất quan trọng. Bạn cần xác định tần suất sao lưu dựa trên mức độ thay đổi dữ liệu và yêu cầu khôi phục. Ví dụ, nếu dữ liệu của bạn thay đổi liên tục, bạn có thể cần sao lưu hàng ngày hoặc thậm chí hàng giờ. Ngược lại, nếu dữ liệu ít thay đổi, sao lưu hàng tuần có thể là đủ.
 - **2 loại phương tiện lưu trữ khác nhau**: Bạn nên lưu trữ dữ liệu của mình trên hai loại phương tiện lưu trữ khác nhau. Các bản sao này cần được lưu trữ trên hai loại phương tiện lưu trữ khác nhau, chẳng hạn như ổ cứng và đám mây, để tránh rủi ro từ việc hỏng hóc thiết bị hoặc lỗi phần mềm. Việc sử dụng nhiều loại phương tiện lưu trữ khác nhau giúp bảo vệ dữ liệu khỏi các vấn đề liên quan đến từng loại phương tiện. Nếu một loại phương tiện bị lỗi hoặc hỏng hóc, các bản sao dữ liệu trên các loại phương tiện khác vẫn có thể được sử dụng để khôi phục. Chẳng hạn, ổ cứng có thể bị hỏng, nhưng nếu bạn có bản sao dữ liệu trên đám mây hoặc trên ổ cứng ngoài, bạn vẫn có thể truy cập và khôi phục dữ liệu.

@@ -3,6 +3,14 @@ area: technology
 domain: algorithms
 topic: golang
 type: cheatsheet
+title: Algo Heap Trie Graphs
+description: Heap / Priority Queue
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - algorithms
+  - golang
+resource: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thong-tim-kiem-gwd43jOjVX9
 ---
 
 ## Heap / Priority Queue

@@ -2,6 +2,13 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac
+description: khoe - Hà Giang đi mãi không chán | VOZ
+timestamp: '2026-06-19T13:43:26.095Z'
+tags:
+  - travel
+  - travel-guide
+resource: https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/
 ---
 
 - [khoe - Hà Giang đi mãi không chán | VOZ](https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/)
@@ -15,10 +22,10 @@ type: resource
 
 | Phần      | Nội dung                                                                                          | File                   |
 | --------- | ------------------------------------------------------------------------------------------------- | ---------------------- |
-| Phần I    | Giới thiệu tổng quan về Tây Bắc - vùng đất của những cung đường huyền thoại, cảnh quan và văn hóa | [[Tay Bac Gioi Thieu]] |
-| Phần II   | Hướng dẫn chọn thời điểm vàng cho chuyến đi, phân tích chi tiết từng mùa du lịch                  | [[Tay Bac Thoi Diem]]  |
-| Phần III  | Cẩm nang các điểm đến trọng yếu: Tà Xùa, Mù Cang Chải, Sapa và những viên ngọc ẩn                 | [[Tay Bac Diem Den]]   |
-| Phần IV   | Cẩm nang dành cho phượt thủ và người độc hành - cung đường, an toàn, trang bị                     | [[Tay Bac Phuot Thu]]  |
-| Phần V    | Hậu cần cho chuyến đi hoàn hảo - di chuyển, lưu trú, chi phí dự trù                               | [[Tay Bac Hau Coc]]    |
-| Phần VI   | Ẩm thực và quà tặng từ núi rừng - đặc sản các tỉnh, thắng cố, đồ mang về                          | [[Tay Bac Am Thuc]]    |
-| Phần VII+ | Lời kết và kinh nghiệm thực tế từ cộng đồng phượt thủ về Hà Giang, Tây Bắc                        | [[Tay Bac Ghi Chu]]    |
+| Phần I    | Giới thiệu tổng quan về Tây Bắc - vùng đất của những cung đường huyền thoại, cảnh quan và văn hóa | [Tay Bac Gioi Thieu](/Travel/Destinations/Domestic/Tay Bac Gioi Thieu) |
+| Phần II   | Hướng dẫn chọn thời điểm vàng cho chuyến đi, phân tích chi tiết từng mùa du lịch                  | [Tay Bac Thoi Diem](/Travel/Destinations/Domestic/Tay Bac Thoi Diem)  |
+| Phần III  | Cẩm nang các điểm đến trọng yếu: Tà Xùa, Mù Cang Chải, Sapa và những viên ngọc ẩn                 | [Tay Bac Diem Den](/Travel/Destinations/Domestic/Tay Bac Diem Den)   |
+| Phần IV   | Cẩm nang dành cho phượt thủ và người độc hành - cung đường, an toàn, trang bị                     | [Tay Bac Phuot Thu](/Travel/Destinations/Domestic/Tay Bac Phuot Thu)  |
+| Phần V    | Hậu cần cho chuyến đi hoàn hảo - di chuyển, lưu trú, chi phí dự trù                               | [Tay Bac Hau Coc](/Travel/Destinations/Domestic/Tay Bac Hau Coc)    |
+| Phần VI   | Ẩm thực và quà tặng từ núi rừng - đặc sản các tỉnh, thắng cố, đồ mang về                          | [Tay Bac Am Thuc](/Travel/Destinations/Domestic/Tay Bac Am Thuc)    |
+| Phần VII+ | Lời kết và kinh nghiệm thực tế từ cộng đồng phượt thủ về Hà Giang, Tây Bắc                        | [Tay Bac Ghi Chu](/Travel/Destinations/Domestic/Tay Bac Ghi Chu)    |

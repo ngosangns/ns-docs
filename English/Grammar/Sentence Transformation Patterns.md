@@ -2,6 +2,12 @@
 area: english
 domain: grammar
 type: resource
+title: Sentence Transformation Patterns
+description: Các mô hình biến đổi câu
+timestamp: '2026-06-19T13:43:26.172Z'
+tags:
+  - english
+  - grammar
 ---
 # Các mô hình biến đổi câu
 

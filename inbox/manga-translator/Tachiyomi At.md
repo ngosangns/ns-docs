@@ -1,3 +1,12 @@
+---
+type: Note
+title: Tachiyomi At
+description: TachiyomiAT - Android Manga Reader với Auto Translation
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/mannu691/TachiyomiAT
+---
 # TachiyomiAT - Android Manga Reader với Auto Translation
 
 ## Định nghĩa

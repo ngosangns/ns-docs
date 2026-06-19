@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Storage Engines
+description: Storage Engines (MySQL)
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://viblo.asia/p/su-khac-nhau-giua-2-storage-engine-myisam-va-innodb-bJzKmgVPl9N
 ---
 # Storage Engines (MySQL)
 

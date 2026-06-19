@@ -3,6 +3,13 @@ area: technology
 domain: system-design
 topic: system-design
 type: resource
+title: System Design Tong Quan
+description: Tổng quan về Thiết kế Hệ thống
+timestamp: '2026-06-19T13:43:26.112Z'
+tags:
+  - technology
+  - system-design
+resource: https://viblo.asia/p/danh-doi-giua-tinh-nhat-quan-va-tinh-san-sang-tradeoff-between-consistency-and-availability-5OXLAvlxVGr
 ---
 
 # 1. Tổng quan về Thiết kế Hệ thống
@@ -54,15 +61,15 @@ Dưới đây là 8 vấn đề phổ biến trong thiết kế hệ thống và
      - Tạo chỉ mục (index) cho các trường dữ liệu thường xuyên được sử dụng trong điều kiện truy vấn để tăng tốc độ tìm kiếm.
      - Áp dụng kỹ thuật sharding (phân mảnh dữ liệu) để chia DB lớn thành nhiều phần nhỏ hơn (shards), mỗi shard được lưu trữ trên một nút (node) riêng biệt, giúp phân tán tải và cải thiện hiệu năng truy vấn.
 
-![[a3b4c5d6-e7f8-091a-2b3c-4d5e6f708192.png]]
+![](/Attachments/a3b4c5d6-e7f8-091a-2b3c-4d5e6f708192.png)
 
 ## 1.3. Tài liệu và Công cụ Tham khảo
 
 - Bách khoa toàn thư về thiết kế hệ thống: Tổng hợp kiến thức, khái niệm, giải pháp cho các vấn đề phổ biến và ví dụ thực tế. Rất hữu ích cho việc chuẩn bị phỏng vấn thiết kế hệ thống.
   - Nguồn: https://github.com/donnemartin/system-design-primer
-- System Design the big archive: [[e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf]]
-- System Design and architecture: [[d6e7f809-1a2b-3c4d-5e6f-708192a3b4c5.pdf]]
-- Prophecy Product Design Cheatsheet: [[b4c5d6e7-f809-1a2b-3c4d-5e6f708192a3.pdf]]
+- System Design the big archive: [e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf](/Attachments/e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf)
+- System Design and architecture: [d6e7f809-1a2b-3c4d-5e6f-708192a3b4c5.pdf](/Attachments/d6e7f809-1a2b-3c4d-5e6f-708192a3b4c5.pdf)
+- Prophecy Product Design Cheatsheet: [b4c5d6e7-f809-1a2b-3c4d-5e6f708192a3.pdf](/Attachments/b4c5d6e7-f809-1a2b-3c4d-5e6f708192a3.pdf)
 - Software Architect & Architecture: Mindset, nhiệm vụ và những thứ bạn cần biết: Video thảo luận về vai trò của Kiến trúc sư Phần mềm, tư duy cần có, các nhiệm vụ chính và kiến thức cần thiết.
   - Nguồn: https://www.youtube.com/watch?v=AVhNryY5ujI
 - System Architect (SA) là gì? Cách trở thành SA: Video giải thích vai trò của Kiến trúc sư Hệ thống, công việc và lộ trình để trở thành SA.
@@ -74,4 +81,4 @@ Dưới đây là 8 vấn đề phổ biến trong thiết kế hệ thống và
 - Chuyện anh thợ xây P3: Chuyện cái bộ đếm view:
   - Nguồn: https://viblo.asia/p/chuyen-anh-tho-xay-p3-chuyen-cai-bo-dem-view-5OXLAYrZLGr
 
-> **Xem thêm:** [[Solutions System Designs Design Patterns|Tổng hợp System Design & Design Patterns]]
+> **Xem thêm:** [Tổng hợp System Design & Design Patterns](/Technology/System-Design/Practices/Solutions System Designs Design Patterns)

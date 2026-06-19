@@ -2,6 +2,12 @@
 area: english
 domain: grammar
 type: resource
+title: Complex Sentence Structures
+description: 1. Câu ghép (Compound Sentence)
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - english
+  - grammar
 ---
 **1. Câu ghép (Compound Sentence):**
 

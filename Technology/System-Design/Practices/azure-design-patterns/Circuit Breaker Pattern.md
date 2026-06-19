@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Circuit Breaker Pattern
+description: Mẫu thiết kế Circuit Breaker (Ngắt mạch)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
 ---
 # Mẫu thiết kế Circuit Breaker (Ngắt mạch)
 

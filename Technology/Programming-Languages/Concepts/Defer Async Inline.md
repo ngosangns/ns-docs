@@ -3,6 +3,13 @@ area: technology
 domain: programming-languages
 topic: javascript
 type: resource
+title: Defer Async Inline
+description: 'Cách browser thực thi JavaScript: Hiểu rõ defer, async, và inline'
+timestamp: '2026-06-19T13:43:26.132Z'
+tags:
+  - technology
+  - programming-languages
+  - javascript
 ---
 # 1. Cách browser thực thi JavaScript: Hiểu rõ `defer`, `async`, và `inline`
 

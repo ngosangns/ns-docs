@@ -2,6 +2,12 @@
 area: life
 domain: clothing
 type: resource
+title: Cho Mua Do
+description: Chỗ mua đồ
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - life
+  - clothing
 ---
 # Chỗ mua đồ
 

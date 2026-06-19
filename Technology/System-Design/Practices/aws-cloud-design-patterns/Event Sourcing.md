@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Event Sourcing
+description: 'Pattern: Event Sourcing (Nguồn sự kiện)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Event Sourcing (Nguồn sự kiện)
 

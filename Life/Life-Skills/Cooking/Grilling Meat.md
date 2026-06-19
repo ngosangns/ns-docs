@@ -2,6 +2,12 @@
 area: life
 domain: life-skills
 type: resource
+title: Grilling Meat
+description: Đi mua than, mua 1 bịch 10k nhưng nếu muốn nướng lâu phải mua 2 bịch mới đủ.
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - life
+  - life-skills
 ---
 - Đi mua than, mua 1 bịch 10k nhưng nếu muốn nướng lâu phải mua 2 bịch mới đủ.
 - Bác Cửu đổ than vào lò đốt, cho dầu vào và mồi lửa.

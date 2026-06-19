@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: AI Saas Tools
+description: Ứng dụng AI SaaS
+timestamp: '2026-06-19T13:43:26.161Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://openfuture.ai
 ---
 # Ứng dụng AI SaaS
 

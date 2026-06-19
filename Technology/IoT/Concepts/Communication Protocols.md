@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Communication Protocols
+description: Communication Protocols
+timestamp: '2026-06-19T13:43:26.134Z'
+tags:
+  - technology
+  - iot
 ---
 # Communication Protocols
 
@@ -13,7 +19,7 @@ type: resource
 - **Bluetooth/BLE**: Tiết kiệm pin, phù hợp cho wearables và devices di động
 - **Zigbee**: Mesh network, tiết kiệm pin, phù hợp cho smart home, nhưng có thể phức tạp với proprietary protocols
 - **Z-Wave**: Tương tự Zigbee, nhưng có license fee
-- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [[Technology/IoT/Concepts/Smart Home]])
+- **RF433**: Đơn giản, rẻ, pin lâu, tầm xa tốt, phù hợp cho buttons và sensors đơn giản (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ### Long-range
 

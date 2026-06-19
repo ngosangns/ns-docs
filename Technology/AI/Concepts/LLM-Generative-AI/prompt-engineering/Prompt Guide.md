@@ -2,6 +2,12 @@
 area: technology
 domain: ai-ml
 type: guide
+title: Prompt Guide
+description: Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)
+timestamp: '2026-06-19T13:43:26.168Z'
+tags:
+  - technology
+  - ai-ml
 ---
 # 1. Kỹ thuật Prompt Cơ Bản (Text-Based Prompting)
 

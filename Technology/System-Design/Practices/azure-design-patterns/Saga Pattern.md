@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Saga Pattern
+description: Saga Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/saga
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Saga Pattern.md#L1-37
 # Saga Distributed Transactions Pattern (Mô hình Giao dịch Phân tán Saga)

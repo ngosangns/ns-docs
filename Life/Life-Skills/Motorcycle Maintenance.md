@@ -3,6 +3,14 @@ area: life
 domain: life-skills
 topic: motorcycle
 type: resource
+title: Motorcycle Maintenance
+description: Bảo dưỡng xe Air Blade
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - life
+  - life-skills
+  - motorcycle
+resource: https://shopee.vn/dau_nhot_nanoil_usa?categoryId=100640&entryPoint=ShopByPDP&itemId=23264785017
 ---
 # Bảo dưỡng xe Air Blade
 
@@ -27,7 +35,7 @@ type: resource
 
 ## Khác
 
-![[1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b.png]]
+![](/Attachments/1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b.png)
 
 ## Tài liệu và nguồn tham khảo
 
@@ -35,20 +43,20 @@ type: resource
 - [Tổng hợp vài chỗ bán phụ tùng giá tốt và nhớt sịn ở SG - Voz](https://voz.vn/t/tong-hop-vai-cho-ban-phu-tung-gia-tot-va-nhot-si-o-sg.693076/)
 - [YouTube Video](https://www.youtube.com/watch?v=8urJHLpDOY0&t=132s)
 
-![[2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c.png]]
+![](/Attachments/2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c.png)
 
-![[3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d.png]]
+![](/Attachments/3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d.png)
 
-![[4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e.png]]
+![](/Attachments/4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e.png)
 
-![[5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png]]
+![](/Attachments/5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png)
 
-![[6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a.png]]
+![](/Attachments/6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a.png)
 
-![[7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b.png]]
+![](/Attachments/7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b.png)
 
-![[8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c.png]]
+![](/Attachments/8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c.png)
 
-![[9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d.png]]
+![](/Attachments/9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d.png)
 
-![[0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e.png]]
+![](/Attachments/0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e.png)

@@ -3,6 +3,14 @@ area: technology
 domain: devops
 topic: vps
 type: resource
+title: Vps Hosting
+description: Quản lý Firewall với UFW và Docker
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - vps
+resource: https://github.com/chaifeng/ufw-docker`
 ---
 # 1. Quản lý Firewall với UFW và Docker
 

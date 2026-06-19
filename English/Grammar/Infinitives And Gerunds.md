@@ -2,6 +2,12 @@
 area: english
 domain: grammar
 type: resource
+title: Infinitives And Gerunds
+description: 1. Động từ nguyên mẫu (Infinitive)
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - english
+  - grammar
 ---
 **1. Động từ nguyên mẫu (Infinitive):**
 

@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Cloud Design Patterns Index
+description: Các Mẫu Thiết Kế Đám Mây (Cloud Design Patterns)
+timestamp: '2026-06-19T13:43:26.116Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/
 ---
 # Các Mẫu Thiết Kế Đám Mây (Cloud Design Patterns)
 
@@ -22,16 +29,16 @@ Các mẫu thiết kế giúp nâng cao nhận thức về những vấn đề n
 
 | Mẫu thiết kế (Pattern) | Tóm tắt (Summary) | Trụ cột Well-Architected |
 | --- | --- | --- |
-| [[Ambassador Pattern|Ambassador]] | Tạo các dịch vụ trợ giúp gửi yêu cầu mạng thay mặt cho dịch vụ hoặc ứng dụng khách (client). | Độ tin cậy, Bảo mật |
-| [[Anti Corruption Layer Pattern|Anti-Corruption Layer]] | Triển khai một lớp façade hoặc adapter giữa một ứng dụng hiện đại và một hệ thống cũ (legacy). | Vận hành xuất sắc |
-| [[Asynchronous Request Reply Pattern|Asynchronous Request-Reply]] | Tách rời xử lý backend khỏi host frontend khi backend cần xử lý bất đồng bộ nhưng frontend vẫn cần phản hồi rõ ràng. | Hiệu suất |
-| [[Backends For Frontends Pattern|Backends for Frontends]] | Tạo các dịch vụ backend riêng biệt cho các ứng dụng hoặc giao diện frontend cụ thể. | Độ tin cậy, Bảo mật, Hiệu suất |
-| [[Bulkhead Pattern|Bulkhead]] | Cô lập các thành phần của ứng dụng vào các nhóm (pool) để nếu một nhóm lỗi, các nhóm khác vẫn hoạt động. | Độ tin cậy, Bảo mật, Hiệu suất |
-| [[Cache Aside Pattern|Cache-Aside]] | Nạp dữ liệu theo yêu cầu vào bộ nhớ đệm (cache) từ kho dữ liệu. | Độ tin cậy, Hiệu suất |
-| [[Choreography Pattern|Choreography]] | Để các dịch vụ tự quyết định khi nào và làm thế nào để xử lý một nghiệp vụ thay vì phụ thuộc vào bộ điều phối trung tâm. | Vận hành xuất sắc, Hiệu suất |
-| [[Circuit Breaker Pattern|Circuit Breaker]] | Xử lý các lỗi có thể mất một khoảng thời gian không xác định để khắc phục khi kết nối với dịch vụ từ xa. | Độ tin cậy, Hiệu suất |
-| [[Claim Check Pattern|Claim Check]] | Chia một thông báo lớn thành một "phiếu nhận" (claim check) và nội dung (payload) để tránh làm quá tải bus tin nhắn. | Độ tin cậy, Bảo mật, Chi phí, Hiệu suất |
-| [[Compensating Transaction Pattern|Compensating Transaction]] | Hoàn tác công việc được thực hiện bởi một chuỗi các bước tạo thành một hoạt động nhất quán cuối cùng (eventually consistent). | Độ tin cậy |
+| [Ambassador](/Technology/System-Design/Practices/azure-design-patterns/Ambassador Pattern) | Tạo các dịch vụ trợ giúp gửi yêu cầu mạng thay mặt cho dịch vụ hoặc ứng dụng khách (client). | Độ tin cậy, Bảo mật |
+| [Anti-Corruption Layer](/Technology/System-Design/Practices/azure-design-patterns/Anti Corruption Layer Pattern) | Triển khai một lớp façade hoặc adapter giữa một ứng dụng hiện đại và một hệ thống cũ (legacy). | Vận hành xuất sắc |
+| [Asynchronous Request-Reply](/Technology/System-Design/Practices/azure-design-patterns/Asynchronous Request Reply Pattern) | Tách rời xử lý backend khỏi host frontend khi backend cần xử lý bất đồng bộ nhưng frontend vẫn cần phản hồi rõ ràng. | Hiệu suất |
+| [Backends for Frontends](/Technology/System-Design/Practices/azure-design-patterns/Backends For Frontends Pattern) | Tạo các dịch vụ backend riêng biệt cho các ứng dụng hoặc giao diện frontend cụ thể. | Độ tin cậy, Bảo mật, Hiệu suất |
+| [Bulkhead](/Technology/System-Design/Practices/azure-design-patterns/Bulkhead Pattern) | Cô lập các thành phần của ứng dụng vào các nhóm (pool) để nếu một nhóm lỗi, các nhóm khác vẫn hoạt động. | Độ tin cậy, Bảo mật, Hiệu suất |
+| [Cache-Aside](/Technology/System-Design/Practices/azure-design-patterns/Cache Aside Pattern) | Nạp dữ liệu theo yêu cầu vào bộ nhớ đệm (cache) từ kho dữ liệu. | Độ tin cậy, Hiệu suất |
+| [Choreography](/Technology/System-Design/Practices/azure-design-patterns/Choreography Pattern) | Để các dịch vụ tự quyết định khi nào và làm thế nào để xử lý một nghiệp vụ thay vì phụ thuộc vào bộ điều phối trung tâm. | Vận hành xuất sắc, Hiệu suất |
+| [Circuit Breaker](/Technology/System-Design/Practices/azure-design-patterns/Circuit Breaker Pattern) | Xử lý các lỗi có thể mất một khoảng thời gian không xác định để khắc phục khi kết nối với dịch vụ từ xa. | Độ tin cậy, Hiệu suất |
+| [Claim Check](/Technology/System-Design/Practices/azure-design-patterns/Claim Check Pattern) | Chia một thông báo lớn thành một "phiếu nhận" (claim check) và nội dung (payload) để tránh làm quá tải bus tin nhắn. | Độ tin cậy, Bảo mật, Chi phí, Hiệu suất |
+| [Compensating Transaction](/Technology/System-Design/Practices/azure-design-patterns/Compensating Transaction Pattern) | Hoàn tác công việc được thực hiện bởi một chuỗi các bước tạo thành một hoạt động nhất quán cuối cùng (eventually consistent). | Độ tin cậy |
 | **Competing Consumers** | Cho phép nhiều người tiêu dùng đồng thời xử lý các tin nhắn nhận được trên cùng một kênh truyền thông. | Độ tin cậy, Chi phí, Hiệu suất |
 | **Compute Resource Consolidation** | Hợp nhất nhiều tác vụ hoặc hoạt động vào một đơn vị tính toán duy nhất. | Chi phí, Vận hành xuất sắc, Hiệu suất |
 | **CQRS** | Tách biệt các hoạt động đọc dữ liệu khỏi các hoạt động cập nhật dữ liệu bằng cách sử dụng các giao diện riêng biệt. | Hiệu suất |
@@ -53,17 +60,17 @@ Các mẫu thiết kế giúp nâng cao nhận thức về những vấn đề n
 | **Publisher/Subscriber** | Cho phép ứng dụng thông báo sự kiện cho nhiều người tiêu dùng một cách bất đồng bộ. | Độ tin cậy, Bảo mật, Chi phí, Vận hành xuất sắc, Hiệu suất |
 | **Quarantine** | Đảm bảo tài sản bên ngoài đáp ứng mức chất lượng trước khi được đưa vào quy trình làm việc. | Bảo mật, Vận hành xuất sắc |
 | **Queue-Based Load Leveling** | Sử dụng hàng đợi làm bộ đệm giữa tác vụ và dịch vụ để làm mịn các tải nặng không liên tục. | Độ tin cậy, Chi phí, Hiệu suất |
-| [[Rate Limiting Pattern|Rate Limiting]] | Tránh hoặc giảm thiểu lỗi quá tải bằng cách kiểm soát mức tiêu thụ tài nguyên. | Độ tin cậy |
-| [[Retry Pattern|Retry]] | Cho phép ứng dụng xử lý các lỗi tạm thời bằng cách thử lại các thao tác bị lỗi. | Độ tin cậy |
-| [[Saga Pattern|Saga]] | Quản lý tính nhất quán của dữ liệu giữa các microservices trong các kịch bản giao dịch phân tán. | Độ tin cậy |
-| [[Scheduler Agent Supervisor Pattern|Scheduler Agent Supervisor]] | Điều phối một tập hợp các hành động trên các dịch vụ và tài nguyên phân tán. | Độ tin cậy, Hiệu suất |
-| [[Sequential Convoy Pattern|Sequential Convoy]] | Xử lý một tập hợp các tin nhắn liên quan theo thứ tự xác định mà không làm tắc nghẽn các nhóm khác. | Độ tin cậy |
-| [[Sharding Pattern|Sharding]] | Chia một kho dữ liệu thành một tập hợp các phân vùng ngang hoặc shards. | Độ tin cậy, Chi phí |
-| [[Sidecar Pattern|Sidecar]] | Triển khai các thành phần vào một tiến trình hoặc container riêng biệt để cung cấp sự cô lập và đóng gói. | Bảo mật, Vận hành xuất sắc |
-| [[Static Content Hosting Pattern|Static Content Hosting]] | Triển khai nội dung tĩnh lên dịch vụ lưu trữ đám mây để phân phối trực tiếp cho khách hàng. | Chi phí |
-| [[Strangler Fig Pattern|Strangler Fig]] | Di chuyển dần dần một hệ thống cũ bằng cách thay thế từng phần chức năng bằng các ứng dụng/dịch vụ mới. | Độ tin cậy, Chi phí, Vận hành xuất sắc |
-| [[Throttling Pattern|Throttling]] | Kiểm soát mức tiêu thụ tài nguyên của ứng dụng, người dùng hoặc dịch vụ. | Độ tin cậy, Bảo mật, Chi phí, Hiệu suất |
-| [[Valet Key Pattern|Valet Key]] | Sử dụng token hoặc khóa để cung cấp cho khách hàng quyền truy cập trực tiếp và hạn chế vào tài nguyên. | Bảo mật, Chi phí, Hiệu suất |
+| [Rate Limiting](/Technology/System-Design/Practices/azure-design-patterns/Rate Limiting Pattern) | Tránh hoặc giảm thiểu lỗi quá tải bằng cách kiểm soát mức tiêu thụ tài nguyên. | Độ tin cậy |
+| [Retry](/Technology/System-Design/Practices/azure-design-patterns/Retry Pattern) | Cho phép ứng dụng xử lý các lỗi tạm thời bằng cách thử lại các thao tác bị lỗi. | Độ tin cậy |
+| [Saga](/Technology/System-Design/Practices/azure-design-patterns/Saga Pattern) | Quản lý tính nhất quán của dữ liệu giữa các microservices trong các kịch bản giao dịch phân tán. | Độ tin cậy |
+| [Scheduler Agent Supervisor](/Technology/System-Design/Practices/azure-design-patterns/Scheduler Agent Supervisor Pattern) | Điều phối một tập hợp các hành động trên các dịch vụ và tài nguyên phân tán. | Độ tin cậy, Hiệu suất |
+| [Sequential Convoy](/Technology/System-Design/Practices/azure-design-patterns/Sequential Convoy Pattern) | Xử lý một tập hợp các tin nhắn liên quan theo thứ tự xác định mà không làm tắc nghẽn các nhóm khác. | Độ tin cậy |
+| [Sharding](/Technology/System-Design/Practices/azure-design-patterns/Sharding Pattern) | Chia một kho dữ liệu thành một tập hợp các phân vùng ngang hoặc shards. | Độ tin cậy, Chi phí |
+| [Sidecar](/Technology/System-Design/Practices/azure-design-patterns/Sidecar Pattern) | Triển khai các thành phần vào một tiến trình hoặc container riêng biệt để cung cấp sự cô lập và đóng gói. | Bảo mật, Vận hành xuất sắc |
+| [Static Content Hosting](/Technology/System-Design/Practices/azure-design-patterns/Static Content Hosting Pattern) | Triển khai nội dung tĩnh lên dịch vụ lưu trữ đám mây để phân phối trực tiếp cho khách hàng. | Chi phí |
+| [Strangler Fig](/Technology/System-Design/Practices/azure-design-patterns/Strangler Fig Pattern) | Di chuyển dần dần một hệ thống cũ bằng cách thay thế từng phần chức năng bằng các ứng dụng/dịch vụ mới. | Độ tin cậy, Chi phí, Vận hành xuất sắc |
+| [Throttling](/Technology/System-Design/Practices/azure-design-patterns/Throttling Pattern) | Kiểm soát mức tiêu thụ tài nguyên của ứng dụng, người dùng hoặc dịch vụ. | Độ tin cậy, Bảo mật, Chi phí, Hiệu suất |
+| [Valet Key](/Technology/System-Design/Practices/azure-design-patterns/Valet Key Pattern) | Sử dụng token hoặc khóa để cung cấp cho khách hàng quyền truy cập trực tiếp và hạn chế vào tài nguyên. | Bảo mật, Chi phí, Hiệu suất |
 
 ---
 *Nguồn: [Azure Architecture Center - Cloud Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/)*

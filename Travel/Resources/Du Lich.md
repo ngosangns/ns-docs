@@ -2,6 +2,12 @@
 area: travel
 domain: travel-plan
 type: plan
+title: Du Lich
+description: Kế hoạch du lịch Hàn Quốc
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-plan
 ---
 # 1. Kế hoạch du lịch Hàn Quốc
 

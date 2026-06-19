@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Youtube Architecture
+description: YouTube Architecture - Kiến trúc YouTube
+timestamp: '2026-06-19T13:43:26.115Z'
+tags:
+  - technology
+  - system-design
+resource: https://blog.bytebytego.com/p/how-youtube-supports-billions-of
 ---
 # YouTube Architecture - Kiến trúc YouTube
 

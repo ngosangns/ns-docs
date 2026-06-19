@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: Code World Model
+description: Code World Model (CWM)
+timestamp: '2026-06-19T13:43:26.164Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
+resource: https://ai.meta.com/research/publications/cwm
 ---
 # Code World Model (CWM)
 
@@ -29,7 +37,7 @@ type: resource
 
 ## World Models khác
 
-- [[Technology/AI/Practices/Code World Model]]: World model tự giám sát được train trên video, cho phép zero-shot robot control và visual understanding
+- [Code World Model](/Technology/AI/Practices/Code World Model): World model tự giám sát được train trên video, cho phép zero-shot robot control và visual understanding
 
 ## Tài nguyên
 

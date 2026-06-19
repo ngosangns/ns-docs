@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Scheduler Agent Supervisor Pattern
+description: Scheduler Agent Supervisor Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/scheduler-agent-supervisor
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Scheduler Agent Supervisor Pattern.md#L1-35
 # Scheduler Agent Supervisor Pattern (Mô hình Điều phối - Tác nhân - Giám sát)

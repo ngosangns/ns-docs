@@ -1,3 +1,12 @@
+---
+type: Note
+title: Others
+description: https://github.com/Hawksight-AI/semantica
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/Hawksight-AI/semantica
+---
 - https://github.com/Hawksight-AI/semantica
 - https://github.com/HoangTheQuyen/think-better
 - https://github.com/infiniflow/ragflow

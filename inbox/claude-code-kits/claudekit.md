@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claudekit
+description: ClaudeKit - Smart Guardrails & Workflow Automation cho Claude Code
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - inbox
+resource: https://github.com/carlrannaberg/claudekit
+---
 # ClaudeKit - Smart Guardrails & Workflow Automation cho Claude Code
 
 ## Định nghĩa

@@ -3,6 +3,14 @@ area: technology
 domain: devops
 topic: network
 type: resource
+title: VPN Proxy Firewall
+description: Services
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - devops
+  - network
+resource: https://github.com/XTLS/Xray-core
 ---
 # 1. Services
 

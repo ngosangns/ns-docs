@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Messaging Protocols
+description: Messaging Protocols
+timestamp: '2026-06-19T13:43:26.137Z'
+tags:
+  - technology
+  - iot
 ---
 # Messaging Protocols
 
@@ -26,7 +32,7 @@ type: resource
 - Phổ biến, dễ implement
 - Phù hợp cho devices có đủ resources
 - Có thể dùng REST APIs hoặc webhooks
-- Ví dụ: ESP32 gửi HTTP POST/GET trong [[Technology/IoT/Concepts/Smart Home]]
+- Ví dụ: ESP32 gửi HTTP POST/GET trong [Smart Home](/Technology/IoT/Concepts/Smart Home)
 
 ## AMQP (Advanced Message Queuing Protocol)
 

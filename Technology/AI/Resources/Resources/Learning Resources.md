@@ -2,6 +2,13 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Learning Resources
+description: Tài nguyên học tập
+timestamp: '2026-06-19T13:43:26.164Z'
+tags:
+  - technology
+  - ai-ml
+resource: https://www.datacamp.com/learn/popular/ai
 ---
 # Tài nguyên học tập
 
@@ -16,7 +23,7 @@ type: resource
 ## Tài liệu
 
 - https://llmresourceshub.vercel.app
-- [[RAG Tutorial Neo4j Graphrag]]: Hướng dẫn xây dựng hệ thống RAG trên knowledge graph sử dụng Neo4j, kết hợp semantic vector search với structured graph reasoning #RAG #GraphRAG #tutorial
+- [RAG Tutorial Neo4j Graphrag](/Technology/AI/Practices/RAG Tutorial Neo4j Graphrag): Hướng dẫn xây dựng hệ thống RAG trên knowledge graph sử dụng Neo4j, kết hợp semantic vector search với structured graph reasoning #RAG #GraphRAG #tutorial
 - [The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
 - https://github.com/aishwaryanr/awesome-generative-ai-guide #generativeAI
 - https://github.com/GokuMohandas/Made-With-ML: Learn how to design, develop, deploy and iterate on production-grade ML applications. #ML #development #deployment

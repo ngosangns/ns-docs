@@ -3,6 +3,14 @@ area: technology
 domain: algorithms
 topic: golang
 type: resource
+title: Learning Resources
+description: Learning Resources
+timestamp: '2026-06-19T13:43:26.158Z'
+tags:
+  - technology
+  - algorithms
+  - golang
+resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
 ---
 # Learning Resources
 
@@ -15,12 +23,12 @@ type: resource
 
 ## Resources
 
-![[0a1b2c3d-4e5f-6789-9a0b-c1d2e3f4a5b6.jpg]]
+![](/Attachments/0a1b2c3d-4e5f-6789-9a0b-c1d2e3f4a5b6.jpg)
 
 - Bảng thưa (Sparse Table): https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
-- [[Tong Hop Cac Nguon On Luyen Thuat Toan Coding Interview]]
-- [[Le Minh Hoang Book Notes]]
-- [[Problem Solving Approaches]]
+- [Tong Hop Cac Nguon On Luyen Thuat Toan Coding Interview](/Technology/Career/Tools/Tong Hop Cac Nguon On Luyen Thuat Toan Coding Interview)
+- [Le Minh Hoang Book Notes](/Technology/Algorithm/Resources/Le Minh Hoang Book Notes)
+- [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches)
 - Thuật toán Dijkstra - Tìm đường đi ngắn nhất: https://chidokun.github.io/2021/09/dijkstra-algorithm
 - LeetCode: Dễ dàng nhận biết 5 dạng bài Dynamic Programming: https://viblo.asia/p/leetcode-de-dang-nhan-biet-5-dang-bai-dynamic-programming-x7Z4Dn90LnX
 - Algorithms & data-structures Full Crash Course - https://www.youtube.com/watch?v=jQqQpPMYPXs

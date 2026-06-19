@@ -2,6 +2,13 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Ho Chi Minh Can Gio Vung Tau
+description: 'Hướng đi: Qua Cần Giờ -> Phà Vũng Tàu'
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-guide
+resource: https://voz.vn/t/chia-se-kinh-nghiem-di-camping-cam-trai-cho-nguoi-moi.175142/
 ---
 Hướng đi: Qua Cần Giờ -> Phà Vũng Tàu
 

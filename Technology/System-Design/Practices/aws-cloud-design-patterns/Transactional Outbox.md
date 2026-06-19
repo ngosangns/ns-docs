@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: Transactional Outbox
+description: 'Pattern: Transactional Outbox (Hàng chờ giao dịch)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Transactional Outbox (Hàng chờ giao dịch)
 

@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: Graph Databases
+description: Graph Databases
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://github.com/dgraph-io/dgraph
 ---
 # Graph Databases
 

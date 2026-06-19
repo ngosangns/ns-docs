@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: RAG Finetuning
+description: Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề.
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
+resource: https://github.com/vitali87/code-graph-rag
 ---
 Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề. Bạn hãy tưởng tượng một cái cây đại thụ to lớn.
 

@@ -3,6 +3,13 @@ area: technology
 domain: algorithm
 topic: data-structures
 type: resource
+title: Overview
+description: Data Structures Overview
+timestamp: '2026-06-19T13:43:26.159Z'
+tags:
+  - technology
+  - algorithm
+  - data-structures
 ---
 # Data Structures Overview
 
@@ -145,7 +152,7 @@ Dữ liệu không được tổ chức theo trình tự.
 
 ## Resources
 
-- [[Segment Tree]]
-- [[Bloom Filter]]
-- [[Technology/Algorithm/Concepts/Big O Notation]]
-- [[Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches]]
+- [Segment Tree](/Technology/Algorithm/Concepts/data-structures/Segment Tree)
+- [Bloom Filter](/Technology/Algorithm/Concepts/Specialized/Bloom Filter)
+- [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation)
+- [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches)

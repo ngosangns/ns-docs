@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Sequential Convoy Pattern
+description: Sequential Convoy Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sequential-convoy
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Sequential Convoy Pattern.md#L1-28
 # Sequential Convoy Pattern (Mô hình Đoàn tàu Tuần tự)

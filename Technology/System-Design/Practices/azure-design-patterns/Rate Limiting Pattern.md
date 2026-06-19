@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Rate Limiting Pattern
+description: Rate Limiting Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Rate Limiting Pattern.md#L1-43
 # Rate Limiting Pattern (Mô hình Giới hạn Tốc độ)

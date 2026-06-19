@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claudekit Skills
+description: ClaudeKit Skills - Agent Skills Collection cho Claude Code
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - inbox
+resource: https://github.com/mrgoonie/claudekit-skills
+---
 # ClaudeKit Skills - Agent Skills Collection cho Claude Code
 
 ## Định nghĩa

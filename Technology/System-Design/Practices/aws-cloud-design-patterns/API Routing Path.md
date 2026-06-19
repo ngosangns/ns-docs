@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: API Routing Path
+description: 'Pattern: Path Routing (Định tuyến theo đường dẫn)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: Path Routing (Định tuyến theo đường dẫn)
 

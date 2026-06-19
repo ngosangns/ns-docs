@@ -2,6 +2,13 @@
 area: technology
 domain: backend
 type: resource
+title: Backend Overview
+description: Backend
+timestamp: '2026-06-19T13:43:26.148Z'
+tags:
+  - technology
+  - backend
+resource: https://github.com/gleam-lang/gleam
 ---
 # Backend
 
@@ -51,7 +58,7 @@ type: resource
 
 ## Caching
 
-Xem chi tiết tại: [[Caching]]
+Xem chi tiết tại: [Caching](/Technology/Backend-Database/Concepts/Caching)
 
 ## Lỗi thường gặp
 

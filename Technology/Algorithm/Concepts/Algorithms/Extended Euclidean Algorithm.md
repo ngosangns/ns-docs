@@ -2,6 +2,13 @@
 area: technology
 domain: algorithms
 type: resource
+title: Extended Euclidean Algorithm
+description: Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
+timestamp: '2026-06-19T13:43:26.161Z'
+tags:
+  - technology
+  - algorithms
+resource: https://viblo.asia/p/giai-thuat-euclid-mo-rong-extended-euclidean-algorithm-va-phuong-trinh-axbyc-AZoJjgxeLY7
 ---
 # Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
 

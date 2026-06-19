@@ -2,12 +2,18 @@
 area: technology
 domain: career
 type: resource
+title: Ung Tuyen
+description: Ứng tuyển
+timestamp: '2026-06-19T13:43:26.146Z'
+tags:
+  - technology
+  - career
 ---
 # Ứng tuyển
 
 ## Resources
 
-- [[./Kinh Nghiem Deal Luong]]
+- [Kinh Nghiem Deal Luong](/Technology/Career/Resources/Kinh Nghiem Deal Luong)
 - **LaraJobs**: The Official Laravel Job Board
 
 ## Đã phỏng vấn
@@ -63,4 +69,4 @@ type: resource
 
 ## Related
 
-- [[Phong Van Jv IT]]
+- [Phong Van Jv IT](/Technology/Career/Practices/Phong Van Jv IT)

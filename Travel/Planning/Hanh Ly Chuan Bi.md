@@ -2,6 +2,13 @@
 area: travel
 domain: travel-guide
 type: guide
+title: Hanh Ly Chuan Bi
+description: Hành lý - Chuẩn bị
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-guide
+resource: https://dicungdien.com/trekking/dung-cu-can-thiet-khi-di-trekking/
 ---
 # Hành lý - Chuẩn bị
 

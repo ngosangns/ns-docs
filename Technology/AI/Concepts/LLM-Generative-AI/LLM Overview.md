@@ -3,6 +3,13 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: LLM Overview
+description: LLM Overview
+timestamp: '2026-06-19T13:43:26.167Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
 ---
 # LLM Overview
 
@@ -15,6 +22,6 @@ Large Language Models (LLMs) là các mô hình ngôn ngữ lớn được huấ
 - **Fine-tuning**: Tinh chỉnh mô hình cho các tác vụ cụ thể
 
 Xem chi tiết tại:
-- [[Technology/AI/Concepts/LLM-Generative-AI/prompt-engineering/Prompt Guide]]
-- [[Technology/AI/Concepts/LLM-Generative-AI/RAG/RAG Overview]]
-- [[Technology/AI/Concepts/LLM-Generative-AI/Fine-tuning/Fine Tuning Techniques]]
+- [Prompt Guide](/Technology/AI/Concepts/LLM-Generative-AI/prompt-engineering/Prompt Guide)
+- [RAG Overview](/Technology/AI/Concepts/LLM-Generative-AI/RAG/RAG Overview)
+- [Fine Tuning Techniques](/Technology/AI/Concepts/LLM-Generative-AI/Fine-tuning/Fine Tuning Techniques)

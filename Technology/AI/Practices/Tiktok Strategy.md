@@ -2,6 +2,12 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Tiktok Strategy
+description: Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?
+timestamp: '2026-06-19T13:43:26.166Z'
+tags:
+  - technology
+  - ai-ml
 ---
 Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?
 

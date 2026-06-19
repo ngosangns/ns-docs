@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: resource
+title: Distributed Systems Cac Van De
+description: Distributed Systems - Các vấn đề
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
+resource: https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLNKvdV32
 ---
 # Distributed Systems - Các vấn đề
 
@@ -178,4 +185,4 @@ type: resource
 - **Vấn đề:** User thi thoảng gặp phải độ trễ cực lớn trong hệ thống phân tán
 - **Nguyên nhân:** Tranh chấp tài nguyên, garbage collection, hardware bottleneck
 - **Tác động:** Trong hệ thống có nhiều service, xác suất user gặp latency cao tăng đáng kể (ví dụ: 100 service với p99=1s → 63% user gặp latency > 1s)
-- **Giải pháp:** [[Hedged Request]] - kỹ thuật gửi request tới nhiều replica và sử dụng kết quả từ replica phản hồi sớm nhất
+- **Giải pháp:** [Hedged Request](/Technology/System-Design/Practices/Hedged Request) - kỹ thuật gửi request tới nhiều replica và sử dụng kết quả từ replica phản hồi sớm nhất

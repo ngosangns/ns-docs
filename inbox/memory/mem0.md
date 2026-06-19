@@ -1,3 +1,12 @@
+---
+type: Note
+title: Mem0
+description: Mem0 - Universal Memory Layer for AI Agents
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+resource: https://github.com/mem0ai/mem0
+---
 # Mem0 - Universal Memory Layer for AI Agents
 
 ## Định nghĩa

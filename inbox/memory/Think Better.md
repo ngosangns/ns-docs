@@ -1,3 +1,12 @@
+---
+type: Note
+title: Think Better
+description: Think-Better - OS for Clear Thinking & Better Decisions
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.sh
+---
 # Think-Better - OS for Clear Thinking & Better Decisions
 
 ## Định nghĩa

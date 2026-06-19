@@ -3,6 +3,14 @@ area: technology
 domain: system-design
 topic: microservices
 type: resource
+title: Outbox Pattern
+description: Outbox Pattern
+timestamp: '2026-06-19T13:43:26.109Z'
+tags:
+  - technology
+  - system-design
+  - microservices
+resource: https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchange-with-the-outbox-pattern/
 ---
 # Outbox Pattern
 

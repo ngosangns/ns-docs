@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: resource
+title: Nen File
+description: Tùy vào file bạn định nén là gì.
+timestamp: '2026-06-19T13:43:26.109Z'
+tags:
+  - technology
+  - system-design
 ---
 Tùy vào file bạn định nén là gì.
 Chứ media như phim, ảnh, game các thứ nó không nén được bao nhiêu đâu.

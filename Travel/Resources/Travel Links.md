@@ -2,6 +2,13 @@
 area: travel
 domain: travel-resources
 type: resource
+title: Travel Links
+description: Travel Links
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-resources
+resource: https://www.facebook.com/watch/?v=1534559917229085&rdid=03izPn7Ixdmm4wkt
 ---
 # Travel Links
 

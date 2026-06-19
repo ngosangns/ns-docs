@@ -3,6 +3,13 @@ area: technology
 domain: algorithms
 topic: algorithms
 type: resource
+title: Problem Solving Approaches
+description: Problem Solving Approaches
+timestamp: '2026-06-19T13:43:26.161Z'
+tags:
+  - technology
+  - algorithms
+resource: https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
 ---
 # Problem Solving Approaches
 

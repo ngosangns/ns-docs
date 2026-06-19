@@ -2,6 +2,13 @@
 area: technology
 domain: backend
 type: resource
+title: Toi Uu He Thong 1M CCU Best Practices
+description: 'Tối ưu hệ thống 1M+ CCU: Tổng hợp và Best Practices'
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+resource: https://blog.cloudflare.com/counting-things-a-lot-of-different-things
 ---
 # Tối ưu hệ thống 1M+ CCU: Tổng hợp và Best Practices
 

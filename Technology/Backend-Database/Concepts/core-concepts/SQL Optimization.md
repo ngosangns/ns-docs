@@ -3,6 +3,14 @@ area: technology
 domain: backend
 topic: database
 type: resource
+title: SQL Optimization
+description: SQL Optimization
+timestamp: '2026-06-19T13:43:26.155Z'
+tags:
+  - technology
+  - backend
+  - database
+resource: https://viblo.asia/p/mit-dac-va-biet-tuot-noi-chuyen-ve-nhung-loi-don-trong-toi-uu-sql-zXRJ8rqOVGq
 ---
 # SQL Optimization
 

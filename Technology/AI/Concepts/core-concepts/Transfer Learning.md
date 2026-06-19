@@ -2,6 +2,12 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Transfer Learning
+description: Transfer Learning
+timestamp: '2026-06-19T13:43:26.166Z'
+tags:
+  - technology
+  - ai-ml
 ---
 # Transfer Learning
 

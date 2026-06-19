@@ -1,3 +1,12 @@
+---
+type: Note
+title: Trustgraph
+description: TrustGraph - Context Development Platform
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: http://localhost:8080
+---
 # TrustGraph - Context Development Platform
 
 ## Định nghĩa

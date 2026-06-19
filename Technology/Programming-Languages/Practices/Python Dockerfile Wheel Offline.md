@@ -2,9 +2,15 @@
 area: technology
 domain: programming-languages
 type: note
+title: Python Dockerfile Wheel Offline
+description: 'Xem thêm: Dockerfile Optimization Techniques cho Python'
+timestamp: '2026-06-19T13:43:26.132Z'
+tags:
+  - technology
+  - programming-languages
 ---
 
-> **Xem thêm:** [[Python Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho Python]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho Python](/Technology/Programming-Languages/Practices/Python Dockerfile Optimization Techniques)
 
 ## Dockerfile 3: Wheel-based Offline Installation
 

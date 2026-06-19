@@ -1,3 +1,12 @@
+---
+type: Note
+title: Code Review Graph
+description: Code Review Graph - Local Knowledge Graph for AI Coding Tools
+timestamp: '2026-06-19T13:43:26.087Z'
+tags:
+  - inbox
+resource: https://github.com/tirth8205/code-review-graph
+---
 # Code Review Graph - Local Knowledge Graph for AI Coding Tools
 
 ## Định nghĩa

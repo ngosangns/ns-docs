@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Compensating Transaction Pattern
+description: Mẫu thiết kế Compensating Transaction (Giao dịch bù)
+timestamp: '2026-06-19T13:43:26.123Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/compensating-transaction
 ---
 # Mẫu thiết kế Compensating Transaction (Giao dịch bù)
 

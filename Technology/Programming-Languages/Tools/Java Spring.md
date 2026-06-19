@@ -3,6 +3,14 @@ area: technology
 domain: programming-languages
 topic: java
 type: resource
+title: Java Spring
+description: https://viblo.asia/s/nhat-ky-spring-boot-Je5EjWx0KnL
+timestamp: '2026-06-19T13:43:26.126Z'
+tags:
+  - technology
+  - programming-languages
+  - java
+resource: https://viblo.asia/s/nhat-ky-spring-boot-Je5EjWx0KnL
 ---
 # 1. Resources
 

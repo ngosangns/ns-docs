@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Messaging Bridge Pattern
+description: Messaging Bridge Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/messaging-bridge
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Messaging Bridge Pattern.md#L1-45
 # Messaging Bridge Pattern (Mô hình Cầu nối Thông điệp)

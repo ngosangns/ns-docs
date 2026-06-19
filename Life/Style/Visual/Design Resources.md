@@ -2,6 +2,13 @@
 area: life
 domain: style
 type: resource
+title: Design Resources
+description: Design Resources
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - life
+  - style
+resource: https://www.background.supply/
 ---
 # Design Resources
 

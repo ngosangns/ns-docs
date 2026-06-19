@@ -2,6 +2,12 @@
 area: life
 domain: skincare
 type: resource
+title: Vitamin C
+description: Vitamin C
+timestamp: '2026-06-19T13:43:26.170Z'
+tags:
+  - life
+  - skincare
 ---
 # Vitamin C
 

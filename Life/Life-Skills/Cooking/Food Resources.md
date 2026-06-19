@@ -2,6 +2,13 @@
 area: life
 domain: life-skills
 type: resource
+title: Food Resources
+description: Food Resources
+timestamp: '2026-06-19T13:43:26.171Z'
+tags:
+  - life
+  - life-skills
+resource: https://cookpad.com/vn/cong-thuc/13867382-c%E1%BA%A3i-bo-xoi-xao-th%E1%BB%8Bt-bo?via=guest_feed
 ---
 # Food Resources
 

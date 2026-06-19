@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Ambassador Pattern
+description: Mẫu thiết kế Ambassador (Đại sứ)
+timestamp: '2026-06-19T13:43:26.115Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/ambassador
 ---
 # Mẫu thiết kế Ambassador (Đại sứ)
 

@@ -2,6 +2,13 @@
 area: technology
 domain: system-design
 type: note
+title: Strangler Fig Pattern
+description: Strangler Fig Pattern
+timestamp: '2026-06-19T13:43:26.124Z'
+tags:
+  - technology
+  - system-design
+resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
 ---
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
 # Strangler Fig Pattern (Mô hình Cây bóp nghẹt)

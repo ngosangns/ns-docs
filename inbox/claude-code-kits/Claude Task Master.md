@@ -1,3 +1,12 @@
+---
+type: Note
+title: Claude Task Master
+description: Claude Task Master - AI-Powered Task Management System
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://cursor.com/en/install-mcp?name=task-master-ai&config=
+---
 # Claude Task Master - AI-Powered Task Management System
 
 ## Định nghĩa

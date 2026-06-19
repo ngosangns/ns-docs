@@ -1,3 +1,12 @@
+---
+type: Note
+title: Everything Claude Code
+description: Everything Claude Code (ECC) - Agent Harness Performance Optimization System
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - inbox
+resource: https://github.com/affaan-m/everything-claude-code
+---
 # Everything Claude Code (ECC) - Agent Harness Performance Optimization System
 
 ## Định nghĩa

@@ -1,3 +1,12 @@
+---
+type: Note
+title: Comparison
+description: So sánh Manga/Comic Translator Tools
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/zyddnys/manga-image-translator
+---
 # So sánh Manga/Comic Translator Tools
 
 ## Tổng quan

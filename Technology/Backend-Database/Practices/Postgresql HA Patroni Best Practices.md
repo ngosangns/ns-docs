@@ -2,6 +2,13 @@
 area: technology
 domain: backend
 type: resource
+title: Postgresql HA Patroni Best Practices
+description: PostgreSQL HA với Patroni - Tổng hợp Best Practices
+timestamp: '2026-06-19T13:43:26.152Z'
+tags:
+  - technology
+  - backend
+resource: https://devops.vn/posts/ivory-bien-viec-quan-tri-postgresql-ha-patroni-tro-nen-nhan-hon
 ---
 # PostgreSQL HA với Patroni - Tổng hợp Best Practices
 

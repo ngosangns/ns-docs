@@ -3,6 +3,13 @@ area: technology
 domain: system-design
 topic: system-design
 type: resource
+title: Retry Va Circuit Breaker
+description: Cách retry ít gây down
+timestamp: '2026-06-19T13:43:26.109Z'
+tags:
+  - technology
+  - system-design
+resource: https://engineering.grab.com/attribution-platform
 ---
 
 # 4. Cách retry ít gây down
@@ -81,6 +88,6 @@ Trong các hệ thống phân tán (hay distributed system dưới dạng micros
 
 _Author: Huy Nguyen_
 
-- Xem thêm chi tiết: [[Outbox Pattern]]
+- Xem thêm chi tiết: [Outbox Pattern](/Technology/System-Design/Practices/Outbox Pattern)
 
-> **Xem thêm:** [[Solutions System Designs Design Patterns|Tổng hợp System Design & Design Patterns]]
+> **Xem thêm:** [Tổng hợp System Design & Design Patterns](/Technology/System-Design/Practices/Solutions System Designs Design Patterns)

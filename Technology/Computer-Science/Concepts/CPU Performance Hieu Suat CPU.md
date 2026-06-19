@@ -2,6 +2,13 @@
 area: technology
 domain: computer-science
 type: resource
+title: CPU Performance Hieu Suat CPU
+description: Độ trễ trong bộ xử lý trung tâm và ổ cứng - Tối ưu hóa hiệu suất hệ thống
+timestamp: '2026-06-19T13:43:26.145Z'
+tags:
+  - technology
+  - computer-science
+resource: https://viblo.asia/p/tim-hieu-ve-do-tre-trong-bo-xu-ly-trung-tam-va-o-cung-toi-uu-hoa-hieu-suat-he-thong-BQyJKvyw4Me
 ---
 # Độ trễ trong bộ xử lý trung tâm và ổ cứng - Tối ưu hóa hiệu suất hệ thống
 

@@ -2,6 +2,12 @@
 area: technology
 domain: system-design
 type: note
+title: API Routing HTTP
+description: 'Pattern: HTTP Header Routing (Định tuyến theo HTTP Header)'
+timestamp: '2026-06-19T13:43:26.125Z'
+tags:
+  - technology
+  - system-design
 ---
 # Pattern: HTTP Header Routing (Định tuyến theo HTTP Header)
 

@@ -2,6 +2,13 @@
 area: travel
 domain: travel-plan
 type: plan
+title: Chuyen Du Lich Cong Ty Inception Labs 2025
+description: 📌 Tóm Tắt Chuyến Đi
+timestamp: '2026-06-19T13:43:26.090Z'
+tags:
+  - travel
+  - travel-plan
+resource: https://nhahangsen.vn/
 ---
 # 1. 📌 Tóm Tắt Chuyến Đi
 

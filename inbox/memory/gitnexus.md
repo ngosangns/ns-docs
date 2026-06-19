@@ -1,3 +1,12 @@
+---
+type: Note
+title: Gitnexus
+description: GitNexus - Zero-Server Code Intelligence Engine
+timestamp: '2026-06-19T13:43:26.088Z'
+tags:
+  - inbox
+resource: https://github.com/abhigyanpatwari/gitnexus.git
+---
 # GitNexus - Zero-Server Code Intelligence Engine
 
 ## Định nghĩa

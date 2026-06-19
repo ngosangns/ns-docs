@@ -2,6 +2,12 @@
 area: technology
 domain: iot
 type: resource
+title: Data Formats
+description: Data Formats
+timestamp: '2026-06-19T13:43:26.134Z'
+tags:
+  - technology
+  - iot
 ---
 # Data Formats
 
@@ -9,7 +15,7 @@ type: resource
 
 - Human-readable, dễ parse
 - Phù hợp cho HTTP APIs
-- Ví dụ: ESP32 gửi JSON payload trong [[Technology/IoT/Concepts/Smart Home]]
+- Ví dụ: ESP32 gửi JSON payload trong [Smart Home](/Technology/IoT/Concepts/Smart Home)
 
 ## MessagePack
 

@@ -3,11 +3,18 @@ area: technology
 domain: frontend
 topic: dockerfile-optimization
 type: resource
+title: React Dockerfile Distroless Nginx
+description: Distroless với Custom Static Nginx (UPX Compressed)
+timestamp: '2026-06-19T13:43:26.141Z'
+tags:
+  - technology
+  - frontend
+  - dockerfile-optimization
 ---
 
 # 2. Distroless với Custom Static Nginx (UPX Compressed)
 
-> **Xem thêm:** [[Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho React]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho React](/Technology/Frontend/Tools/React/Dockerfile Optimization Techniques)
 
 ## Kỹ thuật
 

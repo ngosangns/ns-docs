@@ -2,6 +2,13 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Ghi Chu
+description: 'Phần VII: Lời Kết - Hành Trình Không Chỉ Là Đích Đến'
+timestamp: '2026-06-19T13:43:26.092Z'
+tags:
+  - travel
+  - travel-guide
+resource: https://data.voz.vn/styles/next/xenforo/smilies/popo/biggrin.png?v=01
 ---
 
 ## 0.7. Phần VII: Lời Kết - Hành Trình Không Chỉ Là Đích Đến
@@ -33,7 +40,7 @@ Bác nào có ý định đi đợt này thì lên FB ấy, lựa điểm đến
 
 Thế thì có thể là ngủ đêm Quản Bạ -> Lô Lô Chải -> Đồng Văn -> Mèo Vạc đủ 4 đêm
 
-![[4d3a4b5c-6e7f-8a90-b1c2-d3e4f5a6789b.png]]
+![](/Attachments/4d3a4b5c-6e7f-8a90-b1c2-d3e4f5a6789b.png)
 
 Chỗ ăn trên đường thì mình đã ăn trưa ở thị trấn Tam Sơn, mình ăn quán Lan Anh nằm trên đoạn 4C chạy qua trung tâm thị trấn. Quán này bình dân, bán đĩa, giá rẻ, k quá ngon nhưng có món đầu cá xào dưa uống bia rất ổn.  
 Thị trấn Yên Minh mình dừng ăn ở nhà hàng Hóa Cường, nếu k nhầm, quán nhiều khách phượt, trên đường Trần Hưng Đạo (QL4C chạy qua thị trấn). Ăn gì thì gọi họ sẽ nấu, khá ngon, mình ăn rau luộc và gà rang.  
@@ -194,7 +201,7 @@ DT176 đoạn từ Mậu Duệ qua Du Già vẫn đang làm đường, nhiều c
 Xanh Lá: Mèo Vạc > Mậu Duệ > Yên Minh đường đẹp đi ok. Đường này dành cho người không muốn đi lại quốc lộ 4C, cung này ít người đi hơn bên QL4C.  
 Cam: Đường xấu, vài chỗ như ảnh trên của thím Kurt.
 
-![[3d2a3b4c-5e6f-7a89-b0c1-d2e3f4a5678b.png]]
+![](/Attachments/3d2a3b4c-5e6f-7a89-b0c1-d2e3f4a5678b.png)
 
 Từ Lũng Hồ vòng ngược lại đi DT181 hay còn gọi Đường Thượng (đi qua xã Đường Thượng) > Thái An > Thuận Hòa đi ok nhé có mấy đoạn xấu chút thôi, cẩn thận ko lạc đường.  
 Miễn sao đừng có từ Lũng Hồ > Du Già > QL34.
@@ -233,4 +240,4 @@ Vết nhơ duy nhất của chuyến di , bị mấy anh pikachu thổi hết 60
 - [Tổng quan về 15 đỉnh núi cao nhất Việt Nam| Phần 2 (update 11.2021) - Mộc Là Gỗ](https://moclago.com/621/tong-quan-ve-15-dinh-nui-cao-nhat-viet-nam-phan-2/)
 - [Tổng quan về 15 đỉnh núi cao nhất Việt Nam| Phần 1 (update 11.2021) - Mộc Là Gỗ](https://moclago.com/597/tong-quan-ve-15-dinh-nui-cao-nhat-viet-nam-phan-1/)
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

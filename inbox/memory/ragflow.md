@@ -1,3 +1,12 @@
+---
+type: Note
+title: Ragflow
+description: RAGFlow - Retrieval-Augmented Generation Engine
+timestamp: '2026-06-19T13:43:26.089Z'
+tags:
+  - inbox
+resource: https://github.com/infiniflow/ragflow
+---
 # RAGFlow - Retrieval-Augmented Generation Engine
 
 ## Định nghĩa

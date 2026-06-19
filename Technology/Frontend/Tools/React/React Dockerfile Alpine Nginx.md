@@ -3,11 +3,19 @@ area: technology
 domain: frontend
 topic: dockerfile-optimization
 type: resource
+title: React Dockerfile Alpine Nginx
+description: Alpine với Custom-built Nginx
+timestamp: '2026-06-19T13:43:26.140Z'
+tags:
+  - technology
+  - frontend
+  - dockerfile-optimization
+resource: https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
 ---
 
 # 5. Alpine với Custom-built Nginx
 
-> **Xem thêm:** [[Dockerfile Optimization Techniques|Dockerfile Optimization Techniques cho React]]
+> **Xem thêm:** [Dockerfile Optimization Techniques cho React](/Technology/Frontend/Tools/React/Dockerfile Optimization Techniques)
 
 ## Kỹ thuật
 

@@ -3,6 +3,14 @@ area: technology
 domain: backend-database
 topic: mysql
 type: resource
+title: Mysql
+description: MySQL
+timestamp: '2026-06-19T13:43:26.148Z'
+tags:
+  - technology
+  - backend-database
+  - mysql
+resource: https://dev.mysql.com/doc/
 ---
 # MySQL
 

@@ -2,6 +2,12 @@
 area: english
 domain: grammar
 type: resource
+title: Relative Clauses
+description: 1. Khái niệm
+timestamp: '2026-06-19T13:43:26.172Z'
+tags:
+  - english
+  - grammar
 ---
 **1. Khái niệm:**
 

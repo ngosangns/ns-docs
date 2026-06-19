@@ -2,6 +2,12 @@
 area: technology
 domain: tools
 type: resource
+title: Windows Tips
+description: Windows có đầy đủ các cài đặt mà có thể chúng ta chưa biết đến, các tính năng ẩn kinh ngạc giúp bạn thực hiện các việc cơ bản như login vào PC hay chọn emoji để gửi cho bạn bè.
+timestamp: '2026-06-19T13:43:26.102Z'
+tags:
+  - technology
+  - tools
 ---
 Windows có đầy đủ các cài đặt mà có thể chúng ta chưa biết đến, các tính năng ẩn kinh ngạc giúp bạn thực hiện các việc cơ bản như login vào PC hay chọn emoji để gửi cho bạn bè. Mặc dù một số cài đặt có thể không cần thiết cho các tác vụ hằng ngày, nhưng có thể một trong số chúng sẽ làm cho Windows trở nên thân thiện hơn sau một vài phút thực hiện.
 

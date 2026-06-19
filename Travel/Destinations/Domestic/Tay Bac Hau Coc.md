@@ -2,6 +2,12 @@
 area: travel
 domain: travel-guide
 type: resource
+title: Tay Bac Hau Coc
+description: 'Phần V: Hậu Cần Cho Chuyến Đi Hoàn Hảo'
+timestamp: '2026-06-19T13:43:26.093Z'
+tags:
+  - travel
+  - travel-guide
 ---
 
 ## 0.5. Phần V: Hậu Cần Cho Chuyến Đi Hoàn Hảo
@@ -65,4 +71,4 @@ Dự trù chi phí là một bước quan trọng để đảm bảo chuyến đ
 
 Việc lập một bảng dự trù chi phí chi tiết dựa trên lịch trình cá nhân là cách tốt nhất để quản lý ngân sách hiệu quả cho chuyến đi Tây Bắc.
 
-> **Xem thêm:** [[Tay Bac|Tổng hợp Tây Bắc]]
+> **Xem thêm:** [Tổng hợp Tây Bắc](/Travel/Destinations/Domestic/Tay Bac)

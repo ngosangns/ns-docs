@@ -2,6 +2,12 @@
 area: technology
 domain: ai-ml
 type: resource
+title: Prompt Strategies
+description: Viết hướng dẫn một cách rõ ràng
+timestamp: '2026-06-19T13:43:26.168Z'
+tags:
+  - technology
+  - ai-ml
 ---
 # 1. Viết hướng dẫn một cách rõ ràng
 

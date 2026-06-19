@@ -3,6 +3,14 @@ area: technology
 domain: ai-ml
 topic: llm
 type: resource
+title: Chunking Strategies
+description: Chunking trong RAG
+timestamp: '2026-06-19T13:43:26.169Z'
+tags:
+  - technology
+  - ai-ml
+  - llm
+resource: https://huggingface.co/khanhld/chunkformer-large-vie
 ---
 # Chunking trong RAG
 
