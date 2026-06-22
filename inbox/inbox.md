@@ -29,6 +29,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/msitarzewski/agency-agents — Library of 144+ specialized AI agent personalities with multi-tool support (Claude Code, Cursor, Copilot, etc.).
 - https://github.com/MontrealAI/AGI-Alpha-Agent-v0 — Meta-agentic AGI research framework with autonomous agent swarms and blockchain-based economic simulations.
 - https://github.com/karpathy/autoresearch — Autonomous AI research on single-GPU nanochat training; agent iterates on train.py overnight.
+- https://github.com/awslabs/agentcore-samples — Amazon Bedrock AgentCore samples; deploy and operate AI agents securely at scale (framework- and model-agnostic) with runtime, gateway, identity, memory, tools, and observability examples.
+- https://github.com/earendil-works/pi — Self-extensible AI agent toolkit (Pi); unified multi-provider LLM API, agent runtime with tool calling, TUI library, and an interactive coding agent CLI.
 
 ## Web & Desktop Frameworks
 
@@ -49,6 +51,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/Eljakani/ward — Security scanner built specifically for Laravel; checks .env, config, dependencies (live CVEs), and 40+ YAML rules.
 - https://github.com/slimtoolkit/slim — CNCF Sandbox toolkit to inspect, minify, and secure Docker containers; auto-generates Seccomp/AppArmor profiles.
 - https://github.com/sherlock-project/sherlock — Hunt down social media accounts by username across 400+ social networks; popular OSINT reconnaissance tool.
+- https://github.com/nvidia/skillspector — NVIDIA security scanner for AI agent skills; detects vulnerabilities and malicious patterns (64 patterns across 16 categories) via static + optional LLM analysis before you install a skill.
+- https://github.com/trailofbits/skills — Trail of Bits Claude Code skills marketplace for security research, vulnerability detection, and audit workflows; smart-contract auditing, static analysis, fuzzing, crypto side-channel checks, and more.
 
 ## Knowledge & Data Management
 
@@ -58,6 +62,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/oceanbase/oceanbase — Distributed relational database by Ant Group; HTAP, linear scalability, MySQL compatible, with vector search support.
 - https://github.com/HKUDS/RAG-Anything — All-in-one multimodal RAG framework built on LightRAG; processes text, images, tables, equations, and mixed-format documents in one pipeline.
 - https://huggingface.co/jinaai/jina-embeddings-v5-text-nano — Compact multilingual text embedding model for retrieval, matching, clustering, and classification; 239M parameters.
+- https://github.com/StarTrail-org/PixelRAG — Visual RAG that renders documents (web pages, PDFs, images) to screenshots and retrieves over the images with a LoRA-tuned Qwen3-VL embedding model; ships a hosted 8.28M-page Wikipedia index and a Claude Code "pixelbrowse" skill.
 
 ## Content & Multimedia
 
@@ -79,11 +84,15 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/StevenTran0410/CodeSpectra — Desktop app that reads a codebase and produces an evidence-backed onboarding report powered by local LLMs.
 - https://github.com/SuperClaude-Org/SuperClaude_Framework — Meta-programming framework that turns Claude Code into a structured dev platform with 30 slash commands.
 - https://github.com/gsd-build/get-shit-done — Lightweight meta-prompting, context engineering, and spec-driven development system for AI coding agents; helps reduce context rot across Claude Code, Codex, Cursor, and more.
+- https://github.com/open-gsd/gsd-core — "Git. Ship. Done." context-engineering and spec-driven development framework; drives coding agents through a discuss → plan → execute → verify → ship phase loop using fresh-context subagents to fight context rot.
+- https://github.com/hoangnb24/repository-harness — Repository-level operating harness that turns any repo into an agent-ready workspace; adds AGENTS.md, product contracts, feature intake, story packets, a test matrix, decision records, and a Rust CLI tool registry.
 - https://github.com/AlexsJones/llmfit — Terminal tool that right-sizes LLM models to your hardware; detects specs, scores fit, and suggests quantizations (Rust TUI + CLI).
 - https://github.com/duysolo/codebaxing — MCP server for semantic code search; index your codebase and query with natural language across 28 languages.
 - https://github.com/google/magika — Fast, accurate AI-powered file type detection for content-based MIME/type classification.
 - https://github.com/garrytan/gstack — Turns Claude Code into a virtual engineering team with 23 specialist slash commands (CEO, eng manager, QA, security, release engineer).
 - https://github.com/lightpanda-io/browser — Headless browser built from scratch in Zig for AI agents and automation; CDP-compatible, ~16x less memory than Chrome.
+- https://github.com/h4ckf0r0day/obscura — Lightweight, stealthy headless browser for AI agents and web scraping; written in Rust with V8, CDP-compatible drop-in for headless Chrome, built-in anti-detection, and an MCP server.
+- https://github.com/greensock/gsap-skills — Official GSAP AI skills (Agent Skills format) that teach coding agents correct GSAP usage: core API, timelines, ScrollTrigger, plugins, and React/Vue/Svelte patterns.
 - https://github.com/rtk-ai/rtk — CLI proxy reducing LLM token usage by 60-90% on dev commands; single Rust binary with auto-rewrite hooks for major AI tools.
 - https://github.com/TrNgTien/vfs — Virtual Function Signatures tool reducing agent token usage by ~98% via AST-based code signature extraction.
 - https://github.com/yichuan-w/LEANN — Ultra-compact vector index for personal RAG; 97% storage savings via graph-based recomputation, runs fully local.
@@ -91,6 +100,12 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/Git-on-my-level/codex-autorunner — Low-opinion agent coordination harness for Codex; helps run longer, more complex implementations with existing coding agents.
 - https://skillsmp.com/ — Agent Skills Marketplace with smart search, occupation-based filtering, quality indicators, and API access across 900k+ skills.
 - https://github.com/vercel/chat — Unified TypeScript SDK for building chat bots across Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, and WhatsApp.
+- https://github.com/DietrichGebert/ponytail — Provider-neutral agent skill that makes AI coding agents write minimal, necessary code (YAGNI ladder) without sacrificing validation, security, or accessibility; works with 14+ agents including Kiro.
+- https://github.com/DenisSergeevitch/agents-best-practices — Provider-neutral Agent Skill for designing, auditing, and refactoring agentic harnesses; covers the model-tool-observation loop, typed tools, permissions, budgets, memory/compaction, and launch gates.
+- https://github.com/chopratejas/headroom — Context compression layer for AI agents; compresses tool outputs, logs, RAG chunks, files, and history (60–95% fewer tokens) before they reach the LLM, as library/proxy/MCP, local-first and reversible.
+- https://github.com/addyosmani/agent-skills — Production-grade engineering skills for AI coding agents; 24 lifecycle skills (spec, plan, build, test, review, ship) with verification gates and anti-rationalization, works with Claude Code, Cursor, Kiro, and more.
+- https://github.com/daymade/claude-code-skills — Professional Claude Code skills marketplace with 60+ production-ready skills (skill-creator, doc/media tooling, troubleshooting doctors, research, finance) installable via the plugin marketplace.
+- https://github.com/agentfinder — Agent Finder; searchable directory of AI resources (293+ skills/agents) implementing the Agentic Resource Discovery (ARD) specification for programmatic agent resource discovery.
 
 ## Developer Tools & Environments
 
@@ -103,10 +118,12 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/millionco/react-doctor — React codebase health scanner; 0-100 score on security, performance, dead code, and architecture issues.
 - https://github.com/microsoft/RustTraining — Microsoft's Rust training books; beginner to expert level with bridge courses from C++, C#, Python.
 - https://github.com/maderix/ANE — Reverse-engineered Apple Neural Engine training; backpropagation on ANE via private APIs for research.
+- https://github.com/netdata/netdata — Open-source, real-time infrastructure monitoring platform; per-second metrics, zero-config auto-discovery, edge-based ML anomaly detection, 800+ integrations, and an MCP server (CNCF).
 
 ## Machine Learning & Tabular Data
 
 - https://github.com/PriorLabs/TabPFN — Foundation model for tabular data with classification and regression support, optimized especially for small to medium datasets.
+- https://github.com/apple/coreai-models — Apple's model export recipes, Python primitives, and Swift runtime utilities for on-device AI with Core AI; includes agent skills to help coding agents deploy PyTorch models on Apple silicon.
 
 ## File Transfer & Networking
 
@@ -183,3 +200,4 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/obra/superpowers — Personal knowledge augmentation and productivity tooling.
 - https://github.com/trustgraph-ai/trustgraph — Trust-aware knowledge graph and retrieval infrastructure for AI systems.
 - https://github.com/alibaba/zvec — Vector and embedding infrastructure project from Alibaba.
+- https://github.com/Egonex-AI/Understand-Anything — Turns any codebase, knowledge base, or docs into an interactive knowledge graph; multi-agent Tree-sitter + LLM pipeline with a visual dashboard, works across Claude Code, Codex, Cursor, Copilot, Kiro, and more.
