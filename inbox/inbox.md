@@ -31,6 +31,9 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/karpathy/autoresearch — Autonomous AI research on single-GPU nanochat training; agent iterates on train.py overnight.
 - https://github.com/awslabs/agentcore-samples — Amazon Bedrock AgentCore samples; deploy and operate AI agents securely at scale (framework- and model-agnostic) with runtime, gateway, identity, memory, tools, and observability examples.
 - https://github.com/earendil-works/pi — Self-extensible AI agent toolkit (Pi); unified multi-provider LLM API, agent runtime with tool calling, TUI library, and an interactive coding agent CLI.
+- https://github.com/bytedance/deer-flow — DeerFlow (Deep Exploration and Efficient Research Flow); open-source long-horizon super agent harness that researches, codes, and creates using sandboxes, memory, tools, skills, subagents, and a message gateway for tasks taking minutes to hours.
+- https://github.com/NousResearch/hermes-agent — Agent with a built-in learning loop; creates skills from experience, improves them during use, searches its own past conversations, and builds a deepening model of the user across sessions.
+- https://github.com/oobabooga/textgen — Open-source desktop app for local LLMs (formerly text-generation-webui); text, vision, and tool-calling with an OpenAI/Anthropic-compatible API, multiple inference backends, and 100% private operation.
 
 ## Web & Desktop Frameworks
 
@@ -43,6 +46,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/lochie/web-haptics — Haptic feedback library for the mobile web; supports React, Vue, and Svelte.
 - https://github.com/macaly/almostnode — Lightweight browser-native Node.js runtime; install npm packages and run Vite/Next.js dev servers entirely in the browser.
 - https://github.com/Avaiga/taipy — Python framework for turning data and AI algorithms into production-ready web applications without leaving Python.
+- https://github.com/typv/nest-turbo-starter — NestJS monorepo starter kit for building scalable microservices with Turborepo and pnpm.
 
 ## Security & Pentesting
 
@@ -53,6 +57,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/sherlock-project/sherlock — Hunt down social media accounts by username across 400+ social networks; popular OSINT reconnaissance tool.
 - https://github.com/nvidia/skillspector — NVIDIA security scanner for AI agent skills; detects vulnerabilities and malicious patterns (64 patterns across 16 categories) via static + optional LLM analysis before you install a skill.
 - https://github.com/trailofbits/skills — Trail of Bits Claude Code skills marketplace for security research, vulnerability detection, and audit workflows; smart-contract auditing, static analysis, fuzzing, crypto side-channel checks, and more.
+- https://github.com/zhaoxuya520/reverse-skill — Skill router pack for reverse engineering, authorized penetration testing, and security research; AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base for Claude Code, Kiro, Cursor, Cline, and other AI coding clients.
+- https://github.com/flipperdevices/flipperzero-firmware — Official firmware source for the Flipper Zero, the portable multi-tool for hardware hacking, RF/NFC/RFID/infrared experimentation, and pentesting.
 
 ## Knowledge & Data Management
 
@@ -63,6 +69,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/HKUDS/RAG-Anything — All-in-one multimodal RAG framework built on LightRAG; processes text, images, tables, equations, and mixed-format documents in one pipeline.
 - https://huggingface.co/jinaai/jina-embeddings-v5-text-nano — Compact multilingual text embedding model for retrieval, matching, clustering, and classification; 239M parameters.
 - https://github.com/StarTrail-org/PixelRAG — Visual RAG that renders documents (web pages, PDFs, images) to screenshots and retrieves over the images with a LoRA-tuned Qwen3-VL embedding model; ships a hosted 8.28M-page Wikipedia index and a Claude Code "pixelbrowse" skill.
+- https://github.com/GoogleCloudPlatform/knowledge-catalog — Google Cloud Knowledge Catalog tools and samples, including an LLM-based enrichment agent for cataloging and enriching data assets.
 
 ## Content & Multimedia
 
@@ -76,11 +83,15 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/tronghieuit/valtec-tts — Ultra-lightweight Vietnamese TTS with multi-speaker and zero-shot voice cloning; 74.8M params, CPU-only, 4x realtime.
 - https://github.com/jianzongwu/DiffSensei — CVPR 2025 multi-modal LLM + diffusion model for customized black-and-white manga generation; character-aware panel synthesis.
 - https://huggingface.co/microsoft/trocr-large-handwritten — Transformer OCR model fine-tuned on IAM for handwritten single text-line recognition.
+- https://github.com/nexu-io/html-video — Programmatic HTML-to-video for coding agents; turns HTML, CSS, and data into real MP4s with pluggable render engines, 21 templates, and AI soundtracks (Apache-2.0, no per-render fees).
+- https://github.com/nexu-io/html-anything — Agentic HTML editor where your local AI agent writes the HTML; 75 skills across 9 surfaces (magazine, deck, poster, tweet/XHS, prototype, data report), sandboxed preview, and 1-click export to HTML/PNG/WeChat/X/Zhihu with zero API key.
+- https://github.com/caotranquochoai/Voice-Translator-V2 — Real-time desktop voice translator (Python/PyQt5); captures mic or system audio and runs an STT → translation → TTS pipeline with multiple swappable engines (Faster Whisper, Qwen3-ASR, Gemini Live, local VieNeu-TTS) for near real-time speech translation.
 
 ## AI Tooling & Productivity
 
 - https://github.com/kaitranntt/ccs — Multi-provider profile and runtime manager for Claude Code, Codex, Ollama, GLM, and other AI CLIs.
 - https://github.com/SawyerHood/dev-browser — Sandboxed browser automation tool for AI agents; QuickJS WASM scripts with full Playwright API.
+- https://github.com/ScrapeGraphAI/Scrapegraph-ai — Python web scraping library that uses LLMs and graph logic to build extraction pipelines for websites and local documents (HTML, XML, JSON, Markdown) without hand-written CSS selectors.
 - https://github.com/StevenTran0410/CodeSpectra — Desktop app that reads a codebase and produces an evidence-backed onboarding report powered by local LLMs.
 - https://github.com/SuperClaude-Org/SuperClaude_Framework — Meta-programming framework that turns Claude Code into a structured dev platform with 30 slash commands.
 - https://github.com/gsd-build/get-shit-done — Lightweight meta-prompting, context engineering, and spec-driven development system for AI coding agents; helps reduce context rot across Claude Code, Codex, Cursor, and more.
@@ -100,12 +111,16 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/Git-on-my-level/codex-autorunner — Low-opinion agent coordination harness for Codex; helps run longer, more complex implementations with existing coding agents.
 - https://skillsmp.com/ — Agent Skills Marketplace with smart search, occupation-based filtering, quality indicators, and API access across 900k+ skills.
 - https://github.com/vercel/chat — Unified TypeScript SDK for building chat bots across Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, and WhatsApp.
+- https://github.com/vercel/ai — The AI SDK from Vercel; free, open-source TypeScript toolkit for building AI-powered apps and agents with a unified provider API and React/Next.js/Vue/Svelte/Node.js integrations.
 - https://github.com/DietrichGebert/ponytail — Provider-neutral agent skill that makes AI coding agents write minimal, necessary code (YAGNI ladder) without sacrificing validation, security, or accessibility; works with 14+ agents including Kiro.
 - https://github.com/DenisSergeevitch/agents-best-practices — Provider-neutral Agent Skill for designing, auditing, and refactoring agentic harnesses; covers the model-tool-observation loop, typed tools, permissions, budgets, memory/compaction, and launch gates.
 - https://github.com/chopratejas/headroom — Context compression layer for AI agents; compresses tool outputs, logs, RAG chunks, files, and history (60–95% fewer tokens) before they reach the LLM, as library/proxy/MCP, local-first and reversible.
 - https://github.com/addyosmani/agent-skills — Production-grade engineering skills for AI coding agents; 24 lifecycle skills (spec, plan, build, test, review, ship) with verification gates and anti-rationalization, works with Claude Code, Cursor, Kiro, and more.
 - https://github.com/daymade/claude-code-skills — Professional Claude Code skills marketplace with 60+ production-ready skills (skill-creator, doc/media tooling, troubleshooting doctors, research, finance) installable via the plugin marketplace.
 - https://github.com/agentfinder — Agent Finder; searchable directory of AI resources (293+ skills/agents) implementing the Agentic Resource Discovery (ARD) specification for programmatic agent resource discovery.
+- https://github.com/anthropics/skills — Anthropic's official public repository of Agent Skills; installable via the Claude Code plugin marketplace (document skills, example skills, claude-api, and more).
+- https://github.com/alirezarezvani/claude-skills — Massive collection of 337+ Claude Code/agent skills, 30+ agents, and 70+ custom commands across engineering, marketing, product, compliance, research, and finance; works with Claude Code, Codex, Gemini CLI, Cursor, and 8+ more agents.
+- https://github.com/JuliusBrussee/caveman — Claude Code skill that cuts ~65–75% of tokens by having the agent communicate in compressed "caveman" speech while keeping full technical accuracy; supports multiple intensity levels.
 
 ## Developer Tools & Environments
 
@@ -119,11 +134,20 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/microsoft/RustTraining — Microsoft's Rust training books; beginner to expert level with bridge courses from C++, C#, Python.
 - https://github.com/maderix/ANE — Reverse-engineered Apple Neural Engine training; backpropagation on ANE via private APIs for research.
 - https://github.com/netdata/netdata — Open-source, real-time infrastructure monitoring platform; per-second metrics, zero-config auto-discovery, edge-based ML anomaly detection, 800+ integrations, and an MCP server (CNCF).
+- https://github.com/ctrlplanedev/ctrlplane — Open-source release governance control plane that sits above existing CI/CD, GitOps, and IaC tooling; enforces promotion sequencing, policy gates, and rollout visibility for multi-cloud, multi-region, multi-service deployments.
+- https://github.com/liriliri/chii — Remote debugging tool like weinre, but using the latest Chrome DevTools frontend to inspect and debug pages on remote/mobile devices.
+- https://github.com/liriliri/eruda — Console for mobile browsers; an on-page DevTools panel for inspecting elements, console, network, resources, and more on mobile web.
+- https://github.com/podman-container-tools/buildah — Tool that facilitates building OCI container images; daemonless, scriptable image builds without requiring a running Docker daemon.
+- https://github.com/ThisIs-Developer/Markdown-Viewer — Fast, GitHub-style Markdown editor and previewer with live preview, Mermaid diagrams, LaTeX math, syntax highlighting, PDF export, and multi-tab support; runs in-browser, via Docker, or as a desktop app.
+- https://github.com/orailnoor/DroidDesk — Turns an Android phone into a real Linux desktop using Termux, Termux X11, TUR, and Proot; runs VS Code, Firefox, LibreOffice, Blender, and more over X11 or VNC.
+- https://github.com/caobahuong/kafka-connect-dynamic-filter — Kafka Connect SMT for filtering Debezium CDC records with dynamic JSON rules sourced from Redis, a Kafka topic, or a file; rules update on the next record with no connector restart or downtime.
 
 ## Machine Learning & Tabular Data
 
 - https://github.com/PriorLabs/TabPFN — Foundation model for tabular data with classification and regression support, optimized especially for small to medium datasets.
 - https://github.com/apple/coreai-models — Apple's model export recipes, Python primitives, and Swift runtime utilities for on-device AI with Core AI; includes agent skills to help coding agents deploy PyTorch models on Apple silicon.
+- https://github.com/Kanaries/pygwalker — Python library for exploratory data analysis; turns a pandas/polars dataframe into an interactive Tableau-style UI for visual exploration in Jupyter, Streamlit, and more (DuckDB-powered).
+- https://github.com/xai-org/x-algorithm — Open-source source code for the recommendation algorithm powering the "For You" feed on X; written in Rust and Python (Apache-2.0).
 
 ## File Transfer & Networking
 
@@ -187,6 +211,7 @@ resource: https://github.com/daytonaio/daytona
 ## Memory & Code Intelligence
 
 - https://github.com/thedotmack/claude-mem — Persistent memory layer for Claude Code sessions and developer workflows.
+- https://github.com/TencentCloud/TencentDB-Agent-Memory — Tencent's fully local long-term memory system for AI agents; 4-tier progressive pipeline (L0→L3 Persona) with FTS5 + EmbeddingGemma hybrid recall and zero external API dependencies.
 - https://github.com/tirth8205/code-review-graph — Graph-based code review assistant for exploring changes and review context.
 - https://github.com/abhigyanpatwari/GitNexus — Repository knowledge graph and code relationship explorer for developer workflows.
 - https://github.com/safishamsi/graphify — Knowledge graph generation toolkit for documents, code, and structured context.
