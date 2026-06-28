@@ -47,6 +47,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/macaly/almostnode — Lightweight browser-native Node.js runtime; install npm packages and run Vite/Next.js dev servers entirely in the browser.
 - https://github.com/Avaiga/taipy — Python framework for turning data and AI algorithms into production-ready web applications without leaving Python.
 - https://github.com/typv/nest-turbo-starter — NestJS monorepo starter kit for building scalable microservices with Turborepo and pnpm.
+- https://github.com/facebook/astryx — Open-source, fully customizable, agent-ready React design system from Meta; 150+ TypeScript components, theme-as-CSS-variables system, 7 ready-made themes, and a CLI so people and AI assistants build the same way from the same reference.
 
 ## Security & Pentesting
 
@@ -86,12 +87,15 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/nexu-io/html-video — Programmatic HTML-to-video for coding agents; turns HTML, CSS, and data into real MP4s with pluggable render engines, 21 templates, and AI soundtracks (Apache-2.0, no per-render fees).
 - https://github.com/nexu-io/html-anything — Agentic HTML editor where your local AI agent writes the HTML; 75 skills across 9 surfaces (magazine, deck, poster, tweet/XHS, prototype, data report), sandboxed preview, and 1-click export to HTML/PNG/WeChat/X/Zhihu with zero API key.
 - https://github.com/caotranquochoai/Voice-Translator-V2 — Real-time desktop voice translator (Python/PyQt5); captures mic or system audio and runs an STT → translation → TTS pipeline with multiple swappable engines (Faster Whisper, Qwen3-ASR, Gemini Live, local VieNeu-TTS) for near real-time speech translation.
+- https://github.com/kentjuno/ainovel-cli — Multi-agent autonomous long-form novel-writing CLI (Go); a coordinator drives Architect → Writer → Editor in a single LLM loop to go from one prompt to a complete novel (500+ chapters) with 3-tier context management, step-level checkpointing, real-time intervention, and TXT/EPUB export. Vietnamese fork of voocel/ainovel-cli.
+- https://github.com/altic-dev/FluidVoice — Open-source macOS voice-to-text dictation app (Swift) with on-device AI enhancement; local-first, supports Nemotron/Parakeet/Whisper/Apple speech models, Command Mode and Write Mode, live preview overlay, and optional fully-local "Fluid Intelligence" formatting.
 
 ## AI Tooling & Productivity
 
 - https://github.com/kaitranntt/ccs — Multi-provider profile and runtime manager for Claude Code, Codex, Ollama, GLM, and other AI CLIs.
 - https://github.com/SawyerHood/dev-browser — Sandboxed browser automation tool for AI agents; QuickJS WASM scripts with full Playwright API.
 - https://github.com/ScrapeGraphAI/Scrapegraph-ai — Python web scraping library that uses LLMs and graph logic to build extraction pipelines for websites and local documents (HTML, XML, JSON, Markdown) without hand-written CSS selectors.
+- https://github.com/NanmiCoder/MediaCrawler — Multi-platform social media data collection tool (for learning/research); scrapes posts and comments from Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Tieba, and Zhihu using Playwright login-state automation (no JS reverse-engineering), with keyword/post/creator crawling, login caching, IP proxy pool, and a WebUI.
 - https://github.com/StevenTran0410/CodeSpectra — Desktop app that reads a codebase and produces an evidence-backed onboarding report powered by local LLMs.
 - https://github.com/SuperClaude-Org/SuperClaude_Framework — Meta-programming framework that turns Claude Code into a structured dev platform with 30 slash commands.
 - https://github.com/gsd-build/get-shit-done — Lightweight meta-prompting, context engineering, and spec-driven development system for AI coding agents; helps reduce context rot across Claude Code, Codex, Cursor, and more.
@@ -159,6 +163,8 @@ resource: https://github.com/daytonaio/daytona
 
 - https://github.com/brightbeanxyz/brightbean-studio — Open-source, self-hostable social media management platform for scheduling and publishing across 10+ platforms.
 - https://github.com/twentyhq/twenty — #1 open-source CRM; customizable objects, kanban/table views, workflow automation, and role-based permissions.
+- https://github.com/makeplane/plane — Open-source Jira/Linear/Monday/ClickUp alternative; modern project management with work items, cycles, modules, custom views, AI-enabled pages, and analytics. Self-hostable (Docker/Kubernetes) or cloud.
+- https://github.com/xbtlin/ai-berkshire — AI-era value-investing research framework for Claude Code/Codex; blends the methodologies of Buffett, Munger, Duan Yongping, and Li Lu via multi-agent adversarial analysis, with financial-rigor tooling (precise decimal math, market-cap/valuation verification, Benford's law checks) and slash commands for research, checklists, and news attribution.
 
 ## IoT & Edge AI
 
