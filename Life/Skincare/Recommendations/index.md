@@ -1,4 +1,4 @@
-# Concepts
+# Recommendations
 
-* [Oily Skin Combo](Oily Skin Combo.md) - Combo dành cho da dầu, hỗn hợp thiên dầu
-* [Product Recommendations](Product Recommendations.md) - Gợi ý sản phẩm
+- [[Oily Skin Combo]] - Combo đầy đủ cho da dầu, 3 mức giá
+- [[Product Recommendations]] - Gợi ý sản phẩm chi tiết theo từng bước

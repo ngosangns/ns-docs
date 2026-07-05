@@ -3,130 +3,278 @@ area: life
 domain: skincare
 type: resource
 title: Product Recommendations
-description: Gợi ý sản phẩm
-timestamp: '2026-06-19T13:43:26.170Z'
+description: Gợi ý sản phẩm chi tiết từng bước cho da dầu (tổng hợp từ nhiều nguồn)
+timestamp: "2026-07-02T00:00:00.000Z"
 tags:
   - life
   - skincare
+  - recommendations
+  - products
+  - oily-skin
 ---
-# Gợi ý sản phẩm
 
-## Gợi ý của Gemini
+# Product Recommendations — Da dầu
 
-Chào bạn, da dầu rất cần được chăm sóc kỹ lưỡng để kiểm soát dầu thừa và ngăn ngừa mụn. Dưới đây là gợi ý combo sản phẩm cho da dầu, bạn có thể tham khảo và lựa chọn sản phẩm phù hợp với nhu cầu và ngân sách của mình:
+Gợi ý sản phẩm **đầy đủ và chi tiết** từng bước trong routine, tổng hợp từ các nguồn uy tín (dermatologists, Gemini AI, ChatGPT, các diễn đàn skincare).
 
-**1. Tẩy trang:**
+> ⚠️ **Disclaimer:** Danh sách chỉ mang tính **tham khảo**. Hiệu quả còn tùy cơ địa mỗi người. Nên test sản phẩm trên vùng da nhỏ trước khi dùng toàn mặt.
 
-- **Dầu tẩy trang (Cleansing Oil):** Dầu tẩy trang giúp loại bỏ lớp makeup và bụi bẩn hiệu quả mà không làm khô da.
-  - **Gợi ý:** Dầu tẩy trang Hada Labo Gokujyun, DHC Deep Cleansing Oil, Shu Uemura Cleansing Oil.
-- **Nước tẩy trang (Micellar Water):** Nước tẩy trang dịu nhẹ, phù hợp với lớp makeup nhẹ nhàng hàng ngày.
-  - **Gợi ý:** Bioderma Sebium H2O, La Roche-Posay Effaclar Micellar Water.
+---
 
-**2. Máy rửa mặt:**
+## 1. Tẩy trang (Cleanser Step 1)
 
-- **Máy rửa mặt Foreo Luna mini 3:** Vừa làm sạch sâu, loại bỏ dầu thừa hiệu quả vừa massage giúp da săn chắc hơn.
-- **Máy rửa mặt Halio Facial Cleansing & Massaging Device:** Giá thành bình dân hơn nhưng vẫn đảm bảo hiệu quả làm sạch tốt.
+### Dạng dầu (Cleansing Oil/Balm)
 
-**3. Sữa rửa mặt:**
+| Sản phẩm                             | Loại da phù hợp         | Đánh giá   |
+| ------------------------------------ | ----------------------- | ---------- |
+| **Hada Labo Gokujyun Cleansing Oil** | Da dầu, da khô          | ⭐⭐⭐⭐⭐ |
+| **DHC Deep Cleansing Oil**           | Mọi loại da             | ⭐⭐⭐⭐⭐ |
+| **Shu Uemura Cleansing Oil**         | Da dầu thiên sang trọng | ⭐⭐⭐⭐⭐ |
 
-- **Sữa rửa mặt tạo bọt (Foaming Cleanser):** Làm sạch sâu lỗ chân lông, loại bỏ dầu thừa hiệu quả.
-  - **Gợi ý:** Cerave Foaming Facial Cleanser, Cetaphil Dermacontrol Oil Removing Foam Wash.
-- **Sữa rửa mặt dạng gel (Gel Cleanser):** Dịu nhẹ, làm sạch da mà không gây khô căng.
-  - **Gợi ý:** La Roche-Posay Effaclar Purifying Foaming Gel Cleanser, Paula's Choice Skin Balancing Cleanser.
+### Dạng nước (Micellar Water)
 
-**4. Tẩy tế bào chết:**
+| Sản phẩm                                   | Đặc điểm                  | Đánh giá   |
+| ------------------------------------------ | ------------------------- | ---------- |
+| **Bioderma Sébium H2O**                    | Da dầu, kiểm soát bã nhờn | ⭐⭐⭐⭐⭐ |
+| **La Roche-Posay Effaclar Micellar Water** | Da dầu mụn                | ⭐⭐⭐⭐⭐ |
+| **Bioderma Sensibio H2O**                  | Da nhạy cảm               | ⭐⭐⭐⭐   |
+| **Garnier Micellar Cleansing Water**       | Giá rẻ, nhiều phiên bản   | ⭐⭐⭐⭐   |
+| **Bioderma nắp xanh lá**                   | Làm sạch sâu, không khô   | ⭐⭐⭐⭐   |
 
-- **Tẩy tế bào chết vật lý (Physical Exfoliator):** Sử dụng các hạt scrub để loại bỏ tế bào chết. Nên chọn loại hạt scrub nhỏ, mịn để tránh gây tổn thương da.
-  - **Gợi ý:** St.Ives Apricot Scrub, The Body Shop Tea Tree Squeaky-Clean Scrub.
-- **Tẩy tế bào chết hóa học (Chemical Exfoliator):** Sử dụng các thành phần acid (AHA/BHA) để loại bỏ tế bào chết, làm thông thoáng lỗ chân lông.
-  - **Gợi ý:** Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant, The Ordinary AHA 30% + BHA 2% Peeling Solution (chỉ nên sử dụng 1-2 lần/tuần).
+---
 
-**5. Toner:**
+## 2. Máy rửa mặt (Facial Device)
 
-- **Toner chứa BHA (Salicylic Acid):** Giúp kiểm soát dầu thừa, ngăn ngừa mụn hiệu quả.
-  - **Gợi ý:** Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant (có thể dùng như toner sau bước rửa mặt), Some By Mi AHA-BHA-PHA 30 Days Miracle Toner.
-- **Toner dưỡng ẩm (Hydrating Toner):** Cung cấp độ ẩm cho da sau bước làm sạch.
-  - **Gợi ý:** Klairs Supple Preparation Facial Toner, Thayers Alcohol-Free Rose Petal Witch Hazel Toner.
+| Sản phẩm                                      | Tính năng                        | Đánh giá   |
+| --------------------------------------------- | -------------------------------- | ---------- |
+| **Foreo Luna Mini 3**                         | Sạch sâu, massage, silicone y tế | ⭐⭐⭐⭐⭐ |
+| **Halio Facial Cleansing & Massaging Device** | Bình dân, hiệu quả tốt           | ⭐⭐⭐⭐   |
 
-**6. Serum:**
+> 💡 **Lưu ý:** Chỉ dùng máy rửa mặt 2–3 lần/tuần. Dùng mỗi ngày có thể làm da khô, kích ứng.
 
-- **Serum Niacinamide:** Kiểm soát dầu thừa, se khít lỗ chân lông, giảm thâm mụn.
-  - **Gợi ý:** The Ordinary Niacinamide 10% + Zinc 1%, SkinCeuticals Discoloration Defense Serum.
-- **Serum Vitamin C:** Chống oxy hóa, làm sáng da, mờ thâm.
-  - **Gợi ý:** Mad Hippie Vitamin C Serum, Timeless Vitamin C + E Ferulic Acid Serum.
+---
 
-**7. Kem chống nắng:**
+## 3. Sữa rửa mặt (Facial Cleanser)
 
-- **Kem chống nắng hóa học (Chemical Sunscreen):** Thẩm thấu nhanh, không gây bí da.
-  - **Gợi ý:** Anessa Perfect UV Sunscreen Skincare Milk, La Roche-Posay Anthelios Clear Skin Dry Touch Sunscreen SPF 60.
-- **Kem chống nắng vật lý (Mineral Sunscreen):** An toàn, lành tính, phù hợp với da nhạy cảm.
-  - **Gợi ý:** EltaMD UV Physical Broad-Spectrum SPF 41 Tinted Facial Sunscreen.
+### Sữa rửa mặt tạo bọt (Foaming Cleanser)
 
-**Lưu ý:**
+| Sản phẩm                                          | Loại da                              | Đánh giá            |
+| ------------------------------------------------- | ------------------------------------ | ------------------- |
+| **CeraVe Foaming Facial Cleanser**                | Da thường → da dầu, chứa Niacinamide | ⭐⭐⭐⭐⭐ **Best** |
+| **Cetaphil Dermacontrol Oil Removing Foam Wash**  | Da dầu mụn                           | ⭐⭐⭐⭐            |
+| **La Roche-Posay Effaclar Purifying Foaming Gel** | Da dầu mụn                           | ⭐⭐⭐⭐            |
+| **Neutrogena Oil-Free Acne Wash**                 | Da dầu, có salicylic acid nhẹ        | ⭐⭐⭐⭐            |
+| **Vichy Normaderm Deep Cleansing Foam**           | Da dầu mụn                           | ⭐⭐⭐⭐            |
 
-- Trước khi sử dụng bất kỳ sản phẩm nào, bạn nên thử sản phẩm lên vùng da nhỏ (như cổ tay) để kiểm tra dị ứng.
-- Nên kết hợp với chế độ ăn uống lành mạnh, ngủ đủ giấc và uống đủ nước để có làn da khỏe đẹp.
+### Sữa rửa mặt dạng gel (Gel Cleanser)
 
-Chúc bạn tìm được bộ sản phẩm phù hợp và có làn da khỏe đẹp như ý!
+| Sản phẩm                                   | Loại da              | Đánh giá   |
+| ------------------------------------------ | -------------------- | ---------- |
+| **COSRX Low pH Good Morning Gel Cleanser** | Da nhạy cảm, BHA nhẹ | ⭐⭐⭐⭐⭐ |
+| **Simple Gel Cleanser**                    | Da nhạy cảm          | ⭐⭐⭐     |
+| **Innisfree Green Tea Foam Cleanser**      | Trà xanh, kháng viêm | ⭐⭐⭐     |
+| **Dermalogica Clearing Skin Wash**         | Da mụn, salicylic    | ⭐⭐⭐⭐   |
 
-## Gợi ý sản phẩm cho da dầu dựa trên tư vấn
+---
 
-**Lưu ý:** Danh sách này chỉ mang tính tham khảo. Hiệu quả sản phẩm còn tùy thuộc vào cơ địa mỗi người. Nên thử sản phẩm trên một vùng da nhỏ trước khi sử dụng cho toàn mặt.
+## 4. Tẩy tế bào chết (Exfoliation)
 
-**1. Tẩy trang dạng nước:**
+### Tẩy da chết vật lý (Physical)
 
-- **Bioderma Sensibio H2O:** Nhẹ nhàng, phù hợp với cả da nhạy cảm.
-- **La Roche-Posay Effaclar Micellar Water Ultra:** Kiểm soát dầu thừa, dành riêng cho da dầu mụn.
-- **Garnier Micellar Cleansing Water:** Giá cả phải chăng, nhiều dòng cho bạn lựa chọn.
+| Sản phẩm                                       | Loại da          | Đánh giá |
+| ---------------------------------------------- | ---------------- | -------- |
+| **St. Ives Apricot Scrub**                     | Da khỏe          | ⭐⭐⭐   |
+| **The Body Shop Tea Tree Squeaky-Clean Scrub** | Da mụn, trà xanh | ⭐⭐⭐   |
 
-**2. Sữa rửa mặt:**
+> ⚠️ **Không khuyến nghị scrub vật lý cho da dầu hàng tuần** — dễ gây viêm, tổn thương. Ưu tiên hoá học.
 
-- **Cerave Foaming Facial Cleanser:** Làm sạch dịu nhẹ, không gây khô da.
-- **Cetaphil Gentle Skin Cleanser:** Phù hợp với da nhạy cảm, không chứa xà phòng.
-- **La Roche-Posay Effaclar Purifying Foaming Gel Cleanser:** Kiểm soát dầu, làm sạch sâu lỗ chân lông.
+### Tẩy da chết hoá học (Chemical — AHA/BHA/PHA)
 
-**3. Toner không cồn:**
+| Sản phẩm                                           | Hoạt chất         | Tần suất                     | Đánh giá                     |
+| -------------------------------------------------- | ----------------- | ---------------------------- | ---------------------------- |
+| **Paula's Choice 2% BHA Liquid Exfoliant**         | 2% Salicylic Acid | 2–3 lần/tuần                 | ⭐⭐⭐⭐⭐ **Best for oily** |
+| **The Ordinary AHA 30% + BHA 2% Peeling Solution** | AHA + BHA mạnh    | 1–2 lần/tuần, tối đa 10 phút | ⭐⭐⭐⭐                     |
+| **COSRX AHA 7 Whitehead Power Liquid**             | 7% Glycolic Acid  | 1–2 lần/tuần                 | ⭐⭐⭐⭐                     |
+| **The Ordinary Lactic Acid 10% + HA**              | 10% Lactic Acid   | Cách ngày, buổi tối          | ⭐⭐⭐⭐                     |
+| **Some By Mi AHA-BHA-PHA 30 Days Miracle Toner**   | Kết hợp 3 acid    | Hằng ngày (toner)            | ⭐⭐⭐⭐                     |
 
-- **Thayers Alcohol-Free Witch Hazel Toner:** Làm dịu da, se khít lỗ chân lông.
-- **Klairs Supple Preparation Facial Toner:** Cấp ẩm, cân bằng độ pH cho da.
-- **Paula's Choice Skin Balancing Pore-Reducing Toner:** Kiểm soát dầu, thu nhỏ lỗ chân lông.
+---
 
-**4. Dưỡng ẩm dạng lỏng hoặc gel:**
+## 5. Toner
 
-- **Neutrogena Hydro Boost Water Gel:** Cấp nước hiệu quả, tạo cảm giác mát lạnh.
-- **Laneige Water Bank Hydro Cream EX:** Dưỡng ẩm sâu, phù hợp cho ban ngày.
-- **COSRX Oil-Free Ultra Moisturizing Lotion (with Birch Sap):** Kiểm soát dầu, cấp ẩm nhẹ nhàng cho da.
+### Toner chứa BHA (trị mụn)
 
-**Bổ sung:**
+| Sản phẩm                                         | Đặc điểm                   | Đánh giá   |
+| ------------------------------------------------ | -------------------------- | ---------- |
+| **Paula's Choice 2% BHA** (dual use)             | Dùng như toner sau rửa mặt | ⭐⭐⭐⭐⭐ |
+| **Some By Mi AHA-BHA-PHA 30 Days Miracle Toner** | Kết hợp nhiều acid         | ⭐⭐⭐⭐   |
+| **Thayers Witch Hazel Alcohol-Free Toner**       | Witch Hazel, không cồn     | ⭐⭐⭐⭐   |
 
-- Ngoài ra, bạn có thể sử dụng thêm **kem chống nắng**, **mặt nạ đất sét** (1-2 lần/tuần), **serum đặc trị** (vitamin C, BHA) để cải thiện tình trạng da dầu và mụn.
-- Nên lựa chọn sản phẩm từ các **thương hiệu dược mỹ phẩm** uy tín, có nguồn gốc rõ ràng.
-- **Luôn kiểm tra thành phần** sản phẩm trước khi mua để tránh các thành phần gây kích ứng da.
-- **Duy trì chế độ ăn uống lành mạnh**, uống đủ nước, ngủ đủ giấc để có làn da khỏe đẹp từ bên trong.
+### Toner dưỡng ẩm (cân bằng pH)
 
-## Gợi ý của ChatGPT
+| Sản phẩm                                                | Đặc điểm               | Đánh giá   |
+| ------------------------------------------------------- | ---------------------- | ---------- |
+| **Klairs Supple Preparation Facial Toner**              | Dưỡng ẩm sâu, làm dịu  | ⭐⭐⭐⭐⭐ |
+| **Thayers Alcohol-Free Rose Petal Witch Hazel Toner**   | Hoa hồng + witch hazel | ⭐⭐⭐⭐   |
+| **Kiehl's Calendula Herbal Extract Alcohol-Free Toner** | Calendula, không cồn   | ⭐⭐⭐⭐   |
+| **Paula's Choice Skin Balancing Pore-Reducing Toner**   | Thu nhỏ lỗ chân lông   | ⭐⭐⭐⭐   |
 
-Để lựa chọn sản phẩm chăm sóc da có hiệu quả tốt cho da dầu, bạn cần cân nhắc những yếu tố như không gây tắc nghẽn lỗ chân lông (non-comedogenic), kiềm dầu, và có khả năng kiểm soát bã nhờn. Dưới đây là gợi ý về combo kem chống nắng, serum, nước tẩy trang, toner, máy rửa mặt, tẩy tế bào chết bằng vật lý và hóa học phù hợp:
+---
 
-1. Kem chống nắng:
-- **La Roche-Posay Anthelios Anti-Shine SPF 50+**: Kem chống nắng này không chỉ bảo vệ da khỏi tia UV mà còn kiểm soát dầu rất tốt.
+## 6. Serum / Tinh chất
 
-2. Serum:
-- **The Ordinary Niacinamide 10% + Zinc 1%**: Serum này giúp kiểm soát dầu thừa, làm mờ vết thâm và ngăn ngừa mụn.
+### Serum Niacinamide (kiểm soát dầu)
 
-3. Nước tẩy trang:
-- **Bioderma Sébium H2O Purifying Cleansing Micelle Solution**: Nước tẩy trang này phù hợp cho da dầu và nhạy cảm, giúp loại bỏ bụi bẩn và dầu thừa mà không gây kích ứng.
+| Sản phẩm                                      | Nồng độ                       | Đánh giá                     |
+| --------------------------------------------- | ----------------------------- | ---------------------------- |
+| **The Ordinary Niacinamide 10% + Zinc 1%**    | 10% Niacinamide               | ⭐⭐⭐⭐⭐ **Best for oily** |
+| **SkinCeuticals Discoloration Defense Serum** | Niacinamide + Tranexamic Acid | ⭐⭐⭐⭐⭐                   |
 
-4. Toner:
-- **Thayers Alcohol-Free Witch Hazel Toner** với thành phần chính là witch hazel và không chứa cồn, giúp làm sạch và se khít lỗ chân lông.
+### Serum Vitamin C (sáng da, chống oxy hoá)
 
-5. Máy rửa mặt:
-- **Foreo Luna Mini 3**: Máy rửa mặt này có khả năng làm sạch sâu, loại bỏ dầu thừa và tế bào chết một cách hiệu quả mà không gây kích ứng da.
+| Sản phẩm                                      | Dạng Vitamin C                  | Đánh giá                                  |
+| --------------------------------------------- | ------------------------------- | ----------------------------------------- |
+| **SkinCeuticals C E Ferulic**                 | L-ascorbic acid 15%             | ⭐⭐⭐⭐⭐ _Top choice_                   |
+| **Maelove Glow Maker**                        | L-ascorbic acid 15%             | ⭐⭐⭐⭐⭐ _Best value (đã thử và thích)_ |
+| **Timeless Vitamin C + E Ferulic Acid Serum** | L-ascorbic acid 20%             | ⭐⭐⭐⭐                                  |
+| **Mad Hippie Vitamin C Serum**                | Sodium Ascorbyl Phosphate (SAP) | ⭐⭐⭐⭐ _Dịu hơn_                        |
 
-6. Tẩy tế bào chết vật lý:
-- **St. Ives Apricot Scrub**: Sản phẩm này có khả năng tẩy tế bào chết một cách nhẹ nhàng, giúp da thoáng sạch và mịn màng.
+### Serum Copper Peptide (chống lão hoá)
 
-7. Tẩy tế bào chết hóa học:
-- **Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant**: Sản phẩm này chứa salicylic acid (BHA), giúp loại bỏ tế bào chết, làm sạch sâu lỗ chân lông và kiểm soát dầu thừa.
+| Sản phẩm                                     | Nồng độ                  | Đánh giá                   |
+| -------------------------------------------- | ------------------------ | -------------------------- |
+| **The Ordinary Buffet + Copper Peptides 1%** | 1% Copper Peptides       | ⭐⭐⭐⭐⭐ _Phổ biến nhất_ |
+| **NIOD Copper Amino Isolate Serum (CAIS)**   | Phức hợp đồng tinh khiết | ⭐⭐⭐⭐⭐ _Cao cấp nhất_  |
+| **Dr. Loretta Copper Renewal Molecule**      | Copper Peptide + actives | ⭐⭐⭐⭐                   |
 
-Hy vọng những gợi ý này sẽ giúp bạn xây dựng một quy trình chăm sóc da hiệu quả cho da dầu của mình. Lưu ý rằng tùy theo tình trạng da riêng biệt của mỗi người, việc thử nghiệm và điều chỉnh sản phẩm có thể cần thiết để tìm ra sự kết hợp tối ưu nhất.
+### Serum Hyaluronic Acid (dưỡng ẩm)
+
+| Sản phẩm                                 | Nồng độ | Đánh giá   |
+| ---------------------------------------- | ------- | ---------- |
+| **The Ordinary Hyaluronic Acid 2% + B5** | HA 2%   | ⭐⭐⭐⭐⭐ |
+| **Neutrogena Hydro Boost** (gel)         | HA      | ⭐⭐⭐⭐   |
+
+---
+
+## 7. Kem chống nắng (Sunscreen — _bắt buộc_)
+
+### Kem chống nắng hoá học (Chemical)
+
+| Sản phẩm                                                 | SPF     | Đánh giá                            |
+| -------------------------------------------------------- | ------- | ----------------------------------- |
+| **Anessa Perfect UV Sunscreen Skincare Milk**            | SPF 50+ | ⭐⭐⭐⭐⭐ _Best for oily_          |
+| **La Roche-Posay Anthelios Anti-Shine SPF 50+**          | SPF 50+ | ⭐⭐⭐⭐⭐ _Kiểm soát dầu tốt nhất_ |
+| **La Roche-Posay Anthelios Clear Skin Dry Touch SPF 60** | SPF 60  | ⭐⭐⭐⭐⭐                          |
+
+### Kem chống nắng vật lý (Mineral)
+
+| Sản phẩm                                            | SPF    | Đánh giá   |
+| --------------------------------------------------- | ------ | ---------- |
+| **EltaMD UV Physical Broad-Spectrum SPF 41 Tinted** | SPF 41 | ⭐⭐⭐⭐⭐ |
+
+> ⚠️ **Luôn dùng kem chống nắng cuối cùng trong routine sáng.** Reapply mỗi 2 giờ nếu ra nắng lâu.
+
+---
+
+## 8. Dưỡng ẩm gốc nước (Water-Based Moisturizer)
+
+| Sản phẩm                                                        | Loại             | Đánh giá   |
+| --------------------------------------------------------------- | ---------------- | ---------- |
+| **Neutrogena Hydro Boost Water Gel**                            | HA gel           | ⭐⭐⭐⭐⭐ |
+| **Laneige Water Bank Hydro Gel**                                | Water gel        | ⭐⭐⭐⭐   |
+| **COSRX Oil-Free Ultra Moisturizing Lotion**                    | Birch sap lotion | ⭐⭐⭐⭐   |
+| **La Roche-Posay Effaclar Mat Oil-Free Mattifying Moisturizer** | Kiểm soát dầu    | ⭐⭐⭐⭐   |
+| **Clinique Dramatically Different Moisturizing Gel**            | Oil-free gel     | ⭐⭐⭐⭐   |
+
+---
+
+## 9. Mặt nạ (Mask) — hàng tuần
+
+| Sản phẩm                                    | Loại            | Tác dụng                  | Đánh giá   |
+| ------------------------------------------- | --------------- | ------------------------- | ---------- |
+| **Aztec Secret Indian Healing Clay**        | Đất sét + ACV   | Hút nhờn, se lỗ chân lông | ⭐⭐⭐⭐⭐ |
+| **Innisfree Super Volcanic Pore Clay Mask** | Đất sét núi lửa | Hút nhờn                  | ⭐⭐⭐⭐   |
+| **Glamglow SuperMud Clearing Treatment**    | Đất sét         | Hút nhờn, trị mụn         | ⭐⭐⭐⭐   |
+| Sheet masks (Mediheal, Dr.Jart+, Innisfree) | Giấy            | Cấp ẩm, làm dịu           | ⭐⭐⭐⭐   |
+
+---
+
+## 🎁 Bổ sung: Sản phẩm giúp da bớt tiết dầu (chứa trà xanh, L-Carnitine)
+
+### Chiết xuất trà xanh
+
+| Sản phẩm                                  | Hoạt chất         | Đánh giá |
+| ----------------------------------------- | ----------------- | -------- |
+| **Innisfree Green Tea Seed Serum**        | Trà xanh đảo Jeju | ⭐⭐⭐⭐ |
+| **Boscia Green Tea Oil-Free Moisturizer** | Trà xanh + Silica | ⭐⭐⭐⭐ |
+
+### L-Carnitine
+
+| Sản phẩm                                               | Hoạt chất                                | Đánh giá |
+| ------------------------------------------------------ | ---------------------------------------- | -------- |
+| **Eucerin DermoPurifyer Oil Control Mattifying Fluid** | L-Carnitine + Decandiol + Licochalcone A | ⭐⭐⭐⭐ |
+| **SkinMedica Ultra Sheer Moisturizer**                 | L-Carnitine + Vitamin C & E              | ⭐⭐⭐⭐ |
+
+---
+
+## 📊 Tổng hợp từ các nguồn
+
+### Gợi ý từ Gemini
+
+Tập trung vào sản phẩm **kiểm soát dầu, non-comedogenic**. Đề xuất:
+
+- Tẩy trang: Hada Labo, DHC, Shu Uemura
+- Sữa rửa mặt: CeraVe, Cetaphil, La Roche-Posay
+- Tẩy tế bào chết: Paula's Choice, The Ordinary AHA/BHA
+- Toner: Klairs, Thayers
+- Serum: The Ordinary Niacinamide, Timeless Vitamin C
+- Chống nắng: Anessa, La Roche-Posay, EltaMD
+
+### Gợi ý từ ChatGPT
+
+Tập trung vào hiệu quả cao, ít bước:
+
+- Kem chống nắng: **La Roche-Posay Anthelios Anti-Shine SPF 50+**
+- Serum: **The Ordinary Niacinamide 10% + Zinc 1%**
+- Nước tẩy trang: **Bioderma Sébium H2O**
+- Toner: **Thayers Alcohol-Free Witch Hazel Toner**
+- Máy rửa mặt: **Foreo Luna Mini 3**
+- Tẩy da chết: **Paula's Choice 2% BHA**
+
+### Đánh giá cá nhân
+
+Sau khi tổng hợp, **starter pack tốt nhất cho da dầu** (bắt đầu skincare):
+
+```
+Sữa rửa mặt        → CeraVe Foaming Facial Cleanser
+Toner              → Klairs Supple Preparation Unscented Toner
+Serum              → The Ordinary Niacinamide 10% + Zinc 1%
+Kem chống nắng    → La Roche-Posay Anthelios Anti-Shine SPF 50+
+Tẩy tế bào chết   → Paula's Choice 2% BHA Liquid Exfoliant
+```
+
+→ Đây là bộ **6 sản phẩm cốt lõi**, đầy đủ, hiệu quả, không quá đắt, dễ tìm.
+
+---
+
+## ✅ Tổng kết
+
+Khi chọn sản phẩm cho da dầu, **luôn kiểm tra**:
+
+- ✅ Thành phần **non-comedogenic**
+- ✅ Dạng **gel/water-based**, finish nhẹ
+- ✅ Không chứa **cồn khô, sulfate mạnh, dầu khoáng**
+- ✅ Có chứng nhận **dược mỹ phẩm** (Bioderma, La Roche-Posay, Vichy…)
+- ✅ Review từ người dùng da dầu thực tế
+- ✅ Thương hiệu có **nguồn gốc rõ ràng**
+
+---
+
+## 🔗 Liên kết liên quan
+
+- [[Daily Routine]] — Cách dùng từng sản phẩm
+- [[Weekly Routine]] — Tẩy tế bào chết, mask hàng tuần
+- [[Oily Skin Combo]] — Combo đầy đủ (3 mức giá)
+- [[Cleansing Products]] — Tẩy trang + sữa rửa mặt
+- [[Vitamin C]] — Serum Vitamin C
+- [[Copper Peptide]] — Serum chống lão hoá

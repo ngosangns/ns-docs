@@ -1,3 +1,3 @@
-# Concepts
+# Products
 
-* [Cleansing Products](Cleansing Products.md) - Sản phẩm làm sạch
+- [[Cleansing Products]] - Tẩy trang + sữa rửa mặt (da dầu)
