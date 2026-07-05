@@ -162,6 +162,18 @@ async function startWatching(
     persistent: true,
     cwd: argv.directory,
     ignoreInitial: true,
+    // prune ignored directories from the watch tree itself, otherwise
+    // watching node_modules/.git/etc exhausts file descriptors (EMFILE).
+    // chokidar passes paths joined with cwd (e.g. "../../foo"), so resolve
+    // both sides to absolute before comparing
+    ignored: (fp) => {
+      const rel = toPosixPath(
+        path.relative(path.resolve(argv.directory), path.resolve(fp.toString())),
+      )
+      if (rel === "" || rel === ".") return false
+      if (rel.startsWith("..")) return true
+      return buildData.ignored(rel)
+    },
   })
 
   const changes: ChangeEvent[] = []
