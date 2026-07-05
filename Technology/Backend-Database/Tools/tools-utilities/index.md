@@ -1,3 +1,3 @@
 # Concepts
 
-* [Database Tools](Database Tools.md) - Database Tools
+* [Database Tools](Technology/Backend-Database/Tools/tools-utilities/Database%20Tools.md) - Database Tools

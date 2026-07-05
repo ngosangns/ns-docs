@@ -1,3 +1,3 @@
 # Concepts
 
-* [Cost Optimization](Cost Optimization.md) - DevOps đốt tiền infra – Tập 2
+* [Cost Optimization](Technology/Cloud-DevOps/Practices/Cost%20Optimization.md) - DevOps đốt tiền infra – Tập 2

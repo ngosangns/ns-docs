@@ -31,7 +31,7 @@ test("walkBundle classifies concepts, reserved files and attachments", () => {
     writeFile(root, "pic.PNG", "binary-ish")
     writeFile(root, ".git/x.md", "---\ntype: Note\n---\n")
     writeFile(root, "node_modules/y.md", "---\ntype: Note\n---\n")
-    writeFile(root, "web/dist/z.md", "---\ntype: Note\n---\n")
+    writeFile(root, "web/z.md", "---\ntype: Note\n---\n")
 
     const bundle = walkBundle(root)
 
@@ -49,7 +49,7 @@ test("walkBundle classifies concepts, reserved files and attachments", () => {
       ...bundle.logFiles,
       ...bundle.attachments
     ]
-    for (const ignored of [".git", "node_modules", "web/dist"]) {
+    for (const ignored of [".git", "node_modules", "web"]) {
       assert.ok(
         !allPaths.some((p) => p.startsWith(ignored + "/")),
         `expected no entries under ${ignored}`

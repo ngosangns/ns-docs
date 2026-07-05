@@ -1,3 +1,3 @@
 # Concepts
 
-* [Local Runtime Tools](Local Runtime Tools.md) - Local Runtime
+* [Local Runtime Tools](Technology/AI/Tools/Runtime/Local%20Runtime%20Tools.md) - Local Runtime

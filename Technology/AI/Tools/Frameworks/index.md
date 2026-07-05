@@ -1,3 +1,3 @@
 # Concepts
 
-* [Development Frameworks](Development Frameworks.md) - JAX
+* [Development Frameworks](Technology/AI/Tools/Frameworks/Development%20Frameworks.md) - JAX

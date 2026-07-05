@@ -1,4 +1,4 @@
 # Sections
 
-* [Domestic](Domestic/)
-* [International](International/)
+* [Domestic](Travel/Destinations/Domestic/index.md)
+* [International](Travel/Destinations/International/index.md)

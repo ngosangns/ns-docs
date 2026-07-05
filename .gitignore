@@ -10,4 +10,8 @@ node_modules/
 graphify-out/
 backups/
 export/
-web/dist/
+
+# Quartz (web/quartz): installed plugins, caches and build output
+web/quartz/.quartz/
+web/quartz/.quartz-cache/
+web/quartz/public/

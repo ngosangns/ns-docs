@@ -8,7 +8,7 @@ const WORKSPACE_ROOT = __dirname
 const CHECK_MODE = process.argv.includes("--check")
 
 // Directories to ignore
-const IGNORE_DIRS = ["Attachments", "node_modules", ".git"]
+const IGNORE_DIRS = ["Attachments", "node_modules", ".git", "web"]
 
 function getAllMarkdownFiles(dir, fileList = []) {
   const files = fs.readdirSync(dir)

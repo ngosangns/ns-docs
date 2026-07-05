@@ -136,13 +136,18 @@ All read through `okf-core`, so they share one parse/link model.
 | `backup.js` | `backup` | Snapshot the workspace (used by `okf-migrate --backup`). |
 | `export.js` | `export` | Export the vault. |
 
-## Web preview
+## Web (Quartz site)
 
-| Script | npm alias | Purpose |
-| --- | --- | --- |
-| `build-preview-data.js` | `web:data` | Build `web/dist/data/preview.json`. Doc nodes come 1:1 from non-reserved Concepts (Concept_Id as node id); links resolve via `okf-core`; unresolved links are skipped, not fatal. |
-| `build-preview-web.js` | `web:build` | Build the preview web app. |
-| — | `web:serve`, `web:watch`, `web:deploy` | Serve / watch / deploy the preview. |
+The vault is published with [Quartz](https://quartz.jzhao.xyz), vendored in
+`web/quartz/`. Quartz reads the vault root directly (`-d ../..`); infrastructure
+folders are excluded via `ignorePatterns` in `web/quartz/quartz.config.yaml`.
+
+| npm alias | Purpose |
+| --- | --- |
+| `web:setup` | One-time: install Quartz npm deps + community plugins (pinned by `web/quartz/quartz.lock.json`). |
+| `web:build` | Build the static site into `web/quartz/public`. |
+| `web:serve` | Build, serve locally and rebuild on changes. |
+| `web:deploy` | Build and deploy to Cloudflare Pages. |
 
 ## Testing
 
@@ -150,7 +155,7 @@ All read through `okf-core`, so they share one parse/link model.
 npm test    # node --test scripts/__tests__/**/*.test.js
 ```
 
-The suite covers unit tests, integration tests (migrate → conformance, preview node count), and one property-based test (`fast-check`, ≥100 iterations) per Correctness Property:
+The suite covers unit tests, integration tests (migrate → conformance), and one property-based test (`fast-check`, ≥100 iterations) per Correctness Property:
 
 1. Type guaranteed after migrate
 2. Unknown keys preserved

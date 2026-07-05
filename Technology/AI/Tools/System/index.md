@@ -1,4 +1,4 @@
 # Concepts
 
-* [Memory Management](Memory Management.md) - Memory Management
-* [Testing Automation](Testing Automation.md) - Testing & Automation
+* [Memory Management](Technology/AI/Tools/System/Memory%20Management.md) - Memory Management
+* [Testing Automation](Technology/AI/Tools/System/Testing%20Automation.md) - Testing & Automation

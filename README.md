@@ -12,7 +12,7 @@ A personal knowledge base organized as an **Open Knowledge Format (OKF) v0.1 Kno
 | `log.md` | Newest-first change history at the bundle root. |
 | `scripts/` | Node.js tooling — see [`scripts/README.md`](scripts/README.md). |
 | `scripts/okf-core/` | Shared core library (parse, traverse, resolve links, index). |
-| `web/` | Sigma-based graph preview app. |
+| `web/quartz/` | [Quartz](https://quartz.jzhao.xyz) static site generator that publishes the vault (explorer, full-text search, graph view, backlinks). |
 | `.kiro/specs/okf-redesign/` | Requirements, design and tasks for the OKF redesign. |
 
 ## Quick start
@@ -50,10 +50,11 @@ npm run stats
 npm run tags:stats
 npm run notes:orphaned
 
-# Web preview
-npm run web:data           # build web/dist/data/preview.json
-npm run web:build
-npm run web:serve
+# Web (Quartz site)
+npm run web:setup          # one-time: install Quartz deps + community plugins
+npm run web:build          # build static site into web/quartz/public
+npm run web:serve          # build, serve locally and watch notes
+npm run web:deploy         # deploy web/quartz/public to Cloudflare Pages
 ```
 
 ## Conventions

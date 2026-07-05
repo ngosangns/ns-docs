@@ -1,10 +1,10 @@
 # Sections
 
-* [Fine-tuning](Fine-tuning/)
-* [prompt-engineering](prompt-engineering/)
-* [RAG](RAG/)
-* [Resources](Resources/)
+* [Fine-tuning](Technology/AI/Concepts/LLM-Generative-AI/Fine-tuning/index.md)
+* [prompt-engineering](Technology/AI/Concepts/LLM-Generative-AI/prompt-engineering/index.md)
+* [RAG](Technology/AI/Concepts/LLM-Generative-AI/RAG/index.md)
+* [Resources](Technology/AI/Concepts/LLM-Generative-AI/Resources/index.md)
 
 # Concepts
 
-* [LLM Overview](LLM Overview.md) - LLM Overview
+* [LLM Overview](Technology/AI/Concepts/LLM-Generative-AI/LLM%20Overview.md) - LLM Overview

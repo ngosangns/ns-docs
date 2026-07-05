@@ -1,3 +1,3 @@
 # Sections
 
-* [Concepts](Concepts/)
+* [Concepts](Technology/Computer-Science/Concepts/index.md)

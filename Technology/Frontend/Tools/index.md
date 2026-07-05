@@ -1,8 +1,8 @@
 # Sections
 
-* [React](React/)
-* [Vue](Vue/)
+* [React](Technology/Frontend/Tools/React/index.md)
+* [Vue](Technology/Frontend/Tools/Vue/index.md)
 
 # Concepts
 
-* [CSS Tools](CSS Tools.md) - CSS Tools
+* [CSS Tools](Technology/Frontend/Tools/CSS%20Tools.md) - CSS Tools

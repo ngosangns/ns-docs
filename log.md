@@ -1,3 +1,5 @@
+## 2026-07-04
+**Update** Replace custom preview web with Quartz static site generator (web/quartz); okf-index now emits percent-encoded bundle-root URLs
 ## 2026-06-28
 **Update** inbox: added MediaCrawler, plane, ainovel-cli, FluidVoice, ai-berkshire, astryx
 ## 2026-06-19

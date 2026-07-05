@@ -1,3 +1,3 @@
 # Concepts
 
-* [Cho Mua Do](Cho Mua Do.md) - Chỗ mua đồ
+* [Cho Mua Do](Life/Style/Shopping/Cho%20Mua%20Do.md) - Chỗ mua đồ

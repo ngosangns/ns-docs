@@ -1,3 +1,0 @@
-# Sections
-
-* [js](js/)

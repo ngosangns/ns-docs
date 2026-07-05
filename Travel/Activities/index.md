@@ -1,7 +1,7 @@
 # Sections
 
-* [Camping](Camping/)
+* [Camping](Travel/Activities/Camping/index.md)
 
 # Concepts
 
-* [Phuot](Phuot.md) - Phượt
+* [Phuot](Travel/Activities/phuot.md) - Phượt

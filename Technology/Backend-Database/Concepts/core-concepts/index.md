@@ -1,4 +1,4 @@
 # Concepts
 
-* [SQL Optimization](SQL Optimization.md) - SQL Optimization
-* [Storage Engines](Storage Engines.md) - Storage Engines (MySQL)
+* [SQL Optimization](Technology/Backend-Database/Concepts/core-concepts/SQL%20Optimization.md) - SQL Optimization
+* [Storage Engines](Technology/Backend-Database/Concepts/core-concepts/Storage%20Engines.md) - Storage Engines (MySQL)

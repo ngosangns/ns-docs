@@ -1,3 +1,3 @@
 # Concepts
 
-* [Authentication Security](Authentication Security.md) - Authentication Security
+* [Authentication Security](Technology/Security/Practices/Authentication%20Security.md) - Authentication Security

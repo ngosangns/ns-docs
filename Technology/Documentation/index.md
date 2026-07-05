@@ -1,4 +1,4 @@
 # Sections
 
-* [Concepts](Concepts/)
-* [Resources](Resources/)
+* [Concepts](Technology/Documentation/Concepts/index.md)
+* [Resources](Technology/Documentation/Resources/index.md)

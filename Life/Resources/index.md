@@ -1,3 +1,3 @@
 # Concepts
 
-* [Life Resources](Life Resources.md) - Life Resources
+* [Life Resources](Life/Resources/Life%20Resources.md) - Life Resources

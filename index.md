@@ -4,11 +4,10 @@ okf_version: "0.1"
 
 # Sections
 
-* [Attachments](Attachments/)
-* [English](English/)
-* [inbox](inbox/)
-* [Life](Life/)
-* [Projects](Projects/)
-* [Technology](Technology/)
-* [Travel](Travel/)
-* [web](web/)
+* [Attachments](Attachments/index.md)
+* [English](English/index.md)
+* [inbox](inbox/index.md)
+* [Life](Life/index.md)
+* [Projects](Projects/index.md)
+* [Technology](Technology/index.md)
+* [Travel](Travel/index.md)

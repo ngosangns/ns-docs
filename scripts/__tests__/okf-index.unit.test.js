@@ -40,15 +40,15 @@ test("renderConceptBullet emits `* [Title](url) - description`", () => {
   const bullet = renderConceptBullet(
     concept("Passive Voice.md", { title: "Passive Voice", description: "How to form it" })
   )
-  assert.equal(bullet, "* [Passive Voice](Passive Voice.md) - How to form it")
+  assert.equal(bullet, "* [Passive Voice](Passive%20Voice.md) - How to form it")
 })
 
 test("renderConceptBullet Title falls back to filename without .md when title empty", () => {
   const fromBlank = renderConceptBullet(concept("Relative Clauses.md", { title: "   " }))
-  assert.equal(fromBlank, "* [Relative Clauses](Relative Clauses.md)")
+  assert.equal(fromBlank, "* [Relative Clauses](Relative%20Clauses.md)")
 
   const fromMissing = renderConceptBullet(concept("Reported Speech.md", {}))
-  assert.equal(fromMissing, "* [Reported Speech](Reported Speech.md)")
+  assert.equal(fromMissing, "* [Reported Speech](Reported%20Speech.md)")
 })
 
 // --- Requirement 7.4: empty description drops ` - description` --------------
@@ -95,17 +95,21 @@ test("generateIndexes never lists index.md or log.md as concepts", () => {
 
 // --- Requirement 7.6: subdir bullet label/url ------------------------------
 
-test("renderSubdirBullet uses the name as label and name + '/' as url", () => {
-  assert.equal(renderSubdirBullet("Grammar"), "* [Grammar](Grammar/)")
+test("renderSubdirBullet links to the subdirectory's index.md from the bundle root", () => {
+  assert.equal(renderSubdirBullet("Grammar", ""), "* [Grammar](Grammar/index.md)")
+  assert.equal(
+    renderSubdirBullet("Passive Voice", "English/Grammar"),
+    "* [Passive Voice](English/Grammar/Passive%20Voice/index.md)"
+  )
 })
 
-test("buildDirectoryIndex renders subdirs under # Sections with trailing-slash urls", () => {
+test("buildDirectoryIndex renders subdirs under # Sections with bundle-root index.md urls", () => {
   const content = buildDirectoryIndex("root", {
     concepts: [],
     subdirs: ["Grammar"]
   })
   assert.match(content, /# Sections/)
-  assert.match(content, /\* \[Grammar\]\(Grammar\/\)/)
+  assert.match(content, /\* \[Grammar\]\(root\/Grammar\/index\.md\)/)
 })
 
 // --- Requirement 7.7: deterministic case-insensitive ascending sort --------
@@ -171,6 +175,11 @@ test("isIndexUsedAsConcept allows a generated root index (only okf_version)", ()
 test("isIndexUsedAsConcept flags an index.md carrying knowledge body content", () => {
   const raw = "# Concepts\n\n* [A](A.md)\n\nThis is hand-written knowledge.\n"
   assert.equal(isIndexUsedAsConcept(raw, false), true)
+})
+
+test("isIndexUsedAsConcept treats bullets with descriptions as generated navigation", () => {
+  const raw = "# Concepts\n\n* [A](Tech/A.md) - Một mô tả ngắn\n* [B](Tech/B.md)\n"
+  assert.equal(isIndexUsedAsConcept(raw, false), false)
 })
 
 test("generateIndexes skips and warns about a concept-like index.md without overwriting it", () => {

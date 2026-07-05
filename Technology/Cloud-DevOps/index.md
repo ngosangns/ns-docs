@@ -1,5 +1,5 @@
 # Sections
 
-* [Concepts](Concepts/)
-* [Practices](Practices/)
-* [Tools](Tools/)
+* [Concepts](Technology/Cloud-DevOps/Concepts/index.md)
+* [Practices](Technology/Cloud-DevOps/Practices/index.md)
+* [Tools](Technology/Cloud-DevOps/Tools/index.md)

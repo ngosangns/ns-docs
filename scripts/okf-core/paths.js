@@ -23,7 +23,7 @@ function relPathOf(absPath, rootDir) {
 
 // isIgnoredPath(relPosix) -> boolean
 // True when a bundle-relative POSIX path falls inside one of IGNORED_PATHS
-// (`.git`, `node_modules`, `.wrangler`, `web/dist`).
+// (`.git`, `node_modules`, `.wrangler`, `web`).
 function isIgnoredPath(relPosix) {
   return IGNORED_PATHS.some(
     (ignored) => relPosix === ignored || relPosix.startsWith(ignored + "/")

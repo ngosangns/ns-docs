@@ -28,7 +28,7 @@ test("IGNORED_PATHS excludes build, VCS and non-knowledge directories", () => {
     ".git",
     "node_modules",
     ".wrangler",
-    "web/dist",
+    "web",
     ".kiro",
     "graphify-out",
     "docs",

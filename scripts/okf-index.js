@@ -11,15 +11,17 @@
 // (`--apply`) the generated files.
 //
 // ---------------------------------------------------------------------------
-// Relative-URL scheme
+// Bundle-root URL scheme
 // ---------------------------------------------------------------------------
-// Every URL emitted in an index.md is relative to the directory that index.md
-// lives in (i.e. relative to the index file itself):
-//   - A Concept directly inside the directory is linked by its file basename,
-//     extension included, e.g. `Passive Voice.md`.
-//   - A direct subdirectory is linked by `<SubdirName>/` (trailing slash), so
-//     it resolves to that subdirectory's own index.md.
-// This keeps every generated link portable and independent of the bundle root.
+// Every URL emitted in an index.md is the percent-encoded bundle-relative
+// path of the destination file (from the bundle root, no leading slash):
+//   - A Concept is linked by its full bundle path, extension included,
+//     e.g. `English/Grammar/Passive%20Voice.md`.
+//   - A direct subdirectory is linked by `<bundle-path>/index.md`, pointing
+//     at that subdirectory's own index.md.
+// Full paths (instead of directory-relative ones) are required so standard
+// markdown renderers (Obsidian, Quartz) resolve every link unambiguously;
+// percent-encoding keeps destinations valid CommonMark even with spaces.
 //
 // ---------------------------------------------------------------------------
 // "index.md used as a Concept" detection (no-overwrite heuristic)
@@ -31,7 +33,8 @@
 //       * root:     any frontmatter key other than `okf_version`; OR
 //   - its body contains non-navigation content: any non-blank line that is not
 //     one of the auto-generated section headings (`# Sections` / `# Concepts`)
-//     and not an auto-generated bullet (`* [label](url)`).
+//     and not an auto-generated bullet (`* [label](url)` with an optional
+//     ` - description` suffix).
 // The heuristic is intentionally simple and conservative: anything that does
 // not look exactly like a generated index is preserved untouched.
 
@@ -53,18 +56,25 @@ function isNonEmptyString(value) {
   return typeof value === "string" && value.trim().length > 0
 }
 
+// encodeMarkdownUrl(relPath) -> string
+// Percent-encodes each path segment so the URL stays a valid CommonMark link
+// destination (spaces and parentheses would otherwise break the parser).
+function encodeMarkdownUrl(relPath) {
+  return String(relPath)
+    .split("/")
+    .map(segment =>
+      encodeURIComponent(segment)
+        .replace(/\(/g, "%28")
+        .replace(/\)/g, "%29")
+    )
+    .join("/")
+}
+
 // basenameNoExt(relPath) -> string
 // Last `/`-segment of a bundle-relative path with the trailing `.md` removed.
 function basenameNoExt(relPath) {
   const base = String(relPath).split("/").pop() || ""
   return base.replace(/\.md$/i, "")
-}
-
-// basenameWithExt(relPath) -> string
-// Last `/`-segment of a bundle-relative path (extension kept). Used as the
-// relative URL of a Concept linked from its own directory's index.md.
-function basenameWithExt(relPath) {
-  return String(relPath).split("/").pop() || ""
 }
 
 // conceptTitle(concept) -> string
@@ -101,33 +111,40 @@ function caseInsensitiveCompare(a, b) {
 // --- pure builders ---------------------------------------------------------
 
 // renderConceptBullet(concept) -> string
-// `* [Title](relative-url) - description`, dropping ` - description` when the
-// description is empty (Requirements 7.3, 7.4).
+// `* [Title](bundle-root-url) - description`, dropping ` - description` when
+// the description is empty (Requirements 7.3, 7.4). The URL is the
+// percent-encoded bundle-relative path so standard markdown renderers
+// (Obsidian, Quartz) resolve it unambiguously.
 function renderConceptBullet(concept) {
   const title = conceptTitle(concept)
-  const url = basenameWithExt(concept.relPath)
+  const url = encodeMarkdownUrl(concept.relPath)
   const description = conceptDescription(concept)
   const base = `* [${title}](${url})`
   return description ? `${base} - ${description}` : base
 }
 
-// renderSubdirBullet(name) -> string
-// `* [<name>](<name>/)` — label is the subdirectory name, URL is the relative
-// path to that subdirectory (Requirement 7.6).
-function renderSubdirBullet(name) {
-  return `* [${name}](${name}/)`
+// renderSubdirBullet(name, relDir) -> string
+// `* [<name>](<bundle-root-path>/index.md)` — label is the subdirectory name,
+// URL is the percent-encoded bundle-relative path to that subdirectory's
+// index.md (Requirement 7.6). Linking to index.md keeps the destination a
+// real file so both Obsidian and Quartz resolve it.
+function renderSubdirBullet(name, relDir) {
+  const rel = relDir ? `${relDir}/${name}` : name
+  return `* [${name}](${encodeMarkdownUrl(rel)}/index.md)`
 }
 
-// renderIndexBody(children) -> string
+// renderIndexBody(children, relDir) -> string
 //
 // Shared body renderer for both root and non-root index files. `children`:
 //   { concepts: Concept[], subdirs: string[] }
+// `relDir` is the bundle-relative path of the directory being rendered (""
+// for the bundle root); subdirectory URLs are built from it.
 // - Reserved_File entries must already be excluded from `concepts`.
 // - Subdirs are listed under `# Sections`, concepts under `# Concepts`.
 // - Both lists are sorted ascending, case-insensitive and deterministically
 //   (concepts by Title, subdirs by name) (Requirement 7.7).
 // - An empty directory yields an empty body (Requirement 7.8).
-function renderIndexBody(children) {
+function renderIndexBody(children, relDir) {
   const concepts = Array.isArray(children && children.concepts) ? children.concepts.slice() : []
   const subdirs = Array.isArray(children && children.subdirs) ? children.subdirs.slice() : []
 
@@ -139,7 +156,7 @@ function renderIndexBody(children) {
   if (subdirs.length > 0) {
     const lines = [SECTIONS_HEADING, ""]
     for (const name of subdirs) {
-      lines.push(renderSubdirBullet(name))
+      lines.push(renderSubdirBullet(name, relDir))
     }
     sections.push(lines.join("\n"))
   }
@@ -165,7 +182,7 @@ function renderIndexBody(children) {
 // only, with NO frontmatter block (Requirement 7.1). `dir` is accepted for
 // API symmetry / future use; the content depends solely on `children`.
 function buildDirectoryIndex(dir, children) {
-  return renderIndexBody(children)
+  return renderIndexBody(children, dir)
 }
 
 // buildRootIndex(tree) -> string
@@ -175,14 +192,16 @@ function buildDirectoryIndex(dir, children) {
 // followed by the same navigation body. `tree` is { concepts, subdirs }.
 function buildRootIndex(tree) {
   const frontmatter = '---\nokf_version: "0.1"\n---\n\n'
-  return frontmatter + renderIndexBody(tree)
+  return frontmatter + renderIndexBody(tree, "")
 }
 
 // --- concept-detection heuristic -------------------------------------------
 
 // isGeneratedNavLine(line) -> boolean
 // A line counts as auto-generated navigation when it is blank, one of the
-// known section headings, or a markdown bullet of the form `* [label](url)`.
+// known section headings, or a markdown bullet of the form
+// `* [label](url)` / `* [label](url) - description` (the exact shapes
+// renderSubdirBullet and renderConceptBullet emit).
 function isGeneratedNavLine(line) {
   const trimmed = line.trim()
   if (trimmed === "") {
@@ -191,7 +210,7 @@ function isGeneratedNavLine(line) {
   if (trimmed === SECTIONS_HEADING || trimmed === CONCEPTS_HEADING) {
     return true
   }
-  return /^\*\s+\[[^\]]*\]\([^)]*\)\s*$/.test(trimmed)
+  return /^\*\s+\[[^\]]*\]\([^)]*\)(\s+-\s+.*)?$/.test(trimmed)
 }
 
 // isIndexUsedAsConcept(raw, isRoot) -> boolean

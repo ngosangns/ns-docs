@@ -20,7 +20,7 @@ const IGNORED_PATHS = [
   ".git",
   "node_modules",
   ".wrangler",
-  "web/dist",
+  "web",
   ".kiro",
   "graphify-out",
   "docs",

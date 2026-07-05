@@ -1,22 +1,22 @@
 version: "3"
 
 tasks:
+  web:setup:
+    desc: Install Quartz dependencies and community plugins
+    cmds:
+      - npm run web:setup
+
   web:build:
-    desc: Build the static knowledge base preview web
+    desc: Build the knowledge base site with Quartz
     cmds:
       - npm run web:build
 
   web:serve:
-    desc: Build and serve the preview web locally
+    desc: Build, serve locally and watch notes with Quartz
     cmds:
       - npm run web:serve
 
-  web:watch:
-    desc: Watch notes and preview assets, then serve locally
-    cmds:
-      - npm run web:watch
-
   web:deploy:
-    desc: Build and deploy the preview web to Cloudflare Pages
+    desc: Build and deploy the Quartz site to Cloudflare Pages
     cmds:
       - npm run web:deploy

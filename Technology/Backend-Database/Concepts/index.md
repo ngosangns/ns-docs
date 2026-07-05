@@ -1,10 +1,10 @@
 # Sections
 
-* [core-concepts](core-concepts/)
-* [database-types](database-types/)
-* [Microservices](Microservices/)
-* [techniques-architecture](techniques-architecture/)
+* [core-concepts](Technology/Backend-Database/Concepts/core-concepts/index.md)
+* [database-types](Technology/Backend-Database/Concepts/database-types/index.md)
+* [Microservices](Technology/Backend-Database/Concepts/Microservices/index.md)
+* [techniques-architecture](Technology/Backend-Database/Concepts/techniques-architecture/index.md)
 
 # Concepts
 
-* [Caching](Caching.md) - Caching
+* [Caching](Technology/Backend-Database/Concepts/caching.md) - Caching

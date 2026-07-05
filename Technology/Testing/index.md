@@ -1,3 +1,3 @@
 # Sections
 
-* [Tools](Tools/)
+* [Tools](Technology/Testing/Tools/index.md)

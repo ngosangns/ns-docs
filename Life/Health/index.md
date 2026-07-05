@@ -1,3 +1,3 @@
 # Sections
 
-* [Resources](Resources/)
+* [Resources](Life/Health/Resources/index.md)

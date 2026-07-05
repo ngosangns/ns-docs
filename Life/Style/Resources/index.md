@@ -1,3 +1,3 @@
 # Concepts
 
-* [Fashion Resources](Fashion Resources.md) - Fashion Resources
+* [Fashion Resources](Life/Style/Resources/Fashion%20Resources.md) - Fashion Resources
