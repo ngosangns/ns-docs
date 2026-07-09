@@ -34,9 +34,12 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/bytedance/deer-flow — DeerFlow (Deep Exploration and Efficient Research Flow); open-source long-horizon super agent harness that researches, codes, and creates using sandboxes, memory, tools, skills, subagents, and a message gateway for tasks taking minutes to hours.
 - https://github.com/NousResearch/hermes-agent — Agent with a built-in learning loop; creates skills from experience, improves them during use, searches its own past conversations, and builds a deepening model of the user across sessions.
 - https://github.com/oobabooga/textgen — Open-source desktop app for local LLMs (formerly text-generation-webui); text, vision, and tool-calling with an OpenAI/Anthropic-compatible API, multiple inference backends, and 100% private operation.
+- https://github.com/triggerdotdev/trigger.dev — Build and deploy fully-managed AI agents and workflows; open-source background jobs platform with a task runner, queues, and dashboard.
+- https://github.com/google/agents-cli — CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud, built around Google's Agent Development Kit (ADK).
 
 ## Web & Desktop Frameworks
 
+- https://github.com/voidzero-dev/vite-plus — Unified toolchain and entry point for web development; manages runtime, package manager, and brings Vite, Vitest, Rolldown, tsdown, Oxlint, and Oxfmt together with a built-in task runner.
 - https://github.com/cloudflare/vinext — Reimplements the Next.js API surface on Vite; deployable to Cloudflare Workers and other platforms.
 - https://github.com/blackboardsh/electrobun — Cross-platform desktop app framework using TypeScript, Bun, and Zig with tiny ~12MB bundles.
 - https://github.com/likec4/likec4 — Architecture-as-code modeling language and tooling to generate live C4-style diagrams from code.
@@ -60,6 +63,11 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/trailofbits/skills — Trail of Bits Claude Code skills marketplace for security research, vulnerability detection, and audit workflows; smart-contract auditing, static analysis, fuzzing, crypto side-channel checks, and more.
 - https://github.com/zhaoxuya520/reverse-skill — Skill router pack for reverse engineering, authorized penetration testing, and security research; AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base for Claude Code, Kiro, Cursor, Cline, and other AI coding clients.
 - https://github.com/flipperdevices/flipperzero-firmware — Official firmware source for the Flipper Zero, the portable multi-tool for hardware hacking, RF/NFC/RFID/infrared experimentation, and pentesting.
+- https://github.com/PentesterFlow/agent — Terminal-based AI agent for professional pentesters and bug hunters; automates recon-to-report with human-in-the-loop control, built-in skills for IDOR/SSRF/SSTI/JWT/GraphQL/race conditions, Burp Suite integration, local learning across sessions, 20+ slash commands, and support for Ollama/LM Studio/Kimi/Groq/OpenRouter/DeepSeek/Gemini backends.
+- https://github.com/uphiago/recon-skills — Collection of 212 field-validated attack/recon skills distilled from real engagements across 600+ companies in 28 industries; organized into recon, redteam, meta, chains, auth, and infra categories, designed for AI agent integration (e.g. Claude Code).
+- https://github.com/weirdmachine64/GhidraGPT — Ghidra plugin that integrates LLMs (GPT, Claude, Gemini, Cohere, Mistral, DeepSeek, Grok, and local models via Ollama) to automate reverse engineering: renames variables, infers types, adds comments, explains logic, and flags vulnerabilities with streamed responses.
+- https://github.com/cr0hn/dockerscan — All-in-one Docker security scanner; scans images for vulnerabilities and leaked secrets, audits container/host configuration (root containers, exposed Docker socket), analyzes Docker network exposure, and aligns with CIS Benchmark/NIST SP 800-190.
+- https://github.com/evyatarmeged/Raccoon — High-performance recon and vulnerability scanning tool (3.2k+ stars); DNS enumeration, WHOIS/TLS lookups, port scanning with Nmap scripts, subdomain enumeration, URL fuzzing with SecLists wordlists, WAF detection, Tor/proxy routing, and async performance via Python asyncio.
 
 ## Knowledge & Data Management
 
@@ -119,6 +127,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/DietrichGebert/ponytail — Provider-neutral agent skill that makes AI coding agents write minimal, necessary code (YAGNI ladder) without sacrificing validation, security, or accessibility; works with 14+ agents including Kiro.
 - https://github.com/DenisSergeevitch/agents-best-practices — Provider-neutral Agent Skill for designing, auditing, and refactoring agentic harnesses; covers the model-tool-observation loop, typed tools, permissions, budgets, memory/compaction, and launch gates.
 - https://github.com/chopratejas/headroom — Context compression layer for AI agents; compresses tool outputs, logs, RAG chunks, files, and history (60–95% fewer tokens) before they reach the LLM, as library/proxy/MCP, local-first and reversible.
+- https://github.com/headroomlabs-ai/headroom — Same Headroom context-compression project (looks like it moved to the headroomlabs-ai org); compresses tool outputs, logs, files, and RAG chunks before they reach the LLM, 60-95% fewer tokens, as library/proxy/MCP server.
+- https://github.com/teamchong/pxpipe — Local proxy that cuts Claude Code token usage by rendering dense text context (system prompts, tool docs, old history) as PNG images, exploiting cheaper image token pricing for up to 70% cost reduction.
 - https://github.com/addyosmani/agent-skills — Production-grade engineering skills for AI coding agents; 24 lifecycle skills (spec, plan, build, test, review, ship) with verification gates and anti-rationalization, works with Claude Code, Cursor, Kiro, and more.
 - https://github.com/daymade/claude-code-skills — Professional Claude Code skills marketplace with 60+ production-ready skills (skill-creator, doc/media tooling, troubleshooting doctors, research, finance) installable via the plugin marketplace.
 - https://github.com/agentfinder — Agent Finder; searchable directory of AI resources (293+ skills/agents) implementing the Agentic Resource Discovery (ARD) specification for programmatic agent resource discovery.
@@ -148,6 +158,7 @@ resource: https://github.com/daytonaio/daytona
 
 ## Machine Learning & Tabular Data
 
+- https://github.com/google-research/tabfm — Google's zero-shot foundation model for tabular classification and regression; treats prediction as in-context learning, no training, tuning, or feature engineering, single forward pass.
 - https://github.com/PriorLabs/TabPFN — Foundation model for tabular data with classification and regression support, optimized especially for small to medium datasets.
 - https://github.com/apple/coreai-models — Apple's model export recipes, Python primitives, and Swift runtime utilities for on-device AI with Core AI; includes agent skills to help coding agents deploy PyTorch models on Apple silicon.
 - https://github.com/Kanaries/pygwalker — Python library for exploratory data analysis; turns a pandas/polars dataframe into an interactive Tableau-style UI for visual exploration in Jupyter, Streamlit, and more (DuckDB-powered).
@@ -155,6 +166,7 @@ resource: https://github.com/daytonaio/daytona
 
 ## File Transfer & Networking
 
+- https://github.com/juanfont/headscale — Open source, self-hosted implementation of the Tailscale control server; run your own mesh VPN coordination server instead of relying on Tailscale's hosted service.
 - https://github.com/tonyantony300/alt-sendme — Peer-to-peer file transfer tool using Iroh; no cloud storage, end-to-end encrypted, resumable, cross-platform.
 - https://github.com/nats-io/nats-server — CNCF cloud and edge native messaging system; 40+ client languages, runs from cloud to Raspberry Pi.
 - https://github.com/tuanngocptn/nport — Free ngrok alternative using Cloudflare Tunnels; instant HTTP/HTTPS tunnels with custom subdomains, no account required.
