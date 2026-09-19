@@ -36,6 +36,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/oobabooga/textgen — Open-source desktop app for local LLMs (formerly text-generation-webui); text, vision, and tool-calling with an OpenAI/Anthropic-compatible API, multiple inference backends, and 100% private operation.
 - https://github.com/triggerdotdev/trigger.dev — Build and deploy fully-managed AI agents and workflows; open-source background jobs platform with a task runner, queues, and dashboard.
 - https://github.com/google/agents-cli — CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud, built around Google's Agent Development Kit (ADK).
+- https://github.com/trycua/cua — Open-source computer-use agent infrastructure ("computer-use 2.0"); cross-OS drivers and fleets plus benchmarks for training, evaluation, and data generation.
+- https://github.com/CopilotKit/channels-sdk — Open-source SDK that brings any AG-UI-compatible agent (CopilotKit's own, LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) into Slack, Microsoft Teams, and Discord with native, interactive UI (Block Kit/Adaptive Cards), tool calls, file handling, and human-approval gates.
 
 ## Web & Desktop Frameworks
 
@@ -51,6 +53,9 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/Avaiga/taipy — Python framework for turning data and AI algorithms into production-ready web applications without leaving Python.
 - https://github.com/typv/nest-turbo-starter — NestJS monorepo starter kit for building scalable microservices with Turborepo and pnpm.
 - https://github.com/facebook/astryx — Open-source, fully customizable, agent-ready React design system from Meta; 150+ TypeScript components, theme-as-CSS-variables system, 7 ready-made themes, and a CLI so people and AI assistants build the same way from the same reference.
+- https://21st.dev/ — Community registry of 12,000+ production-ready React/Tailwind CSS components, templates, and themes built by design engineers; live preview, one-command install that copies code into your repo (no dependency lock-in), aimed at both developers and AI coding agents.
+- https://github.com/vercel-labs/native — Vercel Labs experiment: toolkit for building native desktop apps with a declarative `.native` markup and TypeScript compiled to native code (Zig engine); renders every pixel directly to real OS windows with no browser/WebView/JS runtime in the binary.
+- https://github.com/TheOrcDev/shadscan — Deterministic UI audits for shadcn/ui apps, runnable from the terminal, CI, or an AI agent.
 
 ## Security & Pentesting
 
@@ -68,6 +73,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/weirdmachine64/GhidraGPT — Ghidra plugin that integrates LLMs (GPT, Claude, Gemini, Cohere, Mistral, DeepSeek, Grok, and local models via Ollama) to automate reverse engineering: renames variables, infers types, adds comments, explains logic, and flags vulnerabilities with streamed responses.
 - https://github.com/cr0hn/dockerscan — All-in-one Docker security scanner; scans images for vulnerabilities and leaked secrets, audits container/host configuration (root containers, exposed Docker socket), analyzes Docker network exposure, and aligns with CIS Benchmark/NIST SP 800-190.
 - https://github.com/evyatarmeged/Raccoon — High-performance recon and vulnerability scanning tool (3.2k+ stars); DNS enumeration, WHOIS/TLS lookups, port scanning with Nmap scripts, subdomain enumeration, URL fuzzing with SecLists wordlists, WAF detection, Tor/proxy routing, and async performance via Python asyncio.
+- https://github.com/openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.
 
 ## Knowledge & Data Management
 
@@ -79,6 +85,12 @@ resource: https://github.com/daytonaio/daytona
 - https://huggingface.co/jinaai/jina-embeddings-v5-text-nano — Compact multilingual text embedding model for retrieval, matching, clustering, and classification; 239M parameters.
 - https://github.com/StarTrail-org/PixelRAG — Visual RAG that renders documents (web pages, PDFs, images) to screenshots and retrieves over the images with a LoRA-tuned Qwen3-VL embedding model; ships a hosted 8.28M-page Wikipedia index and a Claude Code "pixelbrowse" skill.
 - https://github.com/GoogleCloudPlatform/knowledge-catalog — Google Cloud Knowledge Catalog tools and samples, including an LLM-based enrichment agent for cataloging and enriching data assets.
+- https://github.com/searxng/searxng — Free, self-hostable internet metasearch engine that aggregates results from many search services and databases without tracking or profiling users; commonly used as a web-search backend for AI agents/RAG.
+- https://github.com/tursodatabase/turso — SQLite-compatible SQL database written in Rust ("the LLVM of databases"), now also speaking the Postgres wire protocol (experimental).
+- https://github.com/lfnovo/open-notebook — Open-source implementation of Notebook LM with more flexibility and features.
+- https://github.com/firecrawl/anydoc — Converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown; built in Rust with Node.js and Python bindings.
+- https://huggingface.co/GreenNode/GreenNode-Embedding-Large-VN-Mixed-V1 — Vietnamese-focused sentence embedding model (0.6B params, up to 8,192 tokens); maps sentences/paragraphs to 1024-dim vectors for semantic search, trained on Vietnamese data with strong results on table retrieval, legal text, and QA benchmarks.
+- https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0 — Sub-1B-param vision-encoder-decoder model that turns document images/PDFs into structured machine-readable output (text, layout classes, bounding boxes, reading order); expanded multilingual OCR, handwriting, and chart-to-table parsing over v1.2, aimed at document intelligence and RAG ingestion.
 
 ## Content & Multimedia
 
@@ -96,7 +108,18 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/nexu-io/html-anything — Agentic HTML editor where your local AI agent writes the HTML; 75 skills across 9 surfaces (magazine, deck, poster, tweet/XHS, prototype, data report), sandboxed preview, and 1-click export to HTML/PNG/WeChat/X/Zhihu with zero API key.
 - https://github.com/caotranquochoai/Voice-Translator-V2 — Real-time desktop voice translator (Python/PyQt5); captures mic or system audio and runs an STT → translation → TTS pipeline with multiple swappable engines (Faster Whisper, Qwen3-ASR, Gemini Live, local VieNeu-TTS) for near real-time speech translation.
 - https://github.com/kentjuno/ainovel-cli — Multi-agent autonomous long-form novel-writing CLI (Go); a coordinator drives Architect → Writer → Editor in a single LLM loop to go from one prompt to a complete novel (500+ chapters) with 3-tier context management, step-level checkpointing, real-time intervention, and TXT/EPUB export. Vietnamese fork of voocel/ainovel-cli.
+- https://3dviz.dev/ — Turns a text idea into an interactive 3D scene worth exploring; aimed at creators/designers who want a fast concept-to-3D-visualization workflow.
 - https://github.com/altic-dev/FluidVoice — Open-source macOS voice-to-text dictation app (Swift) with on-device AI enhancement; local-first, supports Nemotron/Parakeet/Whisper/Apple speech models, Command Mode and Write Mode, live preview overlay, and optional fully-local "Fluid Intelligence" formatting.
+- https://github.com/Zackriya-Solutions/meetily — Privacy-first, self-hosted AI meeting assistant (Rust) for macOS & Windows; 4x-faster Parakeet/Whisper live transcription, speaker diarization, and Ollama-based summarization, 100% local processing with no cloud required.
+- https://github.com/wozniakpawel/PairPods — Free, open-source macOS app to share audio between people/devices.
+- https://github.com/notepower2k1/CapCap — Windows desktop app for short-form video localization and dubbing, Vietnamese-focused; combines transcription, translation, subtitle styling, voice generation, timeline editing, preview, and export in one project workflow.
+- https://github.com/hyscaler/HyCanvas — Free, self-hostable, AI-native design software for creating graphics, social posts, and more, with no paywalls or watermarks.
+- https://github.com/krillinai/OpenCreator — Open-source AI workspace for creators (formerly KrillinAI), powered by Codex; agents create videos, images, voice, avatars, translations, and edits all in one place.
+- https://github.com/michaelwilhelmsen/humla — Open-source AI meeting notes app for Mac; records mic + system audio with no bot, transcribes on-device or via OpenAI/Deepgram/Groq, identifies speakers offline, writes summaries that fuse your notes with the transcript, and answers questions about your notes with citations (Tauri 2 + Rust + Swift).
+- https://vidcdn.one/ — Video Pro CDN: automates video transcoding into multiple qualities (360p–4K), HLS segmentation, and global CDN distribution via distributed cloud worker clusters running 24/7.
+- https://ocr.z.ai/ — GLM-OCR hosted service; free OCR that extracts text from images into editable digital text, powered by Zhipu's GLM (the model behind community tools like Folio-OCR above).
+- https://huggingface.co/owensong/Inflect-Nano-v1 — Ultra-compact English TTS model (4.63M total inference params including vocoder); full text-to-24kHz-waveform pipeline in a tiny footprint for local/embedded deployment and offline assistants, with expected quality trade-offs at this scale.
+- https://ideogram.ai/ — AI image generation platform known for accurate in-image text/typography rendering; text-to-image, product photography, and design tools (logos, posters) alongside more general photorealistic/artistic generation.
 
 ## AI Tooling & Productivity
 
@@ -115,6 +138,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/garrytan/gstack — Turns Claude Code into a virtual engineering team with 23 specialist slash commands (CEO, eng manager, QA, security, release engineer).
 - https://github.com/lightpanda-io/browser — Headless browser built from scratch in Zig for AI agents and automation; CDP-compatible, ~16x less memory than Chrome.
 - https://github.com/h4ckf0r0day/obscura — Lightweight, stealthy headless browser for AI agents and web scraping; written in Rust with V8, CDP-compatible drop-in for headless Chrome, built-in anti-detection, and an MCP server.
+- https://github.com/Tencent/BrowserSkill — Lets AI agents use your real, logged-in browser without interrupting your work; CLI + extension for browser automation across any shell-capable AI agent.
 - https://github.com/greensock/gsap-skills — Official GSAP AI skills (Agent Skills format) that teach coding agents correct GSAP usage: core API, timelines, ScrollTrigger, plugins, and React/Vue/Svelte patterns.
 - https://github.com/rtk-ai/rtk — CLI proxy reducing LLM token usage by 60-90% on dev commands; single Rust binary with auto-rewrite hooks for major AI tools.
 - https://github.com/TrNgTien/vfs — Virtual Function Signatures tool reducing agent token usage by ~98% via AST-based code signature extraction.
@@ -135,6 +159,10 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/anthropics/skills — Anthropic's official public repository of Agent Skills; installable via the Claude Code plugin marketplace (document skills, example skills, claude-api, and more).
 - https://github.com/alirezarezvani/claude-skills — Massive collection of 337+ Claude Code/agent skills, 30+ agents, and 70+ custom commands across engineering, marketing, product, compliance, research, and finance; works with Claude Code, Codex, Gemini CLI, Cursor, and 8+ more agents.
 - https://github.com/JuliusBrussee/caveman — Claude Code skill that cuts ~65–75% of tokens by having the agent communicate in compressed "caveman" speech while keeping full technical accuracy; supports multiple intensity levels.
+- https://www.onorca.dev/ — Orca: free, open-source agent development environment/IDE for running multiple AI coding agents (Claude Code, Codex, etc.) in parallel, each in an isolated git worktree, with terminals, a browser in design mode, diffs, and CLI tools built in.
+- https://github.com/herdrdev/herdr — Terminal-based runtime that manages coding agent sessions (Claude Code, Cursor, etc.) across local and remote machines; keeps agents running in a background server through disconnections, with a unified multi-machine interface and agent-native features like spawning panes and inter-agent communication.
+- https://github.com/howznguyen/pi-delegate-mcp — MCP server that turns the "pi" coding agent into a steerable background worker; delegate a task, redirect it mid-run, and keep its context out of your own.
+- https://github.com/langchain-ai/openwiki — CLI that writes and maintains agent-facing documentation for your codebase.
 
 ## Developer Tools & Environments
 
@@ -154,7 +182,13 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/podman-container-tools/buildah — Tool that facilitates building OCI container images; daemonless, scriptable image builds without requiring a running Docker daemon.
 - https://github.com/ThisIs-Developer/Markdown-Viewer — Fast, GitHub-style Markdown editor and previewer with live preview, Mermaid diagrams, LaTeX math, syntax highlighting, PDF export, and multi-tab support; runs in-browser, via Docker, or as a desktop app.
 - https://github.com/orailnoor/DroidDesk — Turns an Android phone into a real Linux desktop using Termux, Termux X11, TUR, and Proot; runs VS Code, Firefox, LibreOffice, Blender, and more over X11 or VNC.
+- https://github.com/heyputer/puter — Advanced, open-source, self-hostable "internet computer": a web-based desktop environment with built-in apps (notepad, spreadsheet, camera), cloud storage, an app marketplace, and AI integration, accessible from any device.
 - https://github.com/caobahuong/kafka-connect-dynamic-filter — Kafka Connect SMT for filtering Debezium CDC records with dynamic JSON rules sourced from Redis, a Kafka topic, or a file; rules update on the next record with no connector restart or downtime.
+- https://horizon.nckrtl.com/ — Horizon New Dawn: modernized UI replacement for Laravel Horizon queue monitoring; adds advanced filtering, instance/supervisor controls, batch management, and failure recovery via a single composer package with no config changes.
+- https://github.com/welldone-software/why-did-you-render — Monkey-patches React to notify you about potentially avoidable re-renders, helping track down unnecessary component updates; also works with React Native.
+- https://github.com/endojs/endo — Distributed secure JavaScript sandbox based on SES (Secure ECMAScript), for safely running untrusted code with object-capability security.
+- https://github.com/RFS-ADRENO/zca-js — Unofficial Zalo API client for JavaScript.
+- https://github.com/certimate-go/certimate — Open-source, self-hosted SSL certificate ACME tool (Go); automates the full issuance/deployment/renewal/monitoring cycle visually, with support for major cloud providers, Let's Encrypt, ZeroSSL, and Google Trust Services.
 
 ## Machine Learning & Tabular Data
 
@@ -174,9 +208,12 @@ resource: https://github.com/daytonaio/daytona
 ## Business Applications
 
 - https://github.com/brightbeanxyz/brightbean-studio — Open-source, self-hostable social media management platform for scheduling and publishing across 10+ platforms.
+- https://github.com/gitroomhq/postiz-app — Agentic social media scheduling and publishing tool.
 - https://github.com/twentyhq/twenty — #1 open-source CRM; customizable objects, kanban/table views, workflow automation, and role-based permissions.
 - https://github.com/makeplane/plane — Open-source Jira/Linear/Monday/ClickUp alternative; modern project management with work items, cycles, modules, custom views, AI-enabled pages, and analytics. Self-hostable (Docker/Kubernetes) or cloud.
 - https://github.com/xbtlin/ai-berkshire — AI-era value-investing research framework for Claude Code/Codex; blends the methodologies of Buffett, Munger, Duan Yongping, and Li Lu via multi-agent adversarial analysis, with financial-rigor tooling (precise decimal math, market-cap/valuation verification, Benford's law checks) and slash commands for research, checklists, and news attribution.
+- https://github.com/every-app/open-seo — Open-source, pay-as-you-go alternative to Semrush/Ahrefs (keyword research, rank tracking, competitor insights, backlinks, site audits, AI visibility); built AI-agent-first with an MCP server and Agent Skills for Claude Code and other agents, bring-your-own DataForSEO key, self-hostable via Docker or Cloudflare.
+- https://github.com/ever-co/ever-gauzy — Ever Gauzy: open-source Business Management Platform (ERP/CRM/HRM/ATS/PM); time tracking, invoicing/billing, payroll, accounting, and issue tracking in one self-hostable TypeScript app (AGPL-3.0).
 
 ## IoT & Edge AI
 
