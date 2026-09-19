@@ -91,6 +91,8 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/firecrawl/anydoc — Converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown; built in Rust with Node.js and Python bindings.
 - https://huggingface.co/GreenNode/GreenNode-Embedding-Large-VN-Mixed-V1 — Vietnamese-focused sentence embedding model (0.6B params, up to 8,192 tokens); maps sentences/paragraphs to 1024-dim vectors for semantic search, trained on Vietnamese data with strong results on table retrieval, legal text, and QA benchmarks.
 - https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0 — Sub-1B-param vision-encoder-decoder model that turns document images/PDFs into structured machine-readable output (text, layout classes, bounding boxes, reading order); expanded multilingual OCR, handwriting, and chart-to-table parsing over v1.2, aimed at document intelligence and RAG ingestion.
+- https://seeing-theory.brown.edu/ — Brown University's "visual introduction to probability and statistics"; six interactive, D3.js-powered modules from basic probability through regression, good as a reference for building data/stats intuition.
+- https://github.com/ngwgsang/vietquill — Unified Python framework for Vietnamese paraphrase generation, quality evaluation, and control; centralizes datasets, generation methods, and metrics for research and production use (also on PyPI: pypi.org/project/vietquill).
 
 ## Content & Multimedia
 
@@ -120,6 +122,9 @@ resource: https://github.com/daytonaio/daytona
 - https://ocr.z.ai/ — GLM-OCR hosted service; free OCR that extracts text from images into editable digital text, powered by Zhipu's GLM (the model behind community tools like Folio-OCR above).
 - https://huggingface.co/owensong/Inflect-Nano-v1 — Ultra-compact English TTS model (4.63M total inference params including vocoder); full text-to-24kHz-waveform pipeline in a tiny footprint for local/embedded deployment and offline assistants, with expected quality trade-offs at this scale.
 - https://ideogram.ai/ — AI image generation platform known for accurate in-image text/typography rendering; text-to-image, product photography, and design tools (logos, posters) alongside more general photorealistic/artistic generation.
+- https://sleek.design/ — AI mobile app designer; generates iOS/Android mockups from a text description or reference images, editable visually and exportable to Figma or code (React/HTML).
+- https://saydi.ai/ — AI real-time voice translation for meetings/events; 60+ languages, automatic language detection, speaker identification, and integrations with Zoom, Google Meet, and Microsoft Teams.
+- https://www.pen.dev/ — Agentic design canvas; import content from existing apps, drive edits with multiple AI models (Claude, OpenAI, Gemini, etc.) alongside manual editing, and export designs directly to HTML/CSS.
 
 ## AI Tooling & Productivity
 
@@ -189,6 +194,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/endojs/endo — Distributed secure JavaScript sandbox based on SES (Secure ECMAScript), for safely running untrusted code with object-capability security.
 - https://github.com/RFS-ADRENO/zca-js — Unofficial Zalo API client for JavaScript.
 - https://github.com/certimate-go/certimate — Open-source, self-hosted SSL certificate ACME tool (Go); automates the full issuance/deployment/renewal/monitoring cycle visually, with support for major cloud providers, Let's Encrypt, ZeroSSL, and Google Trust Services.
+- https://openship.io/ — Open-source deployment platform (self-hostable or cloud); push code and it handles builds, config, and deploys, with built-in Postgres/Redis/email/object storage services, multi-language support, and no vendor lock-in since apps run as standard Docker containers.
 
 ## Machine Learning & Tabular Data
 
@@ -197,6 +203,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/apple/coreai-models — Apple's model export recipes, Python primitives, and Swift runtime utilities for on-device AI with Core AI; includes agent skills to help coding agents deploy PyTorch models on Apple silicon.
 - https://github.com/Kanaries/pygwalker — Python library for exploratory data analysis; turns a pandas/polars dataframe into an interactive Tableau-style UI for visual exploration in Jupyter, Streamlit, and more (DuckDB-powered).
 - https://github.com/xai-org/x-algorithm — Open-source source code for the recommendation algorithm powering the "For You" feed on X; written in Rust and Python (Apache-2.0).
+- https://www.tensortonic.com/ — Interactive learning platform to implement 1000+ algorithms from scratch (foundational ML through CUDA kernels), with in-browser code execution, visualizations, real-world test cases, research-paper implementations, and interview prep.
 
 ## File Transfer & Networking
 
