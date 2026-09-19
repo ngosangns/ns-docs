@@ -38,6 +38,7 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/google/agents-cli — CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud, built around Google's Agent Development Kit (ADK).
 - https://github.com/trycua/cua — Open-source computer-use agent infrastructure ("computer-use 2.0"); cross-OS drivers and fleets plus benchmarks for training, evaluation, and data generation.
 - https://github.com/CopilotKit/channels-sdk — Open-source SDK that brings any AG-UI-compatible agent (CopilotKit's own, LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) into Slack, Microsoft Teams, and Discord with native, interactive UI (Block Kit/Adaptive Cards), tool calls, file handling, and human-approval gates.
+- https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf — Ternary-quantized 27B model (derived from Qwen3.8-27B) compressed to ~5.95GB while claiming 98.2% of FP16 intelligence retained; GGUF with hybrid-attention CUDA/Metal/CPU kernels for llama.cpp, 262K context, aimed at on-device deployment on laptops/single GPUs.
 
 ## Web & Desktop Frameworks
 
