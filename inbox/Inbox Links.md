@@ -125,6 +125,7 @@ resource: https://github.com/daytonaio/daytona
 - https://ideogram.ai/ — AI image generation platform known for accurate in-image text/typography rendering; text-to-image, product photography, and design tools (logos, posters) alongside more general photorealistic/artistic generation.
 - https://sleek.design/ — AI mobile app designer; generates iOS/Android mockups from a text description or reference images, editable visually and exportable to Figma or code (React/HTML).
 - https://saydi.ai/ — AI real-time voice translation for meetings/events; 60+ languages, automatic language detection, speaker identification, and integrations with Zoom, Google Meet, and Microsoft Teams.
+- https://www.speechsuper.com/ — Deep-learning speech-assessment platform for pronunciation, fluency, grammar, and vocabulary scoring; APIs/SDKs for language-learning apps across 8 languages.
 - https://www.pen.dev/ — Agentic design canvas; import content from existing apps, drive edits with multiple AI models (Claude, OpenAI, Gemini, etc.) alongside manual editing, and export designs directly to HTML/CSS.
 
 ## AI Tooling & Productivity
