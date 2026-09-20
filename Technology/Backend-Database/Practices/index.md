@@ -1,6 +1,7 @@
 # Concepts
 
 * [Cac Thuat Toan Phia Sau Algolia](Technology/Backend-Database/Practices/Cac%20Thuat%20Toan%20Phia%20Sau%20Algolia.md) - Các Thuật Toán Phía Sau Algolia
+* [Database Connection Pooling](Technology/Backend-Database/Practices/Database%20Connection%20Pooling.md) - Connection là OS process đắt đỏ; cách pool hoạt động và cách định cỡ pool bằng Little's Law, Kingman và process-to-core ratio
 * [Distributed Cache Ket Luan Va QA](Technology/Backend-Database/Practices/Distributed%20Cache%20Ket%20Luan%20Va%20QA.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 * [Distributed Cache Ky Thuat Toi Uu](Technology/Backend-Database/Practices/Distributed%20Cache%20Ky%20Thuat%20Toi%20Uu.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 * [Distributed Cache Tong Quan Va Kien Truc](Technology/Backend-Database/Practices/Distributed%20Cache%20Tong%20Quan%20Va%20Kien%20Truc.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices

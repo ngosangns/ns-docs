@@ -13,6 +13,7 @@ resource: https://github.com/marixdev/lstack
 ---
 # Developer Tools And Environments
 
+- https://github.com/crizant/probe — Fast, native, local-first API client (Postman/Insomnia alternative) for macOS, Windows, and Linux; built in Rust with GPUI (GPU-rendered, no Electron/WebView). Ships two interfaces over the same core: an agent/CI-friendly CLI (human-readable output plus deterministic versioned JSON) and a desktop app. Uses OpenCollection YAML as workspace format, stores collections on the filesystem (Git-friendly), and needs no account or cloud service. Releases are unsigned, so macOS Gatekeeper / Windows SmartScreen warn on first launch.
 - https://github.com/marixdev/lstack — Local PHP development stack manager for Windows/Linux (Electron); virtual hosts, SSL, databases, and project templates.
 - https://github.com/maycuatroi1/drf-performance-benchmark — Reproducible benchmark suite for Django REST Framework covering serialization, pagination, caching, and WSGI vs ASGI.
 - https://github.com/alper-han/CrossMacro — Cross-platform mouse and keyboard macro recorder and player with editor, text expansion, shortcuts, and scheduling.
