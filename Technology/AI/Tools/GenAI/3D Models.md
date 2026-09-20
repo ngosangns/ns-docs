@@ -31,3 +31,16 @@ Mô hình chuyển đổi văn bản thành chuyển động (Text to Animation)
 - **Github**: [https://github.com/Tencent-Hunyuan/HY-Motion-1.0](https://github.com/Tencent-Hunyuan/HY-Motion-1.0)
 - **Hugging Face**: [https://huggingface.co/tencent/HY-Motion-1.0](https://huggingface.co/tencent/HY-Motion-1.0)
 - **Technical report**: [https://arxiv.org/pdf/2512.23464](https://arxiv.org/pdf/2512.23464)
+
+---
+
+## CAD / Parametric Modeling
+
+### ForgeCAD
+CAD "AI-native": mô hình parametric được viết bằng JavaScript (`*.forge.js`) thay vì dựng tay trong GUI, nên AI coding agent có thể sinh và sửa model trực tiếp.
+
+- **Model as code**: `param()` tạo slider, primitives + boolean (`union`/`subtract`), `fillet()`, pattern, thư viện part chuẩn (`lib.bolt()`, `lib.nut()` sinh ren xoắn thật), và SDF (`sdf.gyroid()`) cho lattice/hình hữu cơ — tất cả trong cùng một ngôn ngữ.
+- **Validation loop**: cài dưới dạng native CLI (`forgecad run bracket.forge.js`), chạy deterministic checks và xuất report trước khi gia công.
+- **Export**: STEP, STL, 3MF.
+- **Use case**: sản phẩm in 3D, chi tiết cơ khí, assembly/joint/collider cho robotics simulation, và sinh biến thể model làm AI training data cho spatial reasoning.
+- Website: https://forgecad.io/ #CAD #parametric #3D #robotics #agent
