@@ -17,3 +17,7 @@ tags:
 - **Arduino IDE**: Đơn giản cho beginners
 - **ESP-IDF**: Official framework cho ESP32
 - **ESPHome**: YAML-based config cho ESP8266/ESP32 (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
+
+## Edge AI
+
+- https://github.com/ruvnet/RuView — WiFi sensing platform using ESP32 CSI signals for real-time human pose estimation, vital signs, and presence detection without cameras.

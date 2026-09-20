@@ -18,6 +18,7 @@ resource: https://github.com/excalidraw/excalidraw
 
 - https://github.com/excalidraw/excalidraw
 - https://github.com/mingrammer/diagrams
+- https://github.com/likec4/likec4 — Architecture-as-code modeling language and tooling to generate live C4-style diagrams from code.
 
 ## 2.1. Database
 

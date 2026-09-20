@@ -1,3 +1,7 @@
+# Sections
+
+* [Manga-Translator](Projects/Manga-Translator/index.md)
+
 # Concepts
 
 * [Finance Tool](Projects/Finance%20Tool.md) - Code tool giao dịch, quản lý tài chính
