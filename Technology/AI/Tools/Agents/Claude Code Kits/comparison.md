@@ -11,7 +11,7 @@ tags:
   - ai-ml
   - coding-agents
   - claude-code
-resource: https://github.com/affaan-m/everything-claude-code
+resource: https://github.com/affaan-m/ECC
 ---
 # So sánh 7 Claude Code Toolkits & Enhancement Systems
 
@@ -19,7 +19,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Category                      | Công cụ                     |
 | ----------------------------- | --------------------------- |
-| **Full Ecosystem**            | everything-claude-code      |
+| **Full Ecosystem**            | ECC (everything-claude-code) |
 | **Engineering Toolkit**       | claude-capsule-kit          |
 | **Guardrails & Automation**   | claudekit (carlrannaberg)   |
 | **Task Management**           | claude-task-master          |
@@ -35,7 +35,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Công cụ                    | Stars | Forks | License              | Primary Language |
 | -------------------------- | ----: | ----: | -------------------- | ---------------- |
-| **everything-claude-code** |  154k | 23.9k | MIT                  | TypeScript       |
+| **ECC** (everything-claude-code) |  264k | 39.4k | MIT             | TypeScript       |
 | **oh-my-claudecode**       | 28.4k |  2.6k | MIT                  | TypeScript       |
 | **claude-task-master**     | 26.5k |  2.5k | MIT + Commons Clause | JavaScript       |
 | **claudekit-skills**       |    2k |   391 | MIT                  | Python           |
@@ -45,7 +45,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 **Nhận xét:**
 
-- **ECC** dẫn đầu với 154k stars, là toolkit lớn nhất
+- **ECC** dẫn đầu với 264k stars, là toolkit lớn nhất (repo đã đổi tên thành `affaan-m/ECC`)
 - **OMC** và **Task Master** đều > 25k stars, community rất lớn
 - **CCK** nhỏ nhất nhưng có unique features (session memory, crew teams)
 
@@ -55,7 +55,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Công cụ                    | Primary Focus                                     | Secondary Focus                                      |
 | -------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| **everything-claude-code** | Complete ecosystem (agents, skills, rules, hooks) | Multi-harness, multi-language, security              |
+| **ECC** (everything-claude-code) | Complete ecosystem (agents, skills, rules, hooks) | Multi-harness, multi-language, security        |
 | **claude-capsule-kit**     | Session memory & dependency analysis              | Large file navigation, crew teams                    |
 | **claudekit**              | Real-time error prevention & code review          | Checkpoints, codebase map, spec implementation       |
 | **claude-task-master**     | Task management (PRD -> tasks)                    | Multi-editor MCP integration                         |
@@ -71,9 +71,9 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Feature                 |      ECC       |        CCK        |    ClaudeKit     |  Task Master   |     CK-CLI      |     CK-Skills      |          OMC           |
 | ----------------------- | :------------: | :---------------: | :--------------: | :------------: | :-------------: | :----------------: | :--------------------: |
-| **Agents/Subagents**    |      38+       |        18         |       15+        |       -        |        -        |         -          |           19           |
-| **Skills**              |      181+      |         7         |        -         |       -        |        -        |        30+         |         Custom         |
-| **Slash Commands**      |      72+       |        6+         |       12+        |       -        |       16        |         -          |          10+           |
+| **Agents/Subagents**    |       68       |        18         |       15+        |       -        |        -        |         -          |           19           |
+| **Skills**              |      292       |         7         |        -         |       -        |        -        |        30+         |         Custom         |
+| **Slash Commands**      |       94       |        6+         |       12+        |       -        |       16        |         -          |          10+           |
 | **Hooks**               | Full lifecycle |      6 hooks      |    10+ hooks     |       -        |        -        |         -          |       Callbacks        |
 | **Session Memory**      |   Via hooks    | Built-in (SQLite) |        -         |       -        |        -        |         -          |        Sessions        |
 | **Code Review**         |  Agent-based   |    Agent-based    | 6-agent parallel |       -        |        -        |    Skill-based     |      Agent-based       |
@@ -109,7 +109,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Feature                  |    ECC    |      CCK       |   ClaudeKit    | Task Master  |         OMC         |
 | ------------------------ | :-------: | :------------: | :------------: | :----------: | :-----------------: |
-| **Subagent delegation**  | 38 agents |   18 agents    |   15 agents    |      -       |      19 agents      |
+| **Subagent delegation**  | 68 agents |   18 agents    |   15 agents    |      -       |      19 agents      |
 | **Parallel execution**   |     -     |   Crew teams   | 6-agent review |      -       |  Team + Ultrawork   |
 | **Cross-provider**       |     -     |       -        |       -        |      -       | Claude+Codex+Gemini |
 | **Staged pipeline**      |     -     |       -        | Spec workflow  | PRD pipeline |    Team pipeline    |
@@ -152,7 +152,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Use Case                           | Best Choice | Reason                                        |
 | ---------------------------------- | ----------- | --------------------------------------------- |
-| **Enterprise multi-language team** | ECC         | 12+ languages, 38 agents, security scanning   |
+| **Enterprise multi-language team** | ECC         | 12+ languages, 68 agents, security scanning   |
 | **Session continuity**             | CCK         | SQLite memory, auto-restore context           |
 | **Code quality enforcement**       | ClaudeKit   | Real-time guards, 6-agent review, checkpoints |
 | **Task/project management**        | Task Master | PRD-based, multi-editor, MCP integration      |
@@ -172,9 +172,9 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 | Metric                 |         ECC |    CCK | ClaudeKit | Task Master |      CK-CLI | CK-Skills |         OMC |
 | ---------------------- | ----------: | -----: | --------: | ----------: | ----------: | --------: | ----------: |
-| **GitHub Stars**       |        154k |     75 |       657 |       26.5k |          95 |        2k |       28.4k |
-| **Forks**              |       23.9k |      8 |       105 |        2.5k |          41 |       391 |        2.6k |
-| **Contributors**       |        170+ |      4 |         - |       Large |           - |         - |   5+ active |
+| **GitHub Stars**       |        264k |     75 |       657 |       26.5k |          95 |        2k |       28.4k |
+| **Forks**              |       39.4k |      8 |       105 |        2.5k |          41 |       391 |        2.6k |
+| **Contributors**       |        340+ |      4 |         - |       Large |           - |         - |   5+ active |
 | **npm downloads**      |        High |    Low |    Medium |   Very High |         Low |         - |        High |
 | **Active development** | Very active | Active |    Active | Very active | Very active |    Active | Very active |
 
@@ -199,7 +199,7 @@ resource: https://github.com/affaan-m/everything-claude-code
 Bạn cần gì?
 │
 ├── Complete ecosystem, all-in-one
-│   └── everything-claude-code
+│   └── ECC (affaan-m/ECC)
 │
 ├── Multi-agent orchestration
 │   └── oh-my-claudecode
@@ -224,7 +224,7 @@ Bạn cần gì?
 
 **Tài liệu tham khảo**:
 
-- [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) - 154k stars
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) - 264k stars (tên cũ: `everything-claude-code`)
 - [arpitnath/claude-capsule-kit](https://github.com/arpitnath/claude-capsule-kit) - 75 stars
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) - 657 stars
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) - 26.5k stars

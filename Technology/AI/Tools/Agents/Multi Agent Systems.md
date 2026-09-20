@@ -22,4 +22,11 @@ resource: https://docs.agno.com/introduction
   - Giao diện trực quan để thiết kế workflows
   - Hỗ trợ RAG, agent workflows, và LLM orchestration
   - [GitHub](https://github.com/langgenius/dify) #agent #workflow #LLM #platform
-  - [Website](https://dify.ai)
+  - [Website](https://dify.ai)- **TradingAgents**: Framework multi-agent LLM cho financial trading, mô phỏng cấu trúc của một trading firm thật. Mỗi vai trò là một agent chuyên biệt, tranh luận với nhau để chốt chiến lược:
+  - **Analyst Team**: Fundamentals (báo cáo tài chính, intrinsic value), Sentiment (news headline + StockTwits + Reddit), News (macro/global events), Technical (MACD, RSI...)
+  - **Researcher Team**: cặp bull/bear researcher debate có cấu trúc để cân gain vs risk
+  - **Trader Agent**: tổng hợp report của analyst + researcher để quyết định timing và khối lượng lệnh
+  - **Risk Management + Portfolio Manager**: đánh giá volatility/liquidity, duyệt hoặc từ chối đề xuất giao dịch; lệnh được duyệt sẽ chạy trên simulated exchange
+  - Tính năng đáng chú ý: **point-in-time integrity** trên mọi data path (chống look-ahead bias), SEC EDGAR fundamentals đúng thời điểm filed, backtesting theo grid ticker × date, portfolio-aware runs, CLI có checkpoint resume; hỗ trợ nhiều LLM provider (Anthropic, OpenAI, Google, Bedrock, NVIDIA, Kimi, Groq, Mistral, Ollama, và endpoint OpenAI-compatible bất kỳ)
+  - **Lưu ý**: tác giả nói rõ đây là framework cho mục đích nghiên cứu, không phải lời khuyên đầu tư
+  - [GitHub](https://github.com/TauricResearch/TradingAgents) · [Paper (arXiv 2412.20138)](https://arxiv.org/abs/2412.20138) · Apache-2.0 #multi-agent #LLM #trading #finance #research

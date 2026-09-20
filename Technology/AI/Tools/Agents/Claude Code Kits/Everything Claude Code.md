@@ -11,7 +11,7 @@ tags:
   - ai-ml
   - coding-agents
   - claude-code
-resource: https://github.com/affaan-m/everything-claude-code
+resource: https://github.com/affaan-m/ECC
 ---
 # Everything Claude Code (ECC) - Agent Harness Performance Optimization System
 
@@ -19,49 +19,66 @@ resource: https://github.com/affaan-m/everything-claude-code
 
 **Everything Claude Code** (ECC) là hệ thống tối ưu hóa hiệu suất cho AI agent harnesses, tương đối đạt tại Anthropic Hackathon. Không chỉ là config pack - đây là hệ thống hoàn chỉnh gồm skills, instincts, memory optimization, continuous learning, security scanning, và research-first development. Hoạt động trên Claude Code, Codex, Cursor, OpenCode, Gemini và các AI agent harnesses khác.
 
+> **Repo đã đổi tên**: `affaan-m/everything-claude-code` → **`affaan-m/ECC`** (URL cũ vẫn redirect). Dự án giờ tự gọi là "ECC".
+
+Vòng lặp kỹ thuật mà ECC cài sẵn vào agent:
+
+```text
+plan -> test -> implement -> review -> verify -> remember -> improve
+```
+
+Thay vì mô tả lại quy trình này trong mỗi prompt, cài một lần và nó trở thành cách agent làm việc.
+
 ## Thông tin cơ bản
 
 | Thông tin               | Giá trị                                                                    |
 | ----------------------- | -------------------------------------------------------------------------- |
-| **Stars**               | 154k+                                                                      |
-| **Forks**               | 23.9k+                                                                     |
-| **Contributors**        | 170+                                                                       |
+| **Repo**                | [affaan-m/ECC](https://github.com/affaan-m/ECC)                            |
+| **Stars**               | 263k+                                                                      |
+| **Forks**               | 39.4k+                                                                     |
+| **Contributors**        | 340+                                                                       |
 | **Language Ecosystems** | 12+ (TypeScript, Python, Go, Java, Kotlin, C++, Rust, Perl, PHP, Swift...) |
-| **License**             | MIT                                                                        |
-| **Version**             | v1.10.0 (Apr 2026)                                                         |
+| **License**             | MIT (OSS vĩnh viễn)                                                        |
+| **Version**             | v2.2.1                                                                     |
 
 ## Cài đặt
 
-### Plugin Marketplace (Recommended)
+### Universal guided setup (Recommended từ v2.2)
+
+Yêu cầu Node.js 18+; với Claude Code plugin cần Git và Claude Code 2.1+.
+
+```bash
+npx ecc-universal@2.2.2 setup
+```
+
+Tương đương với `pnpm dlx` / `yarn dlx` / `bunx`. Hỗ trợ guided setup cho Claude Code, Codex và Kimi Code.
+
+### Plugin Marketplace
 
 ```
-/plugin marketplace add https://github.com/affaan-m/everything-claude-code
+/plugin marketplace add https://github.com/affaan-m/ECC
 /plugin install ecc@ecc
 ```
+
+> Chọn **một** cách cài — đừng chồng manual install lên trên plugin install.
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/affaan-m/everything-claude-code.git
-cd everything-claude-code
+git clone https://github.com/affaan-m/ECC.git
+cd ECC
 npm install
 ./install.sh --profile full
-```
-
-### NPM Package
-
-```bash
-npx ecc-install typescript
 ```
 
 ## Architecture
 
 ```
-everything-claude-code/
+ECC/
 ├── .claude-plugin/     # Plugin & marketplace manifests
-├── agents/             # 38+ specialized subagents
-├── skills/             # 181+ workflow definitions
-├── commands/           # 72+ legacy command shims
+├── agents/             # 68 specialized subagents
+├── skills/             # 292 workflow definitions
+├── commands/           # 94 legacy command shims
 ├── hooks/              # Session lifecycle hooks
 ├── rules/              # Multi-language coding rules
 ├── contexts/           # Project context templates
@@ -76,7 +93,7 @@ everything-claude-code/
 
 ## Key Components
 
-### Agents (38+)
+### Agents (68)
 
 | Agent                                        | Chức năng                       |
 | -------------------------------------------- | ------------------------------- |
@@ -90,7 +107,7 @@ everything-claude-code/
 | loop-operator.md                             | Autonomous loop execution       |
 | harness-optimizer.md                         | Harness config tuning           |
 
-### Skills (181+)
+### Skills (292)
 
 | Category               | Skills                                                               |
 | ---------------------- | -------------------------------------------------------------------- |
@@ -133,14 +150,14 @@ Rust control-plane prototype trong `ecc2/` với commands:
 
 ## Cross-Platform Support
 
-| Platform          | Status       |
-| ----------------- | ------------ |
-| Claude Code       | Full support |
-| Codex (app + CLI) | Full support |
-| Cursor            | Full support |
-| OpenCode          | Full support |
-| Gemini            | Full support |
-| Antigravity IDE   | Full support |
+Từ v2.2 repo nói rõ **không phải harness nào cũng ngang nhau** — xem [support status matrix](https://github.com/affaan-m/ECC#platform-support) trước khi giả định feature parity.
+
+| Platform                                                     | Status                       |
+| ------------------------------------------------------------ | ---------------------------- |
+| Claude Code                                                  | Hỗ trợ tốt nhất              |
+| Codex (app + CLI)                                            | Supported sync path          |
+| Kimi Code                                                    | Guided setup                 |
+| Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen | Capability-limited adapter |
 
 ## Hook Runtime Controls
 
@@ -195,7 +212,16 @@ export ECC_DISABLED_HOOKS="pre:bash:tmux-reminder,post:edit:typecheck"
 
 ---
 
+## Mô hình kinh doanh
+
+- **OSS**: repo MIT, miễn phí vĩnh viễn.
+- **ECC Pro + GitHub App**: bản hosted cho private repo, trả phí theo seat. Sponsor + Pro là nguồn fund cho dự án (một maintainer ship hàng tuần trên 7 harness).
+
+---
+
 **Tài liệu tham khảo**:
 
-- [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) — repo chính (tên cũ: `everything-claude-code`)
+- [ecc.tools](https://ecc.tools) — website & pricing
 - [npm: ecc-universal](https://www.npmjs.com/package/ecc-universal)
+- [npm: ecc-agentshield](https://www.npmjs.com/package/ecc-agentshield)
