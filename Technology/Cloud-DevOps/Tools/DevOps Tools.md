@@ -57,6 +57,26 @@ resource: https://github.com/fluxcd/flux2
     - Quy trình làm việc đơn giản hóa so với các platform truyền thống
   - **Lưu ý:** Hiện đang ở giai đoạn alpha và chưa sẵn sàng cho môi trường production
   - [GitHub](https://github.com/raghavyuva/nixopus) #deployment #platform #vercel-alternative #heroku-alternative
+- **Coolify**: PaaS mã nguồn mở, self-host, thay thế Vercel/Heroku/Netlify/Railway; deploy app, database và service lên server riêng qua SSH (VPS, bare metal, Raspberry Pi, EC2, Hetzner...)
+  - **Tính năng chính:**
+    - Tích hợp Git (GitHub, GitLab, Bitbucket, Gitea), preview deployment cho từng pull request
+    - Tự cấp SSL qua Let's Encrypt, terminal trên trình duyệt
+    - 280+ service one-click, chạy bất kỳ app nào tương thích Docker
+    - Backup database lên S3-compatible storage, webhook/API cho CI/CD
+    - Team với phân quyền, giám sát server và thông báo (Discord, Telegram, email)
+  - **Giá:** Self-host miễn phí, đầy đủ tính năng; Coolify Cloud $5/tháng (gồm 2 server, thêm $3/server), vẫn dùng server của mình, Coolify chỉ host phần control plane
+  - [Website](https://coolify.io/) · [GitHub](https://github.com/coollabsio/coolify) #deployment #paas #self-hosted #vercel-alternative #heroku-alternative
+- **Dokploy**: Nền tảng deploy all-in-one (self-host hoặc cloud) để quản lý ứng dụng container hóa và database trên nhiều server
+  - **Cách build/deploy:** Dockerfile, Nixpacks, Heroku Buildpacks, Docker Compose (native), Docker Swarm cluster
+  - **Tính năng chính:**
+    - Multi-server deployment
+    - Quản lý database (MySQL, PostgreSQL, MongoDB, MariaDB, Redis) với backup tự động
+    - Giám sát CPU, memory, network theo thời gian thực
+    - RBAC, template mã nguồn mở cho các tool phổ biến
+    - Tích hợp MCP để AI agent hỗ trợ deploy
+  - **Giá:** Bản open-source self-host miễn phí; Cloud Hobby $4.50/server/tháng, Startup từ $15/tháng (3 server), Enterprise (SSO/SAML, on-prem) liên hệ
+  - **So với Coolify:** Dokploy thiên về Docker Compose/Swarm và multi-server; Coolify có kho one-click service lớn hơn và preview deployment theo PR
+  - [Website](https://dokploy.com/) · [GitHub](https://github.com/dokploy/dokploy) #deployment #paas #self-hosted #docker-swarm #docker-compose
 
 ## 5. Incident Management
 
