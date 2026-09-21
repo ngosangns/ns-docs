@@ -430,6 +430,11 @@ Nguồn: https://viblo.asia/p/tai-sao-co-higher-order-component-hoc-khi-da-co-de
 - Prettier (format)
 - TypeScript (typecheck)
 - Optional: `tsc --noEmit` trong CI.
+- Fallow (static analysis / codebase intelligence): https://github.com/fallow-rs/fallow
+  - Một binary Rust, không cần TS compiler/Node runtime; phân tích repo như một dependency graph. Deterministic, không có AI trong analyzer.
+  - Tìm: unused files/exports/types/deps (kiểu Knip), circular deps, duplication (JS/TS + CSS, Vue/Svelte/Astro), complexity hotspots + health score 0–100, vi phạm architecture boundaries (preset `bulletproof`, `layered`, `hexagonal`, `feature-sliced`), design-system styling drift.
+  - `npx fallow` (full pipeline), `npx fallow audit` (PR gate chỉ fail trên finding mới do change gây ra — hợp với codebase legacy), `fallow dead-code --trace file.ts:symbol` (chứng minh symbol unused trước khi xoá), `fallow fix --dry-run`, `fallow recommend` (đề xuất config).
+  - 100+ framework plugins tự detect entry points; có LSP + MCP server + agent skill, output `--format json`. Tuỳ chọn `--type-aware`. MIT; lớp trả phí Fallow Runtime thêm evidence từ production traffic. Docs: https://docs.fallow.tools
 
 Checklist CI tối thiểu:
 
