@@ -5,7 +5,7 @@ topic: react
 type: resource
 title: React Next
 description: React - Next.js
-timestamp: '2026-06-19T13:43:26.142Z'
+timestamp: '2026-09-22T00:00:00.000Z'
 tags:
   - technology
   - frontend
@@ -79,6 +79,7 @@ resource: https://www.retroui.dev/
 - **shadcn/ui**: Components tái sử dụng, Radix UI + Tailwind CSS
 - **RetroUI**: Thư viện component React phong cách NeoBrutalism, xây dựng trên shadcn/ui + Tailwind CSS. Copy-paste ready, hỗ trợ TypeScript. Cài đặt qua `npx shadcn add @retroui/<component>`. Có bản Pro với 100+ premium blocks và templates - https://www.retroui.dev/
 - **Neobrutalism Components**: Bộ component UI phong cách neobrutalism, dựa trên shadcn/ui + Tailwind CSS. Tuân thủ WAI-ARIA, open source (MIT). Components: buttons, badges, alerts, forms, cards, carousels, OTP input, breadcrumbs, resizable panels - https://www.neobrutalism.dev/
+- **React Bits**: Bộ component React animated, tương tác, tùy biến được, copy-paste vào project. Bản miễn phí (open source, [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits)) có 200+ component: text animation, background, UI, micro interaction; mỗi component 4 biến thể JS-CSS, JS-TW, TS-CSS, TS-TW. Cài qua shadcn hoặc jsrepo, ví dụ `npx shadcn@latest add @react-bits/BlurText-TS-TW`. Site: https://reactbits.dev/. Bản trả phí [React Bits Pro](https://pro.reactbits.dev/) thêm marketing blocks, application UI, template và agent kit; cài cùng kiểu shadcn (`npx shadcn@latest add @reactbits-pro/hero-7`), source nằm trong repo của mình.
 - **Semi Design**, **Arco Design**, **Tamagui**, **Aceternity UI**, **Magic UI**, **Tremor**, **Mantine**, **9ui**, **seraui**, **Nurui**, **ReUI**, **Blocks**, **basecoat**
 - **Icons**: animateicons
 - **Components**: xyflow (React Flow)
@@ -133,7 +134,7 @@ resource: https://www.retroui.dev/
 - **Toolkit for Nextjs**: Blitz.js (Zero-API)
 - **Runtime CSS-in-JS**: kuma-ui (zero-runtime)
 - **React-scan**: Phân tích hiệu năng
-- **Animation**: GSAP, react-bits, **motion** (motiondivision/motion) - Thư viện animation hiện đại cho React và JavaScript: https://github.com/motiondivision/motion
+- **Animation**: GSAP, [React Bits](https://reactbits.dev/), **motion** (motiondivision/motion) - Thư viện animation hiện đại cho React và JavaScript: https://github.com/motiondivision/motion
 - **Cursor Animation**: Cursify - Cursor animation library for React and Next.js - https://github.com/ui-layouts/cursify
 - **Gesture**: **use-gesture** (pmndrs/use-gesture) - Thư viện cung cấp các hook để nhận diện và xử lý các cử chỉ như kéo, chạm và cuộn trong ứng dụng React: https://github.com/pmndrs/use-gesture
 - **i18n**: react-i18next
@@ -148,7 +149,7 @@ resource: https://www.retroui.dev/
 - **Lint and optimize**: Million.dev
 - **Grid Layout**: **react-grid-layout** - Thư viện tạo bố cục lưới có thể kéo và thay đổi kích thước, hỗ trợ responsive breakpoints cho React - [GitHub](https://github.com/react-grid-layout/react-grid-layout) #grid #layout #drag-drop
 - **Maps**: **mapcn** (AnmolSaini16/mapcn) - Thư viện component bản đồ đẹp, zero config, một lệnh setup. Xây dựng trên MapLibre GL, styled với Tailwind, tương thích với shadcn/ui. Tính năng: theme-aware (light/dark mode), markers & popups, routes, controls (zoom, compass, locate, fullscreen) - [GitHub](https://github.com/AnmolSaini16/mapcn) #maps #maplibre #shadcn
-- **Component systems**: originui, magicui, cuicui, mantine, dotUI, tailus-ui, react-bits, heroui, starwind-ui, animate-ui
+- **Component systems**: originui, magicui, cuicui, mantine, dotUI, tailus-ui, [React Bits](https://reactbits.dev/), heroui, starwind-ui, animate-ui
 - **Sora UI**: Registry component animation "motion-first" cho React/Next.js, copy-paste như shadcn; redesign lớn từ Animate UI. Stack: React 19, Tailwind CSS v4, Base UI/Radix UI, Motion + GSAP. Gồm 4 lớp: Motion (building block và effect), Icons (bộ Lucide icon có animation), Catalog (showcase, layout page), UI (component nền tích hợp sẵn Motion + Tailwind). Có MCP server chính thức để AI agent hiểu được behavior, constraint và metadata của component. MIT - [GitHub](https://github.com/SoraLabsOSS/ui) · [Docs](https://ui.soralabs.studio) #animation #components #motion #shadcn #mcp
 - **Novu**: Nền tảng thông báo đa kênh (In-App, Email, SMS, Push, Chat)
 - **Xử lý đồ họa**: react-three-fiber (Three.js renderer)

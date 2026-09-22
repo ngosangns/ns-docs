@@ -64,3 +64,7 @@ Phượt là hình thức du lịch tự túc bằng xe máy, thường đến c
 - Kiểm tra thời tiết trước khi đi
 - Thông báo lịch trình cho người thân
 - Mang theo tiền mặt và thẻ ngân hàng
+
+## Cung đường
+
+- [Sài Gòn – Đà Lạt](/Travel/Destinations/Domestic/Sai Gon Da Lat Cung Duong) — các cung chạy trong ngày

@@ -3,6 +3,7 @@
 * [HA Giang](Travel/Destinations/Domestic/HA%20Giang.md) - Hà Giang
 * [Ho Chi Minh Can Gio Vung Tau](Travel/Destinations/Domestic/Ho%20Chi%20Minh%20Can%20Gio%20Vung%20Tau.md) - Hướng đi: Qua Cần Giờ -> Phà Vũng Tàu
 * [Hue](Travel/Destinations/Domestic/hue.md) - Huế
+* [Sai Gon Da Lat Cung Duong](Travel/Destinations/Domestic/Sai%20Gon%20Da%20Lat%20Cung%20Duong.md) - Tổng hợp các cung đường Sài Gòn - Đà Lạt chạy ngon trong ngày
 * [Tay Bac](Travel/Destinations/Domestic/Tay%20Bac.md) - khoe - Hà Giang đi mãi không chán | VOZ
 * [Tay Bac Am Thuc](Travel/Destinations/Domestic/Tay%20Bac%20Am%20Thuc.md) - Phần VI: Hồn Cốt Tây Bắc: Ẩm Thực và Quà Tặng Từ Núi Rừng
 * [Tay Bac Diem Den](Travel/Destinations/Domestic/Tay%20Bac%20Diem%20Den.md) - Phần III: Bản Đồ Khám Phá: Những Điểm Đến Trọng Yếu

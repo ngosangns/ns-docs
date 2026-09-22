@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Retry Va Circuit Breaker
 description: Cách retry ít gây down
-timestamp: '2026-06-19T13:43:26.109Z'
+timestamp: '2026-09-22T00:00:00.000Z'
 tags:
   - technology
   - system-design
@@ -19,6 +19,8 @@ Nhiều người sẽ chọn cách retry ngay lập tức khi có lỗi. Nhưng 
 Lý do là gì? Việc tăng dần thời gian giữa các lần retry giúp hệ thống có thời gian để phục hồi, đồng thời giảm áp lực đồng thời lên service đang gặp sự cố. Điều này giúp tránh tình trạng "service vừa lên lại chết" do bị dồn tải quá nhanh.
 
 Thực tế, không nhiều anh em dùng Laravel queue mà viết worker riêng bằng Golang. Phần lớn (99%) dùng queue mặc định hoặc Horizon. Nhưng ít người để ý các yếu tố như: `backoff`, `unique`, `skipping job`, v.v.
+
+Với Kafka consumer, chỗ delay và DLQ được chắt từ thread Golang Vietnam (10/04/2026) nằm ở [Kafka DLQ và retry](/Technology/System-Design/Practices/Kafka DLQ Va Retry).
 
 Mình từng gặp tình huống thực tế: service A gọi đến service B. Khi B gặp sự cố, A liên tục retry mà không có kiểm soát, khiến B cứ lên được một lúc là lại sập tiếp. Giải pháp là khi B hoạt động trở lại, chỉ nên đẩy traffic dần dần bằng cách áp dụng cơ chế backoff thông minh trong retry — như vậy sẽ ổn định hệ thống hơn rất nhiều.
 

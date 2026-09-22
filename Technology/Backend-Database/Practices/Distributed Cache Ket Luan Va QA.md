@@ -65,6 +65,7 @@ resource: https://github.com/huykn/distributed-cache
 
 - [GitHub Repository](https://github.com/huykn/distributed-cache)
 - [Example: Heavy-Read API](https://github.com/huykn/distributed-cache/tree/main/examples/heavy-read-api)
+- [Phát voucher 1M req/s](/Technology/Backend-Database/Practices/Heavy Write Voucher 1M Req S) — biến write trên hot path thành đọc RAM
 - [Example: Stale Data Prevention](https://github.com/huykn/distributed-cache/tree/develop/examples/stale-data-prevention)
 - [Redis Client-Side Caching](https://redis.io/docs/latest/develop/reference/client-side-caching/)
 - [Memproxy Library](https://github.com/QuangTung97/memproxy)

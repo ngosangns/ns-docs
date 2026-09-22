@@ -7,6 +7,7 @@
 * [Distributed Cache Tong Quan Va Kien Truc](Technology/Backend-Database/Practices/Distributed%20Cache%20Tong%20Quan%20Va%20Kien%20Truc.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 * [Distributed Cache Tradeoffs Va So Sanh](Technology/Backend-Database/Practices/Distributed%20Cache%20Tradeoffs%20Va%20So%20Sanh.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
 * [Distributed In Memory Cache Best Practices](Technology/Backend-Database/Practices/Distributed%20In%20Memory%20Cache%20Best%20Practices.md) - Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices
+* [Heavy Write Voucher 1M Req S](Technology/Backend-Database/Practices/Heavy%20Write%20Voucher%201M%20Req%20S.md) - Phát voucher 1M req/s: pre-distribute vào RAM, và Q&A comment về fraud, HA Redis, history
 * [Oceanbase Alibaba Single Day](Technology/Backend-Database/Practices/Oceanbase%20Alibaba%20Single%20Day.md) - Case Study: OceanBase & Alibaba Single Day 11.11
 * [Postgresql HA Patroni Best Practices](Technology/Backend-Database/Practices/Postgresql%20HA%20Patroni%20Best%20Practices.md) - PostgreSQL HA với Patroni - Tổng hợp Best Practices
 * [Proxysql Connection Multiplexing](Technology/Backend-Database/Practices/Proxysql%20Connection%20Multiplexing.md) - ProxySQL Connection Multiplexing

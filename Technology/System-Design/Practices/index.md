@@ -13,6 +13,7 @@
 * [Giai Phap Ky Thuat Chi Tiet](Technology/System-Design/Practices/Giai%20Phap%20Ky%20Thuat%20Chi%20Tiet.md) - Giải pháp Kỹ thuật Chi tiết
 * [Hedged Request](Technology/System-Design/Practices/Hedged%20Request.md) - Hedged Request
 * [Instagram Like Photo System Design](Technology/System-Design/Practices/Instagram%20Like%20Photo%20System%20Design.md) - Thiết kế hệ thống ảnh như Instagram
+* [Kafka DLQ Va Retry](Technology/System-Design/Practices/Kafka%20DLQ%20Va%20Retry.md) - DLQ và retry cho Kafka consumer: lỗi nào được retry, delay nằm ở đâu, khi nào replay, khi nào bỏ
 * [Kien Truc Phan Mem](Technology/System-Design/Practices/Kien%20Truc%20Phan%20Mem.md) - Kiến trúc Phần mềm
 * [Nen File](Technology/System-Design/Practices/Nen%20File.md) - Tùy vào file bạn định nén là gì.
 * [Outbox Pattern](Technology/System-Design/Practices/Outbox%20Pattern.md) - Outbox Pattern
