@@ -28,6 +28,48 @@
   opacity: 0;
 }
 
+/* Boot loader: covers the viewport from first paint until the island marks
+   the page loaded, so there's never a flash of unstyled or half-loaded
+   content. Only used on the initial load - soft navigations have the top
+   progress bar instead. */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+  opacity: 1;
+  transition: opacity var(--duration-base) var(--ease-out);
+}
+.page-loader--done {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition:
+    opacity var(--duration-base) var(--ease-out),
+    visibility 0s linear var(--duration-base);
+}
+.page-loader__spinner {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--color-accent);
+  animation: page-loader-spin 0.8s linear infinite;
+}
+@keyframes page-loader-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-loader__spinner {
+    animation: none;
+  }
+}
+
 /* Header */
 .site-header {
   display: flex;
@@ -244,11 +286,18 @@
 }
 
 /* 3-column shell */
+:root {
+  /* The resizer island overrides --sidebar-width inline on <html>; clamp
+     keeps the effective column inside sane bounds no matter what ends up
+     stored. */
+  --sidebar-effective: clamp(160px, var(--sidebar-width), 480px);
+}
 .site-shell {
   display: grid;
-  grid-template-columns: var(--sidebar-width) minmax(0, 1fr) var(--rail-width);
+  grid-template-columns: var(--sidebar-effective) minmax(0, 1fr) var(--rail-width);
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 .site-sidebar,
@@ -262,6 +311,43 @@
 
 .site-rail {
   border-left: 1px solid var(--color-border);
+}
+
+/* Drag handle centered on the sidebar/main border. Absolute inside
+   .site-shell (position: relative) so its left edge always tracks the real
+   column boundary; spans the shell's full height so it stays usable no
+   matter how far the page is scrolled. */
+.sidebar-resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--sidebar-effective) - 4px);
+  width: 9px;
+  cursor: col-resize;
+  z-index: 5;
+  touch-action: none;
+}
+.sidebar-resizer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4px;
+  width: 1px;
+  background: transparent;
+  transition: background-color var(--duration-fast) var(--ease-out);
+}
+.sidebar-resizer:hover::after,
+.sidebar-resizer:focus-visible::after,
+body.sidebar-resizing .sidebar-resizer::after {
+  background: var(--color-accent);
+}
+body.sidebar-resizing {
+  user-select: none;
+}
+body.sidebar-resizing,
+body.sidebar-resizing * {
+  cursor: col-resize !important;
 }
 
 /* Sticky, independently-scrolling rails: Technology/ alone is 400+ pages
@@ -308,8 +394,8 @@
    give it a guide line so a 5+-level-deep tree still reads as a tree
    instead of a flat wall of indentation. */
 .folder-tree details > ul {
-  margin-left: 5px;
-  padding-left: calc(var(--space-4) - 6px);
+  margin-left: 6px;
+  padding-left: var(--space-4);
   border-left: 1px solid var(--color-border);
 }
 .folder-tree li {
@@ -358,7 +444,10 @@
   color: var(--color-text);
   display: block;
   padding: 2px 4px;
-  margin: 0 -4px;
+  /* Leaves have no disclosure triangle - push their text right so it lines
+     up with the folder label text (1em triangle + 2px gap, minus the 4px
+     padding already on the link) instead of the triangle column. */
+  margin: 0 -4px 0 calc(1em - 2px);
   border-radius: 4px;
   transition:
     color var(--duration-fast) var(--ease-out),
@@ -521,7 +610,7 @@
 /* Responsive */
 @media (max-width: 1280px) {
   .site-shell {
-    grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+    grid-template-columns: var(--sidebar-effective) minmax(0, 1fr);
   }
   .site-rail {
     display: none;
@@ -537,6 +626,9 @@
   }
   .site-shell {
     grid-template-columns: minmax(0, 1fr);
+  }
+  .sidebar-resizer {
+    display: none;
   }
   .site-sidebar {
     position: fixed;

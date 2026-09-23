@@ -1,4 +1,5 @@
 import { initSidebarPersistence } from "./sidebar-persistence"
+import { initSidebarResizer } from "./sidebar-resizer"
 import { refreshTocScrollspy } from "./toc-scrollspy"
 import { closeMobileNavIfOpen } from "./mobile-nav-drawer"
 import { scrollActiveIntoView } from "./sidebar-scroll"
@@ -114,6 +115,7 @@ function applyPage(entry: PageEntry) {
   if (shell) shell.innerHTML = entry.shellHtml
 
   initSidebarPersistence()
+  initSidebarResizer()
   refreshTocScrollspy()
 }
 
@@ -193,7 +195,13 @@ export function initSoftRouter() {
 
     const link = (e.target as HTMLElement).closest("a")
     if (!link || !isSoftNavigable(link)) return
-    if (isSamePage(link.href)) return
+    if (isSamePage(link.href)) {
+      // A link to the page we're already on should be a complete no-op
+      // rather than a wasteful full reload - unless it points at a
+      // different in-page anchor, which the browser scrolls to natively.
+      if (link.hash === "" || link.hash === location.hash) e.preventDefault()
+      return
+    }
 
     e.preventDefault()
     history.replaceState({ scrollY: window.scrollY } satisfies HistoryState, "")
