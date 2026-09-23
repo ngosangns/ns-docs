@@ -3,108 +3,108 @@ area: english
 domain: grammar
 type: guide
 title: Word Formation
-description: How prefixes and suffixes build new words — noun, verb, adjective, and adverb endings, negative prefixes, and common spelling changes
+description: Cách tiền tố và hậu tố tạo từ mới — đuôi danh từ, động từ, tính từ, trạng từ, tiền tố phủ định, và các biến đổi chính tả thường gặp
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Word Formation
+# Word Formation — Cấu tạo từ
 
-Word formation adds **prefixes** (before) and **suffixes** (after) to a root to change its meaning or word class — the skill tested in "word form" exercises.
+Cấu tạo từ thêm **tiền tố** (trước) và **hậu tố** (sau) vào gốc từ để đổi nghĩa hoặc từ loại — kỹ năng được kiểm tra trong bài tập "word form".
 
-## Suffixes — Changing Word Class
+## Hậu tố — Đổi từ loại
 
-### Noun Suffixes
+### Hậu tố danh từ
 
-| Suffix                 | Forms nouns from    | Examples                                      |
-| ---------------------- | ------------------- | --------------------------------------------- |
-| -tion / -sion / -ation | verbs               | educate → education, decide → decision        |
-| -ment                  | verbs               | develop → development, move → movement        |
-| -ness                  | adjectives          | happy → happiness, dark → darkness            |
-| -ity / -ty             | adjectives          | possible → possibility, safe → safety         |
-| -ance / -ence          | verbs/adjectives    | perform → performance, different → difference |
-| -er / -or / -ar        | person doing a verb | teach → teacher, act → actor, beg → beggar    |
-| -ist                   | person/skill        | piano → pianist, science → scientist          |
-| -ee / -ee vs -er       | receiver vs doer    | employ → employee vs employer                 |
-| -ship                  | state/relationship  | friend → friendship, member → membership      |
-| -hood                  | state/period        | child → childhood, neighbour → neighbourhood  |
-| -al                    | verbs               | arrive → arrival, refuse → refusal            |
-| -ure / -ing            | verbs               | fail → failure, build → building              |
-| -th                    | adjectives          | wide → width, strong → strength, deep → depth |
-| -age                   | various             | marry → marriage, short → shortage            |
+| Hậu tố                 | Tạo danh từ từ          | Ví dụ                                         |
+| ---------------------- | ----------------------- | --------------------------------------------- |
+| -tion / -sion / -ation | động từ                 | educate → education, decide → decision        |
+| -ment                  | động từ                 | develop → development, move → movement        |
+| -ness                  | tính từ                 | happy → happiness, dark → darkness            |
+| -ity / -ty             | tính từ                 | possible → possibility, safe → safety         |
+| -ance / -ence          | động từ/tính từ         | perform → performance, different → difference |
+| -er / -or / -ar        | người làm động từ       | teach → teacher, act → actor, beg → beggar    |
+| -ist                   | người/chuyên môn        | piano → pianist, science → scientist          |
+| -ee vs -er             | người nhận vs người làm | employ → employee vs employer                 |
+| -ship                  | trạng thái/quan hệ      | friend → friendship, member → membership      |
+| -hood                  | trạng thái/giai đoạn    | child → childhood, neighbour → neighbourhood  |
+| -al                    | động từ                 | arrive → arrival, refuse → refusal            |
+| -ure / -ing            | động từ                 | fail → failure, build → building              |
+| -th                    | tính từ                 | wide → width, strong → strength, deep → depth |
+| -age                   | nhiều loại              | marry → marriage, short → shortage            |
 
-### Verb Suffixes
+### Hậu tố động từ
 
-| Suffix      | Examples                                             |
+| Hậu tố      | Ví dụ                                                |
 | ----------- | ---------------------------------------------------- |
 | -ize / -ise | modern → modernize, real → realize                   |
 | -ify        | simple → simplify, beauty → beautify                 |
 | -en         | wide → widen, strength → strengthen, short → shorten |
 | -ate        | active → activate                                    |
 
-Prefixes en-/em- also form verbs: able → enable, danger → endanger.
+Tiền tố en-/em- cũng tạo động từ: able → enable, danger → endanger.
 
-### Adjective Suffixes
+### Hậu tố tính từ
 
-| Suffix             | Meaning                  | Examples                                                                                        |
-| ------------------ | ------------------------ | ----------------------------------------------------------------------------------------------- |
-| -ful / -less       | with / without           | care → careful / careless, hope → hopeful/hopeless                                              |
-| -ous               | full of                  | danger → dangerous, fame → famous                                                               |
-| -ive / -ative      | tendency/quality         | act → active, attract → attractive                                                              |
-| -able / -ible      | can be done              | read → readable, sense → sensible                                                               |
-| -al / -ial / -ical | relating to              | nation → national, history → historical                                                         |
-| -ic                | quality                  | economy → economic, hero → heroic                                                               |
-| -ish               | somewhat                 | child → childish, red → reddish                                                                 |
-| -y                 | quality                  | sun → sunny, rain → rainy, health → healthy                                                     |
-| -ed / -ing         | feeling vs causing it    | bored / boring — see [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) |
-| -ly                | manner-ish (adjectives!) | friend → friendly, love → lovely                                                                |
+| Hậu tố             | Nghĩa                   | Ví dụ                                                                                           |
+| ------------------ | ----------------------- | ----------------------------------------------------------------------------------------------- |
+| -ful / -less       | có / không có           | care → careful / careless, hope → hopeful/hopeless                                              |
+| -ous               | đầy                     | danger → dangerous, fame → famous                                                               |
+| -ive / -ative      | khuynh hướng/tính chất  | act → active, attract → attractive                                                              |
+| -able / -ible      | có thể                  | read → readable, sense → sensible                                                               |
+| -al / -ial / -ical | liên quan đến           | nation → national, history → historical                                                         |
+| -ic                | tính chất               | economy → economic, hero → heroic                                                               |
+| -ish               | hơi hơi                 | child → childish, red → reddish                                                                 |
+| -y                 | tính chất               | sun → sunny, rain → rainy, health → healthy                                                     |
+| -ed / -ing         | cảm nhận vs gây ra      | bored / boring — xem [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) |
+| -ly                | kiểu cách (là tính từ!) | friend → friendly, love → lovely                                                                |
 
-### Adverb Suffixes
+### Hậu tố trạng từ
 
-- **-ly:** quick → quickly, careful → carefully (the dominant adverb marker).
+- **-ly:** quick → quickly, careful → carefully (dấu hiệu trạng từ chủ đạo).
 - -ward(s): home → homeward, back → backwards.
 - -wise: clock → clockwise, length → lengthwise.
 
-## Prefixes — Changing Meaning
+## Tiền tố — Đổi nghĩa
 
-### Negative Prefixes
+### Tiền tố phủ định
 
-| Prefix                | Used with                 | Examples                                                                         |
+| Tiền tố               | Dùng với                  | Ví dụ                                                                            |
 | --------------------- | ------------------------- | -------------------------------------------------------------------------------- |
-| un-                   | adjectives, some verbs    | happy → unhappy, do → undo                                                       |
-| in- / im- / il- / ir- | adjectives (assimilation) | correct → incorrect, possible → impossible, legal → illegal, regular → irregular |
-| dis-                  | verbs, adjectives, nouns  | agree → disagree, honest → dishonest, like → dislike                             |
-| non-                  | nouns, adjectives         | sense → nonsense, smoker → non-smoker                                            |
-| mis-                  | verbs — wrongly           | understand → misunderstand, lead → mislead                                       |
-| de-                   | verbs — reverse           | centralize → decentralize                                                        |
+| un-                   | tính từ, một số động từ   | happy → unhappy, do → undo                                                       |
+| in- / im- / il- / ir- | tính từ (đồng hóa âm)     | correct → incorrect, possible → impossible, legal → illegal, regular → irregular |
+| dis-                  | động từ, tính từ, danh từ | agree → disagree, honest → dishonest, like → dislike                             |
+| non-                  | danh từ, tính từ          | sense → nonsense, smoker → non-smoker                                            |
+| mis-                  | động từ — sai             | understand → misunderstand, lead → mislead                                       |
+| de-                   | động từ — đảo ngược       | centralize → decentralize                                                        |
 
-### Other Common Prefixes
+### Các tiền tố phổ biến khác
 
-| Prefix | Meaning          | Examples                                       |
-| ------ | ---------------- | ---------------------------------------------- |
-| re-    | again            | write → rewrite, build → rebuild               |
-| pre-   | before           | view → preview, war → prewar                   |
-| over-  | too much         | cook → overcook, work → overwork               |
-| under- | too little/below | estimate → underestimate, ground → underground |
-| inter- | between          | national → international                       |
-| co-    | together         | operate → cooperate, worker → co-worker        |
-| anti-  | against          | social → antisocial                            |
-| multi- | many             | culture → multicultural                        |
-| ex-    | former           | wife → ex-wife                                 |
+| Tiền tố | Nghĩa          | Ví dụ                                          |
+| ------- | -------------- | ---------------------------------------------- |
+| re-     | lại            | write → rewrite, build → rebuild               |
+| pre-    | trước          | view → preview, war → prewar                   |
+| over-   | quá mức        | cook → overcook, work → overwork               |
+| under-  | thiếu/bên dưới | estimate → underestimate, ground → underground |
+| inter-  | giữa           | national → international                       |
+| co-     | cùng nhau      | operate → cooperate, worker → co-worker        |
+| anti-   | chống lại      | social → antisocial                            |
+| multi-  | nhiều          | culture → multicultural                        |
+| ex-     | trước đây      | wife → ex-wife                                 |
 
-## Spelling Changes to Watch
+## Biến đổi chính tả cần chú ý
 
-- Final -e often drops before a vowel suffix: use → using, fame → famous — but keeps before consonant suffixes: care → careful.
+- Chữ -e cuối thường mất trước hậu tố bắt đầu nguyên âm: use → using, fame → famous — nhưng giữ lại trước hậu tố phụ âm: care → careful.
 - -y → -i: happy → happiness/happily, beauty → beautiful.
-- Double the final consonant in CVC words: big → bigger, sun → sunny, hot → hottest.
-- Common exam transformations: succeed → success → successful → successfully; economy → economic → economical (different meanings!); die → dead → death.
+- Gấp đôi phụ âm cuối trong từ CVC: big → bigger, sun → sunny, hot → hottest.
+- Chuỗi biến đổi hay ra đề: succeed → success → successful → successfully; economy → economic → economical (khác nghĩa!); die → dead → death.
 
-## Notes
+## Ghi chú
 
-- Identify the **gap's word class first** (does the sentence need a noun, verb, adjective, or adverb?), then pick the suffix accordingly.
-- Some words keep the same form across classes: fast (adj/adv), hard (adj/adv), early (adj/adv).
-- Suffix choice is largely fixed — build a root-family habit: _decide → decision → decisive → decisively._
+- **Xác định từ loại chỗ trống cần trước** (câu cần danh từ, động từ, tính từ hay trạng từ?), rồi mới chọn hậu tố.
+- Một số từ giữ nguyên dạng qua các từ loại: fast (adj/adv), hard (adj/adv), early (adj/adv).
+- Việc chọn hậu tố phần lớn là cố định — tập thói quen học theo họ từ: _decide → decision → decisive → decisively._
 
-> **See also:** [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) · [Nouns](/English/Grammar/Concepts/Nouns) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Comparisons](/English/Grammar/Concepts/Comparisons)
+> **Xem thêm:** [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) · [Nouns](/English/Grammar/Concepts/Nouns) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Comparisons](/English/Grammar/Concepts/Comparisons)

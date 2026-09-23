@@ -3,76 +3,76 @@ area: english
 domain: grammar
 type: guide
 title: Prepositions
-description: Prepositions of time, place, and movement, plus dependent prepositions after verbs, adjectives, and nouns
+description: Giới từ chỉ thời gian, nơi chốn, chuyển động, cùng dependent prepositions sau động từ, tính từ, danh từ
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Prepositions
+# Prepositions — Giới từ
 
-A preposition links a noun or pronoun to the rest of the sentence, showing **time, place, direction, or relationship**.
+Giới từ nối danh từ hoặc đại từ với phần còn lại của câu, chỉ **thời gian, nơi chốn, hướng, hoặc quan hệ**.
 
-## Time
+## Thời gian
 
-| Preposition  | Used with                                       | Examples                                                      |
-| ------------ | ----------------------------------------------- | ------------------------------------------------------------- |
-| at           | exact times, festivals, night, weekend          | at 7 o'clock, at noon, at Christmas, at night, at the weekend |
-| on           | days and dates                                  | on Monday, on May 5th, on my birthday, on a cold morning      |
-| in           | months, years, seasons, centuries, parts of day | in July, in 2025, in summer, in the morning                   |
-| for          | duration                                        | for three years, for a long time                              |
-| since        | starting point                                  | since 2020, since Monday                                      |
-| by           | deadline — not later than                       | by Friday, by 5 pm                                            |
-| until/till   | up to a point in time                           | until tomorrow                                                |
-| during       | within a period (noun)                          | during the holiday                                            |
-| before/after | relative order                                  | before lunch, after the meeting                               |
-| ago          | back from now (with past tense)                 | two days ago                                                  |
+| Giới từ      | Dùng với                                  | Ví dụ                                                         |
+| ------------ | ----------------------------------------- | ------------------------------------------------------------- |
+| at           | giờ chính xác, lễ hội, ban đêm, cuối tuần | at 7 o'clock, at noon, at Christmas, at night, at the weekend |
+| on           | ngày và ngày tháng                        | on Monday, on May 5th, on my birthday, on a cold morning      |
+| in           | tháng, năm, mùa, thế kỷ, buổi trong ngày  | in July, in 2025, in summer, in the morning                   |
+| for          | khoảng thời gian                          | for three years, for a long time                              |
+| since        | mốc bắt đầu                               | since 2020, since Monday                                      |
+| by           | hạn chót — không muộn hơn                 | by Friday, by 5 pm                                            |
+| until/till   | cho đến một thời điểm                     | until tomorrow                                                |
+| during       | trong suốt một khoảng (+ danh từ)         | during the holiday                                            |
+| before/after | trước/sau                                 | before lunch, after the meeting                               |
+| ago          | cách đây (đi với thì quá khứ)             | two days ago                                                  |
 
-**No preposition** before: today, yesterday, tomorrow, tonight, last/next/this/every + time word.
+**Không dùng giới từ** trước: today, yesterday, tomorrow, tonight, last/next/this/every + từ chỉ thời gian.
 
-## Place
+## Nơi chốn
 
-| Preposition                     | Use                                   | Examples                             |
+| Giới từ                         | Cách dùng                             | Ví dụ                                |
 | ------------------------------- | ------------------------------------- | ------------------------------------ |
-| at                              | a point, specific address             | at the bus stop, at 12 Le Loi Street |
-| on                              | a surface, a street/road (US), floors | on the table, on the second floor    |
-| in                              | enclosed space, city, country         | in the room, in Hanoi, in Vietnam    |
-| in front of / behind / opposite | relative position                     | in front of the school               |
-| next to / beside / by           | adjacent                              | next to the bank                     |
-| between                         | two distinct objects                  | between the bank and the post office |
-| among                           | inside a group                        | among the crowd                      |
-| above / below / over / under    | vertical position                     | above the clouds, under the bridge   |
-| near / close to                 | proximity                             | near my house                        |
+| at                              | một điểm, địa chỉ cụ thể              | at the bus stop, at 12 Le Loi Street |
+| on                              | trên bề mặt, đường phố (Anh Mỹ), tầng | on the table, on the second floor    |
+| in                              | không gian kín, thành phố, quốc gia   | in the room, in Hanoi, in Vietnam    |
+| in front of / behind / opposite | vị trí tương đối                      | in front of the school               |
+| next to / beside / by           | ngay cạnh                             | next to the bank                     |
+| between                         | giữa hai vật riêng biệt               | between the bank and the post office |
+| among                           | trong một nhóm                        | among the crowd                      |
+| above / below / over / under    | vị trí theo chiều dọc                 | above the clouds, under the bridge   |
+| near / close to                 | gần                                   | near my house                        |
 
-## Movement and Direction
+## Chuyển động và hướng
 
-- **to:** destination — _go to school, come to my house._
-- **into / out of:** entering/leaving — _walk into the room, get out of the car._
-- **onto / off:** onto/off a surface — _jump onto the stage, fall off the bike._
-- **through:** passing inside — _walk through the park._
-- **across:** from side to side — _swim across the river._
-- **along:** following a line — _walk along the beach._
-- **past:** going by — _walk past the shop._
-- **towards:** in the direction of — _run towards the exit._
-- **from ... to:** origin to destination — _from Hanoi to Saigon._
+- **to:** đích đến — _go to school, come to my house._
+- **into / out of:** vào/ra — _walk into the room, get out of the car._
+- **onto / off:** lên/xuống khỏi bề mặt — _jump onto the stage, fall off the bike._
+- **through:** xuyên qua bên trong — _walk through the park._
+- **across:** từ bên này sang bên kia — _swim across the river._
+- **along:** dọc theo một đường — _walk along the beach._
+- **past:** đi ngang qua — _walk past the shop._
+- **towards:** về phía — _run towards the exit._
+- **from ... to:** từ điểm đầu đến điểm cuối — _from Hanoi to Saigon._
 
-## Other Common Prepositions
+## Các giới từ phổ biến khác
 
-- **by:** agent (passive), method of transport — _written by Shakespeare, by bus._
-- **with:** instrument/accompaniment — _cut with a knife, come with me._
-- **for:** purpose, recipient — _a gift for you._
-- **about:** topic — _talk about the plan._
-- **of:** possession/material — _a cup of tea, made of wood._
-- **like / as:** similarity vs role — _He swims like a fish. He works as a teacher._
+- **by:** tác nhân (bị động), phương tiện — _written by Shakespeare, by bus._
+- **with:** công cụ/đi cùng — _cut with a knife, come with me._
+- **for:** mục đích, người nhận — _a gift for you._
+- **about:** chủ đề — _talk about the plan._
+- **of:** sở hữu/chất liệu — _a cup of tea, made of wood._
+- **like / as:** giống như vs với vai trò — _He swims like a fish. He works as a teacher._
 
-## Dependent Prepositions
+## Dependent Prepositions — Giới từ theo sau cố định
 
-Certain verbs, adjectives, and nouns take fixed prepositions — these must be memorised.
+Một số động từ, tính từ, danh từ bắt buộc giới từ cố định — phải học thuộc.
 
-### Verb + Preposition
+### Verb + Giới từ
 
-- **at:** look at, laugh at, arrive at (a place).
+- **at:** look at, laugh at, arrive at (địa điểm).
 - **to:** listen to, belong to, happen to, apologise to.
 - **for:** wait for, look for, ask for, pay for, apply for.
 - **in:** believe in, succeed in, participate in, result in.
@@ -83,7 +83,7 @@ Certain verbs, adjectives, and nouns take fixed prepositions — these must be m
 - **from:** suffer from, differ from, prevent ... from.
 - **into:** turn into, divide into.
 
-### Adjective + Preposition
+### Adjective + Giới từ
 
 - **of:** afraid of, proud of, fond of, tired of, jealous of.
 - **for:** good for, famous for, responsible for, sorry for.
@@ -94,14 +94,14 @@ Certain verbs, adjectives, and nouns take fixed prepositions — these must be m
 - **in:** interested in, rich in, successful in.
 - **from:** different from, safe from.
 
-### Noun + Preposition
+### Noun + Giới từ
 
 - reason for, solution to, answer to, key to, advantage/disadvantage of, interest in, lack of, increase/decrease in.
 
-## Notes
+## Ghi chú
 
-- After a preposition, use the **gerund**: _interested in learning, thank you for coming._
-- Preposition choice is mostly idiomatic — learn them as chunks (depend **on**, good **at**, married **to**), not as rules.
-- Phrasal verbs, which combine verb + particle, get their own treatment in [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs).
+- Sau giới từ dùng **danh động từ (gerund)**: _interested in learning, thank you for coming._
+- Việc chọn giới từ chủ yếu mang tính thành ngữ — học theo cụm (depend **on**, good **at**, married **to**), không theo quy tắc.
+- Phrasal verbs — động từ + tiểu từ — được trình bày riêng ở [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs).
 
-> **See also:** [Nouns](/English/Grammar/Concepts/Nouns) · [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds)
+> **Xem thêm:** [Nouns](/English/Grammar/Concepts/Nouns) · [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds)

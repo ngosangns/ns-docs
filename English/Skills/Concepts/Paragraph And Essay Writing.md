@@ -3,7 +3,7 @@ area: english
 domain: skills
 type: guide
 title: Paragraph And Essay Writing
-description: Paragraph structure with PEEL, the common essay types, cohesion, and the checklist for a solid essay
+description: Cấu trúc đoạn văn PEEL, các loại essay phổ biến, tính liên kết, và checklist cho một bài essay chắc tay
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,63 +11,63 @@ tags:
   - writing
 ---
 
-# Paragraph And Essay Writing
+# Paragraph And Essay Writing — Viết đoạn văn và bài luận
 
-Academic writing is formulaic at heart: a clear structure, one idea per paragraph, and explicit linking between ideas.
+Văn viết học thuật cốt lõi là công thức: cấu trúc rõ ràng, mỗi đoạn một ý, và liên kết tường minh giữa các ý.
 
-## Paragraph Structure — PEEL
+## Cấu trúc đoạn văn — PEEL
 
-- **P — Point:** the topic sentence states the paragraph's single idea: _Online learning offers unmatched flexibility._
-- **E — Explanation:** explain what you mean.
-- **E — Example/Evidence:** a fact, statistic, or example.
-- **L — Link:** connect back to the thesis or forward to the next paragraph.
+- **P — Point:** câu chủ đề nêu ý duy nhất của đoạn: _Online learning offers unmatched flexibility._
+- **E — Explanation:** giải thích ý bạn muốn nói.
+- **E — Example/Evidence:** một sự thật, số liệu, hoặc ví dụ.
+- **L — Link:** nối lại luận đề hoặc dẫn sang đoạn tiếp theo.
 
-Rules of thumb: one idea per paragraph; ~4-6 sentences; every sentence after the first must develop that idea — anything else gets its own paragraph.
+Quy tắc ngón tay: một đoạn một ý; ~4-6 câu; mọi câu sau câu đầu phải phát triển ý đó — ý khác thì cho vào đoạn riêng.
 
-## Essay Skeleton
+## Khung bài essay
 
-**Introduction → 2-3 body paragraphs → conclusion**
+**Mở bài → 2-3 đoạn thân → kết bài**
 
-- **Introduction:** general sentence about the topic → narrow to your thesis statement (your answer to the question) → optionally preview the main points.
-- **Body paragraphs:** each follows PEEL; order strongest point first or last, not in the middle.
-- **Conclusion:** restate the thesis in new words → summarize main points → final thought/recommendation. **No new ideas.**
+- **Mở bài:** câu chung về chủ đề → thu hẹp về thesis statement (câu trả lời cho đề) → tùy chọn giới thiệu trước các ý chính.
+- **Thân bài:** mỗi đoạn theo PEEL; xếp ý mạnh nhất lên đầu hoặc cuối, không để giữa.
+- **Kết bài:** diễn lại luận đề bằng từ mới → tóm tắt các ý chính → suy nghĩ/khuyến nghị cuối. **Không thêm ý mới.**
 
-## Common Essay Types
+## Các loại essay phổ biến
 
-| Type                     | Question looks like                               | Structure                                                |
-| ------------------------ | ------------------------------------------------- | -------------------------------------------------------- |
-| Opinion                  | "Do you agree or disagree?" / "To what extent..." | State your view; each body paragraph = one reason        |
-| Discussion               | "Discuss both views and give your opinion"        | Para 1 = view A, para 2 = view B, conclusion = your view |
-| Advantages/disadvantages | "Do the advantages outweigh...?"                  | One paragraph each side; conclusion weighs them          |
-| Problem/solution         | "What are the causes/solutions?"                  | Body 1 = causes, body 2 = solutions                      |
-| Two-part question        | Two direct questions                              | One body paragraph per question                          |
+| Loại                     | Đề thường hỏi                                     | Cấu trúc                                                |
+| ------------------------ | ------------------------------------------------- | ------------------------------------------------------- |
+| Opinion                  | "Do you agree or disagree?" / "To what extent..." | Nêu quan điểm; mỗi đoạn thân = một lý do                |
+| Discussion               | "Discuss both views and give your opinion"        | Đoạn 1 = quan điểm A, đoạn 2 = quan điểm B, kết = ý bạn |
+| Advantages/disadvantages | "Do the advantages outweigh...?"                  | Mỗi bên một đoạn; kết bài cân nhắc                      |
+| Problem/solution         | "What are the causes/solutions?"                  | Thân 1 = nguyên nhân, thân 2 = giải pháp                |
+| Two-part question        | Hai câu hỏi trực tiếp                             | Mỗi đoạn thân trả lời một câu                           |
 
-## Cohesion — Gluing Sentences Together
+## Liên kết — Gắn câu lại với nhau
 
-- **Connectors** by function (addition, contrast, result, sequence, example) — full list in [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
-- **Reference words** avoid repetition: _this, these, such, it, they, the former/latter._
-- **Lexical cohesion:** repeat key nouns or use synonyms — vary "problem → issue → challenge".
-- Don't overdo connectors — one per sentence max, and not "Firstly... Secondly... Thirdly" in every paragraph.
+- **Từ nối** theo chức năng (thêm ý, tương phản, kết quả, trình tự, ví dụ) — danh sách đầy đủ ở [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
+- **Từ tham chiếu** tránh lặp: _this, these, such, it, they, the former/latter._
+- **Liên kết từ vựng:** lặp danh từ khóa hoặc dùng đồng nghĩa — biến hóa "problem → issue → challenge".
+- Đừng lạm dụng từ nối — tối đa một cái mỗi câu, và không "Firstly... Secondly... Thirdly" ở mọi đoạn.
 
-## Sentence Variety
+## Đa dạng cấu trúc câu
 
-Examiners reward range — deliberately mix:
+Giám khảo thưởng cho độ đa dạng — cố ý trộn:
 
-- Simple, compound, and complex sentences — [Sentence Structure](/English/Grammar/Concepts/Sentence Structure).
-- A passive where natural — [Passive Voice](/English/Grammar/Concepts/Passive Voice).
-- A conditional — [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences).
-- An occasional emphatic structure — [Cleft Sentences](/English/Grammar/Concepts/Cleft Sentences) or [Inversion](/English/Grammar/Concepts/Inversion).
+- Câu đơn, ghép, phức — [Sentence Structure](/English/Grammar/Concepts/Sentence Structure).
+- Một câu bị động khi tự nhiên — [Passive Voice](/English/Grammar/Concepts/Passive Voice).
+- Một câu điều kiện — [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences).
+- Thỉnh thoảng một cấu trúc nhấn mạnh — [Cleft Sentences](/English/Grammar/Concepts/Cleft Sentences) hoặc [Inversion](/English/Grammar/Concepts/Inversion).
 
-## Writing Process
+## Quy trình viết
 
-1. **Plan (5 min):** brainstorm → pick 2-3 points → note one example each.
-2. **Write:** get the structure down; don't stop for perfect words.
-3. **Revise:** check ideas and flow first, then language.
-4. **Proofread:** run the four error classes from [Common Errors](/English/Exam Skills/Concepts/Common Errors) + [punctuation](/English/Exam Skills/Concepts/Punctuation And Capitalization).
+1. **Lên dàn ý (5 phút):** brainstorm → chọn 2-3 ý → ghi một ví dụ cho mỗi ý.
+2. **Viết:** dựng xong cấu trúc; đừng dừng lại tìm từ hoàn hảo.
+3. **Sửa nội dung:** kiểm tra ý và mạch chảy trước, rồi mới đến ngôn ngữ.
+4. **Soát lỗi:** chạy bốn nhóm lỗi trong [Common Errors](/English/Exam Skills/Concepts/Common Errors) + [dấu câu](/English/Exam Skills/Concepts/Punctuation And Capitalization).
 
-## Notes
+## Ghi chú
 
-- Formal register — no contractions, no slang, cautious with idioms — see [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
-- Word-count padding with "Firstly, it is important to note that..." wastes words — prefer direct sentences.
+- Văn phong trang trọng — không viết tắt, không slang, thận trọng với idiom — xem [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
+- Nhét chữ để đủ số từ kiểu "Firstly, it is important to note that..." là phí từ — ưu tiên câu trực tiếp.
 
-> **See also:** [Email And Letter Writing](/English/Skills/Concepts/Email And Letter Writing) · [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives) · [Common Errors](/English/Exam Skills/Concepts/Common Errors) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing)
+> **Xem thêm:** [Email And Letter Writing](/English/Skills/Concepts/Email And Letter Writing) · [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives) · [Common Errors](/English/Exam Skills/Concepts/Common Errors) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing)

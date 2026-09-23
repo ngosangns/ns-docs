@@ -3,63 +3,63 @@ area: english
 domain: pronunciation
 type: guide
 title: Ending Sounds
-description: How to pronounce -ed past endings and -s/-es endings — the /t/ /d/ /ɪd/ and /s/ /z/ /ɪz/ rules
+description: Cách phát âm đuôi quá khứ -ed và đuôi -s/-es — quy tắc /t/ /d/ /ɪd/ và /s/ /z/ /ɪz/
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - pronunciation
 ---
 
-# Ending Sounds
+# Ending Sounds — Âm kết thúc
 
-The two most-tested pronunciation rules: the **-ed** past ending and the **-s/-es** ending (plurals, third-person verbs, possessives).
+Hai quy tắc phát âm hay ra thi nhất: đuôi **-ed** quá khứ và đuôi **-s/-es** (số nhiều, động từ ngôi ba số ít, sở hữu).
 
-## -ed Endings — /t/ /d/ /ɪd/
+## Đuôi -ed — /t/ /d/ /ɪd/
 
-The sound depends on the **last sound of the base verb**:
+Âm phát ra phụ thuộc vào **âm cuối của động từ gốc**:
 
-| Ending | Condition                                                              | Examples                                            |
-| ------ | ---------------------------------------------------------------------- | --------------------------------------------------- |
-| /ɪd/   | verb ends in **/t/ or /d/**                                            | wanted, needed, started, decided, waited, landed    |
-| /t/    | verb ends in an **unvoiced** sound: /p k f θ s ʃ tʃ/                   | stopped, worked, laughed, washed, watched, finished |
-| /d/    | verb ends in a **voiced** sound (vowels + /b g v ð z ʒ m n ŋ l r j w/) | played, called, cleaned, lived, used, opened        |
+| Đuôi | Điều kiện                                                                   | Ví dụ                                               |
+| ---- | --------------------------------------------------------------------------- | --------------------------------------------------- |
+| /ɪd/ | động từ tận cùng **/t/ hoặc /d/**                                           | wanted, needed, started, decided, waited, landed    |
+| /t/  | động từ tận cùng âm **vô thanh**: /p k f θ s ʃ tʃ/                          | stopped, worked, laughed, washed, watched, finished |
+| /d/  | động từ tận cùng âm **hữu thanh** (nguyên âm + /b g v ð z ʒ m n ŋ l r j w/) | played, called, cleaned, lived, used, opened        |
 
 - _wanted_ /ˈwɒntɪd/ · _stopped_ /stɒpt/ · _played_ /pleɪd/
-- Memory trick: only **t and d** add a whole syllable; unvoiced → /t/; voiced → /d/.
-- Careful: some adjectives ending -ed are pronounced /ɪd/ anyway: naked, wicked, learned (adj.), aged, beloved, blessed, crooked, dogged, ragged.
+- Mẹo nhớ: chỉ **t và d** mới thêm nguyên một âm tiết; vô thanh → /t/; hữu thanh → /d/.
+- Cẩn thận: một số tính từ đuôi -ed vẫn đọc /ɪd/: naked, wicked, learned (adj.), aged, beloved, blessed, crooked, dogged, ragged.
 
-## -s / -es Endings — /s/ /z/ /ɪz/
+## Đuôi -s / -es — /s/ /z/ /ɪz/
 
-Applies to **plural nouns, third-person singular verbs, and possessives**:
+Áp dụng cho **danh từ số nhiều, động từ ngôi ba số ít, và sở hữu 's**:
 
-| Ending | Condition                                                        | Examples                                      |
-| ------ | ---------------------------------------------------------------- | --------------------------------------------- |
-| /ɪz/   | word ends in a **sibilant**: /s z ʃ ʒ tʃ dʒ/                     | buses, roses, washes, watches, pages, bridges |
-| /s/    | word ends in an **unvoiced** sound: /p t k f θ/                  | cats, books, stops, laughs, months            |
-| /z/    | word ends in a **voiced** sound (vowels + /b d g v ð m n ŋ l r/) | dogs, pens, days, cars, lives, rooms          |
+| Đuôi | Điều kiện                                                        | Ví dụ                                         |
+| ---- | ---------------------------------------------------------------- | --------------------------------------------- |
+| /ɪz/ | từ tận cùng **âm xát (sibilant)**: /s z ʃ ʒ tʃ dʒ/               | buses, roses, washes, watches, pages, bridges |
+| /s/  | từ tận cùng âm **vô thanh**: /p t k f θ/                         | cats, books, stops, laughs, months            |
+| /z/  | từ tận cùng âm **hữu thanh** (nguyên âm + /b d g v ð m n ŋ l r/) | dogs, pens, days, cars, lives, rooms          |
 
 - _buses_ /ˈbʌsɪz/ · _cats_ /kæts/ · _dogs_ /dɒɡz/
-- Possessive 's follows the same rule: _Jack's_ /s/, _John's_ /z/, _James's_ /ɪz/.
+- Sở hữu 's theo cùng quy tắc: _Jack's_ /s/, _John's_ /z/, _James's_ /ɪz/.
 
-## Quick Method — Voiced vs Unvoiced
+## Cách nhanh — Hữu thanh vs Vô thanh
 
-Put your fingers on your throat and say the last sound of the base word:
+Đặt ngón tay lên cổ họng và phát âm cuối của từ gốc:
 
-- **Vibration** (voiced) → -ed = /d/, -s = /z/.
-- **No vibration** (unvoiced) → -ed = /t/, -s = /s/.
-- **/t d/** before -ed or **sibilants** before -s → add a syllable: /ɪd/, /ɪz/.
+- **Có rung** (hữu thanh) → -ed = /d/, -s = /z/.
+- **Không rung** (vô thanh) → -ed = /t/, -s = /s/.
+- **/t d/** trước -ed hoặc **âm xát** trước -s → thêm một âm tiết: /ɪd/, /ɪz/.
 
-## Exam Traps
+## Bẫy trong đề thi
 
-Words that look similar but differ in the final base sound:
+Các từ trông giống nhau nhưng khác âm cuối của từ gốc:
 
 - laughed /t/ vs played /d/ vs wanted /ɪd/
 - books /s/ vs bags /z/ vs boxes /ɪz/
 - thanks /s/ vs sings /z/ vs dances /ɪz/
 
-## Notes
+## Ghi chú
 
-- These endings are grammatically required — dropping them in speech also drops the grammar signal (plural, past, third-person).
-- The rule is about the **sound**, not the letter: _fox_ ends in /ks/ → foxes /ɪz/; _cough_ ends in /f/ → coughed /t/.
+- Các đuôi này là bắt buộc về ngữ pháp — nuốt đuôi khi nói cũng làm mất tín hiệu ngữ pháp (số nhiều, quá khứ, ngôi ba).
+- Quy tắc theo **âm**, không theo chữ: _fox_ tận cùng /ks/ → foxes /ɪz/; _cough_ tận cùng /f/ → coughed /t/.
 
-> **See also:** [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural) · [Verb Tenses](/English/Grammar/Concepts/Verb Tenses)
+> **Xem thêm:** [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural) · [Verb Tenses](/English/Grammar/Concepts/Verb Tenses)

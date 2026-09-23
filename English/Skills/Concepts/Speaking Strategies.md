@@ -3,7 +3,7 @@ area: english
 domain: skills
 type: guide
 title: Speaking Strategies
-description: Building fluency — chunking, shadowing, conversation rescue phrases, and pronunciation priorities for Vietnamese speakers
+description: Xây dựng độ lưu loát — học theo cụm, shadowing, câu cứu hội thoại, và ưu tiên phát âm cho người Việt
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,41 +11,41 @@ tags:
   - speaking
 ---
 
-# Speaking Strategies
+# Speaking Strategies — Chiến lược nói
 
-Fluency = automaticity with **chunks** + comfort managing the conversation — not perfect grammar produced slowly.
+Lưu loát = thành thạo tự động các **cụm từ (chunks)** + thoải mái điều khiển hội thoại — không phải ngữ pháp hoàn hảo được nói ra chậm rãi.
 
-## Build Automaticity
+## Xây dựng phản xạ tự động
 
-- **Learn chunks, not words:** memorize functional blocks — _"Would you mind if...", "What I mean is...", "It depends on..."_ — they come out whole, no assembly needed. See [Collocations](/English/Vocabulary/Concepts/Collocations) and [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
-- **Shadowing:** repeat audio a split-second behind the speaker, copying rhythm — trains the mouth to produce English speed.
-- **Think aloud in English:** narrate your day ("I'm making coffee, it smells good") — builds retrieval speed without a partner.
-- **Record yourself:** 1-minute monologues on a topic; replay and count hesitations, grammar slips, pronunciation issues.
+- **Học cụm, không học từ lẻ:** thuộc các khối chức năng — _"Would you mind if...", "What I mean is...", "It depends on..."_ — chúng bật ra nguyên khối, không cần lắp ráp. Xem [Collocations](/English/Vocabulary/Concepts/Collocations) và [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
+- **Shadowing:** lặp lại audio sát ngay sau người nói, bắt chước nhịp điệu — tập miệng sản xuất với tốc độ tiếng Anh.
+- **Nói thành lời bằng tiếng Anh:** tường thuật ngày của bạn ("I'm making coffee, it smells good") — tăng tốc độ truy xuất từ mà không cần bạn luyện.
+- **Tự ghi âm:** độc thoại 1 phút về một chủ đề; nghe lại và đếm số lần ngập ngừng, lỗi ngữ pháp, lỗi phát âm.
 
-## Conversation Rescue Kit
+## Bộ cứu hội thoại
 
-- **Asking for repetition/clarification:** _Sorry, could you say that again?_ · _What do you mean by...?_ · _Could you speak a bit slower?_
-- **Buying time:** _Let me think..._ · _That's a good question._ · _Well, it depends._ — see [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
-- **Paraphrasing when a word is missing:** describe it — _"the thing you use to..."_, _"a kind of..."_, _"it's like..."_.
-- **Checking understanding:** _You mean...?_ · _So you're saying...?_ · _If I understand correctly..._
-- **Ending turns:** _...and that's about it._ · _Anyway, that's my view._ — then ask the other person a question.
+- **Xin nhắc lại/làm rõ:** _Sorry, could you say that again?_ · _What do you mean by...?_ · _Could you speak a bit slower?_
+- **Câu câu giờ:** _Let me think..._ · _That's a good question._ · _Well, it depends._ — xem [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
+- **Paraphrase khi quên từ:** mô tả nó — _"the thing you use to..."_, _"a kind of..."_, _"it's like..."_.
+- **Kiểm tra hiểu đúng không:** _You mean...?_ · _So you're saying...?_ · _If I understand correctly..._
+- **Kết thúc lượt nói:** _...and that's about it._ · _Anyway, that's my view._ — rồi hỏi lại người kia một câu.
 
-## Pronunciation Priorities for Vietnamese Speakers
+## Ưu tiên phát âm cho người Việt
 
-1. **Final consonants** — never drop them; they carry grammar (-s plurals, -ed past, -s third person) — see [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds).
-2. **Sentence stress** — stress content words, reduce function words — see [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation).
-3. **Difficult phonemes** — /θ/, /ð/, /ʃ/ vs /s/, /l/ vs /n/ — see [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) and [Minimal Pairs](/English/Pronunciation/Resources/Minimal Pairs).
-4. **Intonation** — rising for yes/no questions; falling for statements — flat intonation reads as monotone or even rude.
+1. **Phụ âm cuối** — tuyệt đối đừng nuốt; chúng mang ngữ pháp (-s số nhiều, -ed quá khứ, -s ngôi ba) — xem [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds).
+2. **Trọng âm câu** — nhấn từ có nghĩa, giảm từ chức năng — xem [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation).
+3. **Các âm khó** — /θ/, /ð/, /ʃ/ vs /s/, /l/ vs /n/ — xem [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) và [Minimal Pairs](/English/Pronunciation/Resources/Minimal Pairs).
+4. **Ngữ điệu** — lên giọng cho câu hỏi yes/no; xuống giọng cho câu trần thuật — ngữ điệu bằng phẳng nghe đơn điệu hoặc thậm chí thô lỗ.
 
-## Common Pitfalls
+## Lỗi hay mắc
 
-- Translating from Vietnamese mid-sentence → slow and error-prone; use memorized chunks instead.
-- Over-correcting mid-flow kills fluency — finish the sentence, self-correct only if meaning is unclear.
-- One-word answers end conversations; always add a reason or question.
+- Dịch từ tiếng Việt giữa chừng câu → chậm và dễ sai; dùng cụm đã thuộc thay thế.
+- Tự sửa quá nhiều giữa chừng giết mất độ lưu loát — nói hết câu, chỉ sửa khi nghĩa không rõ.
+- Trả lời một từ sẽ chấm dứt hội thoại; luôn thêm lý do hoặc câu hỏi.
 
-## Notes
+## Ghi chú
 
-- Accuracy and fluency need different practice: drills for accuracy, conversation for fluency — don't try to do both at once.
-- Speaking exams (IELTS, school oral tests) reward range: varied tenses, connectors, a few idioms — but only ones you can produce correctly.
+- Chính xác và lưu loát cần luyện khác nhau: drill cho chính xác, hội thoại cho lưu loát — đừng cố làm cả hai cùng lúc.
+- Bài thi nói (IELTS, kiểm tra miệng ở trường) thưởng cho độ đa dạng: nhiều thì, từ nối, vài idiom — nhưng chỉ những thứ bạn dùng đúng.
 
-> **See also:** [Listening Strategies](/English/Skills/Concepts/Listening Strategies) · [Discourse Markers](/English/Usage/Concepts/Discourse Markers) · [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking)
+> **Xem thêm:** [Listening Strategies](/English/Skills/Concepts/Listening Strategies) · [Discourse Markers](/English/Usage/Concepts/Discourse Markers) · [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking)

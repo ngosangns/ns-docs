@@ -3,7 +3,7 @@ area: english
 domain: skills
 type: guide
 title: Email And Letter Writing
-description: Formal and informal email/letter formats — salutations, sign-offs, and the standard phrases for each purpose
+description: Format thư/email trang trọng và thân mật — lời chào, lời kết, và cụm mẫu theo từng mục đích
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,57 +11,57 @@ tags:
   - writing
 ---
 
-# Email And Letter Writing
+# Email And Letter Writing — Viết email và thư
 
-Emails and letters follow fixed conventions — the opening, sign-off, and set phrases carry most of the marks in exam writing tasks.
+Email và thư theo quy ước cố định — lời chào đầu, lời kết, và cụm mẫu chiếm phần lớn điểm trong bài viết thi.
 
-## Format Skeleton
+## Khung format
 
-| Formal letter/email                   | Informal letter/email                 |
-| ------------------------------------- | ------------------------------------- |
-| Dear Sir/Madam, / Dear Mr. Nguyen,    | Dear Lan, / Hi Nam, / Hey Minh,       |
-| Reason for writing (1 sentence)       | Friendly opener (_How are you?_)      |
-| Body: 2-3 short paragraphs            | Body: news, stories, the real point   |
-| Closing line (_I look forward to..._) | Closing line (_Write back soon!_)     |
-| Yours faithfully/sincerely, + name    | Best wishes, / Love, / Cheers, + name |
+| Thư/email trang trọng              | Thư/email thân mật                   |
+| ---------------------------------- | ------------------------------------ |
+| Dear Sir/Madam, / Dear Mr. Nguyen, | Dear Lan, / Hi Nam, / Hey Minh,      |
+| Lý do viết (1 câu)                 | Câu mở thân thiện (_How are you?_)   |
+| Thân: 2-3 đoạn ngắn                | Thân: tin tức, chuyện, ý chính       |
+| Câu kết (_I look forward to..._)   | Câu kết (_Write back soon!_)         |
+| Yours faithfully/sincerely, + tên  | Best wishes, / Love, / Cheers, + tên |
 
-- **Yours sincerely** — when you know the recipient's name (_Dear Mr. Smith_).
-- **Yours faithfully** — when you don't (_Dear Sir/Madam_).
-- Emails: add a clear **subject line** summarizing the request.
+- **Yours sincerely** — khi biết tên người nhận (_Dear Mr. Smith_).
+- **Yours faithfully** — khi không biết (_Dear Sir/Madam_).
+- Email: thêm **subject line** rõ ràng tóm tắt yêu cầu.
 
-## Standard Phrases by Purpose
+## Cụm mẫu theo mục đích
 
-### Opening — why you're writing
+### Mở đầu — lý do viết
 
-- Formal: _I am writing to enquire about..._ · _I am writing with regard to..._ · _I am writing in response to your advertisement._
-- Informal: _Just a quick note to tell you..._ · _Thanks for your last email._
+- Trang trọng: _I am writing to enquire about..._ · _I am writing with regard to..._ · _I am writing in response to your advertisement._
+- Thân mật: _Just a quick note to tell you..._ · _Thanks for your last email._
 
-### Requests and Information
+### Yêu cầu và xin thông tin
 
 - _I would be grateful if you could..._ · _Could you please let me know...?_ · _I would appreciate it if you could send me..._
 - _Please find attached..._ · _Do not hesitate to contact me if you need further information._
 
-### Complaints and Apologies
+### Khiếu nại và xin lỗi
 
 - _I am writing to express my dissatisfaction with..._ · _I would like to complain about..._
 - _I am sorry for the inconvenience._ · _Please accept my apologies for..._
 
-### Closing
+### Kết thư
 
-- _I look forward to hearing from you (soon)._ (hearing — gerund!)
+- _I look forward to hearing from you (soon)._ (hearing — danh động từ!)
 - _Thank you for your time and consideration._
-- Informal: _Hope to hear from you soon._ · _Give my regards to your family._ · _Keep in touch._
+- Thân mật: _Hope to hear from you soon._ · _Give my regards to your family._ · _Keep in touch._
 
-## Register Rules
+## Quy tắc văn phong
 
-- Formal: full forms (I am, do not), no phrasal-verb slang, passive where useful — see [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
-- Informal: contractions fine, phrasal verbs fine, exclamation ok.
-- Never open a formal email with "Hi" or close with "Cheers" — register mismatch is the most common mark-loser.
+- Trang trọng: dạng đầy đủ (I am, do not), không phrasal verb khẩu ngữ, dùng bị động khi hợp — xem [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
+- Thân mật: viết tắt thoải mái, phrasal verb thoải mái, dấu cảm thán ok.
+- Đừng bao giờ mở email trang trọng bằng "Hi" hay kết bằng "Cheers" — lệch văn phong là lỗi mất điểm phổ biến nhất.
 
-## Notes
+## Ghi chú
 
-- One idea per paragraph; state the purpose in the first sentence — busy readers skim.
-- In exams, check the task for required content points and hit **all** of them — content coverage matters as much as language.
-- For full-length essays rather than letters, see [Paragraph And Essay Writing](/English/Skills/Concepts/Paragraph And Essay Writing).
+- Mỗi đoạn một ý; nêu mục đích ngay câu đầu — người đọc bận chỉ skim.
+- Trong phòng thi, kiểm tra đề xem yêu cầu những ý nào và đáp ứng **hết** — bao phủ nội dung quan trọng ngang ngôn ngữ.
+- Cho bài luận dài thay vì thư, xem [Paragraph And Essay Writing](/English/Skills/Concepts/Paragraph And Essay Writing).
 
-> **See also:** [Paragraph And Essay Writing](/English/Skills/Concepts/Paragraph And Essay Writing) · [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English) · [Common Errors](/English/Exam Skills/Concepts/Common Errors)
+> **Xem thêm:** [Paragraph And Essay Writing](/English/Skills/Concepts/Paragraph And Essay Writing) · [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English) · [Common Errors](/English/Exam Skills/Concepts/Common Errors)

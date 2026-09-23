@@ -3,89 +3,89 @@ area: english
 domain: grammar
 type: guide
 title: Questions And Question Tags
-description: Yes/no and wh- questions, subject questions, indirect questions, tag questions, short answers, and negation
+description: Câu hỏi yes/no và wh-, câu hỏi chủ ngữ, câu hỏi gián tiếp, câu hỏi đuôi, câu trả lời ngắn và phủ định
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Questions And Question Tags
+# Questions And Question Tags — Câu hỏi và câu hỏi đuôi
 
-## Yes/No Questions
+## Câu hỏi Yes/No
 
-Invert the subject and the first auxiliary; with no auxiliary, add do/does/did.
+Đảo chủ ngữ và trợ động từ đầu tiên; nếu không có trợ động từ, thêm do/does/did.
 
-**Formula:** Auxiliary + S + V ... ?
+**Công thức:** Trợ động từ + S + V ... ?
 
 - _Are you ready?_ · _Does she like coffee?_ · _Did they come yesterday?_
 
-## Wh- Questions
+## Câu hỏi Wh-
 
-**Formula:** Wh-word + auxiliary + S + V ... ?
+**Công thức:** Wh-word + trợ động từ + S + V ... ?
 
-| Wh-word            | Asks about                            | Example                                  |
+| Wh-word            | Hỏi về                                | Ví dụ                                    |
 | ------------------ | ------------------------------------- | ---------------------------------------- |
-| what               | things                                | _What are you doing?_ (Bạn đang làm gì?) |
-| who                | people (subject/object)               | _Who called you?_                        |
-| whom               | people (object, formal)               | _Whom did you invite?_                   |
-| whose              | possession                            | _Whose bag is this?_                     |
-| which              | choice                                | _Which colour do you prefer?_            |
-| when/where/why/how | time/place/reason/manner              | _Why are you late?_                      |
-| how + adj/adv      | degree — how far/long/often/much/many | _How often do you exercise?_             |
+| what               | vật, việc                             | _What are you doing?_ (Bạn đang làm gì?) |
+| who                | người (chủ ngữ/tân ngữ)               | _Who called you?_                        |
+| whom               | người (tân ngữ, trang trọng)          | _Whom did you invite?_                   |
+| whose              | sở hữu                                | _Whose bag is this?_                     |
+| which              | lựa chọn                              | _Which colour do you prefer?_            |
+| when/where/why/how | thời gian/nơi/lý do/cách thức         | _Why are you late?_                      |
+| how + adj/adv      | mức độ — how far/long/often/much/many | _How often do you exercise?_             |
 
-### Subject Questions — No Inversion
+### Câu hỏi chủ ngữ — Không đảo ngữ
 
-When the wh-word **is** the subject, use statement order — no do/does/did:
+Khi từ hỏi **chính là** chủ ngữ, giữ trật tự câu trần thuật — không dùng do/does/did:
 
-- _Who broke the window?_ (Ai làm vỡ cửa sổ?) — not "Who did break..."
-- _What happened?_ — not "What did happen?"
-- Compare: _Who did you see?_ (you saw whom — object question) vs _Who saw you?_ (who saw you — subject question)
+- _Who broke the window?_ (Ai làm vỡ cửa sổ?) — không phải "Who did break..."
+- _What happened?_ — không phải "What did happen?"
+- So sánh: _Who did you see?_ (bạn đã thấy ai — hỏi tân ngữ) vs _Who saw you?_ (ai đã thấy bạn — hỏi chủ ngữ)
 
-## Indirect (Embedded) Questions
+## Câu hỏi gián tiếp (Indirect Questions)
 
-Inside another sentence, the question takes **statement order** — no inversion, no "do":
+Nằm trong một câu khác, câu hỏi dùng **trật tự trần thuật** — không đảo ngữ, không "do":
 
-- _Do you know where the station is?_ (not "where is the station")
+- _Do you know where the station is?_ (không phải "where is the station")
 - _Can you tell me what time it starts?_
-- Yes/no embedded questions use **if/whether**: _She asked if I was free._ — see [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) and [Reported Speech](/English/Grammar/Concepts/Reported Speech).
+- Câu hỏi yes/no gián tiếp dùng **if/whether**: _She asked if I was free._ — xem [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) và [Reported Speech](/English/Grammar/Concepts/Reported Speech).
 
-## Tag Questions
+## Câu hỏi đuôi (Tag Questions)
 
-A short question added to a statement to check information or invite agreement.
+Câu hỏi ngắn thêm vào sau câu trần thuật để xác nhận thông tin hoặc mời đồng tình.
 
-**Formula:** statement, auxiliary + pronoun?
+**Công thức:** câu trần thuật, trợ động từ + đại từ?
 
-- Affirmative statement → **negative** tag: _You are coming, aren't you?_ (Bạn sẽ đến, phải không?)
-- Negative statement → **positive** tag: _She isn't late, is she?_
-- The tag uses the same auxiliary/tense as the statement; no auxiliary → do/does/did: _He left early, didn't he?_
+- Câu khẳng định → đuôi **phủ định**: _You are coming, aren't you?_ (Bạn sẽ đến, phải không?)
+- Câu phủ định → đuôi **khẳng định**: _She isn't late, is she?_
+- Đuôi dùng cùng trợ động từ/thì với câu chính; không có trợ động từ → do/does/did: _He left early, didn't he?_
 
-### Special Cases
+### Trường hợp đặc biệt
 
-- _I am late, **aren't** I?_ (irregular — not "amn't")
+- _I am late, **aren't** I?_ (bất quy tắc — không phải "amn't")
 - _Let's go, **shall we**?_
-- _Open the door, **will you**?_ (imperatives)
-- _Everybody is here, **aren't they**?_ (indefinite pronouns → they)
+- _Open the door, **will you**?_ (câu mệnh lệnh)
+- _Everybody is here, **aren't they**?_ (đại từ bất định → they)
 - _This/that is expensive, **isn't it**?_
 - _There is a problem, **isn't there**?_
-- Negative words make the statement negative → positive tag: _He never calls, **does he**?_ · _Nothing happened, **did it**?_
-- _I think/believe + clause_ → tag follows the **inner** clause: _I think he is right, isn't he?_
+- Từ phủ định làm câu chính thành phủ định → đuôi khẳng định: _He never calls, **does he**?_ · _Nothing happened, **did it**?_
+- _I think/believe + mệnh đề_ → đuôi theo **mệnh đề bên trong**: _I think he is right, isn't he?_
 
-## Short Answers — Agreement and Disagreement
+## Câu trả lời ngắn — Đồng tình và phản đối
 
-- **So + auxiliary + S** = "me too" after an affirmative: _I like coffee. — So do I._
-- **Neither/Nor + auxiliary + S** = "me neither" after a negative: _I can't swim. — Neither can I._
-- Disagreement inverts: _I like it. — I don't!_ · _I don't like it. — I do!_
+- **So + trợ động từ + S** = "tôi cũng vậy" sau câu khẳng định: _I like coffee. — So do I._
+- **Neither/Nor + trợ động từ + S** = "tôi cũng không" sau câu phủ định: _I can't swim. — Neither can I._
+- Phản đối thì đảo ngược: _I like it. — I don't!_ · _I don't like it. — I do!_
 
-## Negation
+## Phủ định
 
-- Add **not/n't** after the first auxiliary: _She is not coming._ · _I don't agree._
-- Negative words — never, nobody, nothing, nowhere, neither, none, rarely, seldom, hardly, scarcely — already make the sentence negative: _He never calls._ (not "doesn't never")
-- Negative adverbs at the front cause inversion — see [Inversion](/English/Grammar/Concepts/Inversion).
+- Thêm **not/n't** sau trợ động từ đầu tiên: _She is not coming._ · _I don't agree._
+- Từ phủ định — never, nobody, nothing, nowhere, neither, none, rarely, seldom, hardly, scarcely — bản thân đã làm câu phủ định: _He never calls._ (không phải "doesn't never")
+- Trạng từ phủ định đứng đầu câu gây đảo ngữ — xem [Inversion](/English/Grammar/Concepts/Inversion).
 
-## Notes
+## Ghi chú
 
-- Intonation on tags: falling = expecting agreement; rising = genuinely asking.
-- Don't answer Vietnamese-style: _You don't like it, do you? — Yes, I do._ (In English "yes" matches the positive fact, not agreement with the questioner.)
+- Ngữ điệu câu hỏi đuôi: giọng xuống = mong đợi đồng tình; giọng lên = thực sự hỏi.
+- Đừng trả lời kiểu Việt Nam: _You don't like it, do you? — Yes, I do._ (Tiếng Anh "yes" đi theo sự thật khẳng định, không phải đồng ý với người hỏi.)
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Imperatives And Exclamations](/English/Grammar/Concepts/Imperatives And Exclamations) · [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) · [Reported Speech](/English/Grammar/Concepts/Reported Speech)
+> **Xem thêm:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Imperatives And Exclamations](/English/Grammar/Concepts/Imperatives And Exclamations) · [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) · [Reported Speech](/English/Grammar/Concepts/Reported Speech)

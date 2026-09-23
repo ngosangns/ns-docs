@@ -3,7 +3,7 @@ area: english
 domain: ielts
 type: guide
 title: IELTS Overview
-description: Test structure, the 0-9 band scale, and the difference between Academic and General Training
+description: Cấu trúc bài thi, thang điểm band 0-9, và sự khác nhau giữa Academic và General Training
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,52 +11,52 @@ tags:
 resource: https://ielts.org/take-a-test/test-types
 ---
 
-# IELTS Overview
+# IELTS Overview — Tổng quan IELTS
 
-## What Is IELTS
+## IELTS là gì
 
-IELTS (International English Language Testing System) is an English proficiency test jointly owned by the British Council, IDP: IELTS Australia, and Cambridge University Press & Assessment English. It covers **4 skills: Listening, Reading, Writing, Speaking** over roughly **2 hours 45 minutes**.
+IELTS (International English Language Testing System) là bài thi đánh giá năng lực tiếng Anh đồng sở hữu bởi British Council, IDP: IELTS Australia, và Cambridge University Press & Assessment English. Bài thi gồm **4 kỹ năng: Nghe, Đọc, Viết, Nói** trong khoảng **2 giờ 45 phút**.
 
-- Sources: [IELTS test format](https://ielts.org/en-us/for-test-takers/test-format), [Test format and structure – British Council](https://takeielts.britishcouncil.org/take-ielts/test-format).
+- Nguồn: [IELTS test format](https://ielts.org/en-us/for-test-takers/test-format), [Test format and structure – British Council](https://takeielts.britishcouncil.org/take-ielts/test-format).
 
-## Two Versions: Academic and General Training
+## Hai phiên bản: Academic và General Training
 
-**Listening** and **Speaking** are identical in both versions. **Reading** and **Writing** differ:
+**Listening** và **Speaking** giống hệt nhau ở cả hai phiên bản. **Reading** và **Writing** khác nhau:
 
-|                | IELTS Academic                                                             | IELTS General Training                                                            |
-| -------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Purpose        | Study abroad, university/postgraduate admission, professional registration | Migration, work, training/sub-degree programs in English-speaking countries       |
-| Reading        | 3 academic passages (journals, magazines, books)                           | Everyday/workplace texts (ads, notices, company documents) — easier than Academic |
-| Writing Task 1 | Describe a chart/table/diagram/process (academic report)                   | Write a letter — formal, semi-formal, or informal depending on the situation      |
-| Writing Task 2 | Academic essay                                                             | Essay, less formal register than Academic                                         |
+|                | IELTS Academic                                           | IELTS General Training                                                                     |
+| -------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Mục đích       | Du học, xét tuyển đại học/sau đại học, đăng ký hành nghề | Định cư, làm việc, các chương trình đào tạo/dưới đại học ở nước nói tiếng Anh              |
+| Reading        | 3 bài đọc học thuật (tạp chí, sách)                      | Văn bản đời thường/nơi làm việc (quảng cáo, thông báo, tài liệu công ty) — dễ hơn Academic |
+| Writing Task 1 | Mô tả biểu đồ/bảng/sơ đồ/quy trình (báo cáo học thuật)   | Viết thư — trang trọng, bán trang trọng, hoặc thân mật tùy tình huống                      |
+| Writing Task 2 | Essay học thuật                                          | Essay, văn phong ít trang trọng hơn Academic                                               |
 
-- Sources: [IELTS Academic test format](https://ielts.org/take-a-test/test-types/ielts-academic-test), [IELTS General Training test format](https://ielts.org/take-a-test/test-types/ielts-general-training-test).
+- Nguồn: [IELTS Academic test format](https://ielts.org/take-a-test/test-types/ielts-academic-test), [IELTS General Training test format](https://ielts.org/take-a-test/test-types/ielts-general-training-test).
 
-## The 0-9 Band Scale
+## Thang band 0-9
 
-Each skill is scored on a **0-9 band scale** (half bands allowed). The Overall Band Score is the **average of the four skills**, rounded by these rules:
+Mỗi kỹ năng được chấm theo **thang band 0-9** (có nửa band). Điểm Overall là **trung bình cộng 4 kỹ năng**, làm tròn theo quy tắc:
 
-- Average ending in **.25** → rounds up to **.5** (e.g. 6.25 → 6.5)
-- Average ending in **.75** → rounds up to the next **whole** band (e.g. 6.75 → 7.0)
+- Trung bình tận cùng **.25** → làm tròn lên **.5** (vd. 6.25 → 6.5)
+- Trung bình tận cùng **.75** → làm tròn lên band **nguyên** tiếp theo (vd. 6.75 → 7.0)
 
-**Key band descriptors (abridged):**
+**Mô tả các band chính (tóm tắt):**
 
-| Band | Level                   | Summary                                                                                     |
-| ---- | ----------------------- | ------------------------------------------------------------------------------------------- |
-| 9    | Expert user             | Fully operational, accurate, fluent                                                         |
-| 8    | Very good user          | Fully operational with occasional unsystematic inaccuracies                                 |
-| 7    | Good user               | Operational command, occasional errors/misunderstandings in some situations                 |
-| 6    | Competent user          | Effective command despite some errors; handles fairly complex language in familiar contexts |
-| 5    | Modest user             | Partial command, copes with overall meaning, many mistakes                                  |
-| 4    | Limited user            | Basic competence limited to familiar situations                                             |
-| 3    | Extremely limited user  | Conveys/understands only general meaning in very familiar situations                        |
-| 1-2  | Non-user / Intermittent | Essentially no ability to use the language                                                  |
-| 0    | Did not attempt         | No answers provided                                                                         |
+| Band | Trình độ                | Tóm tắt                                                                             |
+| ---- | ----------------------- | ----------------------------------------------------------------------------------- |
+| 9    | Expert user             | Dùng ngôn ngữ hoàn toàn thành thạo, chính xác, lưu loát                             |
+| 8    | Very good user          | Thành thạo, thỉnh thoảng sai không có hệ thống                                      |
+| 7    | Good user               | Dùng tốt, đôi khi sai/hiểu nhầm trong vài tình huống                                |
+| 6    | Competent user          | Dùng hiệu quả dù có lỗi; xử lý được ngôn ngữ khá phức tạp trong ngữ cảnh quen thuộc |
+| 5    | Modest user             | Dùng một phần, nắm được ý chính, nhiều lỗi                                          |
+| 4    | Limited user            | Năng lực cơ bản, giới hạn trong tình huống quen thuộc                               |
+| 3    | Extremely limited user  | Chỉ truyền đạt/hiểu được nghĩa chung trong tình huống rất quen                      |
+| 1-2  | Non-user / Intermittent | Gần như không dùng được ngôn ngữ                                                    |
+| 0    | Did not attempt         | Không làm bài                                                                       |
 
-- Source: [IELTS scoring in detail — band scores explained](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
+- Nguồn: [IELTS scoring in detail — band scores explained](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
 
-## Per-Skill Details
+## Chi tiết từng kỹ năng
 
-See the dedicated guides: [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading), [IELTS Writing](/English/IELTS/Concepts/IELTS Writing), [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking).
+Xem các hướng dẫn riêng: [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading), [IELTS Writing](/English/IELTS/Concepts/IELTS Writing), [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking).
 
-> **See also:** [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking) · [English Roadmap](/English/Resources/English Roadmap) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview)
+> **Xem thêm:** [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking) · [English Roadmap](/English/Resources/English Roadmap) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview)

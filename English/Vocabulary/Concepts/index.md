@@ -1,6 +1,6 @@
 # Concepts
 
-- [Collocations](English/Vocabulary/Concepts/Collocations.md) - Words that naturally go together — verb+noun, adjective+noun, adverb+adjective, and the classic make/do/take/have traps
-- [Confusable Words](English/Vocabulary/Concepts/Confusable%20Words.md) - Word pairs that learners mix up — affect/effect, rise/raise, lie/lay, borrow/lend, economic/economical, and more
-- [Idioms And Expressions](English/Vocabulary/Concepts/Idioms%20And%20Expressions.md) - Common English idioms grouped by theme, plus everyday fixed expressions for conversation
-- [Topic Vocabulary](English/Vocabulary/Concepts/Topic%20Vocabulary.md) - Core word sets by theme — education, environment, technology, health, work, travel, and other recurring exam topics
+- [Collocations](English/Vocabulary/Concepts/Collocations.md) - Các từ hay đi cùng nhau — verb+noun, adjective+noun, adverb+adjective, và bẫy kinh điển make/do/take/have
+- [Confusable Words](English/Vocabulary/Concepts/Confusable%20Words.md) - Các cặp từ người học hay nhầm — affect/effect, rise/raise, lie/lay, borrow/lend, economic/economical, và nhiều hơn
+- [Idioms And Expressions](English/Vocabulary/Concepts/Idioms%20And%20Expressions.md) - Thành ngữ tiếng Anh phổ biến nhóm theo chủ đề, cùng cụm cố định thường gặp trong giao tiếp
+- [Topic Vocabulary](English/Vocabulary/Concepts/Topic%20Vocabulary.md) - Bộ từ cốt lõi theo chủ đề — giáo dục, môi trường, công nghệ, sức khỏe, công việc, du lịch, và các chủ đề hay ra thi

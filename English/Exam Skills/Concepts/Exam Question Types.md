@@ -3,67 +3,67 @@ area: english
 domain: exam-skills
 type: guide
 title: Exam Question Types
-description: The recurring question formats in THPT and similar exams — pronunciation, grammar MCQ, error ID, cloze, reading — with a strategy for each
+description: Các dạng câu lặp lại trong đề THPT và các kỳ thi tương tự — phát âm, trắc nghiệm ngữ pháp, tìm lỗi, điền từ, đọc hiểu — kèm chiến thuật từng dạng
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - exam-skills
 ---
 
-# Exam Question Types
+# Exam Question Types — Các dạng câu trong đề thi
 
-The recurring formats in the THPT graduation exam and school tests, with the approach that fits each.
+Các format lặp lại trong đề thi tốt nghiệp THPT và bài kiểm tra ở trường, kèm cách tiếp cận phù hợp từng dạng.
 
-## Pronunciation
+## Phát âm
 
-Two mini-types: **different sound** (which underlined part is pronounced differently) and **different stress**.
+Hai dạng nhỏ: **khác âm** (phần gạch chân nào đọc khác) và **khác trọng âm**.
 
-- Ending sounds: apply the /t/-/d/-/ɪd/ and /s/-/z/-/ɪz/ rules — see [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds).
-- Stress: check suffixes first (-tion, -ic, -ity shift stress; -ee, -ese take it) — see [Word Stress](/English/Pronunciation/Concepts/Word Stress).
-- Sound-out-loud in your head: mumble the four options; the odd one usually pops out.
+- Âm cuối: áp dụng quy tắc /t/-/d/-/ɪd/ và /s/-/z/-/ɪz/ — xem [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds).
+- Trọng âm: nhìn hậu tố trước (-tion, -ic, -ity kéo trọng âm; -ee, -ese nhận trọng âm) — xem [Word Stress](/English/Pronunciation/Concepts/Word Stress).
+- Đọc thầm thành tiếng: lẩm bẩm bốn đáp án; cái khác thường tự lộ ra.
 
-## Grammar and Vocabulary MCQ
+## Trắc nghiệm ngữ pháp và từ vựng
 
-- **Identify what's being tested first:** verb form? connector? article? preposition? word form?
-- Grammar checks: agreement, tense signal words (ago → past; since → present perfect), to-inf/-ing after the verb, clause vs phrase connectors (because vs because of).
-- Vocabulary checks: [collocations](/English/Vocabulary/Concepts/Collocations) (make/do, heavy/strong), [confusable pairs](/English/Vocabulary/Concepts/Confusable Words), word forms ([Word Formation](/English/Grammar/Concepts/Word Formation)).
-- Eliminate the two clearly wrong options before agonizing over the last two.
+- **Xác định đề đang hỏi gì trước:** dạng động từ? từ nối? mạo từ? giới từ? dạng từ?
+- Kiểm tra ngữ pháp: hòa hợp, từ báo thì (ago → quá khứ; since → hiện tại hoàn thành), to-inf/-ing sau động từ, từ nối đi với mệnh đề vs cụm từ (because vs because of).
+- Kiểm tra từ vựng: [collocations](/English/Vocabulary/Concepts/Collocations) (make/do, heavy/strong), [cặp từ dễ nhầm](/English/Vocabulary/Concepts/Confusable Words), dạng từ ([Word Formation](/English/Grammar/Concepts/Word Formation)).
+- Loại hai đáp án rõ ràng sai trước khi phân vân hai đáp án cuối.
 
-## Error Identification (tìm lỗi sai)
+## Tìm lỗi sai
 
-Underlined parts A/B/C/D — find the wrong one. The error almost always falls into the four classes in [Common Errors](/English/Exam Skills/Concepts/Common Errors): verb form/agreement, noun/article, word form, connector/preposition.
+Phần gạch chân A/B/C/D — tìm chỗ sai. Lỗi gần như luôn rơi vào bốn nhóm ở [Common Errors](/English/Exam Skills/Concepts/Common Errors): dạng động từ/hòa hợp, danh từ/mạo từ, dạng từ, từ nối/giới từ.
 
-## Sentence Combination and Transformation
+## Nối câu và viết lại câu
 
-- **Combination:** pick the option whose connector matches the logic — cause (because/since), contrast (although/despite), condition (if/unless), result (so/therefore). Beware double connectors ("Although... but").
-- **Transformation:** the rewritten sentence must keep the meaning — apply the models in [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns): passive, reported speech, so/such/too/enough, wish, comparatives, inversion.
+- **Nối câu:** chọn đáp án có từ nối khớp logic — nguyên nhân (because/since), tương phản (although/despite), điều kiện (if/unless), kết quả (so/therefore). Coi chừng từ nối kép ("Although... but").
+- **Viết lại câu:** câu viết lại phải giữ nguyên nghĩa — áp dụng các mẫu trong [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns): bị động, tường thuật, so/such/too/enough, wish, so sánh, đảo ngữ.
 
-## Cloze Test (điền từ vào đoạn văn)
+## Điền từ vào đoạn văn (cloze test)
 
-1. Read the **whole passage** first for topic and tone — answers depend on context, not the sentence alone.
-2. Check grammar fit (word class, singular/plural, tense) then meaning fit.
-3. Collocations and connectors are the usual answer keys: look at the words directly before and after the gap.
+1. Đọc **cả đoạn** trước để nắm chủ đề và tông — đáp án phụ thuộc ngữ cảnh, không chỉ câu đó.
+2. Kiểm tra khớp ngữ pháp (từ loại, số ít/nhiều, thì) rồi mới đến khớp nghĩa.
+3. Collocation và từ nối thường là chìa khóa đáp án: nhìn các từ ngay trước và sau chỗ trống.
 
-## Reading Comprehension
+## Đọc hiểu
 
-Question types:
+Các dạng câu hỏi:
 
-- **Main idea / title:** answer sits in the first + last sentences of paragraphs — don't pick a detail.
-- **Detail:** locate the keyword in the passage, scan around it.
-- **Vocabulary in context:** replace the word with each option and keep the sentence sensible.
-- **Reference ("the word X refers to"):** look backwards, usually the nearest matching noun.
-- **Inference:** the answer is implied, not stated — eliminate anything directly written in the text.
-- **True/Not true:** scan each option against the passage; watch for absolute words (all, never, always) that overstate.
+- **Ý chính / tiêu đề:** đáp án nằm ở câu đầu + cuối các đoạn — đừng chọn chi tiết.
+- **Chi tiết:** định vị từ khóa trong bài, đọc quanh nó.
+- **Từ vựng trong ngữ cảnh:** thay từ bằng từng đáp án và giữ câu hợp lý.
+- **Tham chiếu ("the word X refers to"):** nhìn ngược lên, thường là danh từ phù hợp gần nhất.
+- **Suy luận:** đáp án là điều ngụ ý, không viết ra — loại mọi đáp án được viết đúng nguyên văn.
+- **True/Not true:** đối chiếu từng đáp án với bài; coi chừng từ tuyệt đối (all, never, always) làm quá.
 
-## Writing
+## Viết
 
-- Paragraph structure: topic sentence → support → example → mini-conclusion.
-- Vary sentence types (simple/compound/complex — [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)) and use connectors correctly ([Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives)).
-- Leave 2-3 minutes to check the four error classes from [Common Errors](/English/Exam Skills/Concepts/Common Errors) and [punctuation](/English/Exam Skills/Concepts/Punctuation And Capitalization).
+- Cấu trúc đoạn: câu chủ đề → ý hỗ trợ → ví dụ → kết đoạn nhỏ.
+- Đa dạng loại câu (đơn/ghép/phức — [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)) và dùng từ nối đúng ([Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives)).
+- Chừa 2-3 phút soát bốn nhóm lỗi ở [Common Errors](/English/Exam Skills/Concepts/Common Errors) và [dấu câu](/English/Exam Skills/Concepts/Punctuation And Capitalization).
 
-## Notes
+## Ghi chú
 
-- Time discipline: don't stall on one MCQ — mark and return; cloze and reading deserve the bulk of remaining time.
-- Fill the answer sheet in batches (every 5-10 questions) — never leave it all for the last minute.
+- Kỷ luật thời gian: đừng kẹt ở một câu trắc nghiệm — đánh dấu rồi quay lại; cloze và đọc hiểu đáng phần lớn thời gian còn lại.
+- Tô phiếu trả lời theo cụm (mỗi 5-10 câu) — đừng để hết đến phút cuối.
 
-> **See also:** [Common Errors](/English/Exam Skills/Concepts/Common Errors) · [Punctuation And Capitalization](/English/Exam Skills/Concepts/Punctuation And Capitalization) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) · [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview)
+> **Xem thêm:** [Common Errors](/English/Exam Skills/Concepts/Common Errors) · [Punctuation And Capitalization](/English/Exam Skills/Concepts/Punctuation And Capitalization) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) · [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview)

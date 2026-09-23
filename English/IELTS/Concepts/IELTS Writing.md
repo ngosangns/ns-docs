@@ -3,7 +3,7 @@ area: english
 domain: ielts
 type: guide
 title: IELTS Writing
-description: Task 1 and Task 2 structure plus the four marking criteria (Academic)
+description: Cấu trúc Task 1 và Task 2 cùng bốn tiêu chí chấm điểm (Academic)
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,44 +11,44 @@ tags:
 resource: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing
 ---
 
-# IELTS Writing
+# IELTS Writing — Kỹ năng Viết
 
-## Overall Structure
+## Cấu trúc chung
 
-- **Duration:** 60 minutes for both tasks, done back to back.
-- **Task 2 carries twice the weight of Task 1** in the Writing score — prioritize Task 2 if forced to trade off.
+- **Thời lượng:** 60 phút cho cả hai task, làm liên tiếp.
+- **Task 2 nặng gấp đôi Task 1** trong điểm Writing — ưu tiên Task 2 nếu phải đánh đổi.
 
-Source: [IELTS Academic Writing format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing).
+Nguồn: [IELTS Academic Writing format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing).
 
 ## Task 1 (Academic)
 
-- **Task:** describe visual information — a chart (line/bar/pie), a table, a process diagram, or a map — in an academic/semi-formal register with connected prose (no bullet points).
-- **Minimum length:** 150 words.
-- **Suggested time:** ~20 minutes.
-- **Skills assessed:** organizing and presenting data, describing processes/how something works, comparing information.
-- **Note (General Training):** Task 1 is a **letter** — formal, semi-formal, or informal depending on the prompt — not a chart description.
+- **Yêu cầu:** mô tả thông tin trực quan — biểu đồ (line/bar/pie), bảng, sơ đồ quy trình, hoặc bản đồ — bằng văn phong học thuật/bán trang trọng, viết thành đoạn văn liền mạch (không dùng gạch đầu dòng).
+- **Độ dài tối thiểu:** 150 từ.
+- **Thời gian đề xuất:** ~20 phút.
+- **Kỹ năng được đánh giá:** tổ chức và trình bày dữ liệu, mô tả quy trình/cách hoạt động, so sánh thông tin.
+- **Lưu ý (General Training):** Task 1 là **lá thư** — trang trọng, bán trang trọng, hoặc thân mật tùy đề — không phải mô tả biểu đồ.
 
 ## Task 2 (Academic & General Training)
 
-- **Task:** write an essay on a topic, viewpoint, or problem with arguments and supporting examples (academic or semi-formal depending on the version).
-- **Minimum length:** 250 words.
-- **Suggested time:** ~40 minutes.
-- **Skills assessed:** proposing solutions, defending a position, comparing/contrasting evidence and opinions, evaluating arguments.
+- **Yêu cầu:** viết essay về một chủ đề, quan điểm, hoặc vấn đề với lập luận và ví dụ minh chứng (học thuật hoặc bán trang trọng tùy phiên bản).
+- **Độ dài tối thiểu:** 250 từ.
+- **Thời gian đề xuất:** ~40 phút.
+- **Kỹ năng được đánh giá:** đề xuất giải pháp, bảo vệ quan điểm, so sánh/đối chiếu bằng chứng và ý kiến, đánh giá lập luận.
 
-## Marking Criteria (Both Tasks)
+## Tiêu chí chấm (cả hai task)
 
-1. **Task Achievement (Task 1) / Task Response (Task 2)** — answering the prompt fully, covering all points, meeting the word count.
-2. **Coherence and Cohesion** — clear organization, smooth linking between sentences/paragraphs (linking words, referencing).
-3. **Lexical Resource** — varied vocabulary used accurately in context, minimal repetition.
-4. **Grammatical Range and Accuracy** — a mix of simple and complex structures with high accuracy. Structures like [adverbial clauses](/English/Grammar/Concepts/Adverbial Clauses), [relative clauses](/English/Grammar/Concepts/Relative Clauses), and [cleft sentences](/English/Grammar/Concepts/Cleft Sentences) all count toward range.
+1. **Task Achievement (Task 1) / Task Response (Task 2)** — trả lời đầy đủ yêu cầu đề, bao phủ mọi ý, đủ số từ.
+2. **Coherence and Cohesion** — tổ chức rõ ràng, liên kết mượt giữa câu/đoạn (từ nối, đại từ tham chiếu).
+3. **Lexical Resource** — vốn từ đa dạng, dùng chính xác theo ngữ cảnh, ít lặp lại.
+4. **Grammatical Range and Accuracy** — kết hợp cấu trúc đơn và phức với độ chính xác cao. Các cấu trúc như [mệnh đề trạng ngữ](/English/Grammar/Concepts/Adverbial Clauses), [mệnh đề quan hệ](/English/Grammar/Concepts/Relative Clauses), và [câu chẻ](/English/Grammar/Concepts/Cleft Sentences) đều tính vào độ đa dạng.
 
-Source: [IELTS Writing band descriptors and key assessment criteria](https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria).
+Nguồn: [IELTS Writing band descriptors and key assessment criteria](https://ielts.org/news-and-insights/ielts-writing-band-descriptors-and-key-assessment-criteria).
 
-## Common Mistakes
+## Lỗi thường gặp
 
-- Writing under the word minimum (penalized under Task Achievement/Response).
-- Task 1: listing figures instead of **selecting key trends/features** (the overview) before details.
-- Task 2: going off-topic or stating an opinion without argument/evidence.
-- Overusing mechanical linking words (furthermore, moreover...) instead of natural cohesion.
+- Viết dưới số từ tối thiểu (bị trừ ở Task Achievement/Response).
+- Task 1: liệt kê số liệu thay vì **chọn xu hướng/đặc điểm chính** (overview) trước khi vào chi tiết.
+- Task 2: lạc đề hoặc nêu ý kiến mà không có lập luận/bằng chứng.
+- Lạm dụng từ nối máy móc (furthermore, moreover...) thay vì liên kết tự nhiên.
 
-> **See also:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)
+> **Xem thêm:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)

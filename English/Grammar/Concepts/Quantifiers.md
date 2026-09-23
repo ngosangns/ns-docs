@@ -3,81 +3,81 @@ area: english
 domain: grammar
 type: guide
 title: Quantifiers
-description: Words for quantity — much/many, few/little, some/any, all/each/every, both/either/neither, other/another
+description: Từ chỉ số lượng — much/many, few/little, some/any, all/each/every, both/either/neither, other/another
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Quantifiers
+# Quantifiers — Từ chỉ số lượng
 
-Quantifiers say **how much or how many** of a noun there is. The key question is always whether the noun is countable — see [Nouns](/English/Grammar/Concepts/Nouns).
+Quantifiers nói **có bao nhiêu** của một danh từ. Câu hỏi then chốt luôn là danh từ đó có đếm được không — xem [Nouns](/English/Grammar/Concepts/Nouns).
 
-## Large and Small Quantities
+## Số lượng lớn và nhỏ
 
-| Quantifier                     | Noun type        | Example                                                            |
-| ------------------------------ | ---------------- | ------------------------------------------------------------------ |
-| many                           | countable plural | _Many students passed._ (Nhiều học sinh đã đậu.)                   |
-| much                           | uncountable      | _We don't have much time._                                         |
-| a lot of / lots of / plenty of | both             | _A lot of people came._ · _A lot of money was spent._              |
-| a few / few                    | countable plural | _A few friends came._ (some) · _Few people know._ (hardly any)     |
-| a little / little              | uncountable      | _A little milk left._ (some) · _Little hope remains._ (hardly any) |
-| a number of                    | countable plural | _A number of students were absent._ (+ plural verb)                |
-| the number of                  | countable plural | _The number of students is rising._ (+ singular verb)              |
-| a great deal of / an amount of | uncountable      | _A great deal of effort was needed._                               |
-| several                        | countable plural | _Several options exist._                                           |
+| Từ                             | Loại danh từ      | Ví dụ                                                                           |
+| ------------------------------ | ----------------- | ------------------------------------------------------------------------------- |
+| many                           | đếm được số nhiều | _Many students passed._ (Nhiều học sinh đã đậu.)                                |
+| much                           | không đếm được    | _We don't have much time._                                                      |
+| a lot of / lots of / plenty of | cả hai            | _A lot of people came._ · _A lot of money was spent._                           |
+| a few / few                    | đếm được số nhiều | _A few friends came._ (vài người) · _Few people know._ (hầu như không ai)       |
+| a little / little              | không đếm được    | _A little milk left._ (còn một ít) · _Little hope remains._ (hầu như không còn) |
+| a number of                    | đếm được số nhiều | _A number of students were absent._ (+ động từ số nhiều)                        |
+| the number of                  | đếm được số nhiều | _The number of students is rising._ (+ động từ số ít)                           |
+| a great deal of / an amount of | không đếm được    | _A great deal of effort was needed._                                            |
+| several                        | đếm được số nhiều | _Several options exist._                                                        |
 
-**"a few" vs "few" / "a little" vs "little":** with "a" = positive (some, enough); without = negative (almost none).
+**"a few" vs "few" / "a little" vs "little":** có "a" = nghĩa tích cực (có một ít, đủ dùng); không có "a" = nghĩa tiêu cực (hầu như không có).
 
 ## Some / Any / No
 
-- **some:** affirmatives, and questions that offer or expect "yes": _I need some help._ · _Would you like some tea?_
-- **any:** negatives and open questions: _I don't have any money._ · _Do you have any questions?_
-- **no:** itself negative — never with "not": _There is no milk left._ (not "isn't no")
-- "Any" can also mean "it doesn't matter which": _You can choose any seat._
+- **some:** câu khẳng định, và câu hỏi mang tính mời gọi hoặc mong đợi câu trả lời "yes": _I need some help._ · _Would you like some tea?_
+- **any:** câu phủ định và câu hỏi mở: _I don't have any money._ · _Do you have any questions?_
+- **no:** bản thân đã phủ định — không đi với "not": _There is no milk left._ (không phải "isn't no")
+- "Any" còn nghĩa "bất kỳ cái nào": _You can choose any seat._
 
-## Whole and Part
+## Toàn bộ và từng phần
 
-| Word      | Use                                          | Example                                                |
-| --------- | -------------------------------------------- | ------------------------------------------------------ |
-| all       | every one, the whole — plural or uncountable | _All students must attend._ · _All the money is gone._ |
-| every     | each individual member — singular countables | _Every student has a book._ (+ singular verb)          |
-| each      | members considered one by one — singular     | _Each answer was correct._                             |
-| whole     | complete, entire — singular                  | _The whole class was silent._                          |
-| most      | the majority                                 | _Most people agree._ · _Most of the work is done._     |
-| none (of) | not any                                      | _None of the tickets were sold._                       |
+| Từ        | Cách dùng                                        | Ví dụ                                                  |
+| --------- | ------------------------------------------------ | ------------------------------------------------------ |
+| all       | tất cả — số nhiều hoặc không đếm được            | _All students must attend._ · _All the money is gone._ |
+| every     | từng cá nhân trong nhóm — danh từ đếm được số ít | _Every student has a book._ (+ động từ số ít)          |
+| each      | xét từng thành viên một — số ít                  | _Each answer was correct._                             |
+| whole     | toàn bộ, trọn vẹn — số ít                        | _The whole class was silent._                          |
+| most      | đa số                                            | _Most people agree._ · _Most of the work is done._     |
+| none (of) | không cái nào                                    | _None of the tickets were sold._                       |
 
-**every vs each:** "every" looks at the group as a whole; "each" looks at members individually. Only "each" works for two items: _each hand_ (not "every hand").
+**every vs each:** "every" nhìn cả nhóm như một tổng thể; "each" nhìn từng thành viên riêng lẻ. Chỉ "each" dùng cho hai vật: _each hand_ (không phải "every hand").
 
 ## Both / Either / Neither
 
-| Word    | Meaning                   | Verb     | Example                        |
-| ------- | ------------------------- | -------- | ------------------------------ |
-| both    | the two together          | plural   | _Both answers are correct._    |
-| either  | one or the other of two   | singular | _Either answer is acceptable._ |
-| neither | not one and not the other | singular | _Neither answer is correct._   |
+| Từ      | Nghĩa                   | Động từ  | Ví dụ                          |
+| ------- | ----------------------- | -------- | ------------------------------ |
+| both    | cả hai                  | số nhiều | _Both answers are correct._    |
+| either  | một trong hai           | số ít    | _Either answer is acceptable._ |
+| neither | không cái nào trong hai | số ít    | _Neither answer is correct._   |
 
-- _both ... and_, _either ... or_, _neither ... nor_ also work as correlative conjunctions — see [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
-- **neither ... nor** already negative: _Neither he nor I am late._ — verb agrees with the nearer subject.
+- _both ... and_, _either ... or_, _neither ... nor_ cũng làm liên từ tương quan — xem [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
+- **neither ... nor** bản thân đã phủ định: _Neither he nor I am late._ — động từ hòa hợp với chủ ngữ gần hơn.
 
 ## Other / Another / The Other
 
-- **another** = one more, a different one (singular): _Can I have another cup?_
-- **other + plural/uncountable** = different additional ones: _other people, other information._
-- **the other** = the remaining one(s) of a known set: _One hand is clean, the other is dirty._
-- **others / the others** = pronoun forms: _Some left; others stayed._
+- **another** = thêm một cái nữa, một cái khác (số ít): _Can I have another cup?_
+- **other + số nhiều/không đếm được** = những cái khác thêm vào: _other people, other information._
+- **the other** = cái còn lại trong một nhóm đã biết: _One hand is clean, the other is dirty._
+- **others / the others** = dạng đại từ: _Some left; others stayed._
 
 ## Enough / Too
 
-- **enough + noun:** _enough time, enough chairs._
-- **adjective/adverb + enough:** _old enough to vote, fast enough._
-- **too + adjective/adverb** = more than wanted: _too hot to drink._
-- See Model 4 of [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns).
+- **enough + danh từ:** _enough time, enough chairs._
+- **tính từ/trạng từ + enough:** _old enough to vote, fast enough._
+- **too + tính từ/trạng từ** = quá mức mong muốn: _too hot to drink._
+- Xem Mẫu 4 của [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns).
 
-## Notes
+## Ghi chú
 
-- "Many" and "much" are typical of questions and negatives; affirmative statements prefer "a lot of": _I have a lot of friends_ (more natural than "many friends").
-- Agreement traps: _a number of + plural verb_ but _the number of + singular verb_; _each/every/either/neither + singular verb_ — see [Subject Verb Agreement](/English/Grammar/Concepts/Subject Verb Agreement).
+- "Many" và "much" thường thấy trong câu hỏi và phủ định; câu khẳng định ưu tiên "a lot of": _I have a lot of friends_ (tự nhiên hơn "many friends").
+- Bẫy hòa hợp: _a number of + động từ số nhiều_ nhưng _the number of + động từ số ít_; _each/every/either/neither + động từ số ít_ — xem [Subject Verb Agreement](/English/Grammar/Concepts/Subject Verb Agreement).
 
-> **See also:** [Nouns](/English/Grammar/Concepts/Nouns) · [Articles](/English/Grammar/Concepts/Articles) · [Pronouns](/English/Grammar/Concepts/Pronouns) · [Subject Verb Agreement](/English/Grammar/Concepts/Subject Verb Agreement)
+> **Xem thêm:** [Nouns](/English/Grammar/Concepts/Nouns) · [Articles](/English/Grammar/Concepts/Articles) · [Pronouns](/English/Grammar/Concepts/Pronouns) · [Subject Verb Agreement](/English/Grammar/Concepts/Subject Verb Agreement)

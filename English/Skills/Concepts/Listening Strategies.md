@@ -3,7 +3,7 @@ area: english
 domain: skills
 type: guide
 title: Listening Strategies
-description: How to improve listening comprehension — gist vs detail listening, prediction, dictation, and handling fast connected speech
+description: Cách cải thiện nghe hiểu — nghe ý chính vs chi tiết, dự đoán, dictation, và xử lý lời nói nhanh liền mạch
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,40 +11,40 @@ tags:
   - listening
 ---
 
-# Listening Strategies
+# Listening Strategies — Chiến lược nghe
 
-Listening fails for two reasons: **vocabulary gaps** (unknown words) and **decoding gaps** (known words you can't recognize when spoken fast). Different strategies fix each.
+Nghe yếu vì hai lý do: **hổng từ vựng** (từ chưa biết) và **hổng giải mã** (từ đã biết nhưng không nhận ra khi nói nhanh). Mỗi lỗi cần chiến lược khác nhau.
 
-## Gist vs Detail Listening
+## Nghe ý chính vs nghe chi tiết
 
-- **Gist (top-down):** listen for the overall topic and attitude first — don't chase every word. Ask: who is speaking, about what, and how do they feel?
-- **Detail (bottom-up):** on the second pass, target specifics — numbers, names, times, and the words around question keywords.
+- **Gist (top-down):** nghe chủ đề chung và thái độ trước — đừng đuổi theo từng từ. Tự hỏi: ai đang nói, nói về gì, và cảm xúc thế nào?
+- **Detail (bottom-up):** lượt nghe thứ hai, nhắm vào chi tiết — con số, tên riêng, thời gian, và các từ quanh từ khóa của câu hỏi.
 
-In exams: read the questions **before** the audio plays; predict what kind of word fills each gap (a number? a place? an adjective?).
+Trong phòng thi: đọc câu hỏi **trước** khi audio chạy; dự đoán loại từ điền vào mỗi chỗ trống (con số? địa điểm? tính từ?).
 
-## Prediction and Signposts
+## Dự đoán và dấu hiệu dẫn
 
-- Predict content from context: a weather forecast will contain temperature, rain, wind.
-- Listen for signposts — discourse markers that announce what's coming: _first of all, but, the problem is, in other words_ — see [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
-- Answers in listening sections often follow a **distractor correction**: _"It costs twenty — sorry, thirty pounds."_
+- Dự đoán nội dung từ ngữ cảnh: bản tin thời tiết sẽ có nhiệt độ, mưa, gió.
+- Nghe signposts — các từ nối báo hiệu phần sắp tới: _first of all, but, the problem is, in other words_ — xem [Discourse Markers](/English/Usage/Concepts/Discourse Markers).
+- Đáp án trong bài nghe thường đi sau **cú sửa đánh lạc hướng**: _"It costs twenty — sorry, thirty pounds."_
 
-## Decoding Connected Speech
+## Giải mã lời nói liền mạch
 
-Fast speech is hard because words merge — train on the features in [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation):
+Nói nhanh khó vì các từ dính vào nhau — luyện các đặc điểm trong [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation):
 
-- Weak forms (_a, of, to, can_ → schwa), linking (_pick it up_ → "pi-ki-tup"), contractions (_would've, gonna_).
-- Method: listen to a short clip with transcript → mark weak forms and links → replay without transcript.
+- Dạng yếu (_a, of, to, can_ → schwa), nối âm (_pick it up_ → "pi-ki-tup"), viết tắt (_would've, gonna_).
+- Phương pháp: nghe một đoạn ngắn có transcript → đánh dấu weak forms và chỗ nối âm → nghe lại không transcript.
 
-## Practice Methods
+## Phương pháp luyện tập
 
-- **Dictation:** write down short clips word-for-word; compare with the transcript and log misses (usually weak forms or unknown vocab).
-- **Shadowing:** replay audio and repeat simultaneously, copying rhythm and intonation — builds both decoding and speaking.
-- **Graded exposure:** start with learner-speed audio (VOA Learning English, ESLPod), then podcasts, then unscripted speech (interviews, YouTube).
-- **Extensive vs intensive:** listen widely for enjoyment (podcasts, films with subtitles off) plus short intensive clips you fully dissect.
+- **Dictation:** chép lại đoạn ngắn từng chữ; đối chiếu transcript và ghi lại chỗ bỏ sót (thường là weak forms hoặc từ chưa biết).
+- **Shadowing:** vừa nghe vừa lặp lại sát sau, bắt chước nhịp và ngữ điệu — luyện cả nghe lẫn nói.
+- **Nghe theo cấp độ:** bắt đầu với audio tốc độ người học (VOA Learning English, ESLPod), rồi podcast, rồi lời nói tự nhiên (phỏng vấn, YouTube).
+- **Nghe rộng vs nghe sâu:** nghe nhiều cho vui (podcast, phim tắt phụ đề) cộng các đoạn ngắn phân tích kỹ.
 
-## Notes
+## Ghi chú
 
-- Subtitles strategy: watch once with English subtitles (never Vietnamese), then again without.
-- When you miss a word, guess from context and keep going — stopping to decode one word loses the next three.
+- Chiến thuật phụ đề: xem một lần với phụ đề tiếng Anh (không bao giờ dùng tiếng Việt), rồi xem lại không phụ đề.
+- Khi lỡ một từ, đoán từ ngữ cảnh và đi tiếp — dừng lại để giải mã một từ sẽ làm mất ba từ tiếp theo.
 
-> **See also:** [Speaking Strategies](/English/Skills/Concepts/Speaking Strategies) · [Reading Strategies](/English/Skills/Concepts/Reading Strategies) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation) · [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading)
+> **Xem thêm:** [Speaking Strategies](/English/Skills/Concepts/Speaking Strategies) · [Reading Strategies](/English/Skills/Concepts/Reading Strategies) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation) · [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading)

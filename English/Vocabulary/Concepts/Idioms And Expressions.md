@@ -3,91 +3,91 @@ area: english
 domain: vocabulary
 type: guide
 title: Idioms And Expressions
-description: Common English idioms grouped by theme, plus everyday fixed expressions for conversation
+description: Thành ngữ tiếng Anh phổ biến nhóm theo chủ đề, cùng cụm cố định thường gặp trong giao tiếp
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - vocabulary
 ---
 
-# Idioms And Expressions
+# Idioms And Expressions — Thành ngữ và cụm cố định
 
-An idiom is a fixed phrase whose meaning can't be deduced from its words — _kick the bucket_ = die. Idioms appear constantly in reading passages and natural conversation.
+Idiom là cụm từ cố định mà nghĩa không đoán được từ từng chữ — _kick the bucket_ = chết. Thành ngữ xuất hiện liên tục trong bài đọc và hội thoại tự nhiên.
 
-## Time
+## Thời gian
 
-- **once in a blue moon** — very rarely: _We eat out once in a blue moon._
-- **in the nick of time** — just before it's too late
-- **around the clock** — all day and night
-- **behind the times** — old-fashioned
-- **call it a day** — stop working for now
-- **against the clock** — in a rush to finish
+- **once in a blue moon** — rất hiếm: _We eat out once in a blue moon._
+- **in the nick of time** — vừa kịp trước khi quá muộn
+- **around the clock** — suốt ngày đêm
+- **behind the times** — lỗi thời
+- **call it a day** — nghỉ tay, dừng làm việc hôm nay
+- **against the clock** — chạy đua thời gian để xong
 
-## Work and Effort
+## Công việc và nỗ lực
 
-- **get the ball rolling** — start something
-- **back to square one** — start over after failure
-- **learn the ropes** — learn how a job is done
-- **burn the midnight oil** — work/study late
-- **pull your weight** — do your fair share
-- **think outside the box** — be creative
+- **get the ball rolling** — bắt đầu triển khai
+- **back to square one** — quay lại từ đầu sau thất bại
+- **learn the ropes** — học cách làm một công việc
+- **burn the midnight oil** — làm/học khuya
+- **pull your weight** — làm đủ phần việc của mình
+- **think outside the box** — sáng tạo, nghĩ khác đi
 
-## Money
+## Tiền bạc
 
-- **cost an arm and a leg** — very expensive: _The car cost an arm and a leg._
-- **break the bank** — cost too much
-- **make ends meet** — earn just enough to live
-- **a rip-off** — something overpriced
-- **tighten your belt** — spend less
+- **cost an arm and a leg** — đắt đỏ: _The car cost an arm and a leg._
+- **break the bank** — tốn quá nhiều tiền
+- **make ends meet** — kiếm đủ sống
+- **a rip-off** — thứ đắt cắt cổ
+- **tighten your belt** — thắt lưng buộc bụng, chi tiêu ít lại
 
-## Feelings
+## Cảm xúc
 
-- **on cloud nine / over the moon** — extremely happy
-- **down in the dumps** — sad
-- **butterflies in my stomach** — nervous: _I had butterflies before the exam._
-- **hot under the collar** — angry
-- **a blessing in disguise** — something bad that turns out good
+- **on cloud nine / over the moon** — vô cùng hạnh phúc
+- **down in the dumps** — buồn rầu
+- **butterflies in my stomach** — hồi hộp: _I had butterflies before the exam._
+- **hot under the collar** — tức giận
+- **a blessing in disguise** — trong cái rủi có cái may
 
-## Difficulty and Ease
+## Khó khăn và dễ dàng
 
-- **a piece of cake** — very easy
-- **a hard nut to crack** — a difficult problem/person
-- **in hot water** — in trouble
-- **the last straw** — the final problem that breaks patience
-- **hit the nail on the head** — describe something exactly right
+- **a piece of cake** — dễ như ăn bánh
+- **a hard nut to crack** — vấn đề/người khó nhằn
+- **in hot water** — đang gặp rắc rối
+- **the last straw** — giọt nước tràn ly
+- **hit the nail on the head** — nói trúng tim đen
 
-## People and Relationships
+## Con người và quan hệ
 
-- **see eye to eye** — agree
-- **get on like a house on fire** — become close quickly
-- **the apple of one's eye** — a dearly loved person
-- **a fair-weather friend** — a friend only in good times
-- **give someone the cold shoulder** — ignore deliberately
+- **see eye to eye** — đồng ý, hợp ý nhau
+- **get on like a house on fire** — nhanh chóng thân thiết
+- **the apple of one's eye** — người được yêu quý nhất
+- **a fair-weather friend** — bạn chỉ lúc thuận lợi
+- **give someone the cold shoulder** — cố tình lờ đi
 
-## Speech and Secrets
+## Lời nói và bí mật
 
-- **let the cat out of the bag / spill the beans** — reveal a secret
-- **beat around the bush** — avoid the main point
-- **straight from the horse's mouth** — from the most reliable source
-- **a slip of the tongue** — saying something by accident
-- **get cold feet** — become too nervous to act
+- **let the cat out of the bag / spill the beans** — để lộ bí mật
+- **beat around the bush** — nói vòng vo
+- **straight from the horse's mouth** — từ nguồn tin cậy nhất
+- **a slip of the tongue** — lỡ lời
+- **get cold feet** — nhát, không dám hành động
 
-## Everyday Fixed Expressions
+## Cụm cố định đời thường
 
-Not idioms but equally formulaic:
+Không phải idiom nhưng cũng cố định y hệt:
 
-- **as a matter of fact** — actually
-- **all of a sudden** — suddenly
-- **by and large** — generally
-- **for good** — permanently
-- **sooner or later** — eventually
+- **as a matter of fact** — thực ra
+- **all of a sudden** — bất ngờ
+- **by and large** — nhìn chung
+- **for good** — vĩnh viễn
+- **sooner or later** — sớm muộn
 - **at least / at most / at once / at last**
-- **no wonder** — unsurprising: _No wonder you're tired._
+- **no wonder** — chẳng trách: _No wonder you're tired._
 
-## Notes
+## Ghi chú
 
-- Don't chain-translate Vietnamese idioms — the images rarely match (tìm "needle in a haystack" vẫn tồn tại, nhưng nhiều câu thành ngữ khác hoàn toàn).
-- In IELTS/TOEIC and THPT reading, you mostly need to **recognize** idioms; use them in speaking/writing only when sure of the context.
-- Register matters: many idioms are informal — see [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
+- Đừng dịch ngược thành ngữ Việt sang Anh — hình ảnh hiếm khi khớp (tìm "needle in a haystack" vẫn tồn tại, nhưng nhiều câu thành ngữ khác hoàn toàn).
+- Trong bài đọc IELTS/TOEIC và THPT, chủ yếu cần **nhận ra** thành ngữ; chỉ dùng chúng trong nói/viết khi chắc ngữ cảnh.
+- Văn phong quan trọng: nhiều idiom thân mật — xem [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
 
-> **See also:** [Collocations](/English/Vocabulary/Concepts/Collocations) · [Confusable Words](/English/Vocabulary/Concepts/Confusable Words) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Topic Vocabulary](/English/Vocabulary/Concepts/Topic Vocabulary)
+> **Xem thêm:** [Collocations](/English/Vocabulary/Concepts/Collocations) · [Confusable Words](/English/Vocabulary/Concepts/Confusable Words) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Topic Vocabulary](/English/Vocabulary/Concepts/Topic Vocabulary)

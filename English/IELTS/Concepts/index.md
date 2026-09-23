@@ -1,6 +1,6 @@
 # Concepts
 
-- [IELTS Listening And Reading](English/IELTS/Concepts/IELTS%20Listening%20And%20Reading.md) - Structure, question types, and strategy tips for the Listening and Reading sections (Academic)
-- [IELTS Overview](English/IELTS/Concepts/IELTS%20Overview.md) - Test structure, the 0-9 band scale, and the difference between Academic and General Training
-- [IELTS Speaking](English/IELTS/Concepts/IELTS%20Speaking.md) - The Part 1-3 interview structure, the four marking criteria, and performance tips
-- [IELTS Writing](English/IELTS/Concepts/IELTS%20Writing.md) - Task 1 and Task 2 structure plus the four marking criteria (Academic)
+- [IELTS Listening And Reading](English/IELTS/Concepts/IELTS%20Listening%20And%20Reading.md) - Cấu trúc, dạng câu hỏi, và mẹo chiến thuật cho phần Listening và Reading (Academic)
+- [IELTS Overview](English/IELTS/Concepts/IELTS%20Overview.md) - Cấu trúc bài thi, thang điểm band 0-9, và sự khác nhau giữa Academic và General Training
+- [IELTS Speaking](English/IELTS/Concepts/IELTS%20Speaking.md) - Cấu trúc phỏng vấn Part 1-3, bốn tiêu chí chấm, và mẹo trình bày
+- [IELTS Writing](English/IELTS/Concepts/IELTS%20Writing.md) - Cấu trúc Task 1 và Task 2 cùng bốn tiêu chí chấm điểm (Academic)

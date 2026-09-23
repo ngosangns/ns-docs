@@ -3,20 +3,20 @@ area: english
 domain: pronunciation
 type: guide
 title: IPA And Phonemes
-description: The 44 English phonemes in IPA — vowels, diphthongs, consonants — and the pairs Vietnamese learners confuse most
+description: 44 âm tiếng Anh theo IPA — nguyên âm đơn, nguyên âm đôi, phụ âm — và các cặp âm người Việt hay nhầm nhất
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - pronunciation
 ---
 
-# IPA And Phonemes
+# IPA And Phonemes — Bảng âm IPA và các âm
 
-English uses **44 phonemes** — distinct sounds — written in the International Phonetic Alphabet (IPA). English spelling and sound do not match reliably, so the IPA is the only dependable way to check pronunciation (every dictionary shows it).
+Tiếng Anh dùng **44 phonemes** — các âm riêng biệt — được ghi bằng Bảng chữ cái Ngữ âm Quốc tế (IPA). Chính tả tiếng Anh không khớp với phát âm một cách đáng tin cậy, nên IPA là cách duy nhất chắc chắn để tra phát âm (mọi từ điển đều ghi).
 
-## Monophthongs — 12 Single Vowels
+## Nguyên âm đơn — 12 âm (Monophthongs)
 
-| IPA  | Example     | IPA  | Example     |
+| IPA  | Ví dụ       | IPA  | Ví dụ       |
 | ---- | ----------- | ---- | ----------- |
 | /iː/ | see, eat    | /ɒ/  | hot, wash   |
 | /ɪ/  | sit, gym    | /ɔː/ | door, law   |
@@ -25,20 +25,20 @@ English uses **44 phonemes** — distinct sounds — written in the Internationa
 | /ɑː/ | car, father | /ʌ/  | cup, blood  |
 | /ɜː/ | bird, work  | /ə/  | about, sofa |
 
-/ə/ (schwa) is the most common vowel in English — the sound of unstressed syllables.
+/ə/ (schwa) là nguyên âm phổ biến nhất tiếng Anh — âm của các âm tiết không trọng âm.
 
-## Diphthongs — 8 Gliding Vowels
+## Nguyên âm đôi — 8 âm (Diphthongs)
 
-| IPA  | Example  | IPA  | Example     |
+| IPA  | Ví dụ    | IPA  | Ví dụ       |
 | ---- | -------- | ---- | ----------- |
 | /eɪ/ | day, say | /aʊ/ | now, how    |
 | /aɪ/ | my, high | /ɪə/ | here, ear   |
 | /ɔɪ/ | boy, oil | /eə/ | there, hair |
 | /əʊ/ | go, show | /ʊə/ | tour, pure  |
 
-## Consonants — 24
+## Phụ âm — 24 âm
 
-| IPA  | Example      | IPA | Example       |
+| IPA  | Ví dụ        | IPA | Ví dụ         |
 | ---- | ------------ | --- | ------------- |
 | /p/  | pen          | /s/ | see, city     |
 | /b/  | bad          | /z/ | zoo, is       |
@@ -53,22 +53,22 @@ English uses **44 phonemes** — distinct sounds — written in the Internationa
 | /θ/  | think, three | /w/ | we            |
 | /ð/  | this, mother | /j/ | yes, use      |
 
-## Sounds Vietnamese Learners Confuse Most
+## Các âm người Việt hay nhầm nhất
 
-- **/θ/ vs /s/:** think ≠ sink — tongue between the teeth for /θ/.
-- **/ð/ vs /z/:** then ≠ zen — voiced version of /θ/.
-- **/ʃ/ vs /s/:** she ≠ see — lips rounded for /ʃ/.
-- **/tʃ/ vs /tr/:** cheap vs tree — /tʃ/ is one quick sound.
-- **/l/ vs /n/:** light ≠ night — tongue position differs.
-- **/p/ vs /b/ at the end:** cap ≠ cab — Vietnamese has no final /b/.
-- **Final consonants generally:** Vietnamese syllables don't end in most English consonants — don't swallow -s, -t, -k, -ps, -sts: _tests, asks, worlds_.
-- **/ɪ/ vs /iː/:** sit ≠ seat — not just length but quality.
-- **/e/ vs /æ/:** bed ≠ bad — open the jaw wider for /æ/.
+- **/θ/ vs /s/:** think ≠ sink — đặt lưỡi giữa hai hàm răng cho /θ/.
+- **/ð/ vs /z/:** then ≠ zen — dạng rung dây thanh của /θ/.
+- **/ʃ/ vs /s/:** she ≠ see — môi tròn cho /ʃ/.
+- **/tʃ/ vs /tr/:** cheap vs tree — /tʃ/ là một âm ngắn gọn.
+- **/l/ vs /n/:** light ≠ night — vị trí lưỡi khác nhau.
+- **/p/ vs /b/ cuối từ:** cap ≠ cab — tiếng Việt không có /b/ cuối từ.
+- **Phụ âm cuối nói chung:** âm tiết tiếng Việt không kết thúc bằng hầu hết phụ âm Anh — đừng nuốt -s, -t, -k, -ps, -sts: _tests, asks, worlds_.
+- **/ɪ/ vs /iː/:** sit ≠ seat — khác cả độ dài lẫn chất âm.
+- **/e/ vs /æ/:** bed ≠ bad — mở hàm rộng hơn cho /æ/.
 
-## Notes
+## Ghi chú
 
-- Same spelling, different sounds: _though /əʊ/, through /uː/, thought /ɔː/, tough /ʌf/, cough /ɒf/._
-- Same sound, different spellings: /f/ = f (fun), ph (phone), gh (laugh).
-- Silent letters are everywhere: knee, hour, listen, comb, island, doubt.
+- Cùng chính tả, khác âm: _though /əʊ/, through /uː/, thought /ɔː/, tough /ʌf/, cough /ɒf/._
+- Cùng âm, khác chính tả: /f/ = f (fun), ph (phone), gh (laugh).
+- Chữ câm ở khắp nơi: knee, hour, listen, comb, island, doubt.
 
-> **See also:** [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation)
+> **Xem thêm:** [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation)

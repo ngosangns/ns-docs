@@ -3,44 +3,44 @@ area: english
 domain: grammar
 type: guide
 title: Passive Voice
-description: The be + V3/ed formula, tense-by-tense forms, and special cases like reporting and two-object passives
+description: Công thức be + V3/ed, dạng theo từng thì, và các trường hợp đặc biệt như bị động tường thuật và hai tân ngữ
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Passive Voice
+# Passive Voice — Thể bị động
 
-## Concept
+## Khái niệm
 
-- In a passive sentence the subject does not perform the action — it receives the action.
-- The passive is used to emphasize the receiver over the doer, or when the doer is unknown or deliberately left out.
+- Trong câu bị động, chủ ngữ không thực hiện hành động — nó chịu tác động của hành động.
+- Bị động dùng để nhấn mạnh người/vật chịu tác động hơn người làm, hoặc khi người làm không rõ hay cố ý lược bỏ.
 
-## General Formula
+## Công thức chung
 
 **S + be + V3/ed + (by O)**
 
-- S: the subject (the receiver of the action).
-- be: conjugated to match tense and subject.
-- V3/ed: the past participle.
-- by O: the agent (optional).
+- S: chủ ngữ (người/vật chịu tác động).
+- be: chia theo thì và chủ ngữ.
+- V3/ed: quá khứ phân từ.
+- by O: tác nhân gây hành động (không bắt buộc).
 
-## Active → Passive Conversion
+## Chuyển chủ động → bị động
 
-1. Identify the object of the active sentence — it becomes the passive subject.
-2. Identify the tense of the active verb — conjugate "to be" in the same tense.
-3. Change the main verb to its past participle (V3/ed).
-4. Add "by" + the original subject if needed.
+1. Xác định tân ngữ của câu chủ động — nó trở thành chủ ngữ bị động.
+2. Xác định thì của động từ chủ động — chia "to be" cùng thì đó.
+3. Đổi động từ chính thành quá khứ phân từ (V3/ed).
+4. Thêm "by" + chủ ngữ gốc nếu cần.
 
-**Example:**
+**Ví dụ:**
 
-- Active: Mary writes a letter. (Mary viết một lá thư.)
-- Passive: A letter is written by Mary. (Một lá thư được viết bởi Mary.)
+- Chủ động: Mary writes a letter. (Mary viết một lá thư.)
+- Bị động: A letter is written by Mary. (Một lá thư được viết bởi Mary.)
 
-## Passive Across Tenses
+## Bị động theo các thì
 
-| Tense              | Formula                   | Example                                         |
+| Thì                | Công thức                 | Ví dụ                                           |
 | ------------------ | ------------------------- | ----------------------------------------------- |
 | Present simple     | am/is/are + V3/ed         | The cake **is made** every day.                 |
 | Present continuous | am/is/are + being + V3/ed | The house **is being painted** now.             |
@@ -51,21 +51,21 @@ tags:
 | Future simple      | will be + V3/ed           | A new project **will be launched** soon.        |
 | Future perfect     | will have + been + V3/ed  | The work **will have been finished** by Friday. |
 
-## Special Cases
+## Trường hợp đặc biệt
 
-- **Two-object verbs (give, send, show...):** either object can become the subject.
+- **Động từ hai tân ngữ (give, send, show...):** tân ngữ nào cũng có thể làm chủ ngữ.
   - _He gave me a book._ → _I **was given** a book by him._ → _A book **was given** to me by him._
-- **Modal verbs:** S + modal + be + V3/ed: _The rules must be followed._
-- **Perception verbs (see, hear, feel):** S + be + V3/ed + to-infinitive: _He was seen to leave the building._
-- **"Get" passive:** S + get + V3/ed — informal, common in speech: _She got promoted last month._
-- **Reporting verbs (say, think, believe, know, report):** two passive forms.
-  - Impersonal: _People say that she is very intelligent._ → _It is said that she is very intelligent._
-  - Personal: _They believe that he won the lottery._ → _He is believed to have won the lottery._
-  - See also the transformation patterns in [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) (Model 16, 18).
+- **Động từ khuyết thiếu:** S + modal + be + V3/ed: _The rules must be followed._
+- **Động từ tri giác (see, hear, feel):** S + be + V3/ed + to-infinitive: _He was seen to leave the building._
+- **Bị động với "get":** S + get + V3/ed — thân mật, hay gặp trong nói: _She got promoted last month._
+- **Động từ tường thuật (say, think, believe, know, report):** hai dạng bị động.
+  - Bất nhân xưng: _People say that she is very intelligent._ → _It is said that she is very intelligent._
+  - Nhân xưng: _They believe that he won the lottery._ → _He is believed to have won the lottery._
+  - Xem thêm các mẫu chuyển đổi ở [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) (Mẫu 16, 18).
 
-## Notes
+## Ghi chú
 
-- Only verbs with a direct object can be passivized.
-- When converting to passive, watch pronoun changes and time/place adverbials.
+- Chỉ động từ có tân ngữ trực tiếp mới chuyển được sang bị động.
+- Khi chuyển sang bị động, chú ý thay đổi đại từ và trạng ngữ chỉ thời gian/nơi chốn.
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **Xem thêm:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

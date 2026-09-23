@@ -3,63 +3,63 @@ area: english
 domain: english-learning
 type: plan
 title: English Roadmap
-description: A three-phase learning roadmap for a beginner aiming at communication, software work, and study abroad
+description: Lộ trình học ba giai đoạn cho người mới bắt đầu hướng tới giao tiếp, làm việc ngành phần mềm, và du học
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
 ---
 
-# English Roadmap
+# English Roadmap — Lộ trình học tiếng Anh
 
-## Original Prompt
+## Prompt gốc
 
-Assume you are a professor of English with many years of experience. I am a beginner learning English to communicate, to work in the software industry, and to study abroad. Create a learning roadmap for me covering the knowledge to learn, vocabulary sets, reputable learning sources, and online English-learning tools and websites.
+> Assume you are a professor of English with many years of experience. I am a beginner learning English to communicate, to work in the software industry, and to study abroad. Create a learning roadmap for me covering the knowledge to learn, vocabulary sets, reputable learning sources, and online English-learning tools and websites.
 
-## The Roadmap
+## Lộ trình
 
-The roadmap is divided into phases, each with the knowledge, vocabulary, sources, and tools that fit it.
+Lộ trình chia thành các giai đoạn, mỗi giai đoạn gồm kiến thức, bộ từ vựng, nguồn học, và công cụ phù hợp.
 
-### Phase 1: Build the Foundation (6 months)
+### Giai đoạn 1: Xây nền tảng (6 tháng)
 
-- **Basic grammar:** [tenses](/English/Grammar/Concepts/Verb Tenses), [sentence structure](/English/Grammar/Concepts/Sentence Structure), [nouns](/English/Grammar/Concepts/Nouns), [articles](/English/Grammar/Concepts/Articles), [pronouns](/English/Grammar/Concepts/Pronouns), [adjectives and adverbs](/English/Grammar/Concepts/Adjectives And Adverbs), [prepositions](/English/Grammar/Concepts/Prepositions), [conjunctions](/English/Grammar/Concepts/Conjunctions And Connectives), [conditionals](/English/Grammar/Concepts/Conditional Sentences), the [passive voice](/English/Grammar/Concepts/Passive Voice), [questions and question tags](/English/Grammar/Concepts/Questions And Question Tags), etc.
-- **Core vocabulary:** everyday words first, then expanding into work and software-engineering vocabulary.
-- **Listening and speaking:** daily English listening, films, lectures, and joining English conversations to improve both skills.
-- **Reading and writing:** books, newspapers, blogs, and writing short pieces.
+- **Ngữ pháp cơ bản:** [các thì](/English/Grammar/Concepts/Verb Tenses), [cấu trúc câu](/English/Grammar/Concepts/Sentence Structure), [danh từ](/English/Grammar/Concepts/Nouns), [mạo từ](/English/Grammar/Concepts/Articles), [đại từ](/English/Grammar/Concepts/Pronouns), [tính từ và trạng từ](/English/Grammar/Concepts/Adjectives And Adverbs), [giới từ](/English/Grammar/Concepts/Prepositions), [liên từ](/English/Grammar/Concepts/Conjunctions And Connectives), [câu điều kiện](/English/Grammar/Concepts/Conditional Sentences), [thể bị động](/English/Grammar/Concepts/Passive Voice), [câu hỏi và đuôi hỏi](/English/Grammar/Concepts/Questions And Question Tags), v.v.
+- **Từ vựng lõi:** từ đời thường trước, rồi mở rộng sang từ vựng công việc và kỹ thuật phần mềm.
+- **Nghe và nói:** nghe tiếng Anh mỗi ngày, xem phim, nghe bài giảng, và tham gia hội thoại tiếng Anh để cải thiện cả hai kỹ năng.
+- **Đọc và viết:** sách, báo, blog, và viết các bài ngắn.
 
-Tools and sources:
+Công cụ và nguồn học:
 
-- **Duolingo:** free mobile app for basic grammar and vocabulary.
-- **Memrise:** vocabulary through spaced repetition.
-- **BBC Learning English:** grammar, vocabulary, listening practice, and learning methods.
-- **EnglishClub:** grammar and vocabulary lessons, listening practice, and a learner forum.
+- **Duolingo:** app miễn phí cho ngữ pháp và từ vựng cơ bản.
+- **Memrise:** học từ vựng bằng lặp lại ngắt quãng (spaced repetition).
+- **BBC Learning English:** bài học ngữ pháp, từ vựng, luyện nghe, và phương pháp học.
+- **EnglishClub:** bài ngữ pháp và từ vựng, luyện nghe, và diễn đàn cho người học.
 
-### Phase 2: Advance Communication Skills (6 months)
+### Giai đoạn 2: Nâng cao kỹ năng giao tiếp (6 tháng)
 
-- **Advanced grammar:** type-2 and type-3 [conditionals](/English/Grammar/Concepts/Sentence Structure) and [mixed conditionals](/English/Grammar/Concepts/Mixed Conditionals), complex [passives](/English/Grammar/Concepts/Passive Voice), direct and [reported speech](/English/Grammar/Concepts/Reported Speech), etc.
-- **Domain vocabulary:** words for software engineering and your work.
-- **Listening and speaking:** take communication courses, practise with native speakers or fellow learners.
-- **Reading and writing:** technical books and articles, join forums, write longer pieces.
+- **Ngữ pháp nâng cao:** [câu điều kiện](/English/Grammar/Concepts/Conditional Sentences) loại 2 và 3, [câu điều kiện hỗn hợp](/English/Grammar/Concepts/Mixed Conditionals), [bị động](/English/Grammar/Concepts/Passive Voice) phức tạp, câu trực tiếp và [gián tiếp](/English/Grammar/Concepts/Reported Speech), v.v.
+- **Từ vựng chuyên ngành:** từ cho kỹ thuật phần mềm và công việc của bạn.
+- **Nghe và nói:** học các khóa giao tiếp, luyện với người bản xứ hoặc bạn học.
+- **Đọc và viết:** sách và bài báo kỹ thuật, tham gia forum, viết bài dài hơn.
 
-Tools and sources:
+Công cụ và nguồn học:
 
-- **iTalki:** find English teachers for online video lessons.
-- **ConversationExchange:** find language partners for email, chat, or in-person exchange.
-- **Cambridge English:** grammar, vocabulary, listening practice, and methods.
-- **Coursera:** online English courses from top universities.
+- **iTalki:** tìm giáo viên tiếng Anh dạy online qua video.
+- **ConversationExchange:** tìm bạn trao đổi ngôn ngữ qua email, chat, hoặc gặp trực tiếp.
+- **Cambridge English:** bài ngữ pháp, từ vựng, luyện nghe, và phương pháp học.
+- **Coursera:** khóa tiếng Anh online từ các trường đại học hàng đầu.
 
-### Phase 3: Professional Specialization (6+ months)
+### Giai đoạn 3: Chuyên môn hóa nghề nghiệp (6+ tháng)
 
-- **Domain grammar and vocabulary:** grammar and vocabulary specific to software engineering.
-- **Listening and speaking:** lectures, podcasts, technical discussions, and conversation practice with native speakers or people working in software.
-- **Reading and writing:** technical books, articles, documentation; write long-form pieces on software topics.
+- **Ngữ pháp và từ vựng chuyên ngành:** ngữ pháp và từ vựng riêng cho kỹ thuật phần mềm.
+- **Nghe và nói:** bài giảng, podcast, thảo luận kỹ thuật, và luyện nói với người bản xứ hoặc người làm ngành phần mềm.
+- **Đọc và viết:** sách, bài báo, tài liệu kỹ thuật; viết bài dài về chủ đề phần mềm.
 
-Tools and sources:
+Công cụ và nguồn học:
 
-- **Udemy:** online courses on software engineering and English.
-- **Codecademy:** programming courses in English.
-- **EnglishCentral:** specialized grammar, vocabulary, and listening lessons.
-- **Medium:** read and write technical blog posts.
+- **Udemy:** khóa học online về kỹ thuật phần mềm và tiếng Anh.
+- **Codecademy:** khóa lập trình bằng tiếng Anh.
+- **EnglishCentral:** bài ngữ pháp, từ vựng, và luyện nghe chuyên biệt.
+- **Medium:** đọc và viết blog kỹ thuật.
 
-Beyond the phases: practise English every day, seek chances to use it at work and in daily life, and review regularly to maintain and raise your level.
+Ngoài các giai đoạn: luyện tiếng Anh mỗi ngày, tìm cơ hội dùng nó ở công việc và đời sống, và ôn tập thường xuyên để duy trì và nâng trình.
 
-> **See also:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs)
+> **Xem thêm:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview) · [Learning Resources](/English/Resources/Learning Resources) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs)

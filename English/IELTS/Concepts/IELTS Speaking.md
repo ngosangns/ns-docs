@@ -3,7 +3,7 @@ area: english
 domain: ielts
 type: guide
 title: IELTS Speaking
-description: The Part 1-3 interview structure, the four marking criteria, and performance tips
+description: Cấu trúc phỏng vấn Part 1-3, bốn tiêu chí chấm, và mẹo trình bày
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,46 +11,46 @@ tags:
 resource: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking
 ---
 
-# IELTS Speaking
+# IELTS Speaking — Kỹ năng Nói
 
-## Overall Structure
+## Cấu trúc chung
 
-- **Format:** a one-on-one, face-to-face interview with an examiner, recorded.
-- **Duration:** 11-14 minutes across 3 parts (identical in Academic and General Training).
+- **Hình thức:** phỏng vấn trực tiếp một-một với giám khảo, có ghi âm.
+- **Thời lượng:** 11-14 phút qua 3 phần (giống nhau ở Academic và General Training).
 
-Source: [IELTS Academic Speaking format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking).
+Nguồn: [IELTS Academic Speaking format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking).
 
-## Part 1 — Introduction and Interview (4-5 minutes)
+## Part 1 — Giới thiệu và phỏng vấn (4-5 phút)
 
-- The examiner asks familiar, general questions about you (home, family, work, studies, hobbies).
-- **Skill assessed:** giving opinions and information on everyday topics.
+- Giám khảo hỏi các câu quen thuộc về bạn (nhà, gia đình, công việc, học tập, sở thích).
+- **Kỹ năng được đánh giá:** đưa ý kiến và thông tin về chủ đề đời thường.
 
-## Part 2 — Long Turn / Cue Card (3-4 minutes)
+## Part 2 — Long Turn / Cue Card (3-4 phút)
 
-- The examiner hands you a **task card** on a specific topic with points to cover.
-- You get **1 minute to prepare** (paper notes allowed), then speak for about **2 minutes** uninterrupted.
-- The examiner may ask 1-2 follow-up questions afterwards.
-- **Skill assessed:** speaking at length coherently, organizing ideas logically, using appropriate language.
+- Giám khảo đưa bạn một **thẻ chủ đề** với các ý cần bao phủ.
+- Bạn có **1 phút chuẩn bị** (được ghi chú), rồi nói khoảng **2 phút** liên tục.
+- Sau đó giám khảo có thể hỏi thêm 1-2 câu.
+- **Kỹ năng được đánh giá:** nói dài mạch lạc, tổ chức ý logic, dùng ngôn ngữ phù hợp.
 
-## Part 3 — Discussion (4-5 minutes)
+## Part 3 — Thảo luận (4-5 phút)
 
-- A deeper, more abstract discussion of issues related to the Part 2 topic.
-- **Skill assessed:** explaining opinions, analysing, discussing, and speculating about issues.
+- Thảo luận sâu hơn, trừu tượng hơn về các vấn đề liên quan chủ đề Part 2.
+- **Kỹ năng được đánh giá:** giải thích ý kiến, phân tích, thảo luận, và suy đoán về các vấn đề.
 
-## Marking Criteria
+## Tiêu chí chấm
 
-1. **Fluency and Coherence** — smooth delivery, connected ideas, minimal hesitation or empty fillers.
-2. **Lexical Resource** — vocabulary range and flexible expression (paraphrasing when a word escapes you).
-3. **Grammatical Range and Accuracy** — varied sentence structures (see [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)) with grammatical control.
-4. **Pronunciation** — clear articulation, natural intonation, easy to understand.
+1. **Fluency and Coherence** — nói mượt, ý liên kết, ít ngập ngừng hoặc filler rỗng.
+2. **Lexical Resource** — vốn từ đa dạng và diễn đạt linh hoạt (biết paraphrase khi quên từ).
+3. **Grammatical Range and Accuracy** — cấu trúc câu đa dạng (xem [Sentence Structure](/English/Grammar/Concepts/Sentence Structure)) với kiểm soát ngữ pháp tốt.
+4. **Pronunciation** — phát âm rõ, ngữ điệu tự nhiên, dễ nghe hiểu.
 
-Source: [IELTS Academic Speaking format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking).
+Nguồn: [IELTS Academic Speaking format](https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking).
 
-## Test-Day Tips
+## Mẹo ngày thi
 
-- Give **extended answers** (reasons, examples) rather than one-line replies — especially in Parts 1 and 3.
-- Part 2: spend the preparation minute outlining a **What - When - Where - Who - Why/How** skeleton instead of writing full sentences.
-- Don't memorize scripted answers — examiners spot recited delivery, and it hurts Fluency.
-- If you don't understand a question, you may ask the examiner to repeat it (no penalty).
+- Trả lời **mở rộng** (thêm lý do, ví dụ) thay vì một dòng — nhất là Part 1 và 3.
+- Part 2: dùng 1 phút chuẩn bị để phác khung **What - When - Where - Who - Why/How** thay vì viết câu hoàn chỉnh.
+- Đừng học thuộc bài mẫu — giám khảo nhận ra ngay, và làm mất điểm Fluency.
+- Nếu không nghe rõ câu hỏi, bạn có thể nhờ giám khảo nhắc lại (không bị trừ điểm).
 
-> **See also:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing)
+> **Xem thêm:** [IELTS Overview](/English/IELTS/Concepts/IELTS Overview) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading) · [IELTS Writing](/English/IELTS/Concepts/IELTS Writing)

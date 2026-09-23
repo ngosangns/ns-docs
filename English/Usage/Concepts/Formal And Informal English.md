@@ -3,20 +3,20 @@ area: english
 domain: usage
 type: guide
 title: Formal And Informal English
-description: Register — choosing formal vs informal vocabulary, grammar, and tone for essays, emails, and conversation
+description: Văn phong — chọn từ vựng, ngữ pháp, tông trang trọng vs thân mật cho essay, email, và hội thoại
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - usage
 ---
 
-# Formal And Informal English
+# Formal And Informal English — Tiếng Anh trang trọng và thân mật
 
-**Register** is the level of formality appropriate to the situation. The same message looks different in an essay, an email, and a chat with friends.
+**Register** là mức độ trang trọng phù hợp tình huống. Cùng một thông điệp sẽ trông khác trong essay, email, và khi chat với bạn bè.
 
-## Vocabulary — Formal vs Informal Pairs
+## Từ vựng — Cặp thân mật vs trang trọng
 
-| Informal | Formal                 | Informal    | Formal                     |
+| Thân mật | Trang trọng            | Thân mật    | Trang trọng                |
 | -------- | ---------------------- | ----------- | -------------------------- |
 | buy      | purchase               | get         | receive / obtain           |
 | ask      | request / enquire      | need        | require                    |
@@ -30,37 +30,37 @@ tags:
 | big      | enormous / substantial | so          | therefore / consequently   |
 | but      | however / nevertheless | also        | furthermore / moreover     |
 
-**Phrasal verbs lean informal:** put off → postpone, find out → discover, carry out → conduct, look into → investigate, put up with → tolerate, point out → indicate, deal with → handle. See [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs).
+**Phrasal verbs nghiêng thân mật:** put off → postpone, find out → discover, carry out → conduct, look into → investigate, put up with → tolerate, point out → indicate, deal with → handle. Xem [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs).
 
-## Grammar and Tone
+## Ngữ pháp và tông
 
-| Feature       | Informal                             | Formal                                      |
-| ------------- | ------------------------------------ | ------------------------------------------- |
-| Contractions  | don't, can't, it's                   | do not, cannot, it is                       |
-| Phrasal verbs | put off the meeting                  | postpone the meeting                        |
-| Sentences     | short, fragments OK ("Sounds good.") | complete, varied                            |
-| Passive       | less common                          | frequent (_The results were analyzed._)     |
-| Pronouns      | I, you freely                        | impersonal ("one", "it is believed")        |
-| Fillers       | gonna, wanna, stuff, a bit, sort of  | avoided                                     |
-| Modals        | can, have to                         | may, must, would, could (politeness ladder) |
+| Đặc điểm      | Thân mật                            | Trang trọng                               |
+| ------------- | ----------------------------------- | ----------------------------------------- |
+| Viết tắt      | don't, can't, it's                  | do not, cannot, it is                     |
+| Phrasal verbs | put off the meeting                 | postpone the meeting                      |
+| Câu           | ngắn, fragment ok ("Sounds good.")  | đầy đủ, đa dạng                           |
+| Bị động       | ít dùng                             | dùng nhiều (_The results were analyzed._) |
+| Đại từ        | I, you thoải mái                    | bất nhân xưng ("one", "it is believed")   |
+| Từ đệm        | gonna, wanna, stuff, a bit, sort of | tránh dùng                                |
+| Modal         | can, have to                        | may, must, would, could (thang lịch sự)   |
 
-## Politeness Ladder for Requests
+## Thang lịch sự khi yêu cầu
 
-From casual to very formal:
+Từ thoải mái đến rất trang trọng:
 
 - _Can I...?_ → _Could I...?_ → _May I...?_ → _Might I...?_
 - _Do you want...?_ → _Would you like...?_ → _Would you mind...?_ → _I would be grateful if you could..._
 
-## Same Message, Three Registers
+## Cùng một thông điệp, ba văn phong
 
-- **Informal:** _"Hey, can you send me the report?"_
-- **Neutral:** _"Could you please send me the report?"_
-- **Formal:** _"I would be grateful if you could forward the report at your earliest convenience."_
+- **Thân mật:** _"Hey, can you send me the report?"_
+- **Trung lập:** _"Could you please send me the report?"_
+- **Trang trọng:** _"I would be grateful if you could forward the report at your earliest convenience."_
 
-## Notes
+## Ghi chú
 
-- Consistency matters more than fanciness — don't mix "kids" and "furthermore" in one paragraph.
-- In IELTS/THPT writing, avoid contractions, phrasal-verb-heavy sentences, and personal anecdotes unless the task allows.
-- Over-formal speech sounds stiff: _"I require sustenance"_ in a restaurant is not a win.
+- Nhất quán quan trọng hơn là văn hoa — đừng trộn "kids" với "furthermore" trong một đoạn.
+- Trong bài viết IELTS/THPT, tránh viết tắt, câu đầy phrasal verb, và chuyện cá nhân trừ khi đề cho phép.
+- Nói quá trang trọng nghe cứng nhắc: _"I require sustenance"_ trong nhà hàng không phải chiến thắng.
 
-> **See also:** [Discourse Markers](/English/Usage/Concepts/Discourse Markers) · [British And American English](/English/Usage/Concepts/British And American English) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives)
+> **Xem thêm:** [Discourse Markers](/English/Usage/Concepts/Discourse Markers) · [British And American English](/English/Usage/Concepts/British And American English) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives)

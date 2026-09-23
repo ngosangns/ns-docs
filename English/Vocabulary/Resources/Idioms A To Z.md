@@ -3,16 +3,16 @@ area: english
 domain: vocabulary
 type: cheatsheet
 title: Idioms A To Z
-description: An extended alphabetical idiom reference for reading and listening comprehension
+description: Bảng tra thành ngữ mở rộng theo bảng chữ cái, phục vụ đọc hiểu và nghe
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - vocabulary
 ---
 
-# Idioms A To Z
+# Idioms A To Z — Thành ngữ theo bảng chữ cái
 
-Extended idiom reference — mainly for **recognition** in reading and listening. For theme-grouped core idioms and usage advice, see [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions).
+Bảng tra thành ngữ mở rộng — chủ yếu để **nhận diện** khi đọc và nghe. Cho các idiom cốt lõi nhóm theo chủ đề và lời khuyên sử dụng, xem [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions).
 
 ## A–C
 
@@ -91,9 +91,9 @@ Extended idiom reference — mainly for **recognition** in reading and listening
 - **wrap your head around** — cố hiểu điều phức tạp
 - **you can't have your cake and eat it too** — không thể được cả đôi đường
 
-## Notes
+## Ghi chú
 
-- Idioms are informal — check register before using in essays; see [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
-- Learn idioms in whole sentences, not isolated phrases — context locks the meaning in.
+- Idiom mang tính thân mật — kiểm tra văn phong trước khi dùng trong essay; xem [Formal And Informal English](/English/Usage/Concepts/Formal And Informal English).
+- Học idiom trong câu trọn vẹn, không học cụm rời — ngữ cảnh giúp khóa nghĩa vào trí nhớ.
 
-> **See also:** [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions) · [Collocations](/English/Vocabulary/Concepts/Collocations) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs)
+> **Xem thêm:** [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions) · [Collocations](/English/Vocabulary/Concepts/Collocations) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs)

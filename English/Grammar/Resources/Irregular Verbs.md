@@ -3,20 +3,20 @@ area: english
 domain: grammar
 type: cheatsheet
 title: Irregular Verbs
-description: Three-hundred irregular verbs grouped by V1-V2-V3 pattern with Vietnamese meanings and examples
+description: Ba trăm động từ bất quy tắc nhóm theo mẫu V1-V2-V3, kèm nghĩa tiếng Việt và ví dụ
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Irregular Verbs
+# Irregular Verbs — Động từ bất quy tắc
 
-Irregular verbs grouped by their inflection pattern: **AAA** (all three forms identical), **ABA** (V3 returns to V1), **ABB** (V2 and V3 identical), **ABC** (all three forms differ). Forms joined by `/` are both accepted variants.
+Động từ bất quy tắc nhóm theo mẫu chia: **AAA** (cả ba dạng giống nhau), **ABA** (V3 quay lại giống V1), **ABB** (V2 và V3 giống nhau), **ABC** (cả ba dạng khác nhau). Các dạng nối bằng `/` đều được chấp nhận.
 
-## Group 1 — All Three Forms Identical (V1 = V2 = V3)
+## Nhóm 1 — Cả ba dạng giống nhau (V1 = V2 = V3)
 
-| V1 (Base)   | V2 (Past)   | V3 (Past Participle)              | Vietnamese                                | Example                                                            |
+| V1 (Base)   | V2 (Past)   | V3 (Past Participle)              | Nghĩa tiếng Việt                          | Ví dụ                                                              |
 | ----------- | ----------- | --------------------------------- | ----------------------------------------- | ------------------------------------------------------------------ |
 | beset       | beset       | beset                             | bao vây, bủa vây                          | The hikers were beset by a sudden storm.                           |
 | bespread    | bespread    | bespread                          | trải khắp, rải khắp (cách dùng cổ/thi vị) | Darkness bespread the land at nightfall.                           |
@@ -52,9 +52,9 @@ Irregular verbs grouped by their inflection pattern: **AAA** (all three forms id
 | undercut    | undercut    | undercut                          | cắt giá, bán rẻ hơn; làm suy yếu          | The new store undercut its competitors’ prices.                    |
 | upset       | upset       | upset                             | làm đổ, làm khó chịu                      | The child upset the glass of water on the table.                   |
 
-## Group 2 — V1 and V3 Identical (V1 = V3 ≠ V2)
+## Nhóm 2 — V1 và V3 giống nhau (V1 = V3 ≠ V2)
 
-| V1 (Base) | V2 (Past) | V3 (Past Participle) | Vietnamese                                                 | Example                                                 |
+| V1 (Base) | V2 (Past) | V3 (Past Participle) | Nghĩa tiếng Việt                                           | Ví dụ                                                   |
 | --------- | --------- | -------------------- | ---------------------------------------------------------- | ------------------------------------------------------- |
 | become    | became    | become               | trở nên, trở thành                                         | She became a famous singer last year.                   |
 | come      | came      | come                 | đến                                                        | They came to the meeting late.                          |
@@ -64,9 +64,9 @@ Irregular verbs grouped by their inflection pattern: **AAA** (all three forms id
 | run       | ran       | run                  | chạy                                                       | She ran five kilometers before breakfast.               |
 | underrun  | underran  | underrun             | chạy dưới (mức), hoặc di chuyển lướt bên dưới (rất ít gặp) | The boat underran the pier in a sudden maneuver. (hiếm) |
 
-## Group 3 — V2 and V3 Identical (V2 = V3 ≠ V1)
+## Nhóm 3 — V2 và V3 giống nhau (V2 = V3 ≠ V1)
 
-| V1 (Base)  | V2 (Past)             | V3 (Past Participle)  | Vietnamese                                                                         | Example                                                                          |
+| V1 (Base)  | V2 (Past)             | V3 (Past Participle)  | Nghĩa tiếng Việt                                                                   | Ví dụ                                                                            |
 | ---------- | --------------------- | --------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | abide      | abode/abided          | abode/abided          | chịu đựng / ở lại                                                                  | I can’t abide his rude behavior anymore.                                         |
 | babysit    | babysat               | babysat               | trông trẻ                                                                          | She babysat her neighbor’s kids last weekend.                                    |
@@ -212,9 +212,9 @@ Irregular verbs grouped by their inflection pattern: **AAA** (all three forms id
 | withstand  | withstood             | withstood             | chịu đựng, chống cự                                                                | The walls withstood the impact of the flood.                                     |
 | wring      | wrung                 | wrung                 | vặn, siết, vắt                                                                     | She wrung the water out of the cloth.                                            |
 
-## Group 4 — All Three Forms Different (V1 ≠ V2 ≠ V3)
+## Nhóm 4 — Cả ba dạng khác nhau (V1 ≠ V2 ≠ V3)
 
-| V1 (Base)           | V2 (Past)             | V3 (Past Participle)   | Vietnamese                                                              | Example                                                                     |
+| V1 (Base)           | V2 (Past)             | V3 (Past Participle)   | Nghĩa tiếng Việt                                                        | Ví dụ                                                                       |
 | ------------------- | --------------------- | ---------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | arise               | arose                 | arisen                 | nảy sinh, xuất hiện                                                     | New problems arose during the project.                                      |
 | awake               | awoke                 | awoken                 | thức tỉnh, đánh thức                                                    | He awoke from a deep sleep.                                                 |
@@ -334,4 +334,4 @@ Irregular verbs grouped by their inflection pattern: **AAA** (all three forms id
 | withdraw            | withdrew              | withdrawn              | rút khỏi, rút lui                                                       | She withdrew all her savings from the bank.                                 |
 | write               | wrote                 | written                | viết                                                                    | He wrote a letter to his old friend.                                        |
 
-> **See also:** [Passive Voice](/English/Grammar/Concepts/Passive Voice) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)
+> **Xem thêm:** [Passive Voice](/English/Grammar/Concepts/Passive Voice) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)

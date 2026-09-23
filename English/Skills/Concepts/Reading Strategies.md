@@ -3,7 +3,7 @@ area: english
 domain: skills
 type: guide
 title: Reading Strategies
-description: Skimming, scanning, guessing vocabulary from context, and intensive vs extensive reading
+description: Skimming, scanning, đoán từ qua ngữ cảnh, và đọc sâu vs đọc rộng
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -11,50 +11,50 @@ tags:
   - reading
 ---
 
-# Reading Strategies
+# Reading Strategies — Chiến lược đọc
 
-Good readers switch between **fast reading for meaning** and **slow reading for language** — two different modes with different goals.
+Người đọc giỏi chuyển đổi giữa **đọc nhanh lấy ý** và **đọc chậm học ngôn ngữ** — hai chế độ khác nhau với mục tiêu khác nhau.
 
-## Fast Techniques — Getting Meaning
+## Kỹ thuật đọc nhanh — Lấy ý nghĩa
 
-- **Skimming (gist):** read the title, first sentence of each paragraph, and the conclusion — get the topic and the writer's position in under a minute.
-- **Scanning (detail):** eyes hunt for a specific item — a name, number, date, or keyword from the question — ignoring everything else.
-- **Survey first:** before reading closely, check headings, bold words, images — build a mental map of the text.
+- **Skimming (ý chính):** đọc tiêu đề, câu đầu mỗi đoạn, và kết luận — nắm chủ đề và quan điểm tác giả trong chưa tới một phút.
+- **Scanning (chi tiết):** mắt săn một mục cụ thể — tên riêng, con số, ngày, hoặc từ khóa của câu hỏi — bỏ qua mọi thứ khác.
+- **Khảo sát trước:** trước khi đọc kỹ, xem tiêu đề phụ, chữ đậm, hình ảnh — dựng bản đồ tinh thần cho bài đọc.
 
-## Guessing Vocabulary from Context
+## Đoán từ qua ngữ cảnh
 
-Before reaching for a dictionary:
+Trước khi tra từ điển:
 
-1. **Word class:** is it a noun, verb, adjective? Position tells you — see [Word Formation](/English/Grammar/Concepts/Word Formation).
-2. **Word parts:** prefix/root/suffix — _un-believ-able, mis-under-stand_.
-3. **Context clues:** definition (_X, which is..._), example (_such as..._), contrast (_but, however, unlike_), restatement (_that is, in other words_), logic.
-4. Decide if the word even matters — skip adjectives and details that don't affect the main idea.
+1. **Từ loại:** là danh, động, hay tính từ? Vị trí cho biết — xem [Word Formation](/English/Grammar/Concepts/Word Formation).
+2. **Bộ phận từ:** tiền tố/gốc/hậu tố — _un-believ-able, mis-under-stand_.
+3. **Manh mối ngữ cảnh:** định nghĩa (_X, which is..._), ví dụ (_such as..._), tương phản (_but, however, unlike_), diễn lại (_that is, in other words_), logic.
+4. Quyết định xem từ đó có đáng quan tâm không — bỏ qua tính từ và chi tiết không ảnh hưởng ý chính.
 
-## Intensive vs Extensive Reading
+## Đọc sâu vs Đọc rộng
 
-|            | Intensive                            | Extensive                              |
-| ---------- | ------------------------------------ | -------------------------------------- |
-| Text       | short, slightly above your level     | long, at/below your level (95%+ known) |
-| Goal       | learn language — mine every sentence | build speed and habit                  |
-| Dictionary | yes, log useful words                | no — guess and keep moving             |
-| Examples   | textbook passages, exam readings     | graded readers, news, blogs, fiction   |
+|          | Intensive (đọc sâu)               | Extensive (đọc rộng)                    |
+| -------- | --------------------------------- | --------------------------------------- |
+| Văn bản  | ngắn, hơi trên trình độ           | dài, ngang/dưới trình độ (95%+ đã biết) |
+| Mục tiêu | học ngôn ngữ — khai thác từng câu | xây tốc độ và thói quen                 |
+| Từ điển  | có, ghi lại từ hữu ích            | không — đoán và đi tiếp                 |
+| Ví dụ    | bài đọc SGK, bài đọc đề thi       | graded readers, báo, blog, truyện       |
 
-A week should mix both: intensive for growth, extensive for volume and consolidation.
+Một tuần nên trộn cả hai: đọc sâu để phát triển, đọc rộng để tích lũy và củng cố.
 
-## Active Reading Habits
+## Thói quen đọc chủ động
 
-- Annotate: underline topic sentences, circle connectors (however, therefore) that signal the argument's direction — see [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
-- Summarize each paragraph in 5 words in the margin — forces comprehension over word-reading.
-- Log only **high-value** vocabulary: words you'll reuse, full collocations, not rare nouns.
-- Reread the passage after checking unknown words — the second pass consolidates.
+- Chú thích: gạch chân câu chủ đề, khoanh tròn từ nối (however, therefore) báo hướng lập luận — xem [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives).
+- Tóm tắt mỗi đoạn bằng 5 từ vào lề — ép hiểu nội dung thay vì chỉ đọc chữ.
+- Chỉ ghi từ vựng **giá trị cao**: từ bạn sẽ dùng lại, collocation nguyên cụm, không phải danh từ hiếm.
+- Đọc lại bài sau khi tra từ chưa biết — lượt đọc thứ hai giúp củng cố.
 
-## Exam Reading
+## Đọc trong phòng thi
 
-Question-type strategies (main idea, detail, inference, reference, vocabulary-in-context) are covered in [Exam Question Types](/English/Exam Skills/Concepts/Exam Question Types). Exam-specific: answer from the passage, not your own knowledge; watch paraphrase traps — the option that reuses the text's exact words is often the distractor.
+Chiến thuật theo dạng câu hỏi (ý chính, chi tiết, suy luận, tham chiếu, từ vựng trong ngữ cảnh) trình bày ở [Exam Question Types](/English/Exam Skills/Concepts/Exam Question Types). Riêng khi thi: trả lời theo bài đọc, không theo kiến thức của bạn; coi chừng bẫy paraphrase — đáp án dùng lại đúng nguyên văn bài đọc thường là đáp án nhiễu.
 
-## Notes
+## Ghi chú
 
-- Reading speed grows with vocabulary size — a wall of unknown words can't be skimmed.
-- Choose material you enjoy for extensive reading; boredom is the main dropout cause.
+- Tốc độ đọc tăng theo vốn từ — một bức tường từ lạ thì không skim được.
+- Chọn tài liệu bạn thích cho đọc rộng; chán là lý do bỏ cuộc chính.
 
-> **See also:** [Listening Strategies](/English/Skills/Concepts/Listening Strategies) · [Exam Question Types](/English/Exam Skills/Concepts/Exam Question Types) · [Topic Vocabulary](/English/Vocabulary/Concepts/Topic Vocabulary) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading)
+> **Xem thêm:** [Listening Strategies](/English/Skills/Concepts/Listening Strategies) · [Exam Question Types](/English/Exam Skills/Concepts/Exam Question Types) · [Topic Vocabulary](/English/Vocabulary/Concepts/Topic Vocabulary) · [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading)

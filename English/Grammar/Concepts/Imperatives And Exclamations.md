@@ -3,66 +3,66 @@ area: english
 domain: grammar
 type: guide
 title: Imperatives And Exclamations
-description: Commands and instructions with the bare infinitive and let's, plus exclamations with what and how
+description: Câu mệnh lệnh với động từ nguyên mẫu và let's, cùng câu cảm thán với what và how
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Imperatives And Exclamations
+# Imperatives And Exclamations — Câu mệnh lệnh và câu cảm thán
 
-Two sentence types beyond statements and questions: **imperatives** for commands and **exclamations** for strong feelings. For statements and questions, see [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) and [Questions And Question Tags](/English/Grammar/Concepts/Questions And Question Tags).
+Hai loại câu ngoài câu trần thuật và câu hỏi: **câu mệnh lệnh** ra lệnh/chỉ dẫn và **câu cảm thán** diễn tả cảm xúc mạnh. Về câu trần thuật và câu hỏi, xem [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) và [Questions And Question Tags](/English/Grammar/Concepts/Questions And Question Tags).
 
-## Imperatives
+## Câu mệnh lệnh (Imperatives)
 
-Give orders, instructions, directions, advice, or invitations — the subject "you" is implied and dropped.
+Ra lệnh, hướng dẫn, chỉ đường, khuyên bảo, hoặc mời gọi — chủ ngữ "you" được ngầm hiểu và lược bỏ.
 
-**Formula:** V (bare) + ... / Don't + V + ...
+**Công thức:** V (nguyên mẫu) + ... / Don't + V + ...
 
 - _Sit down._ (Ngồi xuống.) · _Open your books._ · _Don't be late._ (Đừng đến muộn.)
 - _Never touch this button._ · _Be careful!_
 
-### Softening and Including
+### Làm mềm và bao gồm người nói
 
-- **Please** softens: _Please wait here._ / _Wait here, please._
-- **Let's + V** includes the speaker — a suggestion: _Let's go out for dinner._ (Chúng ta đi ăn tối nhé.)
-  - Negative: _Let's not argue._
-  - Tag: _Let's go, shall we?_
-- **Let + object + V:** _Let him try._ · _Let me help you._
-- Polite forms prefer questions: _Could you open the window?_ — see [Modal Verbs](/English/Grammar/Concepts/Modal Verbs).
+- **Please** làm mềm: _Please wait here._ / _Wait here, please._
+- **Let's + V** bao gồm cả người nói — một lời rủ rê: _Let's go out for dinner._ (Chúng ta đi ăn tối nhé.)
+  - Phủ định: _Let's not argue._
+  - Đuôi: _Let's go, shall we?_
+- **Let + tân ngữ + V:** _Let him try._ · _Let me help you._
+- Cách lịch sự hơn thì dùng câu hỏi: _Could you open the window?_ — xem [Modal Verbs](/English/Grammar/Concepts/Modal Verbs).
 
-### Passive and Emphatic Imperatives
+### Mệnh lệnh bị động và nhấn mạnh
 
-- _Don't be fooled._ · _Do sit down._ (emphatic, encouraging)
+- _Don't be fooled._ · _Do sit down._ (nhấn mạnh, mang tính mời mọc)
 
-## Exclamations
+## Câu cảm thán (Exclamations)
 
-Express surprise, admiration, or strong emotion.
+Diễn tả sự ngạc nhiên, khâm phục, hoặc cảm xúc mạnh.
 
-### What + (a/an) + Adjective + Noun (+ S + V)
+### What + (a/an) + Tính từ + Danh từ (+ S + V)
 
-| Structure                            | Example                                           |
-| ------------------------------------ | ------------------------------------------------- |
-| What + a/an + adj + singular noun    | _What a beautiful day!_ (Ngày đẹp trời quá!)      |
-| What + adj + plural/uncountable noun | _What lovely flowers!_ · _What terrible weather!_ |
-| What + noun                          | _What a surprise!_ · _What a shame!_              |
+| Cấu trúc                                | Ví dụ                                             |
+| --------------------------------------- | ------------------------------------------------- |
+| What + a/an + adj + danh từ số ít       | _What a beautiful day!_ (Ngày đẹp trời quá!)      |
+| What + adj + danh từ số nhiều/không đếm | _What lovely flowers!_ · _What terrible weather!_ |
+| What + danh từ                          | _What a surprise!_ · _What a shame!_              |
 
-### How + Adjective/Adverb + S + V
+### How + Tính từ/Trạng từ + S + V
 
 - _How beautiful she is!_ (Cô ấy đẹp quá!)
 - _How fast he runs!_ (Anh ấy chạy nhanh quá!)
 - _How time flies!_
 
-**Choosing what vs how:** "what" leads to a **noun phrase**; "how" leads to an **adjective/adverb**. Compare: _What a good film!_ vs _How good the film is!_
+**Chọn what hay how:** "what" dẫn tới **cụm danh từ**; "how" dẫn tới **tính từ/trạng từ**. So sánh: _What a good film!_ vs _How good the film is!_
 
-## Reporting
+## Tường thuật
 
-Commands report as "told/asked/ordered + object + to-infinitive" — see [Reported Speech](/English/Grammar/Concepts/Reported Speech). Exclamation conversion patterns are Models 38–39 of [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns).
+Câu mệnh lệnh tường thuật bằng "told/asked/ordered + tân ngữ + to-infinitive" — xem [Reported Speech](/English/Grammar/Concepts/Reported Speech). Mẫu chuyển đổi câu cảm thán là Mẫu 38–39 của [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns).
 
-## Notes
+## Ghi chú
 
-- Imperatives never take a subject pronoun: "You sit down" is a statement, not a command (unless emphatic: _You sit there!_).
-- Exclamations keep statement order after "how": _How tall he is!_ — not "how tall is he".
+- Câu mệnh lệnh không bao giờ có đại từ chủ ngữ: "You sit down" là câu trần thuật, không phải mệnh lệnh (trừ khi nhấn mạnh: _You sit there!_).
+- Câu cảm thán giữ trật tự trần thuật sau "how": _How tall he is!_ — không phải "how tall is he".
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Questions And Question Tags](/English/Grammar/Concepts/Questions And Question Tags) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **Xem thêm:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Questions And Question Tags](/English/Grammar/Concepts/Questions And Question Tags) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

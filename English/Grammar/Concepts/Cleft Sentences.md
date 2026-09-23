@@ -3,41 +3,41 @@ area: english
 domain: grammar
 type: guide
 title: Cleft Sentences
-description: Emphatic "it-cleft" structures for highlighting a subject, object, or adverbial
+description: Câu chẻ "it-cleft" nhấn mạnh chủ ngữ, tân ngữ, hoặc trạng ngữ
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Cleft Sentences
+# Cleft Sentences — Câu chẻ
 
-## Concept
+## Khái niệm
 
-- A cleft sentence is a special structure used to emphasize one specific element of a sentence — the subject, object, adverbial, or an adverbial clause.
-- It usually opens with "It" + a form of "to be", followed by the emphasized element and the rest of the sentence.
+- Câu chẻ là cấu trúc đặc biệt dùng để nhấn mạnh một thành phần cụ thể trong câu — chủ ngữ, tân ngữ, trạng ngữ, hoặc một mệnh đề trạng ngữ.
+- Thường mở đầu bằng "It" + dạng của "to be", theo sau là thành phần được nhấn mạnh và phần còn lại của câu.
 
-## Types
+## Các loại
 
-- **Subject cleft:** It + be + subject (emphasized) + who/that + rest of sentence.
+- **Chẻ chủ ngữ:** It + be + chủ ngữ (nhấn mạnh) + who/that + phần còn lại.
   - It was John who broke the window. (Chính John đã làm vỡ cửa sổ.)
-- **Object cleft:** It + be + object (emphasized) + that/who/whom + rest of sentence.
+- **Chẻ tân ngữ:** It + be + tân ngữ (nhấn mạnh) + that/who/whom + phần còn lại.
   - It was the book that I bought yesterday. (Chính cuốn sách đó mà tôi đã mua hôm qua.)
-- **Adverbial cleft:** It + be + adverbial (emphasized) + that/when/where + rest of sentence.
+- **Chẻ trạng ngữ:** It + be + trạng ngữ (nhấn mạnh) + that/when/where + phần còn lại.
   - It was yesterday that I met her. (Chính hôm qua tôi đã gặp cô ấy.)
-- **Clause cleft:** It + be + adverbial clause (emphasized) + that + rest of sentence.
+- **Chẻ mệnh đề:** It + be + mệnh đề trạng ngữ (nhấn mạnh) + that + phần còn lại.
   - It was because he was sick that he didn't go to school. (Chính vì anh ấy bị ốm nên anh ấy đã không đi học.)
 
-## Notes
+## Ghi chú
 
-- Cleft sentences are common in formal writing and speech.
-- They make a sentence longer and more complex, but they also make the emphasized element unmistakably clear.
+- Câu chẻ phổ biến trong văn viết và nói trang trọng.
+- Chúng làm câu dài và phức tạp hơn, nhưng cũng làm thành phần nhấn mạnh rõ ràng không thể nhầm.
 
-## More Examples
+## Thêm ví dụ
 
 - It is the children who are playing in the park. (Chính những đứa trẻ đang chơi trong công viên.)
 - It was the new car that he bought. (Chính chiếc xe mới mà anh ấy đã mua.)
 - It was in the library that I found the book. (Chính trong thư viện mà tôi đã tìm thấy cuốn sách.)
 - It was because she was late that she missed the bus. (Chính vì cô ấy đến muộn nên cô ấy đã lỡ xe buýt.)
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Inversion](/English/Grammar/Concepts/Inversion) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **Xem thêm:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Inversion](/English/Grammar/Concepts/Inversion) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

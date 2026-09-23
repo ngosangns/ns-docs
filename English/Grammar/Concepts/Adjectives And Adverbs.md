@@ -3,77 +3,77 @@ area: english
 domain: grammar
 type: guide
 title: Adjectives And Adverbs
-description: Adjective order and -ed/-ing forms, adverb formation and positions, and so/such/too/enough
+description: Thứ tự tính từ và dạng -ed/-ing, cách tạo trạng từ và vị trí, cùng so/such/too/enough
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Adjectives And Adverbs
+# Adjectives And Adverbs — Tính từ và trạng từ
 
-Adjectives modify **nouns**; adverbs modify **verbs, adjectives, other adverbs, or whole sentences**.
+Tính từ bổ nghĩa cho **danh từ**; trạng từ bổ nghĩa cho **động từ, tính từ, trạng từ khác, hoặc cả câu**.
 
-## Adjectives
+## Tính từ (Adjectives)
 
-### Position
+### Vị trí
 
-- Before a noun (attributive): _a beautiful garden._
-- After linking verbs — be, seem, look, feel, sound, taste, smell, become (predicative): _The soup tastes good._ (Canh này ngon.)
+- Trước danh từ (định ngữ): _a beautiful garden._
+- Sau động từ nối — be, seem, look, feel, sound, taste, smell, become (vị ngữ): _The soup tastes good._ (Canh này ngon.)
 
-### Order of Adjectives
+### Thứ tự tính từ
 
-When several adjectives precede a noun, they follow the **OSASCOMP** order:
+Khi nhiều tính từ đứng trước một danh từ, chúng theo thứ tự **OSASCOMP**:
 
-**Opinion – Size – Age – Shape – Colour – Origin – Material – Purpose + Noun**
+**Opinion (ý kiến) – Size (kích cỡ) – Age (tuổi) – Shape (hình dạng) – Colour (màu) – Origin (xuất xứ) – Material (chất liệu) – Purpose (mục đích) + Noun**
 
 - _a beautiful small old round red Japanese wooden table._
 - _a lovely little French restaurant._ (một nhà hàng Pháp nhỏ xinh)
 
-### -ed vs -ing Adjectives
+### Tính từ -ed vs -ing
 
-- **-ing** describes the thing/person causing the feeling: _The film was boring._ (Bộ phim chán.)
-- **-ed** describes the person experiencing the feeling: _I was bored._ (Tôi thấy chán.)
+- **-ing** tả người/vật **gây ra** cảm giác: _The film was boring._ (Bộ phim chán.)
+- **-ed** tả người **cảm nhận** cảm giác đó: _I was bored._ (Tôi thấy chán.)
 
-Pairs: interesting/interested, exciting/excited, surprising/surprised, tiring/tired, confusing/confused, disappointing/disappointed.
+Các cặp: interesting/interested, exciting/excited, surprising/surprised, tiring/tired, confusing/confused, disappointing/disappointed.
 
-## Adverbs
+## Trạng từ (Adverbs)
 
-### Formation
+### Cách tạo
 
-- Adjective + **-ly**: quick → quickly, careful → carefully.
-- Adjective ending in -y → **-ily**: happy → happily, easy → easily.
-- Adjective ending in -le → **-ly**: terrible → terribly.
-- **Irregulars:** good → well; fast → fast; hard → hard (hardly = almost not!); late → late; high → high; daily → daily.
-- Some adjectives already end in -ly and have **no -ly adverb**: friendly, lovely, lonely, likely — rephrase: _in a friendly way._
+- Tính từ + **-ly**: quick → quickly, careful → carefully.
+- Tính từ tận cùng -y → **-ily**: happy → happily, easy → easily.
+- Tính từ tận cùng -le → **-ly**: terrible → terribly.
+- **Bất quy tắc:** good → well; fast → fast; hard → hard (hardly = hầu như không!); late → late; high → high; daily → daily.
+- Một số tính từ đã tận cùng -ly và **không có dạng trạng từ**: friendly, lovely, lonely, likely — phải nói lại: _in a friendly way._
 
-### Types and Position
+### Các loại và vị trí
 
-- **Manner** (how): usually after the verb or object — _She sings beautifully._
-- **Time** (when): end or front — _I saw him yesterday._
-- **Place** (where): after the verb/object — _Come here._
-- **Frequency** (how often): before the main verb, after "be" — _I always arrive early._ · _She is never late._
-- **Degree** (how much): before the adjective/adverb — _very good, quite fast._
-- **Sentence adverbs** (comment): front position — _Fortunately, nobody was hurt._
+- **Cách thức** (thế nào): thường sau động từ hoặc tân ngữ — _She sings beautifully._
+- **Thời gian** (khi nào): cuối hoặc đầu câu — _I saw him yesterday._
+- **Nơi chốn** (ở đâu): sau động từ/tân ngữ — _Come here._
+- **Tần suất** (bao lâu một lần): trước động từ chính, sau "be" — _I always arrive early._ · _She is never late._
+- **Mức độ** (đến mức nào): trước tính từ/trạng từ — _very good, quite fast._
+- **Trạng từ cả câu** (bình luận): đầu câu — _Fortunately, nobody was hurt._
 
-### Order of Multiple Adverbs
+### Thứ tự khi có nhiều trạng từ
 
-Manner – Place – Time: _She worked hard at the office yesterday._
+Cách thức – Nơi chốn – Thời gian: _She worked hard at the office yesterday._
 
 ## So / Such, Too / Enough
 
-| Structure                                   | Example                                       |
+| Cấu trúc                                    | Ví dụ                                         |
 | ------------------------------------------- | --------------------------------------------- |
-| so + adjective/adverb (+ that)              | _The test was so hard that nobody passed._    |
-| such + (a/an) + adjective + noun (+ that)   | _It was such a hard test that nobody passed._ |
-| too + adjective/adverb (+ to-infinitive)    | _It is too cold to swim._ (Quá lạnh để bơi.)  |
-| adjective/adverb + enough (+ to-infinitive) | _He is tall enough to reach the shelf._       |
-| enough + noun                               | _We have enough time._                        |
+| so + tính từ/trạng từ (+ that)              | _The test was so hard that nobody passed._    |
+| such + (a/an) + tính từ + danh từ (+ that)  | _It was such a hard test that nobody passed._ |
+| too + tính từ/trạng từ (+ to-infinitive)    | _It is too cold to swim._ (Quá lạnh để bơi.)  |
+| tính từ/trạng từ + enough (+ to-infinitive) | _He is tall enough to reach the shelf._       |
+| enough + danh từ                            | _We have enough time._                        |
 
-## Notes
+## Ghi chú
 
-- Linking verbs take **adjectives**, not adverbs: _The cake smells good_ (not "well" — "well" as an adjective means healthy).
-- "Hard" vs "hardly" differ completely in meaning: _work hard_ (làm việc chăm) vs _hardly work_ (hầu như không làm).
-- For comparative and superlative forms, see [Comparisons](/English/Grammar/Concepts/Comparisons).
+- Động từ nối đi với **tính từ**, không phải trạng từ: _The cake smells good_ (không phải "well" — "well" làm tính từ nghĩa là khỏe mạnh).
+- "Hard" vs "hardly" khác nghĩa hoàn toàn: _work hard_ (làm việc chăm) vs _hardly work_ (hầu như không làm).
+- Về dạng so sánh hơn và so sánh nhất, xem [Comparisons](/English/Grammar/Concepts/Comparisons).
 
-> **See also:** [Comparisons](/English/Grammar/Concepts/Comparisons) · [Word Formation](/English/Grammar/Concepts/Word Formation) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **Xem thêm:** [Comparisons](/English/Grammar/Concepts/Comparisons) · [Word Formation](/English/Grammar/Concepts/Word Formation) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

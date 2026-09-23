@@ -3,79 +3,79 @@ area: english
 domain: toeic
 type: note
 title: TOEIC Daily Notes
-description: Grammar notes for TOEIC — noun phrases, word endings, comparisons, and modifier rules
+description: Ghi chú ngữ pháp cho TOEIC — cụm danh từ, đuôi từ, so sánh, và quy tắc từ bổ nghĩa
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - toeic
 ---
 
-# TOEIC Daily Notes
+# TOEIC Daily Notes — Ghi chú TOEIC hằng ngày
 
-## Noun Phrase Structure
+## Cấu trúc cụm danh từ
 
-Structure: `(adv) + adj / V-ing / V-ed + N`
+Cấu trúc: `(adv) + adj / V-ing / V-ed + N`
 
-- **adj + N:** the default.
-- **V-ing + N:** when the noun produces the action, or no adjective of the right meaning is available.
-- **V-ed + N:** when the noun receives the action.
+- **adj + N:** mặc định.
+- **V-ing + N:** khi danh từ tạo ra hành động, hoặc không có tính từ đúng nghĩa.
+- **V-ed + N:** khi danh từ chịu hành động.
 
-## Adjective and Adverb Placement
+## Vị trí tính từ và trạng từ
 
-- An **adverb before an adjective** modifies the adjective.
-- In "be + adj + adv", the **adverb after the adjective** modifies the verb/"be".
-- Adverbs modify adjectives when placed before them; they do not directly modify nouns.
+- **Trạng từ đứng trước tính từ** thì bổ nghĩa cho tính từ.
+- Trong "be + adj + adv", **trạng từ sau tính từ** bổ nghĩa cho động từ/"be".
+- Trạng từ bổ nghĩa cho tính từ khi đứng trước nó; trạng từ không bổ nghĩa trực tiếp cho danh từ.
 
-## Word Endings
+## Đuôi từ
 
-### Nouns
+### Danh từ
 
-- Common endings: `-tion`, `-sion`, `-ment`, `-ness`, `-ity`, `-al` (in some cases)
-- Person nouns: `-ist`, `-ant`, `-er`, `-or`
-- Things/concepts: `-ism`, `-y`, `-ance`, `-ence`
+- Đuôi thường gặp: `-tion`, `-sion`, `-ment`, `-ness`, `-ity`, `-al` (trong vài trường hợp)
+- Danh từ chỉ người: `-ist`, `-ant`, `-er`, `-or`
+- Vật/khái niệm: `-ism`, `-y`, `-ance`, `-ence`
 
-### Adjectives
+### Tính từ
 
 `-ic`, `-ive`, `-al`, `-ed`, `-able`, `-ible`, `-ous`, `-ful`, `-less`
 
-### Verbs
+### Động từ
 
-`-ize`, `-ate`, `-en`, `-ify`, `-y` (in some cases)
+`-ize`, `-ate`, `-en`, `-ify`, `-y` (trong vài trường hợp)
 
-### Adverbs
+### Trạng từ
 
 `Adj + -ly`
 
-## Tricky Word Classes
+## Từ loại dễ nhầm
 
-- **Nouns:** alternative, representative
-- **Adverbs:** so, very, quite, rather
-- **Comparatives:** more, most, less, least
+- **Danh từ:** alternative, representative
+- **Trạng từ:** so, very, quite, rather
+- **So sánh:** more, most, less, least
 
-## Countable Nouns
+## Danh từ đếm được
 
-A countable noun never stands bare:
+Danh từ đếm được không bao giờ đứng trần:
 
-- ✅ **Correct:** a car, a shipper, houses (with -s/es)
-- ❌ **Wrong:** house
+- ✅ **Đúng:** a car, a shipper, houses (có -s/es)
+- ❌ **Sai:** house
 
-## V-ing as a Noun
+## V-ing làm danh từ
 
-V-ing rarely acts as the head noun in multiple-choice sentences, except a few special words like "building".
+V-ing hiếm khi đứng làm danh từ chính trong câu trắc nghiệm, trừ vài từ đặc biệt như "building".
 
-## Comparisons
+## So sánh
 
-- **Comparative:** `(more + adv) / adj-er + than`
-- **Superlative:** `the (most + adv) / adj-est`
+- **So sánh hơn:** `(more + adv) / adj-er + than`
+- **So sánh nhất:** `the (most + adv) / adj-est`
 
-## Modifier Rules
+## Quy tắc từ bổ nghĩa
 
-- **Adjectives** modify **nouns**.
-- **Adverbs** modify **everything else** (verbs, adjectives, other adverbs).
+- **Tính từ** bổ nghĩa cho **danh từ**.
+- **Trạng từ** bổ nghĩa cho **mọi thứ còn lại** (động từ, tính từ, trạng từ khác).
 
-### When the Sentence Already Has a Complete Subject + Verb
+### Khi câu đã có đủ Chủ ngữ + Động từ
 
-- A blank **before a noun** → **adjective**
-- Any other blank → **adverb**
+- Chỗ trống **trước danh từ** → **tính từ**
+- Chỗ trống nào khác → **trạng từ**
 
-> **See also:** [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)
+> **Xem thêm:** [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)

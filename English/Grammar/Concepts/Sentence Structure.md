@@ -3,30 +3,30 @@ area: english
 domain: grammar
 type: guide
 title: Sentence Structure
-description: Simple, compound, and complex sentence patterns and the clause types that build them
+description: Các mẫu câu đơn, câu ghép, câu phức và các loại mệnh đề tạo nên chúng
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# Sentence Structure
+# Sentence Structure — Cấu trúc câu
 
-## Simple Sentences
+## Câu đơn (Simple Sentences)
 
-A simple sentence has **one independent clause** — a **subject (S)** and a **verb (V)** — optionally with an **object (O)**, **complement (C)**, or **adverbial (A)**.
+Câu đơn có **một mệnh đề độc lập** — **chủ ngữ (S)** và **động từ (V)** — có thể kèm **tân ngữ (O)**, **bổ ngữ (C)**, hoặc **trạng ngữ (A)**.
 
-### General Formula
+### Công thức chung
 
 A + S + V (+ O) (+ C) (+ A)
 
-- **S (Subject):** noun, pronoun, or noun phrase.
-- **V (Verb):** the main verb.
-- **O (Object):** direct (DO) or indirect (IO).
-- **C (Complement):** subject complement (SC) or object complement (OC).
-- **A (Adverbial):** time, place, manner, etc.
+- **S (Subject):** danh từ, đại từ, hoặc cụm danh từ.
+- **V (Verb):** động từ chính.
+- **O (Object):** tân ngữ trực tiếp (DO) hoặc gián tiếp (IO).
+- **C (Complement):** bổ ngữ chủ ngữ (SC) hoặc bổ ngữ tân ngữ (OC).
+- **A (Adverbial):** thời gian, nơi chốn, cách thức...
 
-### Common Simple-Sentence Patterns
+### Các mẫu câu đơn phổ biến
 
 S + V:
 
@@ -38,7 +38,7 @@ S + V + O:
 - _I love coffee._ (Tôi thích cà phê.)
 - _She eats an apple._ (Cô ấy ăn một quả táo.)
 
-S + V + C (subject complement):
+S + V + C (bổ ngữ chủ ngữ):
 
 - _He is a doctor._ (Anh ấy là bác sĩ.)
 - _The food smells good._ (Thức ăn có mùi thơm.)
@@ -48,7 +48,7 @@ S + V + IO + DO:
 - _He gave me a gift._ (Anh ấy tặng tôi một món quà.)
 - _She sent her friend a letter._ (Cô ấy gửi bạn mình một bức thư.)
 
-S + V + O + C (object complement):
+S + V + O + C (bổ ngữ tân ngữ):
 
 - _They called him a genius._ (Họ gọi anh ấy là thiên tài.)
 - _She made me happy._ (Cô ấy làm tôi vui.)
@@ -58,41 +58,41 @@ S + V + A:
 - _She studies in the library._ (Cô ấy học trong thư viện.)
 - _He runs every morning._ (Anh ấy chạy mỗi sáng.)
 
-## Compound and Complex Sentences
+## Câu ghép và câu phức
 
-### Compound Sentence
+### Câu ghép (Compound Sentence)
 
-A compound sentence joins **two or more independent clauses** — each able to stand alone — with a **coordinating conjunction** (FANBOYS: for, and, nor, but, or, yet, so) or a semicolon.
+Câu ghép nối **hai hay nhiều mệnh đề độc lập** — mỗi mệnh đề đứng một mình được — bằng **liên từ đẳng lập** (FANBOYS: for, and, nor, but, or, yet, so) hoặc dấu chấm phẩy.
 
 - _I like coffee, but she prefers tea._ (Tôi thích cà phê, nhưng cô ấy thích trà hơn.)
-- _He studied hard, so he passed the exam._ (Anh ấy học chăm chỉ, nên đã đậu kỳ thi.)
-- _She is tired; she wants to go home._ (Cô ấy mệt mỏi; cô ấy muốn về nhà.)
+- _He studied hard, so he passed the exam._ (Anh ấy học chăm, nên đã đậu kỳ thi.)
+- _She is tired; she wants to go home._ (Cô ấy mệt; cô ấy muốn về nhà.)
 
-### Complex Sentence
+### Câu phức (Complex Sentence)
 
-A complex sentence has **one independent clause** plus **one or more dependent clauses** (a [relative clause](/English/Grammar/Concepts/Relative Clauses) or an [adverbial clause](/English/Grammar/Concepts/Adverbial Clauses)). A dependent clause cannot stand alone.
+Câu phức có **một mệnh đề độc lập** cộng **một hay nhiều mệnh đề phụ thuộc** ([mệnh đề quan hệ](/English/Grammar/Concepts/Relative Clauses) hoặc [mệnh đề trạng ngữ](/English/Grammar/Concepts/Adverbial Clauses)). Mệnh đề phụ thuộc không đứng một mình được.
 
-### Compound vs Complex
+### Câu ghép vs Câu phức
 
-|                              | Compound                               | Complex                                                           |
-| ---------------------------- | -------------------------------------- | ----------------------------------------------------------------- |
-| Components                   | Only independent clauses               | 1 independent clause + at least 1 dependent clause                |
-| Can each clause stand alone? | Yes — every clause is complete         | The dependent clause cannot stand alone                           |
-| Purpose                      | Joins two or more equal, related ideas | Shows relationships between ideas (cause-effect, condition, time) |
+|                                    | Câu ghép                        | Câu phức                                                     |
+| ---------------------------------- | ------------------------------- | ------------------------------------------------------------ |
+| Thành phần                         | Chỉ mệnh đề độc lập             | 1 mệnh đề độc lập + ít nhất 1 mệnh đề phụ thuộc              |
+| Mỗi mệnh đề đứng riêng được không? | Có — mọi mệnh đề đều hoàn chỉnh | Mệnh đề phụ thuộc không đứng riêng được                      |
+| Mục đích                           | Nối hai ý ngang hàng, liên quan | Thể hiện quan hệ giữa các ý (nhân-quả, điều kiện, thời gian) |
 
-**Note:** a sentence containing both multiple independent clauses and a dependent clause is a **compound-complex sentence**.
+**Lưu ý:** câu có cả nhiều mệnh đề độc lập lẫn mệnh đề phụ thuộc gọi là **câu ghép-phức (compound-complex)**.
 
-## Dependent Clauses
+## Mệnh đề phụ thuộc
 
-- **Relative clauses** modify a noun and start with a relative pronoun (who, whom, whose, which, that) — full treatment in [Relative Clauses](/English/Grammar/Concepts/Relative Clauses).
-- **Adverbial clauses** modify the main clause for time, reason, condition, purpose, contrast, or comparison, and start with a subordinating conjunction — full treatment in [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses).
+- **Mệnh đề quan hệ** bổ nghĩa cho danh từ, mở đầu bằng đại từ quan hệ (who, whom, whose, which, that) — chi tiết ở [Relative Clauses](/English/Grammar/Concepts/Relative Clauses).
+- **Mệnh đề trạng ngữ** bổ nghĩa cho mệnh đề chính về thời gian, nguyên nhân, điều kiện, mục đích, tương phản, so sánh, mở đầu bằng liên từ phụ thuộc — chi tiết ở [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses).
 
-## Conditional Sentences
+## Câu điều kiện
 
-A conditional sentence expresses **a condition and its result** across two clauses: the **if-clause** (condition) and the **main clause** (result).
+Câu điều kiện diễn tả **điều kiện và kết quả** qua hai mệnh đề: **mệnh đề if** (điều kiện) và **mệnh đề chính** (kết quả).
 
-**General formula:** If + Subject + Verb (condition), Subject + Verb (result)
+**Công thức chung:** If + S + V (điều kiện), S + V (kết quả)
 
-The four conditional types (0–3), alternatives to "if", and if-omission inversion are covered in [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences); clauses mixing different time frames are covered in [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals).
+Bốn loại điều kiện (0–3), các từ thay thế "if", và đảo ngữ bỏ if trình bày ở [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences); mệnh đề trộn hai khung thời gian ở [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals).
 
-> **See also:** [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses) · [Relative Clauses](/English/Grammar/Concepts/Relative Clauses) · [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) · [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **Xem thêm:** [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses) · [Relative Clauses](/English/Grammar/Concepts/Relative Clauses) · [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) · [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
