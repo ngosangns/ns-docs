@@ -1,28 +1,26 @@
 ---
 area: technology
-domain: ai-ml
-topic: coding-agents
-type: resource
+domain: claude-code
+type: tool
 title: Claudekit Cli
-description: ClaudeKit CLI - CLI & Web Dashboard cho ClaudeKit Projects
-timestamp: "2026-06-19T13:43:26.089Z"
+description: ClaudeKit CLI (`ck`) is the command-line tool and React web dashboard for managing ClaudeKit projects, with hook diagnostics, a projects registry, and GitHub automation.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - coding-agents
   - claude-code
+  - coding-agents
 resource: https://claudekit.cc
 ---
 
-# ClaudeKit CLI - CLI & Web Dashboard cho ClaudeKit Projects
+# Claudekit Cli
 
-## Định nghĩa
+## Definition
 
-**ClaudeKit CLI** (`ck`) là command-line tool và web dashboard để quản lý ClaudeKit projects. Cung cấp 16 CLI commands, React web dashboard, hook diagnostics, projects registry, và tích hợp GitHub. Đây là commercial product của [ClaudeKit.cc](https://claudekit.cc).
+**ClaudeKit CLI** (`ck`) is a command-line tool and web dashboard for managing ClaudeKit projects. It provides 16 CLI commands, a React web dashboard, hook diagnostics, a projects registry, and GitHub integration. It is a commercial product of [ClaudeKit.cc](https://claudekit.cc).
 
-## Thông tin cơ bản
+## Basic Information
 
-| Thông tin     | Giá trị                   |
+| Item          | Value                     |
 | ------------- | ------------------------- |
 | **Stars**     | 95                        |
 | **Forks**     | 41                        |
@@ -31,7 +29,7 @@ resource: https://claudekit.cc
 | **Version**   | v3.41.4                   |
 | **Product**   | ClaudeKit.cc (commercial) |
 
-## Cài đặt
+## Installation
 
 ```bash
 npm install -g claudekit-cli
@@ -58,9 +56,9 @@ claudekit-cli/
 
 ## Core Features
 
-### 1. CLI Commands (16)
+### CLI Commands (16)
 
-| Command        | Chức năng                        |
+| Command        | Function                         |
 | -------------- | -------------------------------- |
 | `ck new`       | Create new project from template |
 | `ck init`      | Initialize/update project        |
@@ -78,24 +76,24 @@ claudekit-cli/
 | `ck watch`     | GitHub issue monitoring daemon   |
 | `ck content`   | Automated content generation     |
 
-### 2. Web Dashboard
+### Web Dashboard
 
 ```bash
 ck config              # Local only (127.0.0.1)
 ck config --host 0.0.0.0 --no-open  # LAN access
 ```
 
-Interactive React UI cho configuration và project management.
+An interactive React UI for configuration and project management.
 
-### 3. Hook Diagnostics Dashboard
+### Hook Diagnostics Dashboard
 
-Inspect recent Claude hook activity và failures từ `ck config` across global và project scopes.
+Inspect recent Claude hook activity and failures from `ck config`, across global and project scopes.
 
-### 4. Projects Registry
+### Projects Registry
 
-Centralized registry tại `~/.claudekit/projects.json` với file locking.
+A centralized registry at `~/.claudekit/projects.json` with file locking.
 
-### 5. Multi-Tier Authentication
+### Multi-Tier Authentication
 
 ```
 1. GitHub CLI (gh auth token)
@@ -105,19 +103,19 @@ Centralized registry tại `~/.claudekit/projects.json` với file locking.
 5. User Prompt (with save option)
 ```
 
-### 6. GitHub Issue Watcher (`ck watch`)
+### GitHub Issue Watcher (`ck watch`)
 
-Autonomous daemon monitor GitHub issues, analyze với Claude, generate plans, và create PRs.
+An autonomous daemon that monitors GitHub issues, analyzes them with Claude, generates plans, and creates PRs.
 
 Features: issue lifecycle management (10 statuses), Claude-powered brainstorming/planning, automatic PR creation, rate limiting, multi-repo support.
 
-### 7. Content Generation (`ck content`)
+### Content Generation (`ck content`)
 
-Scans git activity, generates social media content với Claude, publishes to X/Twitter và Facebook.
+Scans git activity, generates social media content with Claude, and publishes to X/Twitter and Facebook.
 
 11-phase pipeline: scan -> filter -> classify -> context -> create -> validate -> review -> photo -> publish -> engage -> analyze.
 
-### 8. Doctor Command
+### Doctor Command
 
 ```bash
 ck doctor              # Full health check
@@ -130,11 +128,11 @@ ck doctor --json       # Machine-readable output
 
 Health checks: System, ClaudeKit, Auth, Project, Modules.
 
-### 9. Skills Migration
+### Skills Migration
 
-Auto-detect structure changes (flat -> categorized):
+Auto-detects structure changes (flat -> categorized):
 
-- SHA-256 hash comparison cho customization detection
+- SHA-256 hash comparison for customization detection
 - Backup before migration, rollback on failure
 
 ## Available Kits
@@ -162,8 +160,8 @@ Auto-detect structure changes (flat -> categorized):
 ## Architecture Highlights
 
 - **Modular**: 122 focused modules (< 100 lines each)
-- **Facade pattern**: Mỗi domain expose public API
-- **Phase handlers**: Complex commands use orchestrator + phase handlers
+- **Facade pattern**: Each domain exposes a public API
+- **Phase handlers**: Complex commands use an orchestrator + phase handlers
 - **Self-documenting**: kebab-case file names
 
 ## Tech Stack
@@ -176,41 +174,43 @@ Auto-detect structure changes (flat -> categorized):
 | Web Dashboard       | React      |
 | Testing             | Bun test   |
 
-## Ưu điểm
+## Pros
 
-| Ưu điểm            | Mô tả                                   |
-| ------------------ | --------------------------------------- |
-| Web dashboard      | Visual configuration management         |
-| Hook diagnostics   | Debug hook issues easily                |
-| Multi-tier auth    | Flexible authentication                 |
-| Skills migration   | Auto-detect và preserve customizations  |
-| Doctor command     | Comprehensive health check với auto-fix |
-| GitHub watcher     | Autonomous issue management             |
-| Content generation | Automated social media pipeline         |
-| Cross-platform     | macOS, Linux, Windows                   |
+| Pro                | Description                               |
+| ------------------ | ----------------------------------------- |
+| Web dashboard      | Visual configuration management           |
+| Hook diagnostics   | Debug hook issues easily                  |
+| Multi-tier auth    | Flexible authentication                   |
+| Skills migration   | Auto-detects and preserves customizations |
+| Doctor command     | Comprehensive health check with auto-fix  |
+| GitHub watcher     | Autonomous issue management               |
+| Content generation | Automated social media pipeline           |
+| Cross-platform     | macOS, Linux, Windows                     |
 
-## Nhược điểm
+## Cons
 
-| Nhược điểm          | Mô tả                            |
-| ------------------- | -------------------------------- |
-| Commercial product  | Cần purchase kit từ ClaudeKit.cc |
-| Private repo access | Cần GitHub PAT cho download      |
-| Bun dependency      | Bun needed cho development       |
-| Smaller community   | 95 stars                         |
-| Limited free tier   | Chỉ có starter kit miễn phí      |
+| Con                 | Description                           |
+| ------------------- | ------------------------------------- |
+| Commercial product  | Must purchase a kit from ClaudeKit.cc |
+| Private repo access | Needs a GitHub PAT to download        |
+| Bun dependency      | Bun is needed for development         |
+| Smaller community   | 95 stars                              |
+| Limited free tier   | Only the starter kit is free          |
 
-## Sử dụng khi nào
+## When to Use
 
-- **ClaudeKit users**: Quản lý ClaudeKit projects qua CLI/dashboard
-- **Project scaffolding**: Cần new project templates
-- **Hook debugging**: Cần visual hook diagnostics
-- **GitHub automation**: Cần autonomous issue/PR management
-- **Content generation**: Cần automated social media pipeline
+- **ClaudeKit users**: Manage ClaudeKit projects through the CLI/dashboard
+- **Project scaffolding**: Need new project templates
+- **Hook debugging**: Need visual hook diagnostics
+- **GitHub automation**: Need autonomous issue/PR management
+- **Content generation**: Need an automated social media pipeline
 
 ---
 
-**Tài liệu tham khảo**:
+**References**:
 
 - [mrgoonie/claudekit-cli](https://github.com/mrgoonie/claudekit-cli)
 - [npm: claudekit-cli](https://www.npmjs.com/package/claudekit-cli)
 - [ClaudeKit.cc](https://claudekit.cc)
+
+> **See also:** [ClaudeKit](/Technology/AI/Tools/Agents/Claude Code Kits/ClaudeKit) · [Claudekit Skills](/Technology/AI/Tools/Agents/Claude Code Kits/Claudekit Skills) · [Kit Comparison](/Technology/AI/Tools/Agents/Claude Code Kits/Kit Comparison)

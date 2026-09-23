@@ -1,14 +1,13 @@
 ---
 area: technology
-domain: ai-ml
-topic: agents
+domain: agent-infrastructure
 type: resource
 title: Agent Infrastructure And Platforms
-description: Sandbox, runtime, orchestration platform và framework hạ tầng cho AI agent
-timestamp: "2026-09-20T00:00:00.000Z"
+description: Curated list of sandboxes, runtimes, orchestration platforms, and infrastructure frameworks for running AI agents.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
+  - agent-infrastructure
   - agents
 resource: https://github.com/daytonaio/daytona
 ---
@@ -44,3 +43,5 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/CopilotKit/channels-sdk — Open-source SDK that brings any AG-UI-compatible agent (CopilotKit's own, LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) into Slack, Microsoft Teams, and Discord with native, interactive UI (Block Kit/Adaptive Cards), tool calls, file handling, and human-approval gates.
 - https://github.com/skawld/skawld-sdk — Skawld Agent SDK (`@skawld/agent-sdk`): open-source (MIT) TypeScript framework that embeds a full agent loop — tools, multi-turn sessions, permission modes, streaming events, and subagents — into any Node.js 18+ / Bun 1.1+ app with one import (ESM-only). Supports Anthropic Claude plus OpenAI Chat Completions and Responses APIs, built-in tools and MCP, and SQLite-backed session persistence (in-memory store for tests); similar in spirit to the Claude Agent SDK but provider-agnostic. Docs: https://skawld.com/docs
 - https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf — Ternary-quantized 27B model (derived from Qwen3.8-27B) compressed to ~5.95GB while claiming 98.2% of FP16 intelligence retained; GGUF with hybrid-attention CUDA/Metal/CPU kernels for llama.cpp, 262K context, aimed at on-device deployment on laptops/single GPUs.
+
+> **See also:** [Agent Frameworks](/Technology/AI/Tools/Agents/Agent Frameworks) · [Multi Agent Systems](/Technology/AI/Tools/Agents/Multi Agent Systems) · [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview)

@@ -1,29 +1,31 @@
 ---
 area: technology
 domain: algorithms
-topic: algorithms
 type: note
 title: Le Minh Hoang Book Notes
-description: Le Minh Hoang Book Notes
-timestamp: "2026-06-19T13:43:26.155Z"
+description: Reading-progress note for Le Minh Hoang's algorithms book, with links to the notes split out from it.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
+  - book-notes
 ---
 
 # Le Minh Hoang Book Notes
 
-## Mục lục
+## Table of Contents
 
-- [Trạng thái đọc](#trạng-thái-đọc)
-- [Các note đã tách](#các-note-đã-tách)
+- [Reading Status](#reading-status)
+- [Extracted Notes](#extracted-notes)
 
-## Trạng thái đọc
+## Reading Status
 
-- Ngưng ở đây vì lười đọc tiếp vì quá hàn lâm
+- Stopped here because the rest felt too academic to keep reading
 
-## Các note đã tách
+## Extracted Notes
 
 - [Enumeration Problems](/Technology/Algorithm/Concepts/Approaches/Enumeration Problems)
-- [Overview](/Technology/Algorithm/Concepts/data-structures/Overview)
+- [Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview)
 - [Algorithm Development](/Technology/Algorithm/Concepts/Approaches/Algorithm Development)
+
+> **See also:** [Learning Resources](/Technology/Algorithm/Resources/Learning Resources) · [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches)

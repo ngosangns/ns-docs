@@ -1,73 +1,77 @@
 ---
 area: technology
 domain: algorithms
-type: resource
+type: guide
 title: Extended Euclidean Algorithm
-description: Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
-timestamp: "2026-06-19T13:43:26.161Z"
+description: Explains how the Extended Euclidean Algorithm solves the linear Diophantine equation ax + by = c and how RSA uses it to compute modular inverses.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
+  - number-theory
+  - cryptography
 resource: https://viblo.asia/p/giai-thuat-euclid-mo-rong-extended-euclidean-algorithm-va-phuong-trinh-axbyc-AZoJjgxeLY7
 ---
 
-# Giải thuật Euclid mở rộng (Extended Euclidean Algorithm)
+# Extended Euclidean Algorithm
 
-> Tài liệu này được tạo từ bài viết trên Viblo:
+> This document was created from an article on Viblo:
 >
 > - https://viblo.asia/p/giai-thuat-euclid-mo-rong-extended-euclidean-algorithm-va-phuong-trinh-axbyc-AZoJjgxeLY7
 
-## Phương trình ax + by = c
+## The Equation ax + by = c
 
-- **Định nghĩa**: Phương trình với các hệ số nguyên a, b, c và cần tìm nghiệm nguyên (x, y)
-- **Điều kiện có nghiệm**:
-  - Đặt d = gcd(a, b) (ước chung lớn nhất của a và b)
-  - Tồn tại các số nguyên x, y sao cho ax + by = d
-  - Điều kiện cần và đủ để phương trình ax + by = c có nghiệm nguyên là d phải là ước của c
-  - Nếu d không chia hết c, thì phương trình không có nghiệm nguyên
+- **Definition**: An equation with integer coefficients a, b, c for which we look for integer solutions (x, y)
+- **Solvability condition**:
+  - Let d = gcd(a, b) (the greatest common divisor of a and b)
+  - There exist integers x, y such that ax + by = d
+  - The necessary and sufficient condition for ax + by = c to have an integer solution is that d divides c
+  - If d does not divide c, the equation has no integer solution
 
-## Thuật toán Euclid tìm ƯCLN
+## The Euclidean Algorithm for GCD
 
-- **Nguyên lý hoạt động**:
-  - Giả sử a > b, chia a cho b được số dư r
-  - Tiếp tục tìm ƯCLN của cặp số (b, r)
-  - Lặp lại quá trình cho đến khi số dư bằng 0
-  - Số chia cuối cùng chính là ƯCLN của a và b
-- **Đặc điểm**:
-  - Thuật toán hiệu quả về tốc độ và hiệu suất
-  - Độ phức tạp thời gian là O(log min(a, b))
-  - Là nền tảng cho giải thuật Euclid mở rộng
+- **How it works**:
+  - Assume a > b; divide a by b to get the remainder r
+  - Continue by finding the GCD of the pair (b, r)
+  - Repeat until the remainder is 0
+  - The last non-zero divisor is the GCD of a and b
+- **Characteristics**:
+  - The algorithm is fast and efficient
+  - Time complexity is O(log min(a, b))
+  - It is the foundation of the Extended Euclidean Algorithm
 
-## Giải thuật Euclid mở rộng
+## The Extended Euclidean Algorithm
 
-- **Mục đích**: Tìm nghiệm của phương trình Diophantine ax + by = c
-- **Quy trình**:
-  - Gọi d = gcd(a, b)
-  - Trước tiên, tìm nghiệm của phương trình ax + by = d
-  - Nếu phương trình này có nghiệm (x₀, y₀), thì (c/d × x₀, c/d × y₀) là nghiệm của phương trình ax + by = c
-  - Quá trình bao gồm việc chia liên tiếp và sử dụng công thức truy hồi để tính các giá trị x và y
-- **Cơ chế hoạt động**:
-  - Trong quá trình thực hiện thuật toán Euclid, đồng thời tính toán các hệ số x và y
-  - Sử dụng công thức truy hồi dựa trên các bước chia trong thuật toán Euclid
-  - Kết quả cuối cùng cho ta cả giá trị d = gcd(a, b) và các hệ số x, y thỏa mãn ax + by = d
+- **Purpose**: Find solutions of the Diophantine equation ax + by = c
+- **Procedure**:
+  - Let d = gcd(a, b)
+  - First, find a solution of ax + by = d
+  - If that equation has a solution (x₀, y₀), then (c/d × x₀, c/d × y₀) is a solution of ax + by = c
+  - The process involves successive divisions and a recurrence formula to compute the values of x and y
+- **Mechanism**:
+  - While running the Euclidean algorithm, the coefficients x and y are computed at the same time
+  - A recurrence formula based on the division steps of the Euclidean algorithm is used
+  - The final result gives both d = gcd(a, b) and the coefficients x, y satisfying ax + by = d
 
-## Ứng dụng trong mật mã RSA
+## Application in RSA Cryptography
 
-- **Vấn đề**: Trong thuật toán RSA, sau khi chọn số mũ công khai e, cần tìm số mũ bí mật d thỏa mãn: d × e ≡ 1 (mod φ(n))
-- **Chuyển đổi**:
-  - Phương trình d × e ≡ 1 (mod φ(n)) có thể viết lại thành d × e + k × φ(n) = 1 với k là số nguyên
-  - Đây chính là dạng phương trình ax + by = c với a = e, b = φ(n), c = 1
-- **Điều kiện có nghiệm**:
-  - Điều kiện có nghiệm của phương trình là gcd(e, φ(n)) = 1
-  - Điều này giải thích lý do cần chọn e thỏa mãn điều kiện nguyên tố cùng nhau với φ(n)
-- **Cách tính**:
-  - Sử dụng giải thuật Euclid mở rộng để tìm d sao cho d × e ≡ 1 (mod φ(n))
-  - Kết quả d chính là số nghịch đảo modulo của e theo φ(n)
-  - Giá trị d này được sử dụng làm private exponent trong RSA
+- **Problem**: In RSA, after choosing the public exponent e, we need to find the private exponent d such that d × e ≡ 1 (mod φ(n))
+- **Transformation**:
+  - The equation d × e ≡ 1 (mod φ(n)) can be rewritten as d × e + k × φ(n) = 1 with k an integer
+  - This is exactly the form ax + by = c with a = e, b = φ(n), c = 1
+- **Solvability condition**:
+  - The equation has a solution when gcd(e, φ(n)) = 1
+  - This explains why e must be chosen coprime to φ(n)
+- **Computation**:
+  - Use the Extended Euclidean Algorithm to find d such that d × e ≡ 1 (mod φ(n))
+  - The resulting d is the modular inverse of e modulo φ(n)
+  - This d is used as the private exponent in RSA
 
-## Tổng kết
+## Summary
 
-- Giải thuật Euclid mở rộng là công cụ mạnh mẽ để giải phương trình Diophantine ax + by = c
-- Có ứng dụng quan trọng trong mật mã học, đặc biệt là trong việc tính toán số nghịch đảo modulo
-- Kết hợp hiệu quả giữa việc tìm ƯCLN và tìm nghiệm của phương trình tuyến tính
-- Là nền tảng toán học cho nhiều thuật toán mã hóa hiện đại
+- The Extended Euclidean Algorithm is a powerful tool for solving the Diophantine equation ax + by = c
+- It has important applications in cryptography, especially for computing modular inverses
+- It effectively combines finding the GCD with solving a linear equation
+- It is the mathematical foundation of many modern encryption algorithms
+
+> **See also:** [Learning Resources](/Technology/Algorithm/Resources/Learning Resources) · [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation)

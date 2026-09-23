@@ -1,61 +1,63 @@
 ---
 area: technology
-domain: algorithms
-type: resource
+domain: combinatorics
+type: guide
 title: Enumeration Problems
-description: Bài toán liệt kê
-timestamp: "2026-06-19T13:43:26.161Z"
+description: Covers arrangements, combinations, and permutations, the generation method with lexicographic order, and backtracking with branch and bound for enumerating configurations.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - combinatorics
   - algorithms
+  - backtracking
 ---
 
-# Bài toán liệt kê
+# Enumeration Problems
 
-## Mục lục
+## Table of Contents
 
-- [Chỉnh hợp, tổ hợp, hoán vị](#chỉnh-hợp-tổ-hợp-hoán-vị)
-- [Phương pháp sinh](#phương-pháp-sinh)
-- [Thuật toán quay lui](#thuật-toán-quay-lui)
+- [Arrangements, Combinations, Permutations](#arrangements-combinations-permutations)
+- [The Generation Method](#the-generation-method)
+- [The Backtracking Algorithm](#the-backtracking-algorithm)
 
-## Chỉnh hợp, tổ hợp, hoán vị
+## Arrangements, Combinations, Permutations
 
-- **Số chỉnh hợp lặp chập _k_ của set gồm _n_ phần tử: $n^k$**
-  - Ví dụ 1 chỉnh hợp lặp chập _k_: $112(k=3)$
-- **Số chỉnh hợp không lặp chập _k_ của set gồm _n_ phần tử:**
+- **Number of k-arrangements with repetition of a set of _n_ elements: $n^k$**
+  - Example of one k-arrangement with repetition: $112(k=3)$
+- **Number of k-arrangements without repetition of a set of _n_ elements:**
   $$
   n(n-1)(n-2)...(n-(k+1))=\frac{n!}{(n-k)!}
   $$
-  - Ví dụ 1 chỉnh hợp không lặp chập _k_: $123(k=3)$
-- **Hoán vị: Là số chỉnh hợp không lặp chập _k_ của set gồm _n_ phần tử khi $k=n$**
-  - Ví dụ 1 hoán vị: $1234(n=k=4)$
-- **Tổ hợp: Một tổ hợp chập _k_ của một set X gồm _n_ phần tử là một tập hợp các set con Y với mỗi set con có _k_ phần tử**
-  - Các hoán vị của một set con thuộc _Y_ cũng chính là chỉnh hợp không lặp chập _k_ của set _X_
-  - Số hoán vị của một set con thuộc _Y_ là $k!$
-  - Số set con thuộc _Y = (số chỉnh hợp không lặp chập k của set X / $k!$)_
-  - Ví dụ 1 set con thuộc _Y_: $(1,2,3)=(3,2,1)$
+  - Example of one k-arrangement without repetition: $123(k=3)$
+- **Permutation: the number of k-arrangements without repetition of a set of _n_ elements when $k=n$**
+  - Example of one permutation: $1234(n=k=4)$
+- **Combination: a k-combination of a set X of _n_ elements is a collection Y of subsets, where each subset has _k_ elements**
+  - The permutations of a subset in _Y_ are exactly the k-arrangements without repetition of the set _X_
+  - The number of permutations of a subset in _Y_ is $k!$
+  - Number of subsets in _Y = (number of k-arrangements without repetition of set X / $k!$)_
+  - Example of one subset in _Y_: $(1,2,3)=(3,2,1)$
 
 ---
 
-## Phương pháp sinh
+## The Generation Method
 
-- Thuật toán sinh:
+- Generation algorithm:
   ```
-  〈Xây dựng cấu hình đầu tiên〉;
+  〈Build the first configuration〉;
   repeat
-  〈Đưa ra cấu hình đang có〉;
-  〈Từ cấu hình đang có sinh ra cấu hình kế tiếp nếu còn〉;
-  until 〈hết cấu hình〉;
+  〈Output the current configuration〉;
+  〈From the current configuration, generate the next one if any remain〉;
+  until 〈no configurations left〉;
   ```
-- Kết quả của phương pháp sinh gọi là **Từ điển**
-- Thứ tự từ điển toàn phần là loại từ điển mà kết quả sau lớn hơn kết quả trước, cần thỏa mãn các yêu cầu sau:
-  - **Tính phổ biến**: Hoặc là _a ≤ b_, hoặc _b ≤ a_
-  - **Tính phản xạ**: _a ≤ a_
-  - **Tính phản đối xứng**: Nếu _a ≤ b_ và _b ≤ a_ thì bắt buộc _a = b_
-  - **Tính bắc cầu**: Nếu có _a ≤ b_ và _b ≤ c_ thì _a ≤ c_
-- So sánh 2 từ điển:
-  - Xét _a[1..n]_ và _b[1..n]_ là hai dãy độ dài _n_, trên các phần tử của _a_ và _b_ đã có quan hệ thứ tự toàn phần _≤_. Khi đó:
-    - _a < b_ nếu như tồn tại một số nguyên dương _k: 1 ≤ k < n_ để:
+- The result of the generation method is called a **dictionary** (lexicographic listing)
+- A total lexicographic order is a dictionary in which each result is greater than the previous one; it must satisfy the following requirements:
+  - **Totality**: Either _a ≤ b_ or _b ≤ a_
+  - **Reflexivity**: _a ≤ a_
+  - **Antisymmetry**: If _a ≤ b_ and _b ≤ a_ then _a = b_ must hold
+  - **Transitivity**: If _a ≤ b_ and _b ≤ c_ then _a ≤ c_
+- Comparing two sequences lexicographically:
+  - Let _a[1..n]_ and _b[1..n]_ be two sequences of length _n_, where the elements of _a_ and _b_ already have a total order _≤_. Then:
+    - _a < b_ if there exists a positive integer _k: 1 ≤ k < n_ such that:
       ```
       a[1]   = b[1]
       a[2]   = b[2]
@@ -64,48 +66,50 @@ tags:
       a[k]   = b[k]
       a[k+1] < b[k+1]
       ```
-    - _a = b_ nếu _a[i] = b[i]_ với _∀i: 1 ≤ i ≤ n_
-    - Nếu độ dài hai dãy _a_ và _b_ không bằng nhau, người ta cũng xác định được thứ tự từ điển. Bằng cách thêm vào cuối dãy _a_ hoặc dãy _b_ những phần tử đặc biệt gọi là phần tử _∅_ để độ dài của _a_ và _b_ bằng nhau, và coi những phần tử _∅_ này nhỏ hơn tất cả các phần tử khác, ta lại đưa về xác định thứ tự từ điển của hai dãy cùng độ dài. Ví dụ:
+    - _a = b_ if _a[i] = b[i]_ for all _i: 1 ≤ i ≤ n_
+    - If the two sequences _a_ and _b_ have different lengths, lexicographic order can still be defined. Append special elements _∅_ to the end of _a_ or _b_ so that their lengths are equal, and treat these _∅_ elements as smaller than all other elements; this reduces the problem to comparing two sequences of the same length. Examples:
       ```
       <1, 2, 3, 4> < <5, 6>
       <a, b, c>    < <a, b, c, d>
       'calculator' < 'computer'
       ```
-- Một số ví dụ từ điển trong ebook:
-  - Sinh các dãy nhị phân độ dài n
-  - Liệt kê các tập con k phần tử
-  - Liệt kê các hoán vị
+- Some lexicographic examples in the ebook:
+  - Generating binary strings of length n
+  - Listing k-element subsets
+  - Listing permutations
 
 ---
 
-## Thuật toán quay lui
+## The Backtracking Algorithm
 
-- Thuật toán quay lui dùng để giải bài toán liệt kê các cấu hình
-- Mỗi cấu hình được xây dựng bằng cách xây dựng từng phần tử, mỗi phần tử được chọn bằng cách thử tất cả các khả năng
-- Ví dụ của thuật toán quay lui áp dụng vào bài toán liệt kê các chỉnh hợp lặp:
+- Backtracking is used to solve the problem of enumerating configurations
+- Each configuration is built one element at a time, and each element is chosen by trying all possibilities
+- Example of backtracking applied to enumerating arrangements with repetition:
   ```
   procedure Try(i: Integer);
   begin
-  	for 〈mọi giá trị V có thể gán cho x[i]〉 do
+  	for 〈every value V that can be assigned to x[i]〉 do
   		begin
-  			〈Thử cho x[i] := V〉;
-  			if 〈x[i] là phần tử cuối cùng trong cấu hình〉 then
-  				〈Thông báo cấu hình tìm được〉
+  			〈Try x[i] := V〉;
+  			if 〈x[i] is the last element in the configuration〉 then
+  				〈Report the configuration found〉
   			else
   				begin
-  					〈Ghi nhận việc cho x[i] nhận giá trị V (nếu cần)〉;
-  					Try(i + 1); {Gọi đệ quy để chọn tiếp x[i+1]}
-  					〈Nếu cần, bỏ ghi nhận việc thử x[i] := V để thử giá trị khác〉;
+  					〈Record that x[i] takes value V (if needed)〉;
+  					Try(i + 1); {Recursive call to choose x[i+1]}
+  					〈If needed, undo the record of trying x[i] := V so another value can be tried〉;
   				end;
   		end;
   end;
   ```
-- Một số bài toán áp dụng thuật toán quay lui trong ebook:
-  - Bài toán phân tích số
-  - Bài toán xếp hậu
-- Kỹ thuật đánh giá nhánh cận trong tiến trình quay lui
-  - Giúp loại bỏ sớm các phương án chắc chắn không tối ưu hoặc không có nghiệm trong đó
-  - Kỹ thuật nhánh cận thêm vào cho thuật toán quay lui khả năng đánh giá theo từng bước
-  - Một số bài toán liên quan trong ebook:
-    - Bài toán người du lịch
-    - Dãy ABC
+- Some problems in the ebook that apply backtracking:
+  - The number decomposition problem
+  - The N-queens problem
+- Branch and bound evaluation within the backtracking process
+  - Helps prune early any options that are certainly not optimal or contain no solution
+  - The branch and bound technique gives backtracking the ability to evaluate at each step
+  - Related problems in the ebook:
+    - The traveling salesman problem
+    - The ABC sequence
+
+> **See also:** [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches) · [Algorithm Development](/Technology/Algorithm/Concepts/Approaches/Algorithm Development) · [Le Minh Hoang Book Notes](/Technology/Algorithm/Resources/Le Minh Hoang Book Notes)

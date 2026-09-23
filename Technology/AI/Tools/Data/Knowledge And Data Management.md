@@ -1,14 +1,13 @@
 ---
 area: technology
-domain: ai-ml
-topic: data
+domain: knowledge-management
 type: resource
 title: Knowledge And Data Management
-description: Graph/vector DB, RAG pipeline, document parsing, và các công cụ quản lý tri thức/dữ liệu khác
-timestamp: "2026-09-20T00:00:00.000Z"
+description: Curated links to graph and vector databases, RAG pipelines, document parsers, embedding models, and other knowledge and data management tools.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
+  - knowledge-management
   - data
   - rag
 resource: https://github.com/FalkorDB/FalkorDB
@@ -32,4 +31,6 @@ resource: https://github.com/FalkorDB/FalkorDB
 - https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0 — Sub-1B-param vision-encoder-decoder model that turns document images/PDFs into structured machine-readable output (text, layout classes, bounding boxes, reading order); expanded multilingual OCR, handwriting, and chart-to-table parsing over v1.2, aimed at document intelligence and RAG ingestion.
 - https://seeing-theory.brown.edu/ — Brown University's "visual introduction to probability and statistics"; six interactive, D3.js-powered modules from basic probability through regression, good as a reference for building data/stats intuition.
 - https://github.com/ngwgsang/vietquill — Unified Python framework for Vietnamese paraphrase generation, quality evaluation, and control; centralizes datasets, generation methods, and metrics for research and production use (also on PyPI: pypi.org/project/vietquill).
-- https://huggingface.co/convaiinnovations/laya — Multilingual decision/classification model (100+ ngôn ngữ): trả lời câu hỏi trắc nghiệm với xác suất calibrated trong một forward pass (~33ms), không sinh text nên tránh hallucination. Option-marker scoring (điểm từng lựa chọn tại `[MASK]` token riêng) cho phép đổi schema câu trả lời mà không cần train lại; router tự phát hiện ngôn ngữ/script và dispatch checkpoint phù hợp (<0.5ms). Kiến trúc ModernBERT-large 421M (English, context 512) / mmBERT-base 322M (multilingual, context 1.024); train bằng RLCD (proper scoring rules) để hiệu chỉnh xác suất trung thực. Apache 2.0; hợp cho email triage, routing, content moderation — nhanh hơn 7–8x so với đối thủ ở benchmark intent classification/NLI.
+- https://huggingface.co/convaiinnovations/laya — Multilingual decision/classification model (100+ languages): answers multiple-choice questions with calibrated probabilities in a single forward pass (~33ms), and does not generate text, so it avoids hallucination. Option-marker scoring (scoring each option at its own `[MASK]` token) lets you change the answer schema without retraining; a router automatically detects the language/script and dispatches the matching checkpoint (<0.5ms). Architecture: ModernBERT-large 421M (English, 512 context) / mmBERT-base 322M (multilingual, 1,024 context); trained with RLCD (proper scoring rules) so probabilities are honestly calibrated. Apache 2.0; suited to email triage, routing, and content moderation — 7–8x faster than competitors on intent classification/NLI benchmarks.
+
+> **See also:** [Vector Databases](/Technology/AI/Tools/Database/Vector Databases) · [Document Processing](/Technology/AI/Tools/Data/Document Processing) · [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview)

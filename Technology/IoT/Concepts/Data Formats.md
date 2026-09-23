@@ -1,10 +1,10 @@
 ---
 area: technology
 domain: iot
-type: resource
+type: guide
 title: Data Formats
-description: Data Formats
-timestamp: "2026-06-19T13:43:26.134Z"
+description: Comparison of payload serialization formats for IoT, from human-readable JSON to compact binary formats like CBOR.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
@@ -14,22 +14,24 @@ tags:
 
 ## JSON
 
-- Human-readable, dễ parse
-- Phù hợp cho HTTP APIs
-- Ví dụ: ESP32 gửi JSON payload trong [Smart Home](/Technology/IoT/Concepts/Smart Home)
+- Human-readable, easy to parse
+- Suited to HTTP APIs
+- Example: an ESP32 sending a JSON payload in [Smart Home](/Technology/IoT/Concepts/Smart Home)
 
 ## MessagePack
 
-- Binary format, nhỏ gọn hơn JSON
-- Phù hợp cho bandwidth-limited connections
+- Binary format, more compact than JSON
+- Suited to bandwidth-limited connections
 
 ## Protocol Buffers
 
 - Efficient binary serialization
 - Strong typing, schema evolution
-- Phù hợp cho high-performance applications
+- Suited to high-performance applications
 
 ## CBOR (Concise Binary Object Representation)
 
-- Binary format tương tự JSON
-- Phù hợp cho CoAP và constrained devices
+- Binary format similar to JSON
+- Suited to CoAP and constrained devices
+
+> **See also:** [Messaging Protocols](/Technology/IoT/Concepts/Messaging Protocols) · [Communication Protocols](/Technology/IoT/Concepts/Communication Protocols)

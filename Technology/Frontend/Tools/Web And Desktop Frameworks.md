@@ -3,12 +3,13 @@ area: technology
 domain: frontend
 type: resource
 title: Web And Desktop Frameworks
-description: Framework/toolchain mới cho web (frontend/backend scaffolding) và desktop app
-timestamp: "2026-09-20T00:00:00.000Z"
+description: A curated list of newer frameworks, toolchains and scaffolding tools for web (frontend and backend) and desktop apps.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - frontend
   - frameworks
+  - frontend
+  - desktop
 resource: https://github.com/voidzero-dev/vite-plus
 ---
 
@@ -31,3 +32,5 @@ resource: https://github.com/voidzero-dev/vite-plus
 - https://github.com/TheOrcDev/shadscan — Deterministic UI audits for shadcn/ui apps, runnable from the terminal, CI, or an AI agent.
 - https://flutterinit.com/ — CLI (`npx create-flutterinit`) to scaffold a full Flutter app: choice of state management (Riverpod/Bloc), routing (GoRouter), architecture (Clean/MVVM/MVC), and integrations (Supabase, Firebase, Dio); also emits AGENTS.md/DESIGN.md/.cursorrules for AI-assisted coding. Open source.
 - https://nativephp.com/ — Build native desktop (macOS/Windows/Linux via Electron) and mobile (iOS/Android via Swift/Kotlin shells) apps from a Laravel/PHP codebase; bundles PHP with the app and exposes native APIs (menus, notifications, filesystem, SQLite) to Blade/Vue/React front-ends.
+
+> **See also:** [React Next](/Technology/Frontend/Tools/React Next) · [Vue And Nuxt](/Technology/Frontend/Tools/Vue And Nuxt) · [CSS Tools](/Technology/Frontend/Tools/CSS Tools)

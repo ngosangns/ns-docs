@@ -1,13 +1,14 @@
 ---
 area: technology
 domain: iot
-type: resource
+type: guide
 title: Hardware Platforms
-description: Hardware Platforms
-timestamp: "2026-06-19T13:43:26.136Z"
+description: Overview of microcontrollers and single-board computers commonly used for IoT projects and what each is best suited for.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
+  - hardware
 ---
 
 # Hardware Platforms
@@ -16,30 +17,32 @@ tags:
 
 ### ESP32/ESP8266
 
-- WiFi và Bluetooth tích hợp
-- Rẻ, dễ phát triển
-- Phù hợp cho smart home và DIY projects
-- Có thể dùng ESPHome để tạo custom firmware (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
+- Built-in WiFi and Bluetooth
+- Cheap and easy to develop for
+- Suited to smart home and DIY projects
+- Can use ESPHome to build custom firmware (see [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ### Arduino
 
-- Ecosystem lớn, nhiều shields và libraries
-- Phù hợp cho prototyping và education
-- Cần thêm module WiFi/Bluetooth nếu cần connectivity
+- Large ecosystem with many shields and libraries
+- Suited to prototyping and education
+- Needs an extra WiFi/Bluetooth module if connectivity is required
 
 ### Raspberry Pi
 
 - Full Linux OS
-- Phù hợp cho gateway, edge computing, và home automation hubs
-- Có thể chạy Home Assistant (xem [Smart Home](/Technology/IoT/Concepts/Smart Home))
+- Suited to gateways, edge computing, and home automation hubs
+- Can run Home Assistant (see [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
 ### STM32
 
-- ARM Cortex-M, hiệu năng cao
-- Phù hợp cho industrial và embedded applications
+- ARM Cortex-M, high performance
+- Suited to industrial and embedded applications
 
 ## Single-board Computers
 
-- **Raspberry Pi**: Phổ biến nhất cho IoT gateways
-- **BeagleBone**: Phù hợp cho industrial applications
-- **Jetson Nano**: Phù hợp cho AI/ML tại edge
+- **Raspberry Pi**: The most popular choice for IoT gateways
+- **BeagleBone**: Suited to industrial applications
+- **Jetson Nano**: Suited to AI/ML at the edge
+
+> **See also:** [Development Tools](/Technology/IoT/Tools/Development Tools) · [Edge Computing](/Technology/IoT/Concepts/Edge Computing) · [Development Workflow](/Technology/IoT/Concepts/Development Workflow)

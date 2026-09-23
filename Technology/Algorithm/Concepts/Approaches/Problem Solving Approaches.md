@@ -1,79 +1,81 @@
 ---
 area: technology
 domain: algorithms
-topic: algorithms
-type: resource
+type: guide
 title: Problem Solving Approaches
-description: Problem Solving Approaches
-timestamp: "2026-06-19T13:43:26.161Z"
+description: Overview of the main algorithmic problem-solving strategies (brute force, greedy, divide and conquer, dynamic programming, backtracking, and more) and when to apply each.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
+  - problem-solving
 resource: https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
 ---
 
 # Problem Solving Approaches
 
-## Mục lục
+## Table of Contents
 
-- [Nguồn tham khảo](#nguồn-tham-khảo)
-- [Các cách tiếp cận](#các-cách-tiếp-cận)
+- [References](#references)
+- [Approaches](#approaches)
 - [TODO](#todo)
 
-## Nguồn tham khảo
+## References
 
-- Nghệ thuật giải bài (vnoi.info): https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
+- The Art of Solving Problems (vnoi.info): https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
 - https://viblo.asia/p/cac-cach-tiep-can-trong-giai-thuat-huong-dan-de-hieu-cho-lap-trinh-vien-oK9Vy6rq4QR
 
-## Các cách tiếp cận
+## Approaches
 
-### Brute Force (Duyệt Hết Tất Cả)
+### Brute Force
 
-- Thử tất cả các khả năng có thể để tìm đáp án đúng
-- Phù hợp khi dữ liệu ít hoặc chưa có phương pháp tối ưu hơn
-- Nhược điểm là chậm khi dữ liệu lớn
+- Try every possible option to find the right answer
+- Suitable when the data is small or no better method is known yet
+- Downside: slow on large data
 
-### Greedy (Tham Lam)
+### Greedy
 
-- Tại mỗi bước, chọn phương án tốt nhất hiện tại mà không quan tâm đến tương lai
-- Áp dụng khi bài toán có thể giải quyết bằng từng bước nhỏ và lựa chọn trước đó không ảnh hưởng nhiều đến sau này
-- Lưu ý: không phải lúc nào cũng cho kết quả tối ưu
+- At each step, pick the best option available now without regard for the future
+- Applies when the problem can be solved in small steps and earlier choices do not much affect later ones
+- Note: it does not always produce the optimal result
 
-### Divide and Conquer (Chia Để Trị)
+### Divide and Conquer
 
-- Chia bài toán lớn thành các phần nhỏ, giải từng phần rồi kết hợp kết quả
-- Hữu ích khi bài toán có thể chia nhỏ mà vẫn giữ nguyên bản chất và việc kết hợp kết quả dễ dàng
+- Split a large problem into smaller parts, solve each part, then combine the results
+- Useful when the problem can be split while preserving its nature and the results are easy to combine
 
-### Dynamic Programming (Quy Hoạch Động)
+### Dynamic Programming
 
-- Lưu kết quả của các bước đã làm để tránh tính toán lại
-- Sử dụng khi bài toán có phần lặp lại nhiều lần và có thể chia nhỏ thành các phần liên quan
+- Store the results of steps already computed to avoid recomputation
+- Use when the problem has many repeated parts that can be broken into related subproblems
 
-### Backtracking (Quay Lui)
+### Backtracking
 
-- Thử một lựa chọn, nếu không phù hợp thì quay lại và thử lựa chọn khác
-- Dùng khi muốn tìm tất cả các cách giải hoặc có nhiều khả năng nhưng có thể loại bớt những cách không hợp lý
+- Try a choice; if it does not fit, go back and try another
+- Use when you want to find all solutions or there are many possibilities but the unreasonable ones can be pruned
 
-### Branch and Bound (Nhánh Cận)
+### Branch and Bound
 
-- Tương tự Backtracking nhưng có thêm cận trên và cận dưới để loại bớt nhánh không cần thiết
-- Áp dụng khi cần tìm giải pháp tối ưu và có thể xác định trước phạm vi tìm kiếm
+- Similar to backtracking but adds upper and lower bounds to prune unnecessary branches
+- Applies when you need an optimal solution and can determine the search range in advance
 
-### Graph Algorithms (Thuật Toán Đồ Thị)
+### Graph Algorithms
 
-- Duyệt qua các đỉnh và cạnh để tìm lời giải
-- Sử dụng khi bài toán có thể biểu diễn bằng đồ thị
+- Traverse vertices and edges to find the solution
+- Use when the problem can be modeled as a graph
 
-### Bit Manipulation (Xử Lý Bit)
+### Bit Manipulation
 
-- Dùng các phép toán trên bit để xử lý dữ liệu nhanh hơn
-- Hữu ích khi làm việc với số nhị phân hoặc tối ưu bộ nhớ
+- Use bit-level operations to process data faster
+- Useful when working with binary numbers or optimizing memory
 
-### Machine Learning Approach (Học Máy)
+### Machine Learning Approach
 
-- Dùng dữ liệu để học quy luật thay vì viết thuật toán cố định
-- Áp dụng khi bài toán quá phức tạp để viết thuật toán hoặc cần dự đoán dựa trên dữ liệu có sẵn
+- Use data to learn the patterns instead of writing a fixed algorithm
+- Applies when the problem is too complex to write an algorithm for or when you need to predict from existing data
 
 ## TODO
 
-- Viết thêm 1 bảng các dấu hiệu để áp dụng 1 thuật toán vào bài toán
+- Add a table of signals indicating when to apply each algorithm to a problem
+
+> **See also:** [Algorithm Development](/Technology/Algorithm/Concepts/Approaches/Algorithm Development) · [Enumeration Problems](/Technology/Algorithm/Concepts/Approaches/Enumeration Problems) · [Learning Resources](/Technology/Algorithm/Resources/Learning Resources)

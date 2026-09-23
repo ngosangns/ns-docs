@@ -1,35 +1,37 @@
 ---
 area: technology
 domain: iot
-type: resource
+type: guide
 title: Best Practices
-description: Best Practices cho IoT Development
-timestamp: "2026-06-19T13:43:26.133Z"
+description: Design, performance, and monitoring best practices for building reliable and secure IoT systems.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
 ---
 
-# Best Practices cho IoT Development
+# Best Practices
 
 ## Design Principles
 
-- **Local-first**: Xử lý tại edge khi có thể
-- **Fail-safe**: Devices nên hoạt động offline khi có thể
-- **Security by design**: Bảo mật từ đầu, không phải sau
-- **Scalability**: Thiết kế để dễ mở rộng
-- **Standardization**: Dùng standard protocols khi có thể
+- **Local-first**: Process data at the edge whenever possible
+- **Fail-safe**: Devices should keep working offline when possible
+- **Security by design**: Build security in from the start, not afterward
+- **Scalability**: Design the system so it is easy to scale out
+- **Standardization**: Use standard protocols whenever possible
 
 ## Performance Optimization
 
 - **Power management**: Sleep modes, wake-on-event
-- **Data compression**: Giảm bandwidth usage
-- **Caching**: Cache data tại edge để giảm cloud calls
-- **Debouncing**: Xử lý duplicate events (như trong [Smart Home](/Technology/IoT/Concepts/Smart Home))
+- **Data compression**: Reduce bandwidth usage
+- **Caching**: Cache data at the edge to reduce cloud calls
+- **Debouncing**: Handle duplicate events (as in [Smart Home](/Technology/IoT/Concepts/Smart Home))
 
-## Monitoring và Debugging
+## Monitoring and Debugging
 
-- **Logging**: Structured logging với levels
-- **Metrics**: Track device health, connectivity, errors
-- **Alerts**: Notify khi có issues
-- **Dashboards**: Visualize data và system status
+- **Logging**: Structured logging with levels
+- **Metrics**: Track device health, connectivity, and errors
+- **Alerts**: Notify when issues occur
+- **Dashboards**: Visualize data and system status
+
+> **See also:** [Edge Computing](/Technology/IoT/Concepts/Edge Computing) · [Development Workflow](/Technology/IoT/Concepts/Development Workflow) · [Smart Home](/Technology/IoT/Concepts/Smart Home)

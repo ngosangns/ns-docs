@@ -1,10 +1,10 @@
 ---
 area: technology
 domain: iot
-type: resource
+type: guide
 title: Development Workflow
-description: Development Workflow
-timestamp: "2026-06-19T13:43:26.135Z"
+description: Four-stage IoT development workflow covering prototyping, integration, deployment, and maintenance.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
@@ -14,28 +14,30 @@ tags:
 
 ## Prototyping
 
-1. Chọn hardware platform (ESP32, Arduino, Raspberry Pi)
-2. Setup development environment
-3. Viết firmware/software
+1. Choose a hardware platform (ESP32, Arduino, Raspberry Pi)
+2. Set up the development environment
+3. Write firmware/software
 4. Test locally
 
 ## Integration
 
-1. Kết nối với IoT platform (Home Assistant, AWS IoT, etc.)
-2. Setup communication protocols
-3. Implement authentication và security
-4. Test end-to-end flow
+1. Connect to an IoT platform (Home Assistant, AWS IoT, etc.)
+2. Set up communication protocols
+3. Implement authentication and security
+4. Test the end-to-end flow
 
 ## Deployment
 
-1. Flash firmware lên devices
+1. Flash firmware onto devices
 2. Configure network settings
-3. Register devices với platform
-4. Setup monitoring và logging
+3. Register devices with the platform
+4. Set up monitoring and logging
 
 ## Maintenance
 
 1. Monitor device health
-2. Update firmware khi cần
-3. Handle errors và edge cases
-4. Scale system khi cần
+2. Update firmware as needed
+3. Handle errors and edge cases
+4. Scale the system as needed
+
+> **See also:** [Hardware Platforms](/Technology/IoT/Concepts/Hardware Platforms) · [Development Tools](/Technology/IoT/Tools/Development Tools) · [Best Practices](/Technology/IoT/Concepts/Best Practices)

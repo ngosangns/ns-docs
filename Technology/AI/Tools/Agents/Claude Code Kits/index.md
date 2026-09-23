@@ -1,11 +1,11 @@
 # Concepts
 
-- [Claude Capsule Kit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Capsule%20Kit.md) - Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
-- [Claude Task Master](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Task%20Master.md) - Claude Task Master - AI-Powered Task Management System
-- [Claudekit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/claudekit.md) - ClaudeKit - Smart Guardrails & Workflow Automation cho Claude Code
-- [Claudekit Cli](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claudekit%20Cli.md) - ClaudeKit CLI - CLI & Web Dashboard cho ClaudeKit Projects
-- [Claudekit Skills](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claudekit%20Skills.md) - ClaudeKit Skills - Agent Skills Collection cho Claude Code
-- [Comparison](Technology/AI/Tools/Agents/Claude%20Code%20Kits/comparison.md) - So sánh 7 Claude Code Toolkits & Enhancement Systems
-- [Everything Claude Code](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Everything%20Claude%20Code.md) - Everything Claude Code (ECC) - Agent Harness Performance Optimization System
-- [Oh My Claudecode](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Oh%20My%20Claudecode.md) - Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
-- [Other Claude Code Kits](Technology/AI/Tools/Agents/Claude%20Code%20Kits/others.md) - Công cụ liên quan chưa có ghi chú riêng
+- [Claude Capsule Kit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Capsule%20Kit.md) - Claude Capsule Kit (CCK) is a hook-based engineering toolkit for Claude Code that adds session memory, dependency analysis, large-file navigation, and parallel crew teams.
+- [Claude Task Master](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Task%20Master.md) - Claude Task Master is an editor-agnostic, MCP-based task management system that parses PRDs into tasks and subtasks for AI-driven development.
+- [ClaudeKit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/ClaudeKit.md) - ClaudeKit is a Claude Code toolkit offering smart guardrails, real-time error prevention, expert subagents, and spec-driven workflow automation.
+- [Claudekit Cli](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claudekit%20Cli.md) - ClaudeKit CLI (`ck`) is the command-line tool and React web dashboard for managing ClaudeKit projects, with hook diagnostics, a projects registry, and GitHub automation.
+- [Claudekit Skills](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claudekit%20Skills.md) - ClaudeKit Skills is a collection of 30+ Agent Skills for Claude Code, distributed through a plugin marketplace, covering AI/ML, web development, DevOps, databases, documents, and debugging.
+- [Everything Claude Code](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Everything%20Claude%20Code.md) - Everything Claude Code (ECC) is a large multi-harness agent performance system bundling agents, skills, hooks, rules, continuous learning, and security scanning.
+- [Kit Comparison](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Kit%20Comparison.md) - Side-by-side comparison of seven Claude Code toolkits (ECC, oh-my-claudecode, Task Master, ClaudeKit family, Capsule Kit) by features, architecture, use case, and maturity.
+- [Oh My Claudecode](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Oh%20My%20Claudecode.md) - Oh-My-ClaudeCode (OMC) is a teams-first multi-agent orchestration system for Claude Code with staged team pipelines, cross-provider workers, deep interview, and persistent execution modes.
+- [Other Kits](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Other%20Kits.md) - Related Claude Code tooling that does not yet have its own note, starting with the blink-query companion utility.

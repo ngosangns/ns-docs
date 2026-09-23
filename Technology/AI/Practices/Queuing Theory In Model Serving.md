@@ -1,81 +1,83 @@
 ---
 area: technology
-domain: ai-ml
-topic: mlops
+domain: mlops
 type: case-study
 title: Queuing Theory In Model Serving
-description: Queuing Theory trong Model Serving - Debug Latency
-timestamp: "2026-06-19T13:43:26.165Z"
+description: A debugging story showing how modeling replayed traffic as a Poisson process, rather than fixed intervals, explained a 2x p99 latency gap in GPU model serving.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
   - mlops
+  - queuing-theory
+  - latency
 resource: https://en.wikipedia.org/wiki/Queueing_theory
 ---
 
-# Queuing Theory trong Model Serving - Debug Latency
+# Queuing Theory In Model Serving
 
-## Tóm tắt vấn đề
+## Problem Summary
 
-### Bối cảnh
+### Context
 
-- **Hệ thống**: Model serving - deploy AI models vào production
-- **Mục tiêu**: Tối ưu latency và throughput trên GPU
-  - Latency: Phải giới hạn ở mức nhất định (yêu cầu kinh doanh)
-  - Throughput: Quyết định số GPU cần mua (càng cao càng tiết kiệm)
+- **System**: Model serving - deploying AI models to production
+- **Goal**: Optimize latency and throughput on GPUs
+  - Latency: must be capped at a given level (a business requirement)
+  - Throughput: determines how many GPUs to buy (the higher, the more you save)
 
-### Vấn đề bí ẩn
+### The mystery
 
-- **Dev system**: Ghi lại traffic từ production và replay với các throughput khác nhau để đo p99 latency
-- **Kết quả**: p99 latency ở hệ thống replay **chỉ bằng một nửa** của p99 latency ở production với cùng một throughput
-- **Nỗ lực debug**: Rà soát dữ liệu, code, đưa ra nhiều giả thuyết nhưng không giải thích được sự khác biệt
+- **Dev system**: Records production traffic and replays it at different throughputs to measure p99 latency
+- **Result**: The replay system's p99 latency was **only half** of production's p99 latency at the same throughput
+- **Debugging attempts**: Reviewed data and code and came up with many hypotheses, but none explained the difference
 
-## Phát hiện nguyên nhân
+## Finding the Cause
 
-### Quan sát từ profiling
+### Observation from profiling
 
-- Khi phân tích CUDA kernels, phát hiện các kernels của các request khác nhau được **luân phiên xen kẽ** với nhau
-- **Insight**: GPU chỉ chạy được các kernel một cách tuần tự
-- Khi có 2 request được xử lý cùng lúc → latency của mỗi request bị kéo dài ra
-- **Kết luận**: Traffic pattern rất quan trọng, không chỉ phụ thuộc vào throughput
+- When analyzing CUDA kernels, the kernels of different requests were found to be **interleaved** with one another
+- **Insight**: A GPU can only run kernels sequentially
+- When 2 requests are processed at the same time → each request's latency is stretched
+- **Conclusion**: Traffic pattern matters a great deal; it doesn't depend on throughput alone
 
-### Ví dụ minh họa
+### Worked example
 
-**Giả sử**: 10 qps (query per second), trung bình 100ms một request, trong 400ms nhận 4 requests, GPU xử lý mỗi request đơn lẻ trong 50ms
+**Assume**: 10 qps (queries per second), 100ms per request on average, 4 requests received in 400ms, and the GPU handles each request alone in 50ms
 
-**Hệ thống 1 - Fixed intervals:**
+**System 1 - Fixed intervals:**
 
-- Đều đặn mỗi 100ms nhận được request mới
-- GPU có thể xử lý mỗi request trong 50ms (50ms còn lại idle)
+- A new request arrives at a steady 100ms interval
+- The GPU can process each request in 50ms (the other 50ms is idle)
 - **Latency**: 50ms
 
-**Hệ thống 2 - Burst traffic:**
+**System 2 - Burst traffic:**
 
-- 4 requests đến cùng một lúc
-- GPU phải xử lý 4 request cùng lúc, các kernel được xử lý luân phiên
+- 4 requests arrive at the same time
+- The GPU has to process 4 requests concurrently, with their kernels interleaved
 - **Latency**: 50ms × 4 = 200ms
 
-## Giải pháp
+## Solution
 
 ### Queuing Theory
 
-- Traffic ở các hệ thống thực tế thường theo **Poisson process** với **Poisson distribution**
-- Replay system ban đầu dùng **fixed intervals** → không phản ánh đúng traffic pattern thực tế
+- Traffic in real systems typically follows a **Poisson process** with a **Poisson distribution**
+- The replay system initially used **fixed intervals** → it did not reflect the real traffic pattern
 
 ### Implementation
 
-- Cài đặt lại replay code theo **Poisson distribution** thay vì fixed intervals
-- **Kết quả**: Sai số chênh lệch giữa production và replay chỉ còn **< 5%**
+- Reimplemented the replay code to follow a **Poisson distribution** instead of fixed intervals
+- **Result**: The gap between production and replay dropped to **under 5%**
 
-## Bài học
+## Lessons
 
-1. **Kiến thức nền tảng toán và thống kê** rất quan trọng trong thực tế
-2. **Traffic pattern** ảnh hưởng lớn đến latency, không chỉ phụ thuộc vào throughput
-3. Khi benchmark/replay traffic, cần mô phỏng đúng **distribution** của traffic thực tế
-4. **Queuing theory** là công cụ hữu ích để hiểu và tối ưu hệ thống
+1. **Foundational math and statistics knowledge** matters a lot in practice
+2. **Traffic pattern** strongly affects latency; it doesn't depend on throughput alone
+3. When benchmarking/replaying traffic, simulate the real traffic's **distribution** correctly
+4. **Queuing theory** is a useful tool for understanding and optimizing systems
 
-## Tài liệu tham khảo
+## References
 
 - [Queueing Theory](https://en.wikipedia.org/wiki/Queueing_theory)
 - [Poisson Point Process](https://en.wikipedia.org/wiki/Poisson_point_process)
-- Central Limit Theorem (để hiểu tại sao traffic thực tế theo Poisson distribution)
+- Central Limit Theorem (to understand why real traffic follows a Poisson distribution)
+
+> **See also:** [DoorDash Feature Store Redis Optimization](/Technology/AI/Practices/DoorDash Feature Store Redis Optimization) · [Monitoring Tracking](/Technology/AI/Tools/MLOps/Monitoring Tracking)

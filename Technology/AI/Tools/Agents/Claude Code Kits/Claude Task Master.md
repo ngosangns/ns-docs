@@ -1,28 +1,27 @@
 ---
 area: technology
-domain: ai-ml
-topic: coding-agents
-type: resource
+domain: claude-code
+type: tool
 title: Claude Task Master
-description: Claude Task Master - AI-Powered Task Management System
-timestamp: "2026-06-19T13:43:26.089Z"
+description: Claude Task Master is an editor-agnostic, MCP-based task management system that parses PRDs into tasks and subtasks for AI-driven development.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - coding-agents
   - claude-code
+  - coding-agents
+  - task-management
 resource: https://cursor.com/en/install-mcp?name=task-master-ai&config=
 ---
 
-# Claude Task Master - AI-Powered Task Management System
+# Claude Task Master
 
-## Định nghĩa
+## Definition
 
-**Task Master** là hệ thống quản lý task cho AI-driven development, hoạt động mỗi trong Cursor, Claude Code, Windsurf, Roo, Lovable và các AI chat khác. Parse PRD thành tasks, auto-expand thành subtasks, track progress, và integrate với nhiều AI providers.
+**Task Master** is a task management system for AI-driven development that works in Cursor, Claude Code, Windsurf, Roo, Lovable, and other AI chats. It parses a PRD into tasks, auto-expands them into subtasks, tracks progress, and integrates with many AI providers.
 
-## Thông tin cơ bản
+## Basic Information
 
-| Thông tin        | Giá trị                                      |
+| Item             | Value                                        |
 | ---------------- | -------------------------------------------- |
 | **Stars**        | 26.5k                                        |
 | **Forks**        | 2.5k                                         |
@@ -31,7 +30,7 @@ resource: https://cursor.com/en/install-mcp?name=task-master-ai&config=
 | **License**      | MIT with Commons Clause                      |
 | **Version**      | v0.43.1                                      |
 
-## Cài đặt
+## Installation
 
 ### Claude Code
 
@@ -68,13 +67,13 @@ claude-task-master/
 
 ## Core Features
 
-### 1. PRD to Tasks
+### PRD to Tasks
 
-Parse Product Requirements Document thành structured tasks với dependencies, priorities, và complexity scores.
+Parses a Product Requirements Document into structured tasks with dependencies, priorities, and complexity scores.
 
-### 2. Task Structure
+### Task Structure
 
-Mỗi task có:
+Each task has:
 
 - ID, title, description
 - Status (pending, in-progress, done, etc.)
@@ -84,7 +83,7 @@ Mỗi task có:
 - Complexity score
 - Tags
 
-### 3. Multi-AI Provider Support
+### Multi-AI Provider Support
 
 | Provider           | Use Case            |
 | ------------------ | ------------------- |
@@ -97,7 +96,7 @@ Mỗi task có:
 | Claude Code        | No API key needed   |
 | Codex CLI          | OAuth via ChatGPT   |
 
-### 4. MCP Integration
+### MCP Integration
 
 36 MCP tools available (~21,000 tokens):
 
@@ -108,17 +107,17 @@ Mỗi task có:
 | `core`          | 7        | ~5k      | Essential daily workflow |
 | Custom          | Variable | Variable | Specific tool selection  |
 
-### 5. AI Research
+### AI Research
 
 ```bash
 task-master research "What are the latest best practices for JWT authentication?"
 ```
 
-Research với project context, cross-reference findings.
+Researches with project context and cross-references findings.
 
-### 6. Task Commands
+### Task Commands
 
-| Command                  | Chức năng               |
+| Command                  | Function                |
 | ------------------------ | ----------------------- |
 | `task-master init`       | Initialize project      |
 | `task-master parse-prd`  | Parse PRD to tasks      |
@@ -129,7 +128,7 @@ Research với project context, cross-reference findings.
 | `task-master move`       | Move tasks between tags |
 | `task-master research`   | AI-powered research     |
 
-### 7. Cross-Tag Movement
+### Cross-Tag Movement
 
 ```bash
 task-master move --from=5 --from-tag=backlog --to-tag=in-progress
@@ -138,7 +137,7 @@ task-master move --from=5,6,7 --from-tag=backlog --to-tag=done --with-dependenci
 
 ## Configuration
 
-MCP config trong `.cursor/mcp.json`, `.vscode/mcp.json`, etc:
+MCP config in `.cursor/mcp.json`, `.vscode/mcp.json`, etc.:
 
 ```json
 {
@@ -176,41 +175,43 @@ claude mcp add task-master-ai --scope user \
 | Testing    | Vitest, Jest            |
 | Monorepo   | Turborepo, Changesets   |
 
-## Ưu điểm
+## Pros
 
-| Ưu điểm           | Mô tả                                       |
+| Pro               | Description                                 |
 | ----------------- | ------------------------------------------- |
 | Editor-agnostic   | Cursor, Claude Code, Windsurf, VS Code, Roo |
 | Multi-AI provider | 10+ providers supported                     |
 | MCP integration   | 36 tools, selectable loading                |
 | PRD-driven        | Structured from requirements                |
-| Task dependencies | Auto-manage dependencies                    |
+| Task dependencies | Auto-manages dependencies                   |
 | Research built-in | AI-powered context research                 |
 | Scale             | 26.5k stars, large community                |
-| Free tier         | Works với Claude Code (no API key)          |
+| Free tier         | Works with Claude Code (no API key)         |
 
-## Nhược điểm
+## Cons
 
-| Nhược điểm         | Mô tả                              |
-| ------------------ | ---------------------------------- |
-| Commons Clause     | Không được bán product như service |
-| API key dependency | Cần API key cho hầu hết models     |
-| Token overhead     | 36 MCP tools = ~21k tokens         |
-| Complex setup      | Nhiều config options               |
-| Monorepo overhead  | Turborepo build complexity         |
+| Con                | Description                          |
+| ------------------ | ------------------------------------ |
+| Commons Clause     | Cannot sell the product as a service |
+| API key dependency | Most models need an API key          |
+| Token overhead     | 36 MCP tools = ~21k tokens           |
+| Complex setup      | Many config options                  |
+| Monorepo overhead  | Turborepo build complexity           |
 
-## Sử dụng khi nào
+## When to Use
 
-- **New projects**: Start với PRD, generate structured tasks
-- **Multi-editor teams**: Dùng nhiều editors khác nhau
-- **Task-driven development**: Muốn structured task management
-- **AI-assisted planning**: Cần AI expand và research tasks
-- **MCP-first workflows**: Muốn task management qua MCP tools
+- **New projects**: Start with a PRD and generate structured tasks
+- **Multi-editor teams**: Team members use different editors
+- **Task-driven development**: Want structured task management
+- **AI-assisted planning**: Need AI to expand and research tasks
+- **MCP-first workflows**: Want task management through MCP tools
 
 ---
 
-**Tài liệu tham khảo**:
+**References**:
 
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)
 - [npm: task-master-ai](https://www.npmjs.com/package/task-master-ai)
 - [Docs](https://docs.task-master.dev)
+
+> **See also:** [Kit Comparison](/Technology/AI/Tools/Agents/Claude Code Kits/Kit Comparison) · [Other Kits](/Technology/AI/Tools/Agents/Claude Code Kits/Other Kits) · [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents)

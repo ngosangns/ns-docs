@@ -1,6 +1,5 @@
 # Sections
 
-- [computer-vision](Technology/AI/Concepts/computer-vision/index.md)
-- [core-concepts](Technology/AI/Concepts/core-concepts/index.md)
-- [LLM-Generative-AI](Technology/AI/Concepts/LLM-Generative-AI/index.md)
-- [RAG](Technology/AI/Concepts/RAG/index.md)
+- [Computer Vision](Technology/AI/Concepts/Computer%20Vision/index.md)
+- [Core Concepts](Technology/AI/Concepts/Core%20Concepts/index.md)
+- [LLM And Generative AI](Technology/AI/Concepts/LLM%20And%20Generative%20AI/index.md)

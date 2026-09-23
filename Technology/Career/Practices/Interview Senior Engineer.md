@@ -1,103 +1,105 @@
 ---
 area: technology
-domain: career
-topic: interview
-type: resource
+domain: interview
+type: guide
 title: Interview Senior Engineer
-description: Interview Senior Engineer
-timestamp: "2026-06-19T13:43:26.147Z"
+description: A walkthrough of a senior software developer interview, covering English, coding, system design, project management, version control, refactoring, and adaptability.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - career
   - interview
+  - career
+  - senior
 ---
 
 # Interview Senior Engineer
 
-**Trải nghiệm phỏng vấn Senior Software Developer**
+**Experience interviewing for a Senior Software Developer role**
 
-## Tổng quan
+## Overview
 
-- **Vị trí**: Senior NodeJS/PHP và full-stack
-- **Nhận xét**: Thời gian gần đây tuyển dụng khó khăn, không còn tuyển fresher/junior, ít nhất middle level
-- **Quy trình**: Khó hơn so với vài năm trước (có thể do dev bị layoff nhiều)
+- **Position**: Senior NodeJS/PHP and full-stack
+- **Observation**: Hiring has been tough lately; companies no longer hire fresher/junior, only middle level at minimum
+- **Process**: Harder than a few years ago (possibly because many developers were laid off)
 
-## Quy trình phỏng vấn
+## Interview Process
 
-- **English**: Toàn bộ buổi phỏng vấn bằng tiếng Anh
-- **Coding Proficiency**: Code tốt, solutions tối ưu, data-structures & Algorithms (kiến thức hoặc live coding)
-- **System Design and Optimization**: Hiệu suất microservices, caching strategies
-- **Project Management**: Tổ chức và lên kế hoạch, tickets/user stories
+- **English**: The entire interview is in English
+- **Coding Proficiency**: Good code, optimal solutions, data structures & algorithms (knowledge or live coding)
+- **System Design and Optimization**: Microservices performance, caching strategies
+- **Project Management**: Organizing and planning, tickets/user stories
 - **Version Control Discipline**: Best practices, regular atomic commits, clear messages
-- **Refactoring Skills**: Improve cấu trúc code, dễ đọc, Clean Code
-- **Adaptability**: Làm việc với source code hiện có, tuân thủ tiêu chuẩn
+- **Refactoring Skills**: Improve code structure and readability, Clean Code
+- **Adaptability**: Working with an existing codebase and following its standards
 
-## Chi tiết các phần
+## Section Details
 
-### 0. Chào hỏi
+### Greeting
 
-- Tìm hiểu trước về công ty
-- Lời cám ơn mở đầu
-- Giới thiệu bản thân chuyên nghiệp, gọn gàng, focus kỹ năng công ty cần
-- Câu hỏi thường gặp: Tại sao rời công ty cũ?
+- Research the company beforehand
+- Open with a thank-you
+- Give a professional, concise self-introduction focused on the skills the company needs
+- Common question: Why are you leaving your previous company?
 
-### 1. English
+### English
 
-- Nói rõ ràng, chậm rãi
-- Kêu họ nói lại nếu khó nghe
-- Đảm bảo nắm bắt được ý
+- Speak clearly and slowly
+- Ask them to repeat if you can't hear well
+- Make sure you grasp their meaning
 
-### 2. Coding Proficiency
+### Coding Proficiency
 
-- Nắm rõ ngôn ngữ lập trình
-- Interviewer hỏi bất cứ technical skills trong CV
+- Know your programming language well
+- The interviewer may ask about any technical skill on your CV
 - **Live coding**:
-  - Giao tiếp liên tục với interviewer
-  - Đọc hiểu đề bài, trình bày hiểu như thế nào
-  - Nếu không biết cách làm xịn, code phang đại, nested loop cũng được
-  - Nói có thể improve theo hướng xyz
-- **data-structures**: Stack, Queue, Binary Heap, Linked List, Binary Search Tree
+  - Communicate with the interviewer continuously
+  - Read the problem carefully and explain how you understand it
+  - If you don't know a clever approach, just code something brute-force; a nested loop is fine
+  - Say that it can be improved in direction xyz
+- **Data structures**: Stack, Queue, Binary Heap, Linked List, Binary Search Tree
 - **Problem solving**: Divide & Conquer, Sliding Window, Recursion, Dynamic Programming
-- **Architecture**: CLEAN architecture, DDD, Event Driven Design
+- **Architecture**: Clean Architecture, DDD, Event-Driven Design
 
-### 3. System Design and Optimization
+### System Design and Optimization
 
-- Thiết kế hệ thống: Notification System, Payment System
-- Tích hợp Third-Party Systems
+- System design: Notification System, Payment System
+- Third-party system integration
 - Message queue: Kafka/RabbitMQ
 - Caching: Redis/Elasticsearch
-- Bảo mật API: JWT/OAuth
-- Microservice: Framework không quan trọng, quan trọng hiểu cần làm gì, chi phí
+- API security: JWT/OAuth
+- Microservices: The framework doesn't matter; what matters is understanding what needs to be done and the cost
 
-### 4. Project Management
+### Project Management
 
-- Viết User Stories/Tickets dễ đọc (có templates)
-- Breakdown tasks
-- Quản lý thời gian, nhân lực
+- Write readable User Stories/Tickets (with templates)
+- Break down tasks
+- Manage time and people
 
-### 5. Version Control Discipline
+### Version Control Discipline
 
-- Best practices khi làm việc nhóm với git
-- Phân biệt merging/rebasing
-- Tag release theo chuẩn
+- Best practices for teamwork with git
+- Distinguish merging from rebasing
+- Tag releases to a standard
 
-### 6. Refactoring Skills
+### Refactoring Skills
 
-- Đọc code bùi nhùi, refactor dễ maintain
+- Read messy code and refactor it to be maintainable
 - Design patterns
-- Chiến lược refactor, cân bằng technical debt
-- Viết unit tests trước khi refactor
+- Refactoring strategy and balancing technical debt
+- Write unit tests before refactoring
 
-### 7. Adaptability
+### Adaptability
 
-- Mindset developers khi tham gia dự án mới
-- Đọc hiểu source code mẫu, gợi ý thêm features hoặc refactor
-- Mindset của người senior
+- A developer's mindset when joining a new project
+- Read sample source code and suggest new features or refactors
+- The mindset of a senior
 
-### 8. Cuối phỏng vấn
+### End of the Interview
 
-- **Câu hỏi hay bị hỏi**: Còn câu hỏi gì không?
-  - Công ty support career path như thế nào?
-  - Phương thức thăng tiến
-  - Cơ hội onsite nước ngoài
-- **Cám ơn và kết thúc**: Gửi mail cám ơn công ty
+- **Frequently asked**: Do you have any questions?
+  - How does the company support career paths?
+  - How does promotion work?
+  - Opportunities for onsite work abroad
+- **Thank and close**: Send the company a thank-you email
+
+> **See also:** [Senior PHP JavaScript Interview](/Technology/Career/Practices/Senior PHP JavaScript Interview) · [Top 10 System Design And Microservices Questions](/Technology/Career/Concepts/Top 10 System Design And Microservices Questions) · [Interview Notes](/Technology/Career/Concepts/Interview Notes)

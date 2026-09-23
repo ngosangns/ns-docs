@@ -1,6 +1,6 @@
 # Concepts
 
-- [5-Day Gen AI Intensive Course With Google](Technology/AI/Write%20Ups/5-Day%20Gen%20AI%20Intensive%20Course%20With%20Google.md) - Tóm tắt nội dung khóa học tự học "5-Day Gen AI Intensive" của Google trên Kaggle
-- [AI Powered AB Testing With Amazon Bedrock](Technology/AI/Write%20Ups/AI%20Powered%20AB%20Testing%20With%20Amazon%20Bedrock.md) - Ghi chú/tổng hợp kiến trúc công cụ kiểm thử A/B thích ứng dùng Amazon Bedrock + MCP để gán biến thể theo ngữ cảnh người dùng
-- [Tang Jie Advanced Machine Learning](Technology/AI/Write%20Ups/Tang%20Jie%20Advanced%20Machine%20Learning.md) - Bài tập Advanced Machine Learning của Tang Jie ở Thanh Hoa (2026) và các phán đoán ông nói về bước sau của chatbot
-- [XGBoost Tips And Tricks](Technology/AI/Write%20Ups/XGBoost%20Tips%20And%20Tricks.md) - Ghi chú/tổng hợp các kinh nghiệm dùng XGBoost của Chris Deotte (Kaggle Grandmaster)
+- [AI Powered AB Testing With Amazon Bedrock](Technology/AI/Write%20Ups/AI%20Powered%20AB%20Testing%20With%20Amazon%20Bedrock.md) - Notes on an adaptive A/B testing tool architecture that uses Amazon Bedrock and MCP to assign variants based on user context.
+- [Google 5 Day Gen AI Intensive Course](Technology/AI/Write%20Ups/Google%205%20Day%20Gen%20AI%20Intensive%20Course.md) - Day-by-day summary of Google and Kaggle's free self-paced 5-Day Gen AI Intensive course, covering LLMs, embeddings, agents, domain-specific LLMs, and MLOps.
+- [Tang Jie Advanced Machine Learning](Technology/AI/Write%20Ups/Tang%20Jie%20Advanced%20Machine%20Learning.md) - Notes on Tang Jie's 2026 Advanced Machine Learning course at Tsinghua, its assignments, and his statements on what comes after the chatbot era.
+- [XGBoost Tips And Tricks](Technology/AI/Write%20Ups/XGBoost%20Tips%20And%20Tricks.md) - Summary of Kaggle Grandmaster Chris Deotte's XGBoost experience, from data science foundations and tuning to scaling on GPUs and deploying with refit and cuML FIL.

@@ -1,28 +1,26 @@
 ---
 area: technology
-domain: ai-ml
-topic: coding-agents
-type: resource
+domain: claude-code
+type: tool
 title: Claude Capsule Kit
-description: Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
-timestamp: "2026-06-19T13:43:26.089Z"
+description: Claude Capsule Kit (CCK) is a hook-based engineering toolkit for Claude Code that adds session memory, dependency analysis, large-file navigation, and parallel crew teams.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - coding-agents
   - claude-code
+  - coding-agents
 resource: https://github.com/arpitnath/claude-capsule-kit
 ---
 
-# Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
+# Claude Capsule Kit
 
-## Định nghĩa
+## Definition
 
-**Claude Capsule Kit** là một toolkit nâng cao cho Claude Code giải quyết các vấn đề thực tế: session isolation, dependency awareness, large file navigation, và parallel multi-branch work. Được xây dựng hoàn toàn trên Claude Code's official hook system - không patch, không hack.
+**Claude Capsule Kit** (CCK) is an advanced toolkit for Claude Code that solves practical problems: session isolation, dependency awareness, large file navigation, and parallel multi-branch work. It is built entirely on Claude Code's official hook system, with no patches and no hacks.
 
-## Thông tin cơ bản
+## Basic Information
 
-| Thông tin        | Giá trị                                              |
+| Item             | Value                                                |
 | ---------------- | ---------------------------------------------------- |
 | **Stars**        | 75                                                   |
 | **Forks**        | 8                                                    |
@@ -31,7 +29,7 @@ resource: https://github.com/arpitnath/claude-capsule-kit
 | **License**      | MIT                                                  |
 | **Version**      | v3.0.4                                               |
 
-## Cài đặt
+## Installation
 
 ```bash
 npm install -g claude-capsule-kit
@@ -59,9 +57,9 @@ claude-capsule-kit/
 
 ## Core Features
 
-### 1. Session Memory
+### Session Memory
 
-Hooks capture mỗi file read, edit, và agent invocation vào local SQLite database (blink-query).
+Hooks capture every file read, edit, and agent invocation into a local SQLite database (blink-query).
 
 | Event               | What happens                            |
 | ------------------- | --------------------------------------- |
@@ -71,7 +69,7 @@ Hooks capture mỗi file read, edit, và agent invocation vào local SQLite data
 | Context fills up    | Continuity doc saved before compaction  |
 | Switch branches     | Context switches with you               |
 
-### 2. Dependency Tools
+### Dependency Tools
 
 | Tool              | What it answers                             |
 | ----------------- | ------------------------------------------- |
@@ -80,9 +78,9 @@ Hooks capture mỗi file read, edit, và agent invocation vào local SQLite data
 | `find-circular`   | Are there circular dependencies?            |
 | `find-dead-code`  | What code is never imported?                |
 
-### 3. Large File Navigation
+### Large File Navigation
 
-Progressive reader parses AST và splits files vào navigable chunks:
+The progressive reader parses the AST and splits files into navigable chunks:
 
 - 75-97% token savings on large files
 - Supports TypeScript, JavaScript, Python, Go
@@ -92,9 +90,9 @@ progressive-reader --path src/huge-file.ts --list     # See structure
 progressive-reader --path src/huge-file.ts --chunk 3   # Read specific section
 ```
 
-### 4. 18 Specialist Agents
+### 18 Specialist Agents
 
-| Agent                  | Chức năng                              |
+| Agent                  | Function                               |
 | ---------------------- | -------------------------------------- |
 | error-detective        | Root cause analysis                    |
 | debugger               | Step-through debugging                 |
@@ -114,9 +112,9 @@ progressive-reader --path src/huge-file.ts --chunk 3   # Read specific section
 | session-summarizer     | Cross-device continuation              |
 | agent-developer        | Custom agent debugging                 |
 
-### 5. Crew Teams
+### Crew Teams
 
-Parallel agent teams, mỗi teammate làm việc trên riêng git branch via worktrees.
+Parallel agent teams, where each teammate works on its own git branch via worktrees.
 
 ```json
 {
@@ -134,7 +132,7 @@ Parallel agent teams, mỗi teammate làm việc trên riêng git branch via wor
 
 ## Hooks
 
-| Hook         | Trigger           | Chức năng                                        |
+| Hook         | Trigger           | Function                                         |
 | ------------ | ----------------- | ------------------------------------------------ |
 | SessionStart | Claude starts     | Restore context, inject discoveries, detect crew |
 | PostToolUse  | After tool use    | Capture file ops to capsule.db                   |
@@ -180,39 +178,41 @@ cck crew decompose     # Dependency-aware task splitting
 - Git
 - Go 1.20+ (optional, for dependency scanner)
 
-## Ưu điểm
+## Pros
 
-| Ưu điểm               | Mô tả                                    |
-| --------------------- | ---------------------------------------- |
-| Session memory        | Context survives across sessions tự động |
-| Dependency awareness  | Import graph built trước, instant query  |
-| Large file navigation | 75-97% token savings                     |
-| Crew teams            | Real parallel multi-branch work          |
-| Automatic operation   | Zero configuration, hooks do everything  |
-| Data preservation     | Uninstall keeps capsule.db               |
+| Pro                   | Description                                    |
+| --------------------- | ---------------------------------------------- |
+| Session memory        | Context survives across sessions automatically |
+| Dependency awareness  | Import graph built up front, instant queries   |
+| Large file navigation | 75-97% token savings                           |
+| Crew teams            | Real parallel multi-branch work                |
+| Automatic operation   | Zero configuration, hooks do everything        |
+| Data preservation     | Uninstalling keeps capsule.db                  |
 
-## Nhược điểm
+## Cons
 
-| Nhược điểm      | Mô tả                               |
-| --------------- | ----------------------------------- |
-| Small community | Chỉ 75 stars, 4 contributors        |
-| Go dependency   | Cần Go 1.20+ cho dependency scanner |
-| SQLite storage  | Don't scale cho very large projects |
-| Limited agents  | 18 agents, ít hơn ECC               |
-| No MCP support  | Không có tích hợp MCP               |
+| Con             | Description                               |
+| --------------- | ----------------------------------------- |
+| Small community | Only 75 stars, 4 contributors             |
+| Go dependency   | Needs Go 1.20+ for the dependency scanner |
+| SQLite storage  | Doesn't scale to very large projects      |
+| Limited agents  | 18 agents, fewer than ECC                 |
+| No MCP support  | No MCP integration                        |
 
-## Sử dụng khi nào
+## When to Use
 
-- **Long coding sessions**: Cần session continuity across restarts
-- **Dependency-heavy projects**: Cần import graph awareness
-- **Large codebases**: Files > 50KB cần progressive reading
-- **Parallel features**: Muốn làm nhiều features song song với crew teams
-- **Zero-config preference**: Muốn everything automatic qua hooks
+- **Long coding sessions**: Need session continuity across restarts
+- **Dependency-heavy projects**: Need import graph awareness
+- **Large codebases**: Files over 50KB need progressive reading
+- **Parallel features**: Want to work on several features at once with crew teams
+- **Zero-config preference**: Want everything automatic through hooks
 
 ---
 
-**Tài liệu tham khảo**:
+**References**:
 
 - [arpitnath/claude-capsule-kit](https://github.com/arpitnath/claude-capsule-kit)
 - [npm: claude-capsule-kit](https://www.npmjs.com/package/claude-capsule-kit)
 - [blink-query](https://github.com/arpitnath/blink-query)
+
+> **See also:** [Kit Comparison](/Technology/AI/Tools/Agents/Claude Code Kits/Kit Comparison) · [Everything Claude Code](/Technology/AI/Tools/Agents/Claude Code Kits/Everything Claude Code) · [ClaudeKit](/Technology/AI/Tools/Agents/Claude Code Kits/ClaudeKit)

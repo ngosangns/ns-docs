@@ -1,16 +1,19 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: cheatsheet
+domain: trees
+type: guide
 title: Algo Trees
-description: Trees
-timestamp: "2026-06-19T13:43:26.155Z"
+description: TypeScript notes on tree terminology, traversals, and binary search tree operations.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - trees
   - algorithms
   - golang
+  - typescript
 ---
+
+# Algo Trees
 
 ## Trees
 
@@ -318,3 +321,5 @@ const loopN = (head: BinaryNode<number>): number[][] => {
   return Object.values(levels)
 }
 ```
+
+> **See also:** [Algo Heap Trie Graphs](/Technology/Algorithm/Resources/Algo Heap Trie Graphs) · [Algo Recursion](/Technology/Algorithm/Resources/Algo Recursion) · [Data Structures Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview)

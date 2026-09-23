@@ -1,24 +1,25 @@
 ---
 area: technology
-domain: ai-ml
-topic: javascript
+domain: dataset
 type: resource
 title: Media Datasets
-description: Tổng hợp các bộ dữ liệu media phục vụ huấn luyện và đánh giá mô hình AI cho video, âm thanh, hình ảnh.
-timestamp: "2026-06-19T13:43:26.164Z"
+description: A collection of media datasets for training and evaluating AI models on video, audio, and images.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - javascript
+  - dataset
+  - video
 resource: https://huggingface.co/datasets/facebook/seamless-interaction
 ---
 
-# Tổng quan
+# Media Datasets
 
-Tổng hợp các bộ dữ liệu media phục vụ huấn luyện và đánh giá mô hình AI cho video, âm thanh, hình ảnh. Tập trung vào các nguồn uy tín, sẵn sàng dùng cho nghiên cứu và xây dựng pipeline thực tế.
+A collection of media datasets for training and evaluating AI models on video, audio, and images. It focuses on reputable sources that are ready to use for research and real-world pipelines.
 
-# 1. Media
+## Media
 
-## 1.1. Video
+### Video
 
 - [facebook/seamless-interaction · Datasets at Hugging Face](https://huggingface.co/datasets/facebook/seamless-interaction)
+
+> **See also:** [Fitness Exercise Datasets](/Technology/AI/Resources/Datasets/Fitness Exercise Datasets) · [Vietnamese Language Datasets](/Technology/AI/Resources/Datasets/Vietnamese Language Datasets)

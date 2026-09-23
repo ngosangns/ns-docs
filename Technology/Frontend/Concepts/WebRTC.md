@@ -1,34 +1,33 @@
 ---
 area: technology
-domain: frontend
-topic: webrtc
-type: resource
-title: Webrtc
-description: WebRTC
-timestamp: "2026-06-19T13:43:26.144Z"
+domain: webrtc
+type: guide
+title: WebRTC
+description: An overview of WebRTC covering its core APIs, signaling, connection setup, NAT traversal, security, libraries and best practices for real-time browser communication.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - frontend
   - webrtc
+  - frontend
 resource: https://webrtc.org/
 ---
 
 # WebRTC
 
-## Tổng quan
+## Overview
 
-WebRTC (Web Real-Time Communication) là một công nghệ cho phép truyền tải audio, video, và data trực tiếp giữa browsers và applications mà không cần plugins hay native apps.
+WebRTC (Web Real-Time Communication) is a technology that lets browsers and applications stream audio, video, and data directly to each other without plugins or native apps.
 
-## Đặc điểm
+## Characteristics
 
-- **P2P communication**: Direct connection giữa peers
-- **No plugins**: Native browser support
-- **Secure**: DTLS và SRTP encryption
-- **Low latency**: Real-time communication
-- **Cross-platform**: Works on browsers và mobile
-- **Open source**: Free và open standard
+- **P2P communication**: direct connection between peers
+- **No plugins**: native browser support
+- **Secure**: DTLS and SRTP encryption
+- **Low latency**: real-time communication
+- **Cross-platform**: works on browsers and mobile
+- **Open source**: free and an open standard
 
-## Use cases
+## Use Cases
 
 - Video conferencing
 - Voice calls (VoIP)
@@ -40,10 +39,10 @@ WebRTC (Web Real-Time Communication) là một công nghệ cho phép truyền t
 
 ## Core Components
 
-### 1. MediaStream (getUserMedia)
+### MediaStream (getUserMedia)
 
-- Access camera và microphone
-- Capture screen
+- Access the camera and microphone
+- Capture the screen
 
 ```javascript
 navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream => {
@@ -51,22 +50,22 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: true }).then(stream =>
 })
 ```
 
-### 2. RTCPeerConnection
+### RTCPeerConnection
 
-- Core interface cho P2P connection
-- Handle audio, video, và data
-- Manage NAT traversal
+- Core interface for P2P connections
+- Handles audio, video, and data
+- Manages NAT traversal
 
 ```javascript
 const pc = new RTCPeerConnection()
 pc.addStream(stream)
 ```
 
-### 3. RTCDataChannel
+### RTCDataChannel
 
 - Bidirectional data transfer
 - Low latency
-- Ordered hoặc unordered delivery
+- Ordered or unordered delivery
 
 ```javascript
 const channel = pc.createDataChannel("chat")
@@ -75,13 +74,13 @@ channel.send("Hello!")
 
 ## Signaling
 
-WebRTC không định nghĩa signaling mechanism, nhưng cần để:
+WebRTC does not define a signaling mechanism, but one is needed to:
 
 - Exchange session descriptions (SDP)
 - Exchange ICE candidates
 - Coordinate communication
 
-### Common signaling methods
+### Common Signaling Methods
 
 - WebSocket
 - SSE (Server-Sent Events)
@@ -90,7 +89,7 @@ WebRTC không định nghĩa signaling mechanism, nhưng cần để:
 
 ## Connection Establishment
 
-### 1. Create Offer
+### Create Offer
 
 ```javascript
 const offer = await pc.createOffer()
@@ -98,7 +97,7 @@ await pc.setLocalDescription(offer)
 // Send offer to remote peer via signaling server
 ```
 
-### 2. Create Answer
+### Create Answer
 
 ```javascript
 await pc.setRemoteDescription(offer)
@@ -107,7 +106,7 @@ await pc.setLocalDescription(answer)
 // Send answer back via signaling server
 ```
 
-### 3. ICE Candidate Exchange
+### ICE Candidate Exchange
 
 ```javascript
 pc.onicecandidate = event => {
@@ -121,41 +120,41 @@ pc.onicecandidate = event => {
 
 ### STUN (Session Traversal Utilities for NAT)
 
-- Discover public IP và port
-- Works với 70-80% of NATs
+- Discovers the public IP and port
+- Works with 70-80% of NATs
 
 ### TURN (Traversal Using Relays around NAT)
 
 - Relay server for media
-- Fallback khi P2P fails
+- Fallback when P2P fails
 - Higher latency, more bandwidth
 
 ### ICE (Interactive Connectivity Establishment)
 
-- Tự động selection của best path
-- Thử STUN trước, TURN nếu cần
+- Automatically selects the best path
+- Tries STUN first, then TURN if needed
 
 ## Security
 
-- **DTLS**: Datagram TLS cho data channels
-- **SRTP**: Secure Real-time Transport Protocol cho media
-- **End-to-end encryption**: Media encrypted between peers
+- **DTLS**: Datagram TLS for data channels
+- **SRTP**: Secure Real-time Transport Protocol for media
+- **End-to-end encryption**: media is encrypted between peers
 
-## Libraries & Frameworks
+## Libraries And Frameworks
 
-- **Simple-Peer**: Simplified WebRTC wrapper
-- **PeerJS**: Complete P2P framework
-- **Jitsi Meet**: Open-source video conferencing
-- **Twilio**: Commercial WebRTC platform
-- **Agora**: Real-time engagement platform
+- **Simple-Peer**: simplified WebRTC wrapper
+- **PeerJS**: complete P2P framework
+- **Jitsi Meet**: open-source video conferencing
+- **Twilio**: commercial WebRTC platform
+- **Agora**: real-time engagement platform
 
-## Best practices
+## Best Practices
 
 - Handle connection failures gracefully
 - Implement reconnection logic
-- Test trên different networks (corporate, mobile, etc.)
-- Monitor bandwidth và quality
-- Use TURN servers cho corporate networks
+- Test on different networks (corporate, mobile, etc.)
+- Monitor bandwidth and quality
+- Use TURN servers for corporate networks
 - Implement proper error handling
 
 ## Resources
@@ -163,3 +162,5 @@ pc.onicecandidate = event => {
 - [WebRTC Official](https://webrtc.org/)
 - [WebRTC Samples](https://webrtc.github.io/samples/)
 - [MDN WebRTC Documentation](https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API)
+
+> **See also:** [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview) · [Web And Desktop Frameworks](/Technology/Frontend/Tools/Web And Desktop Frameworks)

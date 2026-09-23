@@ -1,11 +1,10 @@
 ---
 area: technology
 domain: iot
-topic: smart-home
-type: resource
+type: guide
 title: Smart Home
-description: Smart Home
-timestamp: "2026-06-19T13:43:26.137Z"
+description: Overview of smart home systems, covering components, protocols, use cases, automation scenarios, security, and popular platforms.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
@@ -15,35 +14,35 @@ resource: https://www.home-assistant.io/
 
 # Smart Home
 
-## Tổng quan
+## Overview
 
-Smart Home (Nhà thông minh) là hệ thống các thiết bị và công nghệ được kết nối với nhau để tự động hóa và điều khiển các chức năng trong ngôi nhà.
+A smart home is a system of interconnected devices and technologies that automate and control functions around the house.
 
-## Thành phần chính
+## Main Components
 
-### 1. Smart Hub/Controller
+### Smart Hub/Controller
 
-- Trung tâm điều khiển
-- Giao tiếp giữa các thiết bị
-- Ví dụ: Samsung SmartThings, Apple HomeKit, Google Nest Hub
+- Central control point
+- Mediates communication between devices
+- Examples: Samsung SmartThings, Apple HomeKit, Google Nest Hub
 
-### 2. Smart Sensors
+### Smart Sensors
 
-- Motion sensors (cảm biến chuyển động)
+- Motion sensors
 - Temperature/humidity sensors
 - Door/window sensors
 - Light sensors
 - Smoke/CO detectors
 
-### 3. Smart Actuators
+### Smart Actuators
 
-- Smart lights (bóng đèn thông minh)
-- Smart locks (khóa thông minh)
-- Smart thermostats (điều nhiệt)
-- Smart switches (công tắc thông minh)
-- Smart plugs (ổ cắm thông minh)
+- Smart lights
+- Smart locks
+- Smart thermostats
+- Smart switches
+- Smart plugs
 
-### 4. Smart Appliances
+### Smart Appliances
 
 - Smart TV
 - Smart refrigerator
@@ -55,7 +54,7 @@ Smart Home (Nhà thông minh) là hệ thống các thiết bị và công ngh�
 
 ### Wi-Fi
 
-- Phổ biến nhất
+- The most common
 - High bandwidth
 - Higher power consumption
 
@@ -87,32 +86,32 @@ Smart Home (Nhà thông minh) là hệ thống các thiết bị và công ngh�
 
 - Universal standard
 - Cross-platform compatibility
-- Apple, Google, Amazon, Samsung support
+- Supported by Apple, Google, Amazon, and Samsung
 
 ## Use Cases
 
-### 1. Home Security
+### Home Security
 
-- Smart doorbells với camera
-- Motion detection và alerts
+- Smart doorbells with cameras
+- Motion detection and alerts
 - Remote door locking
 - Security cameras
 
-### 2. Energy Management
+### Energy Management
 
 - Smart thermostats
 - Automated lighting
 - Energy monitoring
 - Solar integration
 
-### 3. Convenience
+### Convenience
 
 - Voice control (Alexa, Google Assistant, Siri)
 - Automated routines
 - Remote control via smartphone
 - Geofencing
 
-### 4. Entertainment
+### Entertainment
 
 - Multi-room audio
 - Smart TV integration
@@ -172,17 +171,19 @@ Play welcome music
 - **OpenHAB**: Vendor-neutral
 - **Node-RED**: Visual programming
 
-## Best practices
+## Best Practices
 
 - Start small, expand gradually
 - Choose interoperable devices
 - Plan network infrastructure
 - Consider privacy implications
-- Regular updates và maintenance
-- Backup automation configurations
+- Regular updates and maintenance
+- Back up automation configurations
 
 ## Resources
 
 - [Home Assistant](https://www.home-assistant.io/)
 - [Matter Standard](https://csa-iot.org/all-solutions/matter/)
 - [Smart Home Security Guide](https://www.cisa.gov/secure-our-world/secure-your-smart-home)
+
+> **See also:** [Communication Protocols](/Technology/IoT/Concepts/Communication Protocols) · [Hardware Platforms](/Technology/IoT/Concepts/Hardware Platforms) · [Best Practices](/Technology/IoT/Concepts/Best Practices)

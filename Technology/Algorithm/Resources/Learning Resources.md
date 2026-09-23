@@ -1,24 +1,24 @@
 ---
 area: technology
 domain: algorithms
-topic: golang
 type: resource
 title: Learning Resources
-description: Learning Resources
-timestamp: "2026-06-19T13:43:26.158Z"
+description: Curated list of articles, videos, courses, and practice sites for learning algorithms, data structures, and cryptography math.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
+  - learning
   - golang
 resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
 ---
 
 # Learning Resources
 
-## Mục lục
+## Table of Contents
 
 - [Resources](#resources)
-- [Ghi chú](#ghi-chú)
+- [Notes](#notes)
 - [Courses](#courses)
 - [Challenges](#challenges)
 
@@ -26,33 +26,33 @@ resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M3
 
 ![](/Attachments/0a1b2c3d-4e5f-6789-9a0b-c1d2e3f4a5b6.jpg)
 
-- Bảng thưa (Sparse Table): https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
-- [Tong Hop Cac Nguon On Luyen Thuat Toan Coding Interview](/Technology/Career/Tools/Tong Hop Cac Nguon On Luyen Thuat Toan Coding Interview)
+- Sparse Table: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M39YW3PQ8NMKQ-_euPZmT9O1nUDoyWCHrUX8FspFMsSrw6wzm3ocESbA
+- [Coding Interview Resources](/Technology/Career/Resources/Coding Interview Resources)
 - [Le Minh Hoang Book Notes](/Technology/Algorithm/Resources/Le Minh Hoang Book Notes)
 - [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches)
-- Thuật toán Dijkstra - Tìm đường đi ngắn nhất: https://chidokun.github.io/2021/09/dijkstra-algorithm
-- LeetCode: Dễ dàng nhận biết 5 dạng bài Dynamic Programming: https://viblo.asia/p/leetcode-de-dang-nhan-biet-5-dang-bai-dynamic-programming-x7Z4Dn90LnX
+- Dijkstra's algorithm - shortest paths: https://chidokun.github.io/2021/09/dijkstra-algorithm
+- LeetCode: Easily recognize the 5 types of Dynamic Programming problems: https://viblo.asia/p/leetcode-de-dang-nhan-biet-5-dang-bai-dynamic-programming-x7Z4Dn90LnX
 - Algorithms & data-structures Full Crash Course - https://www.youtube.com/watch?v=jQqQpPMYPXs
   - Binary Search Tree: https://www.youtube.com/watch?v=mQMpamkUgW8
   - Graph:
-    - Tính chất: https://www.youtube.com/watch?v=sY3kvaA9Xok
-    - Phân loại: https://www.youtube.com/watch?v=L1tj-q1eQxM
-    - Thể hiện trong lập trình: https://www.youtube.com/watch?v=vrD0n8hJGXQ
-    - Các bài toán hay gặp: https://www.youtube.com/watch?v=NLl6YF0wzvk
+    - Properties: https://www.youtube.com/watch?v=sY3kvaA9Xok
+    - Classification: https://www.youtube.com/watch?v=L1tj-q1eQxM
+    - Representation in code: https://www.youtube.com/watch?v=vrD0n8hJGXQ
+    - Common problems: https://www.youtube.com/watch?v=NLl6YF0wzvk
     - Depth First Search: https://www.youtube.com/watch?v=wyt7HxulLS4
-    - Breadth First Search - Áp dụng trong bài toán tìm đường: https://www.youtube.com/watch?v=JvZVRYwjRng
-- Playlist thực hành giải các bài thuật toán by TopCoder: https://www.youtube.com/playlist?list=PLWYOT8C61ll3k_tgJetHkHGtePJ3zn098
-  - Các trang học thuật toán: https://www.youtube.com/watch?v=jH9w5NKWlzA
-- Bài giải các challenges bằng Go: https://github.com/aQuaYi/LeetCode-in-Go
-- Giới thiệu về loạt thuật toán mật mã học: https://viblo.asia/s/cryptography-p0-gioi-thieu-ve-loat-bai-viet-ve-mat-ma-hoc-obA46emMVKv
+    - Breadth First Search - applied to pathfinding: https://www.youtube.com/watch?v=JvZVRYwjRng
+- Hands-on algorithm problem-solving playlist by TopCoder: https://www.youtube.com/playlist?list=PLWYOT8C61ll3k_tgJetHkHGtePJ3zn098
+  - Sites for learning algorithms: https://www.youtube.com/watch?v=jH9w5NKWlzA
+- Challenge solutions in Go: https://github.com/aQuaYi/LeetCode-in-Go
+- Introduction to a series on cryptographic algorithms: https://viblo.asia/s/cryptography-p0-gioi-thieu-ve-loat-bai-viet-ve-mat-ma-hoc-obA46emMVKv
 - Modular math in Cryptography: https://viblo.asia/p/modular-math-in-cryptography-module-trong-mat-ma-hoc-BQyJKaEwVMe
-- [Định Lý Thặng Dư Trung Hoa - Viblo](https://viblo.asia/p/dinh-ly-thang-du-trung-hoa-chinese-remainder-theorem-AoJe8wjA41j)
+- [Chinese Remainder Theorem - Viblo](https://viblo.asia/p/dinh-ly-thang-du-trung-hoa-chinese-remainder-theorem-AoJe8wjA41j)
 
-## Ghi chú
+## Notes
 
-- Có thể giảm nhẹ thuật toán bằng cách chỉnh sửa tập data input
-- Khi cần phân tách các thành phần của một tập dữ liệu có cấu trúc giống nhau có thể sử dụng tree, node
-- Tổng hợp các nguồn ôn luyện thuật toán & Coding interview: https://app.cloverapp.com/page/82a37546-fad0-4662-ae86-c8d96ad55163
+- An algorithm can often be simplified by adjusting the input data set
+- When you need to decompose the components of a data set with a uniform structure, you can use trees and nodes
+- Collection of sources for algorithm practice & coding interviews: https://app.cloverapp.com/page/82a37546-fad0-4662-ae86-c8d96ad55163
 
 ## Courses
 
@@ -64,3 +64,5 @@ resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M3
 ## Challenges
 
 - Viblo Code - https://code.viblo.asia
+
+> **See also:** [Coding Interview Resources](/Technology/Career/Resources/Coding Interview Resources) · [Le Minh Hoang Book Notes](/Technology/Algorithm/Resources/Le Minh Hoang Book Notes)

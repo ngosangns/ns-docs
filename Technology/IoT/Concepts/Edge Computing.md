@@ -1,34 +1,37 @@
 ---
 area: technology
 domain: iot
-type: resource
+type: guide
 title: Edge Computing
-description: Edge Computing
-timestamp: "2026-06-19T13:43:26.135Z"
+description: Benefits, device types, and use cases of processing IoT data at the edge instead of in the cloud.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - iot
+  - edge
 ---
 
 # Edge Computing
 
-## Lợi ích
+## Benefits
 
-- **Low latency**: Xử lý tại chỗ, không cần gửi lên cloud
-- **Bandwidth savings**: Giảm lượng data cần truyền
-- **Privacy**: Data không rời khỏi local network
-- **Reliability**: Hoạt động ngay cả khi mất kết nối internet
-- **Cost**: Giảm cloud storage và processing costs
+- **Low latency**: Process data on site, with no need to send it to the cloud
+- **Bandwidth savings**: Reduce the amount of data that has to be transmitted
+- **Privacy**: Data never leaves the local network
+- **Reliability**: Keeps working even when the internet connection is lost
+- **Cost**: Reduces cloud storage and processing costs
 
 ## Edge Devices
 
 - **Gateways**: Raspberry Pi, industrial gateways
-- **Edge servers**: Mini data centers tại edge
-- **Fog computing**: Intermediate layer giữa edge và cloud
+- **Edge servers**: Mini data centers at the edge
+- **Fog computing**: An intermediate layer between the edge and the cloud
 
-## Use Cases cho Edge
+## Edge Use Cases
 
-- Real-time control (như button presses trong [Smart Home](/Technology/IoT/Concepts/Smart Home))
+- Real-time control (such as button presses in [Smart Home](/Technology/IoT/Concepts/Smart Home))
 - Local automation rules
-- Data filtering và aggregation trước khi gửi cloud
+- Data filtering and aggregation before sending to the cloud
 - Offline operation
+
+> **See also:** [Hardware Platforms](/Technology/IoT/Concepts/Hardware Platforms) · [Best Practices](/Technology/IoT/Concepts/Best Practices) · [Industrial IoT](/Technology/IoT/Practices/Industrial IoT)

@@ -1,73 +1,76 @@
 ---
 area: technology
 domain: frontend
-type: resource
+type: guide
 title: 37 Tips From A Senior Frontend Developer
-description: Tips from a Senior Frontend Developer
-timestamp: "2026-06-19T13:43:26.143Z"
+description: A condensed list of 37 career, coding, communication and mindset tips from a senior frontend developer.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - frontend
+  - career
 resource: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b
 ---
 
-# 37 Tips from a Senior Frontend Developer
+# 37 Tips From A Senior Frontend Developer
 
 Source: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b
 
-## Fundamentals & Learning
+## Fundamentals And Learning
 
-- **Master fundamentals**: HTML, CSS, JavaScript trước khi học frameworks
+- **Master fundamentals**: HTML, CSS, and JavaScript before learning frameworks
 - **Understand how the web works**: HTML (structure), CSS (styling), JavaScript (interactivity)
-- **data-structures & Algorithms**: Stack, Queue, Hashmap, Set, Graph, Dynamic programming, Greedy algorithm, Recursion
-- **Learn by doing**: Tránh tutorial hell, thực hành và dạy lại
-- **Ask for help properly**: Tìm kiếm trước, hiểu vấn đề, ghi lại các thử nghiệm thất bại
+- **Data structures and algorithms**: Stack, Queue, Hashmap, Set, Graph, Dynamic programming, Greedy algorithm, Recursion
+- **Learn by doing**: avoid tutorial hell; practice and teach what you learn
+- **Ask for help properly**: search first, understand the problem, write down the failed attempts
 
 ## Code Quality
 
-- **Don't copy/paste code you don't understand**: Rủi ro bảo mật, khó debug
-- **Don't blindly apply advice**: Đánh giá xem có phù hợp với context không
-- **Prefer dumb code over clever code**: Readability > Performance > Cleverness
-- **Done is better than perfect**: Tránh trì hoãn, overcomplexity
+- **Don't copy/paste code you don't understand**: security risks, hard to debug
+- **Don't blindly apply advice**: evaluate whether it fits your context
+- **Prefer dumb code over clever code**: readability > performance > cleverness
+- **Done is better than perfect**: avoid procrastination and overcomplexity
 
 ## Work Management
 
-- **Break tasks into manageable ones**: Tránh overwhelm, dễ review PR, có cảm giác tiến bộ
-- **Time management**: Chia nhỏ công việc
-- **Focus on delivering value**: Code phải phục vụ customer, company, stakeholders
-- **Reduce features vs. quality**: Khi thiếu thời gian, cắt features thay vì giảm chất lượng code
+- **Break tasks into manageable ones**: avoids overwhelm, makes PRs easier to review, and gives a sense of progress
+- **Time management**: split work into smaller pieces
+- **Focus on delivering value**: code must serve customers, the company, and stakeholders
+- **Reduce features vs. quality**: when short on time, cut features rather than code quality
 
-## Communication & Teamwork
+## Communication And Teamwork
 
-- **Show enthusiasm**: Bù đắp thiếu sót bằng sự nhiệt tình
-- **Stay open to learning**: Frontend luôn thay đổi
+- **Show enthusiasm**: make up for gaps with enthusiasm
+- **Stay open to learning**: frontend is always changing
 - **Master dev tools**: IDE, source control, browser inspector
-- **Advocate for your work**: Chia sẻ qua writing, demos
+- **Advocate for your work**: share through writing and demos
 - **Develop communication skills**: RFCs, demos, presentations
-- **Understand collaborators**: Backend devs, designers, PMs
+- **Understand collaborators**: backend devs, designers, PMs
 
 ## Career Development
 
-- **Manager relationship**: Manager là đồng minh tốt nhất, làm cho cuộc sống manager dễ hơn
-- **Understand big picture**: Không chỉ code monkey, hiểu context và giá trị
-- **Contribute to team**: Documentation, tech talk, demos
-- **Become "go-to-person"**: T-shaped skills - broad knowledge với deep expertise
-- **Take ownership of career**: Tạo kế hoạch 1/2/5 năm
-- **Hang with other devs**: Tránh impostor syndrome, học hỏi
-- **Mentor younger devs**: Khẳng định bản thân, chữa impostor syndrome
-- **Diversify problems**: Tránh plateau, so sánh approaches
-- **Find mentors**: Giữ grounded, tránh lỗi
+- **Manager relationship**: your manager is your best ally; make their life easier
+- **Understand the big picture**: don't be just a code monkey; understand context and value
+- **Contribute to the team**: documentation, tech talks, demos
+- **Become the "go-to person"**: T-shaped skills, meaning broad knowledge with deep expertise
+- **Take ownership of your career**: make 1/2/5-year plans
+- **Hang out with other devs**: avoids impostor syndrome and helps you learn
+- **Mentor younger devs**: builds confidence and cures impostor syndrome
+- **Diversify problems**: avoid plateaus and compare approaches
+- **Find mentors**: keeps you grounded and helps you avoid mistakes
 
 ## Technical
 
-- **Commit to a framework**: Master một framework, ignore debates
-- **Think of user experience**: Loading states, progress, feedback
-- **Be comfortable saying no**: Ưu tiên requests phù hợp với goals
-- **Continuously invest in skills**: Học ngôn ngữ mới, kỹ thuật mới
-- **Take breaks when stuck**: Nghỉ ngơi để có ý tưởng mới
-- **Work from strengths**: Tập trung vào điểm mạnh thay vì sửa điểm yếu
+- **Commit to a framework**: master one framework and ignore the debates
+- **Think of user experience**: loading states, progress, feedback
+- **Be comfortable saying no**: prioritize requests that fit your goals
+- **Continuously invest in skills**: learn new languages and techniques
+- **Take breaks when stuck**: rest to get fresh ideas
+- **Work from strengths**: focus on strengths instead of fixing weaknesses
 
 ## Mindset
 
-- **Assume good intent**: Company muốn bạn thành công
-- **Be trusted**: Reliable với simple tasks, seek help khi cần, communicate problems
+- **Assume good intent**: the company wants you to succeed
+- **Be trusted**: be reliable on simple tasks, seek help when needed, communicate problems
+
+> **See also:** [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview) · [Web Developer Interview Insights](/Technology/Frontend/Resources/Web Developer Interview Insights)

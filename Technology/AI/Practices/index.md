@@ -1,13 +1,12 @@
 # Concepts
 
-- [Code World Model](Technology/AI/Practices/Code%20World%20Model.md) - Code World Model (CWM)
-- [Human Action Recognition](Technology/AI/Practices/Human%20Action%20Recognition.md) - Human Action Recognition
-- [ML Feature Store Doordash Redis Optimization](Technology/AI/Practices/ML%20Feature%20Store%20Doordash%20Redis%20Optimization.md) - ML Feature Store - DoorDash Redis Optimization
-- [Pose Estimation](Technology/AI/Practices/Pose%20Estimation.md) - Pose Estimation
-- [Queuing Theory In Model Serving](Technology/AI/Practices/Queuing%20Theory%20In%20Model%20Serving.md) - Queuing Theory trong Model Serving - Debug Latency
-- [Queuing Theory Trong Model Serving](Technology/AI/Practices/Queuing%20Theory%20Trong%20Model%20Serving.md) - Queuing Theory trong Model Serving - Debug Latency
-- [RAG Tutorial Neo4j Graphrag](Technology/AI/Practices/RAG%20Tutorial%20Neo4j%20Graphrag.md) - RAG Tutorial - Neo4j GraphRAG
-- [Recommender Systems](Technology/AI/Practices/Recommender%20Systems.md) - Recommender Systems - TikTok-like và AWS Personalize với GenAI
-- [Recommender Systems Tiktok Like Va AWS Personalize Voi GenAI](Technology/AI/Practices/Recommender%20Systems%20Tiktok%20Like%20Va%20AWS%20Personalize%20Voi%20GenAI.md) - Recommender Systems - TikTok-like và AWS Personalize với GenAI
-- [Senator Knowledge Gap Detection](Technology/AI/Practices/Senator%20Knowledge%20Gap%20Detection.md) - SENATOR - Knowledge Gap Detection và Vá Lỗ Hổng Kiến Thức
-- [Tiktok Strategy](Technology/AI/Practices/Tiktok%20Strategy.md) - Làm thế nào mà chỉ sau 3 tháng, kênh TikTok của bạn có thể đạt hàng trăm nghìn followers?
+- [Code World Model](Technology/AI/Practices/Code%20World%20Model.md) - Overview of Meta's Code World Model (CWM), a 32B-parameter language model that simulates code execution, with benchmark results and download links.
+- [DoorDash Feature Store Redis Optimization](Technology/AI/Practices/DoorDash%20Feature%20Store%20Redis%20Optimization.md) - How DoorDash benchmarked key-value stores and tuned Redis with hashes, xxHash, protobuf, and Snappy to cut its ML feature store's cost, memory, CPU, and latency.
+- [Human Action Recognition](Technology/AI/Practices/Human%20Action%20Recognition.md) - Explains why combining 3D-CNN with LSTM handles long, multi-stage human actions in video better than either model alone.
+- [Pose Estimation](Technology/AI/Practices/Pose%20Estimation.md) - Introduces pose estimation, the task of locating human body keypoints in images and video, and the popular YOLO-Pose and MediaPipe Pose solutions.
+- [Queuing Theory In Model Serving](Technology/AI/Practices/Queuing%20Theory%20In%20Model%20Serving.md) - A debugging story showing how modeling replayed traffic as a Poisson process, rather than fixed intervals, explained a 2x p99 latency gap in GPU model serving.
+- [RAG Tutorial Neo4j GraphRAG](Technology/AI/Practices/RAG%20Tutorial%20Neo4j%20GraphRAG.md) - Step-by-step tutorial on building a RAG system on a Neo4j knowledge graph with LangChain, plus best practices and common pitfalls for GraphRAG.
+- [Recommender Systems](Technology/AI/Practices/Recommender%20Systems.md) - Overview of recommender system design, from a two-tower four-stage architecture to an AWS Personalize and generative-AI marketing solution, with a comparison of the two approaches.
+- [Senator Knowledge Gap Detection](Technology/AI/Practices/Senator%20Knowledge%20Gap%20Detection.md) - Explains SENATOR, a framework that uses structural entropy, a knowledge graph, and MCTS to find LLM knowledge gaps and patch them with targeted synthetic-data fine-tuning.
+- [TikTok Like Recommender And AWS Personalize](Technology/AI/Practices/TikTok%20Like%20Recommender%20And%20AWS%20Personalize.md) - Walkthrough of a TikTok-style two-tower recommender for H&M and an AWS Personalize plus Bedrock ad-copy solution, with a comparison of when to use each.
+- [TikTok Strategy](Technology/AI/Practices/TikTok%20Strategy.md) - A first-person account of three AI-assisted workflows (research, retention optimization, and a 30-day content factory) for growing a TikTok channel quickly.

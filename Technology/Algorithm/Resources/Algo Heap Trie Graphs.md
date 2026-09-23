@@ -1,17 +1,20 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: cheatsheet
+domain: data-structures
+type: guide
 title: Algo Heap Trie Graphs
-description: Heap / Priority Queue
-timestamp: "2026-06-19T13:43:26.155Z"
+description: TypeScript notes on heaps and priority queues, tries, graph representations and traversals, maps, and LRU cache design.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - data-structures
   - algorithms
   - golang
+  - typescript
 resource: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thong-tim-kiem-gwd43jOjVX9
 ---
+
+# Algo Heap Trie Graphs
 
 ## Heap / Priority Queue
 
@@ -133,7 +136,7 @@ export default class MinHeap {
 
 ## Trie / Prefix Tree / Digital Tree
 
-- Autocomplete - Bài toán kinh điển trong các hệ thống tìm kiếm: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thong-tim-kiem-gwd43jOjVX9
+- Autocomplete - a classic problem in search systems: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thong-tim-kiem-gwd43jOjVX9
 - Autocomplete problems
 - Cashing problems
 
@@ -473,3 +476,5 @@ export default class LRU<K, V> {
   }
 }
 ```
+
+> **See also:** [Algo Trees](/Technology/Algorithm/Resources/Algo Trees) · [Data Structures Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview) · [Bloom Filter](/Technology/Algorithm/Concepts/Specialized/Bloom Filter)

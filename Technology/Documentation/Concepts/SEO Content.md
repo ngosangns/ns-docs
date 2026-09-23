@@ -1,21 +1,26 @@
 ---
 area: technology
-domain: documentation
+domain: seo
 type: resource
 title: SEO Content
-description: "Audio: https://www.myinstants.com/en/index/vn"
-timestamp: "2026-06-19T13:43:26.144Z"
+description: A short curated list of tools and SEO reading for producing audio, ideas, background videos and SEO content for Vietnamese websites.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - documentation
+  - seo
+  - content
 resource: https://www.myinstants.com/en/index/vn
 ---
 
-# 1. Resources
+# SEO Content
+
+## Resources
 
 - Audio: https://www.myinstants.com/en/index/vn
 - Ideas: https://answerthepublic.com
 - Background videos: https://twelvelabs.io
-- Tổng hợp những bài viết hay nhất từ GTV SEO: https://gtvseo.com/seo
-- CHIẾN THUẬT SEO WEBSITE THƯƠNG MẠI ĐIỆN TỬ: https://gtvseo.com/ebook-thank-you-seo-ecommerce
-- SEO TRANG SỨC KHỎE: https://gtvseo.com/ebook-thank-you-medical
+- A roundup of the best articles from GTV SEO: https://gtvseo.com/seo
+- E-commerce website SEO strategy (ebook): https://gtvseo.com/ebook-thank-you-seo-ecommerce
+- Health website SEO (ebook): https://gtvseo.com/ebook-thank-you-medical
+
+> **See also:** [Developer Resources](/Technology/Documentation/Resources/Developer Resources) · [Tech Blogs And Books](/Technology/Documentation/Resources/Tech Blogs And Books)

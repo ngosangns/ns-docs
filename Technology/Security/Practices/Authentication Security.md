@@ -1,161 +1,163 @@
 ---
 area: technology
-domain: security
-type: resource
+domain: authentication
+type: guide
 title: Authentication Security
-description: Authentication Security
-timestamp: "2026-06-19T13:43:26.126Z"
+description: A checklist of security measures for login, logout, forgot-password and registration flows, plus practical deployment caveats.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - authentication
   - security
-resource: https://example.com/reset-password?token=...`
 ---
 
 # Authentication Security
 
-> **Lưu ý**: Không phải dự án nào cũng cần thực hiện tất cả các chức năng dưới đây. Cân nhắc kỹ dựa vào quy mô dự án và tham khảo từ Senior/SA có kinh nghiệm.
+> **Note**: Not every project needs every feature below. Weigh each item against the project's scale and consult an experienced Senior/SA (solution architect).
 
-## 7.1. Login
+## Login
 
 - **Input validation**
-  - Kiểm tra định dạng email/username và password trước khi gửi lên server
+  - Validate the email/username and password format before sending them to the server
 - **Password security**
-  - Bắt buộc mật khẩu mạnh (tối thiểu 8 ký tự, chữ hoa, chữ thường, số, ký tự đặc biệt)
-  - Hash password bằng bcrypt, Argon2, scrypt (không lưu plain text)
+  - Enforce strong passwords (at least 8 characters, with uppercase, lowercase, digits and special characters)
+  - Hash passwords with bcrypt, Argon2 or scrypt (never store plain text)
 - **Session management**
-  - Tạo session phía server và gửi session ID qua cookie (nếu dùng session)
-  - Regenerate session ID sau khi đăng nhập thành công (tránh session fixation)
-  - Hạn chế thời gian sống của session
+  - Create the session on the server and send the session ID via cookie (if using sessions)
+  - Regenerate the session ID after a successful login (prevents session fixation)
+  - Limit session lifetime
 - **Token-based auth (JWT)**
-  - Tạo access token và refresh token sau khi xác thực
-  - Gửi về client để lưu trữ
+  - Issue an access token and a refresh token after authentication
+  - Send them to the client for storage
 - **Secure cookies**
-  - Đặt HttpOnly, Secure, SameSite khi lưu token/session ID trong cookie
+  - Set HttpOnly, Secure and SameSite when storing tokens/session IDs in cookies
 - **CSRF protection**
-  - Kết hợp CSRF token nếu dùng cookie để lưu auth info
+  - Add a CSRF token if cookies are used to hold auth information
 - **Two-Factor Authentication (2FA)**
-  - Hỗ trợ xác thực 2 bước qua email/SMS hoặc app (Google Authenticator)
+  - Support two-step verification via email/SMS or an app (Google Authenticator)
 - **"Remember me" support**
-  - Lưu refresh token/token sống lâu để duy trì đăng nhập giữa các phiên
+  - Store a long-lived refresh token/token to keep the user signed in across sessions
 - **Account lockout policy**
-  - Tạm khóa tài khoản sau X lần đăng nhập sai liên tiếp (ví dụ: 5 lần) để ngăn brute force
+  - Temporarily lock the account after X consecutive failed logins (for example 5) to prevent brute force
 - **Rate limiting**
-  - Giới hạn số lần login trong một khoảng thời gian
+  - Limit the number of login attempts within a time window
 - **CAPTCHA**
-  - Thêm CAPTCHA sau vài lần login sai liên tục
-- **Device Fingerprinting**
-  - Thu thập đặc điểm thiết bị (user-agent, canvas, WebGL, timezone, ...)
-  - Hash thành device ID
-  - Phát hiện thiết bị lạ => Gửi email cảnh báo, yêu cầu xác minh OTP
-- **GeoIP Tracking**
-  - Phát hiện đăng nhập từ IP quốc gia lạ
-  - Gửi email cảnh báo, yêu cầu xác minh OTP
+  - Add a CAPTCHA after several consecutive failed logins
+- **Device fingerprinting**
+  - Collect device characteristics (user-agent, canvas, WebGL, timezone, ...)
+  - Hash them into a device ID
+  - When an unfamiliar device is detected => send a warning email and require OTP verification
+- **GeoIP tracking**
+  - Detect logins from an IP in an unusual country
+  - Send a warning email and require OTP verification
 - **Frontend error feedback**
-  - Hiển thị lỗi cụ thể (sai mật khẩu, tài khoản không tồn tại, tài khoản bị khóa, ...)
+  - Show specific errors (wrong password, account does not exist, account locked, ...)
 - **Logging**
-  - Ghi log tất cả hành vi đăng nhập thành công/thất bại (id, email, thời điểm, IP, thiết bị, ...)
+  - Log every successful/failed login (id, email, time, IP, device, ...)
 
-## 7.2. Logout
+## Logout
 
 - **Session invalidation**
-  - Xóa session phía server hoàn toàn để ngăn reuse session đã hết hạn
+  - Fully delete the session on the server to prevent reuse of an expired session
 - **CSRF protection**
-  - Yêu cầu CSRF token hợp lệ khi gọi API logout
+  - Require a valid CSRF token when calling the logout API
 - **Token revocation (JWT)**
-  - Đánh dấu token không hợp lệ (revoked) qua blacklist trong Redis
-  - Hoặc đặt thời gian sống rất ngắn cho token và dùng refresh token
+  - Mark the token as revoked through a blacklist in Redis
+  - Or give tokens a very short lifetime and rely on refresh tokens
 - **Clear cookies**
-  - Xóa toàn bộ cookies chứa thông tin xác thực (access token, refresh token, session ID, ...) ở phía client
+  - Delete all cookies that hold authentication data (access token, refresh token, session ID, ...) on the client
 - **Redirect**
-  - Điều hướng đến trang đăng nhập hoặc trang chủ sau khi logout thành công
+  - Redirect to the login page or home page after a successful logout
 - **Frontend state cleanup**
-  - Xóa dữ liệu người dùng khỏi state/Redux/Context/... để tránh hiển thị thông tin nhạy cảm
+  - Remove user data from state/Redux/Context/... to avoid displaying sensitive information
 - **Invalidate refresh token**
-  - Hủy hoặc xóa refresh token khỏi cơ sở dữ liệu
-- **Logout tất cả sessions (tùy chọn)**
-  - Cho phép logout toàn bộ thiết bị, một thiết bị cụ thể, hoặc chỉ thiết bị hiện tại
+  - Revoke or delete the refresh token from the database
+- **Log out of all sessions (optional)**
+  - Let users log out of all devices, a specific device, or only the current device
 - **Frontend error feedback**
-  - Try catch để thông báo lỗi cho người dùng nếu logout thất bại
+  - Use try/catch to notify the user if logout fails
 - **Logging**
-  - Ghi lại tất cả hành vi logout thành công/thất bại (id, email, thời điểm, IP, thiết bị, ...)
+  - Log every successful/failed logout (id, email, time, IP, device, ...)
 
-## 7.3. Forgot Password
+## Forgot Password
 
 - **Email/username verification**
-  - Kiểm tra email/username có tồn tại trong hệ thống trước khi gửi link reset
-- **Rate limiting và abuse protection**
-  - Giới hạn số lần yêu cầu quên mật khẩu từ một IP hoặc cho một email
-- **Generate secure token**
-  - Tạo token ngẫu nhiên, đủ độ dài (32-64 ký tự), khó đoán, dùng một lần
+  - Check that the email/username exists in the system before sending a reset link
+- **Rate limiting and abuse protection**
+  - Limit forgot-password requests per IP or per email
+- **Generate a secure token**
+  - Create a random, sufficiently long (32-64 characters), hard-to-guess, single-use token
 - **Token expiration**
-  - Token reset phải có thời hạn ngắn (ví dụ: 15 phút)
-- **Gửi email reset link**
-  - Gửi email chứa link reset dạng `https://example.com/reset-password?token=...`
-- **Lưu trữ token**
-  - Lưu token vào database kèm thời gian hết hạn, gắn với user (nếu không dùng JWT)
-- **Form reset password**
-  - Kiểm tra token còn hợp lệ
-  - Mật khẩu mới phải đủ mạnh (kèm xác nhận lại)
-  - Có xác thực CSRF nếu dùng cookie
-- **Token one-time usage**
-  - Vô hiệu hóa token ngay sau khi reset mật khẩu thành công
+  - The reset token must expire quickly (for example after 15 minutes)
+- **Send the reset link by email**
+  - Send an email containing a reset link such as `https://example.com/reset-password?token=...`
+- **Token storage**
+  - Store the token in the database with its expiry time, linked to the user (if not using JWT)
+- **Reset password form**
+  - Check that the token is still valid
+  - The new password must be strong enough (with confirmation re-entry)
+  - Verify CSRF if cookies are used
+- **One-time token usage**
+  - Invalidate the token immediately after a successful password reset
 - **Password security**
-  - Mật khẩu mới bắt buộc mạnh (tối thiểu 8 ký tự, chữ hoa, chữ thường, số, ký tự đặc biệt)
-  - Hash password bằng bcrypt, Argon2, scrypt (không lưu plain text)
-- **Thông báo sau khi reset**
-  - Gửi email thông báo khi mật khẩu đã được thay đổi
-- **Logout tất cả sessions (tùy chọn)**
-  - Cho phép logout tất cả session hiện tại sau khi reset mật khẩu
+  - The new password must be strong (at least 8 characters, with uppercase, lowercase, digits and special characters)
+  - Hash passwords with bcrypt, Argon2 or scrypt (never store plain text)
+- **Post-reset notification**
+  - Send an email notifying the user that the password was changed
+- **Log out of all sessions (optional)**
+  - Allow logging out all current sessions after a password reset
 - **Frontend error feedback**
-  - Thông báo lỗi cụ thể (token hết hạn, mật khẩu quá yếu, ...)
+  - Show specific errors (token expired, password too weak, ...)
 - **Logging**
-  - Ghi lại hành vi reset mật khẩu thành công/thất bại (id, email, thời điểm, IP, thiết bị, ...)
+  - Log every successful/failed password reset (id, email, time, IP, device, ...)
 
-## 7.4. Register
+## Register
 
 - **Input validation**
-  - Kiểm tra định dạng email, độ mạnh mật khẩu, username không chứa ký tự đặc biệt
-  - Xác nhận 2 lần nhập mật khẩu khớp nhau (cả client và server)
+  - Check the email format, password strength, and that the username has no special characters
+  - Confirm that the two password entries match (on both client and server)
 - **Duplicate check**
-  - Kiểm tra email/username đã tồn tại trong hệ thống chưa
+  - Check whether the email/username already exists in the system
 - **Password security**
-  - Bắt buộc mật khẩu mạnh (tối thiểu 8 ký tự, chữ hoa, chữ thường, số, ký tự đặc biệt)
-  - Hash password bằng bcrypt, Argon2, scrypt (không lưu plain text)
+  - Enforce strong passwords (at least 8 characters, with uppercase, lowercase, digits and special characters)
+  - Hash passwords with bcrypt, Argon2 or scrypt (never store plain text)
 - **Email verification**
-  - Gửi email xác thực tài khoản (kèm link hoặc mã xác nhận)
+  - Send an account verification email (with a link or confirmation code)
 - **Rate limiting & bot protection**
-  - Giới hạn số lần đăng ký từ một IP
-  - Kết hợp CAPTCHA/reCAPTCHA để ngăn bot tạo tài khoản ảo
+  - Limit the number of registrations from one IP
+  - Combine with CAPTCHA/reCAPTCHA to stop bots from creating fake accounts
 - **Username/email normalization**
-  - Chuyển email về dạng chuẩn (lowercase, bỏ khoảng trắng đầu/cuối, ...)
+  - Convert the email to a canonical form (lowercase, trim leading/trailing whitespace, ...)
 - **Set default user role/status**
-  - Gán role mặc định (ví dụ: user) và trạng thái unverified nếu chưa xác minh email
-- **Tạo các thực thể liên quan**
-  - Tạo profile, cart, favorites, ... tùy theo nghiệp vụ ứng dụng
-- **Gửi welcome email**
-  - Gửi email chào mừng kèm hướng dẫn xác minh, sử dụng, hỗ trợ, ...
+  - Assign a default role (for example user) and an unverified status until the email is verified
+- **Create related entities**
+  - Create the profile, cart, favorites, ... depending on the application's business logic
+- **Send a welcome email**
+  - Send a welcome email with instructions for verification, usage, support, ...
 - **Secure session/token issuance**
-  - Tự động đăng nhập người dùng sau khi đăng ký thành công (tạo session hoặc cấp access token)
+  - Automatically sign the user in after successful registration (create a session or issue an access token)
 - **CSRF protection**
-  - Bảo vệ form đăng ký bằng CSRF token nếu dùng cookie
+  - Protect the registration form with a CSRF token if cookies are used
 - **Email/phone confirmation reminder UI**
-  - Hiển thị thông báo yêu cầu xác minh tài khoản kèm button gửi lại mã xác thực/email
+  - Show a notice asking the user to verify the account, with a button to resend the verification code/email
 - **Terms of Service & Privacy Policy agreement**
-  - Bắt buộc người dùng đồng ý với điều khoản sử dụng và chính sách bảo mật
+  - Require the user to agree to the terms of use and privacy policy
 - **Frontend error feedback**
-  - Thông báo lỗi cụ thể (mật khẩu quá yếu, tài khoản đã tồn tại, ...)
+  - Show specific errors (password too weak, account already exists, ...)
 - **Logging**
-  - Ghi lại hành vi đăng ký (id, email, thời điểm, IP, thiết bị, ...)
+  - Log registrations (id, email, time, IP, device, ...)
 
-## 7.5. Lưu ý thực tế khi triển khai
+## Practical Deployment Notes
 
-- **Thay đổi IP (đổi mạng wifi, chuyển 3G/4G)**
-  - Trao đổi với người có kinh nghiệm để xem xét trường hợp nào cần thông báo cho người dùng
+- **IP changes (switching wifi networks, moving to 3G/4G)**
+  - Consult someone experienced to decide which cases warrant notifying the user
 - **VPN**
-  - Cho phép người dùng xác nhận "Đó là tôi" nếu dùng VPN gây nhầm lẫn
+  - Let users confirm "It's me" if a VPN causes false alarms
 - **Private mode**
-  - Fingerprint có thể bị lỗi => fallback về IP + user-agent nếu cần
-- **Quyền riêng tư**
-  - Thông báo rõ cho người dùng về thu thập fingerprint/IP trong Privacy Policy
-- **UX mượt mà**
-  - Không ép xác minh quá nhiều, tránh gây khó chịu cho người dùng
+  - Fingerprinting may fail => fall back to IP + user-agent if needed
+- **Privacy**
+  - Clearly tell users about fingerprint/IP collection in the Privacy Policy
+- **Smooth UX**
+  - Don't force too much verification, to avoid annoying users
+
+> **See also:** [Security Tools](/Technology/Security/Tools/Security Tools) · [CVE-2026-40175 Axios IMDS Bypass](/Technology/Security/Write Ups/CVE-2026-40175 Axios IMDS Bypass)

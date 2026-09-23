@@ -1,461 +1,466 @@
 ---
 area: technology
-domain: ai-ml
-type: resource
+domain: recommender-systems
+type: guide
 title: Recommender Systems
-description: Recommender Systems - TikTok-like và AWS Personalize với GenAI
-timestamp: "2026-06-19T13:43:26.166Z"
+description: Overview of recommender system design, from a two-tower four-stage architecture to an AWS Personalize and generative-AI marketing solution, with a comparison of the two approaches.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
+  - recommender-systems
+  - aws
+  - personalize
+  - genai
 resource: https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a
 ---
 
-# Recommender Systems - TikTok-like và AWS Personalize với GenAI
+# Recommender Systems
 
 > - https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a
 > - https://blog.cloudmentor.pro/blog/aws-mla/solution-personalize-customer
 
-## 1. Xây dựng hệ thống gợi ý giống TikTok
+## Building a TikTok-Like Recommender
 
-### Giới thiệu
+### Introduction
 
-Bài viết trình bày cách xây dựng hệ thống gợi ý cá nhân hóa theo thời gian thực cho các mặt hàng thời trang của H&M, áp dụng kiến trúc 4 giai đoạn và mô hình hai tháp (two-tower model). Mục tiêu là tạo ra một hệ thống có thể xử lý hàng triệu mặt hàng và cung cấp gợi ý phù hợp cho người dùng.
+The article shows how to build a real-time personalized recommender for H&M fashion items, using a 4-stage architecture and a two-tower model. The goal is a system that can handle millions of items and deliver relevant recommendations to users.
 
-### Mô hình hai tháp (Two-Tower Model)
+### Two-Tower Model
 
-Mô hình hai tháp là một kiến trúc deep learning bao gồm hai mạng nơ-ron được huấn luyện song song:
+The two-tower model is a deep learning architecture made of two neural networks trained in parallel:
 
-#### Bộ mã hóa truy vấn khách hàng (Query/Customer Encoder)
+#### Query/Customer Encoder
 
-- Chuyển đổi các đặc trưng của khách hàng thành một vector nhúng dày đặc (dense embedding vector)
-- Xử lý nhiều loại đặc trưng khác nhau:
-  - **Thông tin nhân khẩu học:** Tuổi, giới tính, địa điểm, v.v.
-  - **Hành vi lịch sử:** Lịch sử mua hàng, lượt xem, tương tác trước đó
-  - **Đặc trưng ngữ cảnh:** Thời gian, thiết bị, vị trí địa lý
+- Converts customer features into a dense embedding vector
+- Handles several kinds of features:
+  - **Demographics:** Age, gender, location, etc.
+  - **Historical behavior:** Purchase history, views, past interactions
+  - **Contextual features:** Time, device, geographic location
 
-#### Bộ mã hóa mặt hàng (Item Encoder)
+#### Item Encoder
 
-- Chuyển đổi các đặc trưng của mặt hàng thành các vector nhúng trong cùng không gian vector với nhúng của khách hàng
-- Xử lý các đặc trưng của sản phẩm:
-  - **Thẻ (Tags):** Phân loại, danh mục, nhãn hiệu
-  - **Mô tả:** Thông tin chi tiết về sản phẩm
-  - **Đánh giá:** Điểm số, nhận xét từ người dùng
+- Converts item features into embedding vectors in the same vector space as the customer embeddings
+- Handles product features:
+  - **Tags:** Type, category, brand
+  - **Description:** Detailed product information
+  - **Reviews:** Ratings and user comments
 
-#### Lợi ích của mô hình hai tháp
+#### Benefits of the two-tower model
 
-- **Hiệu quả ở quy mô lớn:** Các nhúng của mặt hàng có thể được tính toán trước và lưu trữ trong cơ sở dữ liệu hoặc chỉ mục tìm kiếm gần đúng (ANN - Approximate Nearest Neighbor)
-- **Truy vấn nhanh:** Chỉ cần tính toán nhúng của khách hàng một lần, sau đó tìm kiếm các mặt hàng tương tự trong không gian vector
-- **Cá nhân hóa:** Mỗi khách hàng có vector nhúng riêng, phản ánh sở thích và hành vi của họ
+- **Efficient at scale:** Item embeddings can be precomputed and stored in a database or an approximate nearest neighbor (ANN) search index
+- **Fast queries:** The customer embedding only needs to be computed once, then similar items are searched in the vector space
+- **Personalization:** Each customer has their own embedding vector reflecting their preferences and behavior
 
-### Kiến trúc hệ thống gợi ý 4 giai đoạn
+### 4-Stage Recommender Architecture
 
-Hệ thống gợi ý được chia thành 4 giai đoạn để tối ưu hóa hiệu suất và độ chính xác:
+The recommender is split into 4 stages to optimize performance and accuracy:
 
-#### Giai đoạn 1: Tạo ứng viên (Candidate Generation)
+#### Stage 1: Candidate Generation
 
-- **Mục đích:** Xử lý một tập hợp lớn các mặt hàng và truy xuất một tập hợp con phù hợp cho các bước xếp hạng và lọc sau này
-- **Phương pháp:** Sử dụng mô hình hai tháp để tìm kiếm các mặt hàng tương tự trong không gian vector
-- **Quy mô:** Từ hàng triệu mặt hàng xuống còn hàng trăm hoặc hàng nghìn ứng viên
+- **Purpose:** Process a large set of items and retrieve a relevant subset for the later ranking and filtering steps
+- **Method:** Use the two-tower model to find similar items in the vector space
+- **Scale:** From millions of items down to hundreds or thousands of candidates
 
-#### Giai đoạn 2: Lọc (Filtering)
+#### Stage 2: Filtering
 
-- **Mục đích:** Áp dụng các bộ lọc để loại bỏ các mặt hàng không cần thiết trước khi xếp hạng
-- **Các loại bộ lọc:**
-  - **Bộ lọc kinh doanh:** Loại bỏ sản phẩm hết hàng, không phù hợp với chính sách
-  - **Bộ lọc người dùng:** Loại bỏ sản phẩm người dùng đã mua, đã xem gần đây
-  - **Bộ lọc đa dạng:** Đảm bảo danh sách gợi ý có sự đa dạng về loại sản phẩm
+- **Purpose:** Apply filters to remove unneeded items before ranking
+- **Types of filters:**
+  - **Business filters:** Remove out-of-stock products and those that violate policy
+  - **User filters:** Remove products the user has already bought or recently viewed
+  - **Diversity filters:** Ensure the recommendation list is varied in product type
 
-#### Giai đoạn 3: Xếp hạng (Ranking)
+#### Stage 3: Ranking
 
-- **Mục đích:** Gán điểm cho mỗi cặp "mặt hàng ứng viên, khách hàng" dựa trên mức độ phù hợp
-- **Phương pháp:** Sử dụng mô hình ranking phức tạp hơn để tính toán điểm số chính xác
-- **Đầu vào:** Vector nhúng của khách hàng và vector nhúng của mặt hàng
-- **Đầu ra:** Điểm số phù hợp (relevance score)
+- **Purpose:** Assign a score to each "candidate item, customer" pair based on relevance
+- **Method:** Use a more complex ranking model to compute accurate scores
+- **Input:** The customer embedding vector and the item embedding vector
+- **Output:** A relevance score
 
-#### Giai đoạn 4: Sắp xếp (Re-ranking)
+#### Stage 4: Re-ranking
 
-- **Mục đích:** Sắp xếp các mặt hàng dựa trên điểm xếp hạng và logic kinh doanh khác
-- **Yếu tố ảnh hưởng:**
-  - Điểm số từ mô hình ranking
-  - Logic kinh doanh (ưu tiên sản phẩm mới, sản phẩm bán chạy)
-  - Đa dạng hóa (đảm bảo không quá nhiều sản phẩm cùng loại)
-  - Cân bằng giữa exploration và exploitation
+- **Purpose:** Order the items based on the ranking score and other business logic
+- **Influencing factors:**
+  - The score from the ranking model
+  - Business logic (prioritize new and best-selling products)
+  - Diversification (avoid too many products of the same type)
+  - Balance between exploration and exploitation
 
-### Ứng dụng vào trường hợp của H&M
+### Applying It to the H&M Case
 
-#### Dữ liệu
+#### Data
 
-- Sử dụng bộ dữ liệu "H&M Personalized Fashion Recommendations"
-- Bao gồm thông tin về:
-  - **Khách hàng:** Thông tin nhân khẩu học, hành vi mua sắm
-  - **Mặt hàng:** Thông tin sản phẩm, danh mục, hình ảnh
-  - **Giao dịch:** Lịch sử mua hàng, lượt xem, tương tác
+- Uses the "H&M Personalized Fashion Recommendations" dataset
+- Includes information on:
+  - **Customers:** Demographics, shopping behavior
+  - **Items:** Product information, category, images
+  - **Transactions:** Purchase history, views, interactions
 
-#### Mô hình
+#### Model
 
-- Áp dụng mô hình hai tháp để tạo nhúng cho khách hàng và mặt hàng
-- Huấn luyện mô hình trên dữ liệu lịch sử để học các mẫu tương tác
+- Applies the two-tower model to create embeddings for customers and items
+- Trains the model on historical data to learn interaction patterns
 
-#### Triển khai
+#### Deployment
 
-- Sử dụng kiến trúc 4 giai đoạn để cung cấp gợi ý cá nhân hóa theo thời gian thực
-- Tối ưu hóa cho việc xử lý hàng triệu mặt hàng và hàng triệu người dùng
+- Uses the 4-stage architecture to deliver real-time personalized recommendations
+- Optimized to handle millions of items and millions of users
 
-### Kết luận
+### Conclusion
 
-Hệ thống gợi ý giống TikTok sử dụng mô hình hai tháp và kiến trúc 4 giai đoạn để cung cấp gợi ý cá nhân hóa hiệu quả ở quy mô lớn. Kiến trúc này cho phép hệ thống xử lý hàng triệu mặt hàng và cung cấp gợi ý phù hợp cho từng người dùng trong thời gian thực.
+The TikTok-like recommender uses a two-tower model and a 4-stage architecture to deliver effective personalized recommendations at scale. This architecture lets the system handle millions of items and provide relevant recommendations for each user in real time.
 
 ---
 
-## 2. Xây dựng hệ thống gợi ý tích hợp AI tạo sinh cho ngành tiếp thị
+## Building a Recommender with Generative AI for Marketing
 
-### Câu chuyện khách hàng
+### Customer Story
 
-Một tập đoàn kinh doanh về điện, gas và thiết bị điện gia dụng lớn nhất ở Kansai, Nhật Bản, muốn xây dựng hệ thống đề xuất thông minh tương tự như các sàn thương mại điện tử như TikTok, Shopee, Amazon.
+The largest electricity, gas, and home appliance business group in Kansai, Japan, wanted to build an intelligent recommendation system similar to e-commerce platforms such as TikTok, Shopee, and Amazon.
 
-#### Yêu cầu hệ thống
+#### System requirements
 
-- **Đề xuất real-time:** Có thể đề xuất theo thời gian thực để tăng trải nghiệm người dùng
-- **Hỗ trợ người dùng không đăng ký:** Đối với các người dùng không đăng ký tài khoản cũng có thể sử dụng
-- **Không quan tâm hạ tầng:** Khách hàng không muốn quan tâm, quản lý về mặt hạ tầng ứng dụng, mã nguồn
-- **Tập trung kinh doanh:** Chỉ tập trung về chiến lược kinh doanh bán hàng
-- **Khả năng mở rộng:** Hệ thống có thể scale up-down linh hoạt trong các big sale event, release sản phẩm mới
+- **Real-time recommendations:** Recommend in real time to improve the user experience
+- **Support for unregistered users:** Users without an account can also use it
+- **No infrastructure concerns:** The customer doesn't want to worry about or manage application infrastructure and source code
+- **Business focus:** Focus only on sales strategy
+- **Scalability:** The system can scale up and down flexibly during big sale events and new product releases
 
-### Tổng quan hệ thống
+### System Overview
 
-#### Hạ tầng
+#### Infrastructure
 
-- **Nền tảng:** Triển khai trên môi trường AWS
-- **Kiến trúc:** Multi-region, multi-AZ (Multi-Availability Zone)
-- **Quản lý:** Sử dụng ControlTower để quản lý account doanh nghiệp
+- **Platform:** Deployed on AWS
+- **Architecture:** Multi-region, multi-AZ (Multi-Availability Zone)
+- **Management:** Uses ControlTower to manage enterprise accounts
 
 #### Front-end
 
-- **Công nghệ:** ReactJS để build UI web/app
-- **Tích hợp:** Amazon Amplify để quản lý authentication, hosting, và các dịch vụ frontend
+- **Technology:** ReactJS to build the web/app UI
+- **Integration:** Amazon Amplify to manage authentication, hosting, and other front-end services
 
 #### Back-end
 
-- **Công nghệ:** Java Spring để code logic API
-- **Containerization:** Build thành các images, push image lên ECR (Elastic Container Registry)
-- **Deployment:** Deploy với ECS Fargate (serverless container platform)
-- **Auto-scaling:** Tích hợp auto scaling dựa trên chỉ số CPU từ A đến Z
+- **Technology:** Java Spring for the API logic
+- **Containerization:** Build images and push them to ECR (Elastic Container Registry)
+- **Deployment:** Deploy with ECS Fargate (serverless container platform)
+- **Auto-scaling:** Auto scaling based on CPU metrics, end to end
 
 #### Data/Machine Learning
 
 - **Recommendation Engine:** AWS Personalize
-- **Data Processing:** AWS Databrew (visual data preparation tool)
+- **Data Processing:** AWS DataBrew (visual data preparation tool)
 
-### Quy trình triển khai giải pháp Machine Learning (5 bước)
+### Machine Learning Solution Workflow (5 Steps)
 
-#### Bước 1: Thu thập dữ liệu (Gathering data/Data collection)
+#### Step 1: Gathering data (data collection)
 
-Hệ thống chia dữ liệu thành 3 bộ dữ liệu chính:
+The system splits data into 3 main datasets:
 
-##### UserEvent/Interactions (Dữ liệu tương tác người dùng)
+##### UserEvent/Interactions (user interaction data)
 
-- **Vai trò:** Cực kỳ quan trọng trong việc bán hàng, đặc biệt là lĩnh vực thương mại điện tử
-- **Nội dung:** Thu thập dữ liệu tương tác của người dùng:
-  - Lượt xem sản phẩm
-  - Lượt nhấp vào sản phẩm
-  - Lượt mua sản phẩm
-  - Thêm vào giỏ hàng
-  - Các hành vi tương tác khác
-- **Quy trình thu thập:**
-  1. Thư viện JavaScript "Click Stream Events" trên web/app thu thập dữ liệu
-  2. Dữ liệu gửi lên thông qua API Gateway
-  3. Đưa vào Kinesis Data Streams (real-time streaming)
-  4. Kinesis Data Firehose (batch processing và delivery)
-  5. Cuối cùng lưu trữ trên S3
+- **Role:** Extremely important for sales, especially in e-commerce
+- **Content:** Collects user interaction data:
+  - Product views
+  - Product clicks
+  - Product purchases
+  - Add to cart
+  - Other interaction behaviors
+- **Collection flow:**
+  1. A JavaScript "Click Stream Events" library on the web/app collects the data
+  2. Data is sent up through API Gateway
+  3. Fed into Kinesis Data Streams (real-time streaming)
+  4. Kinesis Data Firehose (batch processing and delivery)
+  5. Finally stored on S3
 
-##### Item metadata (Metadata sản phẩm)
+##### Item metadata (product metadata)
 
-- **Nội dung:** Thông tin chi tiết về sản phẩm:
-  - Tên sản phẩm
-  - Mô tả
-  - Giá
-  - Phân loại
-  - Hình ảnh
-  - Các thuộc tính khác
-- **Nguồn:** Export từ database RDS thành file CSV
+- **Content:** Detailed product information:
+  - Product name
+  - Description
+  - Price
+  - Category
+  - Images
+  - Other attributes
+- **Source:** Exported from the RDS database as a CSV file
 
-##### User metadata (Metadata người dùng)
+##### User metadata
 
-- **Nội dung:** Thông tin cá nhân của người dùng:
-  - Tên
-  - Tuổi
+- **Content:** Users' personal information:
+  - Name
+  - Age
   - Email
-  - Location (vị trí địa lý)
-  - Các thông tin nhân khẩu học khác
-- **Nguồn:** Export từ database RDS thành file CSV
+  - Location
+  - Other demographic information
+- **Source:** Exported from the RDS database as a CSV file
 
-#### Bước 2: Xử lý dữ liệu (Data pre-processing)
+#### Step 2: Data pre-processing
 
-##### AWS Databrew
+##### AWS DataBrew
 
-- **Mô tả:** Visual data preparation tool, không cần code
-- **Tính năng:** Hơn 250 pre-built transformations
-- **Chức năng:**
-  - Thực hiện ETL (Extract, Transform, Load) dữ liệu
-  - Loại bỏ các giá trị empty (rỗng)
-  - Loại bỏ duplicate (trùng lặp)
-  - Reformat data (chuyển đổi định dạng: string -> int, long, v.v.)
-- **Lợi ích:** Nhanh, gọn, lẹ, không cần viết code Python
+- **Description:** A visual data preparation tool, no code required
+- **Features:** More than 250 pre-built transformations
+- **Functions:**
+  - Perform ETL (Extract, Transform, Load) on the data
+  - Remove empty values
+  - Remove duplicates
+  - Reformat data (convert types: string -> int, long, etc.)
+- **Benefit:** Quick and lightweight, no Python code needed
 
-##### Phân tích và báo cáo
+##### Analysis and reporting
 
-- Phân tích data tạo biểu đồ dựa vào số liệu
-- Export PDF và share data cho các bên liên quan review
+- Analyze the data and build charts from the figures
+- Export PDFs and share the data with stakeholders for review
 
-##### Lưu trữ dữ liệu
+##### Data storage
 
-- **Vị trí:** Datasets được lưu multi-region ở AWS S3
-- **Bảo mật:**
-  - Bật S3 versioning (lưu trữ các phiên bản của file)
-  - Sử dụng KMS (Key Management Service) mã hóa dữ liệu theo best practice của AWS
-- **Tối ưu chi phí:** Tích hợp S3 lifecycle để tiết kiệm chi phí (chuyển sang storage class rẻ hơn sau một thời gian)
+- **Location:** Datasets are stored multi-region on AWS S3
+- **Security:**
+  - S3 versioning enabled (keeps versions of files)
+  - KMS (Key Management Service) encrypts the data following AWS best practices
+- **Cost optimization:** S3 lifecycle integrated to save cost (moves to cheaper storage classes after some time)
 
-#### Bước 3: Xây dựng mô hình & huấn luyện mô hình (Model training) với AWS Personalize
+#### Step 3: Model building and training with AWS Personalize
 
-Sau khi import datasets vào Personalize, Amazon Personalize cung cấp các công thức (recipes), là các thuật toán được thiết kế sẵn để giải quyết các use-case người dùng.
+After datasets are imported into Personalize, Amazon Personalize provides recipes, which are pre-designed algorithms for solving user use cases.
 
-Hệ thống sử dụng 4 thuật toán built-in tương ứng với 4 model cho từng use-case:
+The system uses 4 built-in algorithms, corresponding to 4 models for the different use cases:
 
 ##### USER_PERSONALIZATION
 
-- **Mục đích:** Đề xuất các sản phẩm/dịch vụ cho người dùng từ danh mục sản phẩm
-- **Ứng dụng:** Sử dụng ở homepage để tăng tính cá nhân hóa trải nghiệm người dùng
-- **Ví dụ:** Khi người dùng đăng nhập lần 2-3, trang chủ sẽ ưu tiên hiển thị các sản phẩm phù hợp với sở thích của user dựa trên lịch sử tương tác trước đó
-- **Thuật toán:** HRNN (Hierarchical Recurrent Neural Network)
-  - Thiết kế để xử lý dữ liệu lịch sử người dùng có thứ tự theo thời gian
-  - Sử dụng các mạng nơ-ron hồi tiếp (Recurrent Neural Networks – RNNs)
-  - Dự đoán hành vi của người dùng dựa trên chuỗi tương tác trước đó
+- **Purpose:** Recommend products/services to a user from the product catalog
+- **Application:** Used on the homepage to personalize the user experience
+- **Example:** When a user logs in for the 2nd or 3rd time, the homepage prioritizes products that match the user's preferences based on their previous interaction history
+- **Algorithm:** HRNN (Hierarchical Recurrent Neural Network)
+  - Designed to process time-ordered user history data
+  - Uses Recurrent Neural Networks (RNNs)
+  - Predicts user behavior from the preceding sequence of interactions
 
 ##### RELATED_ITEM
 
-- **Mục đích:** Gợi ý các sản phẩm tương đồng với sản phẩm đang xem
-- **Ứng dụng:** Apply ở detail page (trang chi tiết sản phẩm)
-- **Ví dụ:** Nếu khách hàng thường mua các bếp điện, hệ thống sẽ đề xuất các bếp điện mới, bếp gas, v.v. cùng loại mà người dùng chưa xem
-- **Thuật toán:** Cosine Similarity
-  - Phương pháp phổ biến để đo lường độ tương đồng giữa hai vectơ
-  - Vectơ thường biểu diễn các mục dựa trên các đặc trưng của chúng
-  - Cosine Similarity là một giá trị từ -1 (hoàn toàn không tương đồng) đến 1 (hoàn toàn tương đồng), với 0 thể hiện sự độc lập
+- **Purpose:** Suggest products similar to the one being viewed
+- **Application:** Applied on the detail page (product detail page)
+- **Example:** If a customer often buys electric stoves, the system recommends new electric stoves, gas stoves, and other similar items the user hasn't viewed
+- **Algorithm:** Cosine Similarity
+  - A popular method for measuring similarity between two vectors
+  - Vectors typically represent items based on their features
+  - Cosine Similarity is a value from -1 (completely dissimilar) to 1 (completely similar), with 0 indicating independence
 
 ##### PERSONALIZED_RANKING
 
-- **Mục đích:** Xếp hạng danh sách các sản phẩm đề xuất cho user khi user tìm kiếm một sản phẩm bất kỳ
-- **Cơ sở:** Dựa trên lượt đánh giá/tương tác
-- **Ví dụ:** Khi user tìm kiếm 1 chiếc bếp điện, hệ thống sẽ xếp hạng các kết quả tìm kiếm dựa trên mức độ phù hợp với sở thích và hành vi của user
+- **Purpose:** Rank the list of recommended products for a user when they search for any product
+- **Basis:** Based on ratings/interactions
+- **Example:** When a user searches for an electric stove, the system ranks the search results by how well they match the user's preferences and behavior
 
 ##### USER_SEGMENTATION
 
-- **Mục đích:** Phân khúc khách hàng dựa trên các đặc điểm
-- **Cơ sở phân khúc:**
-  - Đặc điểm nhân khẩu học (demographic)
-  - Hành vi mua sắm (purchasing behavior)
-  - Tâm lý khách hàng (customer psychology)
-- **Thuật toán:** kNN (k-Nearest Neighbors)
-- **Ứng dụng:** Sử dụng trong chiến lược marketing để nhắm mục tiêu đúng đối tượng
+- **Purpose:** Segment customers based on their characteristics
+- **Basis for segmentation:**
+  - Demographic characteristics
+  - Purchasing behavior
+  - Customer psychology
+- **Algorithm:** kNN (k-Nearest Neighbors)
+- **Application:** Used in marketing strategy to target the right audience
 
-#### Bước 4: Đánh giá và triển khai mô hình (Model Evaluation & Deployment)
+#### Step 4: Model Evaluation and Deployment
 
-##### Đánh giá mô hình
+##### Model evaluation
 
-Hệ thống sử dụng 2 phương pháp đánh giá:
+The system uses 2 evaluation methods:
 
-**Phần 1:** Đánh giá tự động bằng các chỉ số
+**Part 1:** Automatic evaluation with metrics
 
-- **F1 Score:** Đạt mức tối đa (1.000)
-- **Ý nghĩa:** Mô hình có cả precision và recall đạt mức tối đa (1.000)
-- Precision: Độ chính xác của các đề xuất (tỷ lệ đề xuất đúng)
-- Recall: Độ bao phủ (tỷ lệ các sản phẩm phù hợp được đề xuất)
+- **F1 Score:** Reached the maximum (1.000)
+- **Meaning:** The model achieved the maximum for both precision and recall (1.000)
+- Precision: Accuracy of the recommendations (the share of correct recommendations)
+- Recall: Coverage (the share of relevant products that were recommended)
 
-**Phần 2:** Đánh giá từ bộ test case
+**Part 2:** Evaluation with a test case suite
 
-- Hơn 300 test case từ khách hàng định nghĩa
-- Test chạy thực tế (test chạy bằng cơm) để đảm bảo chất lượng
+- More than 300 test cases defined by the customer
+- Manual test runs (run by hand) to ensure quality
 
-##### Triển khai mô hình (Deploy model)
+##### Deploy model
 
-- **Nền tảng:** Sau khi model được deploy trên SageMaker Endpoint của AWS
-- **Truy cập:** User/application có thể invoke API endpoint để lấy kết quả
-- **Kiến trúc:**
+- **Platform:** After the model is deployed on an AWS SageMaker Endpoint
+- **Access:** Users/applications can invoke the API endpoint to get results
+- **Architecture:**
   - Client -> API Gateway
-  - Sử dụng Lambda để invoke SageMaker Endpoint API
-  - Trả về kết quả đề xuất cho client
+  - Lambda is used to invoke the SageMaker Endpoint API
+  - Returns the recommendation results to the client
 
-#### Bước 5: Giám sát mô hình (Monitor Model)
+#### Step 5: Monitor Model
 
-- **Logging:** Log được lưu trữ trên CloudWatch
-- **Visualization:** Gửi log từ CloudWatch đến Grafana được host trên EC2
-- **Dashboard:** Tạo Dashboard theo dõi:
-  - Hiệu suất Model (model performance metrics)
-  - Số lượng yêu cầu API (API request volume)
-  - Các chỉ số quan trọng khác
+- **Logging:** Logs are stored on CloudWatch
+- **Visualization:** Logs are sent from CloudWatch to Grafana hosted on EC2
+- **Dashboard:** A dashboard tracks:
+  - Model performance metrics
+  - API request volume
+  - Other key metrics
 
-### Tích hợp AI tạo sinh (Generative AI Integration)
+### Generative AI Integration
 
-Sau khi Generative AI bùng nổ 2023-2024, nhu cầu sử dụng GenAI tạo ra cho ngành quảng cáo và tiếp thị (Advertising and Marketing Industry) ngày càng được ưu chuộng.
+After the Generative AI boom of 2023-2024, demand for using GenAI in the advertising and marketing industry has grown steadily.
 
-#### Mục tiêu
+#### Goal
 
-Tạo nội dung quảng cáo (ad copy) tự động dựa trên:
+Automatically generate ad copy based on:
 
-- Hình ảnh sản phẩm từ database
-- Thông tin về sản phẩm/dịch vụ
-- Đối tượng/mục tiêu của chiến dịch quảng cáo (đã được xử lý và thu thập ở mục USER_SEGMENTATION - phân khúc khách hàng)
+- Product images from the database
+- Product/service information
+- The target audience of the advertising campaign (already processed and collected in USER_SEGMENTATION - customer segmentation)
 
-#### Quy trình tích hợp GenAI
+#### GenAI integration flow
 
-##### Bước 1: Người dùng cung cấp dữ liệu đầu vào
+##### Step 1: The user provides input data
 
-- **Hình ảnh sản phẩm:** Chọn hình ảnh sản phẩm muốn quảng cáo, hình ảnh được lưu trong S3
-- **Loại dịch vụ quảng cáo:** Chọn loại dịch vụ:
+- **Product image:** Choose the product image to advertise; the images are stored in S3
+- **Ad service type:** Choose the type of service:
   - Mail Marketing
   - SMS
   - Web Content
   - Post SNS (Social Network Service)
-  - Các loại khác
-- **Đối tượng mục tiêu:** Chọn nhóm người dùng được phân khúc từ Amazon Personalize
+  - Others
+- **Target audience:** Choose a user group segmented by Amazon Personalize
 
-##### Bước 2: Xử lý dữ liệu qua AWS AppSync
+##### Step 2: Data handling through AWS AppSync
 
-- **AWS AppSync:** Có thể dễ dàng xây dựng các API GraphQL mà không cần quản lý cơ sở hạ tầng
-- **WebSocket Subscription:** Dữ liệu đầu vào từ người dùng được gửi đến hệ thống qua AWS AppSync, thông qua kết nối websocket subscription
-- **Real-time Updates:** Cho phép cập nhật kết quả theo thời gian thực khi xử lý dữ liệu
+- **AWS AppSync:** Makes it easy to build GraphQL APIs without managing infrastructure
+- **WebSocket Subscription:** The user's input is sent to the system through AWS AppSync over a websocket subscription connection
+- **Real-time Updates:** Lets results update in real time as the data is processed
 
-##### Bước 3: Xử lý hình ảnh bằng Amazon Rekognition
+##### Step 3: Image processing with Amazon Rekognition
 
-- **Amazon Rekognition:** Dịch vụ phân tích các đối tượng, cảnh vật, và ngữ cảnh trong hình ảnh của AWS
-- **Chức năng phân tích:**
-  - **Image labels:** Các nhãn hình ảnh (xác định các đối tượng, cảnh vật trong ảnh)
-  - **Dominant colors:** Màu sắc chủ đạo trong hình ảnh
-- **Mục đích:** Giúp hệ thống hiểu được nội dung của hình ảnh (ví dụ: ảnh có hoa, người chạy bộ, thức ăn, v.v.) và sử dụng thông tin này để tạo ra nội dung quảng cáo **chính xác** và có **ý nghĩa**
+- **Amazon Rekognition:** AWS's service for analyzing objects, scenes, and context in images
+- **Analysis functions:**
+  - **Image labels:** Labels identifying the objects and scenes in the image
+  - **Dominant colors:** The dominant colors in the image
+- **Purpose:** Helps the system understand the content of the image (e.g., the image has flowers, a jogger, food, etc.) and use that information to create **accurate** and **meaningful** ad content
 
-##### Bước 4: Tạo nội dung quảng cáo (Ad Copy) bằng Amazon Bedrock
+##### Step 4: Generate ad copy with Amazon Bedrock
 
-- **Amazon Bedrock:** Nền tảng xử lý mô hình ngôn ngữ AI của AWS
-- **LLM Model:** Sử dụng Titan Image Generator G1 v2
-- **Quy trình:**
-  1. Nhận dữ liệu phân tích hình ảnh từ Rekognition
-  2. Kết hợp với thông tin sản phẩm/dịch vụ
-  3. Kết hợp với đối tượng mục tiêu
-  4. Tạo prompt (lời nhắc) cho mô hình ngôn ngữ (LLM)
-  5. Amazon Bedrock tạo nội dung quảng cáo tự động dựa trên prompt
+- **Amazon Bedrock:** AWS's platform for running AI language models
+- **LLM Model:** Uses Titan Image Generator G1 v2
+- **Flow:**
+  1. Receive the image analysis data from Rekognition
+  2. Combine it with the product/service information
+  3. Combine it with the target audience
+  4. Build a prompt for the language model (LLM)
+  5. Amazon Bedrock generates the ad content automatically from the prompt
 
-##### Bước 5: Kết quả được xuất bản
+##### Step 5: Publish the result
 
-- **Gửi về người dùng:** Nội dung quảng cáo được tạo ra sẽ được gửi về phía người dùng qua AWS AppSync
-- **Lưu trữ:** Lưu nội dung vào hệ thống chiến dịch để quảng cáo
+- **Send to the user:** The generated ad content is sent back to the user through AWS AppSync
+- **Storage:** Save the content in the campaign system for advertising
 
-#### Tính năng mở rộng: Switch Models
+#### Extended feature: Switch Models
 
-- **Khái niệm:** Tự do chuyển đổi giữa các model hàng đầu của OpenAI, IBM, AWS, v.v.
-- **Nguyên tắc:** Mô hình giá càng cao chất lượng output cho ra sản phẩm càng tốt
-- **Lợi ích:**
-  - Mỗi model đã được training data riêng biệt
-  - Mỗi model sẽ có một cách "thể hiện riêng"
-  - Mang tính đột phá, thú vị
-  - Linh hoạt trong việc lựa chọn model phù hợp với từng use-case
+- **Concept:** Freely switch between leading models from OpenAI, IBM, AWS, etc.
+- **Principle:** The higher the model's price, the better the quality of its output
+- **Benefits:**
+  - Each model was trained on its own data
+  - Each model has its own way of "expressing itself"
+  - Groundbreaking and interesting
+  - Flexible in choosing the model that fits each use case
 
-### Lợi ích và hiệu quả của hệ thống GenAI
+### Benefits and Effectiveness of the GenAI System
 
-#### Tự động hóa quy trình
+#### Process automation
 
-- **Trước đây:** Sử dụng nội dung thuần text
-- **Hiện tại:** Hệ thống tạo ra nội dung quảng cáo bao gồm:
-  - Hình ảnh
+- **Before:** Text-only content
+- **Now:** The system generates ad content that includes:
+  - Images
   - Text
-  - Màu sắc phù hợp
-- **Kết quả:** Nội dung quảng cáo chính xác và phù hợp hơn
+  - Matching colors
+- **Result:** More accurate and relevant ad content
 
-#### Tối ưu chi phí và thời gian
+#### Cost and time optimization
 
-##### Quy trình truyền thống
+##### Traditional process
 
-- **Nhân lực cần thiết:**
+- **People required:**
   - Designer
   - Copywriter
   - Marketing team
-- **Thời gian:** Tối thiểu 1 tuần cho các khâu:
-  - Lên ý tưởng
-  - Thiết kế
-  - Phát triển
-  - Đánh giá
-- **Kết quả:** 1 bài PR/video về sản phẩm mới
+- **Time:** At least 1 week for the stages of:
+  - Ideation
+  - Design
+  - Development
+  - Review
+- **Result:** 1 PR post/video about a new product
 
-##### Quy trình với GenAI
+##### Process with GenAI
 
-- **Thời gian:** Chỉ mất khoảng 1 ngày
-- **Kết quả:** Có thể tạo ra cả 100 bài/video PR sản phẩm
-- **Lưu ý:** Dùng nhiều, trả tiền nhiều
-- **Lợi ích:**
-  - Nếu không phù hợp có thể tải về máy tùy chỉnh lại
-  - Không sợ vi phạm bản quyền
+- **Time:** Only about 1 day
+- **Result:** Can produce as many as 100 product PR posts/videos
+- **Note:** Use more, pay more
+- **Benefits:**
+  - If something isn't suitable, it can be downloaded and customized
+  - No fear of copyright infringement
 
-##### So sánh chi phí
+##### Cost comparison
 
-- **Chi phí truyền thống:** Tiền nuôi team designer/copywriter/marketing chắc chắn lớn hơn trả cho AWS
-- **Chi phí GenAI:** Chỉ trả tiền cho dịch vụ AWS sử dụng
-- **Lợi ích:** Nếu chiến dịch có hàng trăm sản phẩm thì thời gian release sản phẩm sẽ nhanh hơn rất nhiều nhưng vẫn **"đảm bảo chất lượng"** (nếu sử dụng các model hiện đại, tiên tiến)
+- **Traditional cost:** Paying a designer/copywriter/marketing team certainly costs more than paying AWS
+- **GenAI cost:** Pay only for the AWS services used
+- **Benefit:** If a campaign has hundreds of products, release time is much faster while still **"ensuring quality"** (if modern, state-of-the-art models are used)
 
-#### Tăng trưởng doanh thu
+#### Revenue growth
 
-Sau khi ứng dụng giải pháp ML cho:
+After applying ML solutions to:
 
-- Đề xuất sản phẩm
-- Chiến lược phân khúc người dùng cho thị trường marketing
+- Product recommendation
+- User segmentation strategy for the marketing market
 
-**Kết quả:** Revenue tăng trưởng gần **230%** so với năm trước.
+**Result:** Revenue grew nearly **230%** over the previous year.
 
-### Kết luận
+### Conclusion
 
-Giải pháp xây dựng hệ thống gợi ý sản phẩm thông minh, tích hợp AI tạo sinh trong lĩnh vực quảng cáo và tiếp thị mang lại nhiều lợi ích:
+A solution that builds an intelligent product recommender and integrates generative AI into advertising and marketing brings many benefits:
 
-1. **Cá nhân hóa trải nghiệm:** Hệ thống có thể đề xuất real-time, phục vụ cả người dùng không đăng ký
-2. **Tự động hóa:** Giảm thiểu công việc thủ công, tăng tốc độ phát triển nội dung
-3. **Tối ưu chi phí:** Giảm chi phí nhân lực và thời gian phát triển
-4. **Tăng trưởng doanh thu:** Tăng trưởng đáng kể nhờ cá nhân hóa và tự động hóa
-5. **Khả năng mở rộng:** Hệ thống có thể scale up-down linh hoạt theo nhu cầu
+1. **Personalized experience:** The system can recommend in real time, including for unregistered users
+2. **Automation:** Reduces manual work and speeds up content development
+3. **Cost optimization:** Reduces labor cost and development time
+4. **Revenue growth:** Significant growth thanks to personalization and automation
+5. **Scalability:** The system can scale up and down flexibly with demand
 
-Đây là một giải pháp toàn diện, từ thu thập dữ liệu, xử lý, xây dựng mô hình, đến tích hợp AI tạo sinh, nhằm tăng trải nghiệm người dùng và tối ưu hóa chiến lược kinh doanh.
+This is a comprehensive solution, from data collection and processing to model building and generative AI integration, aimed at improving the user experience and optimizing business strategy.
 
 ---
 
-## So sánh hai phương pháp
+## Comparing the Two Approaches
 
-### Điểm tương đồng
+### Similarities
 
-- Cả hai đều sử dụng mô hình deep learning để tạo embeddings cho người dùng và sản phẩm
-- Đều áp dụng kiến trúc multi-stage để tối ưu hóa hiệu suất
-- Đều hướng đến mục tiêu cá nhân hóa trải nghiệm người dùng
+- Both use deep learning models to create embeddings for users and products
+- Both apply a multi-stage architecture to optimize performance
+- Both aim to personalize the user experience
 
-### Điểm khác biệt
+### Differences
 
-| Tiêu chí             | TikTok-like Recommender  | AWS Personalize với GenAI                       |
-| -------------------- | ------------------------ | ----------------------------------------------- |
-| **Nền tảng**         | Custom implementation    | AWS managed services                            |
-| **Mô hình**          | Two-tower model (custom) | Multiple recipes (HRNN, Cosine Similarity, kNN) |
-| **Tích hợp GenAI**   | Không có                 | Có (Amazon Bedrock + Rekognition)               |
-| **Quản lý hạ tầng**  | Cần tự quản lý           | Fully managed                                   |
-| **Khả năng mở rộng** | Cần tự cấu hình          | Auto-scaling built-in                           |
-| **Use-case**         | E-commerce fashion (H&M) | E-commerce + Marketing (Điện, gas, thiết bị)    |
-| **Độ phức tạp**      | Cao (cần hiểu sâu về ML) | Thấp (sử dụng managed services)                 |
+| Criterion                     | TikTok-like Recommender        | AWS Personalize with GenAI                            |
+| ----------------------------- | ------------------------------ | ----------------------------------------------------- |
+| **Platform**                  | Custom implementation          | AWS managed services                                  |
+| **Model**                     | Two-tower model (custom)       | Multiple recipes (HRNN, Cosine Similarity, kNN)       |
+| **GenAI integration**         | None                           | Yes (Amazon Bedrock + Rekognition)                    |
+| **Infrastructure management** | Self-managed                   | Fully managed                                         |
+| **Scalability**               | Needs manual configuration     | Auto-scaling built in                                 |
+| **Use case**                  | E-commerce fashion (H&M)       | E-commerce + Marketing (electricity, gas, appliances) |
+| **Complexity**                | High (needs deep ML knowledge) | Low (uses managed services)                           |
 
-### Khi nào nên sử dụng phương pháp nào?
+### When to use which approach?
 
 #### TikTok-like Recommender (Custom)
 
-- Khi cần kiểm soát hoàn toàn mô hình và thuật toán
-- Khi có team ML chuyên nghiệp
-- Khi cần tùy chỉnh sâu vào kiến trúc mô hình
-- Khi muốn tối ưu chi phí ở quy mô rất lớn (sau khi đã đầu tư ban đầu)
+- When you need full control over the model and algorithms
+- When you have a professional ML team
+- When you need deep customization of the model architecture
+- When you want to optimize cost at very large scale (after the initial investment)
 
-#### AWS Personalize với GenAI
+#### AWS Personalize with GenAI
 
-- Khi muốn tập trung vào business logic thay vì infrastructure
-- Khi cần triển khai nhanh chóng
-- Khi muốn tích hợp sẵn với các dịch vụ AWS khác
-- Khi cần tính năng GenAI để tạo nội dung marketing
-- Khi muốn giảm thiểu rủi ro về hạ tầng và scaling
+- When you want to focus on business logic rather than infrastructure
+- When you need to deploy quickly
+- When you want built-in integration with other AWS services
+- When you need GenAI features to create marketing content
+- When you want to minimize infrastructure and scaling risk
+
+> **See also:** [TikTok Like Recommender And AWS Personalize](/Technology/AI/Practices/TikTok Like Recommender And AWS Personalize) · [AI Powered AB Testing With Amazon Bedrock](/Technology/AI/Write Ups/AI Powered AB Testing With Amazon Bedrock) · [KNN K Nearest Neighbors](/Technology/AI/Concepts/Core Concepts/KNN K Nearest Neighbors)

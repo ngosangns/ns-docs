@@ -1,39 +1,42 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: resource
+domain: bloom-filter
+type: guide
 title: Bloom Filter
-description: Bloom Filter
-timestamp: "2026-06-19T13:43:26.161Z"
+description: Overview of the Bloom filter probabilistic data structure, its false-positive behavior, and common applications.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - bloom-filter
   - algorithms
+  - data-structures
   - golang
 ---
 
 # Bloom Filter
 
-## Tổng quan
+## Overview
 
-Bloom filter là một cấu trúc dữ liệu xác suất, giúp kiểm tra xem một phần tử có thuộc một tập hợp hay không. Nó đặc biệt hữu ích trong các ứng dụng cần kiểm tra nhanh chóng và sử dụng ít bộ nhớ.
+A Bloom filter is a probabilistic data structure that tests whether an element belongs to a set. It is especially useful in applications that need fast checks and low memory usage.
 
-## Đặc điểm
+## Characteristics
 
-1. Không có lỗi âm: nếu Bloom filter cho biết không thuộc thì chắc chắn không có
-2. Có thể có lỗi dương: nếu Bloom filter cho biết thuộc thì có thể nhầm
-3. Sử dụng nhiều hàm băm để ánh xạ 1 phần tử vào nhiều bit
-4. Không hỗ trợ xóa chính xác (bản cơ bản)
+1. No false negatives: if the Bloom filter says an element is not in the set, it is definitely not there
+2. False positives are possible: if the Bloom filter says an element is in the set, it might be wrong
+3. Uses multiple hash functions to map one element to several bits
+4. Does not support exact deletion (in the basic version)
 
-## Ứng dụng phổ biến
+## Common Applications
 
-1. Bộ nhớ đệm (caching)
-2. Hệ thống phát hiện thư rác (spam detection)
-3. Hệ thống tìm kiếm và cơ sở dữ liệu phân tán
-4. Định tuyến gói tin trong mạng (packet routing)
-5. Lọc yêu cầu DNS (DNS query filtering)
-6. Phát hiện và loại bỏ dữ liệu trùng lặp (duplicate detection)
-7. Tìm kiếm gần đúng (approximate membership query)
-8. Lọc nội dung trong các hệ thống chống lạm dụng (content filtering)
-9. Một số ứng dụng trong mật mã học (cryptography)
-10. Kiểm tra mật khẩu vi phạm (password breach detection)
+1. Caching
+2. Spam detection systems
+3. Search engines and distributed databases
+4. Packet routing in networks
+5. DNS query filtering
+6. Duplicate detection and removal
+7. Approximate membership queries
+8. Content filtering in anti-abuse systems
+9. Some applications in cryptography
+10. Password breach detection
+
+> **See also:** [Data Structures Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview) · [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation)

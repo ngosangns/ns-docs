@@ -1,16 +1,19 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: cheatsheet
+domain: recursion
+type: guide
 title: Algo Recursion
-description: Recursion
-timestamp: "2026-06-19T13:43:26.155Z"
+description: TypeScript examples of recursion covering the base case, the recursive step, and classic recursive problems.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - recursion
   - algorithms
   - golang
+  - typescript
 ---
+
+# Algo Recursion
 
 ## Recursion
 
@@ -232,3 +235,5 @@ console.log(
   ])
 )
 ```
+
+> **See also:** [Algo Trees](/Technology/Algorithm/Resources/Algo Trees) · [Algo Linked Lists](/Technology/Algorithm/Resources/Algo Linked Lists) · [Algo Recursion](/Technology/Algorithm/Resources/Algo Recursion)

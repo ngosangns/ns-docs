@@ -1,17 +1,20 @@
 ---
 area: technology
 domain: algorithms
-topic: golang
-type: cheatsheet
+type: guide
 title: Algo Linked Lists
-description: Linked Lists
-timestamp: "2026-06-19T13:43:26.155Z"
+description: TypeScript implementations of a queue, a stack, and a doubly linked list built on linked nodes, with notes on their trade-offs.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
+  - linked-lists
   - golang
+  - typescript
 resource: https://encore.dev/blog/queueing
 ---
+
+# Algo Linked Lists
 
 ## Linked Lists
 
@@ -239,3 +242,5 @@ export default class DoublyLinkedList<T> {
   }
 }
 ```
+
+> **See also:** [Algo Arrays Searching Sorting](/Technology/Algorithm/Resources/Algo Arrays Searching Sorting) · [Data Structures Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview) · [Algo Trees](/Technology/Algorithm/Resources/Algo Trees)

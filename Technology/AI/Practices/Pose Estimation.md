@@ -1,54 +1,55 @@
 ---
 area: technology
-domain: ai-ml
-topic: computer-vision
-type: resource
+domain: computer-vision
+type: guide
 title: Pose Estimation
-description: Pose Estimation
-timestamp: "2026-06-19T13:43:26.165Z"
+description: Introduces pose estimation, the task of locating human body keypoints in images and video, and the popular YOLO-Pose and MediaPipe Pose solutions.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
   - computer-vision
+  - pose-estimation
 ---
 
 # Pose Estimation
 
-## Khái niệm
+## Concept
 
-- **Pose Estimation (ước lượng tư thế)**: Một trong các bài toán cơ bản và phổ biến trong lĩnh vực computer-vision, đặc biệt khi ứng dụng Deep Learning
-- **Mục tiêu**: Nhận diện vị trí của các khớp hoặc các bộ phận cơ thể của con người (hoặc đôi khi là động vật) trong ảnh tĩnh hoặc video
-- **Kết quả**: Tập tọa độ 2D hoặc 3D biểu diễn các keypoints, chẳng hạn:
-  - Đầu, cổ, vai
-  - Khuỷu tay, cổ tay
-  - Hông, gối, mắt cá chân
-  - Và các điểm khác trên cơ thể
+- **Pose Estimation**: One of the fundamental and most popular problems in computer vision, especially with Deep Learning
+- **Goal**: Locate the joints or body parts of a person (or sometimes an animal) in a still image or video
+- **Output**: A set of 2D or 3D coordinates representing keypoints, such as:
+  - Head, neck, shoulders
+  - Elbows, wrists
+  - Hips, knees, ankles
+  - And other points on the body
 
-## Sự phát triển
+## Evolution
 
-- Với sự phát triển của **CNN (Mạng nơ-ron tích chập)** và kiến trúc **Transformer** cho computer-vision
-- Độ chính xác và tốc độ của các mô hình/giải pháp Pose Estimation đã được cải thiện đáng kể trong vài năm trở lại đây
+- With the advances in **CNNs (convolutional neural networks)** and the **Transformer** architecture for computer vision
+- The accuracy and speed of pose estimation models and solutions have improved significantly in recent years
 
-## Giải pháp phổ biến
+## Popular Solutions
 
-### 1. Ultralytics YOLO (YOLO-Pose)
+### Ultralytics YOLO (YOLO-Pose)
 
-- Phiên bản YOLO chuyên biệt cho Pose Estimation
-- Tốc độ xử lý cao
-- Cài đặt đơn giản
-- Hỗ trợ đa luồng, dễ dàng tích hợp vào các nền tảng, ứng dụng
+- A version of YOLO specialized for pose estimation
+- High processing speed
+- Simple to install
+- Supports multithreading and integrates easily into platforms and applications
 
-### 2. MediaPipe Pose (Google)
+### MediaPipe Pose (Google)
 
-- Giải pháp của Google
-- Tốc độ xử lý cao
-- Cài đặt đơn giản
-- Hỗ trợ đa luồng, dễ dàng tích hợp vào các nền tảng, ứng dụng
-- Phù hợp cho các ứng dụng real-time
+- Google's solution
+- High processing speed
+- Simple to install
+- Supports multithreading and integrates easily into platforms and applications
+- Well suited to real-time applications
 
-## Lý do phổ biến
+## Why They Are Popular
 
-- **Cài đặt đơn giản**: Dễ dàng tích hợp vào dự án
-- **Tốc độ xử lý cao**: Xử lý nhanh, phù hợp cho ứng dụng real-time
-- **Hỗ trợ đa luồng**: Xử lý nhiều luồng dữ liệu đồng thời
-- **Dễ dàng tích hợp**: Tích hợp vào các nền tảng và ứng dụng một cách dễ dàng
+- **Simple installation**: Easy to add to a project
+- **High processing speed**: Fast enough for real-time applications
+- **Multithreading support**: Handles multiple data streams at once
+- **Easy integration**: Plugs into platforms and applications with little effort
+
+> **See also:** [Human Action Recognition](/Technology/AI/Practices/Human Action Recognition) · [Object Detection](/Technology/AI/Concepts/Computer Vision/Object Detection) · [Fitness Exercise Datasets](/Technology/AI/Resources/Datasets/Fitness Exercise Datasets)

@@ -1,28 +1,27 @@
 ---
 area: technology
-domain: ai-ml
-topic: coding-agents
-type: resource
+domain: claude-code
+type: tool
 title: Oh My Claudecode
-description: Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
-timestamp: "2026-06-19T13:43:26.090Z"
+description: Oh-My-ClaudeCode (OMC) is a teams-first multi-agent orchestration system for Claude Code with staged team pipelines, cross-provider workers, deep interview, and persistent execution modes.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - coding-agents
   - claude-code
+  - coding-agents
+  - multi-agent
 resource: https://github.com/Yeachan-Heo/oh-my-claudecode
 ---
 
-# Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
+# Oh My Claudecode
 
-## Định nghĩa
+## Definition
 
-**Oh-My-ClaudeCode** (OMC) là hệ thống multi-agent orchestration cho Claude Code với zero learning curve. Nổi bật với Team mode (canonical staged pipeline), multi-provider orchestration (Claude + Codex + Gemini), deep interview system, và persistent execution modes. NPM package: `oh-my-claude-sisyphus`.
+**Oh-My-ClaudeCode** (OMC) is a multi-agent orchestration system for Claude Code with a zero learning curve. It stands out for Team mode (a canonical staged pipeline), multi-provider orchestration (Claude + Codex + Gemini), a deep interview system, and persistent execution modes. NPM package: `oh-my-claude-sisyphus`.
 
-## Thông tin cơ bản
+## Basic Information
 
-| Thông tin             | Giá trị               |
+| Item                  | Value                 |
 | --------------------- | --------------------- |
 | **Stars**             | 28.4k                 |
 | **Forks**             | 2.6k                  |
@@ -30,7 +29,7 @@ resource: https://github.com/Yeachan-Heo/oh-my-claudecode
 | **License**           | MIT                   |
 | **npm package**       | oh-my-claude-sisyphus |
 
-## Cài đặt
+## Installation
 
 ### Plugin Marketplace (Recommended)
 
@@ -66,7 +65,7 @@ omc setup     # From terminal
 
 ## Key Features
 
-### 1. Team Mode (Canonical)
+### Team Mode (Canonical)
 
 ```bash
 /team 3:executor "fix all TypeScript errors"
@@ -84,7 +83,7 @@ Enable Claude Code native teams:
 }
 ```
 
-### 2. tmux CLI Workers (v4.4.0+)
+### tmux CLI Workers (v4.4.0+)
 
 ```bash
 omc team 2:codex "review auth module"
@@ -94,17 +93,17 @@ omc team status auth-review
 omc team shutdown auth-review
 ```
 
-Workers spawn on-demand và die khi task completes.
+Workers spawn on demand and die when the task completes.
 
-### 3. Deep Interview
+### Deep Interview
 
 ```bash
 /deep-interview "I want to build a task management app"
 ```
 
-Socratic questioning để clarify thinking trước khi code. Measures clarity across weighted dimensions.
+Socratic questioning to clarify your thinking before coding. Measures clarity across weighted dimensions.
 
-### 4. 19 Specialized Agents
+### 19 Specialized Agents
 
 | Agent Tier   | Purpose                 |
 | ------------ | ----------------------- |
@@ -115,9 +114,9 @@ Socratic questioning để clarify thinking trước khi code. Measures clarity 
 | Data Science | Data analysis           |
 | Executor     | Task implementation     |
 
-Smart model routing: Haiku cho simple tasks, Opus cho complex reasoning.
+Smart model routing: Haiku for simple tasks, Opus for complex reasoning.
 
-### 5. Custom Skills
+### Custom Skills
 
 ```yaml
 # .omc/skills/fix-proxy-crash.md
@@ -138,7 +137,7 @@ Wrap handler at server.py:42 in try/except ClientDisconnectedError...
 Manage: `/skill list | add | remove | edit | search`
 Auto-learn: `/learner` extracts patterns
 
-### 6. Provider Advisor
+### Provider Advisor
 
 ```bash
 omc ask claude "review this migration plan"
@@ -146,13 +145,13 @@ omc ask codex "identify architecture risks"
 omc ask gemini "propose UI polish ideas"
 ```
 
-### 7. HUD Statusline
+### HUD Statusline
 
-Real-time orchestration metrics trong status bar.
+Real-time orchestration metrics in the status bar.
 
-### 8. Notifications
+### Notifications
 
-Telegram, Discord, Slack notifications khi sessions stop:
+Telegram, Discord, and Slack notifications when sessions stop:
 
 ```bash
 omc config-stop-callback telegram --enable --token <bot_token> --chat <chat_id>
@@ -160,17 +159,17 @@ omc config-stop-callback discord --enable --webhook <url>
 omc config-stop-callback slack --enable --webhook <url>
 ```
 
-### 9. OpenClaw Integration
+### OpenClaw Integration
 
-Forward Claude Code session events to OpenClaw gateway cho automated responses.
+Forwards Claude Code session events to the OpenClaw gateway for automated responses.
 
-### 10. Autoresearch
+### Autoresearch
 
 ```bash
 omc autoresearch --mission "improve startup performance" --eval "npm test"
 ```
 
-### 11. Rate Limit Wait
+### Rate Limit Wait
 
 ```bash
 omc wait          # Check status
@@ -215,44 +214,46 @@ omc wait --start  # Auto-resume daemon
 | Process       | tmux                              |
 | Notifications | Telegram, Discord, Slack webhooks |
 
-## Ưu điểm
+## Pros
 
-| Ưu điểm              | Mô tả                                      |
+| Pro                  | Description                                |
 | -------------------- | ------------------------------------------ |
 | Zero learning curve  | Natural language, auto-delegation          |
 | Multi-provider       | Claude + Codex + Gemini orchestration      |
 | Team mode            | Canonical staged pipeline                  |
 | Deep interview       | Socratic requirements clarification        |
-| Custom skills        | Auto-learn và auto-inject                  |
+| Custom skills        | Auto-learn and auto-inject                 |
 | HUD statusline       | Real-time metrics                          |
 | 28k+ stars           | Large community                            |
 | Persistent execution | Ralph mode keeps going                     |
 | Cost optimization    | Smart model routing (30-50% token savings) |
 
-## Nhược điểm
+## Cons
 
-| Nhược điểm               | Mô tả                                   |
+| Con                      | Description                             |
 | ------------------------ | --------------------------------------- |
-| tmux dependency          | Cần tmux cho team mode                  |
-| Multiple subscriptions   | ~$60/month cho full multi-provider      |
-| Complex architecture     | Nhiều modes và commands                 |
+| tmux dependency          | Needs tmux for team mode                |
+| Multiple subscriptions   | ~$60/month for full multi-provider      |
+| Complex architecture     | Many modes and commands                 |
 | Package naming confusion | npm: oh-my-claude-sisyphus != repo name |
-| Windows support          | Cần psmux cho native Windows            |
+| Windows support          | Needs psmux for native Windows          |
 | Resource intensive       | Multi-agent orchestration uses tokens   |
 
-## Sử dụng khi nào
+## When to Use
 
-- **Multi-agent orchestration**: Cần coordinated team of agents
-- **Cross-provider workflows**: Muốn combine Claude + Codex + Gemini
-- **Complex features**: Cần staged plan -> exec -> verify pipeline
-- **Requirements clarification**: Muốn Socratic deep interview trước khi code
-- **Persistent execution**: Muốn tasks complete fully (Ralph mode)
-- **Large teams**: Cần shared skills và coordination
+- **Multi-agent orchestration**: Need a coordinated team of agents
+- **Cross-provider workflows**: Want to combine Claude + Codex + Gemini
+- **Complex features**: Need a staged plan -> exec -> verify pipeline
+- **Requirements clarification**: Want a Socratic deep interview before coding
+- **Persistent execution**: Want tasks to complete fully (Ralph mode)
+- **Large teams**: Need shared skills and coordination
 
 ---
 
-**Tài liệu tham khảo**:
+**References**:
 
 - [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)
 - [npm: oh-my-claude-sisyphus](https://www.npmjs.com/package/oh-my-claude-sisyphus)
 - [Docs](https://yeachan-heo.github.io/oh-my-claudecode-website)
+
+> **See also:** [Kit Comparison](/Technology/AI/Tools/Agents/Claude Code Kits/Kit Comparison) · [Multi Agent Systems](/Technology/AI/Tools/Agents/Multi Agent Systems) · [Everything Claude Code](/Technology/AI/Tools/Agents/Claude Code Kits/Everything Claude Code)

@@ -1,11 +1,10 @@
 ---
 area: technology
 domain: testing
-topic: tools
 type: resource
 title: Testing Tools
-description: Testing tools-utilities
-timestamp: "2026-06-19T13:43:26.102Z"
+description: A curated list of tools for API and integration testing, load testing, architecture checks, browser testing and dependency analysis.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - testing
@@ -13,37 +12,39 @@ tags:
 resource: https://github.com/keploy/keploy
 ---
 
-# Testing tools-utilities
+# Testing Tools
 
-## 1. API & Integration Testing
+## API & Integration Testing
 
-- **Keploy**: Agent hỗ trợ kiểm thử API, tích hợp và end-to-end (E2E) cho nhà phát triển.
-  - Tự động tạo test cases từ API calls thực tế.
-  - Tạo mocks/stubs cho APIs.
-  - Giảm thời gian viết test thủ công.
+- **Keploy**: An agent that supports API, integration and end-to-end (E2E) testing for developers.
+  - Automatically generates test cases from real API calls.
+  - Creates mocks/stubs for APIs.
+  - Reduces the time spent writing tests manually.
   - [GitHub](https://github.com/keploy/keploy) #API-testing #integration-testing #E2E #mocks
-- **Appium**: Framework mã nguồn mở để tự động hóa kiểm thử ứng dụng mobile (iOS, Android) và desktop. [GitHub](https://github.com/appium/appium)
+- **Appium**: An open-source framework for automating tests of mobile (iOS, Android) and desktop applications. [GitHub](https://github.com/appium/appium)
 
-## 2. Performance & Load Testing
+## Performance & Load Testing
 
-- **K6**: Công cụ mã nguồn mở viết bằng Go, script bằng JavaScript để kiểm thử hiệu năng API, microservices và website.
-  - Hỗ trợ: HTTP/1.1, HTTP/2, gRPC, WebSocket.
-  - Các loại test: Load, Stress, Spike, Soak testing.
-  - Tích hợp tốt với Prometheus và Grafana.
-  - [Trang chủ](https://k6.io/) | [Hướng dẫn nhập môn](https://techmaster.vn/posts/38352/k6-performance-testing-nhap-mon)
+- **K6**: An open-source tool written in Go, scripted in JavaScript, for performance testing APIs, microservices and websites.
+  - Supports: HTTP/1.1, HTTP/2, gRPC, WebSocket.
+  - Test types: Load, Stress, Spike, Soak testing.
+  - Integrates well with Prometheus and Grafana.
+  - [Homepage](https://k6.io/) | [Introductory guide (Vietnamese)](https://techmaster.vn/posts/38352/k6-performance-testing-nhap-mon)
 
-## 3. Architecture Testing & Static Analysis
+## Architecture Testing & Static Analysis
 
-- **ArchUnit (Java)**: Thư viện kiểm tra các quy tắc kiến trúc ứng dụng Java thông qua unit tests. [GitHub](https://github.com/TNG/ArchUnit)
-- **SonarQube**: Nền tảng phân tích tĩnh mã nguồn để phát hiện bugs, lỗ hổng bảo mật và các vấn đề về cấu trúc (code smells). [Website](https://www.sonarqube.org/)
-- **Structure101 / Lattix**: Các công cụ chuyên sâu để phân tích và hiển thị trực quan các mối quan hệ phụ thuộc trong mã nguồn.
+- **ArchUnit (Java)**: A library that checks the architectural rules of Java applications through unit tests. [GitHub](https://github.com/TNG/ArchUnit)
+- **SonarQube**: A static code analysis platform that detects bugs, security vulnerabilities and structural problems (code smells). [Website](https://www.sonarqube.org/)
+- **Structure101 / Lattix**: Specialized tools for analyzing and visualizing dependency relationships in source code.
 
-## 4. Web & Browser Testing
+## Web & Browser Testing
 
-- **Browserstack**: Nền tảng đám mây cho phép kiểm thử website và ứng dụng trên hàng ngàn thiết bị và trình duyệt thực.
-- **Lightpanda Browser**: Một trình duyệt headless mã nguồn mở được tối ưu cho việc tự động hóa và scraping. [GitHub](https://github.com/lightpanda-io/browser)
-- **OpenReplay**: Giải pháp session replay và phân tích sản phẩm có thể tự host, giúp tái hiện lỗi và hiểu hành vi người dùng. [GitHub](https://github.com/openreplay/openreplay)
+- **Browserstack**: A cloud platform for testing websites and applications on thousands of real devices and browsers.
+- **Lightpanda Browser**: An open-source headless browser optimized for automation and scraping. [GitHub](https://github.com/lightpanda-io/browser)
+- **OpenReplay**: A self-hostable session replay and product analytics solution that helps reproduce bugs and understand user behavior. [GitHub](https://github.com/openreplay/openreplay)
 
-## 5. Dependency Analysis
+## Dependency Analysis
 
-- **Doxygen / Graphviz**: Công cụ tự động tạo tài liệu và biểu đồ hóa các mối quan hệ giữa các thành phần trong mã nguồn.
+- **Doxygen / Graphviz**: Tools that automatically generate documentation and diagram the relationships between components in source code.
+
+> **See also:** [Developer Tools And Environments](/Technology/Tools And Utilities/Tools/Developer Tools And Environments) · [Security Tools](/Technology/Security/Tools/Security Tools)

@@ -1,18 +1,19 @@
 ---
 area: technology
-domain: ai-ml
-topic: dataset
+domain: dataset
 type: resource
 title: Fitness Exercise Datasets
-description: Bộ dữ liệu bài tập thể hình/fitness phục vụ ML (nhận diện, gợi ý) và xây dựng app tập luyện
-timestamp: "2026-09-20T00:00:00.000Z"
+description: Gym exercise datasets for ML (exercise recognition and recommendation) and for building workout apps.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
   - dataset
+  - fitness
 resource: https://github.com/hasaneyldrm/exercises-dataset
 ---
 
 # Fitness Exercise Datasets
 
-- https://github.com/hasaneyldrm/exercises-dataset — 1,324 bài tập gym: animation GIF + thumbnail 180×180, category/body-part/equipment/target/muscle-group, hướng dẫn từng bước bằng 10 ngôn ngữ. Dùng để xây app fitness, ML nhận diện/gợi ý bài tập, hoặc nghiên cứu sức khỏe.
+- https://github.com/hasaneyldrm/exercises-dataset — 1,324 gym exercises: GIF animations plus 180×180 thumbnails, category/body-part/equipment/target/muscle-group labels, and step-by-step instructions in 10 languages. Use it to build fitness apps, ML for exercise recognition/recommendation, or health research.
+
+> **See also:** [Media Datasets](/Technology/AI/Resources/Datasets/Media Datasets) · [Vietnamese Language Datasets](/Technology/AI/Resources/Datasets/Vietnamese Language Datasets)

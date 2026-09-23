@@ -1,32 +1,32 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: resource
+domain: ranking
+type: case-study
 title: Post Score Algorithm
-description: Post score algorithm - Trending algorithm
-timestamp: "2026-06-19T13:43:26.159Z"
+description: Weighted scoring formula for ranking trending posts, with a variable glossary and a worked numeric example.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - ranking
   - algorithms
   - golang
 resource: https://viblo.asia/p/xay-dung-tinh-nang-trending-bai-viet-m2vJPD2KJeK
 ---
 
-# Post score algorithm - Trending algorithm
+# Post Score Algorithm
 
-## Mục lục
+## Table of Contents
 
 - [Resources](#resources)
-- [Công thức tổng quát](#công-thức-tổng-quát)
-- [Diễn giải biến số](#diễn-giải-biến-số)
-- [Ví dụ tính toán](#ví-dụ-tính-toán)
+- [General Formula](#general-formula)
+- [Variable Definitions](#variable-definitions)
+- [Worked Example](#worked-example)
 
 ## Resources
 
 - https://viblo.asia/p/xay-dung-tinh-nang-trending-bai-viet-m2vJPD2KJeK
 
-## Công thức tổng quát
+## General Formula
 
 $$
 FS=(w_5 \cdot CS+w_6 \cdot PS+ES+(AB \cdot w_7)+RP)\cdot(UP+FP)
@@ -40,31 +40,31 @@ $$
 RP=w_{11}\cdot\left(\frac{1}{1+e^{-k \cdot (AVTP-x_0)}}-0.5\right)
 $$
 
-## Diễn giải biến số
+## Variable Definitions
 
-- FS: Final Score của bài viết
-- w_5, w_6: trọng số cho Category Score và Poster Score
-- CS: Category Score của bài viết
-- PS: Poster Score (boost bài từ tác giả cụ thể)
+- FS: Final Score of the post
+- w_5, w_6: weights for Category Score and Poster Score
+- CS: Category Score of the post
+- PS: Poster Score (boosts posts from specific authors)
 - ES: Engagement Score
-- w_1..w_4: trọng số cho UV/DV/TC/TV
+- w_1..w_4: weights for UV/DV/TC/TV
 - UV: Up Votes
 - DV: Down Votes
 - TC: Total Comments
 - TV: Total Views
-- AB: Admin Boost (1 nếu boost, 0 nếu không)
-- w_7: trọng số cho admin boost
-- UP: User Preference theo category
-- FP: Follower Preference (1 nếu user follow poster, 0 nếu không)
-- RP: Reward/Penalty score (ví dụ cho video)
-- w\_{11}: trọng số cho RP
-- k: độ dốc (steepness)
+- AB: Admin Boost (1 if boosted, 0 otherwise)
+- w_7: weight for the admin boost
+- UP: User Preference for the category
+- FP: Follower Preference (1 if the user follows the poster, 0 otherwise)
+- RP: Reward/Penalty score (for example, for videos)
+- w\_{11}: weight for RP
+- k: steepness
 - AVTP: Average View Time Percentage (video)
-- x_0: ngưỡng AVTP
+- x_0: AVTP threshold
 
-## Ví dụ tính toán
+## Worked Example
 
-### Giả định
+### Assumptions
 
 - $w_1 = 2$, $w_2 = 1$, $w_3 = 0.5$, $w_4 = 0.1$
 - $w_5 = 1$, $w_6 = 0.8$, $w_7 = 20$, $w_{11} = 10$
@@ -84,20 +84,22 @@ $$
 - $FP = 1$
 - $AVTP = 0.8$
 
-### Tính ES
+### Computing ES
 
 $$
 ES=2 \cdot 50+1 \cdot 20+0.5 \cdot 10+0.1 \cdot 500=175
 $$
 
-### Tính RP
+### Computing RP
 
 $$
 RP=10\cdot\left(\frac{1}{1+e^{-10 \cdot (0.8-0.3)}}-0.5\right)\approx 4.5
 $$
 
-### Tính FS
+### Computing FS
 
 $$
 FS=(1\cdot 0.7+0.8\cdot 0.6+175+1\cdot 20+4.5)\cdot(0.7+1)\approx 343.47
 $$
+
+> **See also:** [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation) · [Learning Resources](/Technology/Algorithm/Resources/Learning Resources)

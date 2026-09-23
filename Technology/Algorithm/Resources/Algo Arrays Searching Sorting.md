@@ -1,16 +1,18 @@
 ---
 area: technology
 domain: algorithms
-topic: golang
-type: cheatsheet
+type: guide
 title: Algo Arrays Searching Sorting
-description: Arrays
-timestamp: "2026-06-19T13:43:26.155Z"
+description: TypeScript walkthrough of array internals (ArrayBuffer, array lists, ring buffers), linear and binary search, the two crystal balls problem, and bubble, quick, and merge sort.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
   - algorithms
   - golang
+  - typescript
 ---
+
+# Algo Arrays Searching Sorting
 
 ## Arrays
 
@@ -275,3 +277,5 @@ export default function mergeSort(arr: number[]): number[] {
 ```
 
 - Complexity O(n^log(n))
+
+> **See also:** [Algo Linked Lists](/Technology/Algorithm/Resources/Algo Linked Lists) · [Sorting Algorithms](/Technology/Algorithm/Concepts/Algorithms/Sorting Algorithms) · [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation)

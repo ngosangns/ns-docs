@@ -1,62 +1,55 @@
 ---
 area: technology
-domain: frontend
-type: note
+domain: css
+type: resource
 title: CSS Tools
-description: CSS Tools
-timestamp: "2026-06-19T13:43:26.137Z"
+description: A curated list of CSS libraries, linters, animation libraries, build tools, zero-runtime CSS-in-JS options, themes and icon sets.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - css
   - frontend
 resource: https://github.com/vanilla-extract-css/vanilla-extract
 ---
 
-```/Users/ngosangns/Github/ngosangns-knowledge-base/technology/frontend/Công cụ/CSS.md
----
-tags:
-  - area/technology
-  - domain/frontend
-  - type/resource
-  - lang/vi
----
+# CSS Tools
 
-# CSS Tools & Libraries
+## Libraries
 
-## Thư viện (Libraries)
-
-- **Normalize.css**: Chuẩn hóa kiểu mặc định giữa các trình duyệt.
-- **MVP.css**: Tự động thêm style cho các thẻ HTML ngữ nghĩa (semantic tags) mà không cần class.
-- **PurgeCSS**: Công cụ loại bỏ CSS không sử dụng, giúp giảm dung lượng file cuối cùng.
+- **Normalize.css**: normalizes default styles across browsers.
+- **MVP.css**: automatically styles semantic HTML tags without needing classes.
+- **PurgeCSS**: removes unused CSS, reducing the final file size.
 
 ## Linter
 
-- **stylelint**: Một linter mạnh mẽ và hiện đại giúp tránh lỗi và thực thi các quy ước trong stylesheet.
+- **stylelint**: a powerful, modern linter that helps avoid errors and enforce conventions in stylesheets.
 
-## Hoạt ảnh (Animation Libraries)
+## Animation Libraries
 
-- **animate.css**: Thư viện hoạt ảnh CSS có sẵn để sử dụng ngay.
-- **anime.js**: Thư viện JavaScript mạnh mẽ để tạo các hoạt ảnh phức tạp.
-- **Hover.css**: Bộ sưu tập các hiệu ứng hover sử dụng CSS3.
+- **animate.css**: a ready-to-use CSS animation library.
+- **anime.js**: a powerful JavaScript library for building complex animations.
+- **Hover.css**: a collection of hover effects built with CSS3.
 
-## Xây dựng và Tối ưu (CSS Builders & Processors)
+## CSS Builders And Processors
 
-- **lightningcss**: Công cụ xây dựng, tối ưu và thu nhỏ (minify) CSS cực nhanh được viết bằng Rust.
-- **postcss**: Công cụ chuyển đổi CSS bằng các plugin JavaScript (như Autoprefixer).
+- **lightningcss**: an extremely fast CSS builder, optimizer, and minifier written in Rust.
+- **postcss**: transforms CSS with JavaScript plugins (such as Autoprefixer).
 
 ## CSS-in-JS (Zero Runtime)
 
-- **vanilla-extract**: Viết CSS trong TypeScript với khả năng kiểm tra kiểu (type-safety), tạo ra file CSS tĩnh trong quá trình build - [GitHub](https://github.com/vanilla-extract-css/vanilla-extract)
-- **pigment-css**: Framework CSS-in-JS không có runtime từ đội ngũ MUI, trích xuất style vào file CSS riêng biệt - [GitHub](https://github.com/mui/pigment-css)
+- **vanilla-extract**: write CSS in TypeScript with type safety, generating static CSS files at build time - [GitHub](https://github.com/vanilla-extract-css/vanilla-extract)
+- **pigment-css**: a zero-runtime CSS-in-JS framework from the MUI team that extracts styles into separate CSS files - [GitHub](https://github.com/mui/pigment-css)
 
-## Themes & Design Systems
+## Themes And Design Systems
 
-- **98.css**: Hệ thống thiết kế giao diện theo phong cách Windows 98 cổ điển.
+- **98.css**: a design system for building UIs in the classic Windows 98 style.
 
-## Biểu tượng (Icons)
+## Icons
 
-- **css.gg**: Bộ sưu tập hơn 700 biểu tượng được viết bằng CSS thuần túy.
+- **css.gg**: a collection of 700+ icons written in pure CSS.
 
-## Tài nguyên học tập & Cập nhật
+## Learning Resources And Updates
 
-- **CSS Wrapped 2023**: Trang tổng hợp các tính năng và cập nhật quan trọng nhất của CSS trong năm.
-```
+- **CSS Wrapped 2023**: a page summarizing the most important CSS features and updates of the year.
+
+> **See also:** [React Next](/Technology/Frontend/Tools/React Next) · [Vue And Nuxt](/Technology/Frontend/Tools/Vue And Nuxt) · [Reflow Repaint And CLS Optimization](/Technology/Frontend/Practices/Reflow Repaint And CLS Optimization)

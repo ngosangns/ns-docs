@@ -1,0 +1,235 @@
+---
+area: technology
+domain: claude-code
+type: guide
+title: Kit Comparison
+description: Side-by-side comparison of seven Claude Code toolkits (ECC, oh-my-claudecode, Task Master, ClaudeKit family, Capsule Kit) by features, architecture, use case, and maturity.
+timestamp: "2026-09-24T00:00:00.000Z"
+tags:
+  - technology
+  - claude-code
+  - coding-agents
+  - comparison
+resource: https://github.com/affaan-m/ECC
+---
+
+# Kit Comparison
+
+## Category Overview
+
+| Category                      | Tool                         |
+| ----------------------------- | ---------------------------- |
+| **Full Ecosystem**            | ECC (everything-claude-code) |
+| **Engineering Toolkit**       | claude-capsule-kit           |
+| **Guardrails & Automation**   | claudekit (carlrannaberg)    |
+| **Task Management**           | claude-task-master           |
+| **CLI & Dashboard**           | claudekit-cli (mrgoonie)     |
+| **Skills Collection**         | claudekit-skills (mrgoonie)  |
+| **Multi-agent Orchestration** | oh-my-claudecode             |
+
+---
+
+## General Comparison
+
+### Basic Info
+
+| Tool                             | Stars | Forks | License              | Primary Language |
+| -------------------------------- | ----: | ----: | -------------------- | ---------------- |
+| **ECC** (everything-claude-code) |  264k | 39.4k | MIT                  | TypeScript       |
+| **oh-my-claudecode**             | 28.4k |  2.6k | MIT                  | TypeScript       |
+| **claude-task-master**           | 26.5k |  2.5k | MIT + Commons Clause | JavaScript       |
+| **claudekit-skills**             |    2k |   391 | MIT                  | Python           |
+| **claudekit**                    |   657 |   105 | MIT                  | TypeScript       |
+| **claudekit-cli**                |    95 |    41 | MIT                  | TypeScript       |
+| **claude-capsule-kit**           |    75 |     8 | MIT                  | Shell/JS/Go      |
+
+**Observations:**
+
+- **ECC** leads with 264k stars and is the largest toolkit (the repo was renamed to `affaan-m/ECC`)
+- **OMC** and **Task Master** both have more than 25k stars, so their communities are very large
+- **CCK** is the smallest but has unique features (session memory, crew teams)
+
+---
+
+### Primary Focus
+
+| Tool                             | Primary Focus                                     | Secondary Focus                                      |
+| -------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
+| **ECC** (everything-claude-code) | Complete ecosystem (agents, skills, rules, hooks) | Multi-harness, multi-language, security              |
+| **claude-capsule-kit**           | Session memory & dependency analysis              | Large file navigation, crew teams                    |
+| **claudekit**                    | Real-time error prevention & code review          | Checkpoints, codebase map, spec implementation       |
+| **claude-task-master**           | Task management (PRD -> tasks)                    | Multi-editor MCP integration                         |
+| **claudekit-cli**                | Project management CLI & dashboard                | GitHub automation, content generation                |
+| **claudekit-skills**             | Specialized domain skills                         | Document processing, payments, AI/ML                 |
+| **oh-my-claudecode**             | Multi-agent orchestration                         | Cross-provider (Claude+Codex+Gemini), deep interview |
+
+---
+
+## Comparison by Features
+
+### Core Features Matrix
+
+| Feature                 |      ECC       |        CCK        |    ClaudeKit     |  Task Master   |     CK-CLI      |     CK-Skills      |          OMC           |
+| ----------------------- | :------------: | :---------------: | :--------------: | :------------: | :-------------: | :----------------: | :--------------------: |
+| **Agents/Subagents**    |       68       |        18         |       15+        |       -        |        -        |         -          |           19           |
+| **Skills**              |      292       |         7         |        -         |       -        |        -        |        30+         |         Custom         |
+| **Slash Commands**      |       94       |        6+         |       12+        |       -        |       16        |         -          |          10+           |
+| **Hooks**               | Full lifecycle |      6 hooks      |    10+ hooks     |       -        |        -        |         -          |       Callbacks        |
+| **Session Memory**      |   Via hooks    | Built-in (SQLite) |        -         |       -        |        -        |         -          |        Sessions        |
+| **Code Review**         |  Agent-based   |    Agent-based    | 6-agent parallel |       -        |        -        |    Skill-based     |      Agent-based       |
+| **Checkpoints**         |       -        |         -         | Git checkpoints  |       -        |        -        |         -          |           -            |
+| **Error Prevention**    |  Rules-based   |    PreToolUse     | Real-time guards |       -        |        -        |         -          |           -            |
+| **Multi-provider**      | Multi-harness  |    Claude only    |   Claude only    | 10+ providers  |        -        |         -          |  Claude+Codex+Gemini   |
+| **MCP Server**          |    Configs     |         -         |        -         |    36 tools    |        -        |         -          |           -            |
+| **Task Management**     |       -        |         -         |  Spec workflow   | Full PRD-based |        -        |         -          |     Team pipeline      |
+| **Crew/Team**           |       -        |    Crew teams     |        -         |       -        |        -        |         -          |       Team mode        |
+| **Codebase Map**        |       -        | Dependency graph  |   Auto-inject    |       -        |        -        |         -          |           -            |
+| **Document Processing** |       -        |         -         |        -         |       -        |        -        | docx/pdf/pptx/xlsx |           -            |
+| **Dashboard/GUI**       |    Tkinter     |         -         |        -         |       -        | React dashboard |         -          |     HUD statusline     |
+| **Notifications**       |       -        |         -         |        -         |       -        |        -        |         -          | Telegram/Discord/Slack |
+
+---
+
+### Integration & Platform Support
+
+| Platform           | ECC  | CCK  | ClaudeKit | Task Master | CK-CLI | CK-Skills |     OMC      |
+| ------------------ | :--: | :--: | :-------: | :---------: | :----: | :-------: | :----------: |
+| **Claude Code**    | Full | Full |   Full    |     MCP     |  Full  |  Plugin   |     Full     |
+| **Cursor**         | Full |  -   |     -     |     MCP     |   -    |     -     |      -       |
+| **Codex CLI**      | Full |  -   |     -     |     MCP     |   -    |     -     | tmux workers |
+| **OpenCode**       | Full |  -   |     -     |      -      |   -    |     -     |      -       |
+| **Gemini**         | Full |  -   |     -     |     MCP     |   -    |     -     | tmux workers |
+| **Windsurf**       |  -   |  -   |     -     |     MCP     |   -    |     -     |      -       |
+| **VS Code**        |  -   |  -   |     -     |     MCP     |   -    |     -     |      -       |
+| **GitHub Copilot** |  -   |  -   |     -     |      -      |   -    |     -     |      -       |
+
+---
+
+### Orchestration & Multi-Agent
+
+| Feature                  |    ECC    |      CCK       |   ClaudeKit    | Task Master  |         OMC         |
+| ------------------------ | :-------: | :------------: | :------------: | :----------: | :-----------------: |
+| **Subagent delegation**  | 68 agents |   18 agents    |   15 agents    |      -       |      19 agents      |
+| **Parallel execution**   |     -     |   Crew teams   | 6-agent review |      -       |  Team + Ultrawork   |
+| **Cross-provider**       |     -     |       -        |       -        |      -       | Claude+Codex+Gemini |
+| **Staged pipeline**      |     -     |       -        | Spec workflow  | PRD pipeline |    Team pipeline    |
+| **Git worktrees**        |     -     | Crew worktrees |       -        |      -       |          -          |
+| **Persistent execution** |     -     |       -        |       -        |      -       |     Ralph mode      |
+
+---
+
+## Comparison by Architecture
+
+### Storage & Data
+
+| Tool            | Storage                    | Memory System             | Data Persistence        |
+| --------------- | -------------------------- | ------------------------- | ----------------------- |
+| **ECC**         | File-based                 | Hook-based session memory | Skills, rules, agents   |
+| **CCK**         | SQLite (capsule.db)        | Built-in session memory   | blink-query namespaces  |
+| **ClaudeKit**   | File-based                 | -                         | Checkpoints (git)       |
+| **Task Master** | File-based (.taskmaster/)  | -                         | Tasks, PRD              |
+| **CK-CLI**      | File-based + JSON registry | -                         | Projects registry       |
+| **CK-Skills**   | File-based (skills/)       | -                         | Markdown skills         |
+| **OMC**         | File-based (.omc/)         | Session files             | Skills, sessions, state |
+
+### Tech Stack
+
+| Tool            | Language                           | Runtime               | Key Dependencies       |
+| --------------- | ---------------------------------- | --------------------- | ---------------------- |
+| **ECC**         | TypeScript, Python, Go, Java, Rust | Node.js 18+           | Multi-language         |
+| **CCK**         | Shell, JavaScript, Go              | Node.js 18+, Go 1.20+ | SQLite, blink-query    |
+| **ClaudeKit**   | TypeScript                         | Node.js 20+           | Vitest, Biome          |
+| **Task Master** | JavaScript, TypeScript             | Node.js               | Turborepo, MCP         |
+| **CK-CLI**      | TypeScript                         | Node.js (Bun dev)     | React dashboard        |
+| **CK-Skills**   | Python, JavaScript                 | -                     | Claude Code skills API |
+| **OMC**         | TypeScript                         | Node.js               | tmux                   |
+
+---
+
+## Comparison by Use Case
+
+### Best For
+
+| Use Case                           | Best Choice | Reason                                        |
+| ---------------------------------- | ----------- | --------------------------------------------- |
+| **Enterprise multi-language team** | ECC         | 12+ languages, 68 agents, security scanning   |
+| **Session continuity**             | CCK         | SQLite memory, auto-restore context           |
+| **Code quality enforcement**       | ClaudeKit   | Real-time guards, 6-agent review, checkpoints |
+| **Task/project management**        | Task Master | PRD-based, multi-editor, MCP integration      |
+| **CLI project management**         | CK-CLI      | Dashboard, doctor, skills migration           |
+| **Domain-specific skills**         | CK-Skills   | 30+ specialized skills, document processing   |
+| **Multi-agent orchestration**      | OMC         | Team mode, cross-provider, deep interview     |
+| **Cross-provider workflows**       | OMC         | Claude + Codex + Gemini via tmux              |
+| **Dependency analysis**            | CCK         | Go-based dependency scanner, impact analysis  |
+| **Large file handling**            | CCK         | Progressive AST reader, 75-97% token savings  |
+| **Spec-driven development**        | ClaudeKit   | 6-phase spec workflow                         |
+| **Payment integration**            | CK-Skills   | 5 payment providers                           |
+| **Zero-config setup**              | OMC / CCK   | Auto-activate via hooks                       |
+
+---
+
+## Maturity & Community
+
+| Metric                 |         ECC |    CCK | ClaudeKit | Task Master |      CK-CLI | CK-Skills |         OMC |
+| ---------------------- | ----------: | -----: | --------: | ----------: | ----------: | --------: | ----------: |
+| **GitHub Stars**       |        264k |     75 |       657 |       26.5k |          95 |        2k |       28.4k |
+| **Forks**              |       39.4k |      8 |       105 |        2.5k |          41 |       391 |        2.6k |
+| **Contributors**       |        340+ |      4 |         - |       Large |           - |         - |   5+ active |
+| **npm downloads**      |        High |    Low |    Medium |   Very High |         Low |         - |        High |
+| **Active development** | Very active | Active |    Active | Very active | Very active |    Active | Very active |
+
+---
+
+## Combinations & Recommendations
+
+### Compatible Combinations
+
+| Combination                 | Why                                         |
+| --------------------------- | ------------------------------------------- |
+| **Task Master + OMC**       | Task management + multi-agent orchestration |
+| **CCK + ClaudeKit**         | Session memory + real-time guards           |
+| **ECC standalone**          | Complete ecosystem, no additions needed     |
+| **CK-Skills + any toolkit** | Skills enhance any setup                    |
+| **CK-CLI + CK-Skills**      | CLI management + skills content             |
+| **OMC + CCK**               | Orchestration + session memory              |
+
+### Quick Selection Guide
+
+```
+What do you need?
+│
+├── Complete ecosystem, all-in-one
+│   └── ECC (affaan-m/ECC)
+│
+├── Multi-agent orchestration
+│   └── oh-my-claudecode
+│
+├── Task management
+│   └── claude-task-master
+│
+├── Code quality & guards
+│   └── claudekit
+│
+├── Session memory & dependency analysis
+│   └── claude-capsule-kit
+│
+├── Specialized domain skills
+│   └── claudekit-skills
+│
+└── CLI project management
+    └── claudekit-cli
+```
+
+---
+
+**References**:
+
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) - 264k stars (old name: `everything-claude-code`)
+- [arpitnath/claude-capsule-kit](https://github.com/arpitnath/claude-capsule-kit) - 75 stars
+- [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) - 657 stars
+- [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) - 26.5k stars
+- [mrgoonie/claudekit-cli](https://github.com/mrgoonie/claudekit-cli) - 95 stars
+- [mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) - 2k stars
+- [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) - 28.4k stars
+
+> **See also:** [Everything Claude Code](/Technology/AI/Tools/Agents/Claude Code Kits/Everything Claude Code) · [Oh My Claudecode](/Technology/AI/Tools/Agents/Claude Code Kits/Oh My Claudecode) · [Claude Task Master](/Technology/AI/Tools/Agents/Claude Code Kits/Claude Task Master)

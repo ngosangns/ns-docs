@@ -1,25 +1,29 @@
 ---
 area: technology
-domain: ai-ml
+domain: document-processing
 type: resource
 title: Document Processing
-description: Document Processing
-timestamp: "2026-06-19T13:43:26.162Z"
+description: Curated tools for preparing, extracting, translating, and labeling documents for generative AI pipelines.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
+  - document-processing
+  - etl
+  - extraction
 resource: https://github.com/docling-project/docling
 ---
 
 # Document Processing
 
 - [docling-project/docling: Get your documents ready for gen AI](https://github.com/docling-project/docling)
-- **ai-powerpoint-translator**: Công cụ tự động dịch nội dung PowerPoint bằng API Gemini, mặc định dịch từ tiếng Việt sang tiếng Nhật, nhưng có thể tùy chỉnh ngôn ngữ nguồn và đích - [GitHub](https://github.com/hoangduong92/ai-powerpoint-translator)
-- **docetl**: Công cụ trích xuất, chuyển đổi và tải dữ liệu từ tài liệu - [GitHub](https://github.com/ucbepic/docetl) #ETL #document #extraction
+- **ai-powerpoint-translator**: A tool that automatically translates PowerPoint content using the Gemini API. It translates from Vietnamese to Japanese by default, but the source and target languages can be customized - [GitHub](https://github.com/hoangduong92/ai-powerpoint-translator)
+- **docetl**: A tool for extracting, transforming, and loading data from documents - [GitHub](https://github.com/ucbepic/docetl) #ETL #document #extraction
 - Data labeling: https://doccano.github.io/doccano #dataLabeling
 - Get your documents ready for gen AI: https://github.com/docling-project/docling
-- **Doctra**: Công cụ trích xuất và xử lý thông tin từ các tài liệu văn bản - [GitHub](https://github.com/AdemBoukhris457/Doctra) #document #processing #extraction
+- **Doctra**: A tool for extracting and processing information from text documents - [GitHub](https://github.com/AdemBoukhris457/Doctra) #document #processing #extraction
 
 ## AI Resources & Collections
 
-- **Redis AI Resources**: Bộ sưu tập tài nguyên về AI và Redis, bao gồm các ví dụ, hướng dẫn và best practices về việc sử dụng Redis trong các ứng dụng AI - [GitHub](https://github.com/redis-developer/redis-ai-resources) #Redis #AI #resources
+- **Redis AI Resources**: A collection of AI and Redis resources, including examples, tutorials, and best practices for using Redis in AI applications - [GitHub](https://github.com/redis-developer/redis-ai-resources) #Redis #AI #resources
+
+> **See also:** [Knowledge And Data Management](/Technology/AI/Tools/Data/Knowledge And Data Management) · [Vector Databases](/Technology/AI/Tools/Database/Vector Databases) · [Chunking Strategies](/Technology/AI/Concepts/LLM And Generative AI/RAG/Chunking Strategies)

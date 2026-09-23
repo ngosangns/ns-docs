@@ -1,16 +1,14 @@
 ---
 area: technology
-domain: ai-ml
-topic: agents
+domain: coding-agents
 type: resource
 title: AI Coding Productivity Tools
-description: Agent skills, context engineering, context compression, browser automation cho agent, và các công cụ tăng năng suất coding-agent khác
-timestamp: "2026-09-20T00:00:00.000Z"
+description: Curated list of agent skills, context-engineering and compression tools, browser automation for agents, and other productivity tools for coding agents.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
-  - ai-ml
-  - agents
   - coding-agents
+  - agents
 resource: https://github.com/kaitranntt/ccs
 ---
 
@@ -57,3 +55,5 @@ resource: https://github.com/kaitranntt/ccs
 - https://github.com/herdrdev/herdr — Terminal-based runtime that manages coding agent sessions (Claude Code, Cursor, etc.) across local and remote machines; keeps agents running in a background server through disconnections, with a unified multi-machine interface and agent-native features like spawning panes and inter-agent communication.
 - https://github.com/howznguyen/pi-delegate-mcp — MCP server that turns the "pi" coding agent into a steerable background worker; delegate a task, redirect it mid-run, and keep its context out of your own.
 - https://github.com/langchain-ai/openwiki — CLI that writes and maintains agent-facing documentation for your codebase.
+
+> **See also:** [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents) · [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview) · [Kit Comparison](/Technology/AI/Tools/Agents/Claude Code Kits/Kit Comparison)

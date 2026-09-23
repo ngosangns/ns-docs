@@ -1,30 +1,32 @@
 ---
 area: technology
-domain: algorithms
-topic: golang
-type: resource
+domain: computational-geometry
+type: note
 title: Computational Geometry
-description: Computational Geometry (Hình học tính toán)
-timestamp: "2026-06-19T13:43:26.159Z"
+description: Introduces the convex hull problem in computational geometry and lists the common algorithms for computing it.
+timestamp: "2026-09-24T00:00:00.000Z"
 tags:
   - technology
+  - computational-geometry
   - algorithms
   - golang
 ---
 
-# Computational Geometry (Hình học tính toán)
+# Computational Geometry
 
-## Bao lồi (Convex Hull)
+## Convex Hull
 
-Bao lồi là một vấn đề rất thường xuyên xuất hiện trong các bài tập hình học tính toán của lập trình thi đấu.
+The convex hull is a problem that appears very frequently in computational geometry exercises in competitive programming.
 
-Xét một tập điểm trên mặt phẳng tọa độ Oxy, bao lồi của tập điểm là tập lồi nhỏ nhất (theo diện tích, thể tích,...) mà chứa tất cả các điểm đó. Nói cách khác, bao lồi của một tập điểm là đa giác nhỏ nhất chứa tất cả các điểm đó.
+Given a set of points on the Oxy coordinate plane, the convex hull of the set is the smallest convex set (in terms of area, volume, etc.) that contains all of those points. In other words, the convex hull of a point set is the smallest polygon that contains all the points.
 
-Một cách trực quan, nếu coi mỗi điểm như một chiếc đinh đóng trên tấm gỗ, bao lồi của tập điểm đó sẽ có viền ngoài là một sợi dây sau khi bị kéo căng vào những chiếc đinh ở các phía.
+Intuitively, if each point is a nail hammered into a wooden board, the outline of the convex hull is a rubber band stretched tight around the nails on all sides.
 
 ![](/Attachments/8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e.png)
 
-## Các thuật toán tìm bao lồi thông dụng
+## Common Convex Hull Algorithms
 
 - Graham
 - Monotone Chain
+
+> **See also:** [Problem Solving Approaches](/Technology/Algorithm/Concepts/Approaches/Problem Solving Approaches) · [Learning Resources](/Technology/Algorithm/Resources/Learning Resources)
