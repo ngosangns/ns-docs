@@ -10,6 +10,7 @@ import chokidar from "chokidar"
 import prettyBytes from "pretty-bytes"
 import { execSync, spawnSync } from "child_process"
 import http from "http"
+import net from "net"
 import serveHandler from "serve-handler"
 import { WebSocketServer } from "ws"
 import { randomUUID } from "crypto"
@@ -317,6 +318,45 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 }
 
 /**
+ * Checks whether a TCP port is free by briefly binding to it.
+ * @param {number} port
+ * @returns {Promise<boolean>}
+ */
+function isPortAvailable(port) {
+  return new Promise((resolve) => {
+    const tester = net
+      .createServer()
+      .once("error", () => resolve(false))
+      .once("listening", () => tester.close(() => resolve(true)))
+      .listen(port, "0.0.0.0")
+  })
+}
+
+/**
+ * Finds the first free port starting at `startPort`, trying up to
+ * `maxAttempts` sequential ports (e.g. hot-reload's WebSocket port
+ * colliding with another local dev server). Falls back to `startPort`
+ * unchanged if none are free, so the caller's own EADDRINUSE handling
+ * still applies.
+ * @param {number} startPort
+ * @param {number} maxAttempts
+ * @returns {Promise<number>}
+ */
+async function findAvailablePort(startPort, maxAttempts = 20) {
+  for (let port = startPort; port < startPort + maxAttempts; port++) {
+    if (await isPortAvailable(port)) {
+      if (port !== startPort) {
+        console.log(
+          styleText("yellow", `Port ${startPort} is already in use, using ${port} instead.`),
+        )
+      }
+      return port
+    }
+  }
+  return startPort
+}
+
+/**
  * Handles `npx quartz build`
  * @param {*} argv arguments for `build`
  */
@@ -450,6 +490,12 @@ export async function handleBuild(argv) {
 
     if (argv.baseDir !== "" && !argv.baseDir.startsWith("/")) {
       argv.baseDir = "/" + argv.baseDir
+    }
+
+    // resolve the WebSocket port before building so the port baked into the
+    // client hot-reload script matches the port the server actually binds
+    if (!argv.remoteDevHost) {
+      argv.wsPort = await findAvailablePort(argv.wsPort)
     }
 
     await build(clientRefresh)
