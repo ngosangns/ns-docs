@@ -22,9 +22,9 @@
     "duplicates:find": "node scripts/find-duplicates.js",
     "images:check": "node scripts/check-images.js",
     "images:broken": "node scripts/check-images.js --broken",
-    "web:setup": "npm --prefix web install",
-    "web:build": "npm --prefix web run build",
-    "web:serve": "npm --prefix web run dev",
+    "web:setup": "cd web && env -u npm_config_allow_scripts npm install",
+    "web:build": "cd web && npm run build",
+    "web:serve": "cd web && npm run dev",
     "web:deploy": "npm run web:build && wrangler pages deploy web/dist --project-name ngosangns-knowledge-base",
     "export": "node scripts/export.js",
     "backup": "node scripts/backup.js"
