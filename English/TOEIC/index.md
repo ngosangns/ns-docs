@@ -1,3 +1,3 @@
 # Sections
 
-* [Concepts](English/TOEIC/Concepts/index.md)
+- [Concepts](English/TOEIC/Concepts/index.md)

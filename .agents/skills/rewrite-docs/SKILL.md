@@ -80,7 +80,7 @@ Use `git mv` for pure renames so history follows the file.
 
 ### 5. Regenerate index.md
 
-Every folder gets a generated `index.md` — `# Sections` for subfolders, `# Concepts` for files, one link per entry with the frontmatter `title` as link text and `description` after a dash. Never hand-edit these; run:
+Every folder gets a generated `index.md` — `# Sections` for subfolders, `# Concepts` for files, one link per entry with the frontmatter `title` as link text and `description` after a dash. Bullets use `-` (the generator emits `-` to match what prettier leaves behind — `format:md` runs `npx prettier` vault-wide). Never hand-edit these; run:
 
 ```bash
 npm run index:generate        # dry-run preview (default)
