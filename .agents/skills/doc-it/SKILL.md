@@ -14,6 +14,7 @@ user-invocable: true
 ## When to Use
 
 Run this skill when:
+
 - A new contributor asks "where are the docs?"
 - Endpoints, CLI commands, or config options have changed since the last doc update
 - You want to find out what documentation is missing, stale, or incomplete
@@ -120,6 +121,7 @@ for style.
 **API documentation** (if the project has route handlers or RPC definitions):
 Scan for HTTP handlers, gRPC services, GraphQL resolvers, or CLI command
 definitions. For each public interface, generate a doc page with:
+
 - Name and signature
 - "When to Use" section explaining the use case, not restating the signature
 - Request/input details with types

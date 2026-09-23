@@ -5,13 +5,14 @@ topic: rag
 type: tutorial
 title: RAG Tutorial Neo4j Graphrag
 description: RAG Tutorial - Neo4j GraphRAG
-timestamp: '2026-06-19T13:43:26.165Z'
+timestamp: "2026-06-19T13:43:26.165Z"
 tags:
   - technology
   - ai-ml
   - rag
 resource: https://neo4j.com/blog/developer/rag-tutorial/
 ---
+
 # RAG Tutorial - Neo4j GraphRAG
 
 > **Nguồn**: [RAG Tutorial: How to Build a RAG System on a Knowledge Graph](https://neo4j.com/blog/developer/rag-tutorial/)

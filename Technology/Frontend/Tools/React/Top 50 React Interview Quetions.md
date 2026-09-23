@@ -5,12 +5,13 @@ topic: react
 type: resource
 title: Top 50 React Interview Quetions
 description: Top 50 React Interview Questions
-timestamp: '2026-06-19T13:43:26.143Z'
+timestamp: "2026-06-19T13:43:26.143Z"
 tags:
   - technology
   - frontend
   - react
 ---
+
 # Top 50 React Interview Questions
 
 ## React Basics

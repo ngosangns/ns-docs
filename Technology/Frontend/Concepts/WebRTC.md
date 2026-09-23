@@ -5,13 +5,14 @@ topic: webrtc
 type: resource
 title: Webrtc
 description: WebRTC
-timestamp: '2026-06-19T13:43:26.144Z'
+timestamp: "2026-06-19T13:43:26.144Z"
 tags:
   - technology
   - frontend
   - webrtc
 resource: https://webrtc.org/
 ---
+
 # WebRTC
 
 ## Tổng quan

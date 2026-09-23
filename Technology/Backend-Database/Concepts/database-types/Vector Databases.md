@@ -5,13 +5,14 @@ topic: database
 type: resource
 title: Vector Databases
 description: Vector Databases
-timestamp: '2026-06-19T13:43:26.155Z'
+timestamp: "2026-06-19T13:43:26.155Z"
 tags:
   - technology
   - backend
   - database
 resource: https://www.youtube.com/watch?v=qslGfiM67dE
 ---
+
 # Vector Databases
 
 Thiết kế chuyên biệt để lưu trữ, quản lý, tìm kiếm vector embeddings.
@@ -35,6 +36,8 @@ Thiết kế chuyên biệt để lưu trữ, quản lý, tìm kiếm vector emb
 ## Tài liệu liên quan
 
 ### Công cụ & CSDL
+
 Xem chi tiết các công cụ hỗ trợ tại:
+
 - [Database Tools](/Technology/Backend-Database/Tools/tools-utilities/Database Tools)
 - [AI Vector Databases](/Technology/AI/Tools/Database/Vector Databases)

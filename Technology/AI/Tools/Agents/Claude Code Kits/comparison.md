@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Comparison
 description: So sánh 7 Claude Code Toolkits & Enhancement Systems
-timestamp: '2026-06-19T13:43:26.090Z'
+timestamp: "2026-06-19T13:43:26.090Z"
 tags:
   - technology
   - ai-ml
@@ -13,19 +13,20 @@ tags:
   - claude-code
 resource: https://github.com/affaan-m/ECC
 ---
+
 # So sánh 7 Claude Code Toolkits & Enhancement Systems
 
 ## Tổng quan Category
 
-| Category                      | Công cụ                     |
-| ----------------------------- | --------------------------- |
+| Category                      | Công cụ                      |
+| ----------------------------- | ---------------------------- |
 | **Full Ecosystem**            | ECC (everything-claude-code) |
-| **Engineering Toolkit**       | claude-capsule-kit          |
-| **Guardrails & Automation**   | claudekit (carlrannaberg)   |
-| **Task Management**           | claude-task-master          |
-| **CLI & Dashboard**           | claudekit-cli (mrgoonie)    |
-| **Skills Collection**         | claudekit-skills (mrgoonie) |
-| **Multi-agent Orchestration** | oh-my-claudecode            |
+| **Engineering Toolkit**       | claude-capsule-kit           |
+| **Guardrails & Automation**   | claudekit (carlrannaberg)    |
+| **Task Management**           | claude-task-master           |
+| **CLI & Dashboard**           | claudekit-cli (mrgoonie)     |
+| **Skills Collection**         | claudekit-skills (mrgoonie)  |
+| **Multi-agent Orchestration** | oh-my-claudecode             |
 
 ---
 
@@ -33,15 +34,15 @@ resource: https://github.com/affaan-m/ECC
 
 ### 1.1 Basic Info
 
-| Công cụ                    | Stars | Forks | License              | Primary Language |
-| -------------------------- | ----: | ----: | -------------------- | ---------------- |
-| **ECC** (everything-claude-code) |  264k | 39.4k | MIT             | TypeScript       |
-| **oh-my-claudecode**       | 28.4k |  2.6k | MIT                  | TypeScript       |
-| **claude-task-master**     | 26.5k |  2.5k | MIT + Commons Clause | JavaScript       |
-| **claudekit-skills**       |    2k |   391 | MIT                  | Python           |
-| **claudekit**              |   657 |   105 | MIT                  | TypeScript       |
-| **claudekit-cli**          |    95 |    41 | MIT                  | TypeScript       |
-| **claude-capsule-kit**     |    75 |     8 | MIT                  | Shell/JS/Go      |
+| Công cụ                          | Stars | Forks | License              | Primary Language |
+| -------------------------------- | ----: | ----: | -------------------- | ---------------- |
+| **ECC** (everything-claude-code) |  264k | 39.4k | MIT                  | TypeScript       |
+| **oh-my-claudecode**             | 28.4k |  2.6k | MIT                  | TypeScript       |
+| **claude-task-master**           | 26.5k |  2.5k | MIT + Commons Clause | JavaScript       |
+| **claudekit-skills**             |    2k |   391 | MIT                  | Python           |
+| **claudekit**                    |   657 |   105 | MIT                  | TypeScript       |
+| **claudekit-cli**                |    95 |    41 | MIT                  | TypeScript       |
+| **claude-capsule-kit**           |    75 |     8 | MIT                  | Shell/JS/Go      |
 
 **Nhận xét:**
 
@@ -53,15 +54,15 @@ resource: https://github.com/affaan-m/ECC
 
 ### 1.2 Primary Focus
 
-| Công cụ                    | Primary Focus                                     | Secondary Focus                                      |
-| -------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| **ECC** (everything-claude-code) | Complete ecosystem (agents, skills, rules, hooks) | Multi-harness, multi-language, security        |
-| **claude-capsule-kit**     | Session memory & dependency analysis              | Large file navigation, crew teams                    |
-| **claudekit**              | Real-time error prevention & code review          | Checkpoints, codebase map, spec implementation       |
-| **claude-task-master**     | Task management (PRD -> tasks)                    | Multi-editor MCP integration                         |
-| **claudekit-cli**          | Project management CLI & dashboard                | GitHub automation, content generation                |
-| **claudekit-skills**       | Specialized domain skills                         | Document processing, payments, AI/ML                 |
-| **oh-my-claudecode**       | Multi-agent orchestration                         | Cross-provider (Claude+Codex+Gemini), deep interview |
+| Công cụ                          | Primary Focus                                     | Secondary Focus                                      |
+| -------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
+| **ECC** (everything-claude-code) | Complete ecosystem (agents, skills, rules, hooks) | Multi-harness, multi-language, security              |
+| **claude-capsule-kit**           | Session memory & dependency analysis              | Large file navigation, crew teams                    |
+| **claudekit**                    | Real-time error prevention & code review          | Checkpoints, codebase map, spec implementation       |
+| **claude-task-master**           | Task management (PRD -> tasks)                    | Multi-editor MCP integration                         |
+| **claudekit-cli**                | Project management CLI & dashboard                | GitHub automation, content generation                |
+| **claudekit-skills**             | Specialized domain skills                         | Document processing, payments, AI/ML                 |
+| **oh-my-claudecode**             | Multi-agent orchestration                         | Cross-provider (Claude+Codex+Gemini), deep interview |
 
 ---
 

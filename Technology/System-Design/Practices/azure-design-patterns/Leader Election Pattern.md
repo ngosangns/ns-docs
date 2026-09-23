@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Leader Election Pattern
 description: Leader Election Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Leader Election Pattern.md#L1-55
 # Leader Election Pattern (Mô hình Bầu chọn Lãnh đạo)
 
@@ -47,3 +48,4 @@ Sử dụng cơ chế **Lease Blob** trên Azure Storage. Một node sẽ cố g
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Leader Election Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-election)*
+```

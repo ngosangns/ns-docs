@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Static Content Hosting Pattern
 description: Static Content Hosting Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Static Content Hosting Pattern.md#L1-35
 # Static Content Hosting Pattern (Mô hình Lưu trữ Nội dung Tĩnh)
 
@@ -42,3 +43,4 @@ Mô hình Static Content Hosting triển khai các nội dung tĩnh (HTML, CSS, 
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Static Content Hosting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting)
+```

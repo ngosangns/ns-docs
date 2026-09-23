@@ -5,7 +5,7 @@ topic: memory-code-intelligence
 type: resource
 title: Think Better
 description: Think-Better - OS for Clear Thinking & Better Decisions
-timestamp: '2026-06-19T13:43:26.089Z'
+timestamp: "2026-06-19T13:43:26.089Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - code-intelligence
 resource: https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.sh
 ---
+
 # Think-Better - OS for Clear Thinking & Better Decisions
 
 ## Định nghĩa
@@ -48,15 +49,16 @@ think-better init --ai antigravity # Antigravity
 
 **10 Decision Frameworks**:
 
-| Framework | Mô tả |
-|-----------|-------|
+| Framework            | Mô tả                                     |
+| -------------------- | ----------------------------------------- |
 | Reversibility Filter | Đánh giá mức độ reversible của quyết định |
-| Weighted Matrix | So sánh có trọng số |
-| Hypothesis-Driven | Quyết định dựa trên hypothesis |
-| Pre-Mortem | Phân tích thất bại trước khi quyết định |
-| Pros-Cons-Fixes | Pros-Cons-Fixes with bias warnings |
+| Weighted Matrix      | So sánh có trọng số                       |
+| Hypothesis-Driven    | Quyết định dựa trên hypothesis            |
+| Pre-Mortem           | Phân tích thất bại trước khi quyết định   |
+| Pros-Cons-Fixes      | Pros-Cons-Fixes with bias warnings        |
 
 **12 Cognitive Bias Warnings**:
+
 - Overconfidence
 - Anchoring
 - Sunk Cost
@@ -77,9 +79,11 @@ think-better init --ai antigravity # Antigravity
 **Keywords**: "solve", "debug", "root cause", "I'm stuck"
 
 **7-Step McKinsey Method**:
+
 1. Define → 2. Decompose → 3. Prioritize → 4. Analyze → 5. Synthesize → 6. Communicate → 7. Recommend
 
 **15 Decomposition Methods**:
+
 - Issue Tree
 - MECE (Mutually Exclusive, Collectively Exhaustive)
 - Hypothesis Tree
@@ -88,12 +92,14 @@ think-better init --ai antigravity # Antigravity
 - Và 10 methods khác
 
 **12 Mental Models**:
+
 - First Principles
 - Inversion
 - Bayesian Updating
 - Pareto Principle
 
 **10 Communication Patterns**:
+
 - Pyramid Principle
 - BLUF (Bottom Line Up Front)
 - SCR (Situation-Complication-Resolution)
@@ -109,12 +115,12 @@ think-better init --ai antigravity # Antigravity
 
 ## Depth Levels
 
-| Command | Depth | Records | Best For |
-|---------|-------|---------|----------|
-| `/solve.quick` / `/decide.quick` | Quick | 0.5× | Fast scan |
-| `/solve` / `/decide` | Standard | 1.0× | Default |
-| `/solve.deep` / `/decide.deep` | Deep | 1.7× | Complex decisions |
-| `/solve.exec` / `/decide.exec` | Executive | 2.5× | Board reports |
+| Command                          | Depth     | Records | Best For          |
+| -------------------------------- | --------- | ------- | ----------------- |
+| `/solve.quick` / `/decide.quick` | Quick     | 0.5×    | Fast scan         |
+| `/solve` / `/decide`             | Standard  | 1.0×    | Default           |
+| `/solve.deep` / `/decide.deep`   | Deep      | 1.7×    | Complex decisions |
+| `/solve.exec` / `/decide.exec`   | Executive | 2.5×    | Board reports     |
 
 ## CLI Commands
 
@@ -129,6 +135,7 @@ think-better version    # Show version
 ## How It Works
 
 **Architecture**: BM25 search engine querying 160 knowledge records với depth multipliers (0.5× to 2.5×), kết hợp với advisor engine:
+
 1. Classifies input (decision/problem)
 2. Applies relevant frameworks
 3. Detects cognitive biases
@@ -151,6 +158,7 @@ Think Better:
 ## Step-by-Step Workspace
 
 Thêm "save step-by-step" vào bất kỳ prompt nào để generate full markdown workspace:
+
 - Overview
 - Decomposition
 - Analysis
@@ -161,30 +169,30 @@ Thêm "save step-by-step" vào bất kỳ prompt nào để generate full markdo
 
 ## Requirements
 
-| Method | Requirements |
-|--------|--------------|
-| Binary download | None |
-| go install | Go 1.25+ |
-| Build from source | Go 1.25+ |
-| Running skills | Python 3 |
+| Method            | Requirements |
+| ----------------- | ------------ |
+| Binary download   | None         |
+| go install        | Go 1.25+     |
+| Build from source | Go 1.25+     |
+| Running skills    | Python 3     |
 
 ## Ưu điểm
 
-| Ưu điểm | Mô tả |
-|---------|-------|
-| Structured thinking | Biến AI thành structured decision maker |
-| Bias detection | Tự động phát hiện 12 cognitive biases |
-| Multiple frameworks | 10 decision frameworks + 15 decomposition methods |
-| Depth control | 4 mức độ phân tích tùy chọn |
-| Easy integration | Cài đặt đơn giản, tích hợp với Claude, Copilot, Antigravity |
-| CLI tool | Không cần code, chạy trực tiếp |
+| Ưu điểm             | Mô tả                                                       |
+| ------------------- | ----------------------------------------------------------- |
+| Structured thinking | Biến AI thành structured decision maker                     |
+| Bias detection      | Tự động phát hiện 12 cognitive biases                       |
+| Multiple frameworks | 10 decision frameworks + 15 decomposition methods           |
+| Depth control       | 4 mức độ phân tích tùy chọn                                 |
+| Easy integration    | Cài đặt đơn giản, tích hợp với Claude, Copilot, Antigravity |
+| CLI tool            | Không cần code, chạy trực tiếp                              |
 
 ## Nhược điểm
 
-| Nhược điểm | Mô tả |
-|------------|-------|
-| Go-based | Cần Go 1.25+ để build |
-| Limited LLM support | Chỉ hỗ trợ Claude, GitHub Copilot, Antigravity |
+| Nhược điểm               | Mô tả                                           |
+| ------------------------ | ----------------------------------------------- |
+| Go-based                 | Cần Go 1.25+ để build                           |
+| Limited LLM support      | Chỉ hỗ trợ Claude, GitHub Copilot, Antigravity  |
 | Không phải memory system | Chỉ là thinking framework, không lưu trữ memory |
 
 ## Sử dụng khi nào
@@ -197,6 +205,7 @@ Thêm "save step-by-step" vào bất kỳ prompt nào để generate full markdo
 
 ---
 
-**Tài liệu tham khảo**: 
+**Tài liệu tham khảo**:
+
 - [HoangTheQuyen/think-better](https://github.com/HoangTheQuyen/think-better)
 - [Install Script](https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/install.sh)

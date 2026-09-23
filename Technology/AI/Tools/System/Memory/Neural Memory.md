@@ -5,7 +5,7 @@ topic: memory-code-intelligence
 type: resource
 title: Neural Memory
 description: Neural Memory - Persistent Memory for AI Agents
-timestamp: '2026-06-19T13:43:26.089Z'
+timestamp: "2026-06-19T13:43:26.089Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - code-intelligence
 resource: https://github.com/nhadaututtheky/neural-memory
 ---
+
 # Neural Memory - Persistent Memory for AI Agents
 
 ## Định nghĩa
@@ -28,11 +29,11 @@ nmem init --full
 
 ## Core Tools
 
-| Tool | Function |
-|------|----------|
+| Tool            | Function                                                |
+| --------------- | ------------------------------------------------------- |
 | `nmem_remember` | Store memory with auto-detected type, tags, connections |
-| `nmem_recall` | Recall via spreading activation |
-| `nmem_health` | Brain health score (A-F) with fix suggestions |
+| `nmem_recall`   | Recall via spreading activation                         |
+| `nmem_health`   | Brain health score (A-F) with fix suggestions           |
 
 ## CLI Commands
 
@@ -128,13 +129,13 @@ SUPPORTS, OPPOSES, ENABLES, BLOCKS
 
 ### Memory Compression Tiers
 
-| Tier | Description |
-|------|-------------|
-| Full | Complete memory with all details |
-| Summary | Condensed version |
-| Essence | Core facts only |
-| Ghost | Metadata only |
-| Reference | Pointer to external storage |
+| Tier      | Description                      |
+| --------- | -------------------------------- |
+| Full      | Complete memory with all details |
+| Summary   | Condensed version                |
+| Essence   | Core facts only                  |
+| Ghost     | Metadata only                    |
+| Reference | Pointer to external storage      |
 
 ## Setup by Tool
 
@@ -160,6 +161,7 @@ pip install neural-memory && npm install -g neuralmemory
 ## 56 MCP Tools
 
 Neural Memory cung cấp 56 MCP tools cho:
+
 - Memory operations
 - Brain management
 - Sync operations
@@ -176,21 +178,21 @@ Neural Memory cung cấp 56 MCP tools cho:
 
 ## Ưu điểm
 
-| Ưu điểm | Mô tả |
-|---------|-------|
-| Graph-based | True graph memory, không phải vector store |
-| Fully offline | Không phụ thuộc external APIs |
-| Free tier tốt | SQLite + keyword search miễn phí |
-| Multi-hop reasoning | Associative recall vượt trội |
-| Privacy-focused | User data never stored |
+| Ưu điểm             | Mô tả                                      |
+| ------------------- | ------------------------------------------ |
+| Graph-based         | True graph memory, không phải vector store |
+| Fully offline       | Không phụ thuộc external APIs              |
+| Free tier tốt       | SQLite + keyword search miễn phí           |
+| Multi-hop reasoning | Associative recall vượt trội               |
+| Privacy-focused     | User data never stored                     |
 
 ## Nhược điểm
 
-| Nhược điểm | Mô tả |
-|------------|-------|
+| Nhược điểm           | Mô tả                                  |
+| -------------------- | -------------------------------------- |
 | Pro requires payment | InfinityDB tốn phí cho semantic search |
-| Learning curve | Cần hiểu graph-based memory |
-| Limited integrations | Ít hơn so với một số alternatives |
+| Learning curve       | Cần hiểu graph-based memory            |
+| Limited integrations | Ít hơn so với một số alternatives      |
 
 ## Sử dụng khi nào
 
@@ -202,6 +204,7 @@ Neural Memory cung cấp 56 MCP tools cho:
 
 ---
 
-**Tài liệu tham khảo**: 
+**Tài liệu tham khảo**:
+
 - [nhadaututtheky/neural-memory](https://github.com/nhadaututtheky/neural-memory)
 - [Config](./config.toml)

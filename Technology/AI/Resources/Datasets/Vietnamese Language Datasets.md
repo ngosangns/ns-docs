@@ -5,13 +5,14 @@ topic: javascript
 type: resource
 title: Vietnamese Language Datasets
 description: Vietnamese Language Datasets
-timestamp: '2026-06-19T13:43:26.164Z'
+timestamp: "2026-06-19T13:43:26.164Z"
 tags:
   - technology
   - ai-ml
   - javascript
 resource: https://www.facebook.com/groups/machinelearningcoban/posts/2067772090346854/
 ---
+
 # Vietnamese Language Datasets
 
 Tóm tắt từ bài viết về hợp tác giữa Viettel và NVIDIA trong việc xây dựng mô hình ngôn ngữ lớn tiếng Việt.

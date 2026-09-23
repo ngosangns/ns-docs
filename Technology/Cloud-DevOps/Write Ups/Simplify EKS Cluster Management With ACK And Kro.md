@@ -5,7 +5,7 @@ topic: kubernetes
 type: case-study
 title: Simplify EKS Cluster Management With ACK And Kro
 description: Ghi chú/tổng hợp kiến trúc GitOps quản lý fleet cụm Amazon EKS bằng ACK, kro và Argo CD
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - devops
@@ -56,15 +56,15 @@ Dùng cluster-scoped CRD `IAMRoleSelector` để map **namespace → IAM role** 
 - Mỗi add-on ↔ 1 Argo CD `ApplicationSet` dùng **Cluster Generator** để sinh `Application` áp cho nhiều cụm workload cùng lúc.
 - Để cluster generator "thấy" 1 cụm workload, cụm đó phải được đăng ký làm remote cluster trong Argo CD — làm bằng 1 `Secret` (chứa ARN cụm) được tạo ngay trong RGD `EksClusterBasic` (field `server` = `${ekscluster.status.ackResourceMetadata.arn}`).
 - Argo CD controller cần quyền truy cập cụm workload → cấp qua **EKS access entry**, cũng khai báo luôn trong RGD `EksClusterBasic` (`AccessEntry` CR với `policyARN: AmazonEKSClusterAdminPolicy`, `principalARN` trỏ về IAM role của Argo CD controller).
-- Add-on cần IAM permission riêng (vd. External Secrets Operator) → dùng **EKS Pod Identity**: tạo IAM policy + role + association ServiceAccount↔role, cũng đưa vào RGD để đảm bảo IAM sẵn sàng *trước khi* add-on pod khởi động (tránh crash do thiếu quyền).
+- Add-on cần IAM permission riêng (vd. External Secrets Operator) → dùng **EKS Pod Identity**: tạo IAM policy + role + association ServiceAccount↔role, cũng đưa vào RGD để đảm bảo IAM sẵn sàng _trước khi_ add-on pod khởi động (tránh crash do thiếu quyền).
 
 ## Luồng end-to-end tạo 1 cụm workload
 
 1. Dev mở PR chứa manifest RGD instance của cụm (tên, k8s version, add-on cần bật...).
-2–3. Argo CD sync instance RGD vào cụm quản lý.
-4. kro controller phân rã RGD instance thành các ACK CR riêng lẻ, apply theo đúng thứ tự phụ thuộc; đồng thời tạo `Secret` chứa thông tin cụm cho Argo CD.
-5. ACK controller assume role account workload, gọi AWS API tạo VPC/IAM role/cụm EKS thật.
-6. Argo CD `ApplicationSet` sinh `Application` cho từng add-on đã bật, cài vào cụm workload.
+   2–3. Argo CD sync instance RGD vào cụm quản lý.
+2. kro controller phân rã RGD instance thành các ACK CR riêng lẻ, apply theo đúng thứ tự phụ thuộc; đồng thời tạo `Secret` chứa thông tin cụm cho Argo CD.
+3. ACK controller assume role account workload, gọi AWS API tạo VPC/IAM role/cụm EKS thật.
+4. Argo CD `ApplicationSet` sinh `Application` cho từng add-on đã bật, cài vào cụm workload.
 
 ## Lưu ý
 

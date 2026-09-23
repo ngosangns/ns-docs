@@ -55,13 +55,13 @@ A concept document is a YAML frontmatter block (fenced by `---`) followed by a f
 
 ### Core frontmatter fields
 
-| Field | Status | Type | Meaning |
-| --- | --- | --- | --- |
-| `type` | REQUIRED | string | The kind of concept. The only always-required key; a concept carrying just `type` is fully conformant. Consumers use it for routing, filtering, and presentation. Values are not registered centrally. Producers **SHOULD** pick descriptive, self-explanatory values, and consumers **MUST** tolerate unknown ones. |
-| `title` | recommended | string | Human-readable display name. If omitted, consumers **MAY** derive one from the filename. |
-| `description` | recommended | string | A single sentence summarizing the concept. Used by index generators, search snippets, and previews. |
-| `resource` | recommended | URI | A URI identifying the underlying asset. Absent for concepts describing abstract ideas rather than physical assets. |
-| `tags` | recommended | list of strings | Short strings for cross-cutting categorization. |
+| Field         | Status      | Type            | Meaning                                                                                                                                                                                                                                                                                                              |
+| ------------- | ----------- | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `type`        | REQUIRED    | string          | The kind of concept. The only always-required key; a concept carrying just `type` is fully conformant. Consumers use it for routing, filtering, and presentation. Values are not registered centrally. Producers **SHOULD** pick descriptive, self-explanatory values, and consumers **MUST** tolerate unknown ones. |
+| `title`       | recommended | string          | Human-readable display name. If omitted, consumers **MAY** derive one from the filename.                                                                                                                                                                                                                             |
+| `description` | recommended | string          | A single sentence summarizing the concept. Used by index generators, search snippets, and previews.                                                                                                                                                                                                                  |
+| `resource`    | recommended | URI             | A URI identifying the underlying asset. Absent for concepts describing abstract ideas rather than physical assets.                                                                                                                                                                                                   |
+| `tags`        | recommended | list of strings | Short strings for cross-cutting categorization.                                                                                                                                                                                                                                                                      |
 
 The provenance, trust, and lifecycle families (`sources`, `generated`, `verified`, `status`, `stale_after`) are specified in section 5. The attested-computation families (`runtime`, `parameters`, `computation`, `executor`, `attester`) are in section 10.
 
@@ -75,10 +75,10 @@ The body is ordinary markdown. Producers **SHOULD** favor structural markdown (h
 
 These headings carry **conventional** meaning and **SHOULD** be used when they apply:
 
-| Heading | Purpose |
-| --- | --- |
-| `# Schema` | A structured description of the asset's columns or fields, typically a table. |
-| `# Examples` | Concrete usage examples, typically fenced code. |
+| Heading         | Purpose                                                                                     |
+| --------------- | ------------------------------------------------------------------------------------------- |
+| `# Schema`      | A structured description of the asset's columns or fields, typically a table.               |
+| `# Examples`    | Concrete usage examples, typically fenced code.                                             |
 | `# Computation` | The sanctioned computation, for [Attested Computation](#10-attested-computations) concepts. |
 
 These are conventions, not a template. A concept may have only a body, or other headings entirely.
@@ -114,7 +114,7 @@ Credibility signals, all optional:
 
 - `author`. Who or what produced the source, in the actor convention (section 7). An authority signal.
 - `usage_count`. How often `resource` was exercised (dashboard views, query executions, page reads) over `usage_window`. An adoption and liveness signal.
-- `last_modified`. When the source itself last changed (`YYYY-MM-DD`). A recency signal, distinct from `generated.at`, which records when the *concept* was written.
+- `last_modified`. When the source itself last changed (`YYYY-MM-DD`). A recency signal, distinct from `generated.at`, which records when the _concept_ was written.
 - `usage_window`. Written once as a sibling of `sources`, it frames every `usage_count` with a `{ from, to }` date range.
 
 **Attributing one claim.** Use a markdown footnote whose label matches a source `id`:
@@ -146,18 +146,18 @@ Authorship and confirmation are separate on purpose. An agent generated it; a hu
 
 Consumers derive a tier from `verified`, lowest to highest:
 
-| `verified` | Tier |
-| --- | --- |
-| absent | **unverified** |
-| present, non-`human:` actors only | **machine-confirmed** |
-| present, includes a `human:<id>` actor | **human-reviewed** |
+| `verified`                             | Tier                  |
+| -------------------------------------- | --------------------- |
+| absent                                 | **unverified**        |
+| present, non-`human:` actors only      | **machine-confirmed** |
+| present, includes a `human:<id>` actor | **human-reviewed**    |
 
 Consumers **SHOULD** derive trust tiers and staleness only from the fields specified here.
 
 ### 5.4 Lifecycle, `status` and `stale_after`
 
 ```yaml
-status: stable          # draft | stable | deprecated
+status: stable # draft | stable | deprecated
 stale_after: 2026-09-23 # absolute date; stale on or after this day
 ```
 
@@ -173,7 +173,7 @@ Concepts **MAY** link to other concepts using standard markdown links. Two forms
 
 Path-valued frontmatter fields (`sources[].resource`, `computation`, `executor.resource`, `attester.resource`) accept an absolute URL, a bundle-relative path beginning with `/`, or a relative path.
 
-**Link semantics.** A link from concept A to concept B asserts a *relationship*. Which kind (a foreign key, a derivation, a supersedes, a depends-on) is conveyed by the surrounding prose, not by the link. The link is the edge, the prose is the label.
+**Link semantics.** A link from concept A to concept B asserts a _relationship_. Which kind (a foreign key, a derivation, a supersedes, a depends-on) is conveyed by the surrounding prose, not by the link. The link is the edge, the prose is the label.
 
 **Broken links.** A link whose target does not exist in the bundle is not malformed. Consumers **MUST** tolerate broken links.
 
@@ -181,11 +181,11 @@ Path-valued frontmatter fields (`sources[].resource`, `computation`, `executor.r
 
 Fields recording an identity (`generated.by`, `verified[].by`, `sources[].author`) use one convention:
 
-| Form | For | Example |
-| --- | --- | --- |
-| `<producer>/<version>` | agents and tools | `reference_agent/gemini-2.5-pro` |
-| `human:<id>` | a person | `human:ahormati` |
-| `process:<id>` | an automated process | `process:finance-nightly` |
+| Form                   | For                  | Example                          |
+| ---------------------- | -------------------- | -------------------------------- |
+| `<producer>/<version>` | agents and tools     | `reference_agent/gemini-2.5-pro` |
+| `human:<id>`           | a person             | `human:ahormati`                 |
+| `process:<id>`         | an automated process | `process:finance-nightly`        |
 
 Consumers that classify trust key off the `human:` prefix, so producers **MUST** use it for hand-authored or human-confirmed content. The corollary matters more: do not write `human:` for content an agent generated, because that silently inflates the bundle's trust tier.
 
@@ -199,11 +199,13 @@ The body is one or more sections, each grouping concepts under a heading, as a b
 
 ```markdown
 # Tables
-* [Orders](orders.md) - One row per completed customer order.
-* [Customers](customers.md) - One row per customer account.
+
+- [Orders](orders.md) - One row per completed customer order.
+- [Customers](customers.md) - One row per customer account.
 
 # Subdirectories
-* [Datasets](datasets/) - Source datasets feeding these tables.
+
+- [Datasets](datasets/) - Source datasets feeding these tables.
 ```
 
 Producers **MAY** generate `index.md` automatically. Consumers **MAY** synthesize one when it is absent.
@@ -218,10 +220,12 @@ Date headings **MUST** use the ISO 8601 `YYYY-MM-DD` form. Entries beneath a dat
 # Directory Update Log
 
 ## 2026-05-28
-* **Update**: Added the `loyalty_tier` column to the orders schema.
+
+- **Update**: Added the `loyalty_tier` column to the orders schema.
 
 ## 2026-05-22
-* **Creation**: Documented the orders table and its join to customers.
+
+- **Creation**: Documented the orders table and its join to customers.
 ```
 
 Log entries are append-only. Producers SHOULD add new dated entries rather than editing or deleting past ones, so the log remains a faithful history. A correction SHOULD be recorded as a new entry that supersedes the earlier statement, not as a rewrite of it. (Proposed upstream in [PR #188](https://github.com/GoogleCloudPlatform/knowledge-catalog/pull/188), not merged yet; this skill adopts it as standing practice, and the `log` command in [commands.md](./commands.md) builds its merge-safe write protocol on it.)
@@ -269,7 +273,7 @@ sources:
 
 Two forms. **Inline**, a single fenced code block in the body under `# Computation`, best for a short computation reviewed alongside its contract. **File-based**, set `computation` to a path and omit the body fence, for a long or generated computation already shared with non-OKF tools.
 
-The hard constraint: an agent **MAY** only supply *values* for the declared `parameters`. It **MUST NOT** author or edit the computation.
+The hard constraint: an agent **MAY** only supply _values_ for the declared `parameters`. It **MUST NOT** author or edit the computation.
 
 ### 10.3 The two checks
 
@@ -282,11 +286,11 @@ The attester confirms:
 
 They answer different questions and both are needed.
 
-| | `verified` (5.2) | Attestation (10) |
-| --- | --- | --- |
-| Confirms | The *definition* matches policy | A single *run* produced the values correctly |
-| Cadence | Doc-level, slow | Per-call, at runtime |
-| Stored | In the bundle | Not in the bundle |
+|          | `verified` (5.2)                | Attestation (10)                             |
+| -------- | ------------------------------- | -------------------------------------------- |
+| Confirms | The _definition_ matches policy | A single _run_ produced the values correctly |
+| Cadence  | Doc-level, slow                 | Per-call, at runtime                         |
+| Stored   | In the bundle                   | Not in the bundle                            |
 
 A concept with a stale definition can still attest cleanly, and a freshly-verified definition still requires attestation on every run.
 
@@ -336,9 +340,9 @@ A bundle **MAY** declare its target version with `okf_version: "0.2"` in a bundl
 
 **Two breaking changes.**
 
-| v0.1 | v0.2 | Consumer fallback |
-| --- | --- | --- |
-| `timestamp: <ISO 8601>` | `generated: { by, at }` | Consumers **MAY** fall back to a legacy `timestamp` when `generated` is absent |
+| v0.1                       | v0.2                        | Consumer fallback                                                                                         |
+| -------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `timestamp: <ISO 8601>`    | `generated: { by, at }`     | Consumers **MAY** fall back to a legacy `timestamp` when `generated` is absent                            |
 | `# Citations` body section | `sources` frontmatter (5.1) | Consumers **SHOULD** read `sources` and **MAY** still parse a legacy `# Citations` list on v0.1 documents |
 
 **Everything else is additive**, all optional: the `sources` credibility signals, `verified` and trust tiers, `status` and `stale_after`, the actor convention, and the `Attested Computation` type with its `runtime`, `parameters`, `computation`, `executor`, and `attester` families. v0.2 also states explicitly that `type` is the only always-required key.
@@ -353,7 +357,7 @@ OKF deliberately does not:
 
 - Define a fixed taxonomy of concept types. `type` is open by design.
 - Prescribe storage, serving, or query infrastructure. A bundle is just files.
-- Subsume domain-specific schemas. OKF *references* schemas like Avro, Protobuf, and OpenAPI (via `resource` and links) and can describe them in the body; it does not replace them.
+- Subsume domain-specific schemas. OKF _references_ schemas like Avro, Protobuf, and OpenAPI (via `resource` and links) and can describe them in the body; it does not replace them.
 - Specify the runtime protocol behind attested computations (section 12).
 
 ## Distribution
@@ -371,7 +375,7 @@ Because a concept is plain markdown plus YAML frontmatter, bundles compose with 
 
 ## Relationship to other formats
 
-OKF is intentionally close to several established patterns: LLM "wiki" repositories that use markdown plus frontmatter as an agent-readable knowledge base, personal knowledge tools like Obsidian and Notion that use hierarchical markdown with cross-links, and "metadata as code" approaches that store catalog metadata alongside source rather than in a separate registry. OKF differs mainly in being *specified*: it pins down the small set of rules needed for interoperability without dictating tooling. v0.2's provenance and attestation layers move it closer to supply-chain attestation formats in intent, while staying plain markdown.
+OKF is intentionally close to several established patterns: LLM "wiki" repositories that use markdown plus frontmatter as an agent-readable knowledge base, personal knowledge tools like Obsidian and Notion that use hierarchical markdown with cross-links, and "metadata as code" approaches that store catalog metadata alongside source rather than in a separate registry. OKF differs mainly in being _specified_: it pins down the small set of rules needed for interoperability without dictating tooling. v0.2's provenance and attestation layers move it closer to supply-chain attestation formats in intent, while staying plain markdown.
 
 ## Reference implementations
 

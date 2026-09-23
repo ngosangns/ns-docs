@@ -4,13 +4,14 @@ domain: frontend
 type: resource
 title: Web And Desktop Frameworks
 description: Framework/toolchain mới cho web (frontend/backend scaffolding) và desktop app
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - frontend
   - frameworks
 resource: https://github.com/voidzero-dev/vite-plus
 ---
+
 # Web And Desktop Frameworks
 
 - https://github.com/voidzero-dev/vite-plus — Unified toolchain and entry point for web development; manages runtime, package manager, and brings Vite, Vitest, Rolldown, tsdown, Oxlint, and Oxfmt together with a built-in task runner.

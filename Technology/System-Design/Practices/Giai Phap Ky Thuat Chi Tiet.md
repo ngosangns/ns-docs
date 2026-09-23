@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Giai Phap Ky Thuat Chi Tiet
 description: Giải pháp Kỹ thuật Chi tiết
-timestamp: '2026-06-19T13:43:26.102Z'
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - system-design

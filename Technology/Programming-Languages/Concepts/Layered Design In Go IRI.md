@@ -5,12 +5,13 @@ topic: golang
 type: resource
 title: Layered Design In Go IRI
 description: Thiết Kế Phân Lớp (Layered Design) trong Go
-timestamp: '2026-06-19T13:43:26.132Z'
+timestamp: "2026-06-19T13:43:26.132Z"
 tags:
   - technology
   - programming-languages
   - golang
 ---
+
 Thiết Kế Phân Lớp (Layered Design) trong Go
 
 - Cách tác giả thiết kế chương trình Go, dựa trên các nguyên tắc và hạn chế của ngôn ngữ.

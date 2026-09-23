@@ -145,16 +145,17 @@ A `writing-revision` uses `items` as a complete claim ledger. Set `revision-mode
 
 ## Coverage inventory (the export/enrich work-list)
 
-Before writing a single concept when producing from a source (`export`, `enrich`), enumerate the *whole* surface into a checklist and burn it down. This is the artifact that stops a producer at the front door. Enumerate the way the source lets you: a database's table list, an OpenAPI spec's `paths`, a wiki's page tree, a website's `sitemap.xml` plus its section and listing pages. One discovered unit is one row; keep the list (in scratch, or as a `log.md` note) until every row is a concept or a recorded skip.
+Before writing a single concept when producing from a source (`export`, `enrich`), enumerate the _whole_ surface into a checklist and burn it down. This is the artifact that stops a producer at the front door. Enumerate the way the source lets you: a database's table list, an OpenAPI spec's `paths`, a wiki's page tree, a website's `sitemap.xml` plus its section and listing pages. One discovered unit is one row; keep the list (in scratch, or as a `log.md` note) until every row is a concept or a recorded skip.
 
 ```markdown
 # Coverage inventory: <source name> (<source root>), <N> units discovered
+
 Discovery: <how the surface was enumerated — e.g. INFORMATION_SCHEMA, spec paths, sitemap.xml + section indexes>
 
-- [ ] <unit> → <concept/path.md>          # one row per unit the source contains
+- [ ] <unit> → <concept/path.md> # one row per unit the source contains
 - [ ] <unit> → <concept/path.md>
 - [ ] <unit> → <concept/path.md>
-- [~] <unit> → skipped: <reason>          # record skips; do not drop silently
+- [~] <unit> → skipped: <reason> # record skips; do not drop silently
 ```
 
 `N` is the count of units the source actually contains, not a target you may round down. If enumeration found fifty, a bundle of a dozen files has not covered the source. The rows are whatever the source's units are — tables and views, API operations, wiki pages, or a site's articles, entries, and catalog items — grouped into concept folders by domain.
@@ -163,9 +164,10 @@ The inventory grows while you write: the entity pass (`enrich` step 4) appends a
 
 ```markdown
 # Entities: <M> names mentioned but unexplained
-- [ ] React → /technologies/react.md              (mentioned in: /expertise.md, /articles/…)
-- [ ] Wertarbyte GmbH → /companies/wertarbyte.md  (mentioned in: /career.md, /projects/…)
-- [ ] MCP → /glossary/mcp.md                      (mentioned in: /mcp-servers/index.md, /articles/…)
+
+- [ ] React → /technologies/react.md (mentioned in: /expertise.md, /articles/…)
+- [ ] Wertarbyte GmbH → /companies/wertarbyte.md (mentioned in: /career.md, /projects/…)
+- [ ] MCP → /glossary/mcp.md (mentioned in: /mcp-servers/index.md, /articles/…)
 - [~] GmbH → skipped: legal form, one glossary sentence at most, not load-bearing
 ```
 
@@ -191,11 +193,13 @@ sources:
 ---
 
 # Schema
-| Column | Type | Description |
-|--------|------|-------------|
-| `<col>` | `<TYPE>` | <meaning> |
+
+| Column  | Type     | Description |
+| ------- | -------- | ----------- |
+| `<col>` | `<TYPE>` | <meaning>   |
 
 # Examples
+
 \`\`\`sql
 -- a representative query
 \`\`\`
@@ -221,14 +225,17 @@ okf_version: "0.2"
 # Sales knowledge
 
 # Datasets
-* [orders_db](datasets/orders_db.md) - The transactional sales database.
+
+- [orders_db](datasets/orders_db.md) - The transactional sales database.
 
 # Tables
-* [Orders](tables/orders.md) - One row per completed customer order.
-* [Customers](tables/customers.md) - One row per customer account.
+
+- [Orders](tables/orders.md) - One row per completed customer order.
+- [Customers](tables/customers.md) - One row per customer account.
 
 # Metrics
-* [Weekly active users](metrics/weekly_active_users.md) - Distinct users active in a 7-day window.
+
+- [Weekly active users](metrics/weekly_active_users.md) - Distinct users active in a 7-day window.
 ```
 
 ## Sub-directory index.md
@@ -237,8 +244,9 @@ No frontmatter below the root.
 
 ```markdown
 # Tables
-* [Orders](orders.md) - One row per completed customer order.
-* [Customers](customers.md) - One row per customer account.
+
+- [Orders](orders.md) - One row per completed customer order.
+- [Customers](customers.md) - One row per customer account.
 ```
 
 ## log.md
@@ -247,13 +255,16 @@ Newest first, ISO 8601 date headings, one line per entry. The log is append-only
 
 ```markdown
 ## 2026-06-03
-* **Update**: Supersedes 2026-05-28; the column shipped as `loyalty_level`, not `loyalty_tier`.
+
+- **Update**: Supersedes 2026-05-28; the column shipped as `loyalty_level`, not `loyalty_tier`.
 
 ## 2026-05-28
-* **Update**: Added the `loyalty_tier` column to the orders schema.
+
+- **Update**: Added the `loyalty_tier` column to the orders schema.
 
 ## 2026-05-22
-* **Creation**: Documented the orders table and its join to customers.
+
+- **Creation**: Documented the orders table and its join to customers.
 ```
 
 ## Worked example: a BigQuery table
@@ -278,22 +289,25 @@ sources:
 ---
 
 # Schema
-| Column | Type | Description |
-|--------|------|-------------|
-| `order_id` | STRING | Globally unique order identifier. |
-| `customer_id` | STRING | Foreign key to [customers](customers.md). |
-| `amount_usd` | NUMERIC | Order total in USD, tax included. |
-| `created_at` | TIMESTAMP | When the order was placed (UTC). |
+
+| Column        | Type      | Description                               |
+| ------------- | --------- | ----------------------------------------- |
+| `order_id`    | STRING    | Globally unique order identifier.         |
+| `customer_id` | STRING    | Foreign key to [customers](customers.md). |
+| `amount_usd`  | NUMERIC   | Order total in USD, tax included.         |
+| `created_at`  | TIMESTAMP | When the order was placed (UTC).          |
 
 # Joins
+
 Joined with [customers](customers.md) on `customer_id`. One customer has many orders.[^dictionary]
 
 \`\`\`mermaid
 erDiagram
-  customers ||--o{ orders : "customer_id"
+customers ||--o{ orders : "customer_id"
 \`\`\`
 
 # Examples
+
 \`\`\`sql
 SELECT customer_id, SUM(amount_usd) AS lifetime_value
 FROM `acme.sales.orders`
@@ -325,6 +339,7 @@ sources:
 ---
 
 # Definition
+
 A user is "active" on a day if they emit at least one event in [events](../tables/events.md)
 whose `event_name` is in the qualifying set. WAU on date D counts users active anywhere
 in the trailing window:
@@ -336,14 +351,16 @@ $$
 The formula is the contract; the prose above says what "active" means.
 
 # Examples
+
 \`\`\`sql
 SELECT COUNT(DISTINCT user_id) AS wau
 FROM `acme.app.events`
 WHERE event_date BETWEEN DATE_SUB(@d, INTERVAL 6 DAY) AND @d
-  AND event_name IN ('app_open', 'screen_view');
+AND event_name IN ('app_open', 'screen_view');
 \`\`\`
 
 # Notes
+
 Bot traffic is excluded upstream in [events](../tables/events.md). Do not re-filter here.[^defs]
 
 [^defs]: Engagement metrics definitions
@@ -367,10 +384,12 @@ status: stable
 ---
 
 # When this fires
+
 The `orders_daily_load` job reports a non-zero exit, or [orders](../tables/orders.md)
 is missing yesterday's partition.
 
 # Preflight
+
 Confirm before touching anything:
 
 - [ ] The job logs identify the failing stage
@@ -378,17 +397,19 @@ Confirm before touching anything:
 - [ ] No schema-change PR merged since the last green run
 
 # Steps
+
 1. If the source export is late, wait and re-run; do not backfill by hand[^backfill].
 2. If the schema changed, update [orders](../tables/orders.md) and the load config together.
 3. Re-run `orders_daily_load` for the missing partition only.
 
 # Escalation
+
 Page the data-platform on-call if the partition is still missing after one re-run.
 
 [^backfill]: Hand backfills bypass the dedupe stage and have produced double-counted revenue twice; see the 2026-03 incident review.
 ```
 
-A subtlety worth internalizing: a human *wrote* this, but the only `verified` actor is a process, so the tier is **machine-confirmed**, not human-reviewed. The tier is computed from who confirmed, never from who authored, because self-authorship is not review. Note also that `[^backfill]` keys to nothing in `sources`; a footnote is still an ordinary footnote when the concept is not using keyed attribution.
+A subtlety worth internalizing: a human _wrote_ this, but the only `verified` actor is a process, so the tier is **machine-confirmed**, not human-reviewed. The tier is computed from who confirmed, never from who authored, because self-authorship is not review. Note also that `[^backfill]` keys to nothing in `sources`; a footnote is still an ordinary footnote when the concept is not using keyed attribution.
 
 ## Worked example: a glossary
 
@@ -410,18 +431,18 @@ Order
 
 Lifetime value
 : A customer's summed order totals, $\mathrm{LTV} = \sum_i \mathrm{amount\_usd}_i$,
-  over [orders](../tables/orders.md).
+over [orders](../tables/orders.md).
 
 Active user
 : Defined by [weekly active users](metrics/weekly_active_users.md); do not redefine
-  per report.
+per report.
 
 [^carts]: Carts live in the app database and never reach the warehouse export.
 ```
 
 ## Worked example: an entity concept (the entity pass)
 
-`technologies/react.md`. The shape the entity pass (`enrich` step 4) mints for a name the source uses but never explains, here one of thirty technologies a CV listed as bare text. What the source lacks, the concept supplies: a self-contained explanation from the entity's authoritative home and producer knowledge, then the entity's role *in this bundle*, linked both ways so the skills table's "React" cell now points here and this concept points back. The `sources` family says what each input contributed, so sourced and recalled facts stay distinguishable: producer knowledge gets its own entry whose `resource` is a scope descriptor rather than a URL, and the footnotes show which sentence rests on which.
+`technologies/react.md`. The shape the entity pass (`enrich` step 4) mints for a name the source uses but never explains, here one of thirty technologies a CV listed as bare text. What the source lacks, the concept supplies: a self-contained explanation from the entity's authoritative home and producer knowledge, then the entity's role _in this bundle_, linked both ways so the skills table's "React" cell now points here and this concept points back. The `sources` family says what each input contributed, so sourced and recalled facts stay distinguishable: producer knowledge gets its own entry whose `resource` is a scope descriptor rather than a URL, and the footnotes show which sentence rests on which.
 
 ```markdown
 ---
@@ -450,13 +471,16 @@ DOM.[^reactdev] Since React 19, the React Compiler handles memoization
 automatically.[^recalled]
 
 # Role in this bundle
+
 The primary frontend library in [technical expertise](../expertise.md), used
 across most [projects](../projects/synthwave-drive.md) and examined in articles
 such as [React state management in 2026](../articles/react-state-management-2026.md)
 and [React structure, then and now](../articles/react-structure-then-and-now.md).[^cv]
 
 [^reactdev]: react.dev, official documentation
+
 [^cv]: Work, saschb2b.com
+
 [^recalled]: Producer knowledge, unverified against a source
 ```
 
@@ -486,13 +510,15 @@ usage_window: { from: 2026-06-01, to: 2026-06-30 }
 ---
 
 # Summary
+
 GA4 exports one `events_YYYYMMDD` table per day into a per-property dataset.
 Each row is one event, with nested `event_params` and `user_properties` records.
 
 # Key points
-* The export is append-only; intraday data lands in `events_intraday_YYYYMMDD`.[^ga4-schema]
-* `event_timestamp` is microseconds since the Unix epoch (UTC).
-* Cited by [events](../tables/events.md) and [weekly active users](../metrics/weekly_active_users.md).
+
+- The export is append-only; intraday data lands in `events_intraday_YYYYMMDD`.[^ga4-schema]
+- `event_timestamp` is microseconds since the Unix epoch (UTC).
+- Cited by [events](../tables/events.md) and [weekly active users](../metrics/weekly_active_users.md).
 
 [^ga4-schema]: BigQuery Export schema
 ```
@@ -501,7 +527,7 @@ A `references/` concept is an ordinary concept (it just happens to mirror someth
 
 ## Worked example: an attested computation
 
-`computations/revenue_fy.md`. New in v0.2, and the shape to reach for whenever the bundle backs a *number* rather than a description. The point is the asymmetry: an agent may fill `parameters` and run this, but may not write or edit the SQL, and a deterministic attester checks afterwards that it did neither.
+`computations/revenue_fy.md`. New in v0.2, and the shape to reach for whenever the bundle backs a _number_ rather than a description. The point is the asymmetry: an agent may fill `parameters` and run this, but may not write or edit the SQL, and a deterministic attester checks afterwards that it did neither.
 
 ```markdown
 ---
@@ -530,6 +556,7 @@ Recognized revenue follows the shipment date, not the order date.[^rev-policy]
 Used by [monthly revenue](../metrics/monthly_revenue.md).
 
 # Computation
+
 \`\`\`sql
 SELECT SUM(amount_usd) AS revenue
 FROM `acme.finance.recognized_revenue`
@@ -541,11 +568,11 @@ WHERE fiscal_year = @year;
 
 Long or generated SQL goes in a file instead: set `computation: /computations/lib/revenue.sql` and drop the `# Computation` fence. Use one form or the other, never both.
 
-Two things this example is making explicit. `verified` says a human agreed the *definition* matches Finance's policy; it says nothing about any particular run, which is what the attester is for. And the attester checks both halves: *provenance*, that the executed SQL equals this computation bound with the claimed `year`, compared canonicalized so formatting is not a loophole; and *fidelity*, that the number a consumer displays matches the receipt's result re-read by `job_id` rather than copied out of the agent's prose.
+Two things this example is making explicit. `verified` says a human agreed the _definition_ matches Finance's policy; it says nothing about any particular run, which is what the attester is for. And the attester checks both halves: _provenance_, that the executed SQL equals this computation bound with the claimed `year`, compared canonicalized so formatting is not a loophole; and _fidelity_, that the number a consumer displays matches the receipt's result re-read by `job_id` rather than copied out of the agent's prose.
 
 ## Worked example: a field report (a dated snapshot)
 
-`ecosystem/adoption.md`. The shape for measured, time-sensitive knowledge: an ecosystem survey, a benchmark, a market reading, a dependency audit. Durable concepts state what is true; a field report states what was *measured*, so three things are load-bearing that other concepts omit. `status: draft` plus a `stale_after` on the date the reading should be retaken, the measurement date and the **instrument** named in the body, and claims phrased as readings rather than facts. State the instrument because it bounds the error: a count taken from self-announcements in a forum thread can undercount an ecosystem tenfold against a count taken from a topic index or registry, and a reader who knows which instrument produced the number knows what it can miss.
+`ecosystem/adoption.md`. The shape for measured, time-sensitive knowledge: an ecosystem survey, a benchmark, a market reading, a dependency audit. Durable concepts state what is true; a field report states what was _measured_, so three things are load-bearing that other concepts omit. `status: draft` plus a `stale_after` on the date the reading should be retaken, the measurement date and the **instrument** named in the body, and claims phrased as readings rather than facts. State the instrument because it bounds the error: a count taken from self-announcements in a forum thread can undercount an ecosystem tenfold against a count taken from a topic index or registry, and a reader who knows which instrument produced the number knows what it can miss.
 
 ```markdown
 ---
@@ -569,10 +596,10 @@ before quoting; that is what the `stale_after` is for.
 
 # The measured numbers
 
-| Signal | Value on 2026-08-05 |
-| --- | --- |
-| Repositories on the topic | 108 |
-| Registry entries | 479, from 395 authors |
+| Signal                    | Value on 2026-08-05   |
+| ------------------------- | --------------------- |
+| Repositories on the topic | 108                   |
+| Registry entries          | 479, from 395 authors |
 
 # What the numbers do not support
 

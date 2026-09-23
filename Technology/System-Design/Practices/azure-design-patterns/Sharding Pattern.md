@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Sharding Pattern
 description: Sharding Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Sharding Pattern.md#L1-43
 # Sharding Pattern (Mô hình Phân mảnh dữ liệu)
 
@@ -47,3 +48,4 @@ Mô hình Sharding chia nhỏ một kho dữ liệu thành một tập hợp cá
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Sharding Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding)
+```

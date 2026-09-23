@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Document Processing
 description: Document Processing
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
 resource: https://github.com/docling-project/docling
 ---
+
 # Document Processing
 
 - [docling-project/docling: Get your documents ready for gen AI](https://github.com/docling-project/docling)

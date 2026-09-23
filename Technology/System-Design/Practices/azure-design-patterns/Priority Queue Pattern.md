@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Priority Queue Pattern
 description: Priority Queue Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/priority-queue
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Priority Queue Pattern.md#L1-55
 # Priority Queue Pattern (Mô hình Hàng đợi Ưu tiên)
 
@@ -54,3 +55,4 @@ Sử dụng **Azure Service Bus**:
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Priority Queue Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/priority-queue)*
+```

@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Learning Resources
 description: Tài nguyên học tập
-timestamp: '2026-06-19T13:43:26.164Z'
+timestamp: "2026-06-19T13:43:26.164Z"
 tags:
   - technology
   - ai-ml
 resource: https://www.datacamp.com/learn/popular/ai
 ---
+
 # Tài nguyên học tập
 
 ## Khóa học

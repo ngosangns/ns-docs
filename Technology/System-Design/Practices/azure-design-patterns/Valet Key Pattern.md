@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Valet Key Pattern
 description: Valet Key Pattern
-timestamp: '2026-06-19T13:43:26.125Z'
+timestamp: "2026-06-19T13:43:26.125Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Valet Key Pattern.md#L1-43
 # Valet Key Pattern (Mô hình Chìa khóa đỗ xe)
 
@@ -17,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-ke
 Mô hình Valet Key sử dụng một mã thông báo (token) cung cấp cho ứng dụng khách quyền truy cập trực tiếp và bị hạn chế vào một tài nguyên cụ thể (như file trong kho lưu trữ hoặc hàng đợi). Điều này giúp giảm tải việc chuyển dữ liệu cho máy chủ ứng dụng, tối ưu hóa chi phí và tối đa hóa khả năng mở rộng.
 
 ## Các điểm chính
-- **Mục đích**: 
+- **Mục đích**:
     - Giảm thiểu việc tiêu thụ tài nguyên tính toán (CPU, RAM, băng thông) trên máy chủ ứng dụng khi xử lý các tệp tin lớn.
     - Cho phép khách hàng tải lên/tải xuống dữ liệu trực tiếp từ kho lưu trữ mà vẫn đảm bảo an ninh.
 - **Cơ chế hoạt động**:
@@ -51,3 +52,4 @@ Mô hình Valet Key sử dụng một mã thông báo (token) cung cấp cho ứ
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Valet Key Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-key)
+```

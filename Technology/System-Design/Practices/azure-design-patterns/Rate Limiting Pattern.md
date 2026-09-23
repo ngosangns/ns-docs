@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Rate Limiting Pattern
 description: Rate Limiting Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Rate Limiting Pattern.md#L1-43
 # Rate Limiting Pattern (Mô hình Giới hạn Tốc độ)
 
@@ -41,3 +42,4 @@ Mô hình Rate Limiting giúp kiểm soát tài nguyên tiêu thụ bằng cách
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Rate Limiting Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-limiting-pattern)
+```

@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Kien Truc Phan Mem
 description: Kiến trúc Phần mềm
-timestamp: '2026-06-19T13:43:26.107Z'
+timestamp: "2026-06-19T13:43:26.107Z"
 tags:
   - technology
   - system-design

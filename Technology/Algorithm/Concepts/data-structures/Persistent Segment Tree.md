@@ -5,13 +5,14 @@ topic: data-structures
 type: resource
 title: Persistent Segment Tree
 description: Persistent Segment Tree
-timestamp: '2026-06-19T13:43:26.161Z'
+timestamp: "2026-06-19T13:43:26.161Z"
 tags:
   - technology
   - algorithms
   - data-structures
 resource: https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1j4lkvAVwl
 ---
+
 # Persistent Segment Tree
 
 > https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1j4lkvAVwl

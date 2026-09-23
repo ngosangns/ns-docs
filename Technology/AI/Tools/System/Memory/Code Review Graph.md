@@ -5,7 +5,7 @@ topic: memory-code-intelligence
 type: resource
 title: Code Review Graph
 description: Code Review Graph - Local Knowledge Graph for AI Coding Tools
-timestamp: '2026-06-19T13:43:26.087Z'
+timestamp: "2026-06-19T13:43:26.087Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - code-intelligence
 resource: https://github.com/tirth8205/code-review-graph
 ---
+
 # Code Review Graph - Local Knowledge Graph for AI Coding Tools
 
 ## Định nghĩa
@@ -35,6 +36,7 @@ code-review-graph build        # parse your codebase
 ```
 
 Target specific platform:
+
 ```bash
 code-review-graph install --platform codex   # configure only Codex
 code-review-graph install --platform cursor  # configure only Cursor
@@ -84,14 +86,14 @@ pip install code-review-graph[all]
 
 **Chi tiết từng option:**
 
-| Option | Dependencies | Use Case |
-|--------|-------------|----------|
-| `embeddings` | sentence-transformers | Semantic search |
-| `google-embeddings` | google-generativeai | Google Gemini embeddings |
-| `communities` | igraph, leidenalg | Community detection, visualization |
-| `eval` | matplotlib, numpy | Benchmarks |
-| `wiki` | wiki, LLM | Auto-generate markdown wiki |
-| `all` | Tất cả trên | Full features |
+| Option              | Dependencies          | Use Case                           |
+| ------------------- | --------------------- | ---------------------------------- |
+| `embeddings`        | sentence-transformers | Semantic search                    |
+| `google-embeddings` | google-generativeai   | Google Gemini embeddings           |
+| `communities`       | igraph, leidenalg     | Community detection, visualization |
+| `eval`              | matplotlib, numpy     | Benchmarks                         |
+| `wiki`              | wiki, LLM             | Auto-generate markdown wiki        |
+| `all`               | Tất cả trên           | Full features                      |
 
 #### Bước 4: Auto-install cho AI platforms
 
@@ -120,6 +122,7 @@ code-review-graph --version
 ```
 
 Output:
+
 ```
 usage: code-review-graph [-h] [--version] {install,build,update,status,watch,visualize,wiki,detect-changes,register,unregister,repos,eval,serve} ...
 
@@ -303,6 +306,7 @@ code-review-graph status
 ```
 
 Output:
+
 ```
 Repository: my-project
 Language: Python
@@ -326,6 +330,7 @@ code-review-graph detect-changes
 ```
 
 Output:
+
 ```
 Blast Radius: HIGH (affects 12 files)
 Files affected:
@@ -396,6 +401,7 @@ code-review-graph query "auth implementation" --all-repos
 ### CLI Commands chi tiết
 
 #### build
+
 ```bash
 # Build mới (xóa graph cũ)
 code-review-graph build
@@ -411,6 +417,7 @@ code-review-graph build --no-embeddings
 ```
 
 #### update
+
 ```bash
 # Incremental update
 code-review-graph update
@@ -420,6 +427,7 @@ code-review-graph update src/auth/
 ```
 
 #### status
+
 ```bash
 # Xem statistics
 code-review-graph status
@@ -429,6 +437,7 @@ code-review-graph status --verbose
 ```
 
 #### detect-changes
+
 ```bash
 # Detect changes
 code-review-graph detect-changes
@@ -441,6 +450,7 @@ code-review-graph detect-changes --since HEAD~5
 ```
 
 #### register/unregister
+
 ```bash
 # Register repo
 code-review-graph register /path/to/project
@@ -454,30 +464,33 @@ code-review-graph unregister <repo-id>
 
 ### MCP Tools (sử dụng trong Claude Code)
 
-| Tool | Description | Example |
-|------|-------------|---------|
-| `build_or_update_graph_tool` | Build/update graph | Tự động khi có changes |
-| `get_impact_radius_tool` | Get blast radius | Trace impact của change |
-| `get_review_context_tool` | Review context | Context cho PR review |
-| `query_graph_tool` | Query graph | Tìm related code |
-| `semantic_search_nodes_tool` | Semantic search | Natural language query |
-| `detect_changes_tool` | Risk analysis | Analyze git diff |
-| `generate_wiki_tool` | Wiki generation | Tạo documentation |
-| `cross_repo_search_tool` | Multi-repo | Search across repos |
+| Tool                         | Description        | Example                 |
+| ---------------------------- | ------------------ | ----------------------- |
+| `build_or_update_graph_tool` | Build/update graph | Tự động khi có changes  |
+| `get_impact_radius_tool`     | Get blast radius   | Trace impact của change |
+| `get_review_context_tool`    | Review context     | Context cho PR review   |
+| `query_graph_tool`           | Query graph        | Tìm related code        |
+| `semantic_search_nodes_tool` | Semantic search    | Natural language query  |
+| `detect_changes_tool`        | Risk analysis      | Analyze git diff        |
+| `generate_wiki_tool`         | Wiki generation    | Tạo documentation       |
+| `cross_repo_search_tool`     | Multi-repo         | Search across repos     |
 
 ### Best Practices
 
 1. **Chạy build lần đầu** cho mọi project mới
+
    ```bash
    code-review-graph build
    ```
 
 2. **Sử dụng watch mode** cho active development
+
    ```bash
    code-review-graph watch
    ```
 
 3. **Review trước mỗi commit**
+
    ```bash
    code-review-graph detect-changes
    ```
@@ -494,17 +507,17 @@ code-review-graph unregister <repo-id>
 
 ### So sánh với Graphify
 
-| Feature | graphify | code-review-graph |
-|---------|----------|-------------------|
-| Token reduction | 71.5× | 8.2× |
-| AST parsing | ✅ tree-sitter | ✅ tree-sitter |
-| Semantic extraction | ✅ Claude | ❌ Optional |
-| Languages | 23 | 19+jupyter |
-| MCP | ✅ | ✅ (22 tools) |
-| Visualization | ✅ | ✅ D3.js |
-| Wiki generation | ✅ | ✅ |
-| Speed | Slow | Fast (<2s) |
-| Use case | Deep understanding | Code review |
+| Feature             | graphify           | code-review-graph |
+| ------------------- | ------------------ | ----------------- |
+| Token reduction     | 71.5×              | 8.2×              |
+| AST parsing         | ✅ tree-sitter     | ✅ tree-sitter    |
+| Semantic extraction | ✅ Claude          | ❌ Optional       |
+| Languages           | 23                 | 19+jupyter        |
+| MCP                 | ✅                 | ✅ (22 tools)     |
+| Visualization       | ✅                 | ✅ D3.js          |
+| Wiki generation     | ✅                 | ✅                |
+| Speed               | Slow               | Fast (<2s)        |
+| Use case            | Deep understanding | Code review       |
 
 ## How It Works
 
@@ -520,15 +533,15 @@ Repository → AST (Tree-sitter) → Graph (nodes/edges) → MCP Query → AI Co
 
 ### Token Efficiency
 
-| Repo | Avg Naive Tokens | Avg Graph Tokens | Reduction |
-|------|-----------------:|-----------------:|----------:|
-| express | 693 | 983 | 0.7x |
-| fastapi | 4,944 | 614 | 8.1x |
-| flask | 44,751 | 4,252 | 9.1x |
-| gin | 21,972 | 1,153 | 16.4x |
-| httpx | 12,044 | 1,728 | 6.9x |
-| nextjs | 9,882 | 1,249 | 8.0x |
-| **Average** | | | **8.2x** |
+| Repo        | Avg Naive Tokens | Avg Graph Tokens | Reduction |
+| ----------- | ---------------: | ---------------: | --------: |
+| express     |              693 |              983 |      0.7x |
+| fastapi     |            4,944 |              614 |      8.1x |
+| flask       |           44,751 |            4,252 |      9.1x |
+| gin         |           21,972 |            1,153 |     16.4x |
+| httpx       |           12,044 |            1,728 |      6.9x |
+| nextjs      |            9,882 |            1,249 |      8.0x |
+| **Average** |                  |                  |  **8.2x** |
 
 ### Impact Accuracy
 
@@ -544,11 +557,13 @@ Repository → AST (Tree-sitter) → Graph (nodes/edges) → MCP Query → AI Co
 ## Features
 
 ### Core Features
+
 - **Blast-radius analysis**: Trace every caller, dependent, test affected by change
 - **Incremental updates**: Re-parses only changed files, updates in under 2 seconds
 - **19 languages + Jupyter notebooks**: Python, TypeScript/TSX, JavaScript, Vue, Go, Rust, Java, Scala, C#, Ruby, Kotlin, Swift, PHP, Solidity, C/C++, Dart, R, Perl, Lua, Jupyter
 
 ### Advanced Features
+
 - **Monorepo support**: Large repos - 27,700+ files excluded, only ~15 actually read
 - **Auto-update hooks**: Graph updates on every file edit and git commit
 - **Semantic search**: Optional vector embeddings via sentence-transformers, Google Gemini, MiniMax
@@ -565,11 +580,11 @@ Repository → AST (Tree-sitter) → Graph (nodes/edges) → MCP Query → AI Co
 
 ## Slash Commands
 
-| Command | Description |
-|---------|-------------|
-| `/code-review-graph:build-graph` | Build or rebuild the code graph |
+| Command                           | Description                      |
+| --------------------------------- | -------------------------------- |
+| `/code-review-graph:build-graph`  | Build or rebuild the code graph  |
 | `/code-review-graph:review-delta` | Review changes since last commit |
-| `/code-review-graph:review-pr` | Full PR review with blast-radius |
+| `/code-review-graph:review-pr`    | Full PR review with blast-radius |
 
 ## CLI Reference
 
@@ -592,18 +607,18 @@ code-review-graph serve                # Start MCP server
 
 ## MCP Tools (22 total)
 
-| Tool | Description |
-|------|-------------|
-| `build_or_update_graph_tool` | Build/update graph |
-| `get_impact_radius_tool` | Get blast radius |
-| `get_review_context_tool` | Get review context |
-| `query_graph_tool` | Query graph |
-| `semantic_search_nodes_tool` | Semantic search |
-| `embed_graph_tool` | Generate embeddings |
-| `detect_changes_tool` | Detect and analyze changes |
-| `refactor_tool` | Refactoring assistance |
-| `generate_wiki_tool` | Generate wiki |
-| `cross_repo_search_tool` | Search across repos |
+| Tool                         | Description                |
+| ---------------------------- | -------------------------- |
+| `build_or_update_graph_tool` | Build/update graph         |
+| `get_impact_radius_tool`     | Get blast radius           |
+| `get_review_context_tool`    | Get review context         |
+| `query_graph_tool`           | Query graph                |
+| `semantic_search_nodes_tool` | Semantic search            |
+| `embed_graph_tool`           | Generate embeddings        |
+| `detect_changes_tool`        | Detect and analyze changes |
+| `refactor_tool`              | Refactoring assistance     |
+| `generate_wiki_tool`         | Generate wiki              |
+| `cross_repo_search_tool`     | Search across repos        |
 
 ## Configuration
 
@@ -639,22 +654,22 @@ MIT
 
 ## Ưu điểm
 
-| Ưu điểm | Mô tả |
-|---------|-------|
-| Massive token reduction | 8.2× on reviews, 49× on daily tasks |
-| Fast incremental updates | Dưới 2 giây |
-| 100% recall | Impact analysis accuracy |
-| Multi-platform | 8 AI editors supported |
-| Architecture mapping | Community detection |
-| Risk scoring | Prioritized reviews |
+| Ưu điểm                  | Mô tả                               |
+| ------------------------ | ----------------------------------- |
+| Massive token reduction  | 8.2× on reviews, 49× on daily tasks |
+| Fast incremental updates | Dưới 2 giây                         |
+| 100% recall              | Impact analysis accuracy            |
+| Multi-platform           | 8 AI editors supported              |
+| Architecture mapping     | Community detection                 |
+| Risk scoring             | Prioritized reviews                 |
 
 ## Nhược điểm
 
-| Nhược điểm | Mô tả |
-|------------|-------|
-| Python 3.10+ | Requirement có thể hạn chế |
+| Nhược điểm                | Mô tả                               |
+| ------------------------- | ----------------------------------- |
+| Python 3.10+              | Requirement có thể hạn chế          |
 | Không semantic extraction | Chỉ structural, không phải semantic |
-| Optional vectors | Cần extra setup cho semantic search |
+| Optional vectors          | Cần extra setup cho semantic search |
 
 ## Sử dụng khi nào
 
@@ -667,7 +682,8 @@ MIT
 
 ---
 
-**Tài liệu tham khảo**: 
+**Tài liệu tham khảo**:
+
 - [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 - [Website](https://code-review-graph.com)
 - [Discord](https://discord.gg/3p58KXqGFN)

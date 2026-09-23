@@ -5,13 +5,14 @@ topic: llm
 type: resource
 title: Chunking Strategies
 description: Chunking trong RAG
-timestamp: '2026-06-19T13:43:26.167Z'
+timestamp: "2026-06-19T13:43:26.167Z"
 tags:
   - technology
   - ai-ml
   - llm
 resource: https://huggingface.co/khanhld/chunkformer-large-vie
 ---
+
 # Chunking trong RAG
 
 ## Vai trò của Chunking
@@ -62,6 +63,7 @@ resource: https://huggingface.co/khanhld/chunkformer-large-vie
 ## ChunkFormer
 
 **ChunkFormer**: Masked Chunking Conformer cho long-form speech transcription (ICASSP 2025)
+
 - Long-form transcription: xử lý audio lên đến 16 tiếng với model 110M tham số trên GPU 80GB (4 tiếng trên GPU 24GB)
 - Endless decoding: xử lý audio dài trên GPU bộ nhớ hạn chế mà không mất context (history và future context) nhờ streaming
 - Masked Batching Technique: loại bỏ padding trong batch, tối ưu xử lý audio có độ dài khác nhau

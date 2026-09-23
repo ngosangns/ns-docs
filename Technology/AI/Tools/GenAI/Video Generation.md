@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Video Generation
 description: Video Generation
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
 resource: http://runwayml.com/
 ---
+
 # Video Generation
 
 ## Video Generation Tools
@@ -29,6 +30,7 @@ resource: http://runwayml.com/
 ## V-JEPA 2 (Video Joint Embedding Predictive Architecture 2)
 
 ### Tổng quan
+
 - **V-JEPA 2**: World model tự giám sát (self-supervised foundation world model) được train trên video.
 - Đạt state-of-the-art trong visual understanding và prediction.
 - Cho phép **zero-shot robot control** trong môi trường mới.
@@ -39,15 +41,19 @@ resource: http://runwayml.com/
   - Tất cả với minimal supervision
 
 ### Khả năng chính
+
 #### Hiểu thế giới (World Understanding)
+
 - Hiểu chuyển động (motion understanding) xuất sắc.
 - Khả năng visual reasoning hàng đầu khi kết hợp với language modeling.
 
 #### Dự đoán (Prediction)
+
 - Có thể dự đoán về cách thế giới sẽ phát triển.
 - Đặt state-of-the-art mới trong việc dự đoán hành động từ các tín hiệu ngữ cảnh (contextual cues).
 
 #### Lập kế hoạch cho Robot Control
+
 - Xây dựng trên khả năng hiểu và dự đoán.
 - Có thể được sử dụng cho **zero-shot robot planning** để tương tác với các đối tượng không quen thuộc trong môi trường mới.
 - Train trên 62 giờ dữ liệu robot từ Droid dataset.
@@ -56,13 +62,16 @@ resource: http://runwayml.com/
 - **Task-agnostic**: Có thể được train mà không cần dữ liệu robot rộng rãi hoặc demonstrations cụ thể cho task.
 
 ### Kiến trúc mô hình
+
 1. **Pre-training (Self-supervised learning)**: Encoder và predictor được pre-train qua self-supervised learning từ visual data.
 2. **Fine-tuning**: Fine-tune trên một lượng nhỏ dữ liệu robot, cho phép lập kế hoạch hiệu quả mà không cần extensive expert robot demonstrations.
 
 ### Tầm nhìn và Ứng dụng
+
 - **Robotic Assistants**: Mở ra kỷ nguyên mới cho robotics, xử lý công việc nhà và các tasks phức tạp.
 - **Wearable Assistants**: Hỗ trợ cá nhân điều hướng môi trường bận rộn, cảnh báo chướng ngại vật và mối nguy hiểm.
 
 ### Tài nguyên
+
 - **Website**: [https://ai.meta.com/vjepa/](https://ai.meta.com/vjepa/)
 - **World Models khác**: [Code World Model](/Technology/AI/Practices/Code World Model)

@@ -4,12 +4,13 @@ domain: style
 type: resource
 title: Design Resources
 description: Design Resources
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - life
   - style
 resource: https://www.background.supply/
 ---
+
 # Design Resources
 
 - [Background Supply là thư viện hình ảnh nền chất lượng cao dành cho nhà thiết kế và creative professional. Cung cấp các bộ sưu tập hình ảnh nền đa dạng về phong cách, màu sắc và chủ đề, phù hợp cho sử dụng trong thiết kế web, ứng dụng, presentation và các dự án sáng tạo. Nguồn tài nguyên hữu ích cho designer muốn tìm kiếm background đẹp và độc đáo cho mọi loại hình dự án.](https://www.background.supply/)

@@ -5,12 +5,13 @@ type: note
 status: idea
 title: Tent Making
 description: Làm lều
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - projects
   - life-skills
   - idea
 ---
+
 # Làm lều
 
 - Sức chứa: 3-4 người.

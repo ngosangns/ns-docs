@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Retry Va Circuit Breaker
 description: Cách retry ít gây down
-timestamp: '2026-09-22T00:00:00.000Z'
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - system-design

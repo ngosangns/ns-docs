@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Publisher Subscriber Pattern
 description: Publisher Subscriber Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Publisher-Subscriber Pattern.md#L1-55
 # Publisher-Subscriber Pattern (Mô hình Xuất bản - Đăng ký)
 
@@ -54,3 +55,4 @@ Cho phép một ứng dụng thông báo các sự kiện đến nhiều ngườ
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Publisher-Subscriber Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)*
+```

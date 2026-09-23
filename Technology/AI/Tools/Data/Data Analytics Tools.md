@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Data Analytics Tools
 description: Data Analytics Tools
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
 resource: https://lookerstudio.google.com
 ---
+
 # Data Analytics Tools
 
 - **Apache Iceberg**: Định dạng bảng (table format) mã nguồn mở, hiệu suất cao, được thiết kế đặc biệt để quản lý các bảng phân tích dữ liệu lớn (big data analytics tables) trong các hồ dữ liệu (data lakes). Được phát triển bởi Netflix để xử lý dữ liệu quy mô petabyte và hiện là một dự án của Apache. Mục tiêu chính là mang lại độ tin cậy và sự đơn giản của các bảng SQL truyền thống vào môi trường dữ liệu lớn, cho phép các công cụ xử lý dữ liệu như Apache Spark, Trino, Flink, Presto, Hive và Impala cùng làm việc an toàn trên cùng một bảng dữ liệu #data-analytics #table-format #data-lake

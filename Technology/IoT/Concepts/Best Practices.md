@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Best Practices
 description: Best Practices cho IoT Development
-timestamp: '2026-06-19T13:43:26.133Z'
+timestamp: "2026-06-19T13:43:26.133Z"
 tags:
   - technology
   - iot
 ---
+
 # Best Practices cho IoT Development
 
 ## Design Principles

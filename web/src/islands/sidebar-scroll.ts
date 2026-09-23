@@ -4,6 +4,10 @@
  * (400+ pages, 5+ levels) leaves the highlighted item wherever it happens
  * to fall - often well below the fold in a sidebar that's now sticky and
  * independently scrollable.
+ *
+ * Called on initial load and on history (back/forward) navigation only:
+ * sidebar link clicks deliberately skip it so the scroll position never
+ * jumps away from what the user was looking at.
  */
 export function scrollActiveIntoView() {
   const sidebar = document.getElementById("site-sidebar")

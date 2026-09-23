@@ -36,6 +36,7 @@ mdvdb modules status lookup_rollup --path <parent-dir> --json
 from other folders' schemas; drop `--path` for a whole-vault view.)
 
 Report:
+
 - **Missing authored fields**: ordinary schema fields not present in this
   file's frontmatter (ordinary fields marked `required` are hard failures).
   Do not report an absent Formula/Lookup/Rollup output as something to type in.
@@ -67,6 +68,7 @@ Report:
 ### 3. Heading structure
 
 Analyze the heading hierarchy:
+
 - **Skipped levels**: e.g., H1 → H3 with no H2 (the chunk's heading hierarchy
   is missing an intermediate level)
 - **No headings**: document has no headings (one section, sub-split only by
@@ -83,6 +85,7 @@ mdvdb backlinks "$ARGUMENTS" --json
 ```
 
 Report:
+
 - **Outgoing links**: count and targets; entries with a non-null `field` are
   frontmatter relations, `field: null` are body links
 - **Incoming links**: count and sources; typed incoming references also appear
@@ -93,6 +96,7 @@ Report:
 ### 5. Summary
 
 Present a checklist:
+
 - [ ] Frontmatter has all required schema fields
 - [ ] Field types match schema
 - [ ] Relation fields resolve to existing files (no dangling relations)
@@ -120,6 +124,7 @@ mdvdb modules status lookup_rollup --json
 ```
 
 Report:
+
 - Doctor findings, including the Relations check (dangling targets, overlay
   hygiene, unquoted wiki-links)
 - Total orphan count and list (files with no links)

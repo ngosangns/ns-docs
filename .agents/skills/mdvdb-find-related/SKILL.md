@@ -18,6 +18,7 @@ Only works with `.md` files indexed by mdvdb.
 ## Steps
 
 1. Run these commands in parallel to gather relationship data:
+
    ```
    mdvdb links "$ARGUMENTS" --json
    mdvdb links "$ARGUMENTS" --depth 2 --json

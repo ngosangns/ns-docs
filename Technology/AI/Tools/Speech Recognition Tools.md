@@ -5,13 +5,14 @@ topic: tts
 type: tool
 title: Speech Recognition Tools
 description: Speech Recognition & TTS Tools
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
   - tts
 resource: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl
 ---
+
 # Speech Recognition & TTS Tools
 
 ## Vietnamese Language Tools

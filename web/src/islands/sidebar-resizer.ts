@@ -6,11 +6,11 @@
  * like the theme and folder-tree overrides; the FOUC guard in Layout.tsx
  * reapplies it before first paint.
  *
- * The handle element itself sits inside .site-shell, which soft-router.ts
- * replaces on every navigation - so initSidebarResizer() is re-run after
- * each swap. All listeners hang off the handle element (pointer capture
- * keeps move/up on it during a drag), so re-init just wires up the fresh
- * element and nothing leaks.
+ * The handle element itself sits inside .site-shell but survives
+ * navigation - soft-router.ts only swaps .site-main and .site-rail - so
+ * initSidebarResizer() binds once at startup, and again only if a
+ * full-shell fallback swap ever replaces it. All listeners hang off the
+ * handle element (pointer capture keeps move/up on it during a drag).
  */
 
 const STORAGE_KEY = "sidebar-width"
@@ -53,8 +53,8 @@ export function initSidebarResizer() {
   const resizer = document.getElementById("sidebar-resizer")
   if (!resizer) return
 
-  // #site-sidebar gets replaced by soft-router.ts's content swap - look it
-  // up fresh on every event instead of caching a detached element.
+  // Looked up fresh on every event instead of cached, so a full-shell
+  // fallback swap can never leave this handler holding a detached element.
   const getSidebar = () => document.getElementById("site-sidebar")
   const widthAt = (clientX: number) => {
     const sidebar = getSidebar()

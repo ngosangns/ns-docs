@@ -5,13 +5,14 @@ type: note
 status: idea
 title: Finance Tool
 description: Code tool giao dịch, quản lý tài chính
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - projects
   - fintech
   - idea
 resource: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-finance
 ---
+
 # Code tool giao dịch, quản lý tài chính
 
 ## Tài liệu tham khảo

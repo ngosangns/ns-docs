@@ -12,8 +12,8 @@ export function initMobileNavDrawer() {
   const backdrop = document.getElementById("nav-backdrop")
   if (!toggle) return
 
-  // #site-sidebar itself gets replaced by soft-router.ts's content swap, so
-  // it's looked up fresh on every call instead of cached in a closure.
+  // #site-sidebar is looked up fresh on every call instead of cached in a
+  // closure, so a full-shell fallback swap can't leave a detached element.
   const getSidebar = () => document.getElementById("site-sidebar")
 
   close = () => {
@@ -37,7 +37,7 @@ export function initMobileNavDrawer() {
 
   backdrop?.addEventListener("click", () => close?.())
 
-  // Delegated (survives the sidebar element being replaced on navigation).
+  // Delegated, so it keeps working however the sidebar DOM changes.
   document.addEventListener("click", e => {
     const sidebar = getSidebar()
     const target = e.target as HTMLElement

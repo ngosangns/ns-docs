@@ -4,12 +4,13 @@ domain: system-design
 type: resource
 title: Quy Trinh Lam Viec
 description: Agile/Scrum
-timestamp: '2026-06-19T13:43:26.102Z'
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - system-design
 resource: https://ihoctot.com/grooming-meeting-la-gi
 ---
+
 # Agile/Scrum
 
 - Grooming Meeting là gì (ihoctot.com): https://ihoctot.com/grooming-meeting-la-gi

@@ -4,12 +4,13 @@ domain: security
 type: resource
 title: Authentication Security
 description: Authentication Security
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - security
 resource: https://example.com/reset-password?token=...`
 ---
+
 # Authentication Security
 
 > **Lưu ý**: Không phải dự án nào cũng cần thực hiện tất cả các chức năng dưới đây. Cân nhắc kỹ dựa vào quy mô dự án và tham khảo từ Senior/SA có kinh nghiệm.

@@ -3,8 +3,8 @@ area: technology
 domain: programming-languages
 type: note
 title: Python Dockerfile Alpine Optimized
-description: 'Xem thêm: Dockerfile Optimization Techniques cho Python'
-timestamp: '2026-06-19T13:43:26.129Z'
+description: "Xem thêm: Dockerfile Optimization Techniques cho Python"
+timestamp: "2026-06-19T13:43:26.129Z"
 tags:
   - technology
   - programming-languages

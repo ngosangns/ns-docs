@@ -3,8 +3,8 @@ area: technology
 domain: backend
 type: note
 title: Heavy Write Voucher 1M Req S
-description: 'Phát voucher 1M req/s: pre-distribute vào RAM, và Q&A comment về fraud, HA Redis, history'
-timestamp: '2026-09-22T00:00:00.000Z'
+description: "Phát voucher 1M req/s: pre-distribute vào RAM, và Q&A comment về fraud, HA Redis, history"
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - backend

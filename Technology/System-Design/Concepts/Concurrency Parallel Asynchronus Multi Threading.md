@@ -3,13 +3,14 @@ area: technology
 domain: system-design
 type: resource
 title: Concurrency Parallel Asynchronus Multi Threading
-description: 'Lập trình song song: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5'
-timestamp: '2026-06-19T13:43:26.125Z'
+description: "Lập trình song song: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5"
+timestamp: "2026-06-19T13:43:26.125Z"
 tags:
   - technology
   - system-design
 resource: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5
 ---
+
 # 1. Resources
 
 - Lập trình song song: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5

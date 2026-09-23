@@ -5,13 +5,14 @@ topic: llm
 type: resource
 title: LLM Learning Resources
 description: Tài nguyên học tập LLM
-timestamp: '2026-09-22T00:00:00.000Z'
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
   - llm
 resource: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 ---
+
 # Tài nguyên học tập LLM
 
 - [Tang Jie: Advanced Machine Learning (Thanh Hoa, 2026)](/Technology/AI/Write Ups/Tang Jie Advanced Machine Learning): pipeline tự làm từ tokenizer và transformer 0.1B, Triton attention, scaling law, đối chứng SFT / DPO / RLVR, tới agent task dài có self-judge. Kèm các phán đoán ông nói buổi khai giảng.

@@ -3,8 +3,8 @@ area: technology
 domain: programming-languages
 type: note
 title: Java Dockerfile Ultra Optimized
-description: 'Ultra-optimized: Custom JRE + Spring Boot Layers + tini'
-timestamp: '2026-06-19T13:43:26.129Z'
+description: "Ultra-optimized: Custom JRE + Spring Boot Layers + tini"
+timestamp: "2026-06-19T13:43:26.129Z"
 tags:
   - technology
   - programming-languages

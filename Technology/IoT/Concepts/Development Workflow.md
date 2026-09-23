@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Development Workflow
 description: Development Workflow
-timestamp: '2026-06-19T13:43:26.135Z'
+timestamp: "2026-06-19T13:43:26.135Z"
 tags:
   - technology
   - iot
 ---
+
 # Development Workflow
 
 ## Prototyping

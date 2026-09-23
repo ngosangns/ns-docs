@@ -5,13 +5,14 @@ topic: caching
 type: resource
 title: Caching
 description: Caching
-timestamp: '2026-06-19T13:43:26.152Z'
+timestamp: "2026-06-19T13:43:26.152Z"
 tags:
   - technology
   - backend-database
   - caching
 resource: https://redis.io/documentation
 ---
+
 # Caching
 
 ## Tổng quan

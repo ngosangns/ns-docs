@@ -5,12 +5,13 @@ topic: interview
 type: resource
 title: Cau Hoi Phong Van
 description: Câu hỏi phỏng vấn
-timestamp: '2026-06-19T13:43:26.146Z'
+timestamp: "2026-06-19T13:43:26.146Z"
 tags:
   - technology
   - career
   - interview
 ---
+
 # Câu hỏi phỏng vấn
 
 ## Câu hỏi thường gặp

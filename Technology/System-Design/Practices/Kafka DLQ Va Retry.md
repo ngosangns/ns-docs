@@ -4,8 +4,8 @@ domain: system-design
 topic: system-design
 type: note
 title: Kafka DLQ Va Retry
-description: 'DLQ và retry cho Kafka consumer: lỗi nào được retry, delay nằm ở đâu, khi nào replay, khi nào bỏ'
-timestamp: '2026-09-22T00:00:00.000Z'
+description: "DLQ và retry cho Kafka consumer: lỗi nào được retry, delay nằm ở đâu, khi nào replay, khi nào bỏ"
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - system-design

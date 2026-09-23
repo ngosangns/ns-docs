@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Claude Capsule Kit
 description: Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
-timestamp: '2026-06-19T13:43:26.089Z'
+timestamp: "2026-06-19T13:43:26.089Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - claude-code
 resource: https://github.com/arpitnath/claude-capsule-kit
 ---
+
 # Claude Capsule Kit (CCK) - Engineering Toolkit cho Claude Code
 
 ## Định nghĩa

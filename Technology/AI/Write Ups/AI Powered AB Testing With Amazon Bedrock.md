@@ -5,7 +5,7 @@ topic: agents
 type: case-study
 title: AI Powered AB Testing With Amazon Bedrock
 description: Ghi chú/tổng hợp kiến trúc công cụ kiểm thử A/B thích ứng dùng Amazon Bedrock + MCP để gán biến thể theo ngữ cảnh người dùng
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml

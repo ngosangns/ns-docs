@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Tai Lieu Ma Nguon
 description: Mã Nguồn Tham Khảo
-timestamp: '2026-06-19T13:43:26.115Z'
+timestamp: "2026-06-19T13:43:26.115Z"
 tags:
   - technology
   - system-design

@@ -4,11 +4,12 @@ domain: career
 type: resource
 title: Ung Tuyen
 description: Ứng tuyển
-timestamp: '2026-06-19T13:43:26.146Z'
+timestamp: "2026-06-19T13:43:26.146Z"
 tags:
   - technology
   - career
 ---
+
 # Ứng tuyển
 
 ## Resources

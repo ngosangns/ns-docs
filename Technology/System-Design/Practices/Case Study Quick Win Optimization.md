@@ -4,14 +4,15 @@ domain: system-design
 topic: performance
 type: case-study
 title: Case Study Quick Win Optimization
-description: 'Case Study: Quick Win Optimization - Sửa tí xíu mà được quá trời'
-timestamp: '2026-06-19T13:43:26.102Z'
+description: "Case Study: Quick Win Optimization - Sửa tí xíu mà được quá trời"
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - system-design
   - performance
 resource: https://viblo.asia/p/toi-uu-he-thong-kieu-luoi-sua-ti-xiu-ma-duoc-qua-troi-Nj4vgpg2J6r
 ---
+
 # Case Study: Quick Win Optimization - Sửa tí xíu mà được quá trời
 
 > **Nguồn:** [Tối ưu hệ thống kiểu... lười: Sửa tí xíu mà được quá trời - Viblo](https://viblo.asia/p/toi-uu-he-thong-kieu-luoi-sua-ti-xiu-ma-duoc-qua-troi-Nj4vgpg2J6r) > **Tác giả:** Minh Monmen

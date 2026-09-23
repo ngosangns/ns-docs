@@ -30,6 +30,7 @@ materialize owned results into frontmatter, and users must treat those outputs
 as read-only.
 
 **Rules:**
+
 - Use proper YAML types: arrays for tags (`[design, api]`), not comma-separated strings
 - Dates in ISO format: `2024-03-15`, not `March 15`
 - Omit fields rather than setting them to `null`
@@ -43,6 +44,7 @@ as read-only.
   let the owning module reconcile it
 
 **Good:**
+
 ```yaml
 ---
 title: Authentication Flow
@@ -53,12 +55,13 @@ created: 2024-03-15
 ```
 
 **Bad:**
+
 ```yaml
 ---
 title: Authentication Flow
-tags: auth, security, api    # string, not array — can't filter by tag
-date: March 15               # not ISO — inconsistent type
-category: null               # don't set null, just omit
+tags: auth, security, api # string, not array — can't filter by tag
+date: March 15 # not ISO — inconsistent type
+category: null # don't set null, just omit
 ---
 ```
 
@@ -74,6 +77,7 @@ for existing content. Wiki-link values that remain must be quoted: unquoted
 mdvdb detects no relation.
 
 **Good:**
+
 ```yaml
 client: clients/acme.md
 authors:
@@ -83,8 +87,9 @@ project: projects/apollo.md
 ```
 
 **Bad:**
+
 ```yaml
-client: [[clients/acme]]     # unquoted — parses as a nested array, no relation detected
+client: [[clients/acme]] # unquoted — parses as a nested array, no relation detected
 ```
 
 See the manage-relations skill for resolution rules, the schema overlay
@@ -120,6 +125,7 @@ override) are sub-split with overlap windows.
 Heading text becomes the chunk's searchable label in results.
 
 **Rules:**
+
 - Start with one `# H1` title (matches the document's purpose)
 - Use proper hierarchy: H1 → H2 → H3. Never skip levels (H1 → H3)
 - Each section should be roughly 100–500 tokens (a few paragraphs)
@@ -129,6 +135,7 @@ Heading text becomes the chunk's searchable label in results.
 - Avoid empty sections (heading with no content underneath)
 
 **Good structure:**
+
 ```markdown
 # Authentication Guide
 
@@ -152,6 +159,7 @@ Alternative auth method for service-to-service calls...
 ```
 
 **Bad structure:**
+
 ```markdown
 # Auth
 
@@ -174,6 +182,7 @@ search ranking (`--boost-links`), enable graph traversal (`mdvdb links --depth 1
 Frontmatter relations (above) join the same graph as typed edges.
 
 **Rules:**
+
 - Use `[[wikilinks]]` for quick inline references to other vault files
 - Use `[descriptive text](path/to/file.md)` for contextual references
 - Link to related topics, not just sequential pages
@@ -184,6 +193,7 @@ Frontmatter relations (above) join the same graph as typed edges.
   frontmatter relation values containing `/` resolve from the vault root first
 
 **Good:**
+
 ```markdown
 This uses the same token format as [[oauth2-spec]].
 For error handling, see [Authentication Errors](errors/auth-errors.md).
@@ -196,6 +206,7 @@ mdvdb embeds chunk content as vectors and indexes it for BM25 lexical search.
 Both benefit from clear, specific writing.
 
 **Rules:**
+
 - Front-load key terms in paragraphs — first sentence matters most for BM25
 - Use the same terminology consistently (don't alternate between "auth" and "authentication" for the same concept)
 - Include specific terms and names — semantic search matches meaning, lexical search matches words
@@ -215,6 +226,7 @@ mdvdb schema --json
 ```
 
 Compare the document's frontmatter against the vault schema:
+
 - What fields exist in the schema but are missing from this document?
 - Are field values consistent with the schema's types?
 - Are dates in ISO format? Are tags proper YAML arrays?
@@ -223,6 +235,7 @@ Compare the document's frontmatter against the vault schema:
   instead of manufacturing a value.
 
 Also check sibling files for context:
+
 ```
 mdvdb tree --path <parent-dir> --json
 ```
@@ -236,6 +249,7 @@ mdvdb get "$ARGUMENTS" --populate --json
 ```
 
 Assess connectivity:
+
 - Does this file link to related content?
 - Do other files link back to it?
 - Is it an orphan?
@@ -245,17 +259,20 @@ Assess connectivity:
 ### 4. Find link candidates
 
 Search for content related to this document's topic:
+
 ```
 mdvdb search "<key terms from document>" --json --limit 10 --mode hybrid
 ```
 
 Also check for orphans that might benefit from a link:
+
 ```
 mdvdb orphans --json
 ```
 
 And check the folder's relation columns — fields with `relation_target` set
 that this file lacks are candidates for new relation fields:
+
 ```
 mdvdb collection <parent-dir> --json
 ```
@@ -288,6 +305,7 @@ physical file merely because its frontmatter reference is removed.
 ### 6. Report changes
 
 Summarize what was improved:
+
 - Frontmatter fields added or fixed
 - Relations added or repaired
 - File attachment fields normalized or repaired

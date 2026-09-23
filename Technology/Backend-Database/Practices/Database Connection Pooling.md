@@ -5,7 +5,7 @@ topic: connection-pooling
 type: resource
 title: Database Connection Pooling
 description: Connection là OS process đắt đỏ; cách pool hoạt động và cách định cỡ pool bằng Little's Law, Kingman và process-to-core ratio
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - backend
@@ -14,6 +14,7 @@ tags:
   - postgresql
 resource: https://sagarshiroya.dev/posts/database-connection-and-pooling
 ---
+
 # Database Connection Pooling
 
 **Nguồn:** [Database Connections & Connection Pooling](https://sagarshiroya.dev/posts/database-connection-and-pooling) — Sagar Shiroya, 18/04/2026
@@ -34,12 +35,12 @@ Xem thêm: [ProxySQL Connection Multiplexing](/Technology/Backend-Database/Pract
 
 Thời gian mở connection (tham khảo):
 
-| Vị trí | Thời gian |
-| --- | --- |
-| Cùng rack, cùng data center | 1–5 ms |
-| Khác rack, cùng data center | 5–20 ms |
-| Khác data center | 50–200 ms |
-| Cross-region | 800–1500 ms |
+| Vị trí                      | Thời gian   |
+| --------------------------- | ----------- |
+| Cùng rack, cùng data center | 1–5 ms      |
+| Khác rack, cùng data center | 5–20 ms     |
+| Khác data center            | 50–200 ms   |
+| Cross-region                | 800–1500 ms |
 
 Nếu mở/đóng connection cho mỗi query thì overhead lấn át thời gian chạy query (query 2 ms nhưng tốn thêm hàng chục ms chỉ để mở/đóng).
 

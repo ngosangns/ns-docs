@@ -5,13 +5,14 @@ topic: llm
 type: resource
 title: Fine Tuning Techniques
 description: Kỹ thuật fine-tune LLM models
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - technology
   - ai-ml
   - llm
 resource: https://docs.h2o.ai/h2o-llmstudio/
 ---
+
 # Kỹ thuật fine-tune LLM models
 
 Trong thế giới Large Language Models (LLMs), việc tinh chỉnh mô hình (fine-tuning) là một bước cực kỳ quan trọng để giúp mô hình hiểu và giải quyết các tác vụ cụ thể của chúng ta. Nhưng… liệu Fine-tuning truyền thống có phải là cách tối ưu nhất? Hôm nay, mình sẽ so sánh ba kỹ thuật tinh chỉnh phổ biến: Fine-tuning, LoRA và QLoRA – và giúp bạn hiểu khi nào nên dùng cách nào! 🚀

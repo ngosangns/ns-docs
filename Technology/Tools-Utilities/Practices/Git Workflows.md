@@ -5,12 +5,13 @@ topic: git
 type: usecase
 title: Git Workflows
 description: Git Workflows
-timestamp: '2026-06-19T13:43:26.102Z'
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - tools
   - git
 ---
+
 # Git Workflows
 
 Trong Git, hai mô hình phổ biến để quản lý workflow dự án là **Trunk-based development (Trunk Flow)** và **Forking Workflow (Forking Flow)**. Dưới đây là phần **giới thiệu chi tiết và so sánh** hai mô hình này:

@@ -3,12 +3,13 @@ area: technology
 domain: system-design
 type: resource
 title: Solution Sao Luu Lich Su Chinh Sua
-description: ':)) với restrict về qui mô và reloading time thì em ko dám đề cập, vì các project em làm ko strictly vs lớn như vậy, nhưng em cũng xin được góp 1 tí ak'
-timestamp: '2026-06-19T13:43:26.110Z'
+description: ":)) với restrict về qui mô và reloading time thì em ko dám đề cập, vì các project em làm ko strictly vs lớn như vậy, nhưng em cũng xin được góp 1 tí ak"
+timestamp: "2026-06-19T13:43:26.110Z"
 tags:
   - technology
   - system-design
 ---
+
 :)) với restrict về qui mô và reloading time thì em ko dám đề cập, vì các project em làm ko strictly vs lớn như vậy, nhưng em cũng xin được góp 1 tí ak
 
 - ý tưởng xử lí :

@@ -4,13 +4,14 @@ domain: cloud-devops
 type: resource
 title: File Transfer And Networking
 description: Mesh VPN, tunnel, P2P file transfer, và messaging infrastructure
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - cloud-devops
   - networking
 resource: https://github.com/juanfont/headscale
 ---
+
 # File Transfer And Networking
 
 - https://github.com/juanfont/headscale — Open source, self-hosted implementation of the Tailscale control server; run your own mesh VPN coordination server instead of relying on Tailscale's hosted service.

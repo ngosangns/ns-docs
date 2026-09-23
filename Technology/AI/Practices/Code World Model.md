@@ -5,13 +5,14 @@ topic: llm
 type: resource
 title: Code World Model
 description: Code World Model (CWM)
-timestamp: '2026-06-19T13:43:26.164Z'
+timestamp: "2026-06-19T13:43:26.164Z"
 tags:
   - technology
   - ai-ml
   - llm
 resource: https://ai.meta.com/research/publications/cwm
 ---
+
 # Code World Model (CWM)
 
 ## Tổng quan

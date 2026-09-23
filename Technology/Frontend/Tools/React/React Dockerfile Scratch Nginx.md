@@ -5,7 +5,7 @@ topic: dockerfile-optimization
 type: resource
 title: React Dockerfile Scratch Nginx
 description: Scratch với Custom Nginx + Shared Libraries
-timestamp: '2026-06-19T13:43:26.142Z'
+timestamp: "2026-06-19T13:43:26.142Z"
 tags:
   - technology
   - frontend

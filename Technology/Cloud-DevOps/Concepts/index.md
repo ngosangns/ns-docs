@@ -1,3 +1,3 @@
 # Sections
 
-* [Network](Technology/Cloud-DevOps/Concepts/Network/index.md)
+- [Network](Technology/Cloud-DevOps/Concepts/Network/index.md)

@@ -15,6 +15,7 @@ Get a quick picture of the vault's current state. Only works with `.md` files in
 ## Steps
 
 1. Run these commands in parallel:
+
    ```
    mdvdb status --json
    mdvdb shards list --json

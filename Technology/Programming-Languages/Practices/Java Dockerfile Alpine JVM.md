@@ -4,7 +4,7 @@ domain: programming-languages
 type: note
 title: Java Dockerfile Alpine JVM
 description: Alpine với JVM Optimization
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - programming-languages

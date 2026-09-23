@@ -5,12 +5,13 @@ topic: interview
 type: resource
 title: Oracle Interview Gandhinagar
 description: Oracle Interview - Gandhinagar
-timestamp: '2026-06-19T13:43:26.147Z'
+timestamp: "2026-06-19T13:43:26.147Z"
 tags:
   - technology
   - career
   - interview
 ---
+
 # Oracle Interview - Gandhinagar
 
 **Địa điểm**: Gandhinagar, Gujarat, Ấn Độ  

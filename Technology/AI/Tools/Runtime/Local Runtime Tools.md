@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Local Runtime Tools
 description: Local Runtime
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
 resource: https://lmstudio.ai/models
 ---
+
 # Local Runtime
 
 - **LM Studio**: Ứng dụng desktop giúp tải, chạy và tương tác với các mô hình LLM ngay trên máy tính. Hỗ trợ server API tương thích OpenAI để tích hợp dễ dàng vào dự án, phù hợp cho thử nghiệm, chat và triển khai nội bộ.

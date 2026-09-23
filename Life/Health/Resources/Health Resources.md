@@ -4,12 +4,13 @@ domain: health
 type: resource
 title: Health Resources
 description: Health Resources
-timestamp: '2026-06-19T13:43:26.171Z'
+timestamp: "2026-06-19T13:43:26.171Z"
 tags:
   - life
   - health
 resource: https://bodyvisualizer.com/male.html?fbclid=IwAR1YQHkeSJzNIMT4rE9zD790RMkbSQukGTzosTlLNAMeDZMAcTzvMq7gg50
 ---
+
 # Health Resources
 
 - [Body Visualizer là công cụ tạo mô hình cơ thể 3D tùy chỉnh trực tuyến. Điều chỉnh chiều cao, cân nặng, vòng ngực, eo, hông, bắp tay, bắp chân để tạo hình mô phỏng cơ thể. Hữu ích cho ai theo dõi thay đổi cơ thể khi tập luyện hoặc thiết lập mục tiêu thể hình.](https://bodyvisualizer.com/male.html?fbclid=IwAR1YQHkeSJzNIMT4rE9zD790RMkbSQukGTzosTlLNAMeDZMAcTzvMq7gg50)

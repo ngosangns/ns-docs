@@ -5,12 +5,13 @@ topic: golang
 type: resource
 title: Bloom Filter
 description: Bloom Filter
-timestamp: '2026-06-19T13:43:26.161Z'
+timestamp: "2026-06-19T13:43:26.161Z"
 tags:
   - technology
   - algorithms
   - golang
 ---
+
 # Bloom Filter
 
 ## Tổng quan

@@ -6,7 +6,7 @@ type: note
 status: idea
 title: Sound Wave Research
 description: Sóng âm
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - projects
   - iot
@@ -14,6 +14,7 @@ tags:
   - idea
 resource: https://www.facebook.com/reel/560138376963731
 ---
+
 # Sóng âm
 
 - https://www.facebook.com/reel/560138376963731

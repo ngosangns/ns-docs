@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Communication Protocols
 description: Communication Protocols
-timestamp: '2026-06-19T13:43:26.134Z'
+timestamp: "2026-06-19T13:43:26.134Z"
 tags:
   - technology
   - iot
 ---
+
 # Communication Protocols
 
 ## Wireless Protocols

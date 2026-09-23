@@ -4,8 +4,8 @@ domain: ai-ml
 topic: llm
 type: note
 title: Tang Jie Advanced Machine Learning
-description: 'Bài tập Advanced Machine Learning của Tang Jie ở Thanh Hoa (2026) và các phán đoán ông nói về bước sau của chatbot'
-timestamp: '2026-09-22T00:00:00.000Z'
+description: "Bài tập Advanced Machine Learning của Tang Jie ở Thanh Hoa (2026) và các phán đoán ông nói về bước sau của chatbot"
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - ai-ml

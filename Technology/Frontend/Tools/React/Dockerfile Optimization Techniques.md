@@ -5,7 +5,7 @@ topic: dockerfile-optimization
 type: resource
 title: Dockerfile Optimization Techniques
 description: Dockerfile Optimization Techniques cho React Applications
-timestamp: '2026-06-19T13:43:26.138Z'
+timestamp: "2026-06-19T13:43:26.138Z"
 tags:
   - technology
   - frontend

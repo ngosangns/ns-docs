@@ -5,12 +5,13 @@ topic: interview
 type: resource
 title: Interview Phong Van
 description: Interview - Phỏng vấn
-timestamp: '2026-06-19T13:43:26.147Z'
+timestamp: "2026-06-19T13:43:26.147Z"
 tags:
   - technology
   - career
   - interview
 ---
+
 # Interview - Phỏng vấn
 
 ## Resources

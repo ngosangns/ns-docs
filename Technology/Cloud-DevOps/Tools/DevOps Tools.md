@@ -5,13 +5,14 @@ topic: tools
 type: resource
 title: DevOps Tools
 description: DevOps Tools
-timestamp: '2026-06-19T13:43:26.145Z'
+timestamp: "2026-06-19T13:43:26.145Z"
 tags:
   - technology
   - devops
   - tools
 resource: https://github.com/fluxcd/flux2
 ---
+
 # DevOps Tools
 
 ## 1. Infrastructure as Code

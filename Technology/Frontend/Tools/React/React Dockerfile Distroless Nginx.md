@@ -5,7 +5,7 @@ topic: dockerfile-optimization
 type: resource
 title: React Dockerfile Distroless Nginx
 description: Distroless với Custom Static Nginx (UPX Compressed)
-timestamp: '2026-06-19T13:43:26.141Z'
+timestamp: "2026-06-19T13:43:26.141Z"
 tags:
   - technology
   - frontend

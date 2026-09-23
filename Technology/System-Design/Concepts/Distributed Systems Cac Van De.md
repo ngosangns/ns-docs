@@ -4,12 +4,13 @@ domain: system-design
 type: resource
 title: Distributed Systems Cac Van De
 description: Distributed Systems - Các vấn đề
-timestamp: '2026-06-19T13:43:26.125Z'
+timestamp: "2026-06-19T13:43:26.125Z"
 tags:
   - technology
   - system-design
 resource: https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLNKvdV32
 ---
+
 # Distributed Systems - Các vấn đề
 
 > https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLNKvdV32

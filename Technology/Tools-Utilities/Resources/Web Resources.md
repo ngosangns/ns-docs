@@ -4,12 +4,13 @@ domain: tools
 type: resource
 title: Web Resources
 description: Web Resources
-timestamp: '2026-06-19T13:43:26.102Z'
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - tools
 resource: https://radio.garden/visit/ho-chi-minh-city/WGdBGTHr
 ---
+
 # Web Resources
 
 - [Radio Garden là một trang web cho phép người dùng nghe radio trực tiếp từ khắp nơi trên thế giới thông qua một giao diện bản đồ 3D tương tác. Người dùng có thể xoay quả đất để khám phá hàng ngàn đài radio địa phương của từng thành phố, bao gồm cả Hồ Chí Minh, và nghe trực tiếp các chương trình phát thanh với chất lượng âm thanh tốt. Đây là công cụ tuyệt vời để khám phá văn hóa âm nhạc và tin tức của nhiều quốc gia khác nhau một cách trực quan và miễn phí.](https://radio.garden/visit/ho-chi-minh-city/WGdBGTHr)

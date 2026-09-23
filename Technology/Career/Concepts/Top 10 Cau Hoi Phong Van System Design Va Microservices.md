@@ -5,12 +5,13 @@ topic: interview
 type: resource
 title: Top 10 Cau Hoi Phong Van System Design Va Microservices
 description: Top 10 câu hỏi phỏng vấn System Design và Microservices
-timestamp: '2026-06-19T13:43:26.148Z'
+timestamp: "2026-06-19T13:43:26.148Z"
 tags:
   - technology
   - career
   - interview
 ---
+
 # Top 10 câu hỏi phỏng vấn System Design và Microservices
 
 **Lưu ý**: Câu hỏi và gợi ý chỉ mang tính tham khảo, nên tự xây dựng câu trả lời hoàn chỉnh

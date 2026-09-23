@@ -22,13 +22,17 @@ in natural language (filters, sort order, limit).
 ## Steps
 
 1. Build the query from `$ARGUMENTS`:
+
    ```
    mdvdb collection <path> --json
    ```
+
    For a configured recursive Shard, use its immutable ID instead of a path:
+
    ```
    mdvdb collection --shard research --recursive --json
    ```
+
    Resolve IDs with `mdvdb shards list --json`. Do not combine `--shard` with
    the positional path selector.
 
@@ -48,23 +52,18 @@ in natural language (filters, sort order, limit).
    `--recursive` when the user means its complete sub-collection.
 
 2. Parse the JSON output:
+
    ```json
    {
      "scope": "blog/",
      "recursive": false,
-     "columns": [
-       {"name": "status", "field_type": "String", "occurrence_count": 12,
-        "sample_values": ["draft"], "required": false, "in_schema": true,
-        "relation_target": null}
-     ],
-     "rows": [
-       {"path": "blog/post.md", "title": "Post", "frontmatter": {},
-        "modified_at": 1770000000, "state": "indexed"}
-     ],
+     "columns": [{ "name": "status", "field_type": "String", "occurrence_count": 12, "sample_values": ["draft"], "required": false, "in_schema": true, "relation_target": null }],
+     "rows": [{ "path": "blog/post.md", "title": "Post", "frontmatter": {}, "modified_at": 1770000000, "state": "indexed" }],
      "total_rows": 12,
      "offset": 0
    }
    ```
+
    - `columns[]` is the folder's table definition. Columns with
      `field_type: "Relation"` are relation columns; `relation_target` names
      the overlay-declared target folder when configured (null otherwise).

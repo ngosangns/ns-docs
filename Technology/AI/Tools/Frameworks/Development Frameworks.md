@@ -5,13 +5,14 @@ topic: machine-learning
 type: resource
 title: Development Frameworks
 description: JAX
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
   - machine-learning
 resource: https://docs.jax.dev
 ---
+
 # JAX
 
 ## Tổng quan

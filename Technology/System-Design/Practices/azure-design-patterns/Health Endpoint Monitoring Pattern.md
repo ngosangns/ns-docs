@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Health Endpoint Monitoring Pattern
 description: Health Endpoint Monitoring Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Health Endpoint Monitoring Pattern.md#L1-53
 # Health Endpoint Monitoring Pattern (Mô hình Giám sát Điểm cuối Sức khỏe)
 
@@ -52,3 +53,4 @@ Mô hình này sử dụng các kiểm tra chức năng bên trong ứng dụng,
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Health Endpoint Monitoring Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/health-endpoint-monitoring)*
+```

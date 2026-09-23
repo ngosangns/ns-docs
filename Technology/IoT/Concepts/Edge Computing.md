@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Edge Computing
 description: Edge Computing
-timestamp: '2026-06-19T13:43:26.135Z'
+timestamp: "2026-06-19T13:43:26.135Z"
 tags:
   - technology
   - iot
 ---
+
 # Edge Computing
 
 ## Lợi ích

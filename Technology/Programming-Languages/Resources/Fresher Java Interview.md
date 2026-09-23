@@ -5,12 +5,13 @@ topic: java
 type: resource
 title: Fresher Java Interview
 description: Fresher Java Interview
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - programming-languages
   - java
 ---
+
 # 1. Fresher Java Interview
 
 **Chia sẻ quá trình phỏng vấn ở vị trí Fresher Java Backend Developer ở một công ty Fintech nọ: ( nửa tháng trước )**

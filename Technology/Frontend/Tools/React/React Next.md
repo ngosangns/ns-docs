@@ -5,13 +5,14 @@ topic: react
 type: resource
 title: React Next
 description: React - Next.js
-timestamp: '2026-09-22T00:00:00.000Z'
+timestamp: "2026-09-22T00:00:00.000Z"
 tags:
   - technology
   - frontend
   - react
 resource: https://www.retroui.dev/
 ---
+
 # React - Next.js
 
 ## Resources

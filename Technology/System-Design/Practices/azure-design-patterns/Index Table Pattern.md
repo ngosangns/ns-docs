@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Index Table Pattern
 description: Index Table Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/index-table
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Index Table Pattern.md#L1-53
 # Index Table Pattern (Mô hình Bảng Chỉ mục)
 
@@ -44,3 +45,4 @@ Trong Azure Table Storage, bạn có thể tạo một bảng chính lưu thông
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Index Table Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/index-table)*
+```

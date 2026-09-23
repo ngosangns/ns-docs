@@ -5,13 +5,14 @@ topic: mongodb
 type: resource
 title: Mongodb
 description: MongoDB
-timestamp: '2026-06-19T13:43:26.148Z'
+timestamp: "2026-06-19T13:43:26.148Z"
 tags:
   - technology
   - backend-database
   - mongodb
 resource: https://docs.mongodb.com/
 ---
+
 # MongoDB
 
 ## Tổng quan

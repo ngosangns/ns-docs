@@ -69,6 +69,7 @@ unquoted `[[x]]` is valid YAML flow-sequence syntax and parses as a nested
 array (`[["x"]]`) instead of a string, so mdvdb detects no relation.
 
 **Good:**
+
 ```yaml
 ---
 client: clients/acme.md
@@ -81,9 +82,10 @@ reviewers:
 ```
 
 **Bad:**
+
 ```yaml
 ---
-client: [[clients/acme]]    # unquoted — YAML parses this as [["clients/acme"]], no relation
+client: [[clients/acme]] # unquoted — YAML parses this as [["clients/acme"]], no relation
 ---
 ```
 
@@ -145,8 +147,8 @@ explicitly (useful before data exists, for `required`, and to scope bare links):
 ```yaml
 fields:
   client:
-    field_type: relation   # `type:` is accepted as an alias
-    target: clients        # filename-only values such as acme.md resolve into clients/
+    field_type: relation # `type:` is accepted as an alias
+    target: clients # filename-only values such as acme.md resolve into clients/
     required: true
 ```
 
@@ -302,6 +304,7 @@ owns and reports unsafe or concurrent changes instead of overwriting them.
 ## Health checks
 
 `mdvdb doctor --json` includes a **Relations** check that reports:
+
 - **Dangling relations** — relation values whose target file doesn't exist
   (shown as `source#field → target`)
 - **Overlay hygiene** — declared `target:` folders that match no indexed files

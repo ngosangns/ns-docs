@@ -4,11 +4,12 @@ domain: system-design
 type: resource
 title: Cac Buoc Xay Dung Ung Dung
 description: Non-Functional Requirements (NFR)
-timestamp: '2026-06-19T13:43:26.102Z'
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - system-design
 ---
+
 # 1. Resources
 
 ## 1.1. Non-Functional Requirements (NFR)

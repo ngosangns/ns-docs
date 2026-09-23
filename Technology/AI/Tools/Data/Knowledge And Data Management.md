@@ -5,7 +5,7 @@ topic: data
 type: resource
 title: Knowledge And Data Management
 description: Graph/vector DB, RAG pipeline, document parsing, và các công cụ quản lý tri thức/dữ liệu khác
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - rag
 resource: https://github.com/FalkorDB/FalkorDB
 ---
+
 # Knowledge And Data Management
 
 - https://github.com/FalkorDB/FalkorDB — Ultra-fast, multi-tenant property graph database built on sparse matrices; optimized for LLMs and AI workloads.

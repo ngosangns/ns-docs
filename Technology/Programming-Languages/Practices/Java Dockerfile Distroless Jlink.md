@@ -4,7 +4,7 @@ domain: programming-languages
 type: note
 title: Java Dockerfile Distroless Jlink
 description: Distroless với Custom JRE (jlink) và jdeps
-timestamp: '2026-06-19T13:43:26.127Z'
+timestamp: "2026-06-19T13:43:26.127Z"
 tags:
   - technology
   - programming-languages

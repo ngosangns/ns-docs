@@ -5,13 +5,14 @@ type: note
 status: idea
 title: IoT Ideas
 description: IoT Ideas
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - projects
   - iot
   - idea
 resource: https://hshop.vn/kit-rf-thu-phat-wifi-ble-esp32-cam
 ---
+
 # IoT Ideas
 
 ## Camera

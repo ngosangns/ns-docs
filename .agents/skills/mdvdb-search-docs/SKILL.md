@@ -19,9 +19,11 @@ Search the markdown vault using `mdvdb search`. Only works with `.md` files inde
 ## Steps
 
 1. Run the search command with JSON output:
+
    ```
    mdvdb search "$ARGUMENTS" --json --limit 10
    ```
+
    Add flags matching the user's request:
    - `--mode hybrid|semantic|lexical` (shorthands: `--semantic`, `--lexical`);
      `--edge-search` searches link-context edge embeddings instead — its
@@ -44,6 +46,7 @@ Search the markdown vault using `mdvdb search`. Only works with `.md` files inde
    - `--populate` — resolve frontmatter relations on each result's file
 
 2. Parse the JSON output. The structure is:
+
    ```json
    {
      "results": [
@@ -69,6 +72,7 @@ Search the markdown vault using `mdvdb search`. Only works with `.md` files inde
      "mode": "hybrid"
    }
    ```
+
    (Example abridged — `file` also carries `path_components`.) With
    `--expand`, a `graph_context` array is added (chunks from linked files);
    with `--populate`, each `file` gains a `relations` map

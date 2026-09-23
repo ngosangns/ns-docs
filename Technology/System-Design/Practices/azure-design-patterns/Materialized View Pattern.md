@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Materialized View Pattern
 description: Materialized View Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Materialized View Pattern.md#L1-45
 # Materialized View Pattern (Mô hình View Kết xuất sẵn)
 
@@ -50,3 +51,4 @@ Tạo ra các view dữ liệu được tính toán hoặc định dạng sẵn 
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Materialized View Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/materialized-view)*
+```

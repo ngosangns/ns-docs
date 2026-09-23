@@ -4,11 +4,12 @@ domain: ai-ml
 type: resource
 title: Loss Functions
 description: Loss Functions
-timestamp: '2026-06-19T13:43:26.166Z'
+timestamp: "2026-06-19T13:43:26.166Z"
 tags:
   - technology
   - ai-ml
 ---
+
 # Loss Functions
 
 ## Cross Entropy

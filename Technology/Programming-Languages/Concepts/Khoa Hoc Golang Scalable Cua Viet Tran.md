@@ -5,12 +5,13 @@ topic: golang
 type: resource
 title: Khoa Hoc Golang Scalable Cua Viet Tran
 description: Khóa học Golang scalable của Việt Trần
-timestamp: '2026-06-19T13:43:26.132Z'
+timestamp: "2026-06-19T13:43:26.132Z"
 tags:
   - technology
   - programming-languages
   - golang
 ---
+
 # Khóa học Golang scalable của Việt Trần
 
 # NGÔN NGỮ GOLANG - KEY FEATURE

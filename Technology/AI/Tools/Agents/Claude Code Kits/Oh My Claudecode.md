@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Oh My Claudecode
 description: Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
-timestamp: '2026-06-19T13:43:26.090Z'
+timestamp: "2026-06-19T13:43:26.090Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - claude-code
 resource: https://github.com/Yeachan-Heo/oh-my-claudecode
 ---
+
 # Oh-My-ClaudeCode (OMC) - Teams-first Multi-agent Orchestration
 
 ## Định nghĩa

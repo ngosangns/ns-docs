@@ -5,13 +5,14 @@ topic: golang
 type: resource
 title: Post Score Algorithm
 description: Post score algorithm - Trending algorithm
-timestamp: '2026-06-19T13:43:26.159Z'
+timestamp: "2026-06-19T13:43:26.159Z"
 tags:
   - technology
   - algorithms
   - golang
 resource: https://viblo.asia/p/xay-dung-tinh-nang-trending-bai-viet-m2vJPD2KJeK
 ---
+
 # Post score algorithm - Trending algorithm
 
 ## Mục lục

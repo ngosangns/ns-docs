@@ -4,12 +4,13 @@ domain: frontend
 type: resource
 title: 37 Tips From A Senior Frontend Developer
 description: Tips from a Senior Frontend Developer
-timestamp: '2026-06-19T13:43:26.143Z'
+timestamp: "2026-06-19T13:43:26.143Z"
 tags:
   - technology
   - frontend
 resource: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b
 ---
+
 # 37 Tips from a Senior Frontend Developer
 
 Source: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b

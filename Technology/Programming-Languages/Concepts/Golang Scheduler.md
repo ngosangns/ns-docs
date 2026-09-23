@@ -5,13 +5,14 @@ topic: golang
 type: resource
 title: Golang Scheduler
 description: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
-timestamp: '2026-06-19T13:43:26.132Z'
+timestamp: "2026-06-19T13:43:26.132Z"
 tags:
   - technology
   - programming-languages
   - golang
 resource: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
 ---
+
 # 1. Resources
 
 - https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html

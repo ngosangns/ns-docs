@@ -5,13 +5,14 @@ topic: javascript
 type: resource
 title: Javascript Typescript
 description: JavaScript / TypeScript
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - programming-languages
   - javascript
 resource: https://medium.com/globant/javascript-optimization-techniques-20d8d167dadd
 ---
+
 # JavaScript / TypeScript
 
 Ghi chú tổng hợp theo kiểu “hub”: vừa dùng để ôn nền tảng, vừa dùng làm checklist khi build dự án.

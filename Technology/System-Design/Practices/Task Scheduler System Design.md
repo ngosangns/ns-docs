@@ -5,13 +5,14 @@ topic: task-scheduler
 type: resource
 title: Task Scheduler System Design
 description: Task Scheduler System Design
-timestamp: '2026-06-19T13:43:26.115Z'
+timestamp: "2026-06-19T13:43:26.115Z"
 tags:
   - technology
   - system-design
   - task-scheduler
 resource: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
 ---
+
 # Task Scheduler System Design
 
 > **Nguồn:** https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e

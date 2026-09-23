@@ -1,4 +1,7 @@
-import { initSidebarPersistence } from "./sidebar-persistence"
+import {
+  initSidebarPersistence,
+  syncFolderTree
+} from "./sidebar-persistence"
 import { initSidebarResizer } from "./sidebar-resizer"
 import { refreshTocScrollspy } from "./toc-scrollspy"
 import { closeMobileNavIfOpen } from "./mobile-nav-drawer"
@@ -9,9 +12,11 @@ import { scrollActiveIntoView } from "./sidebar-scroll"
  * has none: every URL is still a real, fully self-contained static HTML
  * page (direct loads, view-source, no-JS and search-engine crawling all
  * keep working exactly as before). When JS is available, internal link
- * clicks are intercepted, the target page is fetched and only its
- * `.site-shell` is swapped in - so the CSS/JS already loaded in this
- * document never reloads.
+ * clicks are intercepted, the target page is fetched and only the
+ * page-specific regions of its `.site-shell` (.site-main and .site-rail)
+ * are swapped in - the sidebar keeps its live DOM, so its scroll
+ * position, expanded folders and listeners survive every navigation, and
+ * the CSS/JS already loaded in this document never reloads.
  */
 
 const SHELL_SELECTOR = ".site-shell"
@@ -111,11 +116,37 @@ function applyPage(entry: PageEntry) {
     descTag?.remove()
   }
 
-  const shell = document.querySelector(SHELL_SELECTOR)
-  if (shell) shell.innerHTML = entry.shellHtml
+  const holder = document.createElement("div")
+  holder.innerHTML = entry.shellHtml
 
-  initSidebarPersistence()
-  initSidebarResizer()
+  const newMain = holder.querySelector(".site-main")
+  const newRail = holder.querySelector(".site-rail")
+  const newSidebar = holder.querySelector("#site-sidebar")
+  const liveMain = document.querySelector(".site-main")
+  const liveRail = document.querySelector(".site-rail")
+
+  if (
+    newMain &&
+    newRail &&
+    newSidebar &&
+    liveMain &&
+    liveRail &&
+    syncFolderTree(newSidebar)
+  ) {
+    // Partial swap: only the page content re-renders. The sidebar and
+    // resizer keep their DOM, so sidebar scroll position and folder state
+    // never jump when picking an item from the tree.
+    liveMain.innerHTML = newMain.innerHTML
+    liveRail.innerHTML = newRail.innerHTML
+  } else {
+    // Unexpected markup drift - replace the whole shell and re-init the
+    // islands against the fresh DOM, like the original swap did.
+    const shell = document.querySelector(SHELL_SELECTOR)
+    if (shell) shell.innerHTML = entry.shellHtml
+    initSidebarPersistence()
+    initSidebarResizer()
+  }
+
   refreshTocScrollspy()
 }
 
@@ -132,7 +163,11 @@ function scrollFor(url: string, restoreY: number | null) {
   window.scrollTo(0, 0)
 }
 
-async function swapTo(url: string, restoreScrollY: number | null) {
+async function swapTo(
+  url: string,
+  restoreScrollY: number | null,
+  revealActive = false
+) {
   const token = ++activeNavToken
   startProgress()
 
@@ -153,7 +188,10 @@ async function swapTo(url: string, restoreScrollY: number | null) {
 
   closeMobileNavIfOpen()
   applyPage(entry)
-  scrollActiveIntoView()
+  // Link clicks never re-centre the sidebar: the clicked item is already
+  // where the user left it. History navigation gets the reveal because
+  // nothing else shows where the restored page lives in the tree.
+  if (revealActive) scrollActiveIntoView()
   scrollFor(url, restoreScrollY)
 }
 
@@ -219,6 +257,6 @@ export function initSoftRouter() {
 
   window.addEventListener("popstate", e => {
     const state = e.state as HistoryState | null
-    swapTo(location.href, state?.scrollY ?? 0)
+    swapTo(location.href, state?.scrollY ?? 0, true)
   })
 }

@@ -5,13 +5,14 @@ topic: postgresql
 type: resource
 title: Postgresql
 description: PostgreSQL
-timestamp: '2026-06-19T13:43:26.148Z'
+timestamp: "2026-06-19T13:43:26.148Z"
 tags:
   - technology
   - backend-database
   - postgresql
 resource: https://www.postgresql.org/docs/
 ---
+
 # PostgreSQL
 
 ## Tổng quan

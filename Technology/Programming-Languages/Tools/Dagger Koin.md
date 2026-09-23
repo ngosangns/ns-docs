@@ -4,12 +4,13 @@ domain: programming-languages
 type: resource
 title: Dagger Koin
 description: Dagger
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - programming-languages
 resource: https://developer.android.com/training/dependency-injection/dagger-android
 ---
+
 Dagger:
 
 - Component có thể dùng với application context để quản lý vòng đời của chính nó.

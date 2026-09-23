@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Sidecar Pattern
 description: Sidecar Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Sidecar Pattern.md#L1-36
 # Sidecar Pattern (Mô hình Mô tô có thùng)
 
@@ -45,3 +46,4 @@ Mô hình Sidecar triển khai các thành phần của ứng dụng vào một 
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Sidecar Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar)
+```

@@ -4,11 +4,12 @@ domain: clothing
 type: resource
 title: Cac Loai Giay Nen Co
 description: Giày Oxford đen
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - life
   - clothing
 ---
+
 # Giày Oxford đen
 
 Đôi giày không thể thiếu khi bạn được yêu cầu ăn mặc trang trọng, lịch sự.

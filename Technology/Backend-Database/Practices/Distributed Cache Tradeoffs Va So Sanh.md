@@ -3,8 +3,8 @@ area: technology
 domain: backend
 type: resource
 title: Distributed Cache Tradeoffs Va So Sanh
-description: 'Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices'
-timestamp: '2026-06-19T13:43:26.150Z'
+description: "Distributed In-Memory Cache cho Heavy-Read APIs: Tổng hợp và Best Practices"
+timestamp: "2026-06-19T13:43:26.150Z"
 tags:
   - technology
   - backend

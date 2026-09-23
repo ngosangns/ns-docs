@@ -4,13 +4,14 @@ domain: tools
 type: resource
 title: Business Applications
 description: CRM, project management, ERP, và các nền tảng ứng dụng doanh nghiệp mã nguồn mở
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - tools
   - business
 resource: https://github.com/twentyhq/twenty
 ---
+
 # Business Applications
 
 - https://github.com/brightbeanxyz/brightbean-studio — Open-source, self-hostable social media management platform for scheduling and publishing across 10+ platforms.

@@ -15,6 +15,7 @@ Safely ingest markdown files with a cost-check and preview-first approach.
 Only works with `.md` files.
 
 **Input:** `$ARGUMENTS` can be:
+
 - Empty: incremental ingest of changed files
 - `--reindex`: force full re-embedding of all files
 - `--file path/to/file.md`: ingest a single specific file
@@ -28,9 +29,11 @@ Only works with `.md` files.
    key in the vault's `.env` (`OPENAI_API_KEY=...`) — never in YAML.
 
 2. Check the vault state and cost (free, offline, read-only):
+
    ```
    mdvdb info --json
    ```
+
    Key fields: `sync` (`{new, changed, unchanged, deleted}` — what an
    incremental ingest would touch), `reindex_chunks` /
    `reindex_estimated_tokens` / `reindex_estimated_api_calls` (full-reindex
@@ -42,9 +45,11 @@ Only works with `.md` files.
    no embedding cost).
 
 3. Preview discovery, chunking, and embedding work:
+
    ```
    mdvdb ingest --preview --json
    ```
+
    If the user specified `--reindex`, add that flag.
    If the user specified `--file PATH`, add that flag.
 
@@ -61,9 +66,11 @@ Only works with `.md` files.
 5. If `$ARGUMENTS` is just "preview", stop here.
 
 6. Otherwise, proceed with the actual ingest:
+
    ```
    mdvdb ingest --json
    ```
+
    (Add `--reindex` or `--file PATH` if specified.)
 
 7. Report the ingest results:

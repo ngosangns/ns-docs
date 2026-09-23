@@ -5,13 +5,14 @@ topic: database
 type: resource
 title: Apache Pinot
 description: Apache Pinot
-timestamp: '2026-06-19T13:43:26.148Z'
+timestamp: "2026-06-19T13:43:26.148Z"
 tags:
   - technology
   - backend
   - database
 resource: https://viblo.asia/p/job-counting-bai-toan-hoc-bua-ma-uber-giai-quyet-trong-tich-tac-018J2KDRLYK
 ---
+
 # Apache Pinot
 
 Cơ sở dữ liệu phân tán mã nguồn mở, được tạo ra tại LinkedIn vào giữa năm 2010, open-source vào năm 2015, tặng cho Apache Foundation vào năm 2019.

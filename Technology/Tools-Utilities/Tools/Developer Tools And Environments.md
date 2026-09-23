@@ -4,13 +4,14 @@ domain: tools
 type: resource
 title: Developer Tools And Environments
 description: Dev environment manager, benchmark, debugging, monitoring, và các công cụ phát triển phần mềm khác
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - tools
   - developer-tools
 resource: https://github.com/marixdev/lstack
 ---
+
 # Developer Tools And Environments
 
 - https://github.com/crizant/probe — Fast, native, local-first API client (Postman/Insomnia alternative) for macOS, Windows, and Linux; built in Rust with GPUI (GPU-rendered, no Electron/WebView). Ships two interfaces over the same core: an agent/CI-friendly CLI (human-readable output plus deterministic versioned JSON) and a desktop app. Uses OpenCollection YAML as workspace format, stores collections on the filesystem (Git-friendly), and needs no account or cloud service. Releases are unsigned, so macOS Gatekeeper / Windows SmartScreen warn on first launch.

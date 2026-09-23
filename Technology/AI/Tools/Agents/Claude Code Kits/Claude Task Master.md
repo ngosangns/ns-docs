@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Claude Task Master
 description: Claude Task Master - AI-Powered Task Management System
-timestamp: '2026-06-19T13:43:26.089Z'
+timestamp: "2026-06-19T13:43:26.089Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - claude-code
 resource: https://cursor.com/en/install-mcp?name=task-master-ai&config=
 ---
+
 # Claude Task Master - AI-Powered Task Management System
 
 ## Định nghĩa

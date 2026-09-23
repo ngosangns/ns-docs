@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Queue Based Load Leveling Pattern
 description: Queue Based Load Leveling Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Queue-based Load Leveling Pattern.md#L1-45
 # Queue-Based Load Leveling Pattern (Mô hình San phẳng Tải dựa trên Hàng đợi)
 
@@ -51,3 +52,4 @@ Một ứng dụng web ghi dữ liệu vào một kho lưu trữ bên ngoài (SQ
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Queue-Based Load Leveling Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling)*
+```

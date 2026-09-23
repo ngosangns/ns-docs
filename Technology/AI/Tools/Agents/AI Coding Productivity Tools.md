@@ -5,7 +5,7 @@ topic: agents
 type: resource
 title: AI Coding Productivity Tools
 description: Agent skills, context engineering, context compression, browser automation cho agent, và các công cụ tăng năng suất coding-agent khác
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - coding-agents
 resource: https://github.com/kaitranntt/ccs
 ---
+
 # AI Coding Productivity Tools
 
 - https://github.com/kaitranntt/ccs — Multi-provider profile and runtime manager for Claude Code, Codex, Ollama, GLM, and other AI CLIs.

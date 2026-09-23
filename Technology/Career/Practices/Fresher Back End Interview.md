@@ -5,12 +5,13 @@ topic: interview
 type: resource
 title: Fresher Back End Interview
 description: Fresher Back-end Interview
-timestamp: '2026-06-19T13:43:26.147Z'
+timestamp: "2026-06-19T13:43:26.147Z"
 tags:
   - technology
   - career
   - interview
 ---
+
 # Fresher Back-end Interview
 
 **Công ty product kỳ lân - Phỏng vấn tiếng Việt với techlead backend và HR manager (1h40p)**

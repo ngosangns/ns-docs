@@ -4,11 +4,12 @@ domain: style
 type: resource
 title: Bang Mau Gradient Dep
 description: Bang Mau Gradient Dep
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - life
   - style
 ---
+
 ![](/Attachments/1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f.png)
 
 ![](/Attachments/2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f70.png)

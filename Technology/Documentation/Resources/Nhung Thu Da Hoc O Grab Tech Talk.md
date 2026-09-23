@@ -4,11 +4,12 @@ domain: documentation
 type: resource
 title: Nhung Thu Da Hoc O Grab Tech Talk
 description: Lựa chọn công nghệ
-timestamp: '2026-06-19T13:43:26.144Z'
+timestamp: "2026-06-19T13:43:26.144Z"
 tags:
   - technology
   - documentation
 ---
+
 # Lựa chọn công nghệ
 
 - Nginx detail metric chỉ nằm trong bản enterprise thôi nên hạn chế dùng khi cần truy xuất lượng metric chi tiết.

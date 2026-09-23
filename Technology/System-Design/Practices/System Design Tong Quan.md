@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: System Design Tong Quan
 description: Tổng quan về Thiết kế Hệ thống
-timestamp: '2026-06-19T13:43:26.112Z'
+timestamp: "2026-06-19T13:43:26.112Z"
 tags:
   - technology
   - system-design

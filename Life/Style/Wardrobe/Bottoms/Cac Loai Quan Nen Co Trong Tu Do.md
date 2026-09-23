@@ -4,11 +4,12 @@ domain: clothing
 type: guide
 title: Cac Loai Quan Nen Co Trong Tu Do
 description: Các loại quần nên có trong tủ đồ
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - life
   - clothing
 ---
+
 # Các loại quần nên có trong tủ đồ
 
 ## 1. Quần jeans dáng slim-fit
@@ -22,6 +23,7 @@ Rất nhiều trào lưu quần jeans đến rồi ra đi như một cơn gió, 
 Đây là kiểu quần jeans vừa đủ lịch sự để mặc cùng sơ mi sơ vin và cũng thật thoải mái với trang phục thuần casual khi kết hợp cùng áo phông và giày sneakers.
 
 ### Đặc điểm
+
 - Độ formal: Trung bình (có thể nâng lên cao nếu phối với áo sơ mi và blazer)
 - Độ linh hoạt phối đồ: Rất cao, phối được với áo thun, áo sơ mi, áo polo, blazer
 - Chất liệu: Denim (cotton dệt chặt)
@@ -29,9 +31,11 @@ Rất nhiều trào lưu quần jeans đến rồi ra đi như một cơn gió, 
 - Fit: Slim-fit, vừa vặn với cơ thể, không quá bó cũng không quá rộng
 
 ### Thời tiết phù hợp
+
 Cả 4 mùa, mùa đông có thể mặc với quần lót dài hoặc layer bên trong
 
 ### Số lượng đề xuất
+
 1-2 cái với các màu khác nhau
 
 ---
@@ -45,6 +49,7 @@ Cả 4 mùa, mùa đông có thể mặc với quần lót dài hoặc layer bê
 Một con nghiện đồ denim như tôi cũng không thể mặc quần jeans mãi được. Và quần chinos sẽ là lựa chọn "đổi gió" xứng đáng. Quần chinos tông màu beige kinh điển chắc chắn là không thể thiếu, ngoài ra còn xanh navy và cả xanh olive nữa.
 
 ### Đặc điểm
+
 - Độ formal: Trung bình đến cao (tùy cách phối)
 - Độ linh hoạt phối đồ: Rất cao, phối được với áo thun, áo sơ mi, áo polo, blazer
 - Chất liệu: Cotton hoặc cotton pha
@@ -52,9 +57,11 @@ Một con nghiện đồ denim như tôi cũng không thể mặc quần jeans m
 - Fit: Regular fit hoặc slim fit tùy sở thích
 
 ### Thời tiết phù hợp
+
 Cả 4 mùa, đặc biệt tốt cho mùa xuân, hè, thu
 
 ### Số lượng đề xuất
+
 2-3 cái với các màu khác nhau
 
 ---
@@ -68,6 +75,7 @@ Cả 4 mùa, đặc biệt tốt cho mùa xuân, hè, thu
 Không còn gắn liền với những bộ suit nữa, nay bạn đã có thể diện quần tây cùng áo phông sơ vin, khoác bên ngoài một chiếc blazer nhẹ nhàng và xỏ vào chân một đôi sneakers thật oách.
 
 ### Đặc điểm
+
 - Độ formal: Cao (có thể giảm xuống trung bình nếu phối casual)
 - Độ linh hoạt phối đồ: Trung bình đến cao, phối với áo sơ mi, áo thun sơ vin, blazer
 - Chất liệu: Vải tây, thường là cotton hoặc cotton pha
@@ -75,7 +83,9 @@ Không còn gắn liền với những bộ suit nữa, nay bạn đã có thể
 - Fit: Regular fit hoặc slim fit, thường có nếp gấp
 
 ### Thời tiết phù hợp
+
 Cả 4 mùa, đặc biệt phù hợp cho môi trường công sở
 
 ### Số lượng đề xuất
+
 1-2 cái với các màu cơ bản (đen, xám)

@@ -4,11 +4,12 @@ domain: ai-ml
 type: resource
 title: Cach Dat Cau Hoi Cho Chatgpt
 description: Chỉ trong vài tháng qua, ChatGPT đã trở thành trợ lý, thành partner, thành mentor cho rất nhiều người.
-timestamp: '2026-06-19T13:43:26.168Z'
+timestamp: "2026-06-19T13:43:26.168Z"
 tags:
   - technology
   - ai-ml
 ---
+
 Chỉ trong vài tháng qua, ChatGPT đã trở thành trợ lý, thành partner, thành mentor cho rất nhiều người. Nhưng không phải ai cũng nắm được cách sử dụng ChatGPT làm sao cho thật sự hiệu quả và áp dụng vào trong đời sống và công việc hàng ngày. Bài viết này dành cho những bạn đã từng sử dụng ChatGPT nhưng vẫn chưa cảm thấy nó thực sự hữu ích và phục vụ được đúng mục đích mình mong muốn. Cũng chỉ là trải nghiệm của thằng lớp 2 đi chia sẻ lại cho thằng 1 nên hi vọng các anh em lớp 5 lớp 6 chém nhẹ tay và góp ý thêm.
 
 ## 0.1. **1. CONTEXT IS KING**

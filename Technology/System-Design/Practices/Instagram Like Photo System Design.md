@@ -4,12 +4,13 @@ domain: system-design
 type: resource
 title: Instagram Like Photo System Design
 description: Thiết kế hệ thống ảnh như Instagram
-timestamp: '2026-06-19T13:43:26.107Z'
+timestamp: "2026-06-19T13:43:26.107Z"
 tags:
   - technology
   - system-design
 resource: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-GAWVpZd5J05
 ---
+
 # Thiết kế hệ thống ảnh như Instagram
 
 > Tóm tắt từ bài viết: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-GAWVpZd5J05

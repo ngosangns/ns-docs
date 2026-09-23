@@ -4,11 +4,12 @@ domain: ai-ml
 type: resource
 title: Transfer Learning
 description: Transfer Learning
-timestamp: '2026-06-19T13:43:26.166Z'
+timestamp: "2026-06-19T13:43:26.166Z"
 tags:
   - technology
   - ai-ml
 ---
+
 # Transfer Learning
 
 > **User prompt:** viết lại nội dung bên dưới ngắn gọn, bullet list, note vào file phù hợp

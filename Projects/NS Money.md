@@ -5,12 +5,13 @@ type: note
 status: idea
 title: NS Money
 description: NS Money
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - projects
   - fintech
   - idea
 ---
+
 # NS Money
 
 - Làm widget app.

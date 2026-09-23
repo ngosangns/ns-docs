@@ -17,9 +17,11 @@ Only works with `.md` files indexed by mdvdb.
 ## Steps
 
 1. Search the vault with link boosting:
+
    ```
    mdvdb search "$ARGUMENTS" --json --limit 8 --mode hybrid --boost-links --populate
    ```
+
    If the user names a Shard, resolve its immutable ID with
    `mdvdb shards list --json` and add `--shard <ID>`. Do not replace it with a
    guessed path or combine it with `--path`.

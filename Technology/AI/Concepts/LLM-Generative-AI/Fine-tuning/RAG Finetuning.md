@@ -5,13 +5,14 @@ topic: llm
 type: resource
 title: RAG Finetuning
 description: Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề.
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - technology
   - ai-ml
   - llm
 resource: https://github.com/vitali87/code-graph-rag
 ---
+
 Để bạn không bị loạn chưởng với AI agents trước khi nói kỹ hơn chủ đề. Bạn hãy tưởng tượng một cái cây đại thụ to lớn.
 
 - Rễ cây chính là các LLM (Large language model) như GPT, Gemini (Google), Claude, Llama (Meta) hay DeepSeek, nơi thật sự có công tác Machine Learning thu thập, huấn luyện dữ liệu. Gọi là nổi bật thì chỉ khoảng 10 LLM lớn.

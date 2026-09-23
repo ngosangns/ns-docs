@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Everything Claude Code
 description: Everything Claude Code (ECC) - Agent Harness Performance Optimization System
-timestamp: '2026-06-19T13:43:26.090Z'
+timestamp: "2026-06-19T13:43:26.090Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - claude-code
 resource: https://github.com/affaan-m/ECC
 ---
+
 # Everything Claude Code (ECC) - Agent Harness Performance Optimization System
 
 ## Định nghĩa
@@ -152,11 +153,11 @@ Rust control-plane prototype trong `ecc2/` với commands:
 
 Từ v2.2 repo nói rõ **không phải harness nào cũng ngang nhau** — xem [support status matrix](https://github.com/affaan-m/ECC#platform-support) trước khi giả định feature parity.
 
-| Platform                                                     | Status                       |
-| ------------------------------------------------------------ | ---------------------------- |
-| Claude Code                                                  | Hỗ trợ tốt nhất              |
-| Codex (app + CLI)                                            | Supported sync path          |
-| Kimi Code                                                    | Guided setup                 |
+| Platform                                                         | Status                     |
+| ---------------------------------------------------------------- | -------------------------- |
+| Claude Code                                                      | Hỗ trợ tốt nhất            |
+| Codex (app + CLI)                                                | Supported sync path        |
+| Kimi Code                                                        | Guided setup               |
 | Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen | Capability-limited adapter |
 
 ## Hook Runtime Controls

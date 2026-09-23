@@ -5,7 +5,7 @@ topic: machine-learning
 type: case-study
 title: XGBoost Tips And Tricks
 description: Ghi chú/tổng hợp các kinh nghiệm dùng XGBoost của Chris Deotte (Kaggle Grandmaster)
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
@@ -43,7 +43,7 @@ Có 2 API chính để dùng XGBoost:
 
 ## 3. Xây dựng & tối ưu model
 
-**Baseline gần như miễn phí**: một điểm mạnh của XGBoost là có thể train ngay mà *không cần tiền xử lý* — để nguyên missing values, categorical, numeric — trong khi nhiều model khác đòi hỏi impute/encode/normalize trước. Quy trình thường gặp: chạy KFold, mỗi fold tạo DMatrix (bật `enable_categorical=True`), train với `early_stopping_rounds` để tự dừng đúng lúc, rồi lấy out-of-fold predictions để đánh giá (vd. AUC).
+**Baseline gần như miễn phí**: một điểm mạnh của XGBoost là có thể train ngay mà _không cần tiền xử lý_ — để nguyên missing values, categorical, numeric — trong khi nhiều model khác đòi hỏi impute/encode/normalize trước. Quy trình thường gặp: chạy KFold, mỗi fold tạo DMatrix (bật `enable_categorical=True`), train với `early_stopping_rounds` để tự dừng đúng lúc, rồi lấy out-of-fold predictions để đánh giá (vd. AUC).
 
 **Hyperparameter — không cần lo quá nhiều**: bộ tham số mặc định đã khá tốt, chỉ cần chỉnh vài "núm vặn" chính:
 

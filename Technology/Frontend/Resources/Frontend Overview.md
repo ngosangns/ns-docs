@@ -5,13 +5,14 @@ topic: javascript
 type: resource
 title: Frontend Overview
 description: Frontend - Front-end
-timestamp: '2026-06-19T13:43:26.143Z'
+timestamp: "2026-06-19T13:43:26.143Z"
 tags:
   - technology
   - frontend
   - javascript
 resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 ---
+
 # Frontend - Front-end
 
 ## Nền tảng & Khái niệm

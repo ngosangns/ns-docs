@@ -4,11 +4,12 @@ domain: clothing
 type: guide
 title: Cac Loai Ao Nen Co Trong Tu Do
 description: Áo thun trơn cổ tròn
-timestamp: '2026-06-19T13:43:26.169Z'
+timestamp: "2026-06-19T13:43:26.169Z"
 tags:
   - life
   - clothing
 ---
+
 # 1. Áo thun trơn cổ tròn
 
 ![](/Attachments/8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d.png)

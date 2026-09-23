@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: Agents Overview
 description: AI Agents Overview
-timestamp: '2026-06-19T13:43:26.163Z'
+timestamp: "2026-06-19T13:43:26.163Z"
 tags:
   - technology
   - ai-ml
 resource: https://github.com/Doriandarko/make-it-heavy
 ---
+
 # AI Agents Overview
 
 ## Make It Heavy

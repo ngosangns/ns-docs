@@ -5,7 +5,7 @@ topic: dockerfile-optimization
 type: resource
 title: React Dockerfile Alpine Nginx
 description: Alpine với Custom-built Nginx
-timestamp: '2026-06-19T13:43:26.140Z'
+timestamp: "2026-06-19T13:43:26.140Z"
 tags:
   - technology
   - frontend

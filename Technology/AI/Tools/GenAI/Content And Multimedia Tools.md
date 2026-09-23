@@ -5,7 +5,7 @@ topic: genai
 type: resource
 title: Content And Multimedia Tools
 description: TTS/ASR, OCR, video/audio download & dubbing, design và các công cụ tạo/xử lý nội dung đa phương tiện bằng AI
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - multimedia
 resource: https://github.com/izwi-ai/izwi
 ---
+
 # Content And Multimedia Tools
 
 - https://github.com/izwi-ai/izwi — Local-first audio inference engine for TTS, ASR, speaker diarization, voice cloning, and voice design.

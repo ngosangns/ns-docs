@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Messaging Protocols
 description: Messaging Protocols
-timestamp: '2026-06-19T13:43:26.137Z'
+timestamp: "2026-06-19T13:43:26.137Z"
 tags:
   - technology
   - iot
 ---
+
 # Messaging Protocols
 
 ## MQTT (Message Queuing Telemetry Transport)

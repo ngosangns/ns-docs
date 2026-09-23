@@ -3,13 +3,14 @@ area: technology
 domain: tools
 type: resource
 title: Terminal UI TUI
-description: 'Awesome TUI: https://github.com/rothgar/awesome-tuis'
-timestamp: '2026-06-19T13:43:26.102Z'
+description: "Awesome TUI: https://github.com/rothgar/awesome-tuis"
+timestamp: "2026-06-19T13:43:26.102Z"
 tags:
   - technology
   - tools
 resource: https://github.com/rothgar/awesome-tuis
 ---
+
 # 1. Resources
 
 - Awesome TUI: https://github.com/rothgar/awesome-tuis

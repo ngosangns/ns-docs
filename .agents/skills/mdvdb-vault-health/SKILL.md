@@ -16,10 +16,13 @@ Only works with `.md` files indexed by mdvdb.
 ## Steps
 
 1. Detect available built-in modules first:
+
    ```
    mdvdb modules list --json
    ```
+
    Then run these commands in parallel:
+
    ```
    mdvdb doctor --json
    mdvdb orphans --json
@@ -30,6 +33,7 @@ Only works with `.md` files indexed by mdvdb.
    mdvdb modules status formula --json
    mdvdb modules status lookup_rollup --json
    ```
+
    Run the `lookup_rollup` status command only when `modules list` advertises
    that descriptor; older CLIs can render existing materialized fields but
    cannot execute or diagnose this module.

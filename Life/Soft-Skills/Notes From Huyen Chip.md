@@ -4,11 +4,12 @@ domain: soft-skills
 type: note
 title: Notes From Huyen Chip
 description: Underpromise, overdeliver
-timestamp: '2026-06-19T13:43:26.170Z'
+timestamp: "2026-06-19T13:43:26.170Z"
 tags:
   - life
   - soft-skills
 ---
+
 # 1. Underpromise, overdeliver
 
 Tìm hiểu thêm, mình biết rằng nhiều công ty áp dụng chính sách “underpromise, overdeliver” — hứa ít đi nhưng hoàn thành nhiều hơn. Cách nhanh nhất để mất khách là khiến họ thất vọng, và cách nhanh nhất để khiến họ thất vọng là hứa hẹn họ những điều bạn không thực hiện được.

@@ -4,12 +4,13 @@ domain: system-design
 type: resource
 title: Hedged Request
 description: Hedged Request
-timestamp: '2026-06-19T13:43:26.107Z'
+timestamp: "2026-06-19T13:43:26.107Z"
 tags:
   - technology
   - system-design
 resource: https://quanghoang.substack.com/p/50-days-of-sd-hedged-request
 ---
+
 # Hedged Request
 
 > Nguồn: [50 Days of System Design - Hedged Request](https://quanghoang.substack.com/p/50-days-of-sd-hedged-request) - Quang Hoang (Mar 15, 2025)

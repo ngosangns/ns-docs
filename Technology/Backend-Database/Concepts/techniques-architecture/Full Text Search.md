@@ -5,13 +5,14 @@ topic: database
 type: resource
 title: Full Text Search
 description: Full-Text Search
-timestamp: '2026-06-19T13:43:26.152Z'
+timestamp: "2026-06-19T13:43:26.152Z"
 tags:
   - technology
   - backend
   - database
 resource: https://viblo.asia/p/fulltext-search-trong-mysql-ap-dung-scout-va-algolia-07LKXNLElV4
 ---
+
 # Full-Text Search
 
 - Sử dụng inverted index

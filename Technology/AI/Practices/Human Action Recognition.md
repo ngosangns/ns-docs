@@ -5,12 +5,13 @@ topic: computer-vision
 type: resource
 title: Human Action Recognition
 description: Human Action Recognition
-timestamp: '2026-06-19T13:43:26.165Z'
+timestamp: "2026-06-19T13:43:26.165Z"
 tags:
   - technology
   - ai-ml
   - computer-vision
 ---
+
 # Human Action Recognition
 
 ## 3D-CNN + LSTM: Bộ đôi quyền lực cho nhận dạng hành động

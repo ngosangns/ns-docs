@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Strangler Fig Pattern
 description: Strangler Fig Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Strangler Fig Pattern.md#L1-35
 # Strangler Fig Pattern (Mô hình Cây bóp nghẹt)
 
@@ -42,3 +43,4 @@ Mô hình Strangler Fig giúp di trú dần dần một hệ thống cũ (legacy
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Strangler Fig Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/strangler-fig)
+```

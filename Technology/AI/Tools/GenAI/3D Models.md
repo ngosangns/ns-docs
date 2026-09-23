@@ -4,12 +4,13 @@ domain: ai-ml
 type: resource
 title: 3D Models
 description: 3D & Models
-timestamp: '2026-06-19T13:43:26.162Z'
+timestamp: "2026-06-19T13:43:26.162Z"
 tags:
   - technology
   - ai-ml
 resource: https://avaturn.me
 ---
+
 # 3D & Models
 
 ## 3D Generation
@@ -23,6 +24,7 @@ resource: https://avaturn.me
 ## Motion & Animation Generation
 
 ### Tencent HY-Motion 1.0
+
 Mô hình chuyển đổi văn bản thành chuyển động (Text to Animation) thế hệ mới từ Tencent.
 
 - **Kiến trúc**: Xây dựng trên kiến trúc Diffusion Transformer (DiT) và Flow Matching với quy mô hàng tỷ tham số.
@@ -37,6 +39,7 @@ Mô hình chuyển đổi văn bản thành chuyển động (Text to Animation)
 ## CAD / Parametric Modeling
 
 ### ForgeCAD
+
 CAD "AI-native": mô hình parametric được viết bằng JavaScript (`*.forge.js`) thay vì dựng tay trong GUI, nên AI coding agent có thể sinh và sửa model trực tiếp.
 
 - **Model as code**: `param()` tạo slider, primitives + boolean (`union`/`subtract`), `fillet()`, pattern, thư viện part chuẩn (`lib.bolt()`, `lib.nut()` sinh ren xoắn thật), và SDF (`sdf.gyroid()`) cho lattice/hình hữu cơ — tất cả trong cùng một ngôn ngữ.

@@ -5,7 +5,7 @@ topic: coding-agents
 type: resource
 title: Claudekit
 description: ClaudeKit - Smart Guardrails & Workflow Automation cho Claude Code
-timestamp: '2026-06-19T13:43:26.090Z'
+timestamp: "2026-06-19T13:43:26.090Z"
 tags:
   - technology
   - ai-ml
@@ -13,6 +13,7 @@ tags:
   - claude-code
 resource: https://github.com/carlrannaberg/claudekit
 ---
+
 # ClaudeKit - Smart Guardrails & Workflow Automation cho Claude Code
 
 ## Định nghĩa

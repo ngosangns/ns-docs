@@ -5,13 +5,14 @@ topic: mlops
 type: case-study
 title: ML Feature Store Doordash Redis Optimization
 description: ML Feature Store - DoorDash Redis Optimization
-timestamp: '2026-06-19T13:43:26.165Z'
+timestamp: "2026-06-19T13:43:26.165Z"
 tags:
   - technology
   - ai-ml
   - mlops
 resource: https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/
 ---
+
 # ML Feature Store - DoorDash Redis Optimization
 
 > **Nguồn**: [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/) - DoorDash Engineering Blog (November 19, 2020)

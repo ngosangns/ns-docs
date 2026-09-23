@@ -14,6 +14,7 @@ Export and summarize the vault's knowledge graph.
 Only works with `.md` files indexed by mdvdb.
 
 **Input:** `$ARGUMENTS` can be:
+
 - Empty: full document-level graph
 - A path prefix (e.g., `docs/`): restrict to that subtree
 - A Shard ID: use that Shard as the independent graph-analysis context
@@ -29,19 +30,23 @@ Only works with `.md` files indexed by mdvdb.
    - Default: `--level document`
 
 2. Run the graph export:
+
    ```
    mdvdb graph --json --level document
    ```
+
    Add `--shard ID`, `--path PREFIX`, or `--level chunk` as needed.
 
    Without a Shard, `--path` only filters visible Collection topology and
    retains Collection analysis identities. With a Shard, the complete Shard
    is the independent analysis corpus and an optional descendant `--path`
    only projects visible topology:
+
    ```
    mdvdb graph --shard research --json
    mdvdb graph --shard research --path work/research/drafts --json
    ```
+
    An ancestor path clamps to the Shard; a disjoint path is empty.
 
 3. Present a graph summary:

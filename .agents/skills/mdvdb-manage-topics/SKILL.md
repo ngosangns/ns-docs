@@ -43,6 +43,7 @@ remove, inspect, tune).
    `mdvdb shards list --json`.
 
 2. Inspect the current state:
+
    ```
    mdvdb clusters list --json        # topic definitions from config.yaml
    mdvdb clusters --custom --json    # computed topics: document_count + mean_score per topic
@@ -52,6 +53,7 @@ remove, inspect, tune).
    mdvdb clusters --shard research --custom --json
    mdvdb clusters --shard research unassigned --json
    ```
+
    To list a topic's member documents with per-document similarity scores,
    use `mdvdb graph [--shard ID] --json` — each node carries
    `custom_cluster_ids` and `custom_cluster_scores`. For a Shard response,
@@ -59,31 +61,38 @@ remove, inspect, tune).
 
 3. Create a Topic (needs seeds and/or a description — a description improves
    matching). Keep the same optional `--shard <ID>` on every operation:
+
    ```
    mdvdb clusters add "Topic Name" --seeds "keyword1,keyword2" --description "What this topic covers" --threshold 0.4
    mdvdb clusters --shard research add "Topic Name" --seeds "keyword1,keyword2" --description "Local meaning" --threshold 0.4
    ```
 
 4. Update a Topic (only pass what changes):
+
    ```
    mdvdb clusters update "Topic Name" --seeds "..." --description "..." --threshold 0.35 --rename "New Name"
    mdvdb clusters --shard research update "Topic Name" --threshold 0.35
    ```
+
    `--description ""` clears the description; `--threshold=-1` (equals form
    required) clears the per-topic threshold so the global floor applies.
 
 5. Remove a Topic:
+
    ```
    mdvdb clusters remove "Topic Name"
    mdvdb clusters --shard research remove "Topic Name"
    ```
+
    Removing a Shard itself also removes that Shard's local Topic definitions,
    but never its files, folder, embeddings, or shared index.
 
 6. Tune the Collection-wide assignment floor:
+
    ```
    mdvdb config set clustering.topics.min_similarity 0.4
    ```
+
    `config set` writes any dotted key into `.markdownvdb/config.yaml`.
 
 7. Verify and iterate: definition changes are picked up at the next

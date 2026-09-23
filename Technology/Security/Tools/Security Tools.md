@@ -5,16 +5,18 @@ topic: tools
 type: resource
 title: Security Tools
 description: Security tools-utilities
-timestamp: '2026-06-19T13:43:26.126Z'
+timestamp: "2026-06-19T13:43:26.126Z"
 tags:
   - technology
   - security
   - tools
 resource: https://www.hashicorp.com/en/products/vault
 ---
+
 # Security tools-utilities
 
 ## 1. Secret Management
+
 Các công cụ quản lý bí mật (API keys, passwords, certificates) một cách tập trung và an toàn.
 
 - **HashiCorp Vault**: Công cụ tiêu chuẩn để quản lý bí mật, mã hóa dữ liệu khi lưu trữ và cung cấp bí mật động với TTL. [Website](https://www.hashicorp.com/en/products/vault)
@@ -22,6 +24,7 @@ Các công cụ quản lý bí mật (API keys, passwords, certificates) một c
 - **AWS Secrets Manager**: Dịch vụ quản lý bí mật trên Amazon Web Services. [Website](https://aws.amazon.com/secrets-manager)
 
 ## 2. Vulnerability Scanning & Auditing
+
 Công cụ quét lỗ hổng bảo mật cho mã nguồn, package và container.
 
 - **osv-scanner**: Công cụ quét lỗ hổng của Google sử dụng cơ sở dữ liệu osv.dev. Hỗ trợ quét thư mục mã nguồn, container và kiểm tra giấy phép. [GitHub](https://github.com/google/osv-scanner)
@@ -29,16 +32,19 @@ Công cụ quét lỗ hổng bảo mật cho mã nguồn, package và container.
 - **HarborGuard**: Nền tảng hiện đại để quét bảo mật container, tích hợp nhiều công cụ quét khác nhau. [GitHub](https://github.com/HarborGuard/HarborGuard)
 
 ## 3. Cryptography Libraries
+
 Các thư viện cung cấp các thuật toán mã hóa an toàn và dễ sử dụng.
 
 - **Tink**: Thư viện mã hóa đa ngôn ngữ và đa nền tảng của Google, giúp triển khai mã hóa an toàn và tránh các lỗi phổ biến. [GitHub](https://github.com/tink-crypto)
 
 ## 4. Security Analytics & Monitoring
+
 Giám sát hành vi người dùng và phát hiện gian lận trong ứng dụng.
 
 - **Tirreno**: Nền tảng phân tích bảo mật mã nguồn mở giúp bảo vệ sản phẩm khỏi các mối đe dọa tài khoản và gian lận bằng cách theo dõi sự kiện chi tiết trong ứng dụng. [Website](https://www.tirreno.com/)
 
 ## 5. Penetration Testing & Exploitation
+
 Công cụ hỗ trợ kiểm thử xâm nhập và khai thác lỗi.
 
 - **DroneSploit**: Framework pentesting dành riêng cho máy bay không người lái (drone), giao diện tương tự Metasploit. [GitHub](https://github.com/dronesploit/dronesploit)
@@ -63,6 +69,7 @@ Công cụ hỗ trợ kiểm thử xâm nhập và khai thác lỗi.
 - https://github.com/openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.
 
 ## 7. PII Detection & Data Privacy
+
 Công cụ phát hiện/che thông tin cá nhân (PII) trong dữ liệu văn bản.
 
 - https://huggingface.co/openai/privacy-filter — Token-classification model của OpenAI để phát hiện/mask PII trong text (account number, address, email, person name, phone, URL, date, secret); transformer 1.5B tham số tổng / 50M active (grouped-query attention + sparse MoE) với constrained Viterbi decoding để đảm bảo span nhãn coherent thay vì predict từng token độc lập. Chạy local trên browser/laptop, context 128K token, có thể chỉnh precision/recall lúc runtime và fine-tune theo domain. Apache 2.0; chủ yếu train tiếng Anh (robustness đa ngôn ngữ hạn chế). Lưu ý: chỉ là một lớp hỗ trợ, không phải giải pháp anonymization hoàn chỉnh — vẫn có false positive/negative, đặc biệt với tên hiếm hoặc văn bản ngoài phân phối training.

@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Tai Lieu Dinh Kem
 description: Tài liệu Đính kèm và Hình ảnh
-timestamp: '2026-06-19T13:43:26.113Z'
+timestamp: "2026-06-19T13:43:26.113Z"
 tags:
   - technology
   - system-design

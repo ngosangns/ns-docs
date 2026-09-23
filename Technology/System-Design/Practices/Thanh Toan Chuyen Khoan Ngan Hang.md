@@ -4,11 +4,12 @@ domain: system-design
 type: resource
 title: Thanh Toan Chuyen Khoan Ngan Hang
 description: Thanh toán chuyển khoản ngân hàng
-timestamp: '2026-06-19T13:43:26.115Z'
+timestamp: "2026-06-19T13:43:26.115Z"
 tags:
   - technology
   - system-design
 ---
+
 # 1. Thanh toán chuyển khoản ngân hàng
 
 Xin chào các cao thủ

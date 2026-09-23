@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Throttling Pattern
 description: Throttling Pattern
-timestamp: '2026-06-19T13:43:26.125Z'
+timestamp: "2026-06-19T13:43:26.125Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Throttling Pattern.md#L1-35
 # Throttling Pattern (Mô hình Điều tiết)
 
@@ -24,7 +25,7 @@ Mô hình Throttling kiểm soát việc tiêu thụ tài nguyên của một in
 - **Tích hợp bên thứ ba**: Giảm số lượng yêu cầu đồng thời đến các dịch vụ bên thứ ba đang gặp sự cố để tránh làm tràn log và tốn chi phí thử lại vô ích.
 
 ## Các điểm chính và lưu ý
-- **Mục đích**: 
+- **Mục đích**:
     - Đảm bảo hệ thống đáp ứng SLA.
     - Ngăn chặn một tenant duy nhất độc chiếm tài nguyên (Noisy Neighbor).
     - Tối ưu hóa chi phí bằng cách giới hạn mức tài nguyên tối đa.
@@ -44,3 +45,4 @@ Mô hình Throttling kiểm soát việc tiêu thụ tài nguyên của một in
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Throttling Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/throttling)
+```

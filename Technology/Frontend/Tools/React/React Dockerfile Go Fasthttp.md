@@ -5,7 +5,7 @@ topic: dockerfile-optimization
 type: resource
 title: React Dockerfile Go Fasthttp
 description: Go FastHTTP Server với Embedded Files
-timestamp: '2026-06-19T13:43:26.141Z'
+timestamp: "2026-06-19T13:43:26.141Z"
 tags:
   - technology
   - frontend

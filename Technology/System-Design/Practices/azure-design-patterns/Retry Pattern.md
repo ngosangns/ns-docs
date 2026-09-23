@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Retry Pattern
 description: Retry Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Retry Pattern.md#L1-34
 # Retry Pattern (Mô hình Thử lại)
 
@@ -37,3 +38,4 @@ Mô hình Retry cho phép ứng dụng xử lý các lỗi tạm thời (transie
 
 ## Tài liệu tham khảo
 - [Microsoft Learn - Retry Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/retry)
+```

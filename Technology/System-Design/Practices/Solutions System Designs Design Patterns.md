@@ -5,7 +5,7 @@ topic: system-design
 type: resource
 title: Solutions System Designs Design Patterns
 description: Tổng hợp System Design & Design Patterns
-timestamp: '2026-06-19T13:43:26.110Z'
+timestamp: "2026-06-19T13:43:26.110Z"
 tags:
   - technology
   - system-design
@@ -17,8 +17,8 @@ Tài liệu tổng hợp về thiết kế hệ thống, kiến trúc phần m�
 
 ## Mục lục
 
-| #   | Chủ đề                                                       | Mô tả                                                                                                    |
-| --- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| #   | Chủ đề                                                                                         | Mô tả                                                                                                    |
+| --- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | 1   | [Tổng quan về Thiết kế Hệ thống](/Technology/System-Design/Practices/System Design Tong Quan)  | Nguyên tắc cơ bản, đánh đổi (trade-offs), 8 vấn đề phổ biến và giải pháp trong system design             |
 | 2   | [Kiến trúc Phần mềm](/Technology/System-Design/Practices/Kien Truc Phan Mem)                   | Clean Architecture, Hexagonal, Microservices, EDA, DDD, CQRS, SOLID, AOP, Command Bus, Event Loop        |
 | 3   | [Giải pháp Kỹ thuật Chi tiết](/Technology/System-Design/Practices/Giai Phap Ky Thuat Chi Tiet) | JWT, caching, background jobs, notification, e-commerce, TinyURL, rate limiting, migration, web crawling |

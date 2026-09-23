@@ -22,6 +22,7 @@ Optionally include a target path (e.g., `docs/guides/setup.md`).
 ### 1. Understand the vault's schema
 
 Run the schema command to learn what frontmatter fields exist across the vault:
+
 ```
 mdvdb schema --json
 ```
@@ -32,9 +33,11 @@ folders may have different schemas (e.g., `/blog/` has date/author/tags,
 `/people/` has role/team/email).
 
 If a target folder is known, prefer the folder's table definition:
+
 ```
 mdvdb collection <parent-dir> --json
 ```
+
 Its `columns[]` (`name`, `field_type`, `required`, `in_schema`,
 `relation_target`, `relation_field`, `target_field`, `relation_direction`,
 `relation_scope`, `formula`, `result_type`, `sample_values`) describe the
@@ -46,6 +49,7 @@ output from `sample_values`: those properties are read-only and module-owned.
 directly.)
 
 Also check what files are nearby:
+
 ```
 mdvdb tree --path <parent-dir> --json
 ```
@@ -53,6 +57,7 @@ mdvdb tree --path <parent-dir> --json
 ### 2. Find related content for linking
 
 Search the vault for content related to the new document's topic:
+
 ```
 mdvdb search "<topic>" --json --limit 10 --mode hybrid
 ```
@@ -65,6 +70,7 @@ vault's knowledge graph.
 Create the `.md` file with these components:
 
 **YAML Frontmatter** (between `---` markers, at the very top):
+
 - Include fields that match the vault's schema for this directory
 - Use consistent types: strings, numbers, booleans, arrays, ISO dates
 - Date format: `YYYY-MM-DD` or `YYYY-MM-DDTHH:MM:SS`
@@ -109,6 +115,7 @@ attachments:
 ```
 
 **Headings** (structure for chunking):
+
 - Each heading creates a new searchable chunk
 - Use proper hierarchy: H1 > H2 > H3 (don't skip levels)
 - Keep sections focused: ~300-500 tokens per section is ideal
@@ -134,6 +141,7 @@ Another focused topic...
 ```
 
 **Links** (build the knowledge graph):
+
 - Use wiki links for quick internal references: `[[other-document]]`
 - Use markdown links for contextual references: `[setup guide](../guides/setup.md)`
 - Link to related documents found in step 2
@@ -148,6 +156,7 @@ See [detailed implementation](./implementation.md#core-logic) for code.
 ```
 
 **Content best practices:**
+
 - Standard markdown: bold, italic, lists, code blocks, tables, blockquotes
 - Mermaid diagrams supported in fenced code blocks
 - Math expressions: `$inline$` and `$$block$$`
@@ -157,6 +166,7 @@ See [detailed implementation](./implementation.md#core-logic) for code.
 ### 4. Verify the document
 
 After writing, suggest the user run:
+
 - `mdvdb ingest --file <path>` to index the new document
 - Inspect the ingest `module_reports`: Formula runs before `lookup_rollup`.
   Diagnose failures with `mdvdb modules status lookup_rollup --json`; never

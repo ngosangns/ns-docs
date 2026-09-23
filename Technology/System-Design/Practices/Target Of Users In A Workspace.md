@@ -4,11 +4,12 @@ domain: system-design
 type: resource
 title: Target Of Users In A Workspace
 description: Một số khái niệm
-timestamp: '2026-06-19T13:43:26.115Z'
+timestamp: "2026-06-19T13:43:26.115Z"
 tags:
   - technology
   - system-design
 ---
+
 # Một số khái niệm
 
 ## **Orther**

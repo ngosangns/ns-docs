@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Hardware Platforms
 description: Hardware Platforms
-timestamp: '2026-06-19T13:43:26.136Z'
+timestamp: "2026-06-19T13:43:26.136Z"
 tags:
   - technology
   - iot
 ---
+
 # Hardware Platforms
 
 ## Microcontrollers

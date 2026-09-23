@@ -17,9 +17,11 @@ Only works with `.md` files indexed by mdvdb.
 ## Steps
 
 1. Run an expanded search to get results plus their linked context:
+
    ```
    mdvdb search "$ARGUMENTS" --json --limit 5 --expand 2 --boost-links --hops 2 --mode hybrid --populate
    ```
+
    If the user names a Shard, resolve its ID with
    `mdvdb shards list --json` and add `--shard <ID>`. Direct results stay
    inside it; `graph_context` may cross the boundary and must be labeled as

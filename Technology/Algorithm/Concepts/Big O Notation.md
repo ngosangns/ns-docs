@@ -5,12 +5,13 @@ topic: golang
 type: resource
 title: Big O Notation
 description: Big O Notation
-timestamp: '2026-06-19T13:43:26.159Z'
+timestamp: "2026-06-19T13:43:26.159Z"
 tags:
   - technology
   - algorithms
   - golang
 ---
+
 # Big O Notation
 
 ## Định nghĩa

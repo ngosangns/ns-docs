@@ -5,13 +5,14 @@ topic: performance
 type: resource
 title: Reflow Repaint Layout Shift Toi Uu CLS
 description: Reflow, Repaint, Layout Shift
-timestamp: '2026-06-19T13:43:26.144Z'
+timestamp: "2026-06-19T13:43:26.144Z"
 tags:
   - technology
   - frontend
   - performance
 resource: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals-aNj4vkD8J6r
 ---
+
 # Reflow, Repaint, Layout Shift
 
 Nguồn: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals-aNj4vkD8J6r

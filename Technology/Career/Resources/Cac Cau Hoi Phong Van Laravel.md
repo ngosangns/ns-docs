@@ -5,12 +5,13 @@ topic: laravel
 type: resource
 title: Cac Cau Hoi Phong Van Laravel
 description: Các câu hỏi phỏng vấn Laravel
-timestamp: '2026-06-19T13:43:26.146Z'
+timestamp: "2026-06-19T13:43:26.146Z"
 tags:
   - technology
   - backend
   - laravel
 ---
+
 # Các câu hỏi phỏng vấn Laravel
 
 ## Resources

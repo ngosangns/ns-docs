@@ -5,13 +5,14 @@ topic: transformer
 type: resource
 title: Transformer Architecture
 description: Attention is All You Need - Transformer Architecture
-timestamp: '2026-06-19T13:43:26.166Z'
+timestamp: "2026-06-19T13:43:26.166Z"
 tags:
   - technology
   - ai-ml
   - transformer
 resource: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/
 ---
+
 # Attention is All You Need - Transformer Architecture
 
 > Tóm tắt từ: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/

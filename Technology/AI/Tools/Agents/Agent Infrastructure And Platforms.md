@@ -5,13 +5,14 @@ topic: agents
 type: resource
 title: Agent Infrastructure And Platforms
 description: Sandbox, runtime, orchestration platform và framework hạ tầng cho AI agent
-timestamp: '2026-09-20T00:00:00.000Z'
+timestamp: "2026-09-20T00:00:00.000Z"
 tags:
   - technology
   - ai-ml
   - agents
 resource: https://github.com/daytonaio/daytona
 ---
+
 # Agent Infrastructure And Platforms
 
 - https://github.com/daytonaio/daytona — Secure, elastic sandbox infrastructure for running AI-generated code and agent workflows with sub-90ms spin-up.

@@ -1,3 +1,3 @@
 # Sections
 
-* [skills](.agents/skills/index.md)
+- [skills](.agents/skills/index.md)

@@ -5,12 +5,13 @@ topic: deep-learning
 type: resource
 title: RNN Va Lstm
 description: RNN và LSTM
-timestamp: '2026-06-19T13:43:26.166Z'
+timestamp: "2026-06-19T13:43:26.166Z"
 tags:
   - technology
   - ai-ml
   - deep-learning
 ---
+
 # RNN và LSTM
 
 ## RNN (Recurrent Neural Network) - Mạng Nơ-ron Hồi Quy

@@ -4,11 +4,12 @@ domain: iot
 type: resource
 title: Data Formats
 description: Data Formats
-timestamp: '2026-06-19T13:43:26.134Z'
+timestamp: "2026-06-19T13:43:26.134Z"
 tags:
   - technology
   - iot
 ---
+
 # Data Formats
 
 ## JSON

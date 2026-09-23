@@ -4,12 +4,13 @@ domain: devops
 type: resource
 title: HTTP HTTPS TLS SSL
 description: https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO
-timestamp: '2026-06-19T13:43:26.145Z'
+timestamp: "2026-06-19T13:43:26.145Z"
 tags:
   - technology
   - devops
 resource: https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO
 ---
+
 # Resources
 
 - https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO

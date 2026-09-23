@@ -4,12 +4,13 @@ domain: backend
 type: resource
 title: Proxysql Connection Multiplexing
 description: ProxySQL Connection Multiplexing
-timestamp: '2026-06-19T13:43:26.152Z'
+timestamp: "2026-06-19T13:43:26.152Z"
 tags:
   - technology
   - backend
 resource: https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing-trong-proxysql-de-toi-uu-ket-noi-database
 ---
+
 # ProxySQL Connection Multiplexing
 
 **Nguồn:** [roninhub.com](https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing-trong-proxysql-de-toi-uu-ket-noi-database)

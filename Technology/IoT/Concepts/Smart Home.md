@@ -5,13 +5,14 @@ topic: smart-home
 type: resource
 title: Smart Home
 description: Smart Home
-timestamp: '2026-06-19T13:43:26.137Z'
+timestamp: "2026-06-19T13:43:26.137Z"
 tags:
   - technology
   - iot
   - smart-home
 resource: https://www.home-assistant.io/
 ---
+
 # Smart Home
 
 ## Tổng quan

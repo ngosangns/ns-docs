@@ -4,12 +4,13 @@ domain: system-design
 type: note
 title: Messaging Bridge Pattern
 description: Messaging Bridge Pattern
-timestamp: '2026-06-19T13:43:26.124Z'
+timestamp: "2026-06-19T13:43:26.124Z"
 tags:
   - technology
   - system-design
 resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/messaging-bridge
 ---
+
 ```ngosangns-knowledge-base/technology/system-design/azure-design-patterns/Messaging Bridge Pattern.md#L1-45
 # Messaging Bridge Pattern (Mô hình Cầu nối Thông điệp)
 
@@ -51,3 +52,4 @@ Một ứng dụng quản lý nhân sự cũ chạy on-premises sử dụng **MS
 
 ---
 *Nguồn tham khảo: [Microsoft Learn - Messaging Bridge Pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/messaging-bridge)*
+```

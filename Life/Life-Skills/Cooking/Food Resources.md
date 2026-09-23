@@ -4,12 +4,13 @@ domain: life-skills
 type: resource
 title: Food Resources
 description: Food Resources
-timestamp: '2026-06-19T13:43:26.171Z'
+timestamp: "2026-06-19T13:43:26.171Z"
 tags:
   - life
   - life-skills
 resource: https://cookpad.com/vn/cong-thuc/13867382-c%E1%BA%A3i-bo-xoi-xao-th%E1%BB%8Bt-bo?via=guest_feed
 ---
+
 # Food Resources
 
 - [Công thức nấu ăn cải bó xôi xào thịt bò trên Cookpad Việt Nam, hướng dẫn chi tiết cách chế biến món rau xào ngon và dinh dưỡng.](https://cookpad.com/vn/cong-thuc/13867382-c%E1%BA%A3i-bo-xoi-xao-th%E1%BB%8Bt-bo?via=guest_feed)
