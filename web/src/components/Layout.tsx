@@ -56,6 +56,7 @@ export function Layout(props: LayoutProps) {
             id="nav-toggle"
             class="icon-btn nav-toggle"
             aria-label="Toggle navigation"
+            aria-expanded="false"
           >
             <span class="hamburger" />
           </button>
@@ -78,6 +79,7 @@ export function Layout(props: LayoutProps) {
             ◐
           </button>
         </header>
+        <div class="nav-backdrop" id="nav-backdrop" />
         <div class="site-shell">
           <aside class="site-sidebar" id="site-sidebar">
             <FolderTree
@@ -87,7 +89,7 @@ export function Layout(props: LayoutProps) {
             />
           </aside>
           <main class="site-main">
-            <div class="site-main__inner">
+            <div class="site-main__inner enter-content">
               <Show when={props.crumbs && props.crumbs.length > 0}>
                 <Breadcrumbs crumbs={props.crumbs!} />
               </Show>

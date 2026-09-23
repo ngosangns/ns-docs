@@ -10,6 +10,7 @@
   top: 0;
   background: var(--color-bg);
   z-index: 10;
+  view-transition-name: site-header;
 }
 
 .site-header__title {
@@ -40,10 +41,17 @@
   font-size: 1.1rem;
   border-radius: var(--radius);
   cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
 }
 .icon-btn:hover {
   background: var(--color-bg-raised);
   color: var(--color-text);
+}
+.icon-btn:active {
+  transform: scale(0.92);
 }
 
 .search-trigger {
@@ -57,6 +65,9 @@
   padding: var(--space-1) var(--space-3);
   border-radius: var(--radius);
   cursor: pointer;
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
 }
 .search-trigger:hover {
   color: var(--color-text);
@@ -82,6 +93,9 @@
   height: 2px;
   background: currentColor;
   border-radius: 1px;
+  transition:
+    transform var(--duration-base) var(--ease-in-out),
+    opacity var(--duration-base) var(--ease-in-out);
 }
 .hamburger {
   position: relative;
@@ -98,6 +112,17 @@
 .hamburger::after {
   top: 6px;
 }
+.nav-toggle[aria-expanded="true"] .hamburger {
+  background: transparent;
+}
+.nav-toggle[aria-expanded="true"] .hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+.nav-toggle[aria-expanded="true"] .hamburger::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
 
 /* Search overlay */
 .search-overlay {
@@ -109,6 +134,28 @@
   justify-content: center;
   padding-top: 12vh;
   z-index: 100;
+}
+/* Enter/exit transition (solid-transition-group's <Transition name="search">,
+   applied to .search-overlay; the nested .search-panel gets its own
+   transform+fade so the panel visibly "arrives" while the backdrop fades). */
+.search-enter-active,
+.search-exit-active {
+  transition: opacity var(--duration-base) var(--ease-out);
+}
+.search-enter-active .search-panel,
+.search-exit-active .search-panel {
+  transition:
+    opacity var(--duration-base) var(--ease-out),
+    transform var(--duration-base) var(--ease-out);
+}
+.search-enter,
+.search-exit-to {
+  opacity: 0;
+}
+.search-enter .search-panel,
+.search-exit-to .search-panel {
+  opacity: 0;
+  transform: scale(0.96) translateY(-8px);
 }
 .search-panel {
   width: min(600px, 92vw);
@@ -153,6 +200,7 @@
   padding: var(--space-2) var(--space-3);
   border-radius: var(--radius);
   color: var(--color-text);
+  transition: background-color var(--duration-fast) var(--ease-out);
 }
 .search-results li a:hover {
   background: var(--color-bg-raised);
@@ -181,10 +229,12 @@
 
 .site-sidebar {
   border-right: 1px solid var(--color-border);
+  view-transition-name: site-sidebar;
 }
 
 .site-rail {
   border-left: 1px solid var(--color-border);
+  view-transition-name: site-rail;
 }
 
 .site-main {
@@ -197,6 +247,53 @@
 .site-main__inner {
   width: 100%;
   max-width: var(--content-max-width);
+  view-transition-name: site-content;
+}
+
+/* Content entrance animation (page load + the "new" side of a page
+   transition, driven by ::view-transition-new below on browsers that
+   support it - this keyframe covers everyone else). */
+@keyframes content-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.enter-content {
+  animation: content-enter var(--duration-slow) var(--ease-out);
+}
+/* Browsers that support the View Transitions API animate new content via
+   ::view-transition-new(site-content) below instead, on every navigation
+   (not just the first paint) - skip the plain CSS animation there so the
+   two don't stack on top of each other. */
+@supports (view-transition-name: none) {
+  .enter-content {
+    animation: none;
+  }
+}
+
+/* Cross-document page transition: keep header/sidebar/rail static (they're
+   near-identical across pages, so cross-fading them just looks like a
+   flicker) and give the main content a quick fade+rise instead of the
+   browser's default cross-fade. */
+::view-transition-old(site-header),
+::view-transition-new(site-header),
+::view-transition-old(site-sidebar),
+::view-transition-new(site-sidebar),
+::view-transition-old(site-rail),
+::view-transition-new(site-rail) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(site-content) {
+  animation: none;
+}
+::view-transition-new(site-content) {
+  animation: content-enter var(--duration-slow) var(--ease-out);
 }
 
 /* Folder tree */
@@ -229,17 +326,25 @@
   display: inline-block;
   width: 1em;
   color: var(--color-text-faint);
+  transform: rotate(0deg);
+  transition: transform var(--duration-fast) var(--ease-out);
 }
 .folder-tree details[open] > summary::before {
-  content: "▾";
+  transform: rotate(90deg);
 }
 .folder-tree a {
   color: var(--color-text);
   display: inline-block;
-  padding: 2px 0;
+  padding: 2px 4px;
+  margin: 0 -4px;
+  border-radius: 4px;
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out);
 }
 .folder-tree a:hover {
   color: var(--color-accent);
+  background: var(--color-bg-raised);
   text-decoration: none;
 }
 .folder-tree a[aria-current="page"] {
@@ -255,6 +360,7 @@
 }
 .breadcrumbs a {
   color: var(--color-text-muted);
+  transition: color var(--duration-fast) var(--ease-out);
 }
 .breadcrumbs a:hover {
   color: var(--color-accent);
@@ -285,10 +391,16 @@
   background: var(--color-bg-raised);
   color: var(--color-text-muted);
   font-size: var(--text-xs);
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    background-color var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
 }
 .tag-chip:hover {
   color: var(--color-accent);
+  background: var(--color-highlight);
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 /* TOC */
@@ -316,6 +428,9 @@
   border-left: 2px solid transparent;
   padding-left: var(--space-2);
   margin-left: calc(-1 * var(--space-2));
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    border-left-color var(--duration-fast) var(--ease-out);
 }
 .toc a:hover {
   color: var(--color-accent);
@@ -354,6 +469,10 @@
   margin: var(--space-3) 0;
   padding-bottom: var(--space-3);
   border-bottom: 1px solid var(--color-border);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+.listing li:hover {
+  transform: translateX(2px);
 }
 .listing__title {
   font-weight: 600;
@@ -389,18 +508,47 @@
     grid-template-columns: minmax(0, 1fr);
   }
   .site-sidebar {
-    display: none;
     position: fixed;
     inset: var(--header-height) 0 0 0;
     background: var(--color-bg);
     z-index: 50;
     overflow-y: auto;
     border-right: none;
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition:
+      transform var(--duration-base) var(--ease-in-out),
+      visibility 0s linear var(--duration-base);
   }
   .site-sidebar.site-sidebar--open {
-    display: block;
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform var(--duration-base) var(--ease-in-out);
   }
   .site-main {
     padding: var(--space-4);
+  }
+}
+
+.nav-backdrop {
+  display: none;
+}
+@media (max-width: 960px) {
+  .nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: var(--header-height) 0 0 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 40;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity var(--duration-base) var(--ease-in-out),
+      visibility 0s linear var(--duration-base);
+  }
+  .nav-backdrop.nav-backdrop--open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity var(--duration-base) var(--ease-in-out);
   }
 }

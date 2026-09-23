@@ -1,4 +1,5 @@
 import { createSignal, For, Show, onMount, onCleanup } from "solid-js"
+import { Transition } from "solid-transition-group"
 import type MiniSearch from "minisearch"
 import { SEARCH_INDEX_OPTIONS, type SearchDoc } from "../lib/search-schema"
 
@@ -85,48 +86,52 @@ export function SearchOverlay(props: { triggerId: string }) {
   })
 
   return (
-    <Show when={isOpen()}>
-      <div
-        class="search-overlay"
-        role="dialog"
-        aria-modal="true"
-        onClick={close}
-      >
-        <div class="search-panel" onClick={e => e.stopPropagation()}>
-          <input
-            ref={inputRef}
-            class="search-input"
-            type="text"
-            placeholder="Search the knowledge base…"
-            value={query()}
-            onInput={e => runQuery(e.currentTarget.value)}
-          />
-          <Show when={loading()}>
-            <p class="search-status">Loading index…</p>
-          </Show>
-          <Show
-            when={!loading() && query().trim() !== "" && results().length === 0}
-          >
-            <p class="search-status">No results.</p>
-          </Show>
-          <ul class="search-results">
-            <For each={results()}>
-              {result => (
-                <li>
-                  <a href={result.route} onClick={close}>
-                    <span class="search-results__title">{result.title}</span>
-                    <Show when={result.description}>
-                      <span class="search-results__desc">
-                        {result.description}
-                      </span>
-                    </Show>
-                  </a>
-                </li>
-              )}
-            </For>
-          </ul>
+    <Transition name="search">
+      <Show when={isOpen()}>
+        <div
+          class="search-overlay"
+          role="dialog"
+          aria-modal="true"
+          onClick={close}
+        >
+          <div class="search-panel" onClick={e => e.stopPropagation()}>
+            <input
+              ref={inputRef}
+              class="search-input"
+              type="text"
+              placeholder="Search the knowledge base…"
+              value={query()}
+              onInput={e => runQuery(e.currentTarget.value)}
+            />
+            <Show when={loading()}>
+              <p class="search-status">Loading index…</p>
+            </Show>
+            <Show
+              when={
+                !loading() && query().trim() !== "" && results().length === 0
+              }
+            >
+              <p class="search-status">No results.</p>
+            </Show>
+            <ul class="search-results">
+              <For each={results()}>
+                {result => (
+                  <li>
+                    <a href={result.route} onClick={close}>
+                      <span class="search-results__title">{result.title}</span>
+                      <Show when={result.description}>
+                        <span class="search-results__desc">
+                          {result.description}
+                        </span>
+                      </Show>
+                    </a>
+                  </li>
+                )}
+              </For>
+            </ul>
+          </div>
         </div>
-      </div>
-    </Show>
+      </Show>
+    </Transition>
   )
 }
