@@ -1,7 +1,6 @@
 # Concepts
 
 * [Code World Model](Technology/AI/Practices/Code%20World%20Model.md) - Code World Model (CWM)
-* [English Roadmap](Technology/AI/Practices/English%20Roadmap.md) - Promt
 * [Human Action Recognition](Technology/AI/Practices/Human%20Action%20Recognition.md) - Human Action Recognition
 * [ML Feature Store Doordash Redis Optimization](Technology/AI/Practices/ML%20Feature%20Store%20Doordash%20Redis%20Optimization.md) - ML Feature Store - DoorDash Redis Optimization
 * [Pose Estimation](Technology/AI/Practices/Pose%20Estimation.md) - Pose Estimation

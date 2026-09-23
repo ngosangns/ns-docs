@@ -1,3 +1,5 @@
+## 2026-09-23
+**Update** Refactor English/TOEIC docs: split English/Grammar into Concepts/Resources, move TOEIC content into English/TOEIC/Concepts, move English Roadmap từ Technology/AI/Practices về English/Resources
 ## 2026-09-22
 **Creation** Technology/System-Design/Practices/Kafka DLQ Va Retry: chắt thread Golang Vietnam 10/04/2026 về DLQ, retry topic và replay
 **Update** Technology/System-Design/Practices/Retry Va Circuit Breaker: trỏ sang Kafka DLQ và retry

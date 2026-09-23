@@ -1,13 +1,12 @@
 ---
-area: technology
-domain: ai-ml
+area: english
+domain: english-learning
 type: resource
 title: English Roadmap
 description: Promt
 timestamp: '2026-06-19T13:43:26.165Z'
 tags:
-  - technology
-  - ai-ml
+  - english
 ---
 # 1. Promt
 

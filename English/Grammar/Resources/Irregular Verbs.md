@@ -1,7 +1,7 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: cheatsheet
 title: Irregular Verbs
 description: arise - arose - arisen - nảy sinh, xuất hiện
 timestamp: '2026-06-19T13:43:26.171Z'

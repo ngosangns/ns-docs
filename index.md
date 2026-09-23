@@ -4,6 +4,7 @@ okf_version: "0.1"
 
 # Sections
 
+* [.delta](.delta/index.md)
 * [Attachments](Attachments/index.md)
 * [English](English/index.md)
 * [inbox](inbox/index.md)
