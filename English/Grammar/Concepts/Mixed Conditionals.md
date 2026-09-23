@@ -4,28 +4,32 @@ domain: grammar
 type: resource
 title: Mixed Conditionals
 description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.172Z'
+timestamp: "2026-06-19T13:43:26.172Z"
 tags:
   - english
   - grammar
+resource: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed
 ---
+
 **1. Khái niệm:**
 
-- Câu điều kiện hỗn hợp là dạng câu điều kiện đặc biệt, kết hợp giữa hai loại câu điều kiện khác nhau trong cùng một câu.
-- Mệnh đề điều kiện và mệnh đề chính không cùng loại, một mệnh đề thuộc loại 2 (không có thật ở hiện tại) và một mệnh đề thuộc loại 3 (không có thật ở quá khứ).
+- Câu điều kiện hỗn hợp là dạng câu điều kiện đặc biệt, kết hợp giữa hai loại câu điều kiện khác nhau trong cùng một câu (khác thì ở hai mệnh đề), dùng khi mệnh đề điều kiện và kết quả không nằm cùng một mốc thời gian.
+- Nguồn: [Mixed conditionals – British Council LearnEnglish](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed).
 
 **2. Các loại câu điều kiện hỗn hợp:**
 
-- **Loại 2 và 3:**
-  - Diễn tả một tình huống giả định trong quá khứ có ảnh hưởng đến hiện tại.
+- **Điều kiện quá khứ → Kết quả hiện tại (if-clause loại 3 + main clause loại 2):**
+  - Diễn tả một tình huống giả định **không có thật trong quá khứ**, kéo theo một **kết quả trái ngược ở hiện tại**.
   - Công thức:
     - If + S + had + V3/ed (quá khứ hoàn thành), S + would/could/might + V (nguyên thể)
   - Ví dụ: If I had studied harder, I would have a better job now. (Nếu tôi đã học chăm chỉ hơn, bây giờ tôi đã có một công việc tốt hơn.)
-- **Loại 3 và 2:**
-  - Diễn tả một tình huống giả định ở hiện tại có nguyên nhân từ quá khứ.
+  - Ví dụ (British Council): If I hadn't got the job in Tokyo, I wouldn't be with my current partner.
+- **Điều kiện hiện tại → Kết quả quá khứ (if-clause loại 2 + main clause loại 3):**
+  - Diễn tả một tình huống/đặc điểm **mang tính hiện tại (không có thật hoặc trái với thực tế chung)**, được dùng để giải thích cho một **kết quả đã xảy ra trong quá khứ**. Lưu ý: chiều nhân-quả ở đây là hiện tại → quá khứ, **không phải** quá khứ → hiện tại.
   - Công thức:
     - If + S + V2/ed (quá khứ đơn), S + would/could/might + have + V3/ed (quá khứ hoàn thành)
-  - Ví dụ: If I were rich, I would have bought that car yesterday. (Nếu tôi giàu có, tôi đã mua chiếc xe đó ngày hôm qua.)
+  - Ví dụ: If I weren't so busy, I would have come to your party last night. (Nếu tôi không bận như vậy [một đặc điểm chung ở hiện tại], tôi đã đến bữa tiệc của bạn tối qua rồi.)
+  - Ví dụ (British Council): It's really important. If it wasn't, I wouldn't have called you on your holiday.
 
 **3. Đảo ngữ của câu điều kiện hỗn hợp:**
 
