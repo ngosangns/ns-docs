@@ -17,6 +17,7 @@ function FolderTreeList(props: FolderTreeListProps) {
             <li>
               <a
                 href={pageHref(node.page.id)}
+                title={node.page.frontmatter.title}
                 aria-current={
                   props.activeId === node.page.id ? "page" : undefined
                 }
@@ -28,9 +29,14 @@ function FolderTreeList(props: FolderTreeListProps) {
             <li>
               <details
                 data-path={node.path}
+                data-active-path={
+                  props.activeAncestors.has(node.path) ? "" : undefined
+                }
                 open={props.activeAncestors.has(node.path)}
               >
-                <summary>{node.name}</summary>
+                <summary title={node.name}>
+                  <span class="folder-tree__label">{node.name}</span>
+                </summary>
                 <FolderTreeList
                   nodes={node.children}
                   activeAncestors={props.activeAncestors}

@@ -1,3 +1,33 @@
+/* Top loading bar (soft-router.ts): only becomes visible if a navigation's
+   fetch is slow enough to notice, so it never flickers on fast/cached
+   responses - the one thing missing before was ANY feedback between click
+   and content swap. */
+.nav-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--color-accent);
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+}
+.nav-progress--active {
+  opacity: 1;
+  width: 70%;
+  transition:
+    width 6s cubic-bezier(0.1, 0.6, 0.4, 1),
+    opacity 150ms ease;
+}
+.nav-progress--active.nav-progress--done {
+  width: 100%;
+  transition:
+    width 150ms ease,
+    opacity 150ms ease 100ms;
+  opacity: 0;
+}
+
 /* Header */
 .site-header {
   display: flex;
@@ -237,6 +267,19 @@
   view-transition-name: site-rail;
 }
 
+/* Sticky, independently-scrolling rails: Technology/ alone is 400+ pages
+   nested 5+ levels deep, so without this the sidebar (and the active item
+   in it) scrolls away the moment you scroll down to read an article. */
+@media (min-width: 961px) {
+  .site-sidebar,
+  .site-rail {
+    position: sticky;
+    top: var(--header-height);
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+  }
+}
+
 .site-main {
   min-width: 0;
   padding: var(--space-6) var(--space-8);
@@ -276,10 +319,10 @@
   }
 }
 
-/* Cross-document page transition: keep header/sidebar/rail static (they're
-   near-identical across pages, so cross-fading them just looks like a
-   flicker) and give the main content a quick fade+rise instead of the
-   browser's default cross-fade. */
+/* Cross-document/soft-navigation page transition: keep header/sidebar/rail
+   static (they're near-identical across pages, so cross-fading them just
+   looks like a flicker) and give the main content a real transition
+   instead of the browser's default cross-fade. */
 ::view-transition-old(site-header),
 ::view-transition-new(site-header),
 ::view-transition-old(site-sidebar),
@@ -289,11 +332,61 @@
   animation: none;
   mix-blend-mode: normal;
 }
+
+/* Default (no direction known, e.g. the very first cross-document load):
+   quick fade+rise in, plain fade out. */
+@keyframes content-fade-out {
+  to {
+    opacity: 0;
+  }
+}
 ::view-transition-old(site-content) {
-  animation: none;
+  animation: content-fade-out var(--duration-fast) var(--ease-in-out);
 }
 ::view-transition-new(site-content) {
   animation: content-enter var(--duration-slow) var(--ease-out);
+}
+
+/* Direction-aware transition for soft-router.ts navigations: moving deeper
+   into the folder tree slides left (content "advances"), moving back up
+   (a parent/breadcrumb link, or the browser back button) slides right -
+   matching the mobile/Notion-style convention of hierarchy motion instead
+   of a generic cross-fade for every click regardless of where it goes. */
+@keyframes content-slide-out-left {
+  to {
+    opacity: 0;
+    transform: translateX(-5%);
+  }
+}
+@keyframes content-slide-in-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+}
+@keyframes content-slide-out-right {
+  to {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+}
+@keyframes content-slide-in-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-5%);
+  }
+}
+html[data-nav-direction="forward"] ::view-transition-old(site-content) {
+  animation: content-slide-out-left var(--duration-base) var(--ease-in-out);
+}
+html[data-nav-direction="forward"] ::view-transition-new(site-content) {
+  animation: content-slide-in-from-right var(--duration-base) var(--ease-out);
+}
+html[data-nav-direction="back"] ::view-transition-old(site-content) {
+  animation: content-slide-out-right var(--duration-base) var(--ease-in-out);
+}
+html[data-nav-direction="back"] ::view-transition-new(site-content) {
+  animation: content-slide-in-from-left var(--duration-base) var(--ease-out);
 }
 
 /* Folder tree */
@@ -304,12 +397,24 @@
   list-style: none;
   margin: 0;
   padding-left: var(--space-4);
+  min-width: 0;
 }
 .folder-tree > ul {
   padding-left: 0;
+  margin-left: 0;
+  border-left: none;
+}
+/* Every nested list sits inside a <details> (only folders have children) -
+   give it a guide line so a 5+-level-deep tree still reads as a tree
+   instead of a flat wall of indentation. */
+.folder-tree details > ul {
+  margin-left: 5px;
+  padding-left: calc(var(--space-4) - 6px);
+  border-left: 1px solid var(--color-border);
 }
 .folder-tree li {
-  margin: 2px 0;
+  margin: 1px 0;
+  min-width: 0;
 }
 .folder-tree details > summary {
   cursor: pointer;
@@ -317,6 +422,9 @@
   color: var(--color-text-muted);
   padding: 2px 0;
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }
 .folder-tree details > summary::-webkit-details-marker {
   display: none;
@@ -325,6 +433,7 @@
   content: "▸";
   display: inline-block;
   width: 1em;
+  flex: none;
   color: var(--color-text-faint);
   transform: rotate(0deg);
   transition: transform var(--duration-fast) var(--ease-out);
@@ -332,9 +441,22 @@
 .folder-tree details[open] > summary::before {
   transform: rotate(90deg);
 }
+/* summary is a flex row (triangle + label), so truncation goes on the
+   label span, not the container - text-overflow doesn't apply to an
+   anonymous flex item. */
+.folder-tree__label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  flex: 1;
+}
 .folder-tree a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: var(--color-text);
-  display: inline-block;
+  display: block;
   padding: 2px 4px;
   margin: 0 -4px;
   border-radius: 4px;
@@ -349,7 +471,16 @@
 }
 .folder-tree a[aria-current="page"] {
   color: var(--color-accent);
+  background: var(--color-highlight);
   font-weight: 600;
+}
+/* Spine down the branch that contains the current page, so "where am I"
+   reads at a glance instead of requiring the leaf link's color alone. */
+.folder-tree details[data-active-path] > summary {
+  color: var(--color-text);
+}
+.folder-tree details[data-active-path] > ul {
+  border-left-color: var(--color-accent);
 }
 
 /* Breadcrumbs */

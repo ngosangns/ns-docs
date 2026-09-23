@@ -51,6 +51,7 @@ export function Layout(props: LayoutProps) {
         <script type="module" src={props.jsHref} />
       </head>
       <body>
+        <div id="nav-progress" class="nav-progress" aria-hidden="true" />
         <header class="site-header">
           <button
             id="nav-toggle"

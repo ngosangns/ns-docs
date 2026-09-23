@@ -1,6 +1,7 @@
 import { initSidebarPersistence } from "./sidebar-persistence"
 import { refreshTocScrollspy } from "./toc-scrollspy"
 import { closeMobileNavIfOpen } from "./mobile-nav-drawer"
+import { scrollActiveIntoView } from "./sidebar-scroll"
 
 /**
  * Progressive-enhancement client-side navigation for a site that otherwise
@@ -9,14 +10,16 @@ import { closeMobileNavIfOpen } from "./mobile-nav-drawer"
  * keep working exactly as before). When JS is available, internal link
  * clicks are intercepted, the target page is fetched and only its
  * `.site-shell` is swapped in - so the CSS/JS already loaded in this
- * document never reloads (which was the actual cause of the "CSS reloads
- * every navigation" flash: every click was a full cross-document
- * navigation, a brand new Document with a brand new CSSOM). Wrapped in the
- * View Transitions API where available for a real page transition.
+ * document never reloads. Wrapped in the View Transitions API where
+ * available, with a direction-aware slide (deeper into the tree vs. back
+ * up it) rather than a generic cross-fade.
  */
 
 const SHELL_SELECTOR = ".site-shell"
 const MAX_CACHE_ENTRIES = 50
+const PROGRESS_DELAY_MS = 150
+
+type NavDirection = "forward" | "back" | "none"
 
 interface PageEntry {
   title: string
@@ -26,6 +29,7 @@ interface PageEntry {
 
 interface HistoryState {
   scrollY: number
+  navIndex: number
 }
 
 type ViewTransitionCapableDocument = Document & {
@@ -35,6 +39,9 @@ type ViewTransitionCapableDocument = Document & {
 }
 
 const cache = new Map<string, Promise<PageEntry>>()
+let historyNavIndex = 0
+let activeNavToken = 0
+let progressTimer: ReturnType<typeof setTimeout> | null = null
 
 function cacheKey(url: string): string {
   return url.split("#")[0]
@@ -73,6 +80,33 @@ async function fetchPage(url: string): Promise<PageEntry> {
   return promise
 }
 
+// --- Top loading bar: only appears if a fetch takes long enough to notice,
+// so fast/cached navigations stay flicker-free. ---
+
+function progressEl(): HTMLElement | null {
+  return document.getElementById("nav-progress")
+}
+
+function startProgress() {
+  progressTimer = setTimeout(() => {
+    progressEl()?.classList.add("nav-progress--active")
+  }, PROGRESS_DELAY_MS)
+}
+
+function finishProgress() {
+  if (progressTimer) {
+    clearTimeout(progressTimer)
+    progressTimer = null
+  }
+  const el = progressEl()
+  if (!el || !el.classList.contains("nav-progress--active")) return
+  el.classList.add("nav-progress--done")
+  setTimeout(
+    () => el.classList.remove("nav-progress--active", "nav-progress--done"),
+    250
+  )
+}
+
 function applyPage(entry: PageEntry) {
   document.title = entry.title
 
@@ -108,17 +142,33 @@ function scrollFor(url: string, restoreY: number | null) {
   window.scrollTo(0, 0)
 }
 
-async function swapTo(url: string, restoreScrollY: number | null) {
+async function swapTo(
+  url: string,
+  restoreScrollY: number | null,
+  direction: NavDirection
+) {
+  const token = ++activeNavToken
+  startProgress()
+
   let entry: PageEntry
   try {
     entry = await fetchPage(url)
   } catch (err) {
     console.error(err)
-    location.href = url
+    finishProgress()
+    if (token === activeNavToken) location.href = url
     return
   }
+  finishProgress()
+
+  // A newer navigation started (and possibly already finished) while this
+  // fetch was in flight - drop this one instead of clobbering the page.
+  if (token !== activeNavToken) return
 
   closeMobileNavIfOpen()
+
+  const html = document.documentElement
+  html.dataset.navDirection = direction
 
   const doc = document as ViewTransitionCapableDocument
   if (doc.startViewTransition) {
@@ -128,7 +178,9 @@ async function swapTo(url: string, restoreScrollY: number | null) {
   } else {
     applyPage(entry)
   }
+  delete html.dataset.navDirection
 
+  scrollActiveIntoView()
   scrollFor(url, restoreScrollY)
 }
 
@@ -138,6 +190,18 @@ function isSamePage(url: string): boolean {
   return (
     target.pathname === current.pathname && target.search === current.search
   )
+}
+
+function pathDepth(url: string): number {
+  return new URL(url, location.href).pathname.split("/").filter(Boolean).length
+}
+
+function directionForClick(targetUrl: string): NavDirection {
+  const from = pathDepth(location.href)
+  const to = pathDepth(targetUrl)
+  if (to > from) return "forward"
+  if (to < from) return "back"
+  return "none"
 }
 
 const NON_PAGE_PATHS = new Set([
@@ -162,7 +226,13 @@ function isSoftNavigable(link: HTMLAnchorElement): boolean {
 export function initSoftRouter() {
   if (!("pushState" in history)) return
   history.scrollRestoration = "manual"
-  history.replaceState({ scrollY: window.scrollY } satisfies HistoryState, "")
+  history.replaceState(
+    {
+      scrollY: window.scrollY,
+      navIndex: historyNavIndex
+    } satisfies HistoryState,
+    ""
+  )
 
   document.body.addEventListener("click", e => {
     if (e.defaultPrevented || e.button !== 0) return
@@ -173,9 +243,21 @@ export function initSoftRouter() {
     if (isSamePage(link.href)) return
 
     e.preventDefault()
-    history.replaceState({ scrollY: window.scrollY } satisfies HistoryState, "")
-    swapTo(link.href, null).then(() => {
-      history.pushState({ scrollY: 0 } satisfies HistoryState, "", link.href)
+    const direction = directionForClick(link.href)
+    history.replaceState(
+      {
+        scrollY: window.scrollY,
+        navIndex: historyNavIndex
+      } satisfies HistoryState,
+      ""
+    )
+    historyNavIndex++
+    swapTo(link.href, null, direction).then(() => {
+      history.pushState(
+        { scrollY: 0, navIndex: historyNavIndex } satisfies HistoryState,
+        "",
+        link.href
+      )
     })
   })
 
@@ -188,6 +270,14 @@ export function initSoftRouter() {
 
   window.addEventListener("popstate", e => {
     const state = e.state as HistoryState | null
-    swapTo(location.href, state?.scrollY ?? 0)
+    const targetIndex = state?.navIndex ?? 0
+    const direction: NavDirection =
+      targetIndex === historyNavIndex
+        ? "none"
+        : targetIndex > historyNavIndex
+          ? "forward"
+          : "back"
+    historyNavIndex = targetIndex
+    swapTo(location.href, state?.scrollY ?? 0, direction)
   })
 }

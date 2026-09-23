@@ -10,12 +10,14 @@ import { initSidebarPersistence } from "./islands/sidebar-persistence"
 import { initTocScrollspy } from "./islands/toc-scrollspy"
 import { initMobileNavDrawer } from "./islands/mobile-nav-drawer"
 import { initSoftRouter } from "./islands/soft-router"
+import { scrollActiveIntoView } from "./islands/sidebar-scroll"
 
 initDarkModeToggle()
 initSidebarPersistence()
 initTocScrollspy()
 initMobileNavDrawer()
 initSoftRouter()
+scrollActiveIntoView()
 
 const searchRoot = document.getElementById("search-root")
 if (searchRoot) {
