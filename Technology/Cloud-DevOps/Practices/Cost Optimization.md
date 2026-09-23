@@ -15,7 +15,7 @@ tags:
 
 ## 1. Câu chuyện "bốc hơi" chi phí Lambda
 
-- Một SRE phát hiện chi phí AWS Lambda tăng gấp **70 lần** trong 3 ngày (từ ~$200/tháng lên ~$14,000/tháng).
+- Một SRE phát hiện chi phí AWS Lambda tăng gấp **70 lần** trong 3 ngày (từ ~\$200/tháng lên ~\$14,000/tháng).
 - Mặc dù đã thiết lập **AWS Budget Alert** và trích xuất dữ liệu cost bằng Lambda, vẫn không ngăn được chi phí gia tăng quá nhanh.
 - Sự cố do copy-paste Terraform: Lambda memory được đặt thành **4096 MB**, trong khi thực tế chỉ cần ~128 MB, làm số lượng gọi mỗi ngày ở mức hàng triệu nên chi phí "nổ" nhanh chóng.
 

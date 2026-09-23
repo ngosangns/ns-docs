@@ -17,7 +17,7 @@ tags:
 
 - Định nghĩa: là số phép toán cần thực hiện dựa trên kích thước input
 - Thường dùng để đánh giá trường hợp xấu nhất
-- Ký hiệu thường gặp: $Θ(f(N))$
+- Ký hiệu thường gặp: $\Theta(f(N))$
 - Rút gọn: giữ bậc lớn nhất, bỏ hằng số (ví dụ)
 
 $$

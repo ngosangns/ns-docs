@@ -64,7 +64,7 @@ resource: https://github.com/fluxcd/flux2
     - 280+ service one-click, chạy bất kỳ app nào tương thích Docker
     - Backup database lên S3-compatible storage, webhook/API cho CI/CD
     - Team với phân quyền, giám sát server và thông báo (Discord, Telegram, email)
-  - **Giá:** Self-host miễn phí, đầy đủ tính năng; Coolify Cloud $5/tháng (gồm 2 server, thêm $3/server), vẫn dùng server của mình, Coolify chỉ host phần control plane
+  - **Giá:** Self-host miễn phí, đầy đủ tính năng; Coolify Cloud \$5/tháng (gồm 2 server, thêm \$3/server), vẫn dùng server của mình, Coolify chỉ host phần control plane
   - [Website](https://coolify.io/) · [GitHub](https://github.com/coollabsio/coolify) #deployment #paas #self-hosted #vercel-alternative #heroku-alternative
 - **Dokploy**: Nền tảng deploy all-in-one (self-host hoặc cloud) để quản lý ứng dụng container hóa và database trên nhiều server
   - **Cách build/deploy:** Dockerfile, Nixpacks, Heroku Buildpacks, Docker Compose (native), Docker Swarm cluster
@@ -74,7 +74,7 @@ resource: https://github.com/fluxcd/flux2
     - Giám sát CPU, memory, network theo thời gian thực
     - RBAC, template mã nguồn mở cho các tool phổ biến
     - Tích hợp MCP để AI agent hỗ trợ deploy
-  - **Giá:** Bản open-source self-host miễn phí; Cloud Hobby $4.50/server/tháng, Startup từ $15/tháng (3 server), Enterprise (SSO/SAML, on-prem) liên hệ
+  - **Giá:** Bản open-source self-host miễn phí; Cloud Hobby \$4.50/server/tháng, Startup từ \$15/tháng (3 server), Enterprise (SSO/SAML, on-prem) liên hệ
   - **So với Coolify:** Dokploy thiên về Docker Compose/Swarm và multi-server; Coolify có kho one-click service lớn hơn và preview deployment theo PR
   - [Website](https://dokploy.com/) · [GitHub](https://github.com/dokploy/dokploy) #deployment #paas #self-hosted #docker-swarm #docker-compose
 
