@@ -3,7 +3,7 @@ area: english
 domain: grammar
 type: guide
 title: Reported Speech
-description: Câu gián tiếp - các dạng, quy tắc lùi thì và thay đổi trạng từ
+description: Reporting statements, questions, commands and exclamations with tense backshift and adverb changes
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -12,52 +12,49 @@ tags:
 
 # Reported Speech
 
-## Khái niệm
+## Concept
 
-- Câu gián tiếp là câu dùng để thuật lại lời nói của người khác một cách gián tiếp, không phải lời nói trực tiếp của người đó.
-- Câu gián tiếp thường được sử dụng khi muốn kể lại một cuộc trò chuyện, một câu chuyện hoặc một thông báo.
+- Reported (indirect) speech retells what someone said without quoting their exact words.
+- It is used to recount conversations, stories, or announcements.
 
-## Các dạng câu gián tiếp
+## Forms
 
-- **Câu trần thuật (Statements):**
-  - Cấu trúc: S + said/told + (that) + S + V (lùi thì)
-  - Ví dụ: He said (that) he was hungry. (Anh ấy nói rằng anh ấy đói.)
-- **Câu hỏi Yes/No (Yes/No Questions):**
-  - Cấu trúc: S + asked/wanted to know/wondered + if/whether + S + V (lùi thì)
-  - Ví dụ: She asked if I was going to the party. (Cô ấy hỏi tôi có đi dự tiệc không.)
-- **Câu hỏi WH- (WH- Questions):**
-  - Cấu trúc: S + asked/wanted to know/wondered + WH-word + S + V (lùi thì)
-  - Ví dụ: He asked what time the movie started. (Anh ấy hỏi mấy giờ phim bắt đầu.)
-- **Câu mệnh lệnh (Commands):**
-  - Cấu trúc: S + told/asked/ordered/warned + O + (not) to V
-  - Ví dụ: The teacher told us to be quiet. (Giáo viên bảo chúng tôi im lặng.)
-- **Câu cảm thán (Exclamations):**
-  - Cấu trúc: S + exclaimed/remarked/said + (that) + S + V (lùi thì) hoặc S + exclaimed with + noun
-  - Ví dụ: She exclaimed that the food was delicious. (Cô ấy thốt lên rằng thức ăn rất ngon.)
+- **Statements:** S + said/told + (that) + S + V (backshifted)
+  - He said (that) he was hungry. (Anh ấy nói rằng anh ấy đói.)
+- **Yes/No questions:** S + asked/wanted to know/wondered + if/whether + S + V (backshifted)
+  - She asked if I was going to the party. (Cô ấy hỏi tôi có đi dự tiệc không.)
+- **WH- questions:** S + asked/wanted to know/wondered + WH-word + S + V (backshifted)
+  - He asked what time the movie started. (Anh ấy hỏi mấy giờ phim bắt đầu.)
+- **Commands:** S + told/asked/ordered/warned + O + (not) to-infinitive
+  - The teacher told us to be quiet. (Giáo viên bảo chúng tôi im lặng.)
+- **Exclamations:** S + exclaimed/remarked/said + (that) + clause, or S + exclaimed with + noun
+  - She exclaimed that the food was delicious. (Cô ấy thốt lên rằng thức ăn rất ngon.)
 
-## Quy tắc lùi thì (Backshift of Tenses)
+## Tense Backshift
 
-Khi chuyển từ câu trực tiếp sang câu gián tiếp, thì của động từ thường được lùi lại một bậc.
+When converting direct to reported speech, the verb tense usually shifts one step back.
 
-- **Hiện tại đơn -> Quá khứ đơn:** She said, "I am tired." -> She said that she was tired.
-- **Hiện tại tiếp diễn -> Quá khứ tiếp diễn:** He said, "I am working." -> He said that he was working.
-- **Hiện tại hoàn thành -> Quá khứ hoàn thành:** They said, "We have finished." -> They said that they had finished.
-- **Quá khứ đơn -> Quá khứ hoàn thành:** She said, "I saw him yesterday." -> She said that she had seen him the day before.
-- **Tương lai đơn -> Tương lai trong quá khứ:** He said, "I will call you tomorrow." -> He said that he would call me the next day.
+- Present simple → past simple: "I am tired." → She said that she was tired.
+- Present continuous → past continuous: "I am working." → He said that he was working.
+- Present perfect → past perfect: "We have finished." → They said that they had finished.
+- Past simple → past perfect: "I saw him yesterday." → She said that she had seen him the day before.
+- Future simple → future-in-the-past: "I will call you tomorrow." → He said that he would call me the next day.
 
-## Thay đổi trạng từ chỉ thời gian và nơi chốn
+## Time and Place Adverb Changes
 
-- **now -> then**
-- **today -> that day**
-- **tonight -> that night**
-- **tomorrow -> the next day/the following day**
-- **yesterday -> the day before/the previous day**
-- **ago -> before**
-- **this -> that**
-- **these -> those**
-- **here -> there**
+- now → then
+- today → that day
+- tonight → that night
+- tomorrow → the next day / the following day
+- yesterday → the day before / the previous day
+- ago → before
+- this → that
+- these → those
+- here → there
 
-**Lưu ý:**
+## Notes
 
-- Không phải lúc nào cũng cần lùi thì khi chuyển từ câu trực tiếp sang câu gián tiếp. Nếu lời nói được thuật lại vẫn còn đúng ở thời điểm hiện tại, thì của động từ có thể giữ nguyên.
-- Câu gián tiếp có thể có hoặc không có từ "that" sau động từ tường thuật.
+- Backshift is not always required — if the statement is still true at report time, the tense can stay unchanged.
+- "That" after the reporting verb is optional.
+
+> **See also:** [Passive Voice](/English/Grammar/Concepts/Passive Voice) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

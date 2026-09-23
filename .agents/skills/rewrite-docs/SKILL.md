@@ -63,7 +63,9 @@ Two subtleties the Travel commit fixed:
 - Drop stranded citation numbers left in prose (trailing digits like `...hoang sơ.24`) — they referenced a source list that no longer exists.
 - Keep the information dense and factual; the old notes are often already good, they just need English and structure.
 
-**Internal links.** Normalize cross-references to bundle-relative Concept form (`/Concept_Id` — path from vault root, no `.md`, no leading-dot). `scripts/okf-migrate.js --only=links` can do this mechanically.
+**Internal links.** Normalize cross-references to bundle-relative Concept form (`/Concept_Id` — path from vault root, no `.md`, no leading-dot, literal spaces — never `%20`). `scripts/okf-migrate.js --only=links` can do this mechanically.
+
+**Backlinks.** The site computes backlinks automatically from forward links (`web/src/content/site-graph.ts` → `Backlinks.tsx` rail), so no authored "backlink" markup is needed — the convention is to end each Concept with a `> **See also:** [Title](/Path) · [Title](/Path)` blockquote footer listing the closest related docs (see any `Travel/` file for the shape). Inline prose links are welcome where a related concept is genuinely referenced.
 
 ### 4. Restructure — the moves
 

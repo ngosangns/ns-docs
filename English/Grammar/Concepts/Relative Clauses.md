@@ -3,7 +3,7 @@ area: english
 domain: grammar
 type: guide
 title: Relative Clauses
-description: Mệnh đề quan hệ - đại từ quan hệ, các loại và cách rút gọn
+description: Relative pronouns, defining vs non-defining clauses, and how to reduce them
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -12,39 +12,41 @@ tags:
 
 # Relative Clauses
 
-## Khái niệm
+## Concept
 
-- Mệnh đề quan hệ (Relative Clause) là một mệnh đề phụ được dùng để bổ nghĩa cho một danh từ đứng trước nó, được gọi là tiền ngữ (antecedent).
-- Mệnh đề quan hệ cung cấp thêm thông tin về tiền ngữ, giúp làm rõ nghĩa của danh từ đó.
+- A relative clause is a dependent clause that modifies the noun in front of it (the antecedent).
+- It adds information about the antecedent, making the noun's meaning more precise.
 
-## Các đại từ quan hệ (Relative Pronouns)
+## Relative Pronouns
 
-- **Who:** Dùng để thay thế cho danh từ chỉ người, làm chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ.
-  - Ví dụ: The man who is talking to Mary is my teacher. (Người đàn ông đang nói chuyện với Mary là giáo viên của tôi.)
-- **Whom:** Dùng để thay thế cho danh từ chỉ người, làm tân ngữ trong mệnh đề quan hệ.
-  - Ví dụ: The woman whom I met yesterday is a doctor. (Người phụ nữ mà tôi gặp hôm qua là một bác sĩ.)
-- **Which:** Dùng để thay thế cho danh từ chỉ vật, làm chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ.
-  - Ví dụ: The book which I am reading is very interesting. (Cuốn sách mà tôi đang đọc rất thú vị.)
-- **That:** Dùng để thay thế cho cả danh từ chỉ người và danh từ chỉ vật, làm chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ.
-  - Ví dụ: The dog that is barking is my neighbor's. (Con chó đang sủa là của hàng xóm tôi.)
-- **Whose:** Dùng để chỉ sự sở hữu của cả người và vật.
-  - Ví dụ: The girl whose mother is a teacher is very smart. (Cô gái có mẹ là giáo viên rất thông minh.)
+- **Who:** replaces a person noun; subject or object of the relative clause.
+  - The man who is talking to Mary is my teacher. (Người đàn ông đang nói chuyện với Mary là giáo viên của tôi.)
+- **Whom:** replaces a person noun; object of the relative clause.
+  - The woman whom I met yesterday is a doctor. (Người phụ nữ mà tôi gặp hôm qua là một bác sĩ.)
+- **Which:** replaces a thing noun; subject or object.
+  - The book which I am reading is very interesting. (Cuốn sách mà tôi đang đọc rất thú vị.)
+- **That:** replaces both person and thing nouns; subject or object.
+  - The dog that is barking is my neighbor's. (Con chó đang sủa là của hàng xóm tôi.)
+- **Whose:** shows possession for people and things.
+  - The girl whose mother is a teacher is very smart. (Cô gái có mẹ là giáo viên rất thông minh.)
 
-## Các loại mệnh đề quan hệ
+## Defining vs Non-Defining
 
-- **Mệnh đề quan hệ xác định (Defining Relative Clause):** Cung cấp thông tin cần thiết để xác định danh từ được nhắc đến, không có dấu phẩy ngăn cách với mệnh đề chính.
-  - Ví dụ: The car that I bought last year is red. (Chiếc xe mà tôi mua năm ngoái có màu đỏ.)
-- **Mệnh đề quan hệ không xác định (Non-defining Relative Clause):** Cung cấp thêm thông tin về danh từ được nhắc đến, có dấu phẩy ngăn cách với mệnh đề chính.
-  - Ví dụ: My brother, who lives in New York, is a doctor. (Anh trai tôi, người sống ở New York, là một bác sĩ.)
+- **Defining relative clause:** gives information essential to identifying the noun — no commas.
+  - The car that I bought last year is red. (Chiếc xe mà tôi mua năm ngoái có màu đỏ.)
+- **Non-defining relative clause:** gives extra, non-essential information — set off by commas.
+  - My brother, who lives in New York, is a doctor. (Anh trai tôi, người sống ở New York, là một bác sĩ.)
 
-## Rút gọn mệnh đề quan hệ
+## Reducing Relative Clauses
 
-- **Rút gọn thành cụm phân từ hiện tại (Present Participle Phrase):** Khi động từ trong mệnh đề quan hệ ở dạng tiếp diễn, ta có thể bỏ đại từ quan hệ và động từ "to be", chỉ giữ lại động từ thêm "-ing".
-  - Ví dụ: The man who is talking to Mary => The man talking to Mary.
-- **Rút gọn thành cụm phân từ quá khứ (Past Participle Phrase):** Khi động từ trong mệnh đề quan hệ ở dạng bị động, ta có thể bỏ đại từ quan hệ và động từ "to be", chỉ giữ lại động từ ở dạng quá khứ phân từ.
-  - Ví dụ: The book which was written by Hemingway => The book written by Hemingway.
+- **To a present participle phrase:** when the clause is active/continuous, drop the relative pronoun and "be", keep the -ing form.
+  - The man who is talking to Mary → The man talking to Mary.
+- **To a past participle phrase:** when the clause is passive, drop the relative pronoun and "be", keep the past participle.
+  - The book which was written by Hemingway → The book written by Hemingway.
 
-**Lưu ý:**
+## Notes
 
-- Khi sử dụng mệnh đề quan hệ, cần chú ý đến sự phù hợp giữa đại từ quan hệ và tiền ngữ.
-- Cần phân biệt giữa mệnh đề quan hệ xác định và không xác định để sử dụng dấu phẩy đúng cách.
+- Match the relative pronoun to the antecedent (person vs thing).
+- Distinguish defining from non-defining clauses to place commas correctly.
+
+> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

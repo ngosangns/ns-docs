@@ -3,7 +3,7 @@ area: english
 domain: grammar
 type: guide
 title: Passive Voice
-description: Câu bị động - công thức, cách chuyển đổi và các trường hợp đặc biệt
+description: The be + V3/ed formula, tense-by-tense forms, and special cases like reporting and two-object passives
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -12,52 +12,60 @@ tags:
 
 # Passive Voice
 
-## Khái niệm
+## Concept
 
-- Câu bị động (Passive Voice) là câu mà chủ ngữ không thực hiện hành động mà là đối tượng chịu tác động của hành động.
-- Câu bị động được sử dụng khi muốn nhấn mạnh đối tượng chịu tác động hơn là người thực hiện hành động, hoặc khi không biết hoặc không muốn đề cập đến người thực hiện hành động.
+- In a passive sentence the subject does not perform the action — it receives the action.
+- The passive is used to emphasize the receiver over the doer, or when the doer is unknown or deliberately left out.
 
-## Công thức chung
+## General Formula
 
-- **S + be + V3/ed + (by O)**
-  - S: Chủ ngữ (là đối tượng chịu tác động của hành động).
-  - Be: Động từ "to be" chia theo thì và chủ ngữ.
-  - V3/ed: Động từ ở dạng quá khứ phân từ (past participle).
-  - By O: Cụm giới từ chỉ người thực hiện hành động (có thể có hoặc không).
+**S + be + V3/ed + (by O)**
 
-## Cách chuyển từ câu chủ động sang câu bị động
+- S: the subject (the receiver of the action).
+- be: conjugated to match tense and subject.
+- V3/ed: the past participle.
+- by O: the agent (optional).
 
-1. **Xác định tân ngữ của câu chủ động:** Tân ngữ này sẽ trở thành chủ ngữ của câu bị động.
-2. **Xác định thì của động từ trong câu chủ động:** Chia động từ "to be" trong câu bị động theo thì tương ứng.
-3. **Chuyển động từ chính của câu chủ động sang dạng quá khứ phân từ (V3/ed).**
-4. **Thêm "by" trước chủ ngữ của câu chủ động (nếu cần).**
+## Active → Passive Conversion
 
-**Ví dụ:**
+1. Identify the object of the active sentence — it becomes the passive subject.
+2. Identify the tense of the active verb — conjugate "to be" in the same tense.
+3. Change the main verb to its past participle (V3/ed).
+4. Add "by" + the original subject if needed.
 
-- Câu chủ động: Mary writes a letter. (Mary viết một lá thư.)
-- Câu bị động: A letter is written by Mary. (Một lá thư được viết bởi Mary.)
+**Example:**
 
-## Câu bị động với các thì khác nhau
+- Active: Mary writes a letter. (Mary viết một lá thư.)
+- Passive: A letter is written by Mary. (Một lá thư được viết bởi Mary.)
 
-- **Hiện tại đơn:** S + am/is/are + V3/ed + (by O)
-- **Hiện tại tiếp diễn:** S + am/is/are + being + V3/ed + (by O)
-- **Hiện tại hoàn thành:** S + have/has + been + V3/ed + (by O)
-- **Quá khứ đơn:** S + was/were + V3/ed + (by O)
-- **Quá khứ tiếp diễn:** S + was/were + being + V3/ed + (by O)
-- **Quá khứ hoàn thành:** S + had + been + V3/ed + (by O)
-- **Tương lai đơn:** S + will be + V3/ed + (by O)
-- **Tương lai hoàn thành:** S + will have been + V3/ed + (by O)
+## Passive Across Tenses
 
-## Các trường hợp đặc biệt
+| Tense              | Formula                   | Example                                         |
+| ------------------ | ------------------------- | ----------------------------------------------- |
+| Present simple     | am/is/are + V3/ed         | The cake **is made** every day.                 |
+| Present continuous | am/is/are + being + V3/ed | The house **is being painted** now.             |
+| Present perfect    | have/has + been + V3/ed   | The report **has been completed**.              |
+| Past simple        | was/were + V3/ed          | The letter **was sent** yesterday.              |
+| Past continuous    | was/were + being + V3/ed  | The car **was being repaired** when I arrived.  |
+| Past perfect       | had + been + V3/ed        | The tickets **had been sold** before noon.      |
+| Future simple      | will be + V3/ed           | A new project **will be launched** soon.        |
+| Future perfect     | will have + been + V3/ed  | The work **will have been finished** by Friday. |
 
-- **Câu bị động với hai tân ngữ:** Có thể có hai cách chuyển:
-  - Tân ngữ chỉ người làm chủ ngữ: S (người) + be + V3/ed + O (vật) + (by O).
-  - Tân ngữ chỉ vật làm chủ ngữ: S (vật) + be + V3/ed + to/for + O (người) + (by O).
-- **Câu bị động với động từ khuyết thiếu:** S + modal verb + be + V3/ed + (by O)
-- **Câu bị động với động từ chỉ giác quan (see, hear, feel,...):** S + be + V3/ed + to V (nguyên thể)
-- **Câu bị động với "get" thay cho "be":** S + get + V3/ed + (by O) (thường dùng trong văn nói)
+## Special Cases
 
-**Lưu ý:**
+- **Two-object verbs (give, send, show...):** either object can become the subject.
+  - _He gave me a book._ → _I **was given** a book by him._ → _A book **was given** to me by him._
+- **Modal verbs:** S + modal + be + V3/ed: _The rules must be followed._
+- **Perception verbs (see, hear, feel):** S + be + V3/ed + to-infinitive: _He was seen to leave the building._
+- **"Get" passive:** S + get + V3/ed — informal, common in speech: _She got promoted last month._
+- **Reporting verbs (say, think, believe, know, report):** two passive forms.
+  - Impersonal: _People say that she is very intelligent._ → _It is said that she is very intelligent._
+  - Personal: _They believe that he won the lottery._ → _He is believed to have won the lottery._
+  - See also the transformation patterns in [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) (Model 16, 18).
 
-- Không phải tất cả các động từ đều có thể chuyển sang câu bị động. Chỉ những động từ có tân ngữ trực tiếp mới có thể chuyển sang câu bị động.
-- Khi chuyển sang câu bị động, cần chú ý đến sự thay đổi của đại từ, trạng từ chỉ thời gian và nơi chốn.
+## Notes
+
+- Only verbs with a direct object can be passivized.
+- When converting to passive, watch pronoun changes and time/place adverbials.
+
+> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

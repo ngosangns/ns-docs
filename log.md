@@ -1,4 +1,6 @@
 ## 2026-09-23
+
+**Update** Rewrite entire English section in English with full internal links: translate all Grammar/IELTS/TOEIC concept bodies và descriptions sang English; split Sentence Types → Inversion + Subjunctive Mood (phần passive gộp vào Passive Voice); condense duplicated relative/adverbial clause sections trong Sentence Structure thành links tới docs riêng; reclassify Sentence Transformation Patterns thành cheatsheet; translate Irregular Verbs headings/table headers (giữ cột nghĩa tiếng Việt); add `> **See also:**` footer to mọi doc để site backlink rail populate; document backlink/internal-link convention trong rewrite-docs skill
 **Update** English/Grammar/Resources/Irregular Verbs: rewrite flat list thành bảng nhóm theo mô hình biến hóa AAA/ABA/ABB/ABC (300 động từ, giữ nghĩa tiếng Việt + ví dụ)
 **Update** Normalize English section: reclassify Grammar/IELTS/TOEIC concept docs as guide (Roadmap → plan), rewrite frontmatter descriptions (bỏ mấy dòng kiểu "1. Khái niệm"/"Promt"), strip numbered-heading artifacts và thêm H1 title, đổi [[wikilinks]] sang bundle-relative links, regenerate index.md; add .agents/skills/rewrite-docs skill
 **Update** Rewrite entire Travel section in English and restructure: new Guides/, Trips/, Destinations/Vietnam + Destinations/International layout; split Tay Bac series into Northwest Vietnam/ subfolder (7 files); split Trung Quoc into China/China Visa/China Itineraries; merge Ha Giang community notes into Destinations/Vietnam/Ha Giang; extract Ha Long food guide from company trip into Destinations/Vietnam/Ha Long; dissolve Du Lich into Hanoi + South Korea; rename all files to English
@@ -8,7 +10,9 @@
 **Update** Technology/AI/Tools/Data/Knowledge And Data Management: note convaiinnovations/laya (multilingual classification/decision model)
 **Update** Technology/Security/Tools/Security Tools: new "PII Detection & Data Privacy" section, note openai/privacy-filter
 **Update** Refactor English/TOEIC docs: split English/Grammar into Concepts/Resources, move TOEIC content into English/TOEIC/Concepts, move English Roadmap từ Technology/AI/Practices về English/Resources
+
 ## 2026-09-22
+
 **Creation** Technology/System-Design/Practices/Kafka DLQ Va Retry: chắt thread Golang Vietnam 10/04/2026 về DLQ, retry topic và replay
 **Update** Technology/System-Design/Practices/Retry Va Circuit Breaker: trỏ sang Kafka DLQ và retry
 **Update** Heavy Write Voucher 1M Req S: bổ sung Q&A từ toàn bộ comment bài 1M write/s
@@ -18,11 +22,19 @@
 **Update** Technology/Frontend/Tools/React/React Next: note React Bits (https://reactbits.dev/)
 **Update** Technology/Tools-Utilities/Tools/Media Editors: note Stirling PDF (https://github.com/Stirling-Tools/stirling-pdf)
 **Creation** Travel/Destinations/Domestic/Sai Gon Da Lat Cung Duong: các cung đường Sài Gòn - Đà Lạt chạy trong ngày
+
 ## 2026-09-08
+
 **Creation** Travel/Destinations/International/Ladakh: add AMS altitude-sickness prevention notes from Leh airport health signage
+
 ## 2026-07-04
+
 **Update** Replace custom preview web with Quartz static site generator (web/quartz); okf-index now emits percent-encoded bundle-root URLs
+
 ## 2026-06-28
+
 **Update** inbox: added MediaCrawler, plane, ainovel-cli, FluidVoice, ai-berkshire, astryx
+
 ## 2026-06-19
+
 **Update** Migrate vault to OKF v0.1 (type inference, recommended fields, bundle-relative links, generated index.md)

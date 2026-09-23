@@ -3,7 +3,7 @@ area: english
 domain: grammar
 type: guide
 title: Singular And Plural
-description: Danh từ và động từ số ít/số nhiều - quy tắc và trường hợp đặc biệt
+description: Plural-formation rules for nouns, subject-verb agreement, and irregular cases
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -12,38 +12,40 @@ tags:
 
 # Singular And Plural
 
-## Danh từ số ít và danh từ số nhiều
+## Singular and Plural Nouns
 
-- **Danh từ số ít (Singular Noun):** Chỉ một người, một vật, một địa điểm hoặc một khái niệm.
-- **Danh từ số nhiều (Plural Noun):** Chỉ nhiều hơn một người, vật, địa điểm hoặc khái niệm.
-- **Quy tắc hình thành danh từ số nhiều:**
-  - **Thông thường:** Thêm "-s" vào cuối danh từ số ít (ví dụ: cat - cats, book - books).
-  - **Danh từ tận cùng bằng -s, -ss, -sh, -ch, -x, -z:** Thêm "-es" (ví dụ: bus - buses, dish - dishes, box - boxes).
-  - **Danh từ tận cùng bằng phụ âm + y:** Đổi "y" thành "i" và thêm "-es" (ví dụ: baby - babies, city - cities).
-  - **Danh từ tận cùng bằng nguyên âm + y:** Thêm "-s" (ví dụ: boy - boys, day - days).
-  - **Danh từ tận cùng bằng -f hoặc -fe:** Đổi "f" hoặc "fe" thành "v" và thêm "-es" (ví dụ: leaf - leaves, knife - knives).
-  - **Danh từ tận cùng bằng -o:**
-    - Thường thêm "-es" (ví dụ: potato - potatoes, tomato - tomatoes).
-    - Một số trường hợp thêm "-s" (ví dụ: photo - photos, piano - pianos).
-  - **Danh từ bất quy tắc:** Có cách biến đổi riêng (ví dụ: man - men, woman - women, child - children).
+- **Singular noun:** one person, thing, place, or concept.
+- **Plural noun:** more than one.
+- **Plural-formation rules:**
+  - **Default:** add "-s" (cat → cats, book → books).
+  - **Ending in -s, -ss, -sh, -ch, -x, -z:** add "-es" (bus → buses, dish → dishes, box → boxes).
+  - **Consonant + y:** change "y" to "i", add "-es" (baby → babies, city → cities).
+  - **Vowel + y:** add "-s" (boy → boys, day → days).
+  - **Ending in -f/-fe:** change to "v", add "-es" (leaf → leaves, knife → knives).
+  - **Ending in -o:**
+    - Usually add "-es" (potato → potatoes, tomato → tomatoes).
+    - Some take only "-s" (photo → photos, piano → pianos).
+  - **Irregular nouns:** their own changes (man → men, woman → women, child → children) — and for irregular verb forms see [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs).
 
-## Động từ số ít và động từ số nhiều
+## Singular and Plural Verbs
 
-- **Động từ số ít (Singular Verb):** Dùng với chủ ngữ số ít.
-- **Động từ số nhiều (Plural Verb):** Dùng với chủ ngữ số nhiều.
-- **Quy tắc chia động từ theo chủ ngữ:**
-  - **Hiện tại đơn:**
-    - Chủ ngữ số ít: Động từ thêm "-s" hoặc "-es" (ví dụ: He walks, She teaches).
-    - Chủ ngữ số nhiều: Động từ giữ nguyên (ví dụ: They walk, We teach).
-  - **Các thì khác:** Động từ giữ nguyên cho cả chủ ngữ số ít và số nhiều.
+- **Singular verb:** used with a singular subject.
+- **Plural verb:** used with a plural subject.
+- **Agreement rules:**
+  - **Present simple:**
+    - Singular subject: verb takes "-s"/"-es" (He walks, She teaches).
+    - Plural subject: base form (They walk, We teach).
+  - **Other tenses:** the verb stays the same for singular and plural subjects.
 
-## Các trường hợp đặc biệt
+## Special Cases
 
-- **Danh từ luôn ở dạng số nhiều:** scissors, pants, glasses,...
-- **Danh từ có hình thức số ít và số nhiều giống nhau:** sheep, fish, deer,...
-- **Danh từ không có dạng số nhiều:** information, advice, furniture,...
+- **Always plural:** scissors, pants, glasses.
+- **Same form singular and plural:** sheep, fish, deer.
+- **No plural form (uncountable):** information, advice, furniture.
 
-**Lưu ý:**
+## Notes
 
-- Cần phân biệt giữa danh từ đếm được và danh từ không đếm được để sử dụng đúng dạng số ít/số nhiều.
-- Cần nắm vững các quy tắc hình thành danh từ số nhiều và chia động từ theo chủ ngữ để sử dụng ngữ pháp chính xác.
+- Distinguish countable from uncountable nouns to choose the right singular/plural form.
+- Mastering plural formation and subject-verb agreement is foundational for accurate grammar.
+
+> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs)

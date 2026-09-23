@@ -3,7 +3,7 @@ area: english
 domain: toeic
 type: guide
 title: TOEIC Overview
-description: Cấu trúc bài thi Listening & Reading, Speaking & Writing và thang điểm
+description: Structure of the Listening & Reading and Speaking & Writing tests plus the scoring scales
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -13,36 +13,36 @@ resource: https://www.eu.ets.org/toeic/about/listening-reading.html
 
 # TOEIC Overview
 
-## TOEIC là gì
+## What Is TOEIC
 
-TOEIC (Test of English for International Communication) do **ETS** phát triển, đánh giá năng lực tiếng Anh dùng trong môi trường công sở/quốc tế. Gồm **2 bài thi độc lập**: Listening & Reading (L&R) và Speaking & Writing (S&W) — có thể thi riêng lẻ.
+TOEIC (Test of English for International Communication), developed by **ETS**, measures English proficiency for the workplace and international settings. It comprises **two independent tests**: Listening & Reading (L&R) and Speaking & Writing (S&W) — they can be taken separately.
 
 ## TOEIC Listening & Reading
 
-- **Tổng thời lượng:** 120 phút, **200 câu hỏi trắc nghiệm**.
-- **Listening:** 45 phút, 100 câu — gồm 4 phần:
-  - **Part 1 – Photographs:** mô tả tranh, chọn câu mô tả đúng.
-  - **Part 2 – Question-Response:** nghe câu hỏi, chọn câu trả lời phù hợp.
-  - **Part 3 – Conversations:** hội thoại ngắn giữa 2-3 người, trả lời câu hỏi liên quan.
-  - **Part 4 – Short Talks:** bài nói ngắn (thông báo, quảng cáo...), trả lời câu hỏi liên quan.
-- **Reading:** 75 phút, 100 câu — gồm 3 phần:
-  - **Part 5 – Incomplete Sentences:** điền từ/cấu trúc ngữ pháp vào chỗ trống trong câu đơn.
-  - **Part 6 – Text Completion:** điền từ/câu vào chỗ trống trong đoạn văn.
-  - **Part 7 – Reading Comprehension:** đọc hiểu văn bản đơn/kép/bộ ba (single/double/triple passages).
-- **Thang điểm:** mỗi kỹ năng (Listening, Reading) từ **5-495 điểm**, tổng **10-990 điểm**. Kết quả được quy chiếu theo khung CEFR (A1-C1).
+- **Total duration:** 120 minutes, **200 multiple-choice questions**.
+- **Listening:** 45 minutes, 100 questions in 4 parts:
+  - **Part 1 – Photographs:** pick the sentence that correctly describes a picture.
+  - **Part 2 – Question-Response:** hear a question, pick the appropriate response.
+  - **Part 3 – Conversations:** short conversations between 2-3 people with related questions.
+  - **Part 4 – Short Talks:** short monologues (announcements, ads...) with related questions.
+- **Reading:** 75 minutes, 100 questions in 3 parts:
+  - **Part 5 – Incomplete Sentences:** fill grammar/vocabulary blanks in single sentences.
+  - **Part 6 – Text Completion:** fill words/sentences into passage blanks.
+  - **Part 7 – Reading Comprehension:** single, double, and triple passages.
+- **Scoring:** each skill (Listening, Reading) scores **5-495**, total **10-990**, mapped to CEFR levels (A1-C1).
 
-Nguồn: [TOEIC Listening and Reading test format – ETS](https://www.eu.ets.org/toeic/about/listening-reading.html).
+Source: [TOEIC Listening and Reading test format – ETS](https://www.eu.ets.org/toeic/about/listening-reading.html).
 
 ## TOEIC Speaking & Writing
 
-- **Speaking:** 11 câu hỏi, ~20 phút. Đọc to văn bản (Q1-2), mô tả tranh (Q3-4), trả lời câu hỏi (Q5-7), trả lời dựa trên thông tin cho sẵn (Q8-10), trình bày ý kiến (Q11).
-- **Writing:** 8 câu hỏi, 60 phút. Viết câu dựa trên tranh (Q1-5), phản hồi email/yêu cầu bằng văn bản (Q6-7), viết bài luận nêu ý kiến (Q8).
-- **Thang điểm:** mỗi kỹ năng (Speaking, Writing) từ **10-200 điểm**, quy chiếu theo khung CEFR (A1-C1), kết quả có hiệu lực 2 năm.
+- **Speaking:** 11 questions, ~20 minutes. Read a text aloud (Q1-2), describe a picture (Q3-4), answer questions (Q5-7), respond using provided information (Q8-10), express an opinion (Q11).
+- **Writing:** 8 questions, 60 minutes. Write sentences from pictures (Q1-5), respond to an email/request (Q6-7), write an opinion essay (Q8).
+- **Scoring:** each skill (Speaking, Writing) scores **10-200**, mapped to CEFR (A1-C1); results are valid for 2 years.
 
-Nguồn: [TOEIC Speaking and Writing test format – ETS](https://www.eu.ets.org/toeic/about/speaking-writing.html).
+Source: [TOEIC Speaking and Writing test format – ETS](https://www.eu.ets.org/toeic/about/speaking-writing.html).
 
-## Mẹo làm bài Part 5/6 (ngữ pháp)
+## Part 5/6 Grammar Tips
 
-Xem chi tiết các mẹo nhận diện từ loại, cụm danh từ, modifier trong [TOEIC Daily Notes](/English/TOEIC/Concepts/TOEIC Daily Notes).
+See the word-class, noun-phrase, and modifier rules in [TOEIC Daily Notes](/English/TOEIC/Concepts/TOEIC Daily Notes).
 
-Xem thêm: [English Roadmap](/English/Resources/English Roadmap).
+> **See also:** [TOEIC Daily Notes](/English/TOEIC/Concepts/TOEIC Daily Notes) · [English Roadmap](/English/Resources/English Roadmap) · [IELTS Overview](/English/IELTS/Concepts/IELTS Overview)
