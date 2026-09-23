@@ -129,6 +129,49 @@ function applyPage(entry: PageEntry) {
   refreshTocScrollspy()
 }
 
+const DIRECTION_MODIFIER: Record<NavDirection, string> = {
+  forward: "forward",
+  back: "back",
+  none: "fade"
+}
+
+// Fallback for browsers without the View Transitions API: innerHTML swap
+// alone replaces the old content instantly with no exit animation at all.
+// Clone the outgoing content into a fixed-position overlay that fades/
+// slides out while the newly-swapped-in content fades/slides in - both
+// driven by the same duration so the previous page visibly fades out at
+// the same time the new one fades in, rather than one after the other.
+function swapWithManualCrossfade(entry: PageEntry, direction: NavDirection) {
+  const modifier = DIRECTION_MODIFIER[direction]
+  const oldInner = document.querySelector<HTMLElement>(".site-main__inner")
+
+  if (oldInner) {
+    const rect = oldInner.getBoundingClientRect()
+    const clone = oldInner.cloneNode(true) as HTMLElement
+    clone.classList.add(
+      "content-swap-exit-clone",
+      `content-swap-exit-clone--${modifier}`
+    )
+    clone.style.top = `${rect.top}px`
+    clone.style.left = `${rect.left}px`
+    clone.style.width = `${rect.width}px`
+    document.body.appendChild(clone)
+    clone.addEventListener("animationend", () => clone.remove(), {
+      once: true
+    })
+    setTimeout(() => clone.remove(), 600)
+  }
+
+  applyPage(entry)
+
+  const newInner = document.querySelector<HTMLElement>(".site-main__inner")
+  newInner?.classList.remove("enter-content")
+  newInner?.classList.add(
+    "content-swap-enter",
+    `content-swap-enter--${modifier}`
+  )
+}
+
 function scrollFor(url: string, restoreY: number | null) {
   const hash = new URL(url, location.href).hash
   if (restoreY != null) {
@@ -176,7 +219,7 @@ async function swapTo(
       .startViewTransition(() => applyPage(entry))
       .finished.catch(() => {})
   } else {
-    applyPage(entry)
+    swapWithManualCrossfade(entry, direction)
   }
   delete html.dataset.navDirection
 

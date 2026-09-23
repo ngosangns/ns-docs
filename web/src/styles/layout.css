@@ -333,25 +333,45 @@
   mix-blend-mode: normal;
 }
 
-/* Default (no direction known, e.g. the very first cross-document load):
-   quick fade+rise in, plain fade out. */
+/* Default (no direction known, e.g. navigating between sibling pages at the
+   same tree depth - two pages with no hierarchical relationship to each
+   other). Modelled on Material Design's "fade through" pattern: the
+   outgoing view fades out *and* shrinks slightly, the incoming view fades
+   in *and* grows in from slightly-enlarged, rather than a flat crossfade -
+   it reads as one page being swapped for an unrelated one instead of a
+   dissolve. Old and new share the same duration so the swap is felt as
+   simultaneous, not sequential. */
 @keyframes content-fade-out {
   to {
     opacity: 0;
+    transform: scale(0.98);
   }
 }
+@keyframes content-fade-through-in {
+  from {
+    opacity: 0;
+    transform: scale(1.02);
+  }
+}
+::view-transition-old(site-content),
+::view-transition-new(site-content) {
+  /* Avoid the UA default `plus-lighter` blend, which brightens the overlap
+     between the two simultaneous fades - a plain crossfade reads cleaner. */
+  mix-blend-mode: normal;
+}
 ::view-transition-old(site-content) {
-  animation: content-fade-out var(--duration-fast) var(--ease-in-out);
+  animation: content-fade-out var(--duration-base) var(--ease-in-out);
 }
 ::view-transition-new(site-content) {
-  animation: content-enter var(--duration-slow) var(--ease-out);
+  animation: content-fade-through-in var(--duration-base) var(--ease-out);
 }
 
 /* Direction-aware transition for soft-router.ts navigations: moving deeper
    into the folder tree slides left (content "advances"), moving back up
    (a parent/breadcrumb link, or the browser back button) slides right -
-   matching the mobile/Notion-style convention of hierarchy motion instead
-   of a generic cross-fade for every click regardless of where it goes. */
+   Material's "shared axis" pattern for hierarchical navigation, kept as a
+   pure translate+fade (no scale) so it reads distinctly from the
+   unrelated-page fade-through above. */
 @keyframes content-slide-out-left {
   to {
     opacity: 0;
@@ -387,6 +407,45 @@ html[data-nav-direction="back"] ::view-transition-old(site-content) {
 }
 html[data-nav-direction="back"] ::view-transition-new(site-content) {
   animation: content-slide-in-from-left var(--duration-base) var(--ease-out);
+}
+
+/* Manual crossfade for soft-router.ts on browsers without the View
+   Transitions API: a fixed-position clone of the outgoing content fades/
+   slides out while the freshly-swapped-in content fades/slides in, both on
+   `--duration-base` so the two run in lockstep instead of the old content
+   just vanishing instantly on innerHTML swap. */
+.content-swap-exit-clone {
+  position: fixed;
+  margin: 0;
+  pointer-events: none;
+  z-index: 20;
+  animation-duration: var(--duration-base);
+  animation-timing-function: var(--ease-in-out);
+  animation-fill-mode: both;
+}
+.content-swap-exit-clone--fade {
+  animation-name: content-fade-out;
+}
+.content-swap-exit-clone--forward {
+  animation-name: content-slide-out-left;
+}
+.content-swap-exit-clone--back {
+  animation-name: content-slide-out-right;
+}
+
+.content-swap-enter {
+  animation-duration: var(--duration-base);
+  animation-timing-function: var(--ease-out);
+  animation-fill-mode: both;
+}
+.content-swap-enter--fade {
+  animation-name: content-fade-through-in;
+}
+.content-swap-enter--forward {
+  animation-name: content-slide-in-from-right;
+}
+.content-swap-enter--back {
+  animation-name: content-slide-in-from-left;
 }
 
 /* Folder tree */
