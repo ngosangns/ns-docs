@@ -16,6 +16,11 @@ The goal is not a mechanical translation. It is a re-organization: the old folde
 - List every `.md` under the target folder (`find <folder> -name "*.md"`).
 - Read all of them. Build a content map: which topics each file covers, where content overlaps, where a section is filed in the wrong place, which files are stubs.
 - Check `git log --oneline -- <folder>` for recent intent, and look at `log.md` for related past entries.
+- Quick mechanical signals worth running on a large folder:
+  - Vietnamese content: grep for the diacritics range `[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ]` and count hits per file (a few hits = proper nouns, tens+ = untranslated body). On macOS use ripgrep/node — BSD `grep -P` does not exist.
+  - Exact duplicates: `diff` same-named files in sibling dirs — they often differ only in `timestamp`, so diff the body, not the frontmatter.
+  - Bodies wrapped in a stray code fence whose info string is a repo path (` ```ngosangns-knowledge-base/... `) — an import artifact to unwrap during rewrite.
+  - Legacy frontmatter fields to fold away, e.g. `topic:` (its value is usually the right `domain`).
 
 ### 2. Plan the target taxonomy
 
@@ -53,8 +58,10 @@ resource: <url> # only on link-list docs pointing at a primary external resource
 
 Two subtleties the Travel commit fixed:
 
-- `domain` names the _topic_, not the category — `domain: ha-giang`, not `domain: travel-resources`.
+- `domain` names the _topic_, not the category — `domain: ha-giang`, not `domain: travel-resources`. For Technology-scale folders, the old `topic:` field usually already holds the right value (`llm`, `caching`, `postgres`) — promote it to `domain`, drop `topic`, and drop the generic section tag (`ai-ml`, `system-design`) from `tags`.
 - `type` classifies the document's job: `guide` for instructional/field-guide content, `resource` for curated link lists and reference material, `plan` for itineraries/trip plans, `note` for loose notes. Reclassify files whose type doesn't match their content.
+
+YAML gotcha that breaks `frontmatter:validate`: a bare `: ` inside a plain `description:` value (`description: Trade-offs: what to choose`) is a mapping indicator and fails to parse — either reword or quote the whole value (`description: "Trade-offs: what to choose"`).
 
 **Body.**
 
@@ -79,6 +86,16 @@ Apply these operations where the survey shows they're needed:
 - **Dissolve** stub files whose whole content fits better inside a related doc; delete the stub.
 
 Use `git mv` for pure renames so history follows the file.
+
+### 4b. Large folders — delegate the content rewrite
+
+Past ~50 files, translating every file yourself is too slow. The 340-file Technology rewrite (commit `bfc18ca`) used this split and it worked well:
+
+1. **You do the restructure first** — all renames, merges, dedupes, `git mv` — so delegated work lands on final paths. Capture the rename map (`git status --porcelain | grep '^R'`).
+2. **Delegate content rewrite per subtree** to a headless CLI subagent (see the `claude-code` skill): one `claude -p --permission-mode acceptEdits` run per subtree, ~10–30 files each, a handful in parallel under an external `timeout`. Each prompt must carry the full standard — frontmatter shape and key order, the `type` vocabulary, numbered-heading/citation stripping, the code-fence unwrap, the link form, the `> **See also:**` footer — plus the explicit file list for that batch. Subagents are stateless; nothing is implied. Forbid: touching `index.md`, running git, renaming/creating/deleting files, editing outside the listed scope.
+3. **Shared reference files must live inside the workspace.** A subagent sandbox could not read `/tmp/rename-map.txt` — embed the map in the prompt or drop it in the repo temporarily. Several batches fell back to fixing links by hand against the real tree, which worked but is less reliable.
+4. **Read the anomaly reports.** Subagents surfaced real finds (misfiled content, duplicated links, a code-fence artifact set, an unsafe prompt example worth deleting). Spot-check a few rewritten files per batch — a Vietnamese-heavy one and a short one.
+5. **Verify mechanically afterwards** (step 7), then fix the handful of leftovers yourself — expect a small residue, not zero.
 
 ### 5. Regenerate index.md
 
@@ -105,7 +122,7 @@ npm run format:md             # markdown formatting (or format:md:check to previ
 git status                    # review the full move/rename/delete set
 ```
 
-Fix any dangling links — a moved file leaves every inbound link stale.
+Fix any dangling links — a moved file leaves every inbound link stale. Note `links:check` only sees links inside files; also re-scan for leftovers the checkers miss: leftover Vietnamese lines beyond proper nouns, unparseable frontmatter (load each block with `js-yaml` — `frontmatter:validate` reports these as `frontmatter-parse` errors), bodies still wrapped in a ` ```ngosangns-knowledge-base ` fence, and remaining numbered headings.
 
 ### 8. Commit
 
@@ -121,4 +138,4 @@ Old (`Travel/Destinations/Domestic/Tay Bac Diem Den.md`): frontmatter `domain: t
 
 New (`Travel/Destinations/Vietnam/Northwest Vietnam/Key Destinations.md`): `domain: northwest-vietnam`, `type: guide`, descriptive English `description`, clean `##`/`###` English headings, proper nouns glossed, no numbering artifacts.
 
-Run `git show 529f69f` for the full diff — it is the source of truth when a judgment call is unclear.
+Run `git show 529f69f` for the full diff — it is the source of truth when a judgment call is unclear. For a large-folder example with delegated batches, see `git show bfc18ca` (Technology rewrite, ~340 files).

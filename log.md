@@ -1,5 +1,6 @@
 ## 2026-09-24
 
+**Update** rewrite-docs skill: thêm playbook delegate content rewrite cho folder lớn (batch theo subtree qua claude headless), YAML gotcha cho `description:` chứa `: `, survey signals (diacritics scan, code-fence wrap, legacy `topic:` field), và verify checklist — kinh nghiệm từ Technology rewrite
 **Update** Rewrite entire Technology section in English and restructure: translate ~340 notes (prose, headings, descriptions) sang English, normalize frontmatter (domain = topic thật thay vì section, reclassify type, drop legacy `topic` field); rename kebab-case dirs/files to Title Case; delete duplicates (computer-vision/Recognition, Concepts/RAG, Queuing Theory bản VI); group series vào subfolders (System Design Notes, Distributed Cache, Dockerfiles/{React,Java,Python}); move interview questions sang Career/Resources, nodejs sang Programming Languages/Tools; flatten AI/Resources/Resources; regenerate index.md
 **Update** Dissolve Projects section: move Manga-Translator (7 notes) to Technology/AI/Tools/Manga-Translator; delete idea stubs (Finance Tool, IoT Ideas, NS Money, NS Store, Sound Wave Research, Tent Making); regenerate index.md
 
