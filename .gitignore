@@ -19,3 +19,8 @@ web/quartz/prof/
 web/quartz/tsconfig.tsbuildinfo
 web/quartz/.turbo/
 web/quartz/quartz/cli/tui/dist/
+
+# web/: SolidJS site build output
+web/dist/
+web/.ssr-build/
+web/*.tsbuildinfo
