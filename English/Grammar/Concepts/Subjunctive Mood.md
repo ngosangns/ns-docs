@@ -39,14 +39,30 @@ The same pattern follows **It is important/necessary/essential/vital...**
 
 See [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) for the three conditional types and [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals) for mixed time frames.
 
-### "Wish" for wishes
+### "Wish" / "If only" for wishes
 
-- _I wish I **had more money**._ (Tôi ước tôi có nhiều tiền hơn.)
-- _She wishes she **had studied** harder._ (Cô ấy ước mình đã học chăm chỉ hơn.)
+The same three tenses express the three time frames:
+
+| Time frame            | Form after wish/if only | Example                                                         |
+| --------------------- | ----------------------- | --------------------------------------------------------------- |
+| Present               | past simple             | _I wish I **had** more money._ (Tôi ước tôi có nhiều tiền hơn.) |
+| Past                  | past perfect            | _She wishes she **had studied** harder._                        |
+| Future/annoying habit | would + V               | _I wish you **would stop** complaining._                        |
+
+- _If only I **were** taller._ (Giá mà tôi cao hơn.)
+- _If only I **had listened** to you._ (Giá mà tôi nghe lời bạn.)
 
 ### "As if / As though" for unreal comparisons
 
 - _He talks as if he **knew everything**._ (Anh ấy nói như thể anh ấy biết mọi thứ.)
 - _She behaves as though she **were the boss**._ (Cô ấy cư xử như thể cô ấy là sếp.)
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals) · [Inversion](/English/Grammar/Concepts/Inversion) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+### "Would rather" and "It's time"
+
+- **S₁ + would rather + S₂ + past simple** — wanting someone else to (not) do something:
+  - _I'd rather you **didn't smoke** here._ (Tôi muốn bạn đừng hút thuốc ở đây.)
+  - Same subject → bare infinitive: _I'd rather **stay** home._
+- **It's (high/about) time + S + past simple** — something should have happened already:
+  - _It's time you **went** to bed._ (Đến lúc bạn đi ngủ rồi.)
+
+> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences) · [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals) · [Inversion](/English/Grammar/Concepts/Inversion) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

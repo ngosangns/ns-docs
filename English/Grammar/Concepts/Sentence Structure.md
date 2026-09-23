@@ -3,7 +3,7 @@ area: english
 domain: grammar
 type: guide
 title: Sentence Structure
-description: Simple, compound, and complex sentence patterns plus the three main conditional types
+description: Simple, compound, and complex sentence patterns and the clause types that build them
 timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
@@ -91,36 +91,8 @@ A complex sentence has **one independent clause** plus **one or more dependent c
 
 A conditional sentence expresses **a condition and its result** across two clauses: the **if-clause** (condition) and the **main clause** (result).
 
-### General Formula
+**General formula:** If + Subject + Verb (condition), Subject + Verb (result)
 
-If + Subject + Verb (condition), Subject + Verb (result)
+The four conditional types (0–3), alternatives to "if", and if-omission inversion are covered in [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences); clauses mixing different time frames are covered in [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals).
 
-### The Three Main Types
-
-#### Type 1 — Real Condition (possible)
-
-For situations that can really happen in the present or future.
-
-- **Formula:** If + S + V (present simple), S + will/can + V (bare infinitive)
-- _If you study hard, you will pass the exam._ (Nếu bạn học chăm chỉ, bạn sẽ đậu kỳ thi.)
-- _If it rains, we will stay at home._ (Nếu trời mưa, chúng tôi sẽ ở nhà.)
-
-#### Type 2 — Unreal Condition (present)
-
-For conditions that are **untrue or unlikely** in the present or future.
-
-- **Formula:** If + S + V (past simple), S + would/could + V (bare infinitive)
-- _If I were you, I would accept the job._ (Nếu tôi là bạn, tôi sẽ nhận công việc đó.)
-- _If she had more money, she could travel the world._ (Nếu cô ấy có nhiều tiền hơn, cô ấy có thể đi du lịch khắp thế giới.)
-
-#### Type 3 — Impossible Condition (past)
-
-For conditions that **did not happen** in the past and their hypothetical results.
-
-- **Formula:** If + S + had + V3, S + would/could + have + V3
-- _If you had studied harder, you would have passed the exam._ (Nếu bạn học chăm hơn, bạn đã đậu kỳ thi rồi.)
-- _If she had woken up earlier, she wouldn't have missed the train._ (Nếu cô ấy dậy sớm hơn, cô ấy đã không lỡ chuyến tàu.)
-
-When the if-clause and the main clause refer to different time frames, the two types mix — see [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals).
-
-> **See also:** [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses) · [Relative Clauses](/English/Grammar/Concepts/Relative Clauses) · [Mixed Conditionals](/English/Grammar/Concepts/Mixed Conditionals) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)
+> **See also:** [Adverbial Clauses](/English/Grammar/Concepts/Adverbial Clauses) · [Relative Clauses](/English/Grammar/Concepts/Relative Clauses) · [Noun Clauses](/English/Grammar/Concepts/Noun Clauses) · [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

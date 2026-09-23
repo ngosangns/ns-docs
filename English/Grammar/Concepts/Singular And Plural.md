@@ -48,4 +48,4 @@ tags:
 - Distinguish countable from uncountable nouns to choose the right singular/plural form.
 - Mastering plural formation and subject-verb agreement is foundational for accurate grammar.
 
-> **See also:** [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs)
+> **See also:** [Nouns](/English/Grammar/Concepts/Nouns) · [Subject Verb Agreement](/English/Grammar/Concepts/Subject Verb Agreement) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds) · [Irregular Verbs](/English/Grammar/Resources/Irregular Verbs)

@@ -1,14 +1,35 @@
 # Concepts
 
+- [Adjectives And Adverbs](English/Grammar/Concepts/Adjectives%20And%20Adverbs.md) - Adjective order and -ed/-ing forms, adverb formation and positions, and so/such/too/enough
 - [Adverbial Clauses](English/Grammar/Concepts/Adverbial%20Clauses.md) - What adverbial clauses are, the nine types by meaning, and where they sit in a sentence
+- [Articles](English/Grammar/Concepts/Articles.md) - The indefinite articles a/an, the definite article the, and when to use no article at all
+- [Causative](English/Grammar/Concepts/Causative.md) - Have and get constructions — arranging for someone to do something, and the have/get something done pattern
 - [Cleft Sentences](English/Grammar/Concepts/Cleft%20Sentences.md) - Emphatic "it-cleft" structures for highlighting a subject, object, or adverbial
+- [Comparisons](English/Grammar/Concepts/Comparisons.md) - Comparative and superlative forms, equal comparison with as...as, double comparatives, and irregular forms
+- [Conditional Sentences](English/Grammar/Concepts/Conditional%20Sentences.md) - The four conditional types, alternatives to "if" (unless, provided, in case, otherwise), and if-omission inversion
+- [Conjunctions And Connectives](English/Grammar/Concepts/Conjunctions%20And%20Connectives.md) - Coordinating, correlative, and subordinating conjunctions, plus sentence connectors like however and therefore
+- [Imperatives And Exclamations](English/Grammar/Concepts/Imperatives%20And%20Exclamations.md) - Commands and instructions with the bare infinitive and let's, plus exclamations with what and how
 - [Infinitives And Gerunds](English/Grammar/Concepts/Infinitives%20And%20Gerunds.md) - Forms, functions, and the verb lists that take to-infinitives vs gerunds
 - [Inversion](English/Grammar/Concepts/Inversion.md) - Inverted word order after negative adverbs, "only", "no sooner/hardly", and "so/such" for emphasis
 - [Mixed Conditionals](English/Grammar/Concepts/Mixed%20Conditionals.md) - Conditionals that mix a type-2 and a type-3 clause when condition and result sit in different time frames
+- [Modal Verbs](English/Grammar/Concepts/Modal%20Verbs.md) - Ability, permission, obligation, advice, deduction, and perfect modals — can, could, may, might, must, should, ought to, have to
+- [Noun Clauses](English/Grammar/Concepts/Noun%20Clauses.md) - That-clauses, wh-clauses, and if/whether clauses working as subject, object, or complement
+- [Nouns](English/Grammar/Concepts/Nouns.md) - Countable and uncountable nouns, possessive forms ('s and of), and compound nouns
+- [Participle Clauses](English/Grammar/Concepts/Participle%20Clauses.md) - Present, past, and perfect participle phrases that shorten clauses — having done, being done, and participle use after conjunctions
 - [Passive Voice](English/Grammar/Concepts/Passive%20Voice.md) - The be + V3/ed formula, tense-by-tense forms, and special cases like reporting and two-object passives
+- [Phrasal Verbs](English/Grammar/Concepts/Phrasal%20Verbs.md) - How verb + particle combinations work — separable, inseparable, and three-word phrasal verbs with common examples
+- [Prepositions](English/Grammar/Concepts/Prepositions.md) - Prepositions of time, place, and movement, plus dependent prepositions after verbs, adjectives, and nouns
+- [Pronouns](English/Grammar/Concepts/Pronouns.md) - Personal, possessive, reflexive, demonstrative, indefinite, and interrogative pronouns — including some/any/no/every compounds
+- [Quantifiers](English/Grammar/Concepts/Quantifiers.md) - Words for quantity — much/many, few/little, some/any, all/each/every, both/either/neither, other/another
+- [Questions And Question Tags](English/Grammar/Concepts/Questions%20And%20Question%20Tags.md) - Yes/no and wh- questions, subject questions, indirect questions, tag questions, short answers, and negation
 - [Relative Clauses](English/Grammar/Concepts/Relative%20Clauses.md) - Relative pronouns, defining vs non-defining clauses, and how to reduce them
 - [Reported Speech](English/Grammar/Concepts/Reported%20Speech.md) - Reporting statements, questions, commands and exclamations with tense backshift and adverb changes
-- [Sentence Structure](English/Grammar/Concepts/Sentence%20Structure.md) - Simple, compound, and complex sentence patterns plus the three main conditional types
+- [Sentence Structure](English/Grammar/Concepts/Sentence%20Structure.md) - Simple, compound, and complex sentence patterns and the clause types that build them
 - [Sentence Transformation Patterns](English/Grammar/Concepts/Sentence%20Transformation%20Patterns.md) - Forty equivalent-sentence conversion patterns for sentence transformation exercises
 - [Singular And Plural](English/Grammar/Concepts/Singular%20And%20Plural.md) - Plural-formation rules for nouns, subject-verb agreement, and irregular cases
+- [Subject Verb Agreement](English/Grammar/Concepts/Subject%20Verb%20Agreement.md) - Matching the verb to its subject — proximity rules, indefinite pronouns, collective nouns, quantities, and tricky subjects
 - [Subjunctive Mood](English/Grammar/Concepts/Subjunctive%20Mood.md) - Unreal, wished-for, and suggested situations — mandative subjunctive, "if/wish/as if" forms
+- [There Be And It](English/Grammar/Concepts/There%20Be%20And%20It.md) - The there is/are structure across tenses and "it" as an empty or anticipatory subject
+- [Used To And Be Used To](English/Grammar/Concepts/Used%20To%20And%20Be%20Used%20To.md) - Past habits with "used to" and "would" vs familiarity with "be/get used to" + gerund
+- [Verb Tenses](English/Grammar/Concepts/Verb%20Tenses.md) - The twelve English tenses — formulas, uses, signal words, stative verbs, and the four ways of talking about the future
+- [Word Formation](English/Grammar/Concepts/Word%20Formation.md) - How prefixes and suffixes build new words — noun, verb, adjective, and adverb endings, negative prefixes, and common spelling changes

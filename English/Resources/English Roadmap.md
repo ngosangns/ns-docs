@@ -21,7 +21,7 @@ The roadmap is divided into phases, each with the knowledge, vocabulary, sources
 
 ### Phase 1: Build the Foundation (6 months)
 
-- **Basic grammar:** tenses, [sentence structure](/English/Grammar/Concepts/Sentence Structure), nouns, verbs, adjectives, adverbs, prepositions, conjunctions, [conditionals](/English/Grammar/Concepts/Sentence Structure), the [passive voice](/English/Grammar/Concepts/Passive Voice), negatives, questions, etc.
+- **Basic grammar:** [tenses](/English/Grammar/Concepts/Verb Tenses), [sentence structure](/English/Grammar/Concepts/Sentence Structure), [nouns](/English/Grammar/Concepts/Nouns), [articles](/English/Grammar/Concepts/Articles), [pronouns](/English/Grammar/Concepts/Pronouns), [adjectives and adverbs](/English/Grammar/Concepts/Adjectives And Adverbs), [prepositions](/English/Grammar/Concepts/Prepositions), [conjunctions](/English/Grammar/Concepts/Conjunctions And Connectives), [conditionals](/English/Grammar/Concepts/Conditional Sentences), the [passive voice](/English/Grammar/Concepts/Passive Voice), [questions and question tags](/English/Grammar/Concepts/Questions And Question Tags), etc.
 - **Core vocabulary:** everyday words first, then expanding into work and software-engineering vocabulary.
 - **Listening and speaking:** daily English listening, films, lectures, and joining English conversations to improve both skills.
 - **Reading and writing:** books, newspapers, blogs, and writing short pieces.
