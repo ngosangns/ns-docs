@@ -23,8 +23,13 @@ function relPathOf(absPath, rootDir) {
 
 // isIgnoredPath(relPosix) -> boolean
 // True when a bundle-relative POSIX path falls inside one of IGNORED_PATHS
-// (`.git`, `node_modules`, `.wrangler`, `web`).
+// (`.git`, `node_modules`, `.wrangler`, `web`, `AGENTS.md`, ...). Any path with
+// a dot-prefixed segment is also ignored: hidden directories (.agents,
+// .delta, .markdownvdb, .claude, ...) hold tooling state, not knowledge.
 function isIgnoredPath(relPosix) {
+  if (relPosix.split("/").some((seg) => seg.startsWith("."))) {
+    return true
+  }
   return IGNORED_PATHS.some(
     (ignored) => relPosix === ignored || relPosix.startsWith(ignored + "/")
   )

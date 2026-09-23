@@ -15,7 +15,9 @@ const OKF_KEYS = ["type", "title", "description", "resource", "tags", "timestamp
 // the build/VCS directories, this also excludes non-knowledge areas that live
 // in the repo but are not Concepts: spec docs (.kiro), generated graph output
 // (graphify-out), planning docs (docs), the Node tooling (scripts) and the
-// repo-level README.
+// repo-level agent/readme files. Dot-directories are additionally skipped
+// wholesale by isIgnoredPath (see paths.js), which covers agent tooling dirs
+// like .agents/.delta/.markdownvdb without listing each one here.
 const IGNORED_PATHS = [
   ".git",
   "node_modules",
@@ -27,7 +29,8 @@ const IGNORED_PATHS = [
   "scripts",
   "backups",
   "export",
-  "README.md"
+  "README.md",
+  "AGENTS.md"
 ]
 
 // Maps a top-level directory prefix to the inferred `type` used when a Concept

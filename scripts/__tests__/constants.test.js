@@ -35,7 +35,8 @@ test("IGNORED_PATHS excludes build, VCS and non-knowledge directories", () => {
     "scripts",
     "backups",
     "export",
-    "README.md"
+    "README.md",
+    "AGENTS.md"
   ])
 })
 
