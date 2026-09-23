@@ -1,4 +1,7 @@
 # Concepts
 
-* [Ladakh](Travel/Destinations/International/Ladakh.md) - Ghi chú phòng tránh say độ cao (AMS) từ bảng hướng dẫn y tế tại sân bay Leh
-* [Trung Quoc](Travel/Destinations/International/Trung%20Quoc.md) - https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-di-san-con-%C4%91uong-to-lua-%C4%90on-hoang-tay-an-va-bac-kinh.996056/
+- [China](Travel/Destinations/International/China.md) - Practical handbook for self-guided travel in China - apps, payments, SIM, transport, costs
+- [China Itineraries](Travel/Destinations/International/China%20Itineraries.md) - Community trip reports and route ideas for China - Yunnan, West Sichuan, border crossings
+- [China Visa](Travel/Destinations/International/China%20Visa.md) - China tourist visa notes - agency route vs DIY L30 application walkthrough in HCMC
+- [Ladakh](Travel/Destinations/International/Ladakh.md) - Altitude sickness (AMS) prevention notes from the health signage at Leh airport
+- [South Korea](Travel/Destinations/International/South%20Korea.md) - Quick Seoul day-trip notes - sights, prep, food

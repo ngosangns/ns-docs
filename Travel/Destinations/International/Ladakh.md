@@ -1,35 +1,34 @@
 ---
 area: travel
-domain: travel-guide
+domain: ladakh
 type: guide
 title: Ladakh
-description: Ghi chú phòng tránh say độ cao (AMS) từ bảng hướng dẫn y tế tại sân bay Leh
-timestamp: '2026-09-08T00:00:00.000Z'
+description: Altitude sickness (AMS) prevention notes from the health signage at Leh airport
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - travel
-  - travel-guide
   - ladakh
   - health
 ---
 
 # Ladakh
 
-## Phòng tránh say độ cao (AMS) - hướng dẫn tại sân bay Leh
+## AMS Prevention - Official Guidance at Leh Airport
 
-Tại sân bay Leh có bảng hướng dẫn của cơ quan sức khoẻ địa phương về việc phòng tránh say độ cao (Acute Mountain Sickness - AMS), nội dung như sau:
+Leh airport displays a local health-authority notice on preventing Acute Mountain Sickness (AMS):
 
-- **Thuốc**: uống Acetazolamide 250mg, 2 lần/ngày
-  - Bắt đầu uống trước khi đi 1-2 ngày
-  - Tiếp tục uống 2-3 ngày sau khi đã lên độ cao
-- **Nghỉ ngơi**: nghỉ ngơi 24h khi vừa đến Leh, tránh vận động mạnh
-- **Ăn uống**:
-  - Uống nhiều nước
-  - Ăn nhiều tinh bột
-  - Không sử dụng các chất kích thích (rượu bia, thuốc lá, ...)
+- **Medication:** Acetazolamide 250 mg, twice daily.
+  - Start 1-2 days before arrival.
+  - Continue for 2-3 days after reaching altitude.
+- **Rest:** take it easy for the first 24 hours in Leh; avoid exertion.
+- **Food and drink:**
+  - Drink plenty of water.
+  - Eat carbohydrate-rich food.
+  - Avoid stimulants (alcohol, tobacco, etc.).
 
-> Ghi chú: sân bay Leh nghiêm cấm chụp ảnh nên không lưu lại được ảnh bảng hướng dẫn gốc.
+> Note: photography is strictly prohibited at Leh airport, so no photo of the original signage exists.
 
-## Việc cần cân nhắc thêm
+## Additional Considerations
 
-- Tham khảo ý kiến bác sĩ trước khi dùng Acetazolamide (chống chỉ định/tác dụng phụ với một số người).
-- Lịch trình nên có buffer nghỉ ngơi ở Leh trước khi di chuyển lên các điểm cao hơn.
+- Consult a doctor before taking Acetazolamide (contraindications/side effects for some people).
+- Build rest-buffer days in Leh into the itinerary before moving to higher points.

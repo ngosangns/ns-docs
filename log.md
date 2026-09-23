@@ -1,4 +1,6 @@
 ## 2026-09-23
+**Update** Rewrite entire Travel section in English and restructure: new Guides/, Trips/, Destinations/Vietnam + Destinations/International layout; split Tay Bac series into Northwest Vietnam/ subfolder (7 files); split Trung Quoc into China/China Visa/China Itineraries; merge Ha Giang community notes into Destinations/Vietnam/Ha Giang; extract Ha Long food guide from company trip into Destinations/Vietnam/Ha Long; dissolve Du Lich into Hanoi + South Korea; rename all files to English
+**Update** Refactor Travel: domain metadata now names the actual topic (ha-giang, tay-bac, vung-tau, ...) instead of duplicating type; reclassify HA Giang/Hue/Tay Bac chapters as guide; strip leftover numbered-heading artifacts across the Tay Bac series and the two trip write-ups; move Resources/Du Lich sang Planning (nó là 1 itinerary, không phải resource); tách đoạn ghi chú Bảo Lộc lạc chỗ trong Vung Tau sang Sai Gon Da Lat Cung Duong
 **Update** Replace Quartz static site generator (web/quartz) with a custom SolidJS build (web/); resolves links via scripts/okf-core directly
 **Update** Technology/AI/Tools/GenAI/Content And Multimedia Tools: note briaai/RMBG-2.0 (background removal)
 **Update** Technology/AI/Tools/Data/Knowledge And Data Management: note convaiinnovations/laya (multilingual classification/decision model)

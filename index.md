@@ -4,7 +4,9 @@ okf_version: "0.1"
 
 # Sections
 
+* [.agents](.agents/index.md)
 * [.delta](.delta/index.md)
+* [.markdownvdb](.markdownvdb/index.md)
 * [Attachments](Attachments/index.md)
 * [English](English/index.md)
 * [inbox](inbox/index.md)

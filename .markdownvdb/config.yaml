@@ -1,0 +1,49 @@
+# markdown-vdb configuration
+# See https://github.com/example/markdown-vdb for documentation
+
+# Embedding provider configuration
+embedding:
+  provider: gemini
+  model: gemini-embedding-001
+  dimensions: auto
+  batch_size: 10
+
+# Search defaults
+search:
+  limit: 10
+  min_score: 0.0
+  mode: hybrid
+  rrf_k: 60.0
+  # decay:
+  #   enabled: false
+  #   half_life: 30
+  #   anchor: modified
+
+# Chunking
+chunking:
+  max_tokens: 512
+  overlap_tokens: 50
+
+# Clustering
+clustering:
+  enabled: true
+  rebalance_threshold: 50
+  # custom:
+  #   - name: my-cluster
+  #     seeds: ["seed1.md", "seed2.md"]
+
+# File watching
+watch:
+  enabled: true
+  debounce_ms: 300
+
+# Source directories
+sources:
+  dirs:
+    - .
+  ignore:
+    - .markdownvdb/**
+    - .delta/**
+    - web/**
+    - scripts/**
+    - Attachments/**
