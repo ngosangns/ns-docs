@@ -9,11 +9,13 @@ import { initDarkModeToggle } from "./islands/dark-mode-toggle"
 import { initSidebarPersistence } from "./islands/sidebar-persistence"
 import { initTocScrollspy } from "./islands/toc-scrollspy"
 import { initMobileNavDrawer } from "./islands/mobile-nav-drawer"
+import { initSoftRouter } from "./islands/soft-router"
 
 initDarkModeToggle()
 initSidebarPersistence()
 initTocScrollspy()
 initMobileNavDrawer()
+initSoftRouter()
 
 const searchRoot = document.getElementById("search-root")
 if (searchRoot) {
