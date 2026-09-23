@@ -113,7 +113,7 @@ function preprocessWikilinks(
     }
     if (inFence) return line
 
-    return line.replace(
+    return wrapSpacedLinkTargets(line).replace(
       linksCore.wikilinkRegex(),
       (_full: string, inner: string) => {
         const [rawTarget = "", rawAlias] = inner.split("|")
@@ -136,6 +136,21 @@ function preprocessWikilinks(
     )
   })
   return lines.join("\n")
+}
+
+const SPACED_LINK_TARGET = /\]\(([^<>"'()]* [^<>"'()]*)\)/g
+
+/**
+ * Wraps link destinations containing literal spaces in angle brackets so
+ * remark-parse accepts them (`[a](/b c)` is not a valid CommonMark link and
+ * would render as raw text). The vault's authoring convention writes
+ * bundle-relative targets with literal spaces (`/English/Grammar/Concepts/...
+ * `), which okf-core resolves fine — this makes the render pipeline equally
+ * tolerant. Destinations with quotes (a `"title"` part) or brackets are left
+ * untouched.
+ */
+function wrapSpacedLinkTargets(line: string): string {
+  return line.replace(SPACED_LINK_TARGET, "](<$1>)")
 }
 
 function remarkResolveInternalLinks(
