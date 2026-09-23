@@ -140,6 +140,21 @@ function remarkResolveInternalLinks(
   }
 }
 
+/**
+ * Drops a leading top-level `# Heading` from the body: the page shell
+ * (Layout) already renders the frontmatter title as the page's one H1, so an
+ * identical/near-identical leading heading in the body would just duplicate
+ * it (the repo's Concept convention is `# <Title>` as the body's first line).
+ */
+function remarkStripLeadingH1() {
+  return (tree: MdastRoot) => {
+    const first = tree.children[0]
+    if (first && first.type === "heading" && first.depth === 1) {
+      tree.children.shift()
+    }
+  }
+}
+
 function rehypeCollectToc(toc: TocEntry[]) {
   return (tree: HastRoot) => {
     visit(tree, "element", (node: HastElement) => {
@@ -175,6 +190,7 @@ export async function renderMarkdown(
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkMath)
+    .use(remarkStripLeadingH1)
     .use(
       remarkResolveInternalLinks,
       sourceId,

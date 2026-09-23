@@ -1,21 +1,32 @@
-import type { Page } from "../content/types"
+import type { Page, NavNode } from "../content/types"
+import { Layout } from "../components/Layout"
+import type { BacklinkEntry } from "../components/Backlinks"
+import { breadcrumbSegments } from "../lib/routes"
+import { ancestorPaths } from "../content/nav"
 
-export function ConceptPage(props: { page: Page }) {
+export interface ConceptPageProps {
+  page: Page
+  navTree: NavNode
+  backlinks: BacklinkEntry[]
+  cssHref: string
+}
+
+export function ConceptPage(props: ConceptPageProps) {
   const { page } = props
   return (
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{page.frontmatter.title}</title>
-        {page.frontmatter.description ? (
-          <meta name="description" content={page.frontmatter.description} />
-        ) : null}
-      </head>
-      <body>
-        <h1>{page.frontmatter.title}</h1>
-        <article innerHTML={page.contentHtml} />
-      </body>
-    </html>
+    <Layout
+      title={page.frontmatter.title}
+      description={page.frontmatter.description}
+      cssHref={props.cssHref}
+      navTree={props.navTree}
+      activeId={page.id}
+      activeAncestors={new Set(ancestorPaths(page.id))}
+      crumbs={breadcrumbSegments(page.id)}
+      toc={page.toc}
+      backlinks={props.backlinks}
+      frontmatter={page.frontmatter}
+    >
+      <article innerHTML={page.contentHtml} />
+    </Layout>
   )
 }
