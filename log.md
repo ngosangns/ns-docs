@@ -1,4 +1,7 @@
 ## 2026-09-23
+**Update** Technology/AI/Tools/GenAI/Content And Multimedia Tools: note briaai/RMBG-2.0 (background removal)
+**Update** Technology/AI/Tools/Data/Knowledge And Data Management: note convaiinnovations/laya (multilingual classification/decision model)
+**Update** Technology/Security/Tools/Security Tools: new "PII Detection & Data Privacy" section, note openai/privacy-filter
 **Update** Refactor English/TOEIC docs: split English/Grammar into Concepts/Resources, move TOEIC content into English/TOEIC/Concepts, move English Roadmap từ Technology/AI/Practices về English/Resources
 ## 2026-09-22
 **Creation** Technology/System-Design/Practices/Kafka DLQ Va Retry: chắt thread Golang Vietnam 10/04/2026 về DLQ, retry topic và replay

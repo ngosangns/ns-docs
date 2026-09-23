@@ -61,3 +61,8 @@ Công cụ hỗ trợ kiểm thử xâm nhập và khai thác lỗi.
 - https://github.com/cr0hn/dockerscan — All-in-one Docker security scanner; scans images for vulnerabilities and leaked secrets, audits container/host configuration (root containers, exposed Docker socket), analyzes Docker network exposure, and aligns with CIS Benchmark/NIST SP 800-190.
 - https://github.com/evyatarmeged/Raccoon — High-performance recon and vulnerability scanning tool (3.2k+ stars); DNS enumeration, WHOIS/TLS lookups, port scanning with Nmap scripts, subdomain enumeration, URL fuzzing with SecLists wordlists, WAF detection, Tor/proxy routing, and async performance via Python asyncio.
 - https://github.com/openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.
+
+## 7. PII Detection & Data Privacy
+Công cụ phát hiện/che thông tin cá nhân (PII) trong dữ liệu văn bản.
+
+- https://huggingface.co/openai/privacy-filter — Token-classification model của OpenAI để phát hiện/mask PII trong text (account number, address, email, person name, phone, URL, date, secret); transformer 1.5B tham số tổng / 50M active (grouped-query attention + sparse MoE) với constrained Viterbi decoding để đảm bảo span nhãn coherent thay vì predict từng token độc lập. Chạy local trên browser/laptop, context 128K token, có thể chỉnh precision/recall lúc runtime và fine-tune theo domain. Apache 2.0; chủ yếu train tiếng Anh (robustness đa ngôn ngữ hạn chế). Lưu ý: chỉ là một lớp hỗ trợ, không phải giải pháp anonymization hoàn chỉnh — vẫn có false positive/negative, đặc biệt với tên hiếm hoặc văn bản ngoài phân phối training.
