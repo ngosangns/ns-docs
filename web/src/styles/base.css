@@ -8,13 +8,6 @@
 @import "@fontsource/jetbrains-mono/500.css";
 @import "katex/dist/katex.min.css";
 
-/* Native cross-document page transition (MPA navigation - this site has no
-   client router). Progressive enhancement: browsers without View Transitions
-   support just ignore this at-rule and navigate normally. */
-@view-transition {
-  navigation: auto;
-}
-
 *,
 *::before,
 *::after {
@@ -51,10 +44,6 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
-  }
-
-  @view-transition {
-    navigation: none;
   }
 }
 

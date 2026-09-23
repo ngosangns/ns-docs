@@ -90,7 +90,7 @@ export function Layout(props: LayoutProps) {
             />
           </aside>
           <main class="site-main">
-            <div class="site-main__inner enter-content">
+            <div class="site-main__inner">
               <Show when={props.crumbs && props.crumbs.length > 0}>
                 <Breadcrumbs crumbs={props.crumbs!} />
               </Show>

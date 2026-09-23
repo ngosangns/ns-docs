@@ -10,16 +10,12 @@ import { scrollActiveIntoView } from "./sidebar-scroll"
  * keep working exactly as before). When JS is available, internal link
  * clicks are intercepted, the target page is fetched and only its
  * `.site-shell` is swapped in - so the CSS/JS already loaded in this
- * document never reloads. Wrapped in the View Transitions API where
- * available, with a direction-aware slide (deeper into the tree vs. back
- * up it) rather than a generic cross-fade.
+ * document never reloads.
  */
 
 const SHELL_SELECTOR = ".site-shell"
 const MAX_CACHE_ENTRIES = 50
 const PROGRESS_DELAY_MS = 150
-
-type NavDirection = "forward" | "back" | "none"
 
 interface PageEntry {
   title: string
@@ -29,17 +25,9 @@ interface PageEntry {
 
 interface HistoryState {
   scrollY: number
-  navIndex: number
-}
-
-type ViewTransitionCapableDocument = Document & {
-  startViewTransition?: (callback: () => void | Promise<void>) => {
-    finished: Promise<void>
-  }
 }
 
 const cache = new Map<string, Promise<PageEntry>>()
-let historyNavIndex = 0
 let activeNavToken = 0
 let progressTimer: ReturnType<typeof setTimeout> | null = null
 
@@ -129,49 +117,6 @@ function applyPage(entry: PageEntry) {
   refreshTocScrollspy()
 }
 
-const DIRECTION_MODIFIER: Record<NavDirection, string> = {
-  forward: "forward",
-  back: "back",
-  none: "fade"
-}
-
-// Fallback for browsers without the View Transitions API: innerHTML swap
-// alone replaces the old content instantly with no exit animation at all.
-// Clone the outgoing content into a fixed-position overlay that fades/
-// slides out while the newly-swapped-in content fades/slides in - both
-// driven by the same duration so the previous page visibly fades out at
-// the same time the new one fades in, rather than one after the other.
-function swapWithManualCrossfade(entry: PageEntry, direction: NavDirection) {
-  const modifier = DIRECTION_MODIFIER[direction]
-  const oldInner = document.querySelector<HTMLElement>(".site-main__inner")
-
-  if (oldInner) {
-    const rect = oldInner.getBoundingClientRect()
-    const clone = oldInner.cloneNode(true) as HTMLElement
-    clone.classList.add(
-      "content-swap-exit-clone",
-      `content-swap-exit-clone--${modifier}`
-    )
-    clone.style.top = `${rect.top}px`
-    clone.style.left = `${rect.left}px`
-    clone.style.width = `${rect.width}px`
-    document.body.appendChild(clone)
-    clone.addEventListener("animationend", () => clone.remove(), {
-      once: true
-    })
-    setTimeout(() => clone.remove(), 600)
-  }
-
-  applyPage(entry)
-
-  const newInner = document.querySelector<HTMLElement>(".site-main__inner")
-  newInner?.classList.remove("enter-content")
-  newInner?.classList.add(
-    "content-swap-enter",
-    `content-swap-enter--${modifier}`
-  )
-}
-
 function scrollFor(url: string, restoreY: number | null) {
   const hash = new URL(url, location.href).hash
   if (restoreY != null) {
@@ -185,11 +130,7 @@ function scrollFor(url: string, restoreY: number | null) {
   window.scrollTo(0, 0)
 }
 
-async function swapTo(
-  url: string,
-  restoreScrollY: number | null,
-  direction: NavDirection
-) {
+async function swapTo(url: string, restoreScrollY: number | null) {
   const token = ++activeNavToken
   startProgress()
 
@@ -209,20 +150,7 @@ async function swapTo(
   if (token !== activeNavToken) return
 
   closeMobileNavIfOpen()
-
-  const html = document.documentElement
-  html.dataset.navDirection = direction
-
-  const doc = document as ViewTransitionCapableDocument
-  if (doc.startViewTransition) {
-    await doc
-      .startViewTransition(() => applyPage(entry))
-      .finished.catch(() => {})
-  } else {
-    swapWithManualCrossfade(entry, direction)
-  }
-  delete html.dataset.navDirection
-
+  applyPage(entry)
   scrollActiveIntoView()
   scrollFor(url, restoreScrollY)
 }
@@ -233,18 +161,6 @@ function isSamePage(url: string): boolean {
   return (
     target.pathname === current.pathname && target.search === current.search
   )
-}
-
-function pathDepth(url: string): number {
-  return new URL(url, location.href).pathname.split("/").filter(Boolean).length
-}
-
-function directionForClick(targetUrl: string): NavDirection {
-  const from = pathDepth(location.href)
-  const to = pathDepth(targetUrl)
-  if (to > from) return "forward"
-  if (to < from) return "back"
-  return "none"
 }
 
 const NON_PAGE_PATHS = new Set([
@@ -269,13 +185,7 @@ function isSoftNavigable(link: HTMLAnchorElement): boolean {
 export function initSoftRouter() {
   if (!("pushState" in history)) return
   history.scrollRestoration = "manual"
-  history.replaceState(
-    {
-      scrollY: window.scrollY,
-      navIndex: historyNavIndex
-    } satisfies HistoryState,
-    ""
-  )
+  history.replaceState({ scrollY: window.scrollY } satisfies HistoryState, "")
 
   document.body.addEventListener("click", e => {
     if (e.defaultPrevented || e.button !== 0) return
@@ -286,21 +196,9 @@ export function initSoftRouter() {
     if (isSamePage(link.href)) return
 
     e.preventDefault()
-    const direction = directionForClick(link.href)
-    history.replaceState(
-      {
-        scrollY: window.scrollY,
-        navIndex: historyNavIndex
-      } satisfies HistoryState,
-      ""
-    )
-    historyNavIndex++
-    swapTo(link.href, null, direction).then(() => {
-      history.pushState(
-        { scrollY: 0, navIndex: historyNavIndex } satisfies HistoryState,
-        "",
-        link.href
-      )
+    history.replaceState({ scrollY: window.scrollY } satisfies HistoryState, "")
+    swapTo(link.href, null).then(() => {
+      history.pushState({ scrollY: 0 } satisfies HistoryState, "", link.href)
     })
   })
 
@@ -313,14 +211,6 @@ export function initSoftRouter() {
 
   window.addEventListener("popstate", e => {
     const state = e.state as HistoryState | null
-    const targetIndex = state?.navIndex ?? 0
-    const direction: NavDirection =
-      targetIndex === historyNavIndex
-        ? "none"
-        : targetIndex > historyNavIndex
-          ? "forward"
-          : "back"
-    historyNavIndex = targetIndex
-    swapTo(location.href, state?.scrollY ?? 0, direction)
+    swapTo(location.href, state?.scrollY ?? 0)
   })
 }
