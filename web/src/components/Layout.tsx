@@ -34,10 +34,19 @@ export function Layout(props: LayoutProps) {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{props.title}</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS"
+          href="/rss.xml"
+        />
         <Show when={props.description}>
           <meta name="description" content={props.description} />
         </Show>
-        <link rel="stylesheet" href={props.cssHref} />
+        <Show when={props.cssHref}>
+          <link rel="stylesheet" href={props.cssHref} />
+        </Show>
         <script innerHTML={FOUC_GUARD} />
         <script type="module" src={props.jsHref} />
       </head>

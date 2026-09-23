@@ -6,6 +6,11 @@ import fs from "node:fs/promises"
 import { loadSiteGraph } from "./src/content/site-graph"
 import { collectFolderNodes } from "./src/content/nav"
 import { buildSearchIndexJson } from "./src/content/search-index"
+import {
+  buildSitemapXml,
+  buildRssXml,
+  buildRobotsTxt
+} from "./src/content/feeds"
 import type { Page, NavNode, SiteGraph } from "./src/content/types"
 import type { ConceptPageProps } from "./src/pages/ConceptPage"
 import type { FolderPageProps } from "./src/pages/FolderPage"
@@ -219,6 +224,21 @@ async function main() {
   await fs.writeFile(
     path.join(distDir, "search-index.json"),
     buildSearchIndexJson(graph.pages),
+    "utf-8"
+  )
+  await fs.writeFile(
+    path.join(distDir, "sitemap.xml"),
+    buildSitemapXml(graph.pages),
+    "utf-8"
+  )
+  await fs.writeFile(
+    path.join(distDir, "rss.xml"),
+    buildRssXml(graph.pages),
+    "utf-8"
+  )
+  await fs.writeFile(
+    path.join(distDir, "robots.txt"),
+    buildRobotsTxt(),
     "utf-8"
   )
 

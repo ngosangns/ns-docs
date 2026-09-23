@@ -1,4 +1,5 @@
 ## 2026-09-23
+**Update** Replace Quartz static site generator (web/quartz) with a custom SolidJS build (web/); resolves links via scripts/okf-core directly
 **Update** Technology/AI/Tools/GenAI/Content And Multimedia Tools: note briaai/RMBG-2.0 (background removal)
 **Update** Technology/AI/Tools/Data/Knowledge And Data Management: note convaiinnovations/laya (multilingual classification/decision model)
 **Update** Technology/Security/Tools/Security Tools: new "PII Detection & Data Privacy" section, note openai/privacy-filter

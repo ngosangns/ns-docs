@@ -1,6 +1,6 @@
 import fs from "node:fs"
 import path from "node:path"
-import okfCore from "../../../scripts/okf-core/index.js"
+import { okfCore } from "../lib/okf-core"
 import type { OkfConcept, OkfReservedFile } from "../types/okf-core"
 
 export interface RawBundle {

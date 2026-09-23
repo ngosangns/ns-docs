@@ -2,21 +2,21 @@ version: "3"
 
 tasks:
   web:setup:
-    desc: Install Quartz dependencies and community plugins
+    desc: Install the site's SolidJS build dependencies
     cmds:
       - npm run web:setup
 
   web:build:
-    desc: Build the knowledge base site with Quartz
+    desc: Build the knowledge base site
     cmds:
       - npm run web:build
 
   web:serve:
-    desc: Build, serve locally and watch notes with Quartz
+    desc: Serve the site locally and live-reload on note edits
     cmds:
       - npm run web:serve
 
   web:deploy:
-    desc: Build and deploy the Quartz site to Cloudflare Pages
+    desc: Build and deploy the site to Cloudflare Pages
     cmds:
       - npm run web:deploy

@@ -25,20 +25,20 @@ Install with `npm install`.
 
 `require("./okf-core")` exposes the full public surface:
 
-| Export | Purpose |
-| --- | --- |
-| `walkBundle(root)` | Strict walk → `{ root, concepts, indexFiles, logFiles, attachments, index }`. Throws on unparseable YAML. |
-| `walkBundleTolerant(root)` | Per-file-tolerant walk → `{ root, concepts, reservedFiles }`; bad files flagged `parseError: true`. |
-| `loadBundle(root)` | Convenience: strict walk, falling back to tolerant → `{ concepts, index, degraded }`. |
-| `parseConcept(absPath, root)` | Read + parse a single Concept. |
-| `parseFrontmatter(raw)` | `{ data, body, hadFrontmatter }`; throws on invalid YAML; preserves unknown keys. |
-| `serializeConcept(concept)` | Inverse of parse; round-trips frontmatter + body. |
-| `conceptIdOf(absPath, root)` | Derive a Concept_Id (pure, idempotent). |
-| `isReservedFile(relPath)` | True for `index.md` / `log.md` (case-insensitive). |
-| `conceptKeys` / `addToIndex` / `buildIndex` | Multi-key Concept lookup index used for link resolution. |
-| `normalizeLink(raw, sourceId, index)` | Normalize a link to a Bundle_Relative_Link, or `null`. |
-| `resolveTarget(raw, sourceId, index)` | Resolve a link to a Concept, or `null`. |
-| `toPosix` / `relPathOf` / `isIgnoredPath` / `isMarkdown` | Path helpers. |
+| Export                                                   | Purpose                                                                                                   |
+| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `walkBundle(root)`                                       | Strict walk → `{ root, concepts, indexFiles, logFiles, attachments, index }`. Throws on unparseable YAML. |
+| `walkBundleTolerant(root)`                               | Per-file-tolerant walk → `{ root, concepts, reservedFiles }`; bad files flagged `parseError: true`.       |
+| `loadBundle(root)`                                       | Convenience: strict walk, falling back to tolerant → `{ concepts, index, degraded }`.                     |
+| `parseConcept(absPath, root)`                            | Read + parse a single Concept.                                                                            |
+| `parseFrontmatter(raw)`                                  | `{ data, body, hadFrontmatter }`; throws on invalid YAML; preserves unknown keys.                         |
+| `serializeConcept(concept)`                              | Inverse of parse; round-trips frontmatter + body.                                                         |
+| `conceptIdOf(absPath, root)`                             | Derive a Concept_Id (pure, idempotent).                                                                   |
+| `isReservedFile(relPath)`                                | True for `index.md` / `log.md` (case-insensitive).                                                        |
+| `conceptKeys` / `addToIndex` / `buildIndex`              | Multi-key Concept lookup index used for link resolution.                                                  |
+| `normalizeLink(raw, sourceId, index)`                    | Normalize a link to a Bundle_Relative_Link, or `null`.                                                    |
+| `resolveTarget(raw, sourceId, index)`                    | Resolve a link to a Concept, or `null`.                                                                   |
+| `toPosix` / `relPathOf` / `isIgnoredPath` / `isMarkdown` | Path helpers.                                                                                             |
 
 Internal modules: `constants.js` (`RESERVED_FILES`, `OKF_KEYS`, `IGNORED_PATHS`, `TYPE_RULES`), `paths.js`, `id.js`, `frontmatter.js`, `walk.js`, `links.js`.
 
@@ -122,32 +122,35 @@ node scripts/okf-log.js add --kind=Update|Creation|Deprecation --message="..." [
 
 All read through `okf-core`, so they share one parse/link model.
 
-| Script | npm alias | Purpose |
-| --- | --- | --- |
-| `check-links.js` | `links:check`, `links:broken` | Report unresolved internal links as warnings. Always exits 0. `--broken` lists only broken links. |
-| `validate-frontmatter.js` | `frontmatter:validate`, `frontmatter:missing` | Delegates to conformance. Missing `type` → error; missing `tags` → warning. `--missing` lists files missing required frontmatter. |
-| `generate-index.js` | `index:generate` | Delegates to `okf-index` (dry-run by default; `--apply` to write). |
-| `find-orphaned.js` | `notes:orphaned` | List Concepts not linked from anywhere. |
-| `stats.js` | `stats` | Counts: concepts, frontmatter, links, tags, size by directory. |
-| `tags-stats.js` | `tags:stats`, `tags:list` | Tag frequency and breakdown from frontmatter `tags`. |
-| `find-duplicates.js` | `duplicates:find` | Detect duplicate content. |
-| `find-unused-attachments.js` | `attachments:unused`, `attachments:clean` | Find (and optionally remove) unreferenced attachments. |
-| `check-images.js` | `images:check`, `images:broken` | Validate image references. |
-| `backup.js` | `backup` | Snapshot the workspace (used by `okf-migrate --backup`). |
-| `export.js` | `export` | Export the vault. |
+| Script                       | npm alias                                     | Purpose                                                                                                                           |
+| ---------------------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `check-links.js`             | `links:check`, `links:broken`                 | Report unresolved internal links as warnings. Always exits 0. `--broken` lists only broken links.                                 |
+| `validate-frontmatter.js`    | `frontmatter:validate`, `frontmatter:missing` | Delegates to conformance. Missing `type` → error; missing `tags` → warning. `--missing` lists files missing required frontmatter. |
+| `generate-index.js`          | `index:generate`                              | Delegates to `okf-index` (dry-run by default; `--apply` to write).                                                                |
+| `find-orphaned.js`           | `notes:orphaned`                              | List Concepts not linked from anywhere.                                                                                           |
+| `stats.js`                   | `stats`                                       | Counts: concepts, frontmatter, links, tags, size by directory.                                                                    |
+| `tags-stats.js`              | `tags:stats`, `tags:list`                     | Tag frequency and breakdown from frontmatter `tags`.                                                                              |
+| `find-duplicates.js`         | `duplicates:find`                             | Detect duplicate content.                                                                                                         |
+| `find-unused-attachments.js` | `attachments:unused`, `attachments:clean`     | Find (and optionally remove) unreferenced attachments.                                                                            |
+| `check-images.js`            | `images:check`, `images:broken`               | Validate image references.                                                                                                        |
+| `backup.js`                  | `backup`                                      | Snapshot the workspace (used by `okf-migrate --backup`).                                                                          |
+| `export.js`                  | `export`                                      | Export the vault.                                                                                                                 |
 
-## Web (Quartz site)
+## Web (SolidJS site)
 
-The vault is published with [Quartz](https://quartz.jzhao.xyz), vendored in
-`web/quartz/`. Quartz reads the vault root directly (`-d ../..`); infrastructure
-folders are excluded via `ignorePatterns` in `web/quartz/quartz.config.yaml`.
+The vault is published by a custom SolidJS static site generator in `web/`
+(Vite + `solid-js/web` SSR). It walks the bundle and resolves links via
+`scripts/okf-core` directly (the same module `links:check`/`conformance:check`
+use), so the site's link resolution never drifts from those tools. See
+`web/src/content/` for the build pipeline and `web/src/dev/ssg-runtime.ts` +
+`web/vite.config.ts` for the dev-mode on-demand renderer.
 
-| npm alias | Purpose |
-| --- | --- |
-| `web:setup` | One-time: install Quartz npm deps + community plugins (pinned by `web/quartz/quartz.lock.json`). |
-| `web:build` | Build the static site into `web/quartz/public`. |
-| `web:serve` | Build, serve locally and rebuild on changes. |
-| `web:deploy` | Build and deploy to Cloudflare Pages. |
+| npm alias    | Purpose                                                               |
+| ------------ | --------------------------------------------------------------------- |
+| `web:setup`  | One-time: install the site's build dependencies (`web/package.json`). |
+| `web:build`  | Build the static site into `web/dist`.                                |
+| `web:serve`  | Serve locally, on-demand rendering with live-reload on note edits.    |
+| `web:deploy` | Build and deploy `web/dist` to Cloudflare Pages.                      |
 
 ## Testing
 

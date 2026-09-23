@@ -1,4 +1,4 @@
-import okfCore from "../../../scripts/okf-core/index.js"
+import { okfCore } from "../lib/okf-core"
 import type { OkfBundleIndex } from "../types/okf-core"
 import { loadRawBundle } from "./loader"
 import { normalizeFrontmatter } from "./frontmatter"

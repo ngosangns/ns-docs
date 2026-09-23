@@ -4,16 +4,16 @@ A personal knowledge base organized as an **Open Knowledge Format (OKF) v0.1 Kno
 
 ## Layout
 
-| Path | Purpose |
-| --- | --- |
-| `English/`, `Life/`, `Projects/`, `Technology/`, `Travel/`, `inbox/`, … | Concept directories (knowledge content). |
-| `Attachments/` | Binary resources (images, PDFs) referenced by Concepts. |
-| `index.md` (per directory) | Generated navigation; the root `index.md` declares `okf_version: "0.1"`. |
-| `log.md` | Newest-first change history at the bundle root. |
-| `scripts/` | Node.js tooling — see [`scripts/README.md`](scripts/README.md). |
-| `scripts/okf-core/` | Shared core library (parse, traverse, resolve links, index). |
-| `web/quartz/` | [Quartz](https://quartz.jzhao.xyz) static site generator that publishes the vault (explorer, full-text search, graph view, backlinks). |
-| `.kiro/specs/okf-redesign/` | Requirements, design and tasks for the OKF redesign. |
+| Path                                                                    | Purpose                                                                                                                                                                                                             |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `English/`, `Life/`, `Projects/`, `Technology/`, `Travel/`, `inbox/`, … | Concept directories (knowledge content).                                                                                                                                                                            |
+| `Attachments/`                                                          | Binary resources (images, PDFs) referenced by Concepts.                                                                                                                                                             |
+| `index.md` (per directory)                                              | Generated navigation; the root `index.md` declares `okf_version: "0.1"`.                                                                                                                                            |
+| `log.md`                                                                | Newest-first change history at the bundle root.                                                                                                                                                                     |
+| `scripts/`                                                              | Node.js tooling — see [`scripts/README.md`](scripts/README.md).                                                                                                                                                     |
+| `scripts/okf-core/`                                                     | Shared core library (parse, traverse, resolve links, index).                                                                                                                                                        |
+| `web/`                                                                  | Custom SolidJS static site generator that publishes the vault (folder explorer, full-text search, backlinks, tags). Builds via `scripts/okf-core` directly, so link resolution stays consistent with `links:check`. |
+| `.kiro/specs/okf-redesign/`                                             | Requirements, design and tasks for the OKF redesign.                                                                                                                                                                |
 
 ## Quick start
 
@@ -50,11 +50,11 @@ npm run stats
 npm run tags:stats
 npm run notes:orphaned
 
-# Web (Quartz site)
-npm run web:setup          # one-time: install Quartz deps + community plugins
-npm run web:build          # build static site into web/quartz/public
-npm run web:serve          # build, serve locally and watch notes
-npm run web:deploy         # deploy web/quartz/public to Cloudflare Pages
+# Web (SolidJS site, web/)
+npm run web:setup          # one-time: install the site's build dependencies
+npm run web:build          # build static site into web/dist
+npm run web:serve          # serve locally, live-reload on note edits
+npm run web:deploy         # deploy web/dist to Cloudflare Pages
 ```
 
 ## Conventions
