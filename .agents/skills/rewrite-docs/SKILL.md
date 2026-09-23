@@ -5,7 +5,7 @@ description: Rewrite and restructure a folder of markdown docs in this vault to 
 
 # Rewrite a docs folder
 
-This vault (an OKF knowledge bundle) was partially converted from Vietnamese notes into English. Commit `529f69f` ("docs(travel): rewrite Travel section in English and restructure") is the canonical example of what "done" looks like — read `git show 529f69f` whenever you need a concrete before/after reference. This skill applies that same treatment to any other folder (`Life/`, `Projects/`, `Technology/`, `inbox/`, subfolders, ...).
+This vault (an OKF knowledge bundle) was partially converted from Vietnamese notes into English. Commit `529f69f` ("docs(travel): rewrite Travel section in English and restructure") is the canonical example of what "done" looks like — read `git show 529f69f` whenever you need a concrete before/after reference. This skill applies that same treatment to any other folder (`Life/`, `Technology/`, `inbox/`, subfolders, ...).
 
 The goal is not a mechanical translation. It is a re-organization: the old folders grew organically, so files mix several topics, sit in the wrong category, duplicate each other, or are thin stubs. A good rewrite produces a structure where each file has one clear job and each folder groups files by _kind_ of content.
 

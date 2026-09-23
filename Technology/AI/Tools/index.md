@@ -5,6 +5,7 @@
 - [Database](Technology/AI/Tools/Database/index.md)
 - [Frameworks](Technology/AI/Tools/Frameworks/index.md)
 - [GenAI](Technology/AI/Tools/GenAI/index.md)
+- [Manga-Translator](Technology/AI/Tools/Manga-Translator/index.md)
 - [MLOps](Technology/AI/Tools/MLOps/index.md)
 - [Runtime](Technology/AI/Tools/Runtime/index.md)
 - [System](Technology/AI/Tools/System/index.md)

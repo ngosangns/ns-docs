@@ -1,3 +1,7 @@
+## 2026-09-24
+
+**Update** Dissolve Projects section: move Manga-Translator (7 notes) to Technology/AI/Tools/Manga-Translator; delete idea stubs (Finance Tool, IoT Ideas, NS Money, NS Store, Sound Wave Research, Tent Making); regenerate index.md
+
 ## 2026-09-23
 
 **Update** Rewrite toàn bộ English section sang tiếng Việt: dịch prose/headings/descriptions của 65 notes (Grammar, Pronunciation, Vocabulary, Usage, Exam Skills, Skills, IELTS, TOEIC, Resources) — giữ nguyên tên file English, thuật ngữ ngữ pháp, câu ví dụ tiếng Anh, IPA, công thức ngữ pháp, links và cấu trúc bảng; regenerate index.md
