@@ -15,7 +15,7 @@ function insertIntoNavTree(root: NavNode, page: Page) {
   for (let i = 0; i < segments.length - 1; i++) {
     const seg = segments[i]
     const childPath = node.path ? `${node.path}/${seg}` : seg
-    let child = node.children.find((c) => c.name === seg && !c.page)
+    let child = node.children.find(c => c.name === seg && !c.page)
     if (!child) {
       child = emptyNavNode(seg, childPath)
       node.children.push(child)
@@ -44,31 +44,37 @@ function sortNavTree(node: NavNode) {
  */
 export async function loadSiteGraph(repoRoot: string): Promise<SiteGraph> {
   const raw = loadRawBundle(repoRoot)
-  const parseErrors = raw.concepts.filter((c) => c.parseError).map((c) => c.relPath)
-  const validConcepts = raw.concepts.filter((c) => !c.parseError)
+  const parseErrors = raw.concepts.filter(c => c.parseError).map(c => c.relPath)
+  const validConcepts = raw.concepts.filter(c => !c.parseError)
   const bundleIndex: OkfBundleIndex = okfCore.buildIndex(validConcepts)
-  const attachmentSet = new Set(raw.attachments.map((a) => a.toLowerCase()))
+  const attachmentSet = new Set(raw.attachments.map(a => a.toLowerCase()))
 
   const pages: Page[] = []
   const forwardLinks = new Map<string, string[]>()
 
   for (const concept of validConcepts) {
     const frontmatter = normalizeFrontmatter(concept)
-    const rendered = await renderMarkdown(concept.body, concept.id, bundleIndex, attachmentSet)
+    const rendered = await renderMarkdown(
+      concept.body,
+      concept.id,
+      bundleIndex,
+      attachmentSet
+    )
     pages.push({
       id: concept.id,
       route: "/" + encodeURI(concept.id),
       frontmatter,
       contentHtml: rendered.html,
+      bodyText: rendered.bodyText,
       toc: rendered.toc,
       unresolvedLinks: rendered.unresolvedLinks,
-      hadParseError: false,
+      hadParseError: false
     })
     forwardLinks.set(concept.id, rendered.resolvedLinkIds)
   }
 
   pages.sort((a, b) => a.id.localeCompare(b.id))
-  const pagesById = new Map(pages.map((p) => [p.id, p]))
+  const pagesById = new Map(pages.map(p => [p.id, p]))
 
   const backlinks = new Map<string, string[]>()
   for (const [sourceId, targets] of forwardLinks) {
@@ -102,6 +108,6 @@ export async function loadSiteGraph(repoRoot: string): Promise<SiteGraph> {
     navTree,
     tagIndex,
     attachments: raw.attachments,
-    parseErrors,
+    parseErrors
   }
 }

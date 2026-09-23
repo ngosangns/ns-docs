@@ -1,7 +1,11 @@
 import { visit } from "unist-util-visit"
 import { fromHtml } from "hast-util-from-html"
 import type { Root, Element, ElementContent, Text } from "hast"
-import { createHighlighter, type Highlighter, type BundledLanguage } from "shiki"
+import {
+  createHighlighter,
+  type Highlighter,
+  type BundledLanguage
+} from "shiki"
 
 const THEMES = { light: "github-light", dark: "github-dark" } as const
 
@@ -12,13 +16,16 @@ function getHighlighter(): Promise<Highlighter> {
   if (!highlighterPromise) {
     highlighterPromise = createHighlighter({
       themes: [THEMES.light, THEMES.dark],
-      langs: ["plaintext"],
+      langs: ["plaintext"]
     })
   }
   return highlighterPromise
 }
 
-async function ensureLanguage(highlighter: Highlighter, lang: string): Promise<string> {
+async function ensureLanguage(
+  highlighter: Highlighter,
+  lang: string
+): Promise<string> {
   if (loadedLangs.has(lang)) return lang
   try {
     await highlighter.loadLanguage(lang as BundledLanguage)
@@ -31,13 +38,15 @@ async function ensureLanguage(highlighter: Highlighter, lang: string): Promise<s
 
 function extractText(node: Element | Text): string {
   if (node.type === "text") return node.value
-  return node.children.map((child) => extractText(child as Element | Text)).join("")
+  return node.children
+    .map(child => extractText(child as Element | Text))
+    .join("")
 }
 
 function languageOf(codeEl: Element): string {
   const classes = codeEl.properties?.className
   const list = Array.isArray(classes) ? classes.map(String) : []
-  const match = list.find((c) => c.startsWith("language-"))
+  const match = list.find(c => c.startsWith("language-"))
   return match ? match.slice("language-".length) : "text"
 }
 
@@ -50,12 +59,13 @@ function languageOf(codeEl: Element): string {
 export function rehypeShikiHighlight() {
   return async (tree: Root) => {
     const highlighter = await getHighlighter()
-    const targets: { parent: Root | Element; index: number; pre: Element }[] = []
+    const targets: { parent: Root | Element; index: number; pre: Element }[] =
+      []
 
     visit(tree, "element", (node, index, parent) => {
       if (node.tagName !== "pre" || index == null || !parent) return
       const code = node.children.find(
-        (c): c is Element => c.type === "element" && c.tagName === "code",
+        (c): c is Element => c.type === "element" && c.tagName === "code"
       )
       if (!code) return
       targets.push({ parent: parent as Root | Element, index, pre: node })
@@ -63,7 +73,7 @@ export function rehypeShikiHighlight() {
 
     for (const { parent, index, pre } of targets) {
       const code = pre.children.find(
-        (c): c is Element => c.type === "element" && c.tagName === "code",
+        (c): c is Element => c.type === "element" && c.tagName === "code"
       )!
       const lang = await ensureLanguage(highlighter, languageOf(code))
       const text = extractText(code)
@@ -71,12 +81,12 @@ export function rehypeShikiHighlight() {
       const html = highlighter.codeToHtml(text, {
         lang,
         themes: THEMES,
-        defaultColor: false,
+        defaultColor: false
       })
 
       const parsed = fromHtml(html, { fragment: true })
       const highlightedPre = parsed.children.find(
-        (c): c is Element => c.type === "element" && c.tagName === "pre",
+        (c): c is Element => c.type === "element" && c.tagName === "pre"
       )
       if (!highlightedPre) continue
 

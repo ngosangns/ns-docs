@@ -16,7 +16,9 @@ export function tagHref(tag: string): string {
   return "/tags/" + encodeURIComponent(tag)
 }
 
-export function breadcrumbSegments(id: string): { name: string; path: string }[] {
+export function breadcrumbSegments(
+  id: string
+): { name: string; path: string }[] {
   const parts = id.split("/")
   const segments: { name: string; path: string }[] = []
   let acc = ""

@@ -6,7 +6,7 @@ export function TagList(props: { tags: string[] }) {
     <Show when={props.tags.length > 0}>
       <div class="tag-list">
         <For each={props.tags}>
-          {(tag) => (
+          {tag => (
             <a class="tag-chip" href={tagHref(tag)}>
               #{tag}
             </a>

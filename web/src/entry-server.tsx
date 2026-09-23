@@ -24,6 +24,10 @@ export function renderTagPage(props: TagPageProps): string {
   return DOCTYPE + renderToString(() => <TagPage {...props} />)
 }
 
-export function renderNotFoundPage(props: { navTree: NavNode; cssHref: string }): string {
+export function renderNotFoundPage(props: {
+  navTree: NavNode
+  cssHref: string
+  jsHref: string
+}): string {
   return DOCTYPE + renderToString(() => <NotFoundPage {...props} />)
 }

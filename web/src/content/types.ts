@@ -22,6 +22,8 @@ export interface Page {
   route: string
   frontmatter: PageFrontmatter
   contentHtml: string
+  /** Plain-text extraction of the rendered body, for the search index. */
+  bodyText: string
   toc: TocEntry[]
   /** Forward links that failed to resolve to a Concept (raw targets, for build warnings). */
   unresolvedLinks: string[]

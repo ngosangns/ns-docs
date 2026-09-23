@@ -9,6 +9,7 @@ export interface ConceptPageProps {
   navTree: NavNode
   backlinks: BacklinkEntry[]
   cssHref: string
+  jsHref: string
 }
 
 export function ConceptPage(props: ConceptPageProps) {
@@ -18,6 +19,7 @@ export function ConceptPage(props: ConceptPageProps) {
       title={page.frontmatter.title}
       description={page.frontmatter.description}
       cssHref={props.cssHref}
+      jsHref={props.jsHref}
       navTree={props.navTree}
       activeId={page.id}
       activeAncestors={new Set(ancestorPaths(page.id))}

@@ -7,11 +7,18 @@ export interface TagIndexPageProps {
   tags: { tag: string; count: number }[]
   navTree: NavNode
   cssHref: string
+  jsHref: string
 }
 
 export function TagIndexPage(props: TagIndexPageProps) {
   return (
-    <Layout title="Tags" cssHref={props.cssHref} navTree={props.navTree} activeAncestors={new Set([""])}>
+    <Layout
+      title="Tags"
+      cssHref={props.cssHref}
+      jsHref={props.jsHref}
+      navTree={props.navTree}
+      activeAncestors={new Set([""])}
+    >
       <ul class="listing">
         <For each={props.tags}>
           {({ tag, count }) => (

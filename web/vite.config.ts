@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [solid({ ssr: true })],
   server: {
     port: 8811,
-    strictPort: true,
-  },
+    strictPort: true
+  }
 })

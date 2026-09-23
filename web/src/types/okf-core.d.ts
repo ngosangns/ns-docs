@@ -36,12 +36,12 @@ declare module "*okf-core/index.js" {
   export function normalizeLink(
     rawLink: string,
     sourceId: string | null,
-    bundleIndex: OkfBundleIndex,
+    bundleIndex: OkfBundleIndex
   ): string | null
   export function resolveTarget(
     rawLink: string,
     sourceId: string | null,
-    bundleIndex: OkfBundleIndex,
+    bundleIndex: OkfBundleIndex
   ): OkfConcept | null
   export function toPosix(p: string): string
   export function relPathOf(absPath: string, rootDir: string): string
@@ -57,11 +57,11 @@ declare module "*okf-core/links.js" {
   export function normalizeLink(
     rawLink: string,
     sourceId: string | null,
-    bundleIndex: OkfBundleIndex,
+    bundleIndex: OkfBundleIndex
   ): string | null
   export function resolveTarget(
     rawLink: string,
     sourceId: string | null,
-    bundleIndex: OkfBundleIndex,
+    bundleIndex: OkfBundleIndex
   ): OkfConcept | null
 }

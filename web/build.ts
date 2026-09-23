@@ -5,6 +5,7 @@ import path from "node:path"
 import fs from "node:fs/promises"
 import { loadSiteGraph } from "./src/content/site-graph"
 import { collectFolderNodes } from "./src/content/nav"
+import { buildSearchIndexJson } from "./src/content/search-index"
 import type { Page, NavNode, SiteGraph } from "./src/content/types"
 import type { ConceptPageProps } from "./src/pages/ConceptPage"
 import type { FolderPageProps } from "./src/pages/FolderPage"
@@ -21,7 +22,11 @@ interface SsrBundle {
   renderFolderPage: (props: FolderPageProps) => string
   renderTagIndexPage: (props: TagIndexPageProps) => string
   renderTagPage: (props: TagPageProps) => string
-  renderNotFoundPage: (props: { navTree: NavNode; cssHref: string }) => string
+  renderNotFoundPage: (props: {
+    navTree: NavNode
+    cssHref: string
+    jsHref: string
+  }) => string
 }
 
 interface ViteManifestChunk {
@@ -32,9 +37,12 @@ interface ViteManifestChunk {
 
 /** Client build: bundles src/client-entry.ts (CSS + fonts for now, islands
  * land in a later phase) into dist/assets/**, with a manifest so the SSR
- * step can look up the resulting hashed CSS filename. Runs first since it
- * owns emptying/recreating dist/. */
-async function buildClientAssets(): Promise<string> {
+ * step can look up the resulting hashed CSS/JS filenames. Runs first since
+ * it owns emptying/recreating dist/. */
+async function buildClientAssets(): Promise<{
+  cssHref: string
+  jsHref: string
+}> {
   await build({
     root: webRoot,
     plugins: [solid()],
@@ -43,23 +51,22 @@ async function buildClientAssets(): Promise<string> {
       emptyOutDir: true,
       manifest: true,
       rollupOptions: {
-        input: path.join(webRoot, "src/client-entry.ts"),
-      },
+        input: path.join(webRoot, "src/client-entry.ts")
+      }
     },
-    logLevel: "warn",
+    logLevel: "warn"
   })
 
   const manifestPath = path.join(distDir, ".vite", "manifest.json")
-  const manifest = JSON.parse(await fs.readFile(manifestPath, "utf-8")) as Record<
-    string,
-    ViteManifestChunk
-  >
+  const manifest = JSON.parse(
+    await fs.readFile(manifestPath, "utf-8")
+  ) as Record<string, ViteManifestChunk>
   const entry = manifest["src/client-entry.ts"]
   const cssFile = entry?.css?.[0]
-  if (!cssFile) {
-    throw new Error("Client build produced no CSS for src/client-entry.ts")
+  if (!cssFile || !entry.file) {
+    throw new Error("Client build produced no CSS/JS for src/client-entry.ts")
   }
-  return "/" + cssFile
+  return { cssHref: "/" + cssFile, jsHref: "/" + entry.file }
 }
 
 async function buildSsrBundle(): Promise<SsrBundle> {
@@ -72,10 +79,10 @@ async function buildSsrBundle(): Promise<SsrBundle> {
       emptyOutDir: true,
       minify: false,
       rollupOptions: {
-        output: { entryFileNames: "entry-server.js" },
-      },
+        output: { entryFileNames: "entry-server.js" }
+      }
     },
-    logLevel: "warn",
+    logLevel: "warn"
   })
 
   return import(path.join(ssrOutDir, "entry-server.js"))
@@ -108,19 +115,20 @@ async function writeHtml(outPath: string, html: string) {
 function backlinksFor(graph: SiteGraph, page: Page) {
   const ids = graph.backlinks.get(page.id) ?? []
   return ids
-    .map((id) => graph.pagesById.get(id))
+    .map(id => graph.pagesById.get(id))
     .filter((p): p is Page => p != null)
-    .map((p) => ({ id: p.id, title: p.frontmatter.title }))
+    .map(p => ({ id: p.id, title: p.frontmatter.title }))
 }
 
 async function main() {
   const startedAt = Date.now()
 
-  const [cssHref, ssrBundle, graph] = await Promise.all([
+  const [assets, ssrBundle, graph] = await Promise.all([
     buildClientAssets(),
     buildSsrBundle(),
-    loadSiteGraph(repoRoot),
+    loadSiteGraph(repoRoot)
   ])
+  const { cssHref, jsHref } = assets
 
   let failed = 0
   const fail = (label: string, err: unknown) => {
@@ -136,6 +144,7 @@ async function main() {
         navTree: graph.navTree,
         backlinks: backlinksFor(graph, page),
         cssHref,
+        jsHref
       })
       await writeHtml(path.join(distDir, page.id, "index.html"), html)
     } catch (err) {
@@ -146,7 +155,12 @@ async function main() {
   // Folder pages (root included -> dist/index.html)
   for (const node of collectFolderNodes(graph.navTree)) {
     try {
-      const html = ssrBundle.renderFolderPage({ node, navTree: graph.navTree, cssHref })
+      const html = ssrBundle.renderFolderPage({
+        node,
+        navTree: graph.navTree,
+        cssHref,
+        jsHref
+      })
       const outPath =
         node.path === ""
           ? path.join(distDir, "index.html")
@@ -162,7 +176,12 @@ async function main() {
     .map(([tag, ids]) => ({ tag, count: ids.length }))
     .sort((a, b) => a.tag.localeCompare(b.tag))
   try {
-    const html = ssrBundle.renderTagIndexPage({ tags: tagCounts, navTree: graph.navTree, cssHref })
+    const html = ssrBundle.renderTagIndexPage({
+      tags: tagCounts,
+      navTree: graph.navTree,
+      cssHref,
+      jsHref
+    })
     await writeHtml(path.join(distDir, "tags", "index.html"), html)
   } catch (err) {
     fail("tags index", err)
@@ -170,9 +189,15 @@ async function main() {
   for (const [tag, ids] of graph.tagIndex) {
     try {
       const pages = ids
-        .map((id) => graph.pagesById.get(id))
+        .map(id => graph.pagesById.get(id))
         .filter((p): p is Page => p != null)
-      const html = ssrBundle.renderTagPage({ tag, pages, navTree: graph.navTree, cssHref })
+      const html = ssrBundle.renderTagPage({
+        tag,
+        pages,
+        navTree: graph.navTree,
+        cssHref,
+        jsHref
+      })
       await writeHtml(path.join(distDir, "tags", tag, "index.html"), html)
     } catch (err) {
       fail(`tags/${tag}`, err)
@@ -181,15 +206,28 @@ async function main() {
 
   // 404
   try {
-    const html = ssrBundle.renderNotFoundPage({ navTree: graph.navTree, cssHref })
+    const html = ssrBundle.renderNotFoundPage({
+      navTree: graph.navTree,
+      cssHref,
+      jsHref
+    })
     await writeHtml(path.join(distDir, "404.html"), html)
   } catch (err) {
     fail("404", err)
   }
 
+  await fs.writeFile(
+    path.join(distDir, "search-index.json"),
+    buildSearchIndexJson(graph.pages),
+    "utf-8"
+  )
+
   const skippedAttachments = await copyAttachments(graph.attachments)
 
-  const totalUnresolved = graph.pages.reduce((n, p) => n + p.unresolvedLinks.length, 0)
+  const totalUnresolved = graph.pages.reduce(
+    (n, p) => n + p.unresolvedLinks.length,
+    0
+  )
   const elapsed = ((Date.now() - startedAt) / 1000).toFixed(1)
 
   console.log(`\nBuild summary (${elapsed}s):`)
@@ -197,7 +235,7 @@ async function main() {
   console.log(`  Folder pages: ${collectFolderNodes(graph.navTree).length}`)
   console.log(`  Tags: ${graph.tagIndex.size}`)
   console.log(
-    `  Attachments copied: ${graph.attachments.length - skippedAttachments.length}/${graph.attachments.length}`,
+    `  Attachments copied: ${graph.attachments.length - skippedAttachments.length}/${graph.attachments.length}`
   )
   if (skippedAttachments.length > 0) {
     console.log(`  Skipped (over 25 MiB, Cloudflare Pages limit):`)
@@ -222,7 +260,7 @@ async function main() {
   }
 }
 
-main().catch((err) => {
+main().catch(err => {
   console.error(err)
   process.exit(1)
 })

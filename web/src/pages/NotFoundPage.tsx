@@ -1,11 +1,16 @@
 import type { NavNode } from "../content/types"
 import { Layout } from "../components/Layout"
 
-export function NotFoundPage(props: { navTree: NavNode; cssHref: string }) {
+export function NotFoundPage(props: {
+  navTree: NavNode
+  cssHref: string
+  jsHref: string
+}) {
   return (
     <Layout
       title="Page not found"
       cssHref={props.cssHref}
+      jsHref={props.jsHref}
       navTree={props.navTree}
       activeAncestors={new Set([""])}
     >

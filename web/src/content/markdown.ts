@@ -21,6 +21,8 @@ export interface RenderedMarkdown {
   unresolvedLinks: string[]
   /** Concept_Ids this page successfully links to, for backlink computation. */
   resolvedLinkIds: string[]
+  /** Plain-text extraction of the rendered body, for the search index. */
+  bodyText: string
 }
 
 const FENCE_LINE = /^\s*(```|~~~)/
@@ -61,19 +63,27 @@ function resolveInternalTarget(
   rawTarget: string,
   sourceId: string,
   bundleIndex: OkfBundleIndex,
-  attachmentSet: Set<string>,
+  attachmentSet: Set<string>
 ): LinkResolution {
   const decoded = safeDecodeURI(rawTarget)
   const resolved = linksCore.normalizeLink(decoded, sourceId, bundleIndex)
   if (resolved != null) {
-    return { href: encodeURI(resolved), resolvedConceptId: routeToConceptId(resolved), ok: true }
+    return {
+      href: encodeURI(resolved),
+      resolvedConceptId: routeToConceptId(resolved),
+      ok: true
+    }
   }
 
   const [beforeAnchor, anchor] = splitAnchor(decoded)
   if (beforeAnchor.startsWith("/")) {
     const relPath = beforeAnchor.slice(1)
     if (attachmentSet.has(relPath.toLowerCase())) {
-      return { href: encodeURI(beforeAnchor) + anchor, resolvedConceptId: null, ok: true }
+      return {
+        href: encodeURI(beforeAnchor) + anchor,
+        resolvedConceptId: null,
+        ok: true
+      }
     }
   }
 
@@ -93,28 +103,37 @@ function preprocessWikilinks(
   bundleIndex: OkfBundleIndex,
   attachmentSet: Set<string>,
   unresolvedLinks: string[],
-  resolvedLinkIds: string[],
+  resolvedLinkIds: string[]
 ): string {
   let inFence = false
-  const lines = body.split(/\r?\n/).map((line) => {
+  const lines = body.split(/\r?\n/).map(line => {
     if (FENCE_LINE.test(line)) {
       inFence = !inFence
       return line
     }
     if (inFence) return line
 
-    return line.replace(linksCore.wikilinkRegex(), (_full: string, inner: string) => {
-      const [rawTarget = "", rawAlias] = inner.split("|")
-      const target = rawTarget.trim()
-      const label = (rawAlias ?? rawTarget).trim()
-      const resolution = resolveInternalTarget(target, sourceId, bundleIndex, attachmentSet)
-      if (!resolution.ok) {
-        unresolvedLinks.push(target)
-        return `[${label}](#unresolved-link "Unresolved wikilink: ${target}")`
+    return line.replace(
+      linksCore.wikilinkRegex(),
+      (_full: string, inner: string) => {
+        const [rawTarget = "", rawAlias] = inner.split("|")
+        const target = rawTarget.trim()
+        const label = (rawAlias ?? rawTarget).trim()
+        const resolution = resolveInternalTarget(
+          target,
+          sourceId,
+          bundleIndex,
+          attachmentSet
+        )
+        if (!resolution.ok) {
+          unresolvedLinks.push(target)
+          return `[${label}](#unresolved-link "Unresolved wikilink: ${target}")`
+        }
+        if (resolution.resolvedConceptId)
+          resolvedLinkIds.push(resolution.resolvedConceptId)
+        return `[${label}](${resolution.href})`
       }
-      if (resolution.resolvedConceptId) resolvedLinkIds.push(resolution.resolvedConceptId)
-      return `[${label}](${resolution.href})`
-    })
+    )
   })
   return lines.join("\n")
 }
@@ -124,17 +143,23 @@ function remarkResolveInternalLinks(
   bundleIndex: OkfBundleIndex,
   attachmentSet: Set<string>,
   unresolvedLinks: string[],
-  resolvedLinkIds: string[],
+  resolvedLinkIds: string[]
 ) {
   return (tree: MdastRoot) => {
     visit(tree, "link", (node: MdastLink) => {
       if (!linksCore.isInternalMarkdownTarget(node.url)) return
-      const resolution = resolveInternalTarget(node.url, sourceId, bundleIndex, attachmentSet)
+      const resolution = resolveInternalTarget(
+        node.url,
+        sourceId,
+        bundleIndex,
+        attachmentSet
+      )
       if (!resolution.ok) {
         unresolvedLinks.push(node.url)
         return
       }
-      if (resolution.resolvedConceptId) resolvedLinkIds.push(resolution.resolvedConceptId)
+      if (resolution.resolvedConceptId)
+        resolvedLinkIds.push(resolution.resolvedConceptId)
       node.url = resolution.href
     })
   }
@@ -167,15 +192,22 @@ function rehypeCollectToc(toc: TocEntry[]) {
   }
 }
 
+function rehypeCollectText(out: { text: string }) {
+  return (tree: HastRoot) => {
+    out.text = hastToString(tree).replace(/\s+/g, " ").trim()
+  }
+}
+
 export async function renderMarkdown(
   body: string,
   sourceId: string,
   bundleIndex: OkfBundleIndex,
-  attachmentSet: Set<string>,
+  attachmentSet: Set<string>
 ): Promise<RenderedMarkdown> {
   const unresolvedLinks: string[] = []
   const resolvedLinkIds: string[] = []
   const toc: TocEntry[] = []
+  const textOut = { text: "" }
 
   const preprocessed = preprocessWikilinks(
     body,
@@ -183,7 +215,7 @@ export async function renderMarkdown(
     bundleIndex,
     attachmentSet,
     unresolvedLinks,
-    resolvedLinkIds,
+    resolvedLinkIds
   )
 
   const file = await unified()
@@ -197,15 +229,22 @@ export async function renderMarkdown(
       bundleIndex,
       attachmentSet,
       unresolvedLinks,
-      resolvedLinkIds,
+      resolvedLinkIds
     )
     .use(remarkRehype, { allowDangerousHtml: false })
     .use(rehypeSlug)
     .use(rehypeCollectToc, toc)
     .use(rehypeKatex, { strict: false })
     .use(rehypeShikiHighlight)
+    .use(rehypeCollectText, textOut)
     .use(rehypeStringify)
     .process(preprocessed)
 
-  return { html: String(file), toc, unresolvedLinks, resolvedLinkIds }
+  return {
+    html: String(file),
+    toc,
+    unresolvedLinks,
+    resolvedLinkIds,
+    bodyText: textOut.text
+  }
 }

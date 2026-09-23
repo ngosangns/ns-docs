@@ -46,7 +46,7 @@ export function findNode(root: NavNode, path: string): NavNode | undefined {
   const parts = path.split("/")
   let node = root
   for (const part of parts) {
-    const child = node.children.find((c) => !c.page && c.name === part)
+    const child = node.children.find(c => !c.page && c.name === part)
     if (!child) return undefined
     node = child
   }

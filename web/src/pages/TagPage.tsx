@@ -8,6 +8,7 @@ export interface TagPageProps {
   pages: Page[]
   navTree: NavNode
   cssHref: string
+  jsHref: string
 }
 
 export function TagPage(props: TagPageProps) {
@@ -15,12 +16,13 @@ export function TagPage(props: TagPageProps) {
     <Layout
       title={`#${props.tag}`}
       cssHref={props.cssHref}
+      jsHref={props.jsHref}
       navTree={props.navTree}
       activeAncestors={new Set([""])}
     >
       <ul class="listing">
         <For each={props.pages}>
-          {(page) => (
+          {page => (
             <li>
               <a class="listing__title" href={pageHref(page.id)}>
                 {page.frontmatter.title}

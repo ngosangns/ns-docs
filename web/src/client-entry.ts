@@ -3,5 +3,19 @@ import "./styles/base.css"
 import "./styles/layout.css"
 import "./styles/prose.css"
 
-// Islands (search, sidebar persistence, dark-mode toggle, TOC scrollspy,
-// mobile nav drawer) are added here in a later phase.
+import { render } from "solid-js/web"
+import { SearchOverlay } from "./islands/SearchOverlay"
+import { initDarkModeToggle } from "./islands/dark-mode-toggle"
+import { initSidebarPersistence } from "./islands/sidebar-persistence"
+import { initTocScrollspy } from "./islands/toc-scrollspy"
+import { initMobileNavDrawer } from "./islands/mobile-nav-drawer"
+
+initDarkModeToggle()
+initSidebarPersistence()
+initTocScrollspy()
+initMobileNavDrawer()
+
+const searchRoot = document.getElementById("search-root")
+if (searchRoot) {
+  render(() => SearchOverlay({ triggerId: "search-trigger" }), searchRoot)
+}

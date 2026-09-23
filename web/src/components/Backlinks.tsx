@@ -16,7 +16,7 @@ export function Backlinks(props: { entries: BacklinkEntry[] }) {
       >
         <ul>
           <For each={props.entries}>
-            {(entry) => (
+            {entry => (
               <li>
                 <a href={pageHref(entry.id)}>{entry.title}</a>
               </li>

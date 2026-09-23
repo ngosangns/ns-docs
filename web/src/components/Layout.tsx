@@ -11,6 +11,7 @@ export interface LayoutProps {
   title: string
   description?: string
   cssHref: string
+  jsHref: string
   navTree: NavNode
   activeAncestors: ReadonlySet<string>
   activeId?: string
@@ -38,16 +39,38 @@ export function Layout(props: LayoutProps) {
         </Show>
         <link rel="stylesheet" href={props.cssHref} />
         <script innerHTML={FOUC_GUARD} />
+        <script type="module" src={props.jsHref} />
       </head>
       <body>
         <header class="site-header">
+          <button
+            id="nav-toggle"
+            class="icon-btn nav-toggle"
+            aria-label="Toggle navigation"
+          >
+            <span class="hamburger" />
+          </button>
           <a class="site-header__title" href="/">
             ngosangns Knowledge Base
           </a>
           <div class="site-header__spacer" />
+          <button
+            id="search-trigger"
+            class="search-trigger"
+            aria-label="Search"
+          >
+            <span>Search</span> <kbd>/</kbd>
+          </button>
+          <button
+            id="theme-toggle"
+            class="icon-btn"
+            aria-label="Toggle dark mode"
+          >
+            ◐
+          </button>
         </header>
         <div class="site-shell">
-          <aside class="site-sidebar">
+          <aside class="site-sidebar" id="site-sidebar">
             <FolderTree
               node={props.navTree}
               activeAncestors={props.activeAncestors}
@@ -61,7 +84,7 @@ export function Layout(props: LayoutProps) {
               </Show>
               <h1>{props.title}</h1>
               <Show when={props.frontmatter}>
-                {(frontmatter) => (
+                {frontmatter => (
                   <div class="page-meta">
                     <TagList tags={frontmatter().tags} />
                     <Show when={frontmatter().timestamp}>
@@ -87,6 +110,7 @@ export function Layout(props: LayoutProps) {
             </Show>
           </aside>
         </div>
+        <div id="search-root" />
       </body>
     </html>
   )

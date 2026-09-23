@@ -8,18 +8,20 @@ export interface FolderPageProps {
   node: NavNode
   navTree: NavNode
   cssHref: string
+  jsHref: string
 }
 
 export function FolderPage(props: FolderPageProps) {
   const { node } = props
-  const folders = node.children.filter((c) => !c.page)
-  const pages = node.children.filter((c) => c.page)
+  const folders = node.children.filter(c => !c.page)
+  const pages = node.children.filter(c => c.page)
   const title = node.name || "ngosangns Knowledge Base"
 
   return (
     <Layout
       title={title}
       cssHref={props.cssHref}
+      jsHref={props.jsHref}
       navTree={props.navTree}
       activeId={node.path}
       activeAncestors={new Set(ancestorPathsInclusive(node.path))}
@@ -29,7 +31,7 @@ export function FolderPage(props: FolderPageProps) {
         <h2>Sections</h2>
         <ul class="listing">
           <For each={folders}>
-            {(folder) => (
+            {folder => (
               <li>
                 <a class="listing__title" href={folderHref(folder.path)}>
                   {folder.name}
@@ -44,13 +46,15 @@ export function FolderPage(props: FolderPageProps) {
         <h2>Pages</h2>
         <ul class="listing">
           <For each={pages}>
-            {(child) => (
+            {child => (
               <li>
                 <a class="listing__title" href={pageHref(child.page!.id)}>
                   {child.page!.frontmatter.title}
                 </a>
                 <Show when={child.page!.frontmatter.description}>
-                  <div class="listing__desc">{child.page!.frontmatter.description}</div>
+                  <div class="listing__desc">
+                    {child.page!.frontmatter.description}
+                  </div>
                 </Show>
               </li>
             )}
