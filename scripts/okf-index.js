@@ -111,26 +111,27 @@ function caseInsensitiveCompare(a, b) {
 // --- pure builders ---------------------------------------------------------
 
 // renderConceptBullet(concept) -> string
-// `* [Title](bundle-root-url) - description`, dropping ` - description` when
+// `- [Title](bundle-root-url) - description`, dropping ` - description` when
 // the description is empty (Requirements 7.3, 7.4). The URL is the
 // percent-encoded bundle-relative path so standard markdown renderers
-// (Obsidian, Quartz) resolve it unambiguously.
+// (Obsidian, Quartz) resolve it unambiguously. The `-` marker matches what
+// prettier (format-md.js) emits, so generated output stays format-stable.
 function renderConceptBullet(concept) {
   const title = conceptTitle(concept)
   const url = encodeMarkdownUrl(concept.relPath)
   const description = conceptDescription(concept)
-  const base = `* [${title}](${url})`
+  const base = `- [${title}](${url})`
   return description ? `${base} - ${description}` : base
 }
 
 // renderSubdirBullet(name, relDir) -> string
-// `* [<name>](<bundle-root-path>/index.md)` — label is the subdirectory name,
+// `- [<name>](<bundle-root-path>/index.md)` — label is the subdirectory name,
 // URL is the percent-encoded bundle-relative path to that subdirectory's
 // index.md (Requirement 7.6). Linking to index.md keeps the destination a
-// real file so both Obsidian and Quartz resolve it.
+// real file so both Obsidian and Quartz resolve it. `-` for prettier parity.
 function renderSubdirBullet(name, relDir) {
   const rel = relDir ? `${relDir}/${name}` : name
-  return `* [${name}](${encodeMarkdownUrl(rel)}/index.md)`
+  return `- [${name}](${encodeMarkdownUrl(rel)}/index.md)`
 }
 
 // renderIndexBody(children, relDir) -> string
@@ -210,7 +211,10 @@ function isGeneratedNavLine(line) {
   if (trimmed === SECTIONS_HEADING || trimmed === CONCEPTS_HEADING) {
     return true
   }
-  return /^\*\s+\[[^\]]*\]\([^)]*\)(\s+-\s+.*)?$/.test(trimmed)
+  // Accept both `*` and `-` markers: generated files use `-`, but older
+  // generated files and hand-formatted copies may carry `*` — both are
+  // machine-owned navigation, not authored content.
+  return /^[*-]\s+\[[^\]]*\]\([^)]*\)(\s+-\s+.*)?$/.test(trimmed)
 }
 
 // isIndexUsedAsConcept(raw, isRoot) -> boolean

@@ -36,32 +36,32 @@ function concept(relPath, data) {
 
 // --- Requirement 7.3: concept bullet format --------------------------------
 
-test("renderConceptBullet emits `* [Title](url) - description`", () => {
+test("renderConceptBullet emits `- [Title](url) - description`", () => {
   const bullet = renderConceptBullet(
     concept("Passive Voice.md", { title: "Passive Voice", description: "How to form it" })
   )
-  assert.equal(bullet, "* [Passive Voice](Passive%20Voice.md) - How to form it")
+  assert.equal(bullet, "- [Passive Voice](Passive%20Voice.md) - How to form it")
 })
 
 test("renderConceptBullet Title falls back to filename without .md when title empty", () => {
   const fromBlank = renderConceptBullet(concept("Relative Clauses.md", { title: "   " }))
-  assert.equal(fromBlank, "* [Relative Clauses](Relative%20Clauses.md)")
+  assert.equal(fromBlank, "- [Relative Clauses](Relative%20Clauses.md)")
 
   const fromMissing = renderConceptBullet(concept("Reported Speech.md", {}))
-  assert.equal(fromMissing, "* [Reported Speech](Reported%20Speech.md)")
+  assert.equal(fromMissing, "- [Reported Speech](Reported%20Speech.md)")
 })
 
 // --- Requirement 7.4: empty description drops ` - description` --------------
 
 test("renderConceptBullet drops the description segment when description is empty", () => {
   const emptyString = renderConceptBullet(concept("A.md", { title: "A", description: "" }))
-  assert.equal(emptyString, "* [A](A.md)")
+  assert.equal(emptyString, "- [A](A.md)")
 
   const whitespace = renderConceptBullet(concept("B.md", { title: "B", description: "   " }))
-  assert.equal(whitespace, "* [B](B.md)")
+  assert.equal(whitespace, "- [B](B.md)")
 
   const missing = renderConceptBullet(concept("C.md", { title: "C" }))
-  assert.equal(missing, "* [C](C.md)")
+  assert.equal(missing, "- [C](C.md)")
 })
 
 // --- Requirement 7.5: reserved files excluded ------------------------------
@@ -71,7 +71,7 @@ test("buildDirectoryIndex lists only the concepts it is given (reserved already 
     concepts: [concept("topic.md", { title: "Topic", description: "" })],
     subdirs: []
   })
-  assert.match(content, /\* \[Topic\]\(topic\.md\)/)
+  assert.match(content, /- \[Topic\]\(topic\.md\)/)
   assert.ok(!content.includes("index.md"), "reserved index.md must not appear")
   assert.ok(!content.includes("log.md"), "reserved log.md must not appear")
 })
@@ -85,7 +85,7 @@ test("generateIndexes never lists index.md or log.md as concepts", () => {
     generateIndexes(root, { apply: true })
     const rootIndex = fs.readFileSync(path.join(root, "index.md"), "utf8")
 
-    assert.match(rootIndex, /\* \[Note\]\(note\.md\)/)
+    assert.match(rootIndex, /- \[Note\]\(note\.md\)/)
     assert.ok(!/\]\(log\.md\)/.test(rootIndex), "log.md must not be listed as a concept")
     assert.ok(!/\]\(index\.md\)/.test(rootIndex), "index.md must not be listed as a concept")
   } finally {
@@ -96,10 +96,10 @@ test("generateIndexes never lists index.md or log.md as concepts", () => {
 // --- Requirement 7.6: subdir bullet label/url ------------------------------
 
 test("renderSubdirBullet links to the subdirectory's index.md from the bundle root", () => {
-  assert.equal(renderSubdirBullet("Grammar", ""), "* [Grammar](Grammar/index.md)")
+  assert.equal(renderSubdirBullet("Grammar", ""), "- [Grammar](Grammar/index.md)")
   assert.equal(
     renderSubdirBullet("Passive Voice", "English/Grammar"),
-    "* [Passive Voice](English/Grammar/Passive%20Voice/index.md)"
+    "- [Passive Voice](English/Grammar/Passive%20Voice/index.md)"
   )
 })
 
@@ -109,7 +109,7 @@ test("buildDirectoryIndex renders subdirs under # Sections with bundle-root inde
     subdirs: ["Grammar"]
   })
   assert.match(content, /# Sections/)
-  assert.match(content, /\* \[Grammar\]\(root\/Grammar\/index\.md\)/)
+  assert.match(content, /- \[Grammar\]\(root\/Grammar\/index\.md\)/)
 })
 
 // --- Requirement 7.7: deterministic case-insensitive ascending sort --------
