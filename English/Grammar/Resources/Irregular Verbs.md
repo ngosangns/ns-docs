@@ -3,12 +3,15 @@ area: english
 domain: grammar
 type: cheatsheet
 title: Irregular Verbs
-description: arise - arose - arisen - nảy sinh, xuất hiện
-timestamp: '2026-06-19T13:43:26.171Z'
+description: Bảng động từ bất quy tắc V1-V2-V3 kèm nghĩa tiếng Việt và ví dụ
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
+
+# Irregular Verbs
+
 arise - arose - arisen - nảy sinh, xuất hiện
 Ví dụ: New problems arose during the project.
 

@@ -1,13 +1,13 @@
 # Concepts
 
-* [Adverbial Clauses](English/Grammar/Concepts/Adverbial%20Clauses.md) - 1. Khái niệm
-* [Cleft Sentences](English/Grammar/Concepts/Cleft%20Sentences.md) - 1. Khái niệm
-* [Infinitives And Gerunds](English/Grammar/Concepts/Infinitives%20And%20Gerunds.md) - 1. Động từ nguyên mẫu (Infinitive)
-* [Mixed Conditionals](English/Grammar/Concepts/Mixed%20Conditionals.md) - 1. Khái niệm
-* [Passive Voice](English/Grammar/Concepts/Passive%20Voice.md) - 1. Khái niệm
-* [Relative Clauses](English/Grammar/Concepts/Relative%20Clauses.md) - 1. Khái niệm
-* [Reported Speech](English/Grammar/Concepts/Reported%20Speech.md) - 1. Khái niệm
-* [Sentence Structure](English/Grammar/Concepts/Sentence%20Structure.md) - Câu đơn
-* [Sentence Transformation Patterns](English/Grammar/Concepts/Sentence%20Transformation%20Patterns.md) - Các mô hình biến đổi câu
-* [Sentence Types](English/Grammar/Concepts/Sentence%20Types.md) - Câu Đảo Ngữ (Inversion Sentence)
-* [Singular And Plural](English/Grammar/Concepts/Singular%20And%20Plural.md) - 1. Danh từ số ít và danh từ số nhiều
+- [Adverbial Clauses](English/Grammar/Concepts/Adverbial%20Clauses.md) - Khái niệm, các loại mệnh đề trạng ngữ và vị trí trong câu
+- [Cleft Sentences](English/Grammar/Concepts/Cleft%20Sentences.md) - Câu nhấn mạnh (câu chẻ) - cấu trúc, các loại và lưu ý khi dùng
+- [Infinitives And Gerunds](English/Grammar/Concepts/Infinitives%20And%20Gerunds.md) - Động từ nguyên mẫu và danh động từ - hình thức, cách dùng, phân biệt
+- [Mixed Conditionals](English/Grammar/Concepts/Mixed%20Conditionals.md) - Câu điều kiện hỗn hợp - công thức, đảo ngữ và lưu ý
+- [Passive Voice](English/Grammar/Concepts/Passive%20Voice.md) - Câu bị động - công thức, cách chuyển đổi và các trường hợp đặc biệt
+- [Relative Clauses](English/Grammar/Concepts/Relative%20Clauses.md) - Mệnh đề quan hệ - đại từ quan hệ, các loại và cách rút gọn
+- [Reported Speech](English/Grammar/Concepts/Reported%20Speech.md) - Câu gián tiếp - các dạng, quy tắc lùi thì và thay đổi trạng từ
+- [Sentence Structure](English/Grammar/Concepts/Sentence%20Structure.md) - Cấu trúc câu - câu đơn, câu ghép/phức, mệnh đề quan hệ/trạng ngữ, câu điều kiện
+- [Sentence Transformation Patterns](English/Grammar/Concepts/Sentence%20Transformation%20Patterns.md) - Bộ mô hình biến đổi câu tương đương cho bài tập sentence transformation
+- [Sentence Types](English/Grammar/Concepts/Sentence%20Types.md) - Câu đảo ngữ, câu giả định và câu bị động - công thức và cách dùng
+- [Singular And Plural](English/Grammar/Concepts/Singular%20And%20Plural.md) - Danh từ và động từ số ít/số nhiều - quy tắc và trường hợp đặc biệt

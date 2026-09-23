@@ -1,15 +1,18 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Singular And Plural
-description: 1. Danh từ số ít và danh từ số nhiều
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Danh từ và động từ số ít/số nhiều - quy tắc và trường hợp đặc biệt
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Danh từ số ít và danh từ số nhiều:**
+
+# Singular And Plural
+
+## Danh từ số ít và danh từ số nhiều
 
 - **Danh từ số ít (Singular Noun):** Chỉ một người, một vật, một địa điểm hoặc một khái niệm.
 - **Danh từ số nhiều (Plural Noun):** Chỉ nhiều hơn một người, vật, địa điểm hoặc khái niệm.
@@ -24,7 +27,7 @@ tags:
     - Một số trường hợp thêm "-s" (ví dụ: photo - photos, piano - pianos).
   - **Danh từ bất quy tắc:** Có cách biến đổi riêng (ví dụ: man - men, woman - women, child - children).
 
-**2. Động từ số ít và động từ số nhiều:**
+## Động từ số ít và động từ số nhiều
 
 - **Động từ số ít (Singular Verb):** Dùng với chủ ngữ số ít.
 - **Động từ số nhiều (Plural Verb):** Dùng với chủ ngữ số nhiều.
@@ -34,7 +37,7 @@ tags:
     - Chủ ngữ số nhiều: Động từ giữ nguyên (ví dụ: They walk, We teach).
   - **Các thì khác:** Động từ giữ nguyên cho cả chủ ngữ số ít và số nhiều.
 
-**3. Các trường hợp đặc biệt:**
+## Các trường hợp đặc biệt
 
 - **Danh từ luôn ở dạng số nhiều:** scissors, pants, glasses,...
 - **Danh từ có hình thức số ít và số nhiều giống nhau:** sheep, fish, deer,...

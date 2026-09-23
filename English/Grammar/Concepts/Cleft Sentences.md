@@ -1,20 +1,23 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Cleft Sentences
-description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.171Z'
+description: Câu nhấn mạnh (câu chẻ) - cấu trúc, các loại và lưu ý khi dùng
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Khái niệm:**
+
+# Cleft Sentences
+
+## Khái niệm
 
 - Câu nhấn mạnh (còn gọi là câu chẻ) là một cấu trúc câu đặc biệt được sử dụng để nhấn mạnh một thành phần cụ thể trong câu, chẳng hạn như chủ ngữ, tân ngữ, trạng từ hoặc mệnh đề trạng ngữ.
 - Câu nhấn mạnh thường bắt đầu bằng "It" và động từ "to be", sau đó là thành phần được nhấn mạnh và phần còn lại của câu.
 
-**2. Các loại câu nhấn mạnh:**
+## Các loại câu nhấn mạnh
 
 - **Nhấn mạnh chủ ngữ (Subject Cleft):**
   - Cấu trúc: It + be + chủ ngữ (được nhấn mạnh) + who/that + phần còn lại của câu.
@@ -29,12 +32,12 @@ tags:
   - Cấu trúc: It + be + mệnh đề trạng ngữ (được nhấn mạnh) + that + phần còn lại của câu.
   - Ví dụ: It was because he was sick that he didn't go to school. (Chính vì anh ấy bị ốm nên anh ấy đã không đi học.)
 
-**3. Lưu ý:**
+## Lưu ý
 
 - Câu nhấn mạnh thường được sử dụng trong văn viết và văn nói trang trọng.
 - Câu nhấn mạnh có thể làm cho câu trở nên dài hơn và phức tạp hơn, nhưng nó cũng có thể làm cho câu trở nên rõ ràng và dễ hiểu hơn.
 
-**4. Ví dụ thêm:**
+## Ví dụ thêm
 
 - It is the children who are playing in the park. (Chính những đứa trẻ đang chơi trong công viên.)
 - It was the new car that he bought. (Chính chiếc xe mới mà anh ấy đã mua.)

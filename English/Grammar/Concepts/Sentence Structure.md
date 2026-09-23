@@ -1,20 +1,22 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Sentence Structure
-description: Câu đơn
-timestamp: "2026-06-19T13:43:26.172Z"
+description: Cấu trúc câu - câu đơn, câu ghép/phức, mệnh đề quan hệ/trạng ngữ, câu điều kiện
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
 
-# 1. Câu đơn
+# Sentence Structure
+
+## Câu đơn
 
 Câu đơn (Simple Sentence) là câu có **một mệnh đề độc lập**, bao gồm **chủ ngữ (S) và động từ (V)**, có thể có thêm các thành phần như **tân ngữ (O), bổ ngữ (C), trạng ngữ (A)**.
 
-## 1.1. Công thức tổng quát:
+### Công thức tổng quát
 
 A + S + V (+ O) (+ C) (+ A)
 
@@ -26,7 +28,7 @@ Trong đó:
 - **C (Complement)** – Bổ ngữ: Bổ nghĩa cho chủ ngữ (Subject Complement - SC) hoặc tân ngữ (Object Complement - OC).
 - **A (Adverbial)** – Trạng ngữ: Bổ sung ý nghĩa về thời gian, địa điểm, cách thức,...
 
-## 1.2. Các dạng cấu trúc câu đơn phổ biến
+### Các dạng cấu trúc câu đơn phổ biến
 
 S + V:
 
@@ -58,9 +60,9 @@ S + V + A (Trạng ngữ):
 - _She studies in the library._ (Cô ấy học trong thư viện.)
 - _He runs every morning._ (Anh ấy chạy mỗi sáng.)
 
-# 2. Câu ghép và câu phức (Compound & Complex Sentences)
+## Câu ghép và câu phức (Compound & Complex Sentences)
 
-## 2.1. Câu ghép (Compound Sentence)
+### Câu ghép (Compound Sentence)
 
 Câu ghép là câu được tạo thành từ **hai hoặc nhiều mệnh đề độc lập** (independent clause), mỗi mệnh đề có thể đứng riêng và có nghĩa đầy đủ, được nối với nhau bằng **liên từ kết hợp** (coordinating conjunction) hoặc dấu chấm phẩy (;).
 
@@ -72,11 +74,11 @@ Ví dụ:
 - _He studied hard, so he passed the exam._ (Anh ấy học chăm chỉ, nên đã đậu kỳ thi.)
 - _She is tired; she wants to go home._ (Cô ấy mệt mỏi; cô ấy muốn về nhà.)
 
-## 2.2. Câu phức (Complex Sentence)
+### Câu phức (Complex Sentence)
 
 Câu phức là câu được tạo thành từ **một mệnh đề độc lập** và **một hoặc nhiều mệnh đề phụ thuộc** (dependent clause — xem [Mệnh đề quan hệ](#3-mệnh-đề-quan-hệ-relative-clause) và [Mệnh đề trạng ngữ](#4-mệnh-đề-trạng-ngữ-adverbial-clause) bên dưới). Mệnh đề phụ thuộc không thể đứng một mình mà phải được nối với mệnh đề độc lập.
 
-## 2.3. Phân biệt câu ghép và câu phức
+### Phân biệt câu ghép và câu phức
 
 |                                     | Câu ghép                                               | Câu phức                                                                                      |
 | ----------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -86,7 +88,7 @@ Câu phức là câu được tạo thành từ **một mệnh đề độc lậ
 
 **Lưu ý:** Một câu có cả cấu trúc câu ghép và câu phức (nhiều mệnh đề độc lập + mệnh đề phụ thuộc) được gọi là **câu ghép-phức (compound-complex sentence)**.
 
-# 3. Mệnh đề quan hệ (Relative Clause)
+## Mệnh đề quan hệ (Relative Clause)
 
 Mệnh đề quan hệ là **mệnh đề phụ thuộc** dùng để bổ sung thông tin cho danh từ đứng trước, giúp câu trở nên chi tiết hơn mà không cần tạo một câu mới.  
 Mệnh đề này thường bắt đầu bằng **đại từ quan hệ (Relative Pronouns)** như:
@@ -97,11 +99,11 @@ Mệnh đề này thường bắt đầu bằng **đại từ quan hệ (Relativ
 - **which** (chỉ vật)
 - **that** (có thể thay thế _who/which_ trong một số trường hợp)
 
-## 3.1. Công thức chung:
+### Công thức chung
 
 Noun + Relative Pronoun + Verb (+Object)
 
-## 3.2. Ví dụ:
+### Ví dụ
 
 - _The man **who lives next door** is a doctor._  
    → "who lives next door" bổ sung thông tin cho _the man_.  
@@ -115,7 +117,7 @@ Noun + Relative Pronoun + Verb (+Object)
    → "whose brother won the race" chỉ sở hữu.  
    → (Cô ấy là cô gái **có anh trai thắng cuộc đua**.)
 
-# 4. Mệnh đề trạng ngữ (Adverbial Clause)
+## Mệnh đề trạng ngữ (Adverbial Clause)
 
 Mệnh đề trạng ngữ là **mệnh đề phụ thuộc** bổ sung thông tin về thời gian, nguyên nhân, điều kiện, mục đích,... cho mệnh đề chính.  
 Mệnh đề này thường bắt đầu bằng **liên từ phụ thuộc (Subordinating Conjunctions)** như:
@@ -127,13 +129,13 @@ Mệnh đề này thường bắt đầu bằng **liên từ phụ thuộc (Subo
 - **Contrast:** _although, though, even though_
 - **Comparison:** _as if, as though_
 
-## 4.1. **Công thức chung:**
+### Công thức chung
 
 (Main Clause) + (Subordinating Conjunction + Subject + Verb)
 
 👉 **Mệnh đề trạng ngữ có thể đứng trước hoặc sau mệnh đề chính. Nếu đứng đầu câu, cần dùng dấu phẩy (,).**
 
-## 4.2. **Ví dụ:**
+### Ví dụ
 
 - _I will go out **if it stops raining**._  
    → "if it stops raining" là mệnh đề trạng ngữ chỉ điều kiện.  
@@ -145,20 +147,20 @@ Mệnh đề này thường bắt đầu bằng **liên từ phụ thuộc (Subo
    → "when he arrived" là mệnh đề trạng ngữ chỉ thời gian.  
    → (Cô ấy bắt đầu nấu ăn **khi anh ấy đến**.)
 
-# 5. Câu điều kiện (Conditional Sentence)
+## Câu điều kiện (Conditional Sentence)
 
 Câu điều kiện diễn tả **điều kiện và kết quả của nó**. Nó gồm **hai mệnh đề:**
 
 - **Mệnh đề điều kiện (If-clause)** – Chỉ điều kiện.
 - **Mệnh đề chính (Main clause)** – Chỉ kết quả xảy ra nếu điều kiện được đáp ứng.
 
-## 5.1. **Công thức chung:**
+### Công thức chung
 
 If + Subject + Verb (Condition), Subject + Verb
 
-## 5.2. Ba loại câu điều kiện chính:
+### Ba loại câu điều kiện chính
 
-### 5.2.1. Câu điều kiện loại 1 (Real Condition - Có thể xảy ra)
+#### Câu điều kiện loại 1 (Real Condition - Có thể xảy ra)
 
 Dùng để nói về tình huống có thể xảy ra trong hiện tại hoặc tương lai.
 
@@ -169,7 +171,7 @@ Dùng để nói về tình huống có thể xảy ra trong hiện tại hoặc
   - _If it rains, we will stay at home._  
      (Nếu trời mưa, chúng tôi sẽ ở nhà.)
 
-### 5.2.2. Câu điều kiện loại 2 (Unreal Condition - Không có thật ở hiện tại)
+#### Câu điều kiện loại 2 (Unreal Condition - Không có thật ở hiện tại)
 
 Dùng để nói về điều kiện **không có thật hoặc khó xảy ra** trong hiện tại hoặc tương lai.
 
@@ -180,7 +182,7 @@ Dùng để nói về điều kiện **không có thật hoặc khó xảy ra** 
   - _If she had more money, she could travel the world._  
      (Nếu cô ấy có nhiều tiền hơn, cô ấy có thể đi du lịch khắp thế giới.)
 
-### 5.2.3. Câu điều kiện loại 3 (Impossible Condition - Không có thật trong quá khứ)
+#### Câu điều kiện loại 3 (Impossible Condition - Không có thật trong quá khứ)
 
 Dùng để nói về điều kiện **đã không xảy ra trong quá khứ** và kết quả của nó.
 

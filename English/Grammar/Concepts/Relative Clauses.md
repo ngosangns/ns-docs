@@ -1,20 +1,23 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Relative Clauses
-description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Mệnh đề quan hệ - đại từ quan hệ, các loại và cách rút gọn
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Khái niệm:**
+
+# Relative Clauses
+
+## Khái niệm
 
 - Mệnh đề quan hệ (Relative Clause) là một mệnh đề phụ được dùng để bổ nghĩa cho một danh từ đứng trước nó, được gọi là tiền ngữ (antecedent).
 - Mệnh đề quan hệ cung cấp thêm thông tin về tiền ngữ, giúp làm rõ nghĩa của danh từ đó.
 
-**2. Các đại từ quan hệ (Relative Pronouns):**
+## Các đại từ quan hệ (Relative Pronouns)
 
 - **Who:** Dùng để thay thế cho danh từ chỉ người, làm chủ ngữ hoặc tân ngữ trong mệnh đề quan hệ.
   - Ví dụ: The man who is talking to Mary is my teacher. (Người đàn ông đang nói chuyện với Mary là giáo viên của tôi.)
@@ -27,14 +30,14 @@ tags:
 - **Whose:** Dùng để chỉ sự sở hữu của cả người và vật.
   - Ví dụ: The girl whose mother is a teacher is very smart. (Cô gái có mẹ là giáo viên rất thông minh.)
 
-**3. Các loại mệnh đề quan hệ:**
+## Các loại mệnh đề quan hệ
 
 - **Mệnh đề quan hệ xác định (Defining Relative Clause):** Cung cấp thông tin cần thiết để xác định danh từ được nhắc đến, không có dấu phẩy ngăn cách với mệnh đề chính.
   - Ví dụ: The car that I bought last year is red. (Chiếc xe mà tôi mua năm ngoái có màu đỏ.)
 - **Mệnh đề quan hệ không xác định (Non-defining Relative Clause):** Cung cấp thêm thông tin về danh từ được nhắc đến, có dấu phẩy ngăn cách với mệnh đề chính.
   - Ví dụ: My brother, who lives in New York, is a doctor. (Anh trai tôi, người sống ở New York, là một bác sĩ.)
 
-**4. Rút gọn mệnh đề quan hệ:**
+## Rút gọn mệnh đề quan hệ
 
 - **Rút gọn thành cụm phân từ hiện tại (Present Participle Phrase):** Khi động từ trong mệnh đề quan hệ ở dạng tiếp diễn, ta có thể bỏ đại từ quan hệ và động từ "to be", chỉ giữ lại động từ thêm "-ing".
   - Ví dụ: The man who is talking to Mary => The man talking to Mary.

@@ -1,22 +1,24 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Mixed Conditionals
-description: 1. Khái niệm
-timestamp: "2026-06-19T13:43:26.172Z"
+description: Câu điều kiện hỗn hợp - công thức, đảo ngữ và lưu ý
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 resource: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed
 ---
 
-**1. Khái niệm:**
+# Mixed Conditionals
+
+## Khái niệm
 
 - Câu điều kiện hỗn hợp là dạng câu điều kiện đặc biệt, kết hợp giữa hai loại câu điều kiện khác nhau trong cùng một câu (khác thì ở hai mệnh đề), dùng khi mệnh đề điều kiện và kết quả không nằm cùng một mốc thời gian.
 - Nguồn: [Mixed conditionals – British Council LearnEnglish](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed).
 
-**2. Các loại câu điều kiện hỗn hợp:**
+## Các loại câu điều kiện hỗn hợp
 
 - **Điều kiện quá khứ → Kết quả hiện tại (if-clause loại 3 + main clause loại 2):**
   - Diễn tả một tình huống giả định **không có thật trong quá khứ**, kéo theo một **kết quả trái ngược ở hiện tại**.
@@ -31,19 +33,19 @@ resource: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/c
   - Ví dụ: If I weren't so busy, I would have come to your party last night. (Nếu tôi không bận như vậy [một đặc điểm chung ở hiện tại], tôi đã đến bữa tiệc của bạn tối qua rồi.)
   - Ví dụ (British Council): It's really important. If it wasn't, I wouldn't have called you on your holiday.
 
-**3. Đảo ngữ của câu điều kiện hỗn hợp:**
+## Đảo ngữ của câu điều kiện hỗn hợp
 
 - Đây là cấu trúc đảo ngữ kết hợp giữa đảo ngữ câu điều kiện loại 2 và câu điều kiện loại 3.
 - Ví dụ:
   - **Gốc:** If he had taken better care of himself, he wouldn't be sick now.
   - **Đảo ngữ:** Had he taken better care of himself, he wouldn't be sick now. (Nếu anh ấy đã chăm sóc bản thân cẩn thận hơn, anh ấy không bị ốm như bây giờ.)
 
-**4. Lưu ý:**
+## Lưu ý
 
 - Câu điều kiện hỗn hợp ít phổ biến hơn các loại câu điều kiện cơ bản.
 - Việc sử dụng câu điều kiện hỗn hợp cần sự chính xác trong việc xác định mối quan hệ giữa thời gian và tình huống giả định.
 
-**5. Ví dụ thêm:**
+## Ví dụ thêm
 
 - If I had listened to my parents, I wouldn't be in trouble now. (Nếu tôi đã nghe lời bố mẹ, tôi đã không gặp rắc rối như bây giờ.)
 - If she had taken the job, she would have been promoted by now. (Nếu cô ấy đã nhận công việc đó, bây giờ cô ấy đã được thăng chức rồi.)

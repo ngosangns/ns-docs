@@ -1,20 +1,23 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Adverbial Clauses
-description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.171Z'
+description: Khái niệm, các loại mệnh đề trạng ngữ và vị trí trong câu
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Khái niệm:**
+
+# Adverbial Clauses
+
+## Khái niệm
 
 - Mệnh đề trạng ngữ là một mệnh đề phụ có chức năng như một trạng từ, bổ nghĩa cho động từ, tính từ, trạng từ khác hoặc cả câu.
 - Mệnh đề trạng ngữ thường bắt đầu bằng một liên từ phụ thuộc (subordinating conjunction) và chứa một chủ ngữ và một động từ.
 
-**2. Các loại mệnh đề trạng ngữ:**
+## Các loại mệnh đề trạng ngữ
 
 - **Mệnh đề trạng ngữ chỉ thời gian (Adverbial Clause of Time):**
   - Chỉ thời điểm, thời gian hoặc khoảng thời gian mà hành động trong mệnh đề chính xảy ra.
@@ -53,7 +56,7 @@ tags:
   - Các liên từ thường dùng: as...as, than, the...the,...
   - Ví dụ: He is taller than his brother. (Anh ấy cao hơn anh trai mình.)
 
-**3. Vị trí của mệnh đề trạng ngữ:**
+## Vị trí của mệnh đề trạng ngữ
 
 - Mệnh đề trạng ngữ có thể đứng đầu câu, giữa câu hoặc cuối câu.
 - Khi đứng đầu câu, mệnh đề trạng ngữ thường được ngăn cách với mệnh đề chính bằng dấu phẩy.

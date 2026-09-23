@@ -1,20 +1,23 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Reported Speech
-description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Câu gián tiếp - các dạng, quy tắc lùi thì và thay đổi trạng từ
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Khái niệm:**
+
+# Reported Speech
+
+## Khái niệm
 
 - Câu gián tiếp là câu dùng để thuật lại lời nói của người khác một cách gián tiếp, không phải lời nói trực tiếp của người đó.
 - Câu gián tiếp thường được sử dụng khi muốn kể lại một cuộc trò chuyện, một câu chuyện hoặc một thông báo.
 
-**2. Các dạng câu gián tiếp:**
+## Các dạng câu gián tiếp
 
 - **Câu trần thuật (Statements):**
   - Cấu trúc: S + said/told + (that) + S + V (lùi thì)
@@ -32,7 +35,7 @@ tags:
   - Cấu trúc: S + exclaimed/remarked/said + (that) + S + V (lùi thì) hoặc S + exclaimed with + noun
   - Ví dụ: She exclaimed that the food was delicious. (Cô ấy thốt lên rằng thức ăn rất ngon.)
 
-**3. Quy tắc lùi thì (Backshift of Tenses):**
+## Quy tắc lùi thì (Backshift of Tenses)
 
 Khi chuyển từ câu trực tiếp sang câu gián tiếp, thì của động từ thường được lùi lại một bậc.
 
@@ -42,7 +45,7 @@ Khi chuyển từ câu trực tiếp sang câu gián tiếp, thì của động 
 - **Quá khứ đơn -> Quá khứ hoàn thành:** She said, "I saw him yesterday." -> She said that she had seen him the day before.
 - **Tương lai đơn -> Tương lai trong quá khứ:** He said, "I will call you tomorrow." -> He said that he would call me the next day.
 
-**4. Thay đổi trạng từ chỉ thời gian và nơi chốn:**
+## Thay đổi trạng từ chỉ thời gian và nơi chốn
 
 - **now -> then**
 - **today -> that day**

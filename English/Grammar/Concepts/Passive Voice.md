@@ -1,20 +1,23 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Passive Voice
-description: 1. Khái niệm
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Câu bị động - công thức, cách chuyển đổi và các trường hợp đặc biệt
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-**1. Khái niệm:**
+
+# Passive Voice
+
+## Khái niệm
 
 - Câu bị động (Passive Voice) là câu mà chủ ngữ không thực hiện hành động mà là đối tượng chịu tác động của hành động.
 - Câu bị động được sử dụng khi muốn nhấn mạnh đối tượng chịu tác động hơn là người thực hiện hành động, hoặc khi không biết hoặc không muốn đề cập đến người thực hiện hành động.
 
-**2. Công thức chung:**
+## Công thức chung
 
 - **S + be + V3/ed + (by O)**
   - S: Chủ ngữ (là đối tượng chịu tác động của hành động).
@@ -22,7 +25,7 @@ tags:
   - V3/ed: Động từ ở dạng quá khứ phân từ (past participle).
   - By O: Cụm giới từ chỉ người thực hiện hành động (có thể có hoặc không).
 
-**3. Cách chuyển từ câu chủ động sang câu bị động:**
+## Cách chuyển từ câu chủ động sang câu bị động
 
 1. **Xác định tân ngữ của câu chủ động:** Tân ngữ này sẽ trở thành chủ ngữ của câu bị động.
 2. **Xác định thì của động từ trong câu chủ động:** Chia động từ "to be" trong câu bị động theo thì tương ứng.
@@ -34,7 +37,7 @@ tags:
 - Câu chủ động: Mary writes a letter. (Mary viết một lá thư.)
 - Câu bị động: A letter is written by Mary. (Một lá thư được viết bởi Mary.)
 
-**4. Câu bị động với các thì khác nhau:**
+## Câu bị động với các thì khác nhau
 
 - **Hiện tại đơn:** S + am/is/are + V3/ed + (by O)
 - **Hiện tại tiếp diễn:** S + am/is/are + being + V3/ed + (by O)
@@ -45,7 +48,7 @@ tags:
 - **Tương lai đơn:** S + will be + V3/ed + (by O)
 - **Tương lai hoàn thành:** S + will have been + V3/ed + (by O)
 
-**5. Các trường hợp đặc biệt:**
+## Các trường hợp đặc biệt
 
 - **Câu bị động với hai tân ngữ:** Có thể có hai cách chuyển:
   - Tân ngữ chỉ người làm chủ ngữ: S (người) + be + V3/ed + O (vật) + (by O).

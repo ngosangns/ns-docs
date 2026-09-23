@@ -1,19 +1,22 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Sentence Types
-description: Câu Đảo Ngữ (Inversion Sentence)
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Câu đảo ngữ, câu giả định và câu bị động - công thức và cách dùng
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-# 1. Câu Đảo Ngữ (Inversion Sentence)
+
+# Sentence Types
+
+## Câu Đảo Ngữ (Inversion Sentence)
 
 Câu đảo ngữ là câu trong đó **trợ động từ hoặc động từ chính được đảo lên trước chủ ngữ** để **nhấn mạnh hoặc tạo sắc thái trang trọng**.
 
-## 1.1. Câu đảo ngữ với trạng từ phủ định
+### Câu đảo ngữ với trạng từ phủ định
 
 Các trạng từ **never, hardly, seldom, rarely, little, only** có thể đứng đầu câu, kéo theo sự đảo trật tự của chủ ngữ và động từ.
 
@@ -30,7 +33,7 @@ Negative Adverb + Auxiliary Verb + S + Main Verb
 - _Little did she know about the danger ahead._  
    (Cô ấy ít biết về nguy hiểm phía trước.)
 
-## 1.2. Câu đảo ngữ với ONLY
+### Câu đảo ngữ với ONLY
 
 Khi một số cụm từ bắt đầu bằng "only" đứng đầu câu, mệnh đề chính bị đảo ngữ.
 
@@ -45,7 +48,7 @@ Only if/when/after/by + Clause + Auxiliary Verb + S + Main Verb
 - _Only when she arrived did we start the meeting._  
    (Chỉ khi cô ấy đến, chúng tôi mới bắt đầu cuộc họp.)
 
-## 1.3. Câu đảo ngữ với NO SOONER và HARDLY
+### Câu đảo ngữ với NO SOONER và HARDLY
 
 Dùng để diễn tả hai hành động xảy ra liên tiếp.
 
@@ -61,7 +64,7 @@ Dùng để diễn tả hai hành động xảy ra liên tiếp.
 - _Hardly had she finished her meal when the phone rang._  
    (Cô ấy vừa ăn xong thì điện thoại reo.)
 
-## 1.4. Câu đảo ngữ với SO, SUCH
+### Câu đảo ngữ với SO, SUCH
 
 Dùng để nhấn mạnh mức độ.
 
@@ -77,11 +80,11 @@ Dùng để nhấn mạnh mức độ.
 - _Such a difficult exam was it that many students failed._  
    (Bài kiểm tra khó đến nỗi nhiều học sinh trượt.)
 
-# 2. Câu Giả Định (Subjunctive Sentence)
+## Câu Giả Định (Subjunctive Sentence)
 
 Câu giả định diễn tả **tình huống không có thật, mong muốn, lời khuyên hoặc yêu cầu**.
 
-## 2.1. Câu giả định với động từ đề nghị, yêu cầu
+### Câu giả định với động từ đề nghị, yêu cầu
 
 Các động từ như **suggest, recommend, request, demand, insist, advise** thường đi kèm với **mệnh đề that** sử dụng động từ nguyên thể không "to".
 
@@ -96,7 +99,7 @@ S + V + that + S + (should) + V (bare)
 - _She insisted that he **be** on time._  
    (Cô ấy khăng khăng rằng anh ấy phải đúng giờ.)
 
-## 2.2. Câu giả định với "It is important/necessary/essential that"
+### Câu giả định với "It is important/necessary/essential that"
 
 Câu giả định dùng sau **It is important/necessary/essential/vital...** cũng tuân theo công thức trên.
 
@@ -107,34 +110,34 @@ Câu giả định dùng sau **It is important/necessary/essential/vital...** c�
 - _It is important that she **submit** her assignment on time._  
    (Điều quan trọng là cô ấy phải nộp bài đúng hạn.)
 
-## 2.3. Câu giả định với If / Wish / As if
+### Câu giả định với If / Wish / As if
 
-### 2.3.1. Câu điều kiện loại 2 và 3 (Không có thật ở hiện tại hoặc quá khứ)
+#### Câu điều kiện loại 2 và 3 (Không có thật ở hiện tại hoặc quá khứ)
 
 - _If I were you, I would accept the job._  
    (Nếu tôi là bạn, tôi sẽ nhận công việc đó.)
 - _If he had studied harder, he would have passed the exam._  
    (Nếu anh ấy học chăm hơn, anh ấy đã đậu kỳ thi rồi.)
 
-### 2.3.2. Câu với "Wish" diễn tả mong ước
+#### Câu với "Wish" diễn tả mong ước
 
 - _I wish I **had more money**._  
    (Tôi ước tôi có nhiều tiền hơn.)
 - _She wishes she **had studied** harder._  
    (Cô ấy ước mình đã học chăm chỉ hơn.)
 
-### 2.3.3. Câu với "As if/As though" (Giả định một tình huống không có thật)
+#### Câu với "As if/As though" (Giả định một tình huống không có thật)
 
 - _He talks as if he **knew everything**._  
    (Anh ấy nói như thể anh ấy biết mọi thứ.)
 - _She behaves as though she **were the boss**._  
    (Cô ấy cư xử như thể cô ấy là sếp.)
 
-# 3. Câu Bị Động (Passive Voice)
+## Câu Bị Động (Passive Voice)
 
 Câu bị động được dùng khi **muốn nhấn mạnh vào hành động thay vì người thực hiện hành động**.
 
-## 3.1. Công thức chung
+### Công thức chung
 
 S + be + V3 + (by + O)
 
@@ -145,7 +148,7 @@ S + be + V3 + (by + O)
 - _A new law **has been passed** by the government._  
    (Một luật mới đã được thông qua bởi chính phủ.)
 
-## 3.2. Các thì trong câu bị động
+### Các thì trong câu bị động
 
 | **Thì**                 | **Công thức**        | **Ví dụ**                                      |
 | ----------------------- | -------------------- | ---------------------------------------------- |
@@ -156,7 +159,7 @@ S + be + V3 + (by + O)
 | **Quá khứ tiếp diễn**   | was/were being + V3  | The car **was being repaired** when I arrived. |
 | **Hiện tại hoàn thành** | has/have been + V3   | The report **has been completed**.             |
 
-## 3.3. Động từ có 2 tân ngữ trong câu bị động
+### Động từ có 2 tân ngữ trong câu bị động
 
 Nếu động từ có **tân ngữ trực tiếp (Direct Object - DO) và tân ngữ gián tiếp (Indirect Object - IO)**, có 2 cách chuyển sang bị động.
 
@@ -168,7 +171,7 @@ Nếu động từ có **tân ngữ trực tiếp (Direct Object - DO) và tân 
 
 ---
 
-## 3.4. Câu bị động với động từ tường thuật
+### Câu bị động với động từ tường thuật
 
 Các động từ như **say, think, believe, know, report** thường chuyển bị động theo cấu trúc:
 

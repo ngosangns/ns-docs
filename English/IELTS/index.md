@@ -1,3 +1,3 @@
 # Sections
 
-- [Concepts](English/IELTS/Concepts/index.md)
+* [Concepts](English/IELTS/Concepts/index.md)

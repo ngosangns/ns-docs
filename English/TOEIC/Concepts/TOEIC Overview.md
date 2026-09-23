@@ -1,7 +1,7 @@
 ---
 area: english
 domain: toeic
-type: resource
+type: guide
 title: TOEIC Overview
 description: Cấu trúc bài thi Listening & Reading, Speaking & Writing và thang điểm
 timestamp: "2026-09-23T00:00:00.000Z"
@@ -11,11 +11,13 @@ tags:
 resource: https://www.eu.ets.org/toeic/about/listening-reading.html
 ---
 
-# 1. TOEIC là gì
+# TOEIC Overview
+
+## TOEIC là gì
 
 TOEIC (Test of English for International Communication) do **ETS** phát triển, đánh giá năng lực tiếng Anh dùng trong môi trường công sở/quốc tế. Gồm **2 bài thi độc lập**: Listening & Reading (L&R) và Speaking & Writing (S&W) — có thể thi riêng lẻ.
 
-# 2. TOEIC Listening & Reading
+## TOEIC Listening & Reading
 
 - **Tổng thời lượng:** 120 phút, **200 câu hỏi trắc nghiệm**.
 - **Listening:** 45 phút, 100 câu — gồm 4 phần:
@@ -31,7 +33,7 @@ TOEIC (Test of English for International Communication) do **ETS** phát triển
 
 Nguồn: [TOEIC Listening and Reading test format – ETS](https://www.eu.ets.org/toeic/about/listening-reading.html).
 
-# 3. TOEIC Speaking & Writing
+## TOEIC Speaking & Writing
 
 - **Speaking:** 11 câu hỏi, ~20 phút. Đọc to văn bản (Q1-2), mô tả tranh (Q3-4), trả lời câu hỏi (Q5-7), trả lời dựa trên thông tin cho sẵn (Q8-10), trình bày ý kiến (Q11).
 - **Writing:** 8 câu hỏi, 60 phút. Viết câu dựa trên tranh (Q1-5), phản hồi email/yêu cầu bằng văn bản (Q6-7), viết bài luận nêu ý kiến (Q8).
@@ -39,8 +41,8 @@ Nguồn: [TOEIC Listening and Reading test format – ETS](https://www.eu.ets.or
 
 Nguồn: [TOEIC Speaking and Writing test format – ETS](https://www.eu.ets.org/toeic/about/speaking-writing.html).
 
-# 4. Mẹo làm bài Part 5/6 (ngữ pháp)
+## Mẹo làm bài Part 5/6 (ngữ pháp)
 
-Xem chi tiết các mẹo nhận diện từ loại, cụm danh từ, modifier trong [[TOEIC Daily Notes]].
+Xem chi tiết các mẹo nhận diện từ loại, cụm danh từ, modifier trong [TOEIC Daily Notes](/English/TOEIC/Concepts/TOEIC Daily Notes).
 
-Xem thêm: [[English Roadmap]].
+Xem thêm: [English Roadmap](/English/Resources/English Roadmap).

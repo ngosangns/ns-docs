@@ -3,12 +3,13 @@ area: english
 domain: toeic
 type: note
 title: TOEIC Daily Notes
-description: TOEIC Daily Notes
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Ghi chú ngữ pháp TOEIC - cụm danh từ, đuôi từ loại, so sánh, quy tắc bổ nghĩa
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - toeic
 ---
+
 # TOEIC Daily Notes
 
 ## Cấu trúc cụm danh từ

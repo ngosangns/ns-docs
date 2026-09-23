@@ -1,7 +1,7 @@
 ---
 area: english
 domain: ielts
-type: resource
+type: guide
 title: IELTS Overview
 description: Cấu trúc bài thi, thang điểm band 0-9 và các loại hình IELTS
 timestamp: "2026-09-23T00:00:00.000Z"
@@ -11,13 +11,15 @@ tags:
 resource: https://ielts.org/take-a-test/test-types
 ---
 
-# 1. IELTS là gì
+# IELTS Overview
+
+## IELTS là gì
 
 IELTS (International English Language Testing System) là bài thi đánh giá năng lực tiếng Anh do British Council, IDP: IELTS Australia và Cambridge University Press & Assessment English đồng sở hữu. Bài thi gồm **4 kỹ năng: Listening, Reading, Writing, Speaking**, tổng thời lượng khoảng **2 giờ 45 phút**.
 
 - Nguồn: [IELTS test format](https://ielts.org/en-us/for-test-takers/test-format), [Test format and structure – British Council](https://takeielts.britishcouncil.org/take-ielts/test-format).
 
-# 2. Hai loại hình: Academic và General Training
+## Hai loại hình: Academic và General Training
 
 Phần **Listening** và **Speaking** giống nhau ở cả hai loại hình. Phần **Reading** và **Writing** khác nhau:
 
@@ -30,7 +32,7 @@ Phần **Listening** và **Speaking** giống nhau ở cả hai loại hình. Ph
 
 - Nguồn: [IELTS Academic test format](https://ielts.org/take-a-test/test-types/ielts-academic-test), [IELTS General Training test format](https://ielts.org/take-a-test/test-types/ielts-general-training-test).
 
-# 3. Thang điểm Band 0-9
+## Thang điểm Band 0-9
 
 Mỗi kỹ năng được chấm theo thang **band 0-9** (có thể lẻ 0.5), điểm tổng (Overall Band Score) là **trung bình cộng của 4 kỹ năng**, làm tròn theo quy tắc:
 
@@ -53,6 +55,6 @@ Mỗi kỹ năng được chấm theo thang **band 0-9** (có thể lẻ 0.5), �
 
 - Nguồn: [IELTS scoring in detail — band scores explained](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
 
-# 4. Chi tiết từng kỹ năng
+## Chi tiết từng kỹ năng
 
-Xem các bài riêng: [[IELTS Listening And Reading]], [[IELTS Writing]], [[IELTS Speaking]].
+Xem các bài riêng: [IELTS Listening And Reading](/English/IELTS/Concepts/IELTS Listening And Reading), [IELTS Writing](/English/IELTS/Concepts/IELTS Writing), [IELTS Speaking](/English/IELTS/Concepts/IELTS Speaking).

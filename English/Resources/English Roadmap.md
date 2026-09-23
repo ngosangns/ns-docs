@@ -1,22 +1,25 @@
 ---
 area: english
 domain: english-learning
-type: resource
+type: plan
 title: English Roadmap
-description: Promt
-timestamp: '2026-06-19T13:43:26.165Z'
+description: Lộ trình học tiếng Anh 3 giai đoạn cho người mới bắt đầu hướng giao tiếp, lập trình và du học
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
 ---
-# 1. Promt
+
+# English Roadmap
+
+## Prompt
 
 Hãy giả sử bạn là một giáo sư chuyên về ngôn ngữ Anh có nhiều năm kinh nghiệm. Còn tôi là một người mới bắt đầu học tiếng Anh với mục đích để giao tiếp và làm việc trong ngành lập trình phần mềm và đi du học. Bạn hãy tạo ra roadmap cho việc học tiếng Anh của tôi, bao gồm các kiến thức cần học, các kho từ vựng cần học, các nguồn học uy tín, các công cụ và website học tiếng Anh online.
 
-# 2. Anwser
+## Lộ trình
 
 Để tạo ra một roadmap học tiếng Anh cho bạn, tôi sẽ chia thành các giai đoạn và cung cấp các kiến thức, từ vựng, nguồn học và công cụ phù hợp cho mỗi giai đoạn. Dưới đây là roadmap học tiếng Anh của bạn:
 
-Giai đoạn 1: Xây dựng nền tảng cơ bản (6 tháng)
+### Giai đoạn 1: Xây dựng nền tảng cơ bản (6 tháng)
 
 - Học ngữ pháp cơ bản: Tìm hiểu về các thì, cấu trúc câu, danh từ, động từ, tính từ, trạng từ, giới từ, liên từ, câu điều kiện, câu bị động, câu phủ định, câu hỏi, v.v.
 - Từ vựng cơ bản: Bắt đầu từ các từ vựng hàng ngày, sau đó mở rộng sang các từ vựng liên quan đến công việc và lĩnh vực lập trình phần mềm.
@@ -30,7 +33,7 @@ Công cụ và nguồn học:
 - BBC Learning English: Website cung cấp các bài học ngữ pháp, từ vựng, luyện nghe và phương pháp học tiếng Anh.
 - EnglishClub: Website cung cấp các bài học ngữ pháp, từ vựng, luyện nghe, phương pháp học tiếng Anh và diễn đàn để thảo luận với người học tiếng Anh khác.
 
-Giai đoạn 2: Nâng cao kỹ năng giao tiếp (6 tháng)
+### Giai đoạn 2: Nâng cao kỹ năng giao tiếp (6 tháng)
 
 - Học ngữ pháp nâng cao: Tìm hiểu về ngữ pháp phức tạp hơn như câu điều kiện loại 2 và 3, câu bị động phức tạp, câu trực tiếp và gián tiếp, v.v.
 - Từ vựng chuyên ngành: Tìm hiểu về các từ vựng liên quan đến lĩnh vực lập trình phần mềm và công việc của bạn.
@@ -44,7 +47,7 @@ Công cụ và nguồn học:
 - Cambridge English: Website cung cấp các bài học ngữ pháp, từ vựng, luyện nghe và phương pháp học tiếng Anh.
 - Coursera: Nền tảng học trực tuyến cung cấp các khóa học tiếng Anh từ các trường đại học hàng đầu trên thế giới.
 
-Giai đoạn 3: Nâng cao kỹ năng chuyên ngành (6 tháng trở lên)
+### Giai đoạn 3: Nâng cao kỹ năng chuyên ngành (6 tháng trở lên)
 
 - Học ngữ pháp và từ vựng chuyên ngành: Tìm hiểu về ngữ pháp và từ vựng chuyên ngành trong lĩnh vực lập trình phần mềm.
 - Nghe và nói: Lắng nghe các bài giảng, podcast, tham gia vào các cuộc thảo luận chuyên ngành và thực hành giao tiếp với người bản xứ hoặc người làm việc trong lĩnh vực lập trình phần mềm.

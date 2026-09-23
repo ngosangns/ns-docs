@@ -1,15 +1,16 @@
 ---
 area: english
 domain: grammar
-type: resource
+type: guide
 title: Sentence Transformation Patterns
-description: Các mô hình biến đổi câu
-timestamp: '2026-06-19T13:43:26.172Z'
+description: Bộ mô hình biến đổi câu tương đương cho bài tập sentence transformation
+timestamp: "2026-09-23T00:00:00.000Z"
 tags:
   - english
   - grammar
 ---
-# Các mô hình biến đổi câu
+
+# Sentence Transformation Patterns
 
 ## MODEL 1: Because / Since / As ↔ Because of / As a result of / Due to
 
