@@ -1,3 +1,7 @@
+## 2026-09-27
+
+**Creation** Technology/AI/Write Ups/ZUNA EEG Foundation Model: note bài Zyphra 18/2/2026 — foundation model 380M (Apache 2.0) khử nhiễu, tái tạo kênh mất và siêu phân giải EEG theo tọa độ điện cực (4D RoPE, diffusion autoencoder); so ZUNA vs ZUNA1.1, benchmark vs spherical spline, và làm rõ đây là lớp tín hiệu cho BCI chứ chưa phải thought-to-text
+
 ## 2026-09-24
 
 **Update** rewrite-docs skill: thêm playbook delegate content rewrite cho folder lớn (batch theo subtree qua claude headless), YAML gotcha cho `description:` chứa `: `, survey signals (diacritics scan, code-fence wrap, legacy `topic:` field), và verify checklist — kinh nghiệm từ Technology rewrite
