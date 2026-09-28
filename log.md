@@ -1,3 +1,9 @@
+## 2026-09-28
+
+**Update** Technology/Cloud And DevOps/Tools/VPN Proxy Firewall: note Home Proxy (homeproxy.vn) — nhà cung cấp proxy residential/datacenter Việt Nam (Viettel/VNPT/FPT, HTTP/HTTPS/SOCKS5), phục vụ MMO/farming account, ads, SEO automation, scraping, e-commerce
+**Update** Technology/Frontend/Tools/Web And Desktop Frameworks: note namethatui.com — từ điển tra tên linh kiện UI (mô tả bằng lời thường → tên chính thức, API reference, prompt code-ready), phủ 80+ term macOS và 50+ web element, kèm bảng đối chiếu AppKit/SwiftUI/web
+**Update** Technology/AI/Tools/Agents/AXTree Accessibility Tree: bổ sung ba lớp cây (Blink, platform, snapshot), lọc interesting-only của Puppeteer, YAML ref của Playwright MCP, và pipeline rút gọn của browser-use; sửa nhận định agent mặc định không dùng screenshot
+
 ## 2026-09-27
 
 **Update** Technology/IoT/Tools/Development Tools: note cactus-compute/needle — foundation model on-device 8–29 MB (Simple Attention Network) cho tool calls, structured extraction và embedding trên mobile/wearable/robot/MCU, kiến trúc ladder cho phép subnetwork 2 layer chạy trên thiết bị rất nhỏ
