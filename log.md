@@ -1,3 +1,7 @@
+## 2026-10-01
+
+**Creation** Technology/AI/Tools/Agents/Unreal Agent: note TREE-Ind/Unreal-Agent — plugin AI copilot (UnrealGPT, Apache-2.0) chạy trong editor UE 5.6 dưới dạng dockable tab, dùng OpenAI Responses API với toolset python_execute, scene_query, viewport_screenshot, reflection_query, file/web_search, voice Whisper, MCP và Replicate tùy chọn
+
 ## 2026-09-28
 
 **Update** Technology/AI/Tools/GenAI/Content And Multimedia Tools: note mrgoonie/multix-cli — CLI multimodal đa nhà cung cấp (Node.js), gen/edit ảnh qua 8+ provider (Gemini, OpenAI, MiniMax, Leonardo, BytePlus...), video gen, audio (STT/TTS/music), PDF→Markdown, tối ưu media qua ffmpeg/ImageMagick, dùng chung 1 command pattern
