@@ -1,20 +1,23 @@
 ---
 area: technology
-domain: golang
-type: note
-title: Golang Scheduler
-description: Short notes on the Go runtime scheduler model (M, P, G and the global and local run queues), based on the Ardan Labs article.
-timestamp: "2026-09-24T00:00:00.000Z"
+domain: schedulers
+type: resource
+title: Concepts Notes
+description: "Notes on the Go runtime scheduler and the operating-system scheduler article it builds on."
+timestamp: "2026-10-03T00:00:00.000Z"
 tags:
   - technology
   - golang
   - scheduler
+  - operating-system
 resource: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
 ---
 
-# Golang Scheduler
+# Concepts Notes
 
-## Resources
+## Golang Scheduler
+
+### Resources
 
 - https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
 
@@ -31,4 +34,10 @@ Next come the run queues. There are two kinds:
 - Global run queue (GRQ).
 - Local run queue (LRQ), one per P.
 
-> **See also:** [OS Scheduler](/Technology/Programming Languages/Concepts/Os Scheduler) · [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)
+> **See also:** [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)
+
+## Os Scheduler
+
+### Resources
+
+- https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html

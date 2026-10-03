@@ -76,4 +76,4 @@ According to the article, by combining dtype reduction + QuantileDMatrix + Dask-
 - **Scale**: reduce dtype → `DMatrix` → `QuantileDMatrix` → `ExtMemQuantileDMatrix` → Dask-XGBoost when multiple GPUs are needed.
 - **Deploy & inference**: use cuML FIL to speed up predict; refit the final model on 100% of the training data.
 
-> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Loss Functions) · [Monitoring Tracking](/Technology/AI/Tools/MLOps/Monitoring Tracking) · [Data Analytics Tools](/Technology/AI/Tools/Data/Data Analytics Tools)
+> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Core Concepts#loss-functions) · [Monitoring Tracking](/Technology/AI/Tools/MLOps/Monitoring Tracking) · [Data Analytics Tools](/Technology/AI/Tools/Data/Data Tools#data-analytics-tools)

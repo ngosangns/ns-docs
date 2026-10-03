@@ -107,4 +107,4 @@ Expected input: MNE `.fif` files, 256 Hz sample rate, with electrode coordinates
 
 **In one sentence:** ZUNA is a 380M open-source model that repairs and "upscales the resolution" of EEG using electrode coordinates — a foundation for non-invasive BCI, not a mind-reading machine.
 
-> **See also:** [Transformer Architecture](/Technology/AI/Concepts/Core Concepts/Transformer Architecture) · [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Attention Mechanism) · [Code World Model](/Technology/AI/Practices/Code World Model)
+> **See also:** [Transformer Architecture](/Technology/AI/Concepts/Core Concepts/Transformer Architecture) · [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Core Concepts#attention-mechanism) · [Code World Model](/Technology/AI/Practices/Code World Model)

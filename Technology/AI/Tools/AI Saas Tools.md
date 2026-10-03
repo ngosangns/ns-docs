@@ -44,4 +44,4 @@ resource: https://openfuture.ai
   - Achievements: Rising Star award from FinancesOnline, joined Google for Startups Accelerator 2024, Top 5 promising startups at TECHFEST 2024
   - Source: https://doctranslate.io/ #document #translation #AI #Vietnamese
 
-> **See also:** [Document Processing](/Technology/AI/Tools/Data/Document Processing) · [AI Tools And Resources](/Technology/AI/Resources/AI Tools And Resources) · [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools)
+> **See also:** [Document Processing](/Technology/AI/Tools/Data/Data Tools#document-processing) · [AI Tools And Resources](/Technology/AI/Resources/AI Tools And Resources) · [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools)

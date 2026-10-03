@@ -164,4 +164,4 @@ Attention(Q, K, V) = softmax(QK^T / √d_k) V
 - Original paper: "Attention is All You Need" (2017)
 - Blog post: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/
 
-> **See also:** [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Attention Mechanism) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Vision Transformers) · [RNN And LSTM](/Technology/AI/Concepts/Core Concepts/RNN And LSTM)
+> **See also:** [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Core Concepts#attention-mechanism) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Core Concepts#vision-transformers) · [RNN And LSTM](/Technology/AI/Concepts/Core Concepts/RNN And LSTM)

@@ -17,4 +17,4 @@ Every household that signs up for an internet plan gets a public dynamic IP (it 
 
 The ISP's router provides NAT port forwarding (mapping one port on the public dynamic IP to a local IP + port). If the ISP has locked that feature on the router, you need to call the ISP and ask them to enable it.
 
-> **See also:** [VPC And Availability Zones](/Technology/Cloud And DevOps/Concepts/Network/VPC And Availability Zones) · [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/File Transfer And Networking)
+> **See also:** [VPC And Availability Zones](/Technology/Cloud And DevOps/Concepts/Network/VPC And Availability Zones) · [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/Tools Notes#file-transfer-and-networking)

@@ -1,3 +1,10 @@
+## 2026-10-03
+**Update** Technology/Security/Tools/Security Tools: note ffuf/ffuf — web fuzzer Go (MIT), keyword FUZZ, match/filter, bản v2.3.0 (2026-09-09) thêm preflight/postflight; banner README vẫn ghi v2.1.0
+**Creation** Technology/AI/Tools/Agents/Google AX: note google/ax (agentexecutor.io) — control plane khai báo Task/Workspace/Model, sandbox actor trên Agent Substrate, suspend/resume volume /workspace; site còn nêu Gateway nhưng schema main chưa có; pointer trong Agent Infrastructure And Platforms và AXTree
+**Update** Gom note ngắn thành một file trong Life/Style/Visual, Technology/AI/Concepts/Computer Vision, Technology/AI/Concepts/Core Concepts, Technology/AI/Resources, Technology/AI/Resources/Datasets, Technology/AI/Tools/Data, Technology/Cloud And DevOps/Tools, Technology/Computer Science/Concepts, Technology/Programming Languages/Concepts và Technology/Tools And Utilities/Tools.
+**Creation** Technology/AI/Tools/Agents/Zeron: note zeronsh/zeron — control plane native (Rust/gpui) cho coding agent, local-first, sync tùy chọn qua Loro + Cloudflare Durable Objects; harness Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity
+## 2026-10-02
+**Creation** Technology/AI/Tools/Agents/Pi Durable: note @earendil-works/pi-durable (ship cùng Pi 1.0) — harness durable cho agent dài hạn: checkpoint/resume sau crash, multi-conversation + fork, extension/tool/hook/task, compaction nền, documents atomic với transcript, storage memory/JSONL/SQLite (Bun/CF DO), experimental API
 ## 2026-10-01
 
 **Creation** Technology/AI/Tools/Agents/Unreal Agent: note TREE-Ind/Unreal-Agent — plugin AI copilot (UnrealGPT, Apache-2.0) chạy trong editor UE 5.6 dưới dạng dockable tab, dùng OpenAI Responses API với toolset python_execute, scene_query, viewport_screenshot, reflection_query, file/web_search, voice Whisper, MCP và Replicate tùy chọn

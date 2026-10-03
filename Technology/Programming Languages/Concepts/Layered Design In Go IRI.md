@@ -128,4 +128,4 @@ Layered Design in Go
 - If you try it in a language other than Go, you need a rule that forbids circular imports and makes them a compile or build error.
 - Try it on a greenfield project. Refactoring an existing system built with another approach to move it to this one is tedious and difficult, but that is a general truth of refactoring, not specific to this approach.
 
-> **See also:** [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes) · [Golang Scheduler](/Technology/Programming Languages/Concepts/Golang Scheduler)
+> **See also:** [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes) · [Golang Scheduler](/Technology/Programming Languages/Concepts/Concepts Notes#golang-scheduler)

@@ -4,7 +4,7 @@ domain: security
 type: resource
 title: Security Tools
 description: A curated list of tools for secret management, vulnerability scanning, cryptography, security analytics, pentesting and PII detection.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-04T00:00:00.000Z"
 tags:
   - technology
   - security
@@ -66,6 +66,7 @@ Tools that support penetration testing and exploitation.
 - https://github.com/cr0hn/dockerscan — All-in-one Docker security scanner; scans images for vulnerabilities and leaked secrets, audits container/host configuration (root containers, exposed Docker socket), analyzes Docker network exposure, and aligns with CIS Benchmark/NIST SP 800-190.
 - https://github.com/evyatarmeged/Raccoon — High-performance recon and vulnerability scanning tool (3.2k+ stars); DNS enumeration, WHOIS/TLS lookups, port scanning with Nmap scripts, subdomain enumeration, URL fuzzing with SecLists wordlists, WAF detection, Tor/proxy routing, and async performance via Python asyncio.
 - https://github.com/openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities.
+- https://github.com/ffuf/ffuf — Fast web fuzzer in Go (Fuzz Faster U Fool, MIT). Puts a `FUZZ` keyword in the URL, a header, or the body, then keeps or drops responses by status, size, word count, line count, regex, or time to first byte. Wordlists (several keywords at once: clusterbomb, pitchfork, sniper), recursion, rate limit, autocalibration, and an interactive console that retunes filters mid-run. Config: `$XDG_CONFIG_HOME/ffuf/ffufrc`, overridable with `-config`. Install: release binary, `brew install ffuf`, Scoop, winget, or `go install github.com/ffuf/ffuf/v2@latest` (Go 1.20+). Latest release v2.3.0 (2026-09-09) adds preflight/postflight requests; the README help banner still says v2.1.0. v2.2.0 and v2.3.0 also cap response-body reads. About 16.8k stars as of 2026-10-04. Docs: https://github.com/ffuf/ffuf/wiki
 
 ## PII Detection & Data Privacy
 

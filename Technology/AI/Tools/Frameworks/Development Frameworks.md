@@ -158,6 +158,7 @@ resource: https://docs.jax.dev
   - Translation is powered by large language models (LLMs) running locally through llama.cpp. #translation #LLM #local
 - [MiroThinker](https://github.com/MiroMindAI/MiroThinker): AI thinking and reasoning framework. #AI #reasoning
 - [valuecell](https://github.com/ValueCell-ai/valuecell): AI-powered value and data processing tool. #AI #dataProcessing
+- **Laravel AI SDK**: Laravel's first-party AI SDK (`composer require laravel/ai`) — a unified PHP API over OpenAI, Anthropic, Gemini, Bedrock, and more for agents with tools and structured output, images, TTS/STT, embeddings, reranking, classification, vector-store RAG, and human tool approval. See [Laravel AI SDK](/Technology/AI/Tools/Frameworks/Laravel AI SDK) - [GitHub](https://github.com/laravel/ai) #Laravel #PHP #agents #LLM
 
 ## Data Extractor
 

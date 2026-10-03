@@ -58,4 +58,4 @@ tags:
 - **Training a model from scratch is expensive and prone to overfitting when data is scarce** → Starting from a well-trained model saves a great deal
 - **Better generalization** → Even with little new data, the model is already "used to learning"
 
-> **See also:** [Fine Tuning Techniques](/Technology/AI/Concepts/LLM And Generative AI/Fine Tuning/Fine Tuning Techniques) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Vision Transformers)
+> **See also:** [Fine Tuning Techniques](/Technology/AI/Concepts/LLM And Generative AI/Fine Tuning/Fine Tuning Techniques) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Core Concepts#vision-transformers)

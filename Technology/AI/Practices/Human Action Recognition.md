@@ -59,4 +59,4 @@ tags:
 - **Comparison**: 3D-CNN + LSTM vs ST-GCN for keypoint-based recognition
 - **Alternative**: Transformer in place of LSTM
 
-> **See also:** [RNN And LSTM](/Technology/AI/Concepts/Core Concepts/RNN And LSTM) · [Pose Estimation](/Technology/AI/Practices/Pose Estimation) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Vision Transformers)
+> **See also:** [RNN And LSTM](/Technology/AI/Concepts/Core Concepts/RNN And LSTM) · [Pose Estimation](/Technology/AI/Practices/Pose Estimation) · [Vision Transformers](/Technology/AI/Concepts/Core Concepts/Core Concepts#vision-transformers)

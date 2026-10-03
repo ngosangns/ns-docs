@@ -52,4 +52,4 @@ tags:
 - **Multithreading support**: Handles multiple data streams at once
 - **Easy integration**: Plugs into platforms and applications with little effort
 
-> **See also:** [Human Action Recognition](/Technology/AI/Practices/Human Action Recognition) · [Object Detection](/Technology/AI/Concepts/Computer Vision/Object Detection) · [Fitness Exercise Datasets](/Technology/AI/Resources/Datasets/Fitness Exercise Datasets)
+> **See also:** [Human Action Recognition](/Technology/AI/Practices/Human Action Recognition) · [Object Detection](/Technology/AI/Concepts/Computer Vision/Computer Vision#object-detection) · [Fitness Exercise Datasets](/Technology/AI/Resources/Datasets/Datasets#fitness-exercise-datasets)

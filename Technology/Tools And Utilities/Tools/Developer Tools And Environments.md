@@ -42,4 +42,4 @@ resource: https://github.com/marixdev/lstack
 - https://github.com/certimate-go/certimate — Open-source, self-hosted SSL certificate ACME tool (Go); automates the full issuance/deployment/renewal/monitoring cycle visually, with support for major cloud providers, Let's Encrypt, ZeroSSL, and Google Trust Services.
 - https://openship.io/ — Open-source deployment platform (self-hostable or cloud); push code and it handles builds, config, and deploys, with built-in Postgres/Redis/email/object storage services, multi-language support, and no vendor lock-in since apps run as standard Docker containers.
 
-> **See also:** [Git And GitHub](/Technology/Tools And Utilities/Tools/Git And GitHub) · [Testing Tools](/Technology/Testing/Tools/Testing Tools) · [Terminal UI Tools](/Technology/Tools And Utilities/Tools/Terminal UI Tools)
+> **See also:** [Git And GitHub](/Technology/Tools And Utilities/Tools/Git And GitHub) · [Testing Tools](/Technology/Testing/Tools/Testing Tools) · [Terminal UI Tools](/Technology/Tools And Utilities/Tools/Tools Notes#terminal-ui-tools)

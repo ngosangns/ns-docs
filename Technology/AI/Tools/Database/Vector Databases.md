@@ -35,4 +35,4 @@ resource: https://github.com/HelixDB/helix-db
 - **Trieve**: All-in-one platform for search, recommendations, RAG, and analytics, delivered via API - https://github.com/devflowinc/trieve #RAG #search #vector
 - **Quivr**: A RAG (Retrieval-Augmented Generation) solution for integrating GenAI into applications, supporting many large language models (LLMs) and vector stores - [GitHub](https://github.com/QuivrHQ/quivr) #RAG #LLM #vector
 
-> **See also:** [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview) · [Knowledge And Data Management](/Technology/AI/Tools/Data/Knowledge And Data Management) · [Zvec](/Technology/AI/Tools/Memory/Zvec)
+> **See also:** [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview) · [Knowledge And Data Management](/Technology/AI/Tools/Data/Data Tools#knowledge-and-data-management) · [Zvec](/Technology/AI/Tools/Memory/Zvec)

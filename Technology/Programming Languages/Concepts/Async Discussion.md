@@ -28,4 +28,4 @@ Unlike threads, which the OS or runtime schedules so they can context-switch, th
 
 PHP does not yet have truly asynchronous execution, because when one process in a process tree is running, the other processes in that tree must stop (whether a server handling many requests can have multiple process trees has not been tested). Today, a few frameworks and libraries implement async in PHP by imitating JS (for example, an event loop).
 
-> **See also:** [Defer Async Inline](/Technology/Programming Languages/Concepts/Defer Async Inline) · [Golang Scheduler](/Technology/Programming Languages/Concepts/Golang Scheduler)
+> **See also:** [Defer Async Inline](/Technology/Programming Languages/Concepts/Defer Async Inline) · [Golang Scheduler](/Technology/Programming Languages/Concepts/Concepts Notes#golang-scheduler)

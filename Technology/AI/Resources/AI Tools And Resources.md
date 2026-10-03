@@ -111,4 +111,4 @@ resource: https://beta.theb.ai/home
 - [A VOZ Forums thread on which teabags taste good, where members share reviews and tips for choosing tea.](https://voz.vn/t/tra-tui-loc-nao-ngon-vay-cac-thim.818093/)
 - [A VOZ Forums thread about tea appreciation, where members share experiences and preferences about different kinds of tea.](https://voz.vn/t/thuong-tra.415359/)
 
-> **See also:** [Learning Resources](/Technology/AI/Resources/Learning Resources) · [LLM Learning Resources](/Technology/AI/Resources/LLM Learning Resources) · [Hardware Rent](/Technology/AI/Resources/Hardware Rent)
+> **See also:** [Learning Resources](/Technology/AI/Resources/Learning Resources) · [LLM Learning Resources](/Technology/AI/Resources/LLM Learning Resources) · [Hardware Rent](/Technology/AI/Resources/Resources Notes#hardware-rent)

@@ -37,4 +37,4 @@ tags:
   - A single comparison can lead to a wrong conclusion about model quality
   - The t-test helps avoid "gut-feeling evaluation" by using multiple runs and statistical analysis so that decisions are scientifically grounded
 
-> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Loss Functions) · [XGBoost Tips And Tricks](/Technology/AI/Write Ups/XGBoost Tips And Tricks)
+> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Core Concepts#loss-functions) · [XGBoost Tips And Tricks](/Technology/AI/Write Ups/XGBoost Tips And Tricks)

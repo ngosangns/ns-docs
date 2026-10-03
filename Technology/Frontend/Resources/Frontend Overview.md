@@ -263,4 +263,4 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
   - Searchable database
   - AI-powered design recommendations
 
-> **See also:** [React Next](/Technology/Frontend/Tools/React Next) · [WebRTC](/Technology/Frontend/Concepts/WebRTC) · [Reflow Repaint And CLS Optimization](/Technology/Frontend/Practices/Reflow Repaint And CLS Optimization)
+> **See also:** [React Next](/Technology/Frontend/Tools/React Next) · [WebRTC](/Technology/Frontend/Concepts/WebRTC) · [Modern CSS Platform Features](/Technology/Frontend/Concepts/Modern CSS Platform Features) · [Reflow Repaint And CLS Optimization](/Technology/Frontend/Practices/Reflow Repaint And CLS Optimization)

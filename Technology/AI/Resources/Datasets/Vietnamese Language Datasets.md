@@ -99,4 +99,4 @@ Summary of a post about the collaboration between Viettel and NVIDIA to build Vi
 
 - NVIDIA blog on building the Vietnamese Curated Dataset: https://developer.nvidia.com/blog/processing-high-quality-vietnamese-language-data-with-nvidia-nemo-curator
 
-> **See also:** [Vietnamese NLP Resources](/Technology/AI/Resources/Vietnamese NLP Resources) · [Media Datasets](/Technology/AI/Resources/Datasets/Media Datasets)
+> **See also:** [Vietnamese NLP Resources](/Technology/AI/Resources/Resources Notes#vietnamese-nlp-resources) · [Media Datasets](/Technology/AI/Resources/Datasets/Datasets#media-datasets)

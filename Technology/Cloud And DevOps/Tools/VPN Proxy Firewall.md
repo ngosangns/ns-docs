@@ -30,4 +30,4 @@ resource: https://github.com/XTLS/Xray-core
 - Cloudflare Zero Trust: https://viblo.asia/p/devops-training-tao-vpn-kieu-moi-trong-15-phut-voi-cloudflare-zerotrust-2oKLnoY1VQO
 - **Home Proxy** (https://homeproxy.vn/) - Vietnamese residential and datacenter proxy provider. Residential IPs (static/rotating) from Viettel, VNPT, FPT; datacenter proxies from Vietnam and the US; HTTP/HTTPS and SOCKS5. Targets MMO/account farming, ad campaigns, SEO automation, scraping and e-commerce use cases. ~100 Mbps, unlimited bandwidth, plans from ~18,000 VND/month, support via Telegram/Zalo/Facebook.
 
-> **See also:** [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/File Transfer And Networking) · [VPS Hosting](/Technology/Cloud And DevOps/Tools/VPS Hosting) · [Reverse Proxy](/Technology/Cloud And DevOps/Tools/Reverse Proxy)
+> **See also:** [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/Tools Notes#file-transfer-and-networking) · [VPS Hosting](/Technology/Cloud And DevOps/Tools/VPS Hosting) · [Reverse Proxy](/Technology/Cloud And DevOps/Tools/Reverse Proxy)

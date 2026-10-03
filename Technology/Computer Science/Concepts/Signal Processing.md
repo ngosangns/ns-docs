@@ -45,4 +45,4 @@ resource: https://viblo.asia/p/fourier-transform-la-gi-ve-tranh-voi-discrete-fou
 - **Fast Fourier Transform (FFT)**: An optimized algorithm for computing the DFT efficiently, reducing computational complexity
 - Source: https://viblo.asia/p/fourier-transform-la-gi-ve-tranh-voi-discrete-fourier-transform-kNLr3deOVgA #signal-processing #fourier-transform #DFT
 
-> **See also:** [CPU Performance](/Technology/Computer Science/Concepts/CPU Performance) · [Operating Systems](/Technology/Computer Science/Concepts/Operating Systems)
+> **See also:** [CPU Performance](/Technology/Computer Science/Concepts/Concepts Notes#cpu-performance) · [Operating Systems](/Technology/Computer Science/Concepts/Concepts Notes#operating-systems)

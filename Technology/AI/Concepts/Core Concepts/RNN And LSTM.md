@@ -92,4 +92,4 @@ LSTM is a variant of RNN designed to overcome the vanishing gradient problem, al
 - **Long-term dependencies**: More effective than RNN at handling long-term dependencies in sequential data
 - **Wide applicability**: Used in many problems such as machine translation, speech recognition, sentiment analysis, and time series prediction
 
-> **See also:** [Transformer Architecture](/Technology/AI/Concepts/Core Concepts/Transformer Architecture) · [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Attention Mechanism) · [Loss Functions](/Technology/AI/Concepts/Core Concepts/Loss Functions)
+> **See also:** [Transformer Architecture](/Technology/AI/Concepts/Core Concepts/Transformer Architecture) · [Attention Mechanism](/Technology/AI/Concepts/Core Concepts/Core Concepts#attention-mechanism) · [Loss Functions](/Technology/AI/Concepts/Core Concepts/Core Concepts#loss-functions)

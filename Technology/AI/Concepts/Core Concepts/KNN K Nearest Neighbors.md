@@ -57,4 +57,4 @@ KNN works by finding the nearest data points to make a decision, so outliers can
   - Experiment with different distance metrics
 - Experimenting and tuning the model is an important part of optimizing performance
 
-> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Loss Functions) · [Transfer Learning](/Technology/AI/Concepts/Core Concepts/Transfer Learning)
+> **See also:** [Loss Functions](/Technology/AI/Concepts/Core Concepts/Core Concepts#loss-functions) · [Transfer Learning](/Technology/AI/Concepts/Core Concepts/Transfer Learning)

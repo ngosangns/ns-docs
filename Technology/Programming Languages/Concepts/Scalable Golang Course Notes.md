@@ -108,4 +108,4 @@ Viet Tran's (Việt Trần) scalable Golang course.
 - **Distributed tracing** to find bottlenecks in the system.
 - Basic **logging** system.
 
-> **See also:** [Golang Scheduler](/Technology/Programming Languages/Concepts/Golang Scheduler) · [Layered Design In Go IRI](/Technology/Programming Languages/Concepts/Layered Design In Go IRI)
+> **See also:** [Golang Scheduler](/Technology/Programming Languages/Concepts/Concepts Notes#golang-scheduler) · [Layered Design In Go IRI](/Technology/Programming Languages/Concepts/Layered Design In Go IRI)

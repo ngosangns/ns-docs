@@ -48,4 +48,4 @@ resource: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ7
 - **wav2vec 2.0** (https://arxiv.org/abs/2006.11477): A framework for self-supervised speech representation learning. Demonstrates for the first time that learning powerful representations from speech audio alone, then fine-tuning on transcribed data, can outperform the best semi-supervised methods.
 - **Whisper timestamp discussion** (https://github.com/openai/whisper/discussions/318): Discussion about extending the Whisper model to support accurate timestamping in speech recognition.
 
-> **See also:** [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools) · [Local Runtime Tools](/Technology/AI/Tools/Runtime/Local Runtime Tools) · [Vietnamese NLP Resources](/Technology/AI/Resources/Vietnamese NLP Resources)
+> **See also:** [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools) · [Local Runtime Tools](/Technology/AI/Tools/Runtime/Local Runtime Tools) · [Vietnamese NLP Resources](/Technology/AI/Resources/Resources Notes#vietnamese-nlp-resources)
