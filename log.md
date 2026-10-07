@@ -1,4 +1,5 @@
 ## 2026-10-07
+**Update** Technology/Frontend/Tools/React Next + Technology/Frontend/Resources/Frontend Overview: cập nhật note keenthemes/reui (reui.io) — giờ là platform shadcn/ui với 1,175 ví dụ registry copy-and-own (83 category, dashboard layout thật), 24 primitive in-house (Data Grid, Event Calendar, Gantt, Kanban...), cả bản Radix UI và Base UI, MIT, Pro tier trả phí
 **Update** Technology/Frontend/Tools/React Next: note preetsuthar17/hextaui (hextaui.com) — foundation components/blocks trên shadcn/ui, motion và states xử lý sẵn (number-flow, file tree, OTP, deploy cards), cài qua shadcn CLI registry, MIT, có Pro tier trả phí
 **Update** Travel/Guides/Packing Checklist: trước khi đi, máy cần còn đủ dung lượng để chụp ảnh.
 

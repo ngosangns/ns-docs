@@ -139,7 +139,7 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 ### UI Component Libraries
 
 - **DaisyUI**, **UI verse**, **LDRS**, **Particles.js**, **Bit**, **Omi**, **Vant**, **Liquid Glass**
-- **ReUI**: an open-source collection of UI components and animations built with React, TypeScript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui - [GitHub](https://github.com/keenthemes/reui) #React #UI #components #TailwindCSS #Motion
+- **ReUI**: a design-forward shadcn/ui platform (KeenThemes, MIT) — 1,175 copy-and-own registry examples across 83 categories plus 24 in-house primitives absent from base shadcn/ui (Data Grid, Event Calendar, Gantt, Kanban, Filters...), each in Radix UI and Base UI flavors; install via `npx shadcn@latest add @reui/<component>`, paid Pro tier for premium blocks - [GitHub](https://github.com/keenthemes/reui) | [Site](https://reui.io) #React #UI #components #TailwindCSS #shadcn
 - **Modern UI**: a collection of reusable UI components built with Radix UI and Tailwind CSS, ready for Next.js 15, inspired by Shadcn UI
   - **Key features:**
     - Simple installation of components and hooks via CLI (`npx @modern-core/ui add <component>`)
