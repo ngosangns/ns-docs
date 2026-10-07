@@ -4,7 +4,7 @@ domain: packing
 type: guide
 title: Packing Checklist
 description: Luggage checklists for regular trips and trekking/camping
-timestamp: "2026-09-23T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - travel
   - packing
@@ -93,6 +93,7 @@ Packing the right luggage is the foundation of a smooth, comfortable trip.
 - Share your itinerary with family.
 - Exchange currency (for international trips).
 - Top up your phone balance.
+- Leave enough free storage on the phone for photos.
 
 ### While Packing
 

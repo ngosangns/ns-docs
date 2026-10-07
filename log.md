@@ -1,3 +1,17 @@
+## 2026-10-07
+**Update** Technology/Frontend/Tools/React Next: note preetsuthar17/hextaui (hextaui.com) — foundation components/blocks trên shadcn/ui, motion và states xử lý sẵn (number-flow, file tree, OTP, deploy cards), cài qua shadcn CLI registry, MIT, có Pro tier trả phí
+**Update** Travel/Guides/Packing Checklist: trước khi đi, máy cần còn đủ dung lượng để chụp ảnh.
+
+## 2026-10-06
+**Creation** Travel/Destinations/International/Ladakh Self-Guided Motorbike: chuyến tự túc cuối tháng 9/2023 — Delhi, SIM Airtel, PAP 700 Rs, Classic 350 và Himalayan 411, vòng Leh–Nubra–Turtuk–Pangong–Tso Moriri, giá phòng và xăng như chuyến đó.
+**Update** Travel/Destinations/International/Ladakh: thêm kinh nghiệm lái (số thấp khi đổ đèo, không phanh gấp, không đi đêm, làn trái, Chang La, Nubra, Tso Moriri). Tách Umling La khỏi đường Nubra. Giấy vào Nubra, Pangong, Tso Moriri với hộ chiếu nước ngoài là PAP, không phải ILP.
+**Update** Travel/Destinations/International/Ladakh: thêm so sánh thuê Royal Enfield Himalayan 411 và 450 (sức kéo, phuộc, đồng hồ). Sửa claim nhẹ hơn khoảng 10 kg: cân kerb công bố khoảng 199 kg và 196 kg. Sửa claim 450 dễ hơn cho người nhỏ: yên tiêu chuẩn khoảng 825 mm so với 800 mm, và ABS sau ngắt được trên cả hai xe.
+**Update** Travel/Destinations/International/Ladakh: thêm thuốc nhỏ mắt, nhỏ mũi, kem môi, và lịch thuốc shock độ cao (1 viên mỗi 24 giờ, uống từ 24 giờ trước chuyến đi đến ngày về). Lịch này không phải liều để làm theo: không ghi hàm lượng viên, CDC phòng ngừa là 125 mg mỗi 12 giờ; triệu chứng say độ cao không phải cảm và không phải lý do tự ngưng thuốc.
+**Update** Travel/Destinations/International/Ladakh: viết lại ghi chú chuẩn bị (layering, 48 giờ đầu ở Leh, nước, Diamox, AMS/HAPE/HACE, đồ ăn mang theo, da và thời tiết); đối chiếu advisory Ladakh Tourism và CDC Yellow Book 2026, tách liều 250 mg trên biển báo với liều phòng ngừa 125 mg của CDC.
+
+## 2026-10-04
+**Update** Travel/Destinations/International/Ladakh: thêm mục Food, First day in Leh và Homestays — đồ Ấn nấu với guide Gyus, ngày đầu ở Leh, homestay Zanskar.
+**Update** Travel/Destinations/International/Ladakh: thêm mục đi Ladakh bằng motorbike — lý do (phiêu lưu, cảnh, tự do, văn hóa, cảm giác biker) và lưu ý thực tế (bằng lái, giấy phép, sức khỏe, đồ bảo hộ, thích nghi độ cao, xăng, thuê xe ở Leh, team backup).
 ## 2026-10-03
 **Update** Technology/Security/Tools/Security Tools: note ffuf/ffuf — web fuzzer Go (MIT), keyword FUZZ, match/filter, bản v2.3.0 (2026-09-09) thêm preflight/postflight; banner README vẫn ghi v2.1.0
 **Creation** Technology/AI/Tools/Agents/Google AX: note google/ax (agentexecutor.io) — control plane khai báo Task/Workspace/Model, sandbox actor trên Agent Substrate, suspend/resume volume /workspace; site còn nêu Gateway nhưng schema main chưa có; pointer trong Agent Infrastructure And Platforms và AXTree
