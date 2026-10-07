@@ -4,7 +4,7 @@ domain: schedulers
 type: resource
 title: Concepts Notes
 description: "Notes on the Go runtime scheduler and the operating-system scheduler article it builds on."
-timestamp: "2026-10-03T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - golang
@@ -34,7 +34,7 @@ Next come the run queues. There are two kinds:
 - Global run queue (GRQ).
 - Local run queue (LRQ), one per P.
 
-> **See also:** [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)
+> **See also:** [Race Conditions In Go](/Technology/Programming Languages/Concepts/Race Conditions In Go) · [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)
 
 ## Os Scheduler
 

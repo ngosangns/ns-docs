@@ -26,4 +26,4 @@ See the details at:
 - [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview)
 - [Fine Tuning Techniques](/Technology/AI/Concepts/LLM And Generative AI/Fine Tuning/Fine Tuning Techniques)
 
-> **See also:** [Prompt Guide](/Technology/AI/Concepts/LLM And Generative AI/Prompt Engineering/Prompt Guide) · [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview) · [Fine Tuning Techniques](/Technology/AI/Concepts/LLM And Generative AI/Fine Tuning/Fine Tuning Techniques)
+> **See also:** [Prompt Guide](/Technology/AI/Concepts/LLM And Generative AI/Prompt Engineering/Prompt Guide) · [RAG Overview](/Technology/AI/Concepts/LLM And Generative AI/RAG/RAG Overview) · [Fine Tuning Techniques](/Technology/AI/Concepts/LLM And Generative AI/Fine Tuning/Fine Tuning Techniques) · [Decision 2.0](/Technology/AI/Concepts/LLM And Generative AI/Decision 2.0)

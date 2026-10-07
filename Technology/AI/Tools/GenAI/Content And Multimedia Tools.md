@@ -4,7 +4,7 @@ domain: genai
 type: resource
 title: Content And Multimedia Tools
 description: Curated list of AI tools for TTS/ASR, OCR, video and audio download and dubbing, design, and other multimedia content creation and processing.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - genai
@@ -28,6 +28,7 @@ resource: https://github.com/izwi-ai/izwi
 - https://github.com/nexu-io/html-anything — Agentic HTML editor where your local AI agent writes the HTML; 75 skills across 9 surfaces (magazine, deck, poster, tweet/XHS, prototype, data report), sandboxed preview, and 1-click export to HTML/PNG/WeChat/X/Zhihu with zero API key.
 - https://github.com/caotranquochoai/Voice-Translator-V2 — Real-time desktop voice translator (Python/PyQt5); captures mic or system audio and runs an STT → translation → TTS pipeline with multiple swappable engines (Faster Whisper, Qwen3-ASR, Gemini Live, local VieNeu-TTS) for near real-time speech translation.
 - https://github.com/kentjuno/ainovel-cli — Multi-agent autonomous long-form novel-writing CLI (Go); a coordinator drives Architect → Writer → Editor in a single LLM loop to go from one prompt to a complete novel (500+ chapters) with 3-tier context management, step-level checkpointing, real-time intervention, and TXT/EPUB export. Vietnamese fork of voocel/ainovel-cli.
+- https://novelkit.cc/ — NovelKit, Vietnamese long-form fiction studio. Public code is [Novelkit_v2_lite](https://github.com/danielnguyen0428/Novelkit_v2_lite) (local FastAPI + React, loopback, one operator, bring-your-own OpenAI-compatible model). License `LicenseRef-NovelKit-V2-Lite-NC-ND-1.0`: non-commercial, no derivatives, not OSI open source. The homepage describes a Hermes deployment; `delegate.py` in Lite says that file is a local registry shim for the Hermes `delegate_tool`. Not NovelAI. See [NovelKit](/Technology/AI/Tools/GenAI/NovelKit).
 - https://3dviz.dev/ — Turns a text idea into an interactive 3D scene worth exploring; aimed at creators/designers who want a fast concept-to-3D-visualization workflow.
 - https://github.com/altic-dev/FluidVoice — Open-source macOS voice-to-text dictation app (Swift) with on-device AI enhancement; local-first, supports Nemotron/Parakeet/Whisper/Apple speech models, Command Mode and Write Mode, live preview overlay, and optional fully-local "Fluid Intelligence" formatting.
 - https://github.com/Zackriya-Solutions/meetily — Privacy-first, self-hosted AI meeting assistant (Rust) for macOS & Windows; 4x-faster Parakeet/Whisper live transcription, speaker diarization, and Ollama-based summarization, 100% local processing with no cloud required.

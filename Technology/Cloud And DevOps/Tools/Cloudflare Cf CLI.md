@@ -54,4 +54,4 @@ Generated leaves come straight from OpenAPI (`cf zones list`, `cf kv …`, `cf r
 - **Auth** — OAuth tokens via `@cloudflare/workers-auth` (canonical cf config dir, credential storage/refresh/keyring); `CLOUDFLARE_API_TOKEN` env supported, global API key deliberately disabled, no Wrangler credential fallback.
 - **Telemetry** — opt-out Sparrow dispatch with argument/error sanitization; `cf cli telemetry` to toggle.
 
-> **See also:** [DevOps Tools](/Technology/Cloud And DevOps/Tools/DevOps Tools) · [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/Tools Notes#file-transfer-and-networking) · [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents)
+> **See also:** [DevOps Tools](/Technology/Cloud And DevOps/Tools/DevOps Tools) · [File Transfer And Networking](/Technology/Cloud And DevOps/Tools/Tools Notes#file-transfer-and-networking) · [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents) · [Cloudflare Web Search API](/Technology/AI/Tools/Agents/Cloudflare Web Search API)

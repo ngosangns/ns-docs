@@ -4,7 +4,7 @@ domain: vue
 type: resource
 title: Vue And Nuxt
 description: Tips, libraries, UI kits, testing tools and templates for the Vue and Nuxt ecosystem.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - vue
@@ -62,6 +62,7 @@ tags:
 ### UI Components And Design Systems
 
 - **Design Systems**: Nuxt UI, UI Libs, Varlet, Vuestic UI, Naive UI, Equal, Vuesax, Quasar, Element Plus, Buefy, Vue Storefront UI, Maz-UI, Indielayer, Vueye, Chakra UI Vue, Vunix, Inkline, Radix Vue, PrimeVue, Vue Data UI, una-ui
+- **Arco Design Vue**: `@arco-design/web-vue` 2.58.0 (2026-04-16), Vue >= 3.2, MIT, same system as the React library. No IE. From 2.44.3, import components from `@arco-design/web-vue` and icons from `@arco-design/web-vue/es/icon` (the `exports` map added for Nuxt 3). The docs quick start prints `npm install --save-dev`. The package README prints a normal `npm install`. Stated browsers: Edge >= 79, Firefox >= 78, Chrome >= 64, Safari >= 12, Opera >= 53. The longer note is in [React Next](/Technology/Frontend/Tools/React Next). Site: https://arco.design/vue
 - **Material Design**: Vuetify, Vue Material, Varlet (Mobile)
 - **Specialized UI components**:
   - **Notification**: notivue

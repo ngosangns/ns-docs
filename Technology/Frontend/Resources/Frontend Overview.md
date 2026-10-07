@@ -4,7 +4,7 @@ domain: frontend
 type: resource
 title: Frontend Overview
 description: A broad map of the frontend landscape covering Web APIs, architecture models, build tools, performance, design systems, UI libraries, JavaScript libraries and templates.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - frontend
@@ -116,6 +116,7 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 
 - **CSS Frameworks**: Bulma, Shoelace, UIkit, Pico.css, Tachyons
 - **Design Systems**: Fluent Design, Material Design, Primer, Atlassian, Oku UI, Zag, DynaUI, Magic UI, VS Code Elements, LayUI, Material Web Components
+- **Arco Design**: ByteDance enterprise system (MIT). React `@arco-design/web-react` 2.66.16, Vue `@arco-design/web-vue` 2.58.0, mobile `@arco-design/mobile-react` 2.39.1. Less tokens plus CSS variables. [Design Lab](https://arco.design/themes) for themes. Detail in [React Next](/Technology/Frontend/Tools/React Next) - https://arco.design/
 - **ag-ui**: UI protocol framework - https://github.com/ag-ui-protocol/ag-ui #UI #protocol
 - **Magentic UI**: a user interface library developed by Microsoft, focused on building modern, easy-to-use UI components - [GitHub](https://github.com/microsoft/magentic-ui) #UI #library #microsoft
 

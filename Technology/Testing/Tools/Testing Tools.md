@@ -4,7 +4,7 @@ domain: testing
 type: resource
 title: Testing Tools
 description: A curated list of tools for API and integration testing, load testing, architecture checks, browser testing and dependency analysis.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - testing
@@ -39,6 +39,7 @@ resource: https://github.com/keploy/keploy
 
 ## Web & Browser Testing
 
+- **e2e**: TesterArmy end-to-end runner (Apache-2.0, npm `e2e` 0.18.0, pre-1.0). Natural-language `agent.act` plus locator assertions. Browsers go through Playwright (`@e2e-dev/web`); iOS and Android go through agent-device (`@e2e-dev/mobile`). npm `0.0.x` is the older willscott/e2e OpenPGP library. [GitHub](https://github.com/tester-army/e2e). See [e2e](/Technology/Testing/Tools/E2e).
 - **Browserstack**: A cloud platform for testing websites and applications on thousands of real devices and browsers.
 - **Lightpanda Browser**: An open-source headless browser optimized for automation and scraping. [GitHub](https://github.com/lightpanda-io/browser)
 - **OpenReplay**: A self-hostable session replay and product analytics solution that helps reproduce bugs and understand user behavior. [GitHub](https://github.com/openreplay/openreplay)

@@ -4,7 +4,7 @@ domain: agent-infrastructure
 type: resource
 title: Agent Infrastructure And Platforms
 description: Curated list of sandboxes, runtimes, orchestration platforms, and infrastructure frameworks for running AI agents.
-timestamp: "2026-10-04T00:00:00.000Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - technology
   - agent-infrastructure
@@ -43,6 +43,10 @@ resource: https://github.com/daytonaio/daytona
 - https://github.com/triggerdotdev/trigger.dev — Build and deploy fully-managed AI agents and workflows; open-source background jobs platform with a task runner, queues, and dashboard.
 - https://github.com/google/agents-cli — CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud, built around Google's Agent Development Kit (ADK).
 - https://github.com/google/ax — Google's pre-stable agent orchestration runtime (Apache-2.0, Go). Declare `Task`, `Workspace`, and `Model`; AX sandboxes each task as an actor on Agent Substrate, materializes git/MCP/skills, and can suspend and resume the `/workspace` volume. The product site also names a Gateway primitive that `main` does not define yet. Not the accessibility tree. See [Google AX](/Technology/AI/Tools/Agents/Google%20AX.md).
+- https://developers.cloudflare.com/web-search/ — Cloudflare Web Search API (open beta, 2 October 2026). One call through AI Gateway to Ceramic.ai, Exa, or Linkup; same result shape; list price on AI Gateway credits or a stored provider key. See [Cloudflare Web Search API](/Technology/AI/Tools/Agents/Cloudflare Web Search API).
+- https://anymd.cc/ — anymd (Digitop.ai, MIT). Prefix a public URL with `anymd.cc/` for Markdown. Signed-in reads land in a private library (BM25, FTS5, bge-m3, hybrid RRF). Remote MCP at `anymd.cc/mcp`. Search is free. Jev here is a TypeSafe tie-breaker, not Decision 2.0. See [Anymd](/Technology/AI/Tools/Agents/Anymd).
+- https://github.com/Kaelio/ktx — ktx (npm `@kaelio/ktx` 0.16.0, Apache-2.0). Local context layer for data agents: warehouse plus docs become a wiki and a semantic layer, served over CLI and MCP. Read-only connections, per the README. Node `>=22`. Not the unscoped npm package `ktx`, and not the Khronos KTX texture format. See [ktx](/Technology/AI/Tools/Agents/Ktx).
+- https://github.com/morluto/rea — REA (npm `rea-agents` 4.1.0, MIT). Local CLI and MCP for a coding agent. Static JavaScript needs only Node. Deep native analysis uses Hopper, Ghidra 12.1.x, or a bring-your-own IDA Pro MCP. Also covers Electron, .NET, headless JADX APKs, and Linux firmware via Binwalk and Unblob. `main` at `c7530f9` (2026-10-07) is ahead of the 2026-10-06 release tag while `package.json` still says 4.1.0. See [REA](/Technology/AI/Tools/Agents/REA).
 - https://github.com/trycua/cua — Open-source computer-use agent infrastructure ("computer-use 2.0"); cross-OS drivers and fleets plus benchmarks for training, evaluation, and data generation.
 - https://github.com/CopilotKit/channels-sdk — Open-source SDK that brings any AG-UI-compatible agent (CopilotKit's own, LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) into Slack, Microsoft Teams, and Discord with native, interactive UI (Block Kit/Adaptive Cards), tool calls, file handling, and human-approval gates.
 - https://github.com/skawld/skawld-sdk — Skawld Agent SDK (`@skawld/agent-sdk`): open-source (MIT) TypeScript framework that embeds a full agent loop — tools, multi-turn sessions, permission modes, streaming events, and subagents — into any Node.js 18+ / Bun 1.1+ app with one import (ESM-only). Supports Anthropic Claude plus OpenAI Chat Completions and Responses APIs, built-in tools and MCP, and SQLite-backed session persistence (in-memory store for tests); similar in spirit to the Claude Agent SDK but provider-agnostic. Docs: https://skawld.com/docs

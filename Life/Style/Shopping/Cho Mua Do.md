@@ -4,7 +4,7 @@ domain: clothing
 type: resource
 title: Cho Mua Do
 description: Chỗ mua đồ
-timestamp: "2026-06-19T13:43:26.169Z"
+timestamp: "2026-10-07T00:00:00.000Z"
 tags:
   - life
   - clothing
@@ -38,3 +38,7 @@ tags:
 ### Giày
 
 - **Adidas**: Giày thể thao, sneakers chất lượng cao
+
+## Quà tặng
+
+- **[Lilforest](/Life/Style/Shopping/Lilforest)**: quà thủ công bằng rêu bảo tồn và hoa khô trong hộp kính. Không cần tưới. Giá sale, cách giữ, và các claim báo chí nằm ở note riêng.
