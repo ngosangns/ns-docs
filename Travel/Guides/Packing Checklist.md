@@ -2,107 +2,107 @@
 area: travel
 domain: packing
 type: guide
-title: Packing Checklist
-description: Luggage checklists for regular trips and trekking/camping
-timestamp: "2026-10-07T00:00:00.000Z"
+title: Danh sách đồ mang theo
+description: Danh sách hành lý cho chuyến đi thường và cho leo núi, cắm trại
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - packing
 resource: https://dicungdien.com/trekking/dung-cu-can-thiet-khi-di-trekking/
 ---
 
-# Packing Checklist
+# Danh sách đồ mang theo
 
-## Overview
+## Tổng quan
 
-Packing the right luggage is the foundation of a smooth, comfortable trip.
+Mang đúng hành lý là nền của một chuyến đi suôn sẻ, thoải mái.
 
-## Basic Checklist
+## Danh sách cơ bản
 
-### Documents
+### Giấy tờ
 
-- [ ] ID card or passport.
-- [ ] Driver's license (if self-driving).
-- [ ] Travel insurance (if any).
-- [ ] Flight/train/bus tickets (printed or on phone).
-- [ ] Hotel/homestay bookings.
-- [ ] Copies of important documents.
+- [ ] Căn cước hoặc hộ chiếu.
+- [ ] Bằng lái (nếu tự lái).
+- [ ] Bảo hiểm du lịch (nếu có).
+- [ ] Vé máy bay/tàu/xe khách (in ra hoặc lưu trên điện thoại).
+- [ ] Xác nhận đặt khách sạn/homestay.
+- [ ] Bản sao các giấy tờ quan trọng.
 
-### Clothing
+### Quần áo
 
-- [ ] Outfits for the trip length plus 1-2 spares.
-- [ ] Jacket (depending on weather).
-- [ ] Underwear and socks.
-- [ ] Sleepwear.
-- [ ] Hat and scarf.
-- [ ] Footwear (walking shoes, indoor sandals).
+- [ ] Đồ mặc đủ số ngày chuyến đi, cộng thêm 1-2 bộ dự phòng.
+- [ ] Áo khoác (tùy thời tiết).
+- [ ] Đồ lót và tất.
+- [ ] Đồ ngủ.
+- [ ] Mũ và khăn.
+- [ ] Giày dép (giày đi bộ, dép đi trong nhà).
 
-### Toiletries
+### Đồ vệ sinh
 
-- [ ] Toothbrush and toothpaste.
-- [ ] Shampoo and body wash (or use the hotel's).
-- [ ] Comb and razor.
-- [ ] Towel (or use the hotel's).
-- [ ] Sunscreen.
-- [ ] Personal medication.
+- [ ] Bàn chải và kem đánh răng.
+- [ ] Dầu gội và sữa tắm (hoặc dùng của khách sạn).
+- [ ] Lược và dao cạo.
+- [ ] Khăn tắm (hoặc dùng của khách sạn).
+- [ ] Kem chống nắng.
+- [ ] Thuốc cá nhân.
 
-### Electronics
+### Đồ điện tử
 
-- [ ] Phone and charger.
-- [ ] Power bank.
-- [ ] Cables and adapter (for international trips).
-- [ ] Camera (if any).
-- [ ] Earphones.
+- [ ] Điện thoại và củ sạc.
+- [ ] Pin dự phòng.
+- [ ] Dây cáp và bộ chuyển nguồn (cho chuyến quốc tế).
+- [ ] Máy ảnh (nếu có).
+- [ ] Tai nghe.
 
-### Miscellaneous
+### Linh tinh
 
-- [ ] Wallet and cash.
-- [ ] Bank cards.
-- [ ] Trash bags.
-- [ ] Drinking water for the journey.
-- [ ] Snacks.
-- [ ] Basic first-aid kit.
+- [ ] Ví và tiền mặt.
+- [ ] Thẻ ngân hàng.
+- [ ] Túi rác.
+- [ ] Nước uống cho đường đi.
+- [ ] Đồ ăn vặt.
+- [ ] Bộ sơ cứu cơ bản.
 
-## Trekking and Camping Gear
+## Đồ leo núi và cắm trại
 
-### Specialized Equipment
+### Thiết bị chuyên dụng
 
-- [ ] Trekking backpack.
-- [ ] Tent and tarp.
-- [ ] Sleeping bag.
-- [ ] Sleeping pad.
-- [ ] Flashlight/headlamp.
-- [ ] Water bottle.
-- [ ] Camping stove (if needed).
-- [ ] Cooking utensils.
+- [ ] Ba lô leo núi.
+- [ ] Lều và bạt.
+- [ ] Túi ngủ.
+- [ ] Đệm ngủ.
+- [ ] Đèn pin/đèn đội đầu.
+- [ ] Bình nước.
+- [ ] Bếp cắm trại (nếu cần).
+- [ ] Dụng cụ nấu ăn.
 
-### Protective Gear
+### Đồ bảo hộ
 
-- [ ] Hiking boots.
-- [ ] Gloves.
-- [ ] Helmet (for motorbike touring).
-- [ ] Sunglasses.
-- [ ] Raincoat.
+- [ ] Giày leo núi.
+- [ ] Găng tay.
+- [ ] Mũ bảo hiểm (cho đi phượt xe máy).
+- [ ] Kính râm.
+- [ ] Áo mưa.
 
-## Notes
+## Ghi chú
 
-### Before You Leave
+### Trước khi đi
 
-- Check the weather at your destination.
-- Reconfirm all bookings.
-- Share your itinerary with family.
-- Exchange currency (for international trips).
-- Top up your phone balance.
-- Leave enough free storage on the phone for photos.
+- Kiểm tra thời tiết nơi đến.
+- Xác nhận lại mọi chỗ đã đặt.
+- Chia sẻ lịch trình với gia đình.
+- Đổi tiền (cho chuyến quốc tế).
+- Nạp tiền điện thoại.
+- Chừa đủ bộ nhớ trống trên điện thoại cho ảnh.
 
-### While Packing
+### Khi xếp đồ
 
-- Arrange items by priority.
-- Keep essentials within easy reach.
-- Do not carry unnecessary items.
-- Check luggage weight against airline limits.
+- Xếp đồ theo mức ưu tiên.
+- Để đồ thiết yếu trong tầm tay.
+- Không mang những thứ không cần.
+- Đối chiếu cân nặng hành lý với hạn mức của hãng bay.
 
-## Resources
+## Tài liệu
 
-- [The 11 most essential gear groups for trekking](https://dicungdien.com/trekking/dung-cu-can-thiet-khi-di-trekking/)
-- [Choosing food and water for trekking](https://dicungdien.com/trekking/di-trekking-nui-nen-mang-do-an-gi/)
+- [11 nhóm dụng cụ thiết yếu nhất khi đi leo núi](https://dicungdien.com/trekking/dung-cu-can-thiet-khi-di-trekking/)
+- [Chọn đồ ăn và nước khi đi leo núi](https://dicungdien.com/trekking/di-trekking-nui-nen-mang-do-an-gi/)

@@ -2,29 +2,29 @@
 area: travel
 domain: hanoi
 type: guide
-title: Hanoi
-description: Quick-hit list of Hanoi sights, coffee, and food
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Hà Nội
+description: Danh sách ngắn điểm tham quan, cà phê và món ăn ở Hà Nội
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - hanoi
 ---
 
-# Hanoi
+# Hà Nội
 
-A quick list for a short visit.
+Danh sách gọn cho một chuyến đi ngắn.
 
-## Sights
+## Điểm tham quan
 
-- Hồ Gươm (Hoàn Kiếm lake)
-- Lăng Bác (Hồ Chí Minh mausoleum)
+- Hồ Gươm (hồ Hoàn Kiếm)
+- Lăng Bác (lăng Hồ Chí Minh)
 - Cột cờ Hà Nội
 - Chùa Một Cột
-- Tạ Hiện / Hồ Gươm / rooftop cafes for nightlife
+- Tạ Hiện / Hồ Gươm / quán cà phê sân thượng để đi chơi đêm
 
-## Food & Coffee
+## Ăn uống và cà phê
 
-- Cafe Giảng (egg coffee)
+- Cafe Giảng (cà phê trứng)
 - Bún chả
 - Cà phê trứng
 - Phở

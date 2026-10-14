@@ -2,75 +2,75 @@
 area: travel
 domain: motorbike-touring
 type: guide
-title: Motorbike Touring
-description: Self-guided motorbike travel (phượt) - bike prep, essential gear, and safety basics
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Đi phượt xe máy
+description: Đi tự túc bằng xe máy (phượt) - chuẩn bị xe, đồ thiết yếu và những điều an toàn cơ bản
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - motorbike-touring
 ---
 
-# Motorbike Touring (Phượt)
+# Đi phượt xe máy
 
-## Overview
+## Tổng quan
 
-Phượt is self-guided travel by motorbike, usually to remote and rugged destinations. It is the freest and most adventurous way to explore the country.
+Phượt là đi tự túc bằng xe máy, thường tới những nơi xa và đường khó. Đây là cách khám phá đất nước tự do nhất và giàu tính phiêu lưu nhất.
 
-## Preparing the Bike
+## Chuẩn bị xe
 
-### Renting
+### Thuê xe
 
-- **Underbone bikes are the default choice:** the Yamaha Winner is a popular option.
-- Rent from reputable shops that offer warranty.
-- Inspect the bike carefully before accepting it.
+- **Xe côn tay là lựa chọn mặc định:** Yamaha Winner là một phương án phổ biến.
+- Thuê ở cửa hàng uy tín, có bảo hành.
+- Xem xe thật kỹ trước khi nhận.
 
-### Pre-ride Inspection
+### Kiểm tra trước khi chạy
 
-**Parts to check:**
+**Các bộ phận cần xem:**
 
-- **Engine oil:** sufficient and in good condition.
-- **Fuel:** full tank; check the fuel system.
-- **Brakes:** test both front and rear.
-- **Tires:** pressure, tread wear, no embedded sharp objects.
-- **Lights:** headlight, taillight, turn signals.
-- **Chain (if any):** tension and lubrication.
-- **Bolts:** tighten all critical fasteners.
+- **Dầu máy:** đủ và còn tốt.
+- **Xăng:** bình đầy; kiểm tra hệ thống nhiên liệu.
+- **Phanh:** thử cả phanh trước và phanh sau.
+- **Lốp:** hơi, độ mòn gai, không có vật sắc cắm vào.
+- **Đèn:** đèn pha, đèn hậu, xi-nhan.
+- **Sên (nếu có):** độ căng và mức bôi trơn.
+- **Ốc:** siết mọi ốc quan trọng.
 
-## Essential Gear
+## Đồ thiết yếu
 
-### Protective Gear
+### Đồ bảo hộ
 
-- Certified helmet.
-- Gloves.
-- Sun/windproof jacket.
-- Riding boots or sturdy sneakers.
+- Mũ bảo hiểm đạt chuẩn.
+- Găng tay.
+- Áo chống nắng/chống gió.
+- Giày đi xe hoặc giày thể thao chắc.
 
-### Tools and Utilities
+### Dụng cụ và đồ dùng
 
-- Paper map or GPS.
-- Phone and power bank.
-- Flashlight.
-- Basic repair toolkit.
-- Cables and rope.
-- Spare fuel bottle (for long distances).
+- Bản đồ giấy hoặc GPS.
+- Điện thoại và pin dự phòng.
+- Đèn pin.
+- Bộ đồ sửa chữa cơ bản.
+- Dây cáp và dây thừng.
+- Bình xăng dự phòng (cho quãng đường dài).
 
-### Personal Items
+### Đồ cá nhân
 
-- Weather-appropriate clothing.
-- Drinking water and snacks.
-- Basic medication.
-- ID documents.
+- Quần áo hợp thời tiết.
+- Nước uống và đồ ăn vặt.
+- Thuốc cơ bản.
+- Giấy tờ tùy thân.
 
-## Safety Notes
+## Lưu ý an toàn
 
-- Always wear a helmet.
-- Do not speed, especially on mountain passes.
-- Take regular breaks to avoid fatigue.
-- Check the weather forecast before departure.
-- Share your itinerary with family or friends.
-- Carry both cash and bank cards.
+- Luôn đội mũ bảo hiểm.
+- Không phóng nhanh, nhất là trên đèo.
+- Nghỉ đều để khỏi mệt.
+- Xem dự báo thời tiết trước khi xuất phát.
+- Chia sẻ lịch trình với gia đình hoặc bạn bè.
+- Mang cả tiền mặt lẫn thẻ ngân hàng.
 
-## Routes
+## Cung đường
 
-- [Saigon - Da Lat Routes](/Travel/Destinations/Vietnam/Saigon Da Lat Routes) - day rides to Da Lat.
-- [Northwest Vietnam: Motorbike And Solo Travel](/Travel/Destinations/Vietnam/Northwest Vietnam/Motorbike And Solo Travel) - pass routes ranked by difficulty.
+- [Tuyến Sài Gòn – Đà Lạt trong một ngày](/Travel/Destinations/Vietnam/Saigon Da Lat Routes) - các chuyến trong ngày tới Đà Lạt.
+- [Xe máy và đi một mình ở Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Motorbike And Solo Travel) - các cung đèo xếp theo độ khó.

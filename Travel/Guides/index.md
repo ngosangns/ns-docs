@@ -1,5 +1,5 @@
 # Concepts
 
-- [Motorbike Touring](Travel/Guides/Motorbike%20Touring.md) - Self-guided motorbike travel (phượt) - bike prep, essential gear, and safety basics
-- [Packing Checklist](Travel/Guides/Packing%20Checklist.md) - Luggage checklists for regular trips and trekking/camping
-- [Tent And Tarp Setup](Travel/Guides/Tent%20And%20Tarp%20Setup.md) - How to pitch a tent and rig a tarp correctly when camping
+- [Danh sách đồ mang theo](Travel/Guides/Packing%20Checklist.md) - Danh sách hành lý cho chuyến đi thường và cho leo núi, cắm trại
+- [Dựng lều và bạt](Travel/Guides/Tent%20And%20Tarp%20Setup.md) - Cách dựng lều và căng bạt đúng khi cắm trại
+- [Đi phượt xe máy](Travel/Guides/Motorbike%20Touring.md) - Đi tự túc bằng xe máy (phượt) - chuẩn bị xe, đồ thiết yếu và những điều an toàn cơ bản

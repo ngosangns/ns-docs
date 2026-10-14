@@ -2,57 +2,57 @@
 area: travel
 domain: china
 type: guide
-title: China Itineraries
-description: Community trip reports and route ideas for China - Yunnan, West Sichuan, border crossings
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Lịch trình Trung Quốc
+description: "Tường thuật chuyến đi và ý tưởng lộ trình Trung Quốc từ cộng đồng - Vân Nam, Tây Tứ Xuyên, cửa khẩu"
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - china
   - itinerary
 ---
 
-# China Itineraries and Trip Reports
+# Lịch trình Trung Quốc
 
-## Route Ideas
+## Ý tưởng lộ trình
 
-- **Yunnan classic:** Đại Lý - Lệ Giang - Shangrila (Ngọc Long snow mountain). Opinion is split on Shangrila - one traveler says skip it, others say the old towns and scenery match or beat Phượng Hoàng Cổ Trấn and Trương Gia Giới. Lệ Giang alone is worth it for the snow mountain plus old town.
-- **Phượng Hoàng Cổ Trấn:** cheaper overall and comfortable for older travelers.
-- **East:** Thượng Hải, Tô Châu (and Hàng Châu if time allows).
-- **North:** Bắc Kinh - including the Hà Bắc Academy of Fine Arts (a Hogwarts-looking campus) and Cửu Trại Câu.
-- Example compact plan (5 days): Đại Lý - Lệ Giang, or Thượng Hải - Tô Châu, or Bắc Kinh alone.
-- Other cities community members have covered: Côn Minh (multiple times, work and leisure), Thành Đô, Quảng Châu. Tô Châu (Jiangsu) is a recurring "next trip" target.
+- **Vân Nam kinh điển:** Đại Lý - Lệ Giang - Shangrila (núi tuyết Ngọc Long). Ý kiến về Shangrila chia đôi - một người bảo bỏ qua, người khác bảo phố cổ và cảnh ngang hoặc hơn Phượng Hoàng Cổ Trấn và Trương Gia Giới. Riêng Lệ Giang đã đáng, nhờ núi tuyết cộng phố cổ.
+- **Phượng Hoàng Cổ Trấn:** rẻ hơn về tổng thể, và thoải mái với người lớn tuổi.
+- **Phía đông:** Thượng Hải, Tô Châu (và Hàng Châu nếu còn thời gian).
+- **Phía bắc:** Bắc Kinh - gồm Học viện Mỹ thuật Hà Bắc (khuôn viên trông như Hogwarts) và Cửu Trại Câu.
+- Ví dụ một lịch gọn (5 ngày): Đại Lý - Lệ Giang, hoặc Thượng Hải - Tô Châu, hoặc chỉ Bắc Kinh.
+- Thành phố khác mà người trong cộng đồng đã đi: Côn Minh (nhiều lần, cả đi làm lẫn đi chơi), Thành Đô, Quảng Châu. Tô Châu (Giang Tô) cứ được nhắc như đích của "chuyến sau".
 
-## West Sichuan (Tây Tứ Xuyên) 5 Days 4 Nights
+## Tây Tứ Xuyên, 5 ngày 4 đêm
 
-Total damage ~19 million VND: flew into Thành Đô, explored the city 2 days, then took a 5-day land tour. Pricier than average but worth the money.
+Tổng chi khoảng 19 triệu đồng: bay vào Thành Đô, đi thành phố 2 ngày, rồi đi tour đường bộ 5 ngày. Đắt hơn mức thường, nhưng đáng tiền.
 
-- **Day 1:** Thành Đô -> route 318 -> Hồ Hồng Hải (30 tệ) -> Yuzixi (30 tệ) -> Gediram (free) -> Xinduqiao (overnight).
-- **Day 2:** Xinduqiao -> Jiagenba (camping lunch 99 tệ/person) -> Gongga mountain (30 tệ) -> Xinduqiao.
-- **Day 3:** Xinduqiao -> Tagong (photo costume rental: 398 tệ including shoot, makeup, outfit) -> Muya temple -> Tiểu Seda -> Tiểu Tân Cương / Balangshengdu Yuniao (free; horse rental 50 tệ) -> Yala (30 tệ) -> Xinduqiao (bonfire night).
-- **Day 4:** Xinduqiao -> Moshi Park (free) -> Gunong village (10-30 tệ) -> Siguniang (overnight).
-- **Day 5:** Siguniang -> Shuangqiaogou valley (student ticket 110 tệ) -> Thành Đô.
+- **Ngày 1:** Thành Đô -> đường 318 -> Hồ Hồng Hải (30 tệ) -> Yuzixi (30 tệ) -> Gediram (miễn phí) -> Xinduqiao (ngủ đêm).
+- **Ngày 2:** Xinduqiao -> Jiagenba (bữa trưa cắm trại 99 tệ/người) -> núi Gongga (30 tệ) -> Xinduqiao.
+- **Ngày 3:** Xinduqiao -> Tagong (thuê đồ chụp ảnh: 398 tệ, gồm chụp, trang điểm và trang phục) -> chùa Muya -> Tiểu Seda -> Tiểu Tân Cương / Balangshengdu Yuniao (miễn phí; thuê ngựa 50 tệ) -> Yala (30 tệ) -> Xinduqiao (đêm lửa trại).
+- **Ngày 4:** Xinduqiao -> Moshi Park (miễn phí) -> làng Gunong (10-30 tệ) -> Siguniang (ngủ đêm).
+- **Ngày 5:** Siguniang -> thung lũng Shuangqiaogou (vé sinh viên 110 tệ) -> Thành Đô.
 
-Notes:
+Ghi chú:
 
-- Private car with driver, only 3 passengers - spacious and comfortable.
-- Weather luck: expected summer storms and landslides; only the last 2 of 5 days had bad weather.
-- **Altitude sickness is real:** day 1 jumps straight from Thành Đô to 4,200 m (Hồ Hồng Hải); Yala and Gongga viewpoints reach ~4,700 m; sleeping altitude at Xinduqiao is ~3,800 m. Even the car struggled on some passes. Prepare your health - mild headache is common, full AMS happens.
-- Pack a windproof jacket even in summer - rain is cold and the wind at altitude is fierce.
-- Food costs are reasonable (~100-200k VND/day). Taste is subjective; the reporter eats anything.
-- The scenery justifies everything - a return trip in autumn is planned.
+- Xe riêng có tài xế, chỉ 3 khách - rộng và thoải mái.
+- Thời tiết may: đã liệu trước bão mùa hè và sạt lở; chỉ 2 ngày cuối trong 5 ngày là thời tiết xấu.
+- **Say độ cao là chuyện có thật:** ngày 1 nhảy thẳng từ Thành Đô lên 4.200 m (Hồ Hồng Hải); các điểm ngắm Yala và Gongga tới khoảng 4.700 m; độ cao lúc ngủ ở Xinduqiao khoảng 3.800 m. Đến xe cũng vất ở một số đèo. Chuẩn bị sức khỏe - đau đầu nhẹ thì hay gặp, còn say độ cao đầy đủ thì vẫn xảy ra.
+- Mang áo khoác chắn gió cả khi đang mùa hè - mưa thì lạnh, và gió trên cao rất mạnh.
+- Tiền ăn hợp lý (khoảng 100-200 nghìn đồng/ngày). Ngon hay không là chuyện chủ quan; người kể ăn được mọi thứ.
+- Cảnh đủ để đáng tất cả - đã có kế hoạch quay lại vào mùa thu.
 
-## Overland Border Crossing Story (Historical)
+## Chuyện qua cửa khẩu đường bộ (đã cũ)
 
-An old-school account (~15 years ago) of entering China via Lào Cai:
+Một kể kiểu cũ (khoảng 15 năm trước) về lối vào Trung Quốc qua Lào Cai:
 
-- Train Hanoi -> Lào Cai (Tibet... er, China visa pre-arranged at the embassy).
-- Reached the border gate at 6 a.m. but immigration crawled - queues and line-cutting meant clearing at 9 a.m.
-- **Timezone trap:** tried to buy the 9 a.m. bus to Côn Minh - it had already left, because China runs **+1 hour** ahead of Vietnam. Waited ~1 hour at the border market for the next bus.
-- On board, staff collected an extra "Kao-shu-lu" fee - a toll so the bus could take the highway (the faster option). Took ~30 seconds of charades to decode.
-- 10+ hours of bus, with meal stops (bland, no chili) and the famously hellish Chinese roadside toilets.
-- Checked into KS Điện Lực right by Côn Minh station.
-- Tried arranging a Tibet permit through a fixer - failed due to unrest at the time; pivoted to Lệ Giang, then flew Côn Minh -> (transit Lhasa) -> Nepal.
-- At Lhasa airport, immigration spent ~30 minutes comparing a passport photo that looked nothing like his face - resolved by showing the VN ID card matching the passport number.
-- Nepal: visa on arrival, stayed a week, then on to Varanasi.
+- Tàu Hà Nội -> Lào Cai (visa Tây Tạng... à, visa Trung Quốc đã xin trước ở đại sứ quán).
+- Tới cửa khẩu lúc 6 giờ sáng, nhưng xuất nhập cảnh bò - xếp hàng và chen hàng nên 9 giờ sáng mới qua.
+- **Bẫy múi giờ:** tính mua xe 9 giờ sáng đi Côn Minh - xe đã chạy rồi, vì Trung Quốc **+1 giờ** so với Việt Nam. Đợi khoảng 1 giờ ở chợ cửa khẩu cho chuyến sau.
+- Trên xe, nhân viên thu thêm một khoản "Kao-shu-lu" - phí để xe được đi cao tốc (cách nhanh hơn). Mất khoảng 30 giây ra hiệu mới hiểu đó là gì.
+- Hơn 10 tiếng trên xe, có điểm dừng ăn (nhạt, không có ớt) và nhà vệ sinh ven đường Trung Quốc, nổi tiếng rất kinh.
+- Nhận phòng KS Điện Lực, ngay cạnh ga Côn Minh.
+- Tính xin giấy phép Tây Tạng qua một người đứng ra lo - không được, vì lúc đó đang bất ổn; chuyển sang Lệ Giang, rồi bay Côn Minh -> (quá cảnh Lhasa) -> Nepal.
+- Ở sân bay Lhasa, xuất nhập cảnh mất khoảng 30 phút để so một ảnh hộ chiếu trông chẳng giống mặt - xong nhờ đưa giấy tờ tùy thân Việt Nam khớp số hộ chiếu.
+- Nepal: visa khi đến, ở một tuần, rồi đi tiếp Varanasi.
 
-Lesson reinforced: budget buffer time at land borders, remember the +1h timezone, and expect facilities to be rough on overland legs.
+Bài được củng cố thêm: chừa thời gian đệm ở cửa khẩu đường bộ, nhớ múi giờ +1 giờ, và liệu trước là tiện nghi sẽ thô trên các chặng đường bộ.

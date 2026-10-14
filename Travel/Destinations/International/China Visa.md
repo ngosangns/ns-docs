@@ -2,61 +2,61 @@
 area: travel
 domain: china
 type: guide
-title: China Visa
-description: China tourist visa notes - agency route vs DIY L30 application walkthrough in HCMC
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Visa Trung Quốc
+description: "Ghi chép visa du lịch Trung Quốc - đi qua đại lý so với tự nộp hồ sơ L30 tại TP.HCM"
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - china
   - visa
 ---
 
-# China Visa
+# Visa Trung Quốc
 
-## Agency Route
+## Đi qua đại lý
 
-The lazy option: pay a visa agent just over $100 for a single-entry tourist visa - no queuing, no financial proof. Hand over your passport and collect it when done. Note the original advice dates from the border-reopening period: consider waiting until entry rules are fully relaxed rather than rushing.
+Cách nhàn: trả đại lý visa hơn $100 một chút cho visa du lịch một lần nhập cảnh - không xếp hàng, không cần chứng minh tài chính. Giao hộ chiếu, xong thì đến lấy. Lưu ý lời khuyên gốc thuộc giai đoạn biên giới vừa mở lại: nên cân nhắc đợi đến khi quy định nhập cảnh được nới hết, thay vì làm gấp.
 
-## Fees and Duration Tips
+## Phí và thời hạn
 
-- 15-day visa: ~2.3 million VND; 30-day visa: ~2.5 million VND (applicants in the South pay slightly more than in the North).
-- **Important:** do not under-declare. If your trip is 15 days and you apply for exactly a 15-day visa, the consulate may suspect you intend to overstay illegally, which complicates future applications. Apply for 30 days - the 200k difference is trivial.
-- Some agents require proof of prior entry stamps; the cheap route above did not.
+- Visa 15 ngày: khoảng 2,3 triệu đồng; visa 30 ngày: khoảng 2,5 triệu đồng (người nộp ở miền Nam trả cao hơn miền Bắc một chút).
+- **Quan trọng:** đừng khai thiếu. Nếu chuyến đi 15 ngày mà xin đúng visa 15 ngày, lãnh sự quán có thể nghi bạn định ở quá hạn trái phép, và việc đó làm các lần xin sau thêm rắc rối. Xin 30 ngày - phần chênh 200 nghìn không đáng kể.
+- Một số đại lý đòi bằng chứng dấu nhập cảnh cũ; đường rẻ ở trên thì không đòi.
 
-## DIY L30 Application in Ho Chi Minh City
+## Tự nộp hồ sơ L30 tại Thành phố Hồ Chí Minh
 
-A first-hand walkthrough from a 21-year-old student (hộ khẩu TP.HCM) who previously held an X1 (9/2023) and an L30 (3/2025). The declared itinerary served the visa application only - not the actual entry plan.
+Tường thuật trực tiếp từ một sinh viên 21 tuổi (hộ khẩu TP.HCM), trước đó đã có X1 (9/2023) và L30 (3/2025). Lịch trình khai chỉ để phục vụ hồ sơ visa - không phải kế hoạch nhập cảnh thật.
 
-### Step 1: Prepare Documents
+### Bước 1: Chuẩn bị giấy tờ
 
-- Savings book: open an online MB savings account above 50 million VND and request a confirmation letter; the account can be closed immediately after. Scan it.
-- Passport scans: info page plus old visas.
-- Household registration (sổ hộ khẩu): master page and the page showing relationship to the householder.
-- Detailed itinerary - declared, but must be specific and internally consistent.
-- Hotel booking PDFs: book refundable hotels on Trip.com near the areas in your itinerary; download the PDF confirmations, then cancel.
-- Flight screenshot: an unpaid Traveloka booking screenshot works.
-- One 4x6 photo taken within the last 6 months.
+- Sổ tiết kiệm: mở sổ tiết kiệm online MB trên 50 triệu đồng và xin giấy xác nhận; sổ có thể tất toán ngay sau đó. Quét lại.
+- Bản quét hộ chiếu: trang thông tin cùng các visa cũ.
+- Sổ hộ khẩu: trang bìa và trang thể hiện quan hệ với chủ hộ.
+- Lịch trình chi tiết - là lịch khai, nhưng phải cụ thể và khớp từ đầu đến cuối.
+- PDF đặt phòng: đặt khách sạn hoàn được trên Trip.com, gần các khu trong lịch trình; tải các PDF xác nhận, rồi hủy.
+- Ảnh chụp màn hình chuyến bay: ảnh một đơn đặt trên Traveloka chưa thanh toán là dùng được.
+- Một ảnh 4x6 chụp trong 6 tháng gần nhất.
 
-### Step 2: Fill the Online Form
+### Bước 2: Điền mẫu online
 
-Fill everything in English, detailed and consistent with your personal history and itinerary. Timeline for this case: submitted the night of 16/7; received a correction request the afternoon of 18/7 and resubmitted the same day; approval confirmation arrived 23/7.
+Điền tất cả bằng tiếng Anh, chi tiết và khớp với lý lịch cùng lịch trình. Mốc của trường hợp này: nộp đêm 16/7; chiều 18/7 nhận yêu cầu sửa và nộp lại trong ngày; xác nhận được duyệt tới ngày 23/7.
 
-### Step 3: Submit in Person
+### Bước 3: Nộp trực tiếp
 
-- Arrived 10 a.m. on 24/7. Parking available at Đại học KHXH&NV (4,000 VND, pay on exit), then walk to the visa center building and take the elevator to floor 16.
-- Present:
-  - Original passport
-  - Original CCCD
-  - Original sổ hộ khẩu
-  - Application form pages 1 and 7, printed single-sided (staff will guide the signature)
-  - Savings confirmation letter
-  - Visa Application Certificate (attached to the confirmation email)
-  - 1 photo 4x6
-- After verification they return the sổ hộ khẩu, CCCD, and savings letter. Pay 725,000 VND at the counter and keep the appointment slip.
+- Có mặt lúc 10 giờ sáng ngày 24/7. Có chỗ đậu xe tại Đại học KHXH&NV (4.000 đồng, trả khi ra), rồi đi bộ tới tòa nhà trung tâm visa và đi thang máy lên tầng 16.
+- Xuất trình:
+  - Hộ chiếu gốc
+  - CCCD gốc
+  - Sổ hộ khẩu gốc
+  - Tờ khai trang 1 và trang 7, in một mặt (nhân viên sẽ hướng dẫn chỗ ký)
+  - Giấy xác nhận sổ tiết kiệm
+  - Visa Application Certificate (kèm trong email xác nhận)
+  - 1 ảnh 4x6
+- Sau khi đối chiếu, họ trả lại sổ hộ khẩu, CCCD và giấy xác nhận tiết kiệm. Nộp 725.000 đồng tại quầy và giữ phiếu hẹn.
 
-### Step 4: Collect the Result
+### Bước 4: Nhận kết quả
 
-- Appointment slip said 4/8; collected at 11 a.m. and paid $45 - bring clean USD bills, series 2013 or newer.
-- Verdict: the online form is the most annoying part - long and detailed. If you want to save money by doing it yourself, accept the time cost.
+- Phiếu hẹn ghi 4/8; lấy lúc 11 giờ sáng và nộp $45 - mang tờ USD sạch, series 2013 hoặc mới hơn.
+- Nhận xét: mẫu online là phần khó chịu nhất - dài và chi tiết. Muốn tiết kiệm bằng cách tự làm thì chấp nhận tốn thời gian.
 
-Source: [Facebook - Review quá trình xin visa du lịch tự túc L30 tại TP.HCM](https://www.facebook.com/groups/reviewtrungquocc/posts/1312335087568776/)
+Nguồn: [Facebook - Review quá trình xin visa du lịch tự túc L30 tại TP.HCM](https://www.facebook.com/groups/reviewtrungquocc/posts/1312335087568776/)

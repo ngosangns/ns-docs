@@ -2,109 +2,109 @@
 area: travel
 domain: company-trip
 type: plan
-title: Inception Labs Company Trip 2025
-description: Company trip itinerary - Ninh Bình, Hạ Long cruise, Hà Nội (July 9-12)
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Chuyến công ty Inception Labs 2025
+description: Lịch trình chuyến công ty - Ninh Bình, du thuyền Hạ Long, Hà Nội (9-12 tháng 7)
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - company-trip
 resource: https://nhahangsen.vn/
 ---
 
-# Inception Labs Company Trip 2025
+# Chuyến công ty Inception Labs 2025
 
-## Trip Summary
+## Tóm tắt chuyến
 
-### July 9
+### 9 tháng 7
 
-- Arrive at Nội Bài airport
-- Transfer to Ninh Bình
-- Explore Tràng An by boat (~2.5 hours)
-- Lunch at a local restaurant
-- Visit a cave or pagoda
-- Check in at the resort
-- Dinner & rest
+- Tới sân bay Nội Bài
+- Di chuyển tới Ninh Bình
+- Khám phá Tràng An bằng thuyền (~2.5 giờ)
+- Ăn trưa tại một nhà hàng địa phương
+- Thăm một hang hoặc một ngôi chùa
+- Nhận phòng tại khu nghỉ dưỡng
+- Ăn tối và nghỉ
 
-### July 10
+### 10 tháng 7
 
-- Transfer from Ninh Bình to Hạ Long Bay
-- Check in on the cruise and start the journey
-- Evening: Gala dinner + mini games + DJ party
+- Di chuyển từ Ninh Bình ra vịnh Hạ Long
+- Nhận phòng trên du thuyền và bắt đầu hành trình
+- Buổi tối: tiệc gala + trò chơi nhỏ + tiệc DJ
 
-### July 11
+### 11 tháng 7
 
-- Check out of the cruise
-- Transfer to Hà Nội
-- Hotel check-in
-- Dinner & explore Hà Nội at night
+- Trả phòng du thuyền
+- Di chuyển về Hà Nội
+- Nhận phòng khách sạn
+- Ăn tối và đi dạo Hà Nội ban đêm
 
-### July 12
+### 12 tháng 7
 
-- Half-day Hà Nội sightseeing
-- Hotel checkout
-- Fly back to Saigon
-- Trip ends
+- Tham quan Hà Nội nửa ngày
+- Trả phòng khách sạn
+- Bay về Sài Gòn
+- Chuyến đi kết thúc
 
-## Detailed Itinerary
+## Lịch trình chi tiết
 
-### Day 1 - July 9 (Hanoi -> Ninh Bình)
+### Ngày 1 - 9 tháng 7 (Hà Nội -> Ninh Bình)
 
-| Time        | Activity                                  | Notes                                         |
-| ----------- | ----------------------------------------- | --------------------------------------------- |
-| 03:30-04:55 | Check in at Tân Sơn Nhất airport          | Bring ID and motion-sickness pills            |
-| 07:10-08:00 | Arrive Nội Bài - transfer to Tràng An     | Double-check luggage and documents            |
-| 08:00-10:00 | Drive to Ninh Bình by private car         | MC guides the group on board                  |
-| 10:00-12:30 | Tràng An boat tour (~2.5 h)               | Light clothes, hat, sunglasses, sunscreen     |
-| 12:30-13:30 | Lunch at a local restaurant               | Suggested dishes: mountain goat, cơm cháy     |
-| 14:00-15:30 | Visit cave/pagoda (Bái Đính or Bích Động) | Comfortable shoes, hand fan or small umbrella |
-| 16:00-17:00 | Check in at Cendana Tràng An Retreat      | Make sure luggage arrives with you            |
-| 18:30-20:30 | Dinner at the resort                      | Smart casual; possible mini games             |
-| 20:30-21:00 | Free time                                 | Charge devices, prep tomorrow's gear          |
+| Thời gian   | Hoạt động                                 | Ghi chú                                          |
+| ----------- | ----------------------------------------- | ------------------------------------------------ |
+| 03:30-04:55 | Làm thủ tục tại sân bay Tân Sơn Nhất      | Mang giấy tờ tùy thân và thuốc chống say         |
+| 07:10-08:00 | Đến Nội Bài - di chuyển tới Tràng An      | Kiểm tra lại hành lý và giấy tờ                  |
+| 08:00-10:00 | Đi ô tô riêng tới Ninh Bình               | MC hướng dẫn cả đoàn trên xe                     |
+| 10:00-12:30 | Đi thuyền Tràng An (~2.5 giờ)              | Quần áo mỏng, mũ, kính râm, kem chống nắng       |
+| 12:30-13:30 | Ăn trưa tại một nhà hàng địa phương       | Món gợi ý: dê núi, cơm cháy                      |
+| 14:00-15:30 | Thăm hang/chùa (Bái Đính hoặc Bích Động)  | Giày thoải mái, quạt tay hoặc ô nhỏ              |
+| 16:00-17:00 | Nhận phòng tại Cendana Tràng An Retreat   | Chắc chắn hành lý tới cùng bạn                   |
+| 18:30-20:30 | Ăn tối tại khu nghỉ dưỡng                 | Ăn mặc lịch sự thoải mái; có thể có trò chơi nhỏ |
+| 20:30-21:00 | Thời gian tự do                           | Sạc thiết bị, soạn đồ cho ngày mai               |
 
-### Day 2 - July 10 (Ninh Bình -> Hạ Long)
+### Ngày 2 - 10 tháng 7 (Ninh Bình -> Hạ Long)
 
-| Time        | Activity                                 | Notes                                                     |
-| ----------- | ---------------------------------------- | --------------------------------------------------------- |
-| 07:00-08:15 | Breakfast and departure                  | Long drive ahead; wear an anti-seasickness band if prone  |
-| 08:15-11:30 | Drive to Hạ Long (~3.5 h)                | Icebreaker games on the bus                               |
-| 11:00-12:00 | Check in on the Orchid cruise            | Bring a small backpack, swimwear, dry bag                 |
-| 12:45-13:30 | Lunch on board                           | Cruise schedule briefing                                  |
-| 13:30-15:00 | Team building: Word Guess & Bug Hunter   | Sportswear or swimwear                                    |
-| 15:00-15:30 | Kayaking + Kayak Puzzle at Sáng-Tối cave | Life vest required; skip if you cannot swim or fear water |
-| 17:00-18:30 | Free time: swim, sunset, cooking contest | Sunglasses, camera, light jacket                          |
-| 18:30-20:00 | Gala dinner on the deck                  | Semi-formal; photo-ready                                  |
-| 20:00-22:00 | DJ, karaoke, party, prize games          | Run by the company MC                                     |
-| 22:00-late  | Rest & next-day briefing                 | Pack luggage                                              |
+| Thời gian   | Hoạt động                                    | Ghi chú                                                          |
+| ----------- | -------------------------------------------- | ---------------------------------------------------------------- |
+| 07:00-08:15 | Ăn sáng và khởi hành                         | Phía trước là chặng xe dài; đeo vòng chống say sóng nếu hay say  |
+| 08:15-11:30 | Đi tới Hạ Long (~3.5 giờ)                    | Các trò phá băng trên xe                                         |
+| 11:00-12:00 | Nhận phòng trên du thuyền Orchid             | Mang ba lô nhỏ, đồ bơi, túi khô                                  |
+| 12:45-13:30 | Ăn trưa trên thuyền                          | Phổ biến lịch trên du thuyền                                     |
+| 13:30-15:00 | Gắn kết đội nhóm: Word Guess và Bug Hunter   | Đồ thể thao hoặc đồ bơi                                          |
+| 15:00-15:30 | Chèo kayak + Kayak Puzzle tại hang Sáng-Tối  | Bắt buộc áo phao; bỏ qua nếu không biết bơi hoặc sợ nước         |
+| 17:00-18:30 | Giờ tự do: bơi, ngắm hoàng hôn, thi nấu ăn   | Kính râm, máy ảnh, áo khoác mỏng                                 |
+| 18:30-20:00 | Tiệc gala trên boong                         | Bán trang trọng; sẵn sàng để chụp                                |
+| 20:00-22:00 | DJ, karaoke, tiệc, trò chơi trao thưởng      | Do MC của công ty dẫn                                            |
+| 22:00-khuya | Nghỉ và phổ biến ngày hôm sau                | Xếp hành lý                                                      |
 
-### Day 3 - July 11 (Hạ Long -> Hanoi)
+### Ngày 3 - 11 tháng 7 (Hạ Long -> Hà Nội)
 
-| Time        | Activity                                                   | Notes                              |
-| ----------- | ---------------------------------------------------------- | ---------------------------------- |
-| 06:00-06:30 | Sunrise viewing & photos                                   | For early risers                   |
-| 06:45-07:30 | Breakfast while cruising                                   |                                    |
-| 07:30-08:30 | Company photo session                                      | Wear company shirt and cap         |
-| 09:45-10:00 | Cruise checkout                                            | Prepare to disembark               |
-| 10:00-10:30 | Brunch on board                                            | Relaxed meal before leaving        |
-| 11:00-11:30 | Disembark at Tuần Châu port                                | Check personal belongings          |
-| 12:00-12:30 | Transfer to Hanoi                                          | Hanoi schedule briefing on the bus |
-| 12:30-16:30 | Hotel check-in & rest                                      | Quick nap, light meal              |
-| 18:00-20:30 | Dinner at Nhà hàng Sen ([link](https://nhahangsen.vn/))    | Buffet; next-day briefing          |
-| 20:00-22:00 | Free exploration / after party (Tạ Hiện, Hồ Gươm, rooftop) | Walking shoes, cash, ID            |
+| Thời gian   | Hoạt động                                                      | Ghi chú                                |
+| ----------- | -------------------------------------------------------------- | -------------------------------------- |
+| 06:00-06:30 | Ngắm bình minh và chụp ảnh                                     | Cho người dậy sớm                      |
+| 06:45-07:30 | Ăn sáng trong lúc thuyền chạy                                  |                                        |
+| 07:30-08:30 | Buổi chụp ảnh công ty                                          | Mặc áo công ty và đội mũ công ty       |
+| 09:45-10:00 | Trả phòng du thuyền                                            | Chuẩn bị lên bờ                       |
+| 10:00-10:30 | Bữa sáng-trưa trên thuyền                                      | Bữa ăn thong thả trước khi rời         |
+| 11:00-11:30 | Lên bờ tại cảng Tuần Châu                                      | Kiểm tra đồ cá nhân                    |
+| 12:00-12:30 | Di chuyển tới Hà Nội                                           | Phổ biến lịch Hà Nội trên xe           |
+| 12:30-16:30 | Nhận phòng khách sạn và nghỉ                                   | Ngủ ngắn, ăn nhẹ                       |
+| 18:00-20:30 | Ăn tối tại Nhà hàng Sen ([liên kết](https://nhahangsen.vn/))   | Ăn tự chọn; phổ biến cho ngày hôm sau  |
+| 20:00-22:00 | Tự do khám phá / tiệc sau (Tạ Hiện, Hồ Gươm, sân thượng)       | Giày đi bộ, tiền mặt, giấy tờ tùy thân |
 
-### Day 4 - July 12 (Hanoi -> Saigon)
+### Ngày 4 - 12 tháng 7 (Hà Nội -> Sài Gòn)
 
-| Time        | Activity                        | Notes                                              |
-| ----------- | ------------------------------- | -------------------------------------------------- |
-| 07:00-09:00 | Breakfast & pack                | Get luggage ready                                  |
-| 09:00-11:00 | Visit the Hồ Chí Minh mausoleum | Buy tickets, photos, bring water, hat, comfy shoes |
-| 11:00-12:30 | Hanoi food lunch                | Suggestions: bún chả, phở, egg coffee              |
-| 12:30-14:00 | Hotel checkout & free time      | Walk, shop, coffee near the hotel                  |
-| 14:00-16:30 | Transfer to Nội Bài airport     | Final luggage check                                |
-| 16:30-17:30 | Airport procedures & farewell   | Head to the gate                                   |
-| 18:30-20:10 | Land at Tân Sơn Nhất            | Trip ends                                          |
+| Thời gian   | Hoạt động                       | Ghi chú                                              |
+| ----------- | ------------------------------- | ---------------------------------------------------- |
+| 07:00-09:00 | Ăn sáng và xếp đồ               | Chuẩn bị sẵn hành lý                                 |
+| 09:00-11:00 | Thăm Lăng Hồ Chí Minh           | Mua vé, chụp ảnh, mang nước, mũ, giày thoải mái      |
+| 11:00-12:30 | Bữa trưa món Hà Nội             | Gợi ý: bún chả, phở, cà phê trứng                    |
+| 12:30-14:00 | Trả phòng khách sạn và giờ tự do | Đi dạo, mua sắm, cà phê gần khách sạn                |
+| 14:00-16:30 | Di chuyển ra sân bay Nội Bài    | Kiểm tra hành lý lần cuối                            |
+| 16:30-17:30 | Thủ tục sân bay và tạm biệt     | Đi ra cửa khởi hành                                  |
+| 18:30-20:10 | Hạ cánh tại Tân Sơn Nhất        | Chuyến đi kết thúc                                   |
 
-## Notes
+## Ghi chú
 
-- The schedule may shift with weather or local service conditions.
-- Always carry ID, the company uniform, and activity-appropriate outfits.
-- For eating out in Hạ Long beyond the cruise, see [Ha Long](/Travel/Destinations/Vietnam/Ha Long).
+- Lịch có thể xê dịch theo thời tiết hoặc điều kiện phục vụ tại chỗ.
+- Luôn mang theo giấy tờ tùy thân, đồng phục công ty và trang phục hợp từng hoạt động.
+- Khi muốn ăn ngoài ở Hạ Long, ngoài phần trên du thuyền, xem [Hạ Long](/Travel/Destinations/Vietnam/Ha Long).

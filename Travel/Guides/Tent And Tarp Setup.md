@@ -2,94 +2,94 @@
 area: travel
 domain: camping
 type: guide
-title: Tent And Tarp Setup
-description: How to pitch a tent and rig a tarp correctly when camping
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Dựng lều và bạt
+description: Cách dựng lều và căng bạt đúng khi cắm trại
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - camping
 ---
 
-# Tent And Tarp Setup
+# Dựng lều và bạt
 
-## Overview
+## Tổng quan
 
-Pitching a tent and tarp correctly is a fundamental camping skill that keeps your shelter safe and comfortable.
+Dựng lều và căng bạt cho đúng là một kỹ năng cắm trại căn bản, giúp chỗ trú của bạn an toàn và dễ chịu.
 
-## Preparation
+## Chuẩn bị
 
-### What You Need
+### Cần những gì
 
-- Tent (all accessories checked).
-- Rain/sun tarp.
-- Tent stakes.
-- Guy lines.
-- Wooden or small mallet.
-- Groundsheet (optional).
+- Lều (đã kiểm đủ phụ kiện).
+- Bạt che mưa/nắng.
+- Cọc lều.
+- Dây néo.
+- Búa gỗ hoặc búa nhỏ.
+- Tấm lót nền (không bắt buộc).
 
-### Choosing a Campsite
+### Chọn chỗ cắm
 
-- Flat ground without sharp rocks.
-- Avoid low spots that flood when it rains.
-- Avoid pitching under large trees (falling branches).
-- Near a water source, but not too close.
-- Afternoon shade if camping in summer.
+- Nền phẳng, không có đá sắc.
+- Tránh chỗ trũng sẽ ngập khi mưa.
+- Tránh dựng dưới cây lớn (cành có thể gãy rơi).
+- Gần nguồn nước, nhưng không quá sát.
+- Có bóng râm buổi chiều nếu cắm trại vào mùa hè.
 
-## Pitching the Tent
+## Dựng lều
 
-### Step 1: Prepare the Ground
+### Bước 1: Chuẩn bị nền
 
-- Clear rocks, twigs, and dry leaves.
-- Level the surface.
-- Lay down the groundsheet if you have one.
+- Dọn đá, cành con và lá khô.
+- San cho mặt nền phẳng.
+- Trải tấm lót nếu có.
 
-### Step 2: Lay Out the Tent
+### Bước 2: Trải lều
 
-- Spread the tent on the prepared ground.
-- Decide the door direction (face the view or away from wind).
-- Check all corners and edges.
+- Trải lều lên nền đã chuẩn bị.
+- Chọn hướng cửa (hướng ra cảnh, hoặc quay lưng gió).
+- Kiểm tra mọi góc và mọi mép.
 
-### Step 3: Stake the Corners
+### Bước 3: Đóng cọc các góc
 
-- Start with the main corners.
-- Drive stakes at a 45-degree angle pointing away from the tent.
-- Make sure stakes are firm and do not wobble.
-- Continue with secondary stakes if any.
+- Bắt đầu từ các góc chính.
+- Đóng cọc nghiêng 45 độ, mũi hướng ra ngoài lều.
+- Cọc phải chắc, không lỏng.
+- Tiếp các cọc phụ nếu có.
 
-### Step 4: Raise the Frame
+### Bước 4: Dựng khung
 
-- Pole tents: assemble the poles following the instructions.
-- Freestanding tents: tension guy lines from the peak to the stakes.
-- Adjust tension until the fabric is taut.
+- Lều có sào: lắp sào theo hướng dẫn.
+- Lều tự đứng: căng dây néo từ đỉnh lều ra các cọc.
+- Chỉnh lực căng đến khi vải thẳng.
 
-### Step 5: Rig the Rainfly
+### Bước 5: Căng tấm che mưa
 
-- Spread the rainfly over the tent if needed.
-- Angle it so rainwater runs off.
-- Tie down all corners securely.
+- Trải tấm che mưa lên lều nếu cần.
+- Nghiêng để nước mưa chảy thoát.
+- Buộc chắc mọi góc.
 
-## Rigging a Standalone Tarp
+## Căng bạt riêng
 
-### Step 1: Pick the Spot
+### Bước 1: Chọn chỗ
 
-- Near the cooking or common area.
-- Make sure it covers the zone you need.
+- Gần khu nấu ăn hoặc khu sinh hoạt chung.
+- Chắc chắn bạt che đúng vùng bạn cần.
 
-### Step 2: Tension the Tarp
+### Bước 2: Căng bạt
 
-- Tie one end to a tree or tall pole.
-- Pull the tarp tight and tie off the other end.
-- Create a slope so rainwater drains away.
+- Buộc một đầu vào cây hoặc một cột cao.
+- Kéo bạt thật căng rồi buộc đầu kia.
+- Tạo độ dốc để nước mưa thoát đi.
 
-### Step 3: Secure
+### Bước 3: Cố định
 
-- Tie off every corner firmly.
-- Check the tension - the tarp should not sag.
+- Buộc chắc từng góc.
+- Kiểm tra độ căng — bạt không được võng.
 
-## Important Notes
+## Lưu ý quan trọng
 
-- Always inspect the tent before a trip.
-- Bring spare stakes and lines.
-- Pitch the tent before dark.
-- Re-check everything once pitched.
-- Take down the tent properly when leaving: fold it neatly and store it dry.
+- Luôn kiểm tra lều trước chuyến đi.
+- Mang theo cọc và dây dự phòng.
+- Dựng lều trước khi trời tối.
+- Kiểm tra lại toàn bộ sau khi đã dựng.
+- Thu lều cho đúng cách khi rời đi: gấp gọn và cất khô.

@@ -2,9 +2,9 @@
 area: travel
 domain: ha-giang
 type: guide
-title: Ha Giang
-description: Hà Giang loop guide - itineraries, road conditions, stays, food stops, and community field notes
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Hà Giang
+description: Cẩm nang vòng Hà Giang - lịch trình, tình trạng đường, chỗ ở, điểm ăn và ghi chép thực địa của cộng đồng
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - ha-giang
@@ -12,127 +12,127 @@ tags:
 
 # Hà Giang
 
-## Overview
+## Tổng quan
 
-Hà Giang is Vietnam's northernmost province, famous for majestic mountain scenery, rugged passes, and the diverse cultures of its ethnic minorities. It is the dream destination for motorbike touring and wilderness exploration.
+Hà Giang là tỉnh cực bắc của Việt Nam, nổi tiếng với cảnh núi hùng vĩ, đèo hiểm và văn hóa đa dạng của các dân tộc thiểu số. Đây là điểm đến trong mơ cho đi phượt xe máy và khám phá vùng hoang dã.
 
-**Signature must-sees:** Mã Pí Lèng pass, the Nho Quế river boat ride (Tu Sản gorge), the Lũng Cú flagpole, and the Thẩm Mã slope. These are the province's most distinctive and beautiful spots - other places are optional depending on time and season.
+**Điểm đặc trưng phải ghé:** đèo Mã Pí Lèng, đi thuyền sông Nho Quế (hẻm Tu Sản), cột cờ Lũng Cú và dốc Thẩm Mã. Đây là những chỗ đặc trưng và đẹp nhất của tỉnh - chỗ khác tùy thời gian và mùa.
 
-## The Classic Loop: How to Structure It
+## Vòng cổ điển: cách sắp lịch
 
-The community-tested backbone of the Hà Giang loop:
+Khung chính của vòng Hà Giang mà cộng đồng đã kiểm chứng:
 
-- **Day 1:** TP Hà Giang -> Quản Bạ (Cổng Trời gate) -> Yên Minh. At the Yên Minh junction, take the 22 km branch past the "lonely tree" - more scenic than the alternative. Overnight in Yên Minh or push on.
-- **Day 2:** Yên Minh -> Dốc Thẩm Mã -> Phó Bảng -> Lũng Cú (flagpole; the northernmost point is 3 km further) -> Đồng Văn. Overnight in Đồng Văn.
-- **Day 3:** Đồng Văn -> Mã Pí Lèng -> Nho Quế river -> Mèo Vạc.
-- **Day 4:** Mèo Vạc -> Mậu Duệ via the **chữ M (letter-M) curve** -> Du Già or back via Yên Minh -> TP Hà Giang.
+- **Ngày 1:** TP Hà Giang -> Quản Bạ (Cổng Trời) -> Yên Minh. Ở ngã Yên Minh, đi nhánh 22 km qua "cây cô đơn" - đẹp hơn hướng còn lại. Ngủ ở Yên Minh hoặc đi tiếp.
+- **Ngày 2:** Yên Minh -> Dốc Thẩm Mã -> Phó Bảng -> Lũng Cú (cột cờ; điểm cực bắc cách thêm 3 km) -> Đồng Văn. Ngủ ở Đồng Văn.
+- **Ngày 3:** Đồng Văn -> Mã Pí Lèng -> sông Nho Quế -> Mèo Vạc.
+- **Ngày 4:** Mèo Vạc -> Mậu Duệ qua **cua chữ M** -> Du Già hoặc quay về qua Yên Minh -> TP Hà Giang.
 
-Key structural advice from experienced riders:
+Lời khuyên về cách chia chặng từ những người chạy nhiều:
 
-- Đồng Văn town sits roughly midway between Lũng Cú (Lô Lô Chải) and Mã Pí Lèng / Nho Quế - about 20 km each way. Both are comfortably doable in one day; spending a whole day on just Nho Quế is wasteful.
-- Do **not** try to ride Hanoi -> Đồng Văn in one day (~500 km). Even with two riders it is exhausting. Better: reach Hà Giang city or Yên Minh on day one.
-- First-timers should ride out along QL4C (more scenic) and return via DT182 -> DT176 through the chữ M curve and Mậu Duệ - that section is now finished and rides well. From Mậu Duệ there are two options: return via Yên Minh on the old QL4C, or continue DT176 toward TP Hà Giang.
-- **Alternative return (Xanh Lá route):** Mèo Vạc -> Mậu Duệ -> Yên Minh - a beautiful, quieter option for those who do not want to backtrack QL4C.
-- **Đường Thượng option:** from Lũng Hồ take DT181 ("Đường Thượng", through Đường Thượng commune) -> Thái An -> Thuận Hòa - passable with a few rough patches; careful not to lose the way. **Avoid** Lũng Hồ -> Du Già -> QL34.
-- Skip the idea of looping through Cao Bằng and back to Hà Giang on a first trip - long, with little scenery. It suits returnees wanting a new route.
-- The scenery is along the whole route, not just at the big-name stops - ride slow and look around.
+- Thị trấn Đồng Văn nằm khoảng giữa Lũng Cú (Lô Lô Chải) và Mã Pí Lèng / Nho Quế - mỗi phía khoảng 20 km. Cả hai làm thoải mái trong một ngày; dành cả ngày chỉ cho Nho Quế thì phí.
+- **Đừng** cố chạy Hà Nội -> Đồng Văn trong một ngày (~500 km). Dù có hai người chạy vẫn kiệt sức. Hơn: ngày đầu tới thành phố Hà Giang hoặc Yên Minh.
+- Người đi lần đầu nên đi theo QL4C (đẹp hơn) và về bằng DT182 -> DT176 qua cua chữ M và Mậu Duệ - đoạn này nay đã xong và chạy tốt. Từ Mậu Duệ có hai cách: về qua Yên Minh trên QL4C cũ, hoặc đi tiếp DT176 về TP Hà Giang.
+- **Lối về khác (tuyến Xanh Lá):** Mèo Vạc -> Mậu Duệ -> Yên Minh - lựa chọn đẹp, vắng hơn cho ai không muốn quay ngược QL4C.
+- **Phương án Đường Thượng:** từ Lũng Hồ đi DT181 ("Đường Thượng", qua xã Đường Thượng) -> Thái An -> Thuận Hòa - đi được, có vài đoạn xấu; cẩn thận kẻo lạc. **Tránh** Lũng Hồ -> Du Già -> QL34.
+- Bỏ ý vòng qua Cao Bằng rồi về Hà Giang ở chuyến đầu - đường dài, cảnh ít. Hợp với người đi lại muốn tuyến mới.
+- Cảnh trải dọc cả tuyến, không chỉ ở các điểm có tên tuổi - chạy chậm và nhìn quanh.
 
-![Hà Giang loop map - the green section Mèo Vạc -> Mậu Duệ rides well; the orange DT176 section via Du Già is rough](/Attachments/3d2a3b4c-5e6f-7a89-b0c1-d2e3f4a5678b.png)
+![Bản đồ vòng Hà Giang - đoạn xanh Mèo Vạc -> Mậu Duệ chạy tốt; đoạn cam DT176 qua Du Già thì gồ ghề](/Attachments/3d2a3b4c-5e6f-7a89-b0c1-d2e3f4a5678b.png)
 
-## Road Condition Warnings
+## Cảnh báo tình trạng đường
 
-- **Du Già area:** roads in from every direction have been under heavy repair. The Yên Minh side is lightly fixed near a washed-out bridge (impassable in rain, okay dry). The Quản Bạ side has ~20 km of tiring repair. The QL34/DT176 side has ~20 km of dusty, blocked-and-waiting repairs. The Mèo Vạc side was the worst. The genuinely pretty bit is Du Già -> Đồn Pháp junction, with kapok flowers along the road in March. First-timers should skip the Du Già option until repairs finish.
-- **Nho Quế descent:** about 5-6 km of rough, dusty construction on the way down to the river. Do not go in rain - muddy and the water turns turbid. Pick a sunny day: clear blue-green water is what makes it worthwhile.
-- **Suối Bản Án / Lũng Hồ shortcut:** the Google-Maps line through Lũng Hồ is a half-meter ledge with an abyss on one side and a cliff on the other - scarier than the vách đá trắng road. If you end up at Bản Án, locals will point you to a straighter paved line out to Du Già; after surviving it, Mã Pí Lèng may feel tame.
-- **Traffic police:** riders report strict fines around Mèo Vạc (e.g., 600k for a missing turn signal on the climb toward DT182) - ride fully legal.
+- **Khu Du Già:** đường vào từ hướng nào cũng đang được sửa lớn. Phía Yên Minh được vá nhẹ gần cầu bị xói (mưa không đi được, trời khô thì ổn). Phía Quản Bạ có ~20 km đường đang sửa, rất mệt. Phía QL34/DT176 có ~20 km bụi, tắc và phải chờ vì đang sửa. Phía Mèo Vạc là tệ nhất. Đoạn thực sự đẹp là Du Già -> ngã Đồn Pháp, tháng 3 có hoa gạo dọc đường. Người đi lần đầu nên bỏ phương án Du Già đến khi sửa xong.
+- **Đổ đèo xuống Nho Quế:** khoảng 5-6 km đường xấu, bụi vì đang thi công trên đường xuống sông. Đừng đi khi mưa - lầy và nước đục. Chọn ngày nắng: nước trong xanh mới đáng.
+- **Đường tắt Suối Bản Án / Lũng Hồ:** đường Google Maps xuyên Lũng Hồ là một gờ rộng nửa mét, một bên vực, một bên vách - đáng sợ hơn đường vách đá trắng. Nếu lỡ tới Bản Án, người địa phương sẽ chỉ một đường nhựa thẳng hơn ra Du Già; qua nổi đoạn đó thì Mã Pí Lèng có thể thấy hiền.
+- **Cảnh sát giao thông:** người chạy kể bị phạt gắt quanh Mèo Vạc (ví dụ 600k vì thiếu xi-nhan lúc leo lên phía DT182) - hãy chạy đúng luật.
 
-## Where to Sleep
+## Chỗ ngủ
 
-- **Đồng Văn:** the liveliest night scene - the old quarter is worth an evening stroll; feels like a transit hub (some find it "Sapa-like" and pricey). Hotels ~500,000-600,000 VND/night; homestays like Plum ~800,000 VND/night.
-- **Lô Lô Chải:** quieter village atmosphere many riders prefer over Đồng Văn, though it was under construction.
-- **Yên Minh:** Thảo Nguyên hotel ~400,000 VND/night is decent.
-- **Mèo Vạc:** boring at night with no memorable stays - just a sleeping stop.
-- **Booking:** use the Agoda/Booking/Traveloka average as a price baseline; Google Maps reviews are reliable. Homestays suit young travelers but can be noisy; hotels are calmer.
-- One suggested night sequence: Quản Bạ -> Lô Lô Chải -> Đồng Văn -> Mèo Vạc for a 4-night loop.
+- **Đồng Văn:** đêm sôi động nhất - phố cổ đáng dạo một buổi tối; cảm giác như điểm trung chuyển (có người thấy "giống Sapa" và đắt). Khách sạn ~500,000-600,000 VND/đêm; homestay như Plum ~800,000 VND/đêm.
+- **Lô Lô Chải:** không khí làng yên hơn, nhiều người chạy thích hơn Đồng Văn, dù đang thi công.
+- **Yên Minh:** khách sạn Thảo Nguyên ~400,000 VND/đêm là ổn.
+- **Mèo Vạc:** ban đêm chán, không có chỗ ở đáng nhớ - chỉ là chỗ ngủ.
+- **Đặt phòng:** lấy giá trung bình trên Agoda/Booking/Traveloka làm mốc; đánh giá trên Google Maps đáng tin. Homestay hợp khách trẻ nhưng có thể ồn; khách sạn yên hơn.
+- Một thứ tự đêm được gợi ý: Quản Bạ -> Lô Lô Chải -> Đồng Văn -> Mèo Vạc cho vòng 4 đêm.
 
-## Eating Along the Loop
+## Ăn dọc vòng
 
-- **Tam Sơn:** quán Lan Anh on the QL4C through town - cheap rice-plate dishes; the fish-head with pickled greens pairs well with beer.
-- **Yên Minh:** nhà hàng Hóa Cường on Trần Hưng Đạo (QL4C through town) - popular with riders, cooked-to-order; the gà rang is good.
-- **Đồng Văn:** nhà hàng Tiến Nhị opposite the old quarter - tasty, fairly priced for the area.
-- **Quản Bạ area:** phở Tráng Kìm is a known breakfast stop.
-- **Mèo Vạc:** try thắng cố and bánh cuốn trứng.
-- Solo diners note: owners may be unenthusiastic about single rice orders - there is often no alternative, so just eat.
+- **Tam Sơn:** quán Lan Anh trên QL4C xuyên thị trấn - cơm đĩa rẻ; đầu cá với dưa chua hợp bia.
+- **Yên Minh:** nhà hàng Hóa Cường trên Trần Hưng Đạo (QL4C xuyên thị trấn) - người chạy xe hay ghé, nấu theo gọi; gà rang ngon.
+- **Đồng Văn:** nhà hàng Tiến Nhị đối diện phố cổ - ngon, giá phải chăng so với khu này.
+- **Khu Quản Bạ:** phở Tráng Kìm là điểm ăn sáng được biết tới.
+- **Mèo Vạc:** thử thắng cố và bánh cuốn trứng.
+- Người ăn một mình lưu ý: chủ quán có thể không mặn mà khi chỉ gọi một suất cơm - thường không có chỗ khác, nên cứ ăn.
 
-## Getting There and Renting Bikes
+## Cách đến và thuê xe
 
-- **Overnight coach Hanoi -> Hà Giang:** any operator works; **Bằng Phấn** is the community pick. A 10-11 p.m. departure lands you around 4 a.m. - sleep a few hours at a homestay, then rent a bike around 6 a.m.
-- **Giang Sơn:** a guesthouse/rental right on the highway - tell the bus driver to drop you there. They lend a free bike for riding out to eat, and you can ask them to book your return bus: return the bike around 5-6 p.m., shower, dinner, and the bus picks you up 7-8 p.m. Very convenient.
-- **Riding your own bike from Hanoi:** the highway is truck-heavy and tiring. Big-displacement bikes (e.g., 1200 cc) leave at 5 a.m. and reach km0 by ~11 a.m.; on a small bike accept a slower pace and arrive mid-afternoon - safety first. Day one should only aim for Hà Giang city; day two climbs toward Mèo Vạc so you actually have the energy to enjoy the scenery.
-- **If riding from Saigon:** fly or ride to Hanoi first; a same-day Saigon departure makes little sense.
+- **Xe khách đêm Hà Nội -> Hà Giang:** hãng nào cũng được; **Bằng Phấn** là lựa chọn của cộng đồng. Xe xuất phát 10-11 giờ tối tới khoảng 4 giờ sáng - ngủ vài tiếng ở homestay, rồi thuê xe khoảng 6 giờ sáng.
+- **Giang Sơn:** nhà nghỉ kiêm cho thuê xe ngay trên quốc lộ - bảo tài xế thả xuống đó. Họ cho mượn xe miễn phí để chạy đi ăn, và có thể nhờ họ đặt xe về: trả xe khoảng 5-6 giờ chiều, tắm, ăn tối, xe đón 7-8 giờ tối. Rất tiện.
+- **Chạy xe của mình từ Hà Nội:** quốc lộ nhiều xe tải và mệt. Xe phân khối lớn (ví dụ 1200 cc) xuất phát lúc 5 giờ sáng và tới km0 khoảng 11 giờ sáng; xe nhỏ thì chấp nhận chậm hơn và đến giữa buổi chiều - an toàn trước. Ngày đầu chỉ nên nhắm thành phố Hà Giang; ngày hai mới leo về phía Mèo Vạc để còn sức ngắm cảnh.
+- **Nếu đi từ Sài Gòn:** bay hoặc chạy xe tới Hà Nội trước; xuất phát từ Sài Gòn và đi trong ngày thì không hợp lý.
 
-## More Spots Worth Knowing
+## Thêm điểm đáng biết
 
-Beyond the marquee stops, community members recommend: Vách đá trắng, Mỏm đá Lưỡi Quỷ, the Tả Lủng adventure road, Đồn Pháp, Lũng Hồ, Khuổi My, Bản Phùng (Hoàng Su Phì), Yên Minh pine forest, Tìa Cố Xi bamboo forest (Giàng Chu Phìn), Suôi Thầu grassland (Xín Mần), Bản Lao Xa, Đèo Gió (Lủng Hồ -> Du Già), and Sảo Há.
+Ngoài các điểm nổi bật, thành viên cộng đồng gợi ý: Vách đá trắng, Mỏm đá Lưỡi Quỷ, cung đường mạo hiểm Tả Lủng, Đồn Pháp, Lũng Hồ, Khuổi My, Bản Phùng (Hoàng Su Phì), rừng thông Yên Minh, rừng tre Tìa Cố Xi (Giàng Chu Phìn), thảo nguyên Suôi Thầu (Xín Mần), Bản Lao Xa, Đèo Gió (Lủng Hồ -> Du Già) và Sảo Há.
 
-Around the main loop: Phố Cáo, Phó Bảng, Sủng Là, Lao Xa (Đồng Văn area); Lô Lô Chải & Cẳng Tằng, Thèn Pả (Lũng Cú); Cao Mã Pờ, Đường Thượng (Quản Bạ/Yên Minh).
+Quanh vòng chính: Phố Cáo, Phó Bảng, Sủng Là, Lao Xa (khu Đồng Văn); Lô Lô Chải và Cẳng Tằng, Thèn Pả (Lũng Cú); Cao Mã Pờ, Đường Thượng (Quản Bạ/Yên Minh).
 
-**Seasonal note:** outside blossom and ripe-rice season, spots like Nhà Pao, the Vua Mèo palace, and the villages are fairly ordinary - worth a look if passing, not a detour. And weather is everything: drizzle and fog is the worst time for Hà Giang; a sunny day makes every stop beautiful.
+**Lưu ý mùa:** ngoài mùa hoa và lúa chín, những chỗ như Nhà Pao, dinh Vua Mèo và các bản thì khá bình thường - đáng ghé nếu đi ngang, không đáng đi vòng. Và thời tiết là tất cả: mưa phùn và sương mù là lúc tệ nhất để đi Hà Giang; ngày nắng thì chỗ nào cũng đẹp.
 
-## Sample Itineraries
+## Lịch trình mẫu
 
-### 4 Days 3 Nights by Motorbike
+### 4 ngày 3 đêm bằng xe máy
 
-- **Day 1: Hà Giang - Quản Bạ - Yên Minh.** Rent a bike in the city. Cổng Trời gate, Thẩm Mã slope, photo stops on the passes. Overnight in Yên Minh.
-- **Day 2: Yên Minh - Lũng Cú - Đồng Văn.** Phó Bảng, Lũng Táo, Lũng Cú. Buckwheat-flower hills if in season. Overnight at Đồng Văn old quarter.
-- **Day 3: Mã Pí Lèng - Mèo Vạc - Du Già.** Mã Pí Lèng pass. Mèo Vạc for thắng cố and bánh cuốn trứng. On to Du Già homestay.
-- **Day 4: Du Già - TP Hà Giang - Hanoi.**
+- **Ngày 1: Hà Giang - Quản Bạ - Yên Minh.** Thuê xe trong thành phố. Cổng Trời, dốc Thẩm Mã, dừng chụp ảnh trên các đèo. Ngủ ở Yên Minh.
+- **Ngày 2: Yên Minh - Lũng Cú - Đồng Văn.** Phó Bảng, Lũng Táo, Lũng Cú. Đồi hoa tam giác mạch nếu đúng mùa. Ngủ ở phố cổ Đồng Văn.
+- **Ngày 3: Mã Pí Lèng - Mèo Vạc - Du Già.** Đèo Mã Pí Lèng. Ở Mèo Vạc ăn thắng cố và bánh cuốn trứng. Tiếp đến homestay Du Già.
+- **Ngày 4: Du Già - TP Hà Giang - Hà Nội.**
 
-### Community 3-Night Tết Itinerary (image)
+### Lịch trình Tết 3 đêm của cộng đồng (ảnh)
 
-A reference plan covering: km0, Bắc Sum slope, Cổng Trời Quản Bạ, Núi Đôi Cô Tiên, the lonely tree, Thẩm Mã, Sảo Há village, Nhà Pao, Vương palace, Lũng Cú flagpole, Lô Lô Chải; then Đồng Văn, Mã Pí Lèng, the "tử thần" rock ledge, Nho Quế boat / Tu Sản gorge, Mèo Vạc; returning via Panorama cafe, the chữ M curve on DT182, DT176 - Mậu Duệ - Hang Thẩm Lín, Du Già waterfall, Đường Thượng - Lùng Tám weaving village, and QL4C back.
+Một lịch trình tham khảo gồm: km0, dốc Bắc Sum, Cổng Trời Quản Bạ, Núi Đôi Cô Tiên, cây cô đơn, Thẩm Mã, bản Sảo Há, Nhà Pao, dinh Vương, cột cờ Lũng Cú, Lô Lô Chải; rồi Đồng Văn, Mã Pí Lèng, mỏm đá "tử thần", thuyền Nho Quế / hẻm Tu Sản, Mèo Vạc; về qua cafe Panorama, cua chữ M trên DT182, DT176 - Mậu Duệ - Hang Thẩm Lín, thác Du Già, Đường Thượng - làng dệt Lùng Tám, và QL4C về.
 
-![3-night Hà Giang itinerary](/Attachments/4d3a4b5c-6e7f-8a90-b1c2-d3e4f5a6789b.png)
+![Lịch trình Hà Giang 3 đêm](/Attachments/4d3a4b5c-6e7f-8a90-b1c2-d3e4f5a6789b.png)
 
-### 5 Days 4 Nights: Hà Giang - Cao Bằng
+### 5 ngày 4 đêm: Hà Giang - Cao Bằng
 
-**Day 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú**
+**Ngày 1: Hà Giang - Quản Bạ - Yên Minh - Lũng Cú**
 
-- 07:00 breakfast in TP Hà Giang; 07:30 check in at Km 0.
-- Bắc Sum slope; Cổng Trời Quản Bạ (misty views, Núi Đôi Cô Tiên); the lonely tree.
-- Lunch in Yên Minh town.
-- Afternoon: Thẩm Mã slope; Phố Cáo H'Mông earthen houses; Nhà Pao film site; Lao Xa silver-carving village; Vua Mèo (Nhà Vương) palace.
-- Night: homestay at Lô Lô Chải.
+- 07:00 ăn sáng ở TP Hà Giang; 07:30 có mặt ở Km 0.
+- Dốc Bắc Sum; Cổng Trời Quản Bạ (cảnh sương, Núi Đôi Cô Tiên); cây cô đơn.
+- Ăn trưa ở thị trấn Yên Minh.
+- Chiều: dốc Thẩm Mã; nhà trình tường H'Mông ở Phố Cáo; bối cảnh phim Nhà Pao; bản chạm bạc Lao Xa; dinh Vua Mèo (Nhà Vương).
+- Tối: homestay ở Lô Lô Chải.
 
-**Day 2: Lũng Cú - Đồng Văn - Mã Pí Lèng - Nho Quế - Pả Vi**
+**Ngày 2: Lũng Cú - Đồng Văn - Mã Pí Lèng - Nho Quế - Pả Vi**
 
-- Morning: Lô Lô Chải village; Lũng Cú flagpole; Đồng Văn town (bánh tam giác mạch, phở chua).
-- Afternoon: Mã Pí Lèng pass; kayak or boat on the Nho Quế through Tu Sản gorge.
-- Lunch: anh Quân's camping spot with a gorge view. Check in at Pả Vi village.
-- Night: homestay in Pả Vi.
+- Sáng: bản Lô Lô Chải; cột cờ Lũng Cú; thị trấn Đồng Văn (bánh tam giác mạch, phở chua).
+- Chiều: đèo Mã Pí Lèng; kayak hoặc thuyền trên sông Nho Quế qua hẻm Tu Sản.
+- Ăn trưa: điểm cắm trại của anh Quân, nhìn ra hẻm. Nhận phòng ở bản Pả Vi.
+- Tối: homestay ở Pả Vi.
 
-**Day 3: Hà Giang - 14-tier slope - Lê Nin**
+**Ngày 3: Hà Giang - dốc 14 tầng - Lê Nin**
 
-- From Pả Vi, stop at the 14-tier slope (dốc 14 tầng).
-- Continue to Cao Bằng: Pác Bó relic site and Lê Nin stream, where Hồ Chí Minh lived and worked.
-- Night: homestay near Pác Bó.
+- Từ Pả Vi, dừng ở dốc 14 tầng.
+- Tiếp đến Cao Bằng: khu di tích Pác Bó và suối Lê Nin, nơi Hồ Chí Minh từng sống và làm việc.
+- Tối: homestay gần Pác Bó.
 
-**Day 4: Lê Nin - Mắt Thần Mountain - Bản Giốc Waterfall**
+**Ngày 4: Lê Nin - núi Mắt Thần - thác Bản Giốc**
 
-- Check in at Núi Mắt Thần and its poetic natural lake.
-- Explore Bản Giốc - the grandest waterfall on the Vietnam-China border.
-- Evening: local specialties (seven-flavor roast duck, bánh áp chao). Sleep near the falls.
+- Ghé Núi Mắt Thần và hồ tự nhiên thơ mộng.
+- Khám phá Bản Giốc - thác hùng vĩ nhất trên biên giới Việt Nam - Trung Quốc.
+- Tối: đặc sản địa phương (vịt quay bảy vị, bánh áp chao). Ngủ gần thác.
 
-**Day 5: Đồi Cỏ Cháy - TP Cao Bằng - Hanoi**
+**Ngày 5: Đồi Cỏ Cháy - TP Cao Bằng - Hà Nội**
 
-- Morning at Đồi Cỏ Cháy grass hill.
-- Stop in TP Cao Bằng for gifts: Trùng Khánh chestnuts, bánh khảo.
-- Midday coach back to Hanoi.
+- Sáng ở Đồi Cỏ Cháy.
+- Dừng ở TP Cao Bằng mua quà: hạt dẻ Trùng Khánh, bánh khảo.
+- Giữa trưa xe khách về Hà Nội.
 
-**Notes:**
+**Ghi chú:**
 
-- **Transport:** motorbike for the full experience, car if you want to save your health.
-- **Pack:** warm clothes, basic medication, comfortable shoes - cold weather and rocky terrain.
-- **Book ahead:** homestays in Đồng Văn, Pả Vi, and around Bản Giốc.
+- **Đi lại:** xe máy để trải nghiệm trọn, ô tô nếu muốn giữ sức khỏe.
+- **Mang theo:** quần áo ấm, thuốc cơ bản, giày thoải mái - trời lạnh và địa hình đá.
+- **Đặt trước:** homestay ở Đồng Văn, Pả Vi và quanh Bản Giốc.
 
-> **See also:** [Northwest Vietnam Community Notes](/Travel/Destinations/Vietnam/Northwest Vietnam/Community Notes) · [Motorbike And Solo Travel](/Travel/Destinations/Vietnam/Northwest Vietnam/Motorbike And Solo Travel)
+> **Xem thêm:** [Ghi chú cộng đồng Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Community Notes) · [Xe máy và đi một mình ở Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Motorbike And Solo Travel)

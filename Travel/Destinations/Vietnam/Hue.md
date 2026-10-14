@@ -2,9 +2,9 @@
 area: travel
 domain: hue
 type: guide
-title: Hue
-description: Huế travel notes - sights, cafes, and food addresses
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Huế
+description: Ghi chú du lịch Huế - điểm tham quan, quán cà phê và địa chỉ ăn uống
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - hue
@@ -12,11 +12,11 @@ tags:
 
 # Huế
 
-## Overview
+## Tổng quan
 
-Huế is Vietnam's former imperial capital, known for its historic monuments, culture, and distinctive cuisine. The city bears the deep imprint of the Nguyễn dynasty with its ancient tombs, temples, and palaces.
+Huế là cố đô của Việt Nam, nổi tiếng với di tích lịch sử, văn hóa và ẩm thực riêng. Thành phố in đậm dấu ấn triều Nguyễn qua các lăng tẩm, đền chùa và cung điện cổ.
 
-## Sights
+## Điểm tham quan
 
 - Đồi Thiên An
 - Hòn Vượn - chùa Huyền Không
@@ -27,51 +27,51 @@ Huế is Vietnam's former imperial capital, known for its historic monuments, cu
 - Đèo Hải Vân
 - Lăng Cô
 - Phố tây Nguyễn Công Trứ
-- Two memorial houses right by Tràng Tiền bridge: Điềm Phùng Thị & Lê Bá Đảng, two world-famous painters of Vietnamese origin based in France
-- Boat ride from Tòa Khâm pier to Thiên Mụ pagoda along the Perfume river
-- Lăng Gia Long (the road up is beautiful; the site itself is grand)
-- Lê Bá Đảng Memory - arguably the most beautiful private museum in Vietnam
-- Bảo tàng đồ sứ ký kiểu thời Nguyễn - the first private antiques museum in Huế
-- Rừng Rú Chá - climb the tower for views over the Tam Giang lagoon
-- Boat trip on Tam Giang lagoon where the rivers converge
+- Hai nhà lưu niệm ngay sát cầu Tràng Tiền: Điềm Phùng Thị và Lê Bá Đảng, hai họa sĩ gốc Việt nổi tiếng thế giới, sống tại Pháp
+- Đi thuyền từ bến Tòa Khâm đến chùa Thiên Mụ dọc sông Hương
+- Lăng Gia Long (đường lên đẹp; khu lăng thì đồ sộ)
+- Lê Bá Đảng Memory - có lẽ là bảo tàng tư nhân đẹp nhất Việt Nam
+- Bảo tàng đồ sứ ký kiểu thời Nguyễn - bảo tàng cổ vật tư nhân đầu tiên ở Huế
+- Rừng Rú Chá - leo tháp để ngắm phá Tam Giang
+- Đi thuyền trên phá Tam Giang, nơi các sông hội tụ
 - Chùa Tây Thiên
 - Chùa Từ Hiếu
 - Thiền viện Trúc Lâm Bạch Mã
-- Thuận An beach
+- Biển Thuận An
 - Hồ Tịnh Tâm
 - Nhà thờ Phủ Cam
-- Coffee in Vĩ Dạ village
-- Food street at Tứ Tượng park near Tràng Tiền bridge
-- Floating restaurant on the Perfume river
+- Cà phê ở làng Vĩ Dạ
+- Phố ẩm thực ở công viên Tứ Tượng gần cầu Tràng Tiền
+- Nhà hàng nổi trên sông Hương
 - Nhà hàng Cung Đình Huế
-- SUP paddling on the Perfume river at sunset (bến Me)
+- Chèo SUP trên sông Hương lúc hoàng hôn (bến Me)
 - Lăng Minh Mạng
 - Đầm Lập An
 - Cung An Định
-- Tân An beach
-- Phước Tích ancient village
-- Thủy Biều village
-- Thanh Tiên paper-flower village
+- Biển Tân An
+- Làng cổ Phước Tích
+- Làng Thủy Biều
+- Làng hoa giấy Thanh Tiên
 
-## Cafes
+## Quán cà phê
 
 - Thái Y Viện
 - Đi Gác Trịnh uống cafe
 - Cafe Sông Xanh
-- Cafe at Tòa Khâm
+- Cafe ở Tòa Khâm
 - Tân - 86 Đinh Tiên Hoàng
-- Trốn - 05 Kiệt 21 Lê Quý Đôn (salt egg coffee, almond coffee, kombucha)
+- Trốn - 05 Kiệt 21 Lê Quý Đôn (cà phê trứng muối, cà phê hạnh nhân, kombucha)
 - de.chiu café - nhà E - P107, Chung cư, 29A Lê Hồng Phong, Đống Đa, Phú Nhuận (cóc ép xí muội)
-- Giao - 118 Chi Lăng (kem muối coffee)
+- Giao - 118 Chi Lăng (cà phê kem muối)
 - Chi lăng ơi - 110 Chi Lăng
 - Lò bánh @banhnuocnha - Lò Bắc: 29 Nguyễn Trãi; Lò Nam: 118 Phan Chu Trinh
 - T-roaster Sư Vạn Hạnh
 
-## Food
+## Ăn uống
 
-- Signature dishes: bánh xèo, bánh khoái, nem lụi, chè Huế, bún/mì/cơm hến, bánh phất, bún giấm nuốc
-- Nhà hàng Chạn (home-style rice)
-- Quán Bánh O Lé - Kiệt 104, 17/9 Kim Long - open 7h-20h
+- Món đặc trưng: bánh xèo, bánh khoái, nem lụi, chè Huế, bún/mì/cơm hến, bánh phất, bún giấm nuốc
+- Nhà hàng Chạn (cơm nhà)
+- Quán Bánh O Lé - Kiệt 104, 17/9 Kim Long - mở cửa 7h-20h
 - Bánh bèo Bà Cư - 177/23 Phan Đình Phùng
 - Quán Ếch Ông Chạy
 - Bánh ướt thịt heo quay Bà Sửu
@@ -80,7 +80,7 @@ Huế is Vietnam's former imperial capital, known for its historic monuments, cu
 - Bánh mỳ O Tho
 - Bánh ướt cuốn Huyền Anh - 50 Kim Long
 - Bánh khoái, bún thịt nướng, nem lụi Thu Lương
-- Bánh ép Chị Huệ - 118 Lê Ngô Cát, Thủy Xuân (near Lăng Tự Đức)
+- Bánh ép Chị Huệ - 118 Lê Ngô Cát, Thủy Xuân (gần Lăng Tự Đức)
 - Bánh Canh Cua O Bướm - 461 Đ. Chi Lăng, Phú Cát
 - Bánh bèo nậm lọc Bà Mới - 37 Lê Hồng Phong
 - Bánh canh cua rời Hương - 30 Phạm Hồng Thái
@@ -89,15 +89,15 @@ Huế is Vietnam's former imperial capital, known for its historic monuments, cu
 - Bánh ép Da Di - 49 Tố Hữu, Xuân Phú
 - Bánh bột lọc & bánh nậm Chi - 52 Lê Viết Lượng
 - Quán O SỚM - bánh bèo, bánh nậm, bánh lọc - 34 Hải Triều, An Cựu
-- Chợ Tây Lộc for cheap, plentiful Huế specialties; avoid Chợ Đông Ba (tourist market, heavy overcharging)
+- Chợ Tây Lộc để ăn đặc sản Huế rẻ và nhiều; tránh Chợ Đông Ba (chợ khách du lịch, chặt chém nặng)
 - Bún cơm nguội Cảnh Vân - 198B kiệt 4 Chi Lăng tổ 3, Phú Cát
 - Nhà Hàng Chay Tịnh Quán - 2 Trần Cao Vân, Vĩnh Ninh
-- Royal-style set meal at Ý Thảo Garden (~500k/2 people, book ahead) - 3 Thạch Hãn, Huế (north bank)
+- Suất ăn kiểu cung đình ở Ý Thảo Garden (~500k/2 người, đặt trước) - 3 Thạch Hãn, Huế (bờ Bắc)
 
-## Bún Bò (Beef Noodle)
+## Bún bò
 
-- **North bank:** Bún Bò Mụ Rơi (Bui Tre Vàng) - 40 Nguyễn Chí Diểu, Phú Hậu; Bún bò Mệ Kéo - 20 Bạch Đằng, Phú Cát (go early - by ~8 a.m. only beef is left, chả and giò sell out); Bún Bò Chú Vọng - 14 Nguyễn Du, Phú Cát. All tasty at fair prices.
-- Bún bò Huế bà Gái - 11A Hà Nội, Vĩnh Ninh - average.
-- Bún bò bà Cẩm - good chả cua but overcharges; non-Huế accents reportedly pay double for extra chả cua.
-- Bún bò O chi - 99 Xuân 68 (opens after 7 p.m.)
+- **Bờ Bắc:** Bún Bò Mụ Rơi (Bui Tre Vàng) - 40 Nguyễn Chí Diểu, Phú Hậu; Bún bò Mệ Kéo - 20 Bạch Đằng, Phú Cát (đi sớm - khoảng 8 giờ sáng chỉ còn thịt bò, chả và giò hết hàng); Bún Bò Chú Vọng - 14 Nguyễn Du, Phú Cát. Quán nào cũng ngon, giá phải chăng.
+- Bún bò Huế bà Gái - 11A Hà Nội, Vĩnh Ninh - bình thường.
+- Bún bò bà Cẩm - chả cua ngon nhưng chặt chém; nghe nói khách không giọng Huế phải trả gấp đôi khi gọi thêm chả cua.
+- Bún bò O chi - 99 Xuân 68 (mở cửa sau 7 giờ tối)
 - Bún bò Bà Tuyết - 47 Nguyễn Công Trứ

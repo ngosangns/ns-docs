@@ -2,99 +2,105 @@
 area: travel
 domain: ladakh
 type: guide
-title: Ladakh Self-Guided Motorbike
-description: Late September 2023 self-guided ride from Delhi to Leh, with the SIM, permit, rental, fuel, food, and beds that pair paid for
-timestamp: "2026-10-06T00:00:00.000Z"
+title: Ladakh tự chạy xe máy
+description: Chuyến tự chạy cuối tháng 9 năm 2023 từ Delhi tới Leh, với SIM, giấy phép, xe thuê, xăng, đồ ăn và chỗ ngủ mà cặp đôi đã trả
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - ladakh
   - motorbike
 ---
 
-# Ladakh Self-Guided Motorbike
+# Ladakh tự chạy xe máy
 
-Two riders, first time in India, late September 2023. Most of the days were a self-guided motorbike loop in Ladakh. A few days at the end went to Agra and Delhi before the flight home. They had bought the flights as a solo trip. A friend joined after the tickets were booked. Prices below are what they paid then. How to ride the passes, and the later Himalayan 411 and 450 choice, are in [Ladakh](/Travel/Destinations/International/Ladakh).
+Hai người chạy, lần đầu ở Ấn Độ, cuối tháng 9 năm 2023. Phần lớn các ngày là một vòng xe máy tự chạy ở Ladakh. Vài ngày cuối sang Agra và Delhi trước chuyến bay về. Vé máy bay được mua như chuyến đi một người. Một người bạn nhập sau khi vé đã đặt. Giá bên dưới là mức họ trả lúc đó. Cách chạy đèo, và lựa chọn Himalayan 411 với 450 về sau, nằm trong [Ladakh](/Travel/Destinations/International/Ladakh).
 
-## Delhi arrival
+## Tới Delhi
 
-Delhi airport had no wifi, so they printed the e-visa, the hotel booking, and the flight tickets before they landed.
+Sân bay Delhi không có wifi, nên họ in e-visa, xác nhận khách sạn, và vé máy bay trước khi hạ cánh.
 
-If you buy an India SIM at the airport, buy it before immigration. Flights often land late, and the kiosks inside are already shut. For a trip that is mostly Ladakh, they say skip that airport SIM. Theirs suffered a data-region change once they reached Ladakh. They name Airtel for both Delhi and Ladakh, so the complaint is the region change. They bought Airtel in Leh instead.
+Giấy tờ nhập cảnh đã đổi từ đó. Từ tháng 4 năm 2026 Ấn Độ bỏ tờ khai nhập cảnh giấy, thay bằng thẻ e-Arrival trực tuyến (khai báo nhập cảnh điện tử), nộp trên [cổng e-Arrival chính thức](https://indianvisaonline.gov.in/earrival/) trong vòng 72 giờ trước khi tới, và lưu mã QR. Nhập cảnh hỏi hộ chiếu, ETA e-Visa đã in (thị thực điện tử, trạng thái GRANTED, in từ [cổng e-Visa](https://indianvisaonline.gov.in/evisa/)), và mã QR đó; họ cũng có thể hỏi vé khứ hồi và xác nhận khách sạn. Không có gì để khai thì hải quan là luồng xanh (green channel), không có tờ khai. Rời Ấn Độ không cần tờ khai xuất cảnh, chỉ hộ chiếu và thẻ lên máy bay.
 
-## Delhi to Leh
+Nếu mua SIM Ấn Độ ở sân bay, mua trước khi qua nhập cảnh. Chuyến bay thường hạ cánh muộn, và các quầy bên trong đã đóng. Với chuyến chủ yếu ở Ladakh, họ bảo bỏ SIM sân bay đó. SIM của họ bị đổi vùng dữ liệu một lần khi tới Ladakh. Họ nêu tên Airtel cho cả Delhi và Ladakh, nên điều phàn nàn là việc đổi vùng. Họ mua Airtel ở Leh thay vào đó. Một cách rẻ hơn cho các chặng Delhi là eSIM du lịch cài trước khi khởi hành (gói Ấn Độ của Saily bắt đầu từ vài đô la); nó chạy ở Delhi nhưng, giống chuyển vùng quốc tế và SIM trả trước mua ngoài vùng, không có sóng ở Leh.
 
-They name IndiGo, Vistara, and Air India. Vistara was a real choice in 2023. It merged into Air India in November 2024, so it is not a separate airline to book now. They took the earliest flight on the morning after a night arrival and slept in the airport. Check which terminal the Leh flight uses. In their account, T3 handles international and domestic together, and T1 and T2 are domestic only. The terminals are large, and they could walk between them.
+Với tiền mặt khi hạ cánh, các quầy đổi trong sảnh đến T3 sau hải quan là Thomas Cook, Centrum, và Travelex - mang hộ chiếu và giữ biên lai - nhưng tỷ giá quầy thấp hơn thị trường chừng 6-12%. ATM mang thương hiệu ngân hàng thường tốt hơn các quầy đó: máy SBI, HDFC, và ICICI nằm bên phải ngay sau cửa ra hải quan. Tránh máy không tên tuổi như India1, và khi máy hỏi chọn loại tiền, luôn chọn INR.
 
-Late September IndiGo was about 800,000 VND toward Leh and about 1,700,000 VND back to Delhi. They did not need to book far ahead. They call late September and early October the autumn of Ladakh, with the late-autumn landscape and cold they could live with, and fares below the summer peak.
+## Từ Delhi tới Leh
 
-Taxis at Leh airport are prepaid. Carry rupees. Print the hotel name, or have the address on the phone, if you still have no India SIM.
+Họ nêu IndiGo, Vistara, và Air India. Vistara là một lựa chọn thật vào năm 2023. Hãng sáp nhập vào Air India tháng 11 năm 2024, nên giờ không còn là một hãng riêng để đặt. Họ lấy chuyến sớm nhất vào sáng sau một đêm tới, và ngủ ở sân bay. Kiểm tra chuyến Leh dùng nhà ga nào. Theo lời họ, T3 làm cả quốc tế và nội địa, còn T1 và T2 chỉ nội địa. Các nhà ga lớn, và họ đi bộ được giữa các nhà ga.
 
-## Where to stay in Leh
+Cuối tháng 9, IndiGo khoảng 800,000 VND chiều tới Leh và khoảng 1,700,000 VND chiều về Delhi. Họ không cần đặt từ rất sớm. Họ gọi cuối tháng 9 và đầu tháng 10 là mùa thu của Ladakh, với cảnh cuối thu và cái lạnh họ chịu được, và giá vé dưới đỉnh hè.
 
-Leh Market is the centre, about 5 km from the airport. A room near the market means you can walk the town. On a bike, nearer the airport is fine, because the sights still need a ride. Parking at the sights was easy. They did not use a paid lot, and they were not worried about the bike.
+Taxi ở sân bay Leh trả trước. Mang theo rupee. In tên khách sạn, hoặc để địa chỉ trên điện thoại, nếu bạn vẫn chưa có SIM Ấn Độ.
 
-Rooms outside town are more open. Central rooms may have no garden. A budget room for two was about 1,000 to 2,000 Rs.
+## Ở đâu tại Leh
 
-## SIM and the permit
+Leh Market là trung tâm, cách sân bay khoảng 5 km. Phòng gần chợ nghĩa là bạn đi bộ được trong thị trấn. Đi xe máy thì gần sân bay cũng được, vì các điểm vẫn phải chạy tới. Đỗ xe ở điểm tham quan thì dễ. Họ không dùng bãi trả phí, và không lo cho xe.
 
-Ordinary shops often will not sell a SIM to a foreigner. The Airtel shop on the pedestrian stretch of Leh Market, about halfway along, sells and activates tourist SIMs. In this note, Ladakh mobile service is Airtel. Buy it soon after you arrive, so you have data and an Indian number to leave at the checkpoints.
+Phòng ngoài thị trấn thoáng hơn. Phòng trung tâm có thể không có vườn. Một phòng giá rẻ cho hai người khoảng 1,000 đến 2,000 Rs.
 
-The price then was 500 Rs for 15 days, 1 GB a day. After that they topped it up, including a 30-day option and longer ones.
+## SIM và giấy phép
 
-Outside roughly 25 to 30 km from Leh, foreigners needed a Protected Area Permit. Travel offices on that same pedestrian street arranged it for 700 Rs a person. It took about half a day. Do it on arrival, and not on a day the local office is closed.
+Tiệm bình thường hay không bán SIM cho người nước ngoài. Tiệm Airtel trên đoạn đi bộ của Leh Market, khoảng giữa đoạn, bán và kích hoạt SIM cho khách. Trong ghi chú này, dịch vụ di động ở Ladakh là Airtel. Mua sớm sau khi tới, để có dữ liệu và một số Ấn Độ để lại ở các chốt.
 
-Checkpoints kept a photocopy and a phone number. Carry the original and at least four copies. Photocopy shops in Ladakh are scarce. If the agent hands you too few, ask for more before you leave Leh. Their list, in their spelling: Khadung La (Khardung La), Nubra, Tuturk (Turtuk), Pangong, and Morini (Tso Moriri).
+Giá lúc đó là 500 Rs cho 15 ngày, 1 GB một ngày. Sau đó họ nạp thêm, gồm một lựa chọn 30 ngày và các gói dài hơn.
 
-The riding note in [Ladakh](/Travel/Destinations/International/Ladakh) calls this paper an Inner Line Permit and says a land tour arranges it. For a foreign passport, guides read on 2026-10-06 still say Protected Area Permit, through a registered Leh agent. They also describe a minimum of two foreigners for some zones, with an agent able to attach a solo rider to a group, and they say the old minimum has been relaxed in places. These two rode as a pair. Check the zone before you count on riding alone.
+Ngoài khoảng 25 đến 30 km từ Leh, người nước ngoài cần Protected Area Permit (giấy phép khu vực hạn chế, PAP). Các văn phòng du lịch trên cùng phố đi bộ đó làm giúp với 700 Rs một người. Mất khoảng nửa ngày. Làm ngay khi tới, và đừng làm vào ngày cơ quan địa phương đóng cửa. Từ tháng 2 năm 2026 cũng có một quầy PAP trong sảnh đến sân bay Leh cho khách nước ngoài ([Earth News](https://earthnews.in/ut-administration-sets-up-on-arrival-pap-counter-at-leh-airport-for-foreign-tourists/)), điều này có thể khỏi hẳn việc chạy giấy ở Market.
 
-## Renting the bike
+Các chốt giữ một bản photo và một số điện thoại. Mang bản gốc và ít nhất bốn bản sao. Tiệm photo ở Ladakh thì hiếm. Nếu đại lý đưa quá ít, xin thêm trước khi rời Leh. Danh sách của họ, theo cách viết của họ: Khadung La (Khardung La), Nubra, Tuturk (Turtuk), Pangong, và Morini (Tso Moriri).
 
-The two bikes they saw most were the Royal Enfield Classic 350 and the Himalayan 411. The Himalayan is stronger. It is also taller, and it carries less strapped luggage than the Classic 350, which has a large rack. Tell the shop every place you will ride, so they prepare the bike's papers. An LA (Ladakh) plate did not need an extra bike permit. A JK (Jammu and Kashmir) plate did, for the border areas.
+Ghi chú chạy xe trong [Ladakh](/Travel/Destinations/International/Ladakh) gọi tờ giấy này là Inner Line Permit (ILP) và nói tour đường bộ lo giấy. Với hộ chiếu nước ngoài, các hướng dẫn đọc ngày 2026-10-06 vẫn nói Protected Area Permit, qua một đại lý đã đăng ký ở Leh. Họ cũng mô tả tối thiểu hai người nước ngoài với một số vùng, đại lý có thể ghép người đi một mình vào một nhóm, và họ nói mức tối thiểu cũ đã được nới ở một số nơi. Hai người này chạy thành một cặp. Kiểm tra vùng trước khi tính chuyện đi một mình.
 
-Pay for one or two days in Leh first, ride the bike, and swap it if it is wrong. Then pay for the days on the loop. Keep the shop's phone number. Use the bike for the sights around Leh before the loop, so the left-hand rule and the machine are familiar.
+## Thuê xe
 
-Buy luggage straps around Leh Market before the morning you leave, if you have a lot to tie on. Armor can be rented at the bike shop. The hire included two helmets. Take the full-face.
+Hai xe họ thấy nhiều nhất là Royal Enfield Classic 350 và Himalayan 411. Himalayan mạnh hơn. Nó cũng cao hơn, và chở ít đồ chằng hơn Classic 350, vốn có giá lớn. Nói với tiệm mọi chỗ bạn sẽ chạy, để họ chuẩn bị giấy tờ xe. Biển LA (Ladakh) không cần thêm giấy phép xe. Biển JK (Jammu và Kashmir) thì cần, cho các vùng biên.
 
-Their shop was Into Himalaya, which they spell Into Hymalaya, at 1,500 Rs a day. The shop delivered the bike to the guesthouse and collected it there. Many rental shops sit around Leh Market. Bring the English-language plastic licence. The shop photographs it.
+Trả một hoặc hai ngày ở Leh trước, chạy thử, và đổi nếu xe không ổn. Rồi mới trả cho các ngày trên vòng. Giữ số điện thoại của tiệm. Dùng xe cho các điểm quanh Leh trước vòng, để luật đi bên trái và chiếc máy trở nên quen.
 
-## Sights in Leh, and the loop
+Mua dây chằng quanh Leh Market trước buổi sáng bạn đi, nếu có nhiều đồ phải buộc. Giáp thuê được ở tiệm xe. Tiền thuê gồm hai mũ. Lấy mũ trùm mặt.
 
-In town they single out the pedestrian Leh Market, Leh Palace and the old-town lanes, Tsemo Monastery (they say it is more than 700 years old), Thiksey Monastery (they spell it Thiksay, and say the 14th Dalai Lama has stayed there) about 22 km from the centre, and Shanti Stupa, built with donations from Japanese Buddhists.
+Tiệm của họ là Into Himalaya, họ viết thành Into Hymalaya, giá 1,500 Rs một ngày. Tiệm giao xe tới nhà khách và lấy lại ở đó. Nhiều tiệm thuê ngồi quanh Leh Market. Mang bằng lái nhựa bằng tiếng Anh. Tiệm chụp bằng.
 
-Their loop took about 6 to 8 days: Leh, Khardung La, Nubra and Diskit, Turtuk, back through Diskit, Pangong, Tso Moriri, Tanglang La (they spell it Tangsla), Leh.
+## Điểm ở Leh, và vòng chạy
 
-## Food
+Trong thị trấn họ tách ra để nhắc đoạn đi bộ Leh Market, Leh Palace và các ngõ phố cổ, tu viện Tsemo (họ nói hơn 700 năm tuổi), tu viện Thiksey (họ viết Thiksay, và nói Đạt-lai Lạt-ma thứ 14 đã ở đó) cách trung tâm khoảng 22 km, và Shanti Stupa, xây bằng tiền công đức của Phật tử Nhật Bản.
 
-Leh has a lot of food. Larger restaurants are on the streets around the market. Lanes and second-floor rooms inside the market are cheaper. European restaurants around the market are there if Indian food does not work yet. That sits next to the food-to-carry list in [Ladakh](/Travel/Destinations/International/Ladakh). Carrying familiar food still matters on the road, when you are cold and tired at once.
+Vòng của họ mất khoảng 6 đến 8 ngày: Leh, Khardung La, Nubra và Diskit, Turtuk, quay lại qua Diskit, Pangong, Tso Moriri, Tanglang La (họ viết Tangsla), Leh.
 
-The street food they liked was momos, and chai at ZAL Tea stall beside the Tibet market in Leh Market. They call that stall the best chai and momos in Leh, and cheap.
+## Đồ ăn
 
-On the road, the easy order was chicken fried rice and chai. They also tried north-Indian dishes when they felt like it. In Diskit, lamb skewers are grilled on the street in front of a shop near the Diskit fuel station. That shop closes before 7 pm, so it was a snack, with dinner somewhere else. Turtuk's food is the Muslim cooking of the village, and they liked it. The restaurants sit by the bridge over the stream at the entrance to the village, a few large busy places. At Pangong, dinner and breakfast came with the bed. There was no menu.
+Leh có nhiều đồ ăn. Quán lớn hơn nằm trên các phố quanh chợ. Ngõ và phòng tầng hai trong chợ rẻ hơn. Quán Âu quanh chợ có sẵn nếu đồ Ấn chưa ăn được. Ý này nằm cạnh danh sách đồ ăn mang theo trong [Ladakh](/Travel/Destinations/International/Ladakh). Mang đồ quen vẫn quan trọng trên đường, khi bạn lạnh và mệt cùng một lúc.
 
-## Beds on the loop
+Đồ đường phố họ thích là momos, và chai ở quầy ZAL Tea cạnh chợ Tibet trong Leh Market. Họ gọi quầy đó là chai và momos ngon nhất Leh, và rẻ.
 
-Turtuk has many homestays. They did not book ahead, because a bike can arrive and ask. Turtuk cost more than Diskit, and they still called it fair.
+Trên đường, món gọi cho dễ là cơm chiên gà và chai. Họ cũng thử món Bắc Ấn khi muốn. Ở Diskit, xiên thịt cừu được nướng trên phố trước một tiệm gần trạm xăng Diskit. Tiệm đó đóng trước 7 giờ tối, nên đó là món ăn vặt, bữa tối ở chỗ khác. Đồ ăn Turtuk là cách nấu của người Hồi trong làng, và họ thích. Các quán ngồi cạnh cầu bắc qua suối ở lối vào làng, vài chỗ lớn và đông. Ở Pangong, bữa tối và bữa sáng đi kèm chỗ ngủ. Không có thực đơn.
 
-Hunder has the dunes and the camel rides. With only two people they skipped the camel camps and went back to Diskit for the Maitreya statue and the old Diskit monastery. They stayed at Karuna Inn, 1,000 Rs a night, a large clean room, cheaper than the dune camps.
+## Chỗ ngủ trên vòng
 
-Pangong is colder. A camping tent there is a large wooden frame with a canvas cover, and it stays cold. The homestays above the road, on the right as you arrive, were about 1,500 to 2,000 Rs for two, with dinner and breakfast. The tent's advantage is sleeping near the water. From the homestay you ride down to the shore for the photo.
+Turtuk có nhiều homestay. Họ không đặt trước, vì đi xe máy thì tới nơi rồi hỏi. Turtuk đắt hơn Diskit, và họ vẫn gọi là hợp lý.
 
-There is no phone signal at Pangong. If you reserved ahead, screenshot the booking before you lose the signal. If you did not reserve, walk in and ask.
+Hunder có cồn cát và cưỡi lạc đà. Chỉ có hai người nên họ bỏ các khu lều lạc đà và quay lại Diskit để xem tượng Maitreya (Di-lặc) và tu viện Diskit cũ. Họ ở Karuna Inn, 1,000 Rs một đêm, phòng lớn sạch, rẻ hơn các khu cắm trại trên cồn cát.
 
-## On the road
+Pangong lạnh hơn. Một lều cắm trại ở đó là khung gỗ lớn phủ bạt, và vẫn lạnh. Các homestay phía trên đường, bên phải khi bạn tới, khoảng 1,500 đến 2,000 Rs cho hai người, có bữa tối và bữa sáng. Lợi thế của lều là ngủ gần nước. Từ homestay bạn chạy xuống bờ để chụp.
 
-The passes are steep and the surface is often bad. There is no backup car and no land-tour guide. Ride at a speed you can still handle. The riding rules are in [Ladakh](/Travel/Destinations/International/Ladakh).
+Không có sóng điện thoại ở Pangong. Nếu đã đặt trước, chụp màn hình xác nhận trước khi mất sóng. Nếu chưa đặt, bước vào rồi hỏi.
 
-Two people on one bike should keep the luggage to two backpacks, strapped tight. A suitcase is hard to lash and makes the bike wobble.
+## Trên đường
 
-Leave Leh before 8 am on the first riding day and go through to Turtuk, so you are not late on that road.
+Các đèo dốc và mặt đường thường xấu. Không có xe hỗ trợ và không có hướng dẫn viên tour đường bộ. Chạy ở tốc độ bạn vẫn kiểm soát được. Các quy tắc chạy nằm trong [Ladakh](/Travel/Destinations/International/Ladakh).
 
-Their tank was about 13 litres, which they treated as enough for about 300 km. Plan the fuel stops to the tank you actually have. There is no fuel in Turtuk or at Pangong. Fill at Diskit before Turtuk. After Diskit there is no station on the way to Turtuk. The riding note's other fill-up points are Leh, Karu, and Diskit.
+Hai người trên một xe nên giữ hành lý ở hai ba lô, chằng chặt. Va li khó buộc và làm xe lắc.
 
-Pangong has no signal, and the power was off for a few hours at night. Charge the phone early.
+Rời Leh trước 8 giờ sáng ngày chạy đầu và đi suốt tới Turtuk, để không muộn trên cung đó.
 
-Change rupees in Vietnam. Carry rupees, and some US dollars in reserve. Ladakh was cheap enough, in their account, that 40,000 to 50,000 Rs in cash covered two people. More can be changed from dollars in Leh Market.
+Bình của họ khoảng 13 lít, họ coi là đủ cho khoảng 300 km. Tính các điểm đổ xăng theo bình bạn thực sự có. Không có xăng ở Turtuk hay ở Pangong. Đổ ở Diskit trước khi tới Turtuk. Sau Diskit không có trạm nào trên đường tới Turtuk. Các điểm đổ khác của ghi chú chạy xe là Leh, Karu, và Diskit.
 
-Everyday goods and food had posted, consistent prices. Souvenirs did not. The first price was often about 50 percent above the price they would take.
+Pangong không có sóng, và điện mất vài giờ ban đêm. Sạc điện thoại từ sớm.
 
-> **See also:** [Ladakh](/Travel/Destinations/International/Ladakh) · [Motorbike Touring](/Travel/Guides/Motorbike Touring) · [Packing Checklist](/Travel/Guides/Packing Checklist)
+Đổi rupee ở Việt Nam. Mang rupee, và một ít đô la Mỹ để dự phòng. Ladakh đủ rẻ, theo lời họ, để 40,000 đến 50,000 Rs tiền mặt lo cho hai người. Có thể đổi thêm từ đô la ở Leh Market.
+
+Các ghi chú sau thêm chi tiết. Phía Việt Nam, mua đô la ở ngân hàng, ngân hàng sẽ hỏi visa và vé máy bay; theo Nghị định 340/2025, mua từ $1,000 ngoại tệ trở lên ở quầy không được phép có thể bị phạt 10-20 triệu VND và bị tịch thu. Các ATM đáng tin ở Leh là máy SBI và J&K Bank trên Main Bazaar và Fort Road, và ngoài Leh thì trên thực tế chỉ tiền mặt ([Ride and Fire](https://rideandfire.in/blog/cash-atms-upi-payments-ladakh-guide)). Một bài hướng dẫn kể đô la đổi ở Leh được tỷ giá tốt hơn ở sân bay Delhi. Thanh toán UPI cho khách nước ngoài đã được công bố, nhưng tính đến tháng 10 năm 2026 chưa thấy lời kể trực tiếp nào của một khách đã dùng được, nên đừng lập kế hoạch dựa vào đó. Ở Delhi, chốt giá tuk-tuk trước khi lên hoặc đặt qua ứng dụng; một lời kể báo bị đòi 2,000 Rs rồi mặc cả xuống 100.
+
+Hàng ngày và đồ ăn có giá niêm yết, ổn định. Quà lưu niệm thì không. Giá chào đầu thường cao hơn khoảng 50 phần trăm so với giá họ chịu nhận.
+
+> **Xem thêm:** [Ladakh](/Travel/Destinations/International/Ladakh) · [Đi phượt xe máy](/Travel/Guides/Motorbike Touring) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist)

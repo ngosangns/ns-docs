@@ -2,9 +2,9 @@
 area: travel
 domain: da-lat
 type: guide
-title: Saigon Da Lat Routes
-description: All the good one-day riding routes between Saigon and Da Lat
-timestamp: "2026-09-23T00:00:00.000Z"
+title: Tuyến Sài Gòn – Đà Lạt trong một ngày
+description: Những tuyến chạy xe một ngày đáng đi giữa Sài Gòn và Đà Lạt
+timestamp: "2026-10-13T00:00:00.000Z"
 tags:
   - travel
   - da-lat
@@ -12,59 +12,59 @@ tags:
   - sai-gon
 ---
 
-# Saigon - Da Lat: One-Day Riding Routes
+# Tuyến Sài Gòn – Đà Lạt trong một ngày
 
-Recorded 2026-09-22. The original advice is kept verbatim, including relative time markers ("this season", QL28B "wait for 2026").
+Ghi ngày 2026-09-22. Lời khuyên gốc được giữ nguyên văn, kể cả các mốc thời gian tương đối ("mùa này", QL28B "đợi đến 2026").
 
-## 1. The Popular Route
+## 1. Tuyến phổ biến
 
-The one everyone takes:
+Tuyến ai cũng đi:
 
-Saigon -> Dầu Giây -> QL20 -> Chuối pass -> Bảo Lộc pass -> Di Linh -> Đức Trọng -> Prenn pass -> Da Lat.
+Sài Gòn -> Dầu Giây -> QL20 -> đèo Chuối -> đèo Bảo Lộc -> Di Linh -> Đức Trọng -> đèo Prenn -> Đà Lạt.
 
-If Prenn bores you, turning onto Mimosa or Sacom works fine too.
+Nếu đèo Prenn chán, rẽ Mimosa hoặc Sacom cũng ổn.
 
-## 2. The Chill Route
+## 2. Tuyến nhàn
 
-Saigon -> Dầu Giây -> Madagui market -> DT721 -> Đạ Tẻh -> DT725 -> Mỹ Đức -> Con Ó pass -> B40 pass -> B'Lá -> Bảo Lâm -> Tân Thanh pass -> Lâm Hà -> Tà Nung pass -> Da Lat.
+Sài Gòn -> Dầu Giây -> chợ Madagui -> DT721 -> Đạ Tẻh -> DT725 -> Mỹ Đức -> đèo Con Ó -> đèo B40 -> B'Lá -> Bảo Lâm -> đèo Tân Thanh -> Lâm Hà -> đèo Tà Nung -> Đà Lạt.
 
-This season, riding past the durian orchards around Đạ Huoai - Đạ Tẻh is fragrant heaven.
+Mùa này, chạy ngang vườn sầu riêng quanh Đạ Huoai - Đạ Tẻh là chốn thơm ngát.
 
-## 3. Coast and Semi-Desert: Bác Ái - Northwest Ninh Thuận
+## 3. Ven biển và bán sa mạc: Bác Ái - tây bắc Ninh Thuận
 
-Saigon -> QL1A -> Bình Thuận -> Vĩnh Hảo -> Cà Ná -> Ninh Chữ -> Vĩnh Hy -> Ba Hồ recreation area -> northwest Ninh Thuận -> Sông Pha pass -> D'Ran pass -> Cầu Đất -> Da Lat.
+Sài Gòn -> QL1A -> Bình Thuận -> Vĩnh Hảo -> Cà Ná -> Ninh Chữ -> Vĩnh Hy -> khu du lịch Ba Hồ -> tây bắc Ninh Thuận -> đèo Sông Pha -> đèo D'Ran -> Cầu Đất -> Đà Lạt.
 
-## 4. Linking Bình Thuận - Lâm Đồng
+## 4. Nối Bình Thuận - Lâm Đồng
 
-- **a.** Saigon -> Xuân Lộc -> Chứa Chan -> Mê Pư -> Tà Pao -> Đa Mi -> Bảo Lộc -> continue on route 1 to Da Lat. Convenient side trips: Đức Mẹ Tà Pao, Đa Mi lake, Sim Tím cafe, Linh Quy Pháp Ấn.
-- **b.** Saigon -> Tân Minh junction -> QL55 -> Tà Pao -> Đa Mi -> Bảo Lộc -> Da Lat.
-- **c.** Saigon -> Phan Thiết -> QL28 -> Ma Lâm -> Gia Bắc -> Di Linh -> Da Lat. Eat all the crab you want on this one.
-- **d.** Saigon -> Phan Thiết -> QL28B -> Đại Ninh pass -> Bắc Bình -> Di Linh -> Da Lat. This route is in poor shape - leave it for 2026.
+- **a.** Sài Gòn -> Xuân Lộc -> Chứa Chan -> Mê Pư -> Tà Pao -> Đa Mi -> Bảo Lộc -> đi tiếp tuyến 1 lên Đà Lạt. Điểm rẽ tiện: Đức Mẹ Tà Pao, hồ Đa Mi, cafe Sim Tím, Linh Quy Pháp Ấn.
+- **b.** Sài Gòn -> ngã Tân Minh -> QL55 -> Tà Pao -> Đa Mi -> Bảo Lộc -> Đà Lạt.
+- **c.** Sài Gòn -> Phan Thiết -> QL28 -> Ma Lâm -> Gia Bắc -> Di Linh -> Đà Lạt. Tuyến này tha hồ ăn cua.
+- **d.** Sài Gòn -> Phan Thiết -> QL28B -> đèo Đại Ninh -> Bắc Bình -> Di Linh -> Đà Lạt. Tuyến này đường xấu - để đến năm 2026.
 
-## 5. Fuel to Spare
+## 5. Còn dư xăng
 
-Saigon -> Nha Trang -> QL27C -> Khánh Vĩnh -> Khánh Lê pass (Omega) -> Xóm Lèo -> Da Lat. Guaranteed beautiful.
+Sài Gòn -> Nha Trang -> QL27C -> Khánh Vĩnh -> đèo Khánh Lê (Omega) -> Xóm Lèo -> Đà Lạt. Chắc chắn đẹp.
 
-Or reach Phan Rang city and turn left onto QL27: Ninh Sơn -> Sông Pha -> D'ran -> Da Lat.
+Hoặc vào thành phố Phan Rang rồi rẽ trái vào QL27: Ninh Sơn -> Sông Pha -> D'ran -> Đà Lạt.
 
-## 6. The "Who Dares" Loop
+## 6. Vòng "ai dám"
 
-Saigon -> Bình Dương -> Đồng Xoài -> QL14 -> Gia Nghĩa -> Ban Mê Thuột -> QL27 -> Cư Kuin -> Lắk -> Đam Rông -> Phi Liêng -> Phi Tô -> Tà Nung pass -> Da Lat.
+Sài Gòn -> Bình Dương -> Đồng Xoài -> QL14 -> Gia Nghĩa -> Ban Mê Thuột -> QL27 -> Cư Kuin -> Lắk -> Đam Rông -> Phi Liêng -> Phi Tô -> đèo Tà Nung -> Đà Lạt.
 
-At the Phi Tô junction, do not go straight toward Lâm Hà - turn left up Phi Tô and you pop out right at the foot of Mê Linh cafe.
+Ở ngã Phi Tô đừng đi thẳng về Lâm Hà - rẽ trái lên Phi Tô là ra đúng chân cafe Mê Linh.
 
-At Gia Nghĩa you can turn onto QL28 over Quảng Khê pass, stop at Tà Đùng, then rejoin DT725 like route 2.
+Ở Gia Nghĩa có thể rẽ QL28 qua đèo Quảng Khê, ghé Tà Đùng, rồi nhập lại DT725 như tuyến 2.
 
-This is the season to climb to Da Lat.
+Đây là mùa để lên Đà Lạt.
 
-## Bảo Lộc Stops
+## Điểm dừng Bảo Lộc
 
-Routes 1 and 4a both pass through Bảo Lộc - easy to drop by:
+Tuyến 1 và 4a đều qua Bảo Lộc - dễ ghé:
 
-- Coffee: Nhà của Gạo, Photo Bike Coffee, Gọi Gió
-- Bún riêu O Lan - opposite Bảo Lộc church
-- Bánh mì nướng - in front of Vincom
-- Cổng trời (sky gate)
-- Bệnh viện 2 Lâm Đồng (road marker)
+- Cà phê: Nhà của Gạo, Photo Bike Coffee, Gọi Gió
+- Bún riêu O Lan - đối diện nhà thờ Bảo Lộc
+- Bánh mì nướng - trước Vincom
+- Cổng trời
+- Bệnh viện 2 Lâm Đồng (mốc đường)
 
-> **See also:** [Motorbike Touring](/Travel/Guides/Motorbike Touring) - bike prep and protective gear.
+> **Xem thêm:** [Đi phượt xe máy](/Travel/Guides/Motorbike Touring) - chuẩn bị xe và đồ bảo hộ.
