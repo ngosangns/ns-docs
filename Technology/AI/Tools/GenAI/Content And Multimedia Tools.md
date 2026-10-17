@@ -21,6 +21,7 @@ resource: https://github.com/izwi-ai/izwi
 - https://github.com/vorojar/Folio-OCR — Three-pane OCR workbench for books/documents based on GLM-OCR + Ollama; layout detection, batch processing, and Markdown/DOCX export.
 - https://github.com/rav4nn/youtube-rag-scraper — Scrape YouTube channels, extract transcripts, and build FAISS-based semantic search/RAG knowledge bases.
 - https://github.com/tonhowtf/omniget — Desktop downloader for 1000+ sites (YouTube, TikTok, Bilibili, Udemy) via yt-dlp; supports torrents and P2P transfers.
+- https://github.com/debpalash/VoiceStudio — VoiceStudio (formerly OmniVoice Studio, AGPL-3.0): local voice cloning, voice design, dubbing, and transcription app on the k2-fsa/OmniVoice model; compared with ElevenLabs and V-Clone in [Voice Cloning Comparison](/Technology/AI/Tools/Voice Cloning/Voice Cloning Comparison).
 - https://github.com/tronghieuit/valtec-tts — Ultra-lightweight Vietnamese TTS with multi-speaker and zero-shot voice cloning; 74.8M params, CPU-only, 4x realtime.
 - https://github.com/jianzongwu/DiffSensei — CVPR 2025 multi-modal LLM + diffusion model for customized black-and-white manga generation; character-aware panel synthesis.
 - https://huggingface.co/microsoft/trocr-large-handwritten — Transformer OCR model fine-tuned on IAM for handwritten single text-line recognition.

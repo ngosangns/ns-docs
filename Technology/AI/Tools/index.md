@@ -9,6 +9,7 @@
 - [Memory](Technology/AI/Tools/Memory/index.md)
 - [MLOps](Technology/AI/Tools/MLOps/index.md)
 - [Runtime](Technology/AI/Tools/Runtime/index.md)
+- [Voice Cloning](Technology/AI/Tools/Voice%20Cloning/index.md)
 
 # Concepts
 
