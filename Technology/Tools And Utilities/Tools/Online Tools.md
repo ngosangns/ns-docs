@@ -4,7 +4,7 @@ domain: online-tools
 type: resource
 title: Online Tools
 description: A curated collection of free web tools for image editing, diagrams, downloads, conversion, privacy, developer utilities and wallpapers.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-10-15T00:00:00.000Z"
 tags:
   - technology
   - online-tools
@@ -15,6 +15,7 @@ resource: https://saucenao.com/
 # Online Tools
 
 - **image tools**
+  - RoboHash, DiceBear, and Peek turn a string into the same avatar every time. Licenses, the DiceBear 10 and 11 split, and how to call each one are in [Deterministic Avatars](/Technology/Tools And Utilities/Tools/Deterministic Avatars).
   - [SauceNAO is a specialized reverse image search engine for finding the source of anime, manga and artwork images. It searches dozens of databases including pixiv, Danbooru, MangaDex, ArtStation, DeviantArt, Twitter and many other platforms. Users can upload an image or paste a URL to quickly identify the source, the artist or related content. An indispensable tool for anime fans, artists and anyone who needs to trace the origin of a piece of art.](https://saucenao.com/)
   - [Generated Photos Anonymizer is a free AI tool that protects your identity by generating photos that look like you from an uploaded selfie. It analyzes facial features such as skin tone, age, gender and hair length, then creates a synthetic face resembling you without revealing your real identity. Photos are processed in RAM and never stored on the server. Useful for anyone who wants to keep their privacy on social media or online profiles.](https://generated.photos/anonymizer#)
   - [PFPMaker is a free AI profile picture maker that helps users create professional and creative profile photos in seconds. You can upload a selfie and instantly remove or change the background, generate AI portraits, apply artistic styles and fine-tune every detail. The platform offers 27+ tools including passport photo creation, emoji PFPs and an AI photo editor. With more than 18 million users and 55 million images generated, it is an all-in-one solution for LinkedIn, social networks and messaging apps.](https://pfpmaker.com/)

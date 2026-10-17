@@ -3,14 +3,15 @@ area: travel
 domain: almaty
 type: guide
 title: Almaty
-description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
-timestamp: "2026-10-14T00:00:00.000Z"
+description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
+timestamp: "2026-10-17T00:00:00.000Z"
 tags:
   - travel
   - almaty
   - kazakhstan
   - taxi
   - train
+  - hiking
 ---
 
 # Almaty
@@ -137,6 +138,34 @@ Luật trẻ em trên tàu trong Kazakhstan, KTZ nhắc ngày 26 tháng 1 và ng
 
 Almaty có hai ga, Almaty-1 và Almaty-2. Vé ghi ga nào thì đến ga đó, rồi gọi Yandex Go tới đúng ga. Từ 15 tháng 7 năm 2026, thông báo trên bilet.railways.kz nói tạm dừng đón và trả khách ở Almaty-1 vì nâng cấp ga. Thông báo vẫn treo ngày 14 tháng 10 năm 2026 và không có ngày mở lại. Tàu chạy qua không đón khách: 007/008, 015/016 và 221/222. Tàu chỉ dừng kỹ thuật, cũng không đón khách: 077/078 Almaty-2–Mangystau, 301/302, 337/338 và 351/352. Tàu 077 có dừng Turkistan, nên với tàu đó ga lên là Almaty-2. Ngày 6 tháng 10 năm 2026 báo chí dẫn KTZ nói phần xây dựng nhắm xong trong quý IV năm 2026, và một số ke ga vẫn đóng. Bảng Tickets.kz cho ngày 11 tháng 10 năm 2026 vẫn ghi một số chuyến khác xuất phát ở Almaty-1, gồm tàu đi Aktobe và Atyrau. Hai nguồn chưa khớp. Nếu vé ghi Almaty-1, gọi 1433 hoặc mở lại bilet.railways.kz trước hôm đi. Đến sớm, đủ để đối chiếu ke ga trên bảng.
 
+## Hồ Almaty Lớn
+
+Hồ Almaty Lớn (Большое Алматинское озеро, thường viết BAO) nằm khoảng 2.511 m trong vườn Ile-Alatau, phía nam thành phố. Nước hồ cấp nước máy cho Almaty. Không bơi và không lội. Trang Kazakhstan Tourism, đối chiếu tháng 7 năm 2026, ghi nước từ 8 đến 10°C và bảo vệ canh việc này. Mang đúng hộ chiếu, không phải ảnh chụp. Hồ sát biên giới Kyrgyzstan, và bản photo đã bị trả. Cùng trang ghi khoảng 15 km theo đường chim bay, 45-60 phút ô tô. Ghim hồ trên app không có nghĩa xe vào tới bờ.
+
+Carousel tiếng Việt đưa vào ghi chú này không ghi tên tài khoản. Nó nói hai cách. Cách một: từ trung tâm bắt taxi khứ hồi khoảng 500.000 đồng, rồi từ cổng đi bộ 8 km đường bê tông, khoảng 7 tiếng cả đi về, hoặc đi tắt men ống nước, khó hơn và người viết không khuyên. Cách hai: xe buýt 28 tới bến Kokshoky (Кокшокы), vé khoảng 8.000 đồng, rồi thuê xe đạp điện khoảng 1,5-2 củ, hoặc đi bộ. Ảnh trên carousel là đồng cỏ xanh. Đó là mùa cỏ, không phải giữa tháng 10.
+
+Theo tỷ giá Ngân hàng Quốc gia ngày 17 tháng 10 năm 2026, 1.000 đồng bằng 17,46 tenge. 500.000 đồng là khoảng 8.700 KZT. 8.000 đồng là khoảng 140 KZT. Cùng bài viết 500k và 8k cho các khoản nhỏ hơn, nên 1,5-2 củ đọc là 1,5-2 triệu đồng, khoảng 26.000-35.000 KZT.
+
+Khoảng 8.700 KZT khứ hồi nằm cạnh mức một chiều từ khoảng 3.000 KZT của trang du lịch đó, và cạnh mức họ ghi cho khứ hồi kèm khoảng một tiếng chờ, từng 7.000-8.000 KZT. Một tài xế ngồi chờ suốt quãng đi bộ nhiều tiếng là một giá khác. Đặt hai chuyến Yandex. Lên thì ghim trạm kiểm, Kokshoky hoặc GES-2 trên 2GIS, không ghim hồ. Xuống thì gọi lại khi đã về chỗ có sóng. Nếu app đang tính nốt quãng xe không được chạy, đó là số km mình trả mà không được ngồi.
+
+Xe buýt 28 xuất phát gần giao Al-Farabi và Navoi, cạnh Công viên Tổng thống thứ nhất, và đi tới Kokshoky cùng điểm GES-2. Không có chuyến nào vào hồ. Trang du lịch nêu cả làng Kokshoky và điểm GES-2, và không ghi bến nào là bến cuối. Xem 2GIS đúng ngày đi. Vé trong bảng sân bay, xe buýt 92, là 120 KZT bằng thẻ Onay. 120 KZT khoảng 6.900 đồng theo tỷ giá trên, nên 8.000 đồng của carousel là cùng một vé thành phố, làm tròn lên so với mức 120 đang ghi ở bảng đó. Cùng hệ Onay. Đừng tính Apple Pay cho vé này.
+
+8 km và 7 tiếng là số của carousel cho "từ cổng". Cổng nào thì bài không nói. Trang du lịch nói nếu xe không được lên tiếp, tài xế thả ở trạm dưới gần GES-2, và từ đó đi bộ là việc của cả ngày. Đường tắt theo ống nước ngắn hơn, dốc hơn, có bậc thang kim loại, cắt vài khúc cua. Carousel nói khó hơn và không khuyên. Ở lại đường bê tông. Đừng men xuống mép nước.
+
+Ngày 30 tháng 4 năm 2026, kiểm lâm Murat Ryskul của chi nhánh Medeu nói trên họp báo. Kursiv và BES đưa tin: đoạn đường tới hồ cấm ô tô cá nhân, mô tô, xe điện đứng và xe đạp điện. Dốc đứng, khuất tầm nhìn, có đá. Họ ghi tai nạn của khách đi phương tiện điện thuê mà không có hướng dẫn viên, và việc chạy khỏi mặt đường làm hỏng nền. Kursiv kết là hồ vẫn mở cho người đi bộ, còn xe riêng và thiết bị thuê thì dừng. Carousel khuyên thuê xe đạp điện. Đó là thứ thông báo tháng 4 đang hạn chế.
+
+Tháng 7, cùng trang du lịch vẫn viết một số chỗ cho thuê xe đạp điện khoảng 30 đô la, tức khoảng 13.600 KZT theo tỷ giá đô la 452,12 KZT của ngày 17 tháng 10. Hãng xbike vẫn bán tour mô tô điện có hướng dẫn viên từ 30.000 KZT một người. Giá gồm mũ và giáp, không gồm xe tới điểm tập trung, và hướng dẫn viên xác nhận ngày đó có đi được trước khi lấy tiền. Xe trên trang đó là dòng Sur-Ron và Arctic Leopard, không phải xe đạp trợ lực. 1,5-2 củ nằm gần giá tour đó, không gần giá thuê 30 đô. Đừng lấy số của carousel làm một chiếc xe đạp chắc chắn được qua cổng. Cổng trong ngày nói khác thì nghe cổng. Không có câu rõ thì đi bộ.
+
+Liter ngày 1 tháng 1 năm 2026, dẫn thông báo phí của ile-alatau.kz, ghi người đi bộ 648,75 KZT một ngày sau khi chỉ số tính toán tháng lên 4.325 KZT. Ô tô con 1.297,5 KZT. Trang du lịch tháng 7 ghi khoảng 400-650 KZT, tiền mặt. Cùng một bậc, và bài Liter không tách một mức riêng cho hộ chiếu nước ngoài. Caravan ngày 4 tháng 9 năm 2026 dẫn trả lời của vườn: trả bằng app ngân hàng, máy POS hoặc mã QR. Tiền mặt thì qua máy Kassa24 hoặc QIWI và phải có biên lai. Câu trả lời đó không có khoản đưa tiền tay cho người đứng cổng. Máy trên núi hay lỗi. Mang tenge tờ nhỏ.
+
+BES cùng ngày 30 tháng 4 năm 2026 nói một đường đi bộ có tổ chức, dài 5,3 km, khoảng 665 triệu KZT, dự kiến xong trước tháng 12 năm 2026. Ngày 17 tháng 10 ghi chú này chưa thấy tin đường đó đã mở. Đừng đổi kế hoạch sang lối chưa xong.
+
+Tháng 9 đến đầu tháng 10 là lúc nước xanh nhất trên trang du lịch. Mùa đông đường hay đóng băng hoặc đóng hẳn. Giữa tháng 10 vẫn trong khoảng tháng 5 đến tháng 10 mà xbike ghi là mùa đi, nhưng lạnh hơn thành phố nhiều. Xem đường buổi sáng. Áo ấm, áo mưa, nước và đồ ăn. Trên cao gần như không có chỗ mua. Nhức đầu, chóng mặt hoặc buồn nôn thì đi xuống. Đó không phải cảm.
+
+Hồ thì hộ chiếu là đủ, theo trang du lịch. Đỉnh Almaty Lớn và đường lên đài thiên văn đi tiếp vào vùng biên, và có thể cần giấy làm trước. Đừng đi tiếp chỉ vì đường vẫn còn.
+
+[Lịch 21-23 tháng 9 năm 2026](/Travel/Trips/Almaty September 2026) không gồm hồ này. Ngày cuối của lịch đó là Medeu và Shymbulak.
+
 ## Kolsai và Kaindy
 
 Cả hai hồ đều nằm trong Vườn quốc gia Kolsai Kolderi, phía đông Almaty. Chỗ đứng chung là làng Saty, khoảng 300 km và 4-5 giờ từ thành phố. Từ làng đi ra, đó không phải cùng một con đường. Kolsai còn được viết là Kolsay.
@@ -174,6 +203,13 @@ Cả nam lẫn nữ đều hút nhiều, theo cách người đi này nhìn Kaza
 - [About Kazakhstan: Kolsai là ba hồ, Kaindy là một tuyến riêng](https://about-kazakhstan.com/kolsai-lakes/)
 - [About Kazakhstan: tuyến Kaindy dài 11 km từ Saty](https://about-kazakhstan.com/lake-kaindy-kazakhstan/)
 - [SilkOffRoad, tháng 10 năm 2026: đường Kaindy vẫn để tài xế địa phương](https://www.silkoffroadtours.com/blog/kolsai-lakes)
+- [Kazakhstan Tourism: hồ Almaty Lớn, đối chiếu tháng 7 năm 2026](https://www.kazakhstantourism.org/big-almaty-lake/)
+- [Kursiv: cấm ô tô cá nhân và xe đạp điện lên hồ, 30 tháng 4 năm 2026](https://kz.kursiv.media/2026-04-30/rmnm-na-ozero-bao-bolshe-ne-pustyat-na-lichnykh-avto-i-samokatakh/)
+- [BES: cùng lệnh cấm, và đường đi bộ 5,3 km dự kiến trước tháng 12 năm 2026](https://bes.media/news/dostup-k-bao-ogranichili-dlya-avtomobiley-i-elektrosamokatov/)
+- [xbike: tour mô tô điện có hướng dẫn, từ 30.000 KZT, xác nhận theo ngày](https://tours.xbike.kz/tours/bao/)
+- [Liter: phí người đi bộ 648,75 KZT từ 1 tháng 1 năm 2026](https://liter.kz/skolko-stoit-vezd-v-ile-alatauskii-natsionalnyi-park-1767246014/)
+- [Caravan: vườn trả lời cách thu phí, 4 tháng 9 năm 2026](https://www.caravan.kz/society/ile-alatauskij-nacpark-komu-mozhno-vezzhat-besplatno/)
+- [Ngân hàng Quốc gia Kazakhstan: 1.000 VND = 17,46 KZT ngày 17 tháng 10 năm 2026](https://nationalbank.kz/en/exchangerates/ezhednevnye-oficialnye-rynochnye-kursy-valyut)
 - [Enjoyers: phí vườn năm 2026 theo chỉ số tính toán tháng](https://enjoyers.org/en/blog/kaindy-lake-guide/)
 - [ASHU Travel: cửa khẩu Korday / Ak-Zhol, 2026](https://ashu-travel.com/en/news/kazakhstan-kyrgyzstan-korday-border-crossing/)
 - [Bộ Ngoại giao Kyrgyzstan: danh sách miễn visa, Việt Nam](https://mfa.gov.kg/en/Main-menu/Consular-services/Consular-visas-issues/izovye-i-bezvizovye-rezhimy)

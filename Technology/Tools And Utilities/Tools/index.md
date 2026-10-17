@@ -1,6 +1,7 @@
 # Concepts
 
 - [Developer Tools And Environments](Technology/Tools%20And%20Utilities/Tools/Developer%20Tools%20And%20Environments.md) - Local dev environment managers, benchmarks, debugging, monitoring and other software development tools.
+- [Deterministic Avatars](Technology/Tools%20And%20Utilities/Tools/Deterministic%20Avatars.md) - RoboHash, DiceBear, and Peek turn a string into a stable avatar. RoboHash composites licensed artwork over HTTP or Python, published DiceBear is 10.7 with 61 styles while 11 is still a release candidate, and Peek is a small MIT SVG face with an optional React 19 component.
 - [Diagram Tools](Technology/Tools%20And%20Utilities/Tools/Diagram%20Tools.md) - Crow's foot notation reference and a list of tools for drawing architecture and database diagrams.
 - [Git And GitHub](Technology/Tools%20And%20Utilities/Tools/Git%20And%20GitHub.md) - Git and GitHub tools, self-hosted servers, hooks and a guide to rewriting history with git filter-repo.
 - [Media Editors](Technology/Tools%20And%20Utilities/Tools/Media%20Editors.md) - Resources for sound effects, GIFs, photo editing and PDF processing with Stirling PDF.

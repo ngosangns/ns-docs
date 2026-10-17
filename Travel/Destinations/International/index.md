@@ -1,6 +1,6 @@
 # Concepts
 
-- [Almaty](Travel/Destinations/International/Almaty.md) - Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu
+- [Almaty](Travel/Destinations/International/Almaty.md) - Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu
 - [Hàn Quốc](Travel/Destinations/International/South%20Korea.md) - Ghi chú nhanh chuyến trong ngày ở Seoul - điểm tham quan, chuẩn bị, món ăn
 - [Ladakh](Travel/Destinations/International/Ladakh.md) - Cẩm nang thực địa cho chuyến Ladakh đầu tiên, gồm cách mặc nhiều lớp, 48 giờ đầu ở Leh, bệnh độ cao, đồ ăn đường, cách chọn Himalayan, và chạy đèo
 - [Ladakh tự chạy xe máy](Travel/Destinations/International/Ladakh%20Self-Guided%20Motorbike.md) - Chuyến tự chạy cuối tháng 9 năm 2023 từ Delhi tới Leh, với SIM, giấy phép, xe thuê, xăng, đồ ăn và chỗ ngủ mà cặp đôi đã trả

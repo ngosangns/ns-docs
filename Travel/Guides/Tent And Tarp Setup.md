@@ -4,7 +4,7 @@ domain: camping
 type: guide
 title: Dựng lều và bạt
 description: Cách dựng lều và căng bạt đúng khi cắm trại
-timestamp: "2026-10-13T00:00:00.000Z"
+timestamp: "2026-10-15T00:00:00.000Z"
 tags:
   - travel
   - camping
@@ -93,3 +93,5 @@ Dựng lều và căng bạt cho đúng là một kỹ năng cắm trại căn b
 - Dựng lều trước khi trời tối.
 - Kiểm tra lại toàn bộ sau khi đã dựng.
 - Thu lều cho đúng cách khi rời đi: gấp gọn và cất khô.
+
+Nút thuyền chài dùng để buộc đầu dây lều vào cọc được ghi ở [Nút dây và bảo hiểm khi leo](/Travel/Guides/Climbing Knots And Belay).

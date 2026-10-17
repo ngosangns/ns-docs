@@ -4,7 +4,7 @@ domain: ladakh
 type: guide
 title: Ladakh
 description: Cẩm nang thực địa cho chuyến Ladakh đầu tiên, gồm cách mặc nhiều lớp, 48 giờ đầu ở Leh, bệnh độ cao, đồ ăn đường, cách chọn Himalayan, và chạy đèo
-timestamp: "2026-10-13T00:00:00.000Z"
+timestamp: "2026-10-15T00:00:00.000Z"
 tags:
   - travel
   - ladakh
@@ -124,7 +124,7 @@ Các dấu nặng hơn cần chăm sóc khẩn và thường là xuống độ c
 - Lú lẫn, mất phối hợp, buồn ngủ bất thường, hoặc trạng thái tâm thần như say. Đó là các dấu thần kinh của phù não độ cao (HACE), mà CDC coi là AMS giai đoạn cuối. Hôn mê có thể đến trong vòng một ngày nếu bỏ qua.
 - Triệu chứng cứ nặng thêm ở cùng độ cao.
 
-Ghi chú này không liệt kê thuốc điều trị cho HAPE hay HACE. Xuống thấp và oxy quan trọng hơn một viên lấy từ túi thuốc. Ngoài thực địa, bước đầu là nói ra và đi xuống.
+Xuống thấp và oxy quan trọng hơn một viên lấy từ túi thuốc. Ngoài thực địa, bước đầu là nói ra và đi xuống. Liều dexamethasone mà CDC Yellow Book 2026 và Wilderness Medical Society 2024 công bố cho AMS và HACE nằm ở [Nút dây và bảo hiểm khi leo](/Travel/Guides/Climbing Knots And Belay). Đó không phải toa cho chuyến này, và thuốc đó không thay việc xuống.
 
 ### Máy đo SpO2 không quyết định điều gì
 
