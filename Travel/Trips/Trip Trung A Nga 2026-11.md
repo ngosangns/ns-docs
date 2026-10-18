@@ -43,6 +43,8 @@ Khung chuyến: bay VietJet từ Sài Gòn ra Hà Nội, Hà Nội đi Almaty, t
 - Quảng trường Đỏ, Nhà thờ Thánh Basil, Điện Kremlin và Kho vũ khí (Armoury, trả tiền mặt ở quầy vé), GUM, công viên Zaryadye, các ga metro đẹp, phố Arbat.
 - Ngủ Moscow.
 
+> **Đề xuất thay đổi 16–18/11:** phần săn cực quang được đề xuất chuyển từ Murmansk/Teriberka sang Kirovsk (Khibiny), xem mục "Thay đổi: săn cực quang chuyển từ Murmansk/Teriberka sang Kirovsk (Khibiny) 16–18/11" bên dưới. Phương án ở Kirovsk 3 đêm (15–18/11) chưa chốt. Kế hoạch Murmansk dưới đây vẫn giữ nguyên để đối chiếu.
+
 **T2 16/11 - Moscow ✈ Murmansk**
 
 - Bay Moscow → Murmansk, 4.053₽ (khoảng 6.000₽ nếu có 10kg).
@@ -101,3 +103,67 @@ Tỷ giá dùng: 1₽ ≈ 309đ, 1 KZT ≈ 57đ.
 - Pobeda đo hành lý xách tay rất gắt, nên mua gói 10kg lúc đặt vé, hoặc bay Aeroflot/Smartavia.
 - SCAT hay trễ chuyến vào mùa đông. Sân bay Moscow đôi khi đóng cửa vì drone, nên chừa thời gian dự phòng.
 - Ở Almaty, Yandex chạy được lúc sáng sớm. Bỏ qua cò taxi ở sân bay.
+
+## Thay đổi: săn cực quang chuyển từ Murmansk/Teriberka sang Kirovsk (Khibiny) 16–18/11
+
+Lý do: dữ liệu ERA5 10 năm (đêm 14–22/11, mây <50%/80 đêm):
+
+| Địa điểm     | Số đêm mây <50% (trên 80 đêm) |
+| ------------ | ----------------------------- |
+| Fairbanks    | 30                            |
+| Reykjavik    | 20                            |
+| Yellowknife  | 16                            |
+| Yakutsk      | 15                            |
+| Kirovsk      | 13                            |
+| Norilsk      | 12                            |
+| Tromsø       | 10                            |
+| Vorkuta      | 9                             |
+| Salekhard    | 7                             |
+| Murmansk     | 7                             |
+| Abisko       | 5                             |
+| Rovaniemi    | 5                             |
+| Arkhangelsk  | 4                             |
+| Teriberka    | 2                             |
+| Petrozavodsk | 1                             |
+
+Riêng Murmansk 16–18/11: chỉ 1/20 đêm quang (17/18/11/2023); nhiệt độ TB −5 đến −2°C. (ERA5 có xu hướng báo mây nhiều hơn thực tế; so sánh tương đối đáng tin hơn số tuyệt đối.)
+
+Dữ liệu nguồn (CSV nằm trên máy của trợ lý Trip Trung Á, không có trong repo): /workspace/murmansk_weather_16-18nov.csv, /workspace/aurora_clear_nights_nov.csv.
+
+## Đi lại
+
+- 16/11 Moscow → sân bay Khibiny KVK (Apatity), Aeroflot hằng ngày, giá từ ~2.971₽ (chưa check đúng ngày/10kg).
+- 18/11 KVK → St Petersburg, Rossiya có chuyến, từ ~3.785–6.475₽ (chưa check).
+- Sân bay → Kirovsk 34km: bus 130 ~250₽ (~1h) hoặc taxi từ 500₽.
+
+## Phòng Kirovsk 16–18/11
+
+Ostrovok, tổng 2 đêm, nguyên căn — không có hostel trên Ostrovok.
+
+- [Na Ulitse 50 Let Oktyabrya 33 Flat](https://ostrovok.ru/hotel/russia/kirovsk/mid13793058/na_ulitse_50_let_oktyabrya_33_flat/): 5.020₽ (~1,55tr; 4.518₽ nếu đăng nhập).
+- [Apartamentyi Na 50 Let Oktyabrya](https://ostrovok.ru/hotel/russia/kirovsk/mid10210883/apartamentyi_na_50_let_oktyabrya/): 6.000₽, 9.0 (35 review).
+- [Na Olimpiyskoy Flat](https://ostrovok.ru/hotel/russia/kirovsk/mid13350065/na_olimpiyskoy_flat/): 6.047₽.
+- Apatity rẻ nhất: [Baguette Apartments](https://ostrovok.ru/hotel/russia/apatity/mid11316157/baguette_apartments_on_gaidar_street/) 4.591₽ (xa Kirovsk 34km, không khuyến nghị).
+- Hostel rẻ hơn (101hotels, giá "từ", chưa check ngày): [Tochka Snega](https://101hotels.com/main/cities/kirovsk/hostel_tochka_snega.html) từ 900₽/đêm; Region 51 từ 900₽; Kirovsk.red từ 2.415₽.
+
+## Tour cực quang Kirovsk
+
+- [kirovsksevernoesiyanie.com](https://kirovsksevernoesiyanie.com/): 4.000₽, xuất phát 22:00, 1–3h; không thấy chỉ trả 1.000₽ xăng.
+- [Severe Land](https://severe-land.com/severnoe-siyanie-kirovsk): 5.000₽, 3–5h, đón khách sạn, chụp ảnh.
+- Liên hệ tiếng Nga (WhatsApp/Telegram). Điểm ngắm: hồ Imandra (thường ít mây hơn núi), cửa sông Vudyavrjok, Kukisvumchorr, Aikuaivenchorr, Eko-ostrovsky.
+
+## Reddit + forum Nga: thời điểm/địa điểm
+
+- Tốt nhất: cuối 9–đầu 10 hoặc cuối 2–3, gần trăng non, 4–5 đêm. Tháng 11 là tháng mây nhất.
+- Giờ: 22:00–02:00, ở ngoài ≥1–2h. Ưu tiên dự báo mây (yr.no, windy) hơn Kp; ở ~68°N Kp 2–3 là đủ. App SpaceWeatherLive.
+- Abisko được khen ít mây nhất (cần Schengen); Tromsø, Lapland tháng 11 không hơn. Teriberka bị chê bẫy du lịch đắt.
+- discoverynn.ru: tháng 11 chỉ ~1/6 đêm xem được; 3 đêm ≈42% thấy ít nhất 1 lần, 5 đêm ≈58%.
+- Trip report tháng 11: 22–26/11/2022 thấy 3/5 tối (awd 418162); 15–25/11/2021 không thấy 10 đêm; 11/2017 tour Murmansk thấy đêm đầu; cuối 11/2018 Kirovsk không thấy. → 2/4 chuyến thấy.
+- Lưu ý tháng 11: có thể chưa có tuyết; Bigwood năm ngoái mở 19/11; Snow Village mở ~27/12 (đóng); trăng 16–18/11 sáng 45–66%; mưa đóng băng trơn; nguy cơ tuyết lở ngoài đường mòn; trời tối hẳn ~18:00.
+- Phương án tăng cơ hội: ở Kirovsk 3 đêm 15–18/11 (Moscow chỉ còn quá cảnh tối 14 → sáng 15). Chưa chốt.
+
+## Câu hỏi phụ đã trả lời
+
+- Chơi Almaty trước: đắt hơn ~3–4tr (mất vé Scat 14/11 ~1,1tr; chiều về bị dồn sát VJ032).
+- St Petersburg/Moscow giữa 11: tuyết hên xui, −3 đến 3°C, mưa tuyết. SPb 1 ngày: Hermitage (19/11 thứ Năm mở), Savior on Spilled Blood, Nevsky, Isaac, Peter & Paul; trời tối ~16:30.
+- Phần Lan: cửa khẩu đường bộ với Nga đóng từ cuối 2023, không bay thẳng, cần Schengen. Vé ALA–HEL khứ hồi 14–21/11 rẻ nhất ~20,3tr (Qatar, chờ 26h) / 20,6tr (Turkish qua IST). Đi làm ở Phần Lan: cần job offer trước → Specialist permit / EU Blue Card, nộp qua Enter Finland, sinh trắc ở ĐSQ Hà Nội (migri.fi).
