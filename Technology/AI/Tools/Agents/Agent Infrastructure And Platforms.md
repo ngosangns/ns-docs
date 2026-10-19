@@ -15,6 +15,7 @@ resource: https://github.com/daytonaio/daytona
 # Agent Infrastructure And Platforms
 
 - https://github.com/daytonaio/daytona — Secure, elastic sandbox infrastructure for running AI-generated code and agent workflows with sub-90ms spin-up.
+- https://alfonsocampodonico.com/posts/building-your-own-sandboxes — Article (2026-10-18) on self-building agent/untrusted-code sandboxes: Firecracker and Cloud Hypervisor microVMs behind one API, each VMM in a rootless namespace jail, default-deny per-VM nftables network that blocks cloud metadata, and OCI images converted to one erofs per layer. No public repo. See [Building Your Own Sandboxes](/Technology/Security/Write Ups/Building Your Own Sandboxes).
 - https://github.com/getzep/zep — End-to-end context engineering platform; assembles relationship-aware agent context via Graph RAG with <200ms latency.
 - https://github.com/eclaire-labs/eclaire — Self-hosted, privacy-first AI assistant that organizes notes, docs, photos, bookmarks, and tasks locally.
 - https://github.com/lyogavin/airllm — Memory-optimized LLM inference library; runs 70B+ models on 4–8GB GPUs without quantization.
