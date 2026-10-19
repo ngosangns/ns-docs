@@ -57,6 +57,7 @@ tags:
 
 - **Definition**: Validates incoming data using `ValidatesRequests`
 - **Rules**: Alpha, Image, Date, Format, IP Address, URL, Numeric, Email, Size, Min/Max, Unique with database
+- **Fluent rule builders** (Laravel 13.36+): `Rule::requiredWithout('phone')`, `Rule::url()->protocols(['https'])` and others instead of strings. See [Laravel Validation Rule Builders](/Technology/Programming Languages/Tools/Laravel Validation Rule Builders)
 
 ### Soft Delete
 
