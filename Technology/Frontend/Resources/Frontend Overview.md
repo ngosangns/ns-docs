@@ -181,6 +181,7 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 ### UI Development Tools
 
 - **Storybook**: develop components in isolation
+- **Histoire**: Vite-native alternative for Vue and Svelte; see [Histoire](/Technology/Frontend/Tools/Histoire)
 
 ### HTML/Page Builders
 

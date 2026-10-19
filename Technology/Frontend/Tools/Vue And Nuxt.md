@@ -116,7 +116,7 @@ tags:
 
 ## Tools - Online Tools
 
-- **Histoire**: generate documentation
+- **Histoire**: generate documentation — Vite-native component story books for Vue 3 and Svelte; see [Histoire](/Technology/Frontend/Tools/Histoire)
 - **Vue Devtools**: available in the browser
 
 ## Design System For Mobile

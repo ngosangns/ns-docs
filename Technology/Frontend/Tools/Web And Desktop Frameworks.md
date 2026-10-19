@@ -18,6 +18,7 @@ resource: https://github.com/voidzero-dev/vite-plus
 - https://github.com/voidzero-dev/vite-plus — Unified toolchain and entry point for web development; manages runtime, package manager, and brings Vite, Vitest, Rolldown, tsdown, Oxlint, and Oxfmt together with a built-in task runner.
 - https://github.com/cloudflare/vinext — Reimplements the Next.js API surface on Vite; deployable to Cloudflare Workers and other platforms.
 - https://github.com/blackboardsh/electrobun — Cross-platform desktop app framework using TypeScript, Bun, and Zig with tiny ~12MB bundles.
+- https://github.com/egoist/mygo — MyGo: desktop apps in pure Go (no cgo), each window either a system webview page with a TypeScript client generated from Go, or native UI drawn on the GPU; MIT, v0.5.5, weeks old, Go 1.27+. See [MyGo](/Technology/Frontend/Tools/MyGo).
 - https://github.com/AkkalDhami/servercn — Backend component registry for Node.js & TypeScript; Shadcn-style CLI for scaffolding production-ready backend code.
 - https://github.com/carbon-design-system/carbon — IBM's open-source design system with React, Web Components, styles, icons, and themes.
 - https://github.com/Curbob/LobsterBoard — Self-hosted drag-and-drop dashboard builder with 60+ widgets, template gallery, and zero cloud dependencies.
