@@ -41,5 +41,6 @@ resource: https://github.com/marixdev/lstack
 - https://github.com/RFS-ADRENO/zca-js — Unofficial Zalo API client for JavaScript.
 - https://github.com/certimate-go/certimate — Open-source, self-hosted SSL certificate ACME tool (Go); automates the full issuance/deployment/renewal/monitoring cycle visually, with support for major cloud providers, Let's Encrypt, ZeroSSL, and Google Trust Services.
 - https://openship.io/ — Open-source deployment platform (self-hostable or cloud); push code and it handles builds, config, and deploys, with built-in Postgres/Redis/email/object storage services, multi-language support, and no vendor lock-in since apps run as standard Docker containers.
+- https://github.com/krishhgg/Insomnia — Insomnia (not the Kong API client): macOS menu bar app that keeps a MacBook awake with the lid closed for timed agent sessions; installs a NOPASSWD sudoers rule for four pmset commands. See [Insomnia Mac Keep Awake](/Technology/Tools And Utilities/Tools/Insomnia Mac Keep Awake).
 
 > **See also:** [Git And GitHub](/Technology/Tools And Utilities/Tools/Git And GitHub) · [Testing Tools](/Technology/Testing/Tools/Testing Tools) · [Terminal UI Tools](/Technology/Tools And Utilities/Tools/Tools Notes#terminal-ui-tools)
