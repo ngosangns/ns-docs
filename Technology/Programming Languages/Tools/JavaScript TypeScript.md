@@ -431,6 +431,7 @@ Source: https://viblo.asia/p/tai-sao-co-higher-order-component-hoc-khi-da-co-dec
 - Prettier (format)
 - TypeScript (typecheck)
 - Optional: `tsc --noEmit` in CI.
+- tsc-ts (Vercel Labs experiment): a TypeScript port of the TypeScript 7.0.2 Go compiler (tsgo), compiled to a native binary with scriptc. `npm install -D tsc-ts`, then `npx tsc-ts` with the same arguments as `tsc`. Also serves `tsc --api` over stdin/stdout and a `tsc-ts/api` programmatic API. Still 0.0.x (npm 0.0.5, 2026-10-20). See [Tsc Ts](/Technology/Programming Languages/Tools/Tsc Ts).
 - Fallow (static analysis / codebase intelligence): https://github.com/fallow-rs/fallow
   - A single Rust binary, needs no TS compiler/Node runtime; analyzes the repo as a dependency graph. Deterministic, with no AI in the analyzer.
   - Finds: unused files/exports/types/deps (Knip-style), circular deps, duplication (JS/TS + CSS, Vue/Svelte/Astro), complexity hotspots + a 0–100 health score, architecture boundary violations (presets `bulletproof`, `layered`, `hexagonal`, `feature-sliced`), design-system styling drift.
