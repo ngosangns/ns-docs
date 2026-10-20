@@ -4,7 +4,7 @@ domain: china
 type: guide
 title: Trung Quốc
 description: "Cẩm nang thực tế cho du lịch tự túc Trung Quốc - ứng dụng, thanh toán, SIM, đi lại, chi phí"
-timestamp: "2026-10-13T00:00:00.000Z"
+timestamp: "2026-10-21T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -23,6 +23,15 @@ Ghi chép từ cộng đồng cho du lịch tự túc Trung Quốc. Xem thêm: [
 - https://trip.com
 - https://www.ctrip.com
 - [Chuẩn bị gì cho chuyến Trung Quốc (YouTube Shorts)](https://www.youtube.com/shorts/vFgGzpmlvWE)
+- [NIA, Thông báo số 4/2026](https://en.nia.gov.cn/n147418/n147468/c217849/content.html) - miễn transit 240 giờ cho hộ chiếu phổ thông Việt Nam, hiệu lực 20/08/2026
+- [Quy chế quản lý Nhân dân tệ](https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%B8%81%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) - điều 3, cấm từ chối nhận RMB khi thanh toán nợ trong nước
+- [Wikipedia: Restrictions on geographic data in China](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China) - luật đo đạc hạn chế dữ liệu địa lý, hệ quả là đường phố và ảnh vệ tinh lệch nhau
+
+## Nhập cảnh
+
+Hộ chiếu phổ thông Việt Nam được miễn visa transit 240 giờ từ 20/08/2026, theo [Thông báo số 4/2026 của NIA](https://en.nia.gov.cn/n147418/n147468/c217849/content.html): vé nối đã xác nhận ngày và hành trình sang nước hoặc vùng lãnh thổ thứ ba, vào qua một trong 65 cửa khẩu (gồm Bắc Kinh và Thượng Hải), ở trong khu được phép không quá 240 giờ. Cùng thông báo, miễn 30 ngày khi vào Hải Nam và chỉ ở trong tỉnh này. Hai diện này cho phép du lịch, công tác, thăm thân; làm việc, học tập và đưa tin vẫn phải có visa đúng loại trước khi đến.
+
+Cách xin visa L30 tại TP.HCM nằm ở [Visa Trung Quốc](/Travel/Destinations/International/China Visa). Mục đích chuyến đi phải khớp loại visa là lời khuyên của cộng đồng, chưa đối chiếu được với văn bản xuất nhập cảnh.
 
 ## Tự túc và đi tour
 
@@ -33,10 +42,10 @@ Nếu biết một ít tiếng Trung, tự túc hơn hẳn - đi theo ý mình v
 - **Alipay:** cái gom tất cả - thanh toán, vé tàu, Didi. Gắn thẻ ghi nợ để kìm chi tiêu, hoặc xác minh tài khoản (dấu tích xanh) rồi nạp số dư.
 - **WeChat:** cần để liên hệ khách sạn - nhiều nơi đón sân bay miễn phí nếu bạn hỏi. Cũng là trục đăng nhập, nối các tài khoản trên app Trung Quốc (hoặc đăng nhập qua Alipay). Không có số điện thoại Trung Quốc thì WeChat là đường sống.
 - **12306:** app và trang chính thức để mua vé tàu. Đăng ký, xác minh danh tính đến dấu đã xác minh, rồi mua vé và chỉ đưa hộ chiếu ở cổng - nhân viên quét là vào.
-- **Amap / Baidu Map:** app bản đồ của địa phương.
+- **Amap / Baidu Map:** app bản đồ của địa phương. [Luật đo đạc](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China) giới hạn dữ liệu địa lý cho đơn vị được Quốc vụ viện cấp phép; một hệ quả đã ghi nhận là đường phố và ảnh vệ tinh không trùng nhau. Đừng lấy lớp vệ tinh của Google làm mốc khi đang đứng trên phố. Tên hệ tọa độ GCJ-02 và khoảng cách lệch cụ thể không có trong trang này.
 - **Apple Maps (iPhone):** trên mạng Trung Quốc nó tự chuyển sang dữ liệu bản đồ Trung Quốc - đầy đủ hơn Google Maps ở đó rất nhiều, dù có thể hiện những đường không có thật.
-- **Google Maps:** dữ liệu trong Trung Quốc kém.
-- **Google Translate:** công cụ dịch mặc định (chạy được trên SIM du lịch 4G).
+- **Google Maps:** dữ liệu trong Trung Quốc kém. Khách kể bản đồ đường của Google và Apple khớp ảnh vệ tinh của máy, nhưng lớp vệ tinh Google thì lệch mặt đất.
+- **Google Translate:** công cụ dịch mặc định (chạy được trên SIM du lịch 4G). Đặt ngôn ngữ đích là tiếng Trung giản thể, không phải phồn thể. Pleco là lựa chọn từ điển khác khi mất mạng.
 - **DiDi:** Grab của chỗ này.
 - **Meituan:** tìm quán và mua phiếu giảm giá.
 - **Dianping:** nhận xét quán ăn. Mẹo: **đừng** đăng ký tài khoản - có tài khoản thì kết quả bị cắt bớt. Cứ tìm món, lọc theo điểm và vị trí. App hiện chi phí ước tính mỗi người khá sát; chỗ từ 4.0 trở lên nói chung là an toàn.
@@ -45,8 +54,10 @@ Nếu biết một ít tiếng Trung, tự túc hơn hẳn - đi theo ý mình v
 
 ## Thanh toán và tiền
 
-- Ngày thường chỉ cần Alipay - coi như Momo/ZaloPay. Nhiều người đi 15 ngày không đụng đến tiền mặt.
-- Trả qua thẻ đã gắn thì mất phí khoảng 3% với giao dịch từ 200 RMB trở lên.
+- Ngày thường chỉ cần Alipay - coi như Momo/ZaloPay. Nhiều người đi 15 ngày không đụng đến tiền mặt. Người khác, nhất là ở Bắc Kinh, Thượng Hải, Hàng Châu, Ordos và Trùng Khánh, vẫn trả tiền mặt suôn sẻ, đôi khi nhanh hơn app.
+- Điều 3 [Quy chế quản lý Nhân dân tệ](https://zh.wikisource.org/wiki/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%BA%BA%E6%B0%91%E5%B8%81%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B) nói RMB là tiền pháp định và không đơn vị, không cá nhân nào được từ chối nhận khi thanh toán nợ trong nước. Trên thực tế khách vẫn gặp quầy không có tiền lẻ để thối tờ lớn, hoặc từ chối tiền mặt. Mang tờ nhỏ và đừng trông vào việc quầy buộc phải thối.
+- Trả qua thẻ quốc tế đã gắn vào Alipay thì cộng đồng báo phí khoảng 3% với giao dịch từ 200 RMB trở lên. Chưa mở được trang phí chính thức của Alipay hay WeChat Pay để đối chiếu con số này.
+- Gắn thẻ và xác minh hộ chiếu trên Alipay trước khi bay. Lời kể ở Quế Lâm: SMS xác nhận thẻ tín dụng gửi về số Việt Nam không tới, thẻ ghi nợ thì qua. MoMo có người dùng được cho mua sắm với phí thấp, nhưng xe đạp công cộng, metro và sạc dự phòng thuê vẫn đòi Alipay. Quét Alipay+ qua ZaloPay là mẹo của một người, không phải đường ổn định.
 - Mua RMB để nạp thì lúc được lúc không - tiền không sạch có thể khiến app bị khóa. Cách an toàn hơn: trả bằng thẻ cho gọn (chênh tỷ giá nhỏ), mua từ người bán có tiếng, hoặc dùng Binance P2P để được giá tốt hơn.
 - Xác minh tài khoản trước khi nạp; từng giao dịch có thể bị trần khoảng 500 RMB (chỉnh được).
 - WeChat Pay là thứ người địa phương dùng, nhưng người nước ngoài thiết lập khó hơn.
@@ -90,6 +101,10 @@ Chi phí lệch nhau rất nhiều, nhưng vài khoản chiếm phần lớn:
 
 ## Mẹo khác
 
+- **Tàu và điểm tham quan:** 12306 là đường chính thức và dùng được với hộ chiếu, như mục ứng dụng ở trên. Trip.com là đường dễ hơn nếu không quen 12306, và là nơi đặt vé điểm tham quan khi cổng không bán vé tại chỗ. Vé Tử Cấm Thành không bán trong ngày.
+- **Didi:** rẻ, nhưng điểm đón trên app thường không trùng ghim của bản đồ phương Tây. Đưa tài xế địa chỉ chữ Trung, như mẹo khách sạn ở trên.
 - **Mẹo vé nối chuyến ("skiplagging"):** đặt một hành trình nối rẻ hơn rồi bỏ chặng cuối đôi khi được, nhưng tùy hãng - đừng ký gửi hành lý và đừng mua khứ hồi nếu thử. Giá nối ở Trung Quốc thường chỉ rẻ khi giữ cùng một hãng.
 - **Tìm người dẫn hoặc người dịch tại chỗ:** qua lại các nhóm du học sinh Việt và người Việt sống ở Trung Quốc - thành viên thường dẫn tour hoặc đứng ra dịch. Các trang tour Trung Quốc viết cho khách nói tiếng Anh là một đường khác.
 - Với người lớn tuổi, hoặc một chuyến đi nhẹ hơn, Phượng Hoàng Cổ Trấn rẻ hơn và dễ đi hơn.
+- **Thuốc và đồ ăn mang theo:** một người trong cùng thảo luận nói mang thuốc say xe, hạ sốt, kháng sinh, thuốc cảm, thức ăn Việt và sữa bột trẻ em trong hành lý ký gửi thì "thoải mái". Đó là một câu trả lời, không phải quy định hải quan. Hạn mức hành lý cá nhân đổi theo cửa khẩu và theo mặt hàng, nên kiểm tra trước chuyến nếu mang sữa bột hoặc thuốc số lượng lớn.
+- **Tết Âm lịch:** phố và điểm tham quan đông bất thường. Nhiều người kể đường phố sạch, nhưng vẫn nên để hộ chiếu và điện thoại ngoài tầm với ở chỗ đông.
