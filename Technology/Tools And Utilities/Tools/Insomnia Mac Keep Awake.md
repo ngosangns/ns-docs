@@ -4,7 +4,7 @@ domain: utility-tools
 type: tool
 title: Insomnia Mac Keep Awake
 description: "Insomnia (krishhgg/Insomnia, MIT, Swift) is a macOS 26+ menu bar app, not the Kong Insomnia API client, that keeps a MacBook awake with the lid closed for a timed session (e.g. long AI coding-agent runs) via pmset disablesleep, with lid-close actions, battery/heat floors and a launchd recovery backstop. Source review found no telemetry; its main risk is a passwordless sudoers rule for four pmset commands usable by any process running as the user."
-timestamp: "2026-10-19T00:00:00.000Z"
+timestamp: "2026-10-22T00:00:00.000Z"
 tags:
   - technology
   - utility-tools
@@ -20,7 +20,7 @@ resource: https://github.com/krishhgg/Insomnia
 
 Snapshot taken on 2026-10-19:
 
-- **Popularity and activity:** about 1.6k stars, 113 forks, 53 open issues/PRs and 12 contributors.
+- **Popularity and activity:** about 1.6k stars, 113 forks, 53 open issues/PRs and 12 contributors on 2026-10-19. On 2026-10-22 the API showed 1,638 stars, 118 forks and 57 open issues/PRs.
 - **Code:** about 520 commits since 2026-09-02, roughly 16k lines of Swift in `Sources`, plus a large test suite.
 - **License:** MIT.
 - **Releases:**
@@ -78,6 +78,15 @@ Reviewed at commit `e242782` (2026-10-19): `Sources/`, `scripts/install.sh`, `ba
 - **Privacy:** logs (`~/Library/Logs/Insomnia/`, mode 0600) can contain SSIDs, process details and tmux targets. Check them before sharing.
 
 **Verdict:** this looks like a legitimate, unusually careful hobby or indie tool, not malware. The real trade-offs are the user-wide NOPASSWD `pmset` rule and physical heat risk when running with the lid closed. Built-in alternatives are `caffeinate` (no root needed; from general macOS knowledge, not verified here, it doesn't stop lid-close sleep without an external display) and running `sudo pmset -a disablesleep 1` yourself.
+
+## Update 2026-10-22
+
+Rechecked the GitHub API, recent merged commits and `SECURITY.md`. I did not re-read the whole source.
+
+- No new stable release. The only non-nightly tag is still `v0.1.0`; the newest nightly I saw was 2026-10-19, built from `e242782`, the same commit as the review above. `main` has moved on since then.
+- The commits after it are mostly small. They cover CI that runs the Swift tests on the maintainer's Mac mini in throwaway VMs, a Settings option for the default focused field, a Settings version display and release check, an early exit in the backstop when there is nothing to undo, macOS 27 wording fixes, and test fixes. One commit makes the release check refuse redirects and stop guessing where a higher version came from. That fits the "ephemeral `URLSession` that refuses redirects" described above.
+- `SECURITY.md` says plainly that this is experimental software with no security-response SLA. It repeats that the passwordless `pmset` grant is not exclusive to the app, and says the app is not sandboxed and log files can hold SSIDs and tmux target names. It sets file modes only and leaves any ACL as it is. Logs are mode 0600, capped at 1 MiB, and mirrored to the unified log with the body marked private.
+- The verdict above still stands for the reviewed commit. Commits after `e242782` were not reviewed, so check the diff before installing a newer nightly.
 
 ## Caveats
 
