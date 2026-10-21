@@ -218,6 +218,8 @@ Start a new session and ask something that triggers a skill:
 - **Code review automation**: Structured review process
 - **Long-term projects**: With maintainability requirements
 
+Its strict test-first workflow has a cost in agent loops; see [TDD With Coding Agents](/Technology/AI/Practices/TDD With Coding Agents) for the token, test-tampering and ATDD trade-offs.
+
 ---
 
 **References**:
