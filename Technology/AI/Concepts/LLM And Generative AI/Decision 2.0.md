@@ -73,4 +73,4 @@ Gains versus the matching Decision 1.0 model, as printed on each 2.0 card:
 
 Decision 1.0's own 54-task weighted accuracy (Lux 77.40 on 3,766 decisions) is a different suite. Do not line it up with these JevArena numbers.
 
-> **See also:** [LLM Overview](/Technology/AI/Concepts/LLM And Generative AI/LLM Overview)
+> **See also:** [LLM Overview](/Technology/AI/Concepts/LLM And Generative AI/LLM Overview) · [Clef](/Technology/AI/Concepts/LLM And Generative AI/Clef)

@@ -283,4 +283,4 @@ Các ghi chú sức khỏe này để lập một chuyến đi. Chúng không ph
 
 Ladakh là Himalaya cao, văn hóa Phật giáo Tây Tạng, và một khí hậu khắc nghiệt, không chỉ Nubra, Pangong, Khardung La, và Umling La. Đi chậm, chuẩn bị, nghe cơ thể, và đừng đi chỉ vì ảnh.
 
-> **Xem thêm:** [Ladakh tự chạy xe máy](/Travel/Destinations/International/Ladakh Self-Guided Motorbike) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist) · [Đi phượt xe máy](/Travel/Guides/Motorbike Touring)
+> **Xem thêm:** [Ladakh tự chạy xe máy](/Travel/Destinations/International/Ladakh Self-Guided Motorbike) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist) · [Đi phượt xe máy](/Travel/Guides/Motorbike Touring) · [Trekking Pangarchulla và Kuari Pass](/Travel/Destinations/International/Pangarchulla Kuari Pass Trek)
