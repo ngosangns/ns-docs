@@ -3,8 +3,8 @@ area: technology
 domain: frontend
 type: tool
 title: MyGo
-description: MyGo (egoist/mygo, MIT) builds desktop apps in pure Go without cgo. Each window shows either a web page in the system webview, with a TypeScript client generated from Go, or native UI drawn by MyGo on the GPU. It is a few weeks old (created 2026-09-26, v0.5.5) and needs Go 1.27+.
-timestamp: "2026-10-19T00:00:00.000Z"
+description: MyGo (egoist/mygo, MIT) builds desktop apps in pure Go without cgo. Each window shows either a web page in the system webview, with a TypeScript client generated from Go, or native UI drawn by MyGo on the GPU. The latest release is v0.6.2 and it needs Go 1.27+.
+timestamp: "2026-10-21T00:00:00.000Z"
 tags:
   - technology
   - frontend
@@ -20,15 +20,15 @@ resource: https://github.com/egoist/mygo
 - **A web page** in the webview the OS already has: WKWebView on macOS, WebKitGTK 4.1 on Linux (4.0 as fallback), WebView2 on Windows. No browser engine is bundled. The frontend calls Go through a TypeScript client generated from your Go code.
 - **Native UI**, written in Go with package `ui` and drawn by MyGo itself with Metal, Direct3D 11, OpenGL, or on the CPU. No HTML, JavaScript, or webview. Native-UI apps can also compile to WebAssembly and run in browsers on WebGL 2.
 
-Checked 2026-10-19 against the README, [docs](https://github.com/egoist/mygo/tree/main/docs), and GitHub.
+Checked 2026-10-21 against the README, [docs](https://github.com/egoist/mygo/tree/main/docs), architecture guide, release notes, and GitHub API.
 
 |                |                                                                                                                                                                                         |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Author         | GitHub user `egoist` (440 of the commits; next contributors have 13 or fewer)                                                                                                           |
 | License        | MIT                                                                                                                                                                                     |
 | Created        | 2026-09-26                                                                                                                                                                              |
-| Latest release | v0.5.5 (2026-10-16); npm `mygo-cli` 0.5.5. Three releases on 15–16 Oct alone                                                                                                            |
-| GitHub         | ~2.3k stars, 128 forks, 42 open issues, last push 2026-10-19                                                                                                                            |
+| Latest release | v0.6.2 (2026-10-21); v0.6.0 introduced substantial native-UI redraw and layout optimizations |
+| GitHub         | 2,548 stars, 136 forks, 89 open issues, last push 2026-10-21 |
 | Requirements   | Go 1.27+ (`go.mod`: `go 1.27.1`). Bun for web-frontend projects (dev tooling only). Linux: GTK 3 and WebKitGTK 4.1 for web pages. Windows 10: WebView2 Runtime (Windows 11 includes it) |
 
 ## Features
@@ -38,6 +38,7 @@ Checked 2026-10-19 against the README, [docs](https://github.com/egoist/mygo/tre
 - **Go UI toolkit.** Flexbox and grid layout, widgets, text editing with input methods, virtualized lists, SVG icons, animations, screen reader support, views testable without a window. Liquid Glass on every platform via the glass plugin. Web pages can sit inside native UI.
 - **Desktop APIs.** Windows, menus, tray, dialogs, notifications, global shortcuts, deep links, file associations, recent documents, system accent color and accessibility settings, file watching.
 - **Shipping.** App bundles and disk images, Windows installers, Debian packages and a Linux install script, code signing, notarization, signed auto-updates with delta updates and a Sparkle-style update window.
+- **Current release.** v0.6.0 made native UI redraw only changed regions, made layout incremental, skipped drawing windows out of sight, and added the `loading` plugin. v0.6.2 forwards the activation token to the first instance on Wayland, reports touchpad pinch as `InputZoom`, and improves CJK punctuation font selection on Linux. These are release-note claims, not independently benchmarked here.
 - **API feel.** The architecture doc says it is meant to feel like Electron (app lifecycle, windows, menus, dialogs) but Go-first: `http.Handler` for custom protocols, blocking calls safe from any goroutine.
 
 Footprint, per the [architecture doc](https://github.com/egoist/mygo/blob/main/docs/architecture.md) (author's measurements, not reproduced here): a hello-world web app is a ~7 MB binary, ~35 MB physical memory on macOS (~62 MB counting WKWebView's processes), idle at 0% CPU. A small native-UI window takes about 44 MB on macOS.
@@ -106,7 +107,7 @@ func (s *counter) view(c *ui.Context) {
 | ------------------ | ------------------------------------------------------ | ------------------------------------------ | --------------------------------------- | ----------------------------------- | --------------------------------- |
 | Language           | Go                                                     | Go                                         | Go                                      | Go                                  | JS / Rust                         |
 | UI                 | System webview **or** own GPU-drawn native UI, mixable | System webview                             | Own toolkit                             | Own immediate-mode toolkit          | Bundled Chromium / system webview |
-| Stars (2026-10-19) | ~2.3k                                                  | ~36.6k                                     | ~28.8k                                  | ~2.3k                               | —                                 |
+| Stars (rough snapshot) | ~2.5k                                                | ~36.6k                                  | ~28.8k                                 | ~2.3k                               | —                                 |
 | License            | MIT                                                    | MIT                                        | BSD-3-Clause                            | GitHub reports no single SPDX id    | —                                 |
 | Age                | Weeks                                                  | Years                                      | Years                                   | Years                               | Years                             |
 
@@ -118,6 +119,6 @@ Pros
 : One small Go binary, cross-compiles without a C toolchain, typed Go-to-TypeScript bridge, choice of web or native UI per window, packaging, signing, and auto-update built in. Very active development.
 
 Cons
-: Pre-1.0 and only weeks old, so the API is likely to change. Mostly a single maintainer. Needs a very recent Go (1.27+). Web pages depend on whichever system webview the user has. Footprint numbers are the author's own.
+:: Pre-1.0 and only weeks old, so the API is likely to change. Mostly a single maintainer. Needs a very recent Go (1.27+). Web pages depend on whichever system webview the user has. Footprint numbers are the author's own; native-UI performance improvements in v0.6.0 are described in release notes but not reproduced here.
 
 See also [Web And Desktop Frameworks](/Technology/Frontend/Tools/Web And Desktop Frameworks).
