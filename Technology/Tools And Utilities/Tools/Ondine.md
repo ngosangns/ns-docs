@@ -20,15 +20,15 @@ resource: https://github.com/wevm/ondine
 
 Đối chiếu ngày 23/10/2026. Đã đọc README, `LICENSE` trên `main`, `package.json`, `CHANGELOG.md`, `Cargo.toml`, `rust-toolchain.toml`, catalog trong `pnpm-workspace.yaml`, `crates/compiler/src/diagrams.rs`, `test/vectors/README.md`, phần đầu `test/oracles/README.md` và `test/oracles/Divergences.ts`, `bench/size.md` (không chép số), `.changeset/pele-license.md`, cây file trên API, GitHub API (repo, release, tag, issue, contributor, org), registry npm và file `LICENSE` trong tarball `ondine-0.0.3.tgz`. Trên ondine.sh đã đọc trang chủ, Why Ondine, FAQ, Benchmarks, Getting Started, Mounting, Theming, CLI, In-Browser Compilation và trang Flowchart. Không cài package, không chạy CLI, test hay benchmark, không mở SVG đã render.
 
-|                   |                                                                                                                                                    |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tổ chức           | GitHub org `wevm`, mô tả "TypeScript tools for the frontier", blog wevm.dev. Cùng org có `wevm/viem` và `wevm/wagmi`                               |
-| Commit            | `jxom` 124, `claude` 63 (hồ sơ GitHub: tên Claude, company `@anthropics`), `github-actions[bot]` 3                                                 |
-| Tạo repo          | 2026-10-18T05:51:05Z. Push cuối 2026-10-22T01:50:34Z                                                                                               |
-| GitHub            | 371 sao, 17 fork. `open_issues_count` là 3. Search API: 0 issue mở, 3 pull request mở                                                             |
-| npm               | `ondine` latest 0.0.3, đăng 2026-10-20T10:47:09Z. Package xuất hiện từ 2026-10-19T18:36:42Z                                                        |
-| Ngôn ngữ          | Rust theo GitHub API. `rust-toolchain.toml` kênh 1.97.0, target `wasm32-unknown-unknown`. Cargo edition 2024, `rust-version` 1.97.0              |
-| Trang             | https://ondine.sh                                                                                                                                  |
+|          |                                                                                                                                     |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Tổ chức  | GitHub org `wevm`, mô tả "TypeScript tools for the frontier", blog wevm.dev. Cùng org có `wevm/viem` và `wevm/wagmi`                |
+| Commit   | `jxom` 124, `claude` 63 (hồ sơ GitHub: tên Claude, company `@anthropics`), `github-actions[bot]` 3                                  |
+| Tạo repo | 2026-10-18T05:51:05Z. Push cuối 2026-10-22T01:50:34Z                                                                                |
+| GitHub   | 371 sao, 17 fork. `open_issues_count` là 3. Search API: 0 issue mở, 3 pull request mở                                               |
+| npm      | `ondine` latest 0.0.3, đăng 2026-10-20T10:47:09Z. Package xuất hiện từ 2026-10-19T18:36:42Z                                         |
+| Ngôn ngữ | Rust theo GitHub API. `rust-toolchain.toml` kênh 1.97.0, target `wasm32-unknown-unknown`. Cargo edition 2024, `rust-version` 1.97.0 |
+| Trang    | https://ondine.sh                                                                                                                   |
 
 ## Cách đưa vào trang
 
