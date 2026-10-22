@@ -72,4 +72,8 @@ The repo name, the description ("faster than you'd run from a volcano") and the 
 - The GitHub API reports the license as NOASSERTION, but `package.json` and the `LICENSE` text both say MIT.
 - Not checked: output quality on large or edge-case diagrams, accessibility of the SVG, the playground, and Obsidian's own integration.
 
+## Ondine
+
+[Ondine](/Technology/Tools And Utilities/Tools/Ondine) (`wevm/ondine`) also turns Mermaid text into SVG. Checked 2026-10-23 against Ondine's `LICENSE`, `diagrams.rs`, docs, `pnpm-workspace.yaml`, `test/vectors/README.md`, this README, and the Pele and Ondine GitHub APIs. Ondine's `LICENSE` on `main` says portions are ported from Pele under MIT, copyright 2026 kepano. That notice is not in the `LICENSE` inside the npm `ondine@0.0.3` tarball. Pele's README describes a synchronous TypeScript `render` with no runtime dependencies and `--pele-*` variables, targeting Mermaid 12.1.0 with its own layout. Ondine's docs describe a Rust compiler that emits SVG ahead of time, then a small mount runtime and `--ondine-*` variables. Ondine's benchmark page and pnpm catalog pin Pele 1.6.0 and Mermaid 12.1.0. Pele's latest GitHub release on this date is 1.8.0 (2026-10-20). Ondine's test vectors README says the vectors were copied from Pele at `458322a` (2026-10-17). I did not compare the SVG.
+
 See also [Diagram Tools](/Technology/Tools And Utilities/Tools/Diagram Tools).

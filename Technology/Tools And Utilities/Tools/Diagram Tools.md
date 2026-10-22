@@ -24,6 +24,7 @@ resource: https://github.com/excalidraw/excalidraw
 - https://github.com/mingrammer/diagrams
 - https://github.com/likec4/likec4 — Architecture-as-code modeling language and tooling to generate live C4-style diagrams from code.
 - https://github.com/obsidianmd/pele — Pele: small, synchronous Mermaid-to-SVG renderer with no runtime dependencies and CSS-variable theming, by kepano (Obsidian); MIT, 1.8.0 (2026-10-20), targets Mermaid 12.1.0 syntax with its own layout. See [Pele](/Technology/Tools And Utilities/Tools/Pele).
+- https://github.com/wevm/ondine — Ondine: Rust compiler that turns Mermaid into SVG ahead of time (CLI, Vite plugin for .mmd, remark, opt-in WASM). MIT on main (weth, LLC, portions ported from Pele), npm 0.0.3, created 2026-10-18, 371 stars on 2026-10-23. See [Ondine](/Technology/Tools And Utilities/Tools/Ondine).
 
 ### Database
 
