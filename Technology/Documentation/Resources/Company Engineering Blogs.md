@@ -73,4 +73,6 @@ Cột "Mô tả" là lời của bài chia sẻ, không phải mình đã đọc
 - **Mô tả "theo bài" có thể đã cũ.** Ví dụ feed Google Research hiện nghiêng về AI agent, còn "Discord gánh WebSocket bằng Rust/Elixir" là chủ đề cũ của blog. Đọc vài bài mới trước khi coi đó là trọng tâm.
 - **Theo dõi bằng RSS:** Netflix, Cloudflare, Lyft, Datadog, Meta, Spotify, Grab đều có feed mình đọc được.
 
-> **See also:** [Tech Blogs And Books](/Technology/Documentation/Resources/Tech Blogs And Books) · [Grab Tech Talk Takeaways](/Technology/Documentation/Resources/Grab Tech Talk Takeaways) · [Developer Resources](/Technology/Documentation/Resources/Developer Resources)
+Blog kỹ thuật của Anthropic cho người xây với Claude có note riêng: [claude.dev](/Technology/AI/Resources/Claude Dev).
+
+> **See also:** [claude.dev](/Technology/AI/Resources/Claude Dev) · [Tech Blogs And Books](/Technology/Documentation/Resources/Tech Blogs And Books) · [Grab Tech Talk Takeaways](/Technology/Documentation/Resources/Grab Tech Talk Takeaways) · [Developer Resources](/Technology/Documentation/Resources/Developer Resources)
