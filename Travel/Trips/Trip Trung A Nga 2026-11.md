@@ -130,6 +130,8 @@ Riêng Murmansk 16–18/11: chỉ 1/20 đêm quang (17/18/11/2023); nhiệt đ�
 
 Dữ liệu nguồn (CSV nằm trên máy của trợ lý Trip Trung Á, không có trong repo): /workspace/murmansk_weather_16-18nov.csv, /workspace/aurora_clear_nights_nov.csv.
 
+Xem thêm cách đọc Kp, mây và dự báo cực quang, gồm cả Rovaniemi: [Săn cực quang ở Lapland (Rovaniemi)](/Travel/Destinations/International/Lapland Aurora).
+
 ## Đi lại
 
 - 16/11 Moscow → sân bay Khibiny KVK (Apatity), Aeroflot hằng ngày, giá từ ~2.971₽ (chưa check đúng ngày/10kg).
