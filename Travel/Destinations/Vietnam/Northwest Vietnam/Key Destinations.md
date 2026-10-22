@@ -112,4 +112,4 @@ Sapa từ lâu là điểm hút nổi tiếng nhất Tây Bắc — "thị trấ
 - **Điện Biên:** vùng đất của lịch sử anh hùng — quần thể chiến trường Điện Biên Phủ (đồi A1, hầm De Castries), hồ Pá Khoang và đèo Pha Đin uy nghi.
 - **Mai Châu (Hòa Bình):** thung lũng thanh bình của nhà sàn người Thái và không khí trong, hợp cho một kỳ nghỉ ngắn để lấy lại sức.
 
-> **Xem thêm:** [Trekking Tà Xủa Hồ (Sapa)](/Travel/Destinations/Vietnam/Northwest Vietnam/Ta Xua Ho Trek) · [Tổng quan Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Overview)
+> **Xem thêm:** [Trekking Tà Xủa Hồ (Sapa)](/Travel/Destinations/Vietnam/Northwest Vietnam/Ta Xua Ho Trek) · [Trekking Kỳ Quan San qua Gà Trống và Núi Muối](/Travel/Destinations/Vietnam/Northwest Vietnam/Ky Quan San Trek) · [Tổng quan Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Overview)

@@ -82,4 +82,4 @@ Với người đi một mình, ba thứ nên có trước khi lên: tracklog đ
 - Tracklog chính thức (khác với tracklog đi lạc của bài chia sẻ).
 - Quy định cắm trại, phí vào cửa hay đăng ký ở khu Cầu Kính Rồng Mây: ba nguồn không nhắc.
 
-> **Xem thêm:** [Điểm đến chính Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Key Destinations) · [Tent And Tarp Setup](/Travel/Guides/Tent And Tarp Setup) · [Packing Checklist](/Travel/Guides/Packing Checklist) · [Tổng quan Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Overview)
+> **Xem thêm:** [Điểm đến chính Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Key Destinations) · [Tent And Tarp Setup](/Travel/Guides/Tent And Tarp Setup) · [Packing Checklist](/Travel/Guides/Packing Checklist) · [Trekking Kỳ Quan San (Bạch Mộc Lương Tử)](/Travel/Destinations/Vietnam/Northwest Vietnam/Ky Quan San Trek) · [Tổng quan Tây Bắc](/Travel/Destinations/Vietnam/Northwest Vietnam/Overview)
