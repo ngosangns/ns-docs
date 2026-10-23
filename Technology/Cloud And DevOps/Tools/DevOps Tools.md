@@ -93,6 +93,10 @@ resource: https://github.com/fluxcd/flux2
     - Integrating with existing monitoring and alerting systems
   - [GitHub](https://github.com/VersusControl/versus-incident) #incident-management #on-call #alerts #webhook
 
+## Error tracking
+
+- **Bugsink**: self-hosted error tracker that accepts Sentry SDK error events. PolyForm Shield 1.0.0 on the main tree. Notes from a read of the repo and docs on 23/10/2026, without installing or running it: [Bugsink](/Technology/Cloud And DevOps/Tools/Bugsink).
+
 ## Cloudflare Tools
 
 - **DockFlare**: Automate Cloudflare Tunnels with Docker Labels - [GitHub](https://github.com/ChrispyBacon-dev/DockFlare)

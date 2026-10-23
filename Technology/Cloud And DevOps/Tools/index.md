@@ -1,5 +1,6 @@
 # Concepts
 
+- [Bugsink](Technology/Cloud%20And%20DevOps/Tools/Bugsink.md) - Bugsink (bugsink/bugsink, Python/Django) là error tracker tự host nhận sự kiện lỗi từ Sentry SDK. Repo tạo 21/08/2024, bản 2.6.2 ngày 22/10/2026, 2145 sao lúc kiểm tra 23/10/2026. Giấy phép phần chính là PolyForm Shield 1.0.0, PolyForm tự mô tả không phải open source, và GitHub API ghi SPDX NOASSERTION.
 - [CI CD Tools](Technology/Cloud%20And%20DevOps/Tools/CI%20CD%20Tools.md) - Curated list of CI/CD tooling covering GitHub Actions, Woodpecker, GitLab CI/CD, Semgrep and SonarQube, plus a sample Node.js-on-EKS pipeline.
 - [Cloudflare cf CLI](Technology/Cloud%20And%20DevOps/Tools/Cloudflare%20Cf%20CLI.md) - Cloudflare's next-generation agentic CLI (cf) covering the entire Cloudflare API via OpenAPI-generated commands, cloudflare.config.ts TypeScript config, and Vite-first local development — the intended successor to Wrangler.
 - [DevOps Tools](Technology/Cloud%20And%20DevOps/Tools/DevOps%20Tools.md) - Curated DevOps tooling across GitOps and IaC, systemd and server management, self-hosted deployment platforms, incident management and Cloudflare helpers.
