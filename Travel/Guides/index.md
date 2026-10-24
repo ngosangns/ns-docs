@@ -1,7 +1,8 @@
 # Concepts
 
 - [Danh sách đồ mang theo](Travel/Guides/Packing%20Checklist.md) - Danh sách hành lý cho chuyến đi thường và cho leo núi, cắm trại
-- [Đu dây (abseiling)](Travel/Guides/Abseiling.md) - Abseiling, còn gọi rappelling, là tự tụt trên một sợi dây đứng yên. Neo, tay hãm và hai đầu dây là ba chỗ hay chết; nút dự phòng không thay tay đang giữ dây.
-- [Nút dây và bảo hiểm khi leo](Travel/Guides/Climbing%20Knots%20And%20Belay.md) - Prusik là nút ma sát hai chiều, thuyền chài là clove hitch, running belay vừa là móc điểm bảo vệ vừa là simul-climbing, dexamethasone không thay acetazolamide, và cụm nút thắt số 3 không có tên tiếng Anh cố định trong các nguồn đã đọc.
 - [Dựng lều và bạt](Travel/Guides/Tent%20And%20Tarp%20Setup.md) - Cách dựng lều và căng bạt đúng khi cắm trại
+- [Nút dây và bảo hiểm khi leo](Travel/Guides/Climbing%20Knots%20And%20Belay.md) - Prusik là nút ma sát hai chiều, thuyền chài là clove hitch, running belay vừa là móc điểm bảo vệ vừa là simul-climbing, dexamethasone không thay acetazolamide, và cụm nút thắt số 3 không có tên tiếng Anh cố định trong các nguồn đã đọc.
+- [Thẻ ngân hàng khi chi tiêu ở nước ngoài](Travel/Guides/Overseas%20Card%20Payments.md) - Chọn thẻ ngân hàng Việt Nam để quẹt ở nước ngoài: tỷ giá giữa các ngân hàng chênh ít, khác biệt chính là phí giao dịch ngoại tệ (khoảng 1-3%) và phí tối thiểu mỗi giao dịch (3.300-10.000đ) làm giao dịch nhỏ đắt lên tới 10-20%. Bảng so sánh thẻ theo lời kể cộng đồng tháng 10/2026 (VIB, Techcombank, Shinhan, OCB, ACB, LPBank, MB, Sacombank, SeABank, Standard Chartered), Wise/Revolut/Alipay, và hai con số đã đối chiếu trên trang chính thức hoặc trang tổng hợp.
 - [Đi phượt xe máy](Travel/Guides/Motorbike%20Touring.md) - Đi tự túc bằng xe máy (phượt) - chuẩn bị xe, đồ thiết yếu và những điều an toàn cơ bản
+- [Đu dây (abseiling)](Travel/Guides/Abseiling.md) - Abseiling, còn gọi rappelling, là tự tụt trên một sợi dây đứng yên. Neo, tay hãm và hai đầu dây là ba chỗ hay chết; nút dự phòng không thay tay đang giữ dây.
