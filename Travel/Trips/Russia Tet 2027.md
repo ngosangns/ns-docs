@@ -48,7 +48,7 @@ Bản này ghi lại một kế hoạch rủ nhóm đi Nga dịp Tết Âm 2027,
 
 ### Giai đoạn 2: Murmansk - Bắc Cực và cực quang (05/02 - 07/02)
 
-Xem thêm [Săn cực quang ở Lapland (Rovaniemi)](/Travel/Destinations/International/Lapland Aurora) về cách đọc Kp, mây và dự báo. Chuyến này săn ở Murmansk và Teriberka.
+Xem thêm [Săn cực quang ở Lapland (Rovaniemi)](/Travel/Destinations/International/Lapland Aurora) về cách đọc Kp, mây và dự báo. Chuyến này săn ở Murmansk và Teriberka. Điều kiện thời tiết, giá tour và đồ mùa đông ở Murmansk nằm ở [Murmansk](/Travel/Destinations/International/Murmansk).
 
 **Ngày 3 (05/02/2027, T6, 29 Tết): Moscow ✈ Murmansk ➔ Teriberka, ngủ tại Teriberka**
 

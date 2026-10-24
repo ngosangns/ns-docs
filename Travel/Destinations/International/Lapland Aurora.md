@@ -17,7 +17,7 @@ tags:
 
 Ghi lại FAQ Facebook của Long Nguyễn, hướng dẫn viên cực quang tại Lonely Lapland (Rovaniemi, Phần Lan), tiêu đề "[Lần đầu đi săn cực quang Lapland cần biết những gì?]". Bài không ghi ngày đăng. Giọng là đầu mùa, có thể là thu 2026. Phần dưới tách hai lớp: **đã đối chiếu** là câu tôi mở được trên trang NOAA SWPC, GFZ Potsdam, Viện Khí tượng Phần Lan (FMI), API bình minh của MET Norway, Wikipedia và Visit Rovaniemi ngày 23/10/2026; **chưa kiểm chứng** là lời của tác giả hoặc lời quảng cáo. Các URL `www.swpc.noaa.gov` khi mở đã chuyển sang `www.spaceweather.gov` cùng đường dẫn. `timeanddate.com` trả trang chặn "Just a moment", nên giờ mặt trời lấy từ MET Norway, không lấy từ timeanddate.
 
-Xem thêm: [Trip Trung Á Nga 2026-11](/Travel/Trips/Trip Trung A Nga 2026-11) · [Nga Tết 2027](/Travel/Trips/Russia Tet 2027). Hai chuyến đó săn ở phía Nga, không phải Rovaniemi. Cách đọc Kp, mây và dự báo thì dùng chung.
+Xem thêm: [Trip Trung Á Nga 2026-11](/Travel/Trips/Trip Trung A Nga 2026-11) · [Nga Tết 2027](/Travel/Trips/Russia Tet 2027) · [Murmansk](/Travel/Destinations/International/Murmansk). Hai chuyến đầu săn ở phía Nga, không phải Rovaniemi. Cách đọc Kp, mây và dự báo thì dùng chung. Note Murmansk có thêm thời tiết đầu tháng 2, giá tour và đồ mùa đông.
 
 ## Điểm chính
 

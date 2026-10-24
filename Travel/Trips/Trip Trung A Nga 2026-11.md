@@ -47,6 +47,8 @@ Khung chuyến: bay VietJet từ Sài Gòn ra Hà Nội, Hà Nội đi Almaty, t
 
 **T2 16/11 - Moscow ✈ Murmansk**
 
+Chuẩn bị cho chặng này — thời tiết, tour cực quang và đồ mùa đông — xem [Murmansk](/Travel/Destinations/International/Murmansk).
+
 - Bay Moscow → Murmansk, 4.053₽ (khoảng 6.000₽ nếu có 10kg).
 - Tối: tour săn cực quang, khoảng 5.000₽.
 - Ngủ hostel ở Murmansk: Zapolyarye (~920₽/đêm) hoặc Murman Loft (~1.060₽).
