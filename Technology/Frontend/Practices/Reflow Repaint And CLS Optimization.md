@@ -57,4 +57,4 @@ Source: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-c
 - **Reserve space**: placeholders for banners and ads (`min-height`)
 - **Avoid unexpected DOM insertion**: limit `setTimeout`, and use `opacity` and `transform` for animation
 
-> **See also:** [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview) · [37 Tips From A Senior Frontend Developer](/Technology/Frontend/Resources/37 Tips From A Senior Frontend Developer)
+> **See also:** [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview) · [37 Tips From A Senior Frontend Developer](/Technology/Frontend/Resources/37 Tips From A Senior Frontend Developer) · [JPEG XL](/Technology/Frontend/Concepts/JPEG XL)

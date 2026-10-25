@@ -200,4 +200,4 @@ resource: https://www.retroui.dev/
 - **Desktop**: Proton Native, Electron, React Native Windows
 - **AR/VR**: React 360, Viro React
 
-> **See also:** [Vue And Nuxt](/Technology/Frontend/Tools/Vue And Nuxt) · [CSS Tools](/Technology/Frontend/Tools/CSS Tools) · [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview)
+> **See also:** [Text Editor React](/Technology/Frontend/Tools/Text Editor React) · [Vue And Nuxt](/Technology/Frontend/Tools/Vue And Nuxt) · [CSS Tools](/Technology/Frontend/Tools/CSS Tools) · [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview)

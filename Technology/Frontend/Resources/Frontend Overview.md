@@ -171,7 +171,7 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 
 - **Charts**: Charts.css, D3.js, Chart.js, Ant Design Charts
 - **Fonts**: Bunny Fonts, Google Fonts, Monaspace
-- **Text Editor**: Slate, Froala, MDXEditor, Summernote, TinyMCE, Lexical, Quill, **Tiptap** - a rich text editor based on ProseMirror, flexible and extensible - [GitHub](https://github.com/ueberdosis/tiptap), **Milkdown** - a plugin-based WYSIWYG markdown framework - [GitHub](https://github.com/Milkdown/milkdown) #markdown #WYSIWYG, Monaco Editor
+- **Text Editor**: Slate, Froala, MDXEditor, Summernote, TinyMCE, Lexical, Quill, **Tiptap** - a rich text editor based on ProseMirror, flexible and extensible - [GitHub](https://github.com/ueberdosis/tiptap), **Milkdown** - a plugin-based WYSIWYG markdown framework - [GitHub](https://github.com/Milkdown/milkdown) #markdown #WYSIWYG, Monaco Editor. See [Text Editor React](/Technology/Frontend/Tools/Text Editor React) for a Word-like TipTap build.
 - **Math Editor**: MathLive
 - **Map**: Tiny World Map, Leaflet
 - **File Manager**: elFinder
@@ -209,7 +209,7 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 
 ### Utilities
 
-- **Hotkeys**: Hotkeys.js
+- **Hotkeys**: Hotkeys.js, [TanStack Hotkeys](/Technology/Frontend/Tools/TanStack Hotkeys)
 - **HTMX**: extends HTML (AJAX, CSS Transitions, WebSockets, SSE). Gives access to powerful HTML features to build dynamic web apps without complex JavaScript. Supports HTTP requests such as GET, POST, PUT, DELETE directly from HTML attributes - [GitHub](https://github.com/bigskysoftware/htmx) #html #ajax #websockets
 - **Date**: Date-fns
 - **Scroll**: Body-scroll-lock-upgrade, fullPage.js
