@@ -197,16 +197,16 @@ A plain Go map does not allow concurrent writes. Those writes are a data race, a
 
 Ask who owns the state before picking a primitive.
 
-| Tool | Use it when |
-| --- | --- |
-| Less shared mutable state | Several goroutines would otherwise write the same values |
-| `sync.Mutex` | A shared value, or several fields that change together |
-| `sync.RWMutex` | Many readers, few writers, and the read is not a check-then-act |
-| `atomic` | One integer, flag, or sequence |
-| Channel to an owner | Operations on that state must be serialized as messages |
-| `sync.Once` | Initialization that must run one time |
-| `sync.WaitGroup` | Waiting until a set of goroutines finishes |
-| `context.Context` | Cancel and deadline across goroutines |
+| Tool                      | Use it when                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| Less shared mutable state | Several goroutines would otherwise write the same values        |
+| `sync.Mutex`              | A shared value, or several fields that change together          |
+| `sync.RWMutex`            | Many readers, few writers, and the read is not a check-then-act |
+| `atomic`                  | One integer, flag, or sequence                                  |
+| Channel to an owner       | Operations on that state must be serialized as messages         |
+| `sync.Once`               | Initialization that must run one time                           |
+| `sync.WaitGroup`          | Waiting until a set of goroutines finishes                      |
+| `context.Context`         | Cancel and deadline across goroutines                           |
 
 `time.Sleep` is not one of these. This does not wait for the goroutine. It hopes the goroutine finishes inside one second:
 
@@ -229,4 +229,4 @@ When goroutines share state:
 
 `go test -race ./...` answers the data-race part for the paths the tests run. It does not design the ownership.
 
-> **See also:** [Concepts Notes](/Technology/Programming Languages/Concepts/Concepts Notes) · [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)
+> **See also:** [JVM Anatomy](/Technology/Programming Languages/Concepts/JVM Anatomy) · [Concepts Notes](/Technology/Programming Languages/Concepts/Concepts Notes) · [Scalable Golang Course Notes](/Technology/Programming Languages/Concepts/Scalable Golang Course Notes)

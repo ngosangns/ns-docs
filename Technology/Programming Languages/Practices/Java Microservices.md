@@ -18,4 +18,4 @@ tags:
 
 - MicroProfile: an API library that provides tools for building microservices.
 
-> **See also:** [Java Spring](/Technology/Programming Languages/Tools/Java Spring)
+> **See also:** [JVM Anatomy](/Technology/Programming Languages/Concepts/JVM Anatomy) · [Java Spring](/Technology/Programming Languages/Tools/Java Spring)
