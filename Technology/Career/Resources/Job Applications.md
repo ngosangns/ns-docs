@@ -71,6 +71,7 @@ tags:
 
 ## Related
 
+- [Job Search After A Layoff](/Technology/Career/Practices/Job Search After A Layoff)
 - [IT Job Interview Notes](/Technology/Career/Practices/IT Job Interview Notes)
 
-> **See also:** [Salary Negotiation](/Technology/Career/Resources/Salary Negotiation) · [IT Job Interview Notes](/Technology/Career/Practices/IT Job Interview Notes)
+> **See also:** [Job Search After A Layoff](/Technology/Career/Practices/Job Search After A Layoff) · [Salary Negotiation](/Technology/Career/Resources/Salary Negotiation) · [IT Job Interview Notes](/Technology/Career/Practices/IT Job Interview Notes)
