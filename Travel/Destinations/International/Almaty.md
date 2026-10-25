@@ -3,7 +3,7 @@ area: travel
 domain: almaty
 type: guide
 title: Almaty
-description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
+description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, Medeu và Shymbulak bằng xe buýt 12 rồi cáp treo, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
 timestamp: "2026-10-17T00:00:00.000Z"
 tags:
   - travel
@@ -28,13 +28,13 @@ Một kế hoạch 14-22/11/2026, Hà Nội–Almaty bằng VietJet rồi vòng 
 
 ## Nên cài gì
 
-| Ứng dụng | Vai trò |
-| --- | --- |
-| Yandex Go | Mặc định. Giá hiện trước, tên tài xế, biển số, tiền mặt hoặc thẻ. Giao diện tiếng Anh. |
-| inDrive | Dự phòng, và là app nơi bạn đưa một giá rồi tài xế nhận hoặc trả giá. Chữ trên cửa hàng là inDrive. |
-| 2GIS | Bản đồ. Tạo lộ trình, mở biểu tượng taxi, so các dịch vụ, rồi chốt đơn trong app taxi. |
-| Green SM | Xe điện VinFast. Tìm trên cửa hàng chữ Green SM. Mục Xanh SM của Việt Nam là cùng một công ty, và lúc ra mắt ở Kazakhstan hãng bảo khách đặt trong app Green SM. |
-| Uber | App khách khu vực từ việc gộp với Yandex, cùng một nhóm tài xế. Hãy cài Yandex Go. Thói quen dùng Uber toàn cầu không thay được nó. |
+| Ứng dụng  | Vai trò                                                                                                                                                          |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Yandex Go | Mặc định. Giá hiện trước, tên tài xế, biển số, tiền mặt hoặc thẻ. Giao diện tiếng Anh.                                                                           |
+| inDrive   | Dự phòng, và là app nơi bạn đưa một giá rồi tài xế nhận hoặc trả giá. Chữ trên cửa hàng là inDrive.                                                              |
+| 2GIS      | Bản đồ. Tạo lộ trình, mở biểu tượng taxi, so các dịch vụ, rồi chốt đơn trong app taxi.                                                                           |
+| Green SM  | Xe điện VinFast. Tìm trên cửa hàng chữ Green SM. Mục Xanh SM của Việt Nam là cùng một công ty, và lúc ra mắt ở Kazakhstan hãng bảo khách đặt trong app Green SM. |
+| Uber      | App khách khu vực từ việc gộp với Yandex, cùng một nhóm tài xế. Hãy cài Yandex Go. Thói quen dùng Uber toàn cầu không thay được nó.                              |
 
 Cả Yandex Go và inDrive đều cần một mã SMS, và Yandex Go cần dữ liệu di động thì mới chịu báo giá chuyến đi. Cách làm được trên chuyến này: mua SIM vật lý ở sân bay, rồi đăng ký Yandex bằng số đó. Xem mục Đến nơi bên dưới. Air Traveler Club, khi sửa ghi chú sân bay ngày 10 tháng 10 năm 2026, nói cả thẻ và tiền mặt đều dùng được cho chuyến Yandex ở Almaty, và các nguồn đã đăng vẫn chưa xác nhận một thẻ nước ngoài sẽ qua được lúc đăng ký.
 
@@ -96,13 +96,13 @@ Khách quốc tế đến dùng Terminal 2. Air Traveler Club gắn mốc tách 
 
 Bản chụp ngày 10 tháng 10 năm 2026 của Air Traveler Club cho đoạn từ sân bay vào trung tâm, khoảng 15 km và 25–45 phút, dẫn các trang giá Almaty của Yandex và trang đi lại của sân bay:
 
-| Lựa chọn | Giá (KZT) | Ghi chú |
-| --- | --- | --- |
-| Yandex Go Economy | 2.500–4.500 | Giá chốt trong app. Thẻ hoặc tiền mặt. |
-| Yandex Go Comfort | 3.500–6.000 | Chồng Economy ở khoảng 3.500–4.500. |
-| Quầy taxi chính thức | khoảng 9.000 | Giá cố định, trả tại quầy. |
-| Tài xế tự lại gần | 8.000–18.000 | Không đồng hồ. Tiền mặt. Giá do họ báo. |
-| Xe buýt 92 | 120 | Thẻ Onay. Khoảng 06:00–22:00. ATC nói giá trước đó là 150 KZT, không có ngày của lần đổi. |
+| Lựa chọn             | Giá (KZT)    | Ghi chú                                                                                   |
+| -------------------- | ------------ | ----------------------------------------------------------------------------------------- |
+| Yandex Go Economy    | 2.500–4.500  | Giá chốt trong app. Thẻ hoặc tiền mặt.                                                    |
+| Yandex Go Comfort    | 3.500–6.000  | Chồng Economy ở khoảng 3.500–4.500.                                                       |
+| Quầy taxi chính thức | khoảng 9.000 | Giá cố định, trả tại quầy.                                                                |
+| Tài xế tự lại gần    | 8.000–18.000 | Không đồng hồ. Tiền mặt. Giá do họ báo.                                                   |
+| Xe buýt 92           | 120          | Thẻ Onay. Khoảng 06:00–22:00. ATC nói giá trước đó là 150 KZT, không có ngày của lần đổi. |
 
 Cùng ghi chú nói giá tăng nặng nhất khoảng từ 23:00 đến 06:00, xe đông các ngày thường từ 08:00–10:00 và 17:00–20:00 có thể làm thời gian đi tăng gấp đôi, và xe buýt 92 là mức sàn ban ngày nếu hành lý là thứ bạn mang được. Ghi chú nêu xe buýt đêm số 3 sau 22:00. Những chi tiết xe buýt đó là cách trang du lịch đọc trang của sân bay, không phải một lịch chạy được kiểm lại ở đây. Đọc giá Yandex đang hiện trước khi nhận con số của bất kỳ ai.
 
@@ -168,6 +168,29 @@ Hồ thì hộ chiếu là đủ, theo trang du lịch. Đỉnh Almaty Lớn và
 
 [Lịch 21-23 tháng 9 năm 2026](/Travel/Trips/Almaty September 2026) không gồm hồ này. Ngày cuối của lịch đó là Medeu và Shymbulak.
 
+## Medeu và Shymbulak
+
+Cách tiết kiệm được kể lại: bắt xe buýt 12 tới Medeu, rồi mua vé cáp treo lên Shymbulak, khoảng 300k một người khứ hồi, tiện và rẻ. Con số đó đọc là 300.000 đồng, tức khoảng 5.200 KZT theo tỷ giá ngày 17 tháng 10.
+
+Xe buýt 12 xuất phát ở bến đối diện khách sạn Kazakhstan trên đại lộ Dostyk và chạy thẳng lên Medeu (real-kz). Ga cáp treo nằm cách sân băng khoảng 500 m xuống dốc, và bến dừng cho ga tên là Gondola Road, áp chót tuyến. Vé thành phố là 120 KZT bằng thẻ Onay, cùng mức với xe 92 ở bảng sân bay, và không trả Apple Pay trên xe. Thẻ Onay bán ở sạp báo và văn phòng Onay, không phải chỗ nào cũng có; mang tiền mặt.
+
+Cáp treo có ba đoạn: Medeu–Shymbulak, khoảng 20 phút, rồi Combi-1 và Combi-2. Bảng giá chính thức đọc ngày 25 tháng 10 năm 2026, người lớn:
+
+| Vé                    | Khứ hồi  |
+| --------------------- | -------- |
+| Shymbulak Ticket      | 12.000 ₸ |
+| Shymbulak Ticket 360° | 14.000 ₸ |
+| Combi-1 – Combi-2     | 7.000 ₸  |
+| KKD-4                 | 6.000 ₸  |
+
+Shymbulak Ticket một chiều là 7.000 ₸. Trẻ 6–14 tuổi trả 2.000–5.500 ₸ tùy vé.
+
+12.000 ₸ khoảng 687.000 đồng, gần gấp đôi con số 300k. Mức 300k nằm gần Combi-1 – Combi-2 (7.000 ₸, khoảng 400.000 đồng) hoặc KKD-4 (6.000 ₸, khoảng 344.000 đồng) hơn là vé Shymbulak Ticket. Đặt online được giảm nhẹ, và bảng giá của real-kz đã cũ: quản trị trang trả lời ngày 19 tháng 10 năm 2026 rằng giá trên trang chính thức mới đúng. Đọc bảng ở quầy trước khi trả tiền.
+
+Ngày 25 tháng 10 năm 2026, trang chính thức treo thông báo cáp treo đóng bảo trì định kỳ từ 19 tháng 10 đến 1 tháng 11. Lịch 14–22/11 nằm sau mốc đó, nhưng kiểm lại trước ngày đi, vì real-kz ghi việc đóng bảo trì vào mùa xuân và mùa thu hằng năm.
+
+Không đi cáp treo thì còn eco-bus 18 chỗ Medeu–Shymbulak 500 ₸ một chiều, chạy mỗi 30 phút từ 9:00 đến 19:30, và GreenRide 3.000 ₸ một chiều cho cả xe bốn chỗ. Đi bộ hết khoảng 7 km đường nhựa có vỉa hè, hoặc 4 km nếu lên bậc thang của đập. Xe riêng không được lên Shymbulak.
+
 ## Kolsai và Kaindy
 
 Cả hai hồ đều nằm trong Vườn quốc gia Kolsai Kolderi, phía đông Almaty. Chỗ đứng chung là làng Saty, khoảng 300 km và 4-5 giờ từ thành phố. Từ làng đi ra, đó không phải cùng một con đường. Kolsai còn được viết là Kolsay.
@@ -224,3 +247,7 @@ Cả nam lẫn nữ đều hút nhiều, theo cách người đi này nhìn Kaza
 - [Tengrinews: Almaty-1 nhắm xong quý IV/2026, một số ke ga vẫn đóng, 6 tháng 10 năm 2026](https://tengrinews.kz/my-country/vokzal-almatyi-1-zakonchat-rekonstruktsiyu-chto-obeschayut-609932/)
 - [Kazakhstan Tourism: Almaty–Turkistan, giữa năm 2026](https://www.kazakhstantourism.org/getting-around-kazakhstan/)
 - [Đặt vé KTZ](https://bilet.railways.kz/)
+- [Shymbulak: bảng giá người đi bộ và thông báo đóng bảo trì, đọc 25 tháng 10 năm 2026](https://shymbulak.com/en/info/tariffs)
+- [real-kz: bốn cách tới Shymbulak, xe buýt 12, ba đoạn cáp treo, eco-bus](https://real-kz.com/page.php?page_id=3888&article_id=368)
+- [Almaty Metro: vé Onay 120 tenge năm 2026](https://almatymetro.com/en/tickets-and-fares/)
+- [Why Should I Visit: mua và nạp thẻ Onay ở sạp báo, trả tiền mặt](https://www.whyshouldivisit.com/buying-and-filling-an-onay-bus-card-in-almaty/)
