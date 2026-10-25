@@ -259,4 +259,4 @@ Design patterns are proven solutions to common problems in software design.
 - Split utils into a submodule: use Git Submodule to manage shared libraries and utility modules as separate projects, which makes code reuse and version management easier.
   - Reference: https://topdev.vn/blog/git-submodules-va-ung-dung-trong-viec-chia-se-tai-nguyen-dung-chung/#:~:text=Git%20Submodule%20l%C3%A0%20m%E1%BB%99t%20t%C3%ADnh,kho%20l%C6%B0u%20tr%E1%BB%AF%20Git%20kh%C3%A1c.
 
-> **See also:** [Clean Code Notes](/Technology/System Design/Concepts/Clean Code Notes) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Development Documentation](/Technology/System Design/Tools/Development Documentation)
+> **See also:** [Modular Monolith Vs Microservices](/Technology/System Design/Concepts/Modular Monolith Vs Microservices) · [Clean Code Notes](/Technology/System Design/Concepts/Clean Code Notes) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Development Documentation](/Technology/System Design/Tools/Development Documentation)

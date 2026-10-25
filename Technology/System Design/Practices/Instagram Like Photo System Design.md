@@ -208,4 +208,4 @@ resource: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-
 **Conclusion:**
 The article gives a good overview of designing a photo-sharing system, especially strong on newsfeed strategy and caching. It suits beginners learning system design, but needs more detail on other aspects to reach a production-ready design.
 
-> **See also:** [YouTube Architecture](/Technology/System Design/Practices/YouTube Architecture) · [Search Engine](/Technology/System Design/Practices/Search Engine) · [Top K Problem Heavy Hitters](/Technology/System Design/Practices/Top K Problem Heavy Hitters)
+> **See also:** [Scaling A File Storage Backend](/Technology/System Design/Practices/Scaling A File Storage Backend) · [YouTube Architecture](/Technology/System Design/Practices/YouTube Architecture) · [Search Engine](/Technology/System Design/Practices/Search Engine) · [Top K Problem Heavy Hitters](/Technology/System Design/Practices/Top K Problem Heavy Hitters)
