@@ -50,4 +50,4 @@ An "AI-native" CAD: parametric models are written in JavaScript (`*.forge.js`) i
 - **Use cases**: 3D-printed products, mechanical parts, assemblies/joints/colliders for robotics simulation, and generating model variants as AI training data for spatial reasoning.
 - Website: https://forgecad.io/ #CAD #parametric #3D #robotics #agent
 
-> **See also:** [Image Generation](/Technology/AI/Tools/GenAI/Image Generation) · [Video Generation](/Technology/AI/Tools/GenAI/Video Generation) · [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools)
+> **See also:** [SUAPP AI](/Technology/AI/Tools/GenAI/SUAPP AI) · [Image Generation](/Technology/AI/Tools/GenAI/Image Generation) · [Video Generation](/Technology/AI/Tools/GenAI/Video Generation) · [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools)
