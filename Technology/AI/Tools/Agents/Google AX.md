@@ -18,7 +18,7 @@ resource: https://github.com/google/ax
 
 [AX](https://github.com/google/ax) ([agentexecutor.io](https://agentexecutor.io)) is Google's open control plane for running agent workloads as isolated, suspendable actors. You declare a task in YAML. AX sandboxes it on [Agent Substrate](https://github.com/agent-substrate/substrate), materializes its workspace, and lets you watch or shell into it. Apache-2.0, written in Go. The repo was created on 2026-03-30. As of 2026-10-04 the default branch had last been pushed on 2026-09-27, with about 13k stars and 649 forks.
 
-This is not the [accessibility tree](/Technology/AI/Tools/Agents/AXTree%20Accessibility%20Tree.md). The name collision is only the letters AX.
+This is not the [accessibility tree](/Technology/AI/Tools/Agents/AXTree Accessibility Tree.md). The name collision is only the letters AX.
 
 The README warns that AX is in heavy development and will likely break its concepts, protocols, and specs before a stable release. The API group is `ax.io/v1alpha1`.
 
@@ -41,10 +41,10 @@ The product site lists a fourth primitive, **Gateway**, for host and port allowl
 
 `status.phase` is a short label such as `Running`, `Suspended`, `Failed`, or `Terminating`. Conditions carry the detail. `ax watch` and `ax describe` are how you read them.
 
-| Condition | True when |
-| --- | --- |
-| `WorkspaceReady` | Every bound workspace has finished setup. Stays true afterwards. |
-| `Ready` | The task is running and `WorkspaceReady` is true. This is the condition to wait on. |
+| Condition        | True when                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------- |
+| `WorkspaceReady` | Every bound workspace has finished setup. Stays true afterwards.                    |
+| `Ready`          | The task is running and `WorkspaceReady` is true. This is the condition to wait on. |
 
 Suspending sets `Ready` to false with reason `TaskSuspended`. Resuming sets it back. `ax delete` tears the sandbox down on Substrate and blocks until the record is gone.
 
@@ -63,11 +63,11 @@ flowchart TD
   actor --> runner["ax-task-runner as PID 1"]
 ```
 
-| Binary | Role |
-| --- | --- |
-| `ax` | kubectl-shaped CLI. Applies manifests, watches status, tunnels to the cluster. |
-| `ax-server` | gRPC API on port 8080, plus `GET /healthz`. Validates manifests, holds locks, reconciles with Substrate, writes Redis. The client parses YAML. The server receives typed RPCs, not raw YAML. |
-| `ax-task-runner` | PID 1 in every task container. Bootstraps the workspace, serves metadata, supervises `spec.command`. Custom images can embed the `runner` package instead. |
+| Binary           | Role                                                                                                                                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ax`             | kubectl-shaped CLI. Applies manifests, watches status, tunnels to the cluster.                                                                                                               |
+| `ax-server`      | gRPC API on port 8080, plus `GET /healthz`. Validates manifests, holds locks, reconciles with Substrate, writes Redis. The client parses YAML. The server receives typed RPCs, not raw YAML. |
+| `ax-task-runner` | PID 1 in every task container. Bootstraps the workspace, serves metadata, supervises `spec.command`. Custom images can embed the `runner` package instead.                                   |
 
 Deploy lands in the `ax-system` namespace. Substrate must already be running in `ate-system`, with its Control API at `api.ate-system.svc.cluster.local:443`.
 
@@ -92,15 +92,15 @@ ax resume task task123
 
 The control plane does not run `spec.command` as the container entrypoint. It always starts `/usr/local/bin/ax-task-runner` and passes the launch config in the environment.
 
-| What AX sets | Value |
-| --- | --- |
-| Image | `spec.image`, or the default `ax-task-runner` image when unset |
-| Command | `/usr/local/bin/ax-task-runner` |
-| `AX_TASK_YAML` | Task launch YAML, excluding status |
-| `AX_WORKSPACES_YAML` | Bound workspaces, multi-document, in binding order |
-| `GEMINI_API_KEY` | Set when the atespace has a Gemini credential |
-| Volume | Durable directory at `/workspace` |
-| Readiness | `GET /readyz` on port 80 |
+| What AX sets         | Value                                                          |
+| -------------------- | -------------------------------------------------------------- |
+| Image                | `spec.image`, or the default `ax-task-runner` image when unset |
+| Command              | `/usr/local/bin/ax-task-runner`                                |
+| `AX_TASK_YAML`       | Task launch YAML, excluding status                             |
+| `AX_WORKSPACES_YAML` | Bound workspaces, multi-document, in binding order             |
+| `GEMINI_API_KEY`     | Set when the atespace has a Gemini credential                  |
+| Volume               | Durable directory at `/workspace`                              |
+| Readiness            | `GET /readyz` on port 80                                       |
 
 On boot the runner loads the specs, serves metadata on port 80, prepares each workspace once, then starts `spec.command` as a child in its own process group. The child gets `AX_METADATA_URL` (for example `http://127.0.0.1:80`) and `spec.env`. The runner stays up after the command exits, so the metadata server and `ax ssh` still work. It logs the exit code. The control plane does not currently read that exit code back. On stop or suspend it sends the command's process group `SIGTERM`, waits ten seconds, then kills what remains.
 
@@ -108,12 +108,12 @@ On boot the runner loads the specs, serves metadata on port 80, prepares each wo
 
 With `spec.debug: true`, the same port also serves Agent Substrate guest services over gRPC (`h2c`): a process service (`ax ssh`) and a filesystem service. They are off by default because they allow arbitrary process execution and file access. `ax ssh` refuses a task that has not opted in.
 
-| Endpoint | Returns |
-| --- | --- |
-| `GET /healthz` | `200` once the runner is alive |
-| `GET /readyz` | `503` while workspaces initialize, then `200` |
-| `GET /metadata/v1alpha1/ax/task` | Task launch YAML, no status |
-| `GET /metadata/v1alpha1/ax/workspaces` | Bound workspaces, multi-document YAML |
+| Endpoint                               | Returns                                       |
+| -------------------------------------- | --------------------------------------------- |
+| `GET /healthz`                         | `200` once the runner is alive                |
+| `GET /readyz`                          | `503` while workspaces initialize, then `200` |
+| `GET /metadata/v1alpha1/ax/task`       | Task launch YAML, no status                   |
+| `GET /metadata/v1alpha1/ax/workspaces` | Bound workspaces, multi-document YAML         |
 
 The default image is Python 3.12 with `git`, `curl`, `openssh-client`, and the Antigravity agent, because goal-based bootstrap calls Antigravity. The runner doc pins an example base at `gcr.io/ax-substrate/ate-images/ax-task-runner@sha256:69b764607ec7f1e433d83d2eca17dccfa04f663b43f071fd376e2dd716a57f8c`. A custom image must still provide `/usr/local/bin/ax-task-runner`. AX creates a Substrate actor template per distinct image and environment. Three levels of replacement: extend the default image, embed `github.com/google/ax/runner` and call `runner.Run`, or implement the HTTP and workspace contract in another language.
 
@@ -134,6 +134,6 @@ The roadmap, not the current schema, calls for: stable phases, limits, budgets, 
 
 ## Where it sits
 
-AX is the cluster orchestrator. [google/agents-cli](https://github.com/google/agents-cli) is the helper for creating and deploying agents on Google Cloud around the Agent Development Kit. [Zeron](/Technology/AI/Tools/Agents/Zeron.md) drives existing coding-agent CLIs on a device. [Pi Durable](/Technology/AI/Tools/Agents/Pi%20Durable.md) is an in-process harness for crash-survivable conversations. AX assumes Substrate is already installed and then adds the agent manifests, the workspace bootstrap, and the kubectl-like CLI.
+AX is the cluster orchestrator. [google/agents-cli](https://github.com/google/agents-cli) is the helper for creating and deploying agents on Google Cloud around the Agent Development Kit. [Zeron](/Technology/AI/Tools/Agents/Zeron.md) drives existing coding-agent CLIs on a device. [Pi Durable](/Technology/AI/Tools/Agents/Pi Durable.md) is an in-process harness for crash-survivable conversations. AX assumes Substrate is already installed and then adds the agent manifests, the workspace bootstrap, and the kubectl-like CLI.
 
-> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent%20Infrastructure%20And%20Platforms.md) · [AXTree Accessibility Tree](/Technology/AI/Tools/Agents/AXTree%20Accessibility%20Tree.md) · [Zeron](/Technology/AI/Tools/Agents/Zeron.md) · [Pi Durable](/Technology/AI/Tools/Agents/Pi%20Durable.md)
+> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms.md) · [AXTree Accessibility Tree](/Technology/AI/Tools/Agents/AXTree Accessibility Tree.md) · [Zeron](/Technology/AI/Tools/Agents/Zeron.md) · [Pi Durable](/Technology/AI/Tools/Agents/Pi Durable.md)

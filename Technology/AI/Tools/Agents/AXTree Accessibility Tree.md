@@ -120,4 +120,4 @@ A control is in good shape when the snapshot shows the right role, the visible n
 - browser-use `serialize_accessible_elements`: https://github.com/browser-use/browser-use/blob/main/browser_use/dom/serializer/serializer.py
 - CEF proposal, viewport collapse for CDP AX trees (issue 4133, 2026-03-20): https://github.com/chromiumembedded/cef/issues/4133
 
-> **See also:** [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents) · [AI Coding Productivity Tools](/Technology/AI/Tools/Agents/AI Coding Productivity Tools) · [Google AX](/Technology/AI/Tools/Agents/Google%20AX.md) (cluster orchestration runtime for agent tasks)
+> **See also:** [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents) · [AI Coding Productivity Tools](/Technology/AI/Tools/Agents/AI Coding Productivity Tools) · [Google AX](/Technology/AI/Tools/Agents/Google AX.md) (cluster orchestration runtime for agent tasks)

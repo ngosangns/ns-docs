@@ -60,4 +60,4 @@ resource: https://github.com/TREE-Ind/Unreal-Agent
 - Chat UI in `SUnrealGPTWidget`: toolbar, scrollable history with message bubbles and color-coded tool cards, multiline input with voice/attach buttons, reasoning strip.
 - Uses bundled Geist / Geist Mono fonts, falling back to editor fonts.
 
-> **See also:** [Agents Overview](/Technology/AI/Tools/Agents/Agents%20Overview.md) · [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent%20Infrastructure%20And%20Platforms.md)
+> **See also:** [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview.md) · [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms.md)

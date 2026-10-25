@@ -23,11 +23,11 @@ The README names these harnesses: Claude Code, Codex, Cursor, Devin, Grok, Herme
 
 ## Install
 
-| Platform | How |
-| -------- | --- |
-| Linux | `curl -fsSL https://zeron.sh/install.sh \| sh`, then `zeron status`. Installer starts the daemon and a per-user desktop entry. Needs ALSA (`libasound.so.2`) even headless, plus the Linux browser runtime for the sidebar browser. |
-| macOS | Desktop release, or build from source and `zeron daemon install` (launchd). |
-| Windows | `zeron-<version>-windows-x86_64-setup.exe` from the latest release (per-user, no admin). Portable ZIP exists; keep `zeron-update.json` next to `zeron.exe`. |
+| Platform | How                                                                                                                                                                                                                                 |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Linux    | `curl -fsSL https://zeron.sh/install.sh \| sh`, then `zeron status`. Installer starts the daemon and a per-user desktop entry. Needs ALSA (`libasound.so.2`) even headless, plus the Linux browser runtime for the sidebar browser. |
+| macOS    | Desktop release, or build from source and `zeron daemon install` (launchd).                                                                                                                                                         |
+| Windows  | `zeron-<version>-windows-x86_64-setup.exe` from the latest release (per-user, no admin). Portable ZIP exists; keep `zeron-update.json` next to `zeron.exe`.                                                                         |
 
 Day-to-day: `zeron status`, `zeron update`, `zeron daemon start\|stop\|restart\|status`. Desktop checks for updates on launch, hourly, and after sleep; `ZERON_AUTO_UPDATE=0` notifies without downloading.
 
@@ -54,4 +54,4 @@ Spaces are (device, folder) pairs. Sidebar tabs are a device-local viewport; clo
 
 Deliberately out of the CRDT: token-usage display. Rate-limit meters on agent accounts stay, probed from the CLIs rather than synced. A supported self-hosted backend is deferred; endpoint overrides are a dev seam, not a compatibility promise. ARCHITECTURE's milestone notes still call out gaps (composer attachments, some polish); treat `docs/PARITY.md` as the live gap list rather than the milestone checkboxes.
 
-> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent%20Infrastructure%20And%20Platforms.md) · [Pi Durable](/Technology/AI/Tools/Agents/Pi%20Durable.md) · [Coding Agents](/Technology/AI/Tools/Agents/Coding%20Agents.md)
+> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms.md) · [Pi Durable](/Technology/AI/Tools/Agents/Pi Durable.md) · [Coding Agents](/Technology/AI/Tools/Agents/Coding Agents.md)

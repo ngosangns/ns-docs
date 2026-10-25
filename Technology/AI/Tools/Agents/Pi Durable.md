@@ -36,11 +36,11 @@ Pi Durable explores those designs without disrupting the coding-agent product; p
 
 Open a harness over a storage backend. Built-ins: **memory**, **JSONL**, **SQLite**, plus a conformance suite and benchmarks for custom backends.
 
-| Backend | Notes |
-| ------- | ----- |
-| Memory | In-process; good for tests |
-| JSONL | Portable core; Node opener via `@earendil-works/pi-durable/storage/jsonl/node`; one owner must serialize writes to a directory |
-| SQLite | Portable core + Node opener; working set (active transcripts, live tasks, pending submissions) stays in memory, rest on disk |
+| Backend | Notes                                                                                                                          |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Memory  | In-process; good for tests                                                                                                     |
+| JSONL   | Portable core; Node opener via `@earendil-works/pi-durable/storage/jsonl/node`; one owner must serialize writes to a directory |
+| SQLite  | Portable core + Node opener; working set (active transcripts, live tasks, pending submissions) stays in memory, rest on disk   |
 
 SQLite/JSONL cores avoid Node APIs, so a small adapter can run on **Bun** or inside a **Cloudflare Durable Object**. The storage interface is small enough to implement on a key-value store or Postgres. One process owns a storage at a time; other clients attach to that process. Remote async APIs like Cloudflare D1 cannot implement the sync SQLite facade and need a dedicated `Storage` backend.
 
@@ -103,11 +103,11 @@ The vacation planner (~1.3k lines, mostly TUI) demos parallel durable search sub
 
 ## Ecosystem context
 
-| Piece | Role |
-| ----- | ---- |
-| [earendil-works/pi](https://github.com/earendil-works/pi) / [pi.dev](https://pi.dev/) | Pi coding agent + toolkit (pi-ai, pi-agent-core, pi-tui, pi-coding-agent) |
-| `@earendil-works/pi-durable` | This harness (npm; also `packages/durable` in the mono) |
-| `@earendil-works/chord` | Application-composition runtime used with the harness context |
-| [pi-autoresearch](/Technology/AI/Tools/Agents/Agent%20Infrastructure%20And%20Platforms.md), [pi-multix](/Technology/AI/Tools/Agents/AI%20Coding%20Productivity%20Tools.md) | Third-party skills/extensions for the Pi coding agent (not Pi Durable itself) |
+| Piece                                                                                                                                                          | Role                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [earendil-works/pi](https://github.com/earendil-works/pi) / [pi.dev](https://pi.dev/)                                                                          | Pi coding agent + toolkit (pi-ai, pi-agent-core, pi-tui, pi-coding-agent)     |
+| `@earendil-works/pi-durable`                                                                                                                                   | This harness (npm; also `packages/durable` in the mono)                       |
+| `@earendil-works/chord`                                                                                                                                        | Application-composition runtime used with the harness context                 |
+| [pi-autoresearch](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms.md), [pi-multix](/Technology/AI/Tools/Agents/AI Coding Productivity Tools.md) | Third-party skills/extensions for the Pi coding agent (not Pi Durable itself) |
 
-> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent%20Infrastructure%20And%20Platforms.md) · [AI Coding Productivity Tools](/Technology/AI/Tools/Agents/AI%20Coding%20Productivity%20Tools.md) · [Agents Overview](/Technology/AI/Tools/Agents/Agents%20Overview.md)
+> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms.md) · [AI Coding Productivity Tools](/Technology/AI/Tools/Agents/AI Coding Productivity Tools.md) · [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview.md)
