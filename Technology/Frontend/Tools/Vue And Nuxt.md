@@ -106,6 +106,7 @@ tags:
 - **vue-promised**: promises for templates
 - **floating-vue**: build floating components
 - **tresjs**: Three.js in Vue
+- **vue-termui**: Vue 3 custom renderer for terminal UIs on [OpenTUI](https://opentui.com/) (flexbox, forms, Vite plugin with in-terminal HMR); ground-up rewrite from the old `TuiBox`/Yoga stack — see [Vue TermUI](/Technology/Frontend/Tools/Vue TermUI)
 - **NativeScript-Vue**: build native apps
 - **fullpage.js**: full-page scrolling
 - **vue-mathlive**: math field

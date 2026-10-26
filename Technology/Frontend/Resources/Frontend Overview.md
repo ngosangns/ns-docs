@@ -265,4 +265,8 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
   - Searchable database
   - AI-powered design recommendations
 
+### Hallmark
+
+**Hallmark** ([Nutlope/hallmark](https://github.com/Nutlope/hallmark)) is a different take on the same problem: instead of a searchable style database, it is an agent skill with a hard floor of design rules, 48 deferred "material" themes, a browser lint (`sloplint --render`) and a fresh-context reviewer, aimed at new page builds rather than recommendations. See [Hallmark](/Technology/Frontend/Tools/Hallmark).
+
 > **See also:** [React Next](/Technology/Frontend/Tools/React Next) · [WebRTC](/Technology/Frontend/Concepts/WebRTC) · [Modern CSS Platform Features](/Technology/Frontend/Concepts/Modern CSS Platform Features) · [Reflow Repaint And CLS Optimization](/Technology/Frontend/Practices/Reflow Repaint And CLS Optimization)

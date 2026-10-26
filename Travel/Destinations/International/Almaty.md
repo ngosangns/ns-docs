@@ -22,6 +22,8 @@ Một chuyến tự lái đã đặt, 21-23 tháng 9 năm 2026, nằm ở [Almat
 
 Một kế hoạch 14-22/11/2026, Hà Nội–Almaty bằng VietJet rồi vòng sang Nga (Moscow, Murmansk, St. Petersburg) và quay lại Almaty cho Kolsai, Kaindy và hồ Almaty Lớn, nằm ở [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11). Chỉ vé VietJet đã mua.
 
+Một cách khác là giao cả chương trình đất liền cho **local guide**: một đoàn 8-10 người đi 8 ngày KZ + KG theo tour riêng của guide Ilyas, xe 16 chỗ, khách sạn Renion Park ở Almaty, lều Elestet bên hồ Issyk-Kul, có drone quay chụp — ghi chép và số liên hệ ở [Tour Kazakhstan và Kyrgyzstan 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour).
+
 Đặt xe trong thành phố trên Yandex Go như vẫn làm với Grab: ghim điểm, giá hiện trước, rồi khớp biển số. Chuyến này đó là cách đi lại dễ trong thành phố. Google Translate đủ để nói với tài xế. Đừng nhận taxi nào tự bước tới bên ngoài sân bay Almaty. Đó là chỗ bị hét giá. Cài **inDrive** trước khi bay, để một lần Yandex trục trặc không bỏ bạn ở lề đường. Dùng **2GIS** cho địa chỉ và đường đi. **Green SM** (tên ở Kazakhstan của Xanh SM bên Việt Nam) là một đội xe điện thật ở Almaty, trong một vùng phục vụ mà tháng 7 năm 2026 vẫn còn đang mở rộng.
 
 Đã đối chiếu ngày 2026-10-13 với lần nhập cảnh này, thông cáo ra mắt của Green SM, một bài Kursiv về bản cập nhật vùng do chính hãng đưa, trang trợ giúp taxi của 2GIS, thư năm 2017 của Yandex.Taxi về việc gộp, bài Kursiv về sự cố Yandex Go ngày 11 tháng 10 năm 2026, bản chụp giá sân bay của Air Traveler Club được sửa ngày 10 tháng 10 năm 2026, hướng dẫn nhập cảnh của Kazakhstan Tourism cập nhật ngày 20 tháng 8 năm 2026, và bản nhận định tháng 10 năm 2026 của Kazhydromet cho Almaty. Giá trên điện thoại là giá nên tin. Các khoảng đã đăng sẽ thành cũ.
@@ -122,7 +124,7 @@ Tài xế trên chuyến này thường lái bằng một tay, tay kia thì nh�
 
 Đồ ăn trên chuyến nhập cảnh tháng 10/2026 này **hơi mặn**; cùng người đó vẫn thấy dễ ăn và đủ bình thường.
 
-Thread cộng đồng (cuối 2025–2026) về Kazakhstan và Kyrgyzstan — khẩu vị, chợ heo, Navat, siêu thị Magnum, Glovo/Wolt, đồ mang theo — nằm ở [Ăn uống Kazakhstan và Kyrgyzstan (người Việt)](/Travel/Guides/Kazakhstan%20Kyrgyzstan%20Food). Tóm tắt cho **Almaty**:
+Thread cộng đồng (cuối 2025–2026) về Kazakhstan và Kyrgyzstan — khẩu vị, chợ heo, Navat, siêu thị Magnum, Glovo/Wolt, đồ mang theo — nằm ở [Ăn uống Kazakhstan và Kyrgyzstan (người Việt)](/Travel/Guides/Kazakhstan Kyrgyzstan Food). Tóm tắt cho **Almaty**:
 
 - **Thành phố:** đa dạng hơn vùng xa; nhiều nhà hàng quốc tế (Thái, Trung, Nhật, Hàn, Việt, Gruzia, Thổ). Người ở Almaty vài tháng có thể gọi **phở và món Việt** qua app mỗi ngày.
 - **Địa phương:** mặn, nhiều bột mì, **ít rau xanh**; thịt nướng, shashlik, plov, dumpling — chọn quán đông khách bản địa. Cửa hàng tiện lợi có hộp cơm/plov/soup kiểu Liên Xô, vi sóng tại chỗ.

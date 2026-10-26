@@ -34,6 +34,7 @@ resource: https://github.com/twentyhq/twenty
 
 ### Resources
 
+- **Vue TermUI** ([vue-terminal/vue-termui](https://github.com/vue-terminal/vue-termui)): Vue 3 + OpenTUI (Zig via FFI) for rich TUIs — not a chat client; see [Vue TermUI](/Technology/Frontend/Tools/Vue TermUI).
 - Awesome TUI: https://github.com/rothgar/awesome-tuis
 - Cointop: https://github.com/cointop-sh/cointop
 - Youtube: https://github.com/mps-youtube/yewtube

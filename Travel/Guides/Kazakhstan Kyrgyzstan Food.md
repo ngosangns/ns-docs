@@ -18,7 +18,7 @@ tags:
 
 Ghi lại từ nhiều bình luận trong một thread nhóm Facebook (khoảng cuối 2025–2026, đoàn vừa đi ba nước Trung Á). **Không ghi tên người viết; số liệu và tên quán là lời kể cộng đồng, chưa đối chiếu từng địa chỉ.** Dùng để chuẩn bị khẩu vị và kế hoạch ăn, không thay việc tự thử trên chỗ.
 
-Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, sân bay) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist).
+Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, sân bay) · [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour) (nhà hàng, homestay, món cụ thể trong một chuyến guide dẫn) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist).
 
 ## Điểm chính
 
@@ -98,7 +98,7 @@ Chi tiết taxi và SIM: [Almaty](/Travel/Destinations/International/Almaty).
 - Không chịu mùi cừu: thử **thịt ngựa**; hoặc tránh món địa phương, dùng chiến lược siêu thị/chợ/quốc tế.
 - **Cá hồi** được khen ngon.
 - Thử **sữa ngựa, sữa cừu, sữa lạc đà** nếu muốn trải nghiệm bản địa.
-- **Guide/driver địa phương** dẫn quán Kyrgyz được khen (một trip report).
+- **Guide/driver địa phương** dẫn quán Kyrgyz được khen (một trip report). Một đoàn đi tour riêng được guide dẫn vào các nhà hàng to, đông khách và tự chọn món theo ngân sách từng bữa; salad cà tím sốt chua ngọt, shashlyk và cháo yến mạch trộn sữa được nhắc — xem [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour).
 
 ## So sánh nhanh (theo thread)
 
