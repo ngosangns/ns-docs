@@ -1,5 +1,6 @@
 # Concepts
 
+- [Ăn uống Kazakhstan và Kyrgyzstan (người Việt)](Travel/Guides/Kazakhstan%20Kyrgyzstan%20Food.md) - Thread cộng đồng: khẩu vị mặn, ít rau, cừu/ngựa; hostel có/không bếp; Magnum, Globus, Green Bazaar, Osh Bazaar; Navat, Karakol Dungan; Yandex Go, Glovo, Wolt; nhập cảnh đồ mang theo
 - [Danh sách đồ mang theo](Travel/Guides/Packing%20Checklist.md) - Danh sách hành lý cho chuyến đi thường và cho leo núi, cắm trại
 - [Dựng lều và bạt](Travel/Guides/Tent%20And%20Tarp%20Setup.md) - Cách dựng lều và căng bạt đúng khi cắm trại
 - [Nút dây và bảo hiểm khi leo](Travel/Guides/Climbing%20Knots%20And%20Belay.md) - Prusik là nút ma sát hai chiều, thuyền chài là clove hitch, running belay vừa là móc điểm bảo vệ vừa là simul-climbing, dexamethasone không thay acetazolamide, và cụm nút thắt số 3 không có tên tiếng Anh cố định trong các nguồn đã đọc.

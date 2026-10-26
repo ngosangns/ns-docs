@@ -72,6 +72,8 @@ Xem thêm [Săn cực quang ở Lapland (Rovaniemi)](/Travel/Destinations/Intern
 
 ### Giai đoạn 3: Saint Petersburg - Cố đô Sa hoàng (bài ghi 08/02 - 09/02)
 
+Mùa đông, **Peterhof** mất điểm nhất (đài phun tắt, nhiều pavilion đóng vì không sưởi, vườn hứng gió vịnh Phần Lan); nếu rảnh thêm một ngày ngoại ô thì **Pushkin / Cung điện mùa Thu** hợp hơn — xem [Pushkin (Tsarskoye Selo)](/Travel/Destinations/International/Pushkin Tsarskoye Selo).
+
 **Ngày 6 (08/02, T2, mùng 3): Cung điện Mùa Đông và các nhà thờ**
 
 - 09:30 - 13:00: Bảo tàng Hermitage (Cung điện Mùa Đông).

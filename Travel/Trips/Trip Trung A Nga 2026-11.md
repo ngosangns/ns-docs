@@ -17,7 +17,7 @@ tags:
 
 > **Trạng thái đặt chỗ:** chỉ 4 chặng VietJet là **đã mua**. Mọi chuyến bay, phòng và tour còn lại trong bản này là **chưa đặt**; giá là giá tham khảo lúc lên kế hoạch.
 
-Khung chuyến: bay VietJet từ Sài Gòn ra Hà Nội, Hà Nội đi Almaty, từ Almaty vòng sang Nga (Moscow, Murmansk, St. Petersburg), quay về Almaty rồi bay VietJet về. Chỉ mang hành lý xách tay. Kinh nghiệm thực địa ở Almaty (Yandex Go, sân bay, hồ Almaty Lớn, Kolsai và Kaindy) nằm ở [Almaty](/Travel/Destinations/International/Almaty). Một kế hoạch Nga khác, dịp Tết 2027, nằm ở [Nga Tết 2027](/Travel/Trips/Russia Tet 2027).
+Khung chuyến: bay VietJet từ Sài Gòn ra Hà Nội, Hà Nội đi Almaty, từ Almaty vòng sang Nga (Moscow, Murmansk, St. Petersburg), quay về Almaty rồi bay VietJet về. Chỉ mang hành lý xách tay. Kinh nghiệm thực địa ở Almaty (Yandex Go, sân bay, hồ Almaty Lớn, Kolsai và Kaindy) nằm ở [Almaty](/Travel/Destinations/International/Almaty). Ghi chép cộng đồng về **ăn uống Kazakhstan/Kyrgyzstan** (mặn, ít rau, Magnum, Green Bazaar, Navat, đồ mang theo) nằm ở [Ăn uống Kazakhstan và Kyrgyzstan](/Travel/Guides/Kazakhstan%20Kyrgyzstan%20Food). Một kế hoạch Nga khác, dịp Tết 2027, nằm ở [Nga Tết 2027](/Travel/Trips/Russia Tet 2027).
 
 ## Vé đã mua (VietJet, chỉ xách tay)
 

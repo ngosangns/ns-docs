@@ -35,6 +35,8 @@ Một kế hoạch 14-22/11/2026, Hà Nội–Almaty bằng VietJet rồi vòng 
 | 2GIS      | Bản đồ. Tạo lộ trình, mở biểu tượng taxi, so các dịch vụ, rồi chốt đơn trong app taxi.                                                                           |
 | Green SM  | Xe điện VinFast. Tìm trên cửa hàng chữ Green SM. Mục Xanh SM của Việt Nam là cùng một công ty, và lúc ra mắt ở Kazakhstan hãng bảo khách đặt trong app Green SM. |
 | Uber      | App khách khu vực từ việc gộp với Yandex, cùng một nhóm tài xế. Hãy cài Yandex Go. Thói quen dùng Uber toàn cầu không thay được nó.                              |
+| Glovo     | Giao đồ ăn và mua hàng siêu thị; ship tới cửa phòng (lời kể cộng đồng, chưa đối chiếu vùng phủ).                                                                  |
+| Wolt      | Giao đồ ăn (cùng nhóm use case với Glovo trên thread cộng đồng).                                                                                                  |
 
 Cả Yandex Go và inDrive đều cần một mã SMS, và Yandex Go cần dữ liệu di động thì mới chịu báo giá chuyến đi. Cách làm được trên chuyến này: mua SIM vật lý ở sân bay, rồi đăng ký Yandex bằng số đó. Xem mục Đến nơi bên dưới. Air Traveler Club, khi sửa ghi chú sân bay ngày 10 tháng 10 năm 2026, nói cả thẻ và tiền mặt đều dùng được cho chuyến Yandex ở Almaty, và các nguồn đã đăng vẫn chưa xác nhận một thẻ nước ngoài sẽ qua được lúc đăng ký.
 
@@ -118,7 +120,16 @@ Tài xế trên chuyến này thường lái bằng một tay, tay kia thì nh�
 
 ## Đồ ăn
 
-Đồ ăn trên chuyến này hơi mặn. Cùng người đó vẫn thấy dễ ăn, và đủ bình thường.
+Đồ ăn trên chuyến nhập cảnh tháng 10/2026 này **hơi mặn**; cùng người đó vẫn thấy dễ ăn và đủ bình thường.
+
+Thread cộng đồng (cuối 2025–2026) về Kazakhstan và Kyrgyzstan — khẩu vị, chợ heo, Navat, siêu thị Magnum, Glovo/Wolt, đồ mang theo — nằm ở [Ăn uống Kazakhstan và Kyrgyzstan (người Việt)](/Travel/Guides/Kazakhstan%20Kyrgyzstan%20Food). Tóm tắt cho **Almaty**:
+
+- **Thành phố:** đa dạng hơn vùng xa; nhiều nhà hàng quốc tế (Thái, Trung, Nhật, Hàn, Việt, Gruzia, Thổ). Người ở Almaty vài tháng có thể gọi **phở và món Việt** qua app mỗi ngày.
+- **Địa phương:** mặn, nhiều bột mì, **ít rau xanh**; thịt nướng, shashlik, plov, dumpling — chọn quán đông khách bản địa. Cửa hàng tiện lợi có hộp cơm/plov/soup kiểu Liên Xô, vi sóng tại chỗ.
+- **Navat** (chuỗi, có mặt ở Almaty): nhiều rau, chế biến lai, dễ ăn hơn quán thuần Kazakh.
+- **Green Bazaar:** thịt heo (ba rọi, nạc dăm), cải ngọt/cải xanh — nấu canh/luộc nếu có bếp.
+- **Magnum:** siêu thị tiện mua đồ nấu.
+- **Giao đồ ăn:** sau SIM sân bay, **Yandex Go** (đồ ăn + taxi), **Glovo**, **Wolt** — ship tới cửa phòng; tên quán và giá trên app là số nên tin lúc đặt.
 
 ## Đi một mình
 
