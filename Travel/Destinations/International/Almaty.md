@@ -3,8 +3,8 @@ area: travel
 domain: almaty
 type: guide
 title: Almaty
-description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, Medeu và Shymbulak bằng xe buýt 12 rồi cáp treo, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
-timestamp: "2026-10-17T00:00:00.000Z"
+description: "Ghi chép Almaty tháng 10/2026 - nhập cảnh nhanh, Yandex Go cần số nhận SMS vì eSIM chỉ data không có OTP, hồ Almaty Lớn thì taxi chỉ tới cổng và đoạn trên đi bộ, Medeu và Shymbulak bằng xe buýt 12 rồi cáp treo, tàu đêm đi Turkistan nên mua cả khoang kupe, Kolsai và Kaindy từ Saty, và một vòng Korday trong ngày vẫn là bốn lần kiểm hộ chiếu"
+timestamp: "2026-10-27T00:00:00.000Z"
 tags:
   - travel
   - almaty
@@ -24,9 +24,11 @@ Một kế hoạch 14-22/11/2026, Hà Nội–Almaty bằng VietJet rồi vòng 
 
 Một cách khác là giao cả chương trình đất liền cho **local guide**: một đoàn 8-10 người đi 8 ngày KZ + KG theo tour riêng của guide Ilyas, xe 16 chỗ, khách sạn Renion Park ở Almaty, lều Elestet bên hồ Issyk-Kul, có drone quay chụp — ghi chép và số liên hệ ở [Tour Kazakhstan và Kyrgyzstan 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour).
 
+Một chuyến 11 ngày 17–28/10/2026 của 6 người, có thêm 4 ngày ngủ lều ở Mangystau (bay Almaty–Aktau, land tour Go-Mangystau) rồi tự thuê xe Charyn–Saty–Kolsai–Kaindy và đi Karakol, Altyn Arashan, Bishkek, nằm ở [Trung Á 11 ngày 17–28/10/2026](/Travel/Trips/Trung A 11 Ngay 2026-10). SIM Beeline 6.000 tenge/30 ngày và tỷ giá sân bay 445 tenge/USD của chuyến đó ghi ở đấy.
+
 Đặt xe trong thành phố trên Yandex Go như vẫn làm với Grab: ghim điểm, giá hiện trước, rồi khớp biển số. Chuyến này đó là cách đi lại dễ trong thành phố. Google Translate đủ để nói với tài xế. Đừng nhận taxi nào tự bước tới bên ngoài sân bay Almaty. Đó là chỗ bị hét giá. Cài **inDrive** trước khi bay, để một lần Yandex trục trặc không bỏ bạn ở lề đường. Dùng **2GIS** cho địa chỉ và đường đi. **Green SM** (tên ở Kazakhstan của Xanh SM bên Việt Nam) là một đội xe điện thật ở Almaty, trong một vùng phục vụ mà tháng 7 năm 2026 vẫn còn đang mở rộng.
 
-Đã đối chiếu ngày 2026-10-13 với lần nhập cảnh này, thông cáo ra mắt của Green SM, một bài Kursiv về bản cập nhật vùng do chính hãng đưa, trang trợ giúp taxi của 2GIS, thư năm 2017 của Yandex.Taxi về việc gộp, bài Kursiv về sự cố Yandex Go ngày 11 tháng 10 năm 2026, bản chụp giá sân bay của Air Traveler Club được sửa ngày 10 tháng 10 năm 2026, hướng dẫn nhập cảnh của Kazakhstan Tourism cập nhật ngày 20 tháng 8 năm 2026, và bản nhận định tháng 10 năm 2026 của Kazhydromet cho Almaty. Giá trên điện thoại là giá nên tin. Các khoảng đã đăng sẽ thành cũ.
+Đã đối chiếu ngày 2026-10-13 với lần nhập cảnh này, thông cáo ra mắt của Green SM, một bài Kursiv về bản cập nhật vùng do chính hãng đưa, trang trợ giúp taxi của 2GIS, thư năm 2017 của Yandex.Taxi về việc gộp, bài Kursiv về sự cố Yandex Go ngày 11 tháng 10 năm 2026, bản chụp giá sân bay của Air Traveler Club được sửa ngày 10 tháng 10 năm 2026, hướng dẫn nhập cảnh của Kazakhstan Tourism cập nhật ngày 20 tháng 8 năm 2026, và bản nhận định tháng 10 năm 2026 của Kazhydromet cho Almaty. Ngày 27 tháng 10 năm 2026 đối chiếu thêm OTP Yandex, SIM miễn phí và bảng giá Bishkek với Tashkent. Giá trên điện thoại là giá nên tin. Các khoảng đã đăng sẽ thành cũ.
 
 ## Nên cài gì
 
@@ -40,7 +42,7 @@ Một cách khác là giao cả chương trình đất liền cho **local guide*
 | Glovo     | Giao đồ ăn và mua hàng siêu thị; ship tới cửa phòng (lời kể cộng đồng, chưa đối chiếu vùng phủ).                                                                  |
 | Wolt      | Giao đồ ăn (cùng nhóm use case với Glovo trên thread cộng đồng).                                                                                                  |
 
-Cả Yandex Go và inDrive đều cần một mã SMS, và Yandex Go cần dữ liệu di động thì mới chịu báo giá chuyến đi. Cách làm được trên chuyến này: mua SIM vật lý ở sân bay, rồi đăng ký Yandex bằng số đó. Xem mục Đến nơi bên dưới. Air Traveler Club, khi sửa ghi chú sân bay ngày 10 tháng 10 năm 2026, nói cả thẻ và tiền mặt đều dùng được cho chuyến Yandex ở Almaty, và các nguồn đã đăng vẫn chưa xác nhận một thẻ nước ngoài sẽ qua được lúc đăng ký.
+Cả Yandex Go và inDrive đều cần một mã SMS, và Yandex Go cần dữ liệu di động thì mới chịu báo giá chuyến đi. eSIM chỉ data không có số điện thoại, nên không nhận được mã đó. Cách làm được trên chuyến tháng 10/2026: mua SIM vật lý ở sân bay, rồi đăng ký Yandex bằng số đó. Nếu sảnh đến còn phát SIM miễn phí thì số trên SIM đó cũng dùng để nhận mã, còn data để eSIM lo. Xem mục OTP Yandex và số Kazakh. Air Traveler Club, khi sửa ghi chú sân bay ngày 10 tháng 10 năm 2026, nói cả thẻ và tiền mặt đều dùng được cho chuyến Yandex ở Almaty, và các nguồn đã đăng vẫn chưa xác nhận một thẻ nước ngoài sẽ qua được lúc đăng ký.
 
 Nếu địa chỉ chữ Latin không ra, hãy ghim một điểm hoặc dán dạng chữ Kirin lấy từ 2GIS.
 
@@ -87,6 +89,22 @@ Nếu thực sự cần một lượng tiền mặt lớn hơn, hãy đổi tron
 Lần đến này, quầy SIM và quầy đổi tiền nằm cạnh nhau, nên SIM và tenge là một lần dừng ngay sau khi đáp. Xin một ít tờ nhỏ. Tài xế Yandex trên chuyến này hiếm khi có tiền thối, và một chuyến trả tiền mặt bị đứng khi trong tay chỉ toàn tờ lớn.
 
 SIM là thứ mở được Yandex: app gửi một tin SMS để đăng ký. Mua SIM trước khi thử đặt xe. Dữ liệu trên SIM đó cũng là thứ dùng để tính giá chuyến. Bản thân Yandex vẫn cho trả tiền mặt hoặc thẻ. Xe buýt 92, trong bảng sân bay bên dưới, nhận thẻ Onay chứ không nhận Apple Pay.
+
+## OTP Yandex và số Kazakh
+
+Yandex Go đáng cài trước khi bay nếu lịch có Kazakhstan, Kyrgyzstan hoặc Uzbekistan. Giá hiện trong app, có biển số, và không phải đứng trả giá với taxi ngoài đường. Trang giá của Yandex, đọc ngày 27 tháng 10 năm 2026, vẫn có Economy ở Bishkek (tối thiểu 48 som) và hạng Start ở Tashkent (tối thiểu không quá 4.600 sum). Cả hai bảng ghi hiệu lực đến hết ngày 27 tháng 10 năm 2026, nên mở app để xem giá đang chạy. Đó là bằng chứng app có mặt ở hai thủ đô, không phải mọi thành phố Trung Á.
+
+Phần hay kẹt là mã SMS. Yandex ID gắn số điện thoại bằng một mã nhắn tin. Trang trợ giúp nói mã có thể chưa được xử lý trong tối đa 24 giờ, Yandex có thể không gửi được SMS tới nhà mạng của số đó, và bấm gửi lại quá dày thì số bị hạn chế khoảng một giờ. eSIM du lịch chỉ data không có số, nên không có chỗ để mã tới. Air Traveler Club, sửa ngày 10 tháng 10 năm 2026, nói thêm rằng không có dữ liệu di động thì app không báo giá.
+
+Trên máy hai SIM, tách hai việc: SIM vật lý mang số Kazakh để nhận SMS, eSIM data để vào mạng. Tắt dòng SIM Kazakh thì mã không vào, dù eSIM vẫn có sóng. Gói miễn phí không đủ data cho cả chuyến.
+
+SIM miễn phí không phải lúc nào cũng có. Welcome.kz ngày 17 tháng 6 năm 2025 nói khách nước ngoài được phát ngay sau kiểm soát hộ chiếu: 1 GB trong 24 giờ, phong bì năm thứ tiếng (Kazakh, Nga, Anh, Trung, Uzbek), mã QR tới safetravel.kz. Almaty.tv ngày 26 tháng 3 năm 2026 vẫn nói các sân bay đang phát gói đó lúc đến. Tengrinews ngày 10 tháng 6 năm 2025 ghi lúc bộ trưởng Erbol Myrzabassynov đề xuất thì phía sân bay chưa xác nhận. Một lời cộng đồng năm 2026 đặt quầy ở khu đến, gần chỗ lấy hành lý, và nói thứ đáng giữ là số Kazakh chứ không phải ít data trên SIM. Chuyến tháng 10 năm 2026 của ghi chú này mua SIM trả phí ở quầy cạnh đổi tiền, không ghi được SIM miễn phí. Thấy quầy thì hỏi. Không thấy thì mua.
+
+Quầy trả phí trong sảnh đến Terminal 2 nằm cạnh đổi tiền. Các hướng dẫn sân bay kể Beeline, Kcell và Tele2. MegaEsim, bài cập nhật ngày 29 tháng 9 năm 2026, ghi gói Tele2 rẻ nhất đang bày là 5.590 KZT cho 25 GB LTE cộng 25 GB 5G, hạn 30 ngày. Cùng bài, của một hãng bán eSIM, nói từ 3 tháng 1 năm 2026 SIM Kazakh cần đối chiếu khuôn mặt với hộ chiếu, và máy lần đầu cắm SIM Kazakh có thể vào danh sách xám IMEI khoảng 30 ngày rồi chỉ còn wifi nếu không đăng ký. Con số 30 ngày là cách bài đó đọc, không phải một điều luật được mở ra ở đây. Cùng bài nói eSIM chuyển vùng không nằm trong quy tắc đó. Mang hộ chiếu gốc. Không có giờ quầy chính thức. Trang sân bay alaport.com không liệt kê quầy SIM, nên chuyến đêm có thể không gặp ai.
+
+Đã có số mà mã vẫn không tới thì kiểm số dạng quốc tế, sóng, và bộ lọc spam của máy hoặc của SIM có đang chặn Yandex và Yandex Taxi không. Đợi rồi gửi lại một lần, đừng bấm liên tục. Hết các bước trên trang trợ giúp thì điền form hỗ trợ của Yandex ID. Không dùng số ảo. Trang trợ giúp không mô tả đường đó.
+
+Vừa hạ cánh mà tài khoản Yandex chưa nhận được mã: nếu inDrive đã đăng ký từ trước thì dùng nó cho chuyến sân bay, rồi xử lý Yandex sau. Tài khoản inDrive mới cũng cần một mã SMS. Không có số nào nhận được tin thì đừng đứng trả giá với tài xế tự lại gần. Xe buýt 92 ban ngày, và quầy taxi giá cố định, nằm ở bảng sân bay bên dưới.
 
 ## Thời tiết
 
@@ -235,6 +253,14 @@ Cả nam lẫn nữ đều hút nhiều, theo cách người đi này nhìn Kaza
 - [Reuters: việc gộp đã hoàn tất, 7 tháng 2 năm 2018](https://www.reuters.com/article/technology/uber-yandex-complete-ride-services-merger-idUSKBN1FR2JG/)
 - [Kursiv: sự cố Yandex Go và đơn inDrive tăng, 12 tháng 10 năm 2026](https://kz.kursiv.media/en/2026-10-12/engk-tank-yandex-go-outage-drives-surge-in-passengers-and-drivers-on-indrive/)
 - [Air Traveler Club: giá đưa đón ALA, sửa ngày 10 tháng 10 năm 2026](https://www.airtraveler.club/intel/kazakhstan-airport-transfer-savings-yandex-go/)
+- [Yandex ID: không nhận được mã SMS](https://yandex.com/support/id/en/troubleshooting/nosms-form)
+- [Yandex ID: số điện thoại và mã không tới](https://yandex.com/support/id/en/troubleshooting/phone-problems)
+- [Welcome.kz: SIM miễn phí sau kiểm soát hộ chiếu, 17 tháng 6 năm 2025](https://welcome.kz/en/news/sim-card)
+- [Tengrinews: bộ trưởng đề xuất SIM miễn phí, sân bay chưa xác nhận, 10 tháng 6 năm 2025](https://en.tengrinews.kz/kazakhstan_news/kazakhstan-to-welcome-tourists-with-free-sim-cards-and-268242/)
+- [Almaty.tv: sân bay phát SIM 1 GB trong một ngày, 26 tháng 3 năm 2026](https://almaty.tv/ru/news/obschestvo/svaz-s-pervoj-minuty-kak-besplatnye-sim-karty-pomogaut-turistam-orientirovat-sa-v-kazakhstane)
+- [Yandex Go: bảng giá Bishkek, đọc ngày 27 tháng 10 năm 2026](https://taxi.yandex.com/en_am/bishkek/tariff/)
+- [Yandex Go: bảng giá Tashkent, đọc ngày 27 tháng 10 năm 2026](https://taxi.yandex.com/en_am/tashkent/tariff/)
+- [MegaEsim: quầy SIM ALA, sinh trắc và IMEI, cập nhật 29 tháng 9 năm 2026](https://megaesim.com/blog/kazakhstan-sim-card-airport-imei-guide/)
 - [Kazakhstan Tourism: visa và nhập cảnh, cập nhật ngày 20 tháng 8 năm 2026](https://www.kazakhstantourism.org/kazakhstan-visa/)
 - [Kazhydromet: nhận định tháng 10 năm 2026 cho Almaty và vùng Almaty](https://www.kazhydromet.kz/uploads/files_calendar/12786/file/6aaa35d71b43bpp-po-g-almaty-i-po-almatinskoy-oblasti-na-oktyabr-2026-g.pdf)
 - [Caravanistan: Kolsai và Kaindy](https://caravanistan.com/kazakhstan/almaty-region/kolsai-lakes-kaindy/)

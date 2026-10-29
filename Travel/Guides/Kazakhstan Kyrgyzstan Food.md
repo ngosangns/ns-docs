@@ -88,7 +88,7 @@ Nếu qua **Tashkent:** nhà hàng **Việt Nam** (phở bò, gà, ba chỉ chá
 
 ## Giao đồ ăn (Almaty — kể thêm từ người ở lâu)
 
-Sau khi mua SIM, cài **Yandex Go** (taxi + đồ ăn), **Glovo**, **Wolt** — ship tới **cửa phòng** khách sạn. Gọi được món Hàn, Nhật, Thái, Trung, Việt, Nga, Kazakh, Âu Mỹ trong cùng hệ sinh thái giao hàng. Nhà hàng “tổng hợp” nhiều loại một lúc thì **không món nào xuất sắc** theo một ý kiến.
+Sau khi có số nhận được SMS (SIM Kazakh; eSIM chỉ data thì không có OTP), cài **Yandex Go** (taxi + đồ ăn), **Glovo**, **Wolt** — ship tới **cửa phòng** khách sạn. Gọi được món Hàn, Nhật, Thái, Trung, Việt, Nga, Kazakh, Âu Mỹ trong cùng hệ sinh thái giao hàng. Nhà hàng “tổng hợp” nhiều loại một lúc thì **không món nào xuất sắc** theo một ý kiến.
 
 Chi tiết taxi và SIM: [Almaty](/Travel/Destinations/International/Almaty).
 

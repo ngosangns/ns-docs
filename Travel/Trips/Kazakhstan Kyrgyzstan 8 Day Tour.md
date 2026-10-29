@@ -22,7 +22,7 @@ Ghi lại từ bài chia sẻ của một đoàn vừa đi **Kazakhstan và Kyrg
 
 **Đây là lời kể một chiều, chưa đối chiếu giá, lịch và chất lượng dịch vụ.** Số điện thoại và tên chỗ ở giữ nguyên như bài gốc; vài tên đã đối chiếu được với trang đặt phòng (xem [Nguồn](#nguồn)).
 
-Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (Yandex Go, sân bay, Kolsai và Kaindy) · [Ăn uống Kazakhstan và Kyrgyzstan](/Travel/Guides/Kazakhstan Kyrgyzstan Food) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Almaty tháng 9/2026](/Travel/Trips/Almaty September 2026).
+Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (Yandex Go, sân bay, Kolsai và Kaindy) · [Ăn uống Kazakhstan và Kyrgyzstan](/Travel/Guides/Kazakhstan Kyrgyzstan Food) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Almaty tháng 9/2026](/Travel/Trips/Almaty September 2026) · [Trung Á 11 ngày 17–28/10/2026](/Travel/Trips/Trung A 11 Ngay 2026-10) (cùng mùa, có thêm Mangystau, tự thuê xe).
 
 ## Guide và cách chốt tour
 

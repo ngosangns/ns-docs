@@ -104,7 +104,7 @@ Tỷ giá dùng: 1₽ ≈ 309đ, 1 KZT ≈ 57đ.
 - Visa và Mastercard không dùng được ở Nga, nên mang USD tiền mới. Yandex Go nhận tiền mặt.
 - Pobeda đo hành lý xách tay rất gắt, nên mua gói 10kg lúc đặt vé, hoặc bay Aeroflot/Smartavia.
 - SCAT hay trễ chuyến vào mùa đông. Sân bay Moscow đôi khi đóng cửa vì drone, nên chừa thời gian dự phòng.
-- Ở Almaty, Yandex chạy được lúc sáng sớm. Bỏ qua cò taxi ở sân bay.
+- Ở Almaty, Yandex chạy được lúc sáng sớm. Cài app trước khi bay. eSIM chỉ data không nhận OTP Yandex; cần một số Kazakh, kể cả SIM miễn phí ở sảnh đến nếu quầy còn phát. Chi tiết ở [Almaty](/Travel/Destinations/International/Almaty). Bỏ qua cò taxi ở sân bay.
 
 ## Thay đổi: săn cực quang chuyển từ Murmansk/Teriberka sang Kirovsk (Khibiny) 16–18/11
 
