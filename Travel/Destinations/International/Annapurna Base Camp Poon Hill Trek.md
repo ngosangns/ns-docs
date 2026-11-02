@@ -125,6 +125,8 @@ Bảng dưới là mình đọc điều khoản công khai ngày 25/10/2026, kh�
 - **Lưu giấy chứng nhận và số cứu hộ 24/7.** Công ty có thể hỏi bảo hiểm trước khi khởi hành; guide cần số để gọi khi có sự cố.
 - **Cứu hộ không tự động.** Trực thăng chỉ bay khi có chỉ định y tế, thời tiết cho phép và đơn vị cứu hộ thấy khả thi. Bảo hiểm trả tiền không có nghĩa là chuyến bay chắc chắn diễn ra.
 
+Quyền lợi chuyến bay bị trì hoãn nằm ở [Bảo hiểm chuyến bay bị trì hoãn khi sân bay đóng vì tro núi lửa](/Travel/Guides/Flight Delay Insurance Volcanic Ash), lấy từ bản Travel Guard đại lý tháng 4/2024 (footer Ver 10/2018). Bảng trên giữ nguyên bản quy tắc y tế tháng 4/2026.
+
 ## SIM và liên lạc
 
 - Bài mua eSIM NTC (Nepal Telecom) 3G dùng 16 ngày, khoảng 365.000đ, và được khuyên NTC phù hợp hơn ở vùng núi. Một bạn Việt dùng Ncell trong bài gần như không có sóng ở những đoạn đã đi.

@@ -91,4 +91,4 @@ That is a reasonable design for a zero-setup introduction: the hard part for a b
 
 Did not interact with all 16 lessons in a browser, did not test touch/mobile layout, WebGL fallback or screen-reader behaviour, did not run Lighthouse or axe, did not verify the 12 translations for accuracy, did not compare the simulations against a physical Uno, and could not verify the "Opus 5.5" claim or inspect source code. Bundle findings come from static inspection, not runtime instrumentation.
 
-> **See also:** [Development Tools](/Technology/IoT/Tools/Development Tools) · [Hardware Platforms](/Technology/IoT/Concepts/Hardware Platforms)
+> **See also:** [Development Tools](/Technology/IoT/Tools/Development Tools) · [Hardware Platforms](/Technology/IoT/Concepts/Hardware Platforms) · [Gokino](/Technology/IoT/Tools/Gokino)

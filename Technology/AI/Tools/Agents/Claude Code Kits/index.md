@@ -1,5 +1,6 @@
 # Concepts
 
+- [Claude Ads](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Ads.md) - Claude Ads (AgriciDaniel/claude-ads, MIT) is a Claude Code skill that audits paid-media accounts across 12 platforms from exported evidence, and keeps live account changes behind a mutation gate.
 - [Claude Capsule Kit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Capsule%20Kit.md) - Claude Capsule Kit (CCK) is a hook-based engineering toolkit for Claude Code that adds session memory, dependency analysis, large-file navigation, and parallel crew teams.
 - [Claude Task Master](Technology/AI/Tools/Agents/Claude%20Code%20Kits/Claude%20Task%20Master.md) - Claude Task Master is an editor-agnostic, MCP-based task management system that parses PRDs into tasks and subtasks for AI-driven development.
 - [ClaudeKit](Technology/AI/Tools/Agents/Claude%20Code%20Kits/ClaudeKit.md) - ClaudeKit is a Claude Code toolkit offering smart guardrails, real-time error prevention, expert subagents, and spec-driven workflow automation.

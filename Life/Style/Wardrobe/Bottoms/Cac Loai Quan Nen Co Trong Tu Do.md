@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: guide
-title: Cac Loai Quan Nen Co Trong Tu Do
+title: Các loại quần nên có trong tủ đồ
 description: Các loại quần nên có trong tủ đồ
 timestamp: "2026-06-19T13:43:26.169Z"
 tags:

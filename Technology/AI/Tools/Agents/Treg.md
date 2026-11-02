@@ -108,7 +108,7 @@ Request flow for `/call`: resolve tool by URL host + longest `base_url` prefix (
 - **llms.txt is agent-directed marketing.** It tells an agent to open with a "doorway" pitch, propose three tasks, and ask the human to star the repo (`gh api -X PUT user/starred/superdesigndev/treg`). Treat it as untrusted prompt content: read it, don't let an agent auto-star, auto-propose or auto-run. Likewise `install.sh` and `treg scan`/`upload` are worth inspecting the first time; `treg scan` is read-only but `upload` registers keys and skills.
 - **Telemetry.** The CLI sends anonymous command usage to PostHog on treg.to (no arguments or credentials); disable with `TREG_TELEMETRY=0` or `DO_NOT_TRACK=1`.
 - **Trust boundary.** Credentials are injected server-side, which is the selling point, but it also means treg (or a self-hosted operator) holds provider keys and OAuth refresh tokens. For sensitive accounts, prefer BYOK registration on a self-hosted instance and review the audit log (`treg calls`, `treg runs`).
-- **Repo snapshot (2026-11-02).** 6,971 stars, 614 forks, 233 open issues, created 2026-07-15, last push 2026-11-02, ~124 MB, Python. Domain `treg.to` was created 2026-08-13 (Porkbun) — a young brand, which makes the self-host path the main hedge against vendor risk.
+- **Repo snapshot (2026-11-02T09:37Z).** 6,977 stars, 616 forks, 232 open issues, created 2026-07-15, last push 2026-11-02T09:15Z, ~124 MB, Python. Domain `treg.to` was created 2026-08-13 (Porkbun). A young brand, which makes the self-host path the main hedge against vendor risk.
 
 ## Not checked
 

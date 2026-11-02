@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: resource
-title: Cac Loai Giay Nen Co
+title: Các loại giày nên có
 description: Giày Oxford đen
 timestamp: "2026-06-19T13:43:26.169Z"
 tags:

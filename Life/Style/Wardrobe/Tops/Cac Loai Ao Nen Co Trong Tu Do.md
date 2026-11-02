@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: guide
-title: Cac Loai Ao Nen Co Trong Tu Do
+title: Các loại áo nên có trong tủ đồ
 description: Áo thun trơn cổ tròn
 timestamp: "2026-06-19T13:43:26.169Z"
 tags:
@@ -10,7 +10,7 @@ tags:
   - clothing
 ---
 
-# Cac Loai Ao Nen Co Trong Tu Do
+# Các loại áo nên có trong tủ đồ
 
 ## 1. Áo thun trơn cổ tròn
 

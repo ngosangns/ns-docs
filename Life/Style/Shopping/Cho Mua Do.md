@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: resource
-title: Cho Mua Do
+title: Chỗ mua đồ
 description: Chỗ mua đồ
 timestamp: "2026-10-07T00:00:00.000Z"
 tags:

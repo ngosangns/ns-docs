@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: guide
-title: Quy Tac Chon That Lung
+title: Quy tắc chọn thắt lưng
 description: Quy tắc chọn thắt lưng
 timestamp: "2026-06-19T13:43:26.169Z"
 tags:

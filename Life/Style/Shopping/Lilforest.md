@@ -86,4 +86,4 @@ Giữ nguyên lời bài và hồ sơ. Chưa coi là kết quả đã xảy ra:
 - Hồ sơ tiếng Anh 2025-10-15 tự khai công suất tới 1.000 sản phẩm/ngày, hợp tác làng nghề Thanh Oai và Me Linh, hệ thống quản lý sản xuất AI nội bộ, và đang lập LLC tại Mỹ trong tháng 10/2025. LLC là việc hồ sơ nói đang làm tại thời điểm đó.
 - [vietnam.vn 2025-10-11](https://www.vietnam.vn/nguyen-quoc-truong-dong-sang-lap-lilforest-xay-tham-vong-trieu-usd-tu-san-pham-thu-cong-xanh), nguồn Báo Đầu tư: đơn đầu từ Pháp, Canada, Mỹ. Mục tiêu doanh thu 1 triệu USD trong năm bài viết, rồi 3–4 triệu USD năm 2026. Bài viết từng nhận đơn lớn "từ những tập đoàn thế giới như LV, China Telecom, Charles Sturt". LV giữ nguyên chữ viết tắt của bài. Cùng bài: khoảng một tuần là thợ bắt kịp việc. Hai xưởng: một xử lý rêu, một làm sản phẩm.
 
-> **Xem thêm:** [Cho Mua Do](/Life/Style/Shopping/Cho Mua Do)
+> **Xem thêm:** [Chỗ mua đồ](/Life/Style/Shopping/Cho Mua Do)

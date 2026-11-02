@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: guide
-title: Cach Lam Sach Va Bao Quan Boots
+title: Cách làm sạch và bảo quản boots
 description: Cách vệ sinh và làm sạch đôi boots của bạn
 timestamp: "2026-06-19T13:43:26.170Z"
 tags:
@@ -10,7 +10,7 @@ tags:
   - clothing
 ---
 
-# Cach Lam Sach Va Bao Quan Boots
+# Cách làm sạch và bảo quản boots
 
 ## Cách vệ sinh và làm sạch đôi boots của bạn
 

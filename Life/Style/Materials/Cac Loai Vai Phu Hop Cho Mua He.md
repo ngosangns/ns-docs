@@ -2,7 +2,7 @@
 area: life
 domain: clothing
 type: resource
-title: Cac Loai Vai Phu Hop Cho Mua He
+title: Các loại vải phù hợp cho mùa hè
 description: Các loại vải phù hợp cho mùa hè
 timestamp: "2026-06-19T13:43:26.170Z"
 tags:

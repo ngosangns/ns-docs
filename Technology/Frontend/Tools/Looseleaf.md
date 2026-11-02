@@ -31,7 +31,7 @@ resource: https://github.com/kevintngo/looseleaf
 | Mascot         | **Stubby, 15 poses**    | idle, wave, think, write, sketch, celebrate, oops, shrug, sleep, peek, point, carry, halt, search, unplug                                                     |
 | Font           | **Kevin Sans**          | custom hand-drawn face, woff2 400/700 (43.5 KB / 48.2 KB), MIT with the code; IBM Plex Mono is SIL OFL 1.1                                                    |
 
-Repo snapshot: created 2026-11-01T05:16Z, last push 2026-11-01T18:25Z, 9 commits, single author (`kevintngo`, account created 2026-10-20), 32 stars, 2 forks, 1 open issue, MIT, TypeScript, ~31 MB. Very new — treat the API surface as unstable.
+Repo snapshot: created 2026-11-01T05:16Z, last push 2026-11-01T18:25Z, 9 commits, single author (`kevintngo`, account created 2026-10-20), 41 stars, 2 forks, 1 open issue, MIT, TypeScript, ~31 MB. Stars rechecked on the GitHub API at 2026-11-02T09:37Z. The commit count was not recounted. Very new. Treat the API surface as unstable.
 
 ## Install
 
