@@ -85,4 +85,4 @@ The CLI sends anonymous usage telemetry by default: commands, engines, and where
 
 Security reports go to `security@tester.army`, not to a public issue. See `SECURITY.md` in the repo.
 
-> **See also:** [Testing Tools](/Technology/Testing/Tools/Testing Tools) · [Decision 2.0](/Technology/AI/Concepts/LLM And Generative AI/Decision 2.0)
+> **See also:** [Testing Tools](/Technology/Testing/Tools/Testing Tools) · [Decision 2.0](/Technology/AI/Concepts/LLM And Generative AI/Decision 2.0) · [The Future of Software Testing](/Technology/Testing/Resources/Future Of Software Testing)

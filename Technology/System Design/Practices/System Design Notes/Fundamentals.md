@@ -66,6 +66,9 @@ Below are 8 common system design problems and the solutions usually applied to t
 ## References and Tools
 
 - [GonnaCrash](/Technology/System Design/Resources/GonnaCrash): 200Lab's browser game. Place components, run traffic, and see which part crashes inside a budget. Play at https://systemdesign.200lab.io/.
+- [Breakscale](/Technology/System Design/Tools/Breakscale): open-source discrete-event simulator. Same canvas in the browser, VS Code, and an MCP server. Repo https://github.com/workersio/breakscale.
+- [Sys0](/Technology/System Design/Resources/Sys0): Rakesh K's system design course at https://sys0.in/. The syllabus is public. Lessons and labs open after a Google sign-in, and most of the path is still scheduled.
+- [Syscraft](/Technology/System Design/Resources/Syscraft): hosted lab at https://syscraft.app/. Logged out on 2 November 2026, the learn index listed 42 lessons and the challenge index listed 19. Pro on the marketing page was $9 a month.
 - The encyclopedia of system design: a compilation of knowledge, concepts, solutions to common problems, and real-world examples. Very useful for preparing for system design interviews.
   - Source: https://github.com/donnemartin/system-design-primer
 - System Design the big archive: [e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf](/Attachments/e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf)
@@ -82,4 +85,4 @@ Below are 8 common system design problems and the solutions usually applied to t
 - Chuyện anh thợ xây P3: the story of the view counter:
   - Source: https://viblo.asia/p/chuyen-anh-tho-xay-p3-chuyen-cai-bo-dem-view-5OXLAYrZLGr
 
-> **See also:** [Overview](/Technology/System Design/Practices/System Design Notes/Overview) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Software Architecture](/Technology/System Design/Practices/System Design Notes/Software Architecture) · [GonnaCrash](/Technology/System Design/Resources/GonnaCrash)
+> **See also:** [Overview](/Technology/System Design/Practices/System Design Notes/Overview) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Software Architecture](/Technology/System Design/Practices/System Design Notes/Software Architecture) · [GonnaCrash](/Technology/System Design/Resources/GonnaCrash) · [Breakscale](/Technology/System Design/Tools/Breakscale) · [Sys0](/Technology/System Design/Resources/Sys0) · [Syscraft](/Technology/System Design/Resources/Syscraft)

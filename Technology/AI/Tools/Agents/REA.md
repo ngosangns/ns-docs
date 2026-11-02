@@ -3,8 +3,8 @@ area: technology
 domain: agent-infrastructure
 type: tool
 title: REA
-description: REA (npm package rea-agents, MIT) is a local CLI and MCP server that connects a coding agent to Hopper, Ghidra, IDA, or static analysis and returns evidence for binaries, JavaScript, Electron, .NET, APKs, firmware, and browsers.
-timestamp: "2026-10-07T00:00:00.000Z"
+description: "REA (npm rea-agents 6.8.0, MIT) is a local CLI and MCP server that returns evidence for native binaries, JavaScript, Electron, .NET, Android, firmware, browsers, and other static formats. Checked 2 November 2026: GitHub lists 420,599 stars, the site is rea.tools, and main has commits after the 25 October 2026 npm release."
+timestamp: "2026-11-02T00:00:00.000Z"
 tags:
   - technology
   - agent-infrastructure
@@ -16,111 +16,83 @@ resource: https://github.com/morluto/rea
 
 # REA
 
-[REA](https://github.com/morluto/rea) (Reverse Engineer Anything, author morluto) is one local CLI and one MCP server for inspecting software when the source is missing. The npm package is `rea-agents`. Both bins, `rea` and `rea-agents`, point at `scripts/rea.mjs`. The MCP name in `package.json` is `io.github.morluto/rea`. License MIT. Site: [morluto.github.io/rea](https://morluto.github.io/rea/). Guides: [morluto.github.io/rea/guides](https://morluto.github.io/rea/guides/). Discord: [discord.gg/GkcryMnJDM](https://discord.gg/GkcryMnJDM).
+[REA](https://github.com/morluto/rea) (Reverse Engineer Anything, author morluto) is one local CLI and one MCP server. An agent, or the `rea` command, asks it to inspect a target and it returns findings with the evidence and the limits of that evidence. The npm package is `rea-agents`. Both bins, `rea` and `rea-agents`, point at `scripts/rea.mjs`. License MIT.
 
-Checked 2026-10-07 against GitHub and the npm registry. The repo was created 2026-04-14. Default branch `main`. Language TypeScript. 11,741 stars, 1,254 forks, 99 open issues. Last push 2026-10-07, HEAD `c7530f9` (`perf(javascript): reduce analysis and source-map work`, #955). Published npm `latest` is **4.1.0**, released 2026-10-06 as tag `rea-agents-4.1.0` (commit `9622b4b4`). `package.json` on `main` still says `4.1.0`. The README says `main` can lead the npm package, so a fact read from `main` on this date is not automatically in the published tarball.
+Checked 2 November 2026 against the GitHub API, `package.json` on `main`, the README, `DISCLAIMER.md`, the start of `SECURITY.md`, and the npm registry. This note did not install REA and did not run it.
 
-Analysis runs on the machine. Hopper and Ghidra are reached through authenticated private local sockets. IDA is reached through a local MCP registration the caller already has. The model provider still has its own data policy. The README's disclaimer says the tools are for lawful research, analysis, and reconstruction, and that authorization is the caller's responsibility.
+Get it from [morluto/rea](https://github.com/morluto/rea), [rea.tools](https://rea.tools/), or the [rea-agents](https://www.npmjs.com/package/rea-agents) package. The README says a similar repository name or a copied README does not make a download official. Guides: [rea.tools/guides](https://rea.tools/guides/). Showcases: [rea.tools/showcase](https://rea.tools/showcase/). Discord: [discord.gg/GkcryMnJDM](https://discord.gg/GkcryMnJDM).
 
-## Install
+## Snapshot
 
-Node engines, from `package.json` and the live npm manifest: `^22.19.0 || ^24.11.0 || >=26.0.0`. npm is required. REA does not install a particular npm version.
+| Fact | 2 November 2026 | 7 October 2026 note |
+| --- | --- | --- |
+| Stars | 420,599 | 11,741 |
+| Forks | 105,015 | 1,254 |
+| Open issues | 1,625 | 99 |
+| npm `rea-agents` | 6.8.0, published 25 October 2026, tag `rea-agents-6.8.0` | 4.1.0, published 6 October 2026 |
+| `package.json` on `main` | 6.8.0 | 4.1.0 |
+| Commit read | `93b8b82db7`, 2 November 2026 08:50 UTC, `feat(native): deliver batch decompile as a retained summary` (#8631) | `c7530f9` |
+| Last push | 2 November 2026 10:31 UTC | 7 October 2026 |
+| Node engines | `^22.23.4 \|\| ^24.22.1 \|\| >=26.12.1` | `^22.19.0 \|\| ^24.11.0 \|\| >=26.0.0` |
+| Site named in the README | rea.tools | morluto.github.io/rea |
+
+The repo was created 14 April 2026. Default branch `main`. Language TypeScript. GitHub `size` is 137,536 KB. A later vault note, [Awesome Reverse Engineered](/Technology/Security/Tools/Awesome Reverse Engineered), already recorded an API reading of 351,629 stars against this note's 11,741. The 2 November count is another API reading. This note does not explain the size of the move.
+
+`package.json` and the published package both say 6.8.0. `main` still has commits after the 25 October tag. The README tells you to check release availability for features added since the latest npm release. A fact read from `main` on this date is not automatically in the 6.8.0 tarball.
+
+## What the current README says it can open
+
+Analysis runs on the machine. The FAQ says the agent receives tool results, and the model provider has its own data policy. Static JavaScript and .NET inspection read the supplied files and do not run the application. Runtime capture runs or interacts with the selected target using the caller's user permissions.
+
+Deep native analysis uses Hopper, Ghidra, IDA, or Kuna. Setup can install Hopper after you approve it. Ghidra, IDA, and Kuna use installations you already have. Static JavaScript and .NET inspection need no native engine. Offline native inspection can also use caller-supplied GNU objdump or Rizin. REA does not install those two.
+
+The README's target table, read on this date, also names desktop installation markers, Go and Rust binaries, GPU code objects, GGUF and safetensors headers, IL2CPP metadata, Godot PCK, PE certificates and imports, ELF notes, Apple IPS crashes, Linux kernel modules, Erlang BEAM, WASM (caller-supplied WABT 1.0.42), EVM bytecode, SQLite, recorded Linux crashes, websites, HAR or Fiddler SAZ captures, Android APKs (headless JADX and a full JDK), firmware, recorded packets, logic-signal recordings, packages and Apple bundles, process behavior, and PyInstaller executables. Linux static JavaScript, Electron, Ghidra, JADX, and firmware launches need a procps-compatible `ps` on `PATH`.
+
+On Linux, the process-ownership check is a prerequisite named in the README, with recovery steps in `docs/installation.md`. This note did not re-count MCP tools. `docs/product-catalog.json`, which the 7 October note used, returned 404. The README badge now points at the generated catalog in `docs/mcp-contracts.md`.
+
+Setup's own sentence lists Claude Code, Codex, Cursor, Gemini CLI, Grok Build, and other agents in the installation guide. The FAQ says any client that can launch a local MCP server can be registered by hand. MCP input schemas are compact unless `REA_MCP_INPUT_SCHEMA_PROFILE=full`. Output schemas are complete unless `REA_MCP_OUTPUT_SCHEMA_PROFILE` is `compact` or `off`.
 
 ```bash
 npx rea-agents setup
 npm install --global rea-agents
-rea setup
 rea update
+npx rea-agents@latest setup
 ```
 
-`npx rea-agents setup` is the README's recommended path. It shows the paths it will change, backs up existing configuration, and registers MCP plus a version-matched skill for the agents you select. Existing REA registrations are selected by default. Newly detected agents stay unselected until chosen. Hopper is a separate consent step. An existing Ghidra install can be recorded. REA does not download Ghidra or Java.
+`rea update` is the path for a global npm or Bun install. The README says Bun global updates need Bun 1.2.17 or newer, and that the updater keeps at most 4 MiB of combined stdout and stderr. One-off commands use `npx rea-agents@latest` or `bunx rea-agents@latest`.
 
-The optional repo skill is `reverse-engineer-anything` (`npx skills add morluto/rea --skill reverse-engineer-anything`). That command installs the repository copy. Setup installs the copy that matches the package version.
+The README names three showcases (a DX-Ball sound pan, a Notion clipboard bridge, and a TH04 bullet-ring calculation) and a separate guide for turning a recorded web session into an AgentEnv environment. Those pages were not opened for this check. The numbers in the showcase blurbs are the README's claims.
 
-Manual MCP on `main`, pinned to the release the README names:
+## Limits the project states
 
-```json
-{
-  "mcpServers": {
-    "rea": {
-      "command": "npx",
-      "args": ["-y", "rea-agents@4.1.0", "mcp"]
-    }
-  }
-}
-```
+`DISCLAIMER.md` says REA is for lawful analysis: security research, malware and incident analysis, vulnerability research and coordinated disclosure, CTFs and education, interoperability, software preservation, and debugging software you own or are allowed to examine. It says the project will not help with DRM or license circumvention, game cheats, bypassing authentication or access controls on systems you are not allowed to test, copying proprietary software, evading a model provider's safety measures, or reselling AI accounts. Local operation does not by itself authorize execution, traffic capture, or device changes. Decompiler output can be wrong. IDA, Hopper, and JEB stay under their own licenses. REA does not supply a key for them.
 
-`rea update` installs an exact release and returns an unapplied plan for existing registrations. Restart the agents after applying it. `rea uninstall` removes REA-owned MCP registrations and the managed skill. `rea uninstall --purge-data` also removes `~/.rea/cache` and `~/.rea/state`. It leaves Hopper, Node.js, Evidence files, captures, unrelated skills, and other MCP servers in place, and it refuses to follow purge-data symlinks.
+`SECURITY.md` says fixes are for the latest published version. Report a vulnerability through GitHub private reporting, or by email to morluto@outlook.com. Do not put proof-of-concept exploits, credentials, or private provider projects in a public issue. Hopper and Ghidra bridges use a per-session random capability token. POSIX uses a current-user Unix socket. The same file says this is not a sandbox and does not protect against another process already running as the same user. Opening an untrusted binary hands parsing to the selected local provider with that user's permissions.
 
-Setup's named agents: Claude Code, Claude Desktop, Codex, Cursor, Gemini CLI, Windsurf, Devin, OpenCode, Antigravity, GitHub Copilot CLI, Command Code, and VS Code. Any other client that can launch a local MCP server can use the JSON above.
+## Reading from 7 October 2026
 
-## Providers
+The sections below are the note as checked on 7 October 2026, against npm 4.1.0 and `main` at `c7530f9`. They were not re-verified on 2 November 2026. Where they disagree with the snapshot above, the 2 November reading is the later one.
 
-Static JavaScript and Electron mapping needs only Node. Deep native analysis needs a bring-your-own engine. When more than one installed engine can open a target, REA does not choose. The open fails with `code: "capability_unavailable"` and `details.selection_reason: "ambiguous"`. Pass `--provider` on the CLI, `provider_id` on `open_binary`, or set `REA_ANALYSIS_PROVIDER`. An explicit selector overrides the environment variable. The session keeps that choice.
+The site named then was [morluto.github.io/rea](https://morluto.github.io/rea/). The MCP name in `package.json` was `io.github.morluto/rea`. Manual MCP was pinned to `rea-agents@4.1.0`. `rea uninstall` removed REA-owned MCP registrations and the managed skill. `rea uninstall --purge-data` also removed `~/.rea/cache` and `~/.rea/state`, left Hopper, Node.js, Evidence files, and captures in place, and refused to follow purge-data symlinks. Named setup agents then included Claude Desktop, Windsurf, Devin, OpenCode, Antigravity, GitHub Copilot CLI, Command Code, and VS Code, in addition to the clients still named in the 2 November README sentence.
 
-| Provider | What the README says it does | Bring your own |
+When more than one installed engine could open a target, REA did not choose. The open failed with `code: "capability_unavailable"` and `details.selection_reason: "ambiguous"`. An explicit `--provider`, `provider_id` on `open_binary`, or `REA_ANALYSIS_PROVIDER` selected one.
+
+| Provider | What the 7 October README said | Bring your own |
 | --- | --- | --- |
-| Hopper | Deep native analysis, `.hop` databases, annotations (names, comments, bookmarks). GUI controls go through Hopper. One request at a time. Cancelling the wait does not stop work already running inside Hopper. | Separate Hopper license. Demo mode has the vendor's limits. Setup can install it after approval: `~/Applications` on macOS, system packages on supported Linux. Default launchers: `/Applications/Hopper Disassembler.app/Contents/MacOS/hopper` and `/opt/hopper/bin/Hopper`. Override with `HOPPER_LAUNCHER_PATH`. |
-| Ghidra | Inventory, functions, memory, load image. On Linux and macOS, `annotate_native_function` edits names and entry comments in the session database and returns a refreshed dossier. Executable bytes stay unchanged. Those edits are discarded on close. Also imports DOS MZ with an explicit 16-bit x86 real-mode profile. Optional NativeAOT metadata recovery has its own pinned headless adapter. | **Ghidra 12.1.x** and the 64-bit JDK that install declares. Current 12.1 releases require JDK 21 or newer and set no maximum. The bridge is verified with Ghidra 12.1.4 and JDK 21. macOS also needs the native decompiler for that architecture. `GHIDRA_INSTALL_DIR` and, when `java` is not on `PATH`, `JAVA_HOME`. |
-| IDA Pro | Read-only function and string operations. `attached` reuses a current GUI target (legacy 1.4 tools). `headless` uses the database supervisor. REA leaves an attached GUI database open and does not save it. Results stay live because an external IDA database change is not an immutable snapshot. | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp), path in `REA_IDA_MCP_CONFIG`. The README's first verified workflows are a Windows GUI and Windows x64 headless IDA 9.3. Other engine and platform pairs are unverified. |
-| Static JavaScript | Modules, imports, source maps, routes, IPC channels, storage, and native add-ons for a directory or ASAR. Dynamic and ambiguous relationships stay unresolved. | None. `rea analyze` on a directory or `.asar` selects this provider when neither `--provider` nor `--snapshot` is set. |
-| Android APK | Package and manifest declarations, class search, member inventories, method decompilation, incoming static references. No emulator and no APK execution. | Caller-supplied headless JADX JAR and a full JDK. Linux and macOS. The metadata bridge is verified on macOS arm64. |
+| Hopper | Deep native analysis, `.hop` databases, annotations. One request at a time. | Separate Hopper license. Setup could install it after approval. |
+| Ghidra | Inventory, functions, memory, load image. Linux and macOS could edit session-scoped names and entry comments. Executable bytes stayed unchanged. | Ghidra 12.1.x and the JDK that install declared. The bridge was verified with Ghidra 12.1.4 and JDK 21. |
+| IDA Pro | Read-only function and string operations. | [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp). First verified workflows were a Windows GUI and Windows x64 headless IDA 9.3. |
+| Static JavaScript | Modules, imports, source maps, routes, IPC, storage, native add-ons. | None. |
+| Android APK | Manifest, class search, members, method decompilation, static references. No emulator and no APK execution. | Caller-supplied headless JADX and a full JDK. Linux and macOS. |
 | Firmware | Region inspection and explicit extraction, then a native handoff. | Caller-supplied Binwalk and Unblob, on Linux. |
-| Browser | Passive Chrome-family inspection over a literal loopback CDP endpoint, and a separate Playwright scenario command that can interact. | Caller-supplied Chromium for module traces (`REA_BROWSER_EXECUTABLE`). |
-| .NET | Metadata, CIL, declared native dependencies, build comparison. The assembly is not loaded or run. Imported decompiler output is labeled analyst inference. | None named as a required external decompiler in the status section. |
-| Process capture | Runs the executable and scenario named in the request and records behavior. | Linux and macOS with a working native PTY. |
+| Browser | Passive Chrome-family inspection over a loopback CDP endpoint, plus a separate Playwright scenario command. | Caller-supplied Chromium for module traces. |
+| .NET | Metadata, CIL, declared native dependencies, build comparison. The assembly was not loaded. | No external decompiler named as required. |
+| Process capture | Ran the named executable and recorded behavior. | Linux and macOS with a native PTY. |
 
-`rea doctor` with no scope audits every detected agent registration, the installed skill, and every optional engine. That audit can report `healthy: false` while the task you are running still works. Scope it: `--provider ghidra` (or `hopper`, `ida`), `--client codex`, or `--skill`. A scoped report sets `scope.mode` to `explicit`. Only `scope_checks` decide `healthy` and the exit status.
+The README on `c7530f9` grouped the investigation surface as 41 native inspection tools, 14 investigation workflows, 7 native macOS utilities, 5 artifact-graph tools, 7 managed PE/CLI tools, 2 firmware tools, 5 Android APK tools, 9 browser tools, 5 Electron tools, 2 JavaScript runtime tools, 13 application workflows, and 21 workspace tools. Those counts summed to 131, plus six guided workflows on `prompts/list`. `rea capabilities` was not that full inventory. Exact counts were generated into `docs/product-catalog.json`.
 
-## Catalog on main
+Hosts named then for the main product: macOS 12 or newer, Ubuntu 24.04+, Fedora 41+, and 64-bit Arch Linux. Windows was a narrower surface: experimental Windows x64 Ghidra for native, non-managed, non-DLL x86-64 PE on fixed local NTFS, with 25 read-only operations. Native Windows process capture stayed unavailable. Historical source import ran on Linux and macOS. Optional JavaScript source recovery was a Linux x64 adapter and needed caller-supplied Wakaru 1.13.0. The Later list then included native runtime observation (LLDB, Frida) and an evaluation of Binary Ninja, Rizin, and LIEF. The 2 November tree contains `bridge/native/rea_lldb_tracer.py`, `docs/frida-instrumentation.md`, and `docs/kuna-provider.md`, so that Later list is not a description of `main` on this date. This note did not read those new guides.
 
-The README on `main` at `c7530f9` groups the investigation surface like this. `rea capabilities` and `rea providers` list binary-session providers and auxiliary operations. They are not the full browser, Android, or application-workflow inventory. The connected MCP tool list is that inventory. Exact counts are generated into `docs/product-catalog.json`.
+CLI and MCP shared evidence contracts. A result carried artifact identity, provider, locations, confidence, and limitations. Process capture used the caller's user permissions and was not a security sandbox.
 
-| Family | Count | Examples named in the table |
-| --- | ---: | --- |
-| Native inspection | 41 | functions, pseudocode, assembly, strings, symbols, calls, references, annotations, byte reads, file offsets |
-| Investigation workflows | 14 | overviews, function dossiers, native APIs and dispatch, batch decompilation, feature traces, call paths, call graphs, Swift and Objective-C discovery |
-| Native macOS utilities | 7 | Mach-O metadata, code signatures, plists, architectures, Swift demangling, without launching Hopper |
-| Artifact graph | 5 | directory and package inventories, compiled Interface Builder, Apple asset catalogs, extraction |
-| Managed PE/CLI | 7 | .NET identity, metadata, CIL, native dependencies, reconstruction imports, build comparisons |
-| Firmware | 2 | Linux region inspection and explicit extraction |
-| Android APK | 5 | manifest, class search, members, method decompilation, incoming static references |
-| Browser observation | 9 | page structure, network metadata, scripts, source maps, WebMCP discovery, screenshots, capture comparisons |
-| Electron analysis | 5 | renderer observation, static app mapping, static/runtime reconciliation |
-| JavaScript runtime | 2 | Inspector target discovery, script locations, execution-context events |
-| Application workflows | 13 | website script export, Android and Apple inventory projections, cross-layer traces, build comparisons, historical source mapping, reconstruction checks |
-| Workspace and observation | 21 | sessions, evidence bundles, navigation context, process/artifact/function comparisons, open questions |
-
-Those counts sum to 131. Six guided MCP workflows are also advertised through `prompts/list`.
-
-## Hosts and limits
-
-Supported hosts for the main product: macOS 12 or newer, Ubuntu 24.04+, Fedora 41+, and 64-bit Arch Linux.
-
-Windows is a narrower surface, and the README states each boundary separately:
-
-- Repository `main` and npm 4.1.0 include experimental Windows x64 Ghidra for native, non-managed, non-DLL x86-64 PE applications on fixed local NTFS, with 25 read-only operations, a bundled Job Object, a private DACL, and path admission. Linux and macOS Ghidra can also edit session-scoped function names and entry comments. Windows P0 has no mutation authority and no GUI controls. The README says to check the release boundary before expecting this from an older npm package.
-- Native Windows process capture stays unavailable until the PTY adapter can verify descendant cleanup. Reinstalling the Windows PTY binary does not enable it. Comparing capture Evidence that already exists does run on Windows.
-- Historical source import (`rea import-reference-source`) needs safe no-follow opens and runs on Linux and macOS. Native Windows reports `unsupported_host`.
-
-Other limits from the same README:
-
-- Passive browser tools do not navigate, click, or evaluate page JavaScript. They do not retain credentials, cookies, authorization headers, or raw payload values. REA cannot see activity from before it attached. `capture_browser_scenario` is the separate path that can interact, through Playwright, using a caller-declared scenario.
-- Node and Electron Inspector observation records script locations and execution-context events. It does not evaluate code or set breakpoints, and it does not establish imports, IPC, process identity, or Electron roles.
-- Optional JavaScript source recovery (`recover_javascript_sources`) is a Linux x64 adapter and needs caller-supplied Wakaru 1.13.0.
-- The first Ghidra query starts import and auto-analysis and can outlast a client's default request deadline. `analysis_activity` reports a tool that is still busy after the caller times out. `cleanup_incomplete` means shutdown or removal could not be verified.
-- Snapshots are reused only when the target bytes, operation, parameters, analysis tool, and settings match. Snapshot files stay local with owner-only permissions.
-- ASAR inventory checks Electron integrity metadata for archive entries and `.asar.unpacked` companions. A hash mismatch is reported. A declared unpacked companion that is missing locally is kept as `unavailable`. REA continues on the embedded JavaScript.
-- The roadmap's Later list is not shipped: more browser and Electron scenario actions, native runtime observation (LLDB, Frida, system logs, native API tracing), and an evaluation of Binary Ninja, Rizin, LIEF, and further Windows-native, mobile, and firmware tools. IDA is already a shipped bring-your-own adapter, not part of that evaluation.
-
-## Evidence
-
-CLI and MCP share the same workflows and evidence contracts. A result carries artifact identity, provider, locations, confidence, and limitations. Missing observations stay unknown. Reconstruction checks report pass, fail, or unknown. Comparison does not treat correlation as causality.
-
-Commands that move evidence, named in the README: `rea evidence-import`, `rea evidence-export`, `rea compare`. Export does not replace an existing file unless `--overwrite` is set. Reference-source import stores hashes and metadata. To skip paths, set `REA_REFERENCE_SECRET_PATTERNS_JSON` to a JSON array of ignore patterns.
-
-Process capture runs with the caller's user permissions. The README says it records behavior and is not a security sandbox. Filesystem observation paths choose what to snapshot. A missing observation cannot prove that two runs behaved the same way.
-
-## See also
-
-Listed from [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms) and from [Security Tools](/Technology/Security/Tools/Security Tools), next to the other reverse-engineering entries.
+> **See also:** [Agent Infrastructure And Platforms](/Technology/AI/Tools/Agents/Agent Infrastructure And Platforms) · [Security Tools](/Technology/Security/Tools/Security Tools) · [Awesome Reverse Engineered](/Technology/Security/Tools/Awesome Reverse Engineered)
