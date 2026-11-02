@@ -16,6 +16,8 @@ resource: http://localhost:8080
 
 # TrustGraph
 
+TrustGraph is a self-hosted context development platform for structured knowledge. This note covers what it does, how to run it, and how its parts fit together. You get the concept first, then Docker and Kubernetes install steps, then a quick start with ingest and query. Later sections break down the multi-model database, the DocumentRAG, GraphRAG and OntologyRAG pipelines, 3D GraphViz, and the agentic system. There is also a full API reference for REST, the Python SDK, and WebSocket. The note closes with the tech stack, use cases, and honest strengths and weaknesses. Read it when you are choosing a graph-native backend for agent memory or complex retrieval.
+
 ## Definition
 
 **TrustGraph** is "the context development platform" — it stores, enriches, and retrieves structured knowledge with graph-native infrastructure, semantic retrieval, and portable context cores. It is designed for applications that need to manage structured knowledge at scale, similar to Supabase but built around context graphs.
@@ -229,6 +231,8 @@ kubectl apply -f kubernetes/
 - **Multi-model data**: Need to store many kinds of data
 - **Self-hosted preference**: Don't want cloud vendor lock-in
 - **Graph-native apps**: When the graph is the core of the architecture
+
+The table lists tabular data, key-value lookups, documents, graphs, vectors, images, video, and audio. Retrieval is split into DocumentRAG, GraphRAG, and OntologyRAG. A local start is docker compose up, and Kubernetes is the cloud path, with the sample deployment set to 3 replicas. The agent sample uses anthropic/claude-3-sonnet with search, query, and memory tools. Storage in the stack is Cassandra, Qdrant, and Garage, with Pulsar for messaging. Cassandra, Pulsar, and Qdrant make a heavy stack with a steep learning curve. The gain is self-hosting, portable context cores, and no vendor lock-in apart from third-party LLM, OCR, or gateway keys.
 
 ---
 

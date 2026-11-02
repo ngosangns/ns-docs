@@ -15,6 +15,8 @@ resource: https://github.com/MemPalace/mempalace
 
 # MemPalace
 
+This note profiles MemPalace, a local-only memory system that stores raw exchanges instead of summaries. It starts with the claim and the headline numbers, then gives the three benchmark figures, including the LongMemEval R@5 result and the zero annual cost. The feature list explains the palace metaphor, the verbatim storage choice, the experimental abbreviation dialect and the SQLite knowledge graph. Install and CLI commands come next, followed by a short Python call and the MCP server entry point. Later sections cover the architecture, what each storage layer holds, the use cases, and why the tool stays free. Pros and cons close the page, along with the situations where MemPalace is the right pick.
+
 ## Definition
 
 **MemPalace** is advertised as the "highest-scoring AI memory system ever benchmarked. And it's free." With 44k stars, it is one of the strongest memory systems for AI assistants.
@@ -188,6 +190,8 @@ python -m mempalace.mcp_server
 - **Cost-sensitive**: Free with the full feature set
 - **Multi-project**: Managing multiple AI conversations
 - **Team memory**: Shared knowledge across a team
+
+MemPalace stores the raw exchange in ChromaDB and skips summaries, which is the mode behind the 96.6% LongMemEval R@5 score on all 500 questions. The palace layout splits people and projects into wings, topics into rooms, and memory types into halls. A SQLite graph keeps temporal links between entities, as a local alternative to Zep's Graphiti. The experimental abbreviation dialect falls back to 84.2%, so raw mode stays the accurate path.
 
 ---
 

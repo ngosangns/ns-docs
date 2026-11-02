@@ -13,6 +13,8 @@ resource: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-aca
 
 # IELTS Listening And Reading — Nghe và Đọc
 
+Trang này tóm tắt hai phần thi nghe và đọc của IELTS theo định dạng trên ielts.org. Với Listening, bạn có thời lượng, cấu trúc bốn phần mười câu mỗi phần, kiểu giọng đọc, các dạng câu hỏi và cách chấm. Với Reading Academic, bạn có thời lượng, số bài và số từ, nguồn bài, mười một dạng câu hỏi và cách chấm. Một lưu ý ngắn so sánh Reading với bản General Training. Phần cuối gom các mẹo dùng chung cho cả hai kỹ năng, quan trọng nhất là đọc câu hỏi trước và nhận diện paraphrase. Mỗi mục đều kèm liên kết tới trang chính thức để bạn kiểm tra lại.
+
 ## Listening
 
 - **Thời lượng:** ~30 phút nghe (chỉ nghe một lần) + thời gian chuyển đáp án.

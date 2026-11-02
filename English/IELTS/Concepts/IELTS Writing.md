@@ -13,6 +13,8 @@ resource: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-aca
 
 # IELTS Writing — Kỹ năng Viết
 
+Trang này đi qua hai task của bài viết IELTS theo định dạng trên ielts.org. Phần đầu nêu thời lượng chung và tỉ trọng điểm, trong đó Task 2 nặng gấp đôi Task 1. Mỗi task sau đó có yêu cầu, độ dài tối thiểu, thời gian đề xuất và kỹ năng được đánh giá. Task 1 bản Academic là mô tả biểu đồ hoặc sơ đồ, còn bản General Training là viết thư, và trang nói rõ khác biệt này. Bốn tiêu chí chấm được liệt kê cho cả hai task, kèm gợi ý các cấu trúc ngữ pháp giúp tăng độ đa dạng. Phần cuối là những lỗi thường gặp để bạn tránh trước ngày thi.
+
 ## Cấu trúc chung
 
 - **Thời lượng:** 60 phút cho cả hai task, làm liên tiếp.

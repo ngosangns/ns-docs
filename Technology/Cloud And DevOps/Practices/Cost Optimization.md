@@ -15,6 +15,8 @@ tags:
 
 # Cost Optimization
 
+Cost Optimization records one incident and the reasoning it taught. An SRE saw AWS Lambda spend grow 70x in three days, from about 200 dollars a month to about 14,000, and a budget alert did not stop it in time. The cause was a copy-paste in Terraform. Memory was set to 4096 MB when about 128 MB was enough, and millions of daily invocations multiplied the bill. The note then explains the three cost drivers, which are memory allocated, request count, and duration, and the levers that act on them. ARM CPUs cut the price, AWS Lambda Power Tuning finds the sweet spot between memory and execution time, and concurrency settings cap or warm instances. It ends with lessons on right-sizing memory, tuning architecture, limiting concurrency, and profiling.
+
 ## DevOps Burning Infra Money – Episode 2
 
 ### The Story of Lambda Costs "Evaporating"

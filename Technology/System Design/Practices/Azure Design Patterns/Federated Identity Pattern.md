@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/federate
 
 # Federated Identity Pattern
 
-The Federated Identity pattern delegates authentication to an external identity provider (IdP). This simplifies development, reduces the user-administration burden, and improves the user experience of the application.
+The Federated Identity pattern delegates authentication to an external identity provider (IdP). This simplifies development, reduces the user-administration burden, and improves the user experience of the application. People work with many applications from different organizations, and a separate login for each one leads to forgotten passwords. An employee who leaves may keep live accounts across systems, and administrators reset passwords application by application. The pattern lifts authentication out of the application code and gives it to a trusted provider such as Microsoft Entra ID, Google, or a company directory. The provider returns a signed token with claims about identity, roles, and permissions. The application never sees the password, though the IdP becomes a single point of failure.
 
 ## Context and Problem
 

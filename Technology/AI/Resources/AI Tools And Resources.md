@@ -14,6 +14,8 @@ resource: https://beta.theb.ai/home
 
 # AI Tools And Resources
 
+This page is a long personal bookmark list of AI tools, learning material and odds and ends. The tools come first, from chat assistants and search engines to video, audio, image and slide generators, each with a line on what it does. The middle section gathers machine learning and deep learning resources, including courses, Vietnamese translations of popular books, cheat sheets and articles on topics like semi supervised learning and object detection. The last stretch holds unrelated bookmarks, such as career roadmaps and forum threads. The reader gets a single place to scan for a tool or a study path, though many entries carry no grouping.
+
 - [TheB.ai is an AI platform that gives unified access to many large language models and AI tools through a single interface. Users can chat with different AI models, generate content, and use AI for productivity and creative tasks, acting as a hub for leading AI technologies without needing to sign up for many separate services.](https://beta.theb.ai/home)
 - [Finchat.io (now Fiscal.ai) is an all-in-one AI-powered stock research platform providing financial data for global stocks, ETFs, and funds. Features include AI summaries, KPI data, personalized dashboards, and an API. Trusted by more than 350,000 investors.](https://finchat.io/)
 - [OpenFuture AI is the world's largest artificial intelligence tool directory with over 40,000 AI tools, categorized by field including productivity, development, marketing, health, e-commerce, and finance. Supports multiple languages including Vietnamese.](https://openfuture.ai/vi)

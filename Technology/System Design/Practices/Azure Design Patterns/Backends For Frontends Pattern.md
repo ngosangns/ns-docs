@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/backends
 
 # Backends For Frontends Pattern
 
-The Backends for Frontends (BFF) pattern describes how to separate backend services from frontend implementations in order to tailor the experience for different client interfaces. It is useful when you want to avoid customizing a single shared backend for too many kinds of interfaces.
+The Backends for Frontends (BFF) pattern describes how to separate backend services from frontend implementations in order to tailor the experience for different client interfaces. It is useful when you want to avoid customizing a single shared backend for too many kinds of interfaces. Each interface, whether web, mobile or IoT, gets its own BFF that sits between that frontend and the shared backend services. The mobile BFF, for example, can combine several calls into one to save bandwidth. The cost is real. More services mean more deployment and security overhead, and each extra hop adds latency. Logic may also be duplicated across BFFs. A BFF should carry only user interface logic, leaving authentication and monitoring to a shared layer.
 
 ## Context and Problem
 

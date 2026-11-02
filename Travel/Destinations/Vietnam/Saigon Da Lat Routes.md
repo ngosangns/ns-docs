@@ -14,7 +14,7 @@ tags:
 
 # Tuyến Sài Gòn – Đà Lạt trong một ngày
 
-Ghi ngày 2026-09-22. Lời khuyên gốc được giữ nguyên văn, kể cả các mốc thời gian tương đối ("mùa này", QL28B "đợi đến 2026").
+Ghi ngày 2026-09-22. Lời khuyên gốc được giữ nguyên văn, kể cả các mốc thời gian tương đối ("mùa này", QL28B "đợi đến 2026"). Ghi chú gom sáu cách chạy trong một ngày. Tuyến phổ biến đi QL20 qua đèo Chuối, đèo Bảo Lộc, Di Linh rồi đèo Prenn. Tuyến nhàn vòng qua Madagui, Đạ Tẻh, Bảo Lâm, Lâm Hà. Có tuyến ven biển qua Vĩnh Hy, Ba Hồ và đèo Sông Pha. Nhóm nối Bình Thuận với Lâm Đồng có bốn biến thể qua Tà Pao, QL55, QL28 và QL28B. Ai còn dư xăng thì chạy Nha Trang, Khánh Vĩnh, đèo Khánh Lê. Vòng "ai dám" qua Ban Mê Thuột và Đam Rông là bản nặng nhất. Cuối ghi chú là các điểm dừng ở Bảo Lộc.
 
 ## 1. Tuyến phổ biến
 

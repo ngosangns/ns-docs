@@ -12,7 +12,7 @@ tags:
 
 # Prepositions — Giới từ
 
-Giới từ nối danh từ hoặc đại từ với phần còn lại của câu, chỉ **thời gian, nơi chốn, hướng, hoặc quan hệ**.
+Giới từ nối danh từ hoặc đại từ với phần còn lại của câu, chỉ **thời gian, nơi chốn, hướng, hoặc quan hệ**. Giới từ chỉ thời gian đi theo ba nhóm quen thuộc là at, on và in. At dùng cho giờ chính xác, lễ hội, ban đêm và cuối tuần. On dùng cho ngày và ngày tháng. In dùng cho tháng, năm, mùa, thế kỷ và buổi trong ngày. Trước today, yesterday, tomorrow, tonight và các cụm last, next, this, every thì không dùng giới từ. Nhóm chuyển động gồm to, into, onto, through, across, along. Nhiều động từ, tính từ, danh từ bắt buộc một giới từ cố định nên phải học thuộc. Sau giới từ luôn dùng danh động từ.
 
 ## Thời gian
 

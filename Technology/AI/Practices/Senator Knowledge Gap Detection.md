@@ -14,6 +14,8 @@ tags:
 
 # Senator Knowledge Gap Detection
 
+This note explains SENATOR, a framework that lets a language model find and repair its own knowledge gaps. It first states the problem, where models answer poorly in specialized domains because they miss complex domain relationships, which then shows up as hallucination. The architecture is broken down into its parts, a knowledge graph, Monte Carlo Tree Search, structural entropy, synthetic data, and fine-tuning. The process runs in two steps. First it finds gaps by measuring uncertainty on cloze questions and exploring suspect regions of the graph. Then it patches them with targeted synthetic question and answer pairs followed by fine-tuning. A closing list of benefits sums up why the approach is more efficient than retraining a whole model.
+
 ## Problem
 
 - LLMs answer inaccurately or incorrectly in specialized domains because they haven't mastered complex domain-specific relationships

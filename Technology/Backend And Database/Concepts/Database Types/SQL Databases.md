@@ -16,6 +16,14 @@ resource: https://github.com/ClickHouse/ClickHouse
 
 Relational databases that use SQL.
 
+This note names four systems. They are PostgreSQL, MySQL, TiDB, and ClickHouse.
+
+PostgreSQL is an open-source ORDBMS with ACID, JSON, and full-text search. Details point to the PostgreSQL note. MySQL is a popular relational database management system. Details point to the MySQL note.
+
+TiDB is a distributed NewSQL database. It is MySQL-compatible and it scales horizontally. The note names e-commerce and banking as common uses.
+
+ClickHouse is a columnar database for OLAP, and it is described as high performance. OLAP means Online Analytical Processing. The ClickHouse link points at its GitHub repository.
+
 ## PostgreSQL
 
 - Open-source ORDBMS with ACID, JSON, and full-text search

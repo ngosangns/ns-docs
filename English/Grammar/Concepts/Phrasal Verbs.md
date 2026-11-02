@@ -14,6 +14,8 @@ tags:
 
 Phrasal verb là **động từ + tiểu từ** (trạng từ hoặc giới từ: up, on, off, in, out, over, away...) mà nghĩa thường mang tính thành ngữ — khác hẳn động từ gốc: _give up_ (bỏ cuộc), _look after_ (chăm sóc).
 
+Cụm có thể không cần tân ngữ, như took off hay broke down. Cụm tách được cho phép tân ngữ đứng giữa, và đại từ thì bắt buộc đứng giữa, nên nói turn it off chứ không nói turn off it. Cụm không tách được giữ tân ngữ phía sau, kể cả đại từ, như look after them.
+
 ## Các loại
 
 ### Nội động — Không có tân ngữ

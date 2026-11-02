@@ -17,7 +17,7 @@ resource: https://arxiv.org/abs/2402.13521
 
 # TDD With Coding Agents
 
-Notes from a Vietnamese engineer's post on what changes when TDD moves from a human to an agentic loop. The post's own claims are marked as such below; the sources I could open are cited where they support or complicate them. The comment-linked article the post refers to was not available, so it is not summarised here.
+Notes from a Vietnamese engineer's post on what changes when TDD moves from a human to an agentic loop. The post's own claims are marked as such below; the sources I could open are cited where they support or complicate them. The comment-linked article the post refers to was not available, so it is not summarised here. The post argues that strict red, green, refactor costs roughly 3x the tokens and does not clearly improve the result. Two failure modes get named, an agent that writes the test after the code and an agent that edits the test until it passes. The rest of the note covers the evidence for the second failure and a lighter workflow built on outcome feedback, regression tests and ATDD.
 
 ## Why TDD helped humans
 

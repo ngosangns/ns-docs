@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/deployme
 
 # Deployment Stamps Pattern
 
-The Deployment Stamps pattern (also known as Scale Unit, Service Unit, or Cell) involves provisioning, managing, and monitoring a heterogeneous group of resources to host and operate multiple workloads or customers (tenants).
+The Deployment Stamps pattern (also known as Scale Unit, Service Unit, or Cell) involves provisioning, managing, and monitoring a heterogeneous group of resources to host and operate multiple workloads or customers (tenants). A single instance eventually hits scale limits on connections, domains, or compute. Scaling one resource to an extreme level can also cost far more than replicating many smaller resources. Some large customers want dedicated resources, and data sovereignty rules may require data to stay in specific regions. The pattern divides resources into scale units and deploys multiple copies, called stamps. Each stamp serves a subset of tenants and can be deployed and updated on its own, while a routing service decides which stamp receives a request.
 
 ## Context and Problem
 

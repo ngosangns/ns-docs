@@ -15,6 +15,8 @@ resource: https://huggingface.co/khanhld/chunkformer-large-vie
 
 # Chunking Strategies
 
+This page surveys how text is split before it is embedded and indexed in a retrieval pipeline. It opens with why chunking matters, since the split affects both what the retriever finds and how good the answer is. The main body describes five approaches in turn, fixed size, recursive, document based, semantic, and agentic, and each entry covers the idea and where it fits. Semantic chunking gets extra detail on its steps and on the buffer size and threshold parameters that control merging. Two shorter sections cover proposition based retrieval and ChunkFormer, a masked chunking model for long form speech transcription trained on Vietnamese data. Links to the RAG overview and fine tuning notes close the page.
+
 ## The Role of Chunking
 
 - Splitting text (chunking) is an important step in a RAG system for optimizing how information is retrieved and used

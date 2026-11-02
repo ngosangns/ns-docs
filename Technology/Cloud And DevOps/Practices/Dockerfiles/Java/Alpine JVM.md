@@ -16,6 +16,8 @@ resource: http://127.0.0.1:8080/health
 
 # Alpine JVM
 
+This note covers a Spring Boot Dockerfile that builds with Gradle on an Alpine JDK and runs on an Alpine JRE. The builder caches Gradle downloads through a BuildKit cache mount, and the runtime adds a non-root user, OCI labels, a curl healthcheck, and a block of JVM flags. SIGTERM plus graceful shutdown settings let in-flight requests finish before the process exits. The note also records where this design falls short, including musl libc risk, no jlink step, and the curl dependency. You get the full Dockerfile, a code highlight of the JVM flags, and use cases for teams that want small images yet keep a shell for troubleshooting.
+
 ## Techniques
 
 - **Base image**: `eclipse-temurin:21-jre-alpine-3.22` (Alpine JRE)
@@ -171,5 +173,7 @@ ENV JAVA_OPTS="\
 # Graceful shutdown
 STOPSIGNAL SIGTERM
 ```
+
+The Alpine runtime is eclipse-temurin 21 JRE on Alpine 3.22, and the builder is the matching JDK. The curl healthcheck waits 10 seconds between tries, times out in 3 seconds, allows a 10 second start period, and retries 3 times. JVM flags turn on container support, cap the heap at 75 percent of container memory, select G1GC, and exit or dump the heap on out of memory. SIGTERM plus a 10 second shutdown phase lets in-flight work finish. The image stays smaller than Debian, yet it is still larger than distroless, and musl libc plus the full JRE remain the costs.
 
 > **See also:** [Optimization Techniques](/Technology/Cloud And DevOps/Practices/Dockerfiles/Java/Optimization Techniques) · [Ultra Optimized](/Technology/Cloud And DevOps/Practices/Dockerfiles/Java/Ultra Optimized) · [Distroless JLink](/Technology/Cloud And DevOps/Practices/Dockerfiles/Java/Distroless JLink)

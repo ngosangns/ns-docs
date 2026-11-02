@@ -15,6 +15,8 @@ resource: https://en.wikipedia.org/wiki/Queueing_theory
 
 # Queuing Theory In Model Serving
 
+This note tells a debugging story from model serving. A replay system recorded production traffic and ran it again at the same throughput, yet reported a p99 latency only half of what production showed. Several hypotheses failed before profiling showed that CUDA kernels from different requests were interleaved, which stretches each request. A small worked example with fixed intervals and burst traffic makes the point. The fix was to replay traffic as a Poisson process instead of at fixed intervals, which brought the gap under five percent. The closing lessons argue that traffic distribution matters as much as throughput, and that queuing theory belongs in the toolbox of anyone tuning GPU serving.
+
 ## Problem Summary
 
 ### Context

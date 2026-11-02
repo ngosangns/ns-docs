@@ -14,6 +14,8 @@ resource: https://github.com/zyddnys/manga-image-translator
 
 # Manga Image Translator
 
+Manga-Image-Translator is an open-source Python pipeline for manga and comics. You pick a detector, an OCR engine, an inpainter, and a translator, then run the same job from a web UI, the CLI, an API, or a WebSocket. The license is GPL-3.0.
+
 ## Definition
 
 **Manga-Image-Translator** is the most comprehensive open-source pipeline for translating manga/comics. It supports one-click translation for many kinds of images, with many different detectors, OCR engines, inpainters, and translators. It is the foundational project that many other tools (cotrans, oomol-flows) build on.

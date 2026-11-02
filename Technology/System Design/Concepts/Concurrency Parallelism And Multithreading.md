@@ -15,6 +15,8 @@ resource: https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5
 
 # Concurrency Parallelism And Multithreading
 
+Concurrency, parallelism, asynchronous execution and multithreading name different things, and the note separates them before showing how each behaves in a running process. It walks through what happens during a thread context switch and why that cost is high. It then compares a thread switch with an event loop running on a single thread. A final section states when async fits I/O-bound work and when CPU-bound work calls for threads or processes.
+
 ## Resources
 
 - Lập trình song song (Parallel Programming series): https://viblo.asia/s/lap-trinh-song-song-0gdJzv6kJz5

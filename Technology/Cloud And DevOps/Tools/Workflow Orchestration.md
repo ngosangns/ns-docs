@@ -15,6 +15,8 @@ resource: https://github.com/kestra-io/kestra
 
 # Workflow Orchestration
 
+This note covers two open-source tools. Kestra builds, schedules, and monitors complex workflows. Apache NiFi automates data pipelines for cybersecurity, observability, event streams, and generative AI. A browser UI designs, controls, and monitors workflows. Processing targets throughput and latency, with guaranteed delivery, retries, and horizontal scaling. Provenance tracking keeps a searchable history and lineage from source to destination. Plugin interfaces cover Processors and Controller Services, with Python processors and a REST API. Security uses OpenID Connect or SAML 2 single sign-on, role-based access control, and TLS or SFTP encryption. Java 21 is required. Python 3.10 or newer is optional. Uses include pipeline automation, ETL, real-time processing, and data distribution.
+
 ## Kestra
 
 - **Kestra**: An open-source platform for building, scheduling, and monitoring complex workflows - https://github.com/kestra-io/kestra

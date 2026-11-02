@@ -14,6 +14,8 @@ tags:
 
 # Java Microservices
 
+This note points at MicroProfile, described here as an API library with tools for building Java microservices. The project site calls the goal optimizing Enterprise Java for a microservices architecture. The homepage lists MicroProfile 7.1, released 17 June 2025, as the current release. That release updates Telemetry and OpenAPI. The same page lists Config, Fault Tolerance, Health, JWT, Rest Client, and OpenAPI among the specifications. The site says the project runs under the Apache License, Version 2.0. The specification list on that page also names GraphQL, Metrics, Reactive Messaging, Telemetry, and LRA, plus Jakarta EE Core Profile. The mission line calls it an open forum to optimize Enterprise Java for microservices and to collaborate toward standardization. The homepage links a charter hosted by the Eclipse Foundation. Nearby notes are JVM Anatomy and Java Spring.
+
 ## Resources
 
 - MicroProfile: an API library that provides tools for building microservices.

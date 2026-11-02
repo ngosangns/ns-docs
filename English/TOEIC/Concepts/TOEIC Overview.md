@@ -17,6 +17,8 @@ resource: https://www.eu.ets.org/toeic/about/listening-reading.html
 
 TOEIC (Test of English for International Communication), do **ETS** phát triển, đo năng lực tiếng Anh cho môi trường làm việc và giao tiếp quốc tế. Gồm **hai bài thi độc lập**: Listening & Reading (L&R) và Speaking & Writing (S&W) — có thể thi riêng.
 
+Listening và Reading dài 120 phút với 200 câu. Listening có 45 phút và 100 câu. Reading có 75 phút và 100 câu. Mỗi kỹ năng từ 5 đến 495 điểm, tổng từ 10 đến 990, quy sang CEFR từ A1 đến C1. Speaking có 11 câu, khoảng 20 phút. Writing có 8 câu trong 60 phút và hiệu lực 2 năm.
+
 ## TOEIC Listening & Reading
 
 - **Tổng thời gian:** 120 phút, **200 câu trắc nghiệm**.

@@ -15,11 +15,11 @@ resource: https://viblo.asia/p/toi-uu-he-thong-kieu-luoi-sua-ti-xiu-ma-duoc-qua-
 
 # Case Study Quick Win Optimization
 
-> **Source:** [Lazy-Style System Optimization: A Tiny Fix for a Huge Gain - Viblo](https://viblo.asia/p/toi-uu-he-thong-kieu-luoi-sua-ti-xiu-ma-duoc-qua-troi-Nj4vgpg2J6r) > **Author:** Minh Monmen
+> **Source:** [Lazy-Style System Optimization: A Tiny Fix for a Huge Gain - Viblo](https://viblo.asia/p/toi-uu-he-thong-kieu-luoi-sua-ti-xiu-ma-duoc-qua-troi-Nj4vgpg2J6r) > **Author:** Minh Monmen. The note keeps both case studies in the same shape, so the context, the problem, the solution and the result line up. The first study starts from a migration to Golang where CPU barely moved. The second starts from a bill for CORS headers alone. A short section lists the wins that arrived without detail. The closing approach section turns all of them into a routine of monitoring, prioritising by impact and reviewing the simple options.
 
 ## Overview
 
-The article shares small changes that delivered outsized results during system optimization. There are two main case studies:
+The article shares small changes that delivered outsized results during system optimization. There are two main case studies. One cuts CPU by 70 percent through an early-return reorder on the request that carries most traffic, while the other saves 63 percent of data transfer by moving CORS headers and preflight handling to a Cloudflare Snippet. Shorter notes record drops in Redis bandwidth, Redis load, and random 5xx errors.
 
 ## Case Study 1: 70% Less CPU From a One-Line Change
 

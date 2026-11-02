@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/giai-thuat-euclid-mo-rong-extended-euclidean-algo
 
 # Extended Euclidean Algorithm
 
+The note treats one equation, ax + by = c, and the algorithm that solves it. It first states when an integer solution exists, namely when gcd(a, b) divides c. A short section on the Euclidean algorithm follows, with its division steps and O(log min(a, b)) cost, because the extended version reuses that process. While the divisions run, the extended algorithm also computes the coefficients x and y through a recurrence, so one pass returns both the GCD and a solution. The last sections move to RSA. There the requirement d × e ≡ 1 (mod φ(n)) is rewritten as d × e + k × φ(n) = 1. That is the same shape as before, so the private exponent is a modular inverse found by the same algorithm. A summary closes the note.
+
 > This document was created from an article on Viblo:
 >
 > - https://viblo.asia/p/giai-thuat-euclid-mo-rong-extended-euclidean-algorithm-va-phuong-trinh-axbyc-AZoJjgxeLY7

@@ -13,6 +13,8 @@ tags:
 
 # Prompt Strategies
 
+This note collects prompting strategies for building reliable LLM applications, organized as one section per tactic. It starts with writing clear instructions, covering detail, personas, delimiters, step by step directions, examples, and output format. Later sections show how to ground answers in reference text and how to split complex tasks into subtasks through intent classification, conversation summarization, and recursive summarization. Another group covers giving the model time to think and hiding the reasoning behind an inner monologue or a chain of calls. It also shows how to ask the model what it missed and how to hand work to external tools such as retrieval, code execution, and function calling. It closes with systematic evals that use an LLM as judge, plus a short look at self prompting.
+
 ## Write Clear Instructions
 
 - Put detailed information into the query so the answer is more relevant.

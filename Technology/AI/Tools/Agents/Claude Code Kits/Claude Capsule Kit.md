@@ -18,6 +18,8 @@ resource: https://github.com/arpitnath/claude-capsule-kit
 
 **Claude Capsule Kit** (CCK) is an advanced toolkit for Claude Code that solves practical problems: session isolation, dependency awareness, large file navigation, and parallel multi-branch work. It is built entirely on Claude Code's official hook system, with no patches and no hacks.
 
+Install is global, then cck setup, then a restart so hooks turn on by themselves. The kit is v3.0.4 under MIT, with 75 stars, 8 forks, and 4 contributors. File reads, edits, and agent calls land in a local SQLite file named capsule.db.
+
 ## Basic Information
 
 | Item             | Value                                                |
@@ -206,6 +208,8 @@ cck crew decompose     # Dependency-aware task splitting
 - **Large codebases**: Files over 50KB need progressive reading
 - **Parallel features**: Want to work on several features at once with crew teams
 - **Zero-config preference**: Want everything automatic through hooks
+
+A finished session stores a summary with branch context, and the next start restores it. If context fills up, a continuity doc is saved before compaction. Six hooks run the lifecycle. SessionStart restores context and detects a crew. PostToolUse writes file ops into capsule.db. PreToolUse enforces the dependency tools and blocks large files. PreCompact saves the continuity doc. SessionEnd stores the summary, the branch, and the file count. Stop runs a quality check. query-deps answers imports both ways. impact-analysis says what breaks on a change. find-circular and find-dead-code hunt loops and code that nothing imports. The progressive reader splits a file by its AST and lists a 75-97% token saving. It supports TypeScript, JavaScript, Python, and Go. Crew teams put each teammate on a git branch through worktrees. Developer and tester auto-commit. Reviewer and architect stay read-only. Teardown keeps capsule.db. You need Node.js 18 or newer, Claude Code hooks, and Git. Go 1.20 or newer is optional. SQLite does not scale to very large projects, and there is no MCP support. The agent list is shorter than ECC.
 
 ---
 

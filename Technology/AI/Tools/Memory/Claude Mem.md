@@ -17,7 +17,7 @@ resource: http://localhost:37777
 
 ## Definition
 
-**Claude-Mem** is a persistent memory compression system (v6.5.0) built for Claude Code. It automatically captures everything Claude does in coding sessions, compresses it with AI, and injects relevant context into future sessions.
+**Claude-Mem** is a persistent memory compression system (v6.5.0) built for Claude Code. It automatically captures everything Claude does in coding sessions, compresses it with AI, and injects relevant context into future sessions. Five lifecycle hooks, from SessionStart to SessionEnd, feed a worker service on port 37777. The worker writes sessions and observations to a bundled SQLite database and pairs it with a Chroma vector database for search. Retrieval runs in three layers, so the agent sees a compact index first, then a timeline, then full details. Privacy tags and a settings file under `~/.claude-mem` control what gets captured and injected.
 
 ## System Requirements
 
@@ -107,6 +107,8 @@ get_observations((ids = [123, 456]))
 ```
 
 **~10x token savings** by filtering before fetching details.
+
+The worker on port 37777 ties the five hooks to storage. SessionStart, UserPromptSubmit, PostToolUse, Stop, and SessionEnd report what happened in Claude Code. Events land in the bundled SQLite database as sessions and observations. Chroma indexes them for later search. The first layer returns a compact index of about 50 to 100 tokens per result. Timeline places the chosen ids in order. Get observations loads the full note, about 500 to 1,000 tokens, only for ids that still matter. That filter is the source of the roughly 10x token saving. Settings under ~/.claude-mem choose the model, the port, and which types are injected. The viewer on the same port shows the live stream and the stable or beta channel.
 
 ## Key Features
 

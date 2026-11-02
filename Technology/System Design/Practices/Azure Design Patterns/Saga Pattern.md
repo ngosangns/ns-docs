@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/saga
 
 ## Summary
 
-The Saga pattern maintains data consistency in distributed systems by coordinating transactions across multiple services. A saga is a sequence of local transactions in which each service performs its own operation and triggers the next step through an event or message. If a step fails, the saga executes compensating transactions to undo the steps that already completed.
+The Saga pattern maintains data consistency in distributed systems by coordinating transactions across multiple services. A saga is a sequence of local transactions in which each service performs its own operation and triggers the next step through an event or message. If a step fails, the saga executes compensating transactions to undo the steps that already completed. Choreography suits simple flows with few services, and orchestration puts a central coordinator in charge of complex ones.
 
 ## Key Points
 
@@ -34,6 +34,8 @@ The Saga pattern maintains data consistency in distributed systems by coordinati
   - **Complexity**: Debugging and tracing a saga becomes hard as the number of services grows.
   - **Data anomalies**: Because there is no isolation between services, problems such as _lost updates_, _dirty reads_, and _fuzzy reads_ can occur.
   - **Countermeasures**: Use application-level locks (semantic lock), commutative updates, or re-check values before updating.
+
+Each service commits its own local step, then sends an event or message. There is no two-phase commit. If a later step fails, compensating transactions undo work that already committed. The pivot is the point of no return. Steps after it must be idempotent so they can be retried until they succeed. Choreography fits a short flow with no central coordinator. Orchestration uses one coordinator for complex recovery. Lost updates, dirty reads, and fuzzy reads come from the missing isolation.
 
 ## When to Use
 

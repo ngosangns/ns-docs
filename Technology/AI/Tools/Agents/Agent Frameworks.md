@@ -14,6 +14,8 @@ resource: https://github.com/exo-explore/exo
 
 # Agent Frameworks
 
+This page lists open-source frameworks and platforms grouped by what they do. It opens with AI infrastructure, where Exo turns everyday devices into a home cluster, nanoGPT and nanochat offer small training codebases, and LLaMA-Factory handles fine-tuning. Jan-Nano appears as a small model tuned to work with MCP servers. Later sections cover conversational AI with Storm, data platforms with Hash.ai, education with DeepTutor, and computer vision with Deep-Live-Cam plus a pose estimation pointer. Shorter lists cover machine learning libraries like FlashMLA, Google's edge gallery, and FinGPT for finance. The grouping is the point. Skim the headings for the layer you need, then read the per-tool notes on capabilities, limits, and where to find the source.
+
 ## AI Infrastructure
 
 - **Exo**: Lets you run your own AI cluster at home using everyday devices - [GitHub](https://github.com/exo-explore/exo) #AI-cluster #infrastructure

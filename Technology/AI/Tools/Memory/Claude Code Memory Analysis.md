@@ -15,6 +15,8 @@ resource: https://code.claude.com/docs/en/memory
 
 # Claude Code Memory Analysis
 
+This note looks at how Claude Code remembers things and asks whether the claude-mem plugin is worth adding on top. It first maps the two built-in mechanisms, CLAUDE.md files and auto memory, with their locations, scopes and loading limits. A comparison table sets them against each other. The middle section walks through the claude-mem architecture, its hooks, worker service and storage, and lists what it adds, such as AI compression, layered search and a web viewer. The last part weighs cost and complexity, then gives scenarios for staying stock or installing the plugin. A decision matrix and a conclusion turn the analysis into a choice for your own project.
+
 ## Overview
 
 This document analyzes the memory structure of Claude Code (the stock version) and evaluates whether the claude-mem plugin is necessary.

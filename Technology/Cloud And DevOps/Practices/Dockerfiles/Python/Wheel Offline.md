@@ -15,6 +15,8 @@ tags:
 
 # Wheel Offline
 
+This note shows a Python Dockerfile that turns every dependency into a wheel in a builder stage and installs them offline in a slim runtime. An inline script parses pyproject.toml with tomllib, rewrites the fastapi and starlette bounds, and writes a safe requirements file to patch a known vulnerability. The builder then caches all wheels, including the project's own wheel. The runtime installs from that directory with no index access, which removes the need for network during the final stage. The note explains each choice, from PIP_ONLY_BINARY to PYTHONOPTIMIZE and the Python-only healthcheck, and lists the trade-offs. Each section pairs the advantages with the costs, so you can judge whether the extra complexity fits your team.
+
 ## Dockerfile Content
 
 ```dockerfile

@@ -15,7 +15,7 @@ tags:
 
 # Weekly Routine — Da dầu & hỗn hợp thiên dầu
 
-Bổ sung cho [[Daily Routine]], các bước chuyên sâu thực hiện **1 lần/tuần** hoặc theo tần suất khuyến nghị.
+Bổ sung cho [[Daily Routine]], các bước chuyên sâu thực hiện **1 lần/tuần** hoặc theo tần suất khuyến nghị. Với da dầu và hỗn hợp thiên dầu, routine hằng ngày chưa đủ để dọn sạch lỗ chân lông. Tế bào chết cộng bã nhờn là nguyên nhân hàng đầu gây bít lỗ chân lông và mụn. Tẩy tế bào chết hoá học làm sạch sâu. Đắp mask cung cấp dưỡng chất đậm đặc. Massage kích thích tuần hoàn máu. Thứ 2 dùng BHA, thứ 4 dùng AHA, thứ 6 đắp mặt nạ, Chủ nhật massage và nghỉ ngơi. Chỉ nên chọn một loại acid trong cùng một đêm. Scrub hạt chỉ nên dùng một hai lần mỗi tháng, không dùng hằng tuần.
 
 > 🎯 **Mục tiêu:**
 >

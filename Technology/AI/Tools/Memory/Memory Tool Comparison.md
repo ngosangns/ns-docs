@@ -14,6 +14,8 @@ tags:
 
 # Memory Tool Comparison
 
+This page compares fifteen tools that promise better memory or context for AI agents, and it is meant to be read by need rather than by name. The first table groups them into four categories, knowledge graph and retrieval, memory systems, vector database, and development workflow. The tables that follow cut across architecture, memory type, features, integrations, tech stack and use cases. Each row uses a check mark or a cross, so you can compare without reading prose. A quick reference table condenses type, offline support, MCP support, reasoning and stars into one view. The closing section asks whether you actually need each tool, with a needed and not needed line for every entry.
+
 ## Comparison of 15 AI Memory & Knowledge Graph Tools
 
 ### Category Overview

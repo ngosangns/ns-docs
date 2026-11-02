@@ -14,6 +14,8 @@ tags:
 
 Hai loại câu ngoài câu trần thuật và câu hỏi: **câu mệnh lệnh** ra lệnh/chỉ dẫn và **câu cảm thán** diễn tả cảm xúc mạnh. Về câu trần thuật và câu hỏi, xem [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) và [Questions And Question Tags](/English/Grammar/Concepts/Questions And Question Tags).
 
+Câu mệnh lệnh lược chủ ngữ you và dùng nguyên mẫu. Please làm câu nhẹ hơn, còn Let's kéo người nói vào lời rủ. Câu cảm thán dùng what trước danh từ và how trước tính từ. Sau how, trật tự vẫn là trần thuật.
+
 ## Câu mệnh lệnh (Imperatives)
 
 Ra lệnh, hướng dẫn, chỉ đường, khuyên bảo, hoặc mời gọi — chủ ngữ "you" được ngầm hiểu và lược bỏ.

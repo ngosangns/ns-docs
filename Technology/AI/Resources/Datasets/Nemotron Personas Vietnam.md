@@ -16,7 +16,7 @@ resource: https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam
 
 # Nemotron Personas Vietnam
 
-Ghi chú về bộ dữ liệu personas tiếng Việt tổng hợp của NVIDIA trên Hugging Face. Đọc thẻ dataset, README và HF API ngày 25/10/2026.
+Ghi chú về bộ dữ liệu personas tiếng Việt tổng hợp của NVIDIA trên Hugging Face. Đọc thẻ dataset, README và HF API ngày 25/10/2026. Bộ này có 6.000.000 personas tiếng Việt trong 1.000.000 bản ghi, mỗi bản ghi gồm sáu văn bản. NVIDIA làm bộ này cùng FPT Smart Cloud và Viện Quantum AI & Cyber Security. Dữ liệu bám thống kê GSO 2024, phủ 34 tỉnh thành sau sáp nhập, và chỉ lấy người từ 18 tuổi. Giấy phép là CC BY 4.0. Mọi persona đều là dữ liệu tổng hợp.
 
 **Source:** [nvidia/Nemotron-Personas-Vietnam](https://huggingface.co/datasets/nvidia/Nemotron-Personas-Vietnam)
 
@@ -24,7 +24,7 @@ Ghi chú về bộ dữ liệu personas tiếng Việt tổng hợp của NVIDIA
 
 - Bộ personas tiếng Việt tổng hợp do NVIDIA công bố, README gọi là "tập dữ liệu personas tiếng Việt quy mô lớn đầu tiên" (claim của NVIDIA, đọc trên thẻ ngày 25/10/2026).
 - 6.000.000 personas tiếng Việt trong 1.000.000 bản ghi; mỗi bản ghi có 6 văn bản persona: 5 chuyên ngành (nghề nghiệp, thể thao, nghệ thuật, du lịch, ẩm thực) cộng 1 persona tổng hợp (README, đã kiểm chứng).
-- Do NVIDIA Corporation cùng [FPT Smart Cloud](https://factory.fpt.ai) và Viện Quantum AI & Cyber Security (Tập đoàn FPT) tạo ra; FPT đóng góp chuyên môn nhân khẩu học địa phương, ground văn hóa, rà soát tại các thành phố trực thuộc trung ương và kiểm định chất lượng trong pipeline (README, đã kiểm chứng).
+- Do NVIDIA Corporation cùng [FPT Smart Cloud](https://factory.fpt.ai) và Viện Quantum AI & Cyber Security (Tập đoàn FPT) tạo ra. FPT đóng góp chuyên môn nhân khẩu học địa phương, ground văn hóa, và rà soát tại các thành phố trực thuộc trung ương. FPT cũng kiểm định chất lượng trong pipeline (README, đã kiểm chứng).
 - Metadata HF (API, 25/10/2026): tạo ngày 04/06/2026, cập nhật lần cuối 16/10/2026, 19.643 lượt tải và 222 likes tại thời điểm kiểm tra (con số thay đổi theo thời gian).
 
 ## Quy mô
@@ -49,14 +49,14 @@ Thống kê từ Dataset Viewer trên thẻ (25/10/2026, kiểm tra hai lần): 
 
 ## Cách tạo dữ liệu
 
-- Tạo bằng [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner), hệ thống compound AI cấp doanh nghiệp của NVIDIA để tạo dữ liệu tổng hợp; dùng probabilistic graphical model (PGM) độc quyền, mô hình [SaoLa-Small-32B](https://marketplace.fptcloud.com/en/models/saola-small-32b) và các phương thức kiểm định, đánh giá có sẵn trong Data Designer (README, đã kiểm chứng).
-- Ground theo thống kê chính thức của Tổng cục Thống kê (GSO): Niên giám Thống kê tóm tắt 2024, Tổng điều tra dân số và nhà ở 2024, Khảo sát mức sống hộ gia đình Việt Nam (VHLSS) 2024 — dữ liệu về giới tính, tỉnh thành, ngành, nghề nghiệp và học vấn (README, đã kiểm chứng).
-- Bản đồ hành chính theo Quyết định 19/2025/QĐ-TTg (hiệu lực 01/07/2025, sau sáp nhập), phủ đủ 34 tỉnh, thành phố trực thuộc trung ương; README nhấn mạnh phủ cả 54 dân tộc (đã kiểm chứng nội dung README, chưa đối chiếu ngược với văn bản gốc của GSO).
+- Tạo bằng [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner), hệ thống compound AI cấp doanh nghiệp của NVIDIA để tạo dữ liệu tổng hợp. Pipeline dùng probabilistic graphical model (PGM) độc quyền, mô hình [SaoLa-Small-32B](https://marketplace.fptcloud.com/en/models/saola-small-32b), và các phương thức kiểm định có sẵn trong Data Designer (README, đã kiểm chứng).
+- Ground theo thống kê chính thức của Tổng cục Thống kê (GSO). Nguồn gồm Niên giám Thống kê tóm tắt 2024, Tổng điều tra dân số và nhà ở 2024, và Khảo sát mức sống hộ gia đình Việt Nam (VHLSS) 2024. Các nguồn này cung cấp dữ liệu về giới tính, tỉnh thành, ngành, nghề nghiệp và học vấn (README, đã kiểm chứng).
+- Bản đồ hành chính theo Quyết định 19/2025/QĐ-TTg (hiệu lực 01/07/2025, sau sáp nhập). Bản đồ phủ đủ 34 tỉnh, thành phố trực thuộc trung ương. README nhấn mạnh phủ cả 54 dân tộc (đã kiểm chứng nội dung README, chưa đối chiếu ngược với văn bản gốc của GSO).
 - Chỉ chứa persona từ 18 tuổi trở lên (README; khớp min/max của `age` là 18/90 trên viewer).
 
 ## License và giới hạn
 
-- CC BY 4.0 (HF API và README, đã kiểm chứng); README ghi miễn phí để huấn luyện nhiều loại mô hình, dùng được cả thương mại và phi thương mại, mọi dữ liệu là tổng hợp nên trùng với người thật chỉ là ngẫu nhiên.
+- CC BY 4.0 (HF API và README, đã kiểm chứng). README ghi miễn phí để huấn luyện nhiều loại mô hình, dùng được cả thương mại và phi thương mại. Mọi dữ liệu là tổng hợp, nên trùng với người thật chỉ là ngẫu nhiên.
 - Không có tên riêng (first/last names) và trait tính cách; loại trừ persona đặc thù doanh nghiệp (ví dụ tài chính, y tế) (README, đã kiểm chứng).
 
 ## Mục đích sử dụng
@@ -79,7 +79,7 @@ Snippet nằm trong README của thẻ, chưa chạy thử.
 
 ## Các bộ Nemotron-Personas khác
 
-Đã kiểm chứng tồn tại qua HF API (tìm `author=nvidia&search=Nemotron-Personas` ngày 25/10/2026), ngoài bản Việt Nam: USA (06/2025, en), Japan (09/2025, ja), India (10/2025, en/hi), Brazil (01/2026, pt), Singapore (01/2026, en), France (03/2026, fr), Korea (04/2026, ko), El Salvador (06/2026, es), Belgium (06/2026, nl/fr/de/en), UK (10/2026, en), Germany (10/2026, de) — năm trong ngoặc là tháng tạo trên HF và ngôn ngữ khai báo.
+Đã kiểm chứng tồn tại qua HF API (tìm `author=nvidia&search=Nemotron-Personas` ngày 25/10/2026). Ngoài bản Việt Nam còn các bộ USA (06/2025, en), Japan (09/2025, ja), India (10/2025, en/hi) và Brazil (01/2026, pt). Tiếp theo là Singapore (01/2026, en), France (03/2026, fr), Korea (04/2026, ko) và El Salvador (06/2026, es). Belgium (06/2026, nl/fr/de/en), UK (10/2026, en) và Germany (10/2026, de) cũng có trong kết quả. Năm trong ngoặc là tháng tạo trên HF và ngôn ngữ khai báo.
 
 Chưa kiểm chứng: chưa tìm thấy bài blog NVIDIA hay paper nào được dẫn trong thẻ (README không dẫn paper, phần tìm blog NVIDIA chưa xác nhận được ngày 25/10/2026).
 

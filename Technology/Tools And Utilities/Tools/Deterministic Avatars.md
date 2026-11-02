@@ -15,7 +15,7 @@ resource: https://www.dicebear.com/
 
 # Deterministic Avatars
 
-[RoboHash](https://robohash.org/), [DiceBear](https://www.dicebear.com/), and [Peek](https://github.com/doan-labs/peek) each turn a string into a picture that comes out the same on the next call. None of them stores an uploaded photo. They differ in artwork, license, and whether the picture is a hosted URL or a local function. Checked 2026-10-15.
+[RoboHash](https://robohash.org/), [DiceBear](https://www.dicebear.com/), and [Peek](https://github.com/doan-labs/peek) each turn a string into a picture that comes out the same on the next call. None of them stores an uploaded photo. They differ in artwork, license, and whether the picture is a hosted URL or a local function. Checked 2026-10-15. The table below compares the string you pass, the output, the published package and the code license. RoboHash assembles a PNG, JPG or BMP from artwork sets that carry their own licenses, and it also runs as a Python package. DiceBear publishes 10.7.0 with 61 styles, while 11 is still a release candidate on npm. Peek is a small MIT SVG face with an optional React 19 component and a wardrobe of accessories. The last section picks one for a given job.
 
 | | RoboHash | DiceBear | Peek |
 | --- | --- | --- | --- |

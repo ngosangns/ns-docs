@@ -15,6 +15,8 @@ resource: https://avaturn.me
 
 # 3D Models
 
+This page collects tools for making 3D assets with AI, and it splits them by what they produce. The first section lists services and models that build avatars and 3D objects from images or video, including Tencent's Hunyuan3D-2.1 with PBR materials. The middle section covers motion. Tencent's HY-Motion 1.0 is a text-to-motion model built on a Diffusion Transformer and Flow Matching, and the note lists its project page, GitHub repo, Hugging Face card, and technical report. The last section covers ForgeCAD, an AI-native CAD tool where parametric models are written in JavaScript so coding agents can generate and edit them. It notes the model-as-code API, the validation loop, the export formats, and the use cases.
+
 ## 3D Generation
 
 - Create 3D avatars: [https://avaturn.me](https://avaturn.me/) #avatar
@@ -49,5 +51,7 @@ An "AI-native" CAD: parametric models are written in JavaScript (`*.forge.js`) i
 - **Export**: STEP, STL, 3MF.
 - **Use cases**: 3D-printed products, mechanical parts, assemblies/joints/colliders for robotics simulation, and generating model variants as AI training data for spatial reasoning.
 - Website: https://forgecad.io/ #CAD #parametric #3D #robotics #agent
+
+ForgeCAD keeps the model in a JavaScript file so an agent can edit it like source code. param creates sliders, and union or subtract combine primitives. fillet and patterns shape the part, while lib.bolt and lib.nut add real helical threads. sdf.gyroid builds lattices. The CLI runs deterministic checks and writes a report before export to STEP, STL, or 3MF.
 
 > **See also:** [SUAPP AI](/Technology/AI/Tools/GenAI/SUAPP AI) · [Image Generation](/Technology/AI/Tools/GenAI/Image Generation) · [Video Generation](/Technology/AI/Tools/GenAI/Video Generation) · [Content And Multimedia Tools](/Technology/AI/Tools/GenAI/Content And Multimedia Tools)

@@ -111,6 +111,8 @@ Dùng kết hợp với sữa rửa mặt, ~2–3 lần/tuần (không cần dù
 1. Dầu tẩy trang (DHC / Hada Labo) HOẶC Micellar water
 2. Sữa rửa mặt (CeraVe Foaming)
 
+Buổi sáng rửa bằng CeraVe Foaming hoặc COSRX Low pH. Buổi chiều lau bằng micellar water trước. Bioderma Sébium H2O chuyên da dầu, rồi rửa lại bằng sữa rửa mặt. Buổi tối có makeup hoặc kem chống nắng thì dùng dầu DHC hoặc Hada Labo, rồi rửa lại. Sữa rửa mặt nên ở pH khoảng 5.0 đến 5.5, dạng gel hoặc foam, tránh SLS và SLES. Niacinamide, ceramides hoặc BHA nhẹ là điểm cộng. Foreo dùng đầu silicone, hai đến ba lần mỗi tuần.
+
 ---
 
 ## 🔗 Liên kết liên quan

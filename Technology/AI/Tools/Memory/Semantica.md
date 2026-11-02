@@ -15,9 +15,13 @@ resource: https://github.com/Hawksight-AI/semantica
 
 # Semantica
 
+This note introduces Semantica, an open source framework for building context graphs and decision layers that can be explained after the fact. It begins with the definition and the install command, then lists the modules that make up the package, from context and knowledge graph work to ontology, reasoning and ingestion. The feature sections give short code samples for decision tracking, temporal queries, provenance and SHACL validation, so you can see the shape of the API. A table covers the data sources it ingests, and there are notes on export formats, the pipeline builder and the integrations with graph databases, vector stores and model providers. Strengths, weaknesses and use cases close the page.
+
 ## Definition
 
 **Semantica** is an open-source framework for building context graphs and decision-intelligence layers for AI systems. Its goal is to turn chaos into intelligence, building AI systems that are explainable, traceable, and trustworthy — not "black boxes".
+
+Context graphs record a decision, the reason, and similar past cases. Reasoning covers forward rules, Rete networks, deduction, and SPARQL. Provenance follows W3C PROV-O and can export a JSON or CSV audit log. Ontology tools can emit OWL and check SHACL shapes.
 
 ## Installation
 

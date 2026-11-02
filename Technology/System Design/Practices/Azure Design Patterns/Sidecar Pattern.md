@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar
 
 ## Summary
 
-The Sidecar pattern deploys application components into a separate process or container to provide isolation and encapsulation. The name comes from the sidecar attached to a motorcycle: the sidecar is attached to the parent application to provide supporting features and shares the same lifecycle as that application.
+The Sidecar pattern deploys application components into a separate process or container to provide isolation and encapsulation. The name comes from the sidecar attached to a motorcycle. The sidecar is attached to the parent application, provides supporting features, and shares the same lifecycle as that application. Peripheral tasks such as monitoring, logging, configuration, and network services sit outside the main application, and the sidecar can be written in a different language. The two processes communicate over local HTTP, gRPC, or Unix sockets.
 
 ## Key Points
 

@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/index-ta
 
 # Index Table Pattern
 
-Create indexes over the fields in data stores that queries frequently reference. This pattern improves query performance by letting applications find the data they need to retrieve more quickly.
+Create indexes over the fields in data stores that queries frequently reference. This pattern improves query performance by letting applications find the data they need to retrieve more quickly. Many NoSQL stores order data by primary key alone, so a query on another attribute, such as finding customers by city, scans everything. An index table fixes that by mapping a secondary key to the primary key. The mapping can copy the whole record, only the keys, or the most queried fields. Each choice trades query speed against storage and consistency effort. Background tasks or queues usually apply index updates, so reads can be eventually consistent. Skip the pattern when data changes constantly, when a field has few values, or when most records share the same value.
 
 ## Summary
 

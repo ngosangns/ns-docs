@@ -19,6 +19,8 @@ resource: https://github.com/abhigyanpatwari/gitnexus.git
 
 **GitNexus** is a "Zero-Server Code Intelligence Engine" — a client-side knowledge graph creator that indexes codebases into interactive graphs with a built-in Graph RAG Agent. It helps AI agents understand code relationships, dependencies, and execution flows.
 
+You can index a repo with the CLI and LadybugDB, or open the same graph in the browser through the Web UI. The CLI path stays local. Setup writes MCP config for editors such as Claude Code, Cursor, and Codex. Agents then call tools for query, context, impact, and rename. The index also precomputes clusters and traces so one call returns structure instead of raw edges.
+
 ## Key Metrics
 
 - **Stars**: 26.8k
@@ -139,6 +141,8 @@ gitnexus://repo/{name}/schema
 > "AI edits UserService.validate()... Doesn't know 47 functions depend on its return type... Breaking changes ship."
 
 Traditional Graph RAG hands the LLM raw graph edges and hopes it explores enough. GitNexus precomputes structure at index time — clustering, tracing, scoring — so tools return complete context in one call.
+
+GitNexus exists because an edit can break callers the model never sees. UserService.validate is the example, where 47 functions depend on the return type, yet a plain edit still ships. Traditional Graph RAG only hands the model raw edges and hopes it walks far enough. This tool instead clusters, traces, and scores the graph while it indexes. The impact tool then returns that precomputed context in one call. The detect_impact prompt is the pre-commit change analysis. The same index feeds exploring, debugging, and refactoring skills. Claude Code also gets PreToolUse and PostToolUse hooks. The enterprise list adds automated PR review plus an auto-updating code wiki.
 
 ## Bridge Mode
 

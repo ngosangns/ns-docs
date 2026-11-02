@@ -17,6 +17,8 @@ resource: https://github.com/hmcts/spring-boot-template
 
 # Ultra Optimized
 
+This note details the most aggressive Java Dockerfile in the set, built around a hand-picked jlink JRE and a pinned Alpine runtime. The builder compiles the Spring Boot jar, extracts it into layers, and produces a JRE from a fixed module list. The runtime adds tini, tzdata, curl, and certificates, then copies the layers from least to most frequently changed so the cache stays warm. A non-root user at UID 1654 keeps the image CIS compliant, and a long block of JVM flags tunes memory, garbage collection, and startup. Expect the trade-offs. Builds take a long time, the module list is maintained by hand, and the minimal image is hard to debug.
+
 ## Techniques
 
 - **Base image**: `alpine:3.21` (minimal Alpine)
@@ -52,6 +54,8 @@ resource: https://github.com/hmcts/spring-boot-template
 - High-scale deployments that need to minimize resource usage
 - Compliance requirements (CIS, security standards)
 - When image size is a critical factor
+
+The runtime is Alpine with a SHA256 pin, plus tini, tzdata, curl, and certificates. Layers are copied from dependencies through the loader and snapshot jars to the application, so the cache stays warm. The process runs as UID 1654 and listens on port 8080, with a curl check against the actuator health path. JVM flags turn on container support, cap the heap with MaxRAMPercentage, and select G1GC.
 
 ## Dockerfile
 

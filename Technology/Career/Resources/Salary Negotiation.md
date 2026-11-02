@@ -14,6 +14,8 @@ tags:
 
 # Salary Negotiation
 
+This note is a set of tactics for salary negotiation in tech interviews. It starts with mindset. An interview is a fair exchange, and salary is only one part of the value bundle, next to learning, mentors, culture, and career path. It then walks through timing and leverage. Salary comes last, and the first side to name a number gives up ground. Negotiation really begins once you have an offer, and the note covers low offers, offers above expectation, and who actually decides the number. A short section on the interview itself covers the CV, questions to ask, punctuality, and honesty. The closing point is simple. Real ability that matches what the company needs is what makes the rest work.
+
 ## Mindset for Interviews and Salary Negotiation
 
 - **It is not "asking for a job"**: It's a fair exchange - you rent out your skills and receive salary, opportunities, and benefits in return

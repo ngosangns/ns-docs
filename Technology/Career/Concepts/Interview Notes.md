@@ -13,6 +13,8 @@ tags:
 
 # Interview Notes
 
+This note is a working list of interview material gathered from other engineers. It points to written interview experiences at TikTok Singapore, five top companies, Google, and Canva in Sydney, plus a roadmap for study. Resume advice from huyenchip.com covers what to list, how to explain tool choices, and when to move education to the bottom. Practice links include interviewcake.com, Pramp for mock interviews, and Viblo for fresher interviews. The note also lists shared write ups, an educative course on coding patterns, and a question bank for Laravel and Golang. Use it as a starting shelf, then follow the links to the original posts.
+
 ## Resources
 
 - Experience interviewing for a Software Engineer role at TikTok Singapore
@@ -34,6 +36,8 @@ tags:
 - **Canva interview review (Sydney)**: theNEXTvoz
 - **Compare career levels**: Levels.fyi (Google, Facebook, Microsoft)
 - **My Google interview journey**: Medium article
+
+The resource list mixes written experiences with practice tools. TikTok Singapore is one write up, and the study roadmap sits in a Canva design. The huyenchip.com resume notes say to list only tools you use and understand deeply, and to say why each tool was chosen. They also want links to StackOverflow, pull requests, and tech articles, plus standout projects instead of generic ones. Impact should be a number, such as money saved or how many times faster the work became. From two years of experience, education gets shorter and moves to the bottom of the CV. Other entries point to five top companies, a Google journey on Medium, and Canva in Sydney.
 
 ## Sharing
 

@@ -12,7 +12,7 @@ tags:
 
 # Subjunctive Mood — Thức cầu mong / giả định
 
-Thức subjunctive diễn tả **tình huống không có thật, mong ước, đề nghị, hoặc yêu cầu**.
+Thức subjunctive diễn tả **tình huống không có thật, mong ước, đề nghị, hoặc yêu cầu**. Nó xuất hiện ở hai chỗ chính. Thứ nhất là mệnh đề that sau các động từ như suggest, recommend, request, demand, insist, advise; động từ trong mệnh đề đó giữ dạng nguyên mẫu không to, có thể kèm should. Thứ hai là sau các cụm It is important, necessary, essential, vital, cũng với mẫu như vậy. Ngoài ra thức này còn nằm trong điều kiện loại 2 và loại 3, trong wish và if only, trong as if và as though, và trong would rather hay It's time.
 
 ## Với động từ đề nghị và yêu cầu
 

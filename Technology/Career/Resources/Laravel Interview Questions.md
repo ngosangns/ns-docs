@@ -14,6 +14,8 @@ tags:
 
 # Laravel Interview Questions
 
+This cheatsheet collects short answers to Laravel questions that come up in interviews. It starts with four reading links on the service container, dependency injection, and service providers. The question section then moves through CSRF protection, facades, helpers, Artisan, the service container, mail configuration, auth, validation, soft deletes, fillable and guarded fields, caching, Blade syntax, cookie against session, empty against isset, and finally Eloquent against the query builder. Each entry is a definition plus the code or setting you need, so it works as a recall sheet the night before an interview. Skim the headings first, then read only the topics you cannot explain out loud.
+
 ## Resources
 
 - Laravel Beauty: Service container

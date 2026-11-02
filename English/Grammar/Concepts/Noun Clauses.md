@@ -12,7 +12,7 @@ tags:
 
 # Noun Clauses — Mệnh đề danh từ
 
-Mệnh đề danh từ là mệnh đề phụ thuộc đóng vai trò **như một danh từ** — làm chủ ngữ, tân ngữ, hoặc bổ ngữ. Hai loại mệnh đề phụ thuộc còn lại là [mệnh đề quan hệ](/English/Grammar/Concepts/Relative Clauses) và [mệnh đề trạng ngữ](/English/Grammar/Concepts/Adverbial Clauses).
+Mệnh đề danh từ là mệnh đề phụ thuộc đóng vai trò **như một danh từ** — làm chủ ngữ, tân ngữ, hoặc bổ ngữ. Hai loại mệnh đề phụ thuộc còn lại là [mệnh đề quan hệ](/English/Grammar/Concepts/Relative Clauses) và [mệnh đề trạng ngữ](/English/Grammar/Concepts/Adverbial Clauses). Mệnh đề này mở đầu bằng that, bằng một từ wh, hoặc bằng if và whether. Nó giữ trật tự câu trần thuật, chủ ngữ đứng trước động từ, kể cả khi bắt đầu bằng từ hỏi. Mệnh đề làm chủ ngữ dài thường được đẩy ra sau it. Sau các động từ tường thuật và tính từ, that có thể lược bỏ. Chỉ whether dùng được sau giới từ hoặc ngay trước or not.
 
 ## Các từ mở đầu
 

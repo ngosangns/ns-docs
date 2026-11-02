@@ -14,6 +14,8 @@ resource: https://github.com/izwi-ai/izwi
 
 # Content And Multimedia Tools
 
+This page is a flat, growing list of AI tools for creating and processing media. Every entry is a link followed by a short description of what the tool does and which stack it uses. The tools cover speech synthesis and recognition, voice cloning, OCR for books and handwriting, video and audio downloading, dubbing, transcription, meeting notes, design canvases, and image editing. Some entries point to dedicated notes elsewhere in the vault, such as the voice cloning comparison and NovelKit. A few entries carry caveats, including license limits and a watermark detector that only finds one kind of watermark. Use it as a starting point when you need a tool for one media task, then follow the links for depth.
+
 - https://github.com/izwi-ai/izwi — Local-first audio inference engine for TTS, ASR, speaker diarization, voice cloning, and voice design.
 - https://github.com/averygan/reclip — Self-hosted, open-source video/audio downloader with a clean web UI; supports 1000+ sites via yt-dlp.
 - https://github.com/duixcom/Duix-Avatar — Open-source AI avatar toolkit for offline video generation and digital human cloning with voice and appearance cloning.

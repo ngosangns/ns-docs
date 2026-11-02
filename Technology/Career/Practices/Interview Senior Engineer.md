@@ -14,6 +14,8 @@ tags:
 
 # Interview Senior Engineer
 
+This page walks through a senior software developer interview from first greeting to thank you email. It starts with the hiring context. Companies now hire at middle level and above, and the process has grown harder than a few years ago. The round then moves through seven checkpoints: English, coding, system design, project management, version control, refactoring, and adaptability. Each section lists what the interviewer probes for, such as live coding habits, data structures, caching, atomic commits, and clean code. The closing part covers questions to ask about career paths and promotion, and why a short thank you note is worth sending.
+
 **Experience interviewing for a Senior Software Developer role**
 
 ## Overview

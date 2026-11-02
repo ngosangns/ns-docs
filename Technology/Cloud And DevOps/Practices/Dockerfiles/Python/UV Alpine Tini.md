@@ -17,6 +17,8 @@ resource: https://github.com/khiemdoan/
 
 # UV Alpine Tini
 
+This note walks through a Python Dockerfile that pairs UV with Alpine and uses tini as the container init. The deps stage installs UV 0.9.2 and syncs the locked environment, while the final stage adds tini, a non-root user, and a healthcheck that greps the response body. Each technique gets a short advantages and disadvantages list, so you can see where the design helps and where it costs. The note then ranks this image against the other three Python Dockerfiles on size, security, complexity, build speed, and debuggability. A best practices summary and a closing recommendation help you pick a variant for your own service.
+
 ## Dockerfile Content
 
 ```dockerfile

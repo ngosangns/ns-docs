@@ -13,7 +13,7 @@ tags:
 
 # Listening Strategies — Chiến lược nghe
 
-Nghe yếu vì hai lý do: **hổng từ vựng** (từ chưa biết) và **hổng giải mã** (từ đã biết nhưng không nhận ra khi nói nhanh). Mỗi lỗi cần chiến lược khác nhau.
+Nghe yếu vì hai lý do. Một là **hổng từ vựng**, tức là gặp từ chưa biết. Hai là **hổng giải mã**, tức là từ đã biết nhưng không nhận ra khi nói nhanh. Hai lỗi này cần chiến lược khác nhau. Với hổng từ vựng, cần bổ sung từ. Với hổng giải mã, cần luyện các đặc điểm của lời nói liền mạch như dạng yếu, nối âm và viết tắt. Note này đi từ nghe ý chính đến nghe chi tiết. Sau đó là dự đoán nội dung và bắt signposts. Cuối cùng là các phương pháp luyện tập. Dictation giúp thấy chỗ bỏ sót. Shadowing luyện cả nghe lẫn nói. Nghe rộng và nghe sâu nên đi cùng nhau.
 
 ## Nghe ý chính vs nghe chi tiết
 

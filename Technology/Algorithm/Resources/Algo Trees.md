@@ -15,6 +15,8 @@ tags:
 
 # Algo Trees
 
+Tree questions come down to choosing the right walk and knowing what to do at each node. This note starts with the vocabulary, covering root, height, leaf, binary and balanced trees, then compares pre-order, in-order and post-order traversal with the output each produces on the same small tree. Depth first search gets a stack walkthrough and a recursive implementation. Later sections cover comparing two trees, finding the lowest common ancestor, and searching a binary search tree. Breadth first search appears in loop, recursive and level-by-level forms, with a note that JavaScript array shift and unshift make the queue cost O(N^2) in practice.
+
 ## Trees
 
 - For example the DOM
@@ -321,5 +323,7 @@ const loopN = (head: BinaryNode<number>): number[][] => {
   return Object.values(levels)
 }
 ```
+
+Pre-order records the root first, so 7 leads and the left side finishes before the right. In-order places the root in the middle, and post-order records a node only after both children. Depth first search follows that left side with a stack and stays O(N). Breadth first search walks level by level with a queue. On the larger sample the levels are 20, then 10 and 50, then 5, 15, 30, and 100. A JavaScript array makes that queue O(N^2) because shift and unshift move every item.
 
 > **See also:** [Algo Heap Trie Graphs](/Technology/Algorithm/Resources/Algo Heap Trie Graphs) · [Algo Recursion](/Technology/Algorithm/Resources/Algo Recursion) · [Data Structures Overview](/Technology/Algorithm/Concepts/Data Structures/Data Structures Overview)

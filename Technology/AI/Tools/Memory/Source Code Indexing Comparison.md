@@ -17,6 +17,8 @@ tags:
 
 **The 4 tools in the graph comparison (semantica, trustgraph, mempalace, neural-memory) are NOT good choices for source code indexing.**
 
+Among the 14 repos, graphify, code-review-graph, and gitnexus are the three that specialize in source code. graphify parses 23 languages with tree-sitter, keeps a persistent graph, and lists a 71.5× token reduction. code-review-graph covers 19 languages plus Jupyter, stores the index in SQLite, and focuses on blast radius. gitnexus is the zero-server option, with LadybugDB and a browser UI. The other four are built for documents or general memory, not for code indexing.
+
 These tools focus on:
 
 - **semantica**: Document-based KG, reasoning, audit trail
@@ -160,6 +162,8 @@ These three tools were not in the original comparison table (04/2026) because th
 | **codebase-memory-mcp** | Pure C        | 162              | 15                             | MIT                 | Zero-dependency (single binary), Hybrid LSP, makes no network calls itself |
 
 **A note on trustworthiness**: all three (and gitnexus as well) are very young (created 08/2025–03/2026) yet have reached 6.7k–71.5k GitHub stars — the ratio of watchers/followers to stars is lower than typical for long-established popular repos. This is not evidence of fraud, but you should verify further (commit history, community discussion) and avoid piping `curl | bash`/`curl | sh` straight into a shell where possible, before fully trusting the self-published benchmark numbers/badges in a README.
+
+An AST pass extracts classes, functions, imports, and call graphs. A semantic pass asks Claude for concepts, relationships, and design rationale. code-review-graph updates in under 2 seconds and states 100% recall on impact analysis, with 22 MCP tools and a token cut between 8.2× and 49×. repowise parses 26 languages and adds git analytics, code health, and ADR mining under AGPL-3.0. codegraph is a Rust kernel with an OS file watcher and an MIT license. codebase-memory-mcp is a single C binary that parses 162 languages and makes no network calls itself.
 
 _Updated: 2026-04-13, supplemented 2026-09-20_
 

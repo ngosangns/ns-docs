@@ -12,6 +12,8 @@ tags:
 
 # Attachments
 
+This index lists related notes and PDF files, then a set of diagrams. Clean Code Notes sits with the PDFs. Those PDFs cover ByteByteGo material, system design and architecture, a product design cheat sheet, and the DDD quickly book. They also cover a guide to object design style and logging on Kubernetes for PHP. Diagrams show the 8 common problems in system design, plus MVC, MVP, MVVM, and VIPER. Other images show CCU for concurrent users, VietQR, Discord zstd vs zlib, autocomplete, and two TinyURL designs. The rest show an anti-corruption layer, a compensating transaction, a tech stack example, and GHTK ID generation.
+
 ## PDF Documents and Related Notes
 
 - [Clean Code Notes](/Technology/System Design/Concepts/Clean Code Notes)

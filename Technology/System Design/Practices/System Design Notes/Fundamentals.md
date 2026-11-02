@@ -20,7 +20,7 @@ resource: https://viblo.asia/p/danh-doi-giua-tinh-nhat-quan-va-tinh-san-sang-tra
 
 #### The Trade-off Between Consistency and Availability
 
-The article explains the CAP theorem (Consistency, Availability, Partition tolerance) and the trade-off between consistency (data is always in sync on every node) and availability (the system always responds to requests). In a distributed system you cannot guarantee all three at once; you usually have to choose between C and A when a network partition (P) occurs.
+The article explains the CAP theorem (Consistency, Availability, Partition tolerance) and the trade-off between consistency (data is always in sync on every node) and availability (the system always responds to requests). In a distributed system you cannot guarantee all three at once; you usually have to choose between C and A when a network partition (P) occurs. This trade-off sets the baseline for the rest of the note. The sections after it collect eight common problems with the solutions usually applied to them, such as caching, async writes, redundancy, load balancing, CDN, object storage, centralized logging, and sharding with indexes. A closing list points to further reading.
 Source: https://viblo.asia/p/danh-doi-giua-tinh-nhat-quan-va-tinh-san-sang-tradeoff-between-consistency-and-availability-5OXLAvlxVGr
 
 ## Common Problems and Solutions in System Design
@@ -65,6 +65,7 @@ Below are 8 common system design problems and the solutions usually applied to t
 
 ## References and Tools
 
+- [GonnaCrash](/Technology/System Design/Resources/GonnaCrash): 200Lab's browser game. Place components, run traffic, and see which part crashes inside a budget. Play at https://systemdesign.200lab.io/.
 - The encyclopedia of system design: a compilation of knowledge, concepts, solutions to common problems, and real-world examples. Very useful for preparing for system design interviews.
   - Source: https://github.com/donnemartin/system-design-primer
 - System Design the big archive: [e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf](/Attachments/e0f1a2b3-c4d5-6789-9a0b-c1d2e3f4a5b6.pdf)
@@ -81,4 +82,4 @@ Below are 8 common system design problems and the solutions usually applied to t
 - Chuyện anh thợ xây P3: the story of the view counter:
   - Source: https://viblo.asia/p/chuyen-anh-tho-xay-p3-chuyen-cai-bo-dem-view-5OXLAYrZLGr
 
-> **See also:** [Overview](/Technology/System Design/Practices/System Design Notes/Overview) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Software Architecture](/Technology/System Design/Practices/System Design Notes/Software Architecture)
+> **See also:** [Overview](/Technology/System Design/Practices/System Design Notes/Overview) · [Technical Solutions](/Technology/System Design/Practices/System Design Notes/Technical Solutions) · [Software Architecture](/Technology/System Design/Practices/System Design Notes/Software Architecture) · [GonnaCrash](/Technology/System Design/Resources/GonnaCrash)

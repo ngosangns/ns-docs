@@ -15,7 +15,7 @@ resource: https://elevenlabs.io/docs/overview/models
 
 # Voice Cloning Comparison
 
-Three tools compared on 2026-10-17: [ElevenLabs](/Technology/AI/Tools/Voice Cloning/ElevenLabs), [VoiceStudio](/Technology/AI/Tools/Voice Cloning/VoiceStudio) (the user's "omivoice studio", renamed from OmniVoice Studio), and [V-Clone](/Technology/AI/Tools/Voice Cloning/V-Clone). Facts are from each vendor's own pages; Vietnamese audio quality was not listened to for any of them.
+Three tools compared on 2026-10-17: [ElevenLabs](/Technology/AI/Tools/Voice Cloning/ElevenLabs), [VoiceStudio](/Technology/AI/Tools/Voice Cloning/VoiceStudio) (the user's "omivoice studio", renamed from OmniVoice Studio), and [V-Clone](/Technology/AI/Tools/Voice Cloning/V-Clone). Facts are from each vendor's own pages; Vietnamese audio quality was not listened to for any of them. The table holds twelve rows across the three tools. It records type, who makes each one, where it runs, the cloning method, the sample needed, whose voice may be cloned, Vietnamese support, other features, API, price, commercial use, and privacy. ElevenLabs is the hosted option with a public API. VoiceStudio is the open-source desktop app that runs locally. V-Clone is the closed-source Windows app aimed at film dubbing. The recommendations after the table turn those rows into four situations.
 
 |                | ElevenLabs                                             | VoiceStudio                                                                 | V-Clone                                                                  |
 | -------------- | ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
@@ -47,3 +47,5 @@ Vietnamese film/video dubbing on Windows, low budget
 : **V-Clone** is the one built for that workflow, but only after testing the Demo, because its model, rights, and terms are undocumented. Avoid it for anything where you need clear output rights.
 
 Always: clone only voices you have permission to use.
+
+The four recommendations follow from the table, not from a listening test. ElevenLabs is the hosted pick with a public API and a paid commercial license. Use PVC on your own voice and eleven_v4 for Vietnamese. VoiceStudio is the local open-source app. Samples can be 3 to 10 seconds, and the audio stays on the machine. V-Clone is the low budget Vietnamese dubbing option on Windows only after a Demo test. Its model, rights, and terms are undocumented.

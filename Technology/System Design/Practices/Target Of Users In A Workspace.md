@@ -13,6 +13,8 @@ tags:
 
 # Target Of Users In A Workspace
 
+A workspace target system turns tasks into points and compares each user's output against a goal adjusted for their actual working days. The glossary fixes the vocabulary first, from total working days and net working days through targets, scenes, and contribution ratios. It then defines the period metrics that reset at the end of each month. Total output, expected output, all-inclusive goal, achievement, and expected achievement each come with a code name and, where one exists, a formula.
+
 ## Concepts
 
 ### Other
@@ -65,5 +67,7 @@ tags:
 | Target period (month)         | Achievement                    | achievement           | total_collected_point / adjusted_goal                         |
 | Target period (month)         | Expected Achievement           | expected_achievement  | (total_collected_point + total_pending_point) / adjusted_goal |
 | Target period (month)         | Planned Output                 | planned_output        | adjusted_goal \* net_workingday / net_workingday              |
+
+Total output resets to zero at the end of each month. All-inclusive goal is goal times net working days over total working days. Achievement divides total output by that adjusted goal. Expected achievement adds pending points before the same division.
 
 > **See also:** [Task Scheduler System Design](/Technology/System Design/Practices/Task Scheduler System Design)

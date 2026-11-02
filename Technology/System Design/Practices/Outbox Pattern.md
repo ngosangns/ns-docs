@@ -18,7 +18,7 @@ resource: https://debezium.io/blog/2019/02/19/reliable-microservices-data-exchan
 
 ## Overview
 
-The Outbox Pattern is a design pattern that solves the **dual writes** problem in a microservices architecture. It keeps data consistent when a service must both update its database and send an event to a message broker (such as Apache Kafka).
+The Outbox Pattern is a design pattern that solves the **dual writes** problem in a microservices architecture. It keeps data consistent when a service must both update its database and send an event to a message broker (such as Apache Kafka). A service writes its data and the event to an outbox table in one transaction, and a CDC tool such as Debezium publishes the rows to Kafka. Later sections cover the table structure, duplicate handling, eventual consistency, and supporting tools.
 
 ## The Dual Writes Problem
 

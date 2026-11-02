@@ -15,7 +15,7 @@ resource: https://laravel-news.com/laravel-validation-rule-builders
 
 # Laravel Validation Rule Builders
 
-Source: [Fluent Rule Builders for All Laravel Validation Rules](https://laravel-news.com/laravel-validation-rule-builders) (Paul Redmond, Laravel News, 2026-10-16). Cross-checked on 2026-10-19 against:
+Source: [Fluent Rule Builders for All Laravel Validation Rules](https://laravel-news.com/laravel-validation-rule-builders) (Paul Redmond, Laravel News, 2026-10-16). The framework PR behind the change merged on 2026-10-08 and shipped in 13.36.0. Before that release, `Illuminate\Validation\Rule` already had builders for rules such as `in`, `unique` and `enum`, and everything else was still a string. 13.36 fills the remaining gaps, including field-list rules like `requiredWithout` and option methods like `url()->protocols()`. Strings are not deprecated, so a codebase can move one field at a time. This note keeps the article's examples and adds what the source code confirms. Cross-checked on 2026-10-19 against:
 
 - the framework PR [laravel/framework#61833](https://github.com/laravel/framework/pull/61833), "[13.x] Add validation rule builders for remaining validation rules" by ericmp33, merged 2026-10-08, 41 files changed
 - the [v13.36.0 release](https://github.com/laravel/framework/releases/tag/v13.36.0) (2026-10-13), whose notes list that PR

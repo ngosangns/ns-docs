@@ -12,7 +12,7 @@ tags:
 
 # Nouns — Danh từ
 
-Danh từ là từ gọi tên người, nơi chốn, vật hoặc ý niệm. Về quy tắc tạo số nhiều, xem [Singular And Plural](/English/Grammar/Concepts/Singular And Plural).
+Danh từ là từ gọi tên người, nơi chốn, vật hoặc ý niệm. Về quy tắc tạo số nhiều, xem [Singular And Plural](/English/Grammar/Concepts/Singular And Plural). Danh từ chia thành hai nhóm lớn là đếm được và không đếm được. Danh từ không đếm được đi với động từ số ít và không đi với a hay an. Muốn đếm chúng, ta dùng đơn vị đo như a piece of information. Một số danh từ dùng được cả hai cách với nghĩa khác nhau. Dạng sở hữu có hai lối chính, một là 's và một là of. Lối 's chủ yếu dành cho người, động vật, cụm chỉ thời gian. Lối of chủ yếu dành cho vật vô tri và chủ sở hữu dài.
 
 ## Đếm được vs Không đếm được
 

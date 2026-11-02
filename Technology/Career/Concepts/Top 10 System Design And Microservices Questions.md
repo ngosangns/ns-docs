@@ -14,6 +14,8 @@ tags:
 
 # Top 10 System Design And Microservices Questions
 
+This cheatsheet lists ten system design and microservices questions that come up in senior interviews, each with a short hint rather than a full answer. The system design group covers the CAP theorem, slow queries on a large table, and designing a URL shortener with its open decisions on key length, duplicates, database choice, and collisions. The microservices group covers monolith comparison, service boundaries, a dependency going down mid order, cross service data access, async responses through an API gateway, and high p95 latency. A final question asks for your hardest technical problem. The note is meant as a prompt for building your own answers.
+
 **Note**: The questions and hints are for reference only; build your own complete answers.
 
 ## System Design

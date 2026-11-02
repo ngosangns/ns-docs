@@ -12,7 +12,7 @@ tags:
 
 # Sentence Stress And Intonation — Trọng âm câu và ngữ điệu
 
-Tiếng Anh là ngôn ngữ **nhịp theo trọng âm** (stress-timed): nhịp điệu đến từ các âm tiết nhấn, không phải mọi âm tiết đều nhau — khác tiếng Việt vốn nhịp theo âm tiết. Đây là khác biệt lớn nhất cần nắm để nói nghe tự nhiên.
+Tiếng Anh là ngôn ngữ **nhịp theo trọng âm** (stress-timed). Nhịp điệu đến từ các âm tiết nhấn, không phải mọi âm tiết đều nhau. Tiếng Việt thì nhịp theo âm tiết. Đây là khác biệt lớn nhất cần nắm để nói nghe tự nhiên. Note này đi qua bốn phần. Phần đầu là trọng âm câu, tức là từ nào được nhấn và từ nào không. Từ có nghĩa như danh từ, động từ chính, tính từ, trạng từ, từ để hỏi, từ phủ định đều được nhấn. Từ chức năng như mạo từ, giới từ, trợ động từ, đại từ, liên từ thì không. Phần sau là dạng yếu, nối âm và viết tắt. Cuối cùng là các mẫu ngữ điệu lên, xuống và xuống-lên.
 
 ## Trọng âm câu — Từ nào được nhấn
 

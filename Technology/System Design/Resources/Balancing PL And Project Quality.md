@@ -14,6 +14,8 @@ tags:
 
 # Balancing PL And Project Quality
 
+Project and delivery managers balance contract margin against software quality, and the notes here work through that trade-off with contract numbers. Two project types are covered, offshore development centers and fixed-deadline projects, against an ideal gross margin of 45 percent. Case studies trace scope growth and a junior-heavy team through the steps that recovered margin and defect rates. Quality metrics, phase staffing mixes and a planning checklist close the page.
+
 ## Real-World Context and Goals
 
 ### Two Common Project Types

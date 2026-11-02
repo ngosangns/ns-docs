@@ -15,7 +15,7 @@ resource: https://github.com/vitali87/code-graph-rag
 
 # RAG Fine Tuning
 
-To keep from getting lost among AI agents before going deeper into the topic, imagine a huge, ancient tree.
+To keep from getting lost among AI agents before going deeper into the topic, imagine a huge, ancient tree. The roots are the LLMs that do the real machine learning work of collecting data and training. The trunk splits into branches for language, images, video and music, and the twigs and leaves are the AI applications we build. Only about ten LLMs are really prominent, there are probably fewer than thirty major branches, and the leaves number in the hundreds of thousands. Every leaf sends signals back to the roots in one of three ways, through Prompt, RAG, or Finetuning. This note runs through each of the three, then goes deeper into finetuning, chunking, RAG versus CAG, and embedding models for Vietnamese retrieval.
 
 - The roots are the LLMs (Large Language Models) such as GPT, Gemini (Google), Claude, Llama (Meta), or DeepSeek, where the real Machine Learning work of collecting data and training happens. Only about 10 LLMs are really prominent.
 

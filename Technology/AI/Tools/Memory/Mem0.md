@@ -15,6 +15,8 @@ resource: https://github.com/mem0ai/mem0
 
 # Mem0
 
+Mem0 is presented here as a universal memory layer that sits between an agent and its model. The note covers what it does, its star and fork counts, and its Apache 2.0 license. It then breaks the feature set into three memory levels, user, session and agent, plus personalization and the developer surface. Install steps follow for Python, Node.js and the CLI, so you can pick a stack. The API and configuration examples show how to add, search and delete memories and how to wire an LLM and a vector store. Later sections give use cases, benchmarks against full context, the pros and cons, and a short list of situations where Mem0 fits.
+
 ## Definition
 
 **Mem0** is a universal memory layer for AI agents. It enhances AI assistants and agents with an intelligent memory layer, enabling personalized AI interactions. It is one of the most popular memory systems, with 52.8k stars.
@@ -187,6 +189,8 @@ Mem0 also offers a managed service at **mem0.com** with:
 - **Multi-session apps**: Persistent context across sessions
 - **Production deployment**: With the managed service option
 - **Enterprise**: Need a scalable memory solution
+
+The benchmark table compares Mem0 with two baselines. On LOCOMO the result is +26% over OpenAI Memory. Response speed is 91% faster than full-context, and token usage is 90% lower than full-context. Those savings sit on top of three memory levels. User state keeps preferences and history. Session state keeps the current conversation. Agent state keeps what the agent has learned. Retrieval is context-aware, and the layer learns from interactions on its own. A managed option at mem0.com adds hosted infrastructure, analytics, and enterprise features, but memory operations still call an LLM and still need a vector store.
 
 ---
 

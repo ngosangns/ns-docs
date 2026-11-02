@@ -15,9 +15,11 @@ tags:
 
 > Assume you are a professor of English with many years of experience. I am a beginner learning English to communicate, to work in the software industry, and to study abroad. Create a learning roadmap for me covering the knowledge to learn, vocabulary sets, reputable learning sources, and online English-learning tools and websites.
 
+Ba giai đoạn phía dưới lần lượt dựng nền, luyện giao tiếp, rồi chuyển sang tiếng Anh cho ngành phần mềm. Hai giai đoạn đầu, mỗi giai đoạn sáu tháng. Giai đoạn cuối từ sáu tháng trở lên. Mỗi giai đoạn gồm kiến thức, từ vựng, nguồn học và công cụ online.
+
 ## Lộ trình
 
-Lộ trình chia thành các giai đoạn, mỗi giai đoạn gồm kiến thức, bộ từ vựng, nguồn học, và công cụ phù hợp.
+Lộ trình chia thành các giai đoạn. Mỗi giai đoạn gồm bốn phần. Đó là kiến thức, bộ từ vựng, nguồn học và công cụ phù hợp. Giai đoạn 1 kéo dài 6 tháng để xây nền tảng ngữ pháp, từ vựng lõi, nghe nói, đọc viết. Giai đoạn 2 cũng 6 tháng để nâng cao kỹ năng giao tiếp. Giai đoạn 3 kéo dài từ 6 tháng trở lên để chuyên môn hóa nghề nghiệp. Mỗi giai đoạn đều có danh sách công cụ và nguồn học đi kèm. Cuối note là lời nhắc luyện tiếng Anh mỗi ngày, tìm cơ hội dùng nó ở công việc và đời sống, rồi ôn tập thường xuyên để duy trì trình độ.
 
 ### Giai đoạn 1: Xây nền tảng (6 tháng)
 

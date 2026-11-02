@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/competin
 
 # Competing Consumers Pattern
 
-The Competing Consumers pattern lets multiple consumers process messages received on the same messaging channel concurrently. This helps the system optimize throughput, improve scalability and availability, and balance the workload.
+The Competing Consumers pattern lets multiple consumers process messages received on the same messaging channel concurrently. This helps the system optimize throughput, improve scalability and availability, and balance the workload. In cloud applications the number of requests varies a lot, so processing every request synchronously can block business logic, while a single consumer instance can be overloaded during a spike. The pattern places a queue between the producer and the consuming service. Several instances pull messages from that queue and work independently, and each message goes to only one consumer, unlike publish-subscribe. If an instance fails, the message stays in the queue for another one. A malformed poison message is moved to a dead-letter queue after retries.
 
 ## Context and Problem
 

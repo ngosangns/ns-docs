@@ -20,7 +20,7 @@ resource: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architectur
 
 ### Clean Architecture
 
-Clean Architecture is a software architecture pattern proposed by Robert C. Martin (Uncle Bob), focused on separation of concerns by dividing the application into concentric layers. The inner layers (e.g. Entities, Use Cases) do not depend on the outer layers (e.g. Frameworks, UI, DB). This makes the system easy to test, easy to maintain, and independent of implementation details.
+Clean Architecture is a software architecture pattern proposed by Robert C. Martin (Uncle Bob), focused on separation of concerns by dividing the application into concentric layers. The inner layers (e.g. Entities, Use Cases) do not depend on the outer layers (e.g. Frameworks, UI, DB). This makes the system easy to test, easy to maintain, and independent of implementation details. The pattern is one of several covered in this note. The dependency rule is the core constraint. Dependencies only point inward, so the outer layers can change without touching the domain. The later sections turn to design principles and to the goals to keep in mind when shaping an architecture.
 
 - Main layers:
   - Entity (Domain Layer): where DDD concepts such as Aggregates, Value Objects, Entities, and Domain Services are implemented.

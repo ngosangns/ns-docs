@@ -13,6 +13,8 @@ tags:
 
 # Job Applications
 
+This page is a personal tracker for a job search in Vietnam. It has sections for companies interviewed, applications that failed, and offers declined. Below that sits a set of recruitment portals, split into outsourcing companies such as CMC, NashTech, KMS, FPT, VNPT, Viettel, Tek-Experts, and TMA, and product companies such as VNG, Momo, Zalo, Bosch, Sacombank, Tiki, VNPAY, Sendo, and Teko. A notes section lists companies to avoid and companies worth applying to, with the reason for each. Use the portals to find openings, then check the notes before you send a CV.
+
 ## Resources
 
 - [Salary Negotiation](/Technology/Career/Resources/Salary Negotiation)
@@ -68,6 +70,8 @@ tags:
 ### Worth Applying
 
 - **Zalora Group**: Good reviews, English required
+
+Check the notes before a CV goes out. Outsourcing boards on this page are CMC, NashTech, KMS, FPT, VNPT, Viettel, Tek-Experts, and TMA. Product boards are VNG, Momo, Zalo, Bosch, Sacombank, Tiki, VNPAY, Sendo, and Teko. LaraJobs is named as the official Laravel job board. Failed applications already written down include a remote or hybrid PHP role at JV-IT TECHS. GEARVN is listed as a back end role in HCM. VNPAY is listed as a backend role in authentication and authorization. Skale is the declined offer. Hasaki is low salary and Saturday work. Điểm Nhấn Group uses uniforms and a Monday oath. HCLTech is low pay, with HR pushing the salary down, and a second-round interviewer whose English is hard to understand. Zalora Group is marked worth applying to, with good reviews, and English is required.
 
 ## Related
 

@@ -17,7 +17,7 @@ resource: https://alfonsocampodonico.com/posts/building-your-own-sandboxes
 
 # Building Your Own Sandboxes
 
-Notes on [Building your own sandboxes](https://alfonsocampodonico.com/posts/building-your-own-sandboxes) by Alfonso Campodonico (2026-10-18, 6 min read). The article describes two layers the author built to run untrusted code without renting a sandbox vendor:
+Notes on [Building your own sandboxes](https://alfonsocampodonico.com/posts/building-your-own-sandboxes) by Alfonso Campodonico (2026-10-18, 6 min read). The sandbox promise is stated in one line. Code you don't trust runs, and nothing it does reaches anything you care about. Guests and images are treated as untrusted, and nothing they report is allowed to drive a security decision. The protected assets are the host, the other VMs on it, the credentials the host can reach and the local image store. Keeping that promise turns out to be mostly policy work, not VM work. The article describes two layers the author built to run untrusted code without renting a sandbox vendor:
 
 - **vmkit**: microVMs on [Firecracker](https://github.com/firecracker-microvm/firecracker) and [Cloud Hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor) behind one API. Every VMM runs in a rootless sandbox with a default-deny network.
 - **kiln**: turns OCI images into microVM images and boots them. kiln depends on vmkit, never the reverse.

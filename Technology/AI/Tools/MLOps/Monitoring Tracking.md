@@ -14,6 +14,8 @@ tags:
 
 # Monitoring Tracking
 
+This note explains how to use a t-test to decide whether one model is really better than another. It covers a single idea and stays focused. A model's accuracy moves between runs because of the random seed and the data split, so one score is not enough evidence. The note defines the concept, shows how it applies to comparing two models, and states the question it answers. A concrete example follows, with ten accuracy readings for Model A and ten for Model B. The procedure section then walks through the null and alternative hypotheses, the t-statistic and p-value, and the 0.05 cutoff for rejecting the null. It ends with why this matters, namely avoiding gut-feeling evaluation.
+
 ## T-test in Machine Learning
 
 - **Concept**: A statistical method that compares the means of two groups of data to determine whether the difference is statistically significant or just due to chance

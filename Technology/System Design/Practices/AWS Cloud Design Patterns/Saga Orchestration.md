@@ -14,7 +14,7 @@ tags:
 
 # Saga Orchestration
 
-Saga Orchestration uses a central coordinator (the **Orchestrator**) to manage and coordinate distributed transactions that span multiple services. The orchestrator is responsible for calling the participating services in the right order and for triggering compensating transactions if any step fails.
+Saga Orchestration uses a central coordinator (the **Orchestrator**) to manage and coordinate distributed transactions that span multiple services. The orchestrator is responsible for calling the participating services in the right order and for triggering compensating transactions if any step fails. The note explains how the orchestrator tracks each step and when central control suits complex transactions. It also covers what that control costs in idempotency work and a possible single point of failure.
 
 ## Core Idea
 

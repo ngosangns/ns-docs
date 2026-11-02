@@ -16,7 +16,7 @@ tags:
 
 ## Arrays
 
-In javascript you'd think this `[]` is an array. Well you're wrong, it's actually an Array List.
+In javascript you'd think this `[]` is an array. Well you're wrong, it's actually an Array List. An array is a raw chunk of contiguous memory that the runtime reads as a list of values. Node can build one directly, with an `ArrayBuffer` of fixed byte length and typed views over it. A `Uint8Array` view walks the buffer one byte at a time. A `Uint16Array` view walks the same buffer two bytes at a time. Neither view copies anything. The Array List then grows by copying its items into a bigger buffer. A ring buffer keeps the same memory and just moves a head and a tail. Linear search, binary search, and the classic sorts all sit on top of these layouts.
 
 - An Array is just a contiguous memory space (contiguous = non breaking)
 - It's just a chunk of memory that is understood as an array

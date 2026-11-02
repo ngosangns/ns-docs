@@ -14,6 +14,8 @@ resource: https://github.com/mannu691/TachiyomiAT
 
 # Tachiyomi AT
 
+TachiyomiAT forks Mihon, the Android manga reader once called Tachiyomi. It translates a chapter after download with ML Kit, Google Translate, Gemini, or OpenRouter. Android 8.0 or newer is required, and the license is Apache-2.0.
+
 ## Definition
 
 **TachiyomiAT** is a fork of Mihon (formerly Tachiyomi), the Android manga reader, that adds automatic manga translation. Discover, translate, and read manga directly on an Android device.

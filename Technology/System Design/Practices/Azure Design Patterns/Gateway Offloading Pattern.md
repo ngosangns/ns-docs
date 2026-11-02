@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-
 
 # Gateway Offloading Pattern
 
-The Gateway Offloading pattern offloads shared or specialized service functionality to a gateway proxy. This simplifies application development by moving shared functionality, such as SSL certificate management and authentication, from other parts of the application into the gateway.
+The Gateway Offloading pattern offloads shared or specialized service functionality to a gateway proxy. This simplifies application development by moving shared functionality, such as SSL certificate management and authentication, from other parts of the application into the gateway. Without it, every service configures the same features on its own. That raises management cost, invites deployment errors, and forces a redeploy of each service whenever a shared feature changes. Token validation, encryption, and certificate handling also demand deep expertise. A gateway can take over certificates and SSL termination, authentication, throttling, logging, protocol translation, and compression. One team then owns those concerns while product teams stay on business logic. Run several instances so the gateway is not a single point of failure.
 
 ## Context and Problem
 

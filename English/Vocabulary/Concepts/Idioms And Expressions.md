@@ -12,7 +12,7 @@ tags:
 
 # Idioms And Expressions — Thành ngữ và cụm cố định
 
-Idiom là cụm từ cố định mà nghĩa không đoán được từ từng chữ — _kick the bucket_ = chết. Thành ngữ xuất hiện liên tục trong bài đọc và hội thoại tự nhiên.
+Idiom là cụm từ cố định mà nghĩa không đoán được từ từng chữ, ví dụ _kick the bucket_ nghĩa là chết. Thành ngữ xuất hiện liên tục trong bài đọc và hội thoại tự nhiên. Trang này gom các idiom phổ biến theo chủ đề như thời gian, tiền bạc, cảm xúc, con người và lời nói. Mỗi nhóm chỉ vài dòng, kèm nghĩa tiếng Việt ngắn và đôi khi có câu ví dụ in nghiêng. Phần cuối thêm những cụm cố định đời thường không phải idiom nhưng cũng dùng y hệt. Ghi chú nhắc ba điều. Đừng dịch ngược thành ngữ Việt sang Anh. Trong bài đọc thi cử, chủ yếu cần nhận ra thành ngữ. Chỉ dùng khi chắc ngữ cảnh, vì nhiều idiom khá thân mật.
 
 ## Thời gian
 

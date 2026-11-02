@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/reverse-proxy-tu-thang-chuyen-phat-thanh-ong-quan
 
 # Reverse Proxy
 
+A reverse proxy sits in front of your services and forwards client requests to them. This note opens with a reading link on the types of reverse proxy and when each one fits. Most of the page then profiles Caddy. Caddy is a fast, multi-platform HTTP server written in Go, and it obtains and renews TLS certificates on its own from Let's Encrypt and ZeroSSL. The note lists its features, such as HTTP/1.1, HTTP/2 and HTTP/3 by default, a readable Caddyfile or native JSON config, reverse proxying and load balancing, and a plugin system. It then covers installation from releases, from source, or with the xcaddy builder. It closes with use cases and advantages, from fronting microservices to local development with HTTPS.
+
 ## Overview
 
 - Types of reverse proxy and when to use them: https://viblo.asia/p/reverse-proxy-tu-thang-chuyen-phat-thanh-ong-quan-gia-PAoJeOArV1j

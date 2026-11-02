@@ -17,6 +17,8 @@ resource: https://github.com/hmcts/spring-boot-template
 
 # Distroless JLink
 
+This note walks through a Java Dockerfile that shrinks the runtime to a custom JRE on top of a distroless base. The build stage unpacks the fat jar, lets jdeps list the modules it needs, and hands that list to jlink. The result is a JRE with only the required modules, which the note estimates saves about 100MB against the full JRE. A busybox stage supplies wget for the healthcheck, since the distroless image ships no tools. The note lists the gains in size and security next to the costs. Builds are slower, jdeps can miss modules, and a Java upgrade means rebuilding the JRE.
+
 ## Techniques
 
 - **Base image**: `gcr.io/distroless/base-debian12` (distroless)
@@ -50,6 +52,8 @@ resource: https://github.com/hmcts/spring-boot-template
 - Microservices that need small images
 - When optimizing the memory footprint
 - Compliance requirements (CIS Docker Benchmark)
+
+The build uses Temurin 21, unpacks the fat jar, and asks jdeps for modules at multi-release 21. jlink then writes a JRE with only those modules, compressed with zip-9. That cut saves about 100MB against a full JRE. Distroless Debian 12 has no shell and no wget, so a busybox stage copies wget in for the healthcheck. A BuildKit cache mount keeps Gradle downloads between builds. jdeps can miss a module, and a Java upgrade means rebuilding the JRE.
 
 ## Dockerfile
 

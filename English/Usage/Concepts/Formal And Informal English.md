@@ -14,6 +14,8 @@ tags:
 
 **Register** là mức độ trang trọng phù hợp tình huống. Cùng một thông điệp sẽ trông khác trong essay, email, và khi chat với bạn bè.
 
+Bài IELTS hoặc THPT nên tránh viết tắt, tránh câu đầy phrasal verb, và tránh chuyện cá nhân khi đề không cho phép. Chat với bạn thì buy, get, kids, gonna, hoặc stuff vẫn dùng được. Văn trang trọng đổi sang purchase, obtain, children, và bỏ các từ đệm ấy. Cùng một lời nhờ có thể đi từ Can I sang Could I, May I, rồi Might I. Mức lịch sự hơn là Would you mind, hoặc I would be grateful if you could.
+
 ## Từ vựng — Cặp thân mật vs trang trọng
 
 | Thân mật | Trang trọng            | Thân mật    | Trang trọng                |
@@ -31,6 +33,8 @@ tags:
 | but      | however / nevertheless | also        | furthermore / moreover     |
 
 **Phrasal verbs nghiêng thân mật:** put off → postpone, find out → discover, carry out → conduct, look into → investigate, put up with → tolerate, point out → indicate, deal with → handle. Xem [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs).
+
+Đổi register là đổi đúng cặp từ trong bảng. Buy thành purchase, get thành receive hoặc obtain, ask thành request hoặc enquire, và need thành require. Help thành assist, start thành commence, còn end thành terminate hoặc conclude. Find out thành discover hoặc ascertain, look into thành investigate, put off thành postpone. So thành therefore hoặc consequently, but thành however hoặc nevertheless, also thành furthermore hoặc moreover. Phrasal verb cũng vậy. Put up with thành tolerate, point out thành indicate, deal with thành handle, và carry out thành conduct. Đừng trộn kids với furthermore trong một đoạn.
 
 ## Ngữ pháp và tông
 

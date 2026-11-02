@@ -14,6 +14,8 @@ tags:
 
 Đề thi và SGK tổ chức từ vựng theo chủ đề. Học từ theo cụm chủ đề — thay vì danh sách chữ cái — khớp với cách các unit SGK và bài đọc IELTS/TOEIC được xây dựng.
 
+Mười chủ đề ở các mục sau là giáo dục, môi trường, công nghệ, sức khỏe, công việc, du lịch, truyền thông, văn hóa, kinh tế và khoa học. Mỗi mục liệt kê từ cốt lõi. Học với collocation và một câu ví dụ, không học cặp dịch trần. Unit SGK khớp gần như hoàn toàn. IELTS Writing Task 2 hay dùng từ giáo dục, môi trường, công nghệ và xã hội.
+
 ## Giáo dục (Education)
 
 curriculum, tuition (fees), scholarship, compulsory/elective, literacy, vocational training, admission, enrol, graduate, degree, major, semester, deadline, plagiarism, tutor, distance learning

@@ -14,6 +14,8 @@ resource: https://viblo.asia/p/reusable-workflows-tai-su-dung-workflows-trong-gi
 
 # CI CD Tools
 
+This note lists CI and CD tools, plus one sample pipeline. GitHub Actions is a workflow automation platform built into GitHub. A link covers reusing workflows in GitHub Actions. Woodpecker is a simple yet powerful CI/CD tool with high extensibility, forked from Drone CI. GitLab CI/CD supports complex pipelines and good Kubernetes integration. Semgrep is a fast open-source static application security testing tool for many languages. It detects security bugs, misconfigurations, and dangerous code patterns. SonarQube inspects source code for bugs, security vulnerabilities, and code smells. Node-EKS-CICD is a Node.js pipeline on Amazon EKS. It uses GitLab CI, Docker, Kubernetes, Helm, Prometheus, and Grafana.
+
 ## GitHub Actions
 
 - **GitHub Actions**: A software development workflow automation platform built into GitHub.

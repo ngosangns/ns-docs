@@ -15,6 +15,8 @@ tags:
 
 # Senior PHP JavaScript Interview
 
+This note sets out a senior software engineer interview for a PHP and JavaScript role on Laravel 8 and above. It opens with the eight part outline used in the session, from greeting and company research to closing, and marks where the candidate struggled. Coding proficiency and git rebase were the weak points, while refactoring and adaptability were covered in depth. The technical section then groups the actual questions by topic. Frameworks and databases, testing and the testing pyramid, REST API traits, frontend frameworks, design patterns, security, modern CSS, DevOps, and the monolith versus microservices tradeoff all appear. Two closing notes remind you to credit Laravel and follow naming conventions.
+
 **Position**: Senior Software Engineer (PHP, JavaScript) - Laravel 8+
 
 ## Interview Outline

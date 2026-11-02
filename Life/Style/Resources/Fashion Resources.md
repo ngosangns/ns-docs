@@ -13,6 +13,8 @@ resource: https://www.facebook.com/reel/1041476760767492
 
 # Fashion Resources
 
+Trang này là một danh sách link thời trang nam, chủ yếu để tra cứu khi cần mua sắm hoặc học cách phối đồ. Mục đầu nhóm vài video và bài đăng Facebook hướng dẫn phối đồ, chọn màu và layering. Phần còn lại là link tới các thương hiệu và cửa hàng Việt Nam như Ananas, Biti's, YaMe, Uniqlo, Coolmate, Icon Denim, Krik và Adidas. Xen giữa là vài trang kiến thức như Sartorial.vn, một video của Spiderum về sơ mi nam và chuyên mục thời trang trên VOZ. Mỗi link có mô tả ngắn để bạn đoán được nội dung trước khi mở. Danh sách khá lộn xộn, có cả vài video giải trí không liên quan, nên hãy đọc mô tả trước.
+
 - **phối đồ**
   - [Video Facebook Reel hướng dẫn cách phối đồ nam thời trang, chia sẻ tips và kinh nghiệm mix-match quần áo nam tạo phong cách cá nhân ấn tượng và hiện đại.](https://www.facebook.com/reel/1041476760767492)
   - [Bài đăng Facebook chia sẻ kinh nghiệm và tips phối đồ nam, hướng dẫn cách chọn trang phục phù hợp cho từng dịp và tạo outfit thanh lịch, tự tin.](https://www.facebook.com/permalink.php?story_fbid=pfbid02fv8u53KjJfWKZxWp8aBYQcyRPviVovM6jwxEP2paGZy6482zC42MMEd7GUSuDqnYl&id=100090662200401)

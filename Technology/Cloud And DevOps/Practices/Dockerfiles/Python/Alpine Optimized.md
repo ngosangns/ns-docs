@@ -16,6 +16,8 @@ resource: http://127.0.0.1:${PORT}/health/
 
 # Alpine Optimized
 
+Alpine Optimized packs a Python FastAPI service into an image under 110MB on the Python 3.13 Alpine base. The build runs in two stages. The first stage installs pinned, patched dependencies into a prefix directory and then removes weight. It strips shared libraries, deletes bytecode, tests, docs, examples, typing stubs, headers, and license files, and prunes the metadata. The runtime stage copies that prefix, drops pip, setuptools, distutils, tkinter, test, and other unused standard library parts, and runs as the non-root app user with UID 10001 and a wget healthcheck. The note then explains each technique with its advantages and disadvantages. Alpine brings musl libc problems and source builds, and aggressive deletion can break a package, so the size win comes with maintenance work.
+
 ## Dockerfile Content
 
 ```dockerfile

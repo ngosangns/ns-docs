@@ -15,7 +15,7 @@ tags:
 
 ## Basic Prompting Techniques (Text-Based Prompting)
 
-These techniques focus on building prompts that give requests or instructions to an LLM:
+These techniques focus on building prompts that give requests or instructions to an LLM. They are the base layer of prompt engineering, and the other methods in this note build on top of them. The set covers zero-shot and few-shot prompting, how to pick good examples, instruction selection, and emotion, role and style prompting. Each entry below carries a short description, and most of them come with an example you can reuse. Read them as building blocks rather than rules, because a real prompt usually combines several of them at once.
 
 ### Zero-Shot Prompting
 

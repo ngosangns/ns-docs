@@ -17,6 +17,8 @@ resource: https://viblo.asia/p/tim-hieu-ve-do-tre-trong-bo-xu-ly-trung-tam-va-o-
 
 # Concepts Notes
 
+This note holds two clusters of computer science notes taken from reading. The first covers CPU performance. It ranks latency from L1 cache to disk, explains branch prediction, and describes the illusion of shared memory between processes. It closes with false sharing, where two cores touch different variables on the same cache line and slow each other down. The second cluster covers operating systems. It defines time slicing as a way to share the CPU fairly and then lists four scheduling algorithms, from First Come First Serve to Round Robin. Both clusters share one concern, how a machine spends its time on work.
+
 ## CPU Performance
 
 ### Latency in the CPU and Disk - Optimizing System Performance

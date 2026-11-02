@@ -15,6 +15,8 @@ resource: https://shopee.vn/dau_nhot_nanoil_usa?categoryId=100640&entryPoint=Sho
 
 # Bảo dưỡng xe Air Blade
 
+Ghi chú này gom việc bảo dưỡng xe Air Blade. Nhớt máy là Respol Moto Scooter hoặc Motul 300v, giá 200k cho 1L, chu kỳ 3000 km. Nhớt láp là Liqui Moly Racing Scooter Gear Oil, giá 120k cho 120 ml, chu kỳ 6000 km. Note còn một link nhớt Nanoil USA trên Shopee. Tiệm sửa là Phát Đạt 1, ở 364 đường Nguyễn Chí Thanh, quận 10. Phụ tùng Air Blade xem tại Kim Thành. Khi xe dễ tắt máy lúc giảm ga, hai việc được ghi là chỉnh grenti và thay lọc gió. Nguồn thêm là hai bài Voz và một video YouTube.
+
 ## Nhớt
 
 - Nhớt máy: Respol Moto Scooter / Motul 300v (200k/3000km - 1L)

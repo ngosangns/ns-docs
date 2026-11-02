@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1
 
 # Persistent Segment Tree
 
+A persistent segment tree answers range queries and also keeps every earlier state of the array. The note starts from the plain segment tree and its divide and conquer structure. It then explains persistence, where each version of the tree is stored so past states survive untouched. Combining the two ideas gives a structure that supports queries and updates on old versions. Path copying is the key trick. An update copies only the nodes on the changed path instead of the whole tree, which keeps memory low. The closing section lists practical uses, from data version management and undo/redo to systems that store historical data and competitive programming tasks that query data over time.
+
 > https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1j4lkvAVwl
 
 ## Introduction
@@ -41,6 +43,8 @@ resource: https://viblo.asia/p/du-hanh-thoi-gian-cung-persistent-segment-tree-n1
 
 - A smart copying technique that copies only the necessary nodes of the tree during an update
 - It saves memory and is more efficient than copying the entire tree
+
+The sections build on each other. The Segment Tree supplies the divide and conquer structure that makes a range query cheap. Persistence adds the history, because each version of the tree is stored independently and an earlier state can be read again without affecting the current one. Combining the two gives a tree that answers queries and updates on previous versions while the data history survives. Path copying is what makes that combination affordable. During an update only the nodes on the changed path are copied, so the rest of the tree is shared with the versions before it. Copying the entire tree on every update would work but would cost far more memory and time. That single choice explains why path copying gets its own section between the combination and the applications. The applications follow from the same property. Data version management and undo/redo both need old states. Systems that store historical data need them at scale. Contest problems need them for each query over time.
 
 ## Practical Applications
 

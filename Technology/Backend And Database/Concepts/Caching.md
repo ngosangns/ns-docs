@@ -13,6 +13,8 @@ resource: https://redis.io/documentation
 
 # Caching
 
+Caching keeps data close to where it is read so the system answers faster and the database does less work. This note maps the four places a cache can live, the strategies that fill and refresh it, and the ways it is invalidated. The layers section runs from the client and the CDN edge to server memory and the database itself. Four read and write strategies follow, cache-aside, write-through, write-behind, and refresh-ahead, each with the cost it carries. Invalidation gets the same treatment through TTL, event-based eviction, and version keys. The note ends with operating habits such as a clear key strategy, stampede handling, hit ratio monitoring, and warming, plus a short list of tools.
+
 ## Overview
 
 Caching is a technique for temporarily storing data to reduce access time and load on the system.
@@ -96,6 +98,8 @@ Caching is a technique for temporarily storing data to reduce access time and lo
 - **Memcached**: Distributed memory caching
 - **Varnish**: HTTP reverse proxy cache
 - **CDN**: CloudFlare, AWS CloudFront, etc.
+
+A read can hit the browser, a CDN edge, server memory such as Redis or Memcached, or the database buffer pool. Cache-aside fills the cache only after a miss. Write-through updates the cache and the database together, which is slower but consistent. Write-behind updates the cache first and the database later, so a crash can drop data. Refresh-ahead reloads an entry before it expires.
 
 ## Resources
 

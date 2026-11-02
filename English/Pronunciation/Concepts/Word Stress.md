@@ -14,6 +14,8 @@ tags:
 
 Mỗi từ tiếng Anh từ hai âm tiết trở lên có **một âm tiết trọng âm** (đọc to hơn, dài hơn, rõ hơn). Nhấn sai trọng âm có thể khiến từ khó hiểu — và đây là dạng câu cố định trong đề thi.
 
+Quy luật hai âm tiết đặt danh từ và tính từ ở âm một, còn động từ và giới từ ở âm hai. Hậu tố quyết định nhiều câu còn lại. Từ ghép danh từ nhấn phần đầu, còn tính từ ghép nhấn phần sau.
+
 ## Từ hai âm tiết
 
 | Loại từ | Trọng âm  | Ví dụ                                  |
@@ -73,5 +75,7 @@ Thường nhấn âm tiết **thứ ba từ cuối** (antepenultimate), nhất l
 - Âm tiết trọng âm giữ nguyên âm đầy đủ; nguyên âm không trọng âm thường giảm thành schwa /ə/.
 - Mẹo làm bài: nhìn hậu tố trước — nó giải quyết hầu hết câu trọng âm ngay lập tức.
 - Từ điển đánh dấu trọng âm bằng ˈ trước âm tiết: /ɪɡˈzæm/ = eXAM.
+
+Danh từ và tính từ hai âm tiết nhấn âm một, như TAble và HAPpy. Động từ và giới từ nhấn âm hai, như reLAX và aBOVE. REcord là danh từ và reCORD là động từ. Hậu tố ee, eer, ese, ique, ette và oon nhận trọng âm, như employEE và enginEER. Nhóm ion, ic, ity và ify kéo trọng âm về âm đứng trước, như eduCAtion và specIFy. Nhóm al, ful, ly và ment không đổi trọng âm, nên PERsonal và QUICKly giữ chỗ nhấn cũ. Từ ba âm tiết trở lên thường nhấn âm thứ ba từ cuối, như PHOtograph và HOSpital. Trong họ từ, chỗ nhấn chạy từ PHOtograph sang phoTOgraphy rồi photoGRAphic. Danh từ ghép nhấn từ đầu, như BLACKbird và GREENhouse. Âm được nhấn giữ nguyên âm đầy đủ. Âm không nhấn thường thành schwa.
 
 > **Xem thêm:** [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation) · [Word Formation](/English/Grammar/Concepts/Word Formation)

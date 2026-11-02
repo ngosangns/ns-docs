@@ -15,6 +15,8 @@ resource: https://github.com/intentjs/intent
 
 # Nodejs
 
+Node.js backends usually begin with a framework choice, and the list below compares the common options. The framework entries run from minimal routers to full-featured ones inspired by Laravel. A section on ORMs explains what a mapper adds and names the popular choices for SQL databases and MongoDB. Helper libraries, an experimental low latency runtime and a request body validator fill out the rest. Express is the minimal, flexible baseline. Koa is smaller and more expressive, and it comes from the Express team. Fastify trades weight for performance, low overhead and a plugin architecture. AdonisJS and Intent sit at the other end, both inspired by Laravel. Socket.io and FeathersJS cover real time work, and Hapi.js adds a richer structure for applications and services.
+
 > **Note**: This file covers Node.js frameworks and is not directly related to databases.
 
 ## Frameworks
@@ -50,6 +52,8 @@ resource: https://github.com/intentjs/intent
 - **Knex**: SQL query builder, flexible and portable - [GitHub](https://github.com/knex/knex)
 - **Prisma**: Next-generation ORM - [GitHub](https://github.com/prisma/prisma)
 - **jsdom**: A JavaScript implementation of various web standards, for use with Node.js. Implements WHATWG DOM and HTML standards - [GitHub](https://github.com/jsdom/jsdom)
+
+Three of the named ORMs are Prisma, Mongoose, and Sequelize. Prisma is a type-safe client with a relation API. Mongoose targets MongoDB with models, schemas, and middleware. Sequelize targets SQL, with migrations, associations, and hooks. Beside those, the library list adds ioredis, Knex, dotenvx, Telegraf, and jsdom.
 
 ## Runtime
 

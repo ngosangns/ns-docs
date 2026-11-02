@@ -12,6 +12,8 @@ tags:
 
 # Infinitives And Gerunds — Động từ nguyên mẫu và danh động từ
 
+Bài này so sánh hai dạng danh từ hóa của động từ trong tiếng Anh. Phần đầu trình bày động từ nguyên mẫu với dạng to cộng động từ. Nó liệt kê năm chức năng, gồm chủ ngữ, tân ngữ, bổ ngữ cho danh từ, bổ ngữ cho tính từ và trạng ngữ chỉ mục đích. Phần thứ hai làm điều tương tự với danh động từ dạng V-ing. Phần so sánh là trọng tâm. Nó chia động từ thành ba nhóm, chỉ đi với nguyên mẫu, chỉ đi với danh động từ, và đi được cả hai nhưng đổi nghĩa. Cụm từ cũng được chia theo cách này. Phần ghi chú thêm cách phủ định và dạng hoàn thành. Các danh sách động từ giúp bạn chọn đúng dạng khi viết.
+
 ## Động từ nguyên mẫu (Infinitive)
 
 - **Dạng:** to + động từ nguyên mẫu (to eat, to sleep, to go).

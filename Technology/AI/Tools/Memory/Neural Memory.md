@@ -16,7 +16,7 @@ resource: https://github.com/nhadaututtheky/neural-memory
 
 ## Definition
 
-**Neural Memory** is an open-source Python library that provides persistent memory for AI agents. It stores experiences as interconnected neurons and recalls them through spreading activation, mimicking how the human brain recalls memories.
+**Neural Memory** is an open-source Python library that provides persistent memory for AI agents. It stores experiences as interconnected neurons and recalls them through spreading activation, mimicking how the human brain recalls memories. The CLI stores with `nmem remember`, recalls with a depth flag, and scores brain health from A to F. `nmem sync` is the cross-device command, and `nmem serve` starts the web dashboard. The graph section lists 24 relationship types.
 
 ## Installation
 

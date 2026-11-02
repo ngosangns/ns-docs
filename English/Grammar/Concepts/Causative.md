@@ -14,6 +14,8 @@ tags:
 
 Câu sai khiến diễn tả chủ ngữ **bố trí/thuê người khác làm** một việc, chứ không tự làm.
 
+Have đi với nguyên mẫu không to, còn get đi với to-infinitive. Make thì bắt người khác làm, cũng với nguyên mẫu không to. Khi trọng tâm là vật, dùng have hoặc get kèm tân ngữ và quá khứ phân từ, như have my hair cut hay got her laptop repaired. Get thân mật hơn have, và cả hai chia được ở mọi thì. Mẫu này khác hẳn have a car, vì have my car serviced là thuê người bảo dưỡng chứ không phải sở hữu.
+
 ## Sai khiến chủ động — Have và Get người làm việc
 
 | Cấu trúc                          | Nghĩa / sắc thái           | Ví dụ                                                          |
@@ -48,5 +50,7 @@ Trọng tâm là **vật được tác động**; người làm không quan tr�
 - Khác biệt mẫu sai khiến chủ động: **have + người + nguyên mẫu không to**, nhưng **get + người + to-infinitive** — bẫy đề kinh điển.
 - Đừng nhầm với "have + tân ngữ" sở hữu thông thường: _I have a car_ vs _I have my car serviced._
 - Mẫu chuyển đổi liên quan: Mẫu 15 và 35 của [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns).
+
+Khi chủ ngữ chịu đựng một việc xấu chứ không sắp xếp nó, have hoặc get đi với tân ngữ và quá khứ phân từ. She had her phone stolen nghĩa là điện thoại bị mất trộm. He got his nose broken in a fight đứng cùng kiểu chịu đựng. Have còn tả một trạng thái đang diễn ra hoặc đã xong. He had us laughing all evening là làm mọi người cười suốt buổi. I'll have the report ready by Friday là để báo cáo sẵn sàng trước thứ Sáu. Have cộng người thì động từ nguyên mẫu không to, còn get cộng người thì phải có to.
 
 > **Xem thêm:** [Passive Voice](/English/Grammar/Concepts/Passive Voice) · [Infinitives And Gerunds](/English/Grammar/Concepts/Infinitives And Gerunds) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns)

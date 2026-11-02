@@ -12,7 +12,7 @@ tags:
 
 # Articles — Mạo từ
 
-Trước danh từ, tiếng Anh có ba lựa chọn: **a/an** (bất định), **the** (xác định), hoặc **zero article** (không mạo từ).
+Trước danh từ, tiếng Anh có ba lựa chọn: **a/an** (bất định), **the** (xác định), hoặc **zero article** (không mạo từ). Chọn mạo từ nào phụ thuộc vào việc người nghe đã biết cụ thể sự vật hay chưa. Mạo từ bất định đi với danh từ đếm được số ít khi nhắc lần đầu. Mạo từ xác định dùng được với mọi danh từ khi cả hai bên đều biết là cái nào. Có những trường hợp bắt buộc không dùng mạo từ, chẳng hạn câu khái quát chung hoặc tên riêng. Cách chọn a hay an dựa vào âm đầu khi đọc, không dựa vào chữ viết. Một số danh từ đổi nghĩa tùy theo có mạo từ hay không.
 
 ## A / An — Mạo từ bất định
 

@@ -15,6 +15,8 @@ resource: https://docs.agno.com/introduction
 
 # Multi Agent Systems
 
+This page collects frameworks and platforms for building multi agent systems. Each entry is a short note with what the project does and where to find it. Agno and Google ADK cover agent orchestration and streaming. TinyTroupe focuses on simulating human behavior for research. Dify offers a visual platform for agent workflows. TradingAgents shows a full multi agent design in the trading domain, with analyst, researcher, trader and risk roles debating a decision. Read the entries side by side to compare scope, since some are libraries and others are complete platforms. Links point to documentation, GitHub and the original paper.
+
 - [What is Agno? - Agno](https://docs.agno.com/introduction) - Agno is a python framework for building multi-agent systems with shared memory, knowledge and reasoning.
 - **TinyTroupe**: Experimental Python library from Microsoft that uses large language models (LLMs) such as GPT-4 to simulate human behavior in virtual environments. TinyTroupe lets you create "TinyPerson" agents with distinct personalities, interests, and goals, supporting research and experimentation in areas such as advertising, software testing, and product development - [GitHub](https://github.com/microsoft/TinyTroupe) #multi-agent #LLM #simulation
 - **Google ADK**: Development kit for building multi-agent systems, streaming agents, and sophisticated AI agents #multi-agent #agents #google

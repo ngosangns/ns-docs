@@ -16,6 +16,8 @@ tags:
 
 # Scratch Nginx
 
+This note builds Nginx on a scratch base with only the modules that are needed. Shared libraries are copied from the builder. ldd supports multiple architectures, and the filesystem copies only what is needed. The healthcheck is a compiled C binary, so wget and curl are not required. Copied libraries increase size compared with static linking. There is no shell, so the image cannot be debugged directly. The cases are a smaller image without static linking, dynamic Nginx modules, and production with high security requirements.
+
 ## Techniques
 
 - **Base image**: `scratch`

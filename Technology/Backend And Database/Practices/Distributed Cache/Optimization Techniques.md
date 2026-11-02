@@ -16,7 +16,7 @@ resource: https://github.com/huykn/distributed-cache/tree/develop/examples/stale
 
 # Optimization Techniques
 
-Distributed In-Memory Cache for Heavy-Read APIs: a compilation and best practices.
+Distributed In-Memory Cache for Heavy-Read APIs, a compilation of techniques and best practices. The setup keeps a local cache in every reader pod and syncs it through Redis Pub/Sub. The Write Service serializes each object once and publishes the bytes. Reader pods store those bytes and never deserialize them. Native `net/http` replaces Go Fiber on the read path, so bytes go straight into the response. Benchmarks on `/post` put p99 near 13 ms, against about 30 ms when the read hits Redis. ETags are hashed in the Write Service, which lets the reader answer 304. Eviction, warm-up, and stale reads caused by cache aside races are the harder problems.
 
 > **See also:** [In Memory Cache Best Practices](/Technology/Backend And Database/Practices/Distributed Cache/In Memory Cache Best Practices)
 

@@ -15,6 +15,8 @@ resource: https://github.com/mrgoonie/claudekit-skills
 
 # Claudekit Skills
 
+ClaudeKit Skills packs more than 30 Agent Skills for Claude Code and ships them through a plugin marketplace. The catalog covers auth, agents, backend stacks, Gemini multimodal calls, frontend design, browser testing, Cloudflare and Docker, databases, and Office files. Debugging skills include root-cause tracing and a 4-phase systematic pass. Python is 87.1% of the repo, and the license is MIT. Advanced skills require a ClaudeKit.cc purchase. This set does not add hooks or agents.
+
 ## Definition
 
 **ClaudeKit Skills** is a collection of Agent Skills for Claude Code, made up of 30+ specialized skills covering AI/ML, web development, DevOps, databases, document processing, debugging, and problem-solving. It is also a Claude Code Plugin Marketplace for seamless installation.

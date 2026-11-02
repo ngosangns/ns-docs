@@ -14,7 +14,7 @@ resource: https://github.com/vitali87/code-graph-rag
 
 # RAG Overview
 
-To keep from getting lost among AI agents before going deeper into the topic, imagine a huge, ancient tree.
+To keep from getting lost among AI agents before going deeper into the topic, imagine a huge, ancient tree. The roots are the large language models, the trunk splits into branches for language, images, video and music, and the twigs and leaves are the AI applications built on top of them. Every leaf reaches back to the roots in one of three ways, through a prompt, through retrieval from an external source, or through finetuning. This note walks through all three, then asks which one fits a given problem. Prompt engineering shapes the request, RAG supplies facts the model was never trained on, and finetuning changes the model's behaviour. The short version is that RAG fixes correctness and finetuning fixes form.
 
 - The roots are the LLMs (Large Language Models) such as GPT, Gemini (Google), Claude, Llama (Meta), or DeepSeek, where the real Machine Learning work of collecting data and training happens. Only about 10 LLMs are really prominent.
 

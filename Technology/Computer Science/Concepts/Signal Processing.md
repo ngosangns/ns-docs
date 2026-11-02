@@ -16,6 +16,8 @@ resource: https://viblo.asia/p/fourier-transform-la-gi-ve-tranh-voi-discrete-fou
 
 # Signal Processing
 
+This note explains how the Fourier Transform turns a signal into a sum of sine and cosine waves. It starts with the idea that any signal can be rebuilt from waves of different frequencies, and with the move from the time domain to the frequency domain. Examples from audio, images, and telecommunications show where that view helps. The note then narrows to digital data and the Discrete Fourier Transform, which works on individual samples rather than a continuous signal. A worked idea follows, drawing a picture by chaining rotating circles whose radii come from Fourier coefficients. It ends with the Fast Fourier Transform, the optimized way to compute the DFT.
+
 ## Fourier Transform
 
 - **Concept**: A tool that decomposes a signal into a sum of sine and cosine waves of different frequencies

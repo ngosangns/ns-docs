@@ -12,7 +12,7 @@ tags:
 
 # Vũng Tàu
 
-Đường đến: qua phà Cần Giờ -> Vũng Tàu.
+Từ Sài Gòn ra Vũng Tàu có thể đi phà Cần Giờ hoặc chạy xe theo đường bộ. Phần sau ghi đồ nên mang, vài con đường có khách sạn, cùng các quán ăn từ lẩu cá đuối, bánh khọt tới chợ hải sản và quán ốc. Mục đi chơi gom những điểm trong thành phố trước, rồi mở ra các cung ven biển xa hơn như Hồ Tràm, Hồ Cốc và Mũi Né.
 
 ## Đồ mang theo
 

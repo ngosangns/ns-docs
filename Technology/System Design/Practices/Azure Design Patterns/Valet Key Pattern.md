@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/valet-ke
 
 ## Summary
 
-The Valet Key pattern uses a token that gives the client direct but restricted access to a specific resource (such as a file in a storage service or a queue). This offloads data transfer from the application server, optimizes cost, and maximizes scalability.
+The Valet Key pattern uses a token that gives the client direct but restricted access to a specific resource (such as a file in a storage service or a queue). This offloads data transfer from the application server, optimizes cost, and maximizes scalability. The note traces how the token is issued and used, then covers expiry, least privilege, and validation once data reaches storage, with Azure SAS examples for browser uploads and message publishing.
 
 ## Key Points
 

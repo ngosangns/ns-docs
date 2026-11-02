@@ -16,8 +16,8 @@ resource: https://medium.com/data-science-collective/1-building-a-tiktok-like-re
 
 # TikTok Like Recommender And AWS Personalize
 
-> - https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a
-> - https://blog.cloudmentor.pro/blog/aws-mla/solution-personalize-customer
+> - https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a is the source for the TikTok-like build, where a two-tower model feeds a four-stage pipeline for H&M fashion items. Item embeddings can be precomputed, so a query costs one embedding lookup plus a nearest neighbour search. The custom route keeps full control of the model.
+> - https://blog.cloudmentor.pro/blog/aws-mla/solution-personalize-customer is the source for the AWS case, where Amazon Personalize serves a Kansai energy group and Bedrock writes ad copy from product images. The flow there runs on managed services only, from Amplify and API Gateway to Kinesis and SageMaker, and it reported revenue growth of nearly 230%.
 
 ## Building a TikTok-Like Recommender
 

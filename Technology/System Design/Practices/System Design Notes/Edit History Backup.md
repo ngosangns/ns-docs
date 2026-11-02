@@ -14,7 +14,7 @@ tags:
 
 # Edit History Backup
 
-:)) With the constraints on scale and reload time I don't dare to weigh in, since the projects I've worked on weren't that strictly large, but I'd still like to contribute a little.
+:)) With the constraints on scale and reload time I don't dare to weigh in, since the projects I've worked on weren't that strictly large, but I'd still like to contribute a little. My idea is to store the first version as a full save, then record each later edit as a diff with its position in a version table. Every so often, when the user leaves the document or after a handful of edits, a new full save folds the earlier diffs in. Two tables hold the document and its versions. To rebuild an old version you take the nearest full save and replay the diffs forward.
 
 - Idea for handling it:
   - Call the first version version 1 – fullSave 1

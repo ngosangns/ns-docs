@@ -14,6 +14,8 @@ tags:
 
 Minimal pairs là cặp từ khác nhau đúng **một âm** — bài luyện tai chuẩn. Cách luyện: nghe một cặp, đoán từ nào được nói, rồi phát âm rõ cả hai. Các âm dưới đây là những âm người Việt nhầm nhiều nhất — xem [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes).
 
+Các bảng lần lượt so /ɪ/ với /iː/, /e/ với /æ/, lưỡi răng /θ/ với /s/, và /l/ với /n/ cùng /r/.
+
 ## /ɪ/ vs /iː/ — ngắn vs dài
 
 | /ɪ/  | /iː/  | /ɪ/  | /iː/  |

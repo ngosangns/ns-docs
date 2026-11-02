@@ -14,6 +14,8 @@ tags:
 
 # Algorithm Development
 
+This note walks through the full life of a program, starting before any code exists. It first lists the properties an algorithm must have, such as unambiguity, termination, correctness, generality, and feasibility. A short example separates deterministic from randomized algorithms. It then covers debugging. Syntax, implementation, and algorithm errors are treated in turn. The test set advice starts with small handwritten cases, adds special values that are easy to get wrong, then includes a few large tests. The last part deals with optimization after the program is correct. Each step is judged on reliability, flexibility, clarity, and efficiency, and the note warns against optimizing while writing the code.
+
 ## Table of Contents
 
 - [Choosing an Algorithm](#choosing-an-algorithm)

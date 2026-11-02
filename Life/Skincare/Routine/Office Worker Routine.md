@@ -15,7 +15,7 @@ tags:
 
 # Office Worker Routine — Skincare cho dân văn phòng
 
-Quy trình skincare thiết kế riêng cho **dân văn phòng**, thiên cho **da dầu / hỗn hợp thiên dầu**, tối ưu cho tình huống:
+Quy trình skincare thiết kế riêng cho **dân văn phòng**, thiên cho **da dầu / hỗn hợp thiên dầu**. Ngồi máy tính 8 giờ/ngày khiến da chịu ánh sáng xanh. Phòng điều hoà lạnh và khô làm da mất nước, dễ tiết dầu bù. Không khí văn phòng tuần hoàn kém cộng thêm stress, deadline và thức khuya càng làm da xuống sắc. Vì vậy routine ưu tiên ba việc. Một là chống blue light và xịt khoáng HA cấp ẩm giữa giờ. Hai là kem chống nắng đủ mạnh nhưng không nhờn, chịu được dưới lớp makeup. Ba là tối giản cả sáng lẫn tối để không mất thời gian. Các bước chuyên sâu được dồn vào cuối tuần:
 
 - Ngồi máy tính 8 giờ/ngày (ánh sáng xanh blue light)
 - Phòng điều hoà lạnh, khô (mất nước)

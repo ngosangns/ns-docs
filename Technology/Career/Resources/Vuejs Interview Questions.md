@@ -14,6 +14,8 @@ tags:
 
 # Vuejs Interview Questions
 
+This interview note is about Vue's built-in KeepAlive component. It caches component instances when switching between multiple components. Caching preserves component state and avoids repeated re-rendering. The use case is a stepper component. Each step keeps its information, so going back does not need a re-render. The performance benefit is that a cached step is not rendered again. The other benefit is avoiding a store used only so data survives moving back and forth. The note calls that store use indiscriminate. Related pages are React interview questions and Laravel interview questions.
+
 ## KeepAlive Component
 
 - **Definition**: A built-in component that caches component instances when switching between multiple components

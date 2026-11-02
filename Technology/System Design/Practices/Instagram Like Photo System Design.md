@@ -15,7 +15,7 @@ resource: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-
 
 # Instagram Like Photo System Design
 
-> Summary of the article: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-GAWVpZd5J05
+> Summary of the article: https://viblo.asia/p/thiet-ke-don-gian-mot-he-thong-anh-nhu-instagram-GAWVpZd5J05 The note walks through the article in the order it was written. It starts with functional and non-functional requirements, then estimates capacity for 500 million users, 1 million daily actives and 2 million new photos a day. Storage lands around 400GB a day, or 730TB over five years. The design puts photos in S3 and metadata in a database, with MySQL and Cassandra weighed against each other. Newsfeed generation compares pull, push and a hybrid model that splits at 1,000 followers. Caching uses a CDN plus Memcache on the hottest 20 percent, and key generation covers two offset databases or a dedicated service.
 
 ## Summary
 

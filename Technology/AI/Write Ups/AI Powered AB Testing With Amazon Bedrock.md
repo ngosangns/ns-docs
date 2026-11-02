@@ -19,6 +19,8 @@ resource: https://awsstudygroup.com/2026/04/03/xay-dung-cong-cu-kiem-thu-a-b-duo
 
 > **Source**: [Building an AI-powered A/B testing tool using Amazon Bedrock](https://awsstudygroup.com/2026/04/03/xay-dung-cong-cu-kiem-thu-a-b-duoc-ho-tro-boi-ai-su-dung-amazon-bedrock) (Vietnamese translation, title rendered here in English) — Vijit Vashishtha & Koshal Agrawal, AWS Study Group, 03/18/2026
 
+Traditional A/B tests assign variants at random and then wait weeks for significance. That misses early signals, converges slowly, stays noisy, and still needs a person to segment the results. This design asks Amazon Bedrock to choose a variant from user context once behavioral data exists. New users stay on a hash so the experience is stable while signals collect. Returning users get a model decision through MCP tools.
+
 ## Problems with Traditional A/B Testing
 
 Random variant assignment plus waiting weeks for statistical significance has 4 limitations: it ignores early signals, converges slowly, is very noisy (users are assigned to variants that don't fit their needs), and needs manual segmentation after the data comes in.
@@ -27,7 +29,7 @@ Illustrative example: testing 2 CTAs, "Buy now" (A) vs "Buy now – Free shippin
 
 ## Solution Architecture
 
-Stack: **Amazon CloudFront + WAF** (CDN, DDoS/SQLi protection) → **VPC Origin** → **internal ALB** → **ECS Fargate** (FastAPI) → **Amazon Bedrock** (Claude Sonnet, native tool use) through the **Model Context Protocol (MCP)** to access behavioral data → **DynamoDB** (5 tables: experiments, events, assignments, profiles, batch jobs) + **S3** (static frontend, event logs), all through VPC Endpoints (no public internet egress).
+The stack starts at Amazon CloudFront and WAF for CDN plus DDoS and SQLi protection. Traffic then goes through a VPC Origin, an internal ALB, and ECS Fargate running FastAPI. Amazon Bedrock, with Claude Sonnet and native tool use, reaches behavioral data through the Model Context Protocol (MCP). DynamoDB holds five tables for experiments, events, assignments, profiles, and batch jobs. S3 holds the static frontend and event logs. VPC Endpoints keep the path off the public internet.
 
 ## Hybrid Assignment Strategy
 

@@ -15,7 +15,7 @@ resource: https://dicungdien.com/trekking/dung-cu-can-thiet-khi-di-trekking/
 
 ## Tổng quan
 
-Mang đúng hành lý là nền của một chuyến đi suôn sẻ, thoải mái.
+Mang đúng hành lý là nền của một chuyến đi suôn sẻ, thoải mái. Danh sách chia làm hai nhóm, một cho chuyến đi thường và một cho leo núi, cắm trại. Mỗi nhóm xếp theo mục như giấy tờ, quần áo, đồ vệ sinh, đồ điện tử và đồ chuyên dụng, dạng ô vuông để đánh dấu dần khi xếp. Phần cuối nhắc những việc nên làm trước khi đi và cách xếp đồ cho gọn.
 
 ## Danh sách cơ bản
 

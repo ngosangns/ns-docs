@@ -16,7 +16,7 @@ resource: https://github.com/huytran1120/ToolCheckMac
 
 # ToolCheckMac
 
-[ToolCheckMac](https://github.com/huytran1120/ToolCheckMac) (app name ToolCheckMacBook) is a native macOS app for inspecting a Mac's hardware and lock state, aimed at people buying a second-hand Mac, shops and technicians. The UI and reports are bilingual Vietnamese/English. Site: [huytran1120.github.io/ToolCheckMac](https://huytran1120.github.io/ToolCheckMac/).
+[ToolCheckMac](https://github.com/huytran1120/ToolCheckMac) (app name ToolCheckMacBook) is a native macOS app for inspecting a Mac's hardware and lock state, aimed at people buying a second-hand Mac, shops and technicians. The UI and reports are bilingual Vietnamese/English. Site: [huytran1120.github.io/ToolCheckMac](https://huytran1120.github.io/ToolCheckMac/). The build is MIT licensed, written in Swift 6 and SwiftUI, and needs macOS 14 or later. It checks the battery, SSD SMART status, MDM/DEP enrollment, Activation Lock and a serial cross-check. Interactive tests cover the keyboard, screen, speakers, microphone, camera, Touch ID and trackpad. A 0 to 100 score comes out as a PNG or PDF report. A read-only source review found no network code and no sudo. The release builds are unsigned and not notarized, so Gatekeeper will block them.
 
 Checked 2026-10-19 (repo state at commit `6503ed7`, v1.3.2):
 

@@ -14,6 +14,8 @@ resource: https://github.com/kaitranntt/ccs
 
 # AI Coding Productivity Tools
 
+This note is a long list of tools that sit around a coding agent rather than replace it. Several entries manage agent sessions and profiles, such as ccs, get-shit-done, gsd-core, Orca, and herdr. A second group adds browser access, including dev-browser, lightpanda, obscura, and BrowserSkill. Another group trims context and token spend, with rtk, vfs, headroom, pxpipe, and caveman. Skill collections form a third group, from Anthropic's official skills and addyosmani's lifecycle skills to Hallmark for design and Microsoft's skill recorder. The rest covers scrapers, code search, local model sizing, and TypeScript agent libraries. Each line gives the repository or site plus a one-sentence description, so you can scan for a gap in your setup and follow the link.
+
 - https://github.com/kaitranntt/ccs — Multi-provider profile and runtime manager for Claude Code, Codex, Ollama, GLM, and other AI CLIs.
 - https://github.com/SawyerHood/dev-browser — Sandboxed browser automation tool for AI agents; QuickJS WASM scripts with full Playwright API.
 - https://github.com/ScrapeGraphAI/Scrapegraph-ai — Python web scraping library that uses LLMs and graph logic to build extraction pipelines for websites and local documents (HTML, XML, JSON, Markdown) without hand-written CSS selectors.

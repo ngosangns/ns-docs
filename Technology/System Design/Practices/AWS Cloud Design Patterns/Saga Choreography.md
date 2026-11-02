@@ -15,7 +15,7 @@ tags:
 
 # Saga Choreography
 
-Saga Choreography is a way to maintain data integrity in distributed transactions that span multiple services by using event subscriptions. Instead of a central controller, each service in the transaction does its own part and publishes events that trigger the next steps in other services.
+Saga Choreography is a way to maintain data integrity in distributed transactions that span multiple services by using event subscriptions. Instead of a central controller, each service in the transaction does its own part and publishes events that trigger the next steps in other services. The note explains why it suits services with their own databases and how it sidesteps two-phase commit. It also covers the costs around idempotency, observability, and cyclic dependencies.
 
 ## Core Idea
 

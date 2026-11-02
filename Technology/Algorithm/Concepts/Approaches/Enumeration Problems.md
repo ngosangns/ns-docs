@@ -14,6 +14,8 @@ tags:
 
 # Enumeration Problems
 
+Enumeration problems ask for every configuration that satisfies a condition, and this note covers the counting and the algorithms behind them. It begins with arrangements with and without repetition, then permutations and combinations, with the formulas that size each family. The generation method comes next. It builds the first configuration, prints it, and derives the next one until none remain, which produces a lexicographic listing. Totality, reflexivity, antisymmetry, and transitivity define that order, and the note shows how sequences of different lengths compare. Backtracking closes the note, with a template that chooses one element at a time and undoes choices, plus branch and bound pruning for problems that need an optimum.
+
 ## Table of Contents
 
 - [Arrangements, Combinations, Permutations](#arrangements-combinations-permutations)

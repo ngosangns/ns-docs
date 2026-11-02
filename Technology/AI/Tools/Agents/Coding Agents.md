@@ -14,6 +14,8 @@ resource: https://ai-tools-registry.vercel.app/
 
 # Coding Agents
 
+This page is a survey of coding agents and the surfaces they live in. It opens with a resource registry, then a tools section covering SQL generation, README generation, NLWeb conversational interfaces, UI generators, and the Agent File format with its serialization trade-offs. The next groups list command line agents like Gemini CLI, Qwen Code, Crush, and OpenCode, then VS Code extensions and IDEs. OpenCode gets a fuller breakdown of its agents, install paths, and differences from Claude Code. The back half profiles individual products. Devin, Cosine, Dyad, and Kilo each get features, use cases, and pricing or deployment notes. Use the profile sections to compare mature products and the earlier lists to find smaller tools.
+
 ## Resources
 
 - [AI Tools Registry | A registry distributing AI Tools and components using shadcn.](https://ai-tools-registry.vercel.app/)

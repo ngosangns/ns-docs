@@ -28,6 +28,8 @@ plan -> test -> implement -> review -> verify -> remember -> improve
 
 Instead of re-describing this process in every prompt, you install it once and it becomes how the agent works.
 
+ECC installs that loop once so the agent plans, tests, implements, reviews, verifies, remembers, and improves without a fresh prompt each time. The pack holds specialized agents, workflow skills, command shims, and lifecycle hooks. Hooks can restore context at session start, check tools before they run, and save a summary when the session ends. Claude Code is the best supported harness. Codex has a sync path, and Kimi Code has guided setup.
+
 ## Basic Information
 
 | Item                    | Value                                                                      |

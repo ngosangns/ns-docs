@@ -14,6 +14,8 @@ resource: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-develope
 
 # 37 Tips From A Senior Frontend Developer
 
+A senior frontend developer's advice works better as small decisions than as one long essay. This note condenses 37 tips from a senior developer into groups covering fundamentals, code quality, work management, communication, career development, technical habits and mindset. It starts with mastering HTML, CSS and JavaScript before frameworks and ends with assuming good intent and being trusted on simple tasks.
+
 Source: https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b
 
 ## Fundamentals And Learning

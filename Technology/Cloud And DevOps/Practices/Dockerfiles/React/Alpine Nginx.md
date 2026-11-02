@@ -17,6 +17,8 @@ resource: https://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz
 
 # Alpine Nginx
 
+Alpine Nginx describes one way to ship a React and Vite build in a small image. The base is the Alpine 3.20 image, and nginx is compiled from source with only the modules the site needs. Static files are gzipped at level 9 during the build, and nginx serves those files directly through gzip_static. The container runs as the nginx user with UID 101 and adds basic security headers. The note lists the trade-offs against the other approaches, since a shell and tools stay available for debugging, but nginx still has to be compiled. It then widens out. A comparison table ranks five approaches by size, features, build time, and security, and later sections cover shared optimisation techniques, best practices, and the full Dockerfiles.
+
 ## Techniques
 
 - **Base image**: `alpine:3.20`

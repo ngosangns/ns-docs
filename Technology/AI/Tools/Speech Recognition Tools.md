@@ -15,6 +15,8 @@ resource: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ7
 
 # Speech Recognition Tools
 
+This page collects speech tooling in four groups, each entry giving a name, a link, and a short description of what the tool does and what it needs. Vietnamese language tools come first, with a transcription app for researchers and a text to speech project. Pronunciation assessment follows, covering GOP scoring tools, a phonemizer, and an interactive IPA chart built on real-time MRI. The ASR section ranges from espeak-ng and Kaldi to Whisper timestamping, Praat, and forced alignment with aeneas. Self-supervised models close the list, including HuBERT and wav2vec variants plus the wav2vec 2.0 paper. Many entries note install steps or discontinued projects, so read those lines before committing to a tool.
+
 ## Vietnamese Language Tools
 
 - **PhoTranscriptor** - A Vietnamese-language transcription app for researchers: https://www.facebook.com/meousensei/posts/pfbid0sKSPNQkduSiAY2TX9CjZJ795Z6ACBjkNtqy7QJVc1ZhMhevtarjeUNKKHi17WJXFl

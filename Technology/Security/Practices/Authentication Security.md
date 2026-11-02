@@ -13,6 +13,8 @@ tags:
 
 # Authentication Security
 
+Login, logout, forgot password and registration each carry their own security measures, and the note lists them step by step. The lists range from password hashing and session handling to token revocation and rate limiting. A closing section covers deployment caveats such as IP changes, VPN false alarms and fingerprinting failures. It also warns that not every project needs every feature listed.
+
 > **Note**: Not every project needs every feature below. Weigh each item against the project's scale and consult an experienced Senior/SA (solution architect).
 
 ## Login

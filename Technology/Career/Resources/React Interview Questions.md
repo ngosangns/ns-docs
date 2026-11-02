@@ -14,6 +14,8 @@ tags:
 
 # React Interview Questions
 
+This cheatsheet condenses React interview questions into short answers. It opens with the basics, such as what React is, why it uses JSX instead of HTML, when it was first released, and what drawbacks the library has. From there it covers the real DOM against the virtual DOM, Flux and Redux terms such as store, action, and dispatcher, component features, props and state and how the two differ, synthetic events, pure components, and higher order components. Later sections list tools and setup topics, build tools like Webpack and Babel, MVC problems, and advanced ideas such as reconciliation, error boundaries, portals, context, and prop-types. Read it as a checklist. For each heading, say the answer out loud before you check the bullet.
+
 ## React Basics
 
 - **What is React?**: JavaScript library for building user interfaces, developed by Facebook

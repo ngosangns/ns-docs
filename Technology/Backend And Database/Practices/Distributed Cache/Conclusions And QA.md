@@ -15,6 +15,8 @@ resource: https://github.com/huykn/distributed-cache
 
 # Conclusions And QA
 
+Conclusions and QA closes the distributed cache study with the decisions a reader has to make before shipping. It lists the workloads where a cache is a good fit, such as read-heavy APIs that accept eventual consistency, and the workloads where it is a poor fit, such as financial transactions and data that must stay exact. A best-practices summary and an implementation checklist follow. The second half records the community questions, including Redis versus client-side caching, warm-up and seeding, Redis versus Memcached at scale, race conditions in the cache-aside pattern, sharding, the API gateway, memory management, pod lifecycle, and pub/sub failure handling.
+
 ## Conclusions and Recommendations
 
 ### When to Use It

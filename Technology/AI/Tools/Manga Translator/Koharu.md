@@ -14,6 +14,8 @@ resource: https://github.com/mayocream/koharu
 
 # Koharu
 
+Koharu is a local-first manga translator written in Rust, with a Tauri desktop app. Detection, OCR, inpainting, and LLM translation run on the machine. The license is GPL-3.0. Pre-built binaries cover Windows, macOS, and Linux.
+
 ## Definition
 
 **Koharu** is a local-first manga translator written in Rust that uses Tauri for its desktop app. It combines object detection, OCR, inpainting, and LLMs into an automated manga translation workflow. All ML models run locally to ensure privacy.

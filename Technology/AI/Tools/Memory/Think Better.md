@@ -19,6 +19,8 @@ resource: https://raw.githubusercontent.com/HoangTheQuyen/think-better/main/inst
 
 **Think-Better** is an "OS for clear thinking and better decisions". It is a tool that brings structured decision frameworks directly into AI prompts, turning generic AI responses into rigorous, structured analyses.
 
+The decide skill handles choices such as compare, should I, and pros and cons. It can apply a reversibility filter, a weighted matrix, a pre-mortem, or a pros-cons-fixes pass, and it warns about bias. The solve skill is for debug and root cause work. It walks a seven-step McKinsey method and can split the problem with an issue tree or MECE. Setup targets Claude Code, Copilot, or Antigravity.
+
 ## Installation
 
 ```bash
@@ -141,6 +143,8 @@ think-better version    # Show version
 4. Generates structured output with next-step suggestions
 
 **Auto-activation**: Think Better activates automatically when it detects a decision or problem in the conversation.
+
+The engine is a BM25 search over 160 knowledge records, scaled by depth multipliers from 0.5× to 2.5×. It classifies the input as a decision or a problem, applies a framework, and detects cognitive bias. It then returns a structured answer plus a next step. Quick mode is 0.5×, standard is 1.0×, deep is 1.7×, and executive is 2.5×. Ask it to save step-by-step and it writes a markdown workspace with an overview, decomposition, analysis, findings, synthesis, a recommendation, and bias warnings. A binary download has no extra requirement. Go install and source builds need Go 1.25 or later. Running the skills needs Python 3. It is a thinking framework only, so it stores no memory. It supports only Claude, GitHub Copilot, and Antigravity.
 
 ### Example Flow
 

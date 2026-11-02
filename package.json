@@ -27,6 +27,8 @@
     "web:serve": "cd web && npm run dev",
     "web:deploy": "npm run web:build && wrangler pages deploy web/dist --project-name ngosangns-knowledge-base",
     "export": "node scripts/export.js",
+    "publish:audit": "node scripts/publish-audit.js",
+    "publish:build": "node scripts/publish-build.js",
     "backup": "node scripts/backup.js"
   },
   "devDependencies": {

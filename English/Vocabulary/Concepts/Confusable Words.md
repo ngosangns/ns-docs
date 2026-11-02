@@ -14,6 +14,8 @@ tags:
 
 Các cặp từ trông giống, đọc giống, hoặc dịch giống nhau nhưng khác nghĩa/cách dùng — nguồn đáp án nhiễu ưa thích của đề thi.
 
+Note xếp các cặp thành ba nhóm. Cùng gốc mà khác nghĩa có economic với economical, historic với historical, và sensible với sensitive. Khác chức năng có affect với effect, rise với raise, lie với lay, và borrow với lend. Chính tả gần nhau có accept với except, advice với advise, và loose với lose. Khi hai từ chỉ khác từ loại, hãy xác định chức năng của chỗ trống trước. Cặp lie và lay khó với người bản xứ.
+
 ## Cùng gốc, khác nghĩa
 
 | Cặp                          | Khác biệt                                    | Ví dụ                                               |

@@ -13,6 +13,8 @@ tags:
 
 # Human Action Recognition
 
+This note argues that a 3D convolutional network and an LSTM work far better together than either does alone when actions unfold over time. It starts from the limits of a plain CNN on long video, then narrows the gap to the 3D-CNN, which reads motion inside a short clip but loses the wider context. The proposed fix splits a video into clips, extracts spatio-temporal features with C3D or I3D, and passes the sequence to an LSTM. A simple mental picture follows, the eyes and the brain, then the advantages. The note closes with the two parts of the model, examples from papers, and open comparisons such as ST-GCN and a Transformer replacing the LSTM.
+
 ## 3D-CNN + LSTM: A Powerful Pair for Action Recognition
 
 ### The problem with a plain CNN

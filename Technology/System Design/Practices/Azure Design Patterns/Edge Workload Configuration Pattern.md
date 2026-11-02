@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/edge-wor
 
 # Edge Workload Configuration Pattern
 
-This pattern addresses the challenge of managing and distributing configuration for applications running at the edge, where there is great diversity in devices and protocols and a need to keep operating even when the cloud connection is lost.
+This pattern addresses the challenge of managing and distributing configuration for applications running at the edge, where there is great diversity in devices and protocols and a need to keep operating even when the cloud connection is lost. On a factory shop floor, many kinds of devices need different protocol, driver, and data format settings. The same workload can run several times at one site with different configurations, and settings may change many times a day without a redeploy. Configuration must also stay readable offline. The pattern offers two variants. An external controller pushes configuration to the workload, or an internal provider lets the workload pull its own settings by ID. Large payloads move to Blob Storage.
 
 ## Context and Problem
 

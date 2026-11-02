@@ -15,7 +15,7 @@ tags:
 
 # Scalable Golang Course Notes
 
-Viet Tran's (Việt Trần) scalable Golang course.
+Viet Tran's (Việt Trần) scalable Golang course starts from language features and ends with microservices and DevOps. The outline below follows the curriculum in order, covering project analysis, database setup, REST APIs with JWT authentication, and async job handling. Later sections move to deployment with Docker and nginx, gRPC with Protobuf, and a livestream course on microservices. A final part lists supporting skills such as systems thinking, architecture patterns and DevOps practice.
 
 ## Go Language: Key Features
 

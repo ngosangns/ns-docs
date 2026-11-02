@@ -13,6 +13,8 @@ tags:
 
 # Transfer Learning
 
+This note explains transfer learning as reusing what a model already learned for a new but related task. It defines the idea with an everyday comparison between learning to drive a manual car and then an automatic. The how it works section walks through three stages. You pick a source model that is public and licensed for reuse. You fine-tune it by loading the pre-trained weights from hubs such as TensorFlow Hub, Keras Applications, or PyTorch Hub. You then adapt it to the new task by replacing the top layers. A short subsection explains why the feature extractor transfers so well, and the closing section gives three reasons the approach pays off.
+
 > **User prompt:** rewrite the content below concisely as a bullet list and save it to the appropriate file
 
 ## What Is Transfer Learning?

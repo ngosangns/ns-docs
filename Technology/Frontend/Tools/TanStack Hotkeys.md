@@ -16,7 +16,7 @@ resource: https://github.com/TanStack/hotkeys
 
 # TanStack Hotkeys
 
-[TanStack Hotkeys](https://tanstack.com/hotkeys) ([TanStack/hotkeys](https://github.com/TanStack/hotkeys)) registers keyboard shortcuts and handles the parts people usually re-implement badly: platform differences, keyboard layouts, text inputs, nested dialogs, duplicate bindings, and cheat sheets that drift from the real shortcuts. Checked 2026-10-25 on `main` (commit `41f06c5`) and on npm.
+[TanStack Hotkeys](https://tanstack.com/hotkeys) ([TanStack/hotkeys](https://github.com/TanStack/hotkeys)) registers keyboard shortcuts and handles the parts people usually re-implement badly, such as platform differences, keyboard layouts, text inputs, nested dialogs, duplicate bindings, and cheat sheets that drift from the real shortcuts. One singleton manager owns every registration, so a page keeps a single `keydown` and a single `keyup` listener per target. Bindings work as chords like `Mod+S` or as Vim-style sequences like `['G', 'G']`, and `Mod` maps to Command on macOS and Control on Windows and Linux. The library ships typed adapters for ten frameworks plus vanilla JS, with devtools and Agent Skills inside the packages. Checked 2026-10-25 on `main` (commit `41f06c5`) and on npm.
 
 |            |                                                                                                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

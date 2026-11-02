@@ -17,6 +17,8 @@ tags:
 
 ## Recursion
 
+This note shows recursion in TypeScript. A function calls itself until a base case, then each frame returns a value. The foo sample returns 1 when n is 1, otherwise n plus foo of n minus 1. The comment traces foo of 3 to an outcome of 6. Each call has a pre step, the recursive call, and a post step, and the note gives complexity O(N). Later samples use that shape for a maze, for green houses, and for counting islands.
+
 Basic example:
 
 ```ts
@@ -235,5 +237,7 @@ console.log(
   ])
 )
 ```
+
+The maze sample is a small grid with S and E. The walk stops when the point is off the map, the cell is a wall, the cell was already seen, or the point is the end. On the end it pushes the point and returns true. Before the call it marks the cell seen and pushes the path. It tries up, down, left, and right. The post step pops the path when that branch fails. The house task makes total energy non-positive. Panel X sets one house to 0. Panel Y turns consumption into production. The code subtracts the house value for X and twice that value for Y. Both panels cost the same on any house. Houses are sorted by biggest consumption first. The search tries both panels at every index and returns the cheaper cost once the total is at or below 0. The island counter scans a grid of 0s and 1s. A 1 starts a count, the walk sets that cell to 0, and it visits four neighbors while they stay 1.
 
 > **See also:** [Algo Trees](/Technology/Algorithm/Resources/Algo Trees) · [Algo Linked Lists](/Technology/Algorithm/Resources/Algo Linked Lists) · [Algo Recursion](/Technology/Algorithm/Resources/Algo Recursion)

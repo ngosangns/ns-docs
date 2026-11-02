@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/gatekeep
 
 # Gatekeeper Pattern
 
-The Gatekeeper pattern protects applications and services by using a dedicated host instance (a broker) to mediate requests between clients and the application or service. The broker validates and sanitizes requests, providing an additional layer of security and limiting the system's attack surface.
+The Gatekeeper pattern protects applications and services by using a dedicated host instance (a broker) to mediate requests between clients and the application or service. The broker validates and sanitizes requests, providing an additional layer of security and limiting the system's attack surface. Public API code usually mixes authentication, authorization, parameter validation, and data access in one place. A breach there exposes storage keys and sensitive data. The pattern splits that code into two roles. The gatekeeper faces clients and rejects requests that fail its checks. The trusted host keeps the business logic, the keys, and the data, and accepts calls only from the gatekeeper. The extra hop costs latency, so run several gatekeeper instances to avoid a single point of failure.
 
 ## Context and Problem
 

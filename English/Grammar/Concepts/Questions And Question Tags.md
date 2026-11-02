@@ -14,7 +14,7 @@ tags:
 
 ## Câu hỏi Yes/No
 
-Đảo chủ ngữ và trợ động từ đầu tiên; nếu không có trợ động từ, thêm do/does/did.
+Đảo chủ ngữ và trợ động từ đầu tiên; nếu không có trợ động từ, thêm do/does/did. Đó là cách tạo câu hỏi yes/no, còn câu hỏi wh- đặt từ hỏi lên trước rồi đảo ngữ như vậy. Riêng câu hỏi mà từ hỏi chính là chủ ngữ thì giữ trật tự câu trần thuật, không mượn do/does/did. Câu hỏi gián tiếp nằm trong một câu khác cũng dùng trật tự trần thuật, và câu hỏi yes/no gián tiếp thêm if hoặc whether. Bài này còn đi qua câu hỏi đuôi để xác nhận thông tin, câu trả lời ngắn với so và neither, cùng phần phủ định với các từ như never, nobody, nothing.
 
 **Công thức:** Trợ động từ + S + V ... ?
 

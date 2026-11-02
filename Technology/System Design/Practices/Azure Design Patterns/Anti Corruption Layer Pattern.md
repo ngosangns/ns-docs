@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/anti-cor
 
 # Anti Corruption Layer Pattern
 
-The Anti-corruption Layer (ACL) pattern implements a façade or adapter layer between subsystems that don't share the same semantics. The layer translates requests that one subsystem makes to the other, ensuring that the design of the new application is not limited by dependencies on external or legacy systems.
+The Anti-corruption Layer (ACL) pattern implements a façade or adapter layer between subsystems that don't share the same semantics. The layer translates requests that one subsystem makes to the other, ensuring that the design of the new application is not limited by dependencies on external or legacy systems. The new system keeps its own data model. The layer converts each request into the legacy format and maps the response back. It can sit inside the application or run as its own service. A phased migration can retire the layer once the old system is fully replaced.
 
 ## Context and Problem
 

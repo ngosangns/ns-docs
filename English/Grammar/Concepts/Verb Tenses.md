@@ -12,7 +12,7 @@ tags:
 
 # Verb Tenses — Các thì trong tiếng Anh
 
-Tiếng Anh có **12 thì**: 3 khung thời gian (hiện tại, quá khứ, tương lai) × 4 dạng (đơn, tiếp diễn, hoàn thành, hoàn thành tiếp diễn).
+Tiếng Anh có **12 thì**: 3 khung thời gian (hiện tại, quá khứ, tương lai) × 4 dạng (đơn, tiếp diễn, hoàn thành, hoàn thành tiếp diễn). Mỗi thì nên học theo bộ ba công thức, cách dùng và dấu hiệu nhận biết, vì đề thường hỏi một trong ba. Ngoài will, còn ba cách khác nói về tương lai là be going to, hiện tại tiếp diễn và hiện tại đơn. Stative verbs chỉ trạng thái nên thường không dùng ở thì tiếp diễn, còn vài động từ thì đổi nghĩa. Trong mệnh đề thời gian và điều kiện, dùng thì hiện tại thay cho will. Cặp present perfect và past simple dễ lẫn khi câu có mốc thời gian quá khứ xác định.
 
 ## Thì hiện tại
 

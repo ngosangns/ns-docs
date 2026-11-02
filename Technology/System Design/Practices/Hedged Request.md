@@ -15,6 +15,8 @@ resource: https://quanghoang.substack.com/p/50-days-of-sd-hedged-request
 
 # Hedged Request
 
+Hedged requests limit long-tail latency by sending the same request to a second replica once a short delay passes, then taking whichever answer arrives first. The delay is usually set to the current p95 latency so only the slowest 5 percent of requests trigger a duplicate. Causes of the long tail range from shared resource contention and garbage collection pauses to hardware bottlenecks. Idempotency requirements, delay trade-offs, Envoy and gRPC support, and the Google Bigtable experiment round out the discussion.
+
 > Source: [50 Days of System Design - Hedged Request](https://quanghoang.substack.com/p/50-days-of-sd-hedged-request) - Quang Hoang (Mar 15, 2025)
 > Original paper: [The Tail at Scale](https://research.google/pubs/pub40801/) - Jeff Dean and Luiz Barroso (2013)
 

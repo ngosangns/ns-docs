@@ -14,6 +14,8 @@ resource: https://www.myinstants.com/en/index/us/
 
 # Media Editors
 
+This page groups media utilities into sound, GIFs, photos, and PDFs. MyInstants is a library of sound effects and audio clips. The Aigei GIF library holds GIFs and animations. Adobe Photoshop is listed as an online photo editing tool. Stirling PDF is an open-source, open-core PDF platform. It runs as a desktop app, a browser UI, or a self-hosted service. The note lists 50+ tools, including edit, merge, split, sign, redact, convert, OCR, and compress. It also has no-code workflows and its own API. Files never have to be sent to an external service.
+
 ## Sound Effects
 
 - [MyInstants](https://www.myinstants.com/en/index/us/) - Library of sound effects and audio clips

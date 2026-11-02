@@ -14,6 +14,8 @@ tags:
 
 # Search Engine
 
+A search engine lets users find information on the internet or in a specific database and returns results ranked by relevance. Four components do the work, with a crawler collecting pages, an indexer building an inverted index, a query processor reading the intent, and a ranker scoring the matches. The workflow runs from query entry through index lookup and ranking to the result page. PageRank, TF-IDF, and machine learning models are compared as ranking approaches, and the challenges cover freshness, scale, and spam.
+
 ## Introduction
 
 - A search engine is a tool that lets users find information on the internet or in a specific database

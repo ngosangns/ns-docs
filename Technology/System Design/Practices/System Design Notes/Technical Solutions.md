@@ -14,6 +14,8 @@ resource: https://viblo.asia/p/jwt-huy-hang-loat-token-da-bao-gio-ban-nghi-den-E
 
 # Technical Solutions
 
+A catalog of write-ups on specific backend problems, grouped by area: authentication and authorization, caching, background jobs, IDs, rate limiting, migrations, and traffic spikes. Each entry links to the original article and states the problem it solves, so the page works as an index before it works as a reference. Treat it as a reading queue, and open the source when you need the full argument.
+
 ## Authentication and Authorization
 
 ### JWT (JSON Web Tokens)

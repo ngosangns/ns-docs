@@ -15,7 +15,7 @@ resource: https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staf
 
 # Task Scheduler System Design
 
-> **Source:** https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e
+> **Source:** https://medium.com/@bugfreeai/system-design-interview-with-a-meta-staff-engineer-designing-a-task-scheduler-1a5041b4860e The note follows the interview section by section. Requirements discuss recurring and ad-hoc tasks, resource constraints and optimization goals. Scalability covers a message queue, priority queues, task splitting and dynamic worker scaling. Fault tolerance covers detection, retries with exponential backoff and escalation. Design considerations then weigh consistency, availability, performance and fairness. The main components section names the scheduler service, the queue, the worker pool and the database. Kafka, RabbitMQ and AWS SQS are the queue options named, and Prometheus, Grafana, PagerDuty and Slack handle monitoring and alerts. Five best practices close the note.
 
 ## Overview
 

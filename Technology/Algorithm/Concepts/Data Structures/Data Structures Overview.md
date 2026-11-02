@@ -13,6 +13,8 @@ tags:
 
 # Data Structures Overview
 
+This overview sorts the common data structures into four groups and gives each one a short profile. Linear structures cover arrays, linked lists, stacks and queues, with the access and insert costs that separate them. Non-linear structures cover trees, heaps, tries and graphs, each with the shape that makes it useful. Hash-based and advanced structures follow, including hash tables, segment trees, Fenwick trees, union-find and B-trees. A comparison table lines the access, search, insert and delete costs up side by side, and a closing checklist maps common needs such as frequent lookups, ordered data, range queries or external storage to a suggested structure.
+
 ## Overview
 
 Data structures are ways of organizing and storing data so it can be accessed and manipulated efficiently.

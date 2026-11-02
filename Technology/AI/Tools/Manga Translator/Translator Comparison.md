@@ -14,6 +14,8 @@ resource: https://github.com/zyddnys/manga-image-translator
 
 # Translator Comparison
 
+This note ranks open-source manga and comic translators by GitHub stars. manga-image-translator leads at 9,700 stars. koharu has 3,000 and comic-translate has 2,500. cotrans is the web platform at 270 stars. TachiyomiAT is the Android reader at 179 stars. Top picks then group tools by best quality, most features, easiest use, local-first privacy, and Android.
+
 ## Overview
 
 A comparison table of open-source manga/comic translation tools, ranked by stars (popularity).

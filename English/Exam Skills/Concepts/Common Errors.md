@@ -12,7 +12,7 @@ tags:
 
 # Common Errors — Lỗi sai thường gặp
 
-Các lỗi chuyển dịch Việt→Anh lặp đi lặp lại — mẫu hình đứng sau hầu hết câu tìm lỗi sai và điểm mất trong bài viết.
+Các lỗi chuyển dịch Việt sang Anh lặp đi lặp lại. Chúng là mẫu hình đứng sau hầu hết câu tìm lỗi sai và điểm mất trong bài viết. Trang này gom các lỗi đó theo nhóm. Các nhóm lần lượt là mạo từ và danh từ, hòa hợp chủ ngữ với động từ, thì và dạng động từ, giới từ, trật tự từ, chọn từ và dạng từ, rồi chính tả do phát âm. Mỗi mục nêu câu sai, câu đúng và liên kết tới ghi chú ngữ pháp tương ứng. Cuối trang có trình tự soát lỗi bốn bước và hai ghi chú về cách giữ sổ lỗi cá nhân. Đọc theo thứ tự sẽ thấy các nhóm lỗi nối vào nhau, và bạn dùng được ngay khi soát bài viết hoặc câu tìm lỗi sai.
 
 ## Mạo từ và danh từ
 

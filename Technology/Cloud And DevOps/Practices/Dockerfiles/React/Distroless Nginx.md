@@ -16,6 +16,8 @@ tags:
 
 # Distroless Nginx
 
+Distroless Nginx shows how to serve a React and Vite build from a scratch image under 6MB. The build has five stages. One stage compiles nginx with static linking and no unneeded modules, then strips the binary and compresses it with UPX LZMA. Another stage compresses every text asset with both gzip and Brotli in parallel, and a rootfs stage assembles a minimal filesystem with the config, mime types, and a nobody user. The final image copies the binary and that filesystem, then runs as UID 65534 with a healthcheck. The note sets out the trade-offs. You get HTTP/2, SSL/TLS, and no shell for an attacker to use, but builds are long, the setup is complex, and debugging without a shell is hard. It ends with the key build flags.
+
 ## Techniques
 
 - **Base image**: `scratch` (distroless)
@@ -44,6 +46,8 @@ tags:
 - **Hard to debug**: No shell in a distroless image
 - **Maintenance**: The nginx build must be maintained by hand when updates arrive
 - **UPX overhead**: May slightly affect startup time
+
+Compiling nginx from source makes the build long, and the flags must be maintained by hand. Static linking, stripped symbols, and UPX LZMA push the scratch image under 6MB. Brotli sits beside gzip and is about 20 percent better on text assets. With no shell, debugging is hard, and UPX can slow startup a little.
 
 ## Use Cases
 

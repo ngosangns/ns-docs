@@ -12,7 +12,7 @@ tags:
 
 # Exam Question Types — Các dạng câu trong đề thi
 
-Các format lặp lại trong đề thi tốt nghiệp THPT và bài kiểm tra ở trường, kèm cách tiếp cận phù hợp từng dạng.
+Các format lặp lại trong đề thi tốt nghiệp THPT và bài kiểm tra ở trường, kèm cách tiếp cận phù hợp từng dạng. Đề thường có các phần quen thuộc là phát âm, trắc nghiệm ngữ pháp và từ vựng, tìm lỗi sai, nối câu và viết lại câu, điền từ vào đoạn văn, đọc hiểu và viết đoạn. Với phát âm, đọc thầm bốn đáp án thành tiếng rồi so sánh. Với trắc nghiệm, xác định đề hỏi gì trước, sau đó loại hai đáp án sai rõ ràng. Về thời gian, đừng kẹt ở một câu mà hãy đánh dấu rồi quay lại, để dành phần lớn thời gian cho cloze và đọc hiểu.
 
 ## Phát âm
 

@@ -14,6 +14,8 @@ resource: https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLN
 
 # Distributed Systems Problems
 
+Distributed systems fail in ways a single machine does not, and the note starts from partial failure as the defining difficulty. It contrasts the cloud philosophy with supercomputing, then examines unreliable networks, timeout tuning and queueing as sources of variable latency. Packet switching and circuit switching explain where that latency comes from. Later sections cover unreliable clocks, the ordering problems they create, and long-tail latency with hedged requests as the response.
+
 > https://viblo.asia/p/nhung-van-de-trong-he-thong-phan-tan-phan-1-pgjLNKvdV32
 
 ## Faults and Partial Failures

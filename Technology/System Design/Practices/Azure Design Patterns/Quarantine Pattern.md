@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/quaranti
 
 # Quarantine Pattern
 
-Use validation processes to check third-party software artifacts in the supply chain before allowing them into your system. This pattern acts as an operational "sidecar" for the development process, helping prevent potential security vulnerabilities from external sources.
+Use validation processes to check third-party software artifacts in the supply chain before allowing them into your system. This pattern acts as an operational "sidecar" for the development process, helping prevent potential security vulnerabilities from external sources. Cloud solutions lean on open source packages, container images, and vendor OS images. Pulling those in unchecked can hand an attacker a foothold or destabilize a running system. The pattern moves the artifact into an isolated quarantine zone first. There it passes vulnerability scanning, malware detection, license review, and SBOM assessment. A pass sends it to a trusted internal repository. If it fails, the artifact is discarded. The process never alters the artifact, and it must be automated to stay consistent.
 
 ## Summary
 

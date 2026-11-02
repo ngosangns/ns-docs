@@ -14,6 +14,8 @@ resource: https://github.com/VoileLabs/cotrans
 
 # Cotrans
 
+Cotrans is a collaborative online translator for manga images, built on manga-image-translator. It offers a web UI, a browser extension, and a userscript. A Cloudflare gateway worker hands work to a Python image worker. The public site is cotrans.touhou.ai. The license is GPL-3.0. Languages in the repo are TypeScript, Python, and Rust. Vue.js and pnpm sit on the frontend side.
+
 ## Definition
 
 **Cotrans** is a collaborative online image/manga translation platform built on manga-image-translator. It provides a web UI, a browser extension, and a worker-based architecture for collaborative translation. Hosted at cotrans.touhou.ai.

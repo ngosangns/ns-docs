@@ -16,6 +16,8 @@ tags:
 
 # Go FastHTTP
 
+Go FastHTTP replaces the web server with a Go binary that carries the site inside it. A Node Alpine stage builds the React and Vite app, a Go stage embeds the build output into the binary, and the build uses CGO_ENABLED=0, strips the file, and compresses it with UPX. The runtime image is scratch and holds a single file. The server maps the request path to an embedded file, sets the content type from the extension, and falls back to index.html so client-side routes work. The note is honest about the cost. FastHTTP has no native HTTP/2 and fewer features than nginx, compression has to be coded, and the Go handler must be maintained. It suits microservices and internal APIs that serve static files at high speed.
+
 ## Techniques
 
 - **Base image**: `scratch`
@@ -48,6 +50,8 @@ tags:
 - Internal APIs that need to serve static files
 - When you want to minimize size as far as possible
 - When Nginx's advanced features are not needed
+
+FastHTTP is aimed at simple serving, where it can beat Nginx and skip a separate web server config. The embed directive pulls the built files into the binary, and UPX ultra-brute LZMA can leave it possibly under 5MB. Deployment is a copy of one file, with no extra libraries beside it. There is no native HTTP/2, no gzip_static, and no caching or rate limiting.
 
 ## Code Highlights
 

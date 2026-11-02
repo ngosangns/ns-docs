@@ -14,6 +14,8 @@ tags:
 
 # Computational Geometry
 
+This note is about the convex hull, which it says shows up often in competitive programming exercises. Given points on the Oxy plane, the hull is the smallest convex set that contains all of them. The note also calls that set the smallest polygon around the points. The picture in the note is a rubber band pulled tight around nails. The algorithms named for computing it are Graham and Monotone Chain.
+
 ## Convex Hull
 
 The convex hull is a problem that appears very frequently in computational geometry exercises in competitive programming.

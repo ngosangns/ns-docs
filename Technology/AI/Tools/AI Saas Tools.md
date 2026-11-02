@@ -15,6 +15,8 @@ resource: https://openfuture.ai
 
 # AI Saas Tools
 
+This note is a working directory of AI software as a service tools, kept as short entries under two headings. The General section gathers broader platforms, including an AI tools directory, a workspace suite with inbox, hub, and drive, and a Google service that needs a Google sign in. The Document section lists research and PDF helpers, a free subtitle translator, a readability checker, and a document translation platform with its supported formats, layout preservation, tone options, and mobile app. Each entry gives the name, a one line description, and a link, with tags where they help. Use it as a lookup list when you need a tool for a specific job rather than as a tutorial.
+
 ## General
 
 - OpenFuture - The World-Largest AI Tools Directory in 2023: [https://openfuture.ai](https://openfuture.ai/) #directory

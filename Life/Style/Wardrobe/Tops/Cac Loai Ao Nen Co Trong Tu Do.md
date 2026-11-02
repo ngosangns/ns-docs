@@ -10,7 +10,9 @@ tags:
   - clothing
 ---
 
-# 1. Áo thun trơn cổ tròn
+# Cac Loai Ao Nen Co Trong Tu Do
+
+## 1. Áo thun trơn cổ tròn
 
 ![](/Attachments/8a9b0c1d-2e3f-4a5b-6c7d-8e9f0a1b2c3d.png)
 
@@ -29,7 +31,7 @@ Phần ống tay áo thun thường được thiết kế suông rộng hoặc h
 - Số lương: Tùy sở thích, nhưng thường thì 3~4 cái là đủ.
 - Nơi mua tham khảo: Mình hay mua con Uniqlo U Crew Neck trong ảnh, chất vải dày dặn nhưng hơi thô, gần đây có chuyển qua dòng Supima Cotton thì thấy mềm mại thoải mái hơn hẳn, fit cũng đẹp hơn chứ không bị dài áo như con này. Canifa có loại áo cũng 100% cotton chỉ hơn 100k nhưng toàn hết hàng, nếu có dịp mình cũng muốn thử qua.
 
-# 2. Áo OCBD (Oxford Button Down Cloth)
+## 2. Áo OCBD (Oxford Button Down Cloth)
 
 ![](/Attachments/2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819.png)
 
@@ -51,7 +53,7 @@ Mặc đi làm là hợp lí.
 
 - Nơi mua tham khảo: Uniqlo. Ở Hà Nội với mức giá 500k thì mình chưa biết con nào qua được nó, điểm trừ là vải hơi nhăn và cổ áo không tạo được đường cong “nghệ” cho lắm, nhưng vẫn là quá ổn cho một cuộc tình. Brooks Brothers hay Ralph Lauren là các hãng nổi tiếng khác nhưng giá cũng rất khoai.
 
-# 3. Áo Polo
+## 3. Áo Polo
 
 ![](/Attachments/3b4c5d6e-7f8a-9b0c-1d2e-3f4a5b6c7d8e.png)
 
@@ -65,7 +67,7 @@ Mặc đi làm là hợp lí.
 - Số lương: 2~3 cái với các màu đã mua là đủ
 - Nơi mua tham khảo: Bạt ngàn luôn với vô số hãng. Mình thì vẫn trung thành với Uniqlo hehe.
 
-# 4. Áo Dress shirt
+## 4. Áo Dress shirt
 
 ![](/Attachments/9b0c1d2e-3f4a-5b6c-7d8e-9f0a1b2c3d4e.png)
 
@@ -80,7 +82,7 @@ Chiếc áo kinh điển màu trắng mặc trong các cuộc họp cùng với 
 - Số lương: 1~ 2 cái
 - Nơi mua tham khảo: Có khá nhiều hãng cả Tây cả Ta bán áo này loại Ready to Wear (mua về mặc ngay) nhưng lựa chọn khả dĩ nhất vẫn là may đo hoặc mua loại có sẵn tại các nhà may có tên tuổi rồi nhờ họ chỉnh sửa lại cho phù hợp với cơ thể của bạn.
 
-# 5. Áo henley
+## 5. Áo henley
 
 ![](/Attachments/2c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f.png)
 
@@ -88,23 +90,23 @@ Là loại áo thay thế cho áo polo với thiết kế đơn giản hơn. Áo
 
 Phối: Phối Henley cùng áo Flannel/denim.
 
-# 6. Áo Flannel
+## 6. Áo Flannel
 
 ![](/Attachments/5c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f.png)
 
-# 7. Áo khoác blazer
+## 7. Áo khoác blazer
 
 ![](/Attachments/7c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f.png)
 
 Một dịp không cần trang phục quá trịnh trọng nhưng cũng không được xuề xoà? Hãy khoác bên ngoài một chiếc blazer không độn vai nhẹ nhàng. Đây là món đồ giúp bạn cân bằng giữa vẻ lịch sự và thoải mái.
 
-# 8. Bộ suit màu xanh navy
+## 8. Bộ suit màu xanh navy
 
 ![](/Attachments/8c7d8e9f-0a1b-2c3d-4e5f-6a7b8c9d0e1f.png)
 
 Nhất định phải có để đi dự sự kiện
 
-# 9. Áo denim jacket
+## 9. Áo denim jacket
 
 Vai áo denim jacket theo tiêu chuẩn vừa vặn sẽ sát và khớp với vai người mặc.
 

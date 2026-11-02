@@ -13,6 +13,10 @@ tags:
 
 # Development Tools
 
+These tools cover firmware development and edge AI for IoT devices. PlatformIO is a cross-platform IDE for embedded development. Arduino IDE is a simple option for beginners. ESP-IDF is the official framework for ESP32. ESPHome uses YAML-based configuration for ESP8266 and ESP32.
+
+RuView is a WiFi sensing platform that uses ESP32 CSI signals for real-time human pose estimation, vital signs, and presence detection without cameras. Needle is an on-device foundation model shipped as one binary, with a laddered design for very small devices.
+
 ## Firmware Development
 
 - **PlatformIO**: Cross-platform IDE for embedded development

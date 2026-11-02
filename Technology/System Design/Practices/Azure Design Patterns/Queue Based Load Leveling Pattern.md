@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-ba
 
 # Queue Based Load Leveling Pattern
 
-Use a queue as a buffer between a task and a service it invokes, in order to smooth intermittent heavy loads. This reduces the impact of demand peaks on the availability and responsiveness of the whole system.
+Use a queue as a buffer between a task and a service it invokes, in order to smooth intermittent heavy loads. This reduces the impact of demand peaks on the availability and responsiveness of the whole system. The task posts a message instead of calling the service, and the queue holds that message until the service is ready. Because the two sides no longer run in step, the application can keep accepting requests while the backend is busy or briefly down. You size the service for average load rather than peak load. The trade is added latency, since a queued request waits instead of being processed at once.
 
 ## Summary
 

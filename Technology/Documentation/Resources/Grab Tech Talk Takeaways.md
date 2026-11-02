@@ -14,6 +14,8 @@ tags:
 
 # Grab Tech Talk Takeaways
 
+These notes come from a Grab tech talk about building an API gateway. Each section records a point that shaped the gateway's stack, design, or operations. The technology section weighs Nginx, Kong, Envoy, and open source options, and explains why the gateway serves directly on EC2 instead of k8s. The design section covers authorization and a Golang build split into .so files. The performance section looks at sharing memory addresses between services and how sync and async calls differ. Maintenance and upgrade follow, with shadow mode comparisons and a standby gateway so the service never goes down. Some items are marked to look into further, so the note doubles as a list of open questions.
+
 ## Technology Choices
 
 - Detailed Nginx metrics are only available in the enterprise edition, so avoid it when you need fine-grained metrics.

@@ -15,6 +15,8 @@ resource: https://sagarshiroya.dev/posts/database-connection-and-pooling
 
 # Database Connection Pooling
 
+Database Connection Pooling explains why a database connection is expensive and how a pool keeps that cost under control. It starts with PostgreSQL's process-per-connection model, where each client gets a dedicated backend process with its own memory and session state, and follows the open, execute, and close lifecycle. The note then covers pooling, what happens when every connection is busy, Little's Law, Kingman's formula, and pool sizing by process-to-core ratio. A section on multiple app instances and a closing set of key takeaways turn the theory into numbers you can apply to a real deployment.
+
 **Source:** [Database Connections & Connection Pooling](https://sagarshiroya.dev/posts/database-connection-and-pooling) — Sagar Shiroya, 2026-04-18
 
 See also: [ProxySQL Connection Multiplexing](/Technology/Backend And Database/Practices/ProxySQL Connection Multiplexing) (N:M multiplexing at the proxy, as opposed to 1:1 pooling).

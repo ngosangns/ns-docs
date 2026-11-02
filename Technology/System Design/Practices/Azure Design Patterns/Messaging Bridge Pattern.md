@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/messagin
 
 # Messaging Bridge Pattern
 
-This pattern is used to integrate disparate systems built on different messaging infrastructures.
+This pattern is used to integrate disparate systems built on different messaging infrastructures. Organizations often own several systems sitting on MSMQ, RabbitMQ, Azure Service Bus, or Amazon SQS. Acquisitions, mergers, and gradual moves to the cloud create this mix. Asking those systems to talk over HTTP means large code changes and awkward connection management. A bridge solves this by connecting to two or more messaging platforms at once. It reads messages from the source and pushes them into the destination without altering the payload, and neither side knows about the other. Existing code stays untouched and the platforms' at-least-once delivery does the reliability work. Message size limits differ between platforms, so the bridge has to respect both.
 
 ## Summary
 

@@ -14,6 +14,8 @@ tags:
 
 # IT Job Interview Notes
 
+This note collects what to ask and what to watch when interviewing at a Japanese owned IT company. A short self introduction outline covers name, years of experience, tech interests, and the digital nomad goal. The question list runs in three stages. Before meeting HR, ask who the interviewers are and how many steps the process has. Ask HR about company ownership, contract type, insurance, salary reviews, and office rules. Ask the team leader about the tech stack, project scope, meeting style, and promotion path. The closing notes record cultural signals, such as loyalty, rule following, and the risk of saying you only want to learn after joining.
+
 ## Self-Introduction
 
 - Full name

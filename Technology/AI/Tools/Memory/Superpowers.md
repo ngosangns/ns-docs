@@ -17,7 +17,7 @@ resource: https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.co
 
 ## Definition
 
-**Superpowers** is a complete software development workflow for coding agents, built on composable "skills" and initial instructions that make sure agents use them automatically. The agent asks what you are trying to do before writing code, rather than jumping straight into it.
+**Superpowers** is a complete software development workflow for coding agents, built on composable "skills" and initial instructions that make sure agents use them automatically. The agent asks what you are trying to do before writing code, rather than jumping straight into it. The basic path runs from brainstorming through a git worktree, a written plan, and subagent or batch execution. Implementation follows RED-GREEN-REFACTOR, and review blocks on critical issues. Finished work can be merged, opened as a pull request, kept, or discarded. Skills install on Claude Code, Cursor, Codex, OpenCode, GitHub Copilot CLI, and Gemini CLI. It is a workflow, not a memory system, and small tasks feel slow.
 
 ## Installation
 

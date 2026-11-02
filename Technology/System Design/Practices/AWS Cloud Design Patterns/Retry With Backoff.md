@@ -14,7 +14,7 @@ tags:
 
 # Retry With Backoff
 
-This pattern improves application stability by automatically retrying operations that failed because of transient errors, while progressively increasing the wait time between attempts.
+This pattern improves application stability by automatically retrying operations that failed because of transient errors, while progressively increasing the wait time between attempts. Distributed systems still see network congestion, slow responses, and throttling. A tight retry loop can overload the service, so the wait grows, often from 1 second to 2, then 4, then 8. Random jitter stops clients from retrying at the same moment. The call should be idempotent, or a repeat can charge twice or corrupt data. If the error is permanent, such as a wrong password, fail fast instead of retrying.
 
 ## Core Idea
 

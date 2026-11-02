@@ -13,6 +13,8 @@ resource: https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/c
 
 # Mixed Conditionals — Câu điều kiện trộn
 
+Bài này nói về câu điều kiện trộn, loại câu ghép hai khung thời gian khác nhau. Phần khái niệm giải thích khi nào dùng cấu trúc này và dẫn nguồn British Council. Phần các loại chia thành hai chiều. Chiều thứ nhất là điều kiện ở quá khứ dẫn tới kết quả ở hiện tại. Chiều thứ hai là điều kiện ở hiện tại giải thích kết quả ở quá khứ. Mỗi chiều có công thức và câu ví dụ kèm bản dịch. Phần đảo ngữ chỉ cách bỏ if và dùng trợ động từ. Phần ghi chú nhắc rằng loại câu này ít gặp hơn ba loại cơ bản. Phần cuối thêm hai ví dụ để luyện. Điểm khó là xác định đúng quan hệ thời gian giữa điều kiện và kết quả.
+
 ## Khái niệm
 
 - Câu điều kiện trộn kết hợp hai loại điều kiện khác nhau trong một câu, dùng khi mệnh đề if và mệnh đề chính chỉ hai khung thời gian khác nhau.

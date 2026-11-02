@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-
 
 # Gateway Aggregation Pattern
 
-The Gateway Aggregation pattern uses a gateway to combine multiple individual requests from a client into a single request. It is especially useful when a client application has to make many calls to different backend systems to complete a single operation.
+The Gateway Aggregation pattern uses a gateway to combine multiple individual requests from a client into a single request. It is especially useful when a client application has to make many calls to different backend systems to complete a single operation. Rendering one product page may need a product service, a review service, and an inventory service. That chattiness burns network resources and adds latency, which mobile networks make worse. Each connection is also a failure point the client has to manage. The gateway breaks the client call into sub-requests, forwards them, collects the replies, and returns one combined response. It should only route and aggregate, never hold business logic. Place it close to the backends and design it for high availability.
 
 ## Context and Problem
 

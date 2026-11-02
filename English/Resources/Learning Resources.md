@@ -12,7 +12,7 @@ tags:
 
 # Learning Resources — Tài nguyên học tập
 
-Tài liệu tham khảo và công cụ đã tuyển chọn theo kỹ năng — bổ sung cho lộ trình theo giai đoạn trong [English Roadmap](/English/Resources/English Roadmap).
+Đây là danh sách tài liệu và công cụ đã tuyển chọn, xếp theo kỹ năng. Nó bổ sung cho lộ trình theo giai đoạn trong [English Roadmap](/English/Resources/English Roadmap). Bạn sẽ tìm thấy sách ngữ pháp tham khảo, từ điển, rồi nguồn luyện nghe, đọc, từ vựng, nói và luyện thi. Mỗi mục chỉ vài đầu mục kèm một dòng nói rõ nguồn đó dùng để làm gì, để bạn chọn nhanh thay vì thử hết. Phần ghi chú chốt lại hai lời khuyên, là chỉ dùng một nguồn cho mỗi kỹ năng tại một thời điểm và ưu tiên nguồn có cả audio lẫn transcript. Các trang kỹ năng và bài thi được liên kết ở cuối để bạn đi tiếp.
 
 ## Sách ngữ pháp tham khảo
 

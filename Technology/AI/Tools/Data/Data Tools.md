@@ -21,6 +21,8 @@ resource: https://lookerstudio.google.com
 
 # Data Tools
 
+This page collects tools across three data areas. The analytics section covers Apache Iceberg for managing large analytic tables, Looker Studio for free visualization, and OpenBB for financial data. A subsection on tabular machine learning lists foundation models and helpers such as tabfm, TabPFN, and PyGWalker. The document processing section covers extraction and translation tools, including docling, docetl, Doctra, and a PowerPoint translator. The largest section, knowledge and data management, mixes graph databases, embedding models, search engines, and RAG frameworks. Entries there range from FalkorDB and OceanBase to a Vietnamese paraphrase framework. Read the page as a lookup list for one stage of a data pipeline. Each entry has a short description and a repository or site link. Section breaks show which stage the tool serves.
+
 ## Data Analytics Tools
 
 - **Apache Iceberg**: A high-performance open-source table format designed specifically for managing big data analytics tables in data lakes. Developed by Netflix to handle petabyte-scale data and now an Apache project. Its main goal is to bring the reliability and simplicity of traditional SQL tables to big data environments, letting processing engines such as Apache Spark, Trino, Flink, Presto, Hive, and Impala safely work on the same table at the same time #data-analytics #table-format #data-lake

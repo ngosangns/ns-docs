@@ -3,8 +3,8 @@ area: travel
 domain: china
 type: guide
 title: Lịch trình Trung Quốc
-description: "Tường thuật chuyến đi và ý tưởng lộ trình Trung Quốc từ cộng đồng - Vân Nam, Tây Tứ Xuyên, cửa khẩu"
-timestamp: "2026-10-13T00:00:00.000Z"
+description: "Tường thuật chuyến đi và ý tưởng lộ trình Trung Quốc từ cộng đồng - Vân Nam, Tây Tứ Xuyên, cửa khẩu, và chuyến 10 ngày Hà Khẩu–Shangri-La–Á Đinh"
+timestamp: "2026-10-31T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -12,6 +12,8 @@ tags:
 ---
 
 # Lịch trình Trung Quốc
+
+Ba hướng đi Trung Quốc được ghi lại ở đây, gồm lộ trình ngắn cho Vân Nam, Phượng Hoàng Cổ Trấn, Thượng Hải, Tô Châu và Bắc Kinh. Phần Tây Tứ Xuyên kể chuyến 5 ngày 4 đêm từ Thành Đô, chi phí khoảng 19 triệu đồng, kèm các mốc độ cao. Chuyến Hà Khẩu, Shangri-La, Á Đinh 10 ngày đi solo tốn khoảng 16 triệu. Cuối bài là chuyện qua cửa khẩu Lào Cai khoảng 15 năm trước.
 
 ## Ý tưởng lộ trình
 
@@ -40,6 +42,10 @@ Ghi chú:
 - Mang áo khoác chắn gió cả khi đang mùa hè - mưa thì lạnh, và gió trên cao rất mạnh.
 - Tiền ăn hợp lý (khoảng 100-200 nghìn đồng/ngày). Ngon hay không là chuyện chủ quan; người kể ăn được mọi thứ.
 - Cảnh đủ để đáng tất cả - đã có kế hoạch quay lại vào mùa thu.
+
+## Hà Khẩu – Shangri-La – Á Đinh, 10 ngày
+
+Cuối tháng 10, một người solo đi Hà Nội → Hà Khẩu → Côn Minh → Shangri-La (Vân Nam) → Đạo Thành / Riwa → Á Đinh → Shangri-La → Hổ Khiêu Hiệp → Lệ Giang → Hà Nội, khoảng 16 triệu. Á Đinh thuộc Đạo Thành, Tứ Xuyên. Thị trấn Shangri-La ở Đạo Thành không phải thành phố Shangri-La bên Vân Nam. Lịch từng ngày, ga tàu, vé Á Đinh và giờ cắt cung dài nằm ở [Hà Khẩu – Shangri-La – Á Đinh, 10 ngày](/Travel/Trips/Hekou Shangri-La Yading October).
 
 ## Chuyện qua cửa khẩu đường bộ (đã cũ)
 

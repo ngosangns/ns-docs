@@ -14,7 +14,7 @@ resource: https://developer.chrome.com/release-notes/153
 
 # Modern CSS Platform Features
 
-Platform features that replace JavaScript or gradient hacks with declarative CSS. All are experimental and currently Chromium-only. Gate them behind `@supports` and treat them as progressive enhancement.
+Platform features that replace JavaScript or gradient hacks with declarative CSS. All are experimental and currently Chromium-only. Gate them behind `@supports` and treat them as progressive enhancement. The list covers iframes that size themselves to their content, carousel markers generated from the scroll container, underline inset control, single-axis scroll containers, and animations that run when a scroll range is crossed. Each section gives the syntax, the accepted values, and the part that usually bites, such as the automatic minimum size that grows a clipped flex or grid item instead of shrinking it. Keep a fallback for every one of them and detect support with the query given in each section.
 
 ## Responsive iframes: `frame-sizing` + `responsive-embedded-sizing`
 

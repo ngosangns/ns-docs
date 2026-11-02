@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/compute-
 
 # Compute Resource Consolidation Pattern
 
-This pattern consolidates multiple tasks or operations into a single computational unit. It increases resource utilization, reduces cost, and lightens the management burden for applications running in the cloud.
+This pattern consolidates multiple tasks or operations into a single computational unit. It increases resource utilization, reduces cost, and lightens the management burden for applications running in the cloud. Architects often split operations into separate units such as individual App Services or VMs. That gives a clean logical design, but every unit consumes resources even when it is idle or under low load, so hosting costs rise. Managing many independent instances also becomes complex. The pattern groups tasks that share similar scalability, lifetime, and processing profiles into one unit, then uses cloud elasticity to scale that unit by the combined load. Tasks with opposing scaling needs, or two CPU-hungry jobs, should not share a unit.
 
 ## Context and Problem
 

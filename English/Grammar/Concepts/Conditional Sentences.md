@@ -12,7 +12,7 @@ tags:
 
 # Conditional Sentences — Câu điều kiện
 
-Câu điều kiện gắn **điều kiện** (mệnh đề if) với **kết quả** (mệnh đề chính).
+Câu điều kiện gắn **điều kiện** (mệnh đề if) với **kết quả** (mệnh đề chính). Câu điều kiện có bốn loại chính, từ sự thật chung đến điều không có thật trong quá khứ. Loại 1 có thể dùng câu mệnh lệnh ở mệnh đề chính. Loại 2 dùng were cho mọi ngôi trong văn phong trang trọng. Khi hai mệnh đề chỉ hai khung thời gian khác nhau, các loại trộn lẫn. Ngoài if còn có unless, provided, as long as, in case, otherwise, but for. Bỏ if và đảo trợ động từ lên trước chủ ngữ sẽ tạo câu điều kiện trang trọng. Không bao giờ dùng will hay would trong chính mệnh đề if.
 
 ## Bốn loại câu điều kiện
 

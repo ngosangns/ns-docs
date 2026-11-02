@@ -16,7 +16,7 @@ tags:
 
 ## How Browsers Execute JavaScript: Understanding `defer`, `async`, and `inline`
 
-When you embed JavaScript in HTML, **where and when the browser executes the script** directly affects **page load performance**, **user experience**, and **code execution order**.
+When you embed JavaScript in HTML, **where and when the browser executes the script** directly affects **page load performance**, **user experience**, and **code execution order**. An inline script blocks the parser while it runs. A `defer` script waits for the parser to finish and keeps its place in the queue. An `async` script runs the moment its download completes. Choosing badly costs speed, or breaks code that expects the DOM to exist. The rest of this note goes through each option, compares them side by side, and closes with the cases where each one fits.
 
 The three common ways to embed a script are:
 

@@ -12,6 +12,8 @@ tags:
 
 # Relative Clauses — Mệnh đề quan hệ
 
+Bài này hướng dẫn mệnh đề quan hệ trong tiếng Anh. Phần khái niệm nêu vai trò bổ nghĩa cho danh từ đứng trước. Phần đại từ quan hệ đi qua năm từ là who, whom, which, that và whose. Mỗi từ có chức năng riêng và một câu ví dụ kèm bản dịch. Phần xác định và không xác định phân biệt hai loại mệnh đề qua dấu phẩy. Đây là chỗ hay mất điểm khi viết. Phần rút gọn chỉ hai cách biến mệnh đề thành cụm phân từ, một cho nghĩa chủ động và một cho nghĩa bị động. Phần ghi chú tóm lại hai việc cần nhớ. Đó là chọn đại từ theo danh từ đứng trước và đặt dấu phẩy đúng.
+
 ## Khái niệm
 
 - Mệnh đề quan hệ là mệnh đề phụ thuộc bổ nghĩa cho danh từ đứng trước nó (antecedent).

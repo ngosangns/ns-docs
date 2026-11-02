@@ -13,7 +13,7 @@ tags:
 
 # Reading Strategies — Chiến lược đọc
 
-Người đọc giỏi chuyển đổi giữa **đọc nhanh lấy ý** và **đọc chậm học ngôn ngữ** — hai chế độ khác nhau với mục tiêu khác nhau.
+Người đọc giỏi chuyển đổi giữa hai chế độ. Một là **đọc nhanh lấy ý**. Hai là **đọc chậm học ngôn ngữ**. Đọc nhanh gồm skimming để nắm ý chính và scanning để tìm một mục cụ thể. Skimming đọc tiêu đề, câu đầu mỗi đoạn và kết luận. Scanning săn tên riêng, con số, ngày hoặc từ khóa của câu hỏi. Trước khi đọc kỹ nên khảo sát tiêu đề phụ, chữ đậm và hình ảnh để dựng bản đồ tinh thần. Đọc chậm để học ngôn ngữ. Note này cũng chỉ cách đoán từ qua ngữ cảnh trước khi tra từ điển. Cuối cùng là bảng so sánh đọc sâu với đọc rộng và các thói quen đọc chủ động.
 
 ## Kỹ thuật đọc nhanh — Lấy ý nghĩa
 

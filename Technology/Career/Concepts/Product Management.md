@@ -13,7 +13,7 @@ tags:
 
 # Product Management
 
-Product management sits at the intersection of business, technology, and user experience. Marty Cagan's framing: a PM is responsible for **discovering a product that is valuable, usable, feasible, and viable** — the PM owns the "why" and "what"; engineering owns the "how"; design owns the experience.
+Product management sits at the intersection of business, technology, and user experience. Marty Cagan's framing: a PM is responsible for **discovering a product that is valuable, usable, feasible, and viable** — the PM owns the "why" and "what"; engineering owns the "how"; design owns the experience. The job runs on two tracks. Discovery means talking to users every week to find problems worth solving. Delivery means writing specs, working with engineering and design, and handling trade-offs at launch. Strategy turns the vision into a roadmap that communicates direction. Prioritization is mostly deciding what not to build. PMs carry responsibility without authority, so they lead through influence.
 
 ## What a PM actually does
 

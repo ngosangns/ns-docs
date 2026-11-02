@@ -16,6 +16,8 @@ tags:
 
 Hexagonal Architecture, also known as the **Ports and Adapters** pattern, is designed to create loosely coupled architectures. It lets application components be tested independently, without depending on data stores or the user interface (UI).
 
+The core holds business rules and stays blind to the database and the web. Ports are the interfaces in and out. Adapters are the concrete pieces, such as a REST adapter or a DynamoDB store. On Lambda, the domain model can check rules like overlapping bookings while a boto3 adapter talks to the table through dependency injection. The same logic can serve mobile, web, and CLI clients.
+
 ## Key Components
 
 - **Core (business logic)**: Sits at the center and holds the core business rules (domain logic). It knows nothing about the outside world (database, web, and so on).

@@ -12,7 +12,7 @@ tags:
 
 # Modal Verbs — Động từ khuyết thiếu
 
-Modal verbs là trợ động từ thêm sắc thái **khả năng, cho phép, bổn phận, lời khuyên, hoặc mức độ chắc chắn** cho động từ chính.
+Modal verbs là trợ động từ thêm sắc thái **khả năng, cho phép, bổn phận, lời khuyên, hoặc mức độ chắc chắn** cho động từ chính. Chúng đứng trước động từ nguyên mẫu không to, không thêm -s ở ngôi ba số ít, và tạo câu hỏi hay phủ định mà không cần do. Ghi chú này đi qua các chức năng chính, từ khả năng và xin phép đến bổn phận, cấm đoán và lời khuyên. Sau đó là bảng suy đoán theo mức độ chắc chắn, perfect modal cho quá khứ, và semi-modal cho các thì còn lại. Một cảnh báo xuyên suốt là mustn't và don't have to mang hai nghĩa đối lập.
 
 **Công thức chung:** S + modal + V (nguyên mẫu không to)
 
@@ -82,6 +82,8 @@ Suy đoán hoặc hối tiếc về **quá khứ**:
 | should/ought to have + V3 | hối tiếc — lẽ ra nên làm mà không làm                                                                           | _You should have told me earlier._ (Lẽ ra bạn nên nói sớm hơn.)   |
 | needn't have + V3         | đã làm nhưng không cần thiết                                                                                    | _You needn't have cooked — we ordered pizza._                     |
 | would have + V3           | kết quả không thật trong quá khứ — xem [Conditional Sentences](/English/Grammar/Concepts/Conditional Sentences) | _I would have helped if you had asked._                           |
+
+Perfect modal kết hợp have và V3 để nói về quá khứ. Must have diễn tả việc chắc đã xảy ra. Should have diễn tả việc lẽ ra nên làm mà không làm. Needn't have là đã làm dù không cần.
 
 ## Semi-Modals — Bán khuyết thiếu
 

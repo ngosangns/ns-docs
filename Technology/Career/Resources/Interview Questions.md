@@ -14,6 +14,8 @@ tags:
 
 # Interview Questions
 
+These are sample answers for the questions on this page. Apply because the site showed many technologies and projects to learn, and the people seemed young, energetic, and cheerful. Study so far covers HTML and HTML5, CSS and CSS3, JavaScript HTTP requests, API calls, and async-await, plus the React life cycle. Be specific, and research and practice more. For a project, name school project X and the part supported. The goal is to go deeper in web technology and advance in web programming. Show that you can explore and learn new tools. Ask about internship salary, a confirmation letter, salary review, and a Tet bonus. The study answer is the final semester of year 5.
+
 ## Common Questions
 
 ### Why Did You Apply to This Company?

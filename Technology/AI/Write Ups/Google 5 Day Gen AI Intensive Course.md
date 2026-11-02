@@ -16,7 +16,7 @@ resource: https://www.kaggle.com/learn-guide/5-day-genai
 
 # Google 5 Day Gen AI Intensive Course
 
-> **Source**: [5-Day Gen AI Intensive Course with Google](https://www.kaggle.com/learn-guide/5-day-genai) — Kaggle Learn Guide (the original ran live 03/31–04/04/2025 and is now a self-paced guide)
+> **Source**: [5-Day Gen AI Intensive Course with Google](https://www.kaggle.com/learn-guide/5-day-genai) — Kaggle Learn Guide (the original ran live 03/31–04/04/2025 and is now a self-paced guide). Day titles, whitepaper names, and speaker lists are copied from that page. The guide holds five days, each with a summary podcast, a whitepaper, and a few codelabs in Kaggle Notebooks. There is also a livestream Q&A with Google experts for every topic. A Kaggle account with phone verification runs the codelabs, and an AI Studio account issues the Gemini API key. The bonus notebook and the AI Agents Intensive guide sit outside the five days.
 
 ## Overview
 

@@ -14,11 +14,12 @@ resource: https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
 
 # Problem Solving Approaches
 
+This note lists the main approaches you can reach for when an algorithmic problem does not give way at first. It opens with two reference articles on how to find a solution, then walks through nine strategies side by side. Brute force tries every option. Greedy takes the best local choice. Divide and conquer splits a problem and recombines the parts. Dynamic programming stores results it already computed. Backtracking and branch and bound explore choices and prune the bad ones. Graph algorithms and bit manipulation cover specific shapes of input. The last entry, machine learning, learns patterns from data instead of coding fixed rules. Read each one for its short description and its stated downside, then match it to the problem in front of you.
+
 ## Table of Contents
 
 - [References](#references)
 - [Approaches](#approaches)
-- [TODO](#todo)
 
 ## References
 
@@ -73,9 +74,5 @@ resource: https://vnoi.info/wiki/translate/topcoder/How-to-Find-a-Solution.md
 
 - Use data to learn the patterns instead of writing a fixed algorithm
 - Applies when the problem is too complex to write an algorithm for or when you need to predict from existing data
-
-## TODO
-
-- Add a table of signals indicating when to apply each algorithm to a problem
 
 > **See also:** [Algorithm Development](/Technology/Algorithm/Concepts/Approaches/Algorithm Development) · [Enumeration Problems](/Technology/Algorithm/Concepts/Approaches/Enumeration Problems) · [Learning Resources](/Technology/Algorithm/Resources/Learning Resources)

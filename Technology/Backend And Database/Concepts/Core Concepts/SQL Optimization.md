@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/mit-dac-va-biet-tuot-noi-chuyen-ve-nhung-loi-don-
 
 # SQL Optimization
 
+Query tuning starts from knowing what the database actually does with a statement. This note opens with the SELECT execution order. It then lists habits that cut work, such as naming columns explicitly, removing needless DISTINCT, turning sub-queries into joins, and indexing the columns used by WHERE, JOIN and ORDER BY. Keyset pagination gets its own section with the trade-offs against LIMIT and OFFSET. Prepared statements, obfuscated conditions and common table expressions follow. The closing case study walks through a MariaDB query that dropped from 50 seconds to 1.5 seconds on a table of 500K+ rows. It ends with the lessons behind that gain.
+
 ## SELECT Execution Order
 
 1. FROM and JOIN

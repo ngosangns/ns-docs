@@ -16,6 +16,8 @@ resource: https://blog.cloudflare.com/counting-things-a-lot-of-different-things
 
 # 1M CCU System Optimization
 
+A system serving more than a million concurrent users and a million requests per second has no room for per-request overhead. This note records the constraints, the custom trace-ID and rate-limiting design, the minimal Go service layout, and the community answers that shaped them. The sections follow that order, from the problem statement through tracing, rate limiting, architecture, and the Q&A at the end.
+
 ## Problem Summary
 
 ### Context

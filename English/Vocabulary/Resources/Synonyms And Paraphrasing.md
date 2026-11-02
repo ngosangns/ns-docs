@@ -14,6 +14,8 @@ tags:
 
 Paraphrase — nói cùng một ý bằng từ khác — là kỹ năng lõi trong đề thi: đọc hiểu (nhận ra đáp án được diễn lại) và viết (tránh lặp từ).
 
+Những từ hay bị lặp được đổi sang lựa chọn mạnh hơn, từ good và bad tới say và think. Năm kỹ thuật gồm đổi từ đồng nghĩa, đổi dạng từ, đổi thể, đổi cấu trúc câu, rồi khái quát hóa hoặc cụ thể hóa. Động từ tường thuật trong essay phải khớp lập trường của tác giả. Từ thay thế hiếm khi giống hệt, nên đáp án đúng vẫn là đáp án giữ nghĩa.
+
 ## Nâng cấp các từ bị dùng quá nhiều
 
 | Từ cơ bản   | Các lựa chọn mạnh/chính xác hơn                                                                                                                |
@@ -62,5 +64,7 @@ Khi trích ý kiến trong essay — chọn động từ khớp mức chắc ch�
 
 - Từ đồng nghĩa hiếm khi hoàn hảo — kiểm tra văn phong ([Formal And Informal English](/English/Usage/Concepts/Formal And Informal English)) và collocation ([Collocations](/English/Vocabulary/Concepts/Collocations)) trước khi đổi: _make a decision_ chứ không "do a decision"; _strong coffee_ chứ không "powerful coffee".
 - Trong câu hỏi paraphrase, đáp án đúng giữ **nghĩa** — không phải từ vựng hoa mỹ nhất.
+
+Các từ cơ bản trong bảng có vài lựa chọn, không chỉ một từ thay. Good có excellent, beneficial, effective và outstanding. Bad có harmful, detrimental, poor và awful. Important có crucial, vital, essential và significant. Say có state, claim, argue và suggest. Think có believe, consider và assume. Because of dùng khi phía sau là danh từ. But có however và although. So có therefore và as a result. Decided có thể viết lại thành made a decision. They built the bridge in 1990 có thể thành The bridge was built in 1990. Because it rained, we stayed home có thể thành We stayed home because of the rain. Dogs khái quát thành pets, rồi thành animals. State đứng ở nhóm trung lập, argue ở nhóm ủng hộ, và doubt ở nhóm nghi ngờ. Vẫn phải nói make a decision và strong coffee.
 
 > **Xem thêm:** [Collocations](/English/Vocabulary/Concepts/Collocations) · [Confusable Words](/English/Vocabulary/Concepts/Confusable Words) · [Sentence Transformation Patterns](/English/Grammar/Concepts/Sentence Transformation Patterns) · [Paragraph And Essay Writing](/English/Skills/Concepts/Paragraph And Essay Writing)

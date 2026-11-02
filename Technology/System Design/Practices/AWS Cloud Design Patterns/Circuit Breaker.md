@@ -16,6 +16,8 @@ tags:
 
 This pattern prevents a calling service (caller) from repeatedly retrying calls to another service (callee) that is failing repeatedly or responding slowly. It also helps detect when the callee is working again.
 
+A breaker object sits between the two services and trips when the callee is down, so the caller does not hang or burn threads. Closed means calls go through. Open means they fail fast. Half-open lets a few calls through, then closes on success or opens again on failure. On AWS, Step Functions can hold that check, DynamoDB can store the status and expiry, and Lambda can update the state.
+
 ## Core Idea
 
 It works like an electrical circuit breaker that automatically cuts the current when a fault occurs. A Circuit Breaker object sits between the caller and the callee and "trips" if the callee is unavailable, so the system does not hang or exhaust resources waiting in vain.

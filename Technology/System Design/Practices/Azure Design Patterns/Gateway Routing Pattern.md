@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway-
 
 # Gateway Routing Pattern
 
-The Gateway Routing pattern uses a single endpoint to route requests to multiple services or to multiple versions of the same service. This pattern means the client doesn't need to know about the complex structure of the backend services.
+The Gateway Routing pattern uses a single endpoint to route requests to multiple services or to multiple versions of the same service. This pattern means the client doesn't need to know about the complex structure of the backend services. A shop may run search, reviews, cart, and checkout as separate services. Without a gateway the client tracks each endpoint and breaks whenever one API splits. The same problem appears with copies of a service spread across regions and with old and new versions running side by side. The gateway reads the URL path, headers, hostname, or IP address and picks the target. Changing routing rules can steer traffic to a new version without touching clients. Keep the gateway fault tolerant, since it becomes a single point of failure.
 
 ## Context and Problem
 

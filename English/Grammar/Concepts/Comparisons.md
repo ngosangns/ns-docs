@@ -14,6 +14,8 @@ tags:
 
 So sánh cho thấy hai hay nhiều thứ khác nhau — hoặc ngang nhau — về một tính chất.
 
+So sánh hơn dùng cho hai vật. So sánh nhất dùng từ ba vật. Tính từ ngắn thêm -er hoặc -est. Tính từ dài dùng more hoặc the most. good, bad và far có bất quy tắc. So sánh bằng dùng as, phủ định là not as. Không viết more taller, và sau than hai vế phải song song.
+
 ## So sánh hơn — So hai vật
 
 **Công thức:** S + V + tính từ/trạng từ so sánh hơn + than + ...

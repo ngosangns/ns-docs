@@ -13,6 +13,8 @@ resource: https://www.background.supply/
 
 # Visual
 
+Ghi chú này giữ ảnh bảng màu gradient cùng vài nguồn hình. Background Supply là thư viện ảnh nền chất lượng cao cho designer và người làm sáng tạo. Bộ sưu tập đổi theo phong cách, màu và chủ đề, dùng cho web, app và thuyết trình. Cosmos giúp tìm, gom và sắp ảnh tham chiếu. Tìm kiếm gồm màu, độ giống hình, ghi nghệ sĩ và nguồn, cùng lọc nội dung do AI tạo. Hue Tools là công cụ màu miễn phí, gồm chọn màu, đổi HEX, RGB, HSL, CMYK, tạo bảng màu và kiểm tra tương phản.
+
 ## Bang Mau Gradient Dep
 
 ![](/Attachments/1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f.png)

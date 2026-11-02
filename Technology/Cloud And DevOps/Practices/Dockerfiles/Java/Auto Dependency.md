@@ -16,6 +16,8 @@ resource: http://localhost:8080/health
 
 # Auto Dependency
 
+This note presents a Java Dockerfile that upgrades its own Gradle plugins and dependencies during the build. The builder runs the dependencyUpdates task, parses the report with sed scripts, and rewrites build.gradle before compiling the jar. Three environment variables decide which plugins, ext versions, and forced dependencies get bumped. A small Java class is compiled and shipped as the runtime healthcheck, so the distroless image needs no curl or wget. The note is honest about the costs. Builds take a long time, auto-upgrades can break the build, and the note marks the pattern as unsuitable for production. Use it as a reference for CI security maintenance rather than a shipping recipe.
+
 ## Techniques
 
 - **Base image**: `hmctspublic.azurecr.io/base/java:21-distroless` (custom distroless)
@@ -41,6 +43,8 @@ resource: http://localhost:8080/health
 - **Complex**: The update logic relies on intricate sed scripts
 - **Hard to debug**: The update logic can fail silently
 - **Not production-ready**: Auto-updating during the build is unsuitable for production
+
+The builder uses Gradle 8.14.3 on Alpine and runs dependencyUpdates before bootJar. Sed rewrites plugin versions, ext versions, and forced coordinates in build.gradle. Defaults include Spring Boot, SonarQube, the versions plugin, the HMCTS Java plugin, Log4j, Logback, and commons-lang3. Builds run long because that rewrite happens every time, and a silent sed miss is hard to debug. The runtime stays on the distroless Java 21 base. A compiled HealthCheck class calls the local health URL, so the image needs no curl or wget.
 
 ## Use Cases
 

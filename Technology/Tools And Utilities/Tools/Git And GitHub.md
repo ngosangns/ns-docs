@@ -15,6 +15,8 @@ resource: https://github.com/jj-vcs/jj
 
 # Git And GitHub
 
+Git and GitHub tooling sits alongside a working guide to rewriting repository history with git filter-repo. The tools list covers a Git-compatible version control system, FTP deployment, self-hosted servers, commit hooks, and a versioned database. A section on GitHub Actions points to a runner that executes workflows locally. The guide explains what filter-repo does, how it compares with filter-branch and BFG, and shows commands for stripping paths, rewriting authors and splitting a subdirectory.
+
 ## Resources
 
 - [Git Workflows](/Technology/Tools And Utilities/Practices/Git Workflows): Git workflow models (Trunk Flow, Forking Flow)
@@ -102,5 +104,7 @@ Old Name <old@email.com> <==> New Name <new@email.com>
 ```bash
 git filter-repo --subdirectory-filter src/projectA
 ```
+
+The tools sit next to a guide for rewriting history with git filter-repo. jj is a Git-compatible version control system, simple and powerful. Git FTP is the deployment tool. soft-serve and gogs are the self-hosted servers. lefthook is the hook tool. dolt is the versioned database. github-local-actions runs GitHub Actions workflows locally for testing and debugging. git filter-repo replaces git filter-branch and BFG Repo-Cleaner. The table calls filter-branch slow and hard. It calls BFG fast but limited. It calls filter-repo very fast, easy, and very flexible. You can remove a file or directory from every commit. You can change names and emails, or split a subdirectory into its own repository. Install with pip install git-filter-repo, or clone the newren source and run make prefix=/usr/local install. Back up first, because the rewrite permanently changes commit history. One example strips secrets/ with --invert-paths.
 
 > **See also:** [Git Workflows](/Technology/Tools And Utilities/Practices/Git Workflows) · [Developer Tools And Environments](/Technology/Tools And Utilities/Tools/Developer Tools And Environments)

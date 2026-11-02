@@ -13,6 +13,8 @@ resource: https://ai.meta.com/research/publications/cwm
 
 # Code World Model
 
+Code World Model is Meta's 32 billion parameter language model. It simulates execution of Python functions and reproduces agentic interactions in a Bash environment. It does more than predict the next line of code. It thinks ahead, simulates, and plans the way a human would. Listed scores are 68.6% on LiveCodeBench v5, 76% on AIME24, and 65.8% on SweBench Verified with test-time scaling. Linked resources include the tech report, model weights, Hugging Face checkpoints, and inference code.
+
 ## Overview
 
 - **Code World Model (CWM)**: Meta's 32-billion-parameter language model

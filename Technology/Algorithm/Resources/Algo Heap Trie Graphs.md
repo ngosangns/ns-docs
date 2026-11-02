@@ -16,6 +16,8 @@ resource: https://viblo.asia/p/autocomplete-bai-toan-kinh-dien-trong-cac-he-thon
 
 # Algo Heap Trie Graphs
 
+These notes collect working TypeScript code for the structures that show up in interview rounds. The heap section covers min and max heaps, the array index formulas for parent and children, and a full MinHeap class with heapify up and heapify down. The trie section stays at sketch level, pointing to an autocomplete write-up. Graphs get the fuller treatment, with adjacency list and adjacency matrix representations, BFS and DFS implementations, and a Dijkstra shortest path routine. Maps, load factor and collisions are covered briefly before the note ends on an LRU cache built from a linked list plus two maps.
+
 ## Heap / Priority Queue
 
 - It is a binary tree where every child and grand child is smaller (MaxHeap) or larger (MinHeap) than the current node.

@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/pattern-implement
 
 # Network Secure Ingress Implementation
 
-This implementation combines several design patterns, such as global routing, offloading, and health endpoint monitoring, to provide a secure ingress for HTTP/HTTPS applications.
+This implementation combines several design patterns, such as global routing, offloading, and health endpoint monitoring, to provide a secure ingress for HTTP/HTTPS applications. Traffic enters through Azure Front Door, passes the web application firewall, and reaches backend services over Private Link without a public IP. The request and operational flows are laid out below, along with the cost and operations trade-offs of the Premium tier.
 
 ## Key Requirements
 

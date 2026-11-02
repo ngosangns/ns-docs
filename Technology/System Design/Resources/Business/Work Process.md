@@ -15,6 +15,8 @@ resource: https://ihoctot.com/grooming-meeting-la-gi
 
 # Work Process
 
+This page lists four articles under two headings. The Agile/Scrum heading holds three of them. The ihoctot.com article asks what a grooming meeting is. The 200lab article asks what Agile and Scrum are. The Viblo article is about estimate points in the Agile model. Its title also names the importance and benefits of those points. The OKR heading holds a Base Resources article. That title asks what OKR is. The words everything you need to know to get started with Objectives and Key Results management appear in that title. The closing line points to Product Management and to Scaling Organizations.
+
 ## Agile/Scrum
 
 - What is a Grooming Meeting (ihoctot.com): https://ihoctot.com/grooming-meeting-la-gi

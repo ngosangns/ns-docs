@@ -16,6 +16,8 @@ tags:
 
 Distributed In-Memory Cache for Heavy-Read APIs: a compilation and best practices.
 
+The target is 1M+ requests per second for heavy-read APIs. Vertical scaling of the database or Redis is expensive and inefficient. A writer service serializes an object and publishes an event to Redis. Reader pods update a local LFU or LRU cache and return bytes over net/http. CQRS separates the write service from the read service, and Redis pub/sub keeps each pod's local RAM cache in sync.
+
 > **See also:** [In Memory Cache Best Practices](/Technology/Backend And Database/Practices/Distributed Cache/In Memory Cache Best Practices)
 
 ## Problem Overview

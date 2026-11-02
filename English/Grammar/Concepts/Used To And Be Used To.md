@@ -12,7 +12,7 @@ tags:
 
 # Used To And Be Used To
 
-Ba cấu trúc nhìn giống nhau nhưng nghĩa khác nhau: **used to + V**, **be used to + V-ing**, và **get used to + V-ing**.
+Ba cấu trúc nhìn giống nhau nhưng nghĩa khác nhau: **used to + V**, **be used to + V-ing**, và **get used to + V-ing**. Chúng chỉ khác nhau ở chữ "to" phía sau, nhưng chữ đó quyết định nghĩa và dạng động từ đi kèm. Với **used to + V**, "to" là dấu hiệu nguyên mẫu. Câu nói về thói quen hoặc trạng thái trong quá khứ mà bây giờ không còn nữa. Với **be used to** và **get used to**, "to" là giới từ nên phải đi với danh từ hoặc danh động từ. Cụm đầu nói về trạng thái đã quen ở hiện tại, cụm sau nói về quá trình đang dần quen.
 
 ## Used To + Động từ nguyên mẫu — Thói quen hoặc trạng thái quá khứ
 

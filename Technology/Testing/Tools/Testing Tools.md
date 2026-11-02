@@ -14,6 +14,8 @@ resource: https://github.com/keploy/keploy
 
 # Testing Tools
 
+Testing tools are grouped here by the problem they solve, from API and integration testing through load, architecture and browser testing. Keploy generates test cases from real API calls, while K6 scripts performance tests in JavaScript against gRPC and WebSocket endpoints. Architecture entries check dependency rules and code smells, and browser entries cover device clouds, session replay and headless automation. Dependency analysis closes the page with documentation and diagram generators.
+
 ## API & Integration Testing
 
 - **Keploy**: An agent that supports API, integration and end-to-end (E2E) testing for developers.
@@ -47,5 +49,7 @@ resource: https://github.com/keploy/keploy
 ## Dependency Analysis
 
 - **Doxygen / Graphviz**: Tools that automatically generate documentation and diagram the relationships between components in source code.
+
+Keploy builds cases from real API traffic and can stub the calls you do not want to hit. K6 scripts load, stress, spike, and soak tests in JavaScript, including gRPC and WebSocket, and it lines up with Prometheus and Grafana. ArchUnit checks Java dependency rules inside unit tests, while SonarQube flags bugs, vulnerabilities, and code smells.
 
 > **See also:** [Developer Tools And Environments](/Technology/Tools And Utilities/Tools/Developer Tools And Environments) · [Security Tools](/Technology/Security/Tools/Security Tools)

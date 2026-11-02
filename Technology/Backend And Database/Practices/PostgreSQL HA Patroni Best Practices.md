@@ -16,6 +16,8 @@ resource: https://devops.vn/posts/ivory-bien-viec-quan-tri-postgresql-ha-patroni
 
 # PostgreSQL HA Patroni Best Practices
 
+PostgreSQL HA Patroni Best Practices reviews a community discussion about running PostgreSQL high availability with Patroni, PgBouncer, and etcd. It profiles Ivory, an open-source UI for managing Patroni clusters, covering its architecture, visual interface, maintenance mode, database maintenance, configuration management, and query console. The note then compares a recommended stack with Autobase, explains when the UI is a good fit and when the CLI remains the better tool, and describes a hybrid approach. It closes with practices for architecture, management tools, monitoring, maintenance, and configuration, plus how Ivory reads replication lag.
+
 > - Link: https://devops.vn/posts/ivory-bien-viec-quan-tri-postgresql-ha-patroni-tro-nen-nhan-hon
 > - Community opinions on the PostgreSQL + Patroni + PgBouncer + etcd stack
 > - An assessment of Ivory and when to use the CLI versus the UI

@@ -14,7 +14,7 @@ tags:
 
 # VPC And Availability Zones
 
-In AWS network design, the **VPC Region** is the geographic scope in which you deploy and manage your virtual network (**Virtual Private Cloud - VPC**). Each VPC is created in one Region (for example Singapore, Tokyo, or Sydney) and exists only in that single Region. A Region consists of multiple physically independent Availability Zones (AZs).
+In AWS network design, the **VPC Region** is the geographic scope in which you deploy and manage your virtual network (**Virtual Private Cloud - VPC**). Each VPC is created in one Region (for example Singapore, Tokyo, or Sydney) and exists only in that single Region. A Region consists of multiple physically independent Availability Zones (AZs). An AZ is a separate data center with its own power, networking, and cooling systems. AZs inside one Region are linked by low-latency network connections. Subnets carve the VPC CIDR block into smaller address ranges. A public subnet routes to the Internet through an Internet Gateway. A private subnet reaches the Internet only through a NAT Gateway. An isolated subnet has no Internet route at all.
 
 ## What Is a VPC in AWS Network Design?
 

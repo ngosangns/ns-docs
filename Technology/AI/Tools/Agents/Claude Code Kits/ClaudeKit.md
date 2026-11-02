@@ -18,6 +18,8 @@ resource: https://github.com/carlrannaberg/claudekit
 
 **ClaudeKit** is a toolkit that provides smart guardrails and workflow automation for Claude Code. It catches errors in real time, saves checkpoints, and strengthens AI coding with expert subagents. It stands out for its automatic codebase map, 6-agent parallel code review, and spec-driven development workflow.
 
+Setup is a global npm install, then claudekit setup. The repo is mostly TypeScript, under MIT, at v0.9.5, with 657 stars and 105 forks. Changed files are typechecked, linted, and tested, and a stop hook stores a checkpoint you can restore.
+
 ## Basic Information
 
 | Item          | Value                                          |
@@ -224,6 +226,8 @@ claudekit-hooks disable/enable <hook>  # Session hook control
 - **Spec-driven development**: Want a structured implementation workflow
 - **Team environments**: Need consistent quality standards
 - **Hook profiling**: Want to optimize hook performance
+
+Six agents review in parallel. They cover design patterns, security and OWASP, performance, tests, code smells, and documentation. Checkpoints save when Claude stops. You can list them, restore one, or clean them up. Guards block the any type, catch style issues, and stop code from being swapped for comments. Tests run on file changes. File security scans 195 plus patterns in 12 categories. Thinking has four levels from 0 to 3, adds under 5ms, and starts on the first prompt. Subagents include triage, research listed at a 90% time reduction, code search, TypeScript, React, databases, an oracle that needs setup, refactoring, the Vercel AI SDK v5, and Nest.js. Spec work has six phases, from implementation and tests through review, improvement, commit, and progress tracking. The CLI can install everything, list agents with token counts, run doctor, and profile hooks. The stack is Node.js 20 or newer, Vitest, Biome, and ESLint. The Max plan is required for token use. Many hooks can slow the flow, the agent list is smaller than ECC, and there is no cross-session memory.
 
 ---
 

@@ -16,7 +16,9 @@ resource: https://awsstudygroup.com/2026/02/06/don-gian-hoa-quan-ly-cum-kubernet
 
 # Simplify EKS Cluster Management With ACK And Kro
 
-> **Source**: [Simplifying Kubernetes cluster management with ACK, kro, and Amazon EKS](https://awsstudygroup.com/2026/02/06/don-gian-hoa-quan-ly-cum-kubernetes-bang-ack-kro-va-amazon-eks) (Vietnamese translation, "Đơn giản hóa quản lý cụm Kubernetes bằng ACK, kro và Amazon EKS") — Islam Mahgoub, Kumudhan Cherarajan, Markos Kandylis, Ramesh Mathikumar, Sébastien Allamand, AWS Study Group, 22/01/2026
+> **Source**: [Simplifying Kubernetes cluster management with ACK, kro, and Amazon EKS](https://awsstudygroup.com/2026/02/06/don-gian-hoa-quan-ly-cum-kubernetes-bang-ack-kro-va-amazon-eks) (Vietnamese translation, "Đơn giản hóa quản lý cụm Kubernetes bằng ACK, kro và Amazon EKS"). Islam Mahgoub, Kumudhan Cherarajan, Markos Kandylis, Ramesh Mathikumar, Sébastien Allamand, AWS Study Group, 22/01/2026
+
+The article shows how to run a fleet of EKS clusters through one Kubernetes API. ACK creates AWS resources from custom resources. kro orders those resources and passes fields between them with CEL. Argo CD applies the GitOps sync and the add-ons. Amazon EKS Capabilities offers managed versions of all three, so you do not install or operate them yourself.
 
 ## The Problem
 
@@ -48,7 +50,7 @@ This lets RGDs nest inside RGDs → building a reusable "tree" of RGDs, with CEL
 
 ## Multi-Account AWS with ACK
 
-Use the cluster-scoped CRD `IAMRoleSelector` to map **namespace → IAM role** via a label selector: when the ACK controller sees a new CR in a namespace, it looks up the `IAMRoleSelector` matching that namespace to learn which role to **assume** (this role can live in a different workload account), and only then calls the AWS API to create the resource in the target account. Permissions are needed in both directions: the ACK controller's role (in the management account) must be allowed `sts:AssumeRole`, and the target role's trust policy must allow the management role to assume it.
+Use the cluster-scoped CRD `IAMRoleSelector` to map a namespace to an IAM role with a label selector. When the ACK controller sees a new CR in a namespace, it looks up the matching `IAMRoleSelector`. That selector names the role to assume, and the role can live in a different workload account. Only then does the controller call the AWS API to create the resource in the target account. Permissions are needed in both directions: the ACK controller's role (in the management account) must be allowed `sts:AssumeRole`, and the target role's trust policy must allow the management role to assume it.
 
 ## Add-on Bootstrap via Argo CD ApplicationSet
 

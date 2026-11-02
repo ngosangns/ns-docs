@@ -14,6 +14,8 @@ tags:
 
 Tiếng Anh dùng **44 phonemes** — các âm riêng biệt — được ghi bằng Bảng chữ cái Ngữ âm Quốc tế (IPA). Chính tả tiếng Anh không khớp với phát âm một cách đáng tin cậy, nên IPA là cách duy nhất chắc chắn để tra phát âm (mọi từ điển đều ghi).
 
+Các âm được chia thành 12 nguyên âm đơn, 8 nguyên âm đôi và 24 phụ âm. Schwa là nguyên âm gặp nhiều nhất vì nó gắn với âm tiết không trọng âm. Chính tả còn có trường hợp cùng chữ khác âm, cùng âm khác chữ, và chữ câm.
+
 ## Nguyên âm đơn — 12 âm (Monophthongs)
 
 | IPA  | Ví dụ       | IPA  | Ví dụ       |
@@ -70,5 +72,7 @@ Tiếng Anh dùng **44 phonemes** — các âm riêng biệt — được ghi b�
 - Cùng chính tả, khác âm: _though /əʊ/, through /uː/, thought /ɔː/, tough /ʌf/, cough /ɒf/._
 - Cùng âm, khác chính tả: /f/ = f (fun), ph (phone), gh (laugh).
 - Chữ câm ở khắp nơi: knee, hour, listen, comb, island, doubt.
+
+Âm /θ/ cần lưỡi ở giữa hai hàm răng, nên think khác sink. Âm /ð/ là dạng rung dây thanh của /θ/, nên then khác zen. Âm /ʃ/ cần môi tròn, nên she khác see. Âm /tʃ/ trong cheap là một âm ngắn, không phải cụm /tr/ của tree. Light và night khác nhau ở vị trí lưỡi. Cap khác cab vì tiếng Việt không có âm /b/ cuối từ. Các đuôi -s, -t, -k, -ps và -sts cũng phải nói rõ, như trong tests, asks và worlds. Sit khác seat cả độ dài lẫn chất âm. Bad mở hàm rộng hơn bed. Though, through, thought, tough và cough viết gần nhau nhưng đọc khác. Knee, hour, listen, comb, island và doubt có chữ câm.
 
 > **Xem thêm:** [Ending Sounds](/English/Pronunciation/Concepts/Ending Sounds) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Sentence Stress And Intonation](/English/Pronunciation/Concepts/Sentence Stress And Intonation)

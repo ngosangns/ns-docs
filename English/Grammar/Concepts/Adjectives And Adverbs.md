@@ -12,7 +12,7 @@ tags:
 
 # Adjectives And Adverbs — Tính từ và trạng từ
 
-Tính từ bổ nghĩa cho **danh từ**; trạng từ bổ nghĩa cho **động từ, tính từ, trạng từ khác, hoặc cả câu**.
+Tính từ bổ nghĩa cho **danh từ**; trạng từ bổ nghĩa cho **động từ, tính từ, trạng từ khác, hoặc cả câu**. Tính từ đứng trước danh từ hoặc sau các động từ nối như be, seem, look, feel. Khi nhiều tính từ cùng đứng trước một danh từ, chúng theo thứ tự OSASCOMP. Đuôi -ing tả thứ gây ra cảm giác, còn đuôi -ed tả người cảm nhận cảm giác đó. Trạng từ thường được tạo bằng cách thêm -ly vào tính từ. Một số trường hợp bất quy tắc như good thành well, hard giữ nguyên dạng. Vị trí của trạng từ phụ thuộc vào loại của nó, còn thứ tự khi có nhiều trạng từ là cách thức, nơi chốn, thời gian.
 
 ## Tính từ (Adjectives)
 

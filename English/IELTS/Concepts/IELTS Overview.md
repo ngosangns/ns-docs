@@ -17,6 +17,8 @@ resource: https://ielts.org/take-a-test/test-types
 
 IELTS (International English Language Testing System) là bài thi đánh giá năng lực tiếng Anh đồng sở hữu bởi British Council, IDP: IELTS Australia, và Cambridge University Press & Assessment English. Bài thi gồm **4 kỹ năng: Nghe, Đọc, Viết, Nói** trong khoảng **2 giờ 45 phút**.
 
+Listening và Speaking giống hệt nhau ở hai phiên bản. Reading và Writing mới khác nhau. Academic hướng tới du học và đăng ký hành nghề. General Training hướng tới định cư và làm việc. Overall là trung bình bốn kỹ năng, và thang điểm có nửa band.
+
 - Nguồn: [IELTS test format](https://ielts.org/en-us/for-test-takers/test-format), [Test format and structure – British Council](https://takeielts.britishcouncil.org/take-ielts/test-format).
 
 ## Hai phiên bản: Academic và General Training
@@ -54,6 +56,8 @@ Mỗi kỹ năng được chấm theo **thang band 0-9** (có nửa band). Đi�
 | 0    | Did not attempt         | Không làm bài                                                                       |
 
 - Nguồn: [IELTS scoring in detail — band scores explained](https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail).
+
+Hai phiên bản chỉ tách ở Reading và Writing. Academic dùng cho du học, xét tuyển đại học hoặc sau đại học, và đăng ký hành nghề. Reading có ba bài học thuật từ tạp chí hoặc sách. Writing Task 1 là báo cáo về biểu đồ, bảng, sơ đồ hoặc quy trình. Writing Task 2 là essay học thuật. General Training dùng cho định cư, làm việc, và đào tạo hoặc dưới đại học ở nước nói tiếng Anh. Reading lấy văn bản đời thường, như quảng cáo, thông báo, tài liệu công ty, và được ghi là dễ hơn Academic. Writing Task 1 là thư, giọng trang trọng, bán trang trọng, hoặc thân mật. Writing Task 2 vẫn là essay nhưng ít trang trọng hơn. Mỗi kỹ năng dùng thang band 0-9, có nửa band. Overall là trung bình cộng. Tận cùng .25 làm tròn lên .5, như 6.25 thành 6.5. Tận cùng .75 làm tròn lên band nguyên tiếp theo, như 6.75 thành 7.0. Band 9 dùng ngôn ngữ thành thạo, chính xác, lưu loát.
 
 ## Chi tiết từng kỹ năng
 

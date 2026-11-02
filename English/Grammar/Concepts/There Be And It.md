@@ -12,7 +12,7 @@ tags:
 
 # There Be And It — There be và chủ ngữ giả It
 
-Tiếng Anh dùng hai chủ ngữ "giả" khi không có chủ ngữ thật hoặc khi chủ ngữ thật nên để sau: **there** và **it**.
+Tiếng Anh dùng hai chủ ngữ "giả" khi không có chủ ngữ thật hoặc khi chủ ngữ thật nên để sau, đó là **there** và **it**. **There + be** nói rằng thứ gì đó tồn tại hoặc xảy ra, chủ ngữ thật đứng sau động từ và quyết định hòa hợp. Cấu trúc này chạy qua các thì, từ there is/are, there was/were, there has/have been đến there will be, và đi được với modal hay seem, appear. **It** thì lấp chỗ chủ ngữ cho thời gian, thời tiết, khoảng cách, nhiệt độ và tình huống chung. **It** còn đứng trước một mệnh đề hoặc động từ nguyên mẫu để giữ câu cân đối.
 
 ## There + Be — Diễn tả sự tồn tại
 

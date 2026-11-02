@@ -14,7 +14,7 @@ tags:
 
 # Coding Interview Resources
 
-**Updated 23/5/2022**
+**Updated 23/5/2022.** This page collects books, courses, practice sites, and mock interview services for coding interview preparation. It splits into two halves. The first covers data structures and algorithms through books, online courses, and practice sites such as Leetcode and Hackerrank. The second covers the interview itself through books, mock interview services, courses, and a community group where people share experiences at FAANG and Big Tech. Entries carry a short note on level, price, or what the resource is good for, so you can choose a starting point without reading everything. Nothing here is ranked by importance, so treat both halves as equal entry points. A book and a practice site reinforce the same ideas. Use it as a menu. Pick one book, one practice site, and one mock interview channel, then work through them in order.
 
 ## Algorithms & Data Structures (DSA)
 

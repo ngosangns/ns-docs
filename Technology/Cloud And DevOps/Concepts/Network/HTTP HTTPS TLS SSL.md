@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuye
 
 # HTTP HTTPS TLS SSL
 
+This note gathers two things about HTTP in one place. The first is a small reading list on HTTPS and SSL/TLS, RFC 7807 problem details for HTTP APIs, and how HTTP moved from version 1 to 2 and 3. Two diagrams sit below the links. The second is a reference to the common HTTP methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, and TRACE. Each method gets its purpose, whether it is idempotent, and everyday examples such as fetching a page, creating a post, or deleting an account. Read the links for the concepts, then use the method section as a quick lookup when you design or review an API.
+
 ## Resources
 
 - https://viblo.asia/p/https-la-gi-giai-thich-chi-tiet-ssltls-bang-chuyen-tinh-cho-va-meo-2oKLn2Q1LQO (What is HTTPS? A detailed SSL/TLS explanation)

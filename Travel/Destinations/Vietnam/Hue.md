@@ -14,7 +14,7 @@ tags:
 
 ## Tổng quan
 
-Huế là cố đô của Việt Nam, nổi tiếng với di tích lịch sử, văn hóa và ẩm thực riêng. Thành phố in đậm dấu ấn triều Nguyễn qua các lăng tẩm, đền chùa và cung điện cổ.
+Huế là cố đô của Việt Nam, nổi tiếng với di tích lịch sử, văn hóa và ẩm thực riêng. Thành phố in đậm dấu ấn triều Nguyễn qua các lăng tẩm, đền chùa và cung điện cổ. Phần sau ghi các điểm tham quan, từ lăng tẩm và chùa tới sông Hương, phá Tam Giang, cùng danh sách quán cà phê và địa chỉ ăn uống. Mục bún bò được tách riêng với các quán ở bờ Bắc và bờ Nam.
 
 ## Điểm tham quan
 

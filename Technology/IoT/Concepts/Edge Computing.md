@@ -13,6 +13,8 @@ tags:
 
 # Edge Computing
 
+Edge computing here means processing IoT data on site instead of in the cloud. Benefits are lower latency with no need to send data to the cloud, less data transmitted, and privacy because data stays on the local network. Work continues when the internet connection is lost. Cloud storage and processing cost go down. Devices are gateways such as Raspberry Pi and industrial gateways, plus edge servers described as mini data centers. Fog computing is the layer between the edge and the cloud. Use cases are real-time control, including button presses in Smart Home, local automation rules, filtering and aggregation before the cloud, and offline operation.
+
 ## Benefits
 
 - **Low latency**: Process data on site, with no need to send it to the cloud

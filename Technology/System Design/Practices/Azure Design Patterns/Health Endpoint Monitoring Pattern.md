@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/health-e
 
 # Health Endpoint Monitoring Pattern
 
-This pattern uses functional checks inside the application, exposed through endpoints that external tools can access, to verify that applications and services are running normally.
+This pattern uses functional checks inside the application, exposed through endpoints that external tools can access, to verify that applications and services are running normally. A health endpoint runs checks against the database, external services, and TLS certificates, then returns a status code that monitoring tools evaluate. The sections that follow cover securing the endpoint, caching expensive checks, and the Azure services that read the results.
 
 ## Summary
 

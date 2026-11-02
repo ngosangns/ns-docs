@@ -16,6 +16,8 @@ tags:
 
 Việc chọn đúng chất liệu vải cho mùa hè sẽ giúp bạn cảm thấy thoải mái, mát mẻ và tự tin hơn trong thời tiết nóng bức.
 
+Lanh nhẹ, khô nhanh và mặc rất mát, nhưng dễ nhăn nên phải ủi thường xuyên. Cotton thoáng khí, thấm mồ hôi, dễ giặt và có giá thấp. Supima bền, mềm và chất lượng cao, còn Egyptian mềm mịn, bền màu và thuộc nhóm xa xỉ. Rayon mỏng, không bết dính, giá hợp lý và dùng khi cần thay lụa. Chambray nhẹ hơn denim dệt chặt, nên hợp mùa nóng hơn. Len và vải tổng hợp dày thì nên tránh.
+
 ## Các loại vải tốt cho mùa hè
 
 ### Vải Cotton
@@ -88,3 +90,5 @@ Việc chọn đúng chất liệu vải cho mùa hè sẽ giúp bạn cảm th�
 5. Polyester (nếu được xử lý đặc biệt cho mùa hè)
 
 **Lưu ý:** Tránh các loại vải dày, không thoáng khí như vải len, vải tổng hợp dày vào mùa hè.
+
+Thứ tự ưu tiên cho mùa nóng là lanh, rồi cotton, rayon, chambray và polyester nếu đã được xử lý riêng. Lanh hợp áo sơ mi, quần dài và quần short. Cotton, kể cả Supima và Egyptian, hợp áo thun, quần short, quần chinos và áo sơ mi. Rayon dùng cho trang phục thể thao, áo mùa hè và quần áo cần cảm giác mát. Denim là cotton dệt rất chặt, bền và chắc, nhưng nặng hơn cotton thường. Chambray nhẹ hơn denim truyền thống, nên thoáng hơn khi làm quần jeans, áo khoác nhẹ hoặc quần short. Polyester chỉ nên chọn khi đã được xử lý đặc biệt cho mùa hè. Vải dày và không thoáng khí, như len hoặc vải tổng hợp dày, nên tránh.

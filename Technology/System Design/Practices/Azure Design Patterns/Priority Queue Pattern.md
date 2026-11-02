@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/priority
 
 # Priority Queue Pattern
 
-This pattern lets a system process high-priority tasks faster than low-priority ones. It is especially useful in applications that must honor different service-level agreements (SLAs) for different customer groups or job types.
+This pattern lets a system process high-priority tasks faster than low-priority ones. It is especially useful in applications that must honor different service-level agreements (SLAs) for different customer groups or job types. Work is split by priority either through one ordered queue or through one queue per level, each with consumers sized to match. Starvation risk from low-priority work waiting too long gets its own treatment, as does polling cost and an Azure Service Bus example.
 
 ## Summary
 

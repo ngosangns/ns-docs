@@ -15,6 +15,8 @@ tags:
 
 # BusyBox Httpd
 
+BusyBox Httpd is the smallest option in this set of React and Vite image builds. A Node Alpine stage installs dependencies and builds the app, then compresses the static files with gzip level 9. The production stage is the lipanski/docker-static-website base at 92.5 KB and serves those files with BusyBox httpd. BusyBox sends the .gz files automatically when the client supports gzip, so there is almost no configuration to write. The note also covers layer caching and a BuildKit cache mount for the pnpm store, both of which keep rebuilds short. It then weighs the limits. There is no Brotli, no HTTP/2, no SSL/TLS, and only simple routing, so a reverse proxy is needed for HTTPS. Small static sites, internal tools, prototypes, and demos fit best.
+
 ## Techniques
 
 - **Base image**: `lipanski/docker-static-website` (92.5 KB base)
@@ -46,6 +48,8 @@ tags:
 - Internal tools that do not need HTTPS
 - Prototypes and demos
 - When image size matters more than features
+
+Node Alpine only builds the app and gzip-compresses html, css, and js at level 9. The runtime is lipanski/docker-static-website at 92.5 KB, and BusyBox httpd serves the compressed file when the client accepts gzip. Copying package files, plus a BuildKit cache mount for the pnpm store, keeps rebuilds short. The health file says OK. You give up Brotli, HTTP/2, TLS, and complex routing, so HTTPS needs a reverse proxy. This fits a small static site, an internal tool, a prototype, or a demo.
 
 ## Code Highlights
 

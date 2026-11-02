@@ -15,7 +15,7 @@ resource: https://www.kaggle.com/writeups/cdeotte/xgboost-tips-and-tricks
 
 # XGBoost Tips And Tricks
 
-> **Source**: [XGBoost Tips and Tricks](https://www.kaggle.com/writeups/cdeotte/xgboost-tips-and-tricks) — Chris Deotte (cdeotte), Kaggle Writeup, 11/27/2025
+> **Source**: [XGBoost Tips and Tricks](https://www.kaggle.com/writeups/cdeotte/xgboost-tips-and-tricks) — Chris Deotte (cdeotte), Kaggle Writeup, 11/27/2025. Deotte writes from competition work, and the writeup mixes his own results with numbers from NVIDIA's team. The 250x and 25x speedups for multiple GPUs come from NVIDIA's runs, not from the author's cluster. QuantileDMatrix notes refer to the v2.0 and v3.0 releases. Parameter defaults and ranges are as the writeup states them. Feature engineering gets more room than tuning, and cuDF groupby runs up to ~50x faster. The closing list repeats the main point of each section in one line.
 
 ## Overview
 

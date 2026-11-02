@@ -14,7 +14,7 @@ tags:
 
 # API Routing Path
 
-Path routing groups many or all APIs under the same hostname and uses the request URI to separate services. For example: `api.example.com/service-a` or `api.example.com/service-b`.
+Path routing groups many or all APIs under the same hostname and uses the request URI to separate services. For example, one host serves `api.example.com/service-a` and `api.example.com/service-b`. Consumers deal with one URL and find centralized documentation in one place, but the shared hostname demands strict change management so a misconfiguration cannot affect the entire system. The note also walks through the AWS implementation options and records the advantages and limits of each.
 
 ## Typical Use Cases
 
@@ -50,5 +50,7 @@ Path routing groups many or all APIs under the same hostname and uses the reques
 - **Disadvantages**:
   - Limited to a maximum of 250 origins (services).
   - Updating Lambda@Edge and propagating the configuration can take anywhere from a few minutes to 30 minutes.
+
+On AWS the same path split can sit in three places. NGINX builds the routes and gives each team its own APIs, plus logs and metrics, but the proxy is costly until traffic is very high. API Gateway in proxy mode can use a wildcard such as the billing prefix, and it adds authorizers, throttling, and WAF. CloudFront picks the origin in Lambda@Edge. That helps canaries and feature flags, with a cap of 250 origins.
 
 > **See also:** [API Routing Hostname](/Technology/System Design/Practices/AWS Cloud Design Patterns/API Routing Hostname) · [API Routing HTTP](/Technology/System Design/Practices/AWS Cloud Design Patterns/API Routing HTTP) · [Strangler Fig](/Technology/System Design/Practices/AWS Cloud Design Patterns/Strangler Fig)

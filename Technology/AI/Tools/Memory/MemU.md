@@ -15,6 +15,8 @@ resource: https://openrouter.ai
 
 # MemU
 
+This note describes MemU, a memory framework built for agents that run all the time. It opens with the definition, then gives self-hosted install steps and two ways to try it, an in-memory test and a PostgreSQL test. The core API section explains the memorize pipeline and the two retrieve modes, one based on retrieval and one driven by a model. Configuration examples follow for OpenRouter and DashScope, and a table lists the cloud API endpoints. The note then lays out the three-layer memory architecture, from resource to item to category, and the proactive features it enables, such as recommendations, email handling and market monitoring. Use cases, tech stack, pros, cons and fit close the page.
+
 ## Definition
 
 **MemU** (Memory-U) is a memory framework for proactive AI agents that run 24/7. It helps reduce LLM token costs for always-online agents and lets agents understand user intent without explicit commands.
@@ -221,6 +223,8 @@ service = MemUService(
 - **Cost-sensitive applications**: Production systems that need to optimize token usage
 - **Recommendation systems**: Proactive content/email/trading recommendations
 - **Personal AI assistants**: With hierarchical memory needs
+
+MemU keeps memory for agents that stay online all day. The memorize call stores preferences, facts, and insights, then sorts them and updates the user profile. Retrieve can read stored items or ask a model what to prepare. Three layers hold that memory. Resources keep original data, items keep facts, and categories build a summary. The same store can recommend content, draft email, or watch prices. Production needs PostgreSQL, and the store is not a graph.
 
 ---
 

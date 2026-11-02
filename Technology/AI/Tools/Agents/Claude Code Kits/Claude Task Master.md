@@ -17,7 +17,7 @@ resource: https://cursor.com/en/install-mcp?name=task-master-ai&config=
 
 ## Definition
 
-**Task Master** is a task management system for AI-driven development that works in Cursor, Claude Code, Windsurf, Roo, Lovable, and other AI chats. It parses a PRD into tasks, auto-expands them into subtasks, tracks progress, and integrates with many AI providers.
+**Task Master** is a task management system for AI-driven development that works in Cursor, Claude Code, Windsurf, Roo, Lovable, and other AI chats. It parses a PRD into tasks, auto-expands them into subtasks, tracks progress, and integrates with many AI providers. It runs as an MCP server, so the same task workflow reaches every supported editor. The code lives in a Turborepo monorepo with separate packages for the MCP server, the CLI, and the frontend apps. Configuration sits in a small JSON file beside your editor settings. Every task carries an ID, title, description, status, dependencies, priority, subtasks, complexity score, and tags. A tag system keeps workstreams apart, and tasks move between tags with one command.
 
 ## Basic Information
 
@@ -205,6 +205,8 @@ claude mcp add task-master-ai --scope user \
 - **Task-driven development**: Want structured task management
 - **AI-assisted planning**: Need AI to expand and research tasks
 - **MCP-first workflows**: Want task management through MCP tools
+
+The install path is short. Claude Code adds the server with one command. Cursor offers a one-click MCP link. A global npm install finishes with task-master init. Turborepo holds the MCP server, the CLI, the apps, and the tests. Parsing a PRD builds tasks with status, priority, dependencies, and a complexity score. You can list them, ask for the next one, expand a task, or show a few IDs. Research uses project context. Providers include Anthropic, OpenAI, Google, Perplexity, xAI, and OpenRouter. Claude Code needs no API key, and Codex CLI uses ChatGPT OAuth. The default loads 36 tools at about 21k tokens. Standard keeps 15 near 10k, and core keeps 7 near 5k. Move can send tasks to another tag with their dependencies. The license is MIT plus a Commons Clause, so you cannot sell the product as a service. Most other models still need a key.
 
 ---
 

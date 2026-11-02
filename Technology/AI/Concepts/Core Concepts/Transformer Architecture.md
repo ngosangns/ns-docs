@@ -14,6 +14,8 @@ resource: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-mor
 
 # Transformer Architecture
 
+This note summarizes the 2017 paper "Attention is All You Need" and explains how the Transformer works. It starts with the limits of RNNs, then walks through the encoder and decoder stacks, attention, and positional encoding. You get the intuition behind query, key, and value, plus the scaled dot-product formula and why multi-head attention helps. Later sections give the reasons the architecture succeeded and describe variants such as BERT, the GPT series, Transformer-XL, Longformer, efficient models, ViT, and multimodal work. The final part covers applications outside NLP, from vision and speech to time series and drug discovery. Read it top to bottom for the full picture, or jump to the attention section when you need a refresher.
+
 > Summarized from: https://bfcmath.github.io/posts/Attention-is-all-you-need-and-much-more/
 
 ## Introduction

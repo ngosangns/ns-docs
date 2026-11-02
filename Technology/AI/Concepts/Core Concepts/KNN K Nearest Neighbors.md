@@ -13,6 +13,8 @@ tags:
 
 # KNN K Nearest Neighbors
 
+This note is a short guide to keeping K nearest neighbors steady when the training data contains outliers. It opens with why the problem exists, since KNN decides from the nearest points and a few stray values can pull a prediction off target. Five remedies follow. You can filter outliers before training with z scores or the interquartile range, or raise K so more neighbors dilute a bad point. You can also weight closer neighbors more heavily, try robust KNN variants, or switch to a distance metric such as Manhattan that softens the effect of extremes. The closing summary repeats the list and reminds the reader that tuning is part of getting good performance.
+
 ## Handling Outliers in KNN
 
 KNN works by finding the nearest data points to make a decision, so outliers can distort the model's results.
@@ -45,6 +47,8 @@ KNN works by finding the nearest data points to make a decision, so outliers can
 - **Manhattan distance**: Can help reduce the influence of outliers
 - **Minkowski distance**: Another option
 - Changing the distance metric can reduce the influence of outliers and make the model more accurate
+
+Filtering with a z-score or the interquartile range removes stray points before training. A larger K lets more neighbors dilute one bad point, but too large a K makes the model too simple. Weighted KNN favors closer points, and robust variants drop less data. Manhattan distance can soften extremes compared with Euclidean distance.
 
 ## Summary
 

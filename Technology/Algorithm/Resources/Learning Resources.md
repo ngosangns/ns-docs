@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M3
 
 # Learning Resources
 
+This page gathers the links used to study algorithms and data structures, grouped by purpose so you can pick the right one for the moment. The Resources section holds articles and videos on single topics, from sparse tables and Dijkstra to dynamic programming patterns, plus a crash course that walks through binary search trees and graphs. The Notes section keeps two short takeaways and a pointer to an interview question collection. Courses lists two GitHub repositories and two Viblo courses for structured study, including an advanced track. Cryptography links cover modular arithmetic and the Chinese Remainder Theorem. The Challenges section ends with Viblo Code for practice.
+
 ## Table of Contents
 
 - [Resources](#resources)
@@ -64,5 +66,7 @@ resource: https://viblo.asia/p/bang-thua-sparse-table-MkNLrZPlLgA?fbclid=IwAR1M3
 ## Challenges
 
 - Viblo Code - https://code.viblo.asia
+
+Sparse tables and Dijkstra sit next to a Viblo piece on five dynamic programming patterns. A crash course is broken into binary search trees and graphs, and the graph links cover properties, classification, code representation, depth first search, and breadth first search for pathfinding. Two notes say you can simplify an algorithm by adjusting the input data set, and you can use trees and nodes to decompose a uniform data set. Courses point at trekhleb's javascript-algorithms, thealgorithms on GitHub, and two Viblo tracks, one introductory and one advanced. Cryptography links cover a series introduction, modular arithmetic, and the Chinese Remainder Theorem.
 
 > **See also:** [Coding Interview Resources](/Technology/Career/Resources/Coding Interview Resources) · [Le Minh Hoang Book Notes](/Technology/Algorithm/Resources/Le Minh Hoang Book Notes)

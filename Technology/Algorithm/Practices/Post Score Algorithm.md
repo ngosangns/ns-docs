@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/xay-dung-tinh-nang-trending-bai-viet-m2vJPD2KJeK
 
 # Post Score Algorithm
 
+This note documents a weighted formula for ranking trending posts. It then runs the numbers once so the weights are easier to reason about. The formula combines a category score, a poster score, an engagement score, an admin boost and a reward or penalty term. Engagement adds up votes, down votes, comments and views. The reward term uses a logistic curve over average view time percentage, so a video around the threshold lands near zero. A glossary defines every symbol. The worked example fixes the weights and inputs, computes engagement and reward first, then applies user and follower preference to reach a final score of about 343.47.
+
 ## Table of Contents
 
 - [Resources](#resources)
@@ -101,5 +103,7 @@ $$
 $$
 FS=(1\cdot 0.7+0.8\cdot 0.6+175+1\cdot 20+4.5)\cdot(0.7+1)\approx 343.47
 $$
+
+Engagement lands at 175 from the weighted votes, comments, and views. The reward is about 4.5 because view time sits above the 0.3 threshold. Admin boost adds 20 with the flag on. User preference plus follower preference then scales the sum to about 343.47.
 
 > **See also:** [Big O Notation](/Technology/Algorithm/Concepts/Big O Notation) · [Learning Resources](/Technology/Algorithm/Resources/Learning Resources)

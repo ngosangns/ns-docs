@@ -78,6 +78,8 @@ Mục tiêu: làm sạch sâu, phục hồi, dưỡng ẩm. Đây là bước sk
 
 > ❌ **Không dùng Vitamin C cùng lúc với BHA/AHA** — pH conflict, gây kích ứng. Vitamin C dùng sáng, acid dùng tối.
 
+Sáng có thể thêm toner, vitamin C, niacinamide và gel gốc nước, rồi thoa chống nắng 15 phút trước khi ra nắng. Chiều lau sunscreen bằng micellar water, rửa mặt, rồi tắm. Tối nếu có makeup hoặc sunscreen thì tẩy trang, rửa mặt, chờ khoảng 10 phút hoặc dùng toner, rồi bôi serum. BHA và lactic acid dùng cách ngày, không đi với vitamin C vì lệch pH. Peptide và hyaluronic acid dùng hàng ngày. Nên chọn gel gốc nước thay cho cream đặc.
+
 ---
 
 ## 📌 Checklist nhanh

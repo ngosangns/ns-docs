@@ -12,6 +12,8 @@ tags:
 
 # Communication Protocols
 
+Links are short-range, long-range, or wired. WiFi 802.11 moves a lot of data at high power. Bluetooth and BLE are battery-efficient for wearables and mobile devices. Zigbee is a battery-efficient mesh for the smart home. Proprietary protocols can complicate Zigbee. Z-Wave is similar to Zigbee but has a license fee. RF433 is simple and cheap, with long battery life and good range. It suits buttons and simple sensors, and that line points at Smart Home. LoRaWAN covers several km for smart city and agriculture. NB-IoT is the cellular option for wide coverage. Sigfox is low-power and long-range for simple sensors. Ethernet can use Power over Ethernet. RS-485 and Modbus are industrial protocols.
+
 ## Wireless Protocols
 
 ### Short-range

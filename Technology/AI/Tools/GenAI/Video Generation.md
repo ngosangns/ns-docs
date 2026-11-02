@@ -14,6 +14,8 @@ resource: http://runwayml.com/
 
 # Video Generation
 
+This note covers AI video tools and one research model, and the two halves are quite different. The first half is a short list of services and open projects for text-to-video, text-based video search, lip sync, portrait animation, and character animation. Entries include Runway, v-express, Emote Portrait Alive, LivePortrait, Wan 2.2 Animate, and OmniHuman-1, each with a line on what it does and a link. The second half explains Meta's V-JEPA 2, a self-supervised world model trained on video. That part walks through its capabilities in world understanding, prediction, and planning for robot control, then the two-stage training architecture and the applications it points toward. The note ends with links to the project site and a related world model note.
+
 ## Video Generation Tools
 
 - **Text to video**:

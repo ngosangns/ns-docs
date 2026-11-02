@@ -15,7 +15,7 @@ tags:
 
 # Tradeoffs And Comparison
 
-Distributed In-Memory Cache for Heavy-Read APIs: a compilation and best practices.
+This note compiles the trade-offs and comparisons for a distributed in-memory cache built for heavy-read APIs. It starts with the limits, covering the CAP theorem choice of availability over consistency, the memory cost of caching hot data, the delivery risk of Redis Pub/Sub, and the complexity of sharding and routing. Each limit comes with a short mitigation. The comparison section then puts the design next to Redis client-side caching, Memcached, and CDN or API gateway caching, with a rule of thumb for when each one wins. It ends with benchmark and production numbers, p99 latency for local and direct reads, per-pod throughput, and the cost case for scaling pods.
 
 > **See also:** [In Memory Cache Best Practices](/Technology/Backend And Database/Practices/Distributed Cache/In Memory Cache Best Practices)
 

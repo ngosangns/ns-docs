@@ -13,7 +13,7 @@ tags:
 
 # Hạ Long
 
-Những chỗ ăn uống không nên bỏ lỡ ở Hạ Long (Quảng Ninh).
+Những chỗ ăn uống không nên bỏ lỡ ở Hạ Long (Quảng Ninh). Danh sách đi theo bữa trong ngày, từ bữa sáng với bún cù kỳ và bún hải sản, qua bữa trưa và bữa tối ở các nhà hàng, tới đồ ăn vặt và quán ăn khuya. Món Trung Hoa và quán cà phê có tầm nhìn được để thành mục riêng. Mỗi chỗ ghi kèm địa chỉ ở Bãi Cháy, Hòn Gai hoặc Hồng Hải.
 
 ## Bữa sáng
 

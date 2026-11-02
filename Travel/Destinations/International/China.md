@@ -4,7 +4,7 @@ domain: china
 type: guide
 title: Trung Quốc
 description: "Cẩm nang thực tế cho du lịch tự túc Trung Quốc - ứng dụng, thanh toán, SIM, đi lại, chi phí"
-timestamp: "2026-10-21T00:00:00.000Z"
+timestamp: "2026-10-31T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -13,7 +13,7 @@ resource: https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-
 
 # Trung Quốc
 
-Ghi chép từ cộng đồng cho du lịch tự túc Trung Quốc. Xem thêm: [Visa Trung Quốc](/Travel/Destinations/International/China Visa) · [Lịch trình Trung Quốc](/Travel/Destinations/International/China Itineraries).
+Ghi chép từ cộng đồng cho du lịch tự túc Trung Quốc. Xem thêm: [Visa Trung Quốc](/Travel/Destinations/International/China Visa) · [Lịch trình Trung Quốc](/Travel/Destinations/International/China Itineraries) · [Hà Khẩu – Shangri-La – Á Đinh, 10 ngày](/Travel/Trips/Hekou Shangri-La Yading October). Trang gom những gì cần chuẩn bị trước khi bay. Phần nhập cảnh ghi mốc miễn visa transit 240 giờ cho hộ chiếu phổ thông Việt Nam từ 20/08/2026 và diện 30 ngày riêng cho Hải Nam. Phần ứng dụng điểm qua Alipay, WeChat, 12306 và Amap, kèm những chỗ chúng vênh với bản đồ phương Tây. Thanh toán, SIM du lịch 5G, chỗ ở và chi phí được tách riêng. Cuối cùng là đồ mang khi trời lạnh và các mẹo lẻ về tàu, taxi, ổ điện.
 
 ## Nguồn
 
@@ -96,13 +96,14 @@ Chi phí lệch nhau rất nhiều, nhưng vài khoản chiếm phần lớn:
 - Tất 27 cm, dài quá bắp chân; ủng cao chống nước (kiểu Timberland). Hoặc mua ủng rẻ nhưng dùng được ở các chợ ngầm tại đó.
 - Dầu xả để đỡ khô tóc.
 - Găng cảm ứng hoặc bút cảm ứng - tay trần đỏ lên trong vài phút.
-- Sạc dự phòng: máy Android trụ cả ngày; iPhone có thể tắt khi trời lạnh.
+- Sạc dự phòng: máy Android trụ cả ngày; iPhone có thể tắt khi trời lạnh. Trên chuyến nội địa từ 28/06/2025, pin phải có dấu 3C rõ và không thuộc lô thu hồi, chỉ để trong hành lý xách tay. Đến 100 Wh không cần duyệt, trên 100 Wh đến 160 Wh cần hãng duyệt, trên 160 Wh không được mang. Chặng Lệ Giang – Côn Minh của một vé nối ra nước ngoài vẫn là chuyến nội địa. Chi tiết ở [Hà Khẩu – Shangri-La – Á Đinh](/Travel/Trips/Hekou Shangri-La Yading October).
 - Khoảng 7 áo thun cotton cho 7 ngày; các lớp bên trong không cần thay mỗi ngày.
 
 ## Mẹo khác
 
 - **Tàu và điểm tham quan:** 12306 là đường chính thức và dùng được với hộ chiếu, như mục ứng dụng ở trên. Trip.com là đường dễ hơn nếu không quen 12306, và là nơi đặt vé điểm tham quan khi cổng không bán vé tại chỗ. Vé Tử Cấm Thành không bán trong ngày.
-- **Didi:** rẻ, nhưng điểm đón trên app thường không trùng ghim của bản đồ phương Tây. Đưa tài xế địa chỉ chữ Trung, như mẹo khách sạn ở trên.
+- **Didi:** rẻ, nhưng điểm đón trên app thường không trùng ghim của bản đồ phương Tây. Đưa tài xế địa chỉ chữ Trung, như mẹo khách sạn ở trên. Ở Hà Khẩu, chuyến cuối tháng 10 không gọi được app. Taxi vẫy ngoài đường ra ga Hà Khẩu Bắc khoảng 20 tệ, 15 phút.
+- **Ổ điện:** hai chân dẹt song song (type A) và ba chân dẹt xiên (type I). Mang cục chuyển đổi.
 - **Mẹo vé nối chuyến ("skiplagging"):** đặt một hành trình nối rẻ hơn rồi bỏ chặng cuối đôi khi được, nhưng tùy hãng - đừng ký gửi hành lý và đừng mua khứ hồi nếu thử. Giá nối ở Trung Quốc thường chỉ rẻ khi giữ cùng một hãng.
 - **Tìm người dẫn hoặc người dịch tại chỗ:** qua lại các nhóm du học sinh Việt và người Việt sống ở Trung Quốc - thành viên thường dẫn tour hoặc đứng ra dịch. Các trang tour Trung Quốc viết cho khách nói tiếng Anh là một đường khác.
 - Với người lớn tuổi, hoặc một chuyến đi nhẹ hơn, Phượng Hoàng Cổ Trấn rẻ hơn và dễ đi hơn.

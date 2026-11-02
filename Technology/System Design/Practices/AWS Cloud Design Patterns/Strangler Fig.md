@@ -15,7 +15,7 @@ tags:
 
 # Strangler Fig
 
-The Strangler Fig pattern helps migrate a monolithic application to a microservices architecture gradually, reducing risk and business disruption compared with replacing the whole system at once (a Big Bang migration).
+The Strangler Fig pattern helps migrate a monolithic application to a microservices architecture gradually, reducing risk and business disruption compared with replacing the whole system at once (a Big Bang migration). Features leave the monolith one at a time, and each one becomes a small service. A proxy layer sits in front of the system and decides where each request goes. Requests for an extracted feature reach the new service, and everything else still reaches the old monolith. The name comes from the strangler fig tree, which grows around a host tree and eventually replaces it. Because each step is small, a failed migration can be rolled back.
 
 ## Core Idea
 

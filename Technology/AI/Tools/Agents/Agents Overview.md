@@ -15,6 +15,8 @@ resource: https://github.com/Doriandarko/make-it-heavy
 
 # Agents Overview
 
+This page covers several ways to build multi-agent systems. It starts with Make It Heavy, a small project that emulates Grok Heavy by running parallel research agents. For that project you get its features, component table, built-in tools, setup steps, and an honest list of pros and cons. A short entry then points to Awesome LLM Apps as a source of example applications. CrewAI gets the longest treatment, explaining roles, crews, processes, and the CrewManager, then weighing its strengths against the lack of agent conversation and long-term memory. Suitability notes follow. The page ends with a list of general agent frameworks such as Suna, VoltAgent, OpenAI Agents Python, Google ADK, OWL, and PraisonAI. Read the CrewAI section when choosing between frameworks.
+
 ## Make It Heavy
 
 https://github.com/Doriandarko/make-it-heavy

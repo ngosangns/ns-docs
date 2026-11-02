@@ -16,6 +16,8 @@ resource: https://serhatgiydiren.com/system-design-interview-top-k-problem-heavy
 
 # Top K Problem Heavy Hitters
 
+Finding the Top K most viewed products across 10 million products and 10 billion daily views sets the scale for this comparison of approaches. Each candidate gets an idea sketch, pros and cons, and a rating out of five. Redis sorted sets, Count-Min Sketch, data pipelines, batch jobs, and SQL all appear, with notes on which timeframe each suits. The recommendation is a hybrid architecture that pairs a fast approximate path with a slow exact path.
+
 ## The Problem
 
 ### Requirements

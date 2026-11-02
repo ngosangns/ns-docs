@@ -13,6 +13,8 @@ resource: https://github.com/gleam-lang/gleam
 
 # Backend Overview
 
+This note is a working index of backend resources rather than a single tutorial. The first section lists links to a language, reading material, a roadmap, and a message queue benchmark. Later sections mix short concept notes with tool picks. You get the Wilson confidence interval, the difference between latency and throughput, and the roofline chart for spotting bottlenecks. Web servers, frameworks, and libraries each get a line with a link. Common bugs covers data races, race conditions, and deadlocks. Authorization models, ID schemes, authentication, search, payment gateways, no-code platforms, and API gateways close the list. Skim the headings, then open only what fits the problem in front of you.
+
 ## Resources
 
 - **Gleam**: Friendly language for building type-safe, scalable systems - [GitHub](https://github.com/gleam-lang/gleam)

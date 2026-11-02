@@ -15,6 +15,8 @@ resource: https://medium.com/spacelift/26-top-kubernetes-tools-for-2024-6809b2f0
 
 # Kubernetes
 
+This note collects Kubernetes material for two different jobs. The first is a reading list. It points to a roundup of top Kubernetes tools, an ingress definition, a walkthrough for building a simple microservices system, and articles on securing applications on Kubernetes. Tilt follows as the one tool entry, covering development environments for microservices that run on Kubernetes. The second job is shipping large AI models. That section explains why giant images and runtime downloads hurt, describes the two traditional approaches, and then presents Model PVC Provisioning, where a registry and a PVC replace the image layer. Advantages and disadvantages close the analysis, so you can judge whether the pattern fits your cluster.
+
 ## Resources
 
 - 26 Top Kubernetes Tools for 2024: https://medium.com/spacelift/26-top-kubernetes-tools-for-2024-6809b2f0d5d4

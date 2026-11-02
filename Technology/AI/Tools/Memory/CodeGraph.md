@@ -17,7 +17,7 @@ resource: https://github.com/colbymchenry/codegraph
 
 ## Definition
 
-**CodeGraph** is a code knowledge graph focused on **speed and "surgical context"**. A Rust kernel parses every symbol, call edge, and dependency in the codebase into a graph, so an agent needs only a single `codegraph_explore` command to get exactly the code it needs instead of crawling file by file with grep/glob/Read.
+**CodeGraph** is a code knowledge graph focused on **speed and "surgical context"**. A Rust kernel parses every symbol, call edge, and dependency in the codebase into a graph, so an agent needs only a single `codegraph_explore` command to get exactly the code it needs instead of crawling file by file with grep/glob/Read. It covers 20 languages and installs from one script with no Node.js required. A file watcher keeps the graph fresh while the agent or the user edits files, so there is no manual reindex step. In the project's own benchmark it cut tool calls by 88%, ran 53% faster, and used 62% fewer tokens. It is MIT licensed. Telemetry is on by default and can be turned off.
 
 ## Key Metrics
 

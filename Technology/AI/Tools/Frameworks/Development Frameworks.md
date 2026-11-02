@@ -16,6 +16,8 @@ resource: https://docs.jax.dev
 
 # Development Frameworks
 
+This page covers two things. The first half is a guide to JAX, Google's open-source Python library for numerical computing. It explains how JAX combines autograd with XLA, then walks through automatic differentiation with `jax.grad`, just-in-time compilation with `jax.jit`, and auto-vectorization with `jax.vmap`. A scaling section describes the auto, explicit, and manual parallelization modes, including FSDP for parameters. Platform support is shown as a table, followed by install commands for CPU, NVIDIA GPU, and TPU. The second half is a curated list of LLM application frameworks and supporting libraries, including LangGraph, LiteLLM, LangSmith, and Laravel's AI SDK. Two shorter lists cover data extractors and KV cache or memory tooling. A see-also footer points to related agent notes.
+
 ## JAX
 
 ### Overview

@@ -14,6 +14,8 @@ tags:
 
 # Optimization Techniques
 
+This page analyzes five Dockerfile optimization techniques for React SPAs. They range from simple builds to ones that are extremely optimized for size and performance. The first is BusyBox httpd with lipanski/docker-static-website. The second is distroless with a custom static Nginx build, marked UPX compressed. The third is scratch with custom Nginx plus shared libraries. The fourth is a Go FastHTTP server with embedded files. The fifth is Alpine with custom-built Nginx. Each title is its own linked note in the contents list. Alpine Nginx, Distroless Nginx, and Go FastHTTP are linked again at the end.
+
 ## Overview
 
 A detailed analysis of five Dockerfile optimization techniques for React SPAs, ranging from simple to extremely optimized in terms of size and performance.

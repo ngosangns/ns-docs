@@ -14,6 +14,8 @@ tags:
 
 Động từ bất quy tắc nhóm theo mẫu chia: **AAA** (cả ba dạng giống nhau), **ABA** (V3 quay lại giống V1), **ABB** (V2 và V3 giống nhau), **ABC** (cả ba dạng khác nhau). Các dạng nối bằng `/` đều được chấp nhận.
 
+Nhóm một giữ nguyên ba dạng, như cut, put, set và hit. Nhóm hai đưa V3 về V1, như run, ran, run và become, became, become. Nhóm ba cho V2 trùng V3, như buy, bought, bought và bring, brought, brought. Nhóm bốn đổi cả ba, như go, went, gone và see, saw, seen.
+
 ## Nhóm 1 — Cả ba dạng giống nhau (V1 = V2 = V3)
 
 | V1 (Base)   | V2 (Past)   | V3 (Past Participle)              | Nghĩa tiếng Việt                          | Ví dụ                                                              |
@@ -333,5 +335,7 @@ tags:
 | weave               | wove                  | woven                  | dệt, đan                                                                | They wove baskets from bamboo.                                              |
 | withdraw            | withdrew              | withdrawn              | rút khỏi, rút lui                                                       | She withdrew all her savings from the bank.                                 |
 | write               | wrote                 | written                | viết                                                                    | He wrote a letter to his old friend.                                        |
+
+eat, ate, eaten và write, wrote, written đứng ở nhóm bốn. be có quá khứ was hoặc were, và phân từ been. read đứng ở nhóm một, nhưng quá khứ phát âm là /red/. cost, shut và spread cũng giữ nguyên cả ba dạng. come, came, come cũng thuộc nhóm hai.
 
 > **Xem thêm:** [Passive Voice](/English/Grammar/Concepts/Passive Voice) · [Reported Speech](/English/Grammar/Concepts/Reported Speech) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)

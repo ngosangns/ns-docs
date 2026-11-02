@@ -14,6 +14,8 @@ tags:
 
 # Vue And Nuxt
 
+Vue and Nuxt projects share a core set of decisions around validation, state and which UI kit to adopt. The sections record the Vue tricks that come up in practice, such as checking validations with Array.every and Array.some, and then map the library behind each decision. Pinia, Vue Router, Vee-validate, Vitest and Vuetify each appear with the alternatives that fit a different project size.
+
 ## Vue And Nuxt Tips
 
 ### Validating

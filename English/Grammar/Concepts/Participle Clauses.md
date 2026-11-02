@@ -12,7 +12,7 @@ tags:
 
 # Participle Clauses — Mệnh đề phân từ
 
-Mệnh đề phân từ dùng phân từ (V-ing hoặc V3/ed) để nén thông tin trong câu — cách viết ngắn gọn thay cho mệnh đề đầy đủ.
+Mệnh đề phân từ dùng phân từ (V-ing hoặc V3/ed) để nén thông tin trong câu — cách viết ngắn gọn thay cho mệnh đề đầy đủ. Dạng V-ing mang nghĩa chủ động và thay cho mệnh đề chủ động khi chủ ngữ tự làm hành động. Dạng V3 hoặc ed mang nghĩa bị động và thay cho mệnh đề bị động. Cấu trúc having cộng V3 cho thấy hành động ở phân từ xảy ra trước hành động chính. Các liên từ như when, while, after, before, if, although, once, unless có thể đứng ngay trước phân từ. Chủ ngữ ngầm hiểu của phân từ phải trùng với chủ ngữ mệnh đề chính.
 
 ## Phân từ hiện tại (V-ing) — Nghĩa chủ động
 

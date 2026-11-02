@@ -16,7 +16,7 @@ resource: https://elevenlabs.io/
 
 # ElevenLabs
 
-[ElevenLabs](https://elevenlabs.io/) is a closed-source, cloud-only AI audio platform. One account and one shared credit pool cover text to speech, voice cloning, voice design, voice changer, dubbing, speech to text (Scribe), sound effects, music, and the voice agent platform (ElevenAgents). Everything is also reachable through the [API](https://elevenlabs.io/docs). Checked 2026-10-17 against the [pricing page](https://elevenlabs.io/pricing), [models page](https://elevenlabs.io/docs/overview/models), and [voice cloning docs](https://elevenlabs.io/docs/creative-platform/voices/voice-cloning).
+[ElevenLabs](https://elevenlabs.io/) is a closed-source, cloud-only AI audio platform. One account and one shared credit pool cover text to speech, voice cloning, voice design, voice changer, dubbing, speech to text (Scribe), sound effects, music, and the voice agent platform (ElevenAgents). Everything is also reachable through the [API](https://elevenlabs.io/docs). The newer TTS models all handle Vietnamese, while the stable long-form model does not. Commercial use starts on the Starter plan. Professional Voice Cloning exists but only for your own voice, and a clone cannot be exported as a file. Checked 2026-10-17 against the [pricing page](https://elevenlabs.io/pricing), [models page](https://elevenlabs.io/docs/overview/models), and [voice cloning docs](https://elevenlabs.io/docs/creative-platform/voices/voice-cloning).
 
 ## Models (TTS and STT)
 

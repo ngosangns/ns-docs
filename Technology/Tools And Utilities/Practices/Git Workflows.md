@@ -15,6 +15,8 @@ tags:
 
 In Git, two popular models for managing a project's workflow are **Trunk-based development (Trunk Flow)** and the **Forking Workflow (Forking Flow)**. Below is a **detailed introduction and comparison** of the two.
 
+Trunk Flow keeps everyone on one main branch, usually main or master. Feature branches stay short, ideally under a few days, and merge back early by squash or rebase. Forking Flow gives each developer a private copy. Finished work returns as a pull request, and only a maintainer merges it. Trunk Flow favors speed and CI. Forking Flow favors access control, especially for open source.
+
 ## Trunk Flow (Trunk-based Development)
 
 Trunk Flow is a development model in which all developers work **directly on a single main branch** (usually `main` or `master`). Side branches (feature branches) are typically created temporarily and merged back as early as possible.
@@ -79,5 +81,7 @@ Each developer works on **their own copy (fork)** of the main repo. When finishe
 | ---------------- | ------------------------------------------------------------------------------------------------------- |
 | **Trunk Flow**   | You work in an internal team and want fast CI/CD rollout and a clear Git history.                       |
 | **Forking Flow** | You develop an open-source project, collaborate with strangers, and need to control access permissions. |
+
+Trunk Flow aims at development speed and fast CI, and it fits internal teams of small to medium size. The cost is tighter synchronization, because many people on one branch raise the chance of conflicts, and direct pushes put more risk on the main repo. Forking Flow aims at security and control of a community. Contributors work on a fork, so they do not push to the main repo directly. CI is harder until someone configures it, the fork must be synced, and a pull request can go stale. Use Forking Flow when the project is open source and strangers need reviewed access.
 
 > **See also:** [Git And GitHub](/Technology/Tools And Utilities/Tools/Git And GitHub) · [Developer Tools And Environments](/Technology/Tools And Utilities/Tools/Developer Tools And Environments)

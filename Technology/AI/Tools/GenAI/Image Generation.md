@@ -15,6 +15,8 @@ resource: https://stockimg.ai
 
 # Image Generation
 
+This note gathers AI image generation and editing tools, models, and prompt material in one place. The main list covers text-to-image services and a few larger entries that go deeper, such as getimg.ai, FLUX.1 Kontext, and Meshy.ai for 3D output. Shorter lines point to design sketching, virtual try-on, relighting, and image editing tools. A second section collects Stable Diffusion resources, including checkpoints, LoRA repositories, web UIs, prompt guides, and Vietnamese documentation. Prompt templates and a long negative prompt for hands sit under a third section, alongside a ComfyUI tool for visual novel sprites. The last section lists models and embeddings for an NSFW setup. Treat it as a reference shelf rather than a tutorial.
+
 ## Image Generation Tools
 
 - Text to image:

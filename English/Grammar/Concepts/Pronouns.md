@@ -12,7 +12,7 @@ tags:
 
 # Pronouns — Đại từ
 
-Đại từ thay thế danh từ hoặc cụm danh từ để tránh lặp lại.
+Đại từ thay thế danh từ hoặc cụm danh từ để tránh lặp lại. Nhóm lớn nhất là đại từ nhân xưng, chia thành năm cột: chủ ngữ, tân ngữ, tính từ sở hữu, đại từ sở hữu và phản thân. Đại từ chủ ngữ thực hiện hành động, đại từ tân ngữ nhận hành động hoặc đứng sau giới từ. Tính từ sở hữu đứng trước danh từ, còn đại từ sở hữu đứng một mình. Ngoài ra còn có đại từ phản thân, chỉ định, bất định, nghi vấn và hỗ tương. Đại từ bất định ghép some, any, no, every với -one, -body, -thing, -where và luôn đi với động từ số ít.
 
 ## Đại từ nhân xưng
 

@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/throttli
 
 ## Summary
 
-The Throttling pattern controls the resource consumption of an application instance, an individual tenant, or an entire service. This lets the system keep operating and meet its service-level agreements (SLAs) even when a sudden spike in demand puts extreme pressure on resources.
+The Throttling pattern controls the resource consumption of an application instance, an individual tenant, or an entire service. This lets the system keep operating and meet its service-level agreements (SLAs) even when a sudden spike in demand puts extreme pressure on resources. The note lists the strategies available, from rejecting requests to deferring low-priority work, and explains how to pair throttling with autoscaling and which error codes to return.
 
 ## Throttling Strategies
 
@@ -26,6 +26,8 @@ The Throttling pattern controls the resource consumption of an application insta
 - **Load leveling**: Use a queue to regulate the flow of work (Queue-based Load Leveling).
 - **Defer operations**: Suspend low-priority tasks and tell users to try again later.
 - **Third-party integration**: Reduce the number of concurrent requests to third-party services that are having problems, to avoid flooding logs and wasting money on useless retries.
+
+Rejection stops a user who passes the request cap inside the time window. Degradation lowers non-essential quality, such as video resolution. A queue levels arrivals. Low priority tasks wait, and the user is told to try later. Calls to a struggling third party are cut so useless retries do not waste money.
 
 ## Key Points and Considerations
 

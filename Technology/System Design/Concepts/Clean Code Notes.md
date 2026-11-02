@@ -12,7 +12,7 @@ tags:
 
 # Clean Code Notes
 
-Code is clean if it can be understood easily – by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability.
+Code is clean if it can be understood easily, by everyone on the team. Clean code can be read and enhanced by a developer other than its original author. With understandability comes readability, changeability, extensibility and maintainability. What follows is a checklist of rules for general design, names, functions, comments, source layout, objects, tests, and the code smells that signal a design going wrong.
 
 ---
 

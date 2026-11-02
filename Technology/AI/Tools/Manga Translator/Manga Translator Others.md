@@ -14,6 +14,8 @@ resource: https://github.com/zyddnys/manga-image-translator
 
 # Manga Translator Others
 
+This page is the catch-all list for manga translation projects that do not have their own note yet. It starts by pointing to the tools that do have notes, such as Manga Image Translator, Koharu, Comic Translate, Cotrans, and Tachiyomi AT, and to the overall comparison. Everything after that is grouped by shape. Desktop and web apps come first, then Android apps, then libraries and pipelines. A short commercial section follows, with a GitLab mirror and a Reddit thread at the end. Each entry gives the repository link, a one-line description of the stack, the star count, and the license where known. Use it to scan alternatives quickly, then open the comparison page before committing to one pipeline.
+
 ## Projects With Dedicated Notes
 
 - https://github.com/zyddnys/manga-image-translator → [Manga Image Translator](/Technology/AI/Tools/Manga Translator/Manga Image Translator)

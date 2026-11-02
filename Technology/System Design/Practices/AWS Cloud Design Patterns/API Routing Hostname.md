@@ -14,7 +14,7 @@ tags:
 
 # API Routing Hostname
 
-Hostname routing isolates API services by giving each API its own hostname. For example: `service-a.api.example.com` or `service-a.example.com`.
+Hostname routing isolates API services by giving each API its own hostname. For example, an API could live at `service-a.api.example.com` or `service-a.example.com`. Each service owns its subdomain, which keeps release conflicts low and lets teams run their own DNS records and production environment. The note lists the AWS services this fits and the trade-offs, mainly that consumers must track many hostnames and every new service needs a new registered subdomain or domain.
 
 ## Typical Use Cases
 
@@ -32,5 +32,7 @@ Hostname routing isolates API services by giving each API its own hostname. For 
 
 - **Consumer experience**: Consumers must remember many different hostnames to interact with the APIs. (This can be mitigated by providing client SDKs, but SDKs bring their own maintenance, update, and multi-language costs.)
 - **Domain management**: A new subdomain or domain must be registered every time a new service is created.
+
+Hostname routing keeps each API on a name that no other service shares. A team might publish at service-a.api.example.com, or shorten that to service-a.example.com. Because the subdomain belongs to that service, another team does not release through the same host, so release conflicts stay low. The owning team can manage its DNS records and run the service in production on its own. That is why the pattern is called the simplest way to route HTTP APIs, and why it is treated as easy to scale. It works with Amazon API Gateway, AWS AppSync, Application Load Balancers, and Amazon EC2. Teams fully manage their own subdomains. Region-specific and version-specific names stay easy to isolate and test, as with dev.region.service-a.api.example.com. Consumers still have to remember a different hostname for each API. A client SDK can mitigate that, but the SDK brings maintenance, updates, and multi-language cost. Every new service also needs a newly registered subdomain or domain.
 
 > **See also:** [API Routing Path](/Technology/System Design/Practices/AWS Cloud Design Patterns/API Routing Path) · [API Routing HTTP](/Technology/System Design/Practices/AWS Cloud Design Patterns/API Routing HTTP)

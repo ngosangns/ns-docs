@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sequenti
 
 ## Summary
 
-The Sequential Convoy pattern processes a set of related messages in a defined order without blocking the processing of other message groups. It addresses the challenge in distributed systems of needing ordering guarantees (FIFO) while still wanting to scale out to handle heavy load.
+The Sequential Convoy pattern processes a set of related messages in a defined order without blocking the processing of other message groups. It addresses the challenge in distributed systems of needing ordering guarantees (FIFO) while still wanting to scale out to handle heavy load. Messages are classified into categories, and locking in the queuing system keeps each listener to one message at a time within a category. In Azure Service Bus this uses Message Sessions, and strict FIFO requirements limit throughput.
 
 ## Key Points
 
@@ -33,6 +33,8 @@ The Sequential Convoy pattern processes a set of related messages in a defined o
   - **Throughput**: Strict FIFO requirements limit scalability. Not suitable for extremely high-load scenarios (millions of messages per second).
   - **Network latency**: Messages may arrive out of order because of the network. Consider using sequence numbers to check.
   - **Bottleneck**: The initial queue processor (ledger processor) can become a bottleneck if it is not designed well.
+
+A convoy is one category, often an order id, and a listener holds only one message from that category at a time. Azure Service Bus does this with message sessions, so other orders keep moving on other workers. Inside one order the chain stays FIFO, such as create, then payment, then delivery. Strict FIFO caps throughput and is a poor fit for millions of messages per second. The first ledger processor can bottleneck the rest. Network delay can reorder arrivals, so sequence numbers are the check.
 
 ## When to Use
 

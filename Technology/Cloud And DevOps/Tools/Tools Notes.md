@@ -17,6 +17,8 @@ resource: https://github.com/juanfont/headscale
 
 # Tools Notes
 
+This note is a short link list of tools, kept as a place to drop a link with a one-line reason to care. The file transfer and networking section holds a self-hosted Tailscale control server, a peer-to-peer transfer tool, a messaging system, and two ways to expose a local service through Cloudflare Tunnels. One of those is the quick tunnel, which needs no account or DNS record. A separate section keeps a Google Cloud Platform reading on the Google File System. The last section lists Cachet, an open source status page. Read the one-line descriptions to pick a tool, then follow the link and check the project yourself. Each entry stands alone, and the list is meant to grow as new tools turn up.
+
 ## File Transfer And Networking
 
 - https://github.com/juanfont/headscale — Open source, self-hosted implementation of the Tailscale control server; run your own mesh VPN coordination server instead of relying on Tailscale's hosted service.

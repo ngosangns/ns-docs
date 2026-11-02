@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/event-so
 
 # Event Sourcing Pattern
 
-Instead of storing only the current state of data in a relational database, the Event Sourcing pattern stores the full series of actions (events) performed on an object in an append-only store. This store acts as the system of record and can be used to reconstruct the state of domain objects.
+Instead of storing only the current state of data in a relational database, the Event Sourcing pattern stores the full series of actions (events) performed on an object in an append-only store. This store acts as the system of record and can be used to reconstruct the state of domain objects. The traditional CRUD model reads data, modifies it, and writes the latest state back, usually with locks. That creates contention, adds latency at scale, and loses change history. Event Sourcing appends every change as an event such as ItemAddedToOrder or OrderCanceled. The store never updates or deletes. Because replaying the whole stream is expensive, read-only materialized views serve queries, and snapshots shorten replay time for long streams.
 
 ## Context and Problem
 

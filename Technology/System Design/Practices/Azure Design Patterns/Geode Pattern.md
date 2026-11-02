@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/geodes
 
 # Geode Pattern
 
-**Geode (Geographical Nodes)** is a pattern for deploying a set of backend services into geographical nodes, where each node can serve any request from any client in any region.
+**Geode (Geographical Nodes)** is a pattern for deploying a set of backend services into geographical nodes, where each node can serve any request from any client in any region. Each node holds every resource it needs to answer a request and has no dependencies outside its own footprint. The guidance covers the global load balancer and the geo-replicated store that tie the nodes together, then sets out when identical regional copies are not allowed.
 
 ## Summary
 

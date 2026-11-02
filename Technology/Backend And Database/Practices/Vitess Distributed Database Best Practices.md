@@ -17,7 +17,7 @@ tags:
 
 ## Overview
 
-This document compiles opinions and best practices about Vitess, a database sharding solution for MySQL, with a particular focus on cross-shard transactions, CDC (Change Data Capture), and distributed system design.
+This document compiles opinions and best practices about Vitess, a database sharding solution for MySQL, with a particular focus on cross-shard transactions, CDC (Change Data Capture), and distributed system design. The starting point is a hard limit. Vitess does not guarantee cross-shard write transactions by default, and a failed shard can leave a transaction half applied. Two-phase commit restores ACID across shards at a large cost in performance and CPU. The practical answer is to design the work so that a shard boundary is rarely crossed. In this discussion, about 80% of APIs serve exactly one user. For the rest, breaking a task into retryable per-shard transactions on a durable queue usually wins. Data planning comes before any of that.
 
 ## Cross-Shard Transactions
 

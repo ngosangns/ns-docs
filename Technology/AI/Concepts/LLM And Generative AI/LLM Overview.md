@@ -14,6 +14,8 @@ tags:
 
 Large Language Models (LLMs) are large language models trained on huge amounts of data to understand and generate human-like text.
 
+Three ways to adapt that behavior are named here. Prompt engineering is a set of techniques for optimizing how you ask questions and give instructions to an LLM. RAG, or retrieval-augmented generation, combines information retrieval with response generation. Fine-tuning means adapting a model for specific tasks. Longer notes for those three are the Prompt Guide, the RAG Overview, and Fine Tuning Techniques. Decision 2.0 and Clef are listed with them as related reading.
+
 ## Main Components
 
 - **Prompt engineering**: Techniques for optimizing how you ask questions and give instructions to an LLM

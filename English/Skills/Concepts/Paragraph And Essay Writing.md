@@ -13,7 +13,7 @@ tags:
 
 # Paragraph And Essay Writing — Viết đoạn văn và bài luận
 
-Văn viết học thuật cốt lõi là công thức: cấu trúc rõ ràng, mỗi đoạn một ý, và liên kết tường minh giữa các ý.
+Văn viết học thuật cốt lõi là công thức. Cấu trúc phải rõ ràng. Mỗi đoạn chỉ một ý. Các ý phải được nối với nhau bằng liên kết tường minh. Note này đi từ đơn vị nhỏ nhất là đoạn văn. Đoạn văn theo PEEL gồm câu chủ đề, giải thích, ví dụ và câu nối. Một đoạn thường dài 4 đến 6 câu. Mọi câu sau câu đầu đều phải phát triển ý của câu đầu. Sau đó note mở rộng ra khung bài essay với mở bài, hai đến ba đoạn thân và kết bài. Phần cuối là bảng các loại essay phổ biến, cách gắn câu, cách đa dạng cấu trúc câu và quy trình viết.
 
 ## Cấu trúc đoạn văn — PEEL
 

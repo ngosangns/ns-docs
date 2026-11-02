@@ -16,6 +16,8 @@ resource: https://viblo.asia/p/docker-compose-cho-cac-loai-database-pho-bien-qPo
 
 Tools that help when working with databases.
 
+Docker Compose sets up a development environment with many types of databases. sqlc auto-generates boilerplate SQL and keeps it type-safe. AskDB scans a database and generates queries with an LLM. jason simplifies database management and reduces the complexity of handling data. Dingo is an open-source distributed system that provides services and tools for managing and processing big data. RunSQL offers a web interface for writing and running queries, and for SQL practice on MySQL, PostgreSQL, and SQL Server.
+
 ## Development & Setup
 
 - **Docker Compose**: Set up a development environment with many types of databases - [Reference](https://viblo.asia/p/docker-compose-cho-cac-loai-database-pho-bien-qPoL78N1Vvk)

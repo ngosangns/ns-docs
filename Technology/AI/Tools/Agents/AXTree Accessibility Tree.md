@@ -14,7 +14,7 @@ tags:
 
 # AXTree Accessibility Tree
 
-**AXTree** (accessibility tree) is the semantic tree a browser builds from the DOM, CSS, and ARIA so assistive technology can query each control's role, name, and state. An agent that drives the page should read a pruned snapshot of that tree and act by reference. The raw Blink tree is the wrong payload for a prompt.
+**AXTree** (accessibility tree) is the semantic tree a browser builds from the DOM, CSS, and ARIA so assistive technology can query each control's role, name, and state. An agent that drives the page should read a pruned snapshot of that tree and act by reference. The raw Blink tree is the wrong payload for a prompt. Chromium builds one tree in the renderer and exposes it through `Accessibility.getFullAXTree`, then maps a second tree onto the platform APIs that screen readers use. Puppeteer, Playwright, and browser agents serialize a third view for a program or a model. Ignored wrappers and repeated text nodes survive in the raw tree, and a layout `<div>` stays there as a generic node.
 
 ## Three trees
 

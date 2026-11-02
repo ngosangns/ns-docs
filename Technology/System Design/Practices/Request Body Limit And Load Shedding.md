@@ -16,6 +16,8 @@ resource: https://devops.vn/posts/benchmark-gioi-han-request-body-pha-p99-he-tho
 
 # Request Body Limit And Load Shedding
 
+A large request body from a small share of clients can push p99 latency up for everyone. This note covers three defenses: a gateway limit on body size, load shedding when the system is already over capacity, and small caches plus request collapsing to flatten hotspots. The benchmark section reproduces the original measurements, and the later sections explain the detection signals behind each defense.
+
 ## Table of Contents
 
 1. [Real-World Benchmark: Just 5% Large Requests Can Wreck the Whole System's p99](#real-world-benchmark-just-5-large-requests-can-wreck-the-whole-systems-p99)

@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/async-re
 
 # Asynchronous Request Reply Pattern
 
-This pattern decouples backend processing from the frontend host. It is used when the backend must handle time-consuming (asynchronous) work, but the frontend still needs a clear and timely response about the status of the request.
+This pattern decouples backend processing from the frontend host. It is used when the backend must handle time-consuming (asynchronous) work, but the frontend still needs a clear and timely response about the status of the request. The client submits the request and gets HTTP 202 (Accepted) right away, with a Location header pointing at a status endpoint it can poll. The work itself moves to a queue or a background processor. While the job runs the endpoint reports that it is in progress. When it finishes the client is redirected to the result or given a success code. The pattern adds polling logic to the client and is a poor fit for real-time streaming. A typical Azure Functions outline uses three functions.
 
 ## Context and Problem
 

@@ -13,6 +13,8 @@ tags:
 
 # Hardware Platforms
 
+Common IoT boards are grouped into microcontrollers and single-board computers. ESP32 and ESP8266 have built-in WiFi and Bluetooth, are called cheap and easy to develop for, and suit smart home and DIY projects. Arduino has many shields and libraries for prototyping and education, and it needs an extra WiFi or Bluetooth module for connectivity. Raspberry Pi runs a full Linux OS for gateways, edge computing, and home automation hubs that can run Home Assistant. It is also listed as the most popular IoT gateway. STM32 is ARM Cortex-M, called high performance, for industrial and embedded applications. BeagleBone suits industrial applications, and Jetson Nano suits AI and ML at the edge.
+
 ## Microcontrollers
 
 ### ESP32/ESP8266

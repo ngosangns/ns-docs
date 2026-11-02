@@ -17,7 +17,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/retry
 
 ## Summary
 
-The Retry pattern lets an application handle transient failures when connecting to a service or network resource by transparently retrying the failed operation. This improves the stability and resilience of the system.
+The Retry pattern lets an application handle transient failures when connecting to a service or network resource by transparently retrying the failed operation. Self-healing failures such as momentary network loss or a briefly unavailable service are the usual candidates. A failed call can be cancelled when the fault is permanent, retried immediately for rare network noise, or retried after a delay with exponential backoff. Idempotency decides whether repeating the call is safe, and an error should be reported only after the final attempt fails.
 
 ## Key Points
 
@@ -34,6 +34,8 @@ The Retry pattern lets an application handle transient failures when connecting 
   - Failures caused by faulty business logic or internal errors that cannot self-recover.
   - When the service is failing for a prolonged period (use a Circuit Breaker in this case).
   - To mask scalability problems.
+
+Momentary network loss, a busy timeout, or a short outage can be retried. Rare packet noise can be retried immediately. An overloaded service should wait, and exponential backoff stretches that wait so retries do not add load. Repeating a charge is the idempotency case to avoid. Each failed try is only an informational log until the last try still fails. A long outage belongs with a circuit breaker. Do not use retries to hide faulty business logic or a scalability problem.
 
 ## Relationships
 

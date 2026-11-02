@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-
 
 # Circuit Breaker Pattern
 
-The Circuit Breaker pattern handles faults that might take an unknown amount of time to fix when connecting to remote services or resources. It stops the application from making futile attempts, giving the system time to recover and avoiding cascading failures.
+The Circuit Breaker pattern handles faults that might take an unknown amount of time to fix when connecting to remote services or resources. It stops the application from making futile attempts, giving the system time to recover and avoiding cascading failures. A proxy sits between the application and the remote service and counts recent failures. It moves through three states. In Closed it forwards requests and tallies failures. Once a threshold is passed within a time window it switches to Open and fails fast without calling the service. A timer then moves it to Half-Open, where a few requests test whether the service recovered. The Retry pattern expects success on a later attempt and works well inside this breaker. Log state changes so operators can see trouble coming.
 
 ## Context and Problem
 

@@ -15,7 +15,7 @@ tags:
 
 # Event Sourcing
 
-Instead of storing only the current state of the data, Event Sourcing stores all the events that led to that state change in an immutable data store (the event store). The current state can be reconstructed by "replaying" these events in chronological order.
+Instead of storing only the current state of the data, Event Sourcing stores all the events that led to that state change in an immutable data store (the event store). The current state can be reconstructed by "replaying" these events in chronological order. The note explains when an immutable history pays off, for auditing, point-in-time recovery, and multiple projections, then covers the challenges around eventual consistency, querying, and growth.
 
 ## Core Idea
 

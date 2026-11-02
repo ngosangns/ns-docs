@@ -12,7 +12,7 @@ tags:
 
 # Ladakh tháng 10/2026
 
-Chuyến Leh ngắn, ngày 9-12 tháng 10. Phần kiến thức thực địa chung phía sau kế hoạch này - trễ chuyến bay Leh, xe buýt trung chuyển giữa nhà ga, taxi, SIM, quy định sân bay, và tiền - được viết trong [Ladakh](/Travel/Destinations/International/Ladakh) và [Ladakh tự chạy xe máy](/Travel/Destinations/International/Ladakh Self-Guided Motorbike). Tệp này là danh sách kiểm theo ngày.
+Chuyến Leh này ngắn, từ ngày 9 đến 12 tháng 10. Phần kiến thức thực địa chung nằm trong [Ladakh](/Travel/Destinations/International/Ladakh) và [Ladakh tự chạy xe máy](/Travel/Destinations/International/Ladakh Self-Guided Motorbike), gồm trễ chuyến bay Leh, xe buýt trung chuyển giữa nhà ga, taxi, SIM, quy định sân bay và tiền. Bài này là danh sách kiểm theo ngày, kèm các mục về đêm quá cảnh ở Delhi, đổi tiền, chuyến bay sáng tới Leh, và ngày về với phương án dự phòng.
 
 ## Trước chuyến bay tối nay
 

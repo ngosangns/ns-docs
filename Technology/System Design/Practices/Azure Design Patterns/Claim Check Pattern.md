@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/claim-ch
 
 # Claim Check Pattern
 
-The Claim-Check pattern lets systems transfer large data packages without overloading the messaging system. Instead of sending the entire content in a message, the content is stored in an external data store and only a "claim check" (a unique token or key) is sent through the messaging system.
+The Claim-Check pattern lets systems transfer large data packages without overloading the messaging system. Instead of sending the entire content in a message, the content is stored in an external data store and only a "claim check" (a unique token or key) is sent through the messaging system. Messaging systems are built for many small messages and cap their size, so a large payload either exceeds the limit or slows everything down. The sender writes the payload to a store, creates a token, then sends a small message carrying it. The receiver reads the token, downloads the content, and cleans up. Deletion can be synchronous by the receiver or handled by a periodic sweeper. The store must be tightly protected.
 
 ## Context and Problem
 

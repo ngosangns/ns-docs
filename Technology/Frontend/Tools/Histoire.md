@@ -19,6 +19,8 @@ resource: https://histoire.dev/
 
 [Histoire](https://histoire.dev/) ([histoire-dev/histoire](https://github.com/histoire-dev/histoire)) builds "story" apps (books): pages that show components in specific use cases, for design systems and component libraries. The name is French for "story" (`/is.twaʁ/`). It is built on Vite and reuses the project's Vite config. Checked 2026-10-19.
 
+Stories are written in Vue, Svelte, or JSX, and each one can hold variants with state and controls. Vite gives instant hot reload and code-split books. The npm line is 1.0.0-beta.1 from January 2026, with Vue and Svelte plugins. React support is on main, but that plugin is not on npm yet.
+
 |                   |                                                                                                                                  |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Maintainer        | Guillaume Chau ([Akryum](https://github.com/Akryum), 1,128 commits), then hugoattal (46), danielroe (11)                         |

@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/schedule
 
 ## Summary
 
-This pattern coordinates a set of distributed actions as a single operation. If any action fails, the system tries to handle the failure transparently or undo the work already done, so that the whole operation succeeds or fails together. This strengthens the resilience and self-healing of distributed systems.
+The Scheduler Agent Supervisor pattern coordinates a set of distributed actions as a single operation. If any action fails, the system tries to handle the failure transparently or undo the work already done, so that the whole operation succeeds or fails together. The scheduler plans the steps and records their state, agents wrap calls to remote services with error handling and retry logic, and a supervisor looks for steps that timed out or failed. This strengthens the resilience and self-healing of distributed systems.
 
 ## Main Actors
 

@@ -19,6 +19,8 @@ resource: https://github.com/Yeachan-Heo/oh-my-claudecode
 
 **Oh-My-ClaudeCode** (OMC) is a multi-agent orchestration system for Claude Code with a zero learning curve. It stands out for Team mode (a canonical staged pipeline), multi-provider orchestration (Claude + Codex + Gemini), a deep interview system, and persistent execution modes. NPM package: `oh-my-claude-sisyphus`.
 
+Team mode runs a shared task from plan to PRD, then exec, verify, and fix. One mode runs a tmux team of Claude, Codex, and Gemini workers. Others cover tri-model synthesis, a single lead autopilot, a parallel burst, a persistent verify and fix loop, and staged processing. The deep interview asks questions until the request is clearer.
+
 ## Basic Information
 
 | Item                  | Value                 |
@@ -247,6 +249,8 @@ omc wait --start  # Auto-resume daemon
 - **Requirements clarification**: Want a Socratic deep interview before coding
 - **Persistent execution**: Want tasks to complete fully (Ralph mode)
 - **Large teams**: Need shared skills and coordination
+
+The page lists 19 specialized agents in tiers such as architecture, research, design, testing, data science, and executor. Simple tasks go to Haiku and complex reasoning goes to Opus. Project skills live in .omc/skills. User skills live in ~/.omc/skills and apply to every project. A HUD status line shows live orchestration metrics. Telegram, Discord, or Slack can report when a session stops. Cross-provider work needs Claude Code, a Max or Pro plan or an API key, and tmux. Three Pro plans, Claude plus Gemini plus ChatGPT, come to about 60 dollars a month. The npm package is named oh-my-claude-sisyphus, which does not match the repo name.
 
 ---
 

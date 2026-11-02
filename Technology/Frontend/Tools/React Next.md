@@ -15,6 +15,8 @@ resource: https://www.retroui.dev/
 
 # React Next
 
+React work inside a Next.js project touches hooks, rendering patterns and component libraries at the same time. This reference gathers the hooks worth knowing, including useActionState, useId and useWindowDimensions, alongside optimization notes for useMemo and useCallback. It continues into design systems built on shadcn/ui, SSR and Next.js rendering patterns, Docker deployment, a libraries section and a developer roadmap arranged by priority.
+
 ## Resources
 
 - React ecosystem overview 2024

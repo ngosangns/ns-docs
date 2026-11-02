@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/sharding
 
 ## Summary
 
-The Sharding pattern divides a data store into a set of horizontal partitions called shards. Each shard has the same schema but holds its own distinct subset of the data. This improves scalability, reduces resource contention, and optimizes performance when storing and accessing large volumes of data.
+The Sharding pattern divides a data store into a set of horizontal partitions called shards. Each shard has the same schema but holds its own distinct subset of the data. This improves scalability, reduces resource contention, and optimizes performance when storing and accessing large volumes of data. Lookup, range, and hash strategies each decide where a record lands, and the shard key must be static and unique.
 
 ## Sharding Strategies
 
@@ -33,6 +33,8 @@ The Sharding pattern divides a data store into a set of horizontal partitions ca
    - Applies a hash function to the shard key to decide where the data is stored.
    - Distributes data and load more evenly, minimizing hotspots.
    - Makes range queries and shard rebalancing more difficult.
+
+Lookup uses a map, and virtual partitions make rebalancing easier. Range keeps related items together, which helps range queries but can create hotspots. Hash spreads load more evenly and makes range queries harder. The shard key must stay static and unique.
 
 ## Key Points and Considerations
 

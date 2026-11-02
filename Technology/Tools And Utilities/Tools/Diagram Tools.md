@@ -14,6 +14,8 @@ resource: https://github.com/excalidraw/excalidraw
 
 # Diagram Tools
 
+This note collects tools for architecture diagrams, database diagrams, and Mermaid rendering. Crow's foot notation is kept as a reference image. The Excalidraw repository and the mingrammer diagrams repository are listed as links. LikeC4 is an architecture-as-code modeling language and tooling that generates live C4-style diagrams from code. Pele is a small synchronous Mermaid-to-SVG renderer with no runtime dependencies and CSS-variable theming, by kepano (Obsidian). Ondine is a Rust compiler that turns Mermaid into SVG ahead of time. It offers a CLI, a Vite plugin for .mmd files, remark, and opt-in WASM. DrawDB sits under the database heading.
+
 ## Crow's Foot Notation
 
 ![](/Attachments/6c5d6e7f-8a9b-0c1d-2e3f-4a5b6c7d8e9f.png)

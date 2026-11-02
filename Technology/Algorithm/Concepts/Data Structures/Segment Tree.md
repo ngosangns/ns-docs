@@ -17,7 +17,7 @@ resource: https://vnoi.info/wiki/algo/data-structures/segment-tree-basic.md
 
 ## Overview
 
-A segment tree is a data structure that performs queries and updates over a range of array elements efficiently, in O(log n) time.
+A segment tree is a data structure that performs queries and updates over a range of array elements efficiently, in O(log n) time. Each node covers a range of the array and stores a summary of it, such as a minimum. The first worked problem is LIS, which pairs coordinate compression with a tree that tracks the best length ending at each element. The second is the range minimum query, answered from the same tree. Lazy propagation keeps a pending update at the nodes that cover a range exactly. That takes a range update from O(n log n) down to O(log n). On the sample array, updating [1, 6] touches only the nodes [1, 4] and [5, 6].
 
 ## Basic Problems Using a Segment Tree
 

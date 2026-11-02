@@ -15,7 +15,7 @@ resource: https://claude.dev/
 
 # claude.dev
 
-[claude.dev](https://claude.dev/) là blog kỹ thuật của Anthropic cho người đang xây sản phẩm với Claude. Mình đối chiếu trực tiếp trong phiên 23/10/2026. Mỗi mục dưới ghi câu nào lấy từ chính site, câu nào chỉ mới thấy ngoài site, và câu nào mình chưa mở.
+[claude.dev](https://claude.dev/) là blog kỹ thuật của Anthropic cho người đang xây sản phẩm với Claude. Mình đối chiếu trực tiếp trong phiên 23/10/2026. Mỗi mục dưới ghi câu nào lấy từ chính site, câu nào chỉ mới thấy ngoài site, và câu nào mình chưa mở. Trang chủ có bộ lọc theo mục ALL, AGENTS, ENGINEERING, PLAYBOOKS, SKILLS và TUTORIALS. Trang cũng có khối Featured videos với năm video nằm sẵn trong HTML. Danh sách máy đọc gồm posts.json với 16 bài, llms.txt và rss.xml. Ngoài blog còn có trang /mods/ viết về mod Claude Code và trang /terminal/ chạy cả site như một shell. Mình chưa đọc thân 16 bài và chưa mở kênh YouTube.
 
 ## Đã đọc trên site
 

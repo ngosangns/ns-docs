@@ -15,6 +15,8 @@ resource: https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing
 
 # ProxySQL Connection Multiplexing
 
+This note explains connection multiplexing in ProxySQL and when it actually applies. A MySQL connection normally carries its own thread, so thousands of app connections turn into thousands of backend threads and hit the max_connections limit. ProxySQL shares a small set of backend connections across many frontend ones, at an N:M ratio instead of 1:1. The note compares that with plain connection pooling, then walks the steps of a query and lists the cases that disable multiplexing, such as open transactions, table locks, GET_LOCK, temporary tables, and user variables. Delay parameters and query rules get their own sections, followed by tuning advice.
+
 **Source:** [roninhub.com](https://roninhub.com/tai-lieu/bai-viet/ap-dung-connection-multiplexing-trong-proxysql-de-toi-uu-ket-noi-database)
 
 ## Overview

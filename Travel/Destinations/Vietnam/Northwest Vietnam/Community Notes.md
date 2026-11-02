@@ -13,7 +13,7 @@ resource: https://voz.vn/t/ha-giang-%C4%91i-mai-khong-chan.647334/
 
 # Ghi chú cộng đồng Tây Bắc
 
-Phần kiến thức thực địa được chắt từ các chủ đề của cộng đồng phượt (chủ yếu là VOZ), bao quát Tây Bắc rộng hơn Hà Giang. Riêng vòng Hà Giang, xem [Hà Giang](/Travel/Destinations/Vietnam/Ha Giang).
+Phần kiến thức thực địa được chắt từ các chủ đề của cộng đồng phượt (chủ yếu là VOZ), bao quát Tây Bắc rộng hơn Hà Giang. Riêng vòng Hà Giang, xem [Hà Giang](/Travel/Destinations/Vietnam/Ha Giang). Ghi chú bắt đầu từ địa lý vùng đất phía tây dãy Hoàng Liên. Sau đó là bốn con đèo lớn gồm Mã Pì Lèng, Khau Phạ, Ô Quy Hồ và Pha Đin. Các vòng gợi ý xếp từ tour khởi đầu đến hành trình trọn Tây Bắc nối sang Hà Giang. Phần chạy xe ghi lại quãng đường khoảng 350 km một ngày và nỗi vất vả với xe tải. Cuối cùng là lịch lúa mùa vàng từng điểm và danh sách tài liệu leo núi.
 
 ## Địa lý và tính cách đường
 

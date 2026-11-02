@@ -15,7 +15,7 @@ resource: https://github.com/egoist/mygo
 
 # MyGo
 
-[egoist/mygo](https://github.com/egoist/mygo) ([mygo.egoist.dev](https://mygo.egoist.dev)) is a Go framework for desktop apps. Each window shows one of two kinds of interface, and one app, or one window, can mix them:
+[egoist/mygo](https://github.com/egoist/mygo) ([mygo.egoist.dev](https://mygo.egoist.dev)) is a Go framework for desktop apps. It builds with `CGO_ENABLED=0`, so no C toolchain is needed and a build can cross-compile to any platform from any machine. The API is meant to feel like Electron, with windows, menus, dialogs and an app lifecycle, but written Go-first. The project is MIT licensed, was created on 2026-09-26, and reached v0.6.2 on 2026-10-21, so it is pre-1.0 and still moving fast. This note covers what each window can render, the typed bridge between Go and the page, and what it costs to adopt the framework now. Each window shows one of two kinds of interface, and one app, or one window, can mix them:
 
 - **A web page** in the webview the OS already has: WKWebView on macOS, WebKitGTK 4.1 on Linux (4.0 as fallback), WebView2 on Windows. No browser engine is bundled. The frontend calls Go through a TypeScript client generated from your Go code.
 - **Native UI**, written in Go with package `ui` and drawn by MyGo itself with Metal, Direct3D 11, OpenGL, or on the CPU. No HTML, JavaScript, or webview. Native-UI apps can also compile to WebAssembly and run in browsers on WebGL 2.

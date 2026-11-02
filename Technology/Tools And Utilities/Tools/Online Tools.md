@@ -14,6 +14,8 @@ resource: https://saucenao.com/
 
 # Online Tools
 
+Free web tools gather here across image editing, file conversion, diagrams, downloads and privacy. Image entries cover avatar generators, background removal and inpainting, while diagram entries include Excalidraw, draw.io and PlantUML. Several items address downloads, including an open-source manager, a media downloader and direct Microsoft file links. The list also covers temporary email and phone numbers, VPN access, scam lookups and a Windows privacy script.
+
 - **image tools**
   - RoboHash, DiceBear, and Peek turn a string into the same avatar every time. Licenses, the DiceBear 10 and 11 split, and how to call each one are in [Deterministic Avatars](/Technology/Tools And Utilities/Tools/Deterministic Avatars).
   - [SauceNAO is a specialized reverse image search engine for finding the source of anime, manga and artwork images. It searches dozens of databases including pixiv, Danbooru, MangaDex, ArtStation, DeviantArt, Twitter and many other platforms. Users can upload an image or paste a URL to quickly identify the source, the artist or related content. An indispensable tool for anime fans, artists and anyone who needs to trace the origin of a piece of art.](https://saucenao.com/)

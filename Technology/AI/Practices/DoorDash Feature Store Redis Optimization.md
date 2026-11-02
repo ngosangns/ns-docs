@@ -15,7 +15,7 @@ resource: https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-sto
 
 # DoorDash Feature Store Redis Optimization
 
-> **Source**: [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/) - DoorDash Engineering Blog (November 19, 2020)
+> **Source**: [Building a Gigascale ML Feature Store with Redis](https://careersatdoordash.com/blog/building-a-gigascale-ml-feature-store-with-redis/) - DoorDash Engineering Blog (November 19, 2020). DoorDash needed a store that could hold billions of feature-value pairs and answer tens of millions of reads per second at millisecond latency. Reads dominate the traffic, since writes are about 0.1% of reads outside the nightly refresh. The team benchmarked five key-value stores with YCSB in Docker, then tuned Redis with hashes, xxHash feature names, protobuf serialization and Snappy compression. The payoff was 3x lower cost, 2.5x less memory, 2.85x less CPU and 38% lower read latency.
 
 ## Overview
 

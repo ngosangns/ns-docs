@@ -14,7 +14,7 @@ tags:
 
 # Fresher Backend Interview
 
-**Unicorn product company - interview conducted in Vietnamese with a backend tech lead and an HR manager (1h40m)**
+**Unicorn product company, interview conducted in Vietnamese with a backend tech lead and an HR manager (1h40m).** This note lists the questions from that session, grouped by topic. It opens with OOP and Java core, covering polymorphism, pass-by-value against pass-by-reference, and int against Integer. Data structures follow with dynamic arrays and singly linked lists. The project section covers whiteboard diagrams, Next.js, and servlets, including the questions the author could not answer. Later sections cover Firebase Realtime Database and Google Provider, Redux against LocalStorage, WebSocket against HTTP, React Native, and a concurrency exercise about a thread pool for 1000 requests. Read it as a question bank. Try each answer aloud before you check the bullets.
 
 ## OOP & Java Core
 

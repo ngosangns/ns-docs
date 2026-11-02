@@ -12,7 +12,7 @@ tags:
 
 # Inversion — Đảo ngữ
 
-Câu đảo ngữ đặt **trợ động từ hoặc động từ chính trước chủ ngữ** để nhấn mạnh hoặc tạo văn phong trang trọng.
+Câu đảo ngữ đặt **trợ động từ hoặc động từ chính trước chủ ngữ** để nhấn mạnh hoặc tạo văn phong trang trọng. Nhóm trạng từ phủ định như never, hardly, seldom, rarely, little, only có thể mở đầu câu và buộc đảo trợ động từ. Khi cụm bắt đầu bằng only đứng đầu câu, mệnh đề chính mới đảo ngữ. Cấu trúc no sooner than và hardly when diễn tả hai hành động nối tiếp nhau ngay lập tức. So và such đảo ngữ để nhấn mạnh mức độ. Trong câu điều kiện, bỏ if rồi đảo trợ động từ lên sẽ tạo văn phong trang trọng hơn. Loại 2 dùng were, loại 3 dùng had.
 
 ## Đảo ngữ với trạng từ phủ định
 

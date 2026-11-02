@@ -18,6 +18,8 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-as
 
 This pattern loads data into a cache on demand from a data store. Use it to improve performance and to maintain consistency between the data held in the cache and the data in the underlying data store.
 
+On a read, the application checks the cache first. A miss loads the data from the database, stores it, and returns it. An update writes the store before the cache entry is removed. Time to live limits how long an entry stays, and LRU frees space.
+
 ## Context and Problem
 
 Applications use a cache to improve performance when repeatedly accessing information. However, cached data is not always consistent with the original data store. You need a strategy to:

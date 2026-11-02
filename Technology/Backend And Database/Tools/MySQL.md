@@ -15,6 +15,8 @@ resource: https://dev.mysql.com/doc/
 
 # MySQL
 
+MySQL runs the data layer of a lot of web software, from LAMP stacks to WordPress and Drupal. This note builds up from the engine choice. InnoDB gets transactions, row-level locking, foreign keys, and crash recovery, while MyISAM stays read fast without transactions. Type groups follow, then CRUD statements, index kinds, and the rule that you index what the WHERE clause and joins touch. Views, stored procedures, and triggers appear with runnable snippets. Replication is split into a master with read slaves and multi-master group replication. The closing section covers production habits such as connection pooling, EXPLAIN, and backups.
+
 ## Overview
 
 MySQL is the world's most popular open-source relational database management system (RDBMS), widely used in web applications.
@@ -179,6 +181,8 @@ END;
 - Regular backups (mysqldump, xtrabackup)
 - Query optimization with EXPLAIN
 - Security: SSL, principle of least privilege
+
+InnoDB is the production default because it gives transactions, row locks, foreign keys, and crash recovery. MyISAM is the older engine and it is faster on reads, but it does not do transactions. JSON columns arrived in MySQL 5.7 and can be filtered with JSON_EXTRACT. Indexes should follow the WHERE clause and the joins, without covering every column. Views, procedures, and triggers live in the server.
 
 ## Resources
 

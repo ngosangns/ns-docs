@@ -19,6 +19,8 @@ resource: https://viblo.asia/p/local-attention-trong-mo-hinh-hoc-sau-MkNLrWkbVgA
 
 # Core Concepts
 
+This page is a small collection of short notes on a few deep learning ideas that keep coming up in other AI notes. The first section points to a longer Transformer architecture write up and to a Vietnamese article on local attention. The second part works through cross entropy, starting from entropy and moving on to KL divergence and maximum likelihood estimation, then lists why it is such a common loss for classification. The last section explains NaViT, a vision transformer that handles images of different sizes and aspect ratios, and describes the Patch n' Pack method for batching them efficiently. Each section ends with see also links to related notes in the vault.
+
 ## Attention Mechanism
 
 - [Transformer Architecture](/Technology/AI/Concepts/Core Concepts/Transformer Architecture): A detailed analysis of the Transformer architecture, the attention mechanism, and its impact on modern AI. Covers the encoder-decoder architecture, multi-head attention, and variants such as BERT, GPT, and Vision Transformers #transformer #attention #LLM

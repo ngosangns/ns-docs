@@ -16,7 +16,7 @@ resource: https://github.com/alexgaoth/awesome-reverse-engineered
 
 # Awesome Reverse Engineered
 
-[awesome-reverse-engineered](https://github.com/alexgaoth/awesome-reverse-engineered) (author `alexgaoth`) has one idea: "don't reverse engineer it twice". Before you open an app, API, device or file format in a disassembler, search the index for a maintained project that already did it. Site: [alexgaoth.github.io/awesome-reverse-engineered](https://alexgaoth.github.io/awesome-reverse-engineered/) (also [awesome.alexgaoth.com](https://awesome.alexgaoth.com)).
+[awesome-reverse-engineered](https://github.com/alexgaoth/awesome-reverse-engineered) (author `alexgaoth`) has one idea, "don't reverse engineer it twice". Before you open an app, API, device or file format in a disassembler, search the index for a maintained project that already did it. The README counts 12,869 projects with 10.7M stars between them, and 7,077 of those are still active. It ships as a website, a CC0 JSON dataset and an agent skill that searches the dataset. The list is ten days old and curated by one person, so treat its ranking with care. The site lives at [alexgaoth.github.io/awesome-reverse-engineered](https://alexgaoth.github.io/awesome-reverse-engineered/), with a mirror at [awesome.alexgaoth.com](https://awesome.alexgaoth.com).
 
 Checked 2026-10-21 through the GitHub API and raw files.
 

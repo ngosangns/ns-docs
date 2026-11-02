@@ -15,6 +15,8 @@ resource: https://github.com/HelixDB/helix-db
 
 # Vector Databases
 
+This note is a reference for the retrieval layer under LLM applications. It starts with HelixDB, an open-source graph-vector database built in Rust on LMDB that keeps graph relationships and vector embeddings in one system. The context store section lists two tools that feed agents fresh material. Context7 is an MCP server that serves current official documentation and code examples to coding assistants. Airweave lets agents run semantic search across apps, databases, and APIs. The RAG section names the databases and frameworks used to build retrieval pipelines, including Weaviate, Milvus, Faiss, Cognita, LLMWare, and Quivr. GraphRAG closes that list by pairing retrieval with knowledge graphs. Use it to pick a store or framework, then follow the see-also links for RAG background and related data tooling.
+
 ## Tools
 
 - [HelixDB](https://github.com/HelixDB/helix-db) is an open-source, high-performance graph-vector database designed for Retrieval-Augmented Generation (RAG) and AI applications. Built in Rust and powered by LMDB, it offers a unified platform for managing both graph relationships and vector embeddings, streamlining the development process for AI-driven systems.

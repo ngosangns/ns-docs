@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/publishe
 
 # Publisher Subscriber Pattern
 
-Enable an application to announce events to multiple interested consumers asynchronously, without tightly coupling the senders to the receivers.
+Enable an application to announce events to multiple interested consumers asynchronously, without tightly coupling the senders to the receivers. A message broker sits between publisher and subscriber so the sender never needs to know who is listening. Topic-based and content-based filtering are both covered, alongside the idempotency, ordering, and poison message problems that come with asynchronous delivery, plus the Azure services suited to each case.
 
 ## Summary
 

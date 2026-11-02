@@ -17,7 +17,7 @@ resource: https://github.com/DeusData/codebase-memory-mcp
 
 ## Definition
 
-**codebase-memory-mcp** (CBM) is the "zero-dependency, maximum-performance" entry among code-knowledge-graph tools: **a single static C binary** that needs no Node/Python runtime and vendors 162 tree-sitter grammars. It claims to fully index the Linux kernel (28M LOC, 75k files) in 3 minutes and to answer structural queries in under 1ms.
+**codebase-memory-mcp** (CBM) is the "zero-dependency, maximum-performance" entry among code-knowledge-graph tools: **a single static C binary** that needs no Node/Python runtime and vendors 162 tree-sitter grammars. It claims to fully index the Linux kernel (28M LOC, 75k files) in 3 minutes and to answer structural queries in under 1ms. It is MIT licensed and has around 43.9k stars. It needs no API key and no internal LLM, so the agent turns natural language into graph queries. A session daemon lets several clients share one index. The graph can be committed as a compressed file so teammates skip reindexing. It makes no network calls of its own, which suits air-gapped setups.
 
 ## Key Metrics
 

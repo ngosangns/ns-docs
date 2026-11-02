@@ -18,6 +18,8 @@ resource: https://github.com/chaifeng/ufw-docker
 
 # VPS Hosting
 
+This note has two parts. The first is a hands-on fix for the firewall hole that opens when Docker and UFW share a machine. Docker writes its own `iptables` rules ahead of UFW's, so ports it exposes stay reachable even under `ufw default deny incoming`. The fix is `ufw-docker`, which edits the `DOCKER-USER` chain so traffic to container ports passes through UFW policy first. The second part is a short profile of Nixopus, a self-hosted platform for deploying and monitoring apps on a VPS.
+
 ## Managing the Firewall with UFW and Docker
 
 Tags: #ufw #docker #firewall #security #linux #ufw-docker

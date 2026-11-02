@@ -17,7 +17,7 @@ resource: https://github.com/knowns-dev/knowns
 
 ## Definition
 
-**Knowns** is a "memory layer" for AI-native software development. It gives AI a persistent understanding of the project. Instead of starting from zero every session, the AI works with structured, persistent project context. Knowns connects specs, tasks, documentation, decisions, and team knowledge into one unified context layer.
+**Knowns** is a "memory layer" for AI-native software development. It gives AI a persistent understanding of the project. Instead of starting from zero every session, the AI works with structured, persistent project context. Knowns connects specs, tasks, documentation, decisions, and team knowledge into one unified context layer. It is local-first and self-hostable on Windows, macOS, and Linux. Tasks, nested docs, and a 3-layer memory keep project, working, and global context. Semantic search can run on local models while offline. An MCP server exposes acceptance criteria, plans, and notes to the assistant.
 
 - **Repository**: https://github.com/knowns-dev/knowns
 - **Website**: https://knowns.sh

@@ -12,6 +12,8 @@ tags:
 
 # Singular And Plural — Số ít và số nhiều
 
+Bài này đi từ cách tạo số nhiều cho danh từ đến sự hòa hợp với động từ. Phần đầu chia quy tắc tạo số nhiều theo đuôi từ, gồm các đuôi -s, -es, -y, -f, -fe và -o. Danh từ bất quy tắc cũng có mục riêng. Phần động từ nêu cách chia ở thì hiện tại đơn cho chủ ngữ số ít và số nhiều, còn các thì khác thì giữ nguyên. Phần trường hợp đặc biệt gom ba nhóm. Đó là danh từ luôn số nhiều, danh từ số ít và số nhiều cùng dạng, và danh từ không đếm được. Phần ghi chú nhắc phân biệt danh từ đếm được với không đếm được. Các trường hợp hòa hợp khó được dẫn sang trang riêng.
+
 ## Danh từ số ít và số nhiều
 
 - **Danh từ số ít:** một người, vật, nơi, hoặc khái niệm.

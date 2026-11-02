@@ -14,6 +14,8 @@ tags:
 
 # Layered Design In Go IRI
 
+Go forbids circular imports, and that single rule produces a layer graph for any program, with basic packages at the bottom and composed functionality above. The note works through that structure, then explains why it is descriptive rather than a design prescription. A prioritized list of refactorings follows for breaking a cycle once it appears. Closing sections cover how the approach differs from dependency injection and other designs, and what to keep unexported.
+
 Layered Design in Go
 
 - How the author designs Go programs, based on the language's principles and limitations.

@@ -14,6 +14,8 @@ tags:
 
 # Amazon SDE Interview
 
+This note is a first-person account of one Amazon SDE-1 interview round. The round ran about an hour online through Amazon Chime and mixed one algorithm problem with a few system design questions and questions about the Leadership Principles. The useful part is the mistakes. The author picked a heap where binary search was the better fit, wrote code with redundant variables, answered system design too generically, and told Leadership Principle stories without the STAR format. Each mistake comes with the lesson it produced and the fix. A short keys to success list closes the note. The closing checklist names the topics worth drilling before the call. It lists binary search, heap, and two pointers. Practice each until you can code it without notes. Read the mistakes first, then use the lessons as a checklist for your own preparation.
+
 ## Round 1 - SDE-1
 
 ### Overview

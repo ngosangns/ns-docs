@@ -14,7 +14,7 @@ tags:
 
 ## Tổng quan
 
-Dựng lều và căng bạt cho đúng là một kỹ năng cắm trại căn bản, giúp chỗ trú của bạn an toàn và dễ chịu.
+Dựng lều và căng bạt cho đúng là một kỹ năng cắm trại căn bản, giúp chỗ trú của bạn an toàn và dễ chịu. Bài đi từ khâu chuẩn bị lều, bạt, cọc và dây néo sang cách chọn chỗ cắm tránh chỗ trũng và cây lớn. Năm bước dựng lều được tách riêng khỏi ba bước căng bạt độc lập, mỗi bước là một việc ngắn. Phần cuối là vài lưu ý kiểm tra trước và sau khi dựng.
 
 ## Chuẩn bị
 

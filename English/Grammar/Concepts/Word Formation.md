@@ -12,7 +12,7 @@ tags:
 
 # Word Formation — Cấu tạo từ
 
-Cấu tạo từ thêm **tiền tố** (trước) và **hậu tố** (sau) vào gốc từ để đổi nghĩa hoặc từ loại — kỹ năng được kiểm tra trong bài tập "word form".
+Cấu tạo từ thêm **tiền tố** (trước) và **hậu tố** (sau) vào gốc từ để đổi nghĩa hoặc từ loại. Đây là kỹ năng được kiểm tra trong bài tập "word form". Bài này gom các hậu tố theo từ loại mà chúng tạo ra. Có bốn bảng cho danh từ, động từ, tính từ và trạng từ. Mỗi bảng nêu hậu tố, nghĩa hoặc nguồn gốc, và ví dụ. Phần tiền tố tách riêng nhóm phủ định và nhóm phổ biến khác. Phần biến đổi chính tả chỉ ra các quy tắc khi ghép từ, kèm vài chuỗi biến đổi hay ra đề. Phần ghi chú dặn xác định từ loại của chỗ trống trước khi chọn hậu tố.
 
 ## Hậu tố — Đổi từ loại
 
@@ -106,5 +106,7 @@ Tiền tố en-/em- cũng tạo động từ: able → enable, danger → endang
 - **Xác định từ loại chỗ trống cần trước** (câu cần danh từ, động từ, tính từ hay trạng từ?), rồi mới chọn hậu tố.
 - Một số từ giữ nguyên dạng qua các từ loại: fast (adj/adv), hard (adj/adv), early (adj/adv).
 - Việc chọn hậu tố phần lớn là cố định — tập thói quen học theo họ từ: _decide → decision → decisive → decisively._
+
+Hậu tố quyết định từ loại mới. Đuôi tion, ment, ness và ity tạo danh từ. Đuôi ize, ify, en và ate tạo động từ, và tiền tố en hoặc em cũng làm việc đó. Đuôi ful và less đối nhau, một bên là có và một bên là không có. Đuôi ly thường cho trạng từ, nhưng friendly và lovely vẫn là tính từ.
 
 > **Xem thêm:** [Adjectives And Adverbs](/English/Grammar/Concepts/Adjectives And Adverbs) · [Nouns](/English/Grammar/Concepts/Nouns) · [Phrasal Verbs](/English/Grammar/Concepts/Phrasal Verbs) · [Comparisons](/English/Grammar/Concepts/Comparisons)

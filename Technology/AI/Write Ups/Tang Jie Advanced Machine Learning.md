@@ -17,7 +17,7 @@ resource: https://www.sohu.com/a/1077377896_115060
 
 > **Source**: Bianews, 09/17/2026, republished on [Sohu](https://www.sohu.com/a/1077377896_115060) and [Phoenix](https://tech.ifeng.com/c/8wUruDb30rN). The same assignment list appears at [快科技](https://tech.ifeng.com/c/8wVjdWJ9m5i) (Kuai Keji) and [HKET](https://inews.hket.com/article/4195430/). His statements about PCs and Zhipu's capability ladder are in [21世纪经济报道 (21st Century Business Herald), 09/18/2026](https://www.163.com/dy/article/L7583PLT05199NPP.html).
 >
-> The assignment list is relayed by the press from students in the class, not from an official syllabus PDF.
+> The assignment list is relayed by the press from students in the class, not from an official syllabus PDF. The five-item list is the version the outlets share. A separate Sohu schedule adds week-by-week thresholds, and its headline reports 0.1亿 parameters instead of 0.1B. Where the two accounts disagree, this note keeps the five-item list and the 0.1B size. The reports are dated 09/17 and 09/18 of 2026, one day apart, so later accounts are not independent confirmations.
 
 ## The Speaker
 

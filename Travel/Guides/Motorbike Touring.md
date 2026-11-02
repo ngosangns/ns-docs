@@ -14,7 +14,7 @@ tags:
 
 ## Tổng quan
 
-Phượt là đi tự túc bằng xe máy, thường tới những nơi xa và đường khó. Đây là cách khám phá đất nước tự do nhất và giàu tính phiêu lưu nhất.
+Phượt là đi tự túc bằng xe máy, thường tới những nơi xa và đường khó. Đây là cách khám phá đất nước tự do nhất và giàu tính phiêu lưu nhất. Trước khi lên đường, bài đi qua việc thuê xe và kiểm tra các bộ phận chính, rồi liệt kê đồ bảo hộ cùng dụng cụ nên mang. Phần lưu ý an toàn đứng riêng ở cuối, kèm liên kết tới những cung đường cụ thể.
 
 ## Chuẩn bị xe
 
@@ -69,6 +69,8 @@ Phượt là đi tự túc bằng xe máy, thường tới những nơi xa và �
 - Xem dự báo thời tiết trước khi xuất phát.
 - Chia sẻ lịch trình với gia đình hoặc bạn bè.
 - Mang cả tiền mặt lẫn thẻ ngân hàng.
+
+Trước khi nhận xe, xem dầu máy, xăng, phanh trước và phanh sau, lốp, đèn, sên và các ốc quan trọng. Cửa hàng nên có bảo hành, và Yamaha Winner là kiểu côn tay hay được chọn. Trên đường, đội mũ đạt chuẩn, mang găng, áo gió và giày chắc. Đừng phóng trên đèo, nghỉ đều, xem thời tiết, và báo lịch trình cho gia đình hoặc bạn.
 
 ## Cung đường
 

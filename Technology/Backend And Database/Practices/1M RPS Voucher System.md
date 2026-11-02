@@ -18,7 +18,7 @@ resource: https://www.facebook.com/groups/sydexa/posts/2257228024767400/
 
 > **Source**: [1M Write/s: Kiến Trúc 5$/h deploy aws@sing](https://www.facebook.com/groups/sydexa/posts/2257228024767400/) — Khúc Ngọc Huy, Vietnam System Design Community, 2026-02-22. POC: [heavy-write-api](https://github.com/huykn/distributed-cache/tree/main/examples/heavy-write-api/poc).
 >
-> Follows the same thread as distributed cache for heavy-read workloads (see [Overview And Architecture](/Technology/Backend And Database/Practices/Distributed Cache/Overview And Architecture)). The Q&A part comes from all expanded comments (sorted by Newest, including replies). Facebook counted 45 comments; the praise has been dropped.
+> Follows the same thread as distributed cache for heavy-read workloads (see [Overview And Architecture](/Technology/Backend And Database/Practices/Distributed Cache/Overview And Architecture)). The Q&A part comes from all expanded comments (sorted by Newest, including replies). Facebook counted 45 comments; the praise has been dropped. The target load was 1M req/s across 20 pods at 50k per pod, with roughly 50 million active users. P99 for a spin had to stay under 5ms, and each voucher could be issued only once. A pod restart had to keep state, and a dead pod had to be replaced within about a minute. Per-user spin history was required too.
 
 ## The Problem
 

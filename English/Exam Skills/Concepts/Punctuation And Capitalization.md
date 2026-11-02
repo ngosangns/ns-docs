@@ -12,7 +12,7 @@ tags:
 
 # Punctuation And Capitalization — Dấu câu và viết hoa
 
-Các quy tắc dấu câu ảnh hưởng độ chính xác khi viết — lỗi ở đây dễ sửa một khi đã gọi tên được.
+Quy tắc dấu câu ảnh hưởng trực tiếp đến độ chính xác khi viết, và lỗi ở đây dễ sửa một khi đã gọi tên được. Lỗi nặng nhất là comma splice, tức nối hai câu hoàn chỉnh bằng chỉ một dấu phẩy. Cách sửa là dùng dấu chấm, dấu chấm phẩy hoặc thêm liên từ. Phần viết hoa cũng có bẫy riêng. Thứ và tháng thì viết hoa, còn mùa thì không. Chức danh viết hoa khi đứng trước tên nhưng viết thường khi đứng một mình. Dấu nháy đơn dễ lẫn ở cặp _its_ và _it's_, và không bao giờ dùng cho số nhiều. Trong văn trang trọng, nên viết đầy đủ thay vì viết tắt.
 
 ## Dấu phẩy (Comma)
 

@@ -14,6 +14,8 @@ tags:
 
 # RNN And LSTM
 
+This note explains two sequence models and the problem that links them. It begins with recurrent neural networks, describing how a hidden state carries information from step to step, then gives the update and output formulas with each term defined. A challenges section names vanishing gradients, exploding gradients, and the resulting limit on long term memory. The rest turns to LSTM, a variant built to fix that limit. It covers the cell state and the hidden state, then the forget, input, and output gates one by one with their roles and the functions they use. A walkthrough of how the gates update state and produce output leads into a list of advantages over a plain RNN.
+
 ## RNN (Recurrent Neural Network)
 
 ### Introduction

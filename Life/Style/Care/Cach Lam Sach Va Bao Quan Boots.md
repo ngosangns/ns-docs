@@ -10,7 +10,9 @@ tags:
   - clothing
 ---
 
-# Cách vệ sinh và làm sạch đôi boots của bạn
+# Cach Lam Sach Va Bao Quan Boots
+
+## Cách vệ sinh và làm sạch đôi boots của bạn
 
 Mặc dù boots nam luôn được đánh giá là một trong những loại giày bền nhất, nhưng chúng lại rất
 dễ bị bẩn. Vì vậy, điều quan trọng là phải biết cách làm sạch đôi boots của bạn.
@@ -19,7 +21,7 @@ dễ bị bẩn. Vì vậy, điều quan trọng là phải biết cách làm s�
 
 ![](/Attachments/1b2c3d4e-5f6a-7b8c-9d0e-1f2a3b4c5d6e.png)
 
-# Cách vệ sinh boots da lộn
+## Cách vệ sinh boots da lộn
 
 Để làm sạch boots da lộn, hãy tháo dây buộc và ngâm bàn chải lông mềm vào một lượng nhỏ chất làm sạch da lộn. Sau đó, trong khi đỡ bên trong chiếc giày bằng một tay, hãy chải bên ngoài theo những vòng tròn nhỏ.
 
@@ -28,13 +30,13 @@ Sau khi hoàn tất, hãy làm tương tự với chiếc giày còn lại và �
 
 ![](/Attachments/5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d.png)
 
-# Cách bảo quản boots nam
+## Cách bảo quản boots nam
 
 Để đảm bảo đôi giày của bạn bền lâu, đừng quên bảo quản chúng đúng cách. Sau khi làm sạch và để chúng khô, hãy nhớ nhét chúng bằng giấy hoặc cây giày. Làm như vậy sẽ giúp giày giữ dáng khi không sử dụng. Luôn bảo quản chiếc boots thẳng đứng để có hiệu quả tốt nhất.
 
 ![](/Attachments/6b7c8d9e-0f1a-2b3c-4d5e-6f708192a3b4.png)
 
-# Cách sử dụng và phối đồ với boots nam
+## Cách sử dụng và phối đồ với boots nam
 
 Chọn đúng kiểu boots
 phù hợp với dáng người bạn mong muốn.

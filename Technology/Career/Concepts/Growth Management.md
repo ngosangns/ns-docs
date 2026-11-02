@@ -13,7 +13,7 @@ tags:
 
 # Growth Management
 
-Growth management (the discipline behind "growth hacking") is a system of running rapid, measurable experiments across the whole funnel to grow a business metric — not a marketing tactic. Sean Ellis coined "growth hacker" in 2010 for people whose only goal is growth ("a growth hacker is not a marketing Director... their true north is growth").
+Growth management (the discipline behind "growth hacking") is a system of running rapid, measurable experiments across the whole funnel to grow a business metric — not a marketing tactic. Sean Ellis coined "growth hacker" in 2010 for people whose only goal is growth ("a growth hacker is not a marketing Director... their true north is growth"). The practice settled into a repeatable loop of data, ideas, prioritized experiments, and analysis. Dave McClure's AARRR set describes the classic funnel: acquisition, activation, retention, referral, and revenue. Growth loops replace that funnel with a cycle whose output feeds the next round. Teams steer the work with a North Star metric and the input metrics beneath it. The work pays off after product-market fit, where Ellis' 40% test marks the line.
 
 ## History and core test
 

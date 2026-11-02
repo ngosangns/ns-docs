@@ -17,7 +17,7 @@ resource: https://github.com/nuphos/nuphos
 
 # Nuphos
 
-[Nuphos](https://nuphos.ai) ([nuphos/nuphos](https://github.com/nuphos/nuphos)) calls itself "the agent workspace for your team". It is not an agent or a model. It is the platform **around** the terminal coding agents you already use: Claude Code, Codex, Grok Build, Google Antigravity and OpenCode.
+[Nuphos](https://nuphos.ai) ([nuphos/nuphos](https://github.com/nuphos/nuphos)) calls itself "the agent workspace for your team". It is not an agent or a model. It is the platform **around** the terminal coding agents you already use: Claude Code, Codex, Grok Build, Google Antigravity and OpenCode. Each agent runs in a runtime on your laptop, on a machine you own, or on Nuphos Cloud, reached over the Agent Client Protocol. On top of that it adds shared multi-user sessions, team-wide skills, memory, credentials, and a desktop with DevOps GUIs beside the chat. The code is Apache-2.0 and the stack self-hosts through Docker Compose, Helm, or Zeabur and Railway templates. Copyright and trademark belong to Zeabur Inc., the product is still early access, and the public repo opened on 2026-10-01.
 
 - Each agent runs in a runtime (your laptop, a machine you own, or Nuphos Cloud) and is reached over the [Agent Client Protocol](https://agentclientprotocol.com) (ACP).
 - Nuphos adds shared multi-user sessions, team-wide skills, memory and credentials, approvals, and a desktop with real DevOps GUIs beside the chat.

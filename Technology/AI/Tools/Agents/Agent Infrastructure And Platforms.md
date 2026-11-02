@@ -14,6 +14,8 @@ resource: https://github.com/daytonaio/daytona
 
 # Agent Infrastructure And Platforms
 
+This page is a flat list of infrastructure for running agents, not for writing prompts. Sandboxes come first, with Daytona and a write-up on self-built microVM isolation. Runtime and orchestration entries follow, including Vercel's eve, Multica, Google AX, Zeron, and Pi with its durable harness. A cluster of very small assistants appears in the middle, from nullclaw and picoclaw to zeroclaw, each trading features for a tiny footprint. The rest covers context engines like Zep, local inference servers, computer-use drivers, channel SDKs, and model releases such as PersonaPlex and Ternary Bonsai. Many entries carry a detail line about licensing, versions, or caveats, and some link to a fuller note. Use the list to compare options at a given layer.
+
 - https://github.com/daytonaio/daytona — Secure, elastic sandbox infrastructure for running AI-generated code and agent workflows with sub-90ms spin-up.
 - https://alfonsocampodonico.com/posts/building-your-own-sandboxes — Article (2026-10-18) on self-building agent/untrusted-code sandboxes: Firecracker and Cloud Hypervisor microVMs behind one API, each VMM in a rootless namespace jail, default-deny per-VM nftables network that blocks cloud metadata, and OCI images converted to one erofs per layer. No public repo. See [Building Your Own Sandboxes](/Technology/Security/Write Ups/Building Your Own Sandboxes).
 - https://github.com/vercel/eve — eve: Vercel's filesystem-first TypeScript framework for durable backend agents (Workflow SDK sessions, per-session sandbox, channels, evals, Agent Runs tracing); public beta, Apache-2.0. See [Eve](/Technology/AI/Tools/Agents/Eve).

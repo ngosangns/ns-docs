@@ -12,7 +12,7 @@ tags:
 
 # Subject Verb Agreement — Hòa hợp chủ ngữ động từ
 
-Động từ phải hòa hợp với chủ ngữ về **số**: chủ ngữ số ít → động từ số ít, chủ ngữ số nhiều → động từ số nhiều. Về cách tạo số nhiều, xem [Singular And Plural](/English/Grammar/Concepts/Singular And Plural).
+Động từ phải hòa hợp với chủ ngữ về **số**. Chủ ngữ số ít đi với động từ số ít, chủ ngữ số nhiều đi với động từ số nhiều. Về cách tạo số nhiều, xem [Singular And Plural](/English/Grammar/Concepts/Singular And Plural). Cụm từ chen giữa chủ ngữ và động từ không làm đổi hòa hợp, nên phải tìm chủ ngữ thật. Phần lớn lỗi nằm ở những chủ ngữ khó. Nhóm đầu là đại từ bất định như each, every, everyone, either, neither. Nhóm sau là danh từ tập hợp như family, team, government, cùng các cụm số lượng như a number of hay the number of. Quy tắc gần nhất áp dụng cho or, either ... or, neither ... nor, not only ... but also.
 
 ## Quy tắc cơ bản
 

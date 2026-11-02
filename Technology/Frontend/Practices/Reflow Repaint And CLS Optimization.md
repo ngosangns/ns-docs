@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh
 
 # Reflow Repaint And CLS Optimization
 
+A layout that jumps while the page loads costs the reader a misplaced click and costs the site a worse Core Web Vitals score. This guide explains reflow, repaint and layout shift, then shows how each one happens and what to change in code. The fixes cover batching DOM writes, setting explicit image dimensions and reserving space for ads, all measured against a CLS target below 0.1.
+
 Source: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-cls-cao-trong-core-web-vitals-aNj4vkD8J6r
 
 ## Why Understand This?
@@ -56,5 +58,7 @@ Source: https://viblo.asia/p/reflow-repaint-layout-shift-la-gi-toi-uu-de-tranh-c
 - **Preload fonts**: `<link rel="preload">` or `font-display: swap`
 - **Reserve space**: placeholders for banners and ads (`min-height`)
 - **Avoid unexpected DOM insertion**: limit `setTimeout`, and use `opacity` and `transform` for animation
+
+Reflow recalculates size and position when DOM nodes change, when CSS such as width, font-size, position, or display changes, when text changes, or when the window resizes. Color, visibility, opacity, shadow, and border changes are repaints. They are lighter than reflow, but a stream of them still drops FPS. CLS multiplies impact fraction by distance fraction, and Google's recommended line is below 0.1. Images without dimensions, late fonts, late ads, and unexpected script injection cause the shift. For CLS, set width and height or an aspect-ratio, preload fonts or use font-display swap, and reserve min-height for ads.
 
 > **See also:** [Frontend Overview](/Technology/Frontend/Resources/Frontend Overview) · [37 Tips From A Senior Frontend Developer](/Technology/Frontend/Resources/37 Tips From A Senior Frontend Developer) · [JPEG XL](/Technology/Frontend/Concepts/JPEG XL)

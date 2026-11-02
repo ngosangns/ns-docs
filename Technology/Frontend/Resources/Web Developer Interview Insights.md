@@ -16,6 +16,8 @@ resource: https://davidwalsh.name/pornhub-interview
 
 # Web Developer Interview Insights
 
+Working on a site with enormous traffic changes how a team builds a video player and measures it. The interview with a Pornhub web developer, recorded by David Walsh, covers the clean room where the player is built, the metrics used to watch playback and the Web APIs that fall short. It also covers browser support, the backend stack and the team culture behind the product.
+
 > **Source**: David Walsh's interview with a web developer at Pornhub (10/2019)  
 > **Original link**: https://davidwalsh.name/pornhub-interview
 

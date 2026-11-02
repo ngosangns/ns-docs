@@ -15,7 +15,7 @@ resource: https://medium.com/globant/javascript-optimization-techniques-20d8d167
 
 # JavaScript TypeScript
 
-A "hub"-style collection of notes: used both to review the fundamentals and as a checklist when building projects.
+A "hub"-style collection of notes. It is used both to review the fundamentals and as a checklist when building projects. The JavaScript side covers value versus reference, equality, `this`, closures, the event loop, modules and tree-shaking, and memory leaks. The TypeScript side covers `any` versus `unknown`, narrowing and guards, generics and utility types, and mapped, conditional and template literal types. Tooling notes sit next to both, from ESLint and Prettier to bundlers, runtimes and monorepo setup. The file closes with interview questions, practice exercises and reference links for the topics above.
 
 ## Contents
 

@@ -17,6 +17,8 @@ resource: https://api.sampleapis.com/coffee/
 
 # UV Distroless
 
+This note explains a Python Dockerfile that builds with UV on a Debian builder and runs on a distroless base. The builder copies the shared libraries the runtime needs into a per-architecture directory, and the runtime picks them up through LD_LIBRARY_PATH. TARGETARCH drives the amd64 and arm64 paths, so one file serves both platforms. Dependencies sync from the lock file through bind mounts, and a newer starlette is installed on top to patch known CVEs. Each technique comes with its own advantages and disadvantages, including the cost of manual library management. Read it when you want a secure, small image and accept that debugging and maintenance take real effort.
+
 ## Dockerfile Content
 
 ```dockerfile

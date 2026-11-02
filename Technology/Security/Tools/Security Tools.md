@@ -14,6 +14,8 @@ resource: https://www.hashicorp.com/en/products/vault
 
 # Security Tools
 
+Security Tools is a working list of tools for the security tasks that come up in day to day engineering. It groups them by job rather than by vendor. Secret management covers HashiCorp Vault, Google Secret Manager, and AWS Secrets Manager. Vulnerability scanning covers osv-scanner and npq, with a note on what each one checks before you install or ship. Later sections cover cryptography libraries, security analytics and monitoring, penetration testing, and PII detection and data privacy. Every entry includes a link, so you can read the vendor documentation before you adopt a tool. Use the list as a shortlist when you need to pick a tool for one specific job.
+
 ## Secret Management
 
 Tools for managing secrets (API keys, passwords, certificates) centrally and securely.

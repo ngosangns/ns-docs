@@ -12,6 +12,8 @@ tags:
 
 # Các loại quần nên có trong tủ đồ
 
+Note này gợi ý ba kiểu quần nên có trong tủ đồ nam, xếp theo thứ tự từ dễ phối đến trang trọng hơn. Mỗi mục gồm ảnh minh họa và bốn phần nhỏ. Phần tổng quan nói vì sao kiểu quần đó đáng có. Phần đặc điểm liệt kê độ formal, độ linh hoạt phối đồ, chất liệu, màu sắc và fit. Phần thời tiết cho biết mặc được vào mùa nào. Phần số lượng đề xuất giúp bạn quyết định mua mấy cái. Đọc từ trên xuống, bạn sẽ có một danh sách mua sắm gọn cho cả năm. Ba kiểu này bù trừ cho nhau khá tốt. Quần jeans lo phần casual, chinos lo phần đổi gió, quần tây lo phần công sở.
+
 ## 1. Quần jeans dáng slim-fit
 
 ![](/Attachments/0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d.png)

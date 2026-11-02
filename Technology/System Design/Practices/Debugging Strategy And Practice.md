@@ -14,6 +14,8 @@ resource: https://viblo.asia/p/debugging-trong-lap-trinh-chien-luoc-cong-cu-va-t
 
 # Debugging Strategy And Practice
 
+Debugging starts with understanding the problem and gathering error messages, stack traces, and logs before touching source code. Advanced techniques follow for memory analysis and concurrency debugging, where leaks, race conditions, and deadlocks surface. Tools range from GDB and Visual Studio debuggers to JProfiler, YourKit, and the Eclipse Memory Analyzer for heap dumps. Best practices favor a systematic approach, isolation, documentation, and prevention.
+
 > https://viblo.asia/p/debugging-trong-lap-trinh-chien-luoc-cong-cu-va-thuc-tien-tot-nhat-2oKLn1dXJQO
 
 ## Foundational Debugging Principles

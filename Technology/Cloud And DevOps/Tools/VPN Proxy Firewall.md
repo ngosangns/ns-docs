@@ -16,6 +16,8 @@ resource: https://github.com/XTLS/Xray-core
 
 # VPN Proxy Firewall
 
+This note lists self-hosted VPN, proxy, and firewall tools, then a SaaS section. Xray-core is for setting up and using proxy protocols. WireGuard is listed, with OpenVPN nested under it. pfsense covers firewall, proxy, DHCP, VPN, and DNS. SafeLine is a self-hosted web application firewall and reverse proxy against attacks and exploits. headscale is a self-hosted Tailscale control server for a WireGuard-based VPN without Tailscale's cloud service. Cloudflare Zero Trust is listed under SaaS. Home Proxy is a Vietnamese residential and datacenter proxy provider. Residential addresses, static or rotating, come from Viettel, VNPT, and FPT. Datacenter proxies come from Vietnam and the US over HTTP, HTTPS, and SOCKS5.
+
 ## Services
 
 - Xray-core - Set up and use proxy protocols: https://github.com/XTLS/Xray-core

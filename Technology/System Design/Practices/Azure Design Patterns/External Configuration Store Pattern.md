@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/external
 
 # External Configuration Store Pattern
 
-This pattern moves configuration information out of the application deployment package into a centralized location. This makes configuration data easier to manage and control, and lets configuration be shared across multiple applications or application versions.
+This pattern moves configuration information out of the application deployment package into a centralized location. This makes configuration data easier to manage and control, and lets configuration be shared across multiple applications or application versions. When settings ship inside the deployment, every change forces a redeploy and an interruption. Local files are also hard to share between related services, hard to sync across running instances, and rarely support separate versions for dev, staging, and production. An external store fixes this. The application reads and caches settings at startup, and the store can notify it about changes, so no restart is needed. Azure App Configuration handles ordinary settings, while Key Vault holds secrets.
 
 ## Context and Problem
 

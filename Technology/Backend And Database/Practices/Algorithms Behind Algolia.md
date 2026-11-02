@@ -16,6 +16,8 @@ resource: https://viblo.asia/p/cac-thuat-toan-phia-sau-algolia-y3RL1w9P4ao
 
 > https://viblo.asia/p/cac-thuat-toan-phia-sau-algolia-y3RL1w9P4ao
 
+Algolia is a real-time search engine that prioritizes high performance and extremely low response times. An inverted index stores the relationship between keywords and documents, and a Trie optimizes prefix search. Levenshtein distance supports approximate search and corrects typing mistakes. Ranking uses exact match, typo tolerance, proximity, attribute priority, custom ranking, and TF-IDF with custom weights. Bitmasking and BitSet support fast filtering with AND/OR. Delta encoding, front coding, and numeric bucketing reduce index size and optimize memory.
+
 ## Introduction to Algolia
 
 - A real-time search engine

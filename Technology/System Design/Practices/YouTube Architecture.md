@@ -16,6 +16,8 @@ resource: https://blog.bytebytego.com/p/how-youtube-supports-billions-of
 
 # YouTube Architecture
 
+This note summarizes how YouTube scaled its backend for billions of users with MySQL and Vitess. The early system was a single MySQL database and a few web servers. As the platform and the user base grew, that approach could no longer meet demand. YouTube developed Vitess as a layer on top of MySQL. It enables horizontal scaling instead of only vertical scaling. It also handles traffic flexibly and efficiently. YouTube keeps using familiar MySQL while supporting billions of users, without completely changing the database architecture. YouTube went through many challenges while rolling out this system. Vitess became a key solution that helped YouTube scale successfully.
+
 ## Overview
 
 - The article analyzes how YouTube scaled its backend to support billions of users using MySQL together with Vitess

@@ -15,6 +15,10 @@ resource: https://viblo.asia/p/sap-xep-voi-thoi-gian-tuyen-tinh-E1XVOZ6GLMz
 
 # Sorting Algorithms
 
+This note is a comparison table, plus one link on linear-time sorting. The table's filled cells are the only claims here. Empty pros and cons cells stay empty.
+
+Bubble Sort is listed for small arrays, with Big O of n^2. Insertion Sort is listed for small or nearly sorted arrays, also n^2. Heap Sort is marked not stable, with Big O of nlogn. Quick Sort is also marked not stable. Its Big O cell says nlogn, and it can fall back to n^2. RadixSort is listed for sorting integers. The table says it cannot sort real numbers. Its Big O cell says nlog of the max value. The see-also line points at Big O Notation and at Algo Arrays Searching Sorting. The overview bullet links a Viblo post on linear-time sorting. An image sits under the table. No other algorithms are listed.
+
 ## Overview
 
 - Linear-time sorting: https://viblo.asia/p/sap-xep-voi-thoi-gian-tuyen-tinh-E1XVOZ6GLMz

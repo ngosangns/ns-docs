@@ -16,7 +16,7 @@ resource: https://www.home-assistant.io/
 
 ## Overview
 
-A smart home is a system of interconnected devices and technologies that automate and control functions around the house.
+A smart home is a system of interconnected devices and technologies that automate and control functions around the house. The note breaks such a system into its hub, sensors, actuators and appliances before comparing the protocols that connect them. It then walks through use cases, sample automation routines, security measures and the platforms that run them. Best practices and a short resource list close the note.
 
 ## Main Components
 
@@ -179,6 +179,8 @@ Play welcome music
 - Consider privacy implications
 - Regular updates and maintenance
 - Back up automation configurations
+
+A hub such as Samsung SmartThings, Apple HomeKit, or Google Nest Hub sits in the middle and talks to the other devices. Actuators cover lights, locks, thermostats, switches, and plugs. Wi-Fi is the common high bandwidth link and uses more power. Zigbee adds a low power mesh on 2.4 GHz. Thread adds an IPv6 mesh with low latency. Z-Wave uses sub-GHz to cut interference, and BLE stays short range. Matter is the cross-platform standard backed by Apple, Google, Amazon, and Samsung. Security steps are replacing default passwords, firmware updates, an IoT VLAN, encryption, and a privacy review.
 
 ## Resources
 

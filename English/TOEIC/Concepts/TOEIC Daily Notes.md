@@ -16,6 +16,8 @@ tags:
 
 Cấu trúc: `(adv) + adj / V-ing / V-ed + N`
 
+Tính từ cộng danh từ là dạng mặc định. V-ing đứng trước danh từ khi danh từ tự tạo hành động, hoặc khi không có tính từ đúng nghĩa. V-ed đứng trước khi danh từ chịu hành động. Trạng từ đứng trước tính từ thì bổ nghĩa cho tính từ. Trong cấu trúc be rồi tính từ rồi trạng từ, trạng từ bổ nghĩa cho động từ be. Trạng từ không bổ nghĩa trực tiếp cho danh từ.
+
 - **adj + N:** mặc định.
 - **V-ing + N:** khi danh từ tạo ra hành động, hoặc không có tính từ đúng nghĩa.
 - **V-ed + N:** khi danh từ chịu hành động.
@@ -77,5 +79,7 @@ V-ing hiếm khi đứng làm danh từ chính trong câu trắc nghiệm, trừ
 
 - Chỗ trống **trước danh từ** → **tính từ**
 - Chỗ trống nào khác → **trạng từ**
+
+Đuôi -tion, -sion, -ment, -ness, -ity và đôi khi -al thường báo danh từ. Tính từ hay kết bằng -ic, -ive, -able, -ible, -ous, -ful hoặc -less. Động từ hay có -ize, -ate, -en hoặc -ify. Trạng từ thường là tính từ thêm -ly. Alternative và representative là danh từ. So, very, quite và rather là trạng từ. More, most, less và least dùng để so sánh. Danh từ đếm được không đứng trần. V-ing ít khi là danh từ chính trong trắc nghiệm, trừ building. So sánh hơn dùng than, còn so sánh nhất dùng the. Khi câu đã đủ chủ ngữ và động từ, chỗ trống trước danh từ cần tính từ, còn chỗ khác cần trạng từ.
 
 > **Xem thêm:** [TOEIC Overview](/English/TOEIC/Concepts/TOEIC Overview) · [Sentence Structure](/English/Grammar/Concepts/Sentence Structure) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural)

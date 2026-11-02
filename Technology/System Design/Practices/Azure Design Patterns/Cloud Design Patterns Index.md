@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/
 
 # Cloud Design Patterns Index
 
-Architects design workloads by integrating platform services, functionality, and code to meet both functional and nonfunctional requirements. Cloud design patterns provide solutions to many common challenges in distributed systems.
+Architects design workloads by integrating platform services, functionality, and code to meet both functional and nonfunctional requirements. Cloud design patterns provide solutions to many common challenges in distributed systems. The catalog names Ambassador, Anti-Corruption Layer, Asynchronous Request-Reply, Backends for Frontends, Bulkhead, and Cache-Aside. It also names Claim Check, CQRS, Event Sourcing, Circuit Breaker, Retry, Saga, Sharding, and Strangler Fig. Further names include Gateway Aggregation, Gateway Offloading, Gateway Routing, Geode, Health Endpoint Monitoring, and Leader Election. Each row lists the Well-Architected pillars that pattern supports.
 
 ## Why Cloud Design Patterns?
 

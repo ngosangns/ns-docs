@@ -15,6 +15,8 @@ resource: https://github.com/fluxcd/flux2
 
 # DevOps Tools
 
+This page is a working list of DevOps tools, each with a short note on what it does and where to get it. Infrastructure as Code comes first, with Flux syncing clusters from Git and Pulumi using general programming languages. System and server management follow, covering the isd systemd manager and the infra-caddy-guy script suite built on Docker and Caddy. The deployment platform entries compare Nixopus, Coolify, and Dokploy, including pricing and how Dokploy differs from Coolify. Incident management and error tracking come next, with Versus-Incident and Bugsink. Cloudflare tools close the list. Read the group that matches the job at hand, and check the linked repo before adopting anything.
+
 ## Infrastructure as Code
 
 - **Flux**: A GitOps tool that syncs Kubernetes clusters with configuration from Git/OCI and automatically applies new changes. Version 2 was rebuilt on the Kubernetes API, supports multi-tenancy and multiple Git repositories, and uses the GitOps Toolkit for continuous delivery. Flux is a CNCF graduated project and widely used (https://github.com/fluxcd/flux2)

@@ -12,6 +12,8 @@ tags:
 
 # Passive Voice — Thể bị động
 
+Bài này trình bày thể bị động từ khái niệm đến các trường hợp đặc biệt. Phần đầu giải thích vai trò chủ ngữ trong câu bị động và lý do dùng nó. Phần công thức chung tách từng thành phần của mẫu be cộng V3/ed. Phần chuyển đổi nêu bốn bước từ câu chủ động sang câu bị động, kèm một cặp ví dụ. Bảng bị động theo các thì gom tám thì, mỗi thì một công thức và một câu mẫu. Phần trường hợp đặc biệt xử lý động từ hai tân ngữ, động từ khuyết thiếu, động từ tri giác, bị động với get và động từ tường thuật. Phần ghi chú nêu giới hạn của phép chuyển. Toàn bài có liên kết sang các mẫu chuyển đổi câu.
+
 ## Khái niệm
 
 - Trong câu bị động, chủ ngữ không thực hiện hành động — nó chịu tác động của hành động.

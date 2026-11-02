@@ -12,6 +12,8 @@ tags:
 
 # Adverbial Clauses — Mệnh đề trạng ngữ
 
+Trang này giải thích mệnh đề trạng ngữ, một mệnh đề phụ thuộc đóng vai trò như trạng từ trong câu. Phần đầu nêu khái niệm và dấu hiệu nhận biết, gồm liên từ phụ thuộc cùng chủ ngữ và động từ riêng. Phần lớn nội dung là chín loại mệnh đề trạng ngữ xếp theo nghĩa, từ thời gian, nơi chốn, nguyên nhân, mục đích, kết quả, điều kiện, nhượng bộ, cách thức đến so sánh. Mỗi loại có danh sách liên từ thường dùng và một câu ví dụ kèm bản dịch, nên bạn vừa tra nhanh vừa thấy cấu trúc trong ngữ cảnh. Phần cuối nói về vị trí trong câu và dấu phẩy khi mệnh đề đứng đầu.
+
 ## Khái niệm
 
 - Mệnh đề trạng ngữ là mệnh đề phụ thuộc đóng vai trò như trạng từ, bổ nghĩa cho động từ, tính từ, trạng từ khác, hoặc cả mệnh đề chính.

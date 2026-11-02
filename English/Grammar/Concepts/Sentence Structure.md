@@ -14,7 +14,7 @@ tags:
 
 ## Câu đơn (Simple Sentences)
 
-Câu đơn có **một mệnh đề độc lập** — **chủ ngữ (S)** và **động từ (V)** — có thể kèm **tân ngữ (O)**, **bổ ngữ (C)**, hoặc **trạng ngữ (A)**.
+Câu đơn có **một mệnh đề độc lập**, gồm **chủ ngữ (S)** và **động từ (V)**. Ngoài hai thành phần bắt buộc đó, câu có thể kèm **tân ngữ (O)**, **bổ ngữ (C)**, hoặc **trạng ngữ (A)**. Trật tự chung đặt trạng ngữ lên trước, sau đó là S, V. Tân ngữ có thể là trực tiếp hoặc gián tiếp. Bổ ngữ có thể bổ nghĩa cho chủ ngữ hoặc cho tân ngữ, còn trạng ngữ cho biết thời gian, nơi chốn hay cách thức. Từ nền này, phần sau đi tiếp sang câu ghép với các liên từ đẳng lập và câu phức với mệnh đề phụ thuộc. Cuối cùng là câu điều kiện, gồm mệnh đề if và mệnh đề chính.
 
 ### Công thức chung
 

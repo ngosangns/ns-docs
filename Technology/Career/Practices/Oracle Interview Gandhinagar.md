@@ -14,6 +14,8 @@ tags:
 
 # Oracle Interview Gandhinagar
 
+This note records a three round Oracle interview in Gandhinagar, Gujarat, rated 8 out of 10 for difficulty. Two rounds happened on the same day and the third followed the next week. Round one mixes a socks puzzle, word reversal, a sliding window substring problem, a handshake count, and two SQL salary queries. Round two turns to Java, covering method overriding, multi-threading with ExecutorService, and a concurrent ATM design. Round three adds date arithmetic without libraries, a longest common prefix problem, a zig-zag matrix traversal, and a table tennis puzzle. Each round notes its duration and difficulty, and the closing section lists preparation advice.
+
 **Location**: Gandhinagar, Gujarat, India  
 **Overview**: 3 interview rounds (2 rounds on the same day, 1 the following week)  
 **Overall difficulty**: 8/10

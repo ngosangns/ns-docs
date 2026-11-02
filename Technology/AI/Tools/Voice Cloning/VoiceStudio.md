@@ -16,7 +16,7 @@ resource: https://github.com/debpalash/VoiceStudio
 
 # VoiceStudio (formerly OmniVoice Studio)
 
-"OmniVoice Studio" is the old name of [VoiceStudio](https://voicestudio.sh/) ([debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio); the old URL `github.com/debpalash/OmniVoice-Studio` redirects there). The [rename page](https://voicestudio.sh/omnivoice-studio) says it is the same project, repo, and API; "OmniVoice" now names the default engine and some old installer files. Checked 2026-10-17.
+"OmniVoice Studio" is the old name of [VoiceStudio](https://voicestudio.sh/) ([debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio); the old URL `github.com/debpalash/OmniVoice-Studio` redirects there). The [rename page](https://voicestudio.sh/omnivoice-studio) says it is the same project, repo, and API; "OmniVoice" now names the default engine and some old installer files. It is a desktop app with an Electron front end and a FastAPI backend, and everything runs on the machine. There is no account and no cloud, apart from updates and model downloads. Voice cloning is zero-shot, so no training runs per voice. The app ships 14 swappable TTS engines and defaults to OmniVoice. Checked 2026-10-17.
 
 Not to be confused with the model itself, [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice), which VoiceStudio wraps.
 

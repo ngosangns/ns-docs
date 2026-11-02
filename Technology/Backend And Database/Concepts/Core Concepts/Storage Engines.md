@@ -15,6 +15,8 @@ resource: https://viblo.asia/p/su-khac-nhau-giua-2-storage-engine-myisam-va-inno
 
 # Storage Engines
 
+Choosing a MySQL storage engine sets the locking, transaction and indexing behaviour a table gets. This note compares MyISAM, InnoDB and MEMORY on those points, noting that InnoDB has been the default since 5.5 and supports row-level locking and foreign keys. The second half goes inside InnoDB. It explains the 16KB page as the basic storage unit, why a row cannot exceed half a page, and how VARCHAR, BLOB and TEXT columns move to overflow pages once a row grows past that limit. It closes with the COMPACT/REDUNDANT and DYNAMIC/COMPRESSED off-page formats and what each costs in page space and read speed.
+
 ## Storage Engines
 
 ### MyISAM

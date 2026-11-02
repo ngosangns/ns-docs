@@ -15,6 +15,8 @@ resource: https://neo4j.com/blog/developer/rag-tutorial/
 
 # RAG Tutorial Neo4j GraphRAG
 
+This tutorial walks through building a retrieval augmented generation system on top of a knowledge graph. It starts with the basics of RAG, covering chunking, embedding, storage, retrieval, and generation. The pipeline is then explained through its core components, from document loaders to retrieval strategy. The second half turns to GraphRAG and shows why combining vector search with graph reasoning helps with relationship questions and multi-step lookups. A hands-on guide then sets up Neo4j, loads and chunks documents, builds the graph, creates a vector index, and wires up retrieval and generation with LangChain. Closing sections collect best practices, common pitfalls with their causes and fixes, a short outlook, and reference links for further reading.
+
 > **Source**: [RAG Tutorial: How to Build a RAG System on a Knowledge Graph](https://neo4j.com/blog/developer/rag-tutorial/)
 
 ## What Is RAG?

@@ -136,6 +136,29 @@ All read through `okf-core`, so they share one parse/link model.
 | `backup.js`                  | `backup`                                      | Snapshot the workspace (used by `okf-migrate --backup`).                                                                          |
 | `export.js`                  | `export`                                      | Export the vault.                                                                                                                 |
 
+## Publication
+
+Two scripts turn notes into publishable output without changing the vault.
+
+| Script             | npm alias       | Purpose                                                                    |
+| ------------------ | --------------- | -------------------------------------------------------------------------- |
+| `publish-audit.js` | `publish:audit` | Measure every Concept against the publication contract.                    |
+| `publish-build.js` | `publish:build` | Project passing Concepts into `.publication/docs` and `.publication/blog`. |
+
+The contract has two gates.
+
+- **Docs ready.** The note has a title, description, timestamp, at least one tag, exactly one H1 that matches the title, a prose lead, at least 200 prose words, and no placeholder text. Notes that pass with minor polish items still publish.
+- **Blog ready.** The note also has a lead of 60 words, at least 350 prose words, a narrative ratio above 35%, an average sentence of 30 words or less, and no more than 10% of sentences past 40 words. The projection strips audit sections, autolinks bare URLs, and makes internal links absolute, so those do not block publication.
+
+`publish:audit` writes `.reports/publish-audit.json` and `.reports/publish-audit.md`. `publish:build` writes:
+
+- `.publication/docs/` with the vault path preserved and audit-only sections removed.
+- `.publication/blog/` with one flat dated post per blog-ready note and the H1 removed.
+- `.publication/QUEUE.md` with the notes that still fail, ordered by edit distance.
+- `.publication/manifest.json` with the source-to-output mapping.
+
+Both output directories are gitignored. Treat the queue as the rewrite backlog; re-run the audit after each batch to confirm the gate flips.
+
 ## Web (SolidJS site)
 
 The vault is published by a custom SolidJS static site generator in `web/`

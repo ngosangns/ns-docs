@@ -16,6 +16,8 @@ resource: https://github.com/twentyhq/twenty
 
 # Tools Notes
 
+Open-source business applications and terminal user-interface clients both collect here. The business list runs from social media scheduling and CRM to project management, SEO research and an ERP platform. Two entries are examined in detail, down to seed data, missing license files and GitHub repository counts. Terminal tools cover chat clients, a file manager, a Kafka client, a text editor, and Vue TermUI for building interfaces with Vue.
+
 ## Business Applications
 
 - https://github.com/brightbeanxyz/brightbean-studio — Open-source, self-hostable social media management platform for scheduling and publishing across 10+ platforms.

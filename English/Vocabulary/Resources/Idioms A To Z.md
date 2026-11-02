@@ -12,7 +12,7 @@ tags:
 
 # Idioms A To Z — Thành ngữ theo bảng chữ cái
 
-Bảng tra thành ngữ mở rộng — chủ yếu để **nhận diện** khi đọc và nghe. Cho các idiom cốt lõi nhóm theo chủ đề và lời khuyên sử dụng, xem [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions).
+Bảng tra thành ngữ mở rộng này chủ yếu để bạn **nhận diện** idiom khi đọc và nghe. Các mục xếp theo bảng chữ cái, chia thành bốn nhóm từ A đến C, D đến H, I đến P và R đến Z. Mỗi dòng gồm thành ngữ tiếng Anh in đậm và nghĩa tiếng Việt ngắn. Bạn tra theo chữ cái đầu, không cần đọc tuần tự. Phần Ghi chú ở cuối nhắc hai điều. Idiom mang tính thân mật, nên kiểm tra văn phong trước khi dùng trong bài viết. Nên học idiom trong câu trọn vẹn thay vì học cụm rời. Muốn xem các idiom cốt lõi nhóm theo chủ đề và lời khuyên sử dụng thì sang [Idioms And Expressions](/English/Vocabulary/Concepts/Idioms And Expressions).
 
 ## A–C
 

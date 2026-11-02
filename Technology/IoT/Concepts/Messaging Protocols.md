@@ -13,6 +13,8 @@ tags:
 
 # Messaging Protocols
 
+MQTT, CoAP, HTTP, and AMQP are the application-layer options here, each with a best fit. MQTT is lightweight pub/sub for constrained devices, sensors, remote monitoring, and real-time data. QoS 0, 1, and 2 mean at most once, at least once, and exactly once. The broker stores the last message for each topic, and a will is sent on an abnormal disconnect. CoAP is UDP-based and RESTful, can use DTLS, and fits low-power devices and simple REST APIs. HTTP and HTTPS suit devices with enough resources, via REST or webhooks, with an ESP32 POST and GET example in Smart Home. AMQP is heavier than MQTT, for complex routing and reliability.
+
 ## MQTT (Message Queuing Telemetry Transport)
 
 - **Lightweight**: Suited to resource-constrained devices

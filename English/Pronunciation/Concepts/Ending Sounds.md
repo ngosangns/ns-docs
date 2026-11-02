@@ -14,6 +14,8 @@ tags:
 
 Hai quy tắc phát âm hay ra thi nhất: đuôi **-ed** quá khứ và đuôi **-s/-es** (số nhiều, động từ ngôi ba số ít, sở hữu).
 
+Âm cuối của từ gốc quyết định -ed đọc là /t/, /d/ hay /ɪd/, và -s đọc là /s/, /z/ hay /ɪz/. Chỉ /t/ và /d/ trước -ed, hoặc âm xát trước -s, mới thêm một âm tiết. Hữu thanh đi với /d/ và /z/. Vô thanh đi với /t/ và /s/. Quy tắc nhìn âm, không nhìn mặt chữ, nên foxes đọc /ɪz/ còn coughed đọc /t/.
+
 ## Đuôi -ed — /t/ /d/ /ɪd/
 
 Âm phát ra phụ thuộc vào **âm cuối của động từ gốc**:
@@ -61,5 +63,7 @@ Các từ trông giống nhau nhưng khác âm cuối của từ gốc:
 
 - Các đuôi này là bắt buộc về ngữ pháp — nuốt đuôi khi nói cũng làm mất tín hiệu ngữ pháp (số nhiều, quá khứ, ngôi ba).
 - Quy tắc theo **âm**, không theo chữ: _fox_ tận cùng /ks/ → foxes /ɪz/; _cough_ tận cùng /f/ → coughed /t/.
+
+Ba cặp hay gặp cho thấy cùng một đuôi chữ nhưng khác âm. laughed kết thúc bằng âm vô thanh nên là /t/, played hữu thanh nên là /d/, wanted có /t/ ở gốc nên thêm /ɪd/. books là /s/, bags là /z/, boxes có âm xát nên /ɪz/. Cách kiểm tra nhanh là đặt ngón tay lên cổ họng khi đọc âm cuối của từ gốc. Có rung thì -ed thành /d/ và -s thành /z/. Không rung thì -ed thành /t/ và -s thành /s/. Nuốt đuôi khi nói làm mất số nhiều, quá khứ, hoặc ngôi ba. Jack's đọc /s/, John's đọc /z/, James's đọc /ɪz/.
 
 > **Xem thêm:** [IPA And Phonemes](/English/Pronunciation/Concepts/IPA And Phonemes) · [Word Stress](/English/Pronunciation/Concepts/Word Stress) · [Singular And Plural](/English/Grammar/Concepts/Singular And Plural) · [Verb Tenses](/English/Grammar/Concepts/Verb Tenses)

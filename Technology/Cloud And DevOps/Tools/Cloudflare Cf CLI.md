@@ -16,7 +16,7 @@ resource: https://github.com/cloudflare/cf
 
 # Cloudflare cf CLI
 
-[cloudflare/cf](https://github.com/cloudflare/cf) is Cloudflare's next-generation "agentic" CLI — designed for the agent era of software development and positioned as the successor to Wrangler for the entire Cloudflare API (Workers, KV, R2, D1, DNS, zones, Pages, Queues, WAF, Zero Trust/Access, Tunnels, Containers, Registrar, AI…). TypeScript, dual-licensed MIT/Apache-2.0, cross-platform (Windows/macOS/Linux). Currently in open beta: `npm i -g cf` (requires Node.js ≥ 22).
+[cloudflare/cf](https://github.com/cloudflare/cf) is Cloudflare's next-generation "agentic" CLI, built for the agent era of software development. It is positioned as the successor to Wrangler and covers the whole Cloudflare API, including Workers, KV, R2, D1, DNS, zones, Pages, Queues, WAF, Zero Trust/Access, Tunnels, Containers, Registrar, and AI. The CLI is TypeScript, dual-licensed MIT/Apache-2.0, and cross-platform (Windows/macOS/Linux). It is in open beta. Install it with `npm i -g cf` (requires Node.js ≥ 22). ~178 product command roots are generated from a pinned OpenAPI spec, and `cf cli search` helps an agent find a command without memorizing the tree.
 
 ## Agent-First Design
 
@@ -44,7 +44,7 @@ cf complete                        # shell completions via @bomb.sh/tab (runtime
 cf migrate                         # Wrangler → cloudflare.config.ts migration
 ```
 
-Generated leaves come straight from OpenAPI (`cf zones list`, `cf kv …`, `cf r2 …`); hand-written exceptions are a small, centrally-registered set (`auth`, `dev`, `build`, `deploy`, `init`, `previews`, `containers`, `tunnels`, `cli`) plus three leaf overrides where the request schema lives behind a sibling endpoint (`cf ai run`, `cf registrar registrations create`, `cf workers versions create`).
+Generated leaves come straight from OpenAPI (`cf zones list`, `cf kv …`, `cf r2 …`). Hand-written exceptions are a small, centrally-registered set (`auth`, `dev`, `build`, `deploy`, `init`, `previews`, `containers`, `tunnels`, `cli`). Three leaf overrides cover cases where the request schema lives behind a sibling endpoint (`cf ai run`, `cf registrar registrations create`, `cf workers versions create`).
 
 ## Repo Architecture
 

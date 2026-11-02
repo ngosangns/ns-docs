@@ -13,7 +13,7 @@ tags:
 
 # Email And Letter Writing — Viết email và thư
 
-Email và thư theo quy ước cố định — lời chào đầu, lời kết, và cụm mẫu chiếm phần lớn điểm trong bài viết thi.
+Email và thư theo những quy ước khá cố định. Lời chào đầu, lời kết và các cụm mẫu chiếm phần lớn điểm trong bài viết thi. Trang này mở bằng bảng so sánh khung format của thư trang trọng và thư thân mật. Sau đó là cách chọn Yours sincerely hay Yours faithfully. Tiếp theo là các cụm mẫu xếp theo mục đích, từ mở đầu, yêu cầu thông tin, khiếu nại và xin lỗi, cho đến câu kết. Phần quy tắc văn phong nhắc bạn giữ đúng một giọng, trang trọng hoặc thân mật, và tránh những lỗi lệch giọng. Cuối cùng là vài ghi chú khi làm bài, ví dụ nêu mục đích ngay câu đầu và đáp ứng hết các ý đề yêu cầu.
 
 ## Khung format
 

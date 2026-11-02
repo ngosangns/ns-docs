@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/material
 
 # Materialized View Pattern
 
-Generate precomputed or preformatted views of data from one or more data stores when the source data isn't in an ideal format for specific query operations. This pattern supports efficient querying, fast data extraction, and improved application performance.
+Generate precomputed or preformatted views of data from one or more data stores when the source data isn't in an ideal format for specific query operations. This pattern supports efficient querying, fast data extraction, and improved application performance. Trade-offs get attention as well, covering disposable read-only views that can be rebuilt from source and the eventual consistency model the approach accepts.
 
 ## Summary
 

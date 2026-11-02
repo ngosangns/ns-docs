@@ -3,8 +3,8 @@ area: travel
 domain: china
 type: guide
 title: Visa Trung Quốc
-description: "Ghi chép visa du lịch Trung Quốc - đi qua đại lý so với tự nộp hồ sơ L30 tại TP.HCM"
-timestamp: "2026-10-13T00:00:00.000Z"
+description: "Ghi chép visa du lịch Trung Quốc - đi qua đại lý so với tự nộp hồ sơ L30 tại TP.HCM. Khứ hồi Hà Nội–Hà Khẩu về Việt Nam không thuộc miễn visa transit 240 giờ"
+timestamp: "2026-10-31T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -12,6 +12,10 @@ tags:
 ---
 
 # Visa Trung Quốc
+
+## Khứ hồi đường bộ vẫn cần visa
+
+Từ 20/08/2026 hộ chiếu phổ thông Việt Nam được miễn visa transit 240 giờ nếu có vé nối đã chốt sang nước hoặc vùng thứ ba, và được ở Hải Nam 30 ngày nếu vào rồi chỉ ở trong tỉnh đó. Xem [Trung Quốc](/Travel/Destinations/International/China). Chuyến Hà Nội → Hà Khẩu → bay về Hà Nội không có chặng thứ ba, nên vẫn visa L. Một người đi sát ngày cuối tháng 10 trả đại lý 2,5 triệu, cùng mức visa 30 ngày ở dưới, và khuyên nộp trước khoảng một tháng. Lịch chuyến đó nằm ở [Hà Khẩu – Shangri-La – Á Đinh, 10 ngày](/Travel/Trips/Hekou Shangri-La Yading October).
 
 ## Đi qua đại lý
 

@@ -17,7 +17,11 @@ tags:
 
 ### Non-Functional Requirements (NFR)
 
-**Non-Functional Requirements (NFR)** are requirements not directly tied to the specific functions the system must perform; instead, they define the standards the system needs to meet. NFRs typically include:
+**Non-Functional Requirements (NFR)** are requirements not directly tied to the specific functions the system must perform; instead, they define the standards the system needs to meet.
+
+They usually cover performance, scalability, security, availability, maintainability, usability, reliability, and compatibility. A system can do its job and still fail these standards in real use. Capability can mean the services the software provides, or the skills, processes, and technology an organization needs. Logging and benchmarking are required practices in this note.
+
+NFRs typically include:
 
 1. **Performance:** response speed, processing time, and load tolerance.
 2. **Scalability:** the system's ability to expand as workload grows.
@@ -29,6 +33,8 @@ tags:
 8. **Compatibility:** compatibility with other systems or environments.
 
 NFRs are essential to ensure that a system not only works functionally but also performs well in the real world and meets performance and quality requirements.
+
+Performance covers response speed, processing time, and load tolerance. Scalability is the ability to expand as the workload grows. Security protects data and prevents unauthorized access. Availability is the time the system stays up and running. Maintainability is how easily it can be maintained and updated. Usability is how easy the system is for end users. Reliability is stable operation over a long period. Compatibility is how well it works with other systems or environments. System capability is the service itself, for example storing customer information, tracking transactions, and sending marketing emails. Organizational capability covers skills, processes, and technology, such as developing software, managing projects, and securing information. Business analysis should list the functional requirements, the non-functional requirements, and those capabilities together.
 
 ### Capability
 

@@ -15,7 +15,7 @@ tags:
 
 # Transactional Outbox
 
-The Transactional Outbox pattern solves the "dual write" problem in distributed systems: a single operation that both writes to a database and sends a message or event, but cannot guarantee atomicity.
+The Transactional Outbox pattern solves the "dual write" problem in distributed systems. A single operation writes to a database and sends a message or event, but it cannot guarantee that both happen. If the database write succeeds and the send fails, downstream services never learn about the change. If the write fails and the event still goes out, downstream services act on data that does not exist. The pattern closes that gap. The application stores the event in an outbox table inside the same transaction as the business data, and a separate process publishes it afterwards.
 
 ## The Dual Write Problem
 

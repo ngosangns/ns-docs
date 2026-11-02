@@ -12,6 +12,8 @@ tags:
 
 # Development Workflow
 
+The workflow has four stages, from a local prototype to later maintenance. Prototyping chooses a board such as ESP32, Arduino, or Raspberry Pi, sets up the development environment, writes firmware or software, and tests locally. Integration connects a platform such as Home Assistant or AWS IoT, sets up communication protocols, adds authentication and security, and tests the end-to-end flow. Deployment flashes firmware onto devices, configures network settings, registers devices with the platform, and sets up monitoring and logging. Maintenance monitors device health, updates firmware as needed, handles errors and edge cases, and scales the system as needed. See also names Hardware Platforms, Development Tools, and Best Practices.
+
 ## Prototyping
 
 1. Choose a hardware platform (ESP32, Arduino, Raspberry Pi)

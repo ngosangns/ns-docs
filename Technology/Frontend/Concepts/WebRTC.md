@@ -16,7 +16,7 @@ resource: https://webrtc.org/
 
 ## Overview
 
-WebRTC (Web Real-Time Communication) is a technology that lets browsers and applications stream audio, video, and data directly to each other without plugins or native apps.
+WebRTC (Web Real-Time Communication) is a technology that lets browsers and applications stream audio, video, and data directly to each other without plugins or native apps. The note follows the path from a first prototype to a connection that works across different networks. It opens with MediaStream, RTCPeerConnection, and RTCDataChannel, then explains signaling and the offer and answer exchange. ICE candidate sharing comes next. Short code blocks show the call for each of those steps. A section on NAT traversal shows how STUN, TURN, and ICE find a path, with TURN as the fallback when P2P fails. Security, wrapper libraries, and operational best practices close the note. The resources section lists the official WebRTC site, the samples page, and the MDN documentation.
 
 ## Characteristics
 

@@ -18,6 +18,8 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/ambassad
 
 The Ambassador pattern creates helper services that send network requests on behalf of a consumer service or application. You can think of an ambassador service as an out-of-process proxy that is co-located with the client.
 
+The proxy takes on circuit breaking, routing, monitoring, and TLS so each language does not repeat that work. It can run as a sidecar that shares the app lifecycle, or as a daemon. The extra hop adds latency. Retries belong here only when the call is idempotent. Use it for legacy apps and when many languages need the same connectivity.
+
 ## Context and Problem
 
 Modern cloud applications need features such as circuit breaking, routing, monitoring, and the ability to update network configuration. However:

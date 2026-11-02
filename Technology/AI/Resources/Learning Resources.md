@@ -14,6 +14,8 @@ resource: https://www.datacamp.com/learn/popular/ai
 
 # Learning Resources
 
+This page lists learning resources for AI, machine learning and the work around them. The courses section starts with an AI course catalog and a short course on building agents, then adds a video series on MLOps and a repository of ML system design case studies. A hub with guides on LLMs, RAG and agents closes that part. The reading material section is looser. It mixes a RAG tutorial built on Neo4j, roadmap and book links, articles on data versioning and spelling correction, and paper reading notes on Whisper, RLHF and reasoning models. Pick a track from the headings and work down the links.
+
 ## Courses
 
 - [DataCamp – AI Courses for Every Level](https://www.datacamp.com/learn/popular/ai): Interactive AI courses covering machine learning, generative AI, ChatGPT, and AI ethics. Suited to beginners, with a clear learning path. #course

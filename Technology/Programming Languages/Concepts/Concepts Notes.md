@@ -15,6 +15,10 @@ resource: https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
 
 # Concepts Notes
 
+These notes cover the Go runtime scheduler and the operating-system scheduler article it builds on. The notation uses M for an OS thread, P for a thread, CPU, or logical processor in Go, and G for a coroutine or process, also called a goroutine.
+
+Each P is assigned to an M when a Go program runs. An M relies on its P to context-switch Gs. Run queues come in two kinds. The global run queue is the GRQ. The local run queue is the LRQ, and there is one LRQ per P.
+
 ## Golang Scheduler
 
 ### Resources

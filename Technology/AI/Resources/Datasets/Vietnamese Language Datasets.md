@@ -16,7 +16,7 @@ resource: https://www.facebook.com/groups/machinelearningcoban/posts/20677720903
 
 # Vietnamese Language Datasets
 
-Summary of a post about the collaboration between Viettel and NVIDIA to build Vietnamese large language models.
+Summary of a post about the collaboration between Viettel and NVIDIA to build Vietnamese large language models. The note walks through three artifacts from that work. The curated corpus holds 15 billion tokens drawn from several sources, deduplicated and filtered with NeMo Curator. The instruct set adds 4.5 million samples across summarization, question answering, translation, reasoning and content generation. The third artifact is a function calling benchmark, hand built and independent of the Frog model, with 2,899 samples over 159 functions in 10 domains. Each section lists scale, sources and the Hugging Face link, and the benchmark section adds scores for several models so readers can compare them.
 
 **Source:** [Facebook Post - Machine Learning cơ bản](https://www.facebook.com/groups/machinelearningcoban/posts/2067772090346854/)
 

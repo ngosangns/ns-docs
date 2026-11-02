@@ -15,7 +15,7 @@ resource: https://viblo.asia/p/job-counting-bai-toan-hoc-bua-ma-uber-giai-quyet-
 
 # Apache Pinot
 
-An open-source distributed database created at LinkedIn in the mid-2010s, open-sourced in 2015, and donated to the Apache Foundation in 2019.
+Apache Pinot is an open-source distributed database created at LinkedIn in the mid-2010s, open-sourced in 2015, and donated to the Apache Foundation in 2019. This note explains why it suits real-time analytics and how it stays fast. It covers horizontal scaling by partitioning, columnar storage that reads only the columns a query needs, and low-latency ingestion. Three optimization techniques follow, the inverted index, the bloom filter, and sorting by frequently queried columns. The Uber job counting case then applies those techniques to a real problem with more than 150 million users and nearly 10 billion trips a year, plus a note on dampening request spikes with jitter.
 
 ## Features
 

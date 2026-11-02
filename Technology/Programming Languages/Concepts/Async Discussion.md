@@ -18,6 +18,8 @@ tags:
 
 In JavaScript, when the current call stack returns or waits on an async task, the whole call stack is treated as an async call stack (for example, a function that uses `await` must also be marked with the `async` keyword). The current call stack is then moved to the callback queue.
 
+PHP uses Fibers instead of a callback queue. Each Fiber is called a green thread or a coroutine. The main process can be served by more than one thread.
+
 ## Async in PHP
 
 In PHP, the VM manages call stacks per process rather than per thread (the VM decides how work is divided across threads). So when you use async with Fibers, you are creating additional, separate Fiber processes to do the work and then return the result if needed (an event loop can be used to receive the results).
@@ -27,5 +29,7 @@ Here, a "process" can be called a green thread or coroutine. Each process has it
 Unlike threads, which the OS or runtime schedules so they can context-switch, these processes plan for themselves when to hand control to one another. For example, a Fiber has a `suspend()` function that hands control back to the parent process together with the result, if any, and the main process can hand control to the Fiber with the `resume()` method.
 
 PHP does not yet have truly asynchronous execution, because when one process in a process tree is running, the other processes in that tree must stop (whether a server handling many requests can have multiple process trees has not been tested). Today, a few frameworks and libraries implement async in PHP by imitating JS (for example, an event loop).
+
+In PHP the VM keeps a call stack per process, not per thread, and the VM chooses how work is split across threads. A Fiber is one of those extra processes. It carries its own call stack, program counter, and registers. The parent can resume it, and suspend hands control back with a result if there is one. Unlike threads, which the OS or runtime schedules, these processes decide for themselves when to hand control over. PHP still lacks truly asynchronous execution. If one process in a tree is running, the others in that tree must stop. A few frameworks imitate JavaScript with an event loop and collect Fiber results that way.
 
 > **See also:** [Defer Async Inline](/Technology/Programming Languages/Concepts/Defer Async Inline) · [Golang Scheduler](/Technology/Programming Languages/Concepts/Concepts Notes#golang-scheduler)

@@ -14,6 +14,8 @@ tags:
 
 Collocation là **cụm từ kết hợp tự nhiên** — "make a decision", không phải "do a decision". Collocation phần lớn là quy ước tùy ý, phải học nguyên cụm; chúng là khác biệt giữa tiếng Anh đúng và tiếng Anh tự nhiên.
 
+Cặp động từ với danh từ là bẫy hay gặp, nhất là make và do. Make tạo ra kết quả, do là làm một việc, nên nói make a decision nhưng do homework. Heavy đi với rain, strong đi với coffee, không nói powerful coffee. Đề cloze chấm bằng cụm, nên ghi cả cụm như commit a crime. OZDIC giúp khi câu dịch đúng mà nghe lạ.
+
 ## Động từ + Danh từ
 
 | Động từ  | Collocations                                                                        |

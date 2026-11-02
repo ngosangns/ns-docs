@@ -14,6 +14,12 @@ resource: https://github.com/sysown/proxysql
 
 # Database In Microservices
 
+Database access in microservices can sit behind a reverse proxy, a load balancer, or a MySQL cluster. This note lists those tools, then the data synchronization options.
+
+ProxySQL is a high-performance reverse proxy for MySQL. It covers query routing, caching, and sharding. HAProxy is a TCP and HTTP load balancer. Vitess covers MySQL clustering, sharding, and connection pooling. The reverse proxy and load balancing section names these three tools.
+
+Data synchronization is the other group. Dataguard is Oracle Database's solution for high availability and disaster recovery. Other systems use replication. The three tools are ProxySQL, HAProxy, and Vitess. Sharding Partitioning and MySQL are the related notes.
+
 ## Reverse Proxy and Load Balancing
 
 - **ProxySQL**: High-performance reverse proxy for MySQL with query routing, caching, and sharding - [GitHub](https://github.com/sysown/proxysql)

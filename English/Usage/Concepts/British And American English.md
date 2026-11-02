@@ -12,7 +12,7 @@ tags:
 
 # British And American English — Tiếng Anh-Anh và Anh-Mỹ
 
-Tiếng Anh Anh (BrE) và Mỹ (AmE) hiểu lẫn nhau được — khác biệt có quy luật và chia thành bốn nhóm: chính tả, từ vựng, ngữ pháp, phát âm.
+Tiếng Anh Anh (BrE) và tiếng Anh Mỹ (AmE) hiểu lẫn nhau được. Khác biệt giữa hai hệ có quy luật và chia thành bốn nhóm. Bốn nhóm đó là chính tả, từ vựng, ngữ pháp và phát âm. Trang này đi qua từng nhóm, mỗi nhóm là một bảng hoặc danh sách đối chiếu BrE với AmE để bạn tra nhanh. Bạn sẽ thấy các cặp như colour và color, flat và apartment, cùng những khác biệt ngữ pháp và phát âm hay gặp. Phần ghi chú chốt lại quy tắc nhất quán, vì trộn hai hệ trong một bài viết là lỗi bị trừ điểm. Các kỳ thi như THPT và IELTS chấp nhận cả hai hệ, miễn là bạn giữ một hệ từ đầu đến cuối.
 
 ## Chính tả
 

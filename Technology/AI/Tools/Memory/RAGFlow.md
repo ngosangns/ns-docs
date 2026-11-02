@@ -19,6 +19,8 @@ resource: https://github.com/infiniflow/ragflow
 
 **RAGFlow** is a leading open-source Retrieval-Augmented Generation (RAG) engine that combines advanced RAG with agent capabilities to create a superior context layer for LLMs. It stands out with 77.8k stars and 8.8k forks on GitHub.
 
+Installation expects at least 4 CPU cores, 16 GB of RAM, 50 GB of disk, Docker 24.0.0, and Docker Compose v2.26.1. The backend is Python 3.12 and Go. The frontend is React. MySQL, MinIO, and Redis handle storage. Elasticsearch is the default doc engine, and you can switch it to Infinity. gVisor is optional and is there for the code executor.
+
 ## Installation
 
 ### Prerequisites
@@ -121,6 +123,8 @@ Full documentation is hosted at: **ragflow.io/docs/dev/**
 - **Embedding**: Configurable embedding models
 - **Retrieval**: Multiple recall + fused re-ranking
 - **Generation**: Grounded response generation
+
+Template chunking prepares documents for retrieval. General, paper, book, laws, manual, resume, table, presentation, and QA templates each match a document shape. People can inspect the chunks, open key references, and trace a citation to its source. That tracing is how hallucinations are reduced. Embedding uses a configurable model. Retrieval can use more than one recall path and a fused re-rank before generation. The REST API covers datasets, uploads, chunk settings, retrieval tests, and chat. This suits production work on PDFs, scans, tables, images, and sources such as Confluence, S3, Notion, Discord, and Google Drive. MySQL, the doc engine, and MinIO all have to be running, and the system is not a knowledge graph.
 
 ## Architecture
 

@@ -14,6 +14,8 @@ resource: https://viblo.asia/p/gioi-thieu-ve-web-components-07LKXxkpKV4
 
 # Frontend Overview
 
+Frontend work spans browser APIs, rendering models, build tooling and design systems, and keeping track of all four is hard. This overview maps each area in turn, from WebRTC, WebGPU and storage options through SPA, SSR and ISR to performance patterns around Core Web Vitals. It then gathers UI libraries, Tailwind resources, JavaScript utilities and two design intelligence skills for AI coding agents.
+
 ## Foundations And Concepts
 
 ### Web APIs

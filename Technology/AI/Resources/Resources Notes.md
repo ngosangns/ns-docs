@@ -16,6 +16,8 @@ resource: https://vast.ai/
 
 # Resources Notes
 
+This page points to Vast.ai for GPU rental and to Awesome Vietnamese NLP for Vietnamese language work. The hardware link is titled Rent GPUs and opens Vast.ai. Awesome Vietnamese NLP is a curated list of resources and tools for natural language processing in Vietnamese, hosted on GitHub. Hardware rent is the first section. Vietnamese NLP resources are the second section. Learning Resources and AI Tools And Resources are the notes placed with the rental link. Vietnamese Language Datasets and LLM Learning Resources are the notes placed with the language list. Rent GPUs on Vast.ai when the task needs rented hardware. Use the curated list when the task needs Vietnamese NLP resources and tools.
+
 ## Hardware Rent
 
 - [Rent GPUs | Vast.ai](https://vast.ai/)

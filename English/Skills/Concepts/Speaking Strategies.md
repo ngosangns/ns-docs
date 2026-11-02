@@ -13,7 +13,7 @@ tags:
 
 # Speaking Strategies — Chiến lược nói
 
-Lưu loát = thành thạo tự động các **cụm từ (chunks)** + thoải mái điều khiển hội thoại — không phải ngữ pháp hoàn hảo được nói ra chậm rãi.
+Lưu loát đến từ việc tự động hóa các **cụm từ (chunks)** và sự thoải mái khi điều khiển hội thoại. Nó không phải là ngữ pháp hoàn hảo được nói ra thật chậm. Trang này gom các cách luyện để phản xạ đó thành tự động, gồm học theo cụm, shadowing, tự thuật lại ngày của mình và tự ghi âm để đếm lỗi. Tiếp theo là bộ câu cứu hội thoại, cho lúc cần nhắc lại, câu giờ hoặc diễn đạt lại. Phần phát âm xếp thứ tự ưu tiên riêng cho người Việt, từ phụ âm cuối đến trọng âm câu, các âm khó và ngữ điệu. Cuối trang là những lỗi hay mắc và vài ghi chú về việc luyện chính xác khác với luyện lưu loát.
 
 ## Xây dựng phản xạ tự động
 

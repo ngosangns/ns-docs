@@ -16,7 +16,7 @@ resource: https://github.com/repowise-dev/repowise
 
 ## Definition
 
-**Repowise** is more than a code knowledge graph — it merges **graph + git history + docs + "decisions" (ADR mining) + code health** into a single index that serves both agents and humans (local dashboard, PR bot). Tagline: "Understand your codebase without paying your agent to rediscover it."
+**Repowise** is more than a code knowledge graph. It merges **graph + git history + docs + "decisions" (ADR mining) + code health** into a single index that serves both agents and humans (local dashboard, PR bot). Its tagline is "Understand your codebase without paying your agent to rediscover it." The graph layer covers 26 AST-parsed languages with call resolution, communities, and execution flows. The git layer adds hotspots, ownership, and bus factor, which static analysis cannot see. A risk command scores a change from 0 to 10, and a free PR bot comments on GitHub. The core runs without an LLM, so the analysis stays deterministic. It ships under AGPL-3.0 or a commercial license.
 
 ## Key Metrics
 

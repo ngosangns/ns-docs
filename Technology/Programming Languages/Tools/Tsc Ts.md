@@ -16,7 +16,7 @@ resource: https://github.com/vercel-labs/tsc-ts
 
 # Tsc Ts
 
-[tsc-ts](https://github.com/vercel-labs/tsc-ts) ([tsc-ts.dev](https://tsc-ts.dev)) is a Vercel Labs experiment: the TypeScript 7.0.2 compiler, which Microsoft wrote in Go as [typescript-go](https://github.com/microsoft/typescript-go) (tsgo), ported back into TypeScript and compiled to a native executable with [scriptc](https://scriptc.dev). The repo description is "TypeScript written in TypeScript".
+[tsc-ts](https://github.com/vercel-labs/tsc-ts) ([tsc-ts.dev](https://tsc-ts.dev)) is a Vercel Labs experiment that ports a compiler back into TypeScript. Microsoft wrote the TypeScript 7.0.2 compiler in Go as [typescript-go](https://github.com/microsoft/typescript-go) (tsgo), and tsc-ts ports that work back into TypeScript and compiles it to a native executable with [scriptc](https://scriptc.dev). The repo description is "TypeScript written in TypeScript". It takes the same arguments as `tsc`, so it can stand in where a build already calls `tsc`, and it also serves a `--api` endpoint over stdin and stdout. The npm package is at 0.0.5, the project is labeled an experiment, and the README says every compared compiler stage matches tsgo on TypeScript's test corpus.
 
 Checked 2026-10-21 against the repo README, `packages/tsc-ts/README.md`, `CHANGELOG.md` for 0.0.5, and the npm registry. Nothing was installed or run.
 

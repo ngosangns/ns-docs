@@ -15,6 +15,10 @@ tags:
 
 # Bloom Filter
 
+A Bloom filter tests whether an element belongs to a set. The note calls it a probabilistic structure, suited to fast checks and low memory use. A "no" answer is certain. A "yes" answer can be wrong. Several hash functions map one element onto several bits. The basic version cannot delete an item exactly.
+
+The applications listed here are membership checks in other systems. They include caching, spam detection, search engines, distributed databases, packet routing, and DNS query filtering. The same list adds duplicate detection, content filtering, some cryptographic uses, and password breach detection.
+
 ## Overview
 
 A Bloom filter is a probabilistic data structure that tests whether an element belongs to a set. It is especially useful in applications that need fast checks and low memory usage.

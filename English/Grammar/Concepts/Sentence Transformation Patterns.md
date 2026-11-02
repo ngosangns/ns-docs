@@ -12,6 +12,8 @@ tags:
 
 # Sentence Transformation Patterns — Các mẫu viết lại câu
 
+This page collects 40 sentence transformation patterns used in English exams, where a sentence must be rewritten without changing its meaning. Each pattern starts from one structure and shows the equivalent form, such as Because, Since, and As against Because of, As a result of, and Due to. Every entry gives the grammar formula first and then example sentences that show the rewrite in context. The patterns cover cause and effect, contrast, condition, comparison, passive voice, reported speech, time expressions, wishes, and causative forms. Work through one pattern at a time, then cover the example and produce the second form from the first.
+
 ## Mẫu 1: Because / Since / As ↔ Because of / As a result of / Due to
 
 **Cấu trúc:**

@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/compensa
 
 # Compensating Transaction Pattern
 
-The Compensating Transaction pattern is used to undo work performed by a series of steps in an eventually consistent operation. If one or more steps in the process fail, the pattern brings the system back to a stable state instead of relying on a traditional (ACID) rollback mechanism.
+The Compensating Transaction pattern is used to undo work performed by a series of steps in an eventually consistent operation. If one or more steps in the process fail, the pattern brings the system back to a stable state instead of relying on a traditional (ACID) rollback mechanism. These steps often run across several services, and earlier ones can't simply be rolled back because the data may already be changed or saved elsewhere. Instead, the system runs compensating transactions that reverse the effects of the steps that succeeded. Each step needs a matching compensating step, and the system logs completed steps to track what it must undo. In a trip booking, a failed car reservation triggers cancellation of the hotel room and the flight.
 
 ## Context and Problem
 

@@ -12,6 +12,8 @@ tags:
 
 # Reported Speech — Câu gián tiếp / Tường thuật
 
+Bài này gom các mẫu câu gián tiếp trong tiếng Anh. Phần khái niệm nêu mục đích kể lại lời nói mà không trích nguyên văn. Phần các dạng chia theo năm kiểu câu, gồm trần thuật, hỏi yes/no, hỏi có từ để hỏi, mệnh lệnh và cảm thán. Mỗi kiểu có công thức và một câu ví dụ kèm bản dịch. Phần lùi thì lập bảng năm cặp thì, từ hiện tại đơn xuống tới tương lai trong quá khứ. Phần đổi trạng ngữ liệt kê các cặp từ chỉ thời gian và nơi chốn. Phần ghi chú nhắc hai ngoại lệ. Việc lùi thì không bắt buộc khi nội dung vẫn đúng ở lúc tường thuật, và that có thể bỏ sau động từ tường thuật.
+
 ## Khái niệm
 
 - Câu gián tiếp kể lại lời ai đó nói mà không trích nguyên văn.

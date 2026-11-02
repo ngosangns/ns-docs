@@ -12,7 +12,7 @@ tags:
 
 # Discourse Markers — Từ nối giao tiếp
 
-Discourse markers là các từ và cụm nhỏ tổ chức lời nói — thể hiện thái độ, chuyển chủ đề, câu giờ. Chúng gần như không mang nghĩa riêng nhưng làm lời nói nghe tự nhiên và liền mạch. Từ nối trong văn viết đã trình bày ở [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives); note này tập trung vào bộ **khẩu ngữ**.
+Discourse markers là các từ và cụm nhỏ dùng để tổ chức lời nói. Chúng thể hiện thái độ, chuyển chủ đề hoặc câu giờ. Gần như chúng không mang nghĩa riêng. Nhưng thiếu chúng, lời nói nghe rời rạc và kém tự nhiên. Người bản ngữ dùng marker liên tục mà không để ý. Note này chia marker thành bốn nhóm. Đó là câu giờ và làm mềm, điều khiển hội thoại, thái độ và tương phản, tổ chức bài nói dài. Cuối note có bảng đối chiếu marker khẩu ngữ với bản trang trọng trong văn viết. Từ nối trong văn viết đã trình bày ở [Conjunctions And Connectives](/English/Grammar/Concepts/Conjunctions And Connectives), nên note này chỉ tập trung vào bộ **khẩu ngữ**.
 
 ## Câu giờ / Làm mềm
 

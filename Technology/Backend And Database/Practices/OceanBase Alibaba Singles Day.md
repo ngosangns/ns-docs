@@ -13,6 +13,8 @@ tags:
 
 # OceanBase Alibaba Singles Day
 
+This case study looks at how OceanBase carried Alibaba's 11.11 Singles Day peak of 544,000 TPS with zero loss and zero downtime. It starts with the event numbers and a comparison against Visa and PayPal. The next section explains why Oracle, MySQL, PostgreSQL, and NoSQL each fell short at that scale and what OceanBase promised instead. Architecture follows, covering OBProxy, OBServer, RootService, and colocation that keeps one user's data on one server. Storage, Paxos replication, HTAP, and dynamic load balancing come next. It closes with the trade-offs, namely extra replicas and harder debugging.
+
 ## Event Overview (Performance Metrics)
 
 - **Peak traffic:** 544,000 TPS (Transactions Per Second), reached within just 3 seconds from 50k TPS.

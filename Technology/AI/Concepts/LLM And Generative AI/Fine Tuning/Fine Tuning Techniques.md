@@ -14,7 +14,7 @@ resource: https://docs.h2o.ai/h2o-llmstudio/
 
 # Fine Tuning Techniques
 
-In the world of Large Language Models (LLMs), fine-tuning is an extremely important step for helping a model understand and solve our specific tasks. But is traditional fine-tuning really the optimal approach? Here I compare three popular fine-tuning techniques (fine-tuning, LoRA, and QLoRA) and help you understand when to use which! 🚀
+In the world of Large Language Models (LLMs), fine-tuning is an extremely important step for helping a model understand and solve our specific tasks. But is traditional fine-tuning really the optimal approach? Here I compare three popular fine-tuning techniques (fine-tuning, LoRA, and QLoRA) and help you understand when to use which. Each one gets the same treatment, namely what it changes, what quality it buys, and what it costs in GPUs and memory. Full fine-tuning touches every weight, but it needs many GPUs and a lot of time. LoRA tunes only the attention weights and trains much faster on far less hardware. QLoRA adds quantization on top, so very large models fit on a small number of GPUs. The conclusion sums up which one to pick. 🚀
 
 ## Fine-tuning – Tuning the Entire Model
 

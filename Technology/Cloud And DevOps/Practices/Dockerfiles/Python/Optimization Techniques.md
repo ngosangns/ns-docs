@@ -14,6 +14,12 @@ tags:
 
 # Optimization Techniques
 
+This document analyzes Dockerfile optimization techniques for Python applications in detail. The analysis is based on five sample Dockerfiles that take different approaches. The contents table names four builds.
+
+UV plus Distroless Multi-Arch is described as high security with distroless, multi-arch support, and fast builds with UV. Ultra Optimized Alpine targets an extremely small size, under 110MB, with thorough optimization. Wheel-based Offline Installation covers offline installation, reproducible builds, and automatic security patching. UV plus Alpine with Tini is called simple and easy to maintain. That row also includes the overall comparison, best practices, and the conclusion.
+
+The closing links point to UV Distroless, Alpine Optimized, and Wheel Offline. Each of the four rows links to its own note. The fourth build is not repeated in those closing links.
+
 ## Overview
 
 This document analyzes Dockerfile optimization techniques for Python applications in detail, based on 5 sample Dockerfiles that take different approaches.

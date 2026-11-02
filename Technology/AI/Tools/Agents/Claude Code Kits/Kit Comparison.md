@@ -15,6 +15,8 @@ resource: https://github.com/affaan-m/ECC
 
 # Kit Comparison
 
+Seven Claude Code kits sit side by side here. ECC is the full ecosystem, with 264k stars, and the repo name is affaan-m/ECC. oh-my-claudecode and claude-task-master both have more than 25k stars. claude-capsule-kit stores session memory in SQLite. claudekit focuses on real-time guards and review. claudekit-cli is the dashboard. claudekit-skills is the set of specialized domain skills. Pairings later mix task management with orchestration, or memory with guards.
+
 ## Category Overview
 
 | Category                      | Tool                         |

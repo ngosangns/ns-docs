@@ -16,6 +16,8 @@ resource: https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekogniti
 
 # Computer Vision
 
+This note collects links on face recognition and on object detection. One Vietnamese article on Viblo describes an AWS serverless API, written in Golang, that uses Amazon Rekognition to search for faces by image. The face_recognition repository is listed next to that article. DeepFace is an open-source Python library for face recognition and analysis. It supports multiple models and functions such as face detection, recognition, and emotion and gender classification. A second Viblo article calls open vocabulary object detection a new trend in object detection. Related notes are Transfer Learning and Vision Transformers.
+
 ## Face Recognition
 
 - [AWS Serverless] - Using Golang and Amazon Rekognition to build an API that searches for faces by image (Vietnamese article on Viblo): https://viblo.asia/p/aws-serverless-su-dung-golang-va-amazon-rekognition-de-xay-dung-api-tim-kiem-khuon-mat-bang-hinh-anh-yZjJY96XJOE #AWS #Rekognition #faceRecognition

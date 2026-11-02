@@ -15,6 +15,8 @@ tags:
 
 # Optimization Techniques
 
+This note is the hub for four Java and Spring Boot Dockerfile variants, from a simple Alpine build to an aggressively optimized one. A contents table links each variant and gives its rough image size, and a comparison table scores them on build time, security, maintainability, debug capability, performance, and compliance. The middle of the note collects the techniques those variants share, such as multi-stage builds, BuildKit cache mounts, custom JREs, Spring Boot layers, and SHA256 pinning. Later sections turn that into guidance on when to pick each approach, plus security, performance, and build notes. A ten-point best practices checklist closes the page.
+
 ## Overview
 
 A detailed analysis of four Dockerfile optimization techniques for Java/Spring Boot applications, ranging from simple to extremely optimized in terms of size, security, and performance.

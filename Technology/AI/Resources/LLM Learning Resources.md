@@ -13,6 +13,8 @@ resource: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 
 # LLM Learning Resources
 
+This page gathers links for learning large language models. The first entries cover memory and knowledge for LLMs, followed by beginner courses and tours of LangChain. A large group of links deals with retrieval augmented generation, from building a RAG pipeline to adding function calling. Prompt engineering appears through survey material, OpenAI strategies and a Vietnamese explainer. Fine tuning has a walkthrough with Unsloth. Model internals come through paper reading on Mixtral. The last section collects math explanations for Mixture of Experts, Grouped Query Attention and Flash Attention. Most entries are articles, so treat the page as a reading queue rather than a course.
+
 - [Tang Jie: Advanced Machine Learning (Thanh Hoa, 2026)](/Technology/AI/Write Ups/Tang Jie Advanced Machine Learning): a build-it-yourself pipeline running from a tokenizer and a 0.1B transformer, through Triton attention and scaling laws, to controlled SFT / DPO / RLVR comparisons and long-horizon agent tasks with a self-judge. Includes the judgments he shared at the opening session.
 - How to feed knowledge / memory to an LLM: https://viblo.asia/p/memory-in-llm-agent-n1j4lkwMVwl
 

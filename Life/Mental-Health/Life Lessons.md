@@ -10,6 +10,10 @@ tags:
   - life-skills
 ---
 
+# Life Lessons
+
+Trang này ghi lại hai danh sách đúc kết về lối sống, không có phần diễn giải dài. Danh sách đầu là 40 thói quen tốt cho người muốn sống lâu và khỏe mạnh, trải từ ăn uống, ngủ nghỉ, tập luyện đến cách giữ tâm trí nhẹ nhàng. Danh sách sau là 20 nghịch lý trong đời, mỗi mục một câu quan sát kèm giải thích ngắn và ví dụ. Hai phần bổ sung cho nhau. Phần đầu thiên về việc nên làm mỗi ngày, phần sau thiên về cách nhìn người và nhìn mình. Bạn có thể đọc lướt để chọn vài điều muốn thử, rồi quay lại khi cần nhắc mình.
+
 ## 40 THÓI QUEN TỐT CHO NGƯỜI MUỐN SỐNG LÂU VÀ KHOẺ MẠNH
 
 1. Uống nhiều nước lọc.
@@ -55,7 +59,7 @@ tags:
 
 ---
 
-# 20 NGHỊCH LÝ Ở ĐỜI TÔI ĐÃ TỪNG GẶP VÀ LUÔN ĐÚNG
+## 20 NGHỊCH LÝ Ở ĐỜI TÔI ĐÃ TỪNG GẶP VÀ LUÔN ĐÚNG
 
 1. Bạn càng ghét một tính cách nào đó của người khác, thì càng có nghĩa là bạn đang chối bỏ tính cách ấy bên trong mình. Nhà tâm lí học Carl Jung tin rằng tính cách của người khác làm bạn khó chịu chỉ đơn giản là hình ảnh phản chiếu của tính cách bản thân mà bạn đang chối bỏ mà thôi. Freud gọi nó là “sự phản chiếu.” Ví dụ, một người cảm thấy thiếu an toàn vì cân nặng của bạn thân thường sẽ gọi người khác là “mập.” Một người cảm thấy bất an vì túi tiền sẽ phê phán cách dùng tiền và kiếm tiền của người khác.
 2. Người nào không tin được ai thì không đáng tin. Những người thường thấy bất an sẽ dễ phá hủy mối quan hệ. Ta sẽ thường thấy trong những người này xuất hiện triệu chứng nhân vật chính (tức là cảm thấy đời mình khó khăn, mình là nhân vật chính và phải đương đầu nhiều khó khăn hơn, trong khi người khác là nhân vật phụ, họ cũng phải hỗ trợ cho ta giải quyết khó khăn của đời mình). Mà hơn nữa, một cách để bảo vệ mình khỏi bị tổn thương là làm tổn thương người khác trước.

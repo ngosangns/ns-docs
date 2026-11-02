@@ -16,8 +16,8 @@ resource: https://medium.com/data-science-collective/1-building-a-tiktok-like-re
 
 # Recommender Systems
 
-> - https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a
-> - https://blog.cloudmentor.pro/blog/aws-mla/solution-personalize-customer
+> - https://medium.com/data-science-collective/1-building-a-tiktok-like-recommender-a64563262c1a walks through a TikTok-like recommender for H&M fashion items built on a two-tower model and a four-stage pipeline. The stages run from candidate generation and filtering to ranking and re-ranking, and the two towers share one vector space.
+> - https://blog.cloudmentor.pro/blog/aws-mla/solution-personalize-customer covers an AWS Personalize system for a Kansai energy, gas and appliance group, with an ad-copy flow on Bedrock and Rekognition. It also reports the data pipeline, the four recipes, the evaluation and the monitoring setup, all on managed services. The tradeoff is speed of delivery against control of the model.
 
 ## Building a TikTok-Like Recommender
 

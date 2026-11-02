@@ -12,6 +12,8 @@ tags:
 
 # Best Practices
 
+These are design, performance, and monitoring practices for reliable and secure IoT systems. Design is local-first, so data is processed at the edge whenever possible. A fail-safe device should keep working offline when it can. Security is built in from the start, not afterward. The system should be easy to scale out, and standard protocols are preferred whenever possible. Performance covers sleep modes, wake-on-event, and compression to cut bandwidth. Caching at the edge cuts cloud calls. Debouncing handles duplicate events, as in Smart Home. Monitoring uses structured logs with levels, metrics for device health, connectivity, and errors, alerts, and dashboards of data and status.
+
 ## Design Principles
 
 - **Local-first**: Process data at the edge whenever possible

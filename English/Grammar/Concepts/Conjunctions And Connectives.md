@@ -14,6 +14,8 @@ tags:
 
 Liên từ và từ nối gắn từ, mệnh đề, câu với nhau — diễn tả thêm vào, tương phản, nguyên nhân, kết quả, trình tự.
 
+FANBOYS nối hai vế ngang hàng, như and, but và so. Cặp tương quan như both và and. Liên từ phụ thuộc mở mệnh đề về thời gian, nguyên nhân hoặc điều kiện. However và therefore nối hai câu độc lập và cần dấu chấm hoặc chấm phẩy.
+
 ## Liên từ đẳng lập — FANBOYS
 
 Nối hai thành phần **ngang hàng** (từ, cụm từ, hoặc hai mệnh đề độc lập): **for, and, nor, but, or, yet, so**.

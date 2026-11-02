@@ -18,6 +18,8 @@ resource: https://github.com/ogkalu2/comic-translate
 
 **Comic-Translate** is a desktop app that automatically translates comics: BDs, manga, manhwa, fumetti and many other formats (Image, PDF, Epub, CBR, CBZ). It uses SOTA LLMs such as GPT-4, Claude and Gemini for the highest translation quality.
 
+The pipeline is detection, then OCR, translation, inpainting, and a final text render. The detector is RT-DETR-v2, trained on 11k images of manga, webtoons, and Western comics. OCR then selects manga-ocr, Pororo, or PPOCRv5 from the language. GPT-4.1, Claude-4.5, and Gemini-2.5 translate from the full page text. LaMa or AOT-GAN does the inpainting. The app is Python with a PySide6 GUI and an Apache-2.0 license.
+
 - **Repository**: https://github.com/ogkalu2/comic-translate
 - **Website**: https://www.comic-translate.com
 - **License**: Apache-2.0
@@ -159,6 +161,8 @@ uv run comic.py
 - **Desktop workflow**: when you want an easy-to-use GUI app
 - **Non-manga comics**: BDs, Western comics, fumetti
 - **Manual correction**: when you want control over the translation process
+
+Use this desktop app when LLM quality matters more than Google Translate or DeepL. Automatic mode translates in one click. Manual mode corrects detection or OCR mistakes. Zoom is Ctrl plus the mouse wheel, and arrow keys or trackpad gestures move between pages. Batch mode takes several images or files. Undo rolls back one image correction. Inputs include PNG, JPG, WebP, PDF, Epub, CBR, and CBZ, and CBR needs WinRAR or 7-Zip. Source languages include English, Korean, Japanese, French, Simplified Chinese, Traditional Chinese, Russian, German, Dutch, Spanish, and Italian. An OpenAI, Anthropic, or Google API key is required, and the calls have a cost. GPU support appears only from source on Python 3.12.
 
 ---
 

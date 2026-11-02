@@ -15,6 +15,8 @@ resource: https://github.com/alibaba/zvec
 
 # Zvec
 
+Zvec is Alibaba's open-source vector database that runs inside your process instead of as a separate server. This note explains what it is built on and where it fits. You get the headline metrics, then the feature list covering speed, dense and sparse vectors, hybrid search, and portability. Install instructions follow for Python and Node.js, plus the supported platforms. A worked Python example walks through schema creation, opening a collection, inserting documents, and running a query. The remaining sections list use cases, the language breakdown, and the trade-offs. The weaknesses are honest. Zvec stores vectors only, so you must supply your own embedding model and build memory features on top. Read this before picking an embedded vector store for RAG or agent memory.
+
 ## Definition
 
 **ZVec** is an open-source, in-process vector database — lightweight, fast, and designed to be embedded directly into applications. Built on Proxima (a vector search engine proven in production at Alibaba), it provides high-speed, low-latency, scalable similarity search with minimal setup.
@@ -146,6 +148,8 @@ print(results)
 | Not a memory system   | Only a vector DB, no memory features     |
 | Needs embedding model | You must generate embeddings yourself    |
 | Limited features      | Focused on vector search, no advanced ML |
+
+Zvec runs in-process on Proxima, the engine Alibaba already uses in production. The Python or Node package opens a collection with no separate server. Dense and sparse vectors can share one query, and hybrid search adds structured filters. The example stores four floats and requests the top ten hits. You still supply the embedding model, because this store has no memory features.
 
 ## When to Use
 

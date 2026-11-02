@@ -17,7 +17,7 @@ resource: https://claude.ai/code
 
 ## Definition
 
-**Graphify** is a Claude Code skill that transforms codebases, documentation, papers, images, and videos into queryable knowledge graphs. Type `/graphify` in Claude Code, Codex, Cursor, or other AI editors — it reads the files, builds a knowledge graph, and returns structure you didn't know was there.
+**Graphify** is a Claude Code skill that transforms codebases, documentation, papers, images, and videos into queryable knowledge graphs. Type `/graphify` in Claude Code, Codex, Cursor, or other AI editors. It reads the files, builds a knowledge graph, and returns structure you didn't know was there. A tree-sitter AST pass handles code without any LLM, and Claude adds the semantic pass over docs, papers, and images. Every edge is tagged `EXTRACTED`, `INFERRED`, or `AMBIGUOUS`. Output lands in `graphify-out/` as an interactive `graph.html` plus a persistent `graph.json`. It cuts tokens by up to 71.5× per query against reading raw files. It needs Python 3.10+ and installs from the `graphifyy` PyPI package.
 
 ## Key Metrics
 

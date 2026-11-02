@@ -14,6 +14,12 @@ tags:
 
 # Graph Comparison
 
+This note compares five tools that the overview says must have both graph storage and semantic or vector search. The quick decision table picks one tool per need. Semantica is the row for audit, reasoning, and ontology. Trustgraph is the row for multi-model data. Mempalace is the row for highest accuracy at zero cost. Neural-memory is the row for fully offline work with MCP. Knowns is the row for AI-native development and code intelligence.
+
+The best-for table uses the same split. Semantica is marked for enterprise and regulated settings. Trustgraph is marked for enterprise multi-model contexts. Mempalace is marked privacy-first. Neural-memory is marked for offline, privacy, and AI agents. Knowns is marked for software teams and code context.
+
+Storage in the tables is Neo4j, AGE, and FalkorDB for semantica, Cassandra for trustgraph, SQLite for mempalace, a custom graph for neural-memory, and file-based markdown plus a code graph for knowns. Vector stores named beside them are FAISS, Pinecone, and Qdrant, then Qdrant, ChromaDB, InfinityDB or FTS5, and local ONNX models. The note says it was updated on 2026-04-13 when Knowns was added, and that it was checked against official documentation.
+
 ## Overview
 
 This covers only repositories that support **BOTH** graph storage and semantic/vector search:

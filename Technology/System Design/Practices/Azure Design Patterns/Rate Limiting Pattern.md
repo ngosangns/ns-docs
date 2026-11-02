@@ -15,6 +15,8 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/rate-lim
 
 # Rate Limiting Pattern
 
+The Rate Limiting pattern caps how quickly a caller may use a capacity-limited service so throughput stays predictable. Work waits in a durable messaging buffer and is released at a rate the service can absorb, which suits large repetitive jobs such as batch processing. The sections that follow cover even distribution of requests, lease-based management of capacity partitions, and how the pattern relates to throttling, retry, and queue-based load leveling.
+
 ## Summary
 
 The Rate Limiting pattern helps control resource consumption by imposing a limit on the rate of access to a service. This avoids throttling errors, makes throughput predictable, and optimizes the use of services with limited capacity.
@@ -37,6 +39,8 @@ The Rate Limiting pattern helps control resource consumption by imposing a limit
   - You still need to handle throttling errors if they occur.
   - All workstreams that access the same service must be integrated into the shared rate limiting strategy.
   - Monitor contention between different applications that access the same limited service.
+
+Work waits in Service Bus, Queue Storage, or Event Hubs. Even distribution sends smaller batches more often instead of a single burst. Leases let uncoordinated processes lock a share of capacity. Every caller of that service must share the limit.
 
 ## Relationships
 

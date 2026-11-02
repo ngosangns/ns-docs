@@ -12,7 +12,7 @@ tags:
 
 # Quantifiers — Từ chỉ số lượng
 
-Quantifiers nói **có bao nhiêu** của một danh từ. Câu hỏi then chốt luôn là danh từ đó có đếm được không — xem [Nouns](/English/Grammar/Concepts/Nouns).
+Quantifiers nói **có bao nhiêu** của một danh từ. Câu hỏi then chốt luôn là danh từ đó có đếm được hay không, và cách chia danh từ có ở [Nouns](/English/Grammar/Concepts/Nouns). Có từ chỉ dùng với danh từ đếm được số nhiều, có từ chỉ dùng với danh từ không đếm được, và một số dùng cho cả hai như a lot of hay plenty of. Các cặp a few với few, a little với little, every với each, a number of với the number of được đặt cạnh nhau để thấy khác biệt. Những mục tiếp theo đi qua some, any, no, nhóm all, each, every, both, either, neither, rồi other và another.
 
 ## Số lượng lớn và nhỏ
 

@@ -18,3 +18,7 @@ web/*.tsbuildinfo
 
 # Generated search index
 .markdownvdb/
+
+# Publication projections (generated)
+.publication/
+.reports/

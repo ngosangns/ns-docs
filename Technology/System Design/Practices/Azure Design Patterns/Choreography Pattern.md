@@ -18,6 +18,8 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/choreogr
 
 The Choreography pattern decentralizes workflow logic and distributes responsibilities among the different components of the system, rather than depending on a central orchestrator.
 
+Several services each do one step, and an orchestrator can become a bottleneck. Each service emits an event through a message broker instead. Subscribers continue the work and stay loosely coupled. Services can be replaced without a central controller. Tracking the whole transaction is harder, and strict order is difficult.
+
 ## Context and Problem
 
 In microservices applications, a business transaction often requires the participation of several services.

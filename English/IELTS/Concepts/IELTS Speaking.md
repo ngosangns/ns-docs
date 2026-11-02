@@ -13,6 +13,8 @@ resource: https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-aca
 
 # IELTS Speaking — Kỹ năng Nói
 
+Trang này mô tả bài thi nói IELTS theo định dạng trên ielts.org. Bạn sẽ thấy hình thức phỏng vấn, tổng thời lượng và cách chia ba phần. Từng phần được tách riêng với thời lượng và kỹ năng mà giám khảo đánh giá, từ câu hỏi quen thuộc ở Part 1, thẻ chủ đề nói hai phút ở Part 2, đến phần thảo luận trừu tượng ở Part 3. Bốn tiêu chí chấm được liệt kê kèm một dòng giải thích mỗi tiêu chí. Phần cuối là các mẹo ngày thi, ví dụ trả lời mở rộng, phác khung khi chuẩn bị và không học thuộc bài mẫu. Các trang IELTS khác được liên kết ở cuối.
+
 ## Cấu trúc chung
 
 - **Hình thức:** phỏng vấn trực tiếp một-một với giám khảo, có ghi âm.

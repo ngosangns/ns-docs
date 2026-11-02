@@ -15,6 +15,8 @@ resource: https://www.postgresql.org/docs/
 
 # PostgreSQL
 
+PostgreSQL is an open-source relational database built for extensibility and SQL compliance. This note gathers the parts that matter when you pick it for a project or work in it daily. It opens with the feature list and the use cases that fit, from financial systems and GIS to data warehousing and scientific computing. The data type section runs from basic integers and timestamps to JSON, arrays, UUIDs, and network addresses. Short SQL examples cover JSONB queries, arrays, and full-text search. Indexing explains when B-tree, Hash, GiST, GIN, and BRIN pay off. Window functions, CTEs, and stored procedures follow. It ends with operating habits such as connection pooling, vacuuming, backups, and pg_stat_statements monitoring.
+
 ## Overview
 
 PostgreSQL is an open-source relational database management system (RDBMS) with an emphasis on extensibility and SQL compliance.
@@ -94,6 +96,8 @@ WHERE to_tsvector('english', content) @@ to_tsquery('english', 'postgresql');
 - **GiST**: Generalized Search Tree (geospatial, full-text)
 - **GIN**: Generalized Inverted Index (arrays, JSONB, full-text)
 - **BRIN**: Block Range Indexes (large, naturally ordered tables)
+
+Each index type answers a different query shape. B-tree is the default and handles equality and range lookups, so it covers most columns. Hash serves equality comparisons only. GiST fits geospatial and full-text data. GIN suits arrays, JSONB, and full-text search. BRIN targets large tables that are naturally ordered, and partitioning, listed among the features, is the other lever for datasets that grow. The features list names SP-GiST too, but the indexing section explains only the five types here. Pick the type from the filter the query actually runs, then keep VACUUM and ANALYZE regular as the best practices section asks.
 
 ## Advanced Features
 

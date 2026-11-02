@@ -12,6 +12,8 @@ tags:
 
 # Data Formats
 
+This note compares IoT payload formats, from human-readable JSON to compact binary forms such as CBOR. JSON is human-readable and easy to parse, and it suits HTTP APIs. The example is an ESP32 sending a JSON payload, linked from Smart Home. MessagePack is a binary format and more compact than JSON, for bandwidth-limited connections. Protocol Buffers are efficient binary serialization with strong typing and schema evolution, for high-performance applications. CBOR means Concise Binary Object Representation. It is a binary format similar to JSON, and it suits CoAP and constrained devices. The comparison stops at those four. Related notes are Messaging Protocols and Communication Protocols.
+
 ## JSON
 
 - Human-readable, easy to parse

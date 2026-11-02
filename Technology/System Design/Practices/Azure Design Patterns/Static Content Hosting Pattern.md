@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/static-c
 
 ## Summary
 
-The Static Content Hosting pattern deploys static content (HTML, CSS, JavaScript, images, documents) to a cloud-based storage service instead of hosting it on application servers. This offloads compute resources, reduces cost, and improves access performance.
+The Static Content Hosting pattern deploys static content (HTML, CSS, JavaScript, images, documents) to a cloud-based storage service instead of hosting it on application servers. This offloads compute resources, reduces cost, and improves access performance. Content is uploaded to a storage container with public read access, and clients fetch it directly from the storage endpoint. A Content Delivery Network usually sits in front to cache the files in data centers close to users.
 
 ## Key Points
 
@@ -35,6 +35,8 @@ The Static Content Hosting pattern deploys static content (HTML, CSS, JavaScript
   - **Deployment**: Updating the application becomes more complex because you must update both the code on the server and the static content in the storage at the same time.
   - **Custom domain**: You need configuration to use your own domain and HTTPS if required.
   - **Security**: Make sure the storage grants only public "read" access and absolutely no public "write" access. For private content, use the **Valet Key** mechanism (for example: SAS tokens).
+
+Blob storage costs less than VMs or App Service and handles many concurrent reads. Clients fetch files from the public endpoint or a nearby CDN. A release must update the server and the storage together. Public access stays read only, and private files use a valet key such as a SAS token.
 
 ## When to Use
 

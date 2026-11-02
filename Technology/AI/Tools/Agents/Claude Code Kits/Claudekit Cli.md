@@ -18,6 +18,8 @@ resource: https://claudekit.cc
 
 **ClaudeKit CLI** (`ck`) is a command-line tool and web dashboard for managing ClaudeKit projects. It provides 16 CLI commands, a React web dashboard, hook diagnostics, a projects registry, and GitHub integration. It is a commercial product of [ClaudeKit.cc](https://claudekit.cc).
 
+Version v3.41.4 is written in TypeScript and published under the MIT license. A global install exposes ck, including ck new, ck doctor, ck watch, and ck content. The dashboard from ck config is a React UI on 127.0.0.1 unless a host flag opens it on the LAN. The registry file is ~/.claudekit/projects.json. Auth can fall through the GitHub CLI, an environment token, the config file, or the OS keychain.
+
 ## Basic Information
 
 | Item          | Value                     |
@@ -196,6 +198,8 @@ Auto-detects structure changes (flat -> categorized):
 | Bun dependency      | Bun is needed for development         |
 | Smaller community   | 95 stars                              |
 | Limited free tier   | Only the starter kit is free          |
+
+ck new starts a project from a template, and ck init updates one. ck skills, ck agents, and ck commands manage those pieces. ck migrate moves a flat skills tree into categories. It compares SHA-256 hashes, backs up first, and rolls back on failure. ck doctor checks System, ClaudeKit, Auth, Project, and Modules. ck watch tracks ten statuses, asks Claude for a plan, opens a pull request, and can watch more than one repo. ck content scans git activity through an eleven-phase pipeline and publishes to X or Facebook. The src tree holds 122 modules, each kept under 100 lines. The engineer kit starts at v1.0.0, and the marketing kit is v1.0.0. Only the starter kit is free. A full kit is bought from ClaudeKit.cc, and a GitHub PAT is needed to download the private repo.
 
 ## When to Use
 

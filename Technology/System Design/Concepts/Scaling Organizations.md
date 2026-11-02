@@ -14,6 +14,8 @@ resource: https://quanghoang.substack.com/p/on-scaling-organisations
 
 # Scaling Organizations
 
+This note summarizes Quang Hoang's essay on why adding people or machines stops helping after a point. It starts with the Universal Scalability Law, which splits performance into a baseline, a contention cost that grows linearly with N, and a coherency cost that grows quadratically. Two worked examples show the gap from ideal efficiency. The essay then walks through three growth regimes, linear scaling, contention, and coherency, and maps each one onto organizations. A leader who approves every decision becomes a bottleneck, while too many meetings and status updates become the communication tax. The closing lessons cover delegation, team structure, and when to stop adding resources.
+
 ## On Scaling Organisations - Quang Hoang
 
 > Source: https://quanghoang.substack.com/p/on-scaling-organisations

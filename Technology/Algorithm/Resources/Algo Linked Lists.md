@@ -16,6 +16,12 @@ resource: https://encore.dev/blog/queueing
 
 # Algo Linked Lists
 
+These are TypeScript shapes for a queue, a stack, and a doubly linked list. Each one is built from linked nodes. A linked list is good for insertions and removals at the first or last node. Traversal is the tricky part.
+
+The queue is first in, first out. Enqueue points the current tail at the new node and then moves the tail. Dequeue sets the head to the next node and clears the old link. Peek returns the head value.
+
+The stack is last in, first out. Push and pop both work at the head. The doubly linked list keeps prev and next, with prepend, append, insertAt, and remove.
+
 ## Linked Lists
 
 - Good for insertions / removals in the first or last node

@@ -18,7 +18,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/strangle
 
 ## Summary
 
-The Strangler Fig pattern incrementally migrates a legacy system by replacing specific pieces of functionality with new applications and services. Over time, the new system covers all of the legacy system's features, allowing you to safely decommission the old one.
+The Strangler Fig pattern incrementally migrates a legacy system by replacing specific pieces of functionality with new applications and services. Over time, the new system covers all of the legacy system's features, allowing you to safely decommission the old one. A façade between clients and the legacy system routes requests to the old code at first, then to each new service as it is built. When nothing remains on the legacy side, the façade comes down and clients connect directly to the new system.
 
 ## Key Points
 
@@ -36,6 +36,8 @@ The Strangler Fig pattern incrementally migrates a legacy system by replacing sp
   - **Data sharing**: You must solve how both systems access and synchronize the database during migration.
   - **Bottleneck**: The façade can become a single point of failure or cause a performance bottleneck if it is not designed well.
   - **Consistency**: Make sure data stays consistent between the two systems (commonly using techniques such as ETL or shadow writes).
+
+The façade first forwards every request to the legacy system. Each rebuilt feature then moves to the new service. Both sides share data during the overlap, often through ETL or shadow writes. Later the old system and the façade are removed.
 
 ## When to Use
 

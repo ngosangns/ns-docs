@@ -15,7 +15,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/pipes-an
 
 # Pipes And Filters Pattern
 
-Break a task that performs complex processing into a series of separate, reusable components (filters). This pattern lets processing elements be deployed and scaled independently, improving performance, scalability, and modularity.
+Break a task that performs complex processing into a series of separate, reusable components (filters). This pattern lets processing elements be deployed and scaled independently, improving performance, scalability, and modularity. Filters pass data along pipes and each one handles a single step, such as decoding or validating. Idempotency, latency between steps, and an image pipeline built on Azure Functions and queues round out the coverage.
 
 ## Summary
 

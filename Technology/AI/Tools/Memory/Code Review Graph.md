@@ -17,7 +17,7 @@ resource: https://github.com/tirth8205/code-review-graph
 
 ## Definition
 
-**Code Review Graph** is a local knowledge graph for AI coding tools (Claude Code, Cursor, etc.) that builds a persistent structural map of a codebase. It uses Tree-sitter to parse code into AST nodes and edges, letting AI assistants read only the relevant files instead of the entire codebase.
+**Code Review Graph** is a local knowledge graph for AI coding tools (Claude Code, Cursor, etc.) that builds a persistent structural map of a codebase. It uses Tree-sitter to parse code into AST nodes and edges, letting AI assistants read only the relevant files instead of the whole codebase. The graph sits in a SQLite database under `.code-review-graph/`, so it stays on your machine. On reviews it cuts tokens by 8.2× on average. Impact analysis keeps 100% recall and never misses an affected file. Incremental updates finish in under 2 seconds. It parses 19 languages plus Jupyter notebooks, works with eight AI editors, and ships under the MIT license.
 
 ## Key Metrics
 

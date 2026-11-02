@@ -16,7 +16,7 @@ resource: https://learn.microsoft.com/en-us/azure/architecture/patterns/leader-e
 
 # Leader Election Pattern
 
-Coordinate the actions of a set of collaborating instances in a distributed application by electing one instance as the "leader". That instance is responsible for managing the others, which helps avoid conflicts, contention for shared resources, and accidental interference with each other's work.
+Coordinate the actions of a set of collaborating instances in a distributed application by electing one instance as the "leader". That instance is responsible for managing the others, which helps avoid conflicts, contention for shared resources, and accidental interference with each other's work. Horizontally scaled systems often run many copies of the same task. If each copy writes to the same file or aggregates the same results, they overwrite each other and waste work. Election settles who acts. Instances race for a lock in a shared mutex, or a consensus algorithm such as Bully, Raft, or Ring picks a node. The leader then renews a lease or sends heartbeats. When it dies or loses the lease, the followers elect a replacement.
 
 ## Summary
 
