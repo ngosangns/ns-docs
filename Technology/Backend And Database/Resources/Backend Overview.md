@@ -103,7 +103,7 @@ See details: [Caching](/Technology/Backend And Database/Concepts/Caching)
 
 ### Searching APIs
 
-- [exa.ai](https://exa.ai/)
+- [Exa](/Technology/AI/Tools/Data/Exa) is a paid web index and retrieval API for agents. Search starts at $4 per 1,000 requests.
 - [brightdata.com](https://brightdata.com/)
 - [serper.dev](https://serper.dev/)
 

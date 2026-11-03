@@ -4,7 +4,7 @@ domain: data-tools
 type: resource
 title: Data Tools
 description: "Curated tools for analytics and tabular ML, document processing, and knowledge or data management."
-timestamp: "2026-10-03T00:00:00.000Z"
+timestamp: "2026-11-03T00:00:00.000Z"
 tags:
   - technology
   - data-analytics
@@ -66,12 +66,12 @@ This page collects tools across three data areas. The analytics section covers A
 - https://huggingface.co/jinaai/jina-embeddings-v5-text-nano — Compact multilingual text embedding model for retrieval, matching, clustering, and classification; 239M parameters.
 - https://github.com/StarTrail-org/PixelRAG — Visual RAG that renders documents (web pages, PDFs, images) to screenshots and retrieves over the images with a LoRA-tuned Qwen3-VL embedding model; ships a hosted 8.28M-page Wikipedia index and a Claude Code "pixelbrowse" skill.
 - https://github.com/GoogleCloudPlatform/knowledge-catalog — Google Cloud Knowledge Catalog tools and samples, including an LLM-based enrichment agent for cataloging and enriching data assets.
-- https://github.com/searxng/searxng — Free, self-hostable internet metasearch engine that aggregates results from many search services and databases without tracking or profiling users; commonly used as a web-search backend for AI agents/RAG.
+- [SearXNG](/Technology/AI/Tools/Data/SearXNG) is a self-hosted metasearch engine. It queries other search services and does not keep a user profile.
 - https://github.com/tursodatabase/turso — SQLite-compatible SQL database written in Rust ("the LLVM of databases"), now also speaking the Postgres wire protocol (experimental).
 - https://github.com/lfnovo/open-notebook — Open-source implementation of Notebook LM with more flexibility and features.
 - https://github.com/firecrawl/anydoc — Converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown; built in Rust with Node.js and Python bindings.
 - https://huggingface.co/GreenNode/GreenNode-Embedding-Large-VN-Mixed-V1 — Vietnamese-focused sentence embedding model (0.6B params, up to 8,192 tokens); maps sentences/paragraphs to 1024-dim vectors for semantic search, trained on Vietnamese data with strong results on table retrieval, legal text, and QA benchmarks.
-- https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0 — Sub-1B-param vision-encoder-decoder model that turns document images/PDFs into structured machine-readable output (text, layout classes, bounding boxes, reading order); expanded multilingual OCR, handwriting, and chart-to-table parsing over v1.2, aimed at document intelligence and RAG ingestion.
+- [Nemotron Parse 2.0](/Technology/AI/Tools/Data/Nemotron%20Parse%202.0) turns a document image and a task prompt into text, layout classes, and bounding boxes. Model files are OpenMDW-1.1 and the tokenizer is CC-BY-4.0. The Hub card names nvidia/Nemotron-3.5-Parse as the newer model. Weights: https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0
 - https://seeing-theory.brown.edu/ — Brown University's "visual introduction to probability and statistics"; six interactive, D3.js-powered modules from basic probability through regression, good as a reference for building data/stats intuition.
 - https://github.com/ngwgsang/vietquill — Unified Python framework for Vietnamese paraphrase generation, quality evaluation, and control; centralizes datasets, generation methods, and metrics for research and production use (also on PyPI: pypi.org/project/vietquill).
 - https://huggingface.co/convaiinnovations/laya — Multilingual decision/classification model (100+ languages): answers multiple-choice questions with calibrated probabilities in a single forward pass (~33ms), and does not generate text, so it avoids hallucination. Option-marker scoring (scoring each option at its own `[MASK]` token) lets you change the answer schema without retraining; a router automatically detects the language/script and dispatches the matching checkpoint (<0.5ms). Architecture: ModernBERT-large 421M (English, 512 context) / mmBERT-base 322M (multilingual, 1,024 context); trained with RLCD (proper scoring rules) so probabilities are honestly calibrated. Apache 2.0; suited to email triage, routing, and content moderation — 7–8x faster than competitors on intent classification/NLI benchmarks.

@@ -4,7 +4,7 @@ domain: agent-infrastructure
 type: resource
 title: Agent Infrastructure And Platforms
 description: Curated list of sandboxes, runtimes, orchestration platforms, and infrastructure frameworks for running AI agents.
-timestamp: "2026-10-07T00:00:00.000Z"
+timestamp: "2026-11-03T00:00:00.000Z"
 tags:
   - technology
   - agent-infrastructure
@@ -54,7 +54,11 @@ This page is a flat list of infrastructure for running agents, not for writing p
 - https://github.com/morluto/rea — REA (npm `rea-agents` 6.8.0, MIT). Local CLI and MCP. Static JavaScript and .NET need no native engine. Deep native analysis uses Hopper, Ghidra, IDA, or Kuna. Checked 2 November 2026: 420,599 stars, site rea.tools, `main` commit `93b8b82db7` after the 25 October npm release. See [REA](/Technology/AI/Tools/Agents/REA).
 - https://github.com/trycua/cua — Open-source computer-use agent infrastructure ("computer-use 2.0"); cross-OS drivers and fleets plus benchmarks for training, evaluation, and data generation.
 - https://github.com/CopilotKit/channels-sdk — Open-source SDK that brings any AG-UI-compatible agent (CopilotKit's own, LangGraph, CrewAI, Mastra, Pydantic AI, Google ADK) into Slack, Microsoft Teams, and Discord with native, interactive UI (Block Kit/Adaptive Cards), tool calls, file handling, and human-approval gates.
+- https://github.com/CopilotKit/OpenDuet — Early self-hosted template for a proactive agent on a vendored OpenBot tree (MIT, TypeScript). Mail triage and the morning brief live in `openbot/server/src/openduet`. Threads and memory need a CopilotKit Intelligence key or the server will not start. See [OpenDuet](/Technology/AI/Tools/Agents/OpenDuet).
+- https://github.com/andrewyng/openworker. Local desktop AI coworker (MIT, Python server, Tauri shell). Checked 3 November 2026. Main package and Tauri config say 0.3.4. Newest GitHub release is v0.3.1. PyPI openworker 0.0.1 is a placeholder. Not installed. See [OpenWorker](/Technology/AI/Tools/Agents/OpenWorker).
+- https://github.com/browseros-ai/BrowserOS. AGPL-3.0 Chromium monorepo with BrowserOS neo for agents and BrowserOS for people. Checked 3 November 2026. Newest GitHub release is BrowserOS neo v0.52.0. Neither app was installed. See [BrowserOS](/Technology/AI/Tools/Agents/BrowserOS).
+- https://github.com/milind-soni/OpenMausBot. Local-first chat app for a team of coding-agent bots. Apache-2.0 except the enterprise directory. Checked 3 November 2026. Main is 0.1.139. Release and npm latest are 0.1.138. Not installed. See [OpenMausBot](/Technology/AI/Tools/Agents/OpenMausBot).
 - https://github.com/skawld/skawld-sdk — Skawld Agent SDK (`@skawld/agent-sdk`): open-source (MIT) TypeScript framework that embeds a full agent loop — tools, multi-turn sessions, permission modes, streaming events, and subagents — into any Node.js 18+ / Bun 1.1+ app with one import (ESM-only). Supports Anthropic Claude plus OpenAI Chat Completions and Responses APIs, built-in tools and MCP, and SQLite-backed session persistence (in-memory store for tests); similar in spirit to the Claude Agent SDK but provider-agnostic. Docs: https://skawld.com/docs
 - https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf — Ternary-quantized 27B model (derived from Qwen3.8-27B) compressed to ~5.95GB while claiming 98.2% of FP16 intelligence retained; GGUF with hybrid-attention CUDA/Metal/CPU kernels for llama.cpp, 262K context, aimed at on-device deployment on laptops/single GPUs.
 
-> **See also:** [Agent Frameworks](/Technology/AI/Tools/Agents/Agent Frameworks) · [Multi Agent Systems](/Technology/AI/Tools/Agents/Multi Agent Systems) · [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview)
+> **See also:** [Agent Frameworks](/Technology/AI/Tools/Agents/Agent Frameworks) · [Multi Agent Systems](/Technology/AI/Tools/Agents/Multi Agent Systems) · [Agents Overview](/Technology/AI/Tools/Agents/Agents Overview) · [OpenDuet](/Technology/AI/Tools/Agents/OpenDuet) · [OpenWorker](/Technology/AI/Tools/Agents/OpenWorker) · [BrowserOS](/Technology/AI/Tools/Agents/BrowserOS) · [OpenMausBot](/Technology/AI/Tools/Agents/OpenMausBot)

@@ -4,7 +4,7 @@ domain: coding-agents
 type: resource
 title: AI Coding Productivity Tools
 description: Curated list of agent skills, context-engineering and compression tools, browser automation for agents, and other productivity tools for coding agents.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-11-03T00:00:00.000Z"
 tags:
   - technology
   - coding-agents
@@ -28,7 +28,8 @@ This note is a long list of tools that sit around a coding agent rather than rep
 - https://github.com/AlexsJones/llmfit — Terminal tool that right-sizes LLM models to your hardware; detects specs, scores fit, and suggests quantizations (Rust TUI + CLI).
 - https://github.com/duysolo/codebaxing — MCP server for semantic code search; index your codebase and query with natural language across 28 languages.
 - https://github.com/google/magika — Fast, accurate AI-powered file type detection for content-based MIME/type classification.
-- https://github.com/garrytan/gstack — Turns Claude Code into a virtual engineering team with 23 specialist slash commands (CEO, eng manager, QA, security, release engineer).
+- https://github.com/garrytan/gstack. MIT skill pack for coding agents. Checked 3 November 2026. The GitHub description says 23 tools. main has 71 SKILL.md files and VERSION 1.93.21.0. The newest release is v1.92.55.0. Not installed. See [gstack](/Technology/AI/Tools/Agents/Gstack).
+- https://github.com/Panniantong/Agent-Reach. Python CLI for coding agents to read web and social channels. Checked 3 November 2026. Version 1.6.1 matches the latest release. The PyPI package agent-reach is a different project. Not installed. See [Agent Reach](/Technology/AI/Tools/Agents/Agent Reach).
 - https://github.com/lightpanda-io/browser — Headless browser built from scratch in Zig for AI agents and automation; CDP-compatible, ~16x less memory than Chrome.
 - https://github.com/h4ckf0r0day/obscura — Lightweight, stealthy headless browser for AI agents and web scraping; written in Rust with V8, CDP-compatible drop-in for headless Chrome, built-in anti-detection, and an MCP server.
 - https://github.com/Tencent/BrowserSkill — Lets AI agents use your real, logged-in browser without interrupting your work; CLI + extension for browser automation across any shell-capable AI agent.

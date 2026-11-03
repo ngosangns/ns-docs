@@ -4,7 +4,7 @@ domain: devops
 type: resource
 title: DevOps Tools
 description: Curated DevOps tooling across GitOps and IaC, systemd and server management, self-hosted deployment platforms, incident management and Cloudflare helpers.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-11-03T00:00:00.000Z"
 tags:
   - technology
   - devops
@@ -94,6 +94,7 @@ This page is a working list of DevOps tools, each with a short note on what it d
     - Automating alerting and notification workflows
     - Integrating with existing monitoring and alerting systems
   - [GitHub](https://github.com/VersusControl/versus-incident) #incident-management #on-call #alerts #webhook
+  - The May 2025 book [On-Call In Action](/Technology/Cloud And DevOps/Resources/On Call In Action) uses this project as its alerting example. The GitHub README read on 3 November 2026 also calls the project a self-hosted AI SRE agent. That snapshot was MIT, Go, 924 stars, pushed 2 November 2026. This catalog entry was not rewritten to that README.
 
 ## Error tracking
 

@@ -4,7 +4,7 @@ domain: ai-saas
 type: resource
 title: AI Saas Tools
 description: Directory of AI SaaS applications for AI workspaces, document handling, research, PDF chat, and document and subtitle translation.
-timestamp: "2026-09-24T00:00:00.000Z"
+timestamp: "2026-11-03T00:00:00.000Z"
 tags:
   - technology
   - ai-saas
@@ -26,6 +26,7 @@ This note is a working directory of AI software as a service tools, kept as shor
   - AI Drive: Store and manage AI data
   - Website: https://www.genspark.ai/ #AI-workspace #platform #productivity
 - **Jules**: A Google service; requires signing in with a Google account to access - [Website](https://jules.google.com/session) #Google #service
+- **PostClaw**: Hosted social scheduler at postclaw.fun, operated by Cassau, LLC. Pricing page on 3 November 2026 listed Free, Connect at $10 a month, Pro at $20, and Business at $50. No account was created. Full note: [PostClaw](/Technology/AI/Tools/PostClaw).
 
 ## Document
 

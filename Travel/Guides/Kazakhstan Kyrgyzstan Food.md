@@ -18,7 +18,7 @@ tags:
 
 Ghi lại từ nhiều bình luận trong một thread nhóm Facebook (khoảng cuối 2025–2026, đoàn vừa đi ba nước Trung Á). **Không ghi tên người viết; số liệu và tên quán là lời kể cộng đồng, chưa đối chiếu từng địa chỉ.** Dùng để chuẩn bị khẩu vị và kế hoạch ăn, không thay việc tự thử trên chỗ.
 
-Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, sân bay) · [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour) (nhà hàng, homestay, món cụ thể trong một chuyến guide dẫn) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist).
+Xem thêm: [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, sân bay) · [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour) (nhà hàng, homestay, món cụ thể trong một chuyến guide dẫn) · [Trip Trung Á + Nga 14–22/11/2026](/Travel/Trips/Trip Trung A Nga 2026-11) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist) · [Kazakhstan, Kyrgyzstan và Uzbekistan cuối tháng 10](/Travel/Trips/Kazakhstan Kyrgyzstan Uzbekistan October) (Navat, Beshqozon, và vài quán bài viết không nêu địa chỉ).
 
 ## Điểm chính
 

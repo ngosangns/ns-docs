@@ -25,7 +25,7 @@ Ghi lại từ bài tri ân trong một group săn vé của một thành viên 
 
 **Đây là lời kể một người, chưa đối chiếu hóa đơn.** Mục [Đối chiếu](#đối-chiếu) ghi phần đã kiểm với trang nhà cung cấp và phần chưa. Tên người đi cùng không ghi lại.
 
-Xem thêm: [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour) (cùng mùa, cùng tuyến Karakol, guide lo hết) · [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, Korday, Kolsai và Kaindy) · [Ăn uống Kazakhstan và Kyrgyzstan](/Travel/Guides/Kazakhstan Kyrgyzstan Food) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist).
+Xem thêm: [Tour KZ/KG 8 ngày qua guide Ilyas](/Travel/Trips/Kazakhstan Kyrgyzstan 8 Day Tour) (cùng mùa, cùng tuyến Karakol, guide lo hết) · [Almaty](/Travel/Destinations/International/Almaty) (SIM, Yandex Go, Korday, Kolsai và Kaindy) · [Ăn uống Kazakhstan và Kyrgyzstan](/Travel/Guides/Kazakhstan Kyrgyzstan Food) · [Danh sách đồ mang theo](/Travel/Guides/Packing Checklist) · [Kazakhstan, Kyrgyzstan và Uzbekistan cuối tháng 10](/Travel/Trips/Kazakhstan Kyrgyzstan Uzbekistan October) (đoàn 7 người khác, có thêm Tashkent và Samarkand, cũng mua Beeline 6.000 tenge).
 
 ## Điểm chính
 
