@@ -130,6 +130,7 @@ Discord reduced websocket traffic by 40% by:
   - Source: https://viblo.asia/p/thiet-ke-he-thong-ban-ve-ticketing-system-design-GyZJZnjZJjm
 - [Bank Transfer Payment](/Technology/System Design/Practices/Bank Transfer Payment)
 - VietQR-Portal: the official portal for VietQR, a common QR Code standard for payments in Vietnam. - Source: https://vietqr.net
+- [VietQR Core](/Technology/System Design/Tools/VietQR Core) is a separate .NET library for building the QR string. It is not the portal at vietqr.net.
 
 ### Social Networks
 

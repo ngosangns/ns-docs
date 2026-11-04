@@ -68,4 +68,4 @@ I've done all three approaches. If you need the name of a third party, code, or 
 
 As for the third approach, I'm sorry, I can't share it. I struggled a lot back then, so I hope this helps you somewhat. And I hope the bank developers in this group stay calm and don't get hot-tempered.
 
-> **See also:** [Outbox Pattern](/Technology/System Design/Practices/Outbox Pattern) · [Task Scheduler System Design](/Technology/System Design/Practices/Task Scheduler System Design)
+> **See also:** [Outbox Pattern](/Technology/System Design/Practices/Outbox Pattern) · [Task Scheduler System Design](/Technology/System Design/Practices/Task Scheduler System Design) · [VietQR Core](/Technology/System Design/Tools/VietQR Core)
