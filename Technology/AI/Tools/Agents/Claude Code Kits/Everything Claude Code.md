@@ -3,8 +3,8 @@ area: technology
 domain: claude-code
 type: tool
 title: Everything Claude Code
-description: Everything Claude Code (ECC) is a large multi-harness agent performance system bundling agents, skills, hooks, rules, continuous learning, and security scanning.
-timestamp: "2026-09-24T00:00:00.000Z"
+description: "Everything Claude Code (affaan-m/ECC, MIT, npm ecc-universal 2.2.3) is a multi-harness pack of agents, skills, hooks, and rules. Checked 4 November 2026 on main b38be6a. The GitHub API reported 296819 stars and 43886 forks. On that commit the tree has 71 agent markdown files and 314 SKILL.md files. The README says to count the inventory instead of assuming a fixed total."
+timestamp: "2026-11-04T00:00:00.000Z"
 tags:
   - technology
   - claude-code
@@ -16,7 +16,7 @@ resource: https://github.com/affaan-m/ECC
 
 ## Definition
 
-**Everything Claude Code** (ECC) is a performance optimization system for AI agent harnesses, originally a winner at the Anthropic Hackathon. It is more than a config pack: it is a complete system of skills, instincts, memory optimization, continuous learning, security scanning, and research-first development. It works on Claude Code, Codex, Cursor, OpenCode, Gemini, and other AI agent harnesses.
+**Everything Claude Code** (ECC) is a performance optimization system for AI agent harnesses. The README background says the author won the Anthropic x Forum Ventures hackathon in September 2025. The pack ships skills, instincts, memory, continuous learning, and security guidance. It targets Claude Code, Codex, Cursor, OpenCode, Gemini, and other harnesses. Checked 4 November 2026 on `main` at `b38be6a7f6350964d59328b52f0624e1d1d552d1`. This check did not clone the repo and did not run an installer.
 
 > **The repo was renamed**: `affaan-m/everything-claude-code` → **`affaan-m/ECC`** (the old URL still redirects). The project now calls itself "ECC".
 
@@ -35,12 +35,12 @@ ECC installs that loop once so the agent plans, tests, implements, reviews, veri
 | Item                    | Value                                                                      |
 | ----------------------- | -------------------------------------------------------------------------- |
 | **Repo**                | [affaan-m/ECC](https://github.com/affaan-m/ECC)                            |
-| **Stars**               | 263k+                                                                      |
-| **Forks**               | 39.4k+                                                                     |
-| **Contributors**        | 340+                                                                       |
-| **Language Ecosystems** | 12+ (TypeScript, Python, Go, Java, Kotlin, C++, Rust, Perl, PHP, Swift...) |
-| **License**             | MIT (open source forever)                                                  |
-| **Version**             | v2.2.1                                                                     |
+| **Stars**               | 296819 on 4 November 2026                                                  |
+| **Forks**               | 43886 on the same API read                                                 |
+| **Open issues**         | 228                                                                        |
+| **Detected language**   | JavaScript, per the GitHub API                                             |
+| **License**             | MIT, copyright 2026 Affaan Mustafa                                         |
+| **Version**             | 2.2.3 in VERSION, package.json, the GitHub release, and npm                |
 
 ## Installation
 
@@ -49,7 +49,7 @@ ECC installs that loop once so the agent plans, tests, implements, reviews, veri
 Requires Node.js 18+; the Claude Code plugin additionally needs Git and Claude Code 2.1+.
 
 ```bash
-npx ecc-universal@2.2.2 setup
+npx ecc-universal@2.2.3 setup
 ```
 
 Equivalent to `pnpm dlx` / `yarn dlx` / `bunx`. Provides guided setup for Claude Code, Codex, and Kimi Code.
@@ -77,9 +77,9 @@ npm install
 ```
 ECC/
 ├── .claude-plugin/     # Plugin & marketplace manifests
-├── agents/             # 68 specialized subagents
-├── skills/             # 292 workflow definitions
-├── commands/           # 94 legacy command shims
+├── agents/             # 71 agent markdown files on this commit
+├── skills/             # 314 SKILL.md files, one per top-level skill directory
+├── commands/           # 98 command markdown files
 ├── hooks/              # Session lifecycle hooks
 ├── rules/              # Multi-language coding rules
 ├── contexts/           # Project context templates
@@ -94,7 +94,7 @@ ECC/
 
 ## Key Components
 
-### Agents (68)
+### Agents (71)
 
 | Agent                                        | Function                        |
 | -------------------------------------------- | ------------------------------- |
@@ -108,7 +108,7 @@ ECC/
 | loop-operator.md                             | Autonomous loop execution       |
 | harness-optimizer.md                         | Harness config tuning           |
 
-### Skills (292)
+### Skills (314)
 
 | Category               | Skills                                                               |
 | ---------------------- | -------------------------------------------------------------------- |
@@ -151,14 +151,7 @@ A Rust control-plane prototype in `ecc2/` with these commands:
 
 ## Cross-Platform Support
 
-Since v2.2 the repo states explicitly that **not every harness is equal**; see the [support status matrix](https://github.com/affaan-m/ECC#platform-support) before assuming feature parity.
-
-| Platform                                                         | Status                     |
-| ---------------------------------------------------------------- | -------------------------- |
-| Claude Code                                                      | Best supported             |
-| Codex (app + CLI)                                                | Supported sync path        |
-| Kimi Code                                                        | Guided setup               |
-| Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen | Capability-limited adapter |
+The README platform table on this commit is the source for support status. Claude Code is the stable primary. Codex is a supported native plugin, and the legacy sync is compatibility-only. Qoder is a supported native plugin. Cursor and OpenCode are beta. GitHub Copilot Chat is instruction-only. GitHub Copilot CLI is a beta project adapter. Gemini, Zed, Antigravity, Qwen, Hermes, OpenClaw, Kimi, CodeBuddy, and JoyCode are experimental or minimal adapters. The same page says the core CLI runs on Windows, macOS, and Linux, and that some optional paths still need Bash or Python.
 
 ## Hook Runtime Controls
 
@@ -177,21 +170,17 @@ export ECC_DISABLED_HOOKS="pre:bash:tmux-reminder,post:edit:typecheck"
 | Primary Language | TypeScript             |
 | Secondary        | Python, Go, Java, Rust |
 | Runtime          | Node.js 18+            |
-| Testing          | 997+ internal tests    |
+| Testing          | 534 files under tests/ on this commit. That is a file count, not a count of test cases. |
 | Package Manager  | npm, pnpm, yarn, bun   |
 
 ## Pros
 
 | Pro                 | Description                                  |
 | ------------------- | -------------------------------------------- |
-| Massive ecosystem   | 38 agents, 181 skills, 72 commands           |
-| Multi-harness       | Claude Code, Codex, Cursor, OpenCode, Gemini |
-| Multi-language      | 12+ language ecosystems                      |
-| Production-ready    | 997+ tests, 170+ contributors                |
-| Anthropic winner    | Built from real hackathon experience         |
-| Dashboard GUI       | Visual exploration of components             |
-| Continuous learning | Auto-extracts patterns from sessions         |
-| Security            | AgentShield integration, 102 rules           |
+| Inventory on this commit | 71 agent markdown files, 314 SKILL.md files, 98 command markdown files, 121 rule markdown files besides rules/README.md |
+| Multi-harness       | The README status table names Claude Code as the stable primary, Codex as a native plugin, and several adapters as beta or experimental |
+| Dashboard GUI       | `npm run dashboard` is still a package script, and `ecc_dashboard.py` is still at the repo root. This check did not run either. |
+| Security            | The README points at npm `ecc-agentshield` and says that package has 102 static analysis rules. That figure was not re-counted here. |
 
 ## Cons
 
@@ -215,8 +204,8 @@ export ECC_DISABLED_HOOKS="pre:bash:tmux-reminder,post:edit:typecheck"
 
 ## Business Model
 
-- **OSS**: MIT-licensed repo, free forever.
-- **ECC Pro + GitHub App**: a hosted version for private repos, paid per seat. Sponsors plus Pro fund the project (one maintainer shipping weekly across 7 harnesses).
+- **OSS**: the repo is MIT. The README says the project stays free because sponsors and Pro users fund the work.
+- **ECC Pro**: the README says Pro adds private-repo analysis, PR-triggered audits, AgentShield-backed scanning, automatic push and PR checks, pooled team usage, and priority support through the hosted GitHub App at ecc.tools. This check did not open the pricing page and did not record a price.
 
 ---
 

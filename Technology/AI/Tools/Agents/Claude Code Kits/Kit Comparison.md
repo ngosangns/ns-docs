@@ -15,7 +15,7 @@ resource: https://github.com/affaan-m/ECC
 
 # Kit Comparison
 
-Seven Claude Code kits sit side by side here. ECC is the full ecosystem, with 264k stars, and the repo name is affaan-m/ECC. oh-my-claudecode and claude-task-master both have more than 25k stars. claude-capsule-kit stores session memory in SQLite. claudekit focuses on real-time guards and review. claudekit-cli is the dashboard. claudekit-skills is the set of specialized domain skills. Pairings later mix task management with orchestration, or memory with guards.
+Seven Claude Code kits sit side by side here. ECC is the full ecosystem. The GitHub API on 4 November 2026 reported 296819 stars for affaan-m/ECC. The other star counts in this note were not refreshed that day. oh-my-claudecode and claude-task-master both have more than 25k stars. claude-capsule-kit stores session memory in SQLite. claudekit focuses on real-time guards and review. claudekit-cli is the dashboard. claudekit-skills is the set of specialized domain skills. Pairings later mix task management with orchestration, or memory with guards.
 
 ## Category Overview
 
@@ -37,7 +37,7 @@ Seven Claude Code kits sit side by side here. ECC is the full ecosystem, with 26
 
 | Tool                             | Stars | Forks | License              | Primary Language |
 | -------------------------------- | ----: | ----: | -------------------- | ---------------- |
-| **ECC** (everything-claude-code) |  264k | 39.4k | MIT                  | TypeScript       |
+| **ECC** (everything-claude-code) | 296819 | 43886 | MIT                  | JavaScript       |
 | **oh-my-claudecode**             | 28.4k |  2.6k | MIT                  | TypeScript       |
 | **claude-task-master**           | 26.5k |  2.5k | MIT + Commons Clause | JavaScript       |
 | **claudekit-skills**             |    2k |   391 | MIT                  | Python           |
@@ -47,7 +47,7 @@ Seven Claude Code kits sit side by side here. ECC is the full ecosystem, with 26
 
 **Observations:**
 
-- **ECC** leads with 264k stars and is the largest toolkit (the repo was renamed to `affaan-m/ECC`)
+- **ECC** leads this table. On 4 November 2026 the GitHub API reported 296819 stars. The repo name is `affaan-m/ECC`.
 - **OMC** and **Task Master** both have more than 25k stars, so their communities are very large
 - **CCK** is the smallest but has unique features (session memory, crew teams)
 
@@ -174,9 +174,9 @@ Seven Claude Code kits sit side by side here. ECC is the full ecosystem, with 26
 
 | Metric                 |         ECC |    CCK | ClaudeKit | Task Master |      CK-CLI | CK-Skills |         OMC |
 | ---------------------- | ----------: | -----: | --------: | ----------: | ----------: | --------: | ----------: |
-| **GitHub Stars**       |        264k |     75 |       657 |       26.5k |          95 |        2k |       28.4k |
-| **Forks**              |       39.4k |      8 |       105 |        2.5k |          41 |       391 |        2.6k |
-| **Contributors**       |        340+ |      4 |         - |       Large |           - |         - |   5+ active |
+| **GitHub Stars**       |      296819 |     75 |       657 |       26.5k |          95 |        2k |       28.4k |
+| **Forks**              |       43886 |      8 |       105 |        2.5k |          41 |       391 |        2.6k |
+| **Contributors**       | not counted |      4 |         - |       Large |           - |         - |   5+ active |
 | **npm downloads**      |        High |    Low |    Medium |   Very High |         Low |         - |        High |
 | **Active development** | Very active | Active |    Active | Very active | Very active |    Active | Very active |
 
@@ -226,7 +226,7 @@ What do you need?
 
 **References**:
 
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) - 264k stars (old name: `everything-claude-code`)
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) - 296819 stars on 4 November 2026 (old name: `everything-claude-code`)
 - [arpitnath/claude-capsule-kit](https://github.com/arpitnath/claude-capsule-kit) - 75 stars
 - [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) - 657 stars
 - [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) - 26.5k stars
