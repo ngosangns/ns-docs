@@ -1,3 +1,6 @@
+## 2026-11-09
+**Creation** Travel/Destinations/International/Yala Snow Mountain + International/index + trỏ từ China Itineraries và China: note đài Vân Nhiễu Yala, đỉnh 5.820 m, bậc đá và phí. Đối chiếu Xuyên Quan 21/07/2025, lịch Tencent 12/11/2023 và AAJ 2015. Không commit. Repo ns-docs chưa có project Multica.
+
 ## 2026-11-05
 **Creation** Life/Style/Materials/OEKO-TEX + Materials/index + một dòng trong Các loại vải phù hợp cho mùa hè: note họ nhãn OEKO-TEX. Đọc trang chính thức ngày 05/11/2026, không gửi mẫu, không tra một số chứng chỉ cụ thể. STANDARD 100 là giới hạn chất độc trên sản phẩm, hạn 1 năm, không phải nhãn chất lượng. MADE IN GREEN mới gắn xưởng STeP. Không commit. Repo ns-docs chưa có project Multica.
 

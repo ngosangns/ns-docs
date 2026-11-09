@@ -4,7 +4,7 @@ domain: china
 type: guide
 title: Trung Quốc
 description: "Cẩm nang thực tế cho du lịch tự túc Trung Quốc - ứng dụng, thanh toán, SIM, đi lại, chi phí"
-timestamp: "2026-10-31T00:00:00.000Z"
+timestamp: "2026-11-09T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -13,7 +13,7 @@ resource: https://voz.vn/t/t7-2024-du-lich-tu-tuc-trung-quoc-15-ngay-hanh-trinh-
 
 # Trung Quốc
 
-Ghi chép từ cộng đồng cho du lịch tự túc Trung Quốc. Xem thêm: [Visa Trung Quốc](/Travel/Destinations/International/China Visa) · [Lịch trình Trung Quốc](/Travel/Destinations/International/China Itineraries) · [Hà Khẩu – Shangri-La – Á Đinh, 10 ngày](/Travel/Trips/Hekou Shangri-La Yading October). Trang gom những gì cần chuẩn bị trước khi bay. Phần nhập cảnh ghi mốc miễn visa transit 240 giờ cho hộ chiếu phổ thông Việt Nam từ 20/08/2026 và diện 30 ngày riêng cho Hải Nam. Phần ứng dụng điểm qua Alipay, WeChat, 12306 và Amap, kèm những chỗ chúng vênh với bản đồ phương Tây. Thanh toán, SIM du lịch 5G, chỗ ở và chi phí được tách riêng. Cuối cùng là đồ mang khi trời lạnh và các mẹo lẻ về tàu, taxi, ổ điện.
+Ghi chép từ cộng đồng cho du lịch tự túc Trung Quốc. Xem thêm: [Visa Trung Quốc](/Travel/Destinations/International/China Visa) · [Lịch trình Trung Quốc](/Travel/Destinations/International/China Itineraries) · [Núi tuyết Yala](/Travel/Destinations/International/Yala Snow Mountain) · [Hà Khẩu – Shangri-La – Á Đinh, 10 ngày](/Travel/Trips/Hekou Shangri-La Yading October). Trang gom những gì cần chuẩn bị trước khi bay. Phần nhập cảnh ghi mốc miễn visa transit 240 giờ cho hộ chiếu phổ thông Việt Nam từ 20/08/2026 và diện 30 ngày riêng cho Hải Nam. Phần ứng dụng điểm qua Alipay, WeChat, 12306 và Amap, kèm những chỗ chúng vênh với bản đồ phương Tây. Thanh toán, SIM du lịch 5G, chỗ ở và chi phí được tách riêng. Cuối cùng là đồ mang khi trời lạnh và các mẹo lẻ về tàu, taxi, ổ điện.
 
 ## Nguồn
 

@@ -3,8 +3,8 @@ area: travel
 domain: china
 type: guide
 title: Lịch trình Trung Quốc
-description: "Tường thuật chuyến đi và ý tưởng lộ trình Trung Quốc từ cộng đồng - Vân Nam, Tây Tứ Xuyên, cửa khẩu, và chuyến 10 ngày Hà Khẩu–Shangri-La–Á Đinh"
-timestamp: "2026-10-31T00:00:00.000Z"
+description: "Tường thuật chuyến đi và ý tưởng lộ trình Trung Quốc từ cộng đồng - Vân Nam, Tây Tứ Xuyên, cửa khẩu, chuyến 10 ngày Hà Khẩu–Shangri-La–Á Đinh, và đài ngắm núi tuyết Yala được ghi riêng"
+timestamp: "2026-11-09T00:00:00.000Z"
 tags:
   - travel
   - china
@@ -30,7 +30,7 @@ Tổng chi khoảng 19 triệu đồng: bay vào Thành Đô, đi thành phố 2
 
 - **Ngày 1:** Thành Đô -> đường 318 -> Hồ Hồng Hải (30 tệ) -> Yuzixi (30 tệ) -> Gediram (miễn phí) -> Xinduqiao (ngủ đêm).
 - **Ngày 2:** Xinduqiao -> Jiagenba (bữa trưa cắm trại 99 tệ/người) -> núi Gongga (30 tệ) -> Xinduqiao.
-- **Ngày 3:** Xinduqiao -> Tagong (thuê đồ chụp ảnh: 398 tệ, gồm chụp, trang điểm và trang phục) -> chùa Muya -> Tiểu Seda -> Tiểu Tân Cương / Balangshengdu Yuniao (miễn phí; thuê ngựa 50 tệ) -> Yala (30 tệ) -> Xinduqiao (đêm lửa trại).
+- **Ngày 3:** Xinduqiao -> Tagong (thuê đồ chụp ảnh: 398 tệ, gồm chụp, trang điểm và trang phục) -> chùa Muya -> Tiểu Seda -> Tiểu Tân Cương / Balangshengdu Yuniao (miễn phí; thuê ngựa 50 tệ) -> [núi tuyết Yala](/Travel/Destinations/International/Yala Snow Mountain) (30 tệ) -> Xinduqiao (đêm lửa trại).
 - **Ngày 4:** Xinduqiao -> Moshi Park (miễn phí) -> làng Gunong (10-30 tệ) -> Siguniang (ngủ đêm).
 - **Ngày 5:** Siguniang -> thung lũng Shuangqiaogou (vé sinh viên 110 tệ) -> Thành Đô.
 
@@ -38,7 +38,7 @@ Ghi chú:
 
 - Xe riêng có tài xế, chỉ 3 khách - rộng và thoải mái.
 - Thời tiết may: đã liệu trước bão mùa hè và sạt lở; chỉ 2 ngày cuối trong 5 ngày là thời tiết xấu.
-- **Say độ cao là chuyện có thật:** ngày 1 nhảy thẳng từ Thành Đô lên 4.200 m (Hồ Hồng Hải); các điểm ngắm Yala và Gongga tới khoảng 4.700 m; độ cao lúc ngủ ở Xinduqiao khoảng 3.800 m. Đến xe cũng vất ở một số đèo. Chuẩn bị sức khỏe - đau đầu nhẹ thì hay gặp, còn say độ cao đầy đủ thì vẫn xảy ra.
+- **Say độ cao là chuyện có thật:** ngày 1 nhảy thẳng từ Thành Đô lên 4.200 m (Hồ Hồng Hải); các điểm ngắm [Yala](/Travel/Destinations/International/Yala Snow Mountain) và Gongga tới khoảng 4.700 m; độ cao lúc ngủ ở Xinduqiao khoảng 3.800 m. Đến xe cũng vất ở một số đèo. Chuẩn bị sức khỏe - đau đầu nhẹ thì hay gặp, còn say độ cao đầy đủ thì vẫn xảy ra.
 - Mang áo khoác chắn gió cả khi đang mùa hè - mưa thì lạnh, và gió trên cao rất mạnh.
 - Tiền ăn hợp lý (khoảng 100-200 nghìn đồng/ngày). Ngon hay không là chuyện chủ quan; người kể ăn được mọi thứ.
 - Cảnh đủ để đáng tất cả - đã có kế hoạch quay lại vào mùa thu.
