@@ -1,3 +1,6 @@
+## 2026-11-12
+**Creation** Technology/Backend And Database/Practices/Zero-Downtime Database Migration + Practices/index: note expand/contract của Michiel Rook (deck 14/05/2019). Đối chiếu slide Speaker Deck, Parallel Change 13/05/2014, ALTER TABLE của PostgreSQL 16 và 18, online DDL của MySQL, và pt-online-schema-change. Sửa các chỗ bài tiếng Việt nói quá về khóa bảng, Liquibase, và rollback. Không commit. Repo ns-docs chưa có project Multica.
+
 ## 2026-11-10
 **Creation** Life/Life-Skills/Unpaid Wages + Life-Skills/index: note bài Threads của Hạt Mít về đòi lương qua UBND phường. Đọc trang công khai tối 10/11/2026, không đăng nhập. Đối chiếu Bộ luật Lao động 2019, Nghị định 129/2025, Luật Hòa giải ở cơ sở 2026 và Nghị quyết 81/2025. Không commit. Repo ns-docs chưa có project Multica.
 
